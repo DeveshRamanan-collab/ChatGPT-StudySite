@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CalendarPlan from '../components/rebuild/CalendarPlan';
+import { units } from '../lib/content';
+import { examOf, examDayLabel, examTimeLabel, minutesLabel } from '../lib/exam';
+const list = await units(); // exam order (sorted by exam start in lib/content)
+---
+
+<Layout title="Study plan">
+  <p class="label">Plan</p>
+  <h1 data-split>Study plan</h1>
+  <p class="plan-lede">Your preferred Google Calendar blocks, kept at their original times.</p>
+  <ol class="exams" data-reveal="children">
+    {list.map((u) => (
+      <li><span class="mono date">{examDayLabel(+u.data['exam-start'])} · {examTimeLabel(+u.data['exam-start'])}</span> <span><a href={`/${u.id}/exam/`}>{u.data.code} {u.data.name}</a> <span class="exam-meta">{minutesLabel(examOf(u.data).duration)} · {u.data['exam-mode']}{u.data['exam-status'] === 'draft' && ' · draft timetable'}</span></span></li>
+    ))}
+  </ol>
+  <div class="island-stage"><CalendarPlan client:load /></div>
+</Layout>
+
+<style>
+  .plan-lede { color: var(--ink-2); }
+  .exams { list-style: none; padding: 0; margin-bottom: var(--s-7); }
+  .exams li { display: grid; grid-template-columns: 11rem 1fr; gap: var(--s-4); padding-block: var(--s-3); border-bottom: 1px solid var(--line); }
+  .date { font-size: var(--t-sm); color: var(--ink-2); }
+  .exam-meta { display: block; font-size: var(--t-sm); color: var(--ink-2); }
+  @media (max-width: 479px) { .exams li { grid-template-columns: 1fr; gap: 0; } }
+</style>

@@ -1,0 +1,936 @@
+unit: laws2000
+week: 3
+source: raw/laws2000-pil/week-03
+generator: aids-1
+aids:
+  - concept: laws2000-w03-treaty-definition-and-form
+    plain: A treaty is a written agreement between states that is meant to be governed by international law — whatever it is called and however informal it looks.
+    concrete: 'The lecturer''s example: Australia''s Prime Minister meets the UK''s Prime Minister over coffee. They agree Australia will import certain UK cars at a 2% tariff, then leave. Most of the class said this was not a treaty, and they were right — at least under the VCLT, which covers only agreements in written form. Had the deal been recorded in minutes of the meeting, the answer could change (Qatar v Bahrain).'
+    formal: 'VCLT art 2(1)(a): "treaty" means "an international agreement concluded between States in written form and governed by international law, whether embodied in a single instrument or in two or more related instruments and whatever its particular designation". The VCLT applies only to treaties between states (art 1); treaties involving international organisations fall under the 1986 Vienna Convention.'
+    terms:
+      - term: Vienna Convention on the Law of Treaties (VCLT)
+        gloss: The 'treaty on treaties' (adopted 1969, in force 1980). Many provisions reflect customary international law, so they bind non-parties too.
+      - term: memorandum of understanding (MoU)
+        gloss: Can be a treaty under international law (Somalia v Kenya), but DFAT practice treats Australian MoUs as having 'less than treaty' status.
+      - term: governed by international law
+        gloss: Disputes about the agreement are resolved under international law, not a party's domestic law; an agreement choosing Australian law is not a treaty.
+      - term: related instruments
+        gloss: A treaty can be one document or several — for example a treaty plus a protocol, which itself has treaty status.
+    misconceptions:
+      - claim: A document must be called a 'treaty' or 'convention' to be a treaty.
+        tempting: The word 'treaty' appears in the definition itself.
+        correction: 'Art 2(1)(a) applies "whatever its particular designation": a press communiqué (Aegean Sea), meeting minutes (Qatar v Bahrain) and an MoU (Somalia v Kenya) were all capable of being treaties.'
+      - claim: Because DFAT treats MoUs as less than treaties, an MoU can never be a treaty at international law.
+        tempting: The label matters in Australian practice, and DFAT says so publicly.
+        correction: That is Australia's domestic practice. In Somalia v Kenya a signed, dated MoU registered with the UN was held to be a treaty under international law.
+      - claim: Only states that ratified the VCLT are bound by its rules.
+        tempting: The VCLT is itself a treaty, with about 116 parties.
+        correction: Many VCLT provisions reflect customary international law, binding non-parties too; commentary and ICJ case law show whether a given article is customary.
+    socratic:
+      - ask: Two prime ministers agree a 2% car tariff over coffee and leave. Is there a VCLT treaty?
+        hint: 'Run through art 2(1)(a): which element is missing?'
+        answer: No — the agreement is not in written form, so it falls outside the VCLT definition.
+      - ask: Suppose the deal is recorded in the minutes of their meeting. Does the informal format matter?
+        hint: Think of Qatar v Bahrain.
+        answer: No. Minutes recording commitments the parties consented to were held to be a treaty (Qatar v Bahrain); format and label do not matter.
+      - ask: What if the minutes say disputes will be resolved under Australian law?
+        hint: The third element.
+        answer: Then it is not governed by international law, so it is not a treaty — even though it is between states.
+      - ask: What if one party is an international organisation?
+        hint: Art 1 VCLT.
+        answer: The 1969 VCLT does not apply; the 1986 Vienna Convention covers treaties involving international organisations.
+      - ask: Once art 2(1)(a) is met, is the state bound?
+        hint: 'What comes next: authority, then consent.'
+        answer: Not necessarily. A document meeting the definition may still need proper authority and consent to be bound, by signature or ratification.
+    elements:
+      - name: Between states
+        test: Concluded between states (art 1 VCLT); agreements involving international organisations fall under the 1986 Vienna Convention.
+        authorities:
+          - vclt-art-2-1-a
+      - name: In written form
+        test: Written or typed, in one instrument or two or more related instruments, such as a treaty plus a protocol. An oral deal falls outside the VCLT.
+        authorities:
+          - vclt-art-2-1-a
+      - name: Governed by international law
+        test: The parties intended to create rights and duties under international law, and disputes are resolved by international law, not a party's domestic law.
+        cases:
+          - aegean-sea-continental-shelf-greece-v-turkey
+          - maritime-delimitation-and-territorial-questions-qatar-v-bahrain
+        authorities:
+          - vclt-art-2-1-a
+      - name: Whatever its designation
+        test: 'The label is irrelevant: a communiqué, minutes or an MoU qualifies if it records binding commitments (Aegean Sea; Qatar v Bahrain; Somalia v Kenya).'
+        cases:
+          - aegean-sea-continental-shelf-greece-v-turkey
+          - maritime-delimitation-and-territorial-questions-qatar-v-bahrain
+          - maritime-delimitation-in-the-indian-ocean-somalia-v-kenya
+        authorities:
+          - vclt-art-2-1-a
+    what-if:
+      - change: The coffee-table deal is written up and signed by both prime ministers.
+        effect: It is now in written form between states; if intended to be governed by international law it meets art 2(1)(a). Prime ministers need no full powers (art 7), but consent to be bound still needs checking.
+      - change: The signed document says disputes will be decided under English law.
+        effect: It is not governed by international law, so it is an agreement between states but not a treaty under art 2(1)(a).
+      - change: The document is an Australian MoU drafted under DFAT's 'less than treaty' practice.
+        effect: Australia does not treat it as a treaty. But if it records binding commitments, international law may still classify it as one, as in Somalia v Kenya; Australia's label does not settle its international status.
+    boundary:
+      - text: 'Aegean Sea Continental Shelf: a joint press communiqué.'
+        why: 'Far from a formal treaty, yet the ICJ held a press communiqué could be a legally binding international agreement (para 96): substance and intention, not form, decide.'
+      - text: France's statements in Nuclear Tests.
+        why: 'They bound France, but they are not a treaty: no other state agreed to anything in return, so the ''agreement'' element of art 2(1)(a) is missing.'
+    transfer:
+      - scenario: 'After a summit, two foreign ministers issue a joint press release: both governments commit to opening a border crossing to trucks from 1 March, and will settle any disputes under international law.'
+        answer: 'Run art 2(1)(a): between states, in written form, expressly governed by international law; the ''press release'' label is irrelevant. As in Aegean Sea, a communiqué recording commitments can be a binding international agreement. Foreign ministers need no full powers (art 7). Then check whether signature alone expressed consent to be bound.'
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 4–7)
+      - 'Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (03:57–18:45: the VCLT, the coffee example, art 2(1)(a), MoUs, Aegean Sea, Qatar v Bahrain, Somalia v Kenya)'
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 1A)
+    verify: false
+  - concept: laws2000-w03-unilateral-statements
+    plain: A state can bind itself by publicly promising something even though no other state promises anything back; unlike a treaty, it needs no counterpart and no writing.
+    concrete: 'Australia and New Zealand took France to the ICJ over its atmospheric nuclear tests in the Pacific, fearing radioactive fallout. Before a hearing on the merits, France''s President and Foreign Minister made public statements, including at press conferences, that France would cease atmospheric testing. The Court held those statements showed an intention to be legally bound: France had given a legal undertaking without anyone accepting it.'
+    formal: '"A state may evidence a clear intention to accept obligations vis-à-vis certain other states by a public declaration which is not an offer or otherwise dependent on reciprocal undertakings from its addressees" (Crawford, Brownlie''s Principles). Unilateral statements can create binding obligations (Eastern Greenland (1933) PCIJ Ser A/B No 53; Nuclear Tests [1974] ICJ Rep 253). Unlike a treaty, there is no reciprocity and no writing requirement.'
+    analogy:
+      text: 'A public pledge at a fundraiser: you announce your donation aloud, nobody pledges anything back, and you are held to your word.'
+      maps:
+        - from: announcing the pledge aloud
+          to: a public declaration by a state
+        - from: nobody pledging back
+          to: no reciprocal undertaking
+        - from: being held to your word
+          to: the declaration binding the state
+      limits:
+        - A private pledge may be unenforceable without something given in return; a state's clear unilateral declaration binds without any return.
+    terms:
+      - term: unilateral statement
+        gloss: A public declaration by which one state commits itself, without any reciprocal undertaking, capable of binding it in international law.
+      - term: reciprocity
+        gloss: 'Mutual undertakings between parties: present in a treaty, absent from a unilateral statement.'
+      - term: addressee
+        gloss: The state or states a unilateral declaration is directed to; their acceptance or reply is not needed for it to bind.
+    misconceptions:
+      - claim: A unilateral statement binds only once the addressee accepts it.
+        tempting: That is how treaties and contracts work.
+        correction: 'Crawford: the declaration "is not an offer or otherwise dependent on reciprocal undertakings from its addressees". No other state''s acceptance is needed.'
+      - claim: A unilateral statement and a reservation are the same thing, since both are unilateral.
+        tempting: Art 2(1)(d) VCLT itself calls a reservation a 'unilateral statement'.
+        correction: A reservation operates inside a treaty and its effect depends on other states' acceptance or objection (art 20); a unilateral statement stands alone.
+      - claim: A unilateral statement must be in writing to bind.
+        tempting: Treaties under the VCLT must be written.
+        correction: 'It need not be in writing: Norway''s foreign minister spoke to his Danish counterpart (Eastern Greenland), and France''s statements were made at press conferences (Nuclear Tests).'
+    socratic:
+      - ask: Norway's foreign minister tells Denmark that Norway will not make difficulties over Greenland. Did Denmark promise anything back?
+        hint: Look for reciprocity.
+        answer: No. One state committed itself — a unilateral statement, not a treaty.
+      - ask: Can such a statement bind Norway?
+        hint: What did the Permanent Court hold?
+        answer: Yes. The promise was unconditional and definitive, obliging Norway not to contest Danish sovereignty over Greenland (Eastern Greenland).
+      - ask: Does it matter that the statement was not written down?
+        hint: Writing is a VCLT treaty requirement.
+        answer: No. A unilateral statement need not be in writing — which is also why it falls outside the VCLT.
+      - ask: How do you spot a unilateral statement in an exam problem?
+        hint: Count the states committing themselves.
+        answer: If only one state commits, with no counterpart agreeing to anything, analyse it as a unilateral statement rather than forcing it into art 2(1)(a).
+    elements:
+      - name: Public declaration
+        test: A public statement made on behalf of the state, by a representative such as a foreign minister or president; writing is not required.
+        cases:
+          - legal-status-of-eastern-greenland-denmark-v-norway
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+      - name: Clear intention to accept obligations
+        test: The words show a clear intention to be bound towards certain other states, not mere hope or policy.
+        cases:
+          - legal-status-of-eastern-greenland-denmark-v-norway
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+      - name: Not dependent on reciprocity
+        test: The declaration is not an offer and does not depend on reciprocal undertakings from its addressees.
+        cases:
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+    what-if:
+      - change: Denmark had promised Norway fishing rights in return for the statement.
+        effect: Reciprocal undertakings would make it an agreement between two states; if written and governed by international law, analyse it as a treaty under art 2(1)(a).
+      - change: France had said only that it hoped to end testing if circumstances allowed.
+        effect: 'No clear intention to accept an obligation: a hopeful or conditional statement is unlikely to create a binding undertaking.'
+    boundary:
+      - text: A reservation, which art 2(1)(d) also calls a 'unilateral statement'.
+        why: Unilateral in form, but it modifies an existing treaty relationship and its effect depends on acceptance or objection; a true unilateral statement stands alone.
+    transfer:
+      - scenario: A state's foreign minister announces at the UN that her state 'will never again claim the disputed islets'. The rival state never responds. Years later a new government lodges a claim to the islets.
+        answer: 'This is a unilateral statement: a public declaration by one state, with no reciprocal undertaking. As in Eastern Greenland and Nuclear Tests, a clear intention to accept an obligation binds the declaring state without any acceptance or reply from the addressee. The later claim conflicts with that obligation.'
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slide 8)
+      - Week 02 - Lecture Slides - Sources of International Law (slides 21–22)
+      - 'Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (18:45–19:49: unilateral statements contrasted with treaties)'
+    verify: false
+  - concept: laws2000-w03-authority-to-conclude-a-treaty
+    plain: Each state's own law decides who may make treaties for it; internationally, heads of state, heads of government and foreign ministers can act without proof, and everyone else needs 'full powers'.
+    concrete: 'The US and the Paris Agreement: in 2016 President Obama joined it by executive order; in 2017 President Trump withdrew by executive order; in 2021 President Biden rejoined; in 2025 Trump withdrew again. No Senate vote was needed, because a US President can bind the country through executive agreements. The lecturer notes this would not happen in Australia.'
+    formal: 'Domestic law decides: UK — the Crown under the foreign-relations prerogative, but treaties must be laid before Parliament before ratification (Constitutional Reform and Governance Act 2010 s 20); US — two-thirds Senate consent for treaties, yet presidential executive agreements bind; Australia — the executive (Constitution s 61). VCLT art 7: full powers, or heads of state, government and foreign ministers.'
+    analogy:
+      text: 'A company signing contracts: its chief executive can sign without showing anything, but any other employee needs a signed letter of authority — and the company''s own rules decide who may sign at all.'
+      maps:
+        - from: the chief executive signing freely
+          to: heads of state, heads of government and foreign ministers (art 7(2)(a))
+        - from: an employee's letter of authority
+          to: full powers (art 7(1))
+        - from: the company's own rules
+          to: each state's domestic law on treaty-making
+      limits:
+        - A company may escape a contract signed without internal authority; a state can rarely escape a treaty by citing its own internal law (art 46).
+    terms:
+      - term: full powers
+        gloss: A document from the competent authority designating a person to represent the state — e.g. Singapore's Foreign Minister authorising its Trade Minister to sign an investment agreement.
+      - term: executive agreement
+        gloss: In the US, an agreement the President makes without Senate approval; still binding on the parties under international law.
+      - term: royal prerogative (foreign relations)
+        gloss: The UK Crown's power, exercised by the government, to conclude treaties; s 20 of the 2010 Act requires laying before Parliament before ratification.
+      - term: s 61 of the Constitution
+        gloss: Vests executive power, including concluding treaties, in the Australian executive; DFAT and the AG's Office of International Law manage treaties in practice.
+    misconceptions:
+      - claim: International law decides which officials may conclude treaties for a state.
+        tempting: Treaties are international acts, so international rules should govern who makes them.
+        correction: This is not resolved by international law; look at each state's domestic law. Art 7 VCLT only tells other states whom they may treat as representing a state.
+      - claim: The attorney-general is one of the three officials who need no full powers.
+        tempting: The Attorney-General's Office of International Law helps manage Australian treaties.
+        correction: Art 7(2)(a) names heads of state, heads of government and ministers for foreign affairs; everyone else should produce full powers.
+      - claim: A US executive agreement binds only domestically until the Senate approves it.
+        tempting: Formal US treaties need the advice and consent of two-thirds of the Senate.
+        correction: Though not brought before the Senate, executive agreements "are still binding on the parties under international law" (slide 10) — as the Paris Agreement shows.
+    socratic:
+      - ask: Australia's Minister of Agriculture signs a fisheries accord in Bali. Which law decides whether that minister could bind Australia?
+        hint: Start at home.
+        answer: 'Australian law: s 61 vests treaty power in the executive, and the Foreign Minister and DFAT hold responsibility for treaties.'
+      - ask: How would Indonesia know the minister had authority?
+        hint: Art 7(1).
+        answer: The minister should produce full powers — a letter from the Foreign Minister authorising signature.
+      - ask: Who could have signed for Australia without producing full powers?
+        hint: Art 7(2)(a) names three officials.
+        answer: The head of state, the head of government (the Prime Minister) or the Minister for Foreign Affairs.
+      - ask: Could a US President bind the US to such an accord without the Senate?
+        hint: Think of the Paris Agreement.
+        answer: Yes, by executive agreement, which is binding under international law without Senate approval.
+    elements:
+      - name: Domestic authority
+        test: 'Under the state''s own law, may this person or organ conclude treaties? UK: Crown, laid before Parliament (s 20). US: Senate, or executive agreement. Australia: the executive (s 61).'
+        authorities:
+          - australian-constitution-cth-s61
+          - constitutional-reform-and-governance-act-2010-uk-s20
+      - name: Presumed representatives
+        test: Heads of state, heads of government and foreign ministers represent the state for all acts relating to concluding a treaty, without full powers (art 7(2)(a)).
+        authorities:
+          - vclt-art-7
+      - name: Full powers
+        test: Anyone else represents the state if they produce appropriate full powers, or if practice or circumstances show the states intended to dispense with them (art 7(1)).
+        authorities:
+          - vclt-art-7
+    what-if:
+      - change: The fisheries accord is signed by Australia's Foreign Minister instead.
+        effect: 'A foreign minister is presumed to represent the state under art 7(2)(a) and needs no full powers. Whether Australia is bound still turns on consent: signature or ratification.'
+      - change: The Agriculture Minister produces full powers signed by the Foreign Minister.
+        effect: Under art 7(1)(a) the minister is considered to represent Australia for signing — just as Singapore's full-powers letter on the slides authorised its Trade Minister.
+      - change: The minister signed in breach of an internal Australian procedure.
+        effect: 'Australia cannot usually invoke that to escape the treaty: under art 46 only a manifest violation of an internal rule of fundamental importance counts.'
+    boundary:
+      - text: Heads of diplomatic missions and representatives at international conferences (art 7(2)(b)–(c)).
+        why: They represent their state without full powers, but only for adopting a treaty's text — not for every act of concluding it, unlike the three officials in art 7(2)(a).
+      - text: The UK's s 20 laying requirement.
+        why: 'Parliament neither negotiates nor signs — the Crown does — yet a treaty must be laid before Parliament before ratification: a domestic check, not a transfer of the treaty power.'
+    transfer:
+      - scenario: At a regional summit, a state's deputy trade minister signs a customs treaty without producing any documents. Her government later says she had no authority.
+        answer: Domestic law decides who may conclude treaties, but other states rely on art 7 VCLT. A deputy trade minister is not a head of state, head of government or foreign minister, so she needed full powers (art 7(1)(a)), unless practice or circumstances showed the states meant to dispense with them (art 7(1)(b)). Without either, she is not considered to represent her state.
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 9–16, 18)
+      - 'Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (19:49–32:48: domestic authority in the UK, US and Australia; Paris Agreement; art 7 and full powers)'
+      - Week 03 - Reading - Australia's Treaty-Making Process (Step 4)
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 1B)
+    verify: false
+  - concept: laws2000-w03-australian-treaty-making-process
+    plain: 'Australia makes treaties through the executive in fixed steps: mandate, negotiation, ministerial and Executive Council approval, signature, parliamentary scrutiny by JSCOT, then any legislation and entry into force.'
+    concrete: The 2021 AUKUS information-sharing agreement (ENNPIA) shows the documents at work. Its National Interest Analysis explained that US law restricts disclosing naval nuclear propulsion information unless such an agreement is in force, and that the UK was similarly restricted by its 1958 agreement with the US. Domestic implementation needed no change to Australian laws, and any party could terminate on six months' written notice.
+    formal: 'DFAT''s six steps: (1) the lead minister seeks a mandate to negotiate from the Minister for Foreign Affairs; (2) negotiation and finalisation of the text; (3) ministerial and Federal Executive Council approval of every treaty action; (4) signature — full powers unless the PM or Foreign Minister signs; (5) tabling for JSCOT for 15 or 20 joint sitting days; (6) implementing legislation, then entry into force.'
+    terms:
+      - term: National Interest Analysis (NIA)
+        gloss: 'Tabled with a treaty: its obligations, economic, social and political effects, reasons for Australia to act, implementation, costs and withdrawal.'
+      - term: JSCOT
+        gloss: 'Joint Standing Committee on Treaties: scrutinises tabled treaties and reports, within 15 or 20 joint sitting days, whether binding treaty action should be taken.'
+      - term: Federal Executive Council (ExCo)
+        gloss: Must approve every treaty action — signing, ratifying, amending, terminating or withdrawing.
+      - term: minor treaty action
+        gloss: A treaty action with negligible national-interest effect, such as a technical amendment, given a streamlined parliamentary scrutiny process.
+    misconceptions:
+      - claim: Parliament must approve every treaty before Australia can sign it.
+        tempting: JSCOT and tabling give Parliament a visible role.
+        correction: Signature follows ExCo approval (step 4); tabling for JSCOT comes after signature (step 5). Parliament scrutinises, and passes any implementing law, before binding treaty action.
+      - claim: Any minister can start negotiating a treaty in their own portfolio.
+        tempting: Ministers run their own policy areas.
+        correction: The lead minister must first obtain a mandate to negotiate from the Minister for Foreign Affairs (or Cabinet), and the Prime Minister must be informed (step 1).
+      - claim: An NIA is written after ratification to explain the obligations taken on.
+        tempting: An NIA does set out the treaty's obligations.
+        correction: It accompanies the treaty when tabled, so JSCOT can scrutinise it before binding treaty action is taken.
+    socratic:
+      - ask: The Agriculture Minister wants a fisheries treaty with Indonesia. What must happen before negotiations start?
+        hint: Step 1.
+        answer: A mandate to negotiate from the Minister for Foreign Affairs (or Cabinet), with the Prime Minister informed.
+      - ask: Negotiations finish. Can the minister now sign?
+        hint: Who approves every treaty action?
+        answer: 'Not yet: ministerial agreement and Federal Executive Council approval come first. Then signature, with full powers unless the PM or Foreign Minister signs.'
+      - ask: After signature, what does Parliament do?
+        hint: Tabling and a committee.
+        answer: The treaty and its NIA are tabled for JSCOT, which reports within 15 or 20 joint sitting days on whether binding treaty action should be taken.
+      - ask: What must happen before the treaty enters into force?
+        hint: Domestic law comes first.
+        answer: 'Any implementing legislation must pass both Houses. Then entry into force: usually an exchange of diplomatic notes (bilateral) or deposit of ratification (multilateral).'
+    what-if:
+      - change: The treaty requires changes to Australian fisheries law.
+        effect: Under step 6, implementing legislation must pass both Houses before entry into force; JSCOT also considers what legislative change the treaty needs.
+      - change: The treaty action is a technical amendment with negligible national-interest effect.
+        effect: It may be a minor treaty action, given streamlined parliamentary scrutiny rather than the full JSCOT process.
+    boundary:
+      - text: The 2024 AUKUS Agreement for Cooperation Related to Naval Nuclear Propulsion.
+        why: Full JSCOT scrutiny — 260 submissions, four public hearings (Report 224) — ended with a recommendation that binding treaty action be taken, despite criticism of its withdrawal terms.
+      - text: Instruments of 'less-than-treaty status', such as Australian MoUs.
+        why: DFAT treats them as outside the treaty category altogether, so they are not concluded as treaties through this process — though their status at international law can differ.
+    transfer:
+      - scenario: Australia's Health Minister negotiates a pandemic data-sharing treaty with New Zealand and wants it in force next month. She asks whether she can sign and bring it into force straight away.
+        answer: Not under DFAT's process. She needed a mandate from the Foreign Minister; then ministerial and ExCo approval; signature, with full powers since she is not the PM or Foreign Minister; tabling with an NIA for JSCOT for 15 or 20 joint sitting days; any implementing legislation; and only then entry into force, usually by exchange of diplomatic notes.
+    objections:
+      - position: Australia should take binding treaty action on the 2024 AUKUS naval nuclear propulsion agreement.
+        evidence: JSCOT Report 224, Recommendation 1, supported binding treaty action; the agreement gives Australia access to naval nuclear propulsion information, material and equipment from the UK and US.
+        objection: 'Professor Donald Rothwell: the withdrawal provisions give the UK and US ''an enormous amount of flexibility'' — only they can be an ''Originating Party'' able to withdraw over risks to their defence and security.'
+    storyboard:
+      - caption: 'Step 1: mandate to negotiate'
+        detail: The lead minister seeks a mandate from the Foreign Minister (or Cabinet); the Prime Minister is informed.
+      - caption: 'Step 2: negotiate and finalise text'
+        detail: Consult Commonwealth agencies, states, territories and stakeholders; verify any foreign-language text.
+      - caption: 'Step 3: ministerial and ExCo approval'
+        detail: Foreign Minister, Attorney-General and portfolio ministers agree; the Federal Executive Council approves the treaty action.
+      - caption: 'Step 4: signature'
+        detail: Australia's representative signs; full powers are needed unless the PM or Foreign Minister signs.
+      - caption: 'Step 5: JSCOT scrutiny'
+        detail: Tabled with an NIA for 15 or 20 joint sitting days; JSCOT recommends whether binding treaty action should be taken.
+      - caption: 'Step 6: legislation, then entry into force'
+        detail: Implementing laws pass both Houses; then an exchange of notes (bilateral) or deposit of ratification (multilateral).
+    sources:
+      - Week 03 - Reading - Australia's Treaty-Making Process (Steps 1–6)
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 12–13)
+      - 'Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (24:21–29:38: Australia''s process, NIA, JSCOT, ratification)'
+      - 'Week 03 - Case Study - AUKUS National Interest Analysis (ENNPIA 2021: reasons, implementation, termination)'
+      - Week 03 - Case Study - JSCOT AUKUS Report (Report 224, paras 2.2, 2.30–2.35, 4.2–4.4)
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 1D)
+    verify: false
+  - concept: laws2000-w03-consent-to-be-bound-and-entry-into-force
+    plain: Agreeing to a treaty, by signing or ratifying, is different from the treaty taking effect; in between, a state must not undermine the treaty, and states can agree to apply it early.
+    concrete: The UN Convention on the Law of the Sea was finalised and opened for ratification in 1982 and widely signed. But it entered into force only in 1994, once the 60th instrument of ratification had been deposited. For about twelve years, states that had signed or even ratified were not bound by its detailed provisions; art 18 VCLT asked only that they not defeat its object and purpose.
+    formal: 'Consent may be expressed "by signature, exchange of instruments constituting a treaty, ratification, acceptance, approval or accession, or by any other means if so agreed" (VCLT art 11). Ratification is required if the treaty says so, the negotiators agreed, signature was subject to ratification, or full powers or negotiations showed that intention (art 14). Entry into force: as the treaty provides or negotiating states agree (art 24).'
+    analogy:
+      text: 'Joining a gym that opens next year: you sign up now, the gym opens only when enough members have joined, and meanwhile you shouldn''t sabotage it — though the owners may let members use part of it early.'
+      maps:
+        - from: signing up
+          to: consent to be bound (signature or ratification)
+        - from: opening day
+          to: entry into force (art 24)
+        - from: not sabotaging the gym meanwhile
+          to: 'art 18: not defeating the object and purpose'
+        - from: early access to part of the gym
+          to: provisional application (art 25)
+      limits:
+        - 'Art 18''s duty is narrow: it forbids defeating the treaty''s object and purpose, not breaching its detailed rules.'
+    terms:
+      - term: signature
+        gloss: Signals a state's intention to become a party; sometimes it also expresses consent to be bound, as with the Somalia–Kenya MoU.
+      - term: ratification
+        gloss: The state's formal acceptance of a treaty's obligations, making it legally binding on the state; required in the four art 14 situations.
+      - term: entry into force
+        gloss: 'When the treaty starts operating: as it provides or as the negotiating states agree (art 24), often after a set number of ratifications.'
+      - term: provisional application
+        gloss: Applying a treaty, or part of it, before entry into force where the treaty provides or the negotiating states agree (art 25).
+    misconceptions:
+      - claim: Once a state signs or ratifies, the treaty applies to it in full immediately.
+        tempting: '''Consent to be bound'' sounds like being bound.'
+        correction: Consent and entry into force are distinct (art 24). UNCLOS, opened for ratification in 1982, entered into force only in 1994; meanwhile states had only the limited art 18 duty.
+      - claim: Art 18 requires a signatory to comply with every provision before entry into force.
+        tempting: It is the rule governing the interim period.
+        correction: Art 18 only obliges a state to refrain from acts that would defeat the treaty's object and purpose; detailed compliance is not required.
+      - claim: Art 18 and art 25 are the same interim rule.
+        tempting: Both operate before entry into force.
+        correction: Art 18 is an automatic, minimal duty not to defeat object and purpose. Art 25 is opt-in provisional application of the treaty, in part or in full, where the treaty or negotiating states so agree.
+    socratic:
+      - ask: The prime ministers sign a written tariff deal. Is Australia now bound?
+        hint: Signing shows authority; does it show consent?
+        answer: Not necessarily. Under art 11 consent may come by signature or ratification, and many treaties, especially multilateral ones, require ratification.
+      - ask: When is ratification required?
+        hint: Art 14 has four triggers.
+        answer: If the treaty says so, the negotiators agreed, the representative signed subject to ratification, or full powers or negotiations showed that intention.
+      - ask: Why does Australia usually ratify rather than rely on signature?
+        hint: Dualism.
+        answer: As a dualist common law country, Australia generally transforms treaties into domestic law before ratifying, after JSCOT scrutiny.
+      - ask: Australia has ratified, but the treaty is not yet in force. What must it do?
+        hint: Art 18(b).
+        answer: Refrain from acts that would defeat the treaty's object and purpose, provided entry into force is not unduly delayed.
+      - ask: Could the parties apply some provisions straight away?
+        hint: Art 25.
+        answer: Yes — provisional application, in part or in full, if the treaty provides for it or the negotiating states otherwise agree.
+    elements:
+      - name: Mode of consent
+        test: Which art 11 means applies — signature, exchange of instruments, ratification, acceptance, approval or accession? Australia mainly uses signature and ratification.
+        authorities:
+          - vclt-art-11
+      - name: Is ratification required?
+        test: Yes if the treaty says so, the negotiators agreed, signature was subject to ratification, or full powers or negotiations showed that intention (art 14) — case by case.
+        authorities:
+          - vclt-art-14
+      - name: Entry into force
+        test: Has the treaty entered into force as it provides, or as the negotiating states agreed (art 24) — for example after a set number of ratifications?
+        authorities:
+          - vclt-art-24
+      - name: Interim obligations
+        test: 'If not in force: the art 18 duty not to defeat object and purpose, for signatories and states that have consented; plus art 25 provisional application if agreed.'
+        authorities:
+          - vclt-art-18
+          - vclt-art-25
+    what-if:
+      - change: The treaty itself provides that its fisheries quotas apply provisionally.
+        effect: Under art 25 those provisions apply before entry into force — a fuller obligation than art 18's duty — because the treaty so provides.
+      - change: Australia signs subject to ratification, then makes clear it will not become a party.
+        effect: Art 18(a) applies only until a state makes its intention not to become a party clear; after that, even the object-and-purpose duty ends.
+      - change: Entry into force is unduly delayed for decades.
+        effect: The art 18(b) duty of states that have consented applies only provided entry into force is not unduly delayed, so the interim duty may lapse.
+    boundary:
+      - text: The Somalia–Kenya MoU, which expressly entered into force on signature.
+        why: Signature both expressed consent and brought the instrument into force, so there was no ratification step and no art 18 interim period.
+      - text: Provisional application agreed by only some negotiating states.
+        why: Art 25 can rest on a separate agreement among some states; it need not bind every party, unlike entry into force under the treaty's own terms.
+    transfer:
+      - scenario: State X ratifies a new treaty protecting a marine reserve from deep-sea mining. The treaty needs 40 ratifications and has 25. Meanwhile X licenses a company to strip-mine the reserve.
+        answer: The treaty is not in force (art 24), so X is not bound by its detailed provisions. But having consented pending entry into force, X must refrain from acts defeating the treaty's object and purpose (art 18(b)), provided entry into force is not unduly delayed. Strip-mining the very reserve the treaty protects is likely to defeat that purpose.
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 17–23)
+      - 'Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (32:48–45:00: consent to be bound, art 14, dualism, entry into force, UNCLOS, arts 18 and 25)'
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 1C)
+    verify: false
+  - concept: laws2000-w03-invalidity-of-treaties
+    plain: A treaty can be properly made yet invalid, if a state's consent came from error, fraud, corruption or coercion, or if the treaty breaches a peremptory norm.
+    concrete: 'The lecturer''s examples: a treaty is concluded on the basis of a map that turns out to be wrong, and the map was material to a state''s decision to join — the treaty may be invalid for error (art 48). Make the map wrong on purpose, to lure the other state into signing, and it is fraud (art 49). Bribe the negotiator to sign when they otherwise would not, and it is corruption (art 50).'
+    formal: 'VCLT grounds: relative invalidity, arts 46–50 — internal law (46, narrowly), error (48), fraud (49), corruption of a representative (50); absolute invalidity, arts 51–53 — coercion of a representative (51), threat or use of force (52), and jus cogens: "A treaty is void if, at the time of its conclusion, it conflicts with a peremptory norm of general international law" (53).'
+    analogy:
+      text: 'Contract law''s vitiating factors: mistake, deceit, bribery of an agent and duress undo consent, and an illegal contract is void outright.'
+      maps:
+        - from: mistake
+          to: error (art 48)
+        - from: deceit
+          to: fraud (art 49)
+        - from: bribing an agent
+          to: corruption of a representative (art 50)
+        - from: an illegal contract
+          to: conflict with jus cogens (art 53)
+      limits:
+        - A company may escape a contract its agent had no internal authority to make; a state cannot invoke its own internal law unless the breach was manifest and of fundamental importance (art 46).
+    terms:
+      - term: relative invalidity
+        gloss: 'Grounds going to defective consent (arts 46–50): internal law, error, fraud and corruption; the lecture calls such treaties voidable.'
+      - term: absolute invalidity
+        gloss: 'Grounds making a treaty void (arts 51–53): coercion of a representative, threat or use of force against the state, conflict with jus cogens.'
+      - term: void ab initio
+        gloss: Invalid from the very beginning, as if it never had legal effect — for example, a treaty procured by force against the state (art 52).
+      - term: peremptory norm (jus cogens)
+        gloss: A norm accepted by the community of states as a whole as permitting no derogation, e.g. prohibitions of torture, genocide, aggression and piracy; self-determination.
+    misconceptions:
+      - claim: A state can escape a treaty by showing it breached its own constitution when consenting.
+        tempting: Domestic law decides who may conclude treaties for a state.
+        correction: 'Art 46: it cannot, "unless the violation was manifest and concerned a rule of its internal law of fundamental importance" (Cameroon v Nigeria). This protects other parties'' reliance.'
+      - claim: Fraud and error are absolute grounds that make a treaty void.
+        tempting: Both strike at the reality of consent.
+        correction: The slides class error (art 48), fraud (49) and corruption (50) as relative invalidity; absolute invalidity is arts 51–53.
+      - claim: Any later regret or political change counts as 'error'.
+        tempting: The state feels it misjudged the deal.
+        correction: Error concerns a mistaken factual situation at the time of consent that was an important basis for it, like a wrong map — not a later change of heart.
+    socratic:
+      - ask: A treaty meets art 2(1)(a), was signed by the right people and ratified. Can it still be invalid?
+        hint: Look at how consent was obtained, and at what the treaty does.
+        answer: Yes. Consent may be vitiated by error, fraud, corruption or coercion, or the treaty may conflict with jus cogens.
+      - ask: A border treaty relied on a map both sides thought accurate; it was wrong. Which ground applies?
+        hint: Was anyone deceived?
+        answer: Error (art 48), if the mistaken fact was an important basis for consent. Had the map been falsified deliberately, fraud (art 49).
+      - ask: State A threatens to bomb State B unless it signs. What is the effect?
+        hint: Art 52.
+        answer: 'Absolute invalidity: a treaty procured by the threat or use of force against the state is void ab initio.'
+      - ask: A treaty commits two states to cooperate in torturing suspects. What is the effect?
+        hint: Art 53.
+        answer: It conflicts with a peremptory norm at the time of conclusion, so it is void.
+      - ask: A new government says the old one breached a procedural law in ratifying. Can it invalidate the treaty?
+        hint: Apply the art 46 test.
+        answer: Only if the violation was manifest and concerned an internal rule of fundamental importance; otherwise the treaty stands.
+    elements:
+      - name: Defective consent — relative (arts 46–50)
+        test: Was consent given in manifest breach of a fundamental internal rule (46), through material factual error (48), induced by fraud (49), or by corrupting the representative (50)?
+        cases:
+          - land-and-maritime-boundary-cameroon-v-nigeria
+        authorities:
+          - vclt-art-46
+          - vclt-arts-48-50
+      - name: Coercion — absolute (arts 51–52)
+        test: Was the representative coerced — economic pressure, blackmail, threats to life (51) — or the state itself subjected to the threat or use of force (52)? Then the treaty is void.
+      - name: Conflict with jus cogens (art 53)
+        test: At the time of conclusion, does the treaty conflict with a peremptory norm accepted by the community of states as a whole? Then it is void.
+        authorities:
+          - vclt-art-53
+    what-if:
+      - change: The 'error' is a typographical slip in cross-references that changes nothing of substance.
+        effect: 'Not art 48 error: the mistake must concern a fact or situation that formed an important basis of the state''s consent.'
+      - change: The state's representative accepted a large secret payment to sign.
+        effect: 'Corruption (art 50): a non-due advantage inducing a signature that would not otherwise have been given — a relative ground the victim state can invoke.'
+      - change: The peremptory norm was recognised only after the treaty was concluded.
+        effect: Art 53 voids treaties that conflict with a peremptory norm 'at the time of its conclusion'; the lecture stresses the rule must be recognised as such when the treaty is concluded.
+    boundary:
+      - text: A threat to a negotiator's life versus a threat to bomb the state.
+        why: 'Both are absolute grounds on the slides: the first is coercion of a representative (art 51), the second the threat or use of force against the state (art 52). The target differs, not the result.'
+      - text: Cameroon v Nigeria and breaches of internal law.
+        why: 'At the edge of ''defective consent'': a state''s own internal-law breach does not invalidate its consent unless manifest and of fundamental importance, protecting the other party''s reliance.'
+    transfer:
+      - scenario: State P signs a water-sharing treaty after State Q secretly pays P's chief negotiator. Separately, P's constitution required parliamentary approval before signature — a requirement P kept confidential and did not follow.
+        answer: 'Two grounds. The payment is corruption of a representative (art 50): a non-due advantage inducing signature — a relative ground P may invoke. The constitutional breach falls under art 46: P can rely on it only if the violation was manifest and concerned a rule of fundamental importance; a confidential requirement is unlikely to be manifest to Q (Cameroon v Nigeria).'
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 24–26)
+      - 'Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (45:03–53:56: error, fraud, corruption, coercion, force, jus cogens, internal law)'
+    verify: false
+  - concept: laws2000-w03-reservations-to-treaties
+    plain: A reservation lets a state join a multilateral treaty while excluding or changing certain provisions for itself — unless the treaty forbids it or it undermines the treaty's purpose.
+    concrete: 'The lecturer''s example: a treaty aims to eliminate ozone-depleting emissions, with strict obligations on certain gases. A state joining it cannot reserve that it will not limit its own ozone-depleting emissions — that conflicts with the treaty''s very objective. The reservation is incompatible with the object and purpose, so it is invalid, and the state cannot rely on it to escape the treaty''s obligations.'
+    formal: A reservation is "a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State" (VCLT art 2(1)(d)). Art 19 permits one unless prohibited, outside specified permitted reservations, or incompatible with object and purpose.
+    analogy:
+      text: 'Joining a group trip but opting out of one activity: each friend can accept your opt-out or refuse to travel with you, and opting out of the whole point of the trip means you are not really on it.'
+      maps:
+        - from: the opt-out note
+          to: the reservation
+        - from: a friend accepting it
+          to: 'acceptance: parties on the modified terms (art 20(4))'
+        - from: a friend refusing to travel with you
+          to: 'objection: no treaty relations between the two'
+        - from: opting out of the trip's whole point
+          to: incompatibility with object and purpose (art 19(c))
+      limits:
+        - Friends decide by preference; object and purpose is a legal test, and an impermissible reservation is void whether or not anyone objects.
+    terms:
+      - term: reservation
+        gloss: A unilateral statement, made on signing, ratifying, accepting, approving or acceding, purporting to exclude or modify certain provisions' legal effect for that state (art 2(1)(d)).
+      - term: interpretative declaration
+        gloss: A state's view of what a provision means, not put forward as a condition of being bound; only explanatory, so not a reservation.
+      - term: object and purpose
+        gloss: The treaty's core aim; a reservation incompatible with it is impermissible (art 19(c)).
+      - term: severance
+        gloss: 'One view of an invalid reservation: ignore it and treat the state as bound by the whole treaty — criticised as contrary to consent.'
+    misconceptions:
+      - claim: A statement is only a reservation if the state calls it one.
+        tempting: States often label such statements 'declarations'.
+        correction: 'Art 2(1)(d): "however phrased or named". The question is whether it purports to exclude or modify a provision''s legal effect — unlike an interpretative declaration, which only explains meaning.'
+      - claim: If another state objects to a permissible reservation, the reserving state is out of the treaty altogether.
+        tempting: An objection sounds like a rejection of membership.
+        correction: As the lecture presents art 20(4), the treaty does not enter into force between the reserving and objecting states only; it can still operate with states that accept.
+      - claim: The effect of an impermissible reservation is settled.
+        tempting: The VCLT has detailed rules on reservations.
+        correction: 'It is unresolved. Three views: the state does not become a party; it is bound without the reservation (severance); or it is bound without it unless it expressed a contrary intention.'
+    socratic:
+      - ask: Novaria ratifies the Chemical Weapons Convention but declares it will not adhere to Article IV(5) on inspections. Is that a reservation?
+        hint: Does it purport to exclude a provision's effect for Novaria?
+        answer: Yes. However named, a statement on ratification excluding a provision's legal effect for that state is a reservation (art 2(1)(d)).
+      - ask: What do you check first about the treaty itself?
+        hint: 'Art 19(a)–(b): read the whole treaty.'
+        answer: Whether the treaty prohibits reservations, or this one, or allows only specified reservations that exclude it. If so, the reservation fails.
+      - ask: If the treaty is silent, is the reservation compatible with its object and purpose?
+        hint: What is the Convention for, and what does Article IV(5) do?
+        answer: Article IV(5) secures on-site verification of chemical weapons destruction facilities; excluding it arguably undermines the treaty's purpose, making the reservation impermissible under art 19(c).
+      - ask: If the reservation were permissible and Armadonia objected, what would follow?
+        hint: Art 20(4) as presented in the lecture.
+        answer: The treaty would not enter into force between Novaria and Armadonia; if another state accepts, the reservation is effective in that relationship.
+      - ask: If it is impermissible, where does Novaria stand?
+        hint: Three possible solutions.
+        answer: The reservation is void. Either Novaria is not a party; or it is bound in full (severance); or it is bound without the reservation unless it made the reservation a condition of consent.
+    elements:
+      - name: Is it a reservation?
+        test: A unilateral statement, however named, made on signing, ratifying, accepting, approving or acceding, purporting to exclude or modify a provision's effect — not merely an interpretative declaration.
+        authorities:
+          - vclt-art-2-1-d
+      - name: Not prohibited by the treaty
+        test: The treaty does not prohibit reservations or this reservation (art 19(a)), and does not allow only specified reservations that exclude it (art 19(b)).
+        authorities:
+          - vclt-art-19
+      - name: Compatible with object and purpose
+        test: Having passed (a) and (b), the reservation must not be incompatible with the treaty's object and purpose (art 19(c)).
+        authorities:
+          - vclt-art-19
+      - name: Acceptance and objection
+        test: 'Expressly authorised: no acceptance needed (20(1)). Few parties, full application essential: all must accept (20(2)). Constituent instrument: the organ accepts (20(3)). Otherwise accept or object (20(4)).'
+        authorities:
+          - vclt-art-20
+      - name: If impermissible
+        test: 'Void from the start; no state need object. Three views: not a party; bound in full (severance); or bound without the reservation unless the state expressed a contrary intention.'
+    what-if:
+      - change: The treaty expressly authorises reservations to Article IV(5).
+        effect: Under art 20(1) the reservation needs no acceptance from other parties unless the treaty so provides; Novaria's obligations are modified accordingly.
+      - change: Armadonia accepts Novaria's permissible reservation instead of objecting.
+        effect: 'They are parties to the same treaty on the modified terms: Article IV(5) does not apply in relations between them.'
+      - change: Novaria's statement only explains how it understands 'access', without conditioning its consent.
+        effect: 'That is an interpretative declaration, not a reservation: it does not exclude or modify the provision''s legal effect.'
+    boundary:
+      - text: Bilateral treaties.
+        why: 'Reservations matter mainly for multilateral treaties: two states can usually negotiate disagreements into the text, while 160-plus states agreeing on every provision is unrealistic.'
+      - text: A treaty among few negotiating states whose full application is essential (art 20(2)).
+        why: 'Here a reservation needs acceptance by all the parties: the unanimity rule survives for this special class of treaties.'
+    transfer:
+      - scenario: A state ratifies a multilateral treaty on the safe disposal of nuclear waste, declaring it 'will not be bound by the provision requiring waste to be stored in sealed containers'. The treaty says nothing about reservations.
+        answer: 'It is a reservation: it purports to exclude a provision''s legal effect for the state (art 2(1)(d)). With no prohibition (art 19(a)–(b)), the question is art 19(c): excluding sealed storage likely defeats a waste-safety treaty''s object and purpose, like the lecturer''s ozone example. If impermissible, it is void and one of the three unresolved solutions applies.'
+    objections:
+      - position: 'Severance: a state that made an invalid reservation is bound by the whole treaty, including the reserved provision.'
+        evidence: An invalid reservation is null and void from the start, so the treaty's terms apply as if it had never been made.
+        objection: It goes against the principle that a state is bound only by obligations it consented to; the lecture finds a third view — bound without the reservation unless consent was expressly conditional — more nuanced.
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 28–32)
+      - 'Week 03 - Lecture Recording (Online) - The Law of Treaties - Full Transcript (00:00–24:34: definition, interpretative declarations, arts 19–20, ozone example, three solutions)'
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 2)
+    verify: false
+  - concept: laws2000-w03-treaty-interpretation
+    plain: To interpret a treaty, read its words in their ordinary meaning, in context and in light of its purpose; only if that leaves things unclear or absurd do you turn to the drafting history.
+    concrete: 'In the South China Sea Arbitration the tribunal had to decide whether features such as the Spratly Islands were ''islands'' or ''rocks'' under art 121 of UNCLOS. It mattered enormously: a rock gets only 12 nautical miles, an island a full 200-nautical-mile exclusive economic zone, and other features nothing. Using both art 31 and art 32 means, the tribunal held the Spratly Islands were not legally islands.'
+    formal: 'VCLT art 31(1): "A treaty shall be interpreted in good faith in accordance with the ordinary meaning to be given to the terms of the treaty in their context and in the light of its object and purpose." Art 32: supplementary means — preparatory work and circumstances of conclusion — to confirm that meaning, or where art 31 leaves it ambiguous, obscure, manifestly absurd or unreasonable. Both reflect custom.'
+    analogy:
+      text: 'Reading a will: start with its words, read them against the whole document and its schedules and what the will set out to achieve, and only check the lawyer''s drafting notes if the words stay unclear.'
+      maps:
+        - from: the will's words
+          to: ordinary meaning (art 31(1))
+        - from: the whole will and its schedules
+          to: 'context: text, preamble, annexes, related agreements'
+        - from: what the will set out to achieve
+          to: object and purpose
+        - from: the lawyer's drafting notes
+          to: travaux préparatoires (art 32)
+      limits:
+        - A will records one person's wishes; a treaty records many states' common intention, and courts will not rewrite it.
+    terms:
+      - term: ordinary meaning
+        gloss: The common sense of a treaty's terms, read in good faith — the starting point under art 31(1); a special meaning applies if the parties intended one.
+      - term: context
+        gloss: The treaty text as a whole, its preamble and annexes, and any agreement or instrument made in connection with its conclusion.
+      - term: travaux préparatoires
+        gloss: The treaty's preparatory work — drafts and negotiating records — a supplementary means of interpretation under art 32.
+      - term: teleological interpretation
+        gloss: Reading a treaty's terms in the light of its overall object and purpose.
+    misconceptions:
+      - claim: You can go straight to the travaux préparatoires to find what the parties meant.
+        tempting: Drafting history seems the best evidence of intention.
+        correction: 'Art 32 is supplementary: use it to confirm the art 31 meaning, or where art 31 leaves the meaning ambiguous or obscure, or manifestly absurd or unreasonable.'
+      - claim: Good faith lets a party depart from the text if it sincerely prefers another reading.
+        tempting: '''Good faith'' sounds like sincerity.'
+        correction: 'Good faith constrains interpretation: art 31(1) ties it to the ordinary meaning in context and the object and purpose, and courts never rewrite a treaty.'
+      - claim: Arts 31–32 bind only parties to the VCLT.
+        tempting: They are treaty provisions.
+        correction: They reflect customary international law, recognised by the ICJ, so they govern the interpretation of treaties involving non-parties too.
+    socratic:
+      - ask: Art 121 UNCLOS does not define 'rocks which cannot sustain human habitation'. Where do you start?
+        hint: Art 31(1).
+        answer: With the ordinary meaning of the terms, read in good faith.
+      - ask: What else shapes that ordinary meaning?
+        hint: Context, then purpose.
+        answer: The context — text, preamble, annexes and related agreements — and the treaty's object and purpose.
+      - ask: Can the parties' later conduct help?
+        hint: The flowchart's lower row.
+        answer: 'Yes: subsequent agreements on interpretation, subsequent practice establishing it, and relevant rules of international law — used with caution.'
+      - ask: When may you turn to the preparatory work?
+        hint: Art 32's triggers.
+        answer: To confirm the art 31 meaning, or where that meaning is ambiguous or obscure, or leads to a manifestly absurd or unreasonable result.
+      - ask: Why did the label 'island' or 'rock' matter so much?
+        hint: Count the nautical miles.
+        answer: A rock gets 12 nautical miles; an island a 200-nautical-mile exclusive economic zone. The tribunal held the Spratly Islands were not islands.
+    elements:
+      - name: Good faith
+        test: Interpret honestly, to promote the integrity of treaty obligations rather than to escape them (art 31(1)).
+        authorities:
+          - vclt-art-31
+      - name: Ordinary meaning
+        test: Give the terms their ordinary meaning, or a special meaning if the parties intended one (flowchart).
+        authorities:
+          - vclt-art-31
+      - name: Context
+        test: Read the terms with the whole text, preamble and annexes, and any agreement or instrument made in connection with the treaty's conclusion.
+        authorities:
+          - vclt-art-31
+      - name: Object and purpose
+        test: Read the terms in the light of the treaty's overall aim (teleological interpretation).
+        authorities:
+          - vclt-art-31
+      - name: Later agreement, practice and rules
+        test: Take into account subsequent agreements on interpretation, subsequent practice establishing it, and relevant rules of international law — cautiously (flowchart).
+      - name: Supplementary means (art 32)
+        test: Use preparatory work and circumstances of conclusion to confirm the meaning, or where it is ambiguous, obscure, manifestly absurd or unreasonable.
+        cases:
+          - south-china-sea-arbitration-philippines-v-china
+        authorities:
+          - vclt-art-32
+    what-if:
+      - change: The ordinary meaning in context is clear and sensible.
+        effect: Stop at art 31. Courts have refused to resort to preparatory work where the text is sufficiently clear, using it at most to confirm the meaning.
+      - change: The ordinary meaning leads to a manifestly absurd result.
+        effect: Art 32(b) permits recourse to the preparatory work and the circumstances of conclusion to determine the meaning.
+      - change: One party argues the term means whatever its own domestic law says.
+        effect: A treaty is governed by international law, so the term is interpreted under arts 31–32 VCLT, not either party's domestic definitions.
+    boundary:
+      - text: 'Troops deployed along a border: a ''threat of force'' under art 2(4) of the UN Charter?'
+        why: The Charter does not define the term, so it must be interpreted before it can be applied to the facts — the line between interpreting a treaty and applying it.
+      - text: 'The ILC commentary: interpretive means operate in conjunction.'
+        why: Arts 31 and 32 read sequentially, yet the ILC warned against a strict line between primary and supplementary means; the goal is the treaty's actual meaning.
+    transfer:
+      - scenario: A fisheries treaty bans 'nets' in a protected zone. One state's boats switch to long-lines with baited hooks, arguing a long-line is not a 'net'.
+        answer: 'Start with art 31(1): the ordinary meaning of ''nets'', in good faith, read in context (preamble, annexes, related agreements) and in light of the treaty''s object and purpose — likely protecting fish stocks in the zone. Only if that leaves the term ambiguous or produces a manifestly absurd result may art 32''s preparatory work be used, otherwise only to confirm.'
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 33–38)
+      - Week 03 - Study Aid - Treaty Interpretation Flowchart
+      - 'Week 03 - Lecture Recording (Online) - The Law of Treaties - Full Transcript (24:34–42:35: interpretation, arts 31–32, ILC commentary, South China Sea)'
+    verify: false
+flows:
+  - slug: is-the-state-bound-by-the-treaty
+    title: Is the state bound by this treaty?
+    summary: Takes a document through the treaty definition, authority, consent, entry into force and invalidity — the order Tutorial Hypothetical 1 asks for.
+    start: t1
+    concepts:
+      - laws2000-w03-treaty-definition-and-form
+      - laws2000-w03-authority-to-conclude-a-treaty
+      - laws2000-w03-consent-to-be-bound-and-entry-into-force
+      - laws2000-w03-invalidity-of-treaties
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 6–26)
+      - Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript (03:57–53:56)
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 1)
+    nodes:
+      - id: t1
+        kind: ask
+        text: Is it an international agreement between states, in written form and governed by international law, whatever its label?
+        note: Art 2(1)(a) VCLT. A press communiqué, meeting minutes or an MoU can qualify (Aegean Sea; Qatar v Bahrain; Somalia v Kenya).
+        concept: laws2000-w03-treaty-definition-and-form
+        cases:
+          - aegean-sea-continental-shelf-greece-v-turkey
+          - maritime-delimitation-and-territorial-questions-qatar-v-bahrain
+          - maritime-delimitation-in-the-indian-ocean-somalia-v-kenya
+        authorities:
+          - vclt-art-2-1-a
+        branches:
+          - label: 'Yes'
+            to: t2
+          - label: No — oral, or under domestic law
+            to: t11
+          - label: Only one state commits itself
+            to: t12
+      - id: t2
+        kind: ask
+        text: Did the person who signed have authority to represent the state?
+        note: Heads of state, heads of government and foreign ministers need no full powers; anyone else should produce them (art 7).
+        concept: laws2000-w03-authority-to-conclude-a-treaty
+        authorities:
+          - vclt-art-7
+        branches:
+          - label: 'Yes'
+            to: t3
+          - label: 'No'
+            to: t13
+      - id: t3
+        kind: ask
+        text: Does signature express consent, or is ratification required?
+        note: Ratification is required if the treaty says so, negotiators agreed, signature was subject to ratification, or full powers or negotiations showed it (art 14).
+        authorities:
+          - vclt-art-11
+          - vclt-art-14
+        branches:
+          - label: Signature is enough
+            to: t5
+          - label: Ratification is required
+            to: t4
+      - id: t4
+        kind: ask
+        text: Has the state ratified?
+        branches:
+          - label: 'Yes'
+            to: t5
+          - label: No, only signed
+            to: t14
+      - id: t5
+        kind: ask
+        text: Has the treaty entered into force?
+        note: In such manner and upon such date as the treaty provides or the negotiating states agree (art 24) — UNCLOS took until 1994.
+        authorities:
+          - vclt-art-24
+        branches:
+          - label: 'Yes'
+            to: t6
+          - label: No, not yet
+            to: t15
+      - id: t6
+        kind: ask
+        text: Is there a ground of invalidity?
+        note: 'Relative: error, fraud, corruption; internal law only if manifest and fundamental (arts 46–50). Absolute: coercion, force, jus cogens (arts 51–53).'
+        concept: laws2000-w03-invalidity-of-treaties
+        authorities:
+          - vclt-art-46
+          - vclt-arts-48-50
+          - vclt-art-53
+        branches:
+          - label: 'Yes'
+            to: t16
+          - label: 'No'
+            to: t10
+      - id: t10
+        kind: end
+        tone: met
+        text: 'Bound: pacta sunt servanda. Check any reservation the state made (arts 19–20).'
+      - id: t11
+        kind: end
+        tone: not-met
+        text: Not a treaty under the VCLT definition.
+        authorities:
+          - vclt-art-2-1-a
+      - id: t12
+        kind: end
+        tone: qualified
+        exception: true
+        text: Not a treaty, but possibly a binding unilateral statement (Eastern Greenland; Nuclear Tests).
+        concept: laws2000-w03-unilateral-statements
+        cases:
+          - legal-status-of-eastern-greenland-denmark-v-norway
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+      - id: t13
+        kind: end
+        tone: not-met
+        text: The signatory is not considered to represent the state (art 7), so that act does not bind it.
+        authorities:
+          - vclt-art-7
+      - id: t14
+        kind: end
+        tone: qualified
+        text: Not bound by the treaty's terms; until it makes clear it will not become a party, it must not defeat the object and purpose (art 18(a)).
+        authorities:
+          - vclt-art-18
+      - id: t15
+        kind: end
+        tone: qualified
+        text: 'Not yet bound in full: art 18(b) duty not to defeat object and purpose, plus provisional application if agreed (art 25).'
+        authorities:
+          - vclt-art-18
+          - vclt-art-25
+      - id: t16
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'Invalid: relative grounds may be invoked by the affected state; absolute grounds make the treaty void.'
+        cases:
+          - land-and-maritime-boundary-cameroon-v-nigeria
+        authorities:
+          - vclt-art-53
+  - slug: does-a-reservation-apply
+    title: Does a reservation change this state's treaty obligations?
+    summary: Runs a state's statement through the definition, the art 19 gates and art 20's acceptance and objection rules, and the three unresolved views on invalid reservations — Tutorial Hypothetical 2.
+    start: r1
+    concepts:
+      - laws2000-w03-reservations-to-treaties
+    sources:
+      - Week 03 - Lecture Slides - The Law of Treaties (slides 28–32)
+      - Week 03 - Lecture Recording (Online) - The Law of Treaties - Full Transcript (03:36–24:34)
+      - Week 03 - Tutorial Task - The Law of Treaties (Hypothetical 2)
+    nodes:
+      - id: r1
+        kind: ask
+        text: Does the statement purport to exclude or modify a provision's legal effect for the state, however it is named?
+        note: Art 2(1)(d). An interpretative declaration only explains a state's view of the meaning and is not a condition of being bound.
+        authorities:
+          - vclt-art-2-1-d
+        branches:
+          - label: 'Yes'
+            to: r2
+          - label: No — it only explains meaning
+            to: r10
+      - id: r2
+        kind: ask
+        text: Does the treaty prohibit reservations, or this reservation, or allow only specified ones that exclude it?
+        note: 'Art 19(a)–(b): read the whole treaty, beginning to end.'
+        authorities:
+          - vclt-art-19
+        branches:
+          - label: 'Yes'
+            to: r5
+          - label: 'No'
+            to: r3
+      - id: r3
+        kind: ask
+        text: Is the reservation compatible with the treaty's object and purpose?
+        note: Art 19(c). Reserving against the core duty to cut ozone-depleting emissions in an ozone treaty would fail (lecture example).
+        authorities:
+          - vclt-art-19
+        branches:
+          - label: 'Yes'
+            to: r4
+          - label: 'No'
+            to: r5
+      - id: r4
+        kind: ask
+        text: How do the other states respond?
+        note: 'Special cases: few parties with full application essential — all must accept (20(2)); constituent instrument — the competent organ accepts (20(3)).'
+        authorities:
+          - vclt-art-20
+        branches:
+          - label: The treaty expressly authorises it
+            to: r14
+          - label: Another state accepts it
+            to: r15
+          - label: A state objects
+            to: r16
+      - id: r5
+        kind: step
+        exception: true
+        text: 'Impermissible: the reservation is void from the start, and no state needs to object.'
+        next: r6
+      - id: r6
+        kind: ask
+        text: Which view of invalid reservations do you apply? (Unresolved — discuss all three.)
+        branches:
+          - label: Solution 1
+            to: r12
+          - label: Solution 2 (severance)
+            to: r13
+          - label: Solution 3
+            to: r7
+      - id: r7
+        kind: ask
+        text: Did the state expressly make the reservation a condition of its consent?
+        branches:
+          - label: 'Yes'
+            to: r12
+          - label: 'No'
+            to: r13
+      - id: r10
+        kind: end
+        tone: not-met
+        text: 'Interpretative declaration, not a reservation: the state''s obligations are unchanged.'
+      - id: r12
+        kind: end
+        tone: not-met
+        exception: true
+        text: The reserving state does not become a party to the treaty.
+      - id: r13
+        kind: end
+        tone: qualified
+        exception: true
+        text: The state is a party bound by the whole treaty, without the benefit of the reservation.
+      - id: r14
+        kind: end
+        tone: met
+        text: 'Effective without acceptance (art 20(1)): the state''s obligations are modified by the reservation.'
+        authorities:
+          - vclt-art-20
+      - id: r15
+        kind: end
+        tone: met
+        text: 'Effective once at least one state accepts: the two are parties on the modified terms.'
+        authorities:
+          - vclt-art-20
+      - id: r16
+        kind: end
+        tone: qualified
+        text: The treaty does not enter into force between the reserving and objecting states.
+        authorities:
+          - vclt-art-20

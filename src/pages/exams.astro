@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data/rebuild/exam-info.json';
+const dt=(s:string)=>new Intl.DateTimeFormat('en-AU',{timeZone:data.timezone,weekday:'short',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'}).format(new Date(s));
+---
+<Layout title="Exam command centre" wide centre>
+<p class="label">Session 2 · 2026 · AEDT</p><h1>Exam command centre</h1><p class="rb-lede">The paper, the rules, and the notes that belong with it.</p>
+<nav class="rb-actions" aria-label="Exam tools"><a href="/studio/?tool=notes">Build my exam sheets</a><a href="/studio/?tool=mock">Sit a practice paper</a><a href="/plan/">Calendar study blocks</a><a href="/coverage/">Check source coverage</a></nav>
+<div class="rb-grid">{data.exams.map(e=><article class="rb-card"><p class="label">{e.unit.toUpperCase()} · {e.weight===null?'Weight not supplied':`${e.weight}% of unit`}</p><h2><a href={`/${e.unit}/exam/`}>{e.title}</a></h2><p><time datetime={e.start}>{dt(e.start)}</time></p><p>{e.totalMinutes} minutes · {e.mode}</p><p>{e.format}</p><p class="rb-muted">{e.materials.notes}</p><a href={`/${e.unit}/exam/`}>Open rules, topics and revision notes →</a></article>)}</div>
+<h2>Before exam day</h2><p>{data.general.identity.text}</p><p>Room and seat details are released from 1 pm AEDT on 4 November. Recheck your personalised timetable and adjustment arrangements.</p><p class="rb-callout">Exam-specific information is available for Torts, Public International Law and MGMT2094. Jurisprudence has a confirmed timetable only; its unsupplied rules remain marked as unknown.</p>
+{data.general.timetableInstructions.map(x=><p>{x.text}</p>)}
+<details class="rb-note"><summary>Special consideration and timetable notes · full supplied instructions</summary>{data.general.specialConsideration.map(x=><section><h3>{x.title}</h3><p>{x.text}</p></section>)}<p>{data.general.onlineExamRequest.text}</p><p>{data.general.onlineExamRequest.missing}</p></details>
+<p>Sources were reviewed on {data.preparedDate}. <a href="/sources/">Read the original screenshots, assessment instructions and transcripts</a>.</p>
+</Layout>

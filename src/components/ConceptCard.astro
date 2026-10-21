@@ -1,0 +1,41 @@
+---
+// Concept card: one idea, expanding in place. Collapsed: title, criterion ring, the visual brief. Expanded: the
+// concept text and its actions. Motion: siblings move with GSAP Flip (transform only); the body wipes open by
+// clip-path; instant when motion is off. Behaviour lives in src/lib/concept-cards.ts.
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import CriterionRing from './CriterionRing';
+import { conceptSlug } from '../lib/content';
+
+interface Props { concept: CollectionEntry<'concepts'>; expanded?: boolean }
+const { concept: c, expanded = false } = Astro.props;
+const { Content } = await render(c);
+const unit = c.data.unit;
+const href = `/${unit}/concept/${conceptSlug(c)}`;
+const bodyId = `cc-${c.id}`;
+---
+
+<article class="concept-card" data-concept-card data-concept={c.id} data-expanded={expanded || undefined}>
+  <header class="concept-card__head">
+    <CriterionRing client:visible conceptId={c.id} title={c.data.title} size={28} />
+    <h3 class="concept-card__title">
+      <button type="button" class="concept-card__toggle" aria-expanded={expanded ? 'true' : 'false'} aria-controls={bodyId}>
+        {c.data.title}
+        <span class="concept-card__chev" aria-hidden="true">+</span>
+      </button>
+    </h3>
+  </header>
+  <p class="concept-card__brief">{c.data['visual-brief']}</p>
+  <div class="concept-card__body" id={bodyId} hidden={!expanded}>
+    <div class="prose concept-card__text"><Content /></div>
+    <div class="concept-card__actions" role="group" aria-label={`Actions for ${c.data.title}`}>
+      <a class="btn btn--primary btn--sm" href={`/${unit}/quiz?concept=${c.id}`} data-action="quiz">Quiz me</a>
+      <a class="btn btn--secondary btn--sm" href={`/${unit}/cards?concept=${c.id}`} data-action="cards">Cards</a>
+      <a class="btn btn--secondary btn--sm" href={`${href}#explainer`} data-action="simulate">{c.data.visual === 'simulation' ? 'Simulate' : 'See it'}</a>
+      <a class="btn btn--secondary btn--sm" href={`${href}?explain=1`} data-action="explain">Explain it back</a>
+      <button type="button" class="btn btn--ghost btn--sm" data-read-aloud={`#${bodyId} .concept-card__text`} aria-pressed="false">Read aloud</button>
+      <button type="button" class="btn btn--ghost btn--sm" data-action="later" aria-pressed="false">Mark for later</button>
+      <a class="concept-card__open" href={href}>Open</a>
+    </div>
+  </div>
+</article>

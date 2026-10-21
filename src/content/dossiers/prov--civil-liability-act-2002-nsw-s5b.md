@@ -1,0 +1,108 @@
+---
+source-hash: 11253d27b4544078
+generator-version: dossier-1
+generated-at: "2026-10-20T03:27:48.312Z"
+locked: false
+kind: provision
+ref: civil-liability-act-2002-nsw-s5b
+units:
+  - laws2400
+weeks:
+  - laws2400-w09
+topics:
+  - breach
+lists:
+  - laws2400-examinable
+instrument: Civil Liability Act 2002 (NSW)
+short: CLA
+part: Part 1A Negligence — Division 2 Duty of care
+section: 5B
+heading: General principles
+one-liner: Breach test — negligent only if the risk was foreseeable, not insignificant, and a reasonable person would have taken the precautions.
+plain: This section decides whether someone was careless enough to be blamed. Three things must all be true. First, they knew, or should have known, about the risk. Second, the risk was not tiny. Third, a sensible person in their shoes would have done something about it. To decide the third point, a court weighs how likely the harm was, how bad it would be, how hard or costly it was to prevent, and how useful the risky activity is to society.
+analogy: "Think of a shop owner with a wet floor: they knew it was wet (foreseeable), people slip on wet floors (not insignificant), and putting out a sign costs almost nothing compared with a broken hip (a reasonable person would act). If any one of the three is missing, there is no breach."
+text: |-
+  (1) A person is not negligent in failing to take precautions against a risk of harm unless—
+  (a) the risk was foreseeable (that is, it is a risk of which the person knew or ought to have known), and
+  (b) the risk was not insignificant, and
+  (c) in the circumstances, a reasonable person in the person’s position would have taken those precautions.
+
+  (2) In determining whether a reasonable person would have taken precautions against a risk of harm, the court is to consider the following (amongst other relevant things)—
+  (a) the probability that the harm would occur if care were not taken,
+  (b) the likely seriousness of the harm,
+  (c) the burden of taking precautions to avoid the risk of harm,
+  (d) the social utility of the activity that creates the risk of harm.
+elements:
+  - id: foreseeable
+    label: s 5B(1)(a) Foreseeable risk
+    test: The risk was one of which the defendant knew or ought to have known.
+    plain: They knew about the danger, or a careful person in their place would have.
+    cases:
+      - wyong-shire-council-v-shirt
+  - id: not-insignificant
+    label: s 5B(1)(b) Not insignificant
+    test: The risk was not insignificant — a higher bar than the common law's 'not far-fetched or fanciful' (Shirt).
+    plain: The danger was more than tiny.
+    cases:
+      - wyong-shire-council-v-shirt
+  - id: reasonable-precautions
+    label: s 5B(1)(c) Reasonable person would have taken precautions
+    test: In the circumstances, a reasonable person in the defendant's position would have taken those precautions, weighing the s 5B(2) factors.
+    plain: A sensible person in their position would have done something to prevent it.
+    cases:
+      - rta-v-dederer
+      - paris-v-stepney-borough-council
+      - woods-v-multi-sport-holdings
+logic: all
+outcome:
+  met: All three elements are satisfied, so the defendant breached the duty of care by failing to take the precautions.
+  failed: At least one element fails, so the defendant is not negligent in failing to take those precautions.
+factors:
+  - label: s 5B(2)(a) Probability
+    plain: How likely the harm was if no care was taken.
+  - label: s 5B(2)(b) Seriousness
+    plain: "How bad the harm would be if it happened (Paris v Stepney: more serious harm, more precautions)."
+  - label: s 5B(2)(c) Burden
+    plain: How hard or costly the precautions were — including precautions against similar risks (s 5C(a)).
+  - label: s 5B(2)(d) Social utility
+    plain: How valuable to society the risky activity is.
+exceptions:
+  - The factors in s 5B(2) are not exhaustive ("amongst other relevant things").
+  - Professionals are judged by peer professional opinion where s 5O applies, but s 5B still frames the question.
+  - Obvious risks (ss 5F–5H) and inherent risks (s 5I) can remove liability even where s 5B would otherwise be satisfied.
+cases:
+  - wyong-shire-council-v-shirt
+  - bolton-v-stone
+  - benic-v-nsw
+  - rta-v-dederer
+  - paris-v-stepney-borough-council
+  - woods-v-multi-sport-holdings
+  - e-v-australian-red-cross-society
+  - rail-corporation-nsw-v-donald
+related:
+  - civil-liability-act-2002-nsw-s5c
+  - civil-liability-act-2002-nsw-s5o
+  - civil-liability-act-2002-nsw-s5f
+limits:
+  - The risk must be identified correctly before s 5B is applied; framing it too narrowly or too broadly changes the answer (Dederer).
+  - "Hindsight is not the test: the question is prospective — what a reasonable person would have done before the harm."
+exam-use:
+  when: Every breach issue in a NSW negligence problem; apply each paragraph of s 5B(1) in order, then weigh the s 5B(2) factors for (c).
+  sentence: Under s 5B(1) Civil Liability Act 2002 (NSW), D is negligent only if the risk was foreseeable (s 5B(1)(a) CLA), not insignificant (s 5B(1)(b) CLA), and a reasonable person in D's position would have taken the precaution (s 5B(1)(c) CLA), considering the s 5B(2) factors.
+  pitfalls:
+    - Don't stop at foreseeability — (b) and (c) must also be met.
+    - Pinpoint every paragraph you rely on, e.g. 's 5B(1)(b) CLA'.
+    - Weigh the factors against each other; listing them is not applying them.
+what-if:
+  - change: The precaution would have cost a fortune and the activity is socially valuable (a public beach, a sport).
+    effect: Burden and social utility in s 5B(2)(c)–(d) weigh against requiring it, so s 5B(1)(c) may fail.
+  - change: The risk was a freak one nobody could have anticipated.
+    effect: s 5B(1)(a) or (b) fails and there is no breach.
+examples:
+  - facts: A council knows a popular rock pool has a submerged ledge; a sign would cost $200; a diver breaks their neck.
+    analysis: Foreseeable (knew of the ledge), not insignificant (serious injury, popular site), and a reasonable council would erect a cheap sign given the probability and seriousness — breach likely, subject to obvious-risk arguments under s 5H.
+sources:
+  - raw/laws2400-torts/unit-wide/act-2002-022.pdf
+  - raw/laws2400-torts/week-09
+verify: false
+---

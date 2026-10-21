@@ -1,0 +1,115 @@
+---
+// Glossary (features 124, 26): every term the study aids define, in the course's own sense, with its example and a
+// link to the concept that uses it. Built from the `aids` collection, so it grows as each week's aids are generated.
+// Filtering (unit, letters, search) is a small inline script; with no JS the whole list still reads in order.
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { units, conceptSlug } from '../lib/content';
+
+const us = await units();
+const code = Object.fromEntries(us.map((u) => [u.id, u.data.code]));
+const concepts = new Map((await getCollection('concepts', (c) => !c.data.seed)).map((c) => [c.id, c]));
+const aids = await getCollection('aids');
+type Row = { term: string; gloss: string; example?: string; unit: string; concept: string; title: string; href: string };
+const seen = new Set<string>();
+const rows: Row[] = [];
+for (const a of aids) {
+  const c = concepts.get(a.data.concept);
+  if (!c) continue;
+  for (const t of a.data.terms) {
+    const key = `${a.data.unit}|${t.term.toLowerCase().replace(/["“”']/g, '')}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    rows.push({ term: t.term, gloss: t.gloss, example: t.example, unit: a.data.unit, concept: c.id, title: c.data.title, href: `/${c.data.unit}/concept/${conceptSlug(c)}` });
+  }
+}
+const sortKey = (t: string) => t.replace(/^["“'(]+/, '').toLowerCase();
+rows.sort((a, b) => sortKey(a.term).localeCompare(sortKey(b.term)) || a.unit.localeCompare(b.unit));
+const letterOf = (t: string) => { const l = sortKey(t)[0]?.toUpperCase() ?? '#'; return /[A-Z]/.test(l) ? l : '#'; };
+const letters = [...new Set(rows.map((r) => letterOf(r.term)))];
+---
+
+<Layout title="Glossary" toc=".glossary__letter">
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { label: 'Glossary' }]} />
+  <p class="label">Glossary</p>
+  <h1 data-split>Terms, in your course's sense</h1>
+  <p class="glossary-lede">{rows.length} terms from the study aids, each with the concept that uses it. It grows as more weeks get their aids.</p>
+
+  <div class="glossary-tools" data-glossary-tools>
+    <div class="glossary-tools__units" role="group" aria-label="Unit">
+      <button type="button" class="chip" aria-pressed="true" data-unit="all">All units</button>
+      {us.map((u) => <button type="button" class="chip" aria-pressed="false" data-unit={u.id}>{u.data.code}</button>)}
+    </div>
+    <label class="glossary-tools__search">
+      <span class="visually-hidden">Search terms</span>
+      <input type="search" placeholder="Search terms and meanings" data-glossary-search />
+    </label>
+    <p class="glossary-tools__count" aria-live="polite" data-glossary-count>{rows.length} terms</p>
+  </div>
+
+  {letters.map((L) => (
+    <section class="glossary__group" data-letter-group>
+      <h2 class="glossary__letter" id={`letter-${L}`}>{L}</h2>
+      <dl class="glossary__list">
+        {rows.filter((r) => letterOf(r.term) === L).map((r) => (
+          <div class="glossary__row" data-unit={r.unit} data-text={`${r.term} ${r.gloss} ${r.example ?? ''}`.toLowerCase()}>
+            <dt class="glossary__term">{r.term} <span class="glossary__unit mono">{code[r.unit]}</span></dt>
+            <dd class="glossary__gloss">
+              {r.gloss}
+              {r.example && <span class="glossary__example">For example: {r.example}</span>}
+              <a class="glossary__concept" href={r.href}>{r.title}</a>
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  ))}
+</Layout>
+
+<script>
+  function wire() {
+    const tools = document.querySelector<HTMLElement>('[data-glossary-tools]');
+    if (!tools || tools.dataset.wired) return;
+    tools.dataset.wired = '1';
+    let unit = 'all';
+    let needle = '';
+    const rows = [...document.querySelectorAll<HTMLElement>('.glossary__row')];
+    const groups = [...document.querySelectorAll<HTMLElement>('[data-letter-group]')];
+    const count = tools.querySelector<HTMLElement>('[data-glossary-count]')!;
+    const apply = () => {
+      let n = 0;
+      for (const r of rows) {
+        const show = (unit === 'all' || r.dataset.unit === unit) && (!needle || r.dataset.text!.includes(needle));
+        r.hidden = !show;
+        if (show) n++;
+      }
+      for (const g of groups) g.hidden = ![...g.querySelectorAll<HTMLElement>('.glossary__row')].some((r) => !r.hidden);
+      count.textContent = `${n} ${n === 1 ? 'term' : 'terms'}`;
+    };
+    tools.querySelectorAll<HTMLButtonElement>('[data-unit]').forEach((b) => b.addEventListener('click', () => {
+      unit = b.dataset.unit!;
+      tools.querySelectorAll('[data-unit]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      apply();
+    }));
+    tools.querySelector<HTMLInputElement>('[data-glossary-search]')!.addEventListener('input', (e) => { needle = (e.target as HTMLInputElement).value.trim().toLowerCase(); apply(); });
+  }
+  document.addEventListener('astro:page-load', wire);
+</script>
+
+<style>
+  .glossary-lede { color: var(--ink-2); max-width: var(--measure); }
+  .glossary-tools { display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; margin: var(--s-5) 0; }
+  .glossary-tools__units { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+  .glossary-tools__search input { font: inherit; font-family: var(--font-ui); font-size: var(--t-sm); min-height: 44px; width: min(320px, 100%); padding: 0 var(--s-3); border: 1px solid var(--line); border-radius: var(--r-pill); background: var(--paper); color: var(--ink); }
+  .glossary-tools__search input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .glossary-tools__count { margin: 0; font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+  .glossary__letter { font-size: var(--t-xl); }
+  .glossary__list { max-width: var(--measure); margin: 0; }
+  .glossary__row { padding: var(--s-3) 0; border-bottom: 1px solid var(--line); }
+  .glossary__term { font-weight: 600; }
+  .glossary__unit { font-size: var(--t-xs); color: var(--ink-2); font-weight: 400; margin-left: var(--s-2); }
+  .glossary__gloss { margin: var(--s-1) 0 0; }
+  .glossary__example { display: block; color: var(--ink-2); font-size: var(--t-sm); margin-top: var(--s-1); }
+  .glossary__concept { display: inline-block; font-family: var(--font-ui); font-size: var(--t-sm); margin-top: var(--s-1); min-height: 24px; }
+</style>

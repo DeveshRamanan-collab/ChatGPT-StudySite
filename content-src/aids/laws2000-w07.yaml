@@ -1,0 +1,934 @@
+unit: laws2000
+week: 7
+source: raw/laws2000-pil/week-07
+generator: aids-1
+aids:
+  - concept: laws2000-w07-framework-of-state-responsibility
+    plain: 'A state is internationally responsible when conduct attributable to it — an act or an omission — breaches an international obligation it owes. Responsibility brings consequences: stop the wrong and repair it.'
+    concrete: 'The lecturer''s examples of primary rules are the prohibition on using force against another state, or a treaty on the good management of shared water. Those rules say what states must do. State responsibility is the second layer: it tells you when a state has breached such a rule and what follows. In the tutorial, DFAT''s lawyers advising on a pandemic convention walk that path — obligation, breach, attribution, excuses, who may invoke, consequences.'
+    formal: 'Art 1 ARSIWA: "every internationally wrongful act of a State entails its international responsibility". Art 2: an internationally wrongful act exists when conduct consisting of an act or omission is attributable to the state and constitutes a breach of an international obligation owed by it. ARSIWA (ILC, adopted 10 August 2001) is not binding, but many articles appear to codify customary international law.'
+    analogy:
+      text: A sport's rulebook says what players may not do. A separate referee's code says when a foul has happened, whose player committed it, which excuses count, and what the penalty is.
+      maps:
+        - from: the rulebook
+          to: primary rules in treaty and custom (e.g. non-use of force)
+        - from: the referee's code
+          to: the secondary rules of state responsibility in ARSIWA
+        - from: whose player committed it
+          to: attribution (arts 4–11)
+        - from: the penalty
+          to: cessation and reparation (arts 30–31)
+      limits:
+        - 'There is no referee: no central body automatically detects and penalises breaches. Responsibility arises from the wrongful act itself (art 1) and is invoked by states (arts 42, 48).'
+    terms:
+      - term: primary rule
+        gloss: A substantive obligation found in treaty, custom or general principles — e.g. the prohibition on using force. It says what a state must or must not do.
+      - term: secondary rule
+        gloss: 'A rule of state responsibility: it determines when a primary obligation has been breached by a state and the legal consequences of that breach.'
+      - term: internationally wrongful act
+        gloss: Conduct (act or omission) attributable to a state that breaches its international obligation (art 2). Covers crime-like and tort-like wrongs alike.
+      - term: ARSIWA
+        gloss: The ILC's Articles on Responsibility of States for Internationally Wrongful Acts, adopted 10 August 2001. Not a treaty and not binding as such; many articles reflect custom.
+    misconceptions:
+      - claim: ARSIWA binds states as treaty law because it was adopted in 2001.
+        tempting: It is cited article by article, just like a treaty.
+        correction: 'It was adopted by the ILC''s commissioners, not by states: it is not a treaty and not binding as such. It matters because many articles appear to codify customary international law, which does bind.'
+      - claim: An internationally wrongful act needs harm to another state and fault by the responsible state.
+        tempting: Domestic tort law asks about damage and fault.
+        correction: 'Art 2 names only two elements: conduct attributable to the state, and a breach of an international obligation. The type of damage matters later, for the form of reparation.'
+      - claim: State responsibility rules are 'secondary' because they rank below treaties and custom as sources.
+        tempting: '''Secondary'' sounds like a lower rank in art 38.'
+        correction: 'The label is functional: primary rules set substantive obligations; secondary rules determine when they are breached and with what consequences. State responsibility presupposes a primary rule.'
+    socratic:
+      - ask: Australia asks whether another party has breached the pandemic Convention. What is the first question?
+        hint: Step 1.
+        answer: What primary obligation binds that state — here the Convention's articles, such as art 21 on access to vaccines. State responsibility rules are secondary and need a primary rule to work on.
+      - ask: Is a breach on the face of the facts enough to make a state responsible?
+        hint: Art 2 has two elements.
+        answer: No. The conduct must also be attributable to the state. In principle a state answers only for its own conduct, so the prima facie breach must be linked to it.
+      - ask: The breach is attributable. Is the state now necessarily responsible?
+        hint: Step 4.
+        answer: 'Not yet: check whether a circumstance precluding wrongfulness (arts 20–25) applies, such as consent, countermeasures or force majeure.'
+      - ask: If no ground applies, what follows, and who may complain?
+        hint: Step 5.
+        answer: Cessation and non-repetition (art 30) and full reparation (art 31). The injured state may invoke responsibility (art 42); non-injured states only in limited cases (art 48).
+      - ask: A foreign ministry says ARSIWA "is just an ILC document, so nothing in it binds us". Reply?
+        hint: Custom.
+        answer: It is not a treaty and is not binding as such, but many of its articles appear to codify customary international law — courts including the ICJ have said so — and custom binds the state.
+    elements:
+      - name: Primary legal obligation
+        test: 'Identify the substantive rule binding the state: treaty law, customary international law or general principles.'
+      - name: Prima facie breach
+        test: On the given facts, does the conduct — act, omission or composite of acts — breach that obligation, which must bind the state at the time?
+        authorities:
+          - arsiwa-art-12
+          - arsiwa-arts-13-14
+          - arsiwa-art-15
+      - name: Attribution to a state
+        test: 'Is the conduct the state''s: an organ, an empowered entity, a lent organ, ultra vires conduct, instructions or effective control, a successful insurgency, or adoption (arts 4–11)?'
+        authorities:
+          - arsiwa-art-4
+          - arsiwa-art-8
+          - arsiwa-art-11
+      - name: Grounds precluding wrongfulness
+        test: Consent, self-defence, countermeasures, force majeure, distress, necessity (arts 20–25). None excuses breach of a peremptory norm (art 26).
+        authorities:
+          - arsiwa-art-20
+          - arsiwa-art-25
+          - arsiwa-art-26
+      - name: Consequences and invocation
+        test: Cessation and non-repetition (art 30); full reparation (art 31). Invoked by the injured state (art 42) or, in limited cases, others (art 48).
+        authorities:
+          - arsiwa-art-30
+          - arsiwa-art-31
+          - arsiwa-art-42
+          - arsiwa-art-48
+    what-if:
+      - change: The only obligation the state broke is in its own constitution.
+        effect: 'No internationally wrongful act: art 12 looks only at international obligations, and whether domestic law allowed or forbade the conduct is irrelevant. Step 1 fails.'
+      - change: The conduct was by a private company with no link to the state.
+        effect: The breach may be clear, but step 3 fails unless an attribution route applies — empowerment by law (art 5), instructions or effective control (art 8), or adoption (art 11). States answer in principle for their own conduct.
+      - change: The wrongdoer is an international organisation, not a state.
+        effect: 'ARSIWA does not apply directly: it concerns states only. The lecturer notes a separate, almost copied set of draft articles for international organisations.'
+    boundary:
+      - text: A breach of WTO trade obligations.
+        why: Governed by a specialised (lex specialis) regime monitored by its own bodies; this week's general regime of state responsibility is not that regime.
+      - text: A crime-like wrong, such as genocide by a state.
+        why: 'Still an ''internationally wrongful act'': international law draws no distinction between criminal and tort-like wrongs for state responsibility.'
+    transfer:
+      - scenario: Three states sign a treaty to share river-flow data daily. During a drought, State A's water agency — empowered by statute to manage the nation's rivers — stops sending the data.
+        answer: 'Step 1: the treaty obligation to share data. Step 2: stopping is a prima facie breach by omission. Step 3: the agency is empowered by law to exercise governmental authority and acted in that capacity (art 5). Step 4: test only the grounds the facts raise — perhaps necessity (art 25), read narrowly. Step 5: otherwise cessation and reparation (arts 30–31), invoked by the injured parties (art 42).'
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 4–6, 37)
+      - 'Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript (03:00–11:00: legal meaning of state responsibility, primary and secondary rules, general regime, ILC and ARSIWA, two elements, no crime/tort distinction; 46:00–50:00: commentaries and state views)'
+      - 'Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript (37:00–40:00: the five-step graphic)'
+      - Week 07 - Tutorial Task - State Responsibility (questions 1–6)
+    verify: false
+  - concept: laws2000-w07-breach-of-an-international-obligation
+    plain: 'The first element is a breach: the state''s act or omission falls short of an international obligation that bound it when it acted. Treaty or custom, either counts; domestic law is irrelevant.'
+    concrete: 'In October 1946 British warships entered the North Corfu Strait in Albanian waters, a passage swept for mines in 1944 and check-swept in 1945. Two ships struck mines: 45 officers and sailors died and 42 were wounded. Who laid the mines was never established — probably not Albania. But the mine-laying would have been visible from the coast, so Albania knew. Its breach was an omission: it failed to notify shipping and warn the approaching warships.'
+    formal: A breach concerns a primary rule irrespective of its source (art 12 ARSIWA). The obligation must bind the state when the conduct occurs — no retroactivity (arts 13–14; Chagos Advisory Opinion, 2019). Several acts may together amount to a breach (art 15, composite acts). Conduct may be an act or an omission (art 2; Tehran; Corfu Channel, where Albania had to notify shipping and warn the British warships).
+    terms:
+      - term: breach by omission
+        gloss: Failing to do what an obligation requires — e.g. Iran failing to protect the US embassy under the VCDR; Albania failing to warn of mines.
+      - term: composite act (art 15)
+        gloss: A series of acts that individually may not breach an obligation but together do — e.g. pollution that adds up over time.
+      - term: no retroactivity (arts 13–14)
+        gloss: A state breaches an obligation only if it was bound by it when the conduct occurred; becoming bound later does not reach back.
+    misconceptions:
+      - claim: If the state's own parliament authorised the conduct by statute, it cannot be a breach.
+        tempting: Domestic authorisation looks like a complete defence.
+        correction: 'Only international law decides whether there is a breach (art 12). The lecturer: we are not interested in whether domestic law allowed the conduct.'
+      - claim: Once a state ratifies a treaty, it answers under it for its earlier conduct too.
+        tempting: Ratification expresses consent to the whole treaty.
+        correction: 'There is no retroactivity: the obligation must bind the state at the time of the conduct (arts 13–14; Chagos Advisory Opinion).'
+      - claim: Albania was responsible in Corfu Channel because it laid the mines.
+        tempting: Albania lost the case.
+        correction: 'Who laid the mines remained conjecture — probably not Albania. It was responsible for its own omission: knowing of the minefield, it failed to notify shipping and warn the British warships.'
+    socratic:
+      - ask: British warships hit mines in Albanian waters that Albania probably did not lay. Where do you look for a breach?
+        hint: Act or omission?
+        answer: At Albania's own omission. Under art 2, conduct can consist of an act or an omission.
+      - ask: What, according to the ICJ, was Albania obliged to do?
+        hint: Corfu Channel, p 22.
+        answer: Notify shipping in general of the minefield in its waters and warn the approaching British warships of the imminent danger.
+      - ask: How could the Court conclude that Albania knew of the mines?
+        hint: Two kinds of evidence.
+        answer: Evidence of the Albanian Government's attitude, and the fact that the laying of the mines would have been visible from the Albanian coast.
+      - ask: Would it matter whether the duty to warn came from custom rather than a treaty?
+        hint: Art 12.
+        answer: No. A breach concerns a primary rule of international law irrespective of its source — custom or treaty.
+      - ask: Suppose the only treaty on point bound Albania from 1950. Could it breach that treaty in 1946?
+        hint: Arts 13–14.
+        answer: No. The state must be bound by the obligation when the conduct occurs; there is no retroactivity.
+    elements:
+      - name: An international obligation
+        test: Identify a primary rule of international law — treaty, custom or a court decision the state must comply with. A domestic obligation does not count.
+        authorities:
+          - arsiwa-art-12
+      - name: Binding at the time
+        test: The state was under the obligation when the conduct occurred; no retroactivity.
+        cases:
+          - chagos-islands-case
+        authorities:
+          - arsiwa-arts-13-14
+      - name: Conduct not in conformity
+        test: An act, an omission, or a series of acts that together amount to a breach (composite act).
+        cases:
+          - united-states-diplomatic-and-consular-staff-in-tehran-united-states-of-america-v-iran
+          - corfu-channel-case-united-kingdom-v-albania
+        authorities:
+          - arsiwa-art-2
+          - arsiwa-art-15
+    what-if:
+      - change: The host state's police stand by while a crowd storms a foreign embassy.
+        effect: 'A breach by omission, as in Tehran: the VCDR obliges the host state to protect the embassy, and its failure to do so is its own breach — even though the crowd''s acts are not themselves the state''s.'
+      - change: Each monthly discharge into a shared river is small, but over two years the river is badly degraded.
+        effect: 'Consider art 15: one or two discharges may not breach the obligation, but taken together they can amount to a composite breach.'
+      - change: The obligation is in a treaty the state ratified after the conduct.
+        effect: 'No breach of that treaty: arts 13–14 require the obligation to bind the state at the time. Check whether a customary rule bound it then instead.'
+    boundary:
+      - text: A state fails to comply with a decision of the ICJ.
+        why: 'Can engage responsibility: the lecturer says court decisions also matter, and non-compliance could breach an international obligation.'
+      - text: A state adopts a policy other states strongly dislike but breaches no obligation it has accepted.
+        why: 'Outside: responsibility needs a breach of an international obligation; diplomatic disapproval alone is not enough.'
+    transfer:
+      - scenario: Unknown saboteurs plant explosives under a bridge on State A's border, used by State B's trucks. A's border guards see it happen and say nothing; a B convoy is destroyed.
+        answer: Who planted the explosives may never be known; A's breach is its own omission (art 2). On Corfu Channel reasoning, a state that knows of a danger in its territory may be obliged to warn, and may not knowingly allow its territory to be used for acts contrary to other states' rights. The guards are organs (art 4); the duty must have bound A at the time (arts 13–14).
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 7–9)
+      - 'Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript (11:00–19:00: any source, international not domestic, ICJ decisions, no retroactivity, composite acts, omission in Tehran and Corfu Channel)'
+    verify: false
+  - concept: laws2000-w07-attribution-to-the-state
+    plain: Conduct counts as the state's when done by its organs, by bodies the law empowers to exercise governmental authority, by organs lent to it, or by others it directs, controls or later adopts.
+    concrete: 'Students stormed the US embassy in Tehran and took hostages. They were not Iran''s organs, and the government itself had not attacked the embassy. But afterwards Iran issued a decree supporting what the students had done, endorsed it in public statements, and supported keeping the hostages. By acknowledging and adopting the students'' conduct as its own, Iran made it its own: the occupation was attributed to Iran under art 11.'
+    formal: ARSIWA chapter III (arts 4–11). Organs of any branch or level, per internal law (art 4) — exceptionally de facto organs in "complete dependence" (Genocide case, paras 392–393). Entities empowered by law to exercise governmental authority, acting in that capacity (art 5); lent organs (art 6); ultra vires conduct (art 7; Velásquez Rodríguez); instructions, direction or control (art 8); successful insurgents (art 10); adoption (art 11).
+    analogy:
+      text: An employer answers for staff doing their jobs, even when they break the rulebook; for an outside contractor only if it ordered and steered that very job; for a stranger only if it later says, "That was us."
+      maps:
+        - from: staff doing their jobs
+          to: organs and empowered entities acting in that capacity (arts 4–5)
+        - from: even when they break the rulebook
+          to: ultra vires conduct (art 7)
+        - from: a contractor it ordered and steered
+          to: instructions or effective control (art 8)
+        - from: '"That was us"'
+          to: acknowledgement and adoption (art 11)
+      limits:
+        - Organ status follows the state's internal law (art 4(2)), not an employment contract — and only exceptionally a body's real dependence.
+        - 'There is no general rule that a state answers for its nationals: in principle it answers only for its own conduct.'
+    terms:
+      - term: state organ (art 4)
+        gloss: Any person or entity with that status under internal law — legislative, executive, judicial or other, central or territorial (e.g. an Australian state's police).
+      - term: de facto organ
+        gloss: An entity not an organ under internal law but acting in "complete dependence" on the state, merely its instrument. Exceptional (Genocide case, paras 392–393).
+      - term: ultra vires (art 7)
+        gloss: Conduct exceeding authority or contravening instructions. Still attributed if the organ or entity acted in that capacity (Velásquez Rodríguez).
+      - term: acknowledgement and adoption (art 11)
+        gloss: Conduct not otherwise attributable becomes the state's if and to the extent it acknowledges and adopts it as its own — e.g. Iran's decree in Tehran.
+    misconceptions:
+      - claim: If soldiers disobey express orders, their conduct is private and not the state's.
+        tempting: They defied the state, so they were not acting for it.
+        correction: 'Art 7: conduct of an organ acting in that capacity is attributed "even if it exceeds its authority or contravenes instructions" (Velásquez Rodríguez, para 170).'
+      - claim: Once an entity is empowered under art 5, everything it does is the state's.
+        tempting: Legal empowerment seems to be the whole link.
+        correction: Art 5 also requires the entity to be acting in that capacity in the particular instance. An airline's border-check role does not make its commercial flights governmental.
+      - claim: A militia the state funds or trains is automatically a de facto organ.
+        tempting: Funding suggests a very close link.
+        correction: De facto organ status needs "complete dependence", making the entity merely the state's instrument, and is exceptional (Genocide case, paras 392–393).
+    socratic:
+      - ask: Police of an Australian state torture a foreign national. Whose conduct is it under international law?
+        hint: Art 4 — territorial units.
+        answer: Australia's. Art 4 attributes the conduct of any state organ, whether of the central government or a territorial unit, whatever its position.
+      - ask: By statute a private company runs an immigration detention centre, and its guards mistreat detainees. Which article?
+        hint: Not an organ, but empowered by law.
+        answer: 'Art 5: the company is empowered by the state''s law to exercise elements of governmental authority, and the guards act in that capacity.'
+      - ask: The guards ignored company rules forbidding force. Does that break attribution?
+        hint: Art 7.
+        answer: No. Conduct is still attributed if the entity acts in that capacity, even if it exceeds its authority or contravenes instructions.
+      - ask: Rebels commit abuses, then win the civil war and form the new government. Is the state responsible?
+        hint: Art 10(1).
+        answer: 'Yes: the conduct of an insurrectional movement which becomes the new government is an act of that state. Had they lost, a good-faith state would not answer for them.'
+      - ask: Students with no link to the state seize an embassy; the government then issues a decree approving the occupation. Which route?
+        hint: After the fact.
+        answer: 'Art 11: the state acknowledges and adopts the conduct as its own, as Iran did in Tehran.'
+    elements:
+      - name: Organ (art 4)
+        test: An organ of any branch or level under internal law; exceptionally a de facto organ acting in complete dependence on the state.
+        cases:
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+        authorities:
+          - arsiwa-art-4
+      - name: Governmental authority (art 5)
+        test: Not an organ, but empowered by the state's law to exercise elements of governmental authority, and acting in that capacity in the particular instance.
+        authorities:
+          - arsiwa-art-5
+      - name: Lent organ (art 6)
+        test: An organ placed at the state's disposal by another state, exercising the receiving state's governmental authority.
+        authorities:
+          - arsiwa-art-6
+      - name: Ultra vires (art 7)
+        test: An organ or art 5 entity acting in that capacity is attributed even if it exceeds its authority or contravenes instructions.
+        cases:
+          - velasquez-rodriguez-v-honduras
+        authorities:
+          - arsiwa-art-7
+      - name: Instructions or control (art 8)
+        test: A private person or group acting on the state's specific instructions, or under its effective control of the operation.
+        cases:
+          - nicaragua-v-united-states-of-america
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+        authorities:
+          - arsiwa-art-8
+      - name: Insurgency or adoption (arts 10–11)
+        test: A movement that becomes the new government or forms a new state; or conduct the state acknowledges and adopts as its own.
+        cases:
+          - united-states-diplomatic-and-consular-staff-in-tehran-united-states-of-america-v-iran
+        authorities:
+          - arsiwa-art-10
+          - arsiwa-art-11
+    what-if:
+      - change: The New Zealand police sent to Australia stay under New Zealand's orders, not Australia's.
+        effect: Art 6 needs the lent organ to act in the exercise of the receiving state's governmental authority, under its control. If New Zealand still directs them, their conduct stays New Zealand's under art 4.
+      - change: The rebel movement is defeated, and the state fought it in good faith throughout.
+        effect: 'Not attributable: the lecturer says a good-faith state is not accountable for insurgents. Art 10 applies only if the movement becomes the new government or establishes a new state.'
+      - change: Iran had merely expressed sympathy for the students, without endorsing or continuing the occupation.
+        effect: Art 11 needs the state to acknowledge and adopt the conduct "as its own". Sympathy alone falls short; Iran's decree and support for keeping the hostages went much further.
+    boundary:
+      - text: State A helps State B breach an obligation they both owe (art 16).
+        why: 'A is not given B''s whole breach: the lecturer says the aiding state answers only for the part relating to the aid it gave.'
+      - text: State A coerces State B into breaching an obligation (art 18).
+        why: The coerced state's conduct is attributed to the coercing state, which is held responsible for it.
+    transfer:
+      - scenario: A state's law authorises a private company to run passport checks at its land border. A company officer, told never to detain anyone, locks a foreign traveller in a cell for three days.
+        answer: 'Attributable to the state. The company is not an organ, but it is empowered by law to exercise elements of governmental authority — border control — and the officer acted in that capacity (art 5). That he contravened instructions does not matter: art 7 attributes ultra vires conduct of an art 5 entity acting in that capacity (Velásquez Rodríguez).'
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 8, 10–14, 19–21)
+      - 'Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript (19:00–31:00: general rule, art 4 organs and de facto organs, art 5, art 6, art 7 and Velásquez Rodríguez; 38:00–44:00: insurgents, art 11 and Tehran, arts 16–18)'
+    verify: false
+  - concept: laws2000-w07-effective-control-and-private-conduct
+    plain: Under art 8, private people's conduct is the state's only if the state instructed that very conduct or effectively controlled the operation in which it happened. Funding, training and arming a group is not enough.
+    concrete: 'After the Sandinista regime took power in Nicaragua, the US cut relations, stopped aid and backed the contras, a paramilitary group trying to overthrow it. The US financed, trained, supplied and equipped them and helped identify their targets. Yet the ICJ (1986) held that even this "preponderant or decisive" participation did not make the contras'' violations America''s: the US would need effective control of the operations in which the violations were committed.'
+    formal: 'Art 8 ARSIWA: conduct is the state''s if the person or group "is in fact acting on the instructions of, or under the direction or control of, that State in carrying out the conduct". Nicaragua (ICJ 1986, para 115): effective control of the operations in which violations occurred. Tadić (ICTY 1999, para 117) proposed overall control; the Genocide case (ICJ 2007) rejected it and applied effective control as custom.'
+    analogy:
+      text: A puppeteer answers for the puppet's moves only if her hand is on the strings during that scene. Having built, painted and paid for the puppet is not enough.
+      maps:
+        - from: the puppeteer
+          to: the state
+        - from: the puppet
+          to: the private person or group
+        - from: hand on the strings during that scene
+          to: instructions for, or effective control of, the specific operation
+        - from: building, painting, paying
+          to: financing, training, supplying, equipping (Nicaragua)
+      limits:
+        - A puppet has no will of its own. A group that truly has none — complete dependence — may be a de facto organ under art 4, a separate and exceptional test.
+    terms:
+      - term: effective control
+        gloss: The state's control over the specific operation in the course of which the violation was committed (Nicaragua, para 115). A very high threshold.
+      - term: overall control
+        gloss: 'The ICTY''s less demanding test in Tadić (1999): control may vary with the circumstances. Rejected by the ICJ for state responsibility in 2007.'
+      - term: instructions (art 8)
+        gloss: Very specific instructions relating to the very conduct in breach and to each operation — not general or vague directions.
+    misconceptions:
+      - claim: Preponderant or decisive funding and training of a group makes its acts the state's.
+        tempting: The support is what made the group effective.
+        correction: 'Nicaragua: even preponderant or decisive participation in financing, training, supplying, equipping and choosing targets was insufficient; effective control of the operations was required (para 115).'
+      - claim: Since Tadić, overall control is the test for attributing private conduct.
+        tempting: Tadić (1999) came after Nicaragua (1986).
+        correction: 'The ICJ in the Genocide case (2007) rejected overall control — it "stretches too far, almost to breaking point" the link to the state — and applied effective control: the law as it stands now.'
+      - claim: General instructions, such as to overthrow a government, satisfy the instructions limb.
+        tempting: They show the group is serving the state's aims.
+        correction: Instructions must be very specific, relating to the very conduct in breach and to each operation — not general and vague (lecture; Nicaragua; Genocide case).
+    socratic:
+      - ask: A state funds, trains and arms a rebel group abroad and helps choose its targets. The rebels massacre villagers. Is the massacre the state's?
+        hint: Nicaragua, para 115.
+        answer: Not on that alone. In Nicaragua such support, even preponderant or decisive, was insufficient for attribution under art 8.
+      - ask: What more must be proved?
+        hint: Look at the operation, not the group.
+        answer: Specific instructions for that very attack, or effective control of the operation in the course of which the massacre was committed.
+      - ask: Couldn't a lower "overall control" test apply instead?
+        hint: Tadić, then 2007.
+        answer: 'The ICTY proposed it in Tadić (1999), but the ICJ rejected it in the Genocide case (2007): it broadens responsibility beyond the principle that a state answers only for its own conduct.'
+      - ask: Why, says the lecturer, did this question come to the fore after 9/11?
+        hint: Al-Qaeda and Afghanistan.
+        answer: Al-Qaeda operated mostly from Afghanistan under the Taliban. Could Afghanistan be responsible for its attacks? Under art 8 that needs instructions or effective control — a very high threshold.
+      - ask: A defence ministry orders a hired militia to attack a named village on a set date and directs the attack in real time. Result?
+        hint: Both limbs.
+        answer: 'Attributable under art 8: specific instructions for the operation and effective control while it was carried out.'
+    elements:
+      - name: A private person or group
+        test: The actor is neither an organ (art 4) nor an empowered entity (art 5); otherwise use those routes.
+        authorities:
+          - arsiwa-art-8
+      - name: Instructions
+        test: Very specific instructions relating to the very conduct in breach, for each operation — not general and vague.
+        cases:
+          - nicaragua-v-united-states-of-america
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+        authorities:
+          - arsiwa-art-8
+      - name: Or direction and control
+        test: Effective control over the operation in the course of which the violation was committed; direction and control are now assessed together.
+        cases:
+          - nicaragua-v-united-states-of-america
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+        authorities:
+          - arsiwa-art-8
+      - name: Not overall control
+        test: Overall control of the group (Tadić) is not enough for state responsibility; effective control reflects customary law in art 8.
+        cases:
+          - prosecutor-v-dusko-tadic
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+    what-if:
+      - change: The question arises in an international criminal tribunal, not the ICJ.
+        effect: In Tadić the ICTY said the degree of control may vary, and a less demanding overall control test suits areas like international humanitarian and criminal law. For state responsibility the ICJ still applies effective control.
+      - change: The group is shown to act in "complete dependence" on the state, merely its instrument.
+        effect: It may then be a de facto organ under art 4 (Genocide case, paras 392–393), and its conduct is the state's as an organ's — but such a finding is exceptional.
+      - change: The state neither instructed nor controlled the attack, but afterwards publicly endorsed it and protected the perpetrators.
+        effect: Art 8 still fails, but art 11 may attribute the conduct if and to the extent the state acknowledges and adopts it as its own (as Iran did in Tehran).
+    boundary:
+      - text: 'Nicaragua: the US-backed contras.'
+        why: 'Out: financing, organising, training, supplying, equipping and choosing targets were insufficient without effective control of the operations (para 115).'
+      - text: A hired militia ordered to attack a named village and directed in real time.
+        why: 'In: specific instructions for, and effective control over, that operation satisfy art 8.'
+    storyboard:
+      - caption: Nicaragua sets a high bar (1986)
+        detail: 'ICJ: US support for the contras, even preponderant or decisive, is insufficient; effective control of the operations is required (para 115).'
+      - caption: Backlash
+        detail: Many found the threshold too difficult to meet.
+      - caption: Tadić lowers the bar (1999)
+        detail: 'ICTY Appeals Chamber: the degree of control may vary; overall control suffices, suited to humanitarian and criminal law (para 117).'
+      - caption: ICJ restores effective control (2007)
+        detail: 'Genocide case: overall control stretches the link "almost to breaking point"; effective control, reflecting custom in art 8, is the law as it stands now.'
+    transfer:
+      - scenario: State A pays a private hacking group a monthly retainer and supplies its tools. The group, choosing its own targets, shuts down State B's hospital network.
+        answer: Not attributable to A under art 8 on these facts. Funding and equipping, even if decisive, is insufficient (Nicaragua). B must show A gave specific instructions for this attack or had effective control of the operation; overall control will not do (Genocide case). If A later acknowledged and adopted the attack as its own, art 11 could apply.
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 15–18)
+      - 'Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript (30:00–38:00: private conduct and 9/11, instructions, direction and control, Nicaragua, Tadić, Genocide case; 44:00–47:00: use the ARSIWA commentaries for art 8)'
+    verify: false
+  - concept: laws2000-w07-circumstances-precluding-wrongfulness
+    plain: Even when a state's own conduct breaches an obligation, six circumstances can excuse it, working like defences. None of them can excuse breaching a peremptory norm.
+    concrete: 'Hungary and Czechoslovakia agreed by treaty to build a joint system of locks on the Danube for hydroelectricity and navigation. In 1989 Hungary stopped work on its side over ecological concerns. Czechoslovakia responded by diverting the Danube into its own territory and damming it in 1992. The ICJ accepted Hungary had breached the treaty, but held the diversion was not a lawful countermeasure: taking unilateral control of a shared resource deprived Hungary of its equitable share — disproportionate.'
+    formal: 'Arts 20–25 ARSIWA: consent; self-defence in conformity with the UN Charter (art 21, with art 51); countermeasures (arts 22, 49–53: against a responsible state, to induce compliance, proportional, after procedural steps); force majeure (art 23: "absolute and material impossibility", Rainbow Warrior); distress (art 24); necessity (art 25). Art 26: none precludes the wrongfulness of an act contrary to a peremptory norm.'
+    terms:
+      - term: countermeasure
+        gloss: An otherwise wrongful act taken against a responsible state solely to induce it to comply; must be proportional and respect jus cogens and procedure (arts 22, 49–53).
+      - term: reprisal
+        gloss: The lecture's label for a measure that fails the conditions for lawful countermeasures; it does not preclude wrongfulness.
+      - term: force majeure (art 23)
+        gloss: An irresistible force or unforeseen event beyond the state's control making performance materially impossible. Not if the state contributed or assumed the risk.
+      - term: necessity (art 25)
+        gloss: 'Framed in the negative: only way to safeguard an essential interest against a grave and imminent peril, without seriously impairing another''s essential interest.'
+    misconceptions:
+      - claim: Countermeasures may be used to punish the wrongdoing state.
+        tempting: They are a response to a wrong already done.
+        correction: 'Art 49(1): a countermeasure''s only legitimate purpose is to induce the responsible state to comply with its obligations — no other motive or agenda.'
+      - claim: A natural disaster always counts as force majeure.
+        tempting: Floods and tsunamis are the classic example.
+        correction: Not if the state contributed to the situation or assumed the risk, and the bar is "absolute and material impossibility" (Rainbow Warrior). In Serbian Loans even the First World War did not excuse repayment.
+      - claim: Force majeure and necessity are the same excuse under two names.
+        tempting: Both excuse non-performance in emergencies.
+        correction: 'Force majeure is involuntary: performance is materially impossible (art 23). Necessity is a choice to breach a lesser obligation to safeguard an essential interest against grave and imminent peril (art 25).'
+    socratic:
+      - ask: Czechoslovakia diverted the Danube after Hungary stopped work. Which ground might it invoke?
+        hint: A response to another's wrong.
+        answer: 'Countermeasures (art 22): an otherwise wrongful act taken against a responsible state to induce it to comply.'
+      - ask: Was there a prior wrong by Hungary?
+        hint: Art 49(1).
+        answer: Yes. The ICJ accepted that Hungary's refusal to complete the project breached the treaty, so a countermeasure was possible in principle.
+      - ask: Why then did the plea fail?
+        hint: Art 51.
+        answer: Proportionality. Unilaterally taking control of the shared Danube deprived Hungary of its equitable share, with ecological impact — disproportionate.
+      - ask: What else must every countermeasure respect?
+        hint: Arts 50, 52–53.
+        answer: No breach of jus cogens obligations such as the use of force; procedural steps — negotiate, notify, give a chance to cease; and termination once the wrongful act has ceased.
+      - ask: Could Czechoslovakia have relied on necessity instead?
+        hint: Art 25, read narrowly.
+        answer: Only if diversion was the only way to safeguard an essential interest against a grave and imminent peril, without seriously impairing Hungary's essential interest, and it had not contributed to the situation.
+    elements:
+      - name: Consent (art 20)
+        test: Valid, freely given, clearly expressed before or at the time; the act stays within its limits.
+        authorities:
+          - arsiwa-art-20
+      - name: Self-defence (art 21)
+        test: 'A lawful measure in conformity with the UN Charter: an armed attack must have occurred (art 51).'
+        authorities:
+          - arsiwa-art-21
+          - un-charter-art-51
+      - name: Countermeasures (art 22)
+        test: Against a responsible state, to induce compliance; no breach of jus cogens; proportional; negotiate, notify, and stop once the wrong ceases.
+        cases:
+          - gabcikovo-nagymaros-project-hungary-v-slovakia
+        authorities:
+          - arsiwa-art-22
+          - arsiwa-arts-49-53
+      - name: Force majeure (art 23)
+        test: Irresistible force or unforeseen event beyond control making performance materially impossible; not if the state contributed or assumed the risk.
+        cases:
+          - rainbow-warrior-case
+          - serbian-loans-case
+        authorities:
+          - arsiwa-art-23
+      - name: Distress (art 24)
+        test: No other reasonable way to save the author's life or lives in its care; not if the state caused it or the act creates comparable or greater peril.
+        authorities:
+          - arsiwa-art-24
+      - name: Necessity (art 25)
+        test: Only way to safeguard an essential interest against grave and imminent peril; no serious impairment of another's essential interest.
+        cases:
+          - gabcikovo-nagymaros-project-hungary-v-slovakia
+          - construction-of-a-wall-advisory-opinion
+        authorities:
+          - arsiwa-art-25
+      - name: Peremptory norms (art 26)
+        test: No ground precludes the wrongfulness of an act contrary to a peremptory norm of general international law.
+        authorities:
+          - arsiwa-art-26
+    what-if:
+      - change: A military aircraft caught in a storm and low on fuel lands without permission to save its crew.
+        effect: 'Distress (art 24): no other reasonable way of saving lives in the author''s care — the historical case of ships or aircraft in bad weather. It fails if the state caused the distress or the landing creates comparable or greater peril.'
+      - change: The state built the dam in a known flood zone, ignoring warnings and accepting the risk.
+        effect: 'Force majeure is unavailable when the flood breaks the dam: it does not stand where the invoking state contributed to the situation or assumed the risk.'
+      - change: The countermeasure continues after the responsible state has stopped its wrongful act.
+        effect: 'It is no longer lawful: countermeasures must end once the wrongful act ceases (arts 52–53). Measures failing the conditions are reprisals, which do not preclude wrongfulness.'
+    boundary:
+      - text: Consent to another state's use of force on one's territory.
+        why: 'Contested: consent is routine for overflight and rescue at sea, but relying on it to breach the prohibition on the use of force, a peremptory norm, is controversial and unsettled (lecture).'
+      - text: The Wall advisory opinion (2004).
+        why: 'Necessity failed: Israel had other means to protect its essential interests than building the barrier along that route.'
+    transfer:
+      - scenario: A once-in-a-century cyclone destroys State A's only radar station and its backup generators, so for a week A cannot send the airspace data a treaty requires it to share with State B.
+        answer: 'Force majeure (art 23) may preclude wrongfulness: an irresistible force beyond A''s control made performance materially impossible. The threshold is "absolute and material impossibility" (Rainbow Warrior), and the plea fails if A contributed to the situation or assumed the risk. The backup generators suggest A took precautions rather than assuming the risk.'
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 23–32)
+      - 'Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript (02:00–27:00: the six grounds as defences; consent; self-defence and art 51; countermeasures and Gabčíkovo-Nagymaros; arts 49–53; reprisals; force majeure, Serbian Loans and Rainbow Warrior; distress; necessity and the Wall; art 26)'
+    verify: false
+  - concept: laws2000-w07-cessation-and-reparation
+    plain: A state that commits a wrongful act must stop it, give assurances it won't recur where needed, and fully repair the harm — by giving back, paying, or acknowledging the wrong.
+    concrete: 'In 2004 the ICJ found Israel''s construction of a wall in the Occupied Palestinian Territory internationally wrongful. The consequences came in two layers. Cessation: Israel had to stop building, dismantle the portions already built, and offer appropriate assurances and guarantees of non-repetition. Reparation: it had to compensate the natural and legal persons affected by the construction — returning land or paying for the damage.'
+    formal: 'Art 30 ARSIWA: the responsible state must (a) cease the act, if continuing, and (b) offer appropriate assurances and guarantees of non-repetition, if circumstances so require. Art 31: full reparation for the injury, material or moral. Factory at Chorzów (PCIJ 1928): reparation must, as far as possible, wipe out all the consequences of the illegal act. Forms: restitution (art 35), compensation (art 36), satisfaction (art 37).'
+    analogy:
+      text: You knock down a neighbour's fence. Stop leaning on it and promise not to again; stand it back up; if it is smashed, pay for a new one; and apologise for the upset.
+      maps:
+        - from: stop and promise not to again
+          to: cessation and non-repetition (art 30)
+        - from: stand it back up
+          to: restitution in kind (art 35)
+        - from: pay for a new one
+          to: compensation for financially assessable loss (art 36)
+        - from: apologise for the upset
+          to: satisfaction for moral damage (art 37)
+      limits:
+        - Between neighbours an apology is courtesy; in international law satisfaction is a legal form of reparation, and can be a court's judgment declaring the conduct wrongful.
+    terms:
+      - term: restitution (art 35)
+        gloss: 'Reparation in kind: re-establishing the prior situation, e.g. returning property.'
+      - term: compensation (art 36)
+        gloss: Usually money where restitution is not possible; covers material, financially assessable damage — not moral damage.
+      - term: satisfaction (art 37)
+        gloss: 'Repairs moral damage: an apology, an expression of regret, or a court''s judgment declaring the conduct wrongful.'
+      - term: moral damage
+        gloss: Non-material injury, such as an affront to a state's dignity. Part of 'injury' under art 31(2); repaired by satisfaction.
+    misconceptions:
+      - claim: Reparation punishes the wrongdoing state in proportion to its fault.
+        tempting: Large damages can feel punitive.
+        correction: 'Chorzów: reparation restores. It must, as far as possible, wipe out the consequences and re-establish the situation that would in all probability have existed.'
+      - claim: Compensation can repair any injury, including moral damage.
+        tempting: Money seems able to price any harm.
+        correction: Compensation covers only material damage that is financially assessable. Moral damage is repaired through satisfaction (art 37).
+      - claim: Assurances of non-repetition are owed in every case.
+        tempting: Non-repetition sounds universal.
+        correction: Art 30(b) requires them only "if circumstances so require"; cessation under art 30(a) applies where the act is continuing.
+    socratic:
+      - ask: State G unlawfully seizes State H's cultural artefact and still holds it undamaged. What comes first?
+        hint: Is the wrong continuing?
+        answer: 'Cessation: the continuing wrong must stop (art 30(a)), with assurances of non-repetition if circumstances so require (art 30(b)).'
+      - ask: Which form of reparation fits the artefact?
+        hint: In kind.
+        answer: 'Restitution (art 35): return it, re-establishing the situation that would have existed.'
+      - ask: And if the artefact was destroyed while G held it?
+        hint: Restitution is impossible.
+        answer: Compensation (art 36), usually money for the financially assessable material loss. The duty of full reparation does not lapse.
+      - ask: H was also humiliated by the seizure. How is that repaired?
+        hint: Moral damage.
+        answer: 'Satisfaction (art 37): an apology, an expression of regret, or a judgment declaring the conduct wrongful.'
+      - ask: What measures the whole package?
+        hint: Chorzów.
+        answer: 'Full reparation: as far as possible, wipe out all the consequences of the act and re-establish the situation that would, in all probability, have existed.'
+    elements:
+      - name: Cessation (art 30(a))
+        test: If the wrongful act is continuing, the responsible state must cease it.
+        cases:
+          - construction-of-a-wall-advisory-opinion
+        authorities:
+          - arsiwa-art-30
+      - name: Non-repetition (art 30(b))
+        test: Appropriate assurances and guarantees of non-repetition, if circumstances so require.
+        cases:
+          - construction-of-a-wall-advisory-opinion
+        authorities:
+          - arsiwa-art-30
+      - name: Full reparation (art 31)
+        test: Repair all injury, material or moral; wipe out the consequences of the illegal act.
+        cases:
+          - factory-at-chorzow
+        authorities:
+          - arsiwa-art-31
+      - name: The right form (arts 35–37)
+        test: Restitution in kind; compensation for financially assessable loss where restitution is impossible; satisfaction for moral damage.
+        cases:
+          - chagos-islands-case
+        authorities:
+          - arsiwa-arts-35-37
+    what-if:
+      - change: The breach was a one-off act that has already ended.
+        effect: Nothing to cease under art 30(a); assurances of non-repetition only if circumstances so require. Full reparation for the injury caused is still owed (art 31).
+      - change: A circumstance precluding wrongfulness, such as necessity, is established.
+        effect: 'There is no internationally wrongful act, so the consequences in arts 30–31 do not arise: they follow only where no ground precludes wrongfulness.'
+      - change: The only harm is an affront to the injured state's dignity, with no financial loss.
+        effect: Satisfaction (art 37) — an apology, expression of regret, or declaratory judgment — because compensation covers only financially assessable material damage.
+    boundary:
+      - text: Chagos advisory opinion (2019).
+        why: 'The consequence was ending a continuing wrong: the UK had to end its administration of the archipelago and return it to Mauritius as rapidly as possible.'
+      - text: A court's judgment declaring the conduct wrongful, with no payment.
+        why: 'Can itself be satisfaction: the lecture lists a judgment stating the conduct was wrongful as a form of satisfaction for moral damage.'
+    storyboard:
+      - caption: Detachment before independence (1965)
+        detail: The UK agrees with Mauritius to detach the Chagos Archipelago, within negotiations about Mauritius's independence.
+      - caption: A base and deportations
+        detail: The UK declares a new British territory and leases one of the largest islands to the US for a military base; inhabitants are deported and prevented from returning.
+      - caption: The General Assembly asks (2017)
+        detail: The UN General Assembly requests an advisory opinion from the ICJ.
+      - caption: Wrongful; end it (2019)
+        detail: 'The ICJ finds the UK''s continued administration an internationally wrongful act: it must end the administration and return the islands to Mauritius as rapidly as possible.'
+    transfer:
+      - scenario: State A's army occupies a strip of State B's farmland for a year, ruining crops, and flies A's flag over B's border town to mock it. A has now withdrawn.
+        answer: 'The wrong has ended, so cessation is spent; assurances of non-repetition only if circumstances require (art 30(b)). Full reparation (art 31; Chorzów): restitution of anything still held (art 35); compensation for the financially assessable crop losses (art 36); satisfaction — apology, regret or a declaratory judgment — for the moral injury of the flag (art 37).'
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 33–35)
+      - 'Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript (27:00–35:00: cessation and non-repetition, the Wall, art 31 and Chorzów, restitution, compensation and satisfaction, Wall and Chagos as examples)'
+    verify: false
+  - concept: laws2000-w07-invocation-of-responsibility
+    plain: 'Normally only the state owed the broken obligation can complain. Rarely, others can too: members of a group the obligation protects collectively, or any state when the obligation is owed to everyone.'
+    concrete: 'The lecturer''s example: states in a region make a treaty keeping the region free of nuclear weapons. If one party tests a weapon, another party may suffer no direct harm — yet it can invoke the tester''s responsibility, because the obligation is owed to the group and protects their collective interest. And if a state commits genocide, any state may invoke its responsibility: the prohibition of genocide is owed to the international community as a whole.'
+    formal: 'Art 42 ARSIWA: only the state or states whose individual rights were violated — those owed the obligation — may invoke responsibility. Art 48(1): any other state may invoke it if (a) the obligation is owed to a group including it and established for the group''s collective interest, or (b) it is owed to the international community as a whole (erga omnes: Barcelona Traction, ICJ 1970).'
+    terms:
+      - term: injured state (art 42)
+        gloss: A state to which the breached obligation was owed, e.g. under a bilateral or multilateral treaty. It may demand cessation, reparation and so on.
+      - term: obligation erga omnes
+        gloss: 'Owed to the international community as a whole: the right it protects is so important that all states have a legal interest in its protection (Barcelona Traction).'
+      - term: collective-interest obligation (art 48(1)(a))
+        gloss: Owed to a group of states and established to protect the group's collective interest — e.g. a regional nuclear-free zone treaty or regional human rights system.
+    misconceptions:
+      - claim: Any state economically affected by a breach is an 'injured state'.
+        tempting: '''Injury'' sounds like suffering loss.'
+        correction: Under art 42 injury turns on to whom the obligation was owed. A state buying fish from a party to a bilateral fisheries treaty is not injured by the other party's breach.
+      - claim: Any state may invoke responsibility for any breach anywhere.
+        tempting: Erga omnes norms concern everyone.
+        correction: 'The rule limits invocation to injured states (art 42). Art 48 applies only in very limited circumstances: collective-interest or erga omnes obligations.'
+      - claim: A non-injured state invoking an erga omnes breach must show it suffered material harm.
+        tempting: Standing usually follows harm.
+        correction: 'Art 48(1)(b) rests on legal interest, not material injury: the right protected is so important that all states have a legal interest in it (Barcelona Traction).'
+    socratic:
+      - ask: State P breaches a bilateral fisheries treaty with State Q. Who may invoke P's responsibility?
+        hint: To whom was the obligation owed?
+        answer: 'Q, as the injured state under art 42: the obligation was owed to it.'
+      - ask: State R, not a party, buys fish from Q and loses money. Can R invoke?
+        hint: Owed, not merely affected.
+        answer: No. The obligation was owed to Q, not R; and a bilateral fisheries obligation is neither owed to a group for a collective interest nor erga omnes.
+      - ask: State S commits genocide against part of its own population. Can unconnected State T invoke S's responsibility?
+        hint: Art 48(1)(b).
+        answer: Yes. The prohibition of genocide is owed erga omnes — to the international community as a whole — so any state may invoke it.
+      - ask: Why do all states have standing there?
+        hint: Barcelona Traction.
+        answer: 'By its very nature the obligation concerns all states: the right it protects is so important that all have a legal interest in its protection.'
+      - ask: In the tutorial, Australia is party to a 50-state pandemic Convention. If not injured itself, which route is most relevant?
+        hint: A group with a collective interest.
+        answer: 'Art 48(1)(a): an obligation owed to a group of states including Australia, established to protect the group''s collective interest in a coordinated pandemic response.'
+    elements:
+      - name: Injured state (art 42)
+        test: Was the obligation owed to the invoking state, individually or as one of a group of states? If so, it may invoke responsibility.
+        authorities:
+          - arsiwa-art-42
+      - name: Collective interest (art 48(1)(a))
+        test: Owed to a group including the invoking state and established to protect the group's collective interest.
+        authorities:
+          - arsiwa-art-48
+      - name: Erga omnes (art 48(1)(b))
+        test: Owed to the international community as a whole — e.g. non-use of force, the prohibition of aggression and of genocide.
+        cases:
+          - barcelona-traction-case-belgium-v-spain
+        authorities:
+          - arsiwa-art-48
+    what-if:
+      - change: The breached obligation is in a bilateral treaty between the responsible state and the invoking state.
+        effect: 'The invoking state is injured (art 42): the obligation was owed to it, so it may demand cessation and reparation without relying on art 48.'
+      - change: The invoking state is a party to a regional nuclear-free zone treaty, and another party's test does it no direct harm.
+        effect: 'It may still invoke under art 48(1)(a): the obligation is owed to the group of parties and protects their collective interest.'
+      - change: The obligation breached is a rule of international environmental law.
+        effect: The slides list breaches of international environmental law among erga omnes examples, so art 48(1)(b) may give any state standing — but check that the specific obligation is owed to the community as a whole, not to one state.
+    boundary:
+      - text: A bilateral trade or extradition treaty.
+        why: 'Outside art 48: its obligations are owed to the other party, which invokes responsibility as an injured state under art 42.'
+      - text: The prohibition of aggression.
+        why: 'Inside art 48(1)(b): an obligation erga omnes, so non-injured states may invoke responsibility for its breach.'
+    transfer:
+      - scenario: Ten Pacific states conclude a treaty protecting a shared tuna stock for all parties. Party A overfishes, but Party B's own fleet loses nothing. State C, not a party, is outraged and wants to invoke A's responsibility.
+        answer: 'B may invoke under art 48(1)(a): the obligation is owed to the group of parties and established for their collective interest, so B need not be injured. C may not: the obligation is not owed to it, and nothing in the materials makes a regional fisheries obligation erga omnes under art 48(1)(b).'
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slide 36)
+      - 'Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript (35:00–38:00: injured states under art 42; art 48 collective-interest and erga omnes obligations)'
+      - Week 07 - Tutorial Task - State Responsibility (question 5)
+    verify: false
+flows:
+  - slug: is-the-state-internationally-responsible
+    title: Is the state internationally responsible, and who can invoke it?
+    summary: Walks the slides' five steps — primary obligation, breach, attribution, grounds precluding wrongfulness, consequences — and ends with who may invoke responsibility.
+    start: r1
+    concepts:
+      - laws2000-w07-framework-of-state-responsibility
+      - laws2000-w07-breach-of-an-international-obligation
+      - laws2000-w07-circumstances-precluding-wrongfulness
+      - laws2000-w07-cessation-and-reparation
+      - laws2000-w07-invocation-of-responsibility
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slide 37)
+      - Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript (37:00–40:00)
+      - Week 07 - Tutorial Task - State Responsibility
+    nodes:
+      - id: r1
+        kind: ask
+        text: Is there a primary international obligation — treaty or custom — that bound the state when it acted?
+        note: The source does not matter (art 12), but a purely domestic obligation does not count, and there is no retroactivity (arts 13–14; Chagos).
+        cases:
+          - chagos-islands-case
+        authorities:
+          - arsiwa-art-12
+          - arsiwa-arts-13-14
+        branches:
+          - label: 'Yes'
+            to: r2
+          - label: 'No'
+            to: e-none
+      - id: r2
+        kind: ask
+        text: On the facts, is there a prima facie breach — an act, an omission, or a composite of acts?
+        note: 'Omissions count: Iran''s failure to protect the embassy (Tehran); Albania''s failure to warn of mines (Corfu Channel). Several acts may add up (art 15).'
+        concept: laws2000-w07-breach-of-an-international-obligation
+        cases:
+          - united-states-diplomatic-and-consular-staff-in-tehran-united-states-of-america-v-iran
+          - corfu-channel-case-united-kingdom-v-albania
+        authorities:
+          - arsiwa-art-2
+          - arsiwa-art-15
+        branches:
+          - label: 'Yes'
+            to: r3
+          - label: 'No'
+            to: e-none
+      - id: r3
+        kind: ask
+        text: Is the conduct attributable to the state (arts 4–11)?
+        note: Organ, empowered entity, lent organ, ultra vires conduct, instructions or effective control, a successful insurgency, or adoption. Use the attribution flow.
+        concept: laws2000-w07-attribution-to-the-state
+        branches:
+          - label: 'Yes'
+            to: r4
+          - label: 'No'
+            to: e-not-attributable
+      - id: r4
+        kind: ask
+        text: Do the facts raise a circumstance precluding wrongfulness — consent, self-defence, countermeasures, force majeure, distress or necessity?
+        concept: laws2000-w07-circumstances-precluding-wrongfulness
+        branches:
+          - label: 'Yes'
+            to: r5
+          - label: 'No'
+            to: r6
+      - id: r5
+        kind: ask
+        text: Is every condition of that ground met, and does the act respect peremptory norms (art 26)?
+        note: E.g. countermeasures must be proportional (Gabčíkovo-Nagymaros); force majeure needs absolute and material impossibility (Rainbow Warrior); necessity is read narrowly (the Wall).
+        cases:
+          - gabcikovo-nagymaros-project-hungary-v-slovakia
+          - rainbow-warrior-case
+          - construction-of-a-wall-advisory-opinion
+        authorities:
+          - arsiwa-art-26
+        branches:
+          - label: 'Yes'
+            to: e-precluded
+          - label: 'No'
+            to: r6
+      - id: r6
+        kind: step
+        text: An internationally wrongful act is established (art 2), and the state is responsible for it (art 1).
+        authorities:
+          - arsiwa-art-1
+          - arsiwa-art-2
+        next: r7
+      - id: r7
+        kind: step
+        text: 'Consequences: cease a continuing act and give assurances of non-repetition if required (art 30); make full reparation by restitution, compensation or satisfaction (arts 31, 35–37).'
+        note: Reparation must, as far as possible, wipe out all the consequences of the illegal act (Factory at Chorzów).
+        concept: laws2000-w07-cessation-and-reparation
+        cases:
+          - factory-at-chorzow
+        authorities:
+          - arsiwa-art-30
+          - arsiwa-art-31
+          - arsiwa-arts-35-37
+        next: r8
+      - id: r8
+        kind: ask
+        text: Was the obligation owed to the state that wants to invoke responsibility?
+        concept: laws2000-w07-invocation-of-responsibility
+        branches:
+          - label: 'Yes'
+            to: e-injured
+          - label: No — but it was owed to a group with a collective interest, or to all states
+            to: e-art48
+          - label: No — it was owed only to another state
+            to: e-no-standing
+      - id: e-none
+        kind: end
+        tone: not-met
+        text: 'No internationally wrongful act: no binding international obligation has been breached.'
+      - id: e-not-attributable
+        kind: end
+        tone: not-met
+        text: 'No state responsibility for this conduct: it is not the state''s. Check whether the state itself breached a duty by omission, such as failing to protect or to warn.'
+      - id: e-precluded
+        kind: end
+        tone: not-met
+        text: 'Wrongfulness is precluded: the breach is excused, so cessation and reparation do not follow.'
+      - id: e-injured
+        kind: end
+        tone: met
+        text: The injured state may invoke responsibility (art 42) and demand cessation, reparation and so on.
+        authorities:
+          - arsiwa-art-42
+      - id: e-art48
+        kind: end
+        tone: qualified
+        exception: true
+        text: A non-injured state may invoke responsibility — but only in these very limited circumstances (art 48; Barcelona Traction).
+        cases:
+          - barcelona-traction-case-belgium-v-spain
+        authorities:
+          - arsiwa-art-48
+      - id: e-no-standing
+        kind: end
+        tone: not-met
+        text: This state cannot invoke responsibility; the state to which the obligation was owed can.
+  - slug: is-the-conduct-attributable
+    title: Is this conduct attributable to the state?
+    summary: Tests the ARSIWA attribution routes in the order an answer takes them — organ, de facto organ, empowered entity, lent organ, instructions or effective control, insurgency, adoption — and shows that ultra vires acts still count.
+    start: a1
+    concepts:
+      - laws2000-w07-attribution-to-the-state
+      - laws2000-w07-effective-control-and-private-conduct
+    sources:
+      - Week 07 - Lecture Slides - State Responsibility (slides 10–21)
+      - Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript (19:00–44:00)
+    nodes:
+      - id: a1
+        kind: ask
+        text: Is the actor an organ of the state under its internal law — of any branch, at any level?
+        note: Legislative, executive, judicial or other; central or territorial — e.g. an Australian state's police, or a municipality.
+        authorities:
+          - arsiwa-art-4
+        branches:
+          - label: 'Yes'
+            to: a6
+          - label: 'No'
+            to: a2
+      - id: a2
+        kind: ask
+        text: Does the actor act in "complete dependence" on the state, merely its instrument?
+        note: A de facto organ — an exceptional finding (Genocide case, paras 392–393). Funding or training alone does not make a group one.
+        cases:
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+        branches:
+          - label: 'Yes'
+            to: a6
+          - label: 'No'
+            to: a3
+      - id: a3
+        kind: ask
+        text: Is the actor empowered by the state's law to exercise elements of governmental authority?
+        note: E.g. privatised prisons, border management, military or police functions delegated to private entities.
+        authorities:
+          - arsiwa-art-5
+        branches:
+          - label: 'Yes'
+            to: a6
+          - label: 'No'
+            to: a4
+      - id: a4
+        kind: ask
+        text: Is it an organ lent by another state, exercising this state's governmental authority?
+        note: E.g. a health service section sent to fight a disease outbreak, or another state's police placed under this state's control.
+        authorities:
+          - arsiwa-art-6
+        branches:
+          - label: 'Yes'
+            to: e-attributable
+          - label: 'No'
+            to: a5
+      - id: a5
+        kind: ask
+        text: Did the state give specific instructions for, or have effective control of, the operation in which the conduct occurred?
+        note: Financing, training, equipping and choosing targets are not enough (Nicaragua, para 115); overall control was rejected (Genocide case).
+        concept: laws2000-w07-effective-control-and-private-conduct
+        cases:
+          - nicaragua-v-united-states-of-america
+          - application-of-the-genocide-convention-bosnia-and-herzegovina-v-serbia-and-montenegro
+        authorities:
+          - arsiwa-art-8
+        branches:
+          - label: 'Yes'
+            to: e-attributable
+          - label: 'No'
+            to: a7
+      - id: a6
+        kind: ask
+        text: Was it acting in that official or governmental capacity when it acted?
+        authorities:
+          - arsiwa-art-7
+        branches:
+          - label: Yes, within its authority
+            to: e-attributable
+          - label: Yes, but exceeding its authority or against instructions
+            to: e-ultra-vires
+          - label: No — it acted privately
+            to: a5
+      - id: a7
+        kind: ask
+        text: Was the conduct by an insurrectional movement that became the new government or established a new state?
+        note: A state that acted in good faith is otherwise not accountable for insurgents.
+        authorities:
+          - arsiwa-art-10
+        branches:
+          - label: 'Yes'
+            to: e-attributable
+          - label: 'No'
+            to: a8
+      - id: a8
+        kind: ask
+        text: Has the state since acknowledged and adopted the conduct as its own?
+        note: Iran's decree endorsing the students and its support for keeping the hostages (Tehran).
+        cases:
+          - united-states-diplomatic-and-consular-staff-in-tehran-united-states-of-america-v-iran
+        authorities:
+          - arsiwa-art-11
+        branches:
+          - label: 'Yes'
+            to: e-adopted
+          - label: 'No'
+            to: e-not-attributable
+      - id: e-attributable
+        kind: end
+        tone: met
+        text: 'Attributable: the conduct is an act of the state. Move on to grounds precluding wrongfulness.'
+      - id: e-ultra-vires
+        kind: end
+        tone: met
+        exception: true
+        text: 'Still attributable: ultra vires conduct in that capacity counts (art 7; Velásquez Rodríguez).'
+        cases:
+          - velasquez-rodriguez-v-honduras
+        authorities:
+          - arsiwa-art-7
+      - id: e-adopted
+        kind: end
+        tone: met
+        text: Attributable by adoption — if and to the extent the state acknowledges and adopts the conduct (art 11).
+      - id: e-not-attributable
+        kind: end
+        tone: not-met
+        text: 'Not attributable: the state answers only for its own conduct. Ask whether it breached a duty of its own by omission (Tehran; Corfu Channel).'
+        cases:
+          - corfu-channel-case-united-kingdom-v-albania

@@ -1,0 +1,22 @@
+/* "Leave a note for next time" beside Continue on the home page (src/components/HomeStart.tsx, feature 176). */
+.open-thought { margin: var(--s-3) 0 0; font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink-2); max-width: var(--measure); }
+.open-thought__lead { color: var(--ink-2); }
+.open-thought__text { color: var(--ink); font-family: var(--font-body); font-style: italic; overflow-wrap: anywhere; }
+.open-thought__link {
+  display: inline-flex; align-items: center; min-height: 24px; padding: 0; border: 0; background: none; font: inherit; color: var(--ink-2);
+  text-decoration: underline; text-decoration-color: var(--ink-3); text-underline-offset: 3px; cursor: pointer; border-radius: var(--r-sm);
+  transition: color var(--dur-micro) var(--ease-hover), text-decoration-color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+.open-thought__link:active { transform: scale(.97); }
+.open-thought__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.open-thought__link:disabled { color: var(--ink-3); cursor: default; }
+@media (hover: hover) and (pointer: fine) { .open-thought__link:hover { color: var(--ink); text-decoration-color: currentColor; } }
+@media (pointer: coarse) { .open-thought__link { min-height: 44px; } }
+.open-thought__form { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); animation: open-thought-in var(--dur-micro) var(--ease-out); }
+.open-thought__input {
+  flex: 1 1 16rem; min-width: 0; min-height: 44px; padding: 0 var(--s-3); border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--paper); color: var(--ink); font: inherit; font-size: var(--t-sm); transition: border-color var(--dur-micro) var(--ease-hover);
+}
+.open-thought__input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (hover: hover) and (pointer: fine) { .open-thought__input:hover { border-color: var(--ink-3); } }
+@keyframes open-thought-in { from { opacity: 0; } }

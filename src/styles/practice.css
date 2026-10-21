@@ -1,0 +1,105 @@
+/* Practice feedback inside the quiz: kind of error + common mistakes + next steps after a wrong MCQ (AfterWrong.tsx),
+   the hint ladder (HintLadder.tsx) and the IRAC self-check (IracCheck.tsx). Tokens only; quiet by default —
+   ink on paper, sage only on a passed check, no accent (the card's primary button keeps the one accent). */
+
+@keyframes practice-fade { from { opacity: 0; } }
+@keyframes practice-rise { from { opacity: 0; transform: translateY(6px); } }
+
+/* ---------- Disclosure summaries (common mistakes, IRAC details) ---------- */
+.practice-mistakes__summary,
+.irac-check__summary {
+  display: inline-flex; align-items: center; gap: var(--s-2); min-height: 32px; cursor: pointer; list-style: none;
+  font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink-2); border-radius: var(--r-sm);
+  transform-origin: left center;
+  transition: color var(--dur-micro) var(--ease-hover), transform var(--dur-micro) var(--ease-hover);
+  -webkit-tap-highlight-color: transparent;
+}
+.practice-mistakes__summary::-webkit-details-marker,
+.irac-check__summary::-webkit-details-marker { display: none; }
+.practice-mistakes__summary::before,
+.irac-check__summary::before {
+  content: '›'; display: inline-block; width: .6em; color: var(--ink-3); font-size: 1.1em; line-height: 1;
+  transition: transform var(--dur-ui) var(--ease-inout);
+}
+.practice-mistakes[open] > .practice-mistakes__summary::before,
+.irac-check__more[open] > .irac-check__summary::before { transform: rotate(90deg); }
+@media (hover: hover) and (pointer: fine) {
+  .practice-mistakes__summary:hover, .irac-check__summary:hover { color: var(--ink); }
+}
+.practice-mistakes__summary:active, .irac-check__summary:active { transform: scale(.97); transition-duration: var(--dur-press); }
+.practice-mistakes__summary:focus-visible, .irac-check__summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (pointer: coarse) { .practice-mistakes__summary, .irac-check__summary { min-height: 44px; } }
+:root[data-motion='off'] :is(.practice-mistakes__summary, .irac-check__summary)::before { transition: none; }
+
+/* ---------- Kind of error (MCQ, wrong answer) ---------- */
+.practice-diag[data-kind] { font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink); max-width: var(--measure); margin: 0 0 var(--s-2); }
+.practice-diag strong { font-weight: 600; }
+
+/* ---------- Common mistakes on this idea ---------- */
+.practice-mistakes { margin-top: var(--s-4); max-width: var(--measure); }
+.practice-mistakes__list { list-style: none; padding: 0; margin: var(--s-2) 0 0; display: grid; gap: var(--s-4); }
+.practice-mistakes[open] .practice-mistakes__list { animation: practice-fade var(--dur-ui) var(--ease-out) both; }
+.practice-mistakes__item { border-left: 2px solid var(--line); padding-left: var(--s-4); }
+.practice-mistakes .practice-mistakes__item p { margin: 0 0 var(--s-2); }
+.practice-mistakes .practice-mistakes__item p:last-child { margin-bottom: 0; }
+.practice-mistakes__claim { font-style: italic; }
+.practice-mistakes__item .label { display: block; margin-bottom: 2px; }
+
+/* ---------- Next for this idea (practise / contrast / prerequisite) ---------- */
+.after-wrong { margin-top: var(--s-4); padding-top: var(--s-3); border-top: 1px solid var(--line); }
+.after-wrong .after-wrong__label { margin: 0 0 var(--s-1); }
+.after-wrong__list { list-style: none; padding: 0; margin: 0; }
+.after-wrong__link {
+  display: inline-flex; align-items: center; gap: var(--s-2); min-height: 36px; font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui);
+  transform-origin: left center; transition: transform var(--dur-micro) var(--ease-hover), text-decoration-color var(--dur-micro) var(--ease-hover);
+  -webkit-tap-highlight-color: transparent;
+}
+.after-wrong__link::after { content: '→'; color: var(--ink-3); transition: transform var(--dur-micro) var(--ease-hover); }
+@media (hover: hover) and (pointer: fine) {
+  .after-wrong__link:hover { text-decoration-color: currentColor; }
+  :root[data-motion='full'] .after-wrong__link:hover::after { transform: translateX(2px); }
+}
+.after-wrong__link:active { transform: scale(.97); transition-duration: var(--dur-press); }
+.after-wrong__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: var(--r-sm); }
+@media (pointer: coarse) { .after-wrong__link { min-height: 44px; } }
+
+/* ---------- Hint ladder ---------- */
+.hint-ladder { margin-top: var(--s-3); }
+.hint-ladder__bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); }
+.hint-ladder .hint-ladder__btn { padding: 0 var(--s-4); margin-left: calc(-1 * var(--s-4)); }
+.hint-ladder .hint-ladder__btn[aria-disabled='true'] { --_bg: transparent; --_bd: transparent; cursor: default; }
+@media (hover: hover) and (pointer: fine) {
+  .hint-ladder .hint-ladder__btn[aria-disabled='true']:hover { background: transparent; transform: none; box-shadow: none; }
+}
+.hint-ladder .hint-ladder__btn[aria-disabled='true']:active { transform: none; }
+.hint-ladder__count { margin: 0; font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.hint-ladder__rungs { list-style: none; padding: 0; margin: var(--s-2) 0 0; display: grid; gap: var(--s-2); max-width: var(--measure); }
+.hint-ladder__rung {
+  padding: var(--s-3) var(--s-4); background: var(--paper-2); border-left: 2px solid var(--line); border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  font-size: var(--t-sm); line-height: 1.55; animation: practice-rise var(--dur-ui) var(--ease-out) both;
+}
+:root[data-motion='calm'] .hint-ladder__rung { animation-name: practice-fade; }
+:root[data-motion='off'] .hint-ladder__rung { animation: practice-fade 150ms linear both; }
+.hint-ladder__rung p { margin: 0 0 var(--s-1); }
+.hint-ladder__rung > :last-child { margin-bottom: 0; }
+.hint-ladder .hint-ladder__label { margin-bottom: var(--s-1); }
+.hint-ladder__nudge { color: var(--ink-2); font-style: italic; }
+.hint-ladder__items { margin: 0; padding-left: 1.25em; }
+.hint-ladder__opening { font-style: italic; }
+.hint-ladder__used { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin: 0; }
+
+/* ---------- IRAC self-check (problem questions, marking step) ---------- */
+.irac-check { margin: 0 0 var(--s-5); padding: var(--s-4) var(--s-5); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper); }
+.irac-check .irac-check__title { margin: 0 0 var(--s-1); font-size: var(--t-lg); }
+.irac-check__lede { margin: 0 0 var(--s-3); font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.irac-check__list { list-style: none; padding: 0; margin: 0; }
+.irac-check__item { display: grid; grid-template-columns: 1.25em minmax(0, 1fr); gap: var(--s-2); padding: var(--s-2) 0; border-top: 1px solid var(--line); }
+.irac-check__mark { font-family: var(--font-ui); font-size: var(--t-sm); line-height: 1.5; color: var(--ink-3); text-align: center; }
+.irac-check__item[data-ok] .irac-check__mark { color: var(--sage); }
+.irac-check__body { min-width: 0; }
+.irac-check .irac-check__line { margin: 0; font-size: var(--t-sm); line-height: 1.5; }
+.irac-check__name { font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 600; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+.irac-check__more[open] .irac-check__items { animation: practice-fade var(--dur-ui) var(--ease-out) both; }
+.irac-check__items { margin: var(--s-1) 0 var(--s-2); padding-left: 1.25em; font-size: var(--t-sm); line-height: 1.5; color: var(--ink-2); max-width: var(--measure); }
+.irac-check__items li + li { margin-top: var(--s-1); }
+@media (max-width: 479px) { .irac-check { padding: var(--s-3) var(--s-4); } }

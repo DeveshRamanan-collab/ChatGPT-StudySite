@@ -1,0 +1,788 @@
+unit: laws2000
+week: 5
+source: raw/laws2000-pil/week-05
+generator: aids-1
+aids:
+  - concept: laws2000-w05-il-perspective-on-national-law
+    plain: 'In international law, a state''s own law is no excuse: if the state breaks an international obligation, it is in breach, whatever its domestic law says.'
+    concrete: 'The lecturer sets the two perspectives side by side. Suppose an Australian statute clearly authorises conduct that breaches one of Australia''s treaty obligations. In an Australian court the clear statute wins: international law cannot override clear and valid Australian law. But internationally Australia is still in breach — art 27 VCLT stops it pleading its own law, and under art 3 of the ILC articles the act''s lawfulness at home does not change its wrongfulness.'
+    formal: 'VCLT art 27: "A party may not invoke the provisions of its internal law as justification for its failure to perform a treaty". Art 46: consent given in breach of internal competence rules stands unless the violation was "manifest" (objectively evident) and concerned a rule "of fundamental importance". ILC Draft Articles on State Responsibility (2001) art 3: wrongfulness "is governed by international law".'
+    analogy:
+      text: A football club's own constitution may allow something the league's rules forbid. If the club does it, the league still penalises the club — "our constitution allowed it" is no answer.
+      maps:
+        - from: the club's constitution
+          to: the state's internal law
+        - from: the league's rules
+          to: international law
+        - from: the league's penalty
+          to: state responsibility for an internationally wrongful act
+      limits:
+        - A league has an authority above the clubs to impose penalties; international law is horizontal, with no superior authority above states.
+    terms:
+      - term: internal law
+        gloss: A state's own domestic law — constitution, statutes, regulations, court decisions. Its absence or contrary content does not justify failing to perform a treaty (art 27).
+      - term: manifest violation (art 46(2))
+        gloss: A breach of internal competence rules that would be objectively evident to any state conducting itself in accordance with normal practice and in good faith.
+      - term: ILC Draft Articles on State Responsibility (2001)
+        gloss: Not binding as an ILC product, but mostly recognised as representing customary international law — which is why art 3 matters.
+    misconceptions:
+      - claim: A state escapes a treaty if the official who consented lacked authority under its domestic law.
+        tempting: Consent given by someone without authority seems no consent at all.
+        correction: 'Art 46 VCLT: the state may not invoke that breach unless the violation was manifest (objectively evident) and concerned a rule of its internal law of fundamental importance. An ordinary breach is not enough.'
+      - claim: If a state's highest court upholds the conduct as lawful, it is lawful internationally too.
+        tempting: A final ruling of the state's top court feels decisive.
+        correction: 'ILC art 3: characterising an act as internationally wrongful is governed by international law and "not affected by the characterization of the same act as lawful by internal law".'
+      - claim: From international law's view, national law is irrelevant for every purpose.
+        tempting: The slide says national law is "(mostly) irrelevant" to international obligations.
+        correction: Only mostly. National law fulfils obligations, is evidence of state practice and opinio juris, national decisions are subsidiary sources, and it helps interpret international law and identify general principles.
+    socratic:
+      - ask: State H says it cannot perform a treaty because its parliament never passed implementing legislation. Does that excuse it?
+        hint: Art 27 VCLT.
+        answer: No. A party may not invoke its internal law — including the absence of a law — as justification for failing to perform a treaty.
+      - ask: H adds that its ambassador signed without the full powers its constitution requires. Which article now?
+        hint: This is about consent, not performance.
+        answer: 'Art 46: consent given in breach of internal competence rules stays valid unless the violation was manifest and concerned a rule of fundamental importance.'
+      - ask: When is a violation 'manifest'?
+        hint: Art 46(2).
+        answer: When it would be objectively evident to any state conducting itself in accordance with normal practice and in good faith — a high bar.
+      - ask: Suppose the breach is of custom, not a treaty. What answers "our law allows it"?
+        hint: ILC 2001, art 3.
+        answer: 'Art 3: whether an act is internationally wrongful is governed by international law, unaffected by its lawfulness under internal law. The articles are mostly recognised as customary.'
+      - ask: Does that make national law irrelevant to international law?
+        hint: Slide 7 lists four roles.
+        answer: No. National law fulfils obligations, evidences state practice and opinio juris, national decisions are subsidiary sources, and it helps interpret international law and identify general principles.
+    elements:
+      - name: Treaty non-performance (art 27)
+        test: Internal law — including its absence or a contradictory provision — is no justification for failing to perform a treaty.
+        authorities:
+          - vclt-art-27
+      - name: Defective consent (art 46)
+        test: Consent given in breach of internal rules on competence binds unless the violation was manifest (objectively evident) and concerned a rule of fundamental importance.
+        authorities:
+          - vclt-art-46
+      - name: Any international obligation (ILC art 3)
+        test: Wrongfulness is characterised by international law and is not affected by the act's lawfulness under internal law.
+        authorities:
+          - ilc-draft-articles-on-state-responsibility-2001-art-3
+    what-if:
+      - change: The ambassador's lack of authority was objectively evident to the other parties and breached a constitutional rule of fundamental importance.
+        effect: 'Now art 46''s narrow exception may apply: a manifest violation of a rule of fundamental importance can be invoked as invalidating the state''s consent.'
+      - change: A new government says it is not bound because the previous government skipped a parliamentary vote required only by an ordinary statute.
+        effect: Not released. Skipping an ordinary statutory step is unlikely to be a manifest violation of a rule of fundamental importance, and the state — not the government of the day — is bound.
+      - change: The state's highest court upholds the statute authorising the conduct.
+        effect: 'Domestically the statute may stand, but internationally nothing changes: under ILC art 3, lawfulness under internal law does not affect whether the act is internationally wrongful.'
+    boundary:
+      - text: The ILC Draft Articles on State Responsibility themselves.
+        why: Not binding as an ILC product, yet mostly recognised as customary international law — so art 3 binds states through custom.
+      - text: A court examining a state's statutes to identify a customary rule.
+        why: National law matters internationally here — as evidence of state practice and opinio juris, not as an excuse for breach.
+    transfer:
+      - scenario: A state's environment ministry approves dumping waste into a shared river, as its statute allows, though a treaty with its neighbour forbids it. When the neighbour protests, the ministry replies that the dumping is fully lawful at home.
+        answer: Domestic legality is beside the point. Art 27 VCLT bars the state from invoking its internal law to justify failing to perform the treaty, and under ILC art 3 the act's wrongfulness is governed by international law, unaffected by its lawfulness under internal law. The state is in breach.
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 4–7)
+      - 'Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript (02:00–13:00: sovereign equality recap, arts 27 and 46 VCLT, ILC art 3, roles of national law)'
+    verify: false
+  - concept: laws2000-w05-monism-and-dualism
+    plain: Monism treats international and national law as one legal system, so courts can apply international law directly. Dualism treats them as separate, so international law must first be turned into national law.
+    concrete: 'Germany''s Basic Law art 25 makes the general rules of international law "an integral part of federal law" that take precedence over the laws and directly create rights and duties — no Act needed: monism. The Netherlands blends the two: Parliament must approve treaties (art 91), but once published, treaty provisions binding on all persons apply (art 93) and override conflicting statutory regulations (art 94). Australia, like the UK and Canada, leans dualist.'
+    formal: 'Monism: one normative legal order; international law has direct effect (incorporation), the same authority as national law, and conflicts are resolved "frequently in favour of international law"; often civil law. Dualism: distinct orders; only national law has domestic force, so international law must be transformed; inconsistencies do not arise; often common law. "In reality, blends of the two theories characterise" most domestic legal orders (slide 8).'
+    analogy:
+      text: Plugging in an overseas appliance. In one house the socket takes any plug and it works at once; in another you need an adapter before it will run.
+      maps:
+        - from: the overseas appliance
+          to: a rule of international law
+        - from: the universal socket
+          to: a monist system (direct effect)
+        - from: the adapter
+          to: transforming legislation in a dualist system
+      limits:
+        - In a monist system a clash between two rules still needs priority rules to resolve it; a socket never has to choose between appliances.
+        - Real systems are blends — few 'houses' are purely one type.
+    terms:
+      - term: incorporation (direct effect)
+        gloss: International law applying in the domestic legal order without any transforming step — the monist mechanism.
+      - term: transformation
+        gloss: Turning international law into national law, usually by legislation, before it has domestic effect — the dualist mechanism.
+      - term: ideal types
+        gloss: 'Abstract models: no state applies either theory perfectly; most systems blend them while leaning one way.'
+    misconceptions:
+      - claim: Monism works by transformation and dualism by incorporation.
+        tempting: Both words appear on the same slide, and the labels are easy to swap.
+        correction: Reversed. Monism gives international law direct effect (incorporation); dualism requires it to be transformed into domestic law.
+      - claim: Because Australia is dualist, international law has no relevance in Australian courts.
+        tempting: Dualism says only national law has force domestically.
+        correction: Courts may refer to international law and interpret Australian law consistently with Australia's obligations where possible (Practitioner's Guide). It informs, even when it does not directly apply.
+      - claim: Under dualism, international law usually prevails over national law.
+        tempting: That is international law's own view of the relationship.
+        correction: Dualism treats the orders as distinct; only national law has domestic force, so national law usually has priority, and inconsistencies "do not arise".
+    socratic:
+      - ask: Germany's art 25 makes general rules of international law part of federal law, taking precedence over statutes and directly creating rights. Which theory?
+        hint: Is any legislative step needed?
+        answer: 'Monism: international law has direct effect (incorporation) with no Act required, and it prevails over the laws.'
+      - ask: Under monism, can a statute clash with international law?
+        hint: One legal order.
+        answer: Yes. Because both sit in one order, inconsistencies arise and must be resolved — frequently in favour of international law.
+      - ask: Why does a dualist say such clashes "do not arise"?
+        hint: Two orders, different subjects and purposes.
+        answer: The systems are distinct; only national law has domestic force, and it usually has priority, so there is nothing to reconcile inside the domestic order.
+      - ask: The Netherlands requires parliamentary approval, then lets published treaties override statutes. Which theory?
+        hint: Dutch arts 91, 93 and 94.
+        answer: A blend. Approval (art 91) has a dualist flavour, but no replicating law is needed and treaties prevail over conflicting statutes (arts 93–94) — monist in effect.
+      - ask: Which theory best reflects Australia (tutorial question 1)?
+        hint: Dietrich; the Practitioner's Guide.
+        answer: 'Primarily dualist: treaties must be transformed and clear Australian law prevails — though courts may refer to international law and read Australian law consistently with it.'
+    what-if:
+      - change: Country X's constitution says ratified treaties form part of the law of the land and prevail over inconsistent statutes.
+        effect: 'X leans monist: treaties take direct effect without case-by-case transformation, and conflicts are resolved in the treaty''s favour.'
+      - change: Australia's Parliament passes an Act reproducing a treaty in full.
+        effect: 'That is transformation, the dualist route: the Act, not the treaty, gives the rules domestic force — and an Act reproducing treaty text is read in line with the treaty (Applicant A).'
+    boundary:
+      - text: The Netherlands (Constitution arts 91, 93, 94).
+        why: 'Neither pure type: parliamentary approval is required, but published treaties bind all persons and override statutes without any replicating law.'
+      - text: Australian courts using a treaty to read an ambiguous statute.
+        why: 'Not monism: the treaty is an aid to reading national law, not law applied directly; Australia stays primarily dualist.'
+    transfer:
+      - scenario: A newly independent state is drafting its constitution. One draft says treaties apply in its courts only once Parliament enacts them; another says ratified treaties bind everyone once published and override statutes. A minister asks which model each reflects.
+        answer: 'The first is dualist: international law needs transformation before it has domestic effect, and national law keeps priority, as in Australia. The second is close to monism, or the blended Dutch model: published treaties bind all persons (art 93) and override conflicting statutory regulations (art 94).'
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 8–10, 28)
+      - 'Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript (13:00–20:00: monism and dualism as ideal types, Germany art 25, Dutch arts 91–94)'
+      - Week 05 - Tutorial Tasks - International and National Law and Jurisdiction (Q1)
+    verify: false
+  - concept: laws2000-w05-treaties-in-australian-law
+    plain: In Australia the executive makes treaties, but a treaty is not part of Australian law until Parliament legislates for it. Ratification alone gives no one rights a court can enforce.
+    concrete: 'Dietrich was tried without legal representation. He argued that Australia had ratified the ICCPR, which guarantees a fair trial and free legal assistance in certain cases (art 14(3)(d)), so he should have had publicly funded counsel. On that argument the High Court disagreed: ratification is an executive act with no direct legal effect on domestic law, and the ICCPR''s rights are not part of Australian law until specific legislation implements them — and none had been passed.'
+    formal: 'Constitution s 51(xxix): Parliament may legislate on "external affairs"; s 61: the executive concludes treaties; s 75(i): High Court original jurisdiction in "matters arising under a treaty". Treaties lack direct effect, apart from a very limited class (some peace and boundary treaties): ratification "has no direct legal effect upon domestic law" until legislation implements it (Dietrich v The Queen (1992) 177 CLR 292, Mason CJ and McHugh J).'
+    terms:
+      - term: external affairs power (s 51(xxix))
+        gloss: 'Parliament''s power to legislate on external affairs: implementing treaty or customary obligations, matters affecting relations with international persons, or matters of "international concern" (Koowarta).'
+      - term: direct effect
+        gloss: A treaty applying in domestic law without legislation. Treaties have none in Australia, apart from a very limited class such as certain peace and boundary treaties.
+      - term: methods of transformation
+        gloss: New legislation; amending existing Acts; scheduling (not full incorporation); relying on existing legislation; or giving the treaty force of law (DPIA 1967 s 7).
+      - term: '''device'' (Tasmanian Dam Case)'
+        gloss: Using the external affairs power as no more than a pretext to legislate on a state matter — probably not legitimate.
+    misconceptions:
+      - claim: Once Australia ratifies a treaty, its rights can be enforced in Australian courts.
+        tempting: Australia is bound by the treaty internationally from ratification.
+        correction: 'Dietrich: ratification "has no direct legal effect upon domestic law"; the rights are not incorporated "unless and until specific legislation is passed implementing the provisions".'
+      - claim: The external affairs power cannot reach matters the Constitution leaves to the states, such as dams.
+        tempting: That was Tasmania's argument, and federal balance seems to require it.
+        correction: 'The Tasmanian Dam majority upheld the Commonwealth law: the dam was normally a state matter, but being party to the World Heritage Convention let the Commonwealth legislate — unless the power is used as a mere device.'
+      - claim: Scheduling a treaty to an existing Act fully incorporates it into Australian law.
+        tempting: The treaty's full text then appears in the statute book.
+        correction: 'Slide 18: scheduling a treaty to an existing Act "does not constitute full incorporation". A schedule alone does not create justiciable rights.'
+    socratic:
+      - ask: Australia ratifies Treaty T, which gives a right to a free interpreter, but passes no legislation. Priya relies on T in court. Does she win?
+        hint: Dietrich.
+        answer: No. Ratification is an executive act with no direct legal effect on domestic law; T's rights are not part of Australian law until legislation implements them.
+      - ask: Which constitutional power lets the Commonwealth pass that legislation?
+        hint: Not s 61.
+        answer: 'Section 51(xxix), the external affairs power: legislation giving effect to treaty obligations is a valid use. Section 61 only vests treaty-making in the executive.'
+      - ask: The subject is normally a state matter, like a dam. Does that block Commonwealth legislation?
+        hint: The Tasmanian Dam Case.
+        answer: No. Being party to the World Heritage Convention let the Commonwealth stop Tasmania's dam — unless the treaty is a mere device to exercise legislative power, which would probably not be legitimate.
+      - ask: How can Parliament give T domestic effect?
+        hint: The five methods on slide 18.
+        answer: New legislation, amending existing legislation, relying on legislation already giving effect, or giving T the force of law, as DPIA s 7 does. Merely scheduling it is not full incorporation.
+    elements:
+      - name: Treaty made by the executive
+        test: The executive concludes treaties (s 61). Ratification binds Australia internationally but has no direct domestic effect.
+        cases:
+          - dietrich-v-the-queen
+        authorities:
+          - australian-constitution-cth-s61
+      - name: Commonwealth power to implement
+        test: 'Parliament legislates under s 51(xxix): treaty or customary obligations, relations with international persons, or matters of "international concern" — but not as a mere device.'
+        cases:
+          - new-south-wales-v-commonwealth
+          - koowarta-v-bjelke-petersen
+          - commonwealth-v-tasmania
+        authorities:
+          - australian-constitution-cth-s51-xxix
+      - name: Transformation by legislation
+        test: New Act, amendment, existing legislation, or giving force of law (DPIA 1967 s 7). Scheduling alone is not full incorporation.
+        authorities:
+          - diplomatic-privileges-and-immunities-act-1967-cth-s7
+      - name: Exception — direct effect
+        test: Only a very limited class of treaties, such as certain peace and boundary treaties, applies without legislative implementation.
+    what-if:
+      - change: The Commonwealth relies on a treaty only as a pretext to regulate a purely local matter, with no genuine link to the treaty's obligations.
+        effect: 'Probably invalid: the Tasmanian Dam majority said use of the external affairs power that is no more than a device to exercise legislative power would probably not be legitimate.'
+      - change: Parliament had given the ICCPR's fair-trial provisions the force of law before Dietrich's trial.
+        effect: 'Then the rights would be part of Australian law and could be relied on in court: transformation by legislation, not ratification, gives a treaty domestic effect.'
+      - change: The treaty in question is a boundary treaty.
+        effect: It may belong to the very limited class of treaties directly applicable without legislative implementation, such as certain peace and boundary treaties.
+    boundary:
+      - text: A treaty scheduled to an Act.
+        why: 'Partly in: it appears in the statute book, but scheduling does not constitute full incorporation, so on its own it creates no justiciable rights.'
+      - text: Legislation on a matter of 'international concern' with no treaty behind it.
+        why: 'Inside s 51(xxix): Koowarta lists international concern as a valid use, alongside treaty and customary obligations.'
+    transfer:
+      - scenario: Australia ratifies a convention requiring parties to ban a dangerous pesticide, but passes no Act. A neighbour sues a farmer for still using it, relying on the convention. Later a Commonwealth Act bans the pesticide, and a state challenges it as a state matter.
+        answer: 'The neighbour fails: ratification has no direct domestic effect (Dietrich). The Commonwealth Act is likely valid under s 51(xxix) because it gives effect to a treaty obligation — as in the Tasmanian Dam Case, even on a matter normally for the states — unless it is a mere device.'
+    sources:
+      - 'Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 13–18, incl. image slide 18: DPIA s 7)'
+      - 'Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript (20:00–36:00: ss 51(xxix), 61, 75(i), the Tasmanian Dam Case, Dietrich, methods of transformation)'
+    verify: false
+  - concept: laws2000-w05-international-law-in-australian-interpretation
+    plain: Australian courts read unclear laws, where possible, so they fit Australia's international obligations. But if the words are clear, the words win — even if they breach international law.
+    concrete: 'The lecturer stresses timing. Under s 15AB a treaty can help interpret an Act only if Australia was a party, or was contemplating becoming one, when the Act was passed. And obligations are identified as they exist when the interpretive question arises: a treaty that enters into force tomorrow cannot guide a case arising today. Even then, a treaty only helps with unclear words — it cannot change words that are otherwise clear (Yager).'
+    formal: 'A statute incorporating treaty text is read in line with the treaty unless a contrary intention appears (Applicant A). Acts Interpretation Act 1901 (Cth) s 15AB(2)(d): a treaty may assist if Australia participated before enactment, to confirm ordinary meaning or resolve ambiguity, obscurity or manifest absurdity. It cannot modify otherwise clear words (Yager, Mason J). Presumptions: consistency with international law (Jumbunna; not against clear words: Polites); legality (Coco).'
+    analogy:
+      text: 'A dictionary: you consult it when a word could mean two things, to pick the right meaning. You do not use it to change a word whose meaning is already plain.'
+      maps:
+        - from: a word with two meanings
+          to: an ambiguous or obscure statutory provision
+        - from: consulting the dictionary
+          to: using a treaty under s 15AB or the Jumbunna presumption
+        - from: a word with a plain meaning
+          to: clear words that no treaty can modify (Yager; Polites)
+      limits:
+        - Any dictionary will do for a word; a treaty counts under s 15AB only if Australia participated, or contemplated participating, before the Act was passed.
+    terms:
+      - term: s 15AB Acts Interpretation Act 1901 (Cth)
+        gloss: 'Lets extrinsic material, including treaties, assist interpretation: to confirm ordinary meaning, or where an Act is ambiguous, obscure or manifestly absurd.'
+      - term: Jumbunna presumption
+        gloss: 'In a case of ambiguity, courts favour the construction that accords with international law. A presumption only: it yields to clear contrary legislation (Polites).'
+      - term: principle of legality
+        gloss: Courts will not impute to Parliament an intention to curtail fundamental rights and freedoms unless clearly manifested by unambiguous language (Coco).
+      - term: Practitioner's Guide to International Law
+        gloss: 'Law Society NSW (2014): eight principles on international law in Australian law — e.g. Parliament may legislate in breach, "taking the risk of international complications".'
+    misconceptions:
+      - claim: A treaty can modify clear statutory words if it gives individuals better protection.
+        tempting: Courts favour readings consistent with international law and protective of rights.
+        correction: A treaty "cannot qualify or modify the meaning of legislative words or expressions which are otherwise clear" (Yager, Mason J). The presumptions apply only to ambiguity (Polites).
+      - claim: Under s 15AB, any treaty Australia has ratified can be used whenever an Act is ambiguous.
+        tempting: Ambiguity is one of the s 15AB triggers.
+        correction: 'There is also a timing condition: Australia must have participated, or contemplated participating, in the treaty before the Act was enacted.'
+      - claim: The High Court accepts that international law can guide interpretation of the Constitution.
+        tempting: Kirby J argued for it in several cases.
+        correction: There is no majority support. McHugh J in Al-Kateb called it "heretical" — in effect amending the Constitution without a referendum.
+    socratic:
+      - ask: An Act reproduces a treaty article word for word. How is it read?
+        hint: Applicant A.
+        answer: In line with the meaning given to it in the treaty, unless the legislator expressed a contrary intention.
+      - ask: Another Act uses an ambiguous word. Can a treaty help under s 15AB?
+        hint: Two conditions.
+        answer: Yes, if Australia participated, or contemplated participating, before the Act was enacted, and the Act is ambiguous or obscure (or the treaty confirms ordinary meaning, or avoids a manifestly absurd result).
+      - ask: Leaving s 15AB aside, does the common law help?
+        hint: Jumbunna; Coco.
+        answer: Yes. Courts favour a construction consistent with international law where an Act is ambiguous (Jumbunna), and will not read an Act as curtailing fundamental rights without unambiguous language (Coco).
+      - ask: The Act clearly authorises detention that breaches a treaty. Now?
+        hint: Yager; Polites.
+        answer: Clear words win. A treaty cannot modify clear words (Yager), and the Jumbunna presumption does not apply to clear contrary legislation (Polites). Australia may still be in breach internationally.
+      - ask: Could the detainee argue the Constitution must be read consistently with international law?
+        hint: Newcrest against Al-Kateb.
+        answer: Only Kirby J espoused that (Newcrest). McHugh J called it "heretical" (Al-Kateb), and there is no majority support.
+    elements:
+      - name: Statute incorporating treaty text
+        test: Read in line with the meaning given in the treaty, unless the legislator expressed a contrary intention.
+        cases:
+          - applicant-a-v-minister-for-immigration-and-ethnic-affairs
+      - name: Section 15AB
+        test: A treaty may assist if Australia participated or contemplated participating before enactment, and it confirms ordinary meaning or the Act is ambiguous, obscure or manifestly absurd.
+        authorities:
+          - acts-interpretation-act-1901-cth-s15ab
+      - name: Common law presumptions
+        test: In ambiguity, prefer the construction consistent with international law (Jumbunna); do not read an Act as curtailing fundamental rights without unambiguous language (Coco).
+        cases:
+          - jumbunna-coal-mine-nl-v-victoria-coal-miners-association
+          - coco-v-the-queen
+      - name: Clear words prevail
+        test: A treaty cannot modify otherwise clear words (Yager); the presumption yields to clear contrary legislation (Polites). Parliament may legislate in breach.
+        cases:
+          - yager-v-the-queen
+          - polites-v-commonwealth
+        authorities:
+          - law-society-nsw-practitioners-guide-to-international-law-2014
+    what-if:
+      - change: Australia first considered joining the treaty eight years after the Act was passed.
+        effect: 'Under s 15AB the treaty cannot assist: Australia must have participated, or contemplated participating, before the Act was enacted.'
+      - change: The detention provision is ambiguous rather than clear.
+        effect: 'The Jumbunna presumption applies: the court should favour the reading that accords with international law, s 15AB may let the treaty be consulted, and Coco protects personal liberty.'
+      - change: The relevant treaty enters into force tomorrow; the case arises today.
+        effect: 'It cannot guide today''s case: obligations are identified as they exist when the interpretive question arises (Practitioner''s Guide; lecture example).'
+    boundary:
+      - text: 'Kirby J in Newcrest: the Constitution accommodates international law "to the full extent that its text permits".'
+        why: 'Outside accepted doctrine: no majority support, and McHugh J (Al-Kateb) called the approach heretical.'
+      - text: Parliament deliberately legislating in breach of a treaty.
+        why: 'Valid domestically — clear Australian law prevails — but Parliament takes "the risk of international complications": Australia may be in breach internationally.'
+    transfer:
+      - scenario: A 2015 Act lets officials "remove" non-citizens. A treaty Australia joined in 2005 bars returning people to places where they face serious harm. An official argues "remove" lets him send someone to such a place.
+        answer: If "remove" is ambiguous on this point, the treaty can assist under s 15AB — Australia was a party before enactment — and the Jumbunna presumption favours the reading consistent with Australia's obligations; Coco also protects fundamental rights. If the Act clearly authorised it, clear words would prevail (Yager; Polites).
+    objections:
+      - position: International law should inform interpretation of the Constitution (Kirby J, Newcrest).
+        evidence: The Constitution "speaks to the international community as the basic law of the Australian nation", and international law is a legitimate influence, especially where it declares universal and fundamental rights.
+        objection: 'McHugh J (Al-Kateb): this is "heretical" — it amends the Constitution without a public referendum, and international rules differ qualitatively from political, social and economic developments.'
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 12, 19–20, 26–27)
+      - 'Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript (35:00–40:00 and 45:00–51:00: incorporated text, s 15AB, the two presumptions, Kirby J and McHugh J, the Practitioner''s Guide)'
+    verify: false
+  - concept: laws2000-w05-customary-international-law-in-australian-law
+    plain: It is unsettled whether customary international law automatically forms part of Australian law. Either way, it yields to statutes and settled common law, and a customary crime needs legislation before courts can try it.
+    concrete: 'Members of an Aboriginal community claimed that sponsoring Native Title Act amendments, and failing to seek World Heritage listing of the Lake Eyre region, were acts of genocide. Australia was party to the Genocide Convention, but genocide was not yet a crime in Australian law. They argued genocide was part of customary international law, so Australian courts could try it anyway. The Federal Court disagreed: even accepting the prohibition is jus cogens, without legislation it had no effect in Australian law.'
+    formal: 'Transformation: custom becomes Australian law only when formally adopted by Parliament or the courts. Incorporation: custom is automatically a source of Australian law unless a rule is to the contrary. Australia has adopted neither clearly; but custom "cannot generally be adopted where inconsistent with domestic legislation or essential common law doctrine". Criminal norms need legislation (Nulyarimma v Thompson [1999] 96 FCR 153, Wilcox J). Teoh: no "back door" importation.'
+    terms:
+      - term: doctrine of transformation
+        gloss: Custom becomes Australian law only when formally adopted by Parliament or by the courts as part of the common law.
+      - term: doctrine of incorporation
+        gloss: Custom is automatically a source of Australian law, unless there is a rule to the contrary.
+      - term: jus cogens
+        gloss: A peremptory norm of general international law, such as the prohibition of genocide — accepted as such in Nulyarimma, yet still not triable without legislation.
+      - term: Merkel J's criteria
+        gloss: 'Dissent in Nulyarimma: general acceptance by nations; reception, not inconsistent with statute or declared common law; then a true declaration of the common law from when the rule was established.'
+    misconceptions:
+      - claim: Australia has clearly adopted the doctrine of incorporation for custom.
+        tempting: Custom is often described as binding automatically, unlike treaties.
+        correction: Australia has not clearly adopted either approach; both transformation and incorporation have been recognised in High Court decisions.
+      - claim: Because the prohibition of genocide is jus cogens, Australian courts could try genocide without legislation.
+        tempting: A peremptory norm sounds strong enough to apply anywhere.
+        correction: 'Nulyarimma: the Federal Court accepted the prohibition is jus cogens but held that, without implementing legislation, it had no effect on Australian law. Criminal norms need legislation.'
+      - claim: Courts can develop the common law to give effect to any treaty Australia has ratified.
+        tempting: Brennan J said the common law may have to "march in step" with international law.
+        correction: Influence, yes; importation, no. Judicial development "must not be seen as a back door means of importing an unincorporated convention into Australian law" (Mason CJ and Deane J, Teoh).
+    socratic:
+      - ask: Applicants say genocide is a customary crime Australian courts can try without legislation. What is the first doctrinal question?
+        hint: Transformation or incorporation?
+        answer: How custom enters Australian law. Under transformation it needs adoption by Parliament or the courts; under incorporation it is automatically a source unless a contrary rule exists. Australia has not settled which.
+      - ask: Does it matter that the prohibition of genocide is jus cogens?
+        hint: What did the Federal Court accept?
+        answer: No. The Court accepted the prohibition is jus cogens, but held that without implementing legislation it had no effect on Australian law.
+      - ask: Why did Wilcox J treat a criminal rule differently from, say, foreign sovereign immunity?
+        hint: Civil versus criminal norms.
+        answer: Treating a civil rule as domestic law is one thing; letting a domestic court try and punish conduct that domestic law does not make punishable is another. A criminal norm needs legislation.
+      - ask: For a civil customary rule that no statute contradicts, what test could counsel use?
+        hint: Merkel J, dissenting.
+        answer: General acceptance by the community of nations; reception — not inconsistent with statute or declared common law; and, once received, a true declaration of the common law as from the date the rule was established.
+    elements:
+      - name: General acceptance
+        test: The customary rule has "attained ... general acceptance by ... the community of nations" (Merkel J).
+        cases:
+          - nulyarimma-v-thompson
+      - name: Consistent with domestic law
+        test: Custom cannot generally be adopted where inconsistent with domestic legislation or essential common law doctrine; inconsistent rules may only be enacted by legislation.
+        cases:
+          - nulyarimma-v-thompson
+      - name: Not a criminal norm without legislation
+        test: A customary crime cannot be tried and punished by an Australian court unless legislation makes it an offence (Wilcox J).
+        cases:
+          - nulyarimma-v-thompson
+      - name: Reception and timing
+        test: Once received, the rule is a true declaration of the common law, taken to have been received as from the date it was established (Merkel J).
+        cases:
+          - nulyarimma-v-thompson
+    what-if:
+      - change: Parliament had amended the Criminal Code to make genocide an offence before the proceedings began.
+        effect: The crime would then exist in Australian law by legislation — transformation — and an Australian court could try it under that legislation. The Code was later amended for the Genocide Convention.
+      - change: The customary rule relied on is a civil rule, such as foreign sovereign immunity.
+        effect: Wilcox J suggested courts may treat such a rule as part of domestic law, whether by incorporation or judicial transformation; the bar on unlegislated criminal norms would not apply.
+      - change: A statute directly contradicts the customary rule.
+        effect: Whichever doctrine applies, custom cannot generally be adopted where inconsistent with domestic legislation; the statute prevails.
+    boundary:
+      - text: 'Brennan J in Mabo (No 2): the common law may have "to march in step with international law".'
+        why: 'Inside the broadly accepted view: international law is a legitimate influence on developing the common law.'
+      - text: 'Teoh: judicial development is not "a back door means of importing an unincorporated convention".'
+        why: 'The narrower limit: international law may fill gaps in the common law, but not smuggle in an unincorporated treaty.'
+    transfer:
+      - scenario: Activists ask an Australian court to convict an Australian resident of a crime that exists only in customary international law; no Australian statute makes it an offence. They argue custom is automatically part of the common law.
+        answer: Even on the incorporation view, Nulyarimma shows an Australian court cannot try and punish a customary criminal norm without legislation making it an offence — even a jus cogens norm such as genocide. The court would decline; Parliament would need to legislate first.
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 21–25, 27)
+      - 'Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript (40:00–46:00: transformation and incorporation, Nulyarimma, Merkel J''s criteria, Mabo and Teoh)'
+    verify: false
+  - concept: laws2000-w05-forms-of-jurisdiction
+    plain: 'Jurisdiction is a state''s power over people and conduct, in three forms: making law, enforcing it and judging cases. Laws may reach abroad; enforcement on another state''s soil needs its permission.'
+    concrete: In 1960 a Mossad team went to Argentina, captured the former Nazi officer Adolf Eichmann and smuggled him to Israel without the Argentine authorities' consent. He was tried in Israel for crimes against humanity and war crimes, and executed in 1962. Whatever Israel's power to prosecute, the capture was unauthorised enforcement in another state's territory — a serious violation of Argentina's sovereignty. The Security Council asked Israel to offer compensation.
+    formal: 'Jurisdiction is "the lawful power of a State to define and enforce the rights and duties, and control the conduct, of natural and juridical persons" (Oxman). Prescription: international law leaves states "a wide measure of discretion", limited by prohibitive rules (Lotus (1927) 19). Enforcement: failing "a permissive rule to the contrary", a state "may not exercise its power in any form in the territory of another State" (18).'
+    analogy:
+      text: Your house rules can say "no smoking, even at a friend's place". But you cannot walk into your neighbour's house to confiscate a guest's cigarettes.
+      maps:
+        - from: writing the house rules
+          to: jurisdiction to prescribe
+        - from: enforcing them in your own home
+          to: enforcement on the state's own territory
+        - from: entering the neighbour's house
+          to: enforcement in another state's territory — unlawful without permission
+      limits:
+        - House rules bind only your household; a state prescribing for conduct abroad still needs a recognised ground — territory, nationality, protection or universality — where a foreign element exists.
+    terms:
+      - term: jurisdiction to prescribe
+        gloss: Making national law applicable to persons, property and activities — by legislation, executive act, regulation or court determination.
+      - term: jurisdiction to enforce
+        gloss: 'The executive putting laws into operation: arrest, seizure, freezing assets, fines, remand and imprisonment. The most intrusive form.'
+      - term: jurisdiction to adjudicate
+        gloss: Domestic courts' power to hear and bindingly decide legal disputes. In principle territorial.
+      - term: sovereignty
+        gloss: Supreme authority within a territory, subject to international requirements; a description of statehood, not a precondition for it (Besson).
+    misconceptions:
+      - claim: Lotus says a state may not extend its laws abroad unless a permissive rule allows it.
+        tempting: Lotus does mention a permissive rule.
+        correction: That is the enforcement rule. For prescription, Lotus says international law leaves states "a wide measure of discretion", limited only by prohibitive rules. Prescription abroad is free unless prohibited; enforcement abroad is prohibited unless permitted.
+      - claim: Imprisoning a convicted thief is adjudicative jurisdiction, because a court imposed the sentence.
+        tempting: Courts hand down sentences.
+        correction: Slide 38 lists imposing imprisonment and custody on remand as enforcement. The prosecution in court is adjudication; criminalising theft is prescription.
+      - claim: A state's courts can never sit outside its territory.
+        tempting: Adjudicative jurisdiction is in principle territorial.
+        correction: 'By agreement they can: after Lockerbie, a special Scottish court sat at Camp Zeist in the Netherlands, applying Scottish law, under a 1998 UK–Netherlands agreement.'
+    socratic:
+      - ask: Parliament makes theft a crime. Which form of jurisdiction is that?
+        hint: Making law.
+        answer: 'Prescriptive jurisdiction: making national law applicable to persons and conduct.'
+      - ask: Police arrest a suspect, who is held on remand, prosecuted, convicted and imprisoned. Which forms appear?
+        hint: Who acts at each step?
+        answer: Arrest, remand and imprisonment are enforcement, by the executive. The criminal prosecution in court is adjudication.
+      - ask: Can a state make its criminal law apply to conduct abroad?
+        hint: Lotus, page 19.
+        answer: 'In principle yes: international law leaves states "a wide measure of discretion", limited only by prohibitive rules — though with a foreign element a recognised ground is needed.'
+      - ask: Can its police then arrest the suspect inside another state?
+        hint: Lotus, page 18; Eichmann.
+        answer: Not without a permissive rule, such as the other state's consent by treaty or agreement. Israel's capture of Eichmann in Argentina violated Argentina's sovereignty.
+      - ask: Can a state's courts ever sit abroad?
+        hint: Lockerbie.
+        answer: 'Exceptionally, by agreement: under a UK–Netherlands agreement a special Scottish court sat at Camp Zeist in the Netherlands, applying Scottish law.'
+    elements:
+      - name: Prescription
+        test: Power to make law applicable to persons, property and activities. It may reach abroad unless a prohibitive rule applies (Lotus, 19).
+        cases:
+          - ss-lotus-france-v-turkey
+      - name: Enforcement
+        test: Executive acts such as arrest, seizure and fines. Free on the state's own territory; in another state's territory only with a permissive rule (Lotus, 18).
+        cases:
+          - ss-lotus-france-v-turkey
+      - name: Adjudication
+        test: Courts hearing and bindingly deciding disputes. In principle territorial; exceptionally abroad by agreement (Lockerbie).
+    what-if:
+      - change: Argentina had agreed, by treaty or later agreement, to let Israeli agents arrest Eichmann.
+        effect: 'The capture would not have breached Argentina''s sovereignty: with the territorial state''s permission, enforcement in its territory is possible.'
+      - change: There had been no UK–Netherlands agreement for the Lockerbie trial.
+        effect: 'A Scottish court could not simply sit in the Netherlands: adjudication is in principle territorial, and exercising power in another state''s territory needs a permissive rule.'
+    boundary:
+      - text: The Lockerbie trial at Camp Zeist.
+        why: 'An exception to territorial adjudication: Scottish judges applied Scottish law in the Netherlands, made lawful by the UK–Netherlands agreement of 1998.'
+      - text: A statute making conduct by a state's nationals abroad a crime.
+        why: 'Prescription abroad: lawful in principle under Lotus, supported here by nationality — but enforcing it inside another state would still need that state''s permission.'
+    transfer:
+      - scenario: State R's tax agency learns a fraudster is hiding in State S. R's agents fly to S, seize his laptop and freeze his local bank account without telling S.
+        answer: R may prescribe tax offences reaching conduct abroad on a recognised ground, but seizing property and freezing assets is enforcement. Under Lotus (18), failing a permissive rule, a state may not exercise its power in any form in another state's territory. Like Eichmann's capture, this violates S's sovereignty and territorial integrity.
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 30–38)
+      - 'Week 05 - Lecture Recording (Online) - International and National Law and Jurisdiction - Full Transcript (00:00–20:00: definition, sovereignty, the three forms, Lotus, Eichmann, Lockerbie, the theft example)'
+      - Week 05 - Tutorial Tasks - International and National Law and Jurisdiction (Q2)
+    verify: false
+  - concept: laws2000-w05-grounds-of-jurisdiction
+    plain: 'With a foreign element, a state needs a recognised link: where the crime happened, who committed it, who suffered, a threat to the state, or a crime so grave any state may act.'
+    concrete: In 1988 Pan Am Flight 103, from Heathrow to New York, exploded over Lockerbie in Scotland, killing 259 people aboard and 11 on the ground; many passengers were American. The bomb was dispatched from Malta by Libyan nationals, passed through Frankfurt and was loaded at Heathrow. The UK claimed objective territorial jurisdiction because the bomb exploded in UK airspace; the US and UK sought extradition; Libya asserted jurisdiction over its nationals.
+    formal: 'To assert prescriptive jurisdiction over a "foreign element", a state must justify a ground: territoriality (fundamental; objective and subjective); active nationality (nationality: "a genuine connection of existence, interests and sentiments", Nottebohm); passive personality (US v Yunis — controversial, subsidiary); protection (genuine threat to a vital security interest); universality (piracy; genocide, war crimes, crimes against humanity, torture: Geneva Convention IV art 146).'
+    terms:
+      - term: objective territoriality
+        gloss: Jurisdiction over an offence completed on the territory even though some elements took place abroad — the UK's basis at Lockerbie.
+      - term: subjective territoriality
+        gloss: Jurisdiction over offences initiated or planned on the territory; important against transnational crime such as cybercrime.
+      - term: passive personality
+        gloss: Jurisdiction because the victim is a national (US v Yunis). Controversial — better as a subsidiary ground.
+      - term: concurring jurisdiction
+        gloss: Several states with grounds over one matter. No universally binding rule resolves it; treaties may require consultation (Cybercrime Convention art 22(5)).
+    misconceptions:
+      - claim: Active nationality lets a state prosecute anyone who harms its nationals abroad.
+        tempting: Both principles turn on a national.
+        correction: Active nationality turns on the offender's nationality. Jurisdiction based on the victim's nationality is passive personality — controversial and better as a subsidiary ground.
+      - claim: A state's territorial jurisdiction covers only its own citizens.
+        tempting: States are closely tied to their nationals.
+        correction: Territoriality covers all acts committed on the territory and everyone located there; citizenship is not required (the lecturer's Greek domestic violence example).
+      - claim: Universal jurisdiction lets any state try any serious crime, wherever the accused is.
+        tempting: '"Universal" sounds unlimited.'
+        correction: It covers listed grave offences — piracy, genocide, war crimes, crimes against humanity, torture. Without a treaty it is controversial, so states usually require the accused's presence (e.g. Criminal Code Div 268).
+    socratic:
+      - ask: Miss Shorttempered, in Greece, posts poisoned olive oil to Mr Tindercrush in London, who dies. What grounds does the UK have?
+        hint: Where was the crime completed? Who was the victim?
+        answer: Objective territoriality, as the offence was completed in the UK; and passive personality, as the victim was a UK national — though that is a weaker, subsidiary ground.
+      - ask: What grounds does Greece have?
+        hint: Where was it initiated? Who is the offender?
+        answer: Subjective territoriality, as the offence was initiated in Greece; and active nationality, as she is a Greek national.
+      - ask: Mr Brawel, an Australian, seriously injures two Americans holidaying in Bali. Who can act?
+        hint: Place, offender, victims.
+        answer: Indonesia on territoriality; Australia on active nationality; the US only on passive personality, which is controversial and better as a subsidiary ground.
+      - ask: An XWZ member who tortured civilians and committed crimes against humanity in State A flees to Germany. Can Germany act without a territorial or nationality link?
+        hint: Which crimes need no link?
+        answer: 'Yes, on universal jurisdiction: crimes against humanity and torture are offences any state may prosecute. His presence in Germany supplies the territorial link states usually require.'
+      - ask: Several states can claim the same case. Which goes first?
+        hint: Slide 49.
+        answer: No universally binding rule decides. Treaties may require consultation (Cybercrime Convention art 22(5)); usually the state with the closest link is best placed to investigate and try.
+    elements:
+      - name: Territoriality
+        test: 'All acts on the territory and everyone located there, citizen or not. Cross-border: objective (completed there) or subjective (initiated or planned there).'
+      - name: Active nationality
+        test: The offender is a national, acting abroad. States largely decide who their nationals are; dual nationals can face both states.
+        cases:
+          - nottebohm-case
+      - name: Passive personality
+        test: The victim is a national (US v Yunis). Controversial; better as a subsidiary ground.
+        cases:
+          - us-v-yunis
+      - name: Protection
+        test: 'Acts abroad by non-citizens posing a genuine threat to a vital security interest: counterfeiting currency, espionage, coups, attacks on diplomats.'
+      - name: Universality
+        test: Piracy, genocide, war crimes, crimes against humanity, torture — no link needed. Without a treaty it is controversial, so presence is usually required.
+        authorities:
+          - geneva-convention-iv-art-146
+          - criminal-code-act-1995-cth-div-268
+      - name: Concurring jurisdiction
+        test: No universally binding rule; treaties may require consultation (Cybercrime Convention art 22(5)); usually the closest link is best placed.
+        authorities:
+          - cybercrime-convention-2001-art-22-5
+    what-if:
+      - change: The XWZ member never comes to Germany and stays in State A.
+        effect: Universal jurisdiction needs no direct link in theory, but where no treaty establishes it, states usually require the alleged perpetrator's presence, so Germany's claim becomes far more controversial.
+      - change: The foreign national abroad counterfeits Australian currency instead of assaulting tourists.
+        effect: 'Australia can rely on the protective principle: counterfeiting currency is a genuine threat to a vital state interest, needing no territorial or nationality link.'
+      - change: Mr Brawel holds both Australian and Indonesian nationality.
+        effect: Both states of nationality may assert jurisdiction on the basis of nationality — and Indonesia also has territoriality — adding to the concurring claims.
+    boundary:
+      - text: 'US v Yunis: a Lebanese national hijacked Royal Jordanian flight 402 in 1985 with Americans aboard.'
+        why: The US claimed jurisdiction because the victims were American, and its court upheld it — but passive personality remains controversial and better as a subsidiary ground.
+      - text: Piracy on the high seas.
+        why: 'The origin of universal jurisdiction: committed where no state has jurisdiction and disruptive to trade, so any state may apply its criminal law.'
+    transfer:
+      - scenario: A hacker in State P plants ransomware that shuts down hospitals in State Q, harming patients of many nationalities. P, Q and State R (a victim's state) all want to prosecute.
+        answer: 'Q has objective territoriality (the offence was completed there); P has subjective territoriality (it was initiated there) and, if the hacker is its national, active nationality; R has only passive personality, a weaker, subsidiary ground. No binding rule ranks them: under the Cybercrime Convention they consult (art 22(5)), and the closest link usually prevails.'
+    sources:
+      - 'Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 39–49, incl. image slide 48: Criminal Code Div 268)'
+      - 'Week 05 - Lecture Recording (Online) - International and National Law and Jurisdiction - Full Transcript (20:00–41:00: territoriality, nationality, passive personality, protection, universality, concurring jurisdiction)'
+      - 'Week 05 - Tutorial Tasks - International and National Law and Jurisdiction (Q3–Q4: Shorttempered, Brawel and XWZ hypotheticals)'
+    verify: false
+flows:
+  - slug: does-the-rule-apply-in-australia
+    title: Can an Australian court give effect to this rule of international law?
+    summary: Routes a treaty or customary rule through transformation, the interpretive aids and the limits on custom, to show whether and how it operates in Australian law.
+    start: a1
+    concepts:
+      - laws2000-w05-treaties-in-australian-law
+      - laws2000-w05-international-law-in-australian-interpretation
+      - laws2000-w05-customary-international-law-in-australian-law
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 12–25)
+      - Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript (20:00–51:00)
+    nodes:
+      - id: a1
+        kind: ask
+        text: Is the rule found in a treaty or in customary international law?
+        branches:
+          - label: A treaty
+            to: a2
+          - label: Customary international law
+            to: a5
+      - id: a2
+        kind: ask
+        text: Has Parliament transformed the treaty into Australian law?
+        note: New legislation, amending an Act, existing legislation already giving effect, or giving force of law (DPIA 1967 s 7). Scheduling alone is not full incorporation.
+        authorities:
+          - australian-constitution-cth-s51-xxix
+          - diplomatic-privileges-and-immunities-act-1967-cth-s7
+        branches:
+          - label: 'Yes'
+            to: e-applies
+          - label: No — it is only ratified
+            to: a3
+      - id: a3
+        kind: ask
+        text: Is the question the meaning of an Australian statute?
+        branches:
+          - label: Yes — a statute must be interpreted
+            to: a4
+          - label: No — the claimant relies on the treaty itself
+            to: e-no-direct
+      - id: a4
+        kind: ask
+        text: Are the statute's words ambiguous or obscure, and did Australia join (or contemplate joining) the treaty before the Act was passed?
+        note: Section 15AB also allows a treaty to confirm ordinary meaning or avoid a manifestly absurd result. Obligations are identified as they exist when the question arises.
+        authorities:
+          - acts-interpretation-act-1901-cth-s15ab
+        branches:
+          - label: 'Yes'
+            to: e-interpret
+          - label: No — the words are clear
+            to: e-clear
+          - label: No — Australia joined only after the Act
+            to: e-presumption
+      - id: a5
+        kind: ask
+        text: Is the customary rule inconsistent with a statute or essential common law doctrine?
+        note: Australia has not settled between transformation and incorporation; either way, this limit applies.
+        branches:
+          - label: 'Yes'
+            to: e-custom-blocked
+          - label: 'No'
+            to: a6
+      - id: a6
+        kind: ask
+        text: Would applying the rule mean trying and punishing someone for a crime?
+        cases:
+          - nulyarimma-v-thompson
+        branches:
+          - label: Yes — a criminal norm
+            to: e-crime
+          - label: No — a civil rule
+            to: e-custom-maybe
+      - id: e-applies
+        kind: end
+        tone: met
+        text: It applies as Australian law through the legislation. Where the Act reproduces treaty text, read it in line with the treaty (Applicant A).
+        cases:
+          - applicant-a-v-minister-for-immigration-and-ethnic-affairs
+      - id: e-no-direct
+        kind: end
+        tone: not-met
+        text: 'No direct effect: ratification creates no rights in Australian law until legislation implements it (Dietrich).'
+        cases:
+          - dietrich-v-the-queen
+      - id: e-interpret
+        kind: end
+        tone: qualified
+        text: The treaty may assist interpretation (s 15AB), and the court favours the reading consistent with international law (Jumbunna).
+        cases:
+          - jumbunna-coal-mine-nl-v-victoria-coal-miners-association
+      - id: e-clear
+        kind: end
+        tone: not-met
+        text: 'Clear words prevail: a treaty cannot modify them (Yager), and the presumption yields to clear legislation (Polites). Australia may still be in breach internationally.'
+        cases:
+          - yager-v-the-queen
+          - polites-v-commonwealth
+      - id: e-presumption
+        kind: end
+        tone: qualified
+        exception: true
+        text: Section 15AB is unavailable, but the common law presumptions may still favour a reading consistent with international law (Jumbunna; Coco for fundamental rights).
+        cases:
+          - jumbunna-coal-mine-nl-v-victoria-coal-miners-association
+          - coco-v-the-queen
+      - id: e-custom-blocked
+        kind: end
+        tone: not-met
+        text: 'Not adopted: custom yields to inconsistent legislation or essential common law doctrine.'
+      - id: e-crime
+        kind: end
+        tone: not-met
+        text: Not triable without legislation making it an offence — even a jus cogens norm such as genocide (Nulyarimma).
+        cases:
+          - nulyarimma-v-thompson
+      - id: e-custom-maybe
+        kind: end
+        tone: qualified
+        text: It may be received into the common law (Merkel J's criteria) — but the doctrine is unsettled, and Teoh forbids back-door importation of treaties.
+        cases:
+          - nulyarimma-v-thompson
+          - minister-for-immigration-and-ethnic-affairs-v-teoh
+  - slug: can-the-state-exercise-jurisdiction
+    title: Can this state exercise jurisdiction over the offence?
+    summary: Checks the form of jurisdiction claimed, then tests each recognised ground — territoriality, nationality, protection, universality and, last, passive personality.
+    start: j1
+    concepts:
+      - laws2000-w05-forms-of-jurisdiction
+      - laws2000-w05-grounds-of-jurisdiction
+    sources:
+      - Week 05 - Lecture Slides - International and National Law and Jurisdiction (slides 32–49)
+      - Week 05 - Lecture Recording (Online) - International and National Law and Jurisdiction - Full Transcript (06:00–41:00)
+      - Week 05 - Tutorial Tasks - International and National Law and Jurisdiction (Q4)
+    nodes:
+      - id: j1
+        kind: ask
+        text: Is the state making or applying its law (prescribing, adjudicating), or acting inside another state's territory (arresting, seizing)?
+        branches:
+          - label: Prescribing or adjudicating
+            to: j3
+          - label: Enforcing in another state's territory
+            to: j2
+      - id: j2
+        kind: ask
+        text: Has the territorial state permitted it, by treaty or agreement?
+        note: 'Lotus (18): "failing the existence of a permissive rule to the contrary", a state "may not exercise its power in any form in the territory of another State".'
+        cases:
+          - ss-lotus-france-v-turkey
+        branches:
+          - label: 'Yes'
+            to: j3
+          - label: 'No'
+            to: e-unlawful
+      - id: j3
+        kind: ask
+        text: Did the offence take place, at least in part, on the state's territory?
+        note: 'Check every ground for every state: several states may have jurisdiction at once (concurring jurisdiction).'
+        branches:
+          - label: Yes — wholly or partly
+            to: e-territory
+          - label: 'No'
+            to: j4
+      - id: j4
+        kind: ask
+        text: Is the offender one of the state's nationals?
+        note: 'States largely decide who their nationals are (Nottebohm: "a genuine connection"). Ships and aircraft take the nationality of their state of registration.'
+        cases:
+          - nottebohm-case
+        branches:
+          - label: 'Yes'
+            to: e-active
+          - label: 'No'
+            to: j5
+      - id: j5
+        kind: ask
+        text: Does the act threaten a vital security interest of the state?
+        note: Counterfeiting currency, espionage, conspiracy to commit treason (a coup), attacks on diplomatic personnel abroad.
+        branches:
+          - label: 'Yes'
+            to: e-protective
+          - label: 'No'
+            to: j6
+      - id: j6
+        kind: ask
+        text: Is it piracy, genocide, a war crime, a crime against humanity or torture?
+        authorities:
+          - geneva-convention-iv-art-146
+          - criminal-code-act-1995-cth-div-268
+        branches:
+          - label: 'Yes'
+            to: e-universal
+          - label: 'No'
+            to: j7
+      - id: j7
+        kind: ask
+        text: Is the victim one of the state's nationals?
+        note: 'Checked last: passive personality is controversial and better as a subsidiary ground (slide 44).'
+        cases:
+          - us-v-yunis
+        branches:
+          - label: 'Yes'
+            to: e-passive
+          - label: 'No'
+            to: e-none
+      - id: e-unlawful
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'Unlawful: unauthorised enforcement in another state''s territory violates its sovereignty (Eichmann, 1960).'
+      - id: e-territory
+        kind: end
+        tone: met
+        text: 'Territorial jurisdiction — the fundamental ground: objective (completed there) or subjective (initiated or planned there) for cross-border crimes.'
+      - id: e-active
+        kind: end
+        tone: met
+        text: 'Active nationality: the state may prosecute its national for acts abroad (dual nationals: both states).'
+      - id: e-protective
+        kind: end
+        tone: met
+        text: Protective jurisdiction over a foreign national's act abroad that genuinely threatens a vital security interest.
+      - id: e-universal
+        kind: end
+        tone: qualified
+        text: Universal jurisdiction, with no direct link needed — but without a treaty it is controversial, so states usually require the accused's presence.
+      - id: e-passive
+        kind: end
+        tone: qualified
+        text: 'Passive personality (US v Yunis): available but controversial — best combined with another ground.'
+      - id: e-none
+        kind: end
+        tone: not-met
+        text: 'No recognised ground: the state cannot justify jurisdiction over this foreign element.'

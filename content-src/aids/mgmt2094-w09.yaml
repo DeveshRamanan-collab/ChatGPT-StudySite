@@ -1,0 +1,561 @@
+unit: mgmt2094
+week: 9
+source: raw/mgmt2094-sci/week-09
+generator: aids-1
+aids:
+  - concept: mgmt2094-w09-new-product-market-share
+    plain: 'Dow Corning''s problem was not inventing but commercialising: turning ideas into products that sell. It tracked this by the share of its revenue from newly commercialised products, which almost halved.'
+    concrete: Dow Corning's executives were proud that it spent about 10% of revenue on R&D, and researchers from the University of Michigan and Michigan State drove to Midland to use its scanning electron microscope. Yet design and commercialisation, from the idea through laboratory testing, the pilot plant and market testing to selling, took on average four years. New Product Market Share fell from around 25% in the 1970s and 80s to 13% by 1995.
+    formal: 'Slides 8–9: Dow Corning spent 10% of revenue on R&D, and its analytical capabilities were among the best in the world. R&D was decentralised before 1992 and centralised in Midland, MI, after it. Design and commercialisation took on average 4 years. A KPI, New Product Market Share (NPS), is the ''% of revenue that is from newly commercialised products'': around 25% in the 1970s and 80s, 13% by 1995.'
+    analogy:
+      text: Judging a restaurant's inventiveness by how much of tonight's takings come from new dishes, rather than by the size of its test kitchen.
+      maps:
+        - from: the size of the test kitchen
+          to: R&D spending (10% of revenue)
+        - from: share of takings from new dishes
+          to: New Product Market Share
+        - from: dishes stuck in testing for months
+          to: a four-year commercialisation cycle
+      limits:
+        - A restaurant can put a dish on the menu in days; Dow Corning's products took on average four years to commercialise.
+    terms:
+      - term: New Product Market Share (NPS)
+        gloss: 'Dow Corning''s KPI: the % of revenue that is from newly commercialised products. Not a share of the market measured against rivals.'
+      - term: commercialisation
+        gloss: 'The path from idea to sale: laboratory testing, the pilot plant, testing in the marketplace, fine-tuning the product and selling it (guest lecture).'
+      - term: KPI
+        gloss: 'Key Performance Indicator: a measure leadership tracks. NPS was one of Dow Corning''s major KPIs.'
+    misconceptions:
+      - claim: NPS was Dow Corning's share of the world silicone market.
+        tempting: The name says 'market share'.
+        correction: 'Slide 9: NPS is the % of Dow Corning''s own revenue from newly commercialised products, not a share measured against competitors.'
+      - claim: More R&D spending would have fixed the falling NPS.
+        tempting: More R&D sounds like more innovation.
+        correction: Dow Corning already spent 10% of revenue on R&D, with world-class analytics, yet NPS fell to 13%. Leadership targeted the way products were commercialised.
+      - claim: Centralising R&D in 1992 was proven to cause the fall in NPS.
+        tempting: The guest lecturer called the centralisation short-sighted.
+        correction: 'He said the causes were argued over: some blamed centralisation, others the limits of the siloxane backbone. The reality was that the number had gone down.'
+    socratic:
+      - ask: Dow Corning spent 10% of revenue on R&D and had world-class analytical equipment. Was invention its problem?
+        hint: Look at the KPI.
+        answer: 'No. Its New Product Market Share fell from about 25% to 13% by 1995: the problem was turning ideas into products that sell.'
+      - ask: How is NPS calculated?
+        hint: Slide 9's definition.
+        answer: Revenue from newly commercialised products divided by total revenue, as a percentage.
+      - ask: A firm earns $800 million, $104 million of it from newly commercialised products. What is its NPS?
+        hint: 104 ÷ 800.
+        answer: 13%, the figure Dow Corning had fallen to by 1995.
+      - ask: What did Dow Corning's leadership conclude, and do?
+        hint: Not more R&D.
+        answer: That the way it commercialised products needed to improve. In 1997 it hired a consulting company to redesign its commercialisation process.
+    what-if:
+      - change: Dow Corning had raised R&D spending well above 10% of revenue but kept its four-year commercialisation cycle.
+        effect: 'On the case, NPS need not recover: heavy R&D had already coexisted with NPS halving. What leadership targeted was the commercialisation process, the path from idea to sale.'
+    boundary:
+      - text: A firm launches many new products, each earning very little.
+        why: 'Its NPS can stay low: NPS is revenue-based, so a few big sellers can raise it and many small launches may not.'
+      - text: Universities using Dow Corning's scanning electron microscope.
+        why: 'Evidence of world-class analytical capability, not of successful commercialisation: the same company saw NPS fall to 13%.'
+    transfer:
+      - scenario: A drug company boasts that it spends a fifth of revenue on research, but only 5% of its revenue now comes from recently launched drugs, down from 20%.
+        answer: 'As at Dow Corning, research spending is not what the KPI shows to be failing: the share of revenue from newly commercialised products has fallen. Leadership should examine how ideas move from the lab through testing and scale-up to sale, and how long that takes, rather than simply spending more.'
+    objections:
+      - position: World-class science guarantees innovation.
+        evidence: Dow Corning spent 10% of revenue on R&D, and its analytical capabilities were among the best in the world.
+        objection: 'Its NPS still fell from about 25% to 13% by 1995, and commercialisation took four years: the bottleneck was taking ideas to market, which is what leadership set out to fix.'
+      - position: Centralising R&D in one location makes it more productive.
+        evidence: After 1992 Dow Corning management created a central R&D location in Midland, MI.
+        objection: NPS still fell, and the guest lecturer called the centralisation short-sighted, though he noted others blamed the limits of the siloxane backbone.
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 8–9, 13)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+  - concept: mgmt2094-w09-transformation-and-change-management
+    plain: 'Under crisis, Dow Corning refocused on its strengths and set out to transform how it worked. Its redesigned commercialisation process failed because people didn''t take it up: poor change management, not poor design.'
+    concrete: In 1994 Dow Corning started building its own Legal Entity Ordering Payments software (LEOP). Under the pressure of the breast implant litigation, and after 12 months and a significant amount of money spent unsuccessfully, it stopped developing software to focus on its strength, silicone products. As the guest lecturer put it, it was a chemical company, not a software developer. In 1995 it announced it would implement SAP, and announced its program of transformation.
+    formal: 'Slides 5–7, 9–10: lawsuits from 1984, a 1998 multibillion-dollar settlement, nine years of bankruptcy protection to June 2004. The transformation (1997–2000) aimed at a ''world class'', customer-focused, process-oriented organisation; commercialisation of new products was one of three areas needing re-engineering. A consultant-designed process (1997) failed: ''Poor change management practices led to poor take up''. 1999: Lean Six Sigma; 2001: DFSS.'
+    terms:
+      - term: change management
+        gloss: Managing the people side of a new way of working so that it is taken up. Its absence sank the 1997 commercialisation process.
+      - term: take-up
+        gloss: Whether people actually adopt a new process. The slide blames poor take-up, not the process design.
+      - term: focus on strengths
+        gloss: Dropping work outside the core, as Dow Corning dropped LEOP to concentrate on silicone products.
+      - term: transformation pyramid
+        gloss: 'Slide 7: hardware, enabling software, workflow re-engineering, then customer distinction, supply chains and commercialisation excellence, then culture, up to ''customer driven''.'
+    misconceptions:
+      - claim: The 1997 commercialisation process failed because it was badly designed.
+        tempting: It was abandoned after two years.
+        correction: 'Slide 10 blames implementation: poor change management practices led to poor take-up of the new processes. The lecturer: leadership was not skilled in change-management practices.'
+      - claim: Dow Corning dropped LEOP because the software worked but cost too much to run.
+        tempting: SAP replaced it.
+        correction: 'Slide 6: LEOP was developed unsuccessfully over 12 months at significant cost, so Dow Corning stopped developing software to focus on its strength in silicone products.'
+      - claim: Six Sigma replaced the transformation program.
+        tempting: Lean Six Sigma did replace the failed consultant process in 1999.
+        correction: On the pyramid, Six Sigma arrows point into the transformation's upper layers; the lecturer said applying Six Sigma would deliver the world-class, customer-driven organisation.
+    socratic:
+      - ask: After 12 costly months failing to build its own ordering software, what did Dow Corning do?
+        hint: Its strengths.
+        answer: It stopped developing software to focus on silicone products, and in 1995 announced it would implement SAP, along with its program of transformation.
+      - ask: What kind of organisation was the transformation meant to create?
+        hint: Slide 7's title.
+        answer: A 'world class', customer-focused and process-oriented organisation, over a four-year journey, 1997–2000.
+      - ask: The consultant-designed commercialisation process of 1997 was dropped in 1999. Why did it fail?
+        hint: Not its design.
+        answer: Poor change management practices led to poor take-up; the lecturer said people kept saying it would not work.
+      - ask: What came next?
+        hint: 1999, then 2001.
+        answer: In 1999 leadership switched to the Lean Six Sigma implementation; in 2001, as part of it, Dow Corning implemented Design for Six Sigma.
+    what-if:
+      - change: In 1997 Dow Corning's leaders had driven the consultants' process with skilled change management.
+        effect: The slides blame the failure on change management and take-up, not design, so take-up was the thing to fix. Leaders driving and aligning the effort is what the later Six Sigma program put at its centre.
+    boundary:
+      - text: A food manufacturer spends a year building its own payroll software, gives up, and buys an off-the-shelf system so it can concentrate on recipes and plants.
+        why: 'Mirrors LEOP and SAP: dropping work outside the firm''s strengths. It is not a change-management failure like the 1997–99 process.'
+      - text: A university redesigns course approval with consultants; staff keep the old forms, say it won't work, and it is dropped after two years.
+        why: 'Mirrors 1997–99: the design may be sound, but poor change management led to poor take-up.'
+    transfer:
+      - scenario: A hospital buys a new patient-booking process from consultants. Clerks keep using paper diaries and say the new system will never work.
+        answer: 'Dow Corning''s lesson: a well-designed process is worth nothing without take-up, and its 1997 process failed through poor change management. Leaders must drive and align the change, not just commission the design; Dow Corning''s later Six Sigma program put leaders at its centre.'
+    objections:
+      - position: Abandoning a new process after two years is a leadership failure.
+        evidence: Dow Corning's leaders dropped the consultant-designed commercialisation process in 1999.
+        objection: 'Dropping a process that is not being taken up can be the right call: Dow Corning moved to Lean Six Sigma and DFSS, whose pilot became the basis for all its new commercialisation projects.'
+    storyboard:
+      - caption: '1994: building LEOP in-house'
+        detail: After 12 months and significant money spent unsuccessfully, Dow Corning stops developing software to focus on silicone products.
+      - caption: '1995: SAP and transformation announced'
+        detail: A four-year journey (1997–2000) to a 'world class', customer-focused, process-oriented organisation; commercialisation is one of three areas to re-engineer.
+      - caption: '1997: consultants redesign commercialisation'
+        detail: Leadership has seen NPS fall to 13% and a four-year commercialisation cycle.
+      - caption: '1999: the new process abandoned'
+        detail: Poor change management practices led to poor take-up; leadership turns to the Lean Six Sigma implementation.
+      - caption: '2001: Design for Six Sigma'
+        detail: Implemented as part of the Lean Six Sigma program; the ArmorAll Deck Protector becomes its pilot.
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 5–7, 9–10, 13)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+  - concept: mgmt2094-w09-six-sigma-methods
+    plain: 'Six Sigma is a disciplined approach to quality. Its three methods: DMAIC improves processes that already exist, DFSS designs new ones, and Process Management keeps the gains, with leaders driving all three.'
+    concrete: The guest lecturer's history. In the 1980s Japanese quality hammered US industry. Motorola responded with a quality program aiming at near-flawless output, around 3.4 defects per million opportunities. Its popularity came in the mid-1990s, when GE's CEO talked up its financial benefits, and GE added Design for Six Sigma. Dow Corning, whose biggest competitor GE was Six Sigma's biggest proponent, chose Lean Six Sigma and, in 2001, DFSS.
+    formal: 'Slide 11: ''Business Leaders drive the three principal methods used in Implementing Six Sigma which are: The Improvement Process (DMAIC), Design for Six Sigma (DFSS), and Process Management.'' DFSS generates new processes, products, services, and/or plants; DMAIC improves existing process performance; Process Management enables leverage and sustains the gains; leaders drive and align the efforts strategically.'
+    analogy:
+      text: 'A restaurant kitchen: refining the prep of an existing dish, creating a new dish, and keeping standard recipes and checks so quality holds every night, with the head chef aligning it all.'
+      maps:
+        - from: refining an existing dish
+          to: 'DMAIC: improving existing process performance'
+        - from: creating a new dish
+          to: 'DFSS: generating new products and processes'
+        - from: standard recipes and nightly checks
+          to: 'Process Management: sustaining the gains'
+        - from: the head chef
+          to: leaders driving and aligning the efforts
+      limits:
+        - A chef may adjust a dish on taste alone; DMAIC works step by step through define, measure, analyse, improve and control.
+    terms:
+      - term: DMAIC
+        gloss: 'The Improvement Process: define, measure, analyse, improve, control (as the guest lecturer expanded it). It improves existing process performance.'
+      - term: DFSS
+        gloss: 'Design for Six Sigma: generates new processes, products, services and/or plants. Dow Corning''s new-product development process from 2001.'
+      - term: Process Management
+        gloss: The system that enables leverage and sustains the gains achieved by DFSS and the improvement process.
+      - term: Six Sigma
+        gloss: 'The guest lecturer: a quality-improvement methodology about building and improving processes, the efficiency and effectiveness of organisations, and discipline.'
+    elements:
+      - name: Existing process underperforming? DMAIC
+        test: The Improvement Process improves existing process performance.
+      - name: Something new needed? DFSS
+        test: Design for Six Sigma generates new processes, products, services and/or plants; Dow Corning's ran through the DMEDI design steps.
+        authorities:
+          - mgmt2094-example-dow-corning
+          - mgmt2094-example-armorall-deck-protector
+      - name: Gains to hold? Process Management
+        test: The system that enables leverage and sustains the gains achieved by DFSS and the improvement process.
+      - name: Leaders at the centre
+        test: Business leaders drive the three methods and align the efforts strategically.
+    misconceptions:
+      - claim: Dow Corning used DMAIC to develop the Deck Protector.
+        tempting: DMAIC is the best-known Six Sigma sequence.
+        correction: The Deck Protector was the pilot for DFSS, run through the DMEDI design process. DMAIC improves existing process performance.
+      - claim: Process Management is where new products are designed and piloted.
+        tempting: It is about processes, and so sounds like design.
+        correction: 'Slide 11: Process Management is the system that enables leverage and sustains the gains achieved by DFSS and the improvement process; it designs nothing.'
+      - claim: Six Sigma is a software system, rolled out like SAP.
+        tempting: Both arrived during Dow Corning's transformation.
+        correction: 'The guest lecturer: Six Sigma is a quality-improvement methodology, about building and improving processes, efficiency and effectiveness, and discipline.'
+    socratic:
+      - ask: A juice plant rejects too many bottles at its existing capping station. Which method fits?
+        hint: Existing or new?
+        answer: 'DMAIC: the Improvement Process improves existing process performance.'
+      - ask: A company wants a deck-waterproofing product it has never made. Which method?
+        hint: Something new.
+        answer: DFSS, which generates new processes, products, services and/or plants. Dow Corning's Deck Protector was its pilot.
+      - ask: Both projects succeed, but a year later both have slipped back to old habits. What was missing?
+        hint: The base of the triangle.
+        answer: 'Process Management: the system that sustains the gains achieved by DFSS and the improvement process.'
+      - ask: Who sits at the centre of the triangle, and what do they do?
+        hint: Not consultants.
+        answer: 'Leadership: business leaders drive the three methods and align the efforts strategically.'
+    what-if:
+      - change: Dow Corning wants to cut defects on an existing silicone sealant production line.
+        effect: 'DMAIC, not DFSS: the line exists and underperforms. DFSS, worked through DMEDI, is for creating something new, such as the Deck Protector.'
+    boundary:
+      - text: Replacing a failing production process with a newly designed one, rather than tuning the old one.
+        why: Closer to DFSS, which generates new processes as well as products; DMAIC improves the performance of a process that already exists.
+    transfer:
+      - scenario: A hospital wants a new day-surgery unit, faster turnaround in its existing pathology lab, and assurance that both improvements last.
+        answer: DFSS for the new day-surgery unit, a new service and plant; DMAIC for the existing pathology lab's performance; Process Management to sustain the gains of both; and the hospital's leaders at the centre, driving and aligning the three efforts strategically.
+    objections:
+      - position: Six Sigma's discipline leaves no room for creativity.
+        evidence: 'The guest lecturer: Six Sigma is all about discipline: disciplined people, processes and actions.'
+        objection: He added that you can still be disciplined and still be creative, and the DMEDI slide lists creativity tools in its Explore step.
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 10–12)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+    verify: true
+  - concept: mgmt2094-w09-dmedi-design-process
+    plain: 'DMEDI is Dow Corning''s five-step design process for new products: Define the project, Measure what customers need, Explore concepts, Develop the detailed design, and Implement through pilots and scale-up.'
+    concrete: The Deck Protector, the DFSS pilot, maps onto the steps. ArmorAll's demand, a product that met or beat Thompson's WaterSeal on waterproofing at the right price, is a customer requirement, captured in Measure. The chemists' SMO emulsion was the concept taken forward from Explore. The six-factor, two-level design of experiment on silane, wax and surfactant belongs in Develop, where DOE is listed. Producing the estimated demand came in Implement.
+    formal: 'Slide 12, Six Sigma Design Process – DMEDI: 1.0 Define (charter, multi-generational product/service plan, project plan); 2.0 Measure (research customers; translate needs into critical-to-customer requirements using QFD; benchmark competitors); 3.0 Explore (CCRs into functions; creative techniques for alternative concepts; best-fit concept); 4.0 Develop (detailed designs, FMEA, DOE, pilot plans); 5.0 Implement (pilot and validation, scale-up decision, transition to process owners).'
+    terms:
+      - term: voice of the customer (VOC)
+        gloss: What customers need, captured in Measure before any concept is designed.
+      - term: critical-to-customer requirement (CCR)
+        gloss: A customer need translated into a requirement the design must meet, using QFD, in Measure.
+      - term: Quality Functional Deployment (QFD)
+        gloss: The matrix tool that turns customer needs into CCRs, then CCRs into functions.
+      - term: best-fit concept
+        gloss: The concept chosen in Explore, after creative techniques generate alternatives and tools such as a Pugh matrix compare them.
+    elements:
+      - name: 1.0 Define
+        test: Understand the purpose; develop a charter, a multi-generational product/service plan and a project plan to manage the project.
+        authorities:
+          - mgmt2094-example-dow-corning
+      - name: 2.0 Measure
+        test: Research customers; capture the voice of the customer; translate needs into CCRs using QFD; benchmark competitor performance; set target sigma performance.
+        authorities:
+          - mgmt2094-example-armorall-deck-protector
+      - name: 3.0 Explore
+        test: Translate CCRs into functions; use creative techniques to develop alternative concepts; select the best-fit concept; assess the risk of the high-level design.
+      - name: 4.0 Develop
+        test: Detailed designs; capability assessments; FMEA; design of experiments; process control plans and pilot plans.
+        authorities:
+          - mgmt2094-example-armorall-deck-protector
+      - name: 5.0 Implement
+        test: Execute the pilot and validation plans; make the scale-up decision; transition to process owners; document lessons learned; reward and recognise.
+    misconceptions:
+      - claim: DMEDI and DMAIC are the same sequence.
+        tempting: Both are five-letter Six Sigma acronyms beginning D, M.
+        correction: DMEDI (define, measure, explore, develop, implement) was the design process for new products under DFSS; DMAIC improves existing processes.
+      - claim: Customer requirements are set in Define, at the very start.
+        tempting: Define comes first.
+        correction: Define sets up the charter and plans. Measure researches customers, captures the voice of the customer and translates needs into CCRs.
+      - claim: Design of experiments belongs in Explore, because experiments explore.
+        tempting: The names seem to match.
+        correction: Explore selects a best-fit concept. DOE sits in Develop, with FMEA and process control plans, refining the chosen design.
+    socratic:
+      - ask: ArmorAll wants a product that meets or beats Thompson's WaterSeal on waterproofing, at a target price. Which step handles that?
+        hint: Customer needs into requirements.
+        answer: 'Measure: the customer''s needs become critical-to-customer requirements, using QFD, alongside competitor benchmarking.'
+      - ask: A team has five rough sealant concepts and must choose one. Which step, and what deliverable?
+        hint: Best fit.
+        answer: 'Explore: creative techniques generated the alternatives, and the deliverable is best-fit concept selection, compared with tools such as a Pugh matrix.'
+      - ask: Where does a six-factor, two-level design of experiment belong?
+        hint: Find DOE on the slide.
+        answer: Develop, where DOE is listed with FMEA, capability assessments and pilot plans.
+      - ask: The pilot run has been validated. What decision remains, and in which step?
+        hint: Step 5.
+        answer: The scale-up decision, in Implement, followed by transition to process owners, documenting lessons learned, and reward and recognition.
+      - ask: What runs alongside every step?
+        hint: The slide's on-going activities.
+        answer: Change management, customer alignment, strategy alignment, project management, project case development and process management.
+    what-if:
+      - change: The pilot fails validation.
+        effect: Implement's activities include analysing results and revising or confirming the design, with gap analysis and redesign among its deliverables, so the design is reworked before any scale-up decision.
+      - change: A team skips Measure and goes straight to generating concepts.
+        effect: 'Its concepts have no CCRs to meet: Explore starts by translating CCRs into functions. The guest lecturer stressed the market-research focus: a product the market wanted, made as efficiently as possible.'
+    boundary:
+      - text: Business risk management.
+        why: 'Not a single step: it is a key deliverable of Measure, Explore, Develop and Implement. The Deck Protector shows why: a customer''s risks can end a project.'
+      - text: Creativity tools inside a disciplined design process.
+        why: 'Inside DMEDI, not outside it: the slide lists creativity tools and a Pugh matrix among Explore''s tools for developing and choosing concepts.'
+    transfer:
+      - scenario: A council designs a new online permit service. Staff interview residents, compare five service concepts, test a detailed design with FMEA, pilot it in one suburb, then decide whether to roll it out citywide.
+        answer: 'Define comes first: a charter and project plan. Measure: interviewing residents captures the voice of the customer for CCRs. Explore: comparing five concepts to select the best fit. Develop: detailed design with FMEA. Implement: the suburb pilot, the scale-up decision, then transition to process owners.'
+    objections:
+      - position: A five-step, deliverable-heavy process like DMEDI slows development down.
+        evidence: Each step has its own objectives, activities, tools and deliverables, from charters and Gantt charts to FMEA and validation plans.
+        objection: The Deck Protector, the DFSS pilot, produced over 4,500 tonnes and US$40 million in its first 12 months, against a usual four-year cycle; the guest lecturer credits the up-front work.
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 12–16)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+  - concept: mgmt2094-w09-deck-protector-case
+    plain: ArmorAll asked Dow Corning for a deck sealant to beat the market leader within 18 months. Using DFSS, Dow Corning did the experiments, costings and process design up front, so ArmorAll only had to choose.
+    concrete: 'The guest lecturer remembers the key meeting, in Chicago at a hotel near the airport. The team set out all the data: here are the performances, here are the prices, here is how we will make it; what would you like to do? All ArmorAll had to do was pick. ArmorAll said it had set hard targets, but this was mind-boggling. The key, he says: far more time up front on experiments, financial analysis and process engineering.'
+    formal: 'Slides 13–16: ArmorAll, a major customer, wanted to take on Thompson''s WaterSeal with a Silicone Modified Organic (SMO) product, Dow Corning''s growth strategy as siloxane permutations were limited, developed and commercialised within 18 months: the DfSS pilot. A six-factor, two-level Design of Experiment; process engineering concurrently. In 12 months: over 4,500 tonnes, US$40 million revenue, two awards.'
+    analogy:
+      text: A caterer who, before the tasting meeting, has already costed every menu option and planned the kitchen, so the client simply picks.
+      maps:
+        - from: every menu option tested and costed
+          to: DOE results compiled with economic and profitability data
+        - from: the kitchen already planned
+          to: process engineering run concurrently
+        - from: the client picks at the tasting
+          to: ArmorAll chose formulation and price at one meeting
+      limits:
+        - A caterer weighs a handful of options; the Deck Protector's came from a six-factor, two-level design of experiment.
+    terms:
+      - term: SMO (silicone modified organic)
+        gloss: 'Organic chemistry modified with silicone: Dow Corning''s strategy for growth, because permutations with the siloxane backbone were limited.'
+      - term: design of experiment (DOE)
+        gloss: 'A statistical test of several factors at once: here six factors at two levels, to find a silane, wax and surfactant mix meeting price and performance.'
+      - term: concurrent process engineering
+        gloss: Designing the production process alongside the chemistry, on ArmorAll's volumes, so manufacturing was ready when the formulation was chosen.
+      - term: chemist vs chemical engineer
+        gloss: 'The guest lecturer: the chemist creates the formulation in the laboratory; the chemical engineer turns it into a large production process.'
+    misconceptions:
+      - claim: The Deck Protector was Dow Corning's idea, pitched to ArmorAll.
+        tempting: Dow Corning did all the development.
+        correction: 'Slide 13: ArmorAll, one of Dow Corning''s major customers, approached it with the idea of taking on Thompson''s WaterSeal with an SMO product.'
+      - claim: Process engineering waited until ArmorAll had chosen the formulation.
+        tempting: That is the usual sequence.
+        correction: 'Slide 15: process engineering work had commenced concurrently; a new process was designed on ArmorAll''s volumes, ready when the choice was made.'
+      - claim: The project met its tight deadline by cutting corners.
+        tempting: 18 months against a usual four years.
+        correction: 'The guest lecturer credits the opposite: far more time up front on experiments, financial analysis and process engineering, so the customer only had to pick.'
+    socratic:
+      - ask: Why was SMO Dow Corning's growth strategy?
+        hint: The siloxane backbone.
+        answer: The number of permutations with the siloxane backbone was limited. This would have been its first commercialised SMO product.
+      - ask: How did the team find the silane, wax and surfactant mix that met both price and performance?
+        hint: Six and two.
+        answer: A six-factor, two-level design of experiment; samples were tested for waterproofing durability and the results compiled with economic and profitability data.
+      - ask: Why was manufacturing ready as soon as ArmorAll chose?
+        hint: Concurrently.
+        answer: Process engineering had commenced concurrently, designing a new process based on ArmorAll's volumes.
+      - ask: What did the first 12 months produce?
+        hint: Tonnes, dollars, awards.
+        answer: Over 4,500 tonnes of product, US$40 million of revenue, and Technical and Manufacturing Achievement Awards. It became the basis for all new commercialisation projects.
+    what-if:
+      - change: The team had tested one factor at a time and started designing the plant only once the recipe was fixed.
+        effect: 'ArmorAll could not have chosen at one meeting: the multi-factor experiment compiled with economic data, and the concurrent process engineering, are what let the customer simply pick.'
+    boundary:
+      - text: The Deck Protector project stopping after 12 months.
+        why: 'Outside the development story: the slides call the approach a complete success. It stopped because ArmorAll lost a legal battle over its own TV commercials.'
+    transfer:
+      - scenario: A start-up making a plant-based glue tests recipes for a year, and only starts designing its factory once the recipe is fixed.
+        answer: 'Apply the Deck Protector approach: test the key factors together in a multi-factor design of experiment, compile the results with economic data, and run process engineering concurrently, so the customer can choose a formulation and price at one meeting and production can begin.'
+    objections:
+      - position: Front-loading experiments and financial analysis wastes time on a tight deadline.
+        evidence: ArmorAll wanted the product developed and commercialised within 18 months, against a usual four years.
+        objection: 'The guest lecturer says the up-front work was the key: the customer only had to pick, and over 4,500 tonnes were produced in 12 months.'
+    storyboard:
+      - caption: ArmorAll's challenge
+        detail: 'Take on Thompson''s WaterSeal with an SMO product, developed and commercialised within 18 months: the DfSS pilot.'
+      - caption: Chemists find an SMO emulsion
+        detail: A product to meet or exceed the competitor's performance criteria, namely its waterproofing.
+      - caption: A six-factor, two-level experiment
+        detail: The right mix of silane, wax and surfactant; samples tested for waterproofing durability, results compiled with economic and profitability data.
+      - caption: Process engineering runs concurrently
+        detail: A new process designed on ArmorAll's volumes.
+      - caption: 'One meeting: ArmorAll chooses'
+        detail: Formulation and price chosen; ArmorAll extremely impressed with the detail. Work began to produce the estimated demand.
+      - caption: Results in 12 months
+        detail: Over 4,500 tonnes, US$40 million revenue, two awards; the basis for all new commercialisation projects.
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 13–16)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+  - concept: mgmt2094-w09-customer-risk-after-commercialisation
+    plain: Even a flawless development can be undone by a customer's mistakes. ArmorAll's TV ads led to a lawsuit it lost, and the successful Deck Protector project stopped.
+    concrete: 'The guest lecturer: you can do everything right, and still something out of your control puts a spanner in the works. ArmorAll''s marketing people ran TV commercials without checking with its legal people. Thompson''s took ArmorAll to court, ArmorAll lost at great expense, and the financial impact forced its takeover by Clorox. As a B2B supplier, Dow Corning had done everything its customer wanted, but the customer could still wreck the project.'
+    formal: 'Slide 17: ''After 12 months of a very successful campaign the project stopped.'' Thompson''s challenged ArmorAll''s TV commercials; ArmorAll lost the legal battle and was taken over by Clorox. Slide 18: the new Lean (Six Sigma) approach was a complete success; it opened up statistical and mathematical modelling; non-value-added processes were removed; ''No matter how good your commercialisation process, poor risk management by your customers can lead to project failure.'''
+    terms:
+      - term: B2B supplier
+        gloss: A business selling to another business. Dow Corning supplied ArmorAll, which sold to consumers, so the end market was in its customer's hands.
+      - term: non-value-added process
+        gloss: 'A step that adds no value. The third lesson: existing processes were challenged and, when identified as non-value-added, removed.'
+      - term: business risk management
+        gloss: A key deliverable in four of DMEDI's five steps; the case shows that risk also sits with customers.
+    misconceptions:
+      - claim: The Deck Protector proves Design for Six Sigma failed, because the project stopped after a year.
+        tempting: A project that stops looks like a failed method.
+        correction: 'Slide 18 calls the new approach a complete success. The stop came from ArmorAll''s lost court case: poor risk management by the customer.'
+      - claim: Dow Corning chose to stop supplying the Deck Protector.
+        tempting: The project stopped.
+        correction: 'Slide 17: ArmorAll lost the legal battle over its TV commercials, and the financial impact forced its takeover by Clorox. The supplier did not walk away.'
+      - claim: The lesson is that a supplier's lawyers should vet its customer's advertising.
+        tempting: A legal check would have caught the ads.
+        correction: 'The slide''s lesson is general: no matter how good your commercialisation process, poor risk management by your customers can lead to project failure.'
+    socratic:
+      - ask: The Deck Protector produced over 4,500 tonnes and US$40 million in 12 months. Why did it then stop?
+        hint: TV commercials.
+        answer: Thompson's challenged ArmorAll's TV commercials; ArmorAll lost the legal battle, and the financial impact forced its takeover by Clorox.
+      - ask: What went wrong inside ArmorAll, according to the guest lecturer?
+        hint: Two departments.
+        answer: Its marketing people ran the commercials without checking with its legal people.
+      - ask: Could Dow Corning's own process have prevented it?
+        hint: B2B.
+        answer: 'Not directly: as a B2B supplier it did everything its customer wanted. Hence the lesson: poor risk management by your customers can lead to project failure.'
+      - ask: How did the host lecturer use the case to separate creativity from innovation?
+        hint: Creating versus bringing to market.
+        answer: Creating the product is the creativity part; bringing it to market is the innovation part, and here that part failed. Marketing, legal, HR, culture and strategy must all come together.
+    what-if:
+      - change: ArmorAll's marketing team had checked its commercials with its legal team before they ran.
+        effect: The lecturer traces the failure to marketing acting without legal, so the court case that stopped the project might have been avoided. The development, already a complete success, would not change.
+    boundary:
+      - text: A supplier designs a flawless battery for a scooter company, which recalls its scooters after ignoring its own lawyers' warning.
+        why: 'Squarely the fourth lesson: the supplier did its part well, but the customer''s poor risk management decided the outcome.'
+    transfer:
+      - scenario: A packaging supplier is asked to build a dedicated production line for one large customer's new product.
+        answer: 'The Deck Protector warns that even a perfect commercialisation process does not protect you from your customer''s risks. Treat business risk management, a DMEDI deliverable, as covering the customer too: weigh its marketing, legal and financial exposure before committing the line.'
+    objections:
+      - position: An innovation that stops within a year has failed.
+        evidence: The Deck Protector project stopped after 12 months.
+        objection: 'Separate the parts: the development approach was a complete success, with two awards and US$40 million revenue; the project stopped because of the customer''s lost court case.'
+        reply: 'The host lecturer still counts it a failure of innovation: bringing the product to market is the innovation part, and that part failed.'
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 16–18)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+  - concept: mgmt2094-w09-creativity-within-discipline
+    plain: A structured process like Six Sigma need not kill creativity. Give people space to play, bring in people who think differently, reuse solutions already found, and balance structure with creativity.
+    concrete: 'At Dow Corning''s small Australian R&D unit in Blacktown, Friday afternoons were fun days: you could play with whatever you wanted in the lab, amid laughter, noise and people running around. The new central R&D building in Midland was a sterile place: everyone in lab coats, no noise, and, the guest lecturer says, none of that creativity. The host lecturer: perhaps 95% of play-time ideas go to waste, but the 5% may be a goldmine.'
+    formal: 'Guest lecture: Six Sigma is all about discipline, yet you can still be disciplined and still be creative. DFSS uses TRIZ, the theory of inventive problem solving; Week 2: Genrich Altshuller found universal laws of invention, each solving a contradiction between physical quantities. The DMEDI slide lists creativity tools in Explore. Host lecturer: creativity alone gives chaos, so find the balance with structure.'
+    terms:
+      - term: TRIZ
+        gloss: 'The theory of inventive problem solving (a Russian acronym), from Altshuller''s study of patents: many contradictions have been solved before.'
+      - term: contradiction (TRIZ)
+        gloss: 'Two properties pulling against each other, such as strong but not heavy. Week 2: each invention solves a contradiction between physical quantities.'
+      - term: free experimentation time
+        gloss: 'Protected time to play with your own ideas, like Blacktown''s Friday afternoons: most ideas fail, a few may be a goldmine.'
+      - term: diversity
+        gloss: 'People who think differently. The guest lecturer: with creativity you really need diversity.'
+    elements:
+      - name: Space to play
+        test: Protected time and a lively place to experiment, like Blacktown's Friday afternoons, not a sterile building.
+        authorities:
+          - mgmt2094-example-dow-corning-rd-centralisation
+      - name: Diversity
+        test: Bring people who think differently into the centre; with creativity you really need diversity.
+      - name: Reuse known solutions
+        test: Apply an existing technique in a new area; TRIZ draws on contradictions that have been solved before.
+        authorities:
+          - mgmt2094-example-kortian-emulsion-patent
+          - mgmt2094-example-altshuller-triz
+      - name: Balance
+        test: 'Keep the structure but balance it: creativity alone gives chaos, while something new needs creativity.'
+    misconceptions:
+      - claim: Six Sigma's discipline makes creativity impossible, so keep it out of R&D.
+        tempting: Discipline can feel restrictive.
+        correction: 'The guest lecturer: you can still be disciplined and still be creative. DMEDI''s Explore step lists creativity tools for generating alternative concepts.'
+      - claim: Free play time pays for itself because most of its ideas prove useful.
+        tempting: It sounds like the case for play time.
+        correction: 'The host lecturer said the reverse: perhaps 95% goes to waste, but the 5% may be a goldmine, and the time also lifts culture and morale.'
+      - claim: A creative invention has to be wholly new.
+        tempting: Patents reward novelty.
+        correction: Dr Kortian's patent applied a technique he had seen before in a new way; the guest lecturer says Altshuller found only about 2–3% of patents truly novel.
+    socratic:
+      - ask: Dow Corning moved its researchers from small labs like Blacktown into one central building. What happened to creativity, on the guest lecturer's account?
+        hint: Lab coats, no noise.
+        answer: 'It went missing: no Friday-afternoon play, laughter or noise. He called the centralisation short-sighted.'
+      - ask: Is the answer to drop Six Sigma's discipline?
+        hint: Disciplined and…
+        answer: 'No: you can still be disciplined and still be creative. DMEDI even builds creativity tools into Explore.'
+      - ask: Where did Dr Kortian's patented emulsion idea come from?
+        hint: Something he had seen before.
+        answer: 'From applying an existing technique, emulsion polymerisation, differently: polymerise without the water, then add the water and surfactant.'
+      - ask: Which DFSS tool builds on that insight?
+        hint: A Russian acronym.
+        answer: 'TRIZ, the theory of inventive problem solving: many contradictions, such as strength versus weight, have been solved before, so you needn''t reinvent the wheel.'
+    what-if:
+      - change: A bank's strict stage-gate process leaves staff saying ideas have dried up.
+        effect: 'Keep the structure but add what the lecture describes: protected time to experiment, diverse thinkers and reuse of known solutions. Tightening the gates, or moving staff into one quiet building, repeats Dow Corning''s mistake.'
+    boundary:
+      - text: Atlassian letting staff spend one day a week on their own projects.
+        why: 'The guest lecturer''s later example of Blacktown''s Friday afternoons: protected time to play inside a disciplined business.'
+    transfer:
+      - scenario: A government agency runs a rigid project-approval process, and its innovation team has produced nothing new in two years.
+        answer: Discipline and creativity can coexist. Protect time for experiments, accepting most ideas will fail; bring in people who think differently; reuse solved contradictions, TRIZ-style; and rebalance the approval process rather than abandon it, since creativity alone gives chaos.
+    objections:
+      - position: Centralising R&D in one well-equipped site improves innovation.
+        evidence: 'Dow Corning''s Midland headquarters had phenomenal resources: process engineering capability, pilot plants and analytical equipment.'
+        objection: The guest lecturer found the central building sterile and its creativity missing; the host lecturer added that small units, with their own leadership and ways of doing things, spark creativity.
+      - position: Creativity means being completely original.
+        evidence: A patent rewards a new invention.
+        objection: TRIZ, from Altshuller's study of patents, finds many contradictions have been solved before; Dr Kortian's patent applied a technique he had already seen to a new area.
+    sources:
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 12)
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 9, 11)
+    verify: true
+flows:
+  - slug: six-sigma-method-and-dmedi
+    title: Which Six Sigma method, and where are we in DMEDI?
+    summary: Chooses between DMAIC and DFSS, then walks a new product through the five DMEDI steps to the scale-up decision.
+    start: n1
+    concepts:
+      - mgmt2094-w09-six-sigma-methods
+      - mgmt2094-w09-dmedi-design-process
+    sources:
+      - Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning (slides 11–12)
+      - Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian) (recording of the Week 9 guest lecture)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Is the aim to improve a process that already exists, or to create a new process, product, service or plant?
+        note: 'Slide 11: DMAIC improves existing process performance; DFSS generates new processes, products, services and/or plants. Leaders drive and align both.'
+        concept: mgmt2094-w09-six-sigma-methods
+        branches:
+          - label: Improve an existing process
+            to: n2
+          - label: Create something new
+            to: n3
+      - id: n2
+        kind: end
+        tone: qualified
+        text: Use DMAIC, the Improvement Process, then Process Management to sustain the gains.
+      - id: n3
+        kind: step
+        text: 'Define: develop a charter, a multi-generational product/service plan and a project plan.'
+        note: 'Running alongside every step: change management, customer alignment, strategy alignment, project management, project case development and process management.'
+        concept: mgmt2094-w09-dmedi-design-process
+        authorities:
+          - mgmt2094-example-dow-corning
+        next: n4
+      - id: n4
+        kind: step
+        text: 'Measure: research customers, capture the voice of the customer and translate needs into CCRs with QFD.'
+        note: 'Also benchmark competitor performance and set target sigma. ArmorAll''s requirement: meet or exceed Thompson''s WaterSeal on waterproofing, at the right price.'
+        authorities:
+          - mgmt2094-example-armorall-deck-protector
+        next: n5
+      - id: n5
+        kind: step
+        text: 'Explore: translate CCRs into functions, generate alternative concepts with creative techniques, and select the best fit.'
+        note: Tools include creativity tools and a Pugh matrix. Assess the risk of the high-level design.
+        next: n6
+      - id: n6
+        kind: step
+        text: 'Develop: detailed designs, capability assessments, FMEA, design of experiments, process control and pilot plans.'
+        note: The Deck Protector's six-factor, two-level design of experiment on silane, wax and surfactant belongs here.
+        next: n7
+      - id: n7
+        kind: step
+        text: 'Implement: execute the pilot and validation plans, and analyse the results.'
+        next: n8
+      - id: n8
+        kind: ask
+        text: Do the pilot and validation results confirm the design?
+        branches:
+          - label: 'Yes'
+            to: n9
+          - label: 'No'
+            to: n10
+      - id: n9
+        kind: end
+        tone: met
+        text: 'Scale up: transition to process owners, document lessons learned, reward and recognise.'
+        note: 'Business risk management continues: the Deck Protector stopped after 12 months because of its customer''s lost court case.'
+      - id: n10
+        kind: end
+        tone: qualified
+        text: Revise the design (gap analysis and redesign) before any scale-up decision.
+        exception: true

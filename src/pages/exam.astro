@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ExamAll from '../components/quiz/ExamAll';
+import { units } from '../lib/content';
+const list = (await units()).map((u) => ({ id: u.id, code: u.data.code }));
+---
+
+<Layout title="Exam paper — all units">
+  <p class="label">All units</p>
+  <h1 data-split>Exam paper</h1>
+  <p class="lede">A timed paper mixing every unit, certainty-marked, with a full debrief at the end.</p>
+  <div class="island-stage"><ExamAll client:load units={list} /></div>
+</Layout>
+
+<style>
+  .lede { color: var(--ink-2); }
+</style>

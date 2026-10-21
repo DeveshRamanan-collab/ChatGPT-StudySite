@@ -1,0 +1,287 @@
+---
+// "Ways in": one concept's study aids (src/content/aids/<concept id>.md), server-rendered under its notes and ordered
+// for learning: one line → work it out → example and rule → checklist → mistakes → what-ifs → edges and transfer →
+// analogy → terms → storyboard → argument → sources. Every part works without JS (<details>, native checkboxes);
+// only "Work it out" is an island, with a static fallback. Renders nothing when the concept has no aids yet.
+import { getEntry, type CollectionEntry } from 'astro:content';
+import Socratic from './Socratic';
+import '../../styles/aids.css';
+
+interface Props { concept: CollectionEntry<'concepts'> }
+const { concept: c } = Astro.props;
+const a = (await getEntry('aids', c.id))?.data;
+
+// Display names for the checklist's case and authority chips (an id with no entry stays plain text, never a dead link).
+const caseIds = [...new Set(a?.elements.flatMap((e) => e.cases) ?? [])];
+const authIds = [...new Set(a?.elements.flatMap((e) => e.authorities) ?? [])];
+const caseName = new Map((await Promise.all(caseIds.map((id) => getEntry('cases', id)))).flatMap((k) => (k ? [[k.id, k.data.name] as const] : [])));
+const authTitle = new Map((await Promise.all(authIds.map((id) => getEntry('authorities', id)))).flatMap((k) => (k ? [[k.id, k.data.title] as const] : [])));
+const label = (id: string) => id.replace(/-/g, ' ');
+
+// At most five blocks under a heading: past five, the first four show and the rest wait behind "N more".
+const MAX = 5;
+function groups<T>(xs: T[]): { items: T[]; more: boolean }[] {
+  if (xs.length <= MAX) return xs.length ? [{ items: xs, more: false }] : [];
+  return [{ items: xs.slice(0, MAX - 1), more: false }, { items: xs.slice(MAX - 1), more: true }];
+}
+
+type Reveal = { tag: string; prompt: string; cta: string; label: string; reveal: string };
+const reveals: { id: string; title: string; items: Reveal[] }[] = a
+  ? [
+      {
+        id: 'ways-what-if',
+        title: 'What if…',
+        items: a['what-if'].map((w) => ({ tag: 'What if', prompt: w.change, cta: 'Predict the effect, then open', label: 'Effect', reveal: w.effect })),
+      },
+      {
+        id: 'ways-edges',
+        title: a.boundary.length && a.transfer.length ? 'Edge cases and transfer' : a.transfer.length ? 'Transfer' : 'Edge cases',
+        items: [
+          ...a.boundary.map((b) => ({ tag: 'Edge case', prompt: b.text, cta: 'Inside the idea or outside it? Decide, then open', label: 'Why', reveal: b.why })),
+          ...a.transfer.map((t) => ({ tag: 'New situation', prompt: t.scenario, cta: 'Apply the idea, then open', label: 'Answer', reveal: t.answer })),
+        ],
+      },
+    ].filter((s) => s.items.length)
+  : [];
+const rungs = a ? [{ id: 'example', label: 'An example', text: a.concrete }, { id: 'rule', label: 'The rule', text: a.formal }].filter((r) => r.text) : [];
+const quizHref = `/${c.data.unit}/quiz?concept=${c.id}`;
+---
+
+{a && (
+  <section class="ways" id="ways-in" aria-labelledby="ways-in-h" data-ways={c.id}>
+    <h2 id="ways-in-h">Ways in</h2>
+
+    <h3 id="ways-one-line">In one line</h3>
+    <p class="ways__plain">{a.plain}</p>
+
+    {a.socratic.length > 0 && (
+      <>
+        <h3 id="ways-work-it-out">Work it out</h3>
+        <div class="ways-socratic-live" data-pagefind-ignore>
+          <Socratic client:visible steps={a.socratic} quizHref={quizHref} title={c.data.title} />
+        </div>
+        <ol class="ways-socratic-static">
+          {a.socratic.map((s) => (
+            <li>
+              <p>{s.ask}</p>
+              <details class="ways-reveal ways-reveal--quiet"><summary class="ways-reveal__sum"><span class="ways-reveal__prompt">Hint</span><span class="ways-reveal__icon" aria-hidden="true"></span></summary><div class="ways-reveal__body"><p>{s.hint}</p></div></details>
+              <details class="ways-reveal ways-reveal--quiet"><summary class="ways-reveal__sum"><span class="ways-reveal__prompt">Answer</span><span class="ways-reveal__icon" aria-hidden="true"></span></summary><div class="ways-reveal__body"><p>{s.answer}</p></div></details>
+            </li>
+          ))}
+        </ol>
+      </>
+    )}
+
+    {rungs.length > 0 && (
+      <>
+        <h3 id="ways-example-rule">{rungs.length === 2 ? 'An example, then the rule' : rungs[0].label}</h3>
+        <div class="ways-ladder">
+          <ol class="ways-ladder__steps" aria-hidden="true">
+            <li class="ways-ladder__step" data-rung="plain">In one line</li>
+            {rungs.map((r) => <li class="ways-ladder__step" data-rung={r.id}>{r.label}</li>)}
+          </ol>
+          {rungs.map((r) => (
+            <details class="ways-reveal ways-ladder__rung" data-rung={r.id}>
+              <summary class="ways-reveal__sum"><span class="ways-reveal__prompt">{r.label}</span><span class="ways-reveal__icon" aria-hidden="true"></span></summary>
+              <div class="ways-reveal__body"><p>{r.text}</p></div>
+            </details>
+          ))}
+        </div>
+      </>
+    )}
+
+    {a.elements.length > 0 && (
+      <>
+        <h3 id="ways-checklist">Rule checklist</h3>
+        <form class="ways-check">
+          <p class="ways__note">Tick each element as you check it against a problem. Ticks are not saved.</p>
+          <ol class="ways-check__list">
+            {a.elements.map((e, i) => (
+              <li class="ways-check__item">
+                <input class="ways-check__box visually-hidden" type="checkbox" id={`ways-el-${i + 1}`} aria-describedby={`ways-el-${i + 1}-test`} />
+                <label class="ways-check__label" for={`ways-el-${i + 1}`}>
+                  <span class="ways-check__mark" aria-hidden="true">
+                    <span class="ways-check__n">{i + 1}</span>
+                    <svg class="ways-check__tick" viewBox="0 0 16 16"><path d="M3.5 8.5 6.5 11.5 12.5 4.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </span>
+                  <span class="ways-check__name">{e.name}</span>
+                </label>
+                <p class="ways-check__test" id={`ways-el-${i + 1}-test`}>{e.test}</p>
+                {e.cases.length + e.authorities.length > 0 && (
+                  <p class="ways-check__refs">
+                    {e.cases.map((id) => (caseName.has(id) ? <a class="chip chip--case" href={`/cases/${id}`}>{caseName.get(id)}</a> : <span class="chip chip--case">{label(id)}</span>))}
+                    {e.authorities.map((id) => (authTitle.has(id) ? <a class="chip" href={`/authorities/${id}`}>{authTitle.get(id)}</a> : <span class="chip">{label(id)}</span>))}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ol>
+          <div class="ways-check__foot">
+            <p class="ways-check__count" aria-hidden="true" data-total={a.elements.length}></p>
+            <button class="btn btn--ghost btn--sm ways-check__reset" type="reset">Clear ticks</button>
+          </div>
+        </form>
+      </>
+    )}
+
+    {a.misconceptions.length > 0 && (
+      <>
+        <h3 id="ways-mistakes">Common mistakes</h3>
+        {groups(a.misconceptions).map((g) => {
+          const Wrap = g.more ? 'details' : 'div';
+          return (
+            <Wrap class={g.more ? 'ways-more' : 'ways-group'}>
+              {g.more && <summary class="ways-more__sum">{g.items.length} more</summary>}
+              <ul class="ways-mistakes">
+                {g.items.map((m) => (
+                  <li class="ways-mistake">
+                    <div class="ways-mistake__wrong">
+                      <p class="ways-mistake__tag">
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" /><path d="m5.5 5.5 5 5m0-5-5 5" stroke="currentColor" stroke-linecap="round" /></svg>
+                        Mistake
+                      </p>
+                      <p class="ways-mistake__claim"><s>{m.claim}</s></p>
+                      <p class="ways-mistake__why"><span class="ways-mistake__sub">Why it is tempting</span>{m.tempting}</p>
+                    </div>
+                    <div class="ways-mistake__right">
+                      <p class="ways-mistake__tag">
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" /><path d="m5 8.25 2 2 4-4.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                        Correction
+                      </p>
+                      <p class="ways-mistake__fix">{m.correction}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </Wrap>
+          );
+        })}
+      </>
+    )}
+
+    {reveals.map((s) => (
+      <>
+        <h3 id={s.id}>{s.title}</h3>
+        {groups(s.items).map((g) => {
+          const Wrap = g.more ? 'details' : 'div';
+          return (
+            <Wrap class={g.more ? 'ways-more' : 'ways-group'}>
+              {g.more && <summary class="ways-more__sum">{g.items.length} more</summary>}
+              <div class="ways-reveals">
+                {g.items.map((it) => (
+                  <details class="ways-reveal">
+                    <summary class="ways-reveal__sum">
+                      <span class="ways-reveal__text">
+                        <span class="ways-reveal__tag">{it.tag}</span>
+                        <span class="ways-reveal__prompt">{it.prompt}</span>
+                        <span class="ways-reveal__cta">{it.cta}</span>
+                      </span>
+                      <span class="ways-reveal__icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="ways-reveal__body"><p><span class="ways-reveal__label">{it.label}</span>{it.reveal}</p></div>
+                  </details>
+                ))}
+              </div>
+            </Wrap>
+          );
+        })}
+      </>
+    ))}
+
+    {a.analogy && (
+      <>
+        <h3 id="ways-analogy">An analogy</h3>
+        <p class="ways-analogy__text">{a.analogy.text}</p>
+        <div class="ways-analogy__map">
+          <p class="ways-analogy__heads" aria-hidden="true"><span>In the analogy</span><span></span><span>In this idea</span></p>
+          <ol class="ways-analogy__rows">
+            {a.analogy.maps.map((m) => (
+              <li class="ways-analogy__row">
+                <span class="ways-analogy__from">{m.from}</span>
+                <span class="ways-analogy__link" aria-hidden="true"></span>
+                <span class="ways-analogy__to"><span class="visually-hidden">corresponds to </span>{m.to}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div class="ways-analogy__breaks">
+          <p class="ways-analogy__breaks-h">
+            <svg viewBox="0 0 24 16" aria-hidden="true"><path d="M1 8h7.5M15.5 8H23M9 12l2.5-8M12.5 12 15 4" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" /></svg>
+            Where it breaks
+          </p>
+          <ul class="ways-analogy__limits">
+            {a.analogy.limits.map((l) => <li>{l}</li>)}
+          </ul>
+        </div>
+      </>
+    )}
+
+    {a.terms.length > 0 && (
+      <>
+        <h3 id="ways-terms">Key terms</h3>
+        <dl class="ways-terms">
+          {a.terms.map((t) => (
+            <div class="ways-terms__row">
+              <dt>{t.term}</dt>
+              <dd>{t.gloss}</dd>
+              {t.example && <dd class="ways-terms__eg"><span class="ways-terms__eg-label">For example</span> {t.example}</dd>}
+            </div>
+          ))}
+        </dl>
+      </>
+    )}
+
+    {a.storyboard.length > 0 && (
+      <>
+        <h3 id="ways-storyboard">Storyboard</h3>
+        <ol class="ways-story">
+          {a.storyboard.map((f, i) => (
+            <li class="ways-story__frame">
+              <span class="ways-story__n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <p class="ways-story__cap">{f.caption}</p>
+              <p class="ways-story__detail">{f.detail}</p>
+            </li>
+          ))}
+        </ol>
+      </>
+    )}
+
+    {a.objections.length > 0 && (
+      <>
+        <h3 id="ways-argument">{a.objections.length > 1 ? 'Arguments' : 'Argument'}</h3>
+        {groups(a.objections).map((g) => {
+          const Wrap = g.more ? 'details' : 'div';
+          return (
+            <Wrap class={g.more ? 'ways-more' : 'ways-group'}>
+              {g.more && <summary class="ways-more__sum">{g.items.length} more</summary>}
+              <ul class="ways-args">
+                {g.items.map((o) => (
+                  <li class="ways-arg">
+                    <dl class="ways-arg__grid">
+                      <div class="ways-arg__row"><dt>Position</dt><dd>{o.position}</dd></div>
+                      <div class="ways-arg__row"><dt>Evidence</dt><dd>{o.evidence}</dd></div>
+                      <div class="ways-arg__row ways-arg__row--against"><dt>Strongest objection</dt><dd>{o.objection}</dd></div>
+                      <div class="ways-arg__row"><dt>Reply</dt><dd>{o.reply ?? <span class="ways-arg__none">The sources give no reply. What would yours be?</span>}</dd></div>
+                    </dl>
+                  </li>
+                ))}
+              </ul>
+            </Wrap>
+          );
+        })}
+      </>
+    )}
+
+    {(a.sources.length > 0 || a.verify) && (
+      <footer class="ways__trail">
+        {a.sources.length > 0 && <p class="ways__sources"><span class="ways__sources-label">Built from</span> {a.sources.join(' · ')}</p>}
+        {a.verify && (
+          <p class="ways__verify" data-verify>
+            <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-dasharray="2 2" /><path d="M8 4.75v4M8 11v.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /></svg>
+            Some of this is not yet checked against your materials.
+          </p>
+        )}
+      </footer>
+    )}
+  </section>
+)}

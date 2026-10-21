@@ -1,0 +1,673 @@
+unit: mgmt2094
+week: 3
+source: raw/mgmt2094-sci/week-03
+generator: aids-1
+aids:
+  - concept: mgmt2094-w03-what-is-design-thinking
+    plain: Design thinking is a way of solving problems that starts from people's needs, uses creativity to generate ideas, and tests them quickly and cheaply with customers.
+    concrete: Deloitte Australia, labelled the 'sick puppy' of professional services by BRW in 2004, reinvented itself with design thinking. Its leaders were trained by Stanford d.school professors and Roberto Verganti, not to become designers but to develop a new mindset, 'designful thinking'. It won a 2014 International Design Award for audit, and design thinking is credited with a key role in over 70 percent of its consulting team's major wins in a year.
+    formal: 'The reading: in essence, design thinking is a process that harnesses creativity to resolve problems and create solutions with the intent of making a product, a service, or a business, better. Tim Brown (IDEO): ''a system that uses the designer''s sensibility and methods to match people''s needs with what is technologically feasible and what a viable business can convert into consumer value and market opportunity''.'
+    analogy:
+      text: An architect who interviews the family, sketches several floor plans, then walks them through a cardboard model before any concrete is poured.
+      maps:
+        - from: interviewing the family about how they live
+          to: 'human-centred: the customer at the core'
+        - from: sketching several floor plans
+          to: 'creative: generating many ideas'
+        - from: the cardboard model walk-through
+          to: 'experimentation-driven: testing quickly and cheaply'
+      limits:
+        - A house brief usually states the problem; design thinking suits cases where neither the problem nor the solution is known, and may redefine the problem.
+    terms:
+      - term: design thinking (guest lecture)
+        gloss: 'A human-centred, creative and experimentation-driven approach to innovation: the customer at the core, creative thinking for ideas, quick and cheap tests.'
+      - term: designful thinking
+        gloss: 'Deloitte''s term: thinking like a designer, a disposition and a mindset, without needing a trained designer''s creative, spatial or graphic skills.'
+      - term: VUCA
+        gloss: 'Volatile, uncertain, complex and ambiguous: the 21st-century conditions the reading says make it exactly the right time to embrace design thinking.'
+    misconceptions:
+      - claim: You need to be a trained designer to do design thinking.
+        tempting: The name puts 'design' first.
+        correction: 'Deloitte: it is about thinking like a designer, ''designful thinking'', a disposition and a mindset; its people were trained to develop a new mindset, not design skills.'
+      - claim: Design thinking is best used for incremental improvements.
+        tempting: It is a formalised, repeatable process.
+        correction: 'Gemser: it is not suited to a program or desire for incremental improvement; use it for something radically different, something that hasn''t been thought about.'
+      - claim: Design thinking is a flaky business buzzword.
+        tempting: 'The reading itself opens: ''Fad or fashionable? Flaky or fundamental?'''
+        correction: 'Deloitte''s Redhill: not a buzzword and not a panacea; ''It''s not flaky … It''s a much more formalised process.'''
+    socratic:
+      - ask: According to the guest lecture, why do more innovations and start-ups fail?
+        hint: A failure of the product, or something else?
+        answer: 'More fail from a lack of customers than from a failure of the product: people make something that works, but nobody wants it.'
+      - ask: So where should an innovation process put the customer?
+        hint: The first of the lecture's three features.
+        answer: 'At the core: design thinking is human-centred.'
+      - ask: How can a team find out whether customers want an idea without spending millions?
+        hint: The third feature.
+        answer: 'Experiment: test ideas quickly and cheaply, building only the minimum needed, such as a mock-up rather than a fully working product.'
+      - ask: When is design thinking most useful?
+        hint: Think about what is known, and about VUCA.
+        answer: When you don't know the problem or the solution, in volatile, uncertain, complex and ambiguous conditions, and for something radically different rather than incremental (Gemser).
+    what-if:
+      - change: A bank wants only to shave a few seconds off its existing loan-approval process.
+        effect: 'Gemser would steer it elsewhere: design thinking is not suited to a desire for incremental improvement; it fits something radically different that has not been thought about.'
+    boundary:
+      - text: A general manager picks the winning idea from an agency's list after internal research into the top 10 problems.
+        why: 'The reading''s ''traditional'', piecemeal approach (Nash). Design thinking accepts that the best ideas may not come from the top: the GM''s idea can''t be privileged.'
+      - text: Microsoft doubling its designers to around 1400 and giving them more say than engineers.
+        why: 'Part of the trend the reading describes, but design thinking does not require designers: Deloitte trained non-designers in the mindset.'
+    transfer:
+      - scenario: A state transport department wants to cut fare evasion on buses but has no idea why people do not pay.
+        answer: 'A design-thinking problem: neither the problem nor the solution is known. Put riders at the core, generate many ideas creatively, and test the most promising quickly and cheaply before spending big, matching people''s needs with what is feasible and viable (Brown); for government, viable means impact for citizens.'
+    objections:
+      - position: Every organisation needs design thinking.
+        evidence: 'Verganti: no design, no meaning, no value, no innovation, no business. Luke van O would be surprised to find any business situation that couldn''t be served by a design thinking approach.'
+        objection: 'Gemser: if you are not interested in innovation, don''t look at design thinking; Riddell: it will be right for some approaches and maybe not for others.'
+      - position: Design thinking's value is too intangible to justify.
+        evidence: 'The reading: it moves away from an analytical or evidence-based model, so it attracts value judgements, especially where data-driven evaluation has ruled, as in financial services.'
+        objection: The Design Management Institute's index found design-led companies outperformed the S&P by 228 percent over 10 years; Nash says design's impact is quantifiable by testing alternatives.
+    sources:
+      - Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird)
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 3, 5–10, 14, 16–17)
+  - concept: mgmt2094-w03-design-thinking-process
+    plain: Design thinking moves through five stages (empathy, define, ideate, prototype, test) with a set behaviour for each step, and then repeats, looping back whenever you learn something.
+    concrete: At Deloitte, design thinking wraps the entire solution development process around end-user needs, through visual storytelling, divergent and convergent thinking, and persona development. In freeform workspaces such as 'The Source', client and internal teams collaborate using visual storytelling and rapid prototyping. The audit practice used the process to improve how clients experience an audit, and won a 2014 International Design Award.
+    formal: 'The reading''s infographic (adapted from Designworks'' Luke van O and Herbert Simon''s The Sciences of the Artificial, 1969): Empathy → Define → Ideate → Prototype → Test, under Understand (''understanding ends in insight''), Create (''creation ends in ideas'') and Deliver (''delivery ends in reality''). Eight steps: be empathetic, explorative, creative, iterative, rational, practical and honest; then repeat.'
+    terms:
+      - term: iterative
+        gloss: Repeating and refining. The reading says its iterative nature can open alternative paths, new solutions, or even redefine the initial problem.
+      - term: consensus thinking
+        gloss: Choosing whatever everyone can agree on; step 5 says to avoid it when choosing an idea.
+      - term: Understand, Create, Deliver
+        gloss: 'The infographic''s three headings: understanding ends in insight, creation ends in ideas, delivery ends in reality.'
+    elements:
+      - name: 1 Be empathetic in defining the problem
+        test: Decide the issue you are resolving, agree on the audience, prioritise by urgency, determine what will make the project successful, and establish a glossary of terms.
+        authorities:
+          - mgmt2094-reading-marketers-guide-to-design-thinking
+      - name: 2 Be explorative in researching the problem
+        test: Review the issue's history and obstacles, collect other attempts to solve it, note supporters, investors and critics, talk to your end users, and consider thought leaders' opinions.
+      - name: 3 Be creative in generating ideas
+        test: Identify end users' needs and motivations, generate as many ideas as possible to serve them, log the brainstorm, do not judge or debate ideas, one conversation at a time.
+      - name: 4 Be iterative in refining your ideas
+        test: Combine, expand and refine ideas; create multiple drafts; seek feedback from a diverse group including end users; reserve judgement; present working prototypes.
+      - name: 5 Be rational in choosing an idea
+        test: Review the objective, set aside emotion and ownership of ideas, avoid consensus thinking, remember the most practical solution isn't always the best, and select the powerful ideas.
+      - name: 6 Be practical in delivering it to the client
+        test: Make task descriptions, plan tasks, determine resources, assign tasks, execute and deliver.
+      - name: 7 Be honest in evaluating performance
+        test: Gather consumer feedback, determine whether the solution met its goals, discuss what could be improved, measure success with data, and document.
+      - name: 8 Repeat
+        test: 'Go round again: the process is iterative and can open alternative paths or even redefine the initial problem.'
+    misconceptions:
+      - claim: The five stages run once, in a straight line.
+        tempting: The infographic draws them from left to right.
+        correction: Step 8 is 'Repeat', and the reading says the process's iterative nature can open alternative paths or redefine the problem; the guest lecturer adds that a team may go back a stage at any point.
+      - claim: Choose the idea the team agrees on, or the most practical one.
+        tempting: Consensus and practicality both feel safe.
+        correction: 'Step 5, be rational: set aside emotion and ownership of ideas, avoid consensus thinking; the most practical solution isn''t always the best.'
+      - claim: Debate each idea as it comes up so weak ones are dropped early.
+        tempting: It seems to save time.
+        correction: 'Step 3: generate as many ideas as possible, log the session, do not judge or debate ideas, and hold one conversation at a time. Choosing comes at step 5.'
+    socratic:
+      - ask: A team is told to 'fix the onboarding experience'. What must it pin down first?
+        hint: 'Step 1: be empathetic in defining the problem.'
+        answer: The issue it is resolving, who the audience is, how urgent it is, what success looks like, and a shared glossary of terms.
+      - ask: Where does it look next?
+        hint: Step 2's most fruitful source.
+        answer: 'It researches the problem: the issue''s history, other attempts, supporters and critics, and above all its end users, which brings the most fruitful ideas.'
+      - ask: How should the idea session run?
+        hint: Quantity, logging, judgement.
+        answer: As many ideas as possible to serve the users' needs, logged, with no judging or debating, and one conversation at a time.
+      - ask: How does it then choose among the ideas?
+        hint: Step 5 asks it to be rational.
+        answer: Review the objective, set aside emotion and ownership, avoid consensus thinking, and select the powerful ideas.
+      - ask: Once the solution is delivered, is the team finished?
+        hint: Steps 7 and 8.
+        answer: 'No: it evaluates honestly against the goals, measuring success with data, and then repeats.'
+    what-if:
+      - change: In the idea session, the manager debates each idea as soon as it is offered.
+        effect: It breaks step 3 (do not judge or debate ideas; one conversation at a time). Judgement belongs later, in step 5's rational choice.
+      - change: Testing reveals that users never had the problem the team defined.
+        effect: 'The process loops back: the reading says its iterative nature can open alternative paths or even redefine the initial problem, so the team returns to defining it.'
+    boundary:
+      - text: A team that picks the idea everyone feels comfortable with.
+        why: 'Fails step 5: avoid consensus thinking, and remember the most practical solution isn''t always the best.'
+      - text: Showing the client several drafts and a working prototype before an idea is chosen.
+        why: 'Fits step 4, be iterative: multiple drafts, feedback from a diverse group including end users, and actual working prototypes.'
+    transfer:
+      - scenario: A university library wants to redesign how students book study rooms.
+        answer: Define the issue, audience and success measures; research by reviewing past attempts and talking to students; generate many ideas without judging; refine through drafts and working prototypes with student feedback; choose rationally, avoiding consensus thinking; deliver practically; evaluate honestly with data; repeat.
+    objections:
+      - position: Design thinking is a formalised process, not creative chaos.
+        evidence: 'The reading''s eight steps, each with set behaviours; Deloitte''s Redhill: ''a much more formalised process''.'
+        objection: 'Van O: some corporations see it as chaotic, loose, ill defined or self-indulgent; Nash: a process founded on creativity sits uncomfortably with some executives.'
+        reply: 'Van O: ''The reality is that it''s an extremely high-level cognitive exercise that requires a lot of specific elements to be set so that it''s an achievable process.'''
+    sources:
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 3, 9, 12, 17–18)
+      - Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird)
+  - concept: mgmt2094-w03-desirability-feasibility-viability
+    plain: 'A strong innovation sits where three things overlap: people want it, you can make it, and it can pay its way (or, for government, make a big impact). Test the wanting first.'
+    concrete: The guest lecture's contrast. The Segway's inventor began with what he could make; worried about copying, he did not test it with customers, and at launch people said they already had a bike, skateboard or scooter. It flopped. James Dyson began with customers' frustrations, a dusty, messy bag and suction lost as it filled, then ran a couple of thousand experiments to make a solution feasible and viable.
+    formal: 'Tim Brown (IDEO), in the reading: design thinking matches people''s needs with what is technologically feasible and what a viable business can convert into consumer value and market opportunity. The guest lecture calls the overlap the sweet spot: desirable (people want it), feasible (we can make it, technically and organisationally) and viable (we can make money from it, or for government, a big impact).'
+    analogy:
+      text: 'A three-legged stool: take away any leg and it falls over.'
+      maps:
+        - from: the three legs
+          to: desirable, feasible and viable
+        - from: the stool falling over
+          to: the idea failing
+      limits:
+        - A stool's legs are fitted at the same time; the lecture says to test desirability first, then feasibility and viability.
+    terms:
+      - term: sweet spot
+        gloss: Where an idea is desirable, feasible and viable at once (guest lecture).
+      - term: business case
+        gloss: A financial argument for an idea. The lecture warns that for future innovations it rests on made-up numbers, since there is no data yet.
+      - term: business model canvas
+        gloss: A tool the guest lecture uses, alongside more finished prototypes, to test ideas for feasibility and viability.
+    elements:
+      - name: Desirable (test first)
+        test: Do people (customers, consumers or users) want it? The number one reason ideas fail is that no one wants them, so start here.
+        authorities:
+          - mgmt2094-example-segway-and-dyson
+      - name: Feasible
+        test: Can we make it, technically and organisationally? Test once desirability is clearer, using more finished prototypes.
+      - name: Viable
+        test: Can we make money from it, or, for government or not-for-profits, have a big impact for citizens? Tools such as the business model canvas help.
+    misconceptions:
+      - claim: Start with what is technically possible; a cool product will find buyers.
+        tempting: Engineering breakthroughs look like innovation.
+        correction: 'The lecture: starting with feasibility means customers first see the idea at launch, after possibly millions are spent. Start with desirability, since the top reason ideas fail is that no one wants them.'
+      - claim: A solid business case proves an innovation is viable before launch.
+        tempting: Business cases look rigorous.
+        correction: 'For innovation, a business case is largely made-up numbers: the idea lies in the future and there is no data yet. Test with customers instead.'
+      - claim: Viable only means profitable.
+        tempting: Brown's definition speaks of a 'viable business'.
+        correction: 'The lecture: for government or a not-for-profit, viable means the idea will have a big impact for citizens.'
+    socratic:
+      - ask: The Segway's inventor started from a machine he could build. Which lens did he start with?
+        hint: Can we make it?
+        answer: 'Feasibility: what he could make.'
+      - ask: Why did it flop at launch?
+        hint: What did people say they already had?
+        answer: 'Desirability was never tested: he kept it from customers, and at launch people said they already had a bike, skateboard or scooter.'
+      - ask: Where did James Dyson start instead?
+        hint: Customers' frustrations with vacuum bags.
+        answer: 'With desirability: a dusty, messy bag and suction lost as it filled. Then he ran a couple of thousand experiments to make a solution feasible and viable.'
+      - ask: So in what order should the three lenses be tested?
+        hint: The number one reason ideas fail.
+        answer: Desirability first; then feasibility and viability, with more finished prototypes and tools such as the business model canvas.
+    what-if:
+      - change: The Segway's inventor had shown cheap mock-ups to commuters before building it.
+        effect: 'He would have tested desirability early and cheaply, and might have heard that people already had bikes, skateboards and scooters before spending heavily: the lecture''s case for starting with desirability.'
+      - change: A not-for-profit's idea will never make money but would greatly help citizens.
+        effect: 'It can still be viable: the lecture says that for government or not-for-profits, viability means having a big impact for citizens.'
+    boundary:
+      - text: A product customers love but the firm cannot yet make reliably.
+        why: 'Desirable but not proven feasible: outside the sweet spot until testing shows it can be made, technically and organisationally.'
+      - text: Dyson's couple of thousand experiments.
+        why: 'Inside the method: desirability came first, from customer frustrations; the experiments then worked on feasibility and viability.'
+    transfer:
+      - scenario: A council wants to launch a drone service that delivers library books to residents' homes.
+        answer: 'Test desirability first: do residents want it? Only then test feasibility (can the council make it work, technically and organisationally?) and viability (for a council, a big impact for citizens). Starting from the exciting technology risks the Segway''s fate.'
+    objections:
+      - position: Innovation should start with desirability, not with technology.
+        evidence: The number one reason ideas fail is that no one wants them; the Segway versus Dyson; Brown's definition starts from people's needs.
+        objection: 'Verganti warns against engaging customers too much: most are not trained to see far-future possibilities. Jobs: until you show them, they don''t know.'
+        reply: 'The lecture: customers may not know the solution, but they do know their pain points and what they like; you ask about their lives, not for solutions.'
+    sources:
+      - Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird)
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 7–8)
+    verify: true
+  - concept: mgmt2094-w03-discovering-needs-and-insights
+    plain: Before designing anything, go out and learn customers' real needs from how they live, then boil the research down to one need and a deeper insight into its cause.
+    concrete: 'A Stanford d.school team was asked to design a low-cost incubator for premature babies in Nepal. In the hospitals they found the incubators mostly empty: babies were born in villages, and one had died on the journey to the city. The real need was to keep a premature baby warm without the means to get it to hospital, so they designed a cheap warmer heated by a wax pellet.'
+    formal: 'The guest lecture''s discover and distil stages. Discover: fall in love with the problem, not the solution; get out of the building; pursue multiple lines of inquiry (be the customer, be with the customer, learn about them, talk to extreme users). Distil: an empathy map, then a customer narrative: a descriptive customer, a need written as a verb, and an insight reaching the root cause.'
+    terms:
+      - term: empathy map
+        gloss: Unpacks interviews and observations into what customers say and do and, more importantly, think and feel; based on real research, not made up.
+      - term: extreme users
+        gloss: People who use a product a lot or not at all; their heightened experience reveals needs, and a solution can still sell to the mainstream.
+      - term: customer narrative
+        gloss: 'Like a user story: a descriptive customer, a need written as a verb, and an insight that reaches the root cause.'
+      - term: insight
+        gloss: 'Deeper than the reason behind a need: the root cause of the problem.'
+    elements:
+      - name: 'Discover: be the customer'
+        test: Experience the situation the customer experiences yourself, from start to finish.
+      - name: 'Discover: be with the customer'
+        test: 'Observe customers, then interview them: ask about their lives and pain points, not for solutions.'
+      - name: 'Discover: learn about them'
+        test: Talk to people around them who know their habits, such as partners, hairstylists or nutritionists.
+      - name: 'Discover: talk to extreme users'
+        test: 'Include people who use the product a lot or not at all: their experience is heightened, so needs and insights surface more easily.'
+      - name: 'Distil: a descriptive customer'
+        test: Describe one specific customer, as in 'desperate Nepali mother', rather than a generic segment.
+        authorities:
+          - mgmt2094-example-nepal-infant-warmer
+      - name: 'Distil: the need as a verb'
+        test: Write the need as a verb, such as 'keep her premature baby warm'; nouns are often solutions in disguise.
+      - name: 'Distil: the insight at the root cause'
+        test: 'Go deeper than the reason behind the need, to the root cause: she does not have the means to get her baby to hospital.'
+    misconceptions:
+      - claim: Ask customers which solution they want.
+        tempting: They are the ones who will buy it.
+        correction: 'Ask about their lives: they know their pain points and what they like, but may lack the expertise to design solutions. Fall in love with the problem, not the solution.'
+      - claim: Research the mainstream, as an opinion poll would.
+        tempting: Most sales come from mainstream customers.
+        correction: Innovation is not polling. Extreme users' heightened experience surfaces needs the mainstream has worked around, and a solution built for them can still sell to the mainstream.
+      - claim: '''Needs a low-cost incubator'' is a good need statement.'
+        tempting: It names exactly what the brief asked for.
+        correction: It is a noun, and so a solution. Write the need as a verb (keep the premature baby warm) and push the insight to the root cause.
+    socratic:
+      - ask: The brief was a low-cost incubator for Nepal. What did the team notice in the hospitals?
+        hint: Were the incubators being used?
+        answer: Most of the incubators were empty.
+      - ask: Following their curiosity, what did they find?
+        hint: Where were the babies born?
+        answer: 'Mostly in villages: parents had to get premature babies to city hospitals, and one baby died on the journey.'
+      - ask: So what is the need, written as a verb?
+        hint: Not 'an incubator'.
+        answer: To keep a premature baby warm.
+      - ask: And the insight at the root cause?
+        hint: Why can't the mother simply use the hospital?
+        answer: 'She does not have the means to get her baby to the hospital: a transport problem, not an incubator problem.'
+      - ask: What might clever engineers who skipped discovery have built?
+        hint: Re-read the brief.
+        answer: A lower-cost incubator for empty wards, which might not have saved any lives.
+    what-if:
+      - change: The d.school team had stayed at Stanford and designed straight from the brief.
+        effect: 'They would probably have built a cheaper incubator, solving the stated problem but missing the real one: keeping babies warm without the means to reach hospital.'
+      - change: A kitchenware firm researches pizza cutters only with ordinary adult cooks.
+        effect: The mainstream may already have workarounds and never mention the problem. Extreme users, children and grandparents pressing down hard, revealed it, and the two-handed cutter that resulted still sold to the mainstream.
+    boundary:
+      - text: A focus group asked to vote on three new product ideas.
+        why: 'Not discovery: it asks customers for solutions. Discovery asks about customers'' lives and pain points; ideas come halfway through the process.'
+      - text: An empathy map filled in from the team's own assumptions.
+        why: 'Outside the method: the lecture warns against making it up; the map must be based on actual customer research.'
+    transfer:
+      - scenario: A gym chain is told to 'build a better booking app' because members keep missing classes.
+        answer: 'Discover first: book and attend a class yourself, observe and interview members, talk to people around them, and include extreme users such as daily regulars and lapsed members. Then distil: an empathy map, and a narrative with a descriptive member, a need as a verb and a root-cause insight. The real problem may not be the app.'
+    objections:
+      - position: Innovation should begin by researching customers' lives.
+        evidence: In Nepal, field research turned an incubator brief into a transport insight; customers know their pain points even if they do not know the solution.
+        objection: 'Verganti: engaging the customer too much stops you seeing beyond their direct environment; most customers aren''t trained to see possibilities in the far future.'
+        reply: The lecture asks customers about their lives and pain points, not for solutions; the team generates solutions later, from the needs and insights.
+    sources:
+      - Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird)
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (p 8)
+    verify: true
+  - concept: mgmt2094-w03-empathy-and-human-centred-design
+    plain: Empathy means understanding users from their point of view, with your own assumptions set aside. Human-centred design uses it to uncover needs users cannot put into words.
+    concrete: Temple Grandin, a professor of animal science, noticed that livestock reacted badly when led in a straight line. She designed adapted curved corrals, which reduced stress, panic and injury, made the process more humane and safe, and apparently improved the quality of the meat. She observed the animals from an unaffected standpoint, where others might have assumed cows are just dumb animals.
+    formal: 'Mitchem (2015): human-centred design (HCD), championed by IDEO, works on the premise that a deep understanding of users'' unarticulated needs, through empathy, inspires creativity and innovation. Empathy is affective (a shared, mirrored emotion) or cognitive (perspective taking: stepping into someone''s world, worldview, beliefs and fears). Tim Brown: ''Empathy is at the heart of design.'''
+    terms:
+      - term: affective empathy
+        gloss: 'A shared, mirrored emotional response: you see someone sad and you feel sad too.'
+      - term: cognitive empathy
+        gloss: 'Perspective taking: stepping into someone''s world to understand their worldview, beliefs, fears and the experiences that shape them.'
+      - term: unarticulated needs
+        gloss: Needs users have but may not recognise or voice; human-centred design aims to uncover them through empathy.
+      - term: human-centred design
+        gloss: IDEO's methodology, which puts users at the heart and centre of the design process; empathy is one of its mindsets.
+    elements:
+      - name: 'Roadblock 1: idealism'
+        test: People see things as they expect them to be; without evidence beyond their expectations, they underestimate or overestimate the situation.
+        authorities:
+          - mgmt2094-reading-mitchem-empathy
+      - name: 'Roadblock 2: egoism'
+        test: People see things as they want them to be, holding personal beliefs under any circumstance and predicting others' behaviour and feelings from them.
+      - name: 'Roadblock 3: realism'
+        test: People think they see things as they are, projecting their own perspective onto someone's situation and blaming the scene for their conclusions.
+      - name: 'Roadblock 4: circumstantialism'
+        test: People think only about what they see, failing to connect obtainable information that is not present at that moment.
+    misconceptions:
+      - claim: Empathy just means feeling what the user feels.
+        tempting: That is the everyday meaning of the word.
+        correction: 'That is affective empathy only. Cognitive empathy is perspective taking: understanding the user''s worldview, beliefs, fears and experiences.'
+      - claim: If I observe carefully, I see things as they are.
+        tempting: Observation feels objective.
+        correction: That belief is the realism roadblock. True empathy sets aside personal beliefs, expectations and values, and seeks further evidence without judgement.
+      - claim: Customers can tell you what they need, so just ask them.
+        tempting: Surveys are standard marketing practice.
+        correction: 'HCD targets unarticulated needs users may not recognise; empathetic design observes users in their environments, closer to anthropology than market science. Ford: they''d have said faster horses.'
+    socratic:
+      - ask: Cattle panicked in livestock facilities. What might most observers have assumed?
+        hint: The reading's guess at 'the rest of us'.
+        answer: That cows are just dumb animals and that's just what they do.
+      - ask: What did Temple Grandin do differently?
+        hint: Her standpoint when observing.
+        answer: She observed their behaviour from an unaffected standpoint and noticed that they reacted badly to being led in a straight line.
+      - ask: What did that simple insight lead to?
+        hint: Change the shape of the path.
+        answer: Curved corrals, which reduced stress, panic and injury and made the process more humane and safe.
+      - ask: What does true empathy require of the rest of us?
+        hint: What must be set aside?
+        answer: 'Setting aside personal beliefs, expectations and values, and actively seeking further evidence in a non-judgemental way: experiencing it as they do, even if they are cows.'
+    what-if:
+      - change: Grandin had asked farmers what improvements they wanted instead of watching the animals.
+        effect: She might have heard only the farmers' assumptions. HCD relies on observing users in their environment to find unarticulated needs; the insight came from watching the animals themselves.
+    boundary:
+      - text: A designer who feels upset watching a frustrated user, then designs to her own taste.
+        why: 'Affective empathy without cognitive empathy, and the egoism roadblock: seeing things as she wants them to be. True empathy sets personal beliefs aside.'
+      - text: Verganti's warning against engaging the customer too much.
+        why: 'A debated limit of HCD: IDEO goes into the customer''s world, but Verganti says most customers are not trained to see possibilities in the far future.'
+    transfer:
+      - scenario: A bank's app team believes older customers avoid the app because they 'don't like technology'.
+        answer: 'That belief risks the idealism or egoism roadblock. Use cognitive empathy: observe older customers using the app in their own setting, set aside personal beliefs and seek further evidence without judgement to find unarticulated needs, just as Grandin found the straight path, not the animals, was the problem.'
+    objections:
+      - position: Innovators should go deep into the customer's world.
+        evidence: 'IDEO''s HCD: a deep understanding of users'' unarticulated needs, through empathy, inspires innovation; Grandin''s curved corrals.'
+        objection: 'Verganti: engage the customer too much and you cannot see beyond their direct environment. Jobs: until you show them, they don''t know.'
+        reply: 'Mitchem: empathy is not asking customers what they want; it discovers needs users may not recognise themselves, so firms can do what customers haven''t asked for.'
+    sources:
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 8, 19–20)
+  - concept: mgmt2094-w03-four-rules-of-design-thinking
+    plain: 'Four principles hold throughout design thinking: design is about people, keep the problem open, learn from how needs were met before, and make ideas tangible.'
+    concrete: Meinel and Leifer's own example is a finding about prototypes. Conceptual prototyping was central to design thinking throughout their research, yet only in the past few years did they realise that 'prototypes are communication media'. Seen as media, prototypes can now be understood in terms of their bandwidth, granularity, time constants and context dependencies.
+    formal: 'Meinel and Leifer, Design Thinking: Understand, Improve, Apply (2011), quoted in the reading: 1 the Human Rule, all design activity is ultimately social in nature; 2 the Ambiguity Rule, design thinkers must preserve ambiguity; 3 the Redesign Rule, all design is redesign; 4 the Tangibility Rule, making ideas tangible always facilitates communication.'
+    terms:
+      - term: chance discovery
+        gloss: 'What the Ambiguity Rule protects: unexpected finds, impossible if the box is closed tightly and fear of failure is always at hand.'
+      - term: foresight tools and methods
+        gloss: Used under the Redesign Rule to estimate the social and technical conditions of five, 10 or even 20 years ahead.
+      - term: prototypes are communication media
+        gloss: 'The Tangibility Rule''s recent finding: prototypes communicate ideas, with their own bandwidth, granularity, time constants and context dependencies.'
+    elements:
+      - name: The Human Rule
+        test: 'All design activity is ultimately social: solve technical problems in ways that satisfy human needs, and acknowledge the human element in all technologists and managers.'
+        authorities:
+          - mgmt2094-meinel-leifer-four-rules
+      - name: The Ambiguity Rule
+        test: 'Preserve ambiguity: no ''chance discovery'' if the box is closed tightly, the constraints enumerated excessively and fear of failure always at hand. Experiment at the limits of knowledge.'
+        authorities:
+          - mgmt2094-meinel-leifer-four-rules
+      - name: The Redesign Rule
+        test: 'All design is redesign: human needs are ancient, so understand how they were met in the past, then use foresight tools to estimate conditions five to 20 years ahead.'
+        authorities:
+          - mgmt2094-meinel-leifer-four-rules
+      - name: The Tangibility Rule
+        test: 'Making ideas tangible always facilitates communication: ''prototypes are communication media''.'
+        authorities:
+          - mgmt2094-meinel-leifer-four-rules
+    misconceptions:
+      - claim: The four rules are the stages of the design thinking process.
+        tempting: Both are numbered lists in the reading.
+        correction: The rules are principles that hold throughout; the stages (empathy, define, ideate, prototype, test) are the sequence of work.
+      - claim: Good design thinkers pin down every constraint at the start.
+        tempting: A tight brief sounds professional.
+        correction: 'The Ambiguity Rule: there is no chance for chance discovery if the box is closed tightly and the constraints are enumerated excessively. Preserve ambiguity.'
+      - claim: '''All design is redesign'' means copying old solutions.'
+        tempting: Redesign sounds like reuse.
+        correction: Understand how ancient human needs were met in the past, then apply foresight tools to estimate conditions years ahead, because technology and social circumstances keep changing.
+    socratic:
+      - ask: A team's brief lists 25 fixed constraints and its manager punishes failed experiments. Which rule is broken?
+        hint: There is no room left for chance.
+        answer: 'The Ambiguity Rule: the box is closed tightly, the constraints are enumerated excessively, and fear of failure is always at hand.'
+      - ask: Engineers have built a technically brilliant device that ignores how people actually live. Which rule?
+        hint: All design activity is ultimately …
+        answer: 'The Human Rule: solve technical problems in ways that satisfy human needs.'
+      - ask: Before designing a new way to keep food fresh, what does the Redesign Rule tell the team to study?
+        hint: The need is very old.
+        answer: How the need has been met in the past; then apply foresight tools to estimate conditions five, 10 or 20 years ahead.
+      - ask: Why show the client a rough model rather than only describing the idea?
+        hint: Meinel and Leifer's most recent finding.
+        answer: 'The Tangibility Rule: making ideas tangible always facilitates communication, because prototypes are communication media.'
+    what-if:
+      - change: A team freezes its brief on day one and treats every failed test as a mistake to be punished.
+        effect: 'It breaks the Ambiguity Rule: with the box closed tightly and fear of failure at hand there is no chance for ''chance discovery'', yet innovation demands experimentation at the limits of knowledge.'
+    boundary:
+      - text: A prototype built only to check that a product works technically.
+        why: 'The Tangibility Rule adds a second role: prototypes are communication media, helping people share and discuss ideas, not only test engineering.'
+      - text: A team that studies past solutions and stops there.
+        why: 'Only half of the Redesign Rule: understanding the past must be followed by foresight tools that estimate conditions five, 10 or 20 years ahead.'
+    transfer:
+      - scenario: A hospital wants to redesign its emergency department waiting room.
+        answer: 'Human Rule: design around patients'' and staff''s needs. Ambiguity Rule: don''t close the brief too early. Redesign Rule: study how waiting has been handled before, then look five to 20 years ahead. Tangibility Rule: build mock-ups so staff and patients can communicate about the ideas.'
+    objections:
+      - position: Preserving ambiguity is what makes innovation possible.
+        evidence: 'Meinel and Leifer: no chance for ''chance discovery'' if the box is closed tightly; innovation demands experimentation at the limits of our knowledge.'
+        objection: To many corporations design thinking already looks chaotic, loose and ill defined; van O says it requires a lot of specific elements to be set to be achievable.
+    sources:
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 9, 11)
+  - concept: mgmt2094-w03-divergent-thinking-and-idea-generation
+    plain: Divergent thinking means producing lots of different ideas quickly without judging them yet. Short timed exercises train it; choosing comes afterwards.
+    concrete: 'Speed thinking from the Week 3 exercises: in 120 seconds, come up with as many ideas as you can to solve ''How can we increase awareness of the threat of global warming?'' Then spend another 120 seconds on why those ideas will NOT work. Finally, in 120 seconds, find nine different perspectives on ''How can we reduce the current level of childhood obesity?'''
+    formal: 'Week 3 creativity exercises: the goal of divergent thinking is to generate many different ideas about a topic in a short period of time. It involves breaking a topic down into its component parts to gain insight into its aspects, and typically occurs in a spontaneous, free-flowing manner, so ideas arrive random and unorganised. Reading, step 3: generate as many ideas as possible; do not judge or debate them.'
+    terms:
+      - term: divergent thinking
+        gloss: Generating many different ideas about a topic in a short time, in a spontaneous, free-flowing and unorganised way (Week 3 exercises).
+      - term: speed thinking
+        gloss: 'Timed exercises: idea ping-pong in groups, a mind map at speed, 120-second idea lists, and nine perspectives on one problem.'
+      - term: diverging, before converging
+        gloss: 'Deloitte''s summary of how it works: open up the options widely first, then narrow them down.'
+    elements:
+      - name: Uses for a paper clip
+        test: 'You have 60 seconds: write down as many uses as you can think of for a paper clip.'
+      - name: Think in threes
+        test: Take your problem and find A, the usual solution; B, different solutions; and C, radical solutions.
+      - name: Asking new questions
+        test: 'Spend two minutes listing all the existing questions about a problem, then at least five new and varied ones: no solutions, only interesting questions.'
+      - name: Place two unrelated things together
+        test: Put two unrelated things side by side to find a new opportunity.
+      - name: Who are your future competitors?
+        test: Map competitors as current or future and direct or indirect; the usual answer fills only the current, direct box.
+      - name: Speed thinking
+        test: Idea ping-pong, a mind map at speed (six ideas in two minutes), as many ideas as possible in 120 seconds, why they will NOT work, and nine perspectives.
+    misconceptions:
+      - claim: Judge ideas as they come so the list stays useful.
+        tempting: A shorter, cleaner list seems more practical.
+        correction: 'Reading, step 3: generate as many ideas as possible, log the session, do not judge or debate ideas. Divergent ideas arrive random and unorganised; that is expected.'
+      - claim: Your competitors are the firms selling the same thing as you today.
+        tempting: That is the obvious answer.
+        correction: The future-competitors exercise asks for current and future, direct and indirect competitors; the usual answer covers only the current, direct ones.
+      - claim: Once you have a sensible solution, you have done the creative work.
+        tempting: The usual solution often works.
+        correction: 'Think in threes: A is only the usual solution; push on to B, different solutions, and C, radical solutions.'
+    socratic:
+      - ask: 'You have 60 seconds: how many uses can you think of for a paper clip?'
+        hint: Aim for quantity, not quality.
+        answer: 'As many as possible: the goal of divergent thinking is many different ideas about a topic in a short time.'
+      - ask: Your list looks random and messy. Is something wrong?
+        hint: How does divergent thinking typically occur?
+        answer: 'No: it typically occurs in a spontaneous, free-flowing manner, so ideas arrive in a random, unorganised fashion.'
+      - ask: How can you push past the obvious answer to your own problem?
+        hint: A, B, C.
+        answer: 'Think in threes: A, the usual solution; B, different solutions; C, radical solutions.'
+      - ask: When should the ideas be judged?
+        hint: Deloitte's four words.
+        answer: 'Afterwards: diverging, before converging. When choosing, set aside emotion and ownership of ideas and avoid consensus thinking.'
+    what-if:
+      - change: During the idea session, the team debates each idea's cost before moving to the next.
+        effect: It breaks the reading's step 3 (do not judge or debate ideas; one conversation at a time) and chokes the flow of many ideas in a short time that divergent thinking needs.
+    boundary:
+      - text: 120 seconds listing why the ideas will NOT work.
+        why: 'Part of the speed-thinking set, but it switches from generating to critiquing: judgement given its own timed slot after the ideas exist, not mixed into generating them.'
+      - text: Writing at least five new questions about a problem, with no solutions.
+        why: 'Still divergent: it generates many varied questions rather than answers, after first listing the existing ones.'
+    transfer:
+      - scenario: A local café owner's only idea for winning back customers is to cut prices.
+        answer: That is A, the usual solution. Think in threes and add B, different solutions, and C, radical ones. Run speed thinking (as many ideas as possible in 120 seconds) and map future competitors, current and future, direct and indirect, judging nothing until the list is long.
+    objections:
+      - position: Idea generation should be fast, free and unjudged.
+        evidence: 'The exercises: many ideas in a short time, spontaneous and free-flowing. Reading, step 3: do not judge or debate ideas.'
+        objection: Ideas generated this way arrive random and unorganised, so a team still needs a disciplined way to choose among them.
+        reply: 'The reading''s step 5 supplies it: be rational in choosing (review the objective, set aside emotion and ownership, avoid consensus thinking) and select the powerful ideas.'
+    sources:
+      - Marketing - Week 03 - Creativity Exercises (slides 2–13)
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 12, 18)
+  - concept: mgmt2094-w03-prototyping-and-experimentation
+    plain: After generating ideas, build something cheap and simple and test it with customers early, while failing costs little. Spend more only as evidence grows that people want it.
+    concrete: Zappos's founder wanted to know whether people would buy shoes online. He photographed a local shop's shoes and listed them on a one- or two-page website. When a pair sold, he went to the shop, bought it at full retail and posted it himself. That proved the business model, and taught him about distribution and warehousing, without buying a warehouse or writing much code.
+    formal: 'Guest lecture: think with your hands, build something or try something, then talk about it, not the reverse (David Kelley); design thinking ''probably should be called design doing''. Fail early, while failure is cheap. Early prototypes ask: if we made it, would it matter to the customer? More finished prototypes follow as desirability grows. Meinel and Leifer: prototypes are communication media.'
+    analogy:
+      text: The guest lecturer's Olympic athlete tries different diets and training routines in the years before the Games, when failing costs little, not at the Games themselves.
+      maps:
+        - from: the years before the Games
+          to: the early innovation process
+        - from: trying a new routine
+          to: a cheap prototype tested with customers
+        - from: competing at the Games
+          to: launching the product
+      limits:
+        - An athlete must turn up to the Games; an innovation team can kill or pivot an idea instead of launching it.
+    terms:
+      - term: prototype
+        gloss: 'Anything that makes an idea testable: scrap materials, a mock-up, a storyboard, or eventually a working model.'
+      - term: pivot
+        gloss: After a failed test, changing one key element, such as the product, customer group or channel, rather than killing the idea.
+      - term: fidelity
+        gloss: 'How finished a prototype is: low fidelity (storyboards, mock-ups) while uncertainty is high; higher fidelity, and higher cost, as evidence grows.'
+    misconceptions:
+      - claim: Prototype once the product is nearly finished, to get a true reaction.
+        tempting: A polished version seems a fairer test.
+        correction: Early, while uncertainty is high, cheap low-fidelity prototypes answer 'would it matter to the customer?'. More finished, costlier ones are justified as it becomes clear people want it.
+      - claim: Talk an idea through thoroughly before building anything.
+        tempting: Business people like to settle the solution first.
+        correction: 'Kelley: build something, try something, then talk about it, not the reverse. The lecturer: design thinking ''probably should be called design doing''.'
+      - claim: A failed test means the idea is dead.
+        tempting: Failure sounds final.
+        correction: 'It may be killed, but it may instead be pivoted: change one key element, such as the product, the customer group or the channel, and test again.'
+    socratic:
+      - ask: After ideation, where has the team been, and what is the risk?
+        hint: Whose heads have the ideas been in?
+        answer: In its own heads. It needs to get back to customers quickly to find out whether they are as excited about the ideas as the team is.
+      - ask: When is the cheapest time to fail?
+        hint: The Olympic athlete.
+        answer: Early in the process. Building something costly and then launching means the money is spent before you learn it fails.
+      - ask: What should the first prototype test?
+        hint: Not 'can we make it?'
+        answer: If we made it, would it matter to the customer? The number one reason ideas fail is that no one wants them.
+      - ask: When does a more finished prototype make sense?
+        hint: As uncertainty falls …
+        answer: 'Once it is clearer that people want it: then more expensive, higher-fidelity prototypes, and tests of feasibility and viability.'
+    what-if:
+      - change: The Zappos founder had first built a warehouse and a full automated ordering system.
+        effect: 'He would have spent heavily before learning whether people would buy shoes online at all: failing late and expensively, the pattern the lecture warns against.'
+      - change: Tests show customers like the idea, but the chosen sales channel doesn't reach them.
+        effect: 'A pivot rather than a kill: change one key element, here the channel, and test again.'
+    boundary:
+      - text: A storyboard showing how a ride-hailing app would work.
+        why: 'A valid low-fidelity prototype: the lecturer says a storyboard could have tested the idea of Uber, because the early question is whether it would matter to customers.'
+      - text: Building and launching a costly product to see whether it sells.
+        why: 'Not prototyping: it fails late, after the money is spent. Early experiments let a team learn quickly and cheaply.'
+    transfer:
+      - scenario: A student wants to start a meal-prep delivery service for her residential college.
+        answer: 'Prototype cheaply first: post a simple menu and take orders, cooking and delivering by hand, to test whether students want it before buying equipment. If it proves desirable, test feasibility and viability with more finished prototypes; if not, pivot one element (menu, customer group or channel) or kill it.'
+    objections:
+      - position: Teams should prototype and test ideas early and cheaply.
+        evidence: 'Failing early is cheap; Zappos proved its model without a warehouse; Meinel and Leifer: prototypes are communication media.'
+        objection: 'Luke van O: people often react to new ideas with a desire to validate them through testing, but ''how do you test the future?'' Apple''s ideas seemed crazy at the time.'
+    storyboard:
+      - caption: 'An untested idea: shoes online'
+        detail: His friends doubt that people will buy shoes online without trying them on.
+      - caption: Borrow a shop's shoes
+        detail: He asks a local shoe shop to let him photograph its shoes and sell them online, paying full retail for any that sell.
+      - caption: Sell, then run to the shop
+        detail: When an order arrives he buys the pair, wraps it and posts it himself, while customers assume the business is automated.
+      - caption: Model proved, cheaply
+        detail: The test proves the business model and teaches him distribution and warehousing, without a warehouse or much code.
+    sources:
+      - Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird)
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (pp 7–8, 11–12)
+    verify: true
+flows:
+  - slug: design-thinking-journey
+    title: 'Walking an idea through design thinking: keep going, pivot or kill?'
+    summary: Takes a project from defining the problem to testing a prototype, then decides whether to develop, iterate, pivot or kill the idea.
+    start: n1
+    concepts:
+      - mgmt2094-w03-design-thinking-process
+      - mgmt2094-w03-discovering-needs-and-insights
+      - mgmt2094-w03-prototyping-and-experimentation
+      - mgmt2094-w03-desirability-feasibility-viability
+    sources:
+      - Marketing - Week 03 - Reading - Design Thinking (Dunner ed. 2015) (p 12)
+      - Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird)
+    verify: true
+    nodes:
+      - id: n1
+        kind: step
+        text: Be empathetic in defining the problem.
+        note: Decide the issue, agree on the audience, prioritise by urgency, decide what success looks like, and establish a glossary of terms (reading, step 1).
+        concept: mgmt2094-w03-design-thinking-process
+        next: n2
+      - id: n2
+        kind: ask
+        text: Do you know the customer needs from research with real users, not from the office?
+        branches:
+          - label: Yes, from real research
+            to: n4
+          - label: No, we assumed them
+            to: n3
+      - id: n3
+        kind: step
+        text: 'Get out of the building: discover, then distil needs and insights.'
+        note: Be the customer, be with the customer, learn about them, talk to extreme users; then an empathy map and a narrative with a need as a verb and a root-cause insight.
+        concept: mgmt2094-w03-discovering-needs-and-insights
+        authorities:
+          - mgmt2094-example-nepal-infant-warmer
+        next: n4
+      - id: n4
+        kind: step
+        text: 'Generate ideas: as many as possible, without judging or debating them.'
+        note: Log the session and hold one conversation at a time (reading, step 3). Exercises such as think in threes or speed thinking help.
+        concept: mgmt2094-w03-divergent-thinking-and-idea-generation
+        next: n5
+      - id: n5
+        kind: step
+        text: 'Choose rationally: set aside emotion and ownership, avoid consensus thinking.'
+        note: Review the objective; remember the most practical solution isn't always the best; select the powerful ideas (reading, step 5).
+        next: n6
+      - id: n6
+        kind: step
+        text: Build a simple, cheap prototype and test it with customers.
+        note: Scrap materials, a mock-up or a storyboard. The early question is not "can we make it?" but "if we made it, would it matter to the customer?"
+        concept: mgmt2094-w03-prototyping-and-experimentation
+        authorities:
+          - mgmt2094-example-zappos
+        next: n7
+      - id: n7
+        kind: ask
+        text: Do customers want it (is it desirable)?
+        branches:
+          - label: 'Yes'
+            to: n8
+          - label: 'Partly: promising, but not there yet'
+            to: n9
+          - label: 'No'
+            to: n10
+      - id: n8
+        kind: ask
+        text: Can it be made (feasible) and make money or impact (viable)?
+        note: Test with more finished prototypes and tools such as the business model canvas.
+        concept: mgmt2094-w03-desirability-feasibility-viability
+        branches:
+          - label: Yes, both
+            to: n11
+          - label: 'No'
+            to: n10
+      - id: n9
+        kind: end
+        tone: qualified
+        text: Iterate or pivot, then test again.
+        note: Get feedback, refine and take it back to customers; or pivot by changing one key element, such as the product, the customer group or the channel.
+      - id: n10
+        kind: ask
+        text: Is there a viable pivot, with time and money left?
+        branches:
+          - label: 'Yes'
+            to: n9
+          - label: 'No'
+            to: n12
+      - id: n11
+        kind: end
+        tone: met
+        text: 'In the sweet spot: deliver it, evaluate honestly, repeat.'
+        note: Be practical in delivering (plan, resource, assign, execute) and honest in evaluating (did it meet its goals? measure success); then repeat (reading, steps 6–8).
+      - id: n12
+        kind: end
+        tone: not-met
+        text: Kill the idea and move on to the next project.
+        note: 'The guest lecturer: you do not perish, your idea does. Failing now, before a costly launch, is the cheap way to fail.'

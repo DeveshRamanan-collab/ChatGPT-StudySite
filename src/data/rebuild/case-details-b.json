@@ -1,0 +1,2121 @@
+{
+  "cases": [
+    {
+      "listNumber": 40,
+      "ref": "march-v-stramare",
+      "name": "March v E & MH Stramare Pty Ltd",
+      "citation": "March v E & MH Stramare Pty Ltd (1991) 171 CLR 506",
+      "oneLine": "A plaintiff’s carelessness need not erase the causal contribution of a negligently parked truck.",
+      "plain": "The truck obstructed the middle of a six-lane road while fruit and vegetables were unloaded. A driver who was drunk and speeding hit it. His own serious fault did not make the obstruction cease to be a cause.",
+      "concreteExplanation": "Think of two contributors operating together: the truck creates a collision hazard and the driver fails to avoid it. Calling the driver careless answers contributory negligence; it does not by itself answer whether the truck also caused the crash.",
+      "keyFacts": [
+        "Truck parked in the middle of a six-lane road in the early morning, following a longstanding unloading practice.",
+        "Plaintiff was intoxicated and speeding when he collided with it.",
+        "Trial judge attributed 70% contributory negligence; the Full Court attributed the entire responsibility to the plaintiff."
+      ],
+      "issue": "Whether the defendant's negligence in parking the truck was a cause of the plaintiff's injury, given the plaintiff's own negligence, and how causation is to be tested.",
+      "reasoning": [
+        "Mason CJ: the 'but for' test was never the exclusive test of causation in negligence (it does not work where two or more acts or events are involved or the chain is broken by an intervening event); causation is a question of fact which 'must be determined by applying common sense to the facts of each particular case'; and the chain is not broken where 'the defendant's wrongful conduct has generated the very risk of injury resulting from the negligence of the plaintiff or a third party'. McHugh J: 'but for' should be the exclusive test, with a 'scope of the risk' test allowing policy factors to be employed as part of remoteness."
+      ],
+      "outcome": "The High Court held that the defendant's negligence was the cause of the plaintiff's injury, though the judges disagreed about the reasoning on causation. The plaintiff's own negligence did not break the chain, because the truck created the very risk that materialised.",
+      "ratio": "Mason CJ: the 'but for' test was never the exclusive test of causation in negligence (it does not work where two or more acts or events are involved or the chain is broken by an intervening event); causation is a question of fact which 'must be determined by applying common sense to the facts of each particular case'; and the chain is not broken where 'the defendant's wrongful conduct has generated the very risk of injury resulting from the negligence of the plaintiff or a third party'. McHugh J: 'but for' should be the exclusive test, with a 'scope of the risk' test allowing policy factors to be employed as part of remoteness.",
+      "limits": [
+        "March concerns common-law causation. In a NSW statutory answer, apply s 5D’s separate factual causation and scope inquiries.",
+        "Mason CJ and McHugh J differed on the place of the but-for test; do not present every formulation as unanimous."
+      ],
+      "examUse": "Cite with s 5D(1)(a) for 'but for' and its limits, and for a later careless act within the very risk the defendant created not breaking the chain.",
+      "pitfalls": [
+        "Treating any plaintiff negligence as a superseding cause.",
+        "Replacing s 5D with an undifferentiated common-sense conclusion."
+      ],
+      "sources": [
+        "content-src/laws2400-w10.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Causation"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [
+        {
+          "slug": "march-v-stramare",
+          "name": "March v Stramare",
+          "citation": "(1991) 171 CLR 506",
+          "aglc": "March v Stramare (1991) 171 CLR 506",
+          "facts": "The defendant parked a truck in the middle of a six-lane road in the early morning hours to unload fruit and vegetables, a practice used for a long time. The plaintiff, who was drunk and speeding, was injured when his car collided with the truck. At trial the defendant was held liable in negligence with a finding of 70% contributory negligence against the plaintiff; the Full Court of South Australia attributed the entire responsibility to the plaintiff's own negligence.",
+          "issue": "Whether the defendant's negligence in parking the truck was a cause of the plaintiff's injury, given the plaintiff's own negligence, and how causation is to be tested.",
+          "held": "The High Court held that the defendant's negligence was the cause of the plaintiff's injury, though the judges disagreed about the reasoning on causation. The plaintiff's own negligence did not break the chain, because the truck created the very risk that materialised.",
+          "ratio": "Mason CJ: the 'but for' test was never the exclusive test of causation in negligence (it does not work where two or more acts or events are involved or the chain is broken by an intervening event); causation is a question of fact which 'must be determined by applying common sense to the facts of each particular case'; and the chain is not broken where 'the defendant's wrongful conduct has generated the very risk of injury resulting from the negligence of the plaintiff or a third party'. McHugh J: 'but for' should be the exclusive test, with a 'scope of the risk' test allowing policy factors to be employed as part of remoteness.",
+          "significance": "The common law starting point on factual causation: Mason CJ's three limitations of the 'but for' test and his 'common sense' approach, which the Ipp Report criticised and CLA s 5D(1) restructured. The textbook flowchart also lists it as an example of multiple sufficient causes.",
+          "why-here": "Cite with s 5D(1)(a) for 'but for' and its limits, and for a later careless act within the very risk the defendant created not breaking the chain.",
+          "verify": false,
+          "source": "content-src/laws2400-w10.yaml",
+          "week": 10,
+          "weekTopic": "Causation"
+        }
+      ]
+    },
+    {
+      "listNumber": 41,
+      "ref": "mchale-v-watson",
+      "name": "McHale v Watson",
+      "citation": "McHale v Watson (1966) 115 CLR 199",
+      "oneLine": "A child is compared with a reasonable child of the same age, not automatically with an adult.",
+      "plain": "A 12-year-old threw a sharpened piece of scrap metal at a tree. It bounced and injured another child’s eye. The court considered what ordinary children of that age could foresee and do.",
+      "concreteExplanation": "The benchmark changes for childhood: ask what a normal child of that age would appreciate. It does not change again to excuse this particular child’s bad temper, lack of attention or personal limitations.",
+      "keyFacts": [
+        "Watson was aged 12.",
+        "He threw sharpened scrap metal at a tree; it rebounded into McHale’s eye."
+      ],
+      "issue": "Whether the standard of reasonable care should be that appropriate to a 12-year-old child.",
+      "reasoning": [
+        "McTiernan ACJ: it is appropriate to consider the age of the defendant to determine the standard of care. Kitto J: \"The standard of care being objective, it is no answer for him, any more than it is for an adult, to say that the harm he caused was due to his being abnormally slow-witted, quick-tempered, absent-minded, or inexperienced. But it does not follow that he cannot rely in his defence upon a limitation upon the capacity for foresight or prudence … being characteristic of humanity at his stage of development.\""
+      ],
+      "outcome": "The High Court held by majority that the standard of care for children is that of a normal child of comparable age.",
+      "ratio": "McTiernan ACJ: it is appropriate to consider the age of the defendant to determine the standard of care. Kitto J: \"The standard of care being objective, it is no answer for him, any more than it is for an adult, to say that the harm he caused was due to his being abnormally slow-witted, quick-tempered, absent-minded, or inexperienced. But it does not follow that he cannot rely in his defence upon a limitation upon the capacity for foresight or prudence … being characteristic of humanity at his stage of development.\"",
+      "limits": [
+        "Age is relevant to the objective standard; the case does not create a wholly subjective best-efforts test.",
+        "Do not automatically transfer the child standard to adult activities governed by other authority."
+      ],
+      "examUse": "Cite it whenever the defendant is a child: apply the standard of a normal child of comparable age.",
+      "pitfalls": [
+        "Using a reasonable adult as the only comparator.",
+        "Excusing personal carelessness under the label of childhood."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "mchale-v-watson",
+          "name": "McHale v Watson",
+          "citation": "(1966) 115 CLR 199",
+          "aglc": "McHale v Watson (1966) 115 CLR 199",
+          "facts": "Watson, a 12-year-old boy, threw a sharpened piece of scrap metal at a tree; it bounced off and injured McHale's eye.",
+          "issue": "Whether the standard of reasonable care should be that appropriate to a 12-year-old child.",
+          "held": "The High Court held by majority that the standard of care for children is that of a normal child of comparable age.",
+          "ratio": "McTiernan ACJ: it is appropriate to consider the age of the defendant to determine the standard of care. Kitto J: \"The standard of care being objective, it is no answer for him, any more than it is for an adult, to say that the harm he caused was due to his being abnormally slow-witted, quick-tempered, absent-minded, or inexperienced. But it does not follow that he cannot rely in his defence upon a limitation upon the capacity for foresight or prudence … being characteristic of humanity at his stage of development.\"",
+          "significance": "Age is the one personal characteristic that adjusts the reasonable person; idiosyncratic traits do not.",
+          "why-here": "Cite it whenever the defendant is a child: apply the standard of a normal child of comparable age.",
+          "verify": false,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 42,
+      "ref": "mckew-v-holland-hannen-and-cubitts-ltd",
+      "name": "McKew v Holland & Hannen & Cubitts",
+      "citation": "McKew v Holland & Hannen & Cubitts [1969] 3 All ER 1621",
+      "oneLine": "An unreasonable later act can break the causal chain, but ordinary carelessness need not do so.",
+      "plain": "After a work injury left his leg liable to give way, McKew attempted steep stairs without a handrail or assistance. His leg gave way and he suffered a further injury. His unreasonable choice was treated as an intervening cause.",
+      "concreteExplanation": "Separate the original disability from the later decision. The question is whether the way he chose to confront the stairs was so unreasonable that responsibility for the new injury should stop at that decision.",
+      "keyFacts": [
+        "Earlier injury weakened his leg, which could give way.",
+        "He descended steep stairs without a handrail and without assistance.",
+        "A further fall caused an ankle fracture."
+      ],
+      "issue": "Whether the defendant was liable for the second injury, or whether the plaintiff's own conduct broke the chain of causation.",
+      "reasoning": [
+        "A plaintiff's own unreasonable conduct after the original injury can break the chain of causation, so that the original wrongdoer is not liable for harm after the break."
+      ],
+      "outcome": "The plaintiff's unreasonable conduct was a novus actus interveniens: the chain was broken and the defendant was not liable for the second injury.",
+      "ratio": "A plaintiff's own unreasonable conduct after the original injury can break the chain of causation, so that the original wrongdoer is not liable for harm after the break.",
+      "limits": [
+        "The case does not mean every later careless act breaks causation; compare March.",
+        "Analyse the actual circumstances and degree of unreasonableness rather than merely labelling an act voluntary."
+      ],
+      "examUse": "Cite where the plaintiff's own unreasonable conduct after the injury causes further harm.",
+      "pitfalls": [
+        "Treating contributory negligence and a superseding cause as interchangeable.",
+        "Ignoring the known disability or availability of assistance."
+      ],
+      "sources": [
+        "content-src/laws2400-w10.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Causation"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [
+        {
+          "slug": "mckew-v-holland-hannen-and-cubitts-ltd",
+          "name": "McKew v Holland Hannen & Cubitts Ltd",
+          "citation": "[1969] 3 All ER 1621",
+          "aglc": "McKew v Holland Hannen & Cubitts Ltd [1969] 3 All ER 1621",
+          "facts": "The plaintiff's leg, injured by the defendant's negligence, was prone to give way. He descended a steep staircase without a handrail, unaided; the leg gave way and he suffered a severe ankle fracture.",
+          "issue": "Whether the defendant was liable for the second injury, or whether the plaintiff's own conduct broke the chain of causation.",
+          "held": "The plaintiff's unreasonable conduct was a novus actus interveniens: the chain was broken and the defendant was not liable for the second injury.",
+          "ratio": "A plaintiff's own unreasonable conduct after the original injury can break the chain of causation, so that the original wrongdoer is not liable for harm after the break.",
+          "significance": "Introduced in Topic 10 as the example of an intervening act that does break the chain (contrast March v Stramare); intervening acts are covered fully in Topic 11. Also discussed in the March v Stramare casebook extract and the text at [12.35].",
+          "why-here": "Cite where the plaintiff's own unreasonable conduct after the injury causes further harm.",
+          "verify": false,
+          "source": "content-src/laws2400-w10.yaml",
+          "week": 10,
+          "weekTopic": "Causation"
+        }
+      ]
+    },
+    {
+      "listNumber": 43,
+      "ref": "miller-v-miller",
+      "name": "Miller v Miller",
+      "citation": "Miller v Miller (2011) 242 CLR 446",
+      "oneLine": "Withdrawal from a joint illegal venture mattered to whether a negligent driver owed the passenger a duty.",
+      "plain": "A teenage passenger helped take a car unlawfully. Before the crash she asked the speeding driver to slow down, stop and let her out; he refused. The High Court recognised a duty after her withdrawal.",
+      "concreteExplanation": "Participation is not frozen at the journey’s beginning. Ask whether the passenger remained in the joint venture when the negligent driving injured her.",
+      "keyFacts": [
+        "Danelle Miller, aged 16, participated in taking a car after drinking in Perth.",
+        "Maurin drove dangerously; her repeated requests to stop and leave were refused.",
+        "The crash left her tetraplegic."
+      ],
+      "issue": "Did illegality prevent a duty despite the passenger’s withdrawal?",
+      "reasoning": [
+        "A civil duty must be coherent with the criminal law.",
+        "The passenger withdrew before the crash; illegality was not an automatic bar."
+      ],
+      "outcome": "Appeal allowed; the no-duty conclusion was reversed.",
+      "ratio": "A withdrawn participant was not denied a duty merely because the journey began as an illegal enterprise.",
+      "limits": [
+        "Common-law Western Australian case; apply NSW CLA s 54 separately."
+      ],
+      "examUse": "Identify the particular criminal prohibition, coherence and withdrawal.",
+      "pitfalls": [
+        "Assuming every illegal act eliminates every duty."
+      ],
+      "sources": [
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2011/HCA/9.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official HCA judgment checked. Synopsis deliberately distinguishes withdrawal and NSW statutory questions.",
+      "topics": [
+        "Illegality",
+        "Duty of care",
+        "Defences"
+      ],
+      "weeks": [
+        12
+      ],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 44,
+      "ref": "modbury-triangle-shopping-centre-v-anzil",
+      "name": "Modbury Triangle Shopping Centre Pty Ltd v Anzil",
+      "citation": "Modbury Triangle Shopping Centre Pty Ltd v Anzil (2000) 205 CLR 254",
+      "oneLine": "Control of premises does not ordinarily give control over independent criminals.",
+      "plain": "An employee leaving a video shop was attacked in the shopping centre car park after the lights went off. Even though lighting could affect the danger, the occupier did not generally owe a duty to protect him from other people’s criminal attacks.",
+      "concreteExplanation": "Owning the car park gives a person control over lights and surfaces; it does not necessarily give control over an attacker’s conduct. A protective duty requires more than the general possibility of crime.",
+      "keyFacts": [
+        "Anzil was a video shop employee.",
+        "He was attacked while walking to his car at about 10:30 pm.",
+        "The lighting timer switched off at 10 pm, although lighting had commonly remained on until 11 pm."
+      ],
+      "issue": "Whether the shopping centre, as occupier, owed Anzil a duty of care to prevent physical injury inflicted by\nthe criminal acts of third parties in its car park.\n",
+      "reasoning": [
+        "An occupier does not, merely by controlling premises, owe a duty to prevent the independent criminal\nconduct of third parties on them, absent a high degree of foreseeability and predictability of that\nconduct, control over the third party, or an assumption of responsibility.\n"
+      ],
+      "outcome": "The High Court, by majority, held that the occupier's duty of care did not extend to protecting Anzil from\nthe criminal conduct of third parties; the occupier's duty over the state of the premises rested on its\ncontrol of, and knowledge about, the premises, not on an assumed responsibility to guard against\nunpredictable criminal acts.\n",
+      "ratio": "An occupier does not, merely by controlling premises, owe a duty to prevent the independent criminal\nconduct of third parties on them, absent a high degree of foreseeability and predictability of that\nconduct, control over the third party, or an assumption of responsibility.\n",
+      "limits": [
+        "Special relationships, assumed responsibility or control of the wrongdoer can change the analysis.",
+        "The decision does not confer immunity for every injury occurring on premises."
+      ],
+      "examUse": "Used to contrast with cases like Hargrave v Goldman, where the defendant's control over the risk itself founded a duty — here the defendant had no control over the third parties.",
+      "pitfalls": [
+        "Concluding that foreseeable crime alone establishes a duty.",
+        "Treating physical control of land as control of every third-party action."
+      ],
+      "sources": [
+        "content-src/laws2400-w06.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: categories of harm"
+      ],
+      "weeks": [
+        6
+      ],
+      "teachingRecords": [
+        {
+          "slug": "modbury-triangle-shopping-centre-v-anzil",
+          "name": "Modbury Triangle Shopping Centre v Anzil",
+          "citation": "(2000) 205 CLR 254",
+          "aglc": "Modbury Triangle Shopping Centre Pty Ltd v Anzil (2000) 205 CLR 254",
+          "facts": "Anzil, an employee of a video shop in the shopping centre, was attacked by unknown assailants at 10.30pm\nwhile walking to his car after the car park lights — usually left on until 11pm — went off on their\n10pm timer as usual.\n",
+          "issue": "Whether the shopping centre, as occupier, owed Anzil a duty of care to prevent physical injury inflicted by\nthe criminal acts of third parties in its car park.\n",
+          "held": "The High Court, by majority, held that the occupier's duty of care did not extend to protecting Anzil from\nthe criminal conduct of third parties; the occupier's duty over the state of the premises rested on its\ncontrol of, and knowledge about, the premises, not on an assumed responsibility to guard against\nunpredictable criminal acts.\n",
+          "ratio": "An occupier does not, merely by controlling premises, owe a duty to prevent the independent criminal\nconduct of third parties on them, absent a high degree of foreseeability and predictability of that\nconduct, control over the third party, or an assumption of responsibility.\n",
+          "significance": "Confines occupiers' liability for omissions: control over premises is not the same as control over the\npeople who use them, so no general duty arises unless foreseeability of the specific risk is very high.\n",
+          "why-here": "Used to contrast with cases like Hargrave v Goldman, where the defendant's control over the risk itself founded a duty — here the defendant had no control over the third parties.",
+          "verify": false,
+          "source": "content-src/laws2400-w06.yaml",
+          "week": 6,
+          "weekTopic": "Duty of care: categories of harm"
+        }
+      ]
+    },
+    {
+      "listNumber": 45,
+      "ref": "mutual-life-and-citizens-assurance-co-v-evatt",
+      "name": "Mutual Life & Citizens' Assurance Co v Evatt",
+      "citation": "Mutual Life & Citizens' Assurance Co v Evatt (1968) 122 CLR 556",
+      "oneLine": "Serious advice given with known reasonable reliance can found a duty; this was a pleading decision.",
+      "plain": "Evatt alleged that associated MLC companies carelessly advised him about existing and proposed investments in H G Palmer. The defendants challenged whether his pleaded allegations disclosed a cause of action.",
+      "concreteExplanation": "The court was deciding whether the alleged relationship could support a claim, not finding that every allegation had been proved or awarding final damages.",
+      "keyFacts": [
+        "Palmer and the assurance company shared a holding company.",
+        "The dispute included a statutory defence concerning unwritten credit assurances."
+      ],
+      "issue": "Did the pleaded relationship support a duty despite advice not being the defendants’ ordinary business?",
+      "reasoning": [
+        "Barwick CJ emphasised serious subject matter, understood trust and reasonable reliance.",
+        "The majority rejected the pleading challenge; liability was not confined to professional advisers."
+      ],
+      "outcome": "High Court appeal dismissed with costs; the pleading survived.",
+      "ratio": "A special relationship could support a negligent-information/advice claim beyond professional advisory businesses.",
+      "limits": [
+        "Distinguish later Privy Council proceedings.",
+        "This was not a final trial finding of negligence."
+      ],
+      "examUse": "Identify trust, reliance and the precise procedural stage.",
+      "pitfalls": [
+        "Calling Barwick CJ’s reasoning unanimous or treating pleaded facts as proved."
+      ],
+      "sources": [
+        "content-src/laws2400-w07.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://casechat.au/cases/au/mutual-life-citizens-assurance-co-ltd-v-evatt-2"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced HCA1968 judgment checked: Barwick CJ [1]–[4],[27]–[34],[54]–[56], Kitto J conclusion and final orders. Later Privy Council decision remains separate.",
+      "topics": [
+        "Duty of care: pure economic loss"
+      ],
+      "weeks": [
+        7
+      ],
+      "teachingRecords": [
+        {
+          "slug": "mutual-life-and-citizens-assurance-co-v-evatt",
+          "name": "Mutual Life & Citizens' Assurance Co v Evatt",
+          "citation": "(1968) 122 CLR 556",
+          "aglc": "Mutual Life & Citizens' Assurance Co v Evatt (1968) 122 CLR 556",
+          "facts": "Advice was given about investing in an associated company; the advice proved wrong and the recipient suffered loss. (The materials give only this outline.)",
+          "issue": "When a person giving information or advice owes the recipient a duty of reasonable care.",
+          "held": "Barwick CJ stated that where information or advice is given on a serious matter, the speaker realises (or should realise) they are being trusted, and it is reasonable for the recipient to act on it, a duty of reasonable care follows. The materials do not state the final outcome of the appeal.",
+          "ratio": "A duty of care in giving information or advice arises where the matter is serious, the speaker realises or should realise they are trusted, and it is reasonable for the recipient to rely on it.",
+          "significance": "Early High Court statement of the Hedley Byrne conditions in Australian terms; quoted in the Esanda casebook extract.",
+          "why-here": "Supplies Barwick CJ's three-part statement (serious matter, known trust, reasonable reliance) for a misstatement answer.",
+          "verify": true,
+          "source": "content-src/laws2400-w07.yaml",
+          "week": 7,
+          "weekTopic": "Duty of care: pure economic loss"
+        }
+      ]
+    },
+    {
+      "listNumber": 46,
+      "ref": "nsw-v-godfrey",
+      "name": "New South Wales v Godfrey",
+      "citation": "New South Wales v Godfrey [2004] NSWCA 113",
+      "oneLine": "Foreseeable crimes by an escaped prisoner did not establish a duty to these remote victims.",
+      "plain": "Months after escaping Bathurst Gaol, Hoole robbed a Schofields newsagency. He threatened pregnant Carol Godfrey with a shotgun. She suffered psychiatric harm; her prematurely born child also claimed injury.",
+      "concreteExplanation": "A gaoler’s control during custody is not continuing practical control of every future act. Ask what connects this victim and this later crime to the escape.",
+      "keyFacts": [
+        "The robbery occurred away from the gaol after the immediate escape.",
+        "Negligent escape was conceded for the proceedings."
+      ],
+      "issue": "Was a protective duty owed to these victims?",
+      "reasoning": [
+        "Foreseeability alone was insufficient.",
+        "Control, indeterminate liability, penal decision-making and distance in time and place weighed against duty."
+      ],
+      "outcome": "State appeal allowed; claims dismissed.",
+      "ratio": "No duty arose in these circumstances for the escapee’s later independent criminal conduct.",
+      "limits": [
+        "Not a universal immunity for harm during an escape."
+      ],
+      "examUse": "Distinguish Dorset Yacht’s immediate escape context.",
+      "pitfalls": [
+        "Treating conceded negligent escape as conceding duty to everyone."
+      ],
+      "sources": [
+        "https://casechat.au/cases/au/new-south-wales-v-godfrey",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Checked reproduced judgment paragraphs1–5,20–35,48–85; ignored the host’s contradictory AI summary. Date/weight transcription inconsistencies are not adopted.",
+      "topics": [
+        "Public authorities",
+        "Control of third parties"
+      ],
+      "weeks": [
+        8
+      ],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 47,
+      "ref": "overseas-tankship-v-morts-dock-the-wagon-mound-no-1",
+      "name": "Overseas Tankship (UK) Ltd v Morts Dock & Engineering Co Ltd (The Wagon Mound No 1)",
+      "citation": "Overseas Tankship (UK) Ltd v Morts Dock & Engineering Co Ltd (The Wagon Mound No 1) [1961] 1 AC 388",
+      "oneLine": "Foreseeable oil fouling did not make unforeseeable fire damage recoverable.",
+      "plain": "Bunkering oil spilled from the Wagon Mound into Sydney Harbour. Welding debris ignited cotton waste and then floating oil, burning Morts Dock’s wharf. The trial findings treated ignition of this oil on water as not reasonably foreseeable.",
+      "concreteExplanation": "Two kinds of harm arose from one spill. Predictable oil fouling did not make the defendant responsible for fire simply because a physical chain connected them.",
+      "keyFacts": [
+        "Work resumed after inquiry about fire safety.",
+        "The oil also fouled slipways, although no compensation was claimed for that damage."
+      ],
+      "issue": "Was direct but unforeseeable fire damage recoverable in negligence?",
+      "reasoning": [
+        "The Board rejected Polemis’s direct-consequence rule.",
+        "The relevant kind of damage had to be reasonably foreseeable."
+      ],
+      "outcome": "Negligence claim dismissed on appeal; nuisance issue remitted.",
+      "ratio": "Directness alone does not establish responsibility for an unforeseeable kind of damage.",
+      "limits": [
+        "Compare No2’s different evidence and findings.",
+        "Do not confuse type with extent of injury."
+      ],
+      "examUse": "Characterise the actual kind of damage.",
+      "pitfalls": [
+        "Treating some foreseeable damage as a gateway to every consequence."
+      ],
+      "sources": [
+        "content-src/laws2400-w11.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://law.justia.com/cases/foreign/australia/a-c-388-p-c-aust-1961.html"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced Privy Council judgment checked, including original findings and final disposition; no secondary synopsis used.",
+      "topics": [
+        "Causation: scope of liability and remoteness"
+      ],
+      "weeks": [
+        11
+      ],
+      "teachingRecords": [
+        {
+          "slug": "overseas-tankship-v-morts-dock-the-wagon-mound-no-1",
+          "name": "Overseas Tankship (UK) Ltd v Morts Dock and Engineering Co Ltd (The Wagon Mound (No 1))",
+          "citation": "Not given in the course materials",
+          "aglc": "Overseas Tankship (UK) Ltd v Morts Dock and Engineering Co Ltd (The Wagon Mound (No 1))",
+          "facts": "The course materials give no facts for this case. The Topic 11 flowchart, \"Causation 6 – Scope of Liability\" (Tort Law Principles 3e, p 438) names it without facts or citation.",
+          "issue": "Not stated in the materials. The flowchart cites it on the remoteness of harm branch of scope of liability.",
+          "held": "Not stated in the materials beyond the flowchart's use of it: the leading case on remoteness of harm: the extent of the defendant's liability for losses is determined by a reasonable foreseeability test.",
+          "ratio": "As cited in the flowchart: the leading case on remoteness of harm: the extent of the defendant's liability for losses is determined by a reasonable foreseeability test.",
+          "significance": "The leading case on remoteness: reasonable foreseeability fixes the extent of liability for losses.",
+          "why-here": "Cite it as the leading case whenever remoteness of harm is in issue.",
+          "verify": true,
+          "source": "content-src/laws2400-w11.yaml",
+          "week": 11,
+          "weekTopic": "Causation: scope of liability and remoteness"
+        }
+      ]
+    },
+    {
+      "listNumber": 48,
+      "ref": "overseas-tankship-v-miller-steamship-the-wagon-mound-no-2",
+      "name": "Overseas Tankship (UK) Ltd v The Miller Steamship Co Pty Ltd (The Wagon Mound No 2)",
+      "citation": "Overseas Tankship (UK) Ltd v The Miller Steamship Co Pty Ltd (The Wagon Mound No 2) [1967] 1 AC 617",
+      "oneLine": "A very small foreseeable fire risk required precautions where preventing the spill was easy.",
+      "plain": "The same harbour oil fire damaged the vessels Corrimal and Audrey D. In this separate action, evidence showed the engineer should have appreciated a small possibility of ignition, rather than thinking it impossible.",
+      "concreteExplanation": "A low probability can justify inaction when precautions are burdensome. Here there was no adequate reason to accept the risk when stopping the careless overflow was straightforward.",
+      "keyFacts": [
+        "Vessels were undergoing repairs at Sheerlegs Wharf.",
+        "Negligence and nuisance were pleaded; their outcomes differed."
+      ],
+      "issue": "Could this real but small risk reasonably be disregarded?",
+      "reasoning": [
+        "Weigh the risk against the difficulty of avoiding it.",
+        "Different factual findings distinguished No1."
+      ],
+      "outcome": "Appeal and cross-appeal allowed; nuisance basis displaced but negligence established and monetary judgments affirmed.",
+      "ratio": "A reasonable person does not ignore a real small risk without justification, particularly when easily prevented.",
+      "limits": [
+        "Not a rule requiring elimination of every small risk.",
+        "Apply NSW s 5B separately."
+      ],
+      "examUse": "Compare probability, seriousness and precaution burden.",
+      "pitfalls": [
+        "Saying No2 overruled No1 or involved identical findings."
+      ],
+      "sources": [
+        "content-src/laws2400-w11.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://law.justia.com/cases/foreign/australia/1-a-c-617-1966.html"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced Privy Council judgment by Lord Reid checked, including separate nuisance/negligence outcomes.",
+      "topics": [
+        "Causation: scope of liability and remoteness"
+      ],
+      "weeks": [
+        11
+      ],
+      "teachingRecords": [
+        {
+          "slug": "overseas-tankship-v-miller-steamship-the-wagon-mound-no-2",
+          "name": "Overseas Tankship (UK) Ltd v The Miller Steamship Co Pty Ltd (The Wagon Mound (No 2))",
+          "citation": "Not given in the course materials",
+          "aglc": "Overseas Tankship (UK) Ltd v The Miller Steamship Co Pty Ltd (The Wagon Mound (No 2))",
+          "facts": "The course materials give no facts for this case. The Topic 11 flowchart, \"Causation 6 – Scope of Liability\" (Tort Law Principles 3e, p 438) names it without facts or citation.",
+          "issue": "Not stated in the materials. The flowchart cites it on the remoteness of harm branch of scope of liability.",
+          "held": "Not stated in the materials beyond the flowchart's use of it: 'reasonable foreseeability' means the same thing as at the duty and breach stages: a risk is reasonably foreseeable when it is a 'real risk', one which would occur to the mind of a reasonable man in the position of the defendant's servant and which he would not brush aside as far-fetched.",
+          "ratio": "As cited in the flowchart: 'reasonable foreseeability' means the same thing as at the duty and breach stages: a risk is reasonably foreseeable when it is a 'real risk', one which would occur to the mind of a reasonable man in the position of the defendant's servant and which he would not brush aside as far-fetched.",
+          "significance": "Defines the threshold of reasonable foreseeability used at remoteness: a real risk, not far-fetched.",
+          "why-here": "Cite it for the meaning of \"reasonably foreseeable\" — a real risk that would not be brushed aside as far-fetched.",
+          "verify": true,
+          "source": "content-src/laws2400-w11.yaml",
+          "week": 11,
+          "weekTopic": "Causation: scope of liability and remoteness"
+        }
+      ]
+    },
+    {
+      "listNumber": 49,
+      "ref": "paris-v-stepney-borough-council",
+      "name": "Paris v Stepney Borough Council",
+      "citation": "Paris v Stepney Borough Council [1951] AC 367",
+      "oneLine": "Known vulnerability increases the seriousness of foreseeable injury when deciding precautions.",
+      "plain": "Paris had only one good eye and his employer knew it. A workplace metal fragment damaged that eye. Even if goggles were not normally supplied to other workers, the consequence for him could be total blindness.",
+      "concreteExplanation": "The chance of a fragment entering an eye may be the same for two workers, but the likely consequence differs if one has already lost the other eye. Reasonable precautions weigh that known consequence.",
+      "keyFacts": [
+        "Garage worker with only one good eye; employer knew this.",
+        "Metal injured his remaining good eye.",
+        "Goggles were not the usual industry practice."
+      ],
+      "issue": "Whether the employer breached its duty of care by not supplying goggles to a worker it knew had only one good eye.",
+      "reasoning": [
+        "Lord Macdermott: \"the known circumstance that a particular workman is likely to suffer a graver injury than his fellows from the happening of a given event is one which must be taken into consideration in assessing the nature of the employer's obligation to that workman.\""
+      ],
+      "outcome": "The House of Lords held by majority that the duty of care was breached by not supplying the goggles.",
+      "ratio": "Lord Macdermott: \"the known circumstance that a particular workman is likely to suffer a graver injury than his fellows from the happening of a given event is one which must be taken into consideration in assessing the nature of the employer's obligation to that workman.\"",
+      "limits": [
+        "Industry practice is evidence, not the conclusive legal standard.",
+        "Known seriousness does not replace analysis of the risk and practicable precautions."
+      ],
+      "examUse": "Cite it when the defendant knew the plaintiff would suffer a graver injury than others from the same event.",
+      "pitfalls": [
+        "Assessing only how often an accident occurs.",
+        "Assuming common industry practice conclusively proves reasonable care."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "paris-v-stepney-borough-council",
+          "name": "Paris v Stepney Borough Council",
+          "citation": "[1951] AC 367",
+          "aglc": "Paris v Stepney Borough Council [1951] AC 367",
+          "facts": "The plaintiff, who worked in a garage, had only one good eye and injured it when hit by a piece of metal. The employer knew of this special condition but did not provide him with safety goggles; it was not an ordinary industry practice to provide such goggles at the time.",
+          "issue": "Whether the employer breached its duty of care by not supplying goggles to a worker it knew had only one good eye.",
+          "held": "The House of Lords held by majority that the duty of care was breached by not supplying the goggles.",
+          "ratio": "Lord Macdermott: \"the known circumstance that a particular workman is likely to suffer a graver injury than his fellows from the happening of a given event is one which must be taken into consideration in assessing the nature of the employer's obligation to that workman.\"",
+          "significance": "The authority for s 5B(2)(b): the standard of care increases with the seriousness of harm, and with a plaintiff's known vulnerability to greater injury. (The slides spell the name \"Stephney\".)",
+          "why-here": "Cite it when the defendant knew the plaintiff would suffer a graver injury than others from the same event.",
+          "verify": true,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 50,
+      "ref": "pennington-v-norris",
+      "name": "Pennington v Norris",
+      "citation": "Pennington v Norris (1956) 96 CLR 10",
+      "oneLine": "Apportionment compares reasonable-care departures in the whole setting, not moral blame.",
+      "plain": "A pedestrian crossing Marine Terrace, Burnie, failed to look left and was hit. The driver travelled at least 30 mph on a wet, misty night near closing hotels and many pedestrians.",
+      "concreteExplanation": "Both were careless, but their responsibility was not equal: the driver’s dangerous speed, visibility and surrounding people made his conduct substantially more culpable.",
+      "keyFacts": [
+        "Pedestrian failed to look during the crossing.",
+        "Driver’s visibility was impaired, including by a misted windscreen."
+      ],
+      "issue": "Was equal apportionment just and equitable?",
+      "reasoning": [
+        "Compare departures from reasonable care, not moral blame.",
+        "The trial apportionment overlooked important contextual factors."
+      ],
+      "outcome": "Appeal allowed; responsibility apportioned 80% to driver and 20% to pedestrian.",
+      "ratio": "Just and equitable responsibility requires comparing the parties’ conduct in all the circumstances.",
+      "limits": [
+        "The numerical split is specific to these facts."
+      ],
+      "examUse": "Compare culpability and the whole course of conduct.",
+      "pitfalls": [
+        "Counting isolated mistakes or assuming equal fault."
+      ],
+      "sources": [
+        "content-src/laws2400-w12.yaml",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/1956/HCA/26.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official judgment pp14–17 and final orders checked; this supplies the outcome omitted by the teaching flowchart.",
+      "topics": [
+        "Defences to negligence: contributory negligence and voluntary assumption of risk"
+      ],
+      "weeks": [
+        12
+      ],
+      "teachingRecords": [
+        {
+          "slug": "pennington-v-norris",
+          "name": "Pennington v Norris",
+          "citation": "Not given in the materials",
+          "aglc": "Pennington v Norris",
+          "facts": "The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it only as authority for the proposition recorded below.",
+          "issue": "Not stated in the materials; the flowchart cites it on what is \"just and equitable\" in apportionment.",
+          "held": "Not stated in the materials.",
+          "ratio": "Not stated in the materials. The flowchart cites it for this proposition: deciding what is \"just and equitable\" requires examining the whole conduct of each of the negligent parties and considering the relative blameworthiness of each.",
+          "significance": "The flowchart's authority for how the reduction for contributory negligence is assessed.",
+          "why-here": "Use it when arguing the size of the reduction: whole conduct of each party, relative blameworthiness.",
+          "verify": true,
+          "source": "content-src/laws2400-w12.yaml",
+          "week": 12,
+          "weekTopic": "Defences to negligence: contributory negligence and voluntary assumption of risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 51,
+      "ref": "perre-v-apand-pty-ltd",
+      "name": "Perre v Apand Pty Ltd",
+      "citation": "Perre v Apand Pty Ltd (1999) 198 CLR 180",
+      "oneLine": "An identifiable, vulnerable group can be owed care against pure economic loss from diseased crops.",
+      "plain": "Apand introduced bacterial wilt to a neighbouring potato farm. Western Australian import rules also excluded potatoes from nearby land. The Perre interests lost their market without their crops suffering physical infection.",
+      "concreteExplanation": "The harm travelled through a quarantine rule, not through damaged potatoes. Duty required examining the affected class and its ability to protect itself.",
+      "keyFacts": [
+        "The import restriction covered nearby properties, not only infected land.",
+        "The losses claimed included export and associated business losses."
+      ],
+      "issue": "Was a duty owed for the claimed pure economic loss?",
+      "reasoning": [
+        "Foreseeability alone was insufficient.",
+        "Knowledge, ascertainable claimants, vulnerability and indeterminacy were important; judges differed in their reasoning."
+      ],
+      "outcome": "Appeal allowed; further proceedings were required, including assessment of loss.",
+      "ratio": "A duty could arise for economic loss within the sufficiently connected and vulnerable claimant class.",
+      "limits": [
+        "Do not attribute every judge’s class definition to the entire Court."
+      ],
+      "examUse": "Explain the salient features for the actual claimant.",
+      "pitfalls": [
+        "Treating every financial ripple as recoverable."
+      ],
+      "sources": [
+        "content-src/laws2400-w05.yaml",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2025-10-30/HCA/Perre%20v%20Apand%20Pty%20Ltd%20%28A27-1998%29%20%5B1999%5D%20HCA%2036.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official 1999 HCA 36 judgment checked; distinguish the 1998 interlocutory decision and separate judgments.",
+      "topics": [
+        "Negligence overview and duty of care"
+      ],
+      "weeks": [
+        5
+      ],
+      "teachingRecords": [
+        {
+          "slug": "perre-v-apand-pty-ltd",
+          "name": "Perre v Apand Pty Ltd",
+          "citation": "(1999) 198 CLR 180",
+          "aglc": "Perre v Apand Pty Ltd (1999) 198 CLR 180",
+          "facts": "Not detailed in the week's materials beyond the proposition it establishes about duty of care for pure economic loss.",
+          "issue": "Whether reasonable foreseeability of pure economic loss is, by itself, sufficient to justify imposing a duty of care in respect of that loss.",
+          "held": "The High Court held that reasonable foreseeability of economic loss is necessary, but is not by itself sufficient to justify imposing a duty of care regarding that loss.",
+          "ratio": "Reasonable foreseeability of pure economic loss is a necessary but not sufficient condition for a duty of care; additional factors (such as vulnerability) must also be shown.",
+          "significance": "Leading High Court authority establishing that pure economic loss claims require more than reasonable foreseeability alone.",
+          "why-here": "Cited for the proposition that foreseeability of economic loss is necessary but never enough on its own — the springboard into the extra PEL requirements.",
+          "verify": true,
+          "source": "content-src/laws2400-w05.yaml",
+          "week": 5,
+          "weekTopic": "Negligence overview and duty of care"
+        }
+      ]
+    },
+    {
+      "listNumber": 52,
+      "ref": "peterkin-v-tadros",
+      "name": "Peterkin v Tadros",
+      "citation": "Peterkin v Tadros [2026] NSWSC 1185",
+      "oneLine": "The defendant must establish the statutory professional-practice defence before relying on s 5O.",
+      "plain": "The teaching slides quote Peterkin on the relationship between professional peer practice and ordinary breach analysis. They supply no verified patient narrative or complete disposition.",
+      "concreteExplanation": "First ask whether the professional proves the requirements of s 5O. If the defence is made out it determines the relevant standard; if it is not, return to the ordinary s 5B and s 5C analysis.",
+      "keyFacts": [
+        "The supplied extract concerns [151]–[154], not a complete set of facts.",
+        "The plaintiff did not suggest that the peer professional opinion was irrational."
+      ],
+      "issue": "How s 5O of the Civil Liability Act 2002 (NSW) relates to s 5B when a professional is sued in negligence.",
+      "reasoning": [
+        "\"Section 5O of the CLA operates as a defence in so far as it is a complete answer to a negligence claim under the CLA.\" The defendant bears the onus of establishing its preconditions: that he was practising in a profession, and doing so in a manner widely accepted in Australia by peer professional opinion as competent professional practice. Peer professional opinion need only be widely, not universally, accepted (s 5O(4)). \"Where s 5O of the CLA is made out, it supplants the analysis otherwise required by s 5B\"; if the preconditions are not established, ss 5B and 5C are to be applied (citing South-Western Sydney Local Health District v Gould (2018) 97 NSWLR 513; [2018] NSWCA 69)."
+      ],
+      "outcome": "Not stated in the extract beyond the passages recorded below (the plaintiff did not suggest that the peer professional opinion relied on was irrational).",
+      "ratio": "\"Section 5O of the CLA operates as a defence in so far as it is a complete answer to a negligence claim under the CLA.\" The defendant bears the onus of establishing its preconditions: that he was practising in a profession, and doing so in a manner widely accepted in Australia by peer professional opinion as competent professional practice. Peer professional opinion need only be widely, not universally, accepted (s 5O(4)). \"Where s 5O of the CLA is made out, it supplants the analysis otherwise required by s 5B\"; if the preconditions are not established, ss 5B and 5C are to be applied (citing South-Western Sydney Local Health District v Gould (2018) 97 NSWLR 513; [2018] NSWCA 69).",
+      "limits": [
+        "The 2026 primary judgment and complete facts remain unverified.",
+        "Widely accepted does not mean universally accepted: see s 5O(4).",
+        "The irrationality qualification and s 5P warning exception must be addressed where relevant."
+      ],
+      "examUse": "State who bears the s 5O onus, identify the claimed peer practice, and apply the statutory qualifications.",
+      "pitfalls": [
+        "Assuming professional status itself proves s 5O.",
+        "Treating s 5O and s 5B as identical tests."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "Teaching extract only. Recent third-party summaries were not used to invent patient facts or the ultimate outcome.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "peterkin-v-tadros",
+          "name": "Peterkin v Tadros",
+          "citation": "[2026] NSWSC 1185",
+          "aglc": "Peterkin v Tadros [2026] NSWSC 1185",
+          "facts": "Not given in the materials: the Topic 9 slides extract only [151]–[154], on how s 5O works.",
+          "issue": "How s 5O of the Civil Liability Act 2002 (NSW) relates to s 5B when a professional is sued in negligence.",
+          "held": "Not stated in the extract beyond the passages recorded below (the plaintiff did not suggest that the peer professional opinion relied on was irrational).",
+          "ratio": "\"Section 5O of the CLA operates as a defence in so far as it is a complete answer to a negligence claim under the CLA.\" The defendant bears the onus of establishing its preconditions: that he was practising in a profession, and doing so in a manner widely accepted in Australia by peer professional opinion as competent professional practice. Peer professional opinion need only be widely, not universally, accepted (s 5O(4)). \"Where s 5O of the CLA is made out, it supplants the analysis otherwise required by s 5B\"; if the preconditions are not established, ss 5B and 5C are to be applied (citing South-Western Sydney Local Health District v Gould (2018) 97 NSWLR 513; [2018] NSWCA 69).",
+          "significance": "Settles the order for professional defendants: s 5O first (a defence), then s 5B and 5C only if it fails.",
+          "why-here": "Cite it whenever a professional defendant pleads s 5O.",
+          "verify": true,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 53,
+      "ref": "prince-alfred-college-v-adc",
+      "name": "Prince Alfred College Inc v ADC",
+      "citation": "Prince Alfred College Inc v ADC [2016] HCA 37",
+      "oneLine": "Assigned authority and intimacy can make employment the occasion for abuse; mere opportunity is insufficient.",
+      "plain": "ADC was sexually abused by a boarding-school housemaster. The High Court examined how the employee’s assigned position could connect criminal conduct to employment.",
+      "concreteExplanation": "Employment must do more than bring two people together. Examine the authority, power, trust, control or intimacy the employer actually gave the employee.",
+      "keyFacts": [
+        "Bain was a housemaster; ADC was a boarder.",
+        "Delay had caused serious evidentiary difficulties."
+      ],
+      "issue": "When can intentional criminal conduct fall within employment, and should time be extended?",
+      "reasoning": [
+        "Consider the special role and whether it furnished the occasion for the wrong.",
+        "Lost evidence and extraordinary delay mattered to extension of time."
+      ],
+      "outcome": "College appeal allowed; extension of time refused. No final finding that the college was vicariously liable.",
+      "ratio": "The assigned role may provide the occasion for wrongdoing, requiring examination beyond mere opportunity.",
+      "limits": [
+        "Do not convert the discussed approach into an automatic liability finding."
+      ],
+      "examUse": "Connect the actual role to the wrongful conduct.",
+      "pitfalls": [
+        "Saying the High Court finally held the school liable."
+      ],
+      "sources": [
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2016/HCA/37.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official judgment orders and [80]–[84] checked.",
+      "topics": [
+        "Vicarious liability",
+        "Intentional wrongdoing"
+      ],
+      "weeks": [],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 54,
+      "ref": "rail-corporation-nsw-v-donald",
+      "name": "Rail Corporation NSW v Donald",
+      "citation": "Rail Corporation NSW v Donald [2018] NSWCA 82",
+      "oneLine": "Heavy repetitive work, inadequate task sharing and significant injury supported breach.",
+      "plain": "Donald was hired through Staff Innovations to maintain Rail Corp tracks. His partner did not jackhammer, leaving Donald with all that work and additional heavy lifting. He developed a back injury.",
+      "concreteExplanation": "A generally workable system can be unsafe for one particular team. Examine what tasks and breaks this worker actually had, not just the employer’s general description.",
+      "keyFacts": [
+        "Timber sleepers were replaced with polymer sleepers.",
+        "Medical evidence supported disc disruption progressing to protrusion."
+      ],
+      "issue": "Were breach, causation and absence of contributory negligence established?",
+      "reasoning": [
+        "Risk significance includes likelihood and seriousness.",
+        "Task-sharing and adequate breaks were practicable precautions.",
+        "The labour-hire employer retained its non-delegable duty."
+      ],
+      "outcome": "Rail Corp’s appeal and Staff Innovations’ cross-appeal dismissed.",
+      "ratio": "The actual workload supported breach and causation; the worker was not required to devise his own safe system.",
+      "limits": [
+        "CLA applied to Rail Corp; common law governed the employer claim.",
+        "General system descriptions did not settle individual working conditions."
+      ],
+      "examUse": "Analyse actual work, risk and practicable organisation.",
+      "pitfalls": [
+        "Assuming an employer delegates its duty by hiring labour out."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://casechat.au/cases/au/rail-corporation-new-south-wales-v-donald-staff-innovations-pty-ltd-t-as-bamford-family-trust"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced NSWCA judgment checked: [1]–[11],[30]–[36],[89]–[99],[192]–[205],[212]–[228] and orders; teaching extract retained.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "rail-corporation-nsw-v-donald",
+          "name": "Rail Corporation NSW v Donald",
+          "citation": "[2018] NSWCA 82",
+          "aglc": "Rail Corporation NSW v Donald [2018] NSWCA 82",
+          "facts": "Not given in the materials: the Topic 9 slides cite the case only for the proposition recorded below (and note it is not in the text).",
+          "issue": "How the significance of a risk is assessed under s 5B(1)(b).",
+          "held": "Not stated in the materials.",
+          "ratio": "As cited in the slides: the significance of a risk will depend upon several factors such as obviousness, likelihood of occurrence and seriousness of consequence.",
+          "significance": "Gives s 5B(1)(b) workable content: weigh obviousness, likelihood and seriousness together.",
+          "why-here": "Cite it when arguing that a risk was, or was not, \"not insignificant\".",
+          "verify": true,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 55,
+      "ref": "rta-v-dederer",
+      "name": "Roads and Traffic Authority of NSW v Dederer",
+      "citation": "Roads and Traffic Authority of NSW v Dederer (2007) 234 CLR 330",
+      "oneLine": "Reasonable care does not require preventing every dangerous choice by a teenager.",
+      "plain": "A 14-year-old dived from a bridge into an estuary with shifting sand and suffered partial paraplegia. The bridge had warning signs, including a diving pictograph; jumping was common without earlier injury.",
+      "concreteExplanation": "Define the risk before choosing a precaution. Here the danger concerned diving into water that might be shallow because the sand moved, not an abstract possibility of spinal injury anywhere.",
+      "keyFacts": [
+        "Fourteen-year-old plaintiff dived from a bridge.",
+        "Signs prohibited fishing and climbing and depicted no diving.",
+        "Horizontal railings complied with an older standard; a later standard specified vertical bars.",
+        "Authorities knew of widespread jumping but no earlier injury."
+      ],
+      "issue": "Whether the RTA breached its duty of care — the plaintiff argued that the signs should have warned of the shifting sands and that the railings should have been replaced — and how the risk of harm should be identified.",
+      "reasoning": [
+        "Gummow J: the correct identification of the risk is critical. The Court of Appeal's \"serious spinal injury flowing from the act of diving off the bridge\" \"obscured the true source of potential injury [which arose] from impact upon jumping into the potentially shallow water and shifting sands of the estuary\" [60]. The risk must be specific enough to correspond to the precautions in issue. Probability is judged prospectively, not retrospectively; the magnitude of risk was grave but the probability low; given the expense, difficulty and inconvenience, a reasonable response did not demand the measures suggested. \"If the [R]TA exercised reasonable care, it would not be liable even if the risk-taking conduct continued.\""
+      ],
+      "outcome": "By 3:2 (Gummow, Callinan and Heydon JJ), no breach of duty. The obligation was to exercise reasonable care, not to prevent harm; the risk was foreseeable but the probability low; the existing signs warning of, and prohibiting, diving were a reasonable response.",
+      "ratio": "Gummow J: the correct identification of the risk is critical. The Court of Appeal's \"serious spinal injury flowing from the act of diving off the bridge\" \"obscured the true source of potential injury [which arose] from impact upon jumping into the potentially shallow water and shifting sands of the estuary\" [60]. The risk must be specific enough to correspond to the precautions in issue. Probability is judged prospectively, not retrospectively; the magnitude of risk was grave but the probability low; given the expense, difficulty and inconvenience, a reasonable response did not demand the measures suggested. \"If the [R]TA exercised reasonable care, it would not be liable even if the risk-taking conduct continued.\"",
+      "limits": [
+        "Hindsight and the seriousness of the eventual harm do not alone establish breach.",
+        "A duty of reasonable care is not a duty to ensure people never harm themselves."
+      ],
+      "examUse": "Cite it when the risk must be framed precisely, when the defendant had a duty to take care rather than to prevent harm, or when a grave but improbable risk was met by warnings.",
+      "pitfalls": [
+        "Using generic spinal injury as the entire risk characterisation.",
+        "Treating a later design standard as automatically proving earlier negligence."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "Teaching source checked and preserved. Exact examinable citation retained as234CLR330; the original teaching text’s324CLR reference is not adopted.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "rta-v-dederer",
+          "name": "Roads and Traffic Authority of NSW v Dederer",
+          "citation": "(2007) 234 CLR 330",
+          "aglc": "Roads and Traffic Authority of NSW v Dederer (2007) 234 CLR 330",
+          "facts": "A 14-year-old dived off a bridge into an estuary with a shifting sandbar and suffered partial paraplegia. The bridge carried \"fishing and climbing prohibited\" signs and pictograph \"no diving\" signs. Jumping from it was a widespread practice that had never previously injured anyone, and he had seen others do it unharmed. The RTA knew of the jumping and that riverbed levels were continually altered. 1992 safety standards required vertical rather than horizontal railing bars, but the railings were not modified.",
+          "issue": "Whether the RTA breached its duty of care — the plaintiff argued that the signs should have warned of the shifting sands and that the railings should have been replaced — and how the risk of harm should be identified.",
+          "held": "By 3:2 (Gummow, Callinan and Heydon JJ), no breach of duty. The obligation was to exercise reasonable care, not to prevent harm; the risk was foreseeable but the probability low; the existing signs warning of, and prohibiting, diving were a reasonable response.",
+          "ratio": "Gummow J: the correct identification of the risk is critical. The Court of Appeal's \"serious spinal injury flowing from the act of diving off the bridge\" \"obscured the true source of potential injury [which arose] from impact upon jumping into the potentially shallow water and shifting sands of the estuary\" [60]. The risk must be specific enough to correspond to the precautions in issue. Probability is judged prospectively, not retrospectively; the magnitude of risk was grave but the probability low; given the expense, difficulty and inconvenience, a reasonable response did not demand the measures suggested. \"If the [R]TA exercised reasonable care, it would not be liable even if the risk-taking conduct continued.\"",
+          "significance": "Used twice this week: for Benic step 1 (identifying the risk of harm) and for s 5B(2)(a), the probability of harm. Note: Lecture 1 cites (2007) 234 CLR 330; Lecture 2 cites (2007) 324 CLR 330.",
+          "why-here": "Cite it when the risk must be framed precisely, when the defendant had a duty to take care rather than to prevent harm, or when a grave but improbable risk was met by warnings.",
+          "verify": true,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 56,
+      "ref": "rta-v-refrigerated-roadways",
+      "name": "Roads and Traffic Authority of NSW v Refrigerated Roadways Pty Ltd",
+      "citation": "Roads and Traffic Authority of NSW v Refrigerated Roadways Pty Ltd [2009] NSWCA 263",
+      "oneLine": "A protective duty can exist without proof that the proposed bridge screens were legally required.",
+      "plain": "A truck driver was killed when a person threw concrete from a bridge onto the F5. The RTA knew about objects being dropped from overbridges. The course distinguishes the road authority’s role from an ordinary occupier’s relationship to crime.",
+      "concreteExplanation": "Duty and breach answer different questions. The authority’s road responsibilities can support a duty, while the evidence may still fail to show that reasonable care required the particular screen proposal.",
+      "keyFacts": [
+        "Evans was driving a truck when concrete was thrown from an overbridge.",
+        "The RTA knew of the broader object-dropping problem.",
+        "The course records a duty but no established breach."
+      ],
+      "issue": "Whether the RTA owed a duty of care in respect of erecting a structure to prevent objects being thrown off the bridge; the RTA relied on Modbury Triangle Shopping Centre v Anzil.",
+      "reasoning": [
+        "The RTA has \"a unique role to play concerning any dangers of objects falling from an overpass onto cars on a freeway below\"; freeway drivers are vulnerable, and many serious road accidents involve criminal conduct by one party."
+      ],
+      "outcome": "The NSW Court of Appeal held that the RTA owed such a duty, distinguishing Modbury Triangle (where the harm could only arise through criminal conduct). Section 43A CLA would not have helped the RTA, as erecting protective screens is not an exercise of a special statutory power. But the RTA did not breach its duty: it had not been shown that it failed to take reasonable steps to prevent the risk of harm.",
+      "ratio": "The RTA has \"a unique role to play concerning any dangers of objects falling from an overpass onto cars on a freeway below\"; freeway drivers are vulnerable, and many serious road accidents involve criminal conduct by one party.",
+      "limits": [
+        "Do not equate a duty with liability for every third-party crime.",
+        "Section 43A concerns special statutory powers; analyse whether the particular action involved such a power."
+      ],
+      "examUse": "The worked example of the common law/CLA interface: duty found, s 43A inapplicable, no breach.",
+      "pitfalls": [
+        "Applying Modbury as a blanket rule preventing any duty involving crime.",
+        "Stopping analysis after finding a duty."
+      ],
+      "sources": [
+        "content-src/laws2400-w08.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: special parties"
+      ],
+      "weeks": [
+        8
+      ],
+      "teachingRecords": [
+        {
+          "slug": "rta-v-refrigerated-roadways",
+          "name": "RTA v Refrigerated Roadways",
+          "citation": "[2009] NSWCA 263",
+          "aglc": "RTA v Refrigerated Roadways [2009] NSWCA 263",
+          "facts": "While driving a truck on the F5 freeway near Sydney, Evans, an employee of Refrigerated Roadways, was struck by a large piece of concrete dropped by third parties from an overhead bridge, and died. The RTA knew of the problem of people dropping objects from overhead bridges.",
+          "issue": "Whether the RTA owed a duty of care in respect of erecting a structure to prevent objects being thrown off the bridge; the RTA relied on Modbury Triangle Shopping Centre v Anzil.",
+          "held": "The NSW Court of Appeal held that the RTA owed such a duty, distinguishing Modbury Triangle (where the harm could only arise through criminal conduct). Section 43A CLA would not have helped the RTA, as erecting protective screens is not an exercise of a special statutory power. But the RTA did not breach its duty: it had not been shown that it failed to take reasonable steps to prevent the risk of harm.",
+          "ratio": "The RTA has \"a unique role to play concerning any dangers of objects falling from an overpass onto cars on a freeway below\"; freeway drivers are vulnerable, and many serious road accidents involve criminal conduct by one party.",
+          "significance": "Shows the common law and CLA Part 5 working together, and that a public authority can owe a duty about third parties' conduct where it has a unique role, knowledge and vulnerable road users.",
+          "why-here": "The worked example of the common law/CLA interface: duty found, s 43A inapplicable, no breach.",
+          "verify": false,
+          "source": "content-src/laws2400-w08.yaml",
+          "week": 8,
+          "weekTopic": "Duty of care: special parties"
+        }
+      ]
+    },
+    {
+      "listNumber": 57,
+      "ref": "rogers-v-whitaker",
+      "name": "Rogers v Whitaker",
+      "citation": "Rogers v Whitaker (1992) 175 CLR 479",
+      "oneLine": "Professional custom does not conclusively determine the duty to warn of material treatment risks.",
+      "plain": "An eye surgeon failed to warn Whitaker of a rare complication, stated in the teaching record as about one in 14,000. A court’s legal assessment of reasonable care cannot simply be handed over to professional custom.",
+      "concreteExplanation": "Separate what doctors commonly say from what information reasonable care requires for this patient’s decision. A small probability does not by itself establish that a risk is immaterial.",
+      "keyFacts": [
+        "An eye surgeon failed to give a warning about a complication that arose in one in 14,000 cases."
+      ],
+      "issue": "What standard of care applies to a professional — and whether it is set by professional practice (the Bolam principle).",
+      "reasoning": [
+        "A professional is judged against the ordinary skilled person exercising and professing to have that special skill, not simply against what the profession does."
+      ],
+      "outcome": "The High Court held that the standard of care \"is that of ordinary skilled person exercising and professing to have that special skill\", and rejected the Bolam principle (that the standard of care is determined in line with medical practice).",
+      "ratio": "A professional is judged against the ordinary skilled person exercising and professing to have that special skill, not simply against what the profession does.",
+      "limits": [
+        "Read the complete judgment before attributing a precise material-risk formulation to every passage.",
+        "In NSW, warning/advice liability is excluded from s 5O by s 5P; distinguish treatment skill from disclosure."
+      ],
+      "examUse": "Analyse disclosure separately from technical professional treatment and connect the risk to the patient’s decision.",
+      "pitfalls": [
+        "Using Bolam-style professional practice as a complete answer to a warning claim.",
+        "Assuming rarity makes warning unnecessary."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "rogers-v-whitaker",
+          "name": "Rogers v Whitaker",
+          "citation": "(1992) 175 CLR 479",
+          "aglc": "Rogers v Whitaker (1992) 175 CLR 479",
+          "facts": "An eye surgeon failed to give a warning about a complication that arose in one in 14,000 cases.",
+          "issue": "What standard of care applies to a professional — and whether it is set by professional practice (the Bolam principle).",
+          "held": "The High Court held that the standard of care \"is that of ordinary skilled person exercising and professing to have that special skill\", and rejected the Bolam principle (that the standard of care is determined in line with medical practice).",
+          "ratio": "A professional is judged against the ordinary skilled person exercising and professing to have that special skill, not simply against what the profession does.",
+          "significance": "The common law professional standard. Section 5O of the Civil Liability Act now incorporates a modified version of the Bolam principle that Rogers rejected.",
+          "why-here": "Cite it for the professional standard at common law, then explain how s 5O changes the analysis.",
+          "verify": false,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 58,
+      "ref": "romeo-v-conservation-commission-nt",
+      "name": "Romeo v Conservation Commission (NT)",
+      "citation": "Romeo v Conservation Commission (NT) (1998) 192 CLR 431",
+      "oneLine": "The occupier owed reasonable care, but that did not require fencing or lighting an obvious natural cliff.",
+      "plain": "Nadia Romeo, aged 15 and affected by alcohol, fell from Dripstone Cliffs to Casuarina Beach at night and became paraplegic. The absence of a fence or lighting did not establish breach in the circumstances.",
+      "concreteExplanation": "Start with the existing duty, then ask its reasonable content. A serious injury at a natural feature does not automatically mean the land manager had to remove or fence every obvious danger.",
+      "keyFacts": [
+        "Fifteen-year-old Nadia Romeo, affected by alcohol, fell from the Dripstone Cliffs onto Casuarina Beach\nnear Darwin at night and was rendered paraplegic. The cliffs and beach reserve were managed by the\nConservation Commission, which had not fenced or lit the cliff edge; Romeo sued alleging negligence in\nfailing to warn of, or fence off, the cliff.\n"
+      ],
+      "issue": "Whether the Commission, as occupier in control of a public reserve, owed and had breached a duty of care\nto entrants by failing to fence or warn of the cliff.\n",
+      "reasoning": [
+        "Duty of care is not owed in the abstract — the scope of an occupier's duty is measured against the\nobviousness of the danger and the care ordinarily exercised by entrants; there is no duty to warn of, or\nguard against, an obvious risk.\n"
+      ],
+      "outcome": "The claim failed because reasonable care did not require the proposed precautions; do not recast this as a universal absence of an occupier’s duty.",
+      "ratio": "The reasonable response to a natural, obvious danger depends on the setting and practicability of precautions; duty does not mean eliminating all risk.",
+      "limits": [
+        "Original teaching shorthand about no duty to warn or guard is qualified here: the case must not erase the underlying reasonable-care duty.",
+        "Current statutory obvious-risk provisions require their own analysis."
+      ],
+      "examUse": "The key case for arguing that an occupier's duty does not extend to protecting entrants from open and obvious dangers.",
+      "pitfalls": [
+        "Converting no breach into no duty.",
+        "Inferring a universal rule that all natural hazards need no precautions."
+      ],
+      "sources": [
+        "content-src/laws2400-w06.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: categories of harm"
+      ],
+      "weeks": [
+        6
+      ],
+      "teachingRecords": [
+        {
+          "slug": "romeo-v-conservation-commission-nt",
+          "name": "Romeo v Conservation Commission (NT)",
+          "citation": "(1998) 192 CLR 431",
+          "aglc": "Romeo v Conservation Commission (NT) (1998) 192 CLR 431",
+          "facts": "Fifteen-year-old Nadia Romeo, affected by alcohol, fell from the Dripstone Cliffs onto Casuarina Beach\nnear Darwin at night and was rendered paraplegic. The cliffs and beach reserve were managed by the\nConservation Commission, which had not fenced or lit the cliff edge; Romeo sued alleging negligence in\nfailing to warn of, or fence off, the cliff.\n",
+          "issue": "Whether the Commission, as occupier in control of a public reserve, owed and had breached a duty of care\nto entrants by failing to fence or warn of the cliff.\n",
+          "held": "The High Court (Gaudron and McHugh JJ dissenting) held that although the Commission owed entrants a duty\nto take reasonable care against reasonably foreseeable risks of injury, it was not in breach of that duty\nby failing to fence or illuminate the cliff edge, because the danger was obvious.\n",
+          "ratio": "Duty of care is not owed in the abstract — the scope of an occupier's duty is measured against the\nobviousness of the danger and the care ordinarily exercised by entrants; there is no duty to warn of, or\nguard against, an obvious risk.\n",
+          "significance": "Leading authority distinguishing the existence of a duty from its scope, and establishing that an occupier\nneed not guard against obvious dangers — later codified by CLA ss 5F–5H on obvious risk.\n",
+          "why-here": "The key case for arguing that an occupier's duty does not extend to protecting entrants from open and obvious dangers.",
+          "verify": false,
+          "source": "content-src/laws2400-w06.yaml",
+          "week": 6,
+          "weekTopic": "Duty of care: categories of harm"
+        }
+      ]
+    },
+    {
+      "listNumber": 59,
+      "ref": "rootes-v-shelton",
+      "name": "Rootes v Shelton",
+      "citation": "Rootes v Shelton (1967) 116 CLR 383",
+      "oneLine": "Accepting a sport’s inherent risks does not excuse a separate negligent failure to warn.",
+      "plain": "An experienced water-skier crossing the boat’s wake was blinded by spray and struck a stationary boat. The observer failed to warn him of it.",
+      "concreteExplanation": "The skier accepted the ordinary hazards of skiing. That does not mean he agreed that the observer could omit the warning function on which safe participation depended.",
+      "keyFacts": [
+        "Experienced skier participating in a crossover manoeuvre on the Macquarie River.",
+        "Spray obscured his view.",
+        "He collided with a stationary boat without a warning from the observer."
+      ],
+      "issue": "Whether a fellow participant in a sporting activity (the boat driver/observer) owed a duty of care to\nanother participant (the skier), and whether that duty was breached.\n",
+      "reasoning": [
+        "Barwick CJ: participants in a sport accept the risks inherent in it, but this does not eliminate all duty\nof care between participants — whether a duty arises, and its extent, depends on the circumstances of the\ncase.\n"
+      ],
+      "outcome": "The High Court held that the boat driver owed Rootes a duty of care and that the duty had been breached by\nthe observer's failure to warn of the stationary obstacle.\n",
+      "ratio": "Barwick CJ: participants in a sport accept the risks inherent in it, but this does not eliminate all duty\nof care between participants — whether a duty arises, and its extent, depends on the circumstances of the\ncase.\n",
+      "limits": [
+        "Identify the activity’s accepted risks and the particular negligent act separately.",
+        "Apply any relevant statutory recreational-risk defence rather than treating consent as automatic."
+      ],
+      "examUse": "The starting point for any sport-injury problem — used to separate inherent risks the plaintiff accepted from a distinct breach of duty by a fellow participant.",
+      "pitfalls": [
+        "Reasoning that playing a risky sport waives every negligence claim.",
+        "Failing to distinguish an inherent hazard from negligent coordination."
+      ],
+      "sources": [
+        "content-src/laws2400-w06.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: categories of harm"
+      ],
+      "weeks": [
+        6
+      ],
+      "teachingRecords": [
+        {
+          "slug": "rootes-v-shelton",
+          "name": "Rootes v Shelton",
+          "citation": "(1967) 116 CLR 383",
+          "aglc": "Rootes v Shelton (1967) 116 CLR 383",
+          "facts": "An experienced water-skier, Rootes, was performing a \"crossover\" on the Macquarie River when he collided\nwith a stationary boat after being briefly blinded by spray; the towing boat's observer had failed to warn\nskiers of the stationary obstacle.\n",
+          "issue": "Whether a fellow participant in a sporting activity (the boat driver/observer) owed a duty of care to\nanother participant (the skier), and whether that duty was breached.\n",
+          "held": "The High Court held that the boat driver owed Rootes a duty of care and that the duty had been breached by\nthe observer's failure to warn of the stationary obstacle.\n",
+          "ratio": "Barwick CJ: participants in a sport accept the risks inherent in it, but this does not eliminate all duty\nof care between participants — whether a duty arises, and its extent, depends on the circumstances of the\ncase.\n",
+          "significance": "Establishes that a duty of care can arise between co-participants in a sport, and that the \"inherent risk\"\nof the sport must be distinguished from a separate failure to take reasonable care, such as a failure to\nwarn.\n",
+          "why-here": "The starting point for any sport-injury problem — used to separate inherent risks the plaintiff accepted from a distinct breach of duty by a fellow participant.",
+          "verify": false,
+          "source": "content-src/laws2400-w06.yaml",
+          "week": 6,
+          "weekTopic": "Duty of care: categories of harm"
+        }
+      ]
+    },
+    {
+      "listNumber": 60,
+      "ref": "shaddock-and-associates-pty-ltd-v-parramatta-city-council",
+      "name": "Shaddock & Associates Pty Ltd v Parramatta City Council",
+      "citation": "Shaddock & Associates Pty Ltd v Parramatta City Council (1981) 150 CLR 225",
+      "oneLine": "A council can owe care when supplying information for a known transaction and known reasonable reliance.",
+      "plain": "A solicitor asked whether a road-widening scheme affected land a client intended to buy. The council answered no by telephone and certificate, although a scheme existed. The purchase went ahead and the scheme severely affected value.",
+      "concreteExplanation": "The council was the source the buyer had to consult. Once it answered a serious transaction inquiry in circumstances of clear reliance, the fact that the answer was information rather than professional advice did not remove responsibility.",
+      "keyFacts": [
+        "Inquiry made by an intending purchaser’s solicitor.",
+        "Oral answer and formal certificate both failed to disclose the scheme.",
+        "Purchase proceeded in reliance on the answer."
+      ],
+      "issue": "Whether the council owed the purchaser a duty of care in providing the information.",
+      "reasoning": [
+        "A public authority that provides factual information, knowing it will be relied on, can owe a duty of care; the duty extends to information as well as advice and does not depend on the speaker having special skill."
+      ],
+      "outcome": "Duty found. The duty covers information as well as advice, and there is no separate requirement that the speaker possess special skill. The council was the only source of the information and the reliance on it was clear; the Court suggested the phone call alone might not have been enough, but the phone call together with the certificate was.",
+      "ratio": "A public authority that provides factual information, knowing it will be relied on, can owe a duty of care; the duty extends to information as well as advice and does not depend on the speaker having special skill.",
+      "limits": [
+        "The phone call alone might not have sufficed; context and the certificate mattered.",
+        "The case does not create a duty for every public statement or informal answer."
+      ],
+      "examUse": "The authority for a duty over factual information from a sole source (often a public body), without special skill.",
+      "pitfalls": [
+        "Requiring a separate special-skill element for all information duties.",
+        "Ignoring the purpose, recipient and reasonableness of reliance."
+      ],
+      "sources": [
+        "content-src/laws2400-w07.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: pure economic loss"
+      ],
+      "weeks": [
+        7
+      ],
+      "teachingRecords": [
+        {
+          "slug": "shaddock-and-associates-pty-ltd-v-parramatta-city-council",
+          "name": "Shaddock & Associates Pty Ltd v Parramatta City Council",
+          "citation": "(1981) 150 CLR 225",
+          "aglc": "Shaddock & Associates Pty Ltd v Parramatta City Council (1981) 150 CLR 225",
+          "facts": "An intending purchaser's solicitor asked the council whether any road-widening proposal affected the land. The council said no, first orally by phone and then in a certificate; neither disclosed the scheme that existed. The purchase proceeded, the road-widening scheme emerged, and the land's value was destroyed.",
+          "issue": "Whether the council owed the purchaser a duty of care in providing the information.",
+          "held": "Duty found. The duty covers information as well as advice, and there is no separate requirement that the speaker possess special skill. The council was the only source of the information and the reliance on it was clear; the Court suggested the phone call alone might not have been enough, but the phone call together with the certificate was.",
+          "ratio": "A public authority that provides factual information, knowing it will be relied on, can owe a duty of care; the duty extends to information as well as advice and does not depend on the speaker having special skill.",
+          "significance": "Shows a public authority can owe a duty for negligent information, and removes any separate special-skill requirement.",
+          "why-here": "The authority for a duty over factual information from a sole source (often a public body), without special skill.",
+          "verify": false,
+          "source": "content-src/laws2400-w07.yaml",
+          "week": 7,
+          "weekTopic": "Duty of care: pure economic loss"
+        }
+      ]
+    },
+    {
+      "listNumber": 61,
+      "ref": "smith-v-leech-brain",
+      "name": "Smith v Leech Brain & Co Ltd",
+      "citation": "Smith v Leech Brain & Co Ltd [1962] 2 QB 405; [1961] 3 All ER 1159",
+      "oneLine": "Foreseeable physical injury can carry unforeseeably severe consequences for a vulnerable victim.",
+      "plain": "Molten material burned a galvaniser’s lip. The burn promoted cancer in tissue already in a premalignant condition, and he died. The employer was responsible despite the unusual severity.",
+      "concreteExplanation": "The relevant foreseeable injury was the burn. The victim’s susceptibility explains how far its consequences went; it does not turn those consequences into a different unrelated injury.",
+      "keyFacts": [
+        "William Smith’s workplace burn occurred while galvanising.",
+        "The burn promoted cancer in already susceptible tissue."
+      ],
+      "issue": "Did unforeseeable cancer and death make damages too remote?",
+      "reasoning": [
+        "The thin-skull principle survived Wagon Mound.",
+        "Distinguish the foreseeable type of injury from its unforeseeable extent."
+      ],
+      "outcome": "Judgment for the widow; damages included the consequences of cancer and death.",
+      "ratio": "Take the injured victim as found once the relevant type of injury is foreseeable.",
+      "limits": [
+        "Causation of the later condition must still be established."
+      ],
+      "examUse": "Distinguish kind from extent of damage.",
+      "pitfalls": [
+        "Using thin skull to skip proof of causation."
+      ],
+      "sources": [
+        "https://www.uniset.ca/other/cs3/19613AER1159.html",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced All England Law Reports judgment checked; not an AI case summary.",
+      "topics": [
+        "Remoteness",
+        "Thin skull"
+      ],
+      "weeks": [
+        11
+      ],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 62,
+      "ref": "smith-v-leurs",
+      "name": "Smith v Leurs",
+      "citation": "Smith v Leurs (1945) 70 CLR 256",
+      "oneLine": "A parent’s own duty of reasonable supervision is different from automatic liability for a child’s acts.",
+      "plain": "A 13-year-old injured someone’s eye with a stone fired from a slingshot. His parents were sued. They had told him not to use it away from home and had taken reasonable steps, so they were not in breach.",
+      "concreteExplanation": "Ask what these parents reasonably should have done to control the child, rather than making them pay simply because their child caused harm.",
+      "keyFacts": [
+        "Thirteen-year-old used a slingshot.",
+        "A stone injured the plaintiff’s eye.",
+        "Parents had instructed him not to use it outside the home."
+      ],
+      "issue": "Whether parents owe others a duty to control their child.",
+      "reasoning": [
+        "Parents may owe a duty of care to others to control their child; it is discharged by reasonable steps."
+      ],
+      "outcome": "A duty was owed, but it was not breached, because the parents had taken reasonable steps by telling their son not to use the sling shot outside their home.",
+      "ratio": "Parents may owe a duty of care to others to control their child; it is discharged by reasonable steps.",
+      "limits": [
+        "A parental relationship may support a control duty; liability still depends on breach and causation.",
+        "Do not confuse a parent’s personal negligence with vicarious liability."
+      ],
+      "examUse": "The authority when a stranger sues parents over harm caused by their child.",
+      "pitfalls": [
+        "Treating parents as insurers of all childhood misconduct.",
+        "Treating the duty as requiring successful prevention rather than reasonable steps."
+      ],
+      "sources": [
+        "content-src/laws2400-w08.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: special parties"
+      ],
+      "weeks": [
+        8
+      ],
+      "teachingRecords": [
+        {
+          "slug": "smith-v-leurs",
+          "name": "Smith v Leurs",
+          "citation": "(1945) 70 CLR 256",
+          "aglc": "Smith v Leurs (1945) 70 CLR 256",
+          "facts": "A 13-year-old boy fired a stone from a sling shot, injuring the plaintiff's eye; the plaintiff sued the parents.",
+          "issue": "Whether parents owe others a duty to control their child.",
+          "held": "A duty was owed, but it was not breached, because the parents had taken reasonable steps by telling their son not to use the sling shot outside their home.",
+          "ratio": "Parents may owe a duty of care to others to control their child; it is discharged by reasonable steps.",
+          "significance": "A control-of-others duty: the parent answers for failing to take reasonable steps to control the child.",
+          "why-here": "The authority when a stranger sues parents over harm caused by their child.",
+          "verify": false,
+          "source": "content-src/laws2400-w08.yaml",
+          "week": 8,
+          "weekTopic": "Duty of care: special parties"
+        }
+      ]
+    },
+    {
+      "listNumber": 63,
+      "ref": "state-rail-authority-nsw-v-chu",
+      "name": "State Rail Authority of NSW v Chu",
+      "citation": "State Rail Authority of NSW v Chu [2008] Aust Torts Reports 81-940",
+      "oneLine": "A later independent assault was outside the railway’s responsibility for an earlier fall.",
+      "plain": "Chu fractured her ankle on slippery painted station steps. Weeks later a man sexually assaulted her. The railway remained responsible for the fall, but damages could not include the later assault’s consequences.",
+      "concreteExplanation": "Reduced mobility explained vulnerability, but it did not make every subsequent deliberate crime the railway’s responsibility.",
+      "keyFacts": [
+        "Wet stair nosings at Sydenham Station caused the fall.",
+        "The later assault occurred about five or six weeks afterwards."
+      ],
+      "issue": "Was the assault a superseding act, and which losses were compensable?",
+      "reasoning": [
+        "The assailant’s free, deliberate and informed act broke the chain.",
+        "Fall-related psychiatric harm remained separately assessable."
+      ],
+      "outcome": "Appeal and cross-appeal partly allowed; damages recalculated.",
+      "ratio": "Earlier negligence did not impose responsibility for this independent subsequent assault.",
+      "limits": [
+        "Not every later deliberate act necessarily breaks causation."
+      ],
+      "examUse": "Identify the later act and the scope of the original responsibility.",
+      "pitfalls": [
+        "Assuming increased vulnerability establishes liability for every later crime."
+      ],
+      "sources": [
+        "https://casechat.au/cases/au/state-rail-authority-of-new-south-wales-v-chu",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced judgment [3]–[9],[22]–[25],[55] and orders checked. Host AI summary incorrectly described the original accident and was ignored.",
+      "topics": [
+        "Causation",
+        "Intervening acts",
+        "Damages"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 64,
+      "ref": "state-rail-authority-nsw-v-wiegold",
+      "name": "State Rail Authority of NSW v Wiegold",
+      "citation": "State Rail Authority of NSW v Wiegold (1991) 25 NSWLR 500",
+      "oneLine": "An employer was not responsible for losses from the injured worker’s later rational criminal venture.",
+      "plain": "After a workplace injury and financial difficulties, Wiegold cultivated cannabis. Conviction led to imprisonment and dismissal. The majority rejected responsibility for those consequences of his deliberate criminal choice.",
+      "concreteExplanation": "Financial pressure may help explain why someone offended. It does not automatically make the original tortfeasor legally responsible for losses caused by that rational, voluntary decision.",
+      "keyFacts": [
+        "Work injury and cessation of compensation preceded financial difficulty.",
+        "Cannabis offending led to conviction, imprisonment and dismissal."
+      ],
+      "issue": "Could damages include employment losses associated with the conviction?",
+      "reasoning": [
+        "The majority considered factual causation and policy.",
+        "Kirby P dissented on this issue."
+      ],
+      "outcome": "The majority excluded responsibility for consequences of the criminal venture.",
+      "ratio": "Losses from rational and voluntary criminal conduct were not attributable to the defendant in these circumstances.",
+      "limits": [
+        "Do not erase the underlying injury claim or ignore the dissent."
+      ],
+      "examUse": "Distinguish a voluntary criminal choice from involuntary consequences of injury.",
+      "pitfalls": [
+        "Assuming any but-for explanation establishes compensable loss."
+      ],
+      "sources": [
+        "https://sterlinglawqld.com/sterlii/state-rail-authority-of-nsw-v-wiegold-1991-25-nswlr-500/",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced NSWLR judgment checked, including the majority holding and Kirby P dissent.",
+      "topics": [
+        "Causation",
+        "Intervening acts",
+        "Illegality"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 65,
+      "ref": "stephenson-v-waite-tileman",
+      "name": "Stephenson v Waite Tileman",
+      "citation": "Stephenson v Waite Tileman [1973] 1 NZLR 152",
+      "oneLine": "Later New Zealand authority cites Stephenson for taking the injured person as found; original factual details remain unverified.",
+      "plain": "An unusual vulnerability does not by itself defeat compensation. Mehta v Chandra cites Stephenson for taking the person as found, while still requiring sufficient causation. This verifies a doctrinal use, not Stephenson’s full factual story.",
+      "concreteExplanation": "Ask first whether the wrong caused the injury. Then consider whether unusual vulnerability explains its extent. Keep those questions separate; the thin-skull principle does not supply missing causal proof.",
+      "keyFacts": [
+        "The supplied law list gives [1973] 1 NZLR 152. The original injury narrative and complete disposition were not retrieved.",
+        "Mehta v Chandra [2025] NZHC 578 [178], footnote 114, expressly cites Stephenson at 160–161 for taking the claimant as found.",
+        "Separately, NZ Law Commission PP17, PDF page100, records an interest claim raised on appeal: no interest was awarded; s 87 discretion belonged to the trial judge, and Jefford v Gee was left open."
+      ],
+      "issue": "The later verified doctrinal use concerns unusual vulnerability and the continuing need for causation; the original case’s full issues remain to be checked.",
+      "reasoning": [
+        "Mehta treats the eggshell-skull principle and sufficient causation as compatible requirements. Its proportionality discussion concerns Mehta’s own general-damages award and is not attributed as Stephenson’s full ratio.",
+        "The original report was not available. No particular workplace accident, infection, wire injury or medical diagnosis is asserted without evidence."
+      ],
+      "outcome": "Original personal-injury disposition not verified. The separately reported interest issue is described above; it is not a substitute for the missing original merits orders.",
+      "ratio": "Verified later citation supports the take-the-victim-as-found principle. The complete original ratio and factual application remain unverified.",
+      "limits": [
+        "The law-list citation is preserved exactly.",
+        "Search results included inconsistent unofficial summaries; they were not used as case evidence."
+      ],
+      "examUse": "Use the later-judgment citation for the narrow verified principle. Use a fully verified factual authority such as Smith v Leech Brain for a case analogy until the original report is checked.",
+      "pitfalls": [
+        "Treating an unverified teaching analogy as the case’s actual facts."
+      ],
+      "sources": [
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://casechat.au/cases/nz/mehta-v-chandra-2",
+        "https://www.lawcom.govt.nz/assets/Publications/PreliminaryPapers/NZLC-PP17.pdf"
+      ],
+      "verification": "unresolved",
+      "verificationNote": "Partially verified through Mehta [178] fn 114 and official NZLC PP17. Original injury facts, full reasons and merits disposition remain unresolved. Conflicting unofficial narratives were excluded.",
+      "topics": [
+        "Remoteness",
+        "Thin skull"
+      ],
+      "weeks": [
+        11
+      ],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 66,
+      "ref": "strong-v-woolworths-ltd-tas-big-w",
+      "name": "Strong v Woolworths Ltd",
+      "citation": "Strong v Woolworths Ltd (2012) 246 CLR 182",
+      "oneLine": "Causation can be proved by a supported probability inference about an adequate cleaning system.",
+      "plain": "Strong used crutches because of a disability. A crutch slipped on a greasy potato chip outside Big W and she suffered a spinal injury. There was no periodic inspection and cleaning system.",
+      "concreteExplanation": "Compare what actually happened with inspections no more than 20 minutes apart. The evidence supported a probability that the chip had been there long enough for that system to find and remove it.",
+      "keyFacts": [
+        "Crutch slid on a greasy potato chip at the store entrance.",
+        "No inspection and cleaning system operated.",
+        "An adequate system required intervals not exceeding 20 minutes.",
+        "The probabilities favoured deposition during the longer 8 am–12:10 pm period rather than immediately before the fall."
+      ],
+      "issue": "Whether Woolworths' failure to have an inspection and cleaning system was a necessary condition of Ms Strong's fall (CLA s 5D(1)(a)), proved on the balance of probabilities (s 5E), when no one knew when the chip had been dropped.",
+      "reasoning": [
+        "Section 5D(1)(a) 'is a statutory statement of the \"but for\" test of causation': the defendant's negligence must be a necessary condition of the occurrence of the harm, decided on the balance of probabilities (s 5E)."
+      ],
+      "outcome": "Woolworths' negligence lay in its failure to employ a system for the periodic inspection and cleaning of the area (duty: occupier/entrant; an appropriate system = inspection and removal of slipping hazards at intervals of not greater than 20 minutes). 'The probabilities favoured the conclusion that the chip was deposited in the longer period between 8.00am and 12.10pm and not the shorter period between 12.10pm and the time of the fall' [38], so causation was established.",
+      "ratio": "Section 5D(1)(a) 'is a statutory statement of the \"but for\" test of causation': the defendant's negligence must be a necessary condition of the occurrence of the harm, decided on the balance of probabilities (s 5E).",
+      "limits": [
+        "Inference requires evidence and the balance of probabilities, not merely proof of breach.",
+        "The20-minute system is case-specific, not a universal cleaning timetable."
+      ],
+      "examUse": "Cite for s 5D(1)(a) as the statutory 'but for' test and for proving causation on the balance of probabilities when the timing of the hazard is unknown.",
+      "pitfalls": [
+        "Presuming causation because a system was absent.",
+        "Treating any conceivable short interval as proving the chip would have remained undetected."
+      ],
+      "sources": [
+        "content-src/laws2400-w10.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Causation"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [
+        {
+          "slug": "strong-v-woolworths-ltd-tas-big-w",
+          "name": "Strong v Woolworths Ltd t/as Big W",
+          "citation": "(2012) 246 CLR 182",
+          "aglc": "Strong v Woolworths Ltd t/as Big W (2012) 246 CLR 182",
+          "facts": "Ms Strong, who walks with the aid of crutches because of a disability, slipped outside the entrance to a Big W store and suffered a spinal injury when her crutch slid on a greasy potato chip. Woolworths, trading as Big W, had no system to inspect and clean the area where she fell. The District Court found Woolworths negligent; the Court of Appeal reversed that finding.",
+          "issue": "Whether Woolworths' failure to have an inspection and cleaning system was a necessary condition of Ms Strong's fall (CLA s 5D(1)(a)), proved on the balance of probabilities (s 5E), when no one knew when the chip had been dropped.",
+          "held": "Woolworths' negligence lay in its failure to employ a system for the periodic inspection and cleaning of the area (duty: occupier/entrant; an appropriate system = inspection and removal of slipping hazards at intervals of not greater than 20 minutes). 'The probabilities favoured the conclusion that the chip was deposited in the longer period between 8.00am and 12.10pm and not the shorter period between 12.10pm and the time of the fall' [38], so causation was established.",
+          "ratio": "Section 5D(1)(a) 'is a statutory statement of the \"but for\" test of causation': the defendant's negligence must be a necessary condition of the occurrence of the harm, decided on the balance of probabilities (s 5E).",
+          "significance": "Clarifies s 5D(1) and (2) and s 5E, and shows factual causation proved by inference about when a hazard arose.",
+          "why-here": "Cite for s 5D(1)(a) as the statutory 'but for' test and for proving causation on the balance of probabilities when the timing of the hazard is unknown.",
+          "verify": false,
+          "source": "content-src/laws2400-w10.yaml",
+          "week": 10,
+          "weekTopic": "Causation"
+        }
+      ]
+    },
+    {
+      "listNumber": 67,
+      "ref": "sullivan-v-moody",
+      "name": "Sullivan v Moody",
+      "citation": "Sullivan v Moody (2001) 207 CLR 562",
+      "oneLine": "A foreseeable injury does not create a duty inconsistent with child-protection responsibilities.",
+      "plain": "A father suspected of abusing his daughter sued medical and social-work investigators for psychiatric and financial harm. No charges were laid, but that did not establish that the investigators owed him a duty.",
+      "concreteExplanation": "A duty to protect the suspected person could pull against the investigators’ responsibility to protect the child. The law asks whether those obligations can operate coherently, not merely whether distress was predictable.",
+      "keyFacts": [
+        "Medical practitioner and social workers investigated possible sexual abuse.",
+        "The father alleged family breakdown, psychiatric harm and financial loss.",
+        "No criminal charges followed."
+      ],
+      "issue": "Whether professionals investigating a suspicion of child sexual abuse owe a duty of care to the person under suspicion.",
+      "reasoning": [
+        "A duty of care will not be recognised, however foreseeable the harm, where doing so would conflict with a duty owed under other legal principles or statute, would create indeterminate liability, or would threaten the coherence of the law."
+      ],
+      "outcome": "The High Court held the defendants owed the father no duty of care. If mere reasonable foreseeability of\nharm entailed legal liability, this would impose an intolerable burden of potential liability on those\ninvestigating abuse allegations and would result in negligence subverting other principles of law and\nstatutory provisions designed to protect children. The Court considered the coherence of the law — the\nparamount duty to protect children's interests — and the difficulty of limiting the extent and potential\nindeterminacy of liability, since a duty could extend beyond the father to friends, teachers or anyone else\nsuspected of abuse.\n",
+      "ratio": "A duty of care will not be recognised, however foreseeable the harm, where doing so would conflict with a duty owed under other legal principles or statute, would create indeterminate liability, or would threaten the coherence of the law.",
+      "limits": [
+        "Do not turn coherence into a universal immunity for professional investigation.",
+        "Identify the particular competing obligations and proposed claimant class."
+      ],
+      "examUse": "The key authority for arguing that policy factors defeat a duty of care despite foreseeable harm, especially in child-protection or third-party investigation scenarios.",
+      "pitfalls": [
+        "Reasoning from foreseeable distress straight to duty.",
+        "Treating the absence of charges as proof of negligence."
+      ],
+      "sources": [
+        "content-src/laws2400-w05.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Negligence overview and duty of care"
+      ],
+      "weeks": [
+        5
+      ],
+      "teachingRecords": [
+        {
+          "slug": "sullivan-v-moody",
+          "name": "Sullivan v Moody",
+          "citation": "(2001) 207 CLR 562",
+          "aglc": "Sullivan v Moody (2001) 207 CLR 562",
+          "facts": "A father was suspected of sexually abusing his daughter. A medical practitioner and social workers were\nalleged to have acted negligently in examining the child and investigating the possibility of abuse. No\ncriminal charges were laid, but the investigation caused the breakdown of the family and, the father\nclaimed, shock, distress, psychiatric injury and consequential financial loss. He sued the investigators,\nalleging they owed him a duty to exercise reasonable care in conducting the investigation.\n",
+          "issue": "Whether professionals investigating a suspicion of child sexual abuse owe a duty of care to the person under suspicion.",
+          "held": "The High Court held the defendants owed the father no duty of care. If mere reasonable foreseeability of\nharm entailed legal liability, this would impose an intolerable burden of potential liability on those\ninvestigating abuse allegations and would result in negligence subverting other principles of law and\nstatutory provisions designed to protect children. The Court considered the coherence of the law — the\nparamount duty to protect children's interests — and the difficulty of limiting the extent and potential\nindeterminacy of liability, since a duty could extend beyond the father to friends, teachers or anyone else\nsuspected of abuse.\n",
+          "ratio": "A duty of care will not be recognised, however foreseeable the harm, where doing so would conflict with a duty owed under other legal principles or statute, would create indeterminate liability, or would threaten the coherence of the law.",
+          "significance": "Leading authority on the policy factors — coherence, indeterminacy and conflicting duties — that can negate a duty of care in a novel case.",
+          "why-here": "The key authority for arguing that policy factors defeat a duty of care despite foreseeable harm, especially in child-protection or third-party investigation scenarios.",
+          "verify": false,
+          "source": "content-src/laws2400-w05.yaml",
+          "week": 5,
+          "weekTopic": "Negligence overview and duty of care"
+        }
+      ]
+    },
+    {
+      "listNumber": 68,
+      "ref": "sutherland-shire-council-v-heyman",
+      "name": "Sutherland Shire Council v Heyman",
+      "citation": "Sutherland Shire Council v Heyman (1985) 157 CLR 424",
+      "oneLine": "Building-control powers did not make the council a guarantor against this later purchaser’s economic loss.",
+      "plain": "The Heymans bought an Engadine house on steep land. Inadequate footings let supporting piers and columns settle, causing distortion and cracks. They sought repair costs from the council over construction inspections.",
+      "concreteExplanation": "Approving construction and having inspection powers do not automatically promise later buyers that defects are absent. Identify the alleged undertaking, reliance and scope of responsibility.",
+      "keyFacts": [
+        "Buyers took possession in1975 and discovered damage in1976.",
+        "They had not obtained a statutory compliance certificate."
+      ],
+      "issue": "What duty did building regulation and inspection create toward subsequent owners?",
+      "reasoning": [
+        "The judges gave separate reasons; foreseeability alone was insufficient.",
+        "Statutory functions, reliance and the character of the claimed economic loss mattered."
+      ],
+      "outcome": "Council appeal allowed; judgment entered for the council.",
+      "ratio": "The purchasers did not establish the asserted inspection-based liability in these circumstances.",
+      "limits": [
+        "No universal public-authority immunity.",
+        "Policy/operation is not a mechanical liability test."
+      ],
+      "examUse": "Specify the act, omission and alleged reliance.",
+      "pitfalls": [
+        "Calling the reasoning unanimous or automatically imposing an Anns-style duty."
+      ],
+      "sources": [
+        "content-src/laws2400-w08.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://casechat.au/cases/au/sutherland-shire-council-v-heyman"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Reproduced HCA judgment checked, including Gibbs CJ facts, statutory setting, separate reasons and final orders. Original lecture account preserved.",
+      "topics": [
+        "Duty of care: special parties"
+      ],
+      "weeks": [
+        8
+      ],
+      "teachingRecords": [
+        {
+          "slug": "sutherland-shire-council-v-heyman",
+          "name": "Sutherland Shire Council v Heyman",
+          "citation": "(1985) 157 CLR 424",
+          "aglc": "Sutherland Shire Council v Heyman (1985) 157 CLR 424",
+          "facts": "As described in the Topic 8 lecture: purchasers discovered defective footings in their house years after it had been built, and sued the council over its inspection role during construction.",
+          "issue": "Whether the council owed the purchasers a duty of care in relation to its inspection role.",
+          "held": "In the lecture's account, no duty was held because there was no reliance. The High Court considered the policy vs operation distinction and the concept of general reliance (e.g., fire fighting).",
+          "ratio": "The materials give no fuller ratio. The case is used for the policy/operation distinction and general reliance, and (Topic 5) for Australian courts not following the Anns test.",
+          "significance": "Introduced the policy versus operation distinction into Australian public authority cases: policy is largely off limits; operational negligence is more arguable.",
+          "why-here": "Cited for the policy/operations distinction and for reliance as a feature of a public authority duty.",
+          "verify": true,
+          "source": "content-src/laws2400-w08.yaml",
+          "week": 8,
+          "weekTopic": "Duty of care: special parties"
+        }
+      ]
+    },
+    {
+      "listNumber": 69,
+      "ref": "sweeney-v-boylan-nominees",
+      "name": "Sweeney v Boylan Nominees Pty Ltd",
+      "citation": "Sweeney v Boylan Nominees Pty Ltd (2006) 226 CLR 161",
+      "oneLine": "An independent repairer’s regular work and branded invoices did not make the customer vicariously liable.",
+      "plain": "A refrigerator door fell on Sweeney while she bought milk. The negligent repairer worked in his own business for Boylan. Boylan was not vicariously liable merely because he regularly repaired its equipment.",
+      "concreteExplanation": "Calling a worker a representative does not replace examining the actual legal relationship and work. Supplying branded invoices alone did not turn the repair business into employment.",
+      "keyFacts": [
+        "Door detached at a service station.",
+        "Comminos was an independent repairer, not Boylan’s employee."
+      ],
+      "issue": "Did representation or agency principles make Boylan vicariously liable?",
+      "reasoning": [
+        "The actual independent business relationship mattered.",
+        "Regular work and invoices were insufficient."
+      ],
+      "outcome": "Sweeney’s appeal dismissed by majority.",
+      "ratio": "The facts did not establish employment or a basis to extend vicarious liability to this independent contractor.",
+      "limits": [
+        "Separate direct negligence and any non-delegable duty."
+      ],
+      "examUse": "Establish the relationship before the course-of-employment question.",
+      "pitfalls": [
+        "Treating every contractor as an employee or agent."
+      ],
+      "sources": [
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2006/HCA/19.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official judgment checked; majority result distinguished from dissent.",
+      "topics": [
+        "Vicarious liability",
+        "Independent contractors"
+      ],
+      "weeks": [],
+      "teachingRecords": [],
+      "weekMappingNote": "No week-level teaching record found; any non-empty week association is a topic-based revision link, not proof of coverage in that week."
+    },
+    {
+      "listNumber": 70,
+      "ref": "tabet-v-gett",
+      "name": "Tabet v Gett",
+      "citation": "Tabet v Gett (2010) 240 CLR 537",
+      "oneLine": "A possible better medical outcome is not a substitute for proving personal-injury causation.",
+      "plain": "A six-year-old suffered permanent brain damage after a delay in a CT scan. Her claimed chance of a better result was below 50%. The claim could not avoid the causation requirement by describing that possibility as the injury.",
+      "concreteExplanation": "Distinguish a probably avoided injury from a chance that it might have been avoided. In this personal-injury case, the lost possibility was not itself a compensable form of damage.",
+      "keyFacts": [
+        "A six-year-old child, Tabet, suffered permanent brain damage after a delay in performing a CT scan during hospital treatment. She alleged that the defendant doctor's negligence deprived her of a chance of a better medical outcome. The chance of a better outcome was less than 50%."
+      ],
+      "issue": "Whether the court should 'permit recovery for physical injury not shown to be caused or contributed to by a negligent party, but which negligence has deprived the victim of the possibility (but not the probability) of a better outcome' [25].",
+      "reasoning": [
+        "Loss of a chance of a better medical outcome, where the better outcome was only possible and not probable, is not compensable damage in personal injury cases. This does not require acceptance in absolute terms that destruction of the chance of obtaining a benefit or avoiding a harm can never supply the damage that is the gist of an action in negligence (Gummow ACJ [27])."
+      ],
+      "outcome": "No. In personal injury cases the law of negligence as understood in the common law of Australia does not entertain an action for recovery when the damage is characterised as the loss of a chance of a better outcome (Gummow ACJ [46]).",
+      "ratio": "Loss of a chance of a better medical outcome, where the better outcome was only possible and not probable, is not compensable damage in personal injury cases. This does not require acceptance in absolute terms that destruction of the chance of obtaining a benefit or avoiding a harm can never supply the damage that is the gist of an action in negligence (Gummow ACJ [27]).",
+      "limits": [
+        "This does not establish that every commercial loss-of-chance claim fails.",
+        "The court did not accept an absolute proposition that destroying a chance can never constitute damage in any negligence action."
+      ],
+      "examUse": "Identify the damage claimed and whether the evidence proves the negligent act caused it on the balance of probabilities.",
+      "pitfalls": [
+        "Awarding a percentage of personal-injury damages merely because some better outcome was possible.",
+        "Extending the holding to every loss-of-chance context."
+      ],
+      "sources": [
+        "content-src/laws2400-w10.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Causation"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [
+        {
+          "slug": "tabet-v-gett",
+          "name": "Tabet v Gett",
+          "citation": "(2010) 240 CLR 537",
+          "aglc": "Tabet v Gett (2010) 240 CLR 537",
+          "facts": "A six-year-old child, Tabet, suffered permanent brain damage after a delay in performing a CT scan during hospital treatment. She alleged that the defendant doctor's negligence deprived her of a chance of a better medical outcome. The chance of a better outcome was less than 50%.",
+          "issue": "Whether the court should 'permit recovery for physical injury not shown to be caused or contributed to by a negligent party, but which negligence has deprived the victim of the possibility (but not the probability) of a better outcome' [25].",
+          "held": "No. In personal injury cases the law of negligence as understood in the common law of Australia does not entertain an action for recovery when the damage is characterised as the loss of a chance of a better outcome (Gummow ACJ [46]).",
+          "ratio": "Loss of a chance of a better medical outcome, where the better outcome was only possible and not probable, is not compensable damage in personal injury cases. This does not require acceptance in absolute terms that destruction of the chance of obtaining a benefit or avoiding a harm can never supply the damage that is the gist of an action in negligence (Gummow ACJ [27]).",
+          "significance": "Keeps the balance of probabilities at the centre of factual causation in medical negligence: a less than even chance is a possibility, not proof of causation.",
+          "why-here": "Cite where the plaintiff can show only a less than 50% chance that proper care would have produced a better outcome.",
+          "verify": false,
+          "source": "content-src/laws2400-w10.yaml",
+          "week": 10,
+          "weekTopic": "Causation"
+        }
+      ]
+    },
+    {
+      "listNumber": 71,
+      "ref": "tame-v-new-south-wales",
+      "name": "Tame v New South Wales; Annetts v Australian Stations Pty Ltd",
+      "citation": "Tame v New South Wales; Annetts v Australian Stations Pty Ltd (2002) 211 CLR 317",
+      "oneLine": "The joined cases show psychiatric-harm duties depend on foreseeability and relationship, not a rigid shock checklist.",
+      "plain": "Tame developed illness after learning of a corrected police error recording her alcohol reading as 0.14 instead of nil; no duty was owed in those circumstances. Annetts’ parents, assured their 16-year-old would be supervised, learned over months that he had disappeared and died after being sent alone; a duty was owed.",
+      "concreteExplanation": "Compare the connections. Tame’s extreme reaction to a corrected record was not reasonably foreseeable; the employer’s direct assurances to the Annetts parents made their psychiatric injury materially different from that of strangers.",
+      "keyFacts": [
+        "Tame: actual alcohol reading nil; erroneous 0.14 entry corrected within weeks, but she learned of it over a year later.",
+        "Annetts: 16-year-old jackaroo; supervision assurance; sent alone seven weeks later; parents learned of disappearance and death from dehydration over four months."
+      ],
+      "issue": "When is a duty owed to avoid recognised psychiatric illness?",
+      "reasoning": [
+        "Reasonable foreseeability of a recognised psychiatric illness is the central test for a psychiatric-harm\nduty of care; the \"control mechanisms\" of normal fortitude, sudden shock, and direct perception (or its\nimmediate aftermath) are relevant considerations, not fixed pre-conditions for liability.\n",
+        "A duty to avoid psychiatric harm can exist without sudden shock or direct perception where there is a\npre-existing relationship between plaintiff and defendant, making the class of potential plaintiffs\ndeterminate.\n"
+      ],
+      "outcome": "Tame: no duty. Annetts: duty owed.",
+      "ratio": "Sudden shock, direct perception and normal fortitude were not rigid common-law prerequisites; foreseeable recognised psychiatric illness and the parties’ relationship mattered.",
+      "limits": [
+        "For a NSW problem, apply CLA Part 3, including ss 30 and 32, in addition to the common-law reasoning.",
+        "The combined list entry contains two distinct claims with different outcomes."
+      ],
+      "examUse": "Compare the relationship, assurances and foreseeability; distinguish statutory restrictions.",
+      "pitfalls": [
+        "Assigning Annetts’ result to Tame.",
+        "Treating grief or distress alone as a recognised psychiatric illness.",
+        "Ignoring the separate NSW statutory provisions."
+      ],
+      "sources": [
+        "content-src/laws2400-w06.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Duty of care: categories of harm"
+      ],
+      "weeks": [
+        6
+      ],
+      "teachingRecords": [
+        {
+          "slug": "tame-v-new-south-wales",
+          "name": "Tame v New South Wales",
+          "citation": "(2002) 211 CLR 317",
+          "aglc": "Tame v New South Wales (2002) 211 CLR 317",
+          "facts": "A police officer completing an accident report mistakenly recorded the plaintiff's blood alcohol reading\nas 0.14 (it was in fact nil). Although the error was corrected within weeks, the plaintiff's solicitor told\nher about it over a year later and she developed a psychotic depressive illness.\n",
+          "issue": "Whether the police officer owed the plaintiff a duty of care not to cause her psychiatric injury.\n",
+          "held": "The High Court held (heard together with Annetts) that the officer did not owe Mrs Tame a duty of care,\nbecause it was not reasonably foreseeable that a person in her position would suffer a recognised\npsychiatric illness from an error that had been corrected and apologised for; her reaction was extreme and\nidiosyncratic.\n",
+          "ratio": "Reasonable foreseeability of a recognised psychiatric illness is the central test for a psychiatric-harm\nduty of care; the \"control mechanisms\" of normal fortitude, sudden shock, and direct perception (or its\nimmediate aftermath) are relevant considerations, not fixed pre-conditions for liability.\n",
+          "significance": "Rejects rigid, categorical control mechanisms for psychiatric harm in favour of a single foreseeability\ninquiry; the common law test is now qualified for NSW cases by CLA Part 3 (ss 27–33).\n",
+          "why-here": "The leading common law case for psychiatric harm — used together with Annetts to state and apply the general foreseeability test.",
+          "verify": false,
+          "source": "content-src/laws2400-w06.yaml",
+          "week": 6,
+          "weekTopic": "Duty of care: categories of harm"
+        },
+        {
+          "slug": "annetts-v-australian-stations-pty-ltd",
+          "name": "Annetts v Australian Stations Pty Ltd",
+          "citation": "(2002) 211 CLR 317",
+          "aglc": "Annetts v Australian Stations Pty Ltd (2002) 211 CLR 317",
+          "facts": "The plaintiffs allowed their 16-year-old son to work as a jackaroo only after the employer promised he\nwould be constantly supervised. Seven weeks later the employer sent him alone into a remote property; he\nwent missing, and the parents learned over four months of his disappearance and eventual death from\ndehydration in the desert.\n",
+          "issue": "Whether the employer owed the boy's parents a duty of care to avoid causing them psychiatric injury from\nhis death.\n",
+          "held": "The High Court (heard together with Tame) held that the employer owed the parents a duty of care; it\nrejected sudden shock and direct perception as rigid preconditions, relying instead on the pre-existing\nrelationship between the parties and the employer's assurance of supervision.\n",
+          "ratio": "A duty to avoid psychiatric harm can exist without sudden shock or direct perception where there is a\npre-existing relationship between plaintiff and defendant, making the class of potential plaintiffs\ndeterminate.\n",
+          "significance": "Shows a duty for psychiatric harm can be grounded in a specific relationship and assumption of\nresponsibility, not only in witnessing a shocking event.\n",
+          "why-here": "Used to contrast with Tame — the same foreseeability test, opposite outcome, because of the pre-existing relationship and assurance given here.",
+          "verify": false,
+          "source": "content-src/laws2400-w06.yaml",
+          "week": 6,
+          "weekTopic": "Duty of care: categories of harm"
+        }
+      ]
+    },
+    {
+      "listNumber": 72,
+      "ref": "tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd",
+      "name": "Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd",
+      "citation": "Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454",
+      "oneLine": "Characterise the actual arena risk, not merely the generic risk of falling from a horse.",
+      "plain": "Tapp was injured when her horse fell during campdrafting. Other contestants had fallen and an experienced rider warned organisers, who continued the event. The substantially deteriorated arena surface was central.",
+      "concreteExplanation": "A rider knows horses can fall. That does not mean the rider can see or appreciate a surface deterioration known to organisers.",
+      "keyFacts": [
+        "Four earlier contestant falls and warnings preceded the accident.",
+        "The event continued despite concerns about the arena."
+      ],
+      "issue": "Was there breach and causation, and was s 5L’s obvious-risk defence established?",
+      "reasoning": [
+        "Risk characterisation must capture substantial deterioration beyond normal conditions.",
+        "The participant had less information than the organisers."
+      ],
+      "outcome": "High Court majority allowed Tapp’s appeal.",
+      "ratio": "The relevant substantially increased surface risk was not an obvious risk to the participant in these circumstances.",
+      "limits": [
+        "Not every horse fall defeats s 5L; examine the actual risk and participant’s perspective."
+      ],
+      "examUse": "Use the same properly characterised risk through breach and s 5L.",
+      "pitfalls": [
+        "Calling the risk simply falling from a horse."
+      ],
+      "sources": [
+        "content-src/laws2400-w12.yaml",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2022/HCA/11.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official HCA judgment checked; original flowchart supplied no narrative. The detailed risk holding replaces that gap.",
+      "topics": [
+        "Defences to negligence: contributory negligence and voluntary assumption of risk"
+      ],
+      "weeks": [
+        12
+      ],
+      "teachingRecords": [
+        {
+          "slug": "tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd",
+          "name": "Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd",
+          "citation": "(2022) 273 CLR 454",
+          "aglc": "Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454",
+          "facts": "The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it only as authority for the proposition recorded below.",
+          "issue": "Not stated in the materials; the flowchart cites it for guidance on applying CLA s 5L and like provisions.",
+          "held": "Not stated in the materials.",
+          "ratio": "Not stated in the materials. The flowchart cites it for this proposition: guidance as to the application of legislation (such as CLA s 5L) that expands the voluntary assumption of risk defence.",
+          "significance": "The flowchart's pointer for how courts apply the statutory obvious-risk defence in s 5L.",
+          "why-here": "Name it when applying CLA s 5L; the materials give no more than the citation and that it offers guidance.",
+          "verify": true,
+          "source": "content-src/laws2400-w12.yaml",
+          "week": 12,
+          "weekTopic": "Defences to negligence: contributory negligence and voluntary assumption of risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 73,
+      "ref": "wallace-v-kam",
+      "name": "Wallace v Kam",
+      "citation": "Wallace v Kam (2013) 250 CLR 375",
+      "oneLine": "But-for causation does not make a doctor liable for a different treatment risk the patient would accept.",
+      "plain": "Wallace’s operation caused temporary thigh nerve damage. He would have accepted that risk, but would have refused surgery if warned of a separate paralysis risk. Paralysis did not occur.",
+      "concreteExplanation": "A missing warning may explain why surgery happened, yet responsibility must still match the risk that made disclosure necessary.",
+      "keyFacts": [
+        "Thigh neurapraxia resulted from prolonged surgical positioning.",
+        "The separate paralysis risk did not materialise."
+      ],
+      "issue": "Was liability for the actual harm within s 5D’s appropriate scope?",
+      "reasoning": [
+        "Factual causation and normative scope are distinct.",
+        "Liability did not extend to the risk the patient was willing to accept."
+      ],
+      "outcome": "Appeal dismissed.",
+      "ratio": "Scope of liability did not include harm from the accepted risk merely because warning of another risk would have prevented surgery.",
+      "limits": [
+        "Failure to warn and factual causation were assumed for the scope analysis."
+      ],
+      "examUse": "Apply s 5D(1)(b) and (4) after factual causation.",
+      "pitfalls": [
+        "Treating every post-treatment injury as within the omitted warning’s scope."
+      ],
+      "sources": [
+        "content-src/laws2400-w10.yaml",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/19.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official judgment checked. Original flowchart reference to but-for causation alone was incomplete.",
+      "topics": [
+        "Causation"
+      ],
+      "weeks": [
+        10
+      ],
+      "teachingRecords": [
+        {
+          "slug": "wallace-v-kam",
+          "name": "Wallace v Kam",
+          "citation": "(citation not given in the week 10 materials)",
+          "aglc": "Wallace v Kam",
+          "facts": "The week 10 materials do not give the facts of this case; it appears on the textbook flowchart by name only.",
+          "issue": "Not stated in the week 10 materials.",
+          "held": "Not stated in the week 10 materials.",
+          "ratio": "Not stated in the week 10 materials. The flowchart cites it in its note that the statutory provision is the 'but for' test of causation at common law.",
+          "significance": "Cited on the textbook causation flowchart (p 434) in the note linking the statutory test to the common law 'but for' test.",
+          "why-here": "Cite, with Adeels Palace and Cox v New South Wales, for the statutory test being the common law 'but for' test.",
+          "verify": true,
+          "source": "content-src/laws2400-w10.yaml",
+          "week": 10,
+          "weekTopic": "Causation"
+        }
+      ]
+    },
+    {
+      "listNumber": 74,
+      "ref": "wicks-v-state-rail-authority-nsw",
+      "name": "Wicks v State Rail Authority (NSW); Sheehan v State Rail Authority (NSW)",
+      "citation": "Wicks v State Rail Authority (NSW); Sheehan v State Rail Authority (NSW) (2010) 241 CLR 60",
+      "oneLine": "Rescuers can witness continuing peril after a derailment; the High Court still remitted unresolved liability issues.",
+      "plain": "Wicks and Sheehan spent hours helping victims of the Waterfall derailment and claimed psychiatric injury. Injury or peril could continue while they attended, even though the train had already derailed.",
+      "concreteExplanation": "The scene was not legally over the instant the train stopped. But passing the s 30 restriction does not itself prove a duty, recognised psychiatric illness or causation.",
+      "keyFacts": [
+        "Police officers attended a derailment involving seven deaths and many injuries.",
+        "Rescue work continued for hours."
+      ],
+      "issue": "How do ss 32 and 30 apply to psychiatric injury from witnessing continuing injury or peril?",
+      "reasoning": [
+        "Duty under s 32 must be addressed before the s 30limitation.",
+        "Peril can unfold over time; arrival after impact is not necessarily fatal."
+      ],
+      "outcome": "Appeals allowed and matters remitted; duty, recognised psychiatric injury and causation were unresolved.",
+      "ratio": "Section 30 cannot be confined to watching an instantaneous triggering event.",
+      "limits": [
+        "No final HCA finding of duty or compensable psychiatric injury."
+      ],
+      "examUse": "Separate duty, statutory limitation, recognised illness and causation.",
+      "pitfalls": [
+        "Saying the HCA finally found the railway liable to both officers."
+      ],
+      "sources": [
+        "content-src/laws2400-w06.yaml",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2010/HCA/22.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official judgment [55] expressly states the unresolved issues and remittal. This corrects the overconfident outcome in the original teaching card.",
+      "topics": [
+        "Duty of care: categories of harm"
+      ],
+      "weeks": [
+        6
+      ],
+      "teachingRecords": [
+        {
+          "slug": "wicks-v-state-rail-authority-nsw",
+          "name": "Wicks v State Rail Authority (NSW)",
+          "citation": "(2010) 241 CLR 60",
+          "aglc": "Wicks v State Rail Authority (NSW) (2010) 241 CLR 60",
+          "facts": "Two police officers attended the scene of the Waterfall train derailment, where seven people were killed\nand many injured; State Rail admitted negligence. The officers spent several hours assisting the injured\nand later suffered psychiatric injury.\n",
+          "issue": "Whether the officers had \"witnessed, at the scene, the victim being killed, injured or put in peril\"\nwithin the meaning of CLA s 30(2)(a), and whether s 32 or s 30 should be considered first.\n",
+          "held": "The High Court allowed the appeal, holding that s 32 (which controls whether a duty of care arises) must\nbe considered before the s 30(2) limitation, and that the derailment's consequences unfolded over time —\nthe officers witnessed victims still being injured or in peril while they assisted, satisfying s 30(2)(a).\n",
+          "ratio": "Section 32 CLA governs whether a duty of care exists and must be addressed first; a person can be\n\"witnessing ... a victim being ... put in peril\" for the purposes of s 30(2)(a) even though the triggering\nevent unfolds over an extended period rather than an instant.\n",
+          "significance": "Clarifies the relationship between the CLA's general mental-harm duty provision (s 32) and its specific\nlimitation on recovery for pure mental harm (s 30), and gives \"put in peril\" a broad, ordinary meaning.\n",
+          "why-here": "The leading case applying CLA Part 3 to rescuers and multi-victim disasters, and for the order in which ss 32 and 30 must be applied.",
+          "verify": false,
+          "source": "content-src/laws2400-w06.yaml",
+          "week": 6,
+          "weekTopic": "Duty of care: categories of harm"
+        }
+      ]
+    },
+    {
+      "listNumber": 75,
+      "ref": "woods-v-multi-sport-holdings",
+      "name": "Woods v Multi-Sport Holdings",
+      "citation": "Woods v Multi-Sport Holdings (2002) 208 CLR 460",
+      "oneLine": "The burden of precautions includes practical safety and convenience, not just price.",
+      "plain": "An indoor-cricket player seriously injured an eye. The organiser had not supplied helmets. The majority found no breach, considering the sport, available equipment, rules and the practical effects of headgear.",
+      "concreteExplanation": "A proposed safety item is not automatically a reasonable precaution just because injury is serious. Ask whether suitable equipment exists and what using it would mean for the activity and other safety concerns.",
+      "keyFacts": [
+        "Adult participant suffered serious eye injury.",
+        "No helmets were supplied or required by indoor-cricket rules.",
+        "Teaching record reports two serious eye injuries per year among 12,500 WA players.",
+        "Headgear had not been designed for indoor cricket and presented practical issues."
+      ],
+      "issue": "Whether the organiser breached its duty of care by not supplying protective helmets.",
+      "reasoning": [
+        "Gleeson CJ took the sporting context into account: the plaintiff was an adult and the risk of some injury was likely, though only two serious eye injuries per year were reported out of 12,500 people playing indoor cricket in WA. The \"burden of taking precautions\" limb is not confined to financial cost but extends to practical considerations such as the availability of suitable safety equipment, convenience and safety: headgear had not been designed for indoor cricket, was not worn by players elsewhere, was not required by the rules, and raised its own convenience and safety concerns, so a reasonable provider was not required to supply it."
+      ],
+      "outcome": "The High Court held by majority that the duty was not breached.",
+      "ratio": "Gleeson CJ took the sporting context into account: the plaintiff was an adult and the risk of some injury was likely, though only two serious eye injuries per year were reported out of 12,500 people playing indoor cricket in WA. The \"burden of taking precautions\" limb is not confined to financial cost but extends to practical considerations such as the availability of suitable safety equipment, convenience and safety: headgear had not been designed for indoor cricket, was not worn by players elsewhere, was not required by the rules, and raised its own convenience and safety concerns, so a reasonable provider was not required to supply it.",
+      "limits": [
+        "Industry practice and rules inform but do not conclusively determine reasonable care.",
+        "No breach on these facts is not a rule that sport providers never owe precautions."
+      ],
+      "examUse": "Cite it when the precaution was unavailable, impractical or itself unsafe, rather than merely expensive.",
+      "pitfalls": [
+        "Considering only the purchase cost of helmets.",
+        "Treating a rare serious injury as either automatically negligent or automatically irrelevant."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "woods-v-multi-sport-holdings",
+          "name": "Woods v Multi-Sport Holdings",
+          "citation": "(2002) 208 CLR 460",
+          "aglc": "Woods v Multi-Sport Holdings (2002) 208 CLR 460",
+          "facts": "Woods suffered serious injury to one eye while playing indoor cricket. The defendant organised the game and did not provide any helmets as part of the supplied equipment; it argued there were no specific helmets for indoor cricket and that the rules of the game did not require them.",
+          "issue": "Whether the organiser breached its duty of care by not supplying protective helmets.",
+          "held": "The High Court held by majority that the duty was not breached.",
+          "ratio": "Gleeson CJ took the sporting context into account: the plaintiff was an adult and the risk of some injury was likely, though only two serious eye injuries per year were reported out of 12,500 people playing indoor cricket in WA. The \"burden of taking precautions\" limb is not confined to financial cost but extends to practical considerations such as the availability of suitable safety equipment, convenience and safety: headgear had not been designed for indoor cricket, was not worn by players elsewhere, was not required by the rules, and raised its own convenience and safety concerns, so a reasonable provider was not required to supply it.",
+          "significance": "The authority for s 5B(2)(c): the burden of precautions includes practical considerations, not just cost.",
+          "why-here": "Cite it when the precaution was unavailable, impractical or itself unsafe, rather than merely expensive.",
+          "verify": false,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    },
+    {
+      "listNumber": 76,
+      "ref": "woolcock-street-investments-pty-ltd-v-cdg-pty-ltd",
+      "name": "Woolcock Street Investments Pty Ltd v CDG Pty Ltd",
+      "citation": "Woolcock Street Investments Pty Ltd v CDG Pty Ltd (2004) 216 CLR 515",
+      "oneLine": "A subsequent commercial purchaser failed to establish a duty to avoid defect-related economic loss.",
+      "plain": "Engineers designed foundations for a Townsville warehouse and offices. A later buyer discovered structural distress. Its purchase contract contained no defect warranty or assignment of the vendor’s rights.",
+      "concreteExplanation": "Buying without protection is not itself proof that protection was unavailable. The duty analysis asks whether the buyer was unable to protect itself, not simply whether it chose not to.",
+      "keyFacts": [
+        "Claim concerned economic loss from settling foundations.",
+        "Duty was considered on limited agreed and pleaded facts."
+      ],
+      "issue": "Did the engineers owe this later commercial purchaser a duty?",
+      "reasoning": [
+        "Vulnerability means inability to protect against the consequences of negligence.",
+        "The stated facts did not establish the necessary duty."
+      ],
+      "outcome": "Appeal dismissed.",
+      "ratio": "The asserted duty was not established on the facts and procedural basis presented.",
+      "limits": [
+        "Avoid a categorical rule based only on a commercial/residential label."
+      ],
+      "examUse": "Examine realistic contractual and investigatory protection.",
+      "pitfalls": [
+        "Equating unprotected loss with inability to obtain protection."
+      ],
+      "sources": [
+        "content-src/laws2400-w05.yaml",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2004/HCA/16.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Official judgment [1]–[8],[23]–[36] and orders checked. The original teaching card’s categorical vulnerability formulation is qualified.",
+      "topics": [
+        "Negligence overview and duty of care"
+      ],
+      "weeks": [
+        5
+      ],
+      "teachingRecords": [
+        {
+          "slug": "woolcock-street-investments-pty-ltd-v-cdg-pty-ltd",
+          "name": "Woolcock Street Investments Pty Ltd v CDG Pty Ltd",
+          "citation": "(2004) 216 CLR 515",
+          "aglc": "Woolcock Street Investments Pty Ltd v CDG Pty Ltd (2004) 216 CLR 515",
+          "facts": "Not detailed in the week's materials beyond the proposition it establishes about vulnerability in pure economic loss cases.",
+          "issue": "What additional requirement, beyond reasonable foreseeability, a plaintiff must show to establish a duty of care for pure economic loss.",
+          "held": "The High Court (Gleeson CJ, Gummow, Hayne and Heydon JJ) held that vulnerability of the plaintiff — an inability to protect themselves from the defendant's lack of reasonable care — is an important requirement in cases involving pure economic loss.",
+          "ratio": "A plaintiff claiming a duty of care for pure economic loss must show vulnerability — that they were unable to protect themselves from the defendant's want of reasonable care — in addition to reasonable foreseeability of the loss.",
+          "significance": "Establishes vulnerability as a distinct, necessary requirement for duty of care in pure economic loss cases, later confirmed in ABN AMRO Bank NV v Bathurst Regional Council (2014) 224 FCR 1.",
+          "why-here": "The authority for the vulnerability requirement that must be checked separately from the Hedley Byrne factors in any pure economic loss problem.",
+          "verify": true,
+          "source": "content-src/laws2400-w05.yaml",
+          "week": 5,
+          "weekTopic": "Negligence overview and duty of care"
+        }
+      ]
+    },
+    {
+      "listNumber": 77,
+      "ref": "wyong-shire-council-v-shirt",
+      "name": "Wyong Shire Council v Shirt",
+      "citation": "Wyong Shire Council v Shirt (1980) 146 CLR 40",
+      "oneLine": "Foreseeability and likelihood are different, and even an unlikely risk can call for reasonable precautions.",
+      "plain": "A water-skier struck shallow lakebed and became quadriplegic. A council’s deep-water sign, intended to warn swimmers about deeper channels near a jetty, could misleadingly suggest the skiing area was deep.",
+      "concreteExplanation": "First identify whether the misleading-sign risk was real. Then weigh how likely it was, how serious injury could be and what reasonable response was available; do not merge those steps.",
+      "keyFacts": [
+        "Water at impact was about 3.5–4 feet deep.",
+        "The sign’s purpose was to warn swimmers about channels beside a jetty.",
+        "A jury found breach; the High Court upheld the availability of that conclusion."
+      ],
+      "issue": "Whether the Council breached its duty of care — and what the common law test for breach requires of a risk that is unlikely to occur.",
+      "reasoning": [
+        "The common law test for breach has two limbs: (1) reasonable foreseeability of a real risk of injury arising from the defendant's conduct, and (2) the reasonableness of the defendant's response to that risk. Mason J: \"foreseeability of the risk of injury and the likelihood of that risk occurring are two different things … A risk of injury which is quite unlikely to occur … may nevertheless be plainly foreseeable\"; a risk which is not far-fetched or fanciful is real and therefore foreseeable. A reasonable man might well have concluded that the sign was ambiguous and could induce a water skier to ski in that zone, mistakenly believing it to be deep."
+      ],
+      "outcome": "At first instance a jury found that the Council breached its duty of care. The High Court found the jury's finding on breach was not unreasonable, and upheld the decision.",
+      "ratio": "The common law test for breach has two limbs: (1) reasonable foreseeability of a real risk of injury arising from the defendant's conduct, and (2) the reasonableness of the defendant's response to that risk. Mason J: \"foreseeability of the risk of injury and the likelihood of that risk occurring are two different things … A risk of injury which is quite unlikely to occur … may nevertheless be plainly foreseeable\"; a risk which is not far-fetched or fanciful is real and therefore foreseeable. A reasonable man might well have concluded that the sign was ambiguous and could induce a water skier to ski in that zone, mistakenly believing it to be deep.",
+      "limits": [
+        "The common-law far-fetched-or-fanciful threshold must be distinguished from NSW s 5B’s not-insignificant requirement.",
+        "The case does not say every foreseeable risk requires every precaution."
+      ],
+      "examUse": "Cite it with s 5B for what \"foreseeable\" means, and to keep foreseeability of a risk separate from its likelihood.",
+      "pitfalls": [
+        "Treating foreseeability as proof that precautions were unreasonable.",
+        "Using the eventual injury to reconstruct the risk with hindsight."
+      ],
+      "sources": [
+        "content-src/laws2400-w09.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+      ],
+      "verification": "teaching-source",
+      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "topics": [
+        "Breach of duty: the standard of care and foreseeable risk"
+      ],
+      "weeks": [
+        9
+      ],
+      "teachingRecords": [
+        {
+          "slug": "wyong-shire-council-v-shirt",
+          "name": "Wyong Shire Council v Shirt",
+          "citation": "(1980) 146 CLR 40",
+          "aglc": "Wyong Shire Council v Shirt (1980) 146 CLR 40",
+          "facts": "While water skiing, Shirt struck his head on the bottom of a shallow lake and became quadriplegic; the water was only about 3.5–4 feet deep at that point. He alleged he was misled by a \"deep water\" sign, which the Council had erected to warn swimmers about deeper channels alongside a jetty.",
+          "issue": "Whether the Council breached its duty of care — and what the common law test for breach requires of a risk that is unlikely to occur.",
+          "held": "At first instance a jury found that the Council breached its duty of care. The High Court found the jury's finding on breach was not unreasonable, and upheld the decision.",
+          "ratio": "The common law test for breach has two limbs: (1) reasonable foreseeability of a real risk of injury arising from the defendant's conduct, and (2) the reasonableness of the defendant's response to that risk. Mason J: \"foreseeability of the risk of injury and the likelihood of that risk occurring are two different things … A risk of injury which is quite unlikely to occur … may nevertheless be plainly foreseeable\"; a risk which is not far-fetched or fanciful is real and therefore foreseeable. A reasonable man might well have concluded that the sign was ambiguous and could induce a water skier to ski in that zone, mistakenly believing it to be deep.",
+          "significance": "The common law test for breach. Its first limb corresponds to s 5B(1)(a); its \"not far-fetched or fanciful\" probability threshold was raised by the Civil Liability Act to \"not insignificant\" (s 5B(1)(b)). The flowchart and the slides both say it remains good authority.",
+          "why-here": "Cite it with s 5B for what \"foreseeable\" means, and to keep foreseeability of a risk separate from its likelihood.",
+          "verify": false,
+          "source": "content-src/laws2400-w09.yaml",
+          "week": 9,
+          "weekTopic": "Breach of duty: the standard of care and foreseeable risk"
+        }
+      ]
+    }
+  ]
+}

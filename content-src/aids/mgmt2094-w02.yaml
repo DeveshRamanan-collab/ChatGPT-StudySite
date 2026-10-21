@@ -1,0 +1,566 @@
+unit: mgmt2094
+week: 2
+source: raw/mgmt2094-sci/week-02
+generator: aids-1
+aids:
+  - concept: mgmt2094-w02-creative-problem-solving-steps
+    plain: 'Creative problem solving has three steps: find an interesting problem, come up with many possible solutions, then pick the best one. Great advances usually take several rounds.'
+    concrete: 'The lecture''s examples start at step one: ''Why is the speed of light the same everywhere?'' led to the discovery of relativity by Einstein; ''How to make bus stop shelters viable?'' led to the worldwide success of Decaux. Step two is illustrated by the quota method, always asking at least three ideas from your team and yourself; step three keeps the best and eliminates wrong answers.'
+    formal: 'Slide 2: identify an interesting problem (find problems, identify needs) and divergent thinking (find solutions) form the prospective phase; convergent thinking (find « the » solution, or a good solution) is the analytical phase. Slide 7 draws the steps as a cycle: great advances are usually the result of a long process that is a sum of intuitions and successive progresses.'
+    analogy:
+      text: 'Planning a holiday: first work out what you actually need from the trip, then list many possible destinations, then compare them and book one.'
+      maps:
+        - from: working out what you need from the trip
+          to: 'identifying an interesting problem: find problems, identify needs'
+        - from: listing many possible destinations
+          to: 'divergent thinking: find solutions'
+        - from: comparing costs and risks, then booking one
+          to: 'convergent thinking: find « the » solution, or a good one'
+      limits:
+        - A holiday is finished once booked; the lecture draws the steps as a cycle, with advances coming from successive progresses.
+    terms:
+      - term: prospective phase
+        gloss: The first two steps, identifying an interesting problem and divergent thinking, where problems and solutions are found (slide 2).
+      - term: analytical phase
+        gloss: 'The third step, convergent thinking: evaluation and selection to find « the » solution, or a good solution.'
+      - term: divergent thinking
+        gloss: 'Step two: find solutions, meaning different options and alternate solutions.'
+      - term: convergent thinking
+        gloss: 'Step three: identify benefits and risks, keep the best and eliminate wrong answers; positive and critical thinking (slide 6).'
+    elements:
+      - name: 1 Identify an interesting problem (prospective)
+        test: 'Find problems, identify needs. Asking the right questions is a key characteristic of creative people: listen to the unusual and identify consequences that make the subject essential.'
+        authorities:
+          - mgmt2094-example-einstein-relativity
+          - mgmt2094-example-decaux
+      - name: 2 Divergent thinking (prospective)
+        test: 'Find solutions: different options, alternate solutions. Break the linear-thinking habit of settling for the first idea; the quota method asks for at least three ideas.'
+      - name: 3 Convergent thinking (analytical)
+        test: 'Find « the » solution, or a good solution: identify benefits and risks, keep the best and eliminate wrong answers. Evaluation and selection; positive and critical thinking.'
+    misconceptions:
+      - claim: Problem identification and convergent thinking share a phase, because both narrow down.
+        tempting: Both are drawn as funnels that narrow to a point.
+        correction: Problem identification and divergent thinking form the prospective phase; convergent thinking alone is the analytical phase (slide 2).
+      - claim: Judging ideas while you generate them saves time.
+        tempting: Running two steps at once seems efficient.
+        correction: 'The lecture separates the steps: divergent thinking finds solutions, then convergent thinking finds « the » solution. Brainstorming generates without censorship and analyses afterwards.'
+      - claim: 'The process is a straight line: identify, diverge, converge, done.'
+        tempting: The funnel slide reads from left to right.
+        correction: 'Slide 7 draws the steps as a cycle: great advances are usually the result of a long process that is a sum of intuitions and successive progresses.'
+    socratic:
+      - ask: A council is told to 'improve the town centre'. What must it do before generating ideas?
+        hint: What is the first funnel on slide 2?
+        answer: 'Identify an interesting problem: find problems and identify needs, so that it is asking the right question.'
+      - ask: It now has a clear question. What does the next step ask for?
+        hint: Find … what?
+        answer: 'Divergent thinking: find solutions, meaning different options and alternate solutions, at least three rather than the first that comes to mind.'
+      - ask: With twenty options listed, how does it choose?
+        hint: Benefits, risks, best, wrong.
+        answer: 'Convergent thinking: identify benefits and risks, keep the best and eliminate wrong answers, to find « the » solution or a good one.'
+      - ask: Which phase holds each step?
+        hint: Two steps share a phase.
+        answer: Problem identification and divergent thinking are the prospective phase; convergent thinking is the analytical phase.
+      - ask: Is the council finished once it picks a solution?
+        hint: The shape of slide 7's diagram.
+        answer: 'Not necessarily: the steps form a cycle. Great advances are usually a long process, a sum of intuitions and successive progresses.'
+    what-if:
+      - change: A founder hears one customer complaint and builds the first fix that comes to mind.
+        effect: She skips divergent thinking, so convergent thinking has nothing to choose among. Building the first idea is the linear-thinking habit the quota method targets.
+      - change: A manager crosses out expensive ideas as soon as they are said in a brainstorm.
+        effect: 'Selection moves into the divergent step. The lecture keeps them apart: generate without censorship, then analyse and prioritise ideas afterwards.'
+    boundary:
+      - text: 'A café owner sees customers leave once the queue passes ten, and writes: ''How might we make waiting feel shorter?'''
+        why: 'Still step one: she has identified a need and framed a question. No solutions exist yet, so it is not divergent thinking.'
+      - text: A marketing team scoring twenty campaign concepts on cost, risk and fit with the brand.
+        why: 'Step three, convergent thinking: identifying benefits and risks and keeping the best. Producing the twenty concepts was the divergent step.'
+    transfer:
+      - scenario: A university wants fewer students to drop out in their first year and asks a staff team for a plan.
+        answer: 'Step one: identify an interesting problem, finding why students leave and framing the right question. Step two: think divergently, asking for at least three different options. Step three: converge, weighing benefits and risks, keeping the best and eliminating wrong answers. Expect to cycle back: advances come from successive progresses.'
+    objections:
+      - position: Creative problem solving starts with the problem, not with ideas.
+        evidence: Slide 2 puts identifying an interesting problem first; Einstein would spend 59 minutes of an hour defining the problem; each of the lecture's important questions came before its breakthrough.
+        objection: 'Slide 7 draws the steps as a cycle, so solutions can feed new problems: a long process of intuitions and successive progresses has no single starting point.'
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 2–7)
+  - concept: mgmt2094-w02-problem-identification
+    plain: The first creative step is finding the right problem or need to work on. Creative people stand out for asking the right questions, not just for giving answers.
+    concrete: 'Decaux is the lecture''s business example of an important question: ''How to make bus stop shelters viable?'' led to the worldwide success of Decaux. The same slide gives two more: ''Why is the speed of light the same everywhere?'' led to the discovery of relativity by Einstein, and ''How to use colours differently?'' was one of the essential questions that led to impressionism. In each, the question came first.'
+    formal: 'Slide 3: identifying meaningful problems, asking the right questions is a key characteristic of creative people. ''If I had one hour to save the world, I would spend 59 minutes defining the problem and one minute solving it'' (Albert Einstein). ''Computers are useless. They can only give answers'' (Pablo Picasso). Slide 4''s related qualities: listen to the unusual; identify consequences that make the subject essential.'
+    analogy:
+      text: A good doctor spends most of the appointment working out what is wrong before writing any prescription.
+      maps:
+        - from: the diagnosis
+          to: identifying the problem or need
+        - from: the prescription
+          to: the solution, found in later steps
+        - from: most of the appointment spent diagnosing
+          to: Einstein's 59 minutes defining the problem
+      limits:
+        - A diagnosis looks for an illness that already exists; problem identification can also find a need no-one has raised, as with Decaux's bus shelters.
+    terms:
+      - term: interesting problem
+        gloss: A problem or need worth solving, framed as the right question; finding it is step one (find problems, identify needs).
+      - term: listen to the unusual
+        gloss: 'A related quality of problem finders on slide 4: attend to what does not fit the usual pattern.'
+      - term: identify consequences that make the subject essential
+        gloss: 'The second quality on slide 4: trace what follows from an issue to show why it matters enough to work on.'
+    misconceptions:
+      - claim: Creative people are the ones who produce answers fastest.
+        tempting: A quick stream of ideas looks creative.
+        correction: 'Slide 3: asking the right questions is the key characteristic of creative people. Picasso: computers ''can only give answers''.'
+      - claim: Problem identification and divergent thinking are the same thing, since both open up possibilities.
+        tempting: Both sit in the prospective phase.
+        correction: 'They are separate steps with separate tasks: the first finds problems and identifies needs; divergent thinking finds solutions (slide 2).'
+      - claim: Problem-finding ability can be screened with IQ tests.
+        tempting: IQ tests appear on the same slides.
+        correction: 'Slide 8: there is no standard test for the ability to formulate interesting problems. IQ tests sit under convergent thinking.'
+    socratic:
+      - ask: A bank tells its innovation team to 'make the app better'. Is that a problem yet?
+        hint: Is there a found problem or an identified need?
+        answer: 'Not yet: it is a brief. Step one is to find the problem or identify the need, as the right question, before any solutions.'
+      - ask: How would Einstein divide an hour on it?
+        hint: Slide 3's quotation.
+        answer: 59 minutes defining the problem and one minute solving it.
+      - ask: Which qualities help the team find the problem?
+        hint: Slide 4 lists two.
+        answer: Listen to the unusual, and identify consequences that make the subject essential.
+      - ask: What do relativity, impressionism and Decaux's success have in common?
+        hint: What came first in each?
+        answer: Each began with an important question, about light, colour or bus stop shelters, that led to the breakthrough.
+    what-if:
+      - change: The bank's team skips the question and runs a fifty-idea brainstorm on 'a better app'.
+        effect: It would be generating solutions (divergent thinking) before any problem has been identified, so it may solve the wrong thing. Slide 2 puts finding problems and identifying needs first.
+    boundary:
+      - text: A product manager keeps a log of odd customer requests that 'don't fit any category' and reviews it monthly.
+        why: 'Inside: listening to the unusual, a quality of problem finding. She has not begun generating solutions.'
+      - text: An engineer sees that ignoring a small sensor fault could force a product-line recall, so she makes it the team's top question.
+        why: 'Inside: identifying consequences that make the subject essential. It is not convergent thinking, because she uses consequences to choose the problem, not to weigh solutions.'
+    transfer:
+      - scenario: A city library's visitor numbers have fallen, and its board asks staff to propose 'new programmes'.
+        answer: 'Start at step one: find the problem or need behind the falling numbers and frame it as a question before proposing programmes. Listen to the unusual and identify consequences that make the issue essential. In Einstein''s terms, spend most of the hour defining the problem before solving it.'
+    objections:
+      - position: Finding the right problem is as creative as solving it.
+        evidence: 'Slide 3: asking the right questions is a key characteristic of creative people. The lecture''s three important questions led to relativity, impressionism and Decaux''s worldwide success.'
+        objection: 'It is the hardest step to check: slide 8 says there is no standard test for the ability to formulate interesting problems.'
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 2–4, 8)
+  - concept: mgmt2094-w02-divergent-thinking
+    plain: 'Divergent thinking means coming up with several different solutions instead of grabbing the first one. The quota method says: always get at least three ideas before deciding.'
+    concrete: 'The quota method, the lecture''s example. Always ask at least three ideas from your team (& yourself!): different options, alternate solutions, or refuse to decide. The slide''s claim: when at least three good ideas have been found, many more are generally found. The method exists to break the ''linear thinking'' propensity to settle for the first idea.'
+    formal: 'Slide 5: divergent thinking is the second step, in the prospective phase: find solutions. The quota method: always ask at least three ideas from your team (& yourself!), meaning different options and alternate solutions, or refuse to decide. It breaks the ''linear thinking'' propensity to settle for the first idea, and logical reasoning that locks you in the first solution. Divergent thinking tests produce mixed results (slide 8).'
+    analogy:
+      text: Fishing with a wide net, then sorting the catch on deck, instead of keeping whatever bites the first hook.
+      maps:
+        - from: casting a wide net
+          to: generating several options
+        - from: keeping whatever bites first
+          to: 'linear thinking: settling for the first idea'
+        - from: sorting the catch afterwards
+          to: convergent thinking, the next step
+      limits:
+        - A net only catches fish already in the water; divergent thinking creates options that did not exist before.
+    terms:
+      - term: quota method
+        gloss: Always ask at least three ideas from your team and yourself (different options, alternate solutions), or refuse to decide (slide 5).
+      - term: linear thinking
+        gloss: The propensity to settle for the first idea, and logical reasoning that locks you in the first solution (slide 5).
+      - term: refuse to decide
+        gloss: 'The quota slide''s alternative to settling: if you do not yet have alternative solutions, do not decide.'
+    misconceptions:
+      - claim: Once you have three ideas, stop and pick one.
+        tempting: Three sounds like a complete set.
+        correction: 'The slide says the opposite: when at least three good ideas have been found, many more are generally found. Three is a floor, not a ceiling.'
+      - claim: If the first idea is logical, adopt it.
+        tempting: Logical reasoning feels safe.
+        correction: Logical reasoning that locks you in the first solution is one of the two linear-thinking habits the quota method is meant to break (slide 5).
+      - claim: Brainstorming and divergent thinking are the same thing.
+        tempting: Both aim at many ideas.
+        correction: Divergent thinking is a step in the process; brainstorming is a named idea-gathering technique (Osborne, BBDO) that puts it into a meeting.
+    socratic:
+      - ask: 'A team lead says: ''Option A is cheap, so logically we should do it.'' No other option is discussed. What is happening?'
+        hint: Slide 5's two linear-thinking habits.
+        answer: 'Linear thinking: settling for the first idea, with logical reasoning locking the team into the first solution.'
+      - ask: What does the quota method demand instead?
+        hint: A number, and whom to ask.
+        answer: 'At least three ideas, from the team and from yourself: different options, alternate solutions.'
+      - ask: What if three good options do not appear?
+        hint: The slide's '>>' line.
+        answer: Refuse to decide, rather than settle for the first idea.
+      - ask: Why push for three when one seems fine?
+        hint: What happens after three good ideas?
+        answer: When at least three good ideas have been found, many more are generally found.
+    what-if:
+      - change: The CEO wants a go/no-go decision on the team's only prototype this afternoon.
+        effect: Deciding on the only option is settling for the first idea. The quota method says to ask for alternatives first, at least three, or refuse to decide.
+      - change: An agency finds that nine of its last ten campaigns used the first concept pitched internally.
+        effect: 'The pattern shows too few options rather than poor selection: a divergent-thinking failure. The fix is the quota method, at least three concepts per pitch, before any scoring.'
+    boundary:
+      - text: A brainstorm that produces forty ideas without criticism, then sorts them.
+        why: The generating is divergent thinking put into a meeting; the analysing and prioritising that follows is convergent thinking.
+      - text: A team that lists three options and then scores each on benefits and risks.
+        why: The listing meets the quota (divergent); the scoring is convergent. With alternatives on the table, selection can begin.
+    transfer:
+      - scenario: A student has one essay topic in mind and plans to start writing tonight.
+        answer: 'Apply the quota method to yourself: before committing, write down at least three topic options (different angles, alternate questions) or refuse to decide. Settling for the first idea is the linear thinking slide 5 warns against, and past three good ideas, many more generally follow.'
+    objections:
+      - position: Teams should always produce at least three options before deciding.
+        evidence: 'Slide 5: when at least three good ideas have been found, many more are generally found, and the quota breaks the habit of settling for the first idea.'
+        objection: 'The benefit is hard to show: slide 8 says divergent thinking tests produce mixed results, and refusing to decide can delay action.'
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 2, 5, 8, 10)
+  - concept: mgmt2094-w02-measuring-creativity
+    plain: No single standard test can measure a person's creativity, because creativity is a process, often happens in groups, and depends on knowing the field.
+    concrete: 'The lecture''s own ''tests of creativity''. An ambiguous drawing can be seen as a duck or a rabbit: how easy was it to see both? Did it require real mental strain? The ease to flip between the two is related to creativity (Wiseman et al. 2011). Then: think about a door. How many uses can you write down in one minute?'
+    formal: 'Slide 8: why can''t we create a standardised test measuring individual creativity? Creativity is a process; creativity is often a group phenomenon; creativity implies domain knowledge. Under each step: identify an interesting problem, no standard test; divergent thinking, tests produce mixed results; convergent thinking, IQ tests and emotional intelligence. IQ tests measure deductive capacity: deduce the consequences (slide 6).'
+    terms:
+      - term: creativity is a process
+        gloss: 'First reason a single test fails: creativity runs through three steps, not one ability (slide 8).'
+      - term: group phenomenon
+        gloss: 'Second reason: creativity is often produced by groups, so an individual score misses it.'
+      - term: domain knowledge
+        gloss: 'Third reason: creativity implies knowing the field in which you are being creative.'
+      - term: deductive capacity
+        gloss: 'What IQ tests measure: the ability to deduce the consequences. The lecture places it under convergent thinking.'
+    elements:
+      - name: 'Identify an interesting problem: no standard test'
+        test: There is no standard test for the ability to formulate interesting problems, though asking the right questions is a key characteristic of creative people.
+      - name: 'Divergent thinking: divergent thinking tests'
+        test: Divergent thinking tests exist, but they produce mixed results.
+      - name: 'Convergent thinking: IQ tests and emotional intelligence'
+        test: IQ tests measure deductive capacity (deduce the consequences). Convergent thinking identifies benefits and risks, keeps the best and eliminates wrong answers.
+    misconceptions:
+      - claim: IQ tests measure creativity.
+        tempting: IQ is the best-known single score of thinking ability.
+        correction: 'Slide 8 places IQ tests under convergent thinking only: they measure deductive capacity, not problem formulation or divergent thinking.'
+      - claim: No test of any kind exists for divergent thinking.
+        tempting: The lecture is sceptical about testing creativity.
+        correction: Divergent thinking tests exist but produce mixed results. 'No standard test' is said of the ability to formulate interesting problems.
+      - claim: Creativity is a personal trait, so testing individuals alone captures it.
+        tempting: Tests are usually sat by one person at a time.
+        correction: 'Slide 8: creativity is often a group phenomenon and implies domain knowledge, so an individual score misses much of it.'
+    socratic:
+      - ask: A recruiter wants to use an IQ test to hire 'the most creative' graduates. What do IQ tests measure?
+        hint: 'Slide 6: deductive …'
+        answer: 'Deductive capacity: deducing the consequences. The lecture places it under convergent thinking.'
+      - ask: Which steps does that leave unmeasured?
+        hint: There are three steps.
+        answer: Identifying an interesting problem, which has no standard test, and divergent thinking, whose tests produce mixed results.
+      - ask: Would hiring a team of high scorers guarantee a creative team?
+        hint: Two more of slide 8's reasons.
+        answer: 'No: creativity is often a group phenomenon and implies domain knowledge, and neither shows up in an individual test score.'
+      - ask: So why can't one standardised test measure individual creativity?
+        hint: Process, group, knowledge.
+        answer: Creativity is a process, is often a group phenomenon, and implies domain knowledge (slide 8).
+    what-if:
+      - change: A school replaces its creativity award with students' scores on a divergent thinking test.
+        effect: The lecture says such tests produce mixed results, and they reach only one of the three steps; problem formulation has no standard test at all.
+    boundary:
+      - text: The duck–rabbit drawing.
+        why: 'An exercise, not a standard measure: the slide says the ease of flipping between the two images is related to creativity (Wiseman et al. 2011).'
+      - text: Emotional intelligence.
+        why: Slide 8 lists it with IQ tests under convergent thinking, not as a measure of problem finding or divergent thinking.
+    transfer:
+      - scenario: An HR director wants a single 'creativity score' to decide promotions in a product team.
+        answer: 'The lecture argues against one score: creativity is a process, often a group phenomenon, and implies domain knowledge. Problem formulation has no standard test, divergent thinking tests give mixed results, and IQ tests reach only convergent thinking. Any assessment would have to look at the steps separately, in context, and at team level.'
+    objections:
+      - position: Organisations cannot measure individual creativity with one standardised test.
+        evidence: 'Slide 8''s three reasons, plus the gaps under each step: no standard test, mixed results, and IQ tests only for convergent thinking.'
+        objection: 'The lecture itself offers creativity tests: the ease of flipping in the duck–rabbit drawing is related to creativity (Wiseman et al. 2011), and it asks for uses of a door in one minute.'
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 6, 8, 20–21)
+  - concept: mgmt2094-w02-creativity-technique-families
+    plain: 'Creativity techniques fall into four families: rational ones that stay logical, games, ways of gathering ideas, and non-rational ones that move away from the problem.'
+    concrete: 'Synectics (William Gordon), a non-rational analog technique: ''making the familiar strange, making the strange familiar''. It shifts the problem with analogies and explores them: direct (natural, such as an animal or plant, or graphic), symbolic (parable, metaphor) and fantasy (dream, daydream), plus personal identification with the situation. By contrast, TRIZ (Genrich Altshuller) stays rational: identify contradictions, then apply universal laws of invention.'
+    formal: 'Slide 9 sorts techniques into four families. Rational, « serious creativity »: TRIZ (Altshuller); lateral thinking, 6 hats (de Bono); mindmaps (Buzan). Gaming: frame games (Thagi), improvisation, innovation games (Hohmann), constructions (LEGOs, blocs). Idea gathering: brainstorming, brainwriting, method 635, CPS; idea boxes, intranets, participatory innovation; crowdsourcing. Irrational: detour approaches, Synectics (analogical reasoning), random approaches.'
+    terms:
+      - term: TRIZ
+        gloss: 'Altshuller''s rational technique: universal laws of technological invention, each solving a contradiction between physical quantities. Identify contradictions, then apply the laws.'
+      - term: lateral thinking
+        gloss: 'De Bono''s approach: escape linear thinking, for example by introducing a random component in reasoning, while remaining rational.'
+      - term: Synectics
+        gloss: Gordon's analog technique, 'making the familiar strange, making the strange familiar', using direct, symbolic and fantasy analogies and personal identification.
+      - term: detour technique
+        gloss: 'Distance yourself from the problem (distanciation phase), then return to it to converge (ideation phase: ''To make it work, it would have to …'').'
+    elements:
+      - name: 'Rational: « serious creativity »'
+        test: Stays logical. TRIZ identifies contradictions and applies laws of invention; lateral thinking escapes linear thinking, eg with a random component; the six hats materialise the most common reasoning attitudes.
+        authorities:
+          - mgmt2094-example-altshuller-triz
+          - mgmt2094-example-edward-de-bono
+          - mgmt2094-buzan-mind-map-guidelines
+      - name: Gaming
+        test: Frame games (Thagi), improvisation, innovation games and constructions (LEGOs, blocs). Innovation games are fun activities that collect, organise and prioritise ideas.
+        authorities:
+          - mgmt2094-example-hohmann-innovation-games
+      - name: Idea gathering
+        test: Brainstorming, brainwriting, method 635, CPS; idea boxes, idea intranets and participatory innovation; crowdsourcing.
+        authorities:
+          - mgmt2094-example-osborne-bbdo-brainstorming
+          - mgmt2094-example-tokugawa-idea-box
+          - mgmt2094-example-idea-crowdsourcing
+      - name: Irrational («non rational»)
+        test: 'Moves away from the problem: analog techniques (Synectics) shift it with analogies; detour techniques distance you from it, then return to converge; random approaches.'
+        authorities:
+          - mgmt2094-example-gordon-synectics
+    misconceptions:
+      - claim: Lateral thinking is a non-rational technique, since it breaks with logic.
+        tempting: It escapes linear thinking with a random component.
+        correction: Slide 9 keeps lateral thinking and the 6 hats in the rational family; slide 13 says it overcomes 'linear, logic thinking' while remaining rational.
+      - claim: Synectics is a rational, « serious creativity » method.
+        tempting: It is a structured, named method with its own typology.
+        correction: 'The slides place Synectics among « non rational » techniques: analog techniques shift the problem with analogies and explore them.'
+      - claim: In a detour technique you first turn ideas positive, then distort the problem.
+        tempting: Both phases appear side by side on the slide.
+        correction: 'The distanciation phase comes first (distort and transform the problem into an evocation); the ideation phase follows (push fuzzy ideas until useful: ''To make it work, it would have to …'').'
+    socratic:
+      - ask: A designer studies how a gecko clings to walls in order to design a new adhesive hook. What is she doing?
+        hint: She shifts the problem onto something else and explores it.
+        answer: 'Using a direct, natural analogy: Synectics, an analog technique.'
+      - ask: Which family does Synectics belong to?
+        hint: Does it stay inside the problem logically?
+        answer: 'The irrational (« non rational ») family: it moves away from the problem through analogy.'
+      - ask: How would TRIZ attack the same problem?
+        hint: Contradictions and laws.
+        answer: Identify the contradiction between physical quantities, then apply universal laws of technological invention, which provide avenues to explore.
+      - ask: Name the four families.
+        hint: Logic, play, collection, detour.
+        answer: Rational (« serious creativity »), gaming, idea gathering and irrational.
+    what-if:
+      - change: A marketing team needs a product roadmap and growth drivers rather than names and slogans.
+        effect: Slide 13 points to innovation games (Hohmann), whose listed usage is product roadmap and identifying growth drivers. Brainstorming's listed usage is product ideas, solutions to a problem, names and slogans.
+    boundary:
+      - text: Mind maps.
+        why: Rational family (Buzan), not idea gathering, even though slide 11 says mind maps can gather ideas (brainstorming) as well as summarise knowledge and organise tasks.
+      - text: Innovation games.
+        why: 'Gaming family, yet slide 13 calls them fun activities rather than games: they aim to collect, organise and prioritise ideas.'
+    transfer:
+      - scenario: 'A courier firm wants fresh ways to cut failed deliveries. One staff member suggests: ''Imagine I am the parcel: what would I feel at each step?'''
+        answer: That is Synectics' personal approach, personal identification with the situation, a non-rational analog technique. It deliberately moves away from the familiar problem to stimulate imagination; the team still needs convergent thinking afterwards to keep the best ideas and eliminate the wrong ones.
+    objections:
+      - position: Serious business problems need rational techniques; the non-rational ones are just games.
+        evidence: 'Rational « serious creativity » methods such as TRIZ stay logical: identify contradictions, then apply laws that provide avenues to explore.'
+        objection: 'The slides credit distance with value: in detour techniques ''the distance stimulates imagination. Idea production follows.'' And innovation games are one of the lecture''s four methods for marketing & sales.'
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 9, 11–13)
+  - concept: mgmt2094-w02-idea-gathering-techniques
+    plain: Idea gathering collects many ideas from many people, either in a meeting (brainstorming) or through standing systems such as idea boxes, intranets and crowdsourcing. Ideas are sorted afterwards.
+    concrete: 'Participatory innovation''s history on the slide: in 1721 Shôgun Tokugawa Yoshimune rewarded the best ideas deposited in an ''idea box'' (meyasu bako). In the seventies Japanese companies developed quality circles and Kaizen; in the 2000s came idea management software; in the 2010s companies sought new ideas outside with idea crowdsourcing: Crossing, YourEncore, CrowdSpirit, InnoCentive.'
+    formal: 'Slide 10. Brainstorming, brainwriting methods (Alex Osborne, president and co-founder of BBDO): in order to answer a question, generate in a meeting as many ideas as possible in a short time without exercising censorship on the participants; analyse and prioritise ideas afterwards. Participatory innovation (idea boxes, idea intranets): open procedures for the collection, analysis and application of ideas.'
+    terms:
+      - term: brainstorming
+        gloss: Generate in a meeting as many ideas as possible in a short time, without censorship, then analyse and prioritise them (Osborne, BBDO).
+      - term: participatory innovation
+        gloss: Open procedures for the collection, analysis and application of ideas (2000s), growing out of idea boxes and idea intranets.
+      - term: meyasu bako
+        gloss: 'The ''idea box'' of 1721: Shôgun Tokugawa Yoshimune rewarded the best ideas deposited in it.'
+      - term: idea crowdsourcing
+        gloss: '2010s: companies seeking new ideas outside the organisation, through platforms such as Crossing, YourEncore, CrowdSpirit and InnoCentive.'
+    elements:
+      - name: Start from a question
+        test: Brainstorming is done 'in order to answer a question'.
+        authorities:
+          - mgmt2094-example-osborne-bbdo-brainstorming
+      - name: Quantity, fast
+        test: Generate in a meeting as many ideas as possible in a short time.
+      - name: No censorship
+        test: 'Without exercising censorship on the participants: nobody judges or blocks ideas as they arise.'
+      - name: Analyse and sort afterwards
+        test: 'Analyse and prioritise ideas afterwards: a ''collection of ideas to produce a maximum of ideas which are then analysed and sorted'' (slide 13).'
+    misconceptions:
+      - claim: '''No censorship'' means participants can criticise each other''s ideas freely.'
+        tempting: '''No censorship'' sounds like free speech.'
+        correction: 'Criticising ideas as they arise is itself censorship. The rule defers judgement: analyse and prioritise ideas afterwards.'
+      - claim: An organisation with an idea box already has participatory innovation.
+        tempting: The box collects ideas from everyone.
+        correction: The slide defines participatory innovation as open procedures for the collection, analysis and application of ideas. Collecting alone is not enough.
+      - claim: Crowdsourcing means gathering ideas from all of your own staff.
+        tempting: Staff and crowds are both 'many people'.
+        correction: Crowdsourcing (2010s) seeks new ideas outside the company; idea boxes, intranets and idea management software collect them inside.
+    socratic:
+      - ask: A council's online idea box receives hundreds of ideas but acts on none. What is it doing well?
+        hint: The first word in 'collection, analysis and application'.
+        answer: 'Collecting: it gathers a large number of ideas.'
+      - ask: What does the 2000s definition of participatory innovation add?
+        hint: Two more words after collection.
+        answer: 'Analysis and application: participatory innovation is open procedures for the collection, analysis and application of ideas.'
+      - ask: If the council wanted ideas quickly from a room of people, which strand fits?
+        hint: A meeting technique.
+        answer: 'Brainstorming: as many ideas as possible in a short time, without censorship, then analyse and prioritise them afterwards.'
+      - ask: And if a software firm wanted solutions to a hard technical problem from people outside the company?
+        hint: The 2010s step.
+        answer: 'Idea crowdsourcing: seeking new ideas outside, through platforms such as Crossing, YourEncore, CrowdSpirit and InnoCentive.'
+    what-if:
+      - change: In a brainstorm, the manager vetoes every weak idea as soon as it is said.
+        effect: It breaks the rule of no censorship on participants, so people offer fewer ideas. Judgement belongs afterwards, when ideas are analysed and prioritised.
+      - change: Hospital staff on every shift must be able to submit ideas at any time, with the best rewarded.
+        effect: A single brainstorm meeting cannot reach them; a standing participatory system, an idea box or idea intranet with rewards for the best ideas, fits better.
+    boundary:
+      - text: Quality circles and Kaizen in the seventies.
+        why: Part of participatory innovation's history, but inside Japanese companies. They are not crowdsourcing, which seeks ideas outside.
+      - text: TRIZ applied to a technical contradiction.
+        why: 'Not idea gathering: TRIZ is a rational technique for resolving contradictions with laws of invention, not a channel for collecting ideas from people.'
+    transfer:
+      - scenario: A retailer with 2,000 staff wants a steady flow of improvement ideas from its shop floors, not just from head office.
+        answer: 'Idea gathering through participatory innovation: an idea box or idea intranet open to all staff, rewarding the best ideas (as in 1721), backed by open procedures to analyse and apply them. Brainstorms can answer specific questions; crowdsourcing could add ideas from outside.'
+    objections:
+      - position: An organisation with an idea box already has an innovation system.
+        evidence: Idea boxes have gathered ideas since 1721, when the best ideas deposited in the meyasu bako were rewarded.
+        objection: The slide defines participatory innovation as open procedures for the collection, analysis and application of ideas; a box on its own only collects.
+    storyboard:
+      - caption: '1721: the meyasu bako'
+        detail: Shôgun Tokugawa Yoshimune rewards the best ideas deposited in an 'idea box'.
+      - caption: 'Seventies: quality circles and Kaizen'
+        detail: Japanese companies develop quality circles and « Kaizen ».
+      - caption: '2000s: idea management software'
+        detail: 'Participatory innovation: open procedures for the collection, analysis and application of ideas.'
+      - caption: '2010s: idea crowdsourcing'
+        detail: Companies seek new ideas outside the organisation, through Crossing, YourEncore, CrowdSpirit and InnoCentive.
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 9–10, 13)
+  - concept: mgmt2094-w02-mind-maps
+    plain: A mind map puts one idea in the centre of a page and branches related ideas out from it, using key words, images and colour, because we think by association.
+    concrete: 'The tutorial''s windows exercise. Asked how many windows are in your home, you most likely formed a mental picture of your home and navigated it, from outside or inside, adding windows along the way until you returned to where you started, without a calculator. You were creating associations to solve a problem: the exercise shows that we think in radial associations.'
+    formal: A mind map is a way to visually organise notes, thoughts, ideas and conversations, created around a single word or text in the centre, to which associated ideas, words and concepts are added. Tony Buzan, a British psychologist, takes the credit for inventing modern mind mapping, though different forms were used over many centuries. In business mind maps are most frequently used collaboratively.
+    terms:
+      - term: radial associations
+        gloss: 'How the tutorial says we think: outward from a starting point, linking things together, rather than adding them up in a linear list.'
+        example: Counting the windows in your home.
+      - term: central image
+        gloss: The picture for the central idea; Buzan says it is more interesting, keeps you focused and helps you concentrate.
+      - term: mental map
+        gloss: 'Slide 13''s name for representing information (ideas or facts) as a diagram; usage: synthesis of information, collaborative brainstorming.'
+    elements:
+      - name: 1 Start in the centre
+        test: 'Start in the centre of a blank page turned landscape: it gives your brain freedom to spread out in all directions.'
+        authorities:
+          - mgmt2094-buzan-mind-map-guidelines
+      - name: 2 Central image
+        test: 'Use an image or picture for your central idea: an image is worth a 1000 words and helps you use your imagination.'
+      - name: 3 Colours
+        test: 'Use colours throughout, three at minimum: colours are as exciting to your brain as images.'
+      - name: 4 Connect the branches
+        test: 'Connect main branches to the central image, and second and third levels to the levels before: your brain works by associations.'
+        authorities:
+          - mgmt2094-buzan-mind-map-guidelines
+      - name: 5 Curved branches
+        test: 'Make branches curved rather than straight: straight lines are boring to your brain.'
+      - name: 6 One key word per line
+        test: A single key word per line gives the map more power and flexibility; use upper and lower case.
+      - name: 7 Images throughout
+        test: Each image gives another 1000 words; each word or image is best alone, sitting on its own line.
+      - name: 8 Thick to thin
+        test: 'Lines connect from the central image: thicker and organic at the centre, thinner as they radiate out.'
+      - name: 9 Line length
+        test: Make each line the same length as the word or image it supports.
+      - name: 10 Personal style
+        test: Develop your own personal style of mind mapping.
+    misconceptions:
+      - claim: Tony Buzan drew the first mind map.
+        tempting: He takes the credit for inventing modern mind mapping.
+        correction: Different forms of mind mapping were used over many centuries; Buzan popularised it and offered theories about why it works so well.
+      - claim: Full sentences on each branch make a better map, since nothing is lost.
+        tempting: Sentences seem more complete than single words.
+        correction: 'Buzan''s guidelines: one key word per line, in upper and lower case, because a single word gives the map more power and flexibility.'
+      - claim: Mind maps are a solo note-taking tool.
+        tempting: Note taking is usually personal.
+        correction: 'The lecture: in business, mind maps are most frequently used collaboratively, though you can also use them on your own.'
+    socratic:
+      - ask: How many windows are in your home, and how did you work it out?
+        hint: Did you use a calculator, or picture something?
+        answer: You most likely pictured your home and navigated it, adding windows until you returned to where you started.
+      - ask: What does that show about how we think?
+        hint: A list, or a map?
+        answer: 'We think in radial associations: we create associations to solve a problem rather than adding items in a linear list.'
+      - ask: So how should a mind map be laid out?
+        hint: Where does it start, and how do branches join?
+        answer: Start in the centre of a landscape page with an image, and connect each level of branches to the one before, because the brain works by associations.
+      - ask: You are critiquing a busy map with 22 main branches and a huge centre drawing. What would you ask?
+        hint: The tutorial's critique questions.
+        answer: Are there too many branches; is it distracting? Is the focus on the images and not the words? Does the centre image take too much attention?
+    what-if:
+      - change: A student's map has a paragraph in the centre, straight black lines and a full sentence on every branch.
+        effect: 'It breaks several guidelines: a central image, colours (three at minimum), curved branches and one key word per line. As drawn, it drifts back towards linear note taking.'
+    boundary:
+      - text: A numbered list of rooms, each with its window count, adding up to a total.
+        why: 'Not a mind map: the tutorial uses this list to show how we do not think. Mind maps are radial and built by association.'
+      - text: A map so crowded with pictures that the words are hard to find.
+        why: Still a mind map, but the tutorial critique asks whether the focus is on the images and not the words; each word or image should sit alone on its own line.
+    transfer:
+      - scenario: A marketing team must make sense of 40 pages of customer feedback before a planning meeting.
+        answer: 'Mind map it together: put the product or question at the centre as an image, branch the main themes out with one key word per line and at least three colours, and connect sub-points to their themes. Slide 13 lists synthesis of information and collaborative brainstorming as mind maps'' marketing uses.'
+    objections:
+      - position: Mind maps are serious business tools, not just pretty pictures.
+        evidence: 'The lecture: they document conversations, support note taking and brainstorming, and help tweeze out a strategy or a complicated situation; in business they are mostly used collaboratively.'
+        objection: 'The tutorial critique shows how they can fail: too many branches, distracting images that pull focus from the words, a centre image that takes too much attention.'
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 9, 11, 13–15)
+      - Marketing - Week 02 - Tutorial Materials - Mind Mapping (slides 2–3, 5–6, 9–11)
+      - Marketing - Week 02 - Reading - Handout on Mind Map Guidelines
+flows:
+  - slug: creative-problem-solving
+    title: Where am I in creative problem solving, and what comes next?
+    summary: Walks a problem through the three steps (identify, diverge, converge), using the quota method to decide whether you are ready to choose.
+    start: n1
+    concepts:
+      - mgmt2094-w02-creative-problem-solving-steps
+      - mgmt2094-w02-problem-identification
+      - mgmt2094-w02-divergent-thinking
+    sources:
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slides 2–7, 10)
+    nodes:
+      - id: n1
+        kind: ask
+        text: 'Have you identified an interesting problem: a found problem or an identified need, framed as a question?'
+        note: Identifying meaningful problems, asking the right questions, is a key characteristic of creative people (slide 3). A brief such as 'make it better' is not yet a problem.
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: No, only a vague brief
+            to: n2
+      - id: n2
+        kind: step
+        text: 'Identify an interesting problem: find problems, identify needs.'
+        note: Listen to the unusual; identify consequences that make the subject essential (slide 4). Einstein would spend 59 minutes of an hour defining the problem.
+        concept: mgmt2094-w02-problem-identification
+        authorities:
+          - mgmt2094-example-einstein-relativity
+          - mgmt2094-example-decaux
+        next: n3
+      - id: n3
+        kind: ask
+        text: Do you already have at least three different options or alternate solutions?
+        branches:
+          - label: 'Yes'
+            to: n7
+          - label: No, one idea or none
+            to: n4
+      - id: n4
+        kind: step
+        text: 'Think divergently: apply the quota method.'
+        note: 'Always ask at least three ideas from your team (& yourself!). A brainstorm can help: as many ideas as possible in a short time, without censorship, sorted afterwards.'
+        concept: mgmt2094-w02-divergent-thinking
+        next: n5
+      - id: n5
+        kind: ask
+        text: Did at least three good options emerge?
+        branches:
+          - label: 'Yes'
+            to: n7
+          - label: 'No'
+            to: n6
+      - id: n6
+        kind: end
+        tone: not-met
+        text: 'Not ready to choose: refuse to decide rather than settle for the first idea.'
+        note: 'Slide 5: break the ''linear thinking'' propensity to settle for the first idea, and logical reasoning that locks you in the first solution.'
+      - id: n7
+        kind: step
+        text: 'Think convergently: identify benefits and risks, keep the best and eliminate wrong answers.'
+        note: Evaluation and selection; positive and critical thinking (slide 6). This is the analytical phase.
+        concept: mgmt2094-w02-creative-problem-solving-steps
+        next: n8
+      - id: n8
+        kind: end
+        tone: met
+        text: « The » solution, or a good solution, found.
+        note: 'The steps form a cycle (slide 7): great advances are usually the result of a long process that is a sum of intuitions and successive progresses, so expect to go round again.'

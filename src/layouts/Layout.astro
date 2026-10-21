@@ -1,0 +1,265 @@
+---
+import '../styles/base.css';
+import '../styles/reading.css';
+import '../styles/scroll-bg.css';
+import '../styles/intro-film.css';
+import { ClientRouter } from 'astro:transitions';
+import MotionDial from '../components/MotionDial.astro';
+import ThemeDial from '../components/ThemeDial.astro';
+import NavSheet from '../components/NavSheet';
+import EverythingIndex from '../components/rebuild/EverythingIndex';
+import '../styles/navigation.css';
+import '../styles/rebuild.css';
+import GlassControl from '../components/GlassControl';
+import { pageTransition } from '../lib/transitions';
+import { Toaster } from '../components/ui/Toaster';
+import Palette from '../components/Palette';
+import Shortcuts from '../components/Shortcuts';
+import FocusBlock from '../components/FocusBlock';
+import Milestones from '../components/Milestones';
+import SelectionTools from '../components/SelectionTools';
+import { units } from '../lib/content';
+import { pwaInfo } from 'virtual:pwa-info';
+/** index: pages with a kind are searchable (Pagefind indexes only data-pagefind-body). */
+/** toc: CSS selector of the headings listed in the right rail; pages without one get data-rail="none" (centred). */
+interface Props { title: string; description?: string; progress?: boolean; index?: 'Week' | 'Concept' | 'Case' | 'Authority' | 'Unit'; unit?: string; wide?: boolean; toc?: string; centre?: boolean }
+const { title, progress = false, index, unit, wide = false, centre = false, toc, description = 'Personal exam revision for LAWS2400, LAWS2000, LAWS2100 and MGMT2094.' } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const nav = [
+  { href: '/', label: 'Units' },
+  { href: '/dashboard', label: 'Dashboard' },
+  { href: '/plan', label: 'Plan' },
+  { href: '/exams', label: 'Exams' },
+];
+const hasRail = !!toc;
+// Exam range for the footer, from the unit files (single source: raw/<unit>/unit.yaml).
+const examStarts = (await units()).map((u) => +u.data['exam-start']).sort((a, b) => a - b);
+const examRange = examStarts.length ? (() => {
+  const f = (t: number, o: Intl.DateTimeFormatOptions) => new Date(t).toLocaleDateString('en-AU', { ...o, timeZone: 'Australia/Sydney' });
+  return `${f(examStarts[0], { day: 'numeric' })}–${f(examStarts.at(-1)!, { day: 'numeric', month: 'long', year: 'numeric' })}`;
+})() : '';
+---
+
+<!doctype html>
+<html lang="en-AU" transition:animate="none" data-rail={hasRail ? 'open' : 'none'} data-centre={centre ? '' : undefined}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#FBF7F0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+    <link rel="preload" href="/fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <script is:inline>
+      (() => {
+        let m = null;
+        try { m = localStorage.getItem('studysite:motion'); } catch {}
+        if (!['full', 'calm', 'off'].includes(m)) m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'full';
+        document.documentElement.dataset.motion = m;
+        // Theme: light | white | dark ("lamp-lit") | auto (CSS follows the system). Applied before paint; no flash.
+        let t = null;
+        try { t = localStorage.getItem('studysite:theme'); } catch {}
+        document.documentElement.dataset.theme = t === 'light' || t === 'white' || t === 'dark' ? t : 'auto';
+        // Rail: the stored choice, else open from 1280px and collapsed below (pages without a TOC stay "none").
+        const r = document.documentElement;
+        let p = {};
+        try { p = JSON.parse(localStorage.getItem('studysite:prefs') || '{}') || {}; } catch {}
+        r.dataset.progress = p.progress ? 'on' : 'off';
+        r.dataset.scrollbar = p.hideScrollbar ? 'hidden' : 'shown';
+        r.dataset.glass = p.glass === 'off' || matchMedia('(prefers-reduced-transparency: reduce)').matches ? 'off' : 'on';
+        if (typeof p.glassOpacity === 'number') r.style.setProperty('--glass-opacity', String(Math.min(0.9, Math.max(0.2, p.glassOpacity))));
+        // Reading customisation + low stimulation, before paint so text never reflows (no CLS).
+        const one = (v, ok, d) => (ok.includes(v) ? v : d);
+        r.dataset.text = one(p.textSize, ['sm', 'md', 'lg', 'xl'], 'md');
+        r.dataset.leading = one(p.leading, ['normal', 'relaxed', 'airy'], 'normal');
+        r.dataset.measure = one(p.measure, ['narrow', 'normal', 'wide'], 'normal');
+        r.dataset.contrast = one(p.contrast, ['normal', 'high'], 'normal');
+        r.dataset.density = one(p.density, ['comfortable', 'compact'], 'comfortable');
+        r.dataset.lowstim = p.lowStim === true ? 'on' : 'off';
+        // Start: a refresh or a fresh visit (not back/forward, not in-site navigation, which never reloads) opens the
+        // top of the home page, unless Settings → Start is off. The same preference applies in every browser.
+        try {
+          const nav = performance.getEntriesByType('navigation')[0];
+          if (p.homeOnLoad !== false && location.pathname !== '/' && (!nav || nav.type !== 'back_forward') && !/[?&]stay\b/.test(location.search)) {
+            location.replace('/');
+            return;
+          }
+          if (p.homeOnLoad !== false && location.pathname === '/' && 'scrollRestoration' in history) { history.scrollRestoration = 'manual'; if (location.hash === '') scrollTo(0, 0); }
+        } catch {}
+        if (r.dataset.rail !== 'none') {
+          // Centred pages (the week pages) open with the contents tucked away so the column sits in the middle; `]` opens it.
+          r.dataset.rail = r.dataset.centre !== undefined ? 'collapsed' : p.rail === 'open' || p.rail === 'collapsed' ? p.rail : innerWidth >= 1280 ? 'open' : 'collapsed';
+        }
+      })();
+    </script>
+    <ClientRouter />
+    <title>{title === 'StudySite' ? title : `${title} · StudySite`}</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header glass glass--flat" transition:animate="none">
+      <div class="bar">
+        <NavSheet client:idle transition:persist="nav-sheet" />
+        <a class="brand" href="/">StudySite</a>
+        <nav aria-label="Main">
+          <ul>
+            {nav.map((n) => (
+              <li><a href={n.href} aria-current={path === n.href ? 'page' : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <div class="tools">
+          <div class="tools__dials">
+            <ThemeDial />
+            <MotionDial />
+            <GlassControl client:idle />
+          </div>
+          <EverythingIndex client:idle modal transition:persist="jump-index" />
+          <a href="/search" data-palette-open aria-keyshortcuts="Control+K Meta+K">Search <kbd class="kbd kbd--hint" aria-hidden="true">⌘K</kbd></a>
+        </div>
+      </div>
+    </header>
+    {progress && <div class="read-progress" aria-hidden="true" data-read-progress></div>}
+    <slot name="before" />
+    <div class="shell" transition:name="page" transition:animate={pageTransition}>
+      <main id="main" class="content" data-wide={wide ? '' : undefined} data-pagefind-body={index ? '' : undefined}>
+        {index && <span hidden data-pagefind-filter="kind">{index}</span>}
+        {index && unit && <span hidden data-pagefind-filter="unit">{unit.toUpperCase()}</span>}
+        <slot />
+      </main>
+      {hasRail && (
+        <aside class="rail" aria-label="On this page">
+          <button type="button" class="rail-tab" data-rail-tab data-magnetic aria-controls="rail-body" aria-expanded="true" aria-label="Hide contents" aria-keyshortcuts="]">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+          <div class="rail__body glass glass--still" id="rail-body">
+            <p class="label rail__label">On this page</p>
+            <nav class="toc" data-toc={toc} aria-label="Sections"></nav>
+            <slot name="rail" />
+          </div>
+        </aside>
+      )}
+    </div>
+    <Toaster client:idle transition:persist="toaster" />
+    <Palette client:idle transition:persist="palette" />
+    <Shortcuts client:idle transition:persist="shortcuts" />
+    <FocusBlock client:idle transition:persist="focus-block" />
+    <Milestones client:idle transition:persist="milestones" />
+    <SelectionTools client:idle />
+    <footer class="site-footer" transition:animate="none">
+      <div class="bar"><p>StudySite · personal revision · exams {examRange} · <button type="button" class="shortcut-link" onclick="document.dispatchEvent(new CustomEvent('studysite:shortcuts'))">Keyboard shortcuts <kbd class="kbd">?</kbd></button> · <a href="/settings">Settings</a></p></div>
+    </footer>
+    <script>
+      import { wire } from '../lib/motion';
+      import { wireCursor } from '../lib/cursor';
+      import { wireConceptCards } from '../lib/concept-cards';
+      import { wireMentions } from '../lib/mentions';
+      import { wireSentenceCards } from '../lib/sentence-card';
+      import { wireContinue } from '../lib/continue';
+      import { wireReadAloud } from '../lib/speech';
+      import { wireAnnotations } from '../lib/annotations';
+      wireAnnotations();
+      wireReadAloud();
+      import { registerSW } from 'virtual:pwa-register';
+      if (import.meta.env.PROD) registerSW({ immediate: true });
+      wireContinue();
+      wireSentenceCards();
+      wireMentions();
+      wire();
+      wireCursor();
+      import { wireChrome } from '../lib/chrome';
+      import { wireTheme } from '../lib/theme';
+      wireChrome();
+      wireTheme();
+      import { wireScrollBackground } from '../lib/scroll-bg';
+      wireScrollBackground();
+      document.addEventListener('astro:page-load', wireConceptCards);
+    </script>
+  </body>
+</html>
+
+<style>
+  /* 12-column grid. Rail open (≥1024px): reading column offset left (cols 2–8), rail cols 10–12.
+     Rail collapsed or none: one centred 66ch column. Wide pages (hub, dashboard grids) use cols 2–11. */
+  .bar, .shell {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .shell {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--s-5);
+    padding-block: var(--s-6) var(--s-9);
+  }
+  .content { grid-column: 1 / -1; grid-row: 1; min-width: 0; width: 100%; max-width: var(--measure); justify-self: center; }
+  .content[data-wide] { max-width: none; }
+  @media (min-width: 1024px) {
+    :global(:root[data-rail='open']) .content:not([data-wide]) { grid-column: 2 / span 7; max-width: none; justify-self: stretch; }
+  }
+  @media (min-width: 1100px) { .content[data-wide] { grid-column: 2 / span 10; } }
+  /* Rail: sticky, own scroll; collapsed leaves only the tab; below 1024px the tab opens a popover. */
+  .rail { grid-column: 1 / -1; grid-row: 2; height: 0; font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); }
+  .rail__body { display: none; }
+  .rail-tab {
+    position: fixed; right: 0; top: calc(var(--nav-h) + var(--s-6)); z-index: var(--z-sticky);
+    width: 36px; height: 36px; display: grid; place-items: center; padding: 0;
+    border: 1px solid var(--line); border-right: 0; border-radius: var(--r-md) 0 0 var(--r-md);
+    background: var(--paper-2); color: var(--ink-2); cursor: pointer;
+    transition: color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+  }
+  .rail-tab svg { transform: rotate(180deg); transition: transform var(--dur-ui) var(--ease-inout); }
+  .rail-tab[aria-expanded='true'] svg { transform: none; }
+  .rail-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .rail-tab:active { transform: scale(.97); }
+  @media (hover: hover) and (pointer: fine) { .rail-tab:hover { color: var(--ink); } }
+  .rail[data-pop] .rail__body {
+    display: block; position: fixed; right: var(--s-4); top: calc(var(--nav-h) + var(--s-6) + 44px); z-index: var(--z-palette);
+    width: min(20rem, calc(100vw - 2 * var(--s-4))); max-height: 70vh; overflow-y: auto; overscroll-behavior: contain;
+    padding: var(--s-4); border-radius: var(--r-lg); border: 1px solid var(--line); background: var(--paper); box-shadow: var(--shadow);
+  }
+  @media (min-width: 1024px) {
+    .rail { grid-row: 1; grid-column: 10 / span 3; height: auto; position: sticky; top: calc(var(--nav-h) + var(--s-6)); align-self: start; }
+    .rail-tab { position: absolute; right: auto; left: calc(-36px - var(--s-3)); top: 0; border-right: 1px solid var(--line); border-radius: var(--r-md); background: transparent; }
+    .rail__body { display: block; max-height: calc(100vh - var(--nav-h) - 2 * var(--s-6)); overflow-y: auto; overscroll-behavior: contain; padding-right: var(--s-2); transition: opacity var(--dur-panel) var(--ease-drawer), visibility 0s; }
+    :global(:root[data-rail='collapsed']) .rail { grid-column: 12 / span 1; justify-self: end; width: 0; }
+    :global(:root[data-rail='collapsed']) .rail-tab { left: calc(-36px); }
+    :global(:root[data-rail='collapsed']) .rail__body { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity var(--dur-panel) var(--ease-drawer), visibility 0s linear var(--dur-panel); }
+  }
+  .rail__label { margin: 0 0 var(--s-3); }
+  .toc { margin-bottom: var(--s-6); }
+
+  .site-header { position: sticky; top: 0; z-index: var(--z-sticky); background: var(--paper); border-bottom: 1px solid transparent; transition: transform var(--dur-ui) var(--ease-out), border-color var(--dur-ui) var(--ease-out); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); }
+  .site-header .bar { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); align-items: center; min-height: 64px; padding-block: var(--s-3); }
+  /* Condenses on scroll by transform only: the bar rises 8px, the wordmark scales to 0.88. */
+  :global(html.is-scrolled) .site-header { transform: translateY(-8px); border-bottom-color: var(--line); }
+  :global(html.is-scrolled) .brand { transform: translateY(4px) scale(.88); }
+  .brand { display: inline-block; transform-origin: 0 50%; transition: transform var(--dur-ui) var(--ease-out); font-family: var(--font-display); font-weight: 600; font-size: var(--t-lg); letter-spacing: var(--track-display); text-decoration: none; }
+  .site-header ul { display: flex; gap: var(--s-4); list-style: none; margin: 0; padding: 0; }
+  .site-header a { text-decoration-color: transparent; }
+  .site-header a[aria-current='page'] { text-decoration-color: currentColor; }
+  @media (hover: hover) and (pointer: fine) {
+    .site-header a:hover { text-decoration-color: var(--ink-3); }
+  }
+  .tools { margin-left: auto; display: flex; align-items: center; gap: var(--s-4); }
+  .tools__dials { display: flex; align-items: center; gap: var(--s-2); }
+  /* Phones: the dials live in the menu sheet and on /settings. */
+  @media (max-width: 599px) { .tools__dials { display: none; } }
+  @media (max-width: 479px) {
+    .site-header .bar { column-gap: var(--s-4); }
+    .site-header ul { gap: var(--s-3); }
+  }
+  .site-footer { border-top: 1px solid var(--line); font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+  .site-footer .bar { padding-block: var(--s-6); }
+  .site-footer p { margin: 0; }
+  /* Study block: chrome fades to 30% (restored on hover/focus); focus mode hides it. */
+  :global(:root[data-block]) .site-header .bar, :global(:root[data-block]) .site-footer, :global(:root[data-block]) .rail { opacity: .3; transition: opacity var(--dur-panel) var(--ease-out); }
+  :global(:root[data-block]) .site-header:hover .bar, :global(:root[data-block]) .site-header:focus-within .bar { opacity: 1; }
+  :global(:root[data-focus]) .site-header .bar, :global(:root[data-focus]) .site-footer, :global(:root[data-focus]) .rail, :global(:root[data-focus]) .read-progress { opacity: 0; pointer-events: none; transition: opacity var(--dur-panel) var(--ease-out); }
+  :global(:root[data-focus]) .content > :global(:not(:has([data-focus-keep])):not([data-focus-keep])) { opacity: 0; pointer-events: none; transition: opacity var(--dur-panel) var(--ease-out); }
+  .shortcut-link { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; text-decoration-color: var(--ink-3); cursor: pointer; }
+  .shortcut-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  @media (hover: hover) and (pointer: fine) { .shortcut-link:hover { text-decoration-color: currentColor; } }
+</style>

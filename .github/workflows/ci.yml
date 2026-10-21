@@ -1,0 +1,22 @@
+# Fast checks on every push: lint (astro check), unit tests, build (which runs content validation first).
+# Kept small to stay inside GitHub's free Actions minutes; the Playwright and Lighthouse suites are in
+# suites.yml and run only when started by hand (Actions → "suites (manual)" → Run workflow).
+name: ci
+on:
+  push:
+  workflow_dispatch:
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true # a newer push on the same branch replaces the run in progress
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build

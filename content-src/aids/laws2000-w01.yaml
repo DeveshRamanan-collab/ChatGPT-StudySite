@@ -1,0 +1,609 @@
+unit: laws2000
+week: 1
+source: raw/laws2000-pil/week-01
+generator: aids-1
+aids:
+  - concept: laws2000-w01-defining-international-law
+    plain: International law is the set of rules states, and sometimes others, follow in dealing with one another, and a rule binds a state because that state agreed to it.
+    concrete: 'Before 1884 there was no single reference line for telling the time. At the International Meridian Conference, countries agreed in a Final Act to use Greenwich as the primary meridian, adding or subtracting hours from there. The lecturer uses this to show that international law is "everywhere": states consented to a shared standard, and it now shapes how everyone sets a clock — alongside vehicle standards, telecommunications and the internet services used to deliver the lecture.'
+    formal: In S.S. Lotus (1927) the PCIJ held that international law governs relations between independent states; binding rules "emanate from their own free will as expressed in conventions or by usages generally accepted as expressing principles of law", so "restrictions upon the independence of States cannot therefore be presumed". The AG's Department adds who it serves; the Practitioner's Guide stresses voluntary consent.
+    analogy:
+      text: 'Neighbours who make their own arrangements: each household is bound only by agreements it signed or by street habits everyone treats as rules, and nobody is bound by a rule just because it would be sensible.'
+      maps:
+        - from: the households
+          to: independent states
+        - from: signed agreements
+          to: conventions (treaties)
+        - from: habits everyone treats as rules
+          to: usages generally accepted as law (custom)
+        - from: no rule assumed without agreement
+          to: 'Lotus: restrictions on independence cannot be presumed'
+      limits:
+        - Neighbours live under a council, courts and police; states have no legislature or police above them.
+        - Custom can bind without any signature, so 'signing' understates how usage works.
+    terms:
+      - term: convention
+        gloss: 'In the Lotus passage, a treaty: a written agreement through which states express their consent to be bound.'
+        example: Asked what 'convention' meant in Lotus, the class answered 'treaty'.
+      - term: usage
+        gloss: In Lotus, general state practice accepted as expressing principles of law — what the unit calls customary international law.
+      - term: subjects of international law
+        gloss: 'Those international law addresses: primarily states, also international organisations, and increasingly individuals (e.g. under international criminal and human rights law).'
+      - term: Permanent Court of International Justice (PCIJ)
+        gloss: The League of Nations' court (1920–1946), predecessor of the ICJ; its decisions, such as Lotus, are still cited.
+    misconceptions:
+      - claim: Only one of the three definitions is correct; the other two are outdated.
+        tempting: Law students expect a single settled definition, and the three read quite differently.
+        correction: 'The lecture treats all three as valid but partial: the AG''s Department stresses subjects, the Practitioner''s Guide voluntary consent, and Lotus the source of binding force.'
+      - claim: Under Lotus a state is restricted unless some rule permits what it is doing.
+        tempting: Much domestic regulation works by permission, so presuming limits feels natural.
+        correction: 'Lotus says the reverse: "restrictions upon the independence of States cannot therefore be presumed". A state is free unless a convention or generally accepted usage binds it.'
+      - claim: International law only matters when states go to war or cross borders.
+        tempting: News coverage of international law centres on violations and the use of force.
+        correction: 'The lecture stresses it is "everywhere": time zones (Meridian Conference 1884), vehicle standards (1998 regulations), telecommunications (ITU) and internet services all rest on it.'
+    socratic:
+      - ask: If there is no world parliament, who makes the rules of international law?
+        hint: Think about who signs treaties and whose practice forms custom.
+        answer: 'States themselves: they are both the makers of international law and the subjects it binds.'
+      - ask: So where must a rule's binding force come from?
+        hint: The PCIJ in Lotus used the phrase "their own free will".
+        answer: From the states' own will — their consent, in Lotus' words "their own free will".
+      - ask: In what two forms can that will be expressed, according to Lotus?
+        hint: One is written down; the other is a pattern of behaviour.
+        answer: Conventions (treaties) and usages generally accepted as expressing principles of law (custom).
+      - ask: If neither a treaty nor a usage covers an act, is the state restricted?
+        hint: Read the last sentence of the Lotus passage.
+        answer: No. Restrictions on a state's independence "cannot therefore be presumed", so the state remains free to act.
+      - ask: What does the AG's Department definition add that Lotus leaves out?
+        hint: Look at whose relations the rules facilitate.
+        answer: 'Its addressees: states and international organisations, and in some cases individuals, groups and transnational companies.'
+    elements:
+      - name: Relations between independent states
+        test: The rule governs relations between co-existing independent states, or is directed at their common aims.
+        cases:
+          - ss-lotus-france-v-turkey
+      - name: Expression of the state's free will
+        test: The rule emanates from the state's own free will, expressed in a convention (treaty) or a usage generally accepted as expressing principles of law (custom).
+        cases:
+          - ss-lotus-france-v-turkey
+      - name: No presumed restriction
+        test: 'If no convention or accepted usage binds the state, no restriction on its independence is presumed: it is free to act.'
+        cases:
+          - ss-lotus-france-v-turkey
+    what-if:
+      - change: The state has ratified a treaty forbidding the conduct.
+        effect: A convention now expresses its free will, so the restriction is consented to rather than presumed; under Lotus the state is bound.
+      - change: The only rule relied on is a General Assembly declaration.
+        effect: The lecture says the General Assembly cannot create binding obligations. Unless the declaration reflects a treaty or accepted usage, Lotus says no restriction is presumed.
+      - change: No treaty applies, but states generally follow a practice they accept as law.
+        effect: That is a "usage generally accepted as expressing principles of law" — custom — so a restriction can exist without any treaty.
+    boundary:
+      - text: A non-binding General Assembly declaration, such as the Rio Declaration (1992).
+        why: It shapes international law and builds momentum, but it is not a convention; the lecture says the Assembly cannot bind states, so it sits outside the definition until states turn it into a treaty.
+      - text: Individuals prosecuted under international criminal law.
+        why: 'Inside, but as secondary subjects: the AG''s definition covers relations with individuals ''in some cases'', and the lecture gives international criminal and human rights law as examples.'
+    transfer:
+      - scenario: A state starts using a new weather-modification technology over its own territory. A neighbour says the practice should be treated as forbidden until a treaty allows it, but cites no treaty or established practice against it.
+        answer: Under Lotus, binding rules emanate from states' free will expressed in conventions or generally accepted usages, and restrictions on independence "cannot therefore be presumed". The neighbour's presumption of prohibition fails; it must identify a treaty the first state consented to, or a usage accepted as law, that forbids the conduct.
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 8–11)
+      - 'Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript (18:14–25:31: the three definitions; ''international law is everywhere'')'
+      - Week 01 - Tutorial Questions - What Is Public International Law (Question A)
+    verify: false
+  - concept: laws2000-w01-sovereign-equality-and-consent
+    plain: Every state counts equally in law, however big or small, and no state is bound by a rule of international law unless it has agreed to be bound.
+    concrete: 'In the UN General Assembly, China, with 1.4 billion people, has one vote — exactly the same as a state of half a million people. Equality is legal, not practical: influence still depends on a state''s resources and on the skill of its diplomats. The lecturer''s example is Malta, a small state that played a large role in reforming the law of the sea, which eventually produced the UN Law of the Sea Convention.'
+    formal: 'Article 2 of the UN Charter prescribes that UN members are equal (sovereign equality): each has the right to be considered on an equal basis, with one vote in the General Assembly. Separately, no treaty or rule binds a state unless it has consented — expressly (ratifying a treaty) or implicitly (following a practice in the belief that it is legally binding).'
+    analogy:
+      text: An owners' corporation where every owner has one vote whatever the size of their flat, and no owner can be made to sign a private contract they refuse.
+      maps:
+        - from: each owner
+          to: each state
+        - from: one vote per owner
+          to: one vote per state in the General Assembly (Art 2)
+        - from: refusing to sign a private contract
+          to: refusing to ratify a treaty
+      limits:
+        - A majority of owners can bind a dissenting owner; a treaty never binds a state that has not consented.
+        - 'Equal votes hide unequal influence: states differ in resources and diplomatic skill.'
+    terms:
+      - term: sovereign equality
+        gloss: Each state, however large or small, has equal legal standing; in the General Assembly each has one vote (Art 2 UN Charter).
+      - term: state consent
+        gloss: A state's agreement to be bound. Without it, no treaty or rule of international law binds that state.
+      - term: express consent
+        gloss: Consent given explicitly, such as by ratifying a treaty.
+      - term: implicit consent
+        gloss: Consent shown by following a customary practice in the belief that it is legally binding — the basis of customary international law.
+    misconceptions:
+      - claim: Once most states ratify a treaty, it binds every state.
+        tempting: Organisations such as the General Assembly decide by majority vote, so majorities seem to bind everyone.
+        correction: 'Majority voting describes decision-making inside organisations. A treaty binds only states that consented: no state can compel another to sign up to a treaty it does not want.'
+      - claim: Sovereign equality and state consent are two names for the same idea.
+        tempting: Both protect a state's independence and the lecture discusses them together.
+        correction: Sovereign equality concerns equal standing (one state, one vote, Art 2); consent concerns whether a particular rule binds a particular state. They answer different questions.
+      - claim: Sovereign equality means every state has equal influence.
+        tempting: Equal votes suggest equal power.
+        correction: The equality is legal. Influence depends on political, financial and military resources and on the personal qualities of a state's representatives, as Malta's role in the law of the sea shows.
+    socratic:
+      - ask: China has 1.4 billion people. How many votes does it have in the General Assembly?
+        hint: One state, one …
+        answer: One — the same as the smallest member. That is sovereign equality (Art 2 UN Charter).
+      - ask: Could a powerful state force a small state to join a treaty?
+        hint: What does the lecture say about compelling another state to sign up?
+        answer: No. No state can compel another to sign up to a treaty it does not want to join.
+      - ask: Then what makes a treaty binding on a particular state?
+        hint: What does a state do to join a treaty?
+        answer: Its own consent, given expressly — for a treaty, by ratifying it.
+      - ask: Can a state be bound without signing anything?
+        hint: Think of a practice followed in the belief that it is law.
+        answer: 'Yes, by implicit consent: following a customary practice believing it to be legally binding (customary international law).'
+      - ask: What follows when some states ratify a treaty and others do not?
+        hint: Consent is given state by state.
+        answer: States end up with different rights and obligations; international law is not identical for every state.
+    what-if:
+      - change: The small state ratifies the treaty after first refusing.
+        effect: Its consent is now expressed, so the treaty binds it. Its equal status never changed — only its consent did.
+      - change: The rule is a customary practice the small state has followed, believing it legally binding.
+        effect: 'No signature is needed: implicit consent through practice accepted as law makes the customary rule binding on it.'
+      - change: The question is decided by a General Assembly vote rather than a treaty.
+        effect: Each state casts one equal vote, but the Assembly has only a consultative role and cannot create binding law, so the vote does not bind dissenting states as a treaty would.
+    boundary:
+      - text: The five permanent members of the Security Council each hold a veto.
+        why: 'Equal status is not absolute in every organ: the lecture notes ''a number of exceptions'', though overwhelmingly international organisations give members equal status.'
+      - text: Small Pacific island states shaping global climate policy.
+        why: Legal equality is formal; their campaigns in the General Assembly show diplomacy can give small states influence well beyond their size.
+    transfer:
+      - scenario: A regional fisheries body of twelve states votes by majority to adopt a protocol with new catch limits. One member voted against and never ratified the protocol. Its neighbours say it is bound because it was outvoted.
+        answer: 'Sovereign equality means its vote counted equally with the others. But binding force depends on consent: no treaty binds a state that has not consented, and no state can compel another to sign up. Having not ratified the protocol, it is not bound by it as a treaty — states end up with different obligations.'
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 19, 23)
+      - 'Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript (03:56–08:40: sovereign equality, one vote, consent, Malta; 19:57–21:30: express and implicit consent)'
+      - 'Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript (26:27–27:39: Security Council veto, General Assembly)'
+    verify: false
+  - concept: laws2000-w01-general-and-specialized-international-law
+    plain: '''General'' international law is the core every area relies on, like sources, treaties and state responsibility; ''special'' international law is the subject regimes built on it, like the sea, trade and human rights.'
+    concrete: 'The lecturer''s example: a ship rescues migrants in distress in the Mediterranean and then wants to dock in a port of a country other than the one where it is registered. That single situation engages migration law, the law of the sea, human rights law and perhaps international health law. Regimes "do not operate in silo", so an exam answer may need to draw on several at once.'
+    formal: 'Slide 12 divides the field into ''general'' international law — sources, treaty law, statehood and recognition, jurisdiction and immunities, diplomatic protection, state responsibility, peaceful settlement of disputes — and ''special'' regimes: use of force, international criminal, human rights, law of the sea, air and space, environmental and climate change, energy, trade, investment and health law.'
+    analogy:
+      text: 'A hospital: every specialist relies on general medicine, and a complicated patient may need several specialists at the same time.'
+      maps:
+        - from: general medicine
+          to: general international law (sources, treaties, responsibility)
+        - from: the specialties
+          to: special regimes (sea, trade, human rights …)
+        - from: a patient needing several specialists
+          to: the migrant rescue engaging migration, sea and human rights law
+      limits:
+        - A hospital referral picks one lead specialist; no body assigns an international dispute to one regime, so the answer must name every regime engaged.
+    terms:
+      - term: general international law
+        gloss: 'The core rules every area relies on: sources, treaty law, statehood, jurisdiction and immunities, diplomatic protection, state responsibility and dispute settlement.'
+      - term: special international law
+        gloss: Subject regimes developed largely since the UN's creation, such as use of force, international criminal law, human rights, law of the sea, environment and trade.
+      - term: global commons
+        gloss: Areas belonging to no state — the high seas, outer space and Antarctica — over which no state can impose its jurisdiction.
+        example: Even a land-bound state keeps freedom of navigation on the high seas.
+      - term: issues of shared concern
+        gloss: Transboundary problems, such as pandemics, global trade and climate change, that no single state can solve alone.
+    misconceptions:
+      - claim: A 'special' regime like the law of the sea never overlaps with 'general' topics like state responsibility.
+        tempting: Slide 12 lists them in two separate columns.
+        correction: 'The lecture says regimes "do not operate in silo": an agrochemical dispute draws on trade, environmental and health law plus core regimes such as state responsibility.'
+      - claim: The Mekong River is a global common.
+        tempting: It is shared by several states and managed internationally.
+        correction: Global commons belong to no state (high seas, outer space, Antarctica). The Mekong is a resource shared by particular states — China, Vietnam, Laos, Thailand and Cambodia.
+      - claim: The nationalist route is just as effective for shared concerns.
+        tempting: A state can regulate inside its own borders without negotiating with anyone.
+        correction: Slide 14 marks the internationalist route 'increasingly more efficient'; on climate change, the lecturer said one state acting alone 'is not going to change much'.
+    socratic:
+      - ask: A ship rescues migrants at sea and seeks to dock outside its flag state. Is this one area of international law?
+        hint: List the bodies of law each fact touches.
+        answer: No — migration law, the law of the sea, human rights law and possibly international health law are all engaged.
+      - ask: Are those regimes 'general' or 'special' on slide 12?
+        hint: General means sources, treaties, responsibility, jurisdiction …
+        answer: They are special regimes, but general international law — sources, jurisdiction, state responsibility — still sits underneath each of them.
+      - ask: Why do the high seas matter specially here?
+        hint: Does any state own them?
+        answer: 'They are a global common: no state can impose its jurisdiction there, and every state keeps freedom of navigation.'
+      - ask: So what should an answer do first?
+        hint: Think about how exam problems are built.
+        answer: Name every regime engaged before applying rules, because regimes overlap and problems borrow across them.
+    what-if:
+      - change: The shared river is replaced by the high seas.
+        effect: 'The resource no longer belongs to particular states but to none: it is a global common where no state can impose its jurisdiction and all keep freedom of navigation.'
+      - change: China joins the Mekong River Commission.
+        effect: China would take part in the members' agreed common approach to the river. The lecture flags its non-membership because it is upstream and building dams outside the shared regime.
+    boundary:
+      - text: The Mekong River, shared by China, Vietnam, Laos, Thailand and Cambodia.
+        why: 'Not a global common, since it belongs to particular states, but still a shared resource needing international law: upstream dams affect downstream fisheries and flow, hence the 1995 Agreement and the Mekong River Commission.'
+      - text: The COVID-19 pandemic (2020).
+        why: 'A clear issue of shared concern: the lecture says coordination between states was inadequate, and the WHO then worked on a pandemic agreement (2025) that the lecturer called weak on vaccine distribution.'
+    transfer:
+      - scenario: A factory in one state releases chemicals into a river that flows into a neighbouring state, damaging crops and fisheries there. The neighbour asks which areas of international law it should examine.
+        answer: 'Following the lecture, name every regime engaged rather than one: environmental law (pollution), possibly health and trade law (food and crops), and the general rules of state responsibility for a wrongful act. Because the river is a shared resource, not a global common, look also for any agreement between the river states, as with the Mekong.'
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 12–14)
+      - 'Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript (27:29–39:56: general and special regimes, migrant rescue, agrochemicals, COVID-19, global commons, Mekong)'
+    verify: false
+  - concept: laws2000-w01-international-law-as-living-process
+    plain: 'International law is not fixed: it keeps changing as states'' practices and expectations change, through new treaties, amendments, protocols and evolving custom.'
+    concrete: 'Ozone depletion: emissions of ozone-depleting substances rose for decades. States then adopted the Vienna Convention for the Protection of the Ozone Layer (1985, in force 1988) and the Montreal Protocol (1987, in force 1990). The lecturer''s graph shows emissions declining sharply once the instruments took effect, and the UN reported in 2023 that the ozone layer is on track to recover by 2040.'
+    formal: Slide 15 describes international law as "a process of continuous interaction between States grounded into practices or expectations of sovereign governments" that changes as those practices and expectations "are changed by the existence of new interests and technologies" — a process in which rights are asserted and duties relied on by reference to express agreements or custom.
+    analogy:
+      text: 'A footpath worn across a park: walkers'' repeated use creates the path, the path moves when habits change, and the council may later pave it.'
+      maps:
+        - from: walkers' repeated use
+          to: general state practice
+        - from: the path everyone expects to use
+          to: 'custom: practice treated as law'
+        - from: paving the path
+          to: codifying the rule in a treaty or protocol
+      limits:
+        - A path forms from habit alone; custom also needs the belief that the practice is law.
+        - A council paves paths; in international law, states themselves make treaties — there is no legislature.
+    terms:
+      - term: amendment
+        gloss: A change to the provisions of an existing treaty — one way treaties evolve without being replaced.
+      - term: protocol
+        gloss: An instrument added to an existing treaty that forms a whole with it, used to extend or modify the treaty.
+      - term: customary international law
+        gloss: Law formed by general state practice plus a belief that the practice is law; the clearest example of law developing over time.
+      - term: non-binding instrument
+        gloss: A declaration or resolution, such as the Rio Declaration (1992), that guides states and builds momentum but creates no legal obligation.
+    misconceptions:
+      - claim: General Assembly declarations such as the Rio Declaration are binding treaties.
+        tempting: Nearly every state adopted them and they shaped the whole field.
+        correction: 'The General Assembly cannot create binding obligations. Its declarations built momentum that states later turned into binding treaties: the UNFCCC (1992), Kyoto Protocol (1997) and Paris Agreement (2015).'
+      - claim: To change a treaty, states must terminate it and start again.
+        tempting: A signed treaty text seems fixed.
+        correction: The lecture says treaties evolve by amending their provisions or by adopting protocols that form a whole with the treaty.
+      - claim: International environmental law appeared as soon as states noticed environmental problems.
+        tempting: The ozone treaties look like a quick response.
+        correction: The regime was built almost from scratch from the 1960s — conferences (1972), agencies, General Assembly declarations, then treaties. The lecturer called it a lengthy process.
+    socratic:
+      - ask: Before the 1960s, how much international environmental law was there?
+        hint: The lecturer called it a relatively recent regime.
+        answer: 'Very little: it began developing in the 1960s, essentially from scratch.'
+      - ask: What did the UN do first, given the General Assembly cannot bind states?
+        hint: Think conferences, programmes, agencies and declarations.
+        answer: It held conferences (1972 Human Environment), ran programmes and agencies (UN Environment Programme, FAO) and adopted declarations such as Rio (1992), building momentum.
+      - ask: How did that momentum become binding law?
+        hint: Who has to sign and become parties?
+        answer: 'States turned it into treaties they joined: the UNFCCC (1992), the Kyoto Protocol (1997) and the Paris Agreement (2015).'
+      - ask: What evidence suggests such treaties can work?
+        hint: Look at the ozone emissions graph.
+        answer: Emissions of ozone-depleting substances fell sharply after the Vienna Convention (in force 1988) and Montreal Protocol (in force 1990) took effect.
+      - ask: Which source shows law evolving without any new text at all?
+        hint: Practice plus belief.
+        answer: 'Customary international law: general state practice plus the belief that it is law develops over time.'
+    what-if:
+      - change: States had relied only on General Assembly declarations about the ozone layer, with no treaty.
+        effect: Declarations build momentum but cannot bind. The lecture links the sharp fall in emissions to the binding Vienna Convention and Montreal Protocol entering into force.
+      - change: A new technology creates a problem no existing treaty covers.
+        effect: 'As a living process, the law adapts: states can adopt a new treaty, amend an existing one or add a protocol, or develop custom through practice. An answer should name which mechanism is at work.'
+    boundary:
+      - text: 'The lecturer''s caveat on the ozone graph: not every treaty will have the same impact all the time.'
+        why: The ozone story shows a treaty can change behaviour, not that treaties always do; an answer should cite the mechanism and the evidence rather than assume effect.
+      - text: The ICJ's 2025 Advisory Opinion on Obligations of States in respect of Climate Change.
+        why: 'Slide 16 lists it alongside the environmental treaties: the process continues beyond treaty-making, through a court addressing states'' climate obligations.'
+    transfer:
+      - scenario: Delivery drones start crossing land borders. Over years, most states begin requiring foreign drones to register with them before entry, and treat this as legally required rather than mere courtesy.
+        answer: 'This is law as a living process: a new technology changes states'' practices and expectations. General practice plus the belief that it is law can generate a customary rule; states could later codify it in a new treaty or protocol. A good answer names the mechanism — custom, treaty, amendment or protocol — rather than just saying the law changed.'
+    storyboard:
+      - caption: 'Before the 1960s: almost nothing'
+        detail: International environmental law barely existed; the regime had to be built from scratch.
+      - caption: '1972: UN Human Environment Conference'
+        detail: UN conferences, programmes (UN Environment Programme) and agencies (FAO) start building the field.
+      - caption: '1985–1990: the ozone treaties'
+        detail: Vienna Convention (1985, in force 1988) and Montreal Protocol (1987, in force 1990); emissions then fall sharply.
+      - caption: '1992: Rio Declaration and UNFCCC'
+        detail: Non-binding General Assembly momentum (Rio) alongside a binding treaty (UNFCCC).
+      - caption: '1997–2015: Kyoto and Paris'
+        detail: 'More binding instruments: the Kyoto Protocol (1997) and the Paris Agreement (2015).'
+      - caption: '2023–2025: recovery and an opinion'
+        detail: UN reports the ozone layer on track to recover by 2040 (2023); ICJ advisory opinion on climate change obligations (2025).
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 15–18)
+      - 'Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript (39:56–47:20: living process, custom, environmental law, ozone)'
+    verify: false
+  - concept: laws2000-w01-compliance-and-enforcement
+    plain: International law has no world parliament, police or compulsory court, yet most states obey it most of the time, mainly because cooperation depends on it and breaking it costs reputation.
+    concrete: The lecturer's example comes from trade. A state that often ignores its international commitments may find other states reluctant to trade or ally with it. With the United States imposing tariffs, the lecturer noted, some European countries and Canada began building new trade partnerships they saw as more secure, rather than relying on a partner that might not respect World Trade Organization rules.
+    formal: Enforcement "is irrelevant to the binding quality of international law as a system of law" (slide 19). States operate within it because it is necessary to achieve anything meaningful; "the basis of obligation is the same in every legal order" — a consciousness that the order is needed (Hoffman 1987). Compliance comes from fear of "loss of reputation" (Chayes & Chayes 1995) and quasi-enforcement (UN Charter arts 5–6).
+    analogy:
+      text: 'A trader at a local market: no guard makes them pay suppliers on time, but a trader who cheats others soon finds nobody will deal with them, and the market association can suspend their stall.'
+      maps:
+        - from: the trader
+          to: a state
+        - from: nobody will deal with them
+          to: exclusion from future cooperation (Chayes & Chayes)
+        - from: suspending the stall
+          to: suspension or expulsion from the UN (arts 5–6)
+      limits:
+        - A market sits inside a state with courts and police behind it; international law has no such backstop.
+        - Realists say a powerful 'trader' may ignore reputation when its interests demand.
+    terms:
+      - term: quasi-enforcement
+        gloss: 'Pressure through membership: participation in organisations depends on compliance — suspension or expulsion (UN Charter arts 5–6), and IMF and World Bank economic leverage.'
+      - term: reputational compliance
+        gloss: 'Chayes & Chayes: states comply from fear not of sanction but of "loss of reputation", which leads others to exclude them from future cooperation.'
+      - term: realism
+        gloss: The international relations view that power, especially military power, matters most; a powerful state obeys international law only when it perceives this to be in its interest.
+      - term: compulsory jurisdiction
+        gloss: 'A court''s power to hear a case without the state''s agreement. International courts lack it: states must accept, for example, the ICJ''s jurisdiction.'
+    misconceptions:
+      - claim: International law isn't really law, because nobody enforces it.
+        tempting: In domestic law, enforcement is usually seen as the key to respect for the rules.
+        correction: 'Slide 19: enforcement is "irrelevant to the binding quality of international law as a system of law". Rules bind through treaty consent or custom, whether or not they are enforced.'
+      - claim: Chayes & Chayes say states comply out of fear of sanctions.
+        tempting: Fear of punishment explains much domestic compliance.
+        correction: They say compliance comes from fear "not of sanction but 'loss of reputation'", which leads other states to exclude the violator from future opportunities to cooperate.
+      - claim: Frequent violations prove international law has failed.
+        tempting: The news is full of occupations, uses of force and broken treaties.
+        correction: 'Slide 21: just as crimes occur within national systems without destroying them, assaults on international law do not invalidate its legitimacy; the vast majority of states abide by their obligations.'
+    socratic:
+      - ask: Who would arrest a state that breaks a treaty?
+        hint: Is there an international police force or executive?
+        answer: 'No one: international law has no legislature, executive or police, and international courts'' jurisdiction is not compulsory.'
+      - ask: Does that make the treaty non-binding?
+        hint: What does slide 19 say about enforcement and binding quality?
+        answer: No. Enforcement is irrelevant to binding quality; the treaty binds because the state consented to it.
+      - ask: Then why do states usually comply?
+        hint: What does a state lose if others see it as unreliable?
+        answer: 'Reputation: others become reluctant to cooperate, trade or ally with it (Chayes & Chayes), and states see the order as needed to reach common ends (Hoffman).'
+      - ask: Are there any formal levers at all?
+        hint: Look at UN membership and the financial institutions.
+        answer: 'Quasi-enforcement: suspension or expulsion from the UN (Charter arts 5–6) and the economic leverage of the IMF and World Bank.'
+      - ask: What would a realist say about a powerful state's compliance?
+        hint: What matters most to realists?
+        answer: It obeys only when it perceives compliance to be in its interest; when law and power conflict, law tends to lose.
+    what-if:
+      - change: The non-complying state is a militarily dominant power, not a small trading state.
+        effect: Realism predicts it complies only when it perceives this to be in its interest, so reputational costs may weigh less. The lecture presents this as a competing theory, not the legal position, which rests on sovereign equality.
+      - change: The state refuses to accept the ICJ's jurisdiction over the dispute.
+        effect: It cannot be brought before the court, because jurisdiction is not compulsory. Its obligations still bind it; pressure must come from reputation, diplomacy or quasi-enforcement.
+    boundary:
+      - text: 'Henkin: almost all nations observe almost all of their obligations almost all of the time.'
+        why: 'The tutorial asks you to argue both ways: necessity and reputation explain the ''almost all''; realism and continuing violations (occupation, force, targeted killings) explain the exceptions.'
+      - text: International law invoked to justify departing from rule-of-law commitments.
+        why: 'Slide 21 lists this as a challenge: states may use the language of international law to excuse breaches, so invoking the law is not the same as complying with it.'
+    transfer:
+      - scenario: A small state belongs to an international scheme for sharing disease data. During an outbreak it is tempted to hide its case numbers. No court can compel it and there is no international police. What might still push it to comply?
+        answer: 'Its obligation binds whether or not it can be enforced (slide 19). Pressures to comply: reputational cost, since others may exclude it from future cooperation (Chayes & Chayes); the shared sense that the order is needed for a common end (Hoffman); and quasi-enforcement, because membership of organisations depends on compliance and trust. A realist would add that it complies only if that serves its interests.'
+    objections:
+      - position: States generally comply with international law, so it works as a legal system.
+        evidence: Henkin's observation; the vast majority of states abide by their obligations; ozone-depleting emissions fell sharply after the ozone treaties (slides 18, 21).
+        objection: 'Realism: what matters is power, especially military power; when law and power conflict, law loses, and powerful states obey only when it suits their perceived interest.'
+        reply: Just as crimes within national legal systems do not destroy them, frequent assaults on international law do not invalidate its legitimacy (slide 21).
+      - position: Without enforcement, international law cannot really bind.
+        evidence: Domestic law usually treats enforcement as key, and international law has no legislature, police or compulsory court (slide 19).
+        objection: 'Enforcement is irrelevant to binding quality: rules bind through custom or treaty consent, and states operate within the system because it is necessary to achieve anything meaningful.'
+        reply: 'Hoffman: in every legal order the basis of obligation is a consciousness among the subjects that the order is needed to reach a common end.'
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 19–21)
+      - 'Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript (47:00–50:20: no legislature or police, non-compulsory courts, reputation, trade example)'
+      - 'Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript (02:47–03:55: the realist view)'
+      - Week 01 - Tutorial Questions - What Is Public International Law (Questions B and C)
+    verify: false
+  - concept: laws2000-w01-history-ancient-to-westphalia
+    plain: Before modern states, rules between communities came from shared expectations and natural-law ideas; the 1648 Peace of Westphalia organised Europe into sovereign states, starting the modern state system.
+    concrete: In 1532 Francisco de Vitoria, a Spanish Dominican professor, lectured on Spain's conquests in the New World. He concluded that the native peoples were part of the human race, so natural law applied to them. Because people already lived there, there had been no 'discovery', and conquest — like any other war of territorial expansion — was not justified under natural law.
+    formal: 'Natural law (jus naturale) holds that intrinsic values govern relations universally, across time and place. Hugo Grotius (1583–1645) secularised it and distinguished jus gentium: human-made law, variable in time and place, valid because states consent. The Peace of Westphalia (1648; Treaties of Munster and Osnabruck) organised territory and people into sovereign states — the ''beginning'' of the state system and birth of ''sovereignty''.'
+    terms:
+      - term: polis
+        gloss: 'The ancient Greek city-state: an urban centre with surrounding countryside, a community with mutual expectations about how members behave.'
+      - term: nomos
+        gloss: The ancient Greek idea of restricting natural freedoms for the sake of expediency and self-interest.
+      - term: jus naturale (natural law)
+        gloss: Universal, eternal law inherent in nature, applying to all cultures and times; shaped by Stoic philosophy and, under the Church, Thomas Aquinas.
+      - term: jus gentium
+        gloss: Rules of law common to nations; for Grotius, human-made and variable, valid through states' consent rather than natural reason.
+        example: The lecturer's example is a trade treaty.
+    misconceptions:
+      - claim: Grotius treated jus gentium as universal and unchanging.
+        tempting: Both are Latin 'law of …' terms from the same period.
+        correction: Jus naturale is the universal one. Grotius described jus gentium as human-created law, variable in time and place, whose validity rests on states' consent.
+      - claim: Vitoria justified the conquest of the New World because natural law applied only in Europe.
+        tempting: Colonial-era scholars are often assumed to have endorsed colonialism.
+        correction: Vitoria held that native peoples were part of the human race, so natural law applied to them; there was no 'discovery', so conquest was not justified under natural law.
+      - claim: Sovereignty existed fully formed in ancient Greece.
+        tempting: Greek city-states governed themselves behind walls.
+        correction: The materials tie the birth of 'sovereignty' to the 1648 Peace of Westphalia, which organised territory and people into sovereign states with a clear source of authority.
+    socratic:
+      - ask: In late-medieval Europe, who held authority over a local ruler?
+        hint: Think of the Pope and the Holy Roman Empire.
+        answer: 'Several overlapping authorities: the Catholic Church held spiritual authority and the Pope could influence emperors and kings.'
+      - ask: What kind of law did thinkers then rely on for relations between peoples?
+        hint: A law inherent in nature, the same everywhere.
+        answer: 'Natural law (jus naturale): universal values applying across time and place.'
+      - ask: What did Grotius do with natural law?
+        hint: He secularised it, then separated something from it.
+        answer: He secularised it and distinguished it from jus gentium — human-made, variable law, valid through states' consent.
+      - ask: What did Westphalia supply that the medieval order lacked?
+        hint: Slide 26 speaks of 'a clear source of authority'.
+        answer: 'Sovereign states: territory and people organised into states, each a clear source of authority — the birth of sovereignty.'
+      - ask: Why does that still matter for today's law?
+        hint: Who are the primary subjects of international law?
+        answer: States became the primary source of authority and primary subjects of international law; the Westphalian system remains a building block of the legal order.
+    what-if:
+      - change: Grotius had grounded jus gentium in natural reason rather than consent.
+        effect: 'The distinction would collapse: what separated jus gentium from natural law was that its validity came from states'' consent, not from a higher natural order.'
+    boundary:
+      - text: 'Thucydides: the strong do what they can and the weak suffer what they must.'
+        why: 'An ancient idea the modern order inverts: realism echoes it, but the current position rests on sovereign equality (Art 2 UN Charter), not on power.'
+      - text: Emmerich de Vattel's Law of Nations.
+        why: He underlined state equality irrespective of power — though, the lecturer notes, at least within Europe — and argued only positive law is relevant, foreshadowing nineteenth-century positivism.
+    transfer:
+      - scenario: A colonial-era tribunal must decide whether a European power may take an inhabited island simply because its navigators 'discovered' it.
+        answer: 'Vitoria''s reasoning answers it: the island''s inhabitants are part of the human race, so natural law applies to them. Because people already live there, there is no ''discovery'', and conquest, like other wars of territorial expansion, is not justified under natural law.'
+    objections:
+      - position: 'Natural law: universal values bind all peoples, whatever any ruler has agreed.'
+        evidence: Vitoria used natural law to hold that native peoples of the New World were protected and that conquest by 'discovery' was unjustified.
+        objection: 'Grotius, and later Vattel, located law between states in human choice: jus gentium and positive law are valid because states consent, not because of natural reason.'
+    storyboard:
+      - caption: 'Ancient Greece: polis and nomos'
+        detail: City-states with mutual expectations of behaviour; nomos restricts natural freedoms for expediency and self-interest.
+      - caption: 'Rome: jus naturale and jus civile'
+        detail: Roman law pairs natural law with civil law; some patterns of the Greek city-states persist.
+      - caption: 'Late Middle Ages: Church and Empire'
+        detail: '15th–16th centuries: overlapping allegiances under the Catholic Church and Holy Roman Empire; natural law dominates.'
+      - caption: '1532: Vitoria on the New World'
+        detail: Native peoples are human, natural law applies, and 'discovery' cannot justify conquest.
+      - caption: Grotius separates jus gentium
+        detail: Secular natural law distinguished from human-made, consent-based jus gentium; Suarez and Vattel also shape the field.
+      - caption: '1648: Peace of Westphalia'
+        detail: Treaties of Munster and Osnabruck end the Thirty Years' War; sovereign states and 'sovereignty' are born.
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 23–26)
+      - 'Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript (00:00–19:20: Greece, Rome, natural law, Grotius, Vitoria, Suarez, Vattel, Westphalia)'
+    verify: false
+  - concept: laws2000-w01-history-nineteenth-century-to-un
+    plain: From the 1800s, law between states was seen as coming only from state consent; after two world wars, states built institutions — the League, the PCIJ, then the UN — to keep the peace.
+    concrete: 'After the First World War, the League of Nations (1919) did not ban war, but required members to submit disputes likely to lead to conflict to adjudication or inquiry. The 1928 Kellogg-Briand Pact went further: states committed to refrain from war as an instrument of national policy. The Second World War still followed, and in 1946 the League was replaced by the United Nations, whose Charter bans the use of force.'
+    formal: Positivism held that "the only true source of law is State will" — not fairness or divine justice but consent to be bound, so states choose their obligations (slide 27). The 1928 Kellogg-Briand Pact obliged states to refrain from war as a means of settling controversies and as an instrument of national policy. The UN Charter entrenched sovereign equality, self-determination and a ban on force.
+    terms:
+      - term: positivism
+        gloss: The nineteenth-century view that law's only source is state will (consent), not fairness or divine justice; states choose which obligations bind them.
+      - term: Permanent Court of International Justice
+        gloss: The League's court, created in 1920 and dissolved in 1946; the ICJ took its place, and its case law is still cited.
+      - term: self-determination
+        gloss: The right of peoples to determine their own status; entrenched in the UN Charter and affirmed in the 1960 Declaration on decolonisation.
+      - term: International Law Commission
+        gloss: UN body created in 1946 to promote 'the progressive development of international law and its codification'.
+    misconceptions:
+      - claim: The League of Nations banned war.
+        tempting: It was created specifically to prevent another world war.
+        correction: The League did not itself prohibit war; it obliged members to submit disputes likely to cause conflict to adjudication or inquiry. The 1928 Kellogg-Briand Pact then committed states to renounce war as national policy.
+      - claim: The General Assembly can make binding law, like the Security Council.
+        tempting: All 193 members vote there, so it looks like a parliament.
+        correction: The lecture says the General Assembly has only a consultative role and cannot create binding law; the Security Council holds primary responsibility for peace and security and can sometimes bind states.
+      - claim: The PCIJ and the ICJ are the same court.
+        tempting: One replaced the other, and both are called the 'world court'.
+        correction: The PCIJ (1920) was the League's court and was dissolved in 1946; the ICJ, the UN's principal judicial organ, took its place. PCIJ decisions such as Lotus are still cited.
+    socratic:
+      - ask: For a nineteenth-century positivist, what made a rule binding on a state?
+        hint: Not fairness, not divine justice …
+        answer: Only the state's will — its consent to be bound by the obligation.
+      - ask: What did positivism produce in practice?
+        hint: Look at slide 27's unions, declarations and conferences.
+        answer: 'Formal institutions and treaties: the Telegraph Union (1865), Postal Union (1874), Declarations of Paris (1856) and St Petersburg (1868), and the Hague Conferences (1899, 1907).'
+      - ask: After the First World War, did the League outlaw war?
+        hint: What did it require members to do with their disputes?
+        answer: No. Disputes likely to lead to conflict had to go to adjudication or inquiry; the Kellogg-Briand Pact (1928) then renounced war as national policy.
+      - ask: After the Second World War, how did keeping the peace change?
+        hint: Which UN organ has primary responsibility?
+        answer: 'It became a collective effort: the UN Charter banned the use of force and gave the Security Council primary responsibility for international peace and security.'
+      - ask: Why is the Security Council sometimes ineffective?
+        hint: Think about its five permanent members.
+        answer: China, Russia, the United States, France and the United Kingdom each hold a veto and can block any Council decision.
+    what-if:
+      - change: A dispute likely to lead to war arises between two League members in 1925.
+        effect: War was not yet prohibited, but as League members they had to submit the dispute to adjudication or inquiry. From 1928, Kellogg-Briand parties also committed to refrain from war as national policy.
+      - change: A Security Council resolution on a conflict is vetoed by one permanent member.
+        effect: The Council cannot act, since any of the five permanent members can block a decision. The General Assembly can debate and declare, but it has only a consultative role and cannot bind states.
+    boundary:
+      - text: The 1928 Kellogg-Briand Pact.
+        why: 'It sits between the League, which did not ban war, and the UN Charter''s ban on force: it renounced war as an instrument of national policy, a precursor rather than the full Charter regime.'
+      - text: The Nuremberg Trials (1945–46).
+        why: 'Prosecuting top German officials for international crimes began international criminal law: individuals, not only states, became answerable — the line that leads to today''s International Criminal Court.'
+    transfer:
+      - scenario: 'Drafters of a new regional peace organisation propose copying the League model: members must send disputes to inquiry, but going to war is not prohibited.'
+        answer: 'History cautions against it. The League did not prohibit war and the Second World War followed. Kellogg-Briand renounced war as national policy, and the UN Charter went further: a ban on the use of force, peaceful settlement of disputes and a Security Council with primary responsibility — though the P5 veto shows how one member can block collective action.'
+    storyboard:
+      - caption: '19th century: positivism dominates'
+        detail: Law flows from state will alone; states choose which obligations bind them.
+      - caption: '1856–1907: unions, declarations, Hague'
+        detail: Telegraph and Postal Unions; Paris and St Petersburg Declarations; Hague Conferences create the Permanent Court of Arbitration.
+      - caption: '1914: colonialism at its height'
+        detail: At the outbreak of the First World War, 90 per cent of Africa is under European control.
+      - caption: '1919–1928: League, PCIJ, Kellogg-Briand'
+        detail: League requires disputes to go to adjudication or inquiry; PCIJ created (1920); 1928 Pact renounces war as national policy.
+      - caption: '1945–1946: Nuremberg and the UN'
+        detail: Nuremberg begins international criminal law; the UN replaces the League; the Charter bans force; the ILC is created.
+      - caption: '1960: the decolonisation declaration'
+        detail: The General Assembly affirms self-determination; more than 80 former colonies have since gained independence.
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 27–29)
+      - 'Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript (16:17–28:50: Vattel and positivism, nineteenth-century institutions, League, Kellogg-Briand, PCIJ, Nuremberg, UN, decolonisation)'
+    verify: false
+flows:
+  - slug: is-a-state-bound
+    title: Is a state bound by this rule of international law?
+    summary: 'Walks the Lotus test: a rule binds a state only if the state''s own will is expressed in a treaty or an accepted usage; otherwise no restriction is presumed.'
+    start: n1
+    concepts:
+      - laws2000-w01-defining-international-law
+      - laws2000-w01-sovereign-equality-and-consent
+      - laws2000-w01-compliance-and-enforcement
+    sources:
+      - Week 01 - Lecture Slides - What Is Public International Law (slides 10, 19–20)
+      - Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript (05:41–06:06, 19:51–21:30)
+      - Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript (21:17–23:38, 44:00–45:30)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Is the rule set out in a treaty (a 'convention' in Lotus terms)?
+        note: 'Lotus: binding rules emanate from states'' free will "as expressed in conventions or by usages generally accepted as expressing principles of law".'
+        cases:
+          - ss-lotus-france-v-turkey
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n4
+      - id: n2
+        kind: ask
+        text: Has this state consented to the treaty, for example by ratifying it?
+        note: No state can compel another to sign up to a treaty. Consent is given state by state, so states end up with different obligations.
+        concept: laws2000-w01-sovereign-equality-and-consent
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: No, it never ratified
+            to: n4
+      - id: n3
+        kind: step
+        text: 'The treaty binds the state: its express consent supplies the binding force.'
+        next: n9
+      - id: n4
+        kind: ask
+        text: Is there a general practice of states, followed in the belief that it is legally binding (a 'usage')?
+        note: 'Customary international law: general state practice plus a belief that the practice is law — consent given implicitly. Its two elements are tested in Week 2.'
+        concept: laws2000-w01-international-law-as-living-process
+        branches:
+          - label: 'Yes'
+            to: n5
+          - label: 'No'
+            to: n6
+      - id: n5
+        kind: step
+        text: The customary rule binds the state through implicit consent (test both elements in Week 2).
+        next: n9
+      - id: n6
+        kind: ask
+        text: Is the claimed rule only a General Assembly declaration or resolution?
+        note: The General Assembly has only a consultative role and cannot create binding obligations; its declarations can build momentum that states later turn into treaties.
+        branches:
+          - label: 'Yes'
+            to: n7
+          - label: No, there is simply no rule
+            to: n8
+      - id: n7
+        kind: end
+        tone: not-met
+        exception: true
+        text: Not binding as such — unless states later turn it into a treaty or it comes to reflect accepted custom.
+      - id: n8
+        kind: end
+        tone: not-met
+        text: 'No restriction: under Lotus, restrictions upon a state''s independence "cannot therefore be presumed", so the state is free to act.'
+        cases:
+          - ss-lotus-france-v-turkey
+      - id: n9
+        kind: end
+        tone: met
+        text: 'Bound — whether or not the rule can be enforced: enforcement is irrelevant to binding quality; compliance rests on reputation and quasi-enforcement.'
+        concept: laws2000-w01-compliance-and-enforcement
+        authorities:
+          - un-charter-arts-5-6

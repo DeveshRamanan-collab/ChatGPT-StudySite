@@ -1,0 +1,94 @@
+---
+source-hash: 6fac2e1ab881e57a
+generator-version: dossier-1
+generated-at: "2026-10-20T03:27:48.312Z"
+locked: false
+kind: case
+ref: donoghue-v-stevenson
+units:
+  - laws2400
+weeks:
+  - laws2400-w05
+topics:
+  - negligence-overview
+  - duty-of-care
+lists:
+  - laws2400-examinable
+court: UKHL
+year: 1932
+judges: Lord Atkin, Lord Thankerton and Lord Macmillan (majority); Lord Buckmaster and Lord Tomlin (dissenting)
+one-liner: A manufacturer owes the end consumer a duty of care even without a contract; Lord Atkin's neighbour principle founds modern negligence.
+plain: "A friend bought Mrs Donoghue a ginger beer at a café. The bottle was dark, so nobody could see inside it. When the last of it was poured out, the remains of a rotting snail came out too, and she became sick. She had not bought the drink herself, so she had no contract with anyone and could not sue for breaking a promise. Instead she sued the company that made the drink. The House of Lords said a maker of goods must take care not to hurt the people who will use them, because it is obvious those people could be harmed. Lord Atkin said you owe care to your \"neighbour\": anyone so closely affected by what you do that you should have them in mind."
+analogy: "It works like the duty a cook in a restaurant kitchen owes to diners: the cook never meets them or takes their money, but knows every plate goes straight to someone who will eat it without checking, so the cook must take care."
+key-facts:
+  - In August 1928 Mrs Donoghue went with a friend to a café in Scotland for an ice-cream soda.
+  - Her friend, not Mrs Donoghue, bought the ice cream and the ginger beer, so Mrs Donoghue had no contract with the café or the maker.
+  - The ginger beer came in an opaque glass bottle bearing the manufacturer's name, David Stevenson, so its contents could not be seen.
+  - As the beer was poured into a tumbler, a decomposed snail floated out of the bottle.
+  - Mrs Donoghue suffered shock and severe gastro-enteritis.
+  - She sued the manufacturer, Stevenson, in negligence.
+  - The case reached the House of Lords on a preliminary question of law, decided on the assumption that the facts she alleged were true; whether there really was a snail was never tried.
+parties:
+  - name: Mrs May Donoghue
+    role: Pursuer (plaintiff) — the consumer who drank the ginger beer
+  - name: David Stevenson
+    role: Defender (defendant) — the manufacturer and bottler
+timeline:
+  - label: The café
+    text: A friend buys Mrs Donoghue a ginger beer in an opaque bottle; a decomposed snail comes out as it is poured.
+  - label: The harm
+    text: She suffers shock and severe gastro-enteritis.
+  - label: The problem
+    text: No contract links her to the maker, so the question is whether negligence alone can ground a claim.
+  - label: The answer
+    text: By 3:2 the House of Lords holds a manufacturer owes the ultimate consumer a duty of reasonable care.
+  - label: The principle
+    text: "Lord Atkin states the neighbour principle: take reasonable care to avoid acts or omissions you can reasonably foresee would injure your neighbour."
+issues:
+  - Whether a manufacturer of a product, with whom the ultimate consumer has no contract, can owe that consumer a duty of care in negligence.
+reasoning:
+  - Liability for negligence rests on a general public sentiment of moral wrongdoing, but the law must limit who can complain and how far.
+  - "The rule that you are to love your neighbour becomes, in law, you must not injure your neighbour: take reasonable care to avoid acts or omissions you can reasonably foresee would be likely to injure them."
+  - A neighbour is anyone so closely and directly affected by your act that you ought reasonably to have them in contemplation when directing your mind to that act.
+  - A manufacturer who sells products intending them to reach the consumer in the form they left it, with no reasonable possibility of intermediate examination, knowing a lack of care will injure the consumer, owes that consumer a duty of reasonable care.
+  - The absence of a contract does not matter; the duty arises from the relationship itself.
+outcome: Mrs Donoghue's appeal was allowed by a 3:2 majority; she was entitled to go to trial on her claim against the manufacturer.
+ratio: A manufacturer of products which it sells in such a form as to show it intends them to reach the ultimate consumer in the form in which they left it, with no reasonable possibility of intermediate examination, and with the knowledge that absence of reasonable care in their preparation will result in injury to the consumer's life or property, owes the consumer a duty to take reasonable care.
+obiter: The neighbour principle itself — the general statement of when a duty of care arises — went wider than was needed to decide the case, but it became the foundation of the modern law of negligence.
+dissent: Lord Buckmaster and Lord Tomlin would have confined manufacturers' liability to contract and to inherently dangerous goods.
+limits:
+  - Reasonable foreseeability (the neighbour principle) is always required for a duty but is not always enough; Australian law now adds salient features for novel cases.
+  - The narrow ratio is tied to products with no reasonable possibility of intermediate examination.
+  - It was decided on assumed facts; nothing was proved about the snail.
+  - In NSW, breach is now decided under s 5B CLA, not by applying the neighbour principle directly.
+exam-use:
+  when: Every duty of care issue opens here, especially a manufacturer–consumer relationship (an established category) or a novel relationship where foreseeability is the starting point.
+  sentence: "A duty of care arises where the defendant can reasonably foresee that carelessness may injure the plaintiff as their 'neighbour': Donoghue v Stevenson. As manufacturer and consumer, this relationship falls within the established category recognised in Donoghue."
+  pitfalls:
+    - Don't treat foreseeability as the whole duty test in a novel case; go on to salient features (Caltex, Perre, Sullivan v Moody).
+    - Don't cite the whole report; the referencing rules want 'Donoghue v Stevenson' then 'Donoghue'.
+what-if:
+  - change: The café owner, not the manufacturer, had opened the bottle and could have seen the snail before serving it.
+    effect: The 'no reasonable possibility of intermediate examination' element weakens, and the café owner becomes the obvious defendant.
+  - change: Mrs Donoghue had bought the drink herself.
+    effect: She would also have a contract claim against the seller, but the negligence claim against the manufacturer would be unchanged.
+contrasts:
+  - case: grant-v-australian-knitting-mills
+    point: Grant applied Donoghue to underwear that caused dermatitis, showing the principle is not limited to food and drink.
+  - case: chapman-v-hearse
+    point: Chapman v Hearse treats the foreseeability needed for a Donoghue-type duty as foreseeability of damage of some kind to a class, not to the particular plaintiff.
+statutes:
+  - civil-liability-act-2002-nsw-s5b
+quotes:
+  - who: Lord Atkin
+    text: The rule that you are to love your neighbour becomes in law, you must not injure your neighbour; and the lawyer’s question – Who is my neighbour? – receives a restricted reply. You must take reasonable care to avoid acts or omissions which you can reasonably foresee would be likely to injure your neighbour.
+    source: raw/laws2400-torts/week-05/Topic 5 Lecture 1 10.21.55 am.pptx
+  - who: Lord Atkin
+    text: Who, then, in law is my neighbour? The answer seems to be – persons who are so closely and directly affected by my act that I ought reasonably to have them in contemplation as being so affected when I am directing my mind to the acts or omissions which are called in question.
+    source: raw/laws2400-torts/week-05/Topic 5 Lecture 1 10.21.55 am.pptx
+sources:
+  - raw/laws2400-torts/week-05/Topic 5 Lecture 1 10.21.55 am.pptx
+  - raw/laws2400-torts/week-05/Topic 5 Lecture 2 10.21.55 am.pptx
+  - https://www.bailii.org/uk/cases/UKHL/1932/100.html
+verify: false
+---

@@ -1,0 +1,66 @@
+---
+// One problem question's facts, worked before writing (features 157, 38, 44, 81, 82, 85, 86, 89): the spotting
+// round, the prompt in layers, the element-and-evidence board, and the rubric as a closing checklist. Everything the
+// islands need comes from the content collections at build time (facts, the question, the issue concepts' study-aid
+// elements), so nothing is fetched on the page.
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ProblemWork from '../../../components/problem/ProblemWork';
+import { units, questionsOf } from '../../../lib/content';
+import { problemSlug, requirementsFor } from '../../../lib/problem';
+
+type Prompted = Extract<CollectionEntry<'questions'>['data'], { type: 'long' | 'short' }>;
+interface Props { u: CollectionEntry<'units'>; f: CollectionEntry<'facts'>; q: Prompted; n: number }
+
+export async function getStaticPaths() {
+  const paths: { params: { unit: string; id: string }; props: Props }[] = [];
+  for (const u of await units()) {
+    const questions = new Map((await questionsOf(u.id)).map((q) => [q.id, q]));
+    const annotated = (await getCollection('facts', (f) => f.data.unit === u.id))
+      .sort((a, b) => a.data.question.localeCompare(b.data.question))
+      .flatMap((f) => {
+        const q = questions.get(f.data.question);
+        return q && (q.data.type === 'long' || q.data.type === 'short') ? [{ f, q: q.data as Prompted }] : [];
+      });
+    annotated.forEach(({ f, q }, i) => paths.push({ params: { unit: u.id, id: problemSlug(u.id, f.data.question) }, props: { u, f, q, n: i + 1 } }));
+  }
+  return paths;
+}
+
+const { u, f, q, n } = Astro.props as Props;
+const concepts = [...new Set(f.data.issues.map((i) => i.concept).filter((c): c is string => !!c))];
+const aids = await getCollection('aids', (a) => concepts.includes(a.data.concept));
+const requirements = requirementsFor(f.data.issues, Object.fromEntries(aids.map((a) => [a.data.concept, a.data.elements])));
+const concept = await getEntry('concepts', q.concept);
+const facts = f.data.facts.map((x) => ({ text: x.text, weight: x.weight, kind: x.kind, issues: x.issues, ...(x.why ? { why: x.why } : {}) }));
+const rubric = q.rubric.map((r) => ({ id: r.id, criterion: r.criterion.trim() }));
+const essential = facts.filter((x) => x.weight === 'essential').length;
+---
+
+<Layout title={`Problem ${n} · ${u.data.code}`} wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { href: `/${u.id}/problems`, label: 'Problems' }, { label: `Problem ${n}` }]} />
+  <p class="label">{u.data.code} · Problem question{concept ? ` · ${concept.data.title}` : ''}</p>
+  <h1 data-split>Problem {n}</h1>
+  <p class="pq-page__lede">
+    {facts.length} facts, {essential} of them essential, across {f.data.issues.length} issues. Mark each fact as it appears; then see the
+    whole prompt in layers and pin each fact to the requirement it proves.
+  </p>
+  {f.data.verify && <p class="pq-page__verify">Some of these annotations are still being checked against the sources.</p>}
+  <ProblemWork
+    client:load
+    id={f.data.question}
+    unit={u.id}
+    prompt={q.prompt}
+    parties={f.data.parties}
+    issues={f.data.issues}
+    facts={facts}
+    requirements={requirements}
+    rubric={rubric}
+  />
+</Layout>
+
+<style>
+  .pq-page__lede { color: var(--ink-2); max-width: var(--measure); }
+  .pq-page__verify { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); max-width: var(--measure); }
+</style>

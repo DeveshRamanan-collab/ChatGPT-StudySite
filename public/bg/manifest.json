@@ -1,0 +1,43 @@
+{
+  "light": {
+    "frames": 37,
+    "widths": [
+      960,
+      1600
+    ],
+    "sizes": {
+      "960": {
+        "frames": 37,
+        "kb": 203
+      },
+      "1600": {
+        "frames": 37,
+        "kb": 1471
+      }
+    },
+    "poster": "/bg/light-poster.webp",
+    "source": "bg-light.mp4",
+    "duration": 1.541667
+  },
+  "generated-at": "2026-10-20T06:57:31.969Z",
+  "dark": {
+    "frames": 30,
+    "widths": [
+      960,
+      1600
+    ],
+    "sizes": {
+      "960": {
+        "frames": 30,
+        "kb": 352
+      },
+      "1600": {
+        "frames": 30,
+        "kb": 1004
+      }
+    },
+    "poster": "/bg/dark-poster.webp",
+    "source": "bg-dark.mp4",
+    "duration": 3.541667
+  }
+}

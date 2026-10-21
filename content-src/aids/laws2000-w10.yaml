@@ -1,0 +1,947 @@
+unit: laws2000
+week: 10
+source: raw/laws2000-pil/week-10
+generator: aids-1
+aids:
+  - concept: laws2000-w10-collective-security-and-the-un-system
+    plain: 'Collective security treats war and aggression as every state''s concern, not a private quarrel: threats are met jointly through an organisation. The UN centralises the permissible use of force in one body: the Security Council.'
+    concrete: When Iraq invaded and occupied Kuwait in 1990, the response was not left to Kuwait alone. The Security Council, acting on behalf of all UN members, found a breach of the peace and authorised a US-led coalition of states co-operating with Kuwait to use all necessary means to restore its sovereignty (Res 678, Operation Desert Storm). One state's invasion became every state's concern, answered through one body.
+    formal: 'The UN''s first Purpose is "to maintain international peace and security", including through "effective collective measures for the prevention and removal of threats to the peace" (art 1(1)). The UN system centralises the permissible use of force in the Security Council. Its tools: peaceful settlement (Chapter VI, art 33), collective security without force (Chapter VII, art 41) and with force (Chapter VII, art 42).'
+    analogy:
+      text: A street where, instead of every household arming itself, the residents agree that one committee will decide how to respond to any break-in — and five founding households can block any response.
+      maps:
+        - from: the households
+          to: UN member states
+        - from: the committee deciding the response
+          to: the Security Council
+        - from: founding households able to block
+          to: the P-5 veto (art 27(3))
+        - from: a break-in
+          to: a threat to the peace, breach of the peace or act of aggression
+      limits:
+        - 'The committee has no patrol of its own: art 43 was never implemented, so the Council relies on members to supply forces.'
+        - 'A household under attack may still defend itself at once: self-defence (art 51) needs no Council decision.'
+    terms:
+      - term: collective security
+        gloss: 'A system where war and aggression are the concern of all states, not a private dispute: war against one is war against all. An international-relations idea, not a legal term.'
+      - term: P-5
+        gloss: The five permanent members of the Security Council — the US, China, Russia, the UK and France — each holding a veto (art 27(3)).
+        example: The structure reflects who won World War II.
+      - term: centralisation of force
+        gloss: The UN system places the permissible use of force with one body, the Security Council, instead of each state deciding for itself.
+    misconceptions:
+      - claim: Collective security is a precise legal term defined in the Charter.
+        tempting: The UN was founded on it and the week is named after it.
+        correction: 'The lecturer stressed it is not a legal term but an international-relations idea: threats are handled collectively through an organisation. The legal machinery is Chapters VI and VII of the Charter.'
+      - claim: NATO, as a collective security organisation, may decide for itself when to use force.
+        tempting: The slides give NATO as an example of collective security.
+        correction: NATO stays bound by the Charter's rules on force. Without Council authorisation it may act only within a Charter exception, such as self-defence when a member is attacked.
+      - claim: Because force is centralised in the Council, the Council responds to every threat to the peace.
+        tempting: Art 24 gives it primary responsibility for peace and security.
+        correction: 'The slides say the Council has not been able to act in every case: it lacks capacity (no standing UN army) and the P-5 veto can block action.'
+    socratic:
+      - ask: Why was the UN created in 1945?
+        hint: The first half of the 20th century.
+        answer: To prevent the instability and unchecked aggression that marked inter-state affairs in the first half of the 20th century, and to maintain international peace and security.
+      - ask: What does collective security change about how aggression is treated?
+        hint: War against one is…
+        answer: 'Aggression stops being a private dispute between two states: it becomes the concern of all, and threats are met jointly through an organisation.'
+      - ask: In the UN system, who decides on a collective response involving force?
+        hint: One body.
+        answer: 'The Security Council: the UN system centralises the permissible use of force in that one body.'
+      - ask: What tools does the Council have, from least to most coercive?
+        hint: The slides' three columns.
+        answer: 'Peaceful settlement (Chapter VI, art 33); collective security without force (Chapter VII, art 41: sanctions); collective security with force (art 42: authorising states, regional organisations or peace operations).'
+      - ask: Why has the system not answered every threat?
+        hint: Troops and votes.
+        answer: There is no standing UN army, so the Council relies on members, and the P-5 veto can block decisions.
+    what-if:
+      - change: A regional alliance wants to use force in a crisis outside its members' territory, without Council authorisation.
+        effect: 'Being a collective body gives it no power of its own: force is centralised in the Council. It may enforce only with Council authorisation (art 53), unless a Charter exception such as self-defence applies.'
+      - change: A permanent member is closely allied with the state threatening the peace.
+        effect: It can veto any Council decision (art 27(3)), so the collective response may never come. The General Assembly may then act under Uniting for Peace, but only by recommending measures.
+    boundary:
+      - text: NATO's collective defence arrangement.
+        why: 'Collective security, but inside the UN framework: the Charter''s rules on force still bind NATO, so it cannot decide alone when force is lawful.'
+      - text: A state repelling an armed attack on itself.
+        why: 'Outside the Council''s centralised control: self-defence (art 51) is the other exception to art 2(4) and needs no prior Council authorisation.'
+    transfer:
+      - scenario: 'Five island states sign a pact: an attack on any one is an attack on all, and a joint council of the five will decide the response. Then one of them is invaded.'
+        answer: 'The pact expresses the collective-security idea — war against one is war against all, as in the League, the UN and NATO. But it sits under the Charter: as with NATO, a joint armed response is lawful only within a Charter exception (self-defence, art 51) or with Security Council authorisation, because the UN centralises the permissible use of force in the Council.'
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 4–7, 11, 44)
+      - 'Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (opening: the UN''s creation by the WWII victors; collective security not a legal term; League, UN and NATO; NATO bound by the Charter; the three tools)'
+    verify: false
+  - concept: laws2000-w10-security-council-composition-and-powers
+    plain: The Security Council has 15 states, five of them permanent with a veto. Members gave it main responsibility for peace and security, agreed to carry out its decisions, and let those decisions override conflicting treaties.
+    concrete: 'In 2017 the Council, acting on North Korea''s nuclear programme, adopted S/RES/2397: lower caps on refined petroleum supplied to the DPRK, bans on its exports of food, machinery and other goods, and a duty to de-register vessels involved in illicit activities. Every UN member — not just the 15 at the table — must carry out those decisions (art 25), and a member''s trade treaty with the DPRK cannot excuse it (art 103).'
+    formal: 'Art 23: 15 members; five permanent (US, China, Russia, UK, France) with the veto (art 27(3)); ten elected by the General Assembly for two years along regional lines. Art 24(1): members confer "primary responsibility for the maintenance of international peace and security", and the Council acts on their behalf; its powers lie in Chapters VI, VII, VIII and XII (art 24(2)). Art 25: decisions bind; art 103: Charter obligations prevail.'
+    terms:
+      - term: primary responsibility
+        gloss: 'Art 24(1): members confer on the Council the main — not exclusive — responsibility for international peace and security, for prompt and effective action.'
+      - term: veto
+        gloss: The power of each permanent member to block a Council decision (art 27(3)).
+      - term: elected members
+        gloss: 'Ten non-permanent members chosen by the General Assembly for two-year terms, five each year: Africa 3, Asia 2, Latin America and Caribbean 2, WEOG 2, Eastern Europe 1.'
+      - term: art 103
+        gloss: Where Charter obligations conflict with obligations under any other international agreement, the Charter obligations prevail.
+    misconceptions:
+      - claim: Art 24 gives the Council exclusive responsibility for peace and security, so no other organ may touch it.
+        tempting: The Council is the UN's peace-and-security organ.
+        correction: 'Art 24(1) says "primary", not exclusive. The General Assembly has a subsidiary responsibility: it may discuss and recommend (arts 11(2), 14), subject to art 12.'
+      - claim: A Council decision binds only the members that voted for it.
+        tempting: Treaty obligations usually depend on each state's consent.
+        correction: Under art 25 every member has agreed in advance to accept and carry out the Council's decisions. Voting against, or not sitting on the Council, changes nothing.
+      - claim: A treaty concluded before a Council decision prevails over the decision.
+        tempting: It feels as if the earlier commitment should come first.
+        correction: Art 103 gives Charter obligations — including carrying out binding decisions — priority over obligations under any other international agreement, whatever its date.
+    socratic:
+      - ask: Who sits on the Security Council?
+        hint: Art 23.
+        answer: 'Fifteen UN members: five permanent (US, China, Russia, UK, France) and ten elected by the General Assembly for two-year terms along regional lines.'
+      - ask: What extra power do the five permanent members hold, and why does it matter?
+        hint: Art 27(3).
+        answer: The veto. Any one of them can block a decision — one reason the slides give for the Council not acting in every threat.
+      - ask: Why does the Council, rather than each state, act on threats to peace?
+        hint: Art 24(1).
+        answer: Members conferred primary responsibility on it, to ensure prompt and effective action, and agreed that it acts on their behalf.
+      - ask: Must a state that voted against a decision carry it out?
+        hint: Art 25.
+        answer: Yes. Members agree to accept and carry out the Council's decisions, so the decision binds all members.
+      - ask: What if carrying it out breaches that state's treaty with another state?
+        hint: Art 103.
+        answer: The Charter obligation prevails over the obligation under the other agreement.
+    elements:
+      - name: Primary responsibility
+        test: Members confer on the Council primary responsibility for international peace and security; it acts on their behalf, within the Purposes and Principles, using Chapters VI, VII, VIII and XII.
+        authorities:
+          - un-charter-art-24
+      - name: Decisions bind all members
+        test: Members agree to accept and carry out the Council's decisions in accordance with the Charter.
+        authorities:
+          - un-charter-art-25
+      - name: Decisions prevail over conflicting treaties
+        test: In a conflict between Charter obligations and obligations under any other international agreement, the Charter obligations prevail.
+        authorities:
+          - un-charter-art-103
+    what-if:
+      - change: One permanent member votes against a Chapter VII draft that the other 14 members support.
+        effect: 'Its veto (art 27(3)) blocks the draft: no decision is adopted, so nothing binds under art 25. A deadlock of this kind is what Uniting for Peace addresses, though the Assembly can only recommend.'
+      - change: The demand comes from a General Assembly resolution instead of the Council.
+        effect: 'Art 25 does not apply: the Assembly recommends (arts 11(2), 14). No binding obligation arises, so art 103 has nothing to give priority to.'
+    boundary:
+      - text: A state elected to the Council for two years.
+        why: A full member during its term, but without the veto, which art 27(3) gives only to the five permanent members.
+      - text: The Council authorising a regional organisation to enforce its decisions.
+        why: 'Inside its powers: art 24(2) lists Chapter VIII among the chapters holding the Council''s powers, and art 53 allows regional enforcement.'
+    transfer:
+      - scenario: The Council decides that all members must freeze the assets of named militia leaders. State Z, not on the Council, has an investment treaty guaranteeing free transfer of funds to investors — one of whom is a named leader.
+        answer: Z must freeze the assets. A Council decision binds all members, not only those on the Council (art 25), and art 103 makes that Charter obligation prevail over the conflicting investment-treaty obligation. Z cannot rely on the treaty to avoid the decision.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 8–10, 21)
+      - Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (the Council's 15 members and P-5; veto; rotation of elected members; art 24 primary responsibility; art 25 binding decisions; art 103)
+    verify: false
+  - concept: laws2000-w10-peaceful-settlement-under-chapter-vi
+    plain: Before any coercion, states in a dispute that could endanger peace must first try peaceful means. The Security Council can investigate, urge and recommend under Chapter VI — but it cannot compel.
+    concrete: 'The lecturer tied this back to the earlier week on dispute settlement: art 33''s list — negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement — is not only for the parties; it expressly involves the Council. If the Council thinks it necessary, it can recommend that the parties settle in one of those ways. Any member can bring a dispute to the Council or the Assembly, and the Council should bear in mind that legal disputes usually belong before the ICJ.'
+    formal: 'Art 33(1): parties to a dispute likely to endanger international peace and security "shall, first of all, seek a solution" by negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, regional agencies or other peaceful means. The Council may call upon them to do so (art 33(2)), investigate (art 34) and recommend procedures (art 36(1)); legal disputes generally go to the ICJ (art 36(3)); unsettled disputes are referred to it (art 37(1)).'
+    terms:
+      - term: Chapter VI
+        gloss: The Charter's chapter on pacific settlement of disputes. The Council investigates, calls upon the parties and recommends; no art 39 determination is needed.
+      - term: art 33(1) means
+        gloss: Negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, regional agencies or arrangements, or other peaceful means of the parties' choice.
+      - term: situation (art 34)
+        gloss: Something short of a dispute that might lead to international friction or give rise to a dispute; the Council may investigate it.
+    misconceptions:
+      - claim: Under Chapter VI the Council can impose binding sanctions on a party that refuses to settle.
+        tempting: The Council's decisions bind under art 25.
+        correction: Chapter VI powers are to investigate, call upon the parties and recommend (arts 33(2), 34, 36(1)). Sanctions are Chapter VII art 41 measures, needing an art 39 determination first.
+      - claim: Parties who fail to settle by art 33 means must take the dispute to the ICJ.
+        tempting: Art 36(3) points legal disputes to the ICJ.
+        correction: 'Art 37(1) requires them to refer it to the Security Council. Art 36(3) is only a consideration for the Council: legal disputes should as a general rule be referred to the ICJ by the parties.'
+      - claim: Chapter VI is the General Assembly's job; the Council only acts under Chapter VII.
+        tempting: Members may also bring disputes to the Assembly (art 35).
+        correction: Arts 33–37 set out the Security Council's role in peaceful settlement. Art 35 merely lets any member raise a dispute with the Council or the Assembly.
+    socratic:
+      - ask: Two states' quarrel is escalating and could endanger peace. What must they do first?
+        hint: 'Art 33(1): "first of all".'
+        answer: 'Seek a solution by peaceful means of their choice: negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement or regional arrangements.'
+      - ask: Who can bring the quarrel to the Council?
+        hint: Art 35.
+        answer: Any UN member, not only the parties — to the Security Council or the General Assembly.
+      - ask: What can the Council do with it under Chapter VI?
+        hint: Arts 33(2), 34, 36.
+        answer: Call on the parties to settle peacefully, investigate whether it endangers peace, and recommend procedures or methods of adjustment — pointing legal disputes towards the ICJ.
+      - ask: Can it force a settlement or impose sanctions here?
+        hint: Which chapter holds coercion?
+        answer: No. Chapter VI is recommendatory; coercive measures need an art 39 determination under Chapter VII.
+    elements:
+      - name: A dispute likely to endanger peace
+        test: Art 33(1) applies to disputes whose continuance is likely to endanger the maintenance of international peace and security; a mere situation may be investigated (art 34).
+        authorities:
+          - un-charter-art-33-1
+      - name: Parties seek peaceful means first
+        test: Negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, regional agencies or other peaceful means of their choice.
+        authorities:
+          - un-charter-art-33-1
+      - name: Council calls upon, investigates, recommends
+        test: Call upon the parties (art 33(2)); investigate (art 34); recommend procedures or methods of adjustment (art 36(1)); legal disputes generally to the ICJ (art 36(3)).
+      - name: Unsettled disputes go to the Council
+        test: Parties who fail to settle by art 33 means shall refer the dispute to the Security Council (art 37(1)).
+    what-if:
+      - change: The disagreement is a minor technical one with no risk to international peace.
+        effect: Art 33(1)'s duty is limited to disputes whose continuance is likely to endanger international peace and security; this one is outside it, though peaceful means remain available.
+      - change: The dispute is a legal one over a maritime boundary.
+        effect: The Council should consider that legal disputes should, as a general rule, be referred by the parties to the ICJ (art 36(3)). It recommends; it cannot send the case to the Court itself.
+      - change: One party ignores every recommendation and fighting begins.
+        effect: Chapter VI has no coercive answer. The Council must determine a threat to the peace or breach of the peace under art 39 to open Chapter VII measures.
+    boundary:
+      - text: Tension that is not yet a dispute but might lead to international friction.
+        why: 'Inside Chapter VI: art 34 lets the Council investigate any situation which might lead to friction, to see whether it endangers peace.'
+      - text: A trade embargo on a party refusing to negotiate.
+        why: 'Outside Chapter VI: an embargo is an art 41 measure, available only after an art 39 determination under Chapter VII.'
+    transfer:
+      - scenario: Two neighbours argue over water from a shared river. Troops gather near the border, and a third state, not a party, raises the matter at the UN.
+        answer: The parties must first seek a peaceful solution (art 33(1)). Any member may bring the dispute to the Council (art 35). The Council can investigate (art 34), call on the parties to settle (art 33(2)) and recommend methods (art 36(1)), pointing a legal question to the ICJ (art 36(3)). Coercion needs a Chapter VII art 39 determination.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 11–14)
+      - 'Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (Chapter VI: art 33 means and the Council''s role; members bringing disputes; legal disputes to the ICJ)'
+    verify: false
+  - concept: laws2000-w10-article-39-determination-and-provisional-measures
+    plain: The Council's coercive powers open only once it finds a threat to the peace, breach of the peace or act of aggression. It may also ask the parties for holding steps, like a ceasefire.
+    concrete: In the tutorial's Aeystan scenario, a coup leads to factional fighting, refugees flee across borders, and neighbours Belandia and Ceria arm rival factions. Before the Council can impose anything under arts 41 or 42, it must determine a threat to the peace under art 39. It might also call on the factions, under art 40, to observe a ceasefire and let humanitarian aid through — without deciding who is in the right.
+    formal: 'Art 39: the Council "shall determine the existence of any threat to the peace, breach of the peace, or act of aggression and shall make recommendations, or decide what measures shall be taken" under arts 41 and 42. Art 40: to prevent aggravation, it may call upon the parties to comply with provisional measures, "without prejudice to the rights, claims, or position" of the parties.'
+    analogy:
+      text: 'A locked cupboard of tools: the art 39 finding is the key. Inside, the lower shelf holds non-forcible tools; the top shelf, force, reached only if the lower ones won''t do. At the door, the Council can say "stop where you are".'
+      maps:
+        - from: the key
+          to: the art 39 determination
+        - from: the lower shelf
+          to: art 41 measures not involving force
+        - from: the top shelf
+          to: art 42 force, if art 41 would be or has proved inadequate
+        - from: '"stop where you are"'
+          to: art 40 provisional measures
+      limits:
+        - A key either fits or it doesn't; the art 39 finding is a flexible judgement for the Council, whose reach has widened over time.
+        - 'In practice the order is not strict: provisional demands often come in the same resolution as sanctions or an authorisation of force.'
+    terms:
+      - term: art 39 determination
+        gloss: The Council's finding of a threat to the peace, breach of the peace or act of aggression; it separates Chapter VII from Chapter VI and opens arts 41 and 42.
+      - term: provisional measures (art 40)
+        gloss: Holding steps the Council calls on the parties to take to prevent aggravation, e.g. a ceasefire, cessation of hostilities or letting humanitarian aid in.
+      - term: without prejudice
+        gloss: 'Art 40 measures do not affect the parties'' rights, claims or position: they hold the situation, they do not settle it.'
+    misconceptions:
+      - claim: The Council must find an armed attack before it can act under Chapter VII.
+        tempting: '"Armed attack" is the trigger for force in self-defence.'
+        correction: Armed attack is the art 51 trigger. Chapter VII opens on the Council's own art 39 determination of a threat to the peace, breach of the peace or act of aggression.
+      - claim: Provisional measures must always come first, before any sanctions or force.
+        tempting: Art 40 says the Council may act "before" deciding measures under art 39.
+        correction: 'The lecturer said practice differs: the Council often demands a ceasefire or humanitarian access in the same resolution in which it imposes sanctions or authorises force, and this has been accepted.'
+      - claim: Provisional measures decide who is in the right.
+        tempting: They are directed at named parties and carry consequences.
+        correction: Art 40 measures are "without prejudice to the rights, claims, or position of the parties concerned"; their purpose is to prevent an aggravation of the situation.
+    socratic:
+      - ask: Civil war breaks out and refugees cross borders. Can the Council impose sanctions straight away?
+        hint: What opens Chapter VII?
+        answer: Not without first determining, under art 39, a threat to the peace, breach of the peace or act of aggression.
+      - ask: Once it has made that finding, what may it do?
+        hint: Two verbs in art 39.
+        answer: '"Make recommendations" (not binding) or "decide" measures under arts 41 and 42 (binding under art 25).'
+      - ask: What could it ask of the parties to stop the situation worsening meanwhile?
+        hint: Art 40.
+        answer: 'Provisional measures: a ceasefire, a cessation of hostilities, letting humanitarian aid in — without prejudice to the parties'' rights, claims or position.'
+      - ask: What happens if a party ignores them?
+        hint: Art 40's last sentence.
+        answer: The Council "shall duly take account" of the failure to comply — which may inform its later measures. Nothing follows automatically.
+      - ask: In what order should an answer take the steps?
+        hint: Determination, holding, non-forcible, forcible.
+        answer: Art 39 determination; any art 40 measures; art 41; art 42 only if art 41 measures would be or have proved inadequate.
+    elements:
+      - name: Art 39 determination
+        test: The Council determines a threat to the peace, breach of the peace or act of aggression; without it, arts 41 and 42 are closed and only Chapter VI is available.
+        authorities:
+          - un-charter-art-39
+      - name: Provisional measures (optional)
+        test: To prevent aggravation, the Council may call on the parties to comply with provisional measures, without prejudice to their rights; failure to comply is taken into account.
+        authorities:
+          - un-charter-art-40
+      - name: Non-forcible measures
+        test: 'Measures not involving armed force: sanctions, severance of communications or diplomatic relations, tribunals, ICC referral.'
+        authorities:
+          - un-charter-art-41
+      - name: Force as last resort
+        test: Only if the Council considers art 41 measures "would be inadequate or have proved to be inadequate".
+        authorities:
+          - un-charter-art-42
+    what-if:
+      - change: The Council has made no art 39 finding but wants to impose an arms embargo.
+        effect: 'It cannot yet: an embargo is an art 41 measure, and arts 41 and 42 are closed without an art 39 determination. Under Chapter VI it can only call upon, investigate and recommend.'
+      - change: A faction ignores the Council's call for a ceasefire.
+        effect: The Council "shall duly take account" of the failure (art 40). It may move to art 41 or 42 measures, but only by a further decision; nothing is automatic.
+      - change: The Council skips sanctions and goes straight to authorising force.
+        effect: 'Permissible if it considers art 41 measures "would be inadequate": art 42 does not require sanctions to be tried and to fail first.'
+    boundary:
+      - text: A Council call on the parties to negotiate.
+        why: Can sit in Chapter VI (art 33(2)), which needs no art 39 finding — why the lecturer said the debate over determinations for provisional measures can be theoretical.
+      - text: The 2014 Ebola outbreak in Africa.
+        why: 'Inside art 39: the Council treated it as a threat to the peace, showing how flexible the determination has become.'
+    transfer:
+      - scenario: A dam collapse in State Q floods its neighbours and armed groups seize the relief routes. The Council wants food convoys to move now, before deciding anything else.
+        answer: First it must determine a threat to the peace (art 39); practice now covers non-traditional threats. To prevent aggravation it may call on the armed groups, under art 40, to let humanitarian aid through — without prejudice to anyone's claims — and take account of non-compliance before deciding art 41 or 42 measures.
+    objections:
+      - position: An art 39 determination must precede any art 40 provisional measures.
+        evidence: Art 40 sits in Chapter VII and refers to measures "provided for in Article 39". The lecturer said most scholars take this view.
+        objection: Some provisional measures, such as calls to cease hostilities, resemble Chapter VI peaceful means, for which no determination is needed — so the debate can be largely theoretical.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 15–18)
+      - 'Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (Chapter VI v Chapter VII: the art 39 determination; recommend or decide; art 40 provisional measures, their wording, practice and the scholarly debate)'
+      - 'Week 10 - Tutorial Tasks - Collective Security (Q2: the Aeystan scenario)'
+    verify: false
+  - concept: laws2000-w10-article-39-findings-in-practice
+    plain: Of the three findings that open Chapter VII, the Council almost always uses "threat to the peace" — a flexible label stretched from invasions to terrorism, civil wars and even an epidemic.
+    concrete: 'In 2014 the Council treated the Ebola outbreak in Africa as a threat to international peace and security. The lecturer called it perhaps the most striking sign of how far the finding has travelled since 1945: from invasion and aggression between states, through weapons proliferation and terrorism, to the risk of epidemics and pandemics. By contrast, the Council has never or only very rarely found an act of aggression in its resolutions.'
+    formal: 'Art 39 lists three findings — "any threat to the peace, breach of the peace, or act of aggression" — any one of which opens Chapter VII. The Council''s power to determine the situation has an evolving interpretation in practice: proliferation of nuclear, chemical or biological weapons; internal armed conflicts; terrorism; serious human rights or IHL violations; the 2014 Ebola outbreak.'
+    terms:
+      - term: threat to the peace
+        gloss: The Council's usual art 39 finding; it widened from inter-state invasion to non-traditional threats such as proliferation, terrorism, internal conflict and Ebola.
+      - term: breach of the peace
+        gloss: Found on very few occasions, each an armed invasion of territory — e.g. Iraq's invasion of Kuwait in 1990.
+      - term: act of aggression
+        gloss: The third art 39 finding; the Council has never, or only very rarely, made it in its resolutions.
+    misconceptions:
+      - claim: The Council regularly finds acts of aggression.
+        tempting: Preventing aggression was the founders' central worry in 1945.
+        correction: The lecture said the Council has never, or only very rarely, found an act of aggression; its usual finding is a threat to the peace.
+      - claim: '"Threat to the peace" covers only armed conflicts between states.'
+        tempting: That was what the drafters had in mind in 1945.
+        correction: 'Practice has widened it to non-traditional threats: proliferation, terrorism, internal armed conflicts, serious human rights or IHL violations, and the 2014 Ebola outbreak.'
+      - claim: A coup or civil war is a breach of the peace.
+        tempting: Fighting has broken out, so the peace has been 'breached'.
+        correction: Breach findings have been reserved for armed invasions of territory, such as Iraq–Kuwait. Internal armed conflict is treated as a threat to the peace.
+    socratic:
+      - ask: What three findings does art 39 list?
+        hint: Threat, breach, …
+        answer: A threat to the peace, a breach of the peace, or an act of aggression. Any one opens Chapter VII.
+      - ask: Which has the Council used least, and which most?
+        hint: The lecture ranked them.
+        answer: Aggression least (never or very rarely); breach of the peace a very few times; threat to the peace by far the most.
+      - ask: What did the rare breach findings have in common?
+        hint: Think Kuwait, 1990.
+        answer: Each involved an armed invasion of territory, such as Iraq's invasion of Kuwait.
+      - ask: How has "threat to the peace" changed since 1945?
+        hint: From invasion to…
+        answer: It widened from inter-state invasion to proliferation, terrorism, internal conflict, serious human rights or IHL violations, and Ebola in 2014.
+      - ask: Why were determinations rare before 1990?
+        hint: Two superpowers and proxies.
+        answer: Cold War tension between the US and Russia, sometimes played out through proxies, made agreement hard; the Council has been much more active since.
+    what-if:
+      - change: State R's army crosses the border and occupies part of State S.
+        effect: An armed invasion of territory is the classic case for a breach of the peace (as with Iraq–Kuwait), and it may also be aggression — the categories overlap. A threat to the peace remains the safest finding to argue.
+      - change: There is no fighting at all, only a secret nuclear weapons programme.
+        effect: Proliferation has been treated as a threat to the peace, supporting art 41 sanctions — as with the DPRK (S/RES/2397).
+      - change: A permanent member backs the government accused of mass atrocities.
+        effect: The finding is for the Council, so the veto (art 27(3)) can stop any determination being made, as Cold War deadlock showed.
+    boundary:
+      - text: Iraq's 1990 invasion of Kuwait.
+        why: 'An armed invasion: found a breach of the peace, and arguably aggression too — the categories overlap.'
+      - text: A disease outbreak (Ebola 2014).
+        why: 'Inside "threat to the peace": the Council''s flexible reading reaches non-traditional threats, even epidemics.'
+    transfer:
+      - scenario: 'Exam problem: a cyber-attack by a non-state group shuts down several states'' power grids, and the group threatens more. Which art 39 finding should you argue?'
+        answer: 'A threat to the peace — the finding the Council actually uses. Support it by analogy with the closest practice: terrorism by non-state groups and other non-traditional threats. A breach finding has been reserved for armed invasions, and aggression findings are never or very rarely made.'
+    storyboard:
+      - caption: '1945: invasion and aggression in mind'
+        detail: 'The Charter''s drafters thought of traditional risks: invasion or aggression between states.'
+      - caption: 'Cold War: few determinations'
+        detail: Tension between the US and Russia, sometimes through proxies, made Chapter VII determinations hard to agree.
+      - caption: '1990: Iraq invades Kuwait'
+        detail: One of the very few breach-of-the-peace findings, followed by the Res 678 authorisation.
+      - caption: The threat widens
+        detail: Proliferation, terrorism, internal armed conflicts, serious human rights or IHL violations become threats to the peace.
+      - caption: '2014: Ebola is a threat'
+        detail: Even an epidemic can now be a threat to international peace and security.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slide 16)
+      - 'Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (art 39 findings: aggression never or very rarely, breach of the peace for invasions such as Iraq–Kuwait, threat to the peace widening to proliferation, terrorism and Ebola; Cold War deadlock)'
+    verify: false
+  - concept: laws2000-w10-non-forcible-measures-under-article-41
+    plain: 'Once it has found a threat, the Council can order coercion short of force: trade and financial sanctions, cutting communications or diplomatic ties, creating criminal tribunals, or referring a situation to the ICC.'
+    concrete: North Korea has faced Council sanctions for years because of nuclear proliferation. S/RES/2397 (2017) cut the caps on refined petroleum products supplied to the DPRK, banned its exports of food, agricultural products, machinery and electrical equipment, banned supplying it with industrial machinery, vehicles and metals (except spare parts for civilian passenger aircraft), and required members to de-register vessels involved in illicit activities.
+    formal: 'Art 41: the Council "may decide what measures not involving the use of armed force are to be employed", which "may include complete or partial interruption of economic relations and of rail, sea, air, postal, telegraphic, radio, and other means of communication, and the severance of diplomatic relations". The list is non-exhaustive. Under Chapter VII the Council may also refer a situation to the ICC Prosecutor (Rome Statute art 13(b)).'
+    analogy:
+      text: Comprehensive sanctions are like cutting a whole apartment block's power to pressure one tenant; targeted sanctions cut only that tenant's line.
+      maps:
+        - from: the apartment block
+          to: the target state and its population
+        - from: cutting the block's power
+          to: comprehensive financial and trade sanctions (e.g. Iraq, 1990s)
+        - from: cutting one tenant's line
+          to: 'targeted measures: asset freezes, travel bans, commodity bans'
+      limits:
+        - Even targeted measures are decided only after an art 39 determination, and they work only as well as states implement them.
+    terms:
+      - term: comprehensive sanctions
+        gloss: Financial, trade and other economic measures against a whole state — e.g. Iraq in the 1990s, North Korea today; controversial for their impact on populations.
+      - term: targeted ("smart") sanctions
+        gloss: Measures aimed at specific commodities (e.g. conflict diamonds) or at particular groups, corporations or individuals (travel bans, asset freezes).
+      - term: sanctions committee
+        gloss: A Council body that often determines the details of a specific sanctions regime.
+      - term: Chapter VII referral
+        gloss: The Council, acting under Chapter VII, referring a situation to the ICC Prosecutor (Rome Statute art 13(b)), e.g. Darfur 2005.
+    misconceptions:
+      - claim: A naval blockade is an art 41 measure because it interrupts sea communications.
+        tempting: Art 41 lists interrupting "sea" communications.
+        correction: Art 42 names "blockade" among operations by air, sea or land forces. Art 41 covers only measures not involving the use of armed force.
+      - claim: The ICC is a UN court, set up by the Council like the ICTY.
+        tempting: The Council can send situations to it.
+        correction: The slides say the ICC is not part of the UN. The Council can refer a situation to its Prosecutor under Chapter VII (Rome Statute art 13(b)), as with Darfur in 2005.
+      - claim: Targeted sanctions need no art 39 determination because they hit only individuals.
+        tempting: They seem lighter than comprehensive sanctions.
+        correction: 'All art 41 measures are decided in accordance with art 39: targeting changes who bears the measure, not the need for a determination first.'
+    socratic:
+      - ask: The Council has found a threat to the peace. Which measures does art 41 itself name?
+        hint: Economic, communications, diplomatic.
+        answer: Complete or partial interruption of economic relations and of rail, sea, air, postal, telegraphic, radio and other communications, and severance of diplomatic relations.
+      - ask: Is that list closed?
+        hint: The word "include".
+        answer: No — it is non-exhaustive, giving the Council a wide scope of non-military coercive measures.
+      - ask: Why has practice moved from comprehensive to targeted sanctions?
+        hint: Iraq in the 1990s.
+        answer: Comprehensive sanctions harmed whole populations, so the Council turned to commodity bans, travel bans and asset freezes on particular groups, corporations or individuals.
+      - ask: Could the Council create a criminal tribunal under art 41?
+        hint: ICTY, ICTR.
+        answer: Yes. That was debated at first, since art 41 never mentions tribunals, but members accepted it and it is no longer questioned.
+      - ask: What else short of force can it do about atrocity crimes?
+        hint: A court outside the UN.
+        answer: Refer the situation to the ICC Prosecutor under Chapter VII (Rome Statute art 13(b)), as with Darfur in 2005.
+    what-if:
+      - change: The Council wants to pressure only a junta's leaders, not the whole population.
+        effect: 'Targeted measures fit: asset freezes and travel bans on named individuals, groups or corporations — the trend that grew from criticism of comprehensive sanctions on Iraq.'
+      - change: The Council adds a naval blockade of the target's ports.
+        effect: 'That moves from art 41 to art 42: "blockade" is listed among operations by air, sea or land forces, available only if art 41 measures would be or have proved inadequate.'
+      - change: Mass atrocities are alleged and the state is not a party to the Rome Statute.
+        effect: The Council, acting under Chapter VII, may still refer the situation to the ICC Prosecutor (art 13(b)), as it did for Darfur.
+    boundary:
+      - text: The ICTY and ICTR.
+        why: 'Inside art 41: tribunals are not named, but the list is non-exhaustive and members accepted the Council''s power to create them.'
+      - text: A no-fly zone enforced by members' aircraft.
+        why: 'Outside art 41: enforcing a no-fly zone (Libya 2011, Res 1973) appears among authorisations of force under art 42.'
+    transfer:
+      - scenario: A rebel group funds a brutal civil war by selling timber smuggled through neighbouring ports. Its leaders bank abroad. The Council has found a threat to the peace but wants to spare ordinary civilians.
+        answer: 'Use targeted art 41 measures: a ban on trade in the commodity funding the war (as with conflict diamonds), plus asset freezes and travel bans on the leaders. A sanctions committee can set the details; effectiveness depends on how states implement the regime.'
+    objections:
+      - position: A political organ like the Council cannot create a criminal court under art 41.
+        evidence: Art 41's examples are economic, communications and diplomatic measures; no tribunal is mentioned. This was debated when the ICTY and ICTR were contemplated.
+        objection: The list is non-exhaustive ("include"). Members accepted that the Council could create the tribunals, and the lecturer said that is no longer questioned.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 18–23)
+      - 'Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (art 41: sanctions, the non-exhaustive list, the debate over creating the ICTY and ICTR)'
+      - 'Week 12 - Tutorial Revision Quiz Questions (Q17: art 41 v art 42 measures)'
+    verify: false
+  - concept: laws2000-w10-authorisation-of-force-under-article-42
+    plain: If non-forcible measures would fail or have failed, the Council can authorise military action. With no UN army, it authorises coalitions of states or regional organisations, in clear words like "all necessary means".
+    concrete: 'In 1990, after Iraq''s illegal occupation of Kuwait, the Council adopted Res 678, authorising member states co-operating with Kuwait — an ad hoc coalition led by the US — to use "all necessary means" to restore Kuwait''s sovereignty. That became Operation Desert Storm. The UN had no army of its own to send: art 43 was never implemented, so the Council authorised states to act.'
+    formal: 'Art 42: should the Council consider art 41 measures "would be inadequate or have proved to be inadequate, it may take such action by air, sea, or land forces as may be necessary to maintain or restore international peace and security", including demonstrations and blockade. It is an exception to art 2(4), a last resort, relying on member states (art 43 never implemented); regional organisations may be authorised (art 53).'
+    terms:
+      - term: '"all necessary means"'
+        gloss: The usual Chapter VII authorising formula for force, used in Res 678 (Kuwait) and Res 794 (Somalia).
+      - term: art 43
+        gloss: The Charter's plan for forces made available to the Council; never implemented — hence no standing UN army and reliance on coalitions.
+      - term: revived or implied authorisation
+        gloss: A claim to revive an earlier authorisation, or to imply one from resolutions that do not expressly authorise force.
+    misconceptions:
+      - claim: Res 1441 (2002) authorised the use of force against Iraq.
+        tempting: It threatened "serious consequences" and gave Iraq a "final opportunity".
+        correction: Res 1441 contained no authorising words. The coalition instead claimed that Iraq's material breach revived Res 678's authority — a claim most Council and UN members, and most scholars, rejected.
+      - claim: Art 42 force is available only after sanctions have been tried and failed.
+        tempting: Force is a last resort.
+        correction: Art 42 also applies where the Council considers art 41 measures "would be inadequate" — they need not have been tried first.
+      - claim: A regional organisation such as NATO may enforce peace on its own initiative.
+        tempting: NATO acted in Libya; ECOWAS in Liberia.
+        correction: 'Regional organisations enforce Council decisions only when the Council authorises them (art 53, Chapter VIII): the permissible use of force stays centralised in the Council.'
+    socratic:
+      - ask: Sanctions are failing to stop an invasion. What can the Council do next?
+        hint: Art 42's condition.
+        answer: If it considers art 41 measures inadequate (or would be), it may take action by air, sea or land forces — an exception to art 2(4) and a last resort.
+      - ask: Whose forces will act?
+        hint: Art 43.
+        answer: Member states' — art 43 was never implemented, so the Council authorises coalitions of states, or regional organisations under art 53.
+      - ask: What words should you look for in the resolution?
+        hint: Res 678.
+        answer: An express Chapter VII authorisation, typically "all necessary means", tied to a stated purpose.
+      - ask: What purposes have authorisations served besides reversing invasions?
+        hint: Somalia, Libya, piracy.
+        answer: Humanitarian relief in internal conflict (Res 794), protection of civilians (Res 1973, 1975), no-fly zones and embargoes (Res 1973), and repressing piracy (Res 1816).
+      - ask: A state says a 1990 authorisation still covers its 2003 invasion. Is that enough?
+        hint: Revived authorisation.
+        answer: 'Most states and scholars said no: an authorisation should not be revived or implied from vaguer language such as "serious consequences".'
+    elements:
+      - name: Art 39 determination
+        test: The Council has determined a threat to the peace, breach of the peace or act of aggression.
+        authorities:
+          - un-charter-art-39
+      - name: Art 41 inadequate
+        test: The Council considers non-forcible measures "would be inadequate or have proved to be inadequate".
+        authorities:
+          - un-charter-art-42
+      - name: Express authorisation
+        test: Acting under Chapter VII, the Council expressly authorises member states, a coalition or a regional organisation (art 53) — typically "all necessary means".
+        authorities:
+          - unsc-resolution-678
+          - unsc-resolution-794
+      - name: Within the stated purpose
+        test: Force is authorised for a specific purpose — e.g. restoring Kuwait's sovereignty, a secure environment for humanitarian relief; otherwise art 2(4) applies.
+        authorities:
+          - un-charter-art-2-4
+    what-if:
+      - change: The resolution "demands" compliance and warns of "serious consequences" but never says "all necessary means".
+        effect: No authorisation should be implied from that vaguer language; a state using force on it alone breaches art 2(4) unless another exception applies.
+      - change: The Council authorises a regional organisation rather than a coalition of states.
+        effect: 'Still lawful: the Council may authorise regional organisations to enforce its decisions (art 53, Chapter VIII), e.g. NATO in Libya, ECOWAS in Liberia.'
+      - change: The authorisation is to protect civilians, but a state uses force to change the government.
+        effect: The authorisation is for a specific purpose; force outside it is not covered by art 42 and falls back under the art 2(4) prohibition.
+    boundary:
+      - text: 'Somalia 1992 (Res 794): "all necessary means" for humanitarian relief in an internal conflict.'
+        why: 'Inside art 42: an express Chapter VII authorisation, though the conflict was internal and the purpose humanitarian.'
+      - text: 'Iraq 2003: invasion relying on Res 678, 687 and 1441.'
+        why: 'Outside on the majority view: no express authorisation; the claimed revival was rejected by most Council and UN members and most legal scholars.'
+    transfer:
+      - scenario: Pirates seize ships off a collapsed state's coast. The Council finds a threat to the peace, says sanctions on the state would be pointless, and authorises co-operating states to use all necessary means to repress piracy there.
+        answer: 'That is a valid art 42 authorisation: art 39 finding, art 41 judged inadequate (it need not be tried first), express "all necessary means" wording, and a stated purpose — as with Somalia 2008 (Res 1816). Co-operating states may use force only to repress piracy, within the mandate.'
+    objections:
+      - position: In 2003 the coalition argued Iraq's material breach of Res 687's ceasefire conditions revived the authority to use force under Res 678.
+        evidence: The US letter of 20 March 2003 relied on Res 678 and 687, and on Res 1441's finding of material breach, "final opportunity" and warnings of "serious consequences".
+        objection: Most other Council and UN members, and most legal scholars, rejected this. Res 1441 contained no authorising words; the UK's Chilcot inquiry found not all peaceful options had been exhausted.
+    storyboard:
+      - caption: '1990: Res 678 authorises force'
+        detail: '"All necessary means" to restore Kuwait''s sovereignty — Operation Desert Storm.'
+      - caption: '1991: Res 687 ceasefire conditions'
+        detail: Iraq takes on extensive disarmament obligations as conditions of the ceasefire.
+      - caption: '2002: Res 1441''s "final opportunity"'
+        detail: Council finds Iraq in material breach and recalls warnings of "serious consequences" — but authorises nothing expressly.
+      - caption: 'March 2003: coalition invades'
+        detail: A US- and UK-led coalition, including Australia, claims a material breach revived Res 678's authority.
+      - caption: The claim is rejected
+        detail: Most Council and UN members and most scholars reject the revival; Chilcot later finds peaceful options not exhausted.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 24–31)
+      - 'Week 12 - Tutorial Revision Quiz Questions (Q17: art 41 v art 42 measures)'
+    verify: false
+  - concept: laws2000-w10-un-peacekeeping-operations
+    plain: UN peacekeeping missions are run by the UN itself to keep a peace, not enforce one. Traditionally they need the parties' consent, stay impartial and use force only in self-defence — though that is changing.
+    concrete: In the Democratic Republic of the Congo, the UN mission (MONUSCO) has been authorised to use force to carry out its mandate, including targeted offensive operations — far from the traditional rule of force only in self-defence. Mali saw a similar shift. Elsewhere, in Kosovo and Timor-Leste, the UN went further still and acted as a transitional administration.
+    formal: 'UN peacekeeping or peace operations are not explicitly mentioned in the UN Charter. They were primarily created to keep the peace, not to enforce it, and are UN operations, unlike authorisations to states. Traditional principles: consent of the parties; impartiality; non-use of force except in self-defence. Practice is evolving: transitional administration; missions authorised to use force (DRC, Mali).'
+    analogy:
+      text: 'Traditional peacekeepers are like a referee both teams invited: neutral, keeping the game calm, only stepping in to protect themselves. A Chapter VII authorisation is more like sending in police.'
+      maps:
+        - from: both teams invite the referee
+          to: consent of the parties
+        - from: the referee's neutrality
+          to: impartiality
+        - from: stepping in only to protect themselves
+          to: force only in self-defence
+        - from: the police
+          to: states authorised under art 42 to use "all necessary means"
+      limits:
+        - Some modern mandates authorise peacekeepers to use force, even targeted offensive operations (DRC, Mali) — something no referee does.
+    terms:
+      - term: peace operation
+        gloss: A UN-run mission, not mentioned in the Charter, created to keep the peace rather than enforce it.
+      - term: consent of the parties
+        gloss: 'The first traditional principle: the mission deploys with the agreement of the parties to the conflict.'
+      - term: transitional administration
+        gloss: The UN temporarily administering a territory, as in Kosovo and Timor-Leste — an evolution of peacekeeping.
+    misconceptions:
+      - claim: Peacekeeping is expressly provided for in Chapter VII of the Charter.
+        tempting: The slides' tools table lists peacekeeping operations in the Chapter VII columns.
+        correction: The slides say peacekeeping is not explicitly mentioned in the Charter; it grew up in practice.
+      - claim: A peacekeeping mission is just another name for a coalition authorised to use force.
+        tempting: Both involve troops sent with Council backing.
+        correction: Peacekeeping operations are UN operations, created to keep the peace; an authorisation empowers states or regional organisations to use force under art 42.
+      - claim: Peacekeepers may never use force beyond self-defence.
+        tempting: That is the third traditional principle.
+        correction: 'Practice has changed: some missions, as in the DRC (including targeted offensive operations) and Mali, are authorised to use force to carry out their mandate.'
+    socratic:
+      - ask: Where in the Charter will you find peacekeeping?
+        hint: Look for the word.
+        answer: 'Nowhere: peace operations are not explicitly mentioned in the Charter.'
+      - ask: What were they originally for?
+        hint: Keep or enforce?
+        answer: To keep the peace, not to enforce it.
+      - ask: What three principles traditionally governed them?
+        hint: Agreement, neutrality, restraint.
+        answer: Consent of the parties, impartiality, and non-use of force except in self-defence.
+      - ask: How has practice moved on?
+        hint: Kosovo; the DRC.
+        answer: The UN has acted as transitional administration (Kosovo, Timor-Leste), and some missions are authorised to use force to carry out their mandate (DRC, Mali).
+      - ask: How does a peacekeeping mission differ from a Res 678-style authorisation?
+        hint: Who runs it?
+        answer: Peacekeeping is a UN operation; an authorisation empowers member states or regional organisations to use force.
+    elements:
+      - name: Consent of the parties
+        test: The parties to the conflict agree to the mission's deployment.
+      - name: Impartiality
+        test: The mission does not take sides between the parties.
+      - name: Non-use of force except in self-defence
+        test: Traditionally force only in self-defence; some mandates now authorise force to carry out the mandate (DRC, Mali).
+    what-if:
+      - change: The host government withdraws its consent to the mission.
+        effect: 'The first traditional principle is no longer met: a consent-based mission rests on the parties'' agreement. Continuing coercively would look like enforcement, which traditional peacekeeping was not designed for.'
+      - change: The mandate authorises the mission to use force to protect civilians and neutralise armed groups.
+        effect: The mission moves beyond the traditional self-defence principle, as in the DRC and Mali — reflecting the changing attitude to the use of force in peace operations.
+    boundary:
+      - text: MONUSCO's targeted offensive operations in the DRC.
+        why: 'Still a UN peace operation, but at the edge: force authorised to carry out the mandate goes beyond the traditional self-defence principle.'
+      - text: NATO's operation in Libya (2011).
+        why: 'Not peacekeeping: a regional organisation acting on a Council authorisation to use force, not a UN-run operation.'
+    transfer:
+      - scenario: After a ceasefire between two factions, both ask the UN to send monitors to patrol the line between them. Soon one faction starts attacking civilians in a nearby town.
+        answer: 'The monitoring mission fits traditional peacekeeping: consent, impartiality, force only in self-defence. Protecting the town by force would need a mandate authorising force to carry it out (as in the DRC or Mali), or a separate Chapter VII authorisation to states.'
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 33–37, 44)
+    verify: false
+  - concept: laws2000-w10-general-assembly-and-secretary-general
+    plain: The General Assembly — every member, one vote each — can discuss peace and security and recommend, but not decide. It holds back while the Council deals with a matter, unless the Council is deadlocked.
+    concrete: In 1950, with the Cold War deadlocking the Council, the Assembly adopted Resolution 377(V), "Uniting for Peace". If the Council, because the permanent members cannot agree, fails to exercise its primary responsibility where there appears to be a threat to the peace, breach of the peace or act of aggression, the Assembly will consider the matter immediately and recommend collective measures to members.
+    formal: 'The Assembly may discuss peace and security questions and, except as provided in art 12, recommend; questions needing action go to the Council (art 11(2)). It may recommend measures for peaceful adjustment (art 14; Certain Expenses). While the Council exercises its functions on a matter, it shall not recommend unless asked (art 12(1); Wall, paras 27–28). Uniting for Peace: GA Res 377(V). The Secretary-General may alert the Council (art 99).'
+    terms:
+      - term: subsidiary responsibility
+        gloss: 'The Assembly''s secondary role in peace and security: it discusses and recommends (arts 11(2), 14), subject to art 12, while the Council has primary responsibility.'
+      - term: Uniting for Peace
+        gloss: 'GA Res 377(V) (1950): if P-5 disagreement stops the Council acting, the Assembly considers the matter at once and recommends collective measures.'
+      - term: good offices
+        gloss: The Secretary-General's role in mediating and resolving international crises, expanded over the years, including through Special Representatives.
+    misconceptions:
+      - claim: Under Uniting for Peace the Assembly can adopt binding decisions in place of the Council.
+        tempting: It steps in when the Council cannot act.
+        correction: Uniting for Peace lets the Assembly recommend collective measures to members. Binding force under art 25 attaches only to Security Council decisions.
+      - claim: The Assembly may recommend on any dispute at any time.
+        tempting: Art 11(2) lets it discuss any peace-and-security question.
+        correction: 'Art 12(1): while the Council is exercising its functions on a dispute or situation, the Assembly shall not make recommendations on it unless the Council requests.'
+      - claim: The Assembly has no role at all in peace and security.
+        tempting: Art 24 gives the Council primary responsibility.
+        correction: 'The Assembly has a subsidiary responsibility: it may discuss and recommend (arts 11(2), 14), and in practice it may now consider a matter in parallel with the Council, usually taking a broader view.'
+    socratic:
+      - ask: How are votes counted in the Assembly?
+        hint: Art 18.
+        answer: One state, one vote, across all 193 members — why it is seen as the most "democratic" organ.
+      - ask: What may it do about a threat to peace?
+        hint: Arts 11(2) and 14.
+        answer: Discuss it and recommend, including measures for peaceful adjustment; a question needing action must be referred to the Council.
+      - ask: What limits it while the Council is dealing with the matter?
+        hint: Art 12(1).
+        answer: It shall not make recommendations on that dispute or situation unless the Council asks — though practice now allows parallel consideration.
+      - ask: And if a veto paralyses the Council?
+        hint: '1950.'
+        answer: Under Uniting for Peace, the Assembly considers the matter immediately with a view to recommending collective measures to members.
+      - ask: What can the Secretary-General do?
+        hint: Art 99.
+        answer: Bring to the Council's attention any matter that may threaten international peace and security, and offer good offices in mediating crises.
+    elements:
+      - name: Discuss
+        test: The Assembly may discuss any question relating to international peace and security brought before it.
+        authorities:
+          - un-charter-art-11-2
+      - name: Not while the Council acts
+        test: While the Council exercises its functions on the matter, no Assembly recommendation unless the Council requests.
+        authorities:
+          - un-charter-art-12-1
+        cases:
+          - construction-of-a-wall-advisory-opinion
+      - name: Recommend, never decide
+        test: It may recommend, including measures for peaceful adjustment; questions needing action go to the Council.
+        authorities:
+          - un-charter-art-11-2
+          - un-charter-art-14
+        cases:
+          - certain-expenses-of-the-united-nations
+      - name: 'Deadlock: Uniting for Peace'
+        test: If lack of P-5 unanimity stops the Council acting on a threat, breach or aggression, the Assembly recommends collective measures.
+        authorities:
+          - unga-resolution-377-v
+    what-if:
+      - change: The Council is actively handling the crisis, and the Assembly wants to recommend a solution.
+        effect: Art 12(1) bars Assembly recommendations on it unless the Council requests; the lecture noted practice now allows parallel consideration, the Assembly usually taking a broader view.
+      - change: A permanent member vetoes every draft on the crisis.
+        effect: 'Uniting for Peace applies: the Council has failed, through lack of P-5 unanimity, to exercise its primary responsibility, so the Assembly may consider the matter at once and recommend collective measures.'
+      - change: The Secretary-General sees a crisis no member has raised.
+        effect: Art 99 lets the Secretary-General bring it to the Council's attention, and good offices may be offered to mediate.
+    boundary:
+      - text: The Assembly considering a crisis in parallel with the Council.
+        why: Once doubtful under art 12(1); the lecture explained the old no-overlap view has evolved, and parallel consideration is now accepted.
+      - text: An Assembly resolution "demanding" sanctions.
+        why: 'Outside binding effect: whatever its wording, the Assembly recommends; only Council decisions bind under art 25.'
+    transfer:
+      - scenario: Fighting threatens a region. A Council draft authorising sanctions fails on one permanent member's veto. Small states ask the Assembly to act.
+        answer: The Council has failed, for lack of P-5 unanimity, to exercise its primary responsibility, so under Uniting for Peace the Assembly may consider the matter immediately and recommend collective measures to members. Those recommendations do not bind under art 25.
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 38–43)
+      - 'Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (the Assembly''s role alongside the Council: the old no-overlap view and parallel consideration)'
+    verify: false
+  - concept: laws2000-w10-decisions-and-recommendations
+    plain: Only the parts of a Security Council resolution that decide something bind states; parts that merely recommend do not. A binding decision also overrides a conflicting treaty obligation.
+    concrete: 'The lecturer warned against treating a resolution as binding as a whole. One resolution can contain paragraphs that are only recommendations and paragraphs that are decisions — often both — and only the decisions bind. Which is which usually turns on the words the Council uses, chiefly its verbs, and some wording is debated. Art 39 draws the same line: the Council "shall make recommendations, or decide".'
+    formal: 'Art 25: members "agree to accept and carry out the decisions of the Security Council in accordance with the present Charter". Recommendations — e.g. "appropriate procedures or methods of adjustment" (art 36(1)), or recommendations under art 39 — do not bind. Under art 103 Charter obligations prevail over obligations under "any other international agreement". The General Assembly only recommends (arts 11(2), 14).'
+    terms:
+      - term: decision
+        gloss: A Council act members have agreed to accept and carry out (art 25); binding on all members.
+      - term: recommendation
+        gloss: Advice from the Council (or the Assembly) that does not bind, e.g. procedures recommended under art 36(1).
+    misconceptions:
+      - claim: Every paragraph of a Security Council resolution binds member states.
+        tempting: A resolution is adopted as a single instrument.
+        correction: The lecture stressed only decisions bind under art 25; recommendations in the same resolution do not. The wording, usually the verbs, shows which is which.
+      - claim: A state is bound only if it voted for the resolution.
+        tempting: Consent usually governs international obligations.
+        correction: By art 25 members have agreed in advance to carry out Council decisions; a decision binds every member, however it voted and whether or not it sits on the Council.
+      - claim: A Chapter VI recommendation binds the parties like a Chapter VII decision.
+        tempting: Both come from the Council, whose decisions bind.
+        correction: Under Chapter VI the Council recommends (art 36(1)); recommendations do not bind. Binding force attaches to decisions.
+    socratic:
+      - ask: A client asks whether a Council resolution obliges its state to act. Where do you start?
+        hint: Not the whole resolution.
+        answer: With the operative paragraph that matters, asking whether it is a decision or only a recommendation.
+      - ask: How do you tell them apart?
+        hint: Grammar.
+        answer: Usually by the words the Council uses — chiefly the verbs; borderline wording is debated.
+      - ask: If it is a decision, whom does it bind?
+        hint: Art 25.
+        answer: All UN members, who agreed to accept and carry out the Council's decisions.
+      - ask: The state has a treaty requiring the opposite. Which prevails?
+        hint: Art 103.
+        answer: The Charter obligation to carry out the decision prevails over the obligation under the other agreement.
+    elements:
+      - name: Find the operative paragraph
+        test: Identify the paragraph that imposes the requirement; resolutions often mix recommendations and decisions.
+      - name: Decision or recommendation?
+        test: 'Read the wording, usually the verbs: "decide" binds, "recommend" does not (compare art 39''s "make recommendations, or decide").'
+        authorities:
+          - un-charter-art-39
+      - name: A decision binds all members
+        test: Members agree to accept and carry out the Council's decisions.
+        authorities:
+          - un-charter-art-25
+      - name: Priority over other treaties
+        test: Charter obligations prevail over conflicting obligations under any other international agreement.
+        authorities:
+          - un-charter-art-103
+    what-if:
+      - change: The paragraph says the Council "recommends" that members cut trade with the target.
+        effect: 'A recommendation: it does not bind under art 25, so a member keeping up trade breaks no Charter obligation, and art 103 does not override its trade treaty.'
+      - change: The same paragraph instead says the Council "decides" that members cut trade.
+        effect: 'A decision: binding on all members under art 25, and prevailing over any conflicting trade treaty under art 103.'
+    boundary:
+      - text: A paragraph whose verb sits between recommending and deciding.
+        why: 'The lecturer said there are debates: wording usually decides, and borderline language is contested.'
+      - text: A General Assembly resolution, however firmly worded.
+        why: 'Outside art 25: the Assembly recommends (arts 11(2), 14); only Security Council decisions bind.'
+    transfer:
+      - scenario: State A has a bilateral air-services treaty with State B. A Council resolution "decides" that all members shall deny landing rights to B's airline and "recommends" that they also reduce diplomatic staff.
+        answer: 'A must deny landing rights: that paragraph is a decision binding under art 25, and art 103 makes it prevail over the air-services treaty. The staff paragraph is a recommendation: A may follow it but is not bound to.'
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 10, 15–16, 39)
+      - Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (decisions v recommendations within one resolution; the verbs; art 39 "recommend or decide"; art 103 overriding treaty obligations)
+    verify: false
+flows:
+  - slug: what-can-the-security-council-do
+    title: What can the Security Council do about this situation?
+    summary: Walks a peace-and-security problem from Chapter VI peaceful settlement through the art 39 determination, art 40 provisional measures and art 41 measures to an art 42 authorisation, with Uniting for Peace if the Council is deadlocked.
+    start: c1
+    concepts:
+      - laws2000-w10-peaceful-settlement-under-chapter-vi
+      - laws2000-w10-article-39-determination-and-provisional-measures
+      - laws2000-w10-article-39-findings-in-practice
+      - laws2000-w10-non-forcible-measures-under-article-41
+      - laws2000-w10-authorisation-of-force-under-article-42
+      - laws2000-w10-un-peacekeeping-operations
+      - laws2000-w10-general-assembly-and-secretary-general
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 11–28, 33–34, 41)
+      - Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (Chapter VI to art 41)
+      - Week 10 - Tutorial Tasks - Collective Security (Q2)
+    nodes:
+      - id: c1
+        kind: step
+        text: 'Start with Chapter VI: the parties must first seek a peaceful solution, and the Council may call upon them, investigate and recommend.'
+        note: 'Art 33(1) means: negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, regional agencies. Council: arts 33(2), 34, 36(1); legal disputes generally to the ICJ (art 36(3)). No art 39 finding is needed.'
+        concept: laws2000-w10-peaceful-settlement-under-chapter-vi
+        authorities:
+          - un-charter-art-33-1
+        next: c2
+      - id: c2
+        kind: ask
+        text: Has the Council determined a threat to the peace, breach of the peace or act of aggression (art 39)?
+        note: Argue a threat to the peace — the finding the Council actually uses. Practice covers proliferation, terrorism, internal armed conflict, serious human rights or IHL violations, even Ebola (2014).
+        concept: laws2000-w10-article-39-findings-in-practice
+        authorities:
+          - un-charter-art-39
+        branches:
+          - label: 'Yes'
+            to: c4
+          - label: 'No'
+            to: c3
+      - id: c3
+        kind: ask
+        text: Is the Council blocked because the permanent members cannot agree?
+        note: Each permanent member holds a veto (art 27(3)).
+        branches:
+          - label: Yes — a veto blocks it
+            to: e-ufp
+          - label: 'No'
+            to: e-ch6
+      - id: c4
+        kind: step
+        text: 'Consider provisional measures to stop the situation worsening (art 40): a ceasefire, cessation of hostilities, humanitarian access.'
+        note: Without prejudice to the parties' rights, claims or position; the Council takes account of non-compliance. In practice often demanded alongside sanctions or force.
+        concept: laws2000-w10-article-39-determination-and-provisional-measures
+        authorities:
+          - un-charter-art-40
+        next: c5
+      - id: c5
+        kind: ask
+        text: Does the Council consider that measures not involving force would be adequate?
+        note: Art 42 opens only if art 41 measures "would be inadequate or have proved to be inadequate" — they need not have been tried first.
+        branches:
+          - label: 'Yes'
+            to: c6
+          - label: No — they would be or have proved inadequate
+            to: c7
+      - id: c6
+        kind: step
+        text: 'Decide art 41 measures: comprehensive or targeted sanctions, cutting communications or diplomatic relations, an ad hoc tribunal, or an ICC referral.'
+        note: 'Targeted measures (commodities, asset freezes, travel bans) answer criticism of comprehensive sanctions'' impact on populations. ICC referral: Rome Statute art 13(b), e.g. Darfur 2005.'
+        concept: laws2000-w10-non-forcible-measures-under-article-41
+        authorities:
+          - un-charter-art-41
+          - rome-statute-art-13-b
+        next: e-41
+      - id: c7
+        kind: ask
+        text: Who will carry out the military action?
+        note: 'There is no standing UN army: art 43 was never implemented.'
+        concept: laws2000-w10-authorisation-of-force-under-article-42
+        authorities:
+          - un-charter-art-42
+        branches:
+          - label: A coalition of member states
+            to: e-coalition
+          - label: A regional organisation
+            to: e-regional
+          - label: A UN-run peace operation
+            to: e-pko
+      - id: e-ufp
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'Uniting for Peace: the General Assembly may consider the matter at once and recommend collective measures — recommendations only, not binding decisions.'
+        authorities:
+          - unga-resolution-377-v
+      - id: e-ch6
+        kind: end
+        tone: not-met
+        text: 'Chapter VII is closed: the Council can only call upon, investigate and recommend under Chapter VI.'
+      - id: e-41
+        kind: end
+        tone: met
+        text: 'Art 41 measures decided: binding on all members (art 25). If they prove inadequate, the Council may move to art 42.'
+        authorities:
+          - un-charter-art-25
+      - id: e-coalition
+        kind: end
+        tone: met
+        text: Authorise member states, expressly, to use "all necessary means" for a stated purpose (e.g. Res 678, Kuwait 1990).
+        authorities:
+          - unsc-resolution-678
+      - id: e-regional
+        kind: end
+        tone: met
+        text: Authorise a regional organisation to enforce the Council's decisions (art 53, Chapter VIII), e.g. NATO in Libya, ECOWAS in Liberia.
+      - id: e-pko
+        kind: end
+        tone: qualified
+        text: 'A UN peace operation: traditionally consent, impartiality and force only in self-defence; some mandates authorise force to carry them out (DRC, Mali).'
+        concept: laws2000-w10-un-peacekeeping-operations
+  - slug: does-the-resolution-bind-or-authorise
+    title: Does this Security Council resolution bind the state — or authorise its use of force?
+    summary: 'Reads a resolution paragraph by paragraph: decision or recommendation, art 25 and art 103, then whether any use of force rests on an express Chapter VII authorisation rather than a revived or implied one.'
+    start: r1
+    concepts:
+      - laws2000-w10-decisions-and-recommendations
+      - laws2000-w10-security-council-composition-and-powers
+      - laws2000-w10-authorisation-of-force-under-article-42
+    sources:
+      - Week 10 - Lecture Slides - Collective Security and International Organisations (slides 10, 15–16, 25–31)
+      - Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1) (decisions and recommendations; art 103)
+    nodes:
+      - id: r1
+        kind: ask
+        text: Is the paragraph relied on a decision, or only a recommendation?
+        note: Read the wording, usually the verbs. One resolution often mixes both; art 39 itself says the Council "shall make recommendations, or decide". Borderline wording is debated.
+        concept: laws2000-w10-decisions-and-recommendations
+        branches:
+          - label: A decision
+            to: r2
+          - label: Only a recommendation
+            to: e-rec
+      - id: r2
+        kind: step
+        text: It binds every UN member, however it voted and whether or not it sits on the Council (art 25).
+        authorities:
+          - un-charter-art-25
+        next: r3
+      - id: r3
+        kind: ask
+        text: Does carrying it out conflict with the state's obligations under another treaty?
+        branches:
+          - label: 'Yes'
+            to: r4
+          - label: 'No'
+            to: r5
+      - id: r4
+        kind: step
+        text: The Charter obligation prevails over the conflicting treaty obligation (art 103), whatever the treaty's date.
+        authorities:
+          - un-charter-art-103
+        next: r5
+      - id: r5
+        kind: ask
+        text: Is the state relying on the resolution to use force?
+        branches:
+          - label: 'Yes'
+            to: r6
+          - label: 'No'
+            to: e-bound
+      - id: r6
+        kind: ask
+        text: Does the resolution, acting under Chapter VII, expressly authorise force — e.g. "all necessary means" — for this purpose?
+        note: 'Art 42 is an exception to art 2(4) and a last resort. Authorisations name a purpose: restoring Kuwait''s sovereignty (Res 678), humanitarian relief (Res 794), protecting civilians (Res 1973).'
+        authorities:
+          - un-charter-art-42
+          - unsc-resolution-678
+          - unsc-resolution-794
+        branches:
+          - label: 'Yes'
+            to: e-auth
+          - label: No — only vaguer words, or an older resolution
+            to: e-noauth
+      - id: e-rec
+        kind: end
+        tone: not-met
+        text: 'Not binding: a recommendation is advice. The state breaks no Charter obligation by not following it, and art 103 does not apply.'
+      - id: e-bound
+        kind: end
+        tone: met
+        text: The state must carry out the decision.
+      - id: e-auth
+        kind: end
+        tone: met
+        text: Force is authorised under art 42, within the stated purpose; outside it, art 2(4) applies.
+      - id: e-noauth
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'No authorisation. Do not imply one from words like "serious consequences": the 2003 claim that Res 687 and 1441 revived Res 678 was rejected by most states and scholars.'
+        authorities:
+          - un-charter-art-2-4

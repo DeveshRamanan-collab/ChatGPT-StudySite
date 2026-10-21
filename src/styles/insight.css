@@ -1,0 +1,116 @@
+/* What the site knows about the learner: the /insight page (LearnerModel), the error-log misconception journal,
+   the exam-debrief split and teach-back coverage. Tokens only; no selector starts with a shared class.
+   Motion: revealed panels fade in (opacity only, 180 ms) — the same in full, calm and off. */
+
+@keyframes insight-fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* ---------- /insight ---------- */
+.insight { max-width: var(--measure); font-family: var(--font-ui); line-height: var(--lh-ui); }
+.insight-basis { color: var(--ink-2); font-size: var(--t-sm); }
+.insight-section { margin-top: var(--s-8); }
+.insight-section > h2 { margin-top: 0; }
+.insight-note, .insight-empty { color: var(--ink-2); font-size: var(--t-sm); max-width: var(--measure); }
+.insight-sub { font-size: var(--t-lg); margin-top: var(--s-6); }
+.insight-sub span { margin-left: var(--s-2); font-family: var(--font-ui); font-size: var(--t-sm); font-weight: 400; letter-spacing: 0; color: var(--ink-2); }
+
+.insight-item__row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); }
+.insight-rec { margin-bottom: var(--s-3); font-size: var(--t-sm); }
+.insight-rec p { display: inline; margin: 0; }
+.insight-rec .insight-why__btn { margin-left: var(--s-1); vertical-align: middle; }
+.insight-why {
+  margin: var(--s-2) 0 var(--s-3); padding-left: var(--s-3); border-left: 2px solid var(--line);
+  color: var(--ink-2); font-size: var(--t-sm); max-width: var(--measure);
+}
+.insight-why:not([hidden]) { animation: insight-fade var(--dur-micro) var(--ease-out) both; }
+.insight-why__btn { color: var(--ink-2); }
+
+.insight-list { list-style: none; padding: 0; margin: 0 0 var(--s-3); display: grid; gap: var(--s-3); }
+.insight-item { padding: var(--s-2) 0 var(--s-2) var(--s-4); border-left: 2px solid var(--line); }
+.insight-item__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 var(--s-3); margin: 0 0 var(--s-1); }
+.insight-item__title { font-family: var(--font-body); font-size: var(--t-body); line-height: 1.35; text-decoration-color: transparent; }
+@media (hover: hover) and (pointer: fine) { .insight-item__title:hover { text-decoration-color: currentColor; } }
+.insight-item__unit { font-size: var(--t-xs); color: var(--ink-2); }
+.insight-item__stat { display: inline-flex; align-items: center; gap: var(--s-2); margin-right: auto; font-size: var(--t-sm); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.insight-meter { display: inline-block; width: 4.5rem; height: 6px; border-radius: 3px; background: var(--paper-3); overflow: hidden; }
+.insight-meter > span { display: block; height: 100%; background: var(--ink-2); transform-origin: left center; }
+.insight-more { margin-bottom: var(--s-4); }
+@media (max-width: 599px) {
+  .insight-item__stat { flex-basis: 100%; }
+  .insight-item__stat + .btn { margin-left: calc(-1 * var(--s-4)); } /* ghost label lines up with the text above */
+}
+
+/* Open questions */
+.insight-oq__form { display: grid; gap: var(--s-2); }
+.insight-oq__row { display: flex; gap: var(--s-2); align-items: center; }
+.insight-oq__input, .errlog-journal__input {
+  width: 100%; min-height: 44px; padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper); color: var(--ink);
+  font-family: var(--font-body); font-size: var(--t-body); line-height: 1.4;
+  transition: border-color var(--dur-micro) var(--ease-hover);
+}
+.insight-oq__input::placeholder, .errlog-journal__input::placeholder { color: var(--ink-3); }
+@media (hover: hover) and (pointer: fine) { .insight-oq__input:hover, .errlog-journal__input:hover { border-color: var(--ink-3); } }
+.insight-oq__input:focus-visible, .errlog-journal__input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.insight-oq__input:disabled, .errlog-journal__input:disabled { color: var(--ink-3); background: var(--paper-2); }
+.insight-oq__status { min-height: 32px; margin: var(--s-2) 0; display: flex; align-items: center; gap: var(--s-2); font-size: var(--t-sm); color: var(--ink-2); }
+.insight-oq__list { list-style: none; padding: 0; margin: 0 0 var(--s-4); display: grid; gap: var(--s-2); }
+.insight-oq__item { padding: var(--s-2) 0 var(--s-2) var(--s-4); border-left: 2px solid var(--line); }
+.insight-oq__text { margin: 0; font-family: var(--font-body); font-size: var(--t-body); line-height: 1.5; }
+.insight-oq__meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-1) var(--s-2); margin: var(--s-1) 0 0; font-size: var(--t-xs); color: var(--ink-2); }
+.insight-oq__meta > span { margin-right: auto; }
+.insight-oq__resolved > summary {
+  display: inline-flex; align-items: center; min-height: 32px; cursor: pointer; border-radius: var(--r-sm);
+  font-size: var(--t-sm); color: var(--ink-2); transition: color var(--dur-micro) var(--ease-hover);
+}
+@media (hover: hover) and (pointer: fine) { .insight-oq__resolved > summary:hover { color: var(--ink); } }
+.insight-oq__resolved > summary:active { transform: scale(.97); transition: transform var(--dur-press) var(--ease-hover); }
+.insight-oq__resolved > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.insight-oq__resolved .insight-oq__text { color: var(--ink-2); }
+
+/* ---------- Error log: misconception journal ---------- */
+.errlog-tools { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.errlog-tools__status { margin: calc(-1 * var(--s-3)) 0 var(--s-4); font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.errlog-tools__status:empty { margin: 0; }
+.errlog-journal__open { margin-left: var(--s-2); }
+.errlog-journal { display: grid; gap: var(--s-3); margin-top: var(--s-3); padding: var(--s-3) var(--s-4); border-radius: var(--r-md); background: var(--paper-2); font-family: var(--font-ui); }
+.errlog-journal { animation: insight-fade var(--dur-micro) var(--ease-out) both; }
+.errlog-journal__field { display: grid; gap: var(--s-1); }
+.errlog-journal__input { font-size: var(--t-sm); resize: vertical; }
+.errlog-journal__status { min-height: 1.4em; margin: 0; font-size: var(--t-xs); color: var(--ink-2); }
+.errlog-copy { width: 100%; min-height: 8rem; margin: 0 0 var(--s-5); padding: var(--s-2); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper); font-family: var(--font-mono); font-size: var(--t-xs); }
+.errlog-copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* ---------- Exam debrief: where the marks went ---------- */
+.debrief-split { margin: var(--s-5) 0 var(--s-7); font-family: var(--font-ui); line-height: var(--lh-ui); }
+.debrief-split__title { margin-top: 0; font-size: var(--t-lg); }
+.debrief-split__groups { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-4); }
+.debrief-split__group { padding-left: var(--s-4); border-left: 2px solid var(--line); }
+.debrief-split__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 var(--s-2); margin: 0 0 var(--s-1); }
+.debrief-split__name { font-weight: 600; }
+.debrief-split__n { font-size: var(--t-sm); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.debrief-split__times { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.debrief-split__part { display: grid; grid-template-columns: 7rem 1fr; gap: var(--s-2); align-items: baseline; }
+.debrief-split__label { margin: 0; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+@media (max-width: 479px) { .debrief-split__part { grid-template-columns: 1fr; gap: 0; } }
+.debrief-split__def { font-size: var(--t-xs); color: var(--ink-2); }
+.debrief-split__concepts { list-style: none; padding: 0; margin: 0 0 var(--s-2); display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-1) var(--s-3); font-size: var(--t-sm); }
+.debrief-split__more { margin-left: calc(-1 * var(--s-2)); }
+.debrief-split__next, .debrief-split__none { margin: 0; font-size: var(--t-sm); color: var(--ink-2); max-width: var(--measure); }
+
+/* ---------- Explain it back: teach-back coverage ---------- */
+.teachback { margin-top: var(--s-5); padding-top: var(--s-4); border-top: 1px solid var(--line); animation: insight-fade var(--dur-micro) var(--ease-out) both; }
+.teachback__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-1) var(--s-3); margin: 0 0 var(--s-2); }
+.teachback__head .label { margin: 0; }
+.teachback__note { font-size: var(--t-xs); color: var(--ink-2); }
+.teachback__line { margin: 0 0 var(--s-1); font-size: var(--t-sm); }
+.teachback__k { font-weight: 600; margin-right: var(--s-1); }
+.teachback__core { margin: var(--s-2) 0 0; padding-left: var(--s-3); border-left: 2px solid var(--line); font-family: var(--font-body); font-size: var(--t-sm); line-height: 1.6; color: var(--ink-2); max-width: var(--measure); }
+
+/* Touch: every action in these rows is at least 44 px tall. */
+@media (pointer: coarse) {
+  .insight-rec .btn, .insight-item__row .btn, .insight-oq__meta .btn, .insight-oq__status .btn, .insight-more,
+  .errlog-tools .chip, .errlog-tools .btn, .errlog-journal__open, .insight-oq__resolved > summary, .debrief-split__more { min-height: 44px; }
+}
+.insight-formats { border-collapse: collapse; font-family: var(--font-ui); font-size: var(--t-sm); }
+.insight-formats :is(th, td) { border-bottom: 1px solid var(--line); padding: var(--s-2) var(--s-3); text-align: left; }
+.insight-formats td { text-align: right; font-variant-numeric: tabular-nums; }

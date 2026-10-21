@@ -1,0 +1,97 @@
+/* StudySite design tokens — single source of truth (see CLAUDE.md).
+   [data-theme-sample="light|dark"] re-scopes a theme's tokens to one element, so /styleguide can show both at once. */
+:root, [data-theme-sample="light"] {
+  --paper:#FBF7F0; --paper-2:#F4EEE3; --paper-3:#EAE2D3;
+  --ink:#1F1B16; --ink-2:#5C554B; --ink-3:#9C9385;
+  --accent:#C2611E; --accent-soft:#F3DCC7;
+  --accent-fill:#B25A1D; --on-accent:#FFFFFF; /* filled accent surfaces: 4.8:1 text contrast */
+  --sage:#5F7F5A; --clay:#B5453E; --gold:#C9A227;
+  --line:rgba(31,27,22,.10);
+  --shadow:0 1px 2px rgba(31,27,22,.04), 0 12px 32px -12px rgba(31,27,22,.12);
+  --grain:.03;
+  /* Derived surfaces (theme-aware; dark values in the theme blocks below). */
+  --shadow-lift:0 1px 2px rgba(31,27,22,.04), 0 18px 40px -12px rgba(31,27,22,.16); /* card hover */
+  --sheen:rgba(255,255,255,.5); /* cursor-following card highlight */
+  --scrim:color-mix(in oklab, var(--ink) 20%, transparent); /* sheet / modal / palette backdrop */
+  /* Glass (html[data-glass="on"]; see CLAUDE.md "Glass"): warm paper-2 tint, never blue-white. */
+  --glass-opacity:.55;            /* tint strength 0–1; the Settings slider writes it (0.2–0.9) */
+  --glass-blur:18px;              /* backdrop blur */
+  --glass-saturate:140%;          /* backdrop saturation */
+  --glass-edge:inset 0 0 0 1px var(--line);                /* inside hairline */
+  --glass-specular:inset 0 1px 0 rgba(255,255,255,.35);    /* top-edge highlight (dark value in the theme blocks) */
+  --glass-text-backing:.5;        /* legibility floor: below this opacity a plain --paper layer tops the surface up to
+                                     this combined alpha, so glass text keeps 4.5:1 over dense text in both themes */
+  /* Cursor dot/beam: constant paper white on purpose — mix-blend-mode: difference inverts it over any theme. */
+  --cursor-ink:#FBF7F0;
+
+  --font-display:"Fraunces","Fraunces Fallback",Georgia,serif; --font-body:"Fraunces","Fraunces Fallback",Georgia,serif;
+  --font-ui:"Inter","Inter Fallback",system-ui,sans-serif; --font-mono:"JetBrains Mono","JetBrains Mono Fallback",ui-monospace,monospace;
+  --t-xs:.8125rem; --t-sm:.9375rem; --t-body:1.1875rem; --t-lg:1.375rem; --t-xl:1.75rem;
+  --t-2xl:2.25rem; --t-3xl:3rem; --t-hero:clamp(3rem,8vw,7rem);
+  --lh-body:1.6; --lh-heading:1.1; --lh-ui:1.4;
+  --measure:66ch; --measure-wide:80ch;
+  --track-display:-0.02em; --track-caps:.08em;
+
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px; --s-8:64px; --s-9:96px; --s-10:128px;
+  --gutter:24px;
+  --r-sm:6px; --r-md:12px; --r-lg:20px; --r-pill:999px;
+  /* Chrome: header height (sticky offsets for the rail, sheet and anchors). */
+  --nav-h:64px;
+  --z-content:0; --z-sticky:10; --z-cursor:100; --z-palette:50; --z-toast:60; /* cursor above every overlay (pointer-events: none) so it never vanishes under one */
+
+  --ease-out:cubic-bezier(.23,1,.32,1); --ease-inout:cubic-bezier(.77,0,.175,1);
+  --ease-drawer:cubic-bezier(.32,.72,0,1); --ease-hover:ease;
+  --dur-press:160ms; --dur-micro:180ms; --dur-ui:240ms; --dur-panel:420ms; --dur-scene:1100ms;
+  --enter-scale:.96; --stagger:40ms; --blur-polish:2px; --lerp-cursor:.15; --tilt-max:3deg;
+  --parallax-back:.85; --parallax-mid:1; --parallax-front:1.15;
+}
+@media (max-width:599px){:root{--nav-h:100px}} /* the header wraps to two rows on phones */
+@media (min-width:768px){:root{--gutter:48px}}
+@media (min-width:1280px){:root{--gutter:96px}}
+
+/* Theme: <html data-theme="light|white|dark|auto"> (owner: src/lib/theme.ts; set before paint by Layout's inline script).
+   Dark "lamp-lit" values apply to data-theme="dark", and to "auto" when the system prefers dark. The two blocks
+   below hold the same values on purpose (a media query cannot share a selector list with a plain rule). */
+:root[data-theme="white"], [data-theme-sample="white"] {
+  /* White: the light theme on a pure white page (user request, Oct 2026); ink, accent and feedback colours unchanged. */
+  --paper:#FFFFFF; --paper-2:#F6F5F2; --paper-3:#EBE9E4;
+  --accent-soft:#FBE4D2;
+  --grain:0;
+}
+:root[data-theme="dark"], [data-theme-sample="dark"] {
+  --paper:#17140F; --paper-2:#1F1B15; --paper-3:#2A241C;
+  --ink:#F1EAE0; --ink-2:#B8AE9F; --ink-3:#7A7163;
+  --accent:#E6873F; --accent-soft:#3A2716;
+  --accent-fill:#E6873F; --on-accent:#17140F;
+  --sage:#8FB088; --clay:#D96C64; --gold:#E1C15A;
+  --line:rgba(241,234,224,.10);
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 16px 40px -12px rgba(0,0,0,.5);
+  --shadow-lift:0 1px 2px rgba(0,0,0,.3), 0 20px 44px -12px rgba(0,0,0,.6);
+  --sheen:rgba(241,234,224,.06);
+  --scrim:rgba(0,0,0,.45);
+  --glass-specular:inset 0 1px 0 rgba(241,234,224,.08);
+  --grain:.04;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --paper:#17140F; --paper-2:#1F1B15; --paper-3:#2A241C;
+    --ink:#F1EAE0; --ink-2:#B8AE9F; --ink-3:#7A7163;
+    --accent:#E6873F; --accent-soft:#3A2716;
+    --accent-fill:#E6873F; --on-accent:#17140F;
+    --sage:#8FB088; --clay:#D96C64; --gold:#E1C15A;
+    --line:rgba(241,234,224,.10);
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 16px 40px -12px rgba(0,0,0,.5);
+    --shadow-lift:0 1px 2px rgba(0,0,0,.3), 0 20px 44px -12px rgba(0,0,0,.6);
+    --sheen:rgba(241,234,224,.06);
+    --scrim:rgba(0,0,0,.45);
+  --scrim:rgba(0,0,0,.45);
+    --glass-specular:inset 0 1px 0 rgba(241,234,224,.08);
+    --grain:.04;
+  }
+}
+
+/* Motion dial: Off collapses every duration; Calm is handled in JS (no parallax/tilt/pins). */
+:root[data-motion="off"] { --dur-press:0ms; --dur-micro:0ms; --dur-ui:0ms; --dur-panel:0ms; --dur-scene:0ms; --stagger:0ms; --blur-polish:0px; --tilt-max:0deg; }
+@media (prefers-reduced-motion: reduce){
+  :root:not([data-motion="full"]):not([data-motion="calm"]) { --dur-press:0ms; --dur-micro:0ms; --dur-ui:0ms; --dur-panel:0ms; --dur-scene:0ms; --stagger:0ms; --tilt-max:0deg; }
+}

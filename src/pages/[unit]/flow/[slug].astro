@@ -1,0 +1,66 @@
+---
+// One decision flow (features 12, 156, 45, 24, 87, 57, 32, 39, 93, 101): walk it, see it as a map, order its steps.
+// Case, authority and concept names are resolved here at build time, so the island links only to pages that exist.
+import { getCollection, getEntry } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FlowWalker from '../../../components/flows/FlowWalker';
+import { units, conceptSlug } from '../../../lib/content';
+import { flowSlug } from '../../../lib/flow';
+import type { FlowRefs } from '../../../components/flows/FlowNote';
+import '../../../styles/flows.css';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const u of await units())
+    for (const f of await getCollection('flows', (x) => x.data.unit === u.id && !x.data.seed))
+      out.push({ params: { unit: u.id, slug: flowSlug(f.id, u.id) }, props: { u, f } });
+  return out;
+}
+const { u, f } = Astro.props;
+const d = f.data;
+const week = await getEntry('weeks', d.week);
+
+const ids = (pick: (n: (typeof d.nodes)[number]) => string[]) => [...new Set(d.nodes.flatMap(pick))];
+const refs: FlowRefs = { cases: {}, authorities: {}, concepts: {} };
+for (const id of ids((n) => n.cases)) { const e = await getEntry('cases', id); if (e) refs.cases[id] = e.data.name; }
+for (const id of ids((n) => n.authorities)) { const e = await getEntry('authorities', id); if (e) refs.authorities[id] = e.data.title; }
+for (const id of [...new Set([...ids((n) => (n.concept ? [n.concept] : [])), ...d.concepts])]) {
+  const e = await getEntry('concepts', id);
+  if (e) refs.concepts[id] = { title: e.data.title, href: `/${e.data.unit}/concept/${conceptSlug(e)}` };
+}
+const flow = { id: f.id, unit: d.unit, week: d.week, title: d.title, summary: d.summary, start: d.start, concepts: d.concepts, nodes: d.nodes, sources: d.sources, verify: d.verify };
+const concepts = d.concepts.map((id) => refs.concepts[id]).filter((c): c is FlowRefs['concepts'][string] => !!c);
+---
+
+<Layout title={d.title} description={d.summary} wide>
+  <Breadcrumbs items={[
+    { href: '/', label: 'Units' },
+    { href: `/${u.id}`, label: u.data.code },
+    ...(week ? [{ href: `/${u.id}/week/${week.data.number}`, label: `Week ${week.data.number}` }] : []),
+    { href: `/${u.id}/flows`, label: 'Decision flows' },
+    { label: d.title },
+  ]} />
+  <p class="label">Decision flow{week && ` · Week ${week.data.number}`}</p>
+  <h1 data-split>{d.title}</h1>
+  <p class="flow-page__summary">{d.summary}</p>
+  {d.verify && <p class="flow-page__verify">Parts of this flow are still to be checked against the unit materials.</p>}
+
+  <FlowWalker client:load flow={flow} refs={refs} />
+
+  <div class="flow-page__more">
+    {concepts.length > 0 && (
+      <>
+        <h2>Concepts in this flow</h2>
+        <p class="flow-page__chips">{concepts.map((c) => <a class="chip" href={c.href}>{c.title}</a>)}</p>
+      </>
+    )}
+    {d.sources.length > 0 && (
+      <details class="flow-page__sources">
+        <summary>Sources</summary>
+        <ul>{d.sources.map((s) => <li>{s}</li>)}</ul>
+      </details>
+    )}
+    <p class="flow-page__all"><a href={`/${u.id}/flows`}>All {u.data.code} decision flows</a></p>
+  </div>
+</Layout>

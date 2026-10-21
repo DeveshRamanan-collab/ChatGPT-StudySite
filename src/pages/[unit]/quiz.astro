@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import QuizModes from '../../components/quiz/QuizModes';
+import { examOf } from '../../lib/exam';
+import { units } from '../../lib/content';
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+---
+
+<Layout title={`${u.data.code} quiz`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Quiz' }]} />
+  <h1 data-split>Quiz</h1>
+  <div class="island-stage"><QuizModes client:load unit={u.id} answerStyle={u.data['answer-style']} exam={examOf(u.data)} /></div>
+</Layout>

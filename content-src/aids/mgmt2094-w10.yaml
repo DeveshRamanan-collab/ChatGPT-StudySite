@@ -1,0 +1,946 @@
+unit: mgmt2094
+week: 10
+source: raw/mgmt2094-sci/week-10
+generator: aids-1
+aids:
+  - concept: mgmt2094-w10-agile-innovation
+    plain: 'Agile is an approach to managing complex work through collaboration, iterative development, feedback and adaptation: small self-managed teams plan in short cycles and adjust as they learn, rather than fixing everything up front.'
+    concrete: In 2001, 17 rebellious software developers, including Jeff Sutherland, met in Snowbird, Utah, to improve on 'waterfall' development, in which detailed requirements and execution plans are created up front and passed sequentially from function to function. Waterfall worked in stable environments, but when software markets began to change rapidly, specifications were outdated by the time the software reached customers, and developers felt oppressed by bureaucratic procedures. The rebels proposed four new values and called their call to arms 'The Agile Manifesto'.
+    formal: 'Slide 2: agile innovation ''is a term used to describe a series of methods which originated in the field of software development'': self-managed, high-intensity team work (scrums), rapid prototyping, testing and learning, methods more open-ended than traditional project management, and creativity tools such as design thinking. Two key roles: team leader and process facilitator. Rigby, Sutherland and Takeuchi (2016): a radical alternative to command-and-control management.'
+    analogy:
+      text: Cooking for guests course by course, watching what comes back on the plates and adjusting the next dish, rather than fixing the whole banquet menu a month ahead.
+      maps:
+        - from: the banquet menu fixed a month ahead
+          to: 'waterfall: detailed plans made up front'
+        - from: serving one course at a time
+          to: short cycles that deliver usable outcomes
+        - from: watching what comes back on the plates
+          to: 'review: gathering feedback'
+        - from: changing the next dish
+          to: 'adapt: adjusting the plan'
+      limits:
+        - A cook works alone and guests only eat; agile work is done by self-managed, cross-functional teams, and customers collaborate throughout.
+    terms:
+      - term: agile
+        gloss: 'Tutor slides: an approach to managing complex work through collaboration, iterative development, feedback and adaptation. It plans in shorter cycles; it does not mean working without a plan.'
+      - term: waterfall development
+        gloss: Detailed requirements and execution plans created up front, then passed sequentially from function to function. Fine in stable environments; the approach the Agile Manifesto set out to improve.
+      - term: Agile Manifesto
+        gloss: Four values written in 2001 by 17 software developers meeting in Snowbird, Utah (Beck et al.), as an alternative to waterfall development.
+      - term: command-and-control
+        gloss: 'Management in which leaders assign the work and approve decisions. Rigby et al. call agile a radical alternative: self-managed, customer-focused, multidisciplinary teams.'
+    elements:
+      - name: Individuals and interactions over processes and tools
+        test: 'Are projects built around motivated, trusted people in self-managing, cross-functional teams that talk face to face? Rigby et al.''s adaptation: people over processes and tools.'
+        authorities:
+          - mgmt2094-beck-et-al-2001-agile-manifesto
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Working software over comprehensive documentation
+        test: Does the team deliver usable outcomes in short cycles and test working prototypes with a few customers, rather than producing excessive documentation?
+        authorities:
+          - mgmt2094-beck-et-al-2001-agile-manifesto
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Customer collaboration over contract negotiation
+        test: 'Are customers involved regularly, with specifications evolving, since customers can seldom predict what they will actually want? Rigby et al.: over rigid contracts.'
+        authorities:
+          - mgmt2094-beck-et-al-2001-agile-manifesto
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Responding to change over following a plan
+        test: Does the team plan only the tasks that won't have changed by the time it reaches them, and welcome learning that alters direction, even late?
+        authorities:
+          - mgmt2094-beck-et-al-2001-agile-manifesto
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+    misconceptions:
+      - claim: Agile means working without a plan.
+        tempting: The manifesto values responding to change over following a plan.
+        correction: 'The tutor slide: agile does not mean working without a plan; it means planning in shorter cycles. Rigby et al.: teams create a vision and plan, planning only what won''t change.'
+      - claim: Agile means everyone doing what they want, or doing what the boss says, only faster.
+        tempting: Self-managed teams sound like anarchy; sprints sound like a speed-up.
+        correction: 'Rigby et al.: some executives associate agile with anarchy, others take it to mean ''doing what I say, only faster''. Agile is neither.'
+      - claim: Agile innovation began on Toyota's production line.
+        tempting: The slides trace the 'lean' family to Toyota's Production System.
+        correction: 'Slide 2: agile innovation methods originated in the field of software development; Toyota is the root of lean. The 2001 manifesto came from software developers.'
+    socratic:
+      - ask: Under waterfall, detailed plans are made up front and passed from function to function. When did that work?
+        hint: Stable or changing markets?
+        answer: 'Rigby et al.: it worked fine in stable environments.'
+      - ask: What went wrong when software markets began to change rapidly and unpredictably?
+        hint: By the time of delivery…
+        answer: Product specifications were outdated by the time the software was delivered, and developers felt oppressed by bureaucratic procedures.
+      - ask: What did the 17 developers at Snowbird propose instead?
+        hint: Four of them.
+        answer: 'Four values, the Agile Manifesto: individuals and interactions, working software, customer collaboration and responding to change, each valued over a more traditional item.'
+      - ask: Two months into building an app for university students, research shows students don't want several key features. What does the agile cycle say to do?
+        hint: Review, then…
+        answer: 'Reconsider priorities based on the feedback: review, adapt, repeat. Sticking to the plan, or adding features while keeping everything planned, ignores what was learned.'
+    what-if:
+      - change: A software product's market becomes stable and predictable, with requirements clear at the outset that will stay stable.
+        effect: 'The case for agile weakens: Rigby et al. say waterfall worked fine in stable environments, and their exhibit lists stable markets and clear, stable requirements as conditions unfavourable to agile.'
+    boundary:
+      - text: A team that never runs sprints but uses kanban to cut lead times and work in process.
+        why: 'Still agile: Rigby et al. list scrum, lean development and kanban as agile varieties. Scrum is only the most used, at least five times as often as the others.'
+      - text: Executives who use agile terms like 'sprints' and 'time boxes' but overturn team decisions and add review layers.
+        why: 'Not agile: Rigby et al. say such executives know ''just enough to be dangerous'' and unwittingly undermine their agile teams.'
+    transfer:
+      - scenario: A city library has planned a year-long redesign of its teen programmes in full detail. Three months in, teenagers who try the first sessions say they want something different.
+        answer: 'Agile would plan in shorter cycles: prioritise the most valuable sessions, deliver them, review the teenagers'' feedback and adapt. Customer collaboration and responding to change apply: Rigby et al. note that customers can seldom predict what they will want, and teams should welcome learning that alters direction, even late.'
+    objections:
+      - position: Agile should replace traditional management everywhere.
+        evidence: 'Rigby et al.: over 25 to 30 years agile greatly increased success rates in software development, improved quality and speed to market, and boosted IT teams'' motivation and productivity.'
+        objection: The same authors say agile is less useful in routine operations and processes, and executives must judge whether the payoffs justify the effort and expense of a transition.
+        reply: Most companies now operate in highly dynamic environments and need innovation not only in products and services but in functional processes too.
+    storyboard:
+      - caption: Prioritise
+        detail: Choose valuable work. In scrum, the initiative owner rank-orders the backlog by the latest estimates of value.
+      - caption: Deliver
+        detail: 'Create usable outcomes in a short cycle: working versions, not documents.'
+      - caption: Review
+        detail: Gather feedback, for example by testing a small working prototype with a few customers.
+      - caption: Adapt
+        detail: Adjust the plan in light of what was learned.
+      - caption: Repeat
+        detail: 'Keep learning: plan the next short cycle as new information emerges.'
+    sources:
+      - Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up (slides 2)
+      - Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW) (slides 3–5)
+      - Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016) (pp 41–45)
+  - concept: mgmt2094-w10-scrum-in-practice
+    plain: In scrum, a small cross-functional team manages itself and builds working versions in sprints of under a month; an initiative owner ranks the work by value; a facilitator protects the process.
+    concrete: In 2015 General Electric rebranded itself a 'digital industrial company' and created GE Digital, with all 20,000-plus of its software-related employees. COO Brad Surak, a former software engineer, piloted scrum with the leadership team developing industrial internet applications, then applied it to management processes such as operating reviews. Surak is the initiative owner and an engineering executive the scrum master. The team runs two-week sprints, holds stand-ups three times a week and charts progress on a board any employee can see.
+    formal: 'Rigby, Sutherland and Takeuchi (2016) illustrate agile with scrum, used at least five times as often as other techniques: a small team (usually three to nine), mostly full-time, cross-functional, self-managing and strictly accountable. The initiative owner rank-orders a portfolio backlog but does not tell the team who should do what. A process facilitator guides the process and protects the team. Sprints run less than a month.'
+    terms:
+      - term: initiative owner
+        gloss: 'Also known as the product owner: ultimately responsible for delivering value to customers and the business; builds and ruthlessly rank-orders the portfolio backlog.'
+      - term: portfolio backlog
+        gloss: The initiative owner's list of promising opportunities, often built with design thinking or crowdsourcing, ranked by the latest estimates of value. Not a pile of overdue work.
+      - term: process facilitator
+        gloss: 'Often a trained scrum master: guides the process, protects the team from distractions and helps it put its collective intelligence to work.'
+      - term: stand-up
+        gloss: A brief daily meeting at which team members review progress and identify roadblocks.
+    elements:
+      - name: Team
+        test: Small (usually three to nine), mostly full-time, cross-functional with all the skills needed, self-managing and strictly accountable for every aspect of the work.
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Initiative owner
+        test: Responsible for delivering value to customers and the business; continually, ruthlessly rank-orders the portfolio backlog. Does not tell the team who should do what or how long tasks will take.
+        authorities:
+          - mgmt2094-example-ge-digital
+      - name: Process facilitator
+        test: Guides the process, protects the team from distractions and helps it put its collective intelligence to work.
+      - name: Sprints
+        test: The team breaks the highest-ranked tasks into small modules, decides how much to take on, defines 'done' and builds working versions in cycles of less than a month.
+      - name: Transparency
+        test: Brief daily stand-ups review progress and roadblocks; disagreements are resolved through experimentation and feedback, not endless debates or appeals to authority.
+      - name: Test and improve
+        test: Small working prototypes are tested with a few customers for short periods; if customers get excited, a prototype may be released at once. Then brainstorm ways to improve future cycles.
+    misconceptions:
+      - claim: The initiative owner assigns tasks and deadlines to team members.
+        tempting: The owner is accountable for delivering value.
+        correction: 'Rigby et al.: the initiative owner doesn''t tell the team who should do what or how long tasks will take; the team decides how much work to take on and how to do it.'
+      - claim: Disagreements in a scrum team are settled by debate or by the most senior person.
+        tempting: That is how most meetings end.
+        correction: The team resolves disagreements through experimentation and feedback rather than endless debates or appeals to authority.
+      - claim: Rotating members between teams each sprint spreads skills and helps agile.
+        tempting: Fresh eyes sound useful.
+        correction: 'Rigby et al.: avoid beginning with part-time assignment or rotating membership; stable teams are 60% more productive and 60% more responsive to customer input.'
+    socratic:
+      - ask: Brad Surak is the initiative owner of GE Digital's leadership scrum team. What is he responsible for?
+        hint: Value, and a ranked list.
+        answer: Delivering value to customers and the business, by building a backlog of opportunities and continually rank-ordering it. Surak and his scrum master prioritised items such as knotty pricing issues.
+      - ask: Does the initiative owner then tell each team member what to do and how long it should take?
+        hint: Who manages the team?
+        answer: No. The owner doesn't tell the team who should do what or how long tasks will take; the self-managing team decides.
+      - ask: What does the engineering executive serving as scrum master do?
+        hint: Guides, protects…
+        answer: 'As process facilitator: guides the process, protects the team from distractions and helps it put its collective intelligence to work.'
+      - ask: How does GE Digital keep the process transparent?
+        hint: Meetings and a board.
+        answer: Two-week sprints, stand-ups three times a week, and a progress board in an open conference room that any employee can see.
+      - ask: A prototype excites a few test customers, but a senior executive isn't a fan. What may happen?
+        hint: Who decides?
+        answer: 'Rigby et al.: it may be released immediately, even if a senior executive isn''t a fan or others think it needs more bells and whistles.'
+    what-if:
+      - change: The scrum team is staffed part-time, and members rotate in and out each sprint.
+        effect: 'Rigby et al. advise against beginning this way: empirical data shows stable teams are 60% more productive and 60% more responsive to customer input than teams that rotate members.'
+    boundary:
+      - text: Systematic's nine-member executive group holding daily 20-minute stand-ups at 8:40 am.
+        why: 'In: they discuss what members did the day before, what they will do that day and where they need help. Scrum practices work for leadership teams too.'
+      - text: A team split over two designs tests both with a few customers instead of escalating to a manager.
+        why: 'In: scrum teams resolve disagreements through experimentation and feedback rather than endless debates or appeals to authority.'
+    transfer:
+      - scenario: A hospital's patient-information unit wants to rewrite its discharge instructions so patients understand them. Managers plan to assign each writer a section and a deadline.
+        answer: Scrum would form a small, mostly full-time, cross-functional team, for example clinicians and writers. An initiative owner ranks the opportunities by value but does not assign tasks; a facilitator protects the process. The team works in sprints of under a month, holds brief stand-ups and tests small prototypes with a few patients, keeping what they like.
+    objections:
+      - position: Scrum is just a way for managers to get their orders carried out faster.
+        evidence: It runs on sprints, time boxes, daily stand-ups and a backlog ranked by the initiative owner.
+        objection: 'Rigby et al.: agile is neither anarchy nor ''doing what I say, only faster''. The owner doesn''t assign tasks, the team manages itself, and customers'' excitement, not an executive''s taste, can trigger release.'
+    storyboard:
+      - caption: Rank the backlog
+        detail: The initiative owner builds a portfolio backlog of promising opportunities and rank-orders it by value to customers and the company.
+      - caption: Plan the sprint
+        detail: The team breaks the top tasks into small modules, decides how much to take on and defines 'done', planning in detail only what won't change.
+      - caption: Build in a short cycle
+        detail: Working versions are built in a sprint of less than a month, with brief daily stand-ups on progress and roadblocks.
+      - caption: Test with a few customers
+        detail: Small working prototypes go to a few customers for short periods; if they get excited, a prototype may be released immediately.
+      - caption: Improve the next cycle
+        detail: The team brainstorms ways to improve future cycles and prepares to attack the next top priority.
+    sources:
+      - Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016) (pp 42–43, 46, 48)
+      - Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up (slides 2)
+  - concept: mgmt2094-w10-scrum-framework
+    plain: 'Scrum is one agile framework: a Product Owner, a self-managing Development Team and a Scrum Master work in sprints of one month or less, each ending in a usable increment that shapes the next plan.'
+    concrete: In the tutorial's UniConnect challenge, groups become the agile innovation team of a university-backed start-up developing a platform to help students connect with peers, find study partners and join campus activities. Round 1 asks them to prioritise the product backlog and plan their first agile sprint. Round 2 asks them to use customer feedback to revise priorities and plan the next experiment.
+    formal: 'Tutor slides, after Schwaber and Sutherland (2020), The Scrum Guide. Roles: Product Owner, Development Team, Scrum Master. Events: Sprint Planning (typically 2–8 hours); the Sprint (one month or less, typically 1–4 weeks) with a 15-minute Daily Scrum; Sprint Review (1–4 hours); Sprint Retrospective (1–3 hours). Artifacts: Product Backlog, Sprint Backlog, Increment. ''Scrum is one Agile framework; not all Agile teams use Scrum.'''
+    terms:
+      - term: Product Owner
+        gloss: Represents the customer and maximises the value of the product; maintains the Product Backlog. Rigby et al. call this role the initiative owner.
+      - term: Scrum Master
+        gloss: 'Facilitates the process, removes obstacles and helps the team improve: Rigby et al.''s process facilitator.'
+      - term: Sprint Goal
+        gloss: What the team agrees to work towards in a sprint, set at Sprint Planning along with the achievable work it selects.
+      - term: Increment
+        gloss: A usable product outcome at the end of the sprint, inspected with stakeholders at the Sprint Review.
+    elements:
+      - name: Product Backlog
+        test: Is there a prioritised list of features and work, maintained by the Product Owner?
+        authorities:
+          - mgmt2094-schwaber-sutherland-2020-scrum-guide
+      - name: Sprint Planning
+        test: Has the team agreed a Sprint Goal and selected achievable work, the Sprint Backlog? Typically 2–8 hours.
+        authorities:
+          - mgmt2094-schwaber-sutherland-2020-scrum-guide
+      - name: Sprint, with the Daily Scrum
+        test: Is the self-managing Development Team building a usable increment in a fixed cycle of one month or less, inspecting progress and adapting the plan in a 15-minute Daily Scrum?
+        authorities:
+          - mgmt2094-schwaber-sutherland-2020-scrum-guide
+      - name: Sprint Review
+        test: Are outcomes inspected and stakeholder feedback gathered, so the backlog can be adapted? Typically 1–4 hours.
+        authorities:
+          - mgmt2094-schwaber-sutherland-2020-scrum-guide
+      - name: Sprint Retrospective
+        test: Has the team reflected on how it can improve its work? Typically 1–3 hours.
+        authorities:
+          - mgmt2094-schwaber-sutherland-2020-scrum-guide
+      - name: Repeat
+        test: Is what was learned at the Review and Retrospective used to plan the next sprint?
+        authorities:
+          - mgmt2094-schwaber-sutherland-2020-scrum-guide
+    misconceptions:
+      - claim: Agile and Scrum are the same thing.
+        tempting: Scrum is the best-known form of agile.
+        correction: 'Tutor slide: agile is the principles; Scrum is one framework. ''Scrum is one Agile framework; not all Agile teams use Scrum.'' Rigby et al. also name lean development and kanban.'
+      - claim: The Sprint Review and the Sprint Retrospective are the same end-of-sprint meeting.
+        tempting: Both come at the end of the sprint.
+        correction: The Review inspects outcomes and gathers stakeholder feedback on the product; the Retrospective reflects on how the team can improve its work.
+      - claim: The Sprint Backlog is the full prioritised list of features maintained by the Product Owner.
+        tempting: Both are called backlogs.
+        correction: That is the Product Backlog. The Sprint Backlog is the work selected for the current sprint, created during Sprint Planning.
+    socratic:
+      - ask: UniConnect's Round 1 asks you to prioritise the product backlog. What is that list, and whose job is it?
+        hint: An artifact and a role.
+        answer: 'The Product Backlog: a prioritised list of features and work, maintained by the Product Owner, who represents the customer and maximises value.'
+      - ask: How does the team turn the backlog into a sprint?
+        hint: An event, and what comes out of it.
+        answer: At Sprint Planning it agrees a Sprint Goal and selects achievable work, creating the Sprint Backlog.
+      - ask: How long is the sprint, and what must it produce?
+        hint: One month…
+        answer: A fixed-length cycle of one month or less (typically one to four weeks) that produces a usable increment.
+      - ask: At the end the team shows the increment to stakeholders, then separately discusses why its handovers kept slipping. Which two events are these?
+        hint: Product, then process.
+        answer: The Sprint Review (inspect outcomes, gather stakeholder feedback), then the Sprint Retrospective (how the team can improve its work).
+      - ask: What happens next?
+        hint: Repeat.
+        answer: The team uses what it has learned to plan the next sprint.
+    what-if:
+      - change: The team skips the Retrospective because the Sprint Review went well.
+        effect: The Review inspected only the product with stakeholders. Without the Retrospective nobody reflects on how the team can improve its work, so the learning carried into the next sprint covers the product but not the team's process.
+    boundary:
+      - text: A team that tracks its work on a kanban board and never runs sprints.
+        why: 'Agile but not Scrum: the tutor slide says Scrum is one Agile framework and not all Agile teams use Scrum; Rigby et al. list kanban as another variety.'
+      - text: A three-month 'sprint' meant to finish the whole product.
+        why: 'Not a Scrum sprint: the slide defines a sprint as a fixed-length cycle of one month or less that produces a usable increment.'
+    transfer:
+      - scenario: A museum's digital team is building a family audio-guide app. Its director wants one fortnightly meeting that both shows curators the progress and airs the team's frictions.
+        answer: Scrum keeps these apart. The Sprint Review inspects the increment with stakeholders such as curators and adapts the backlog; the Retrospective lets the team reflect on how it can improve its work. Each sprint of one month or less starts with Sprint Planning, runs a 15-minute Daily Scrum and feeds its learning into the next plan.
+    objections:
+      - position: Once teams adopt Scrum's roles and events, innovation is handled.
+        evidence: Scrum organises work into short cycles, each producing a usable increment and stakeholder feedback.
+        objection: The tutor slides treat Scrum as one way to organise teams. Lean start-up (does it create value for customers?) and lean strategy (is it aligned with direction?) answer other questions, and Rigby et al.'s app pilot stalled outside the team.
+    sources:
+      - Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW) (slides 6–8)
+      - Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016) (pp 42–43)
+  - concept: mgmt2094-w10-conditions-for-agile
+    plain: Agile is not a panacea. It works best where problems are complex, solutions unknown, work modular, customers available for feedback and mistakes instructive; it fits routine, predictable or high-stakes work poorly.
+    concrete: 'Scott Maxwell, founder of OpenView Venture Partners, learned about agile from companies in his portfolio and began using it at the firm itself. It worked well for strategic planning and marketing, where complex problems can often be broken into modules and cracked by creative multidisciplinary teams. Selling was different: any sales call can change a representative''s to-do list on the spot, and reassembling the team, changing the backlog and reassigning accounts every hour would be too complicated and time-consuming.'
+    formal: 'Rigby, Sutherland and Takeuchi (2016): agile ''is not a panacea''. It is most effective and easiest to implement where the problem is complex, solutions are initially unknown and requirements will probably change, work can be modularised, close collaboration with end users is feasible, and creative teams will outperform command-and-control groups. These conditions are less common in routine operations: plant maintenance, purchasing, sales calls and accounting.'
+    terms:
+      - term: panacea
+        gloss: 'A cure for everything. Rigby et al. say agile is not one: it suits some conditions and not others.'
+      - term: modularity of work
+        gloss: Whether work can be broken into parts and done in rapid, iterative cycles, with increments customers can use and late changes manageable.
+      - term: routine operations
+        gloss: Predictable work such as plant maintenance, purchasing, sales calls and accounting, where agile's conditions are less common.
+    elements:
+      - name: Market environment
+        test: 'Favourable: customer preferences and solution options change frequently. Unfavourable: market conditions are stable and predictable.'
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Customer involvement
+        test: 'Favourable: close collaboration and rapid feedback are feasible; customers learn what they want as work progresses. Unfavourable: requirements are clear and stable at the outset; customers are unavailable.'
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Innovation type
+        test: 'Favourable: complex problems, unknown solutions, unclear scope; breakthroughs, time to market and cross-functional collaboration matter. Unfavourable: similar work done before; plans forecast with confidence; problems solved sequentially in silos.'
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Modularity of work
+        test: 'Favourable: incremental developments have value, work breaks into parts for rapid cycles, late changes are manageable. Unfavourable: customers can''t test parts until everything is complete; late changes are expensive or impossible.'
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Impact of interim mistakes
+        test: 'Favourable: they provide valuable learning. Unfavourable: they may be catastrophic.'
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Payoff and participants
+        test: Will the payoff justify the training, behavioural change and new IT a transition needs, and is there a cadre of eager participants? Enlist volunteers rather than coerce resisters.
+        authorities:
+          - mgmt2094-example-openview-and-intronis
+    misconceptions:
+      - claim: Agile suits any office, because it always raises productivity.
+        tempting: The reading reports large gains in IT.
+        correction: 'Rigby et al.: agile is not a panacea. The conditions it needs are less common in routine operations such as plant maintenance, purchasing, sales calls and accounting.'
+      - claim: Clear requirements fixed at the outset make agile easier.
+        tempting: Clarity usually reduces risk.
+        correction: The exhibit lists requirements that are clear at the outset and will remain stable as unfavourable to agile; such work can be planned with confidence instead.
+      - claim: Agile failed for OpenView's selling because selling has no customers to collaborate with.
+        tempting: The exhibit asks about customer involvement.
+        correction: 'Rigby et al.: any sales call can change a representative''s to-do list on the spot, and re-forming the team and backlog every hour would be too complicated and time-consuming.'
+    socratic:
+      - ask: OpenView found agile worked for strategic planning and marketing. What made those activities suitable?
+        hint: Modules and teams.
+        answer: Their complex problems can often be broken into modules and cracked by creative multidisciplinary teams.
+      - ask: Why did selling not suit agile?
+        hint: What happens on a sales call?
+        answer: Any call can change a representative's to-do list on the spot; reassembling the team, changing the backlog and reassigning accounts every hour would be too complicated.
+      - ask: A firm must build a bridge to a fixed specification; customers can use nothing until it is finished, and a mid-build error could be catastrophic. How do the rows read?
+        hint: Modularity, mistakes, innovation type.
+        answer: 'Unfavourable on modularity (nothing testable until complete), on interim mistakes (catastrophic) and on innovation type (fixed specifications): the exhibit points away from agile.'
+      - ask: Even where the conditions fit, what else must executives weigh?
+        hint: Cost, and people.
+        answer: 'Whether the payoff justifies the training, behavioural change and new IT, and whether there is a cadre of eager participants: better to enlist volunteers than coerce resisters.'
+    what-if:
+      - change: OpenView's sales calls followed a fixed weekly routine, so a representative's to-do list rarely changed.
+        effect: The reason Rigby et al. give against agile for selling, lists that change on the spot and re-planning every hour, would fall away. The work would still need to pass the other rows, such as modularity and customer feedback.
+    boundary:
+      - text: Strategy development and resource allocation by a senior executive team.
+        why: 'In: Rigby et al. say these, with breakthrough innovation and organisational collaboration, suit agile, unlike routine C-suite tasks such as performance assessments, press interviews and site visits.'
+      - text: Intronis's marketing team producing a topical webinar on CryptoLocker malware in a few days rather than several weeks.
+        why: 'In: marketing projects are among the activities where agile conditions exist. The session attracted 600 registrants, still a company record.'
+    transfer:
+      - scenario: 'A local council wants agile for two jobs: redesigning its online rates-payment page, and processing the same building-permit renewals each day under fixed rules.'
+        answer: 'The page redesign fits: residents'' preferences can change, parts can be tested with users and changed late, and interim mistakes teach. The permit renewals are routine: requirements are clear and stable, similar work has been done before and plans can be forecast with confidence, so the exhibit points away from agile there.'
+    objections:
+      - position: Agile innovation is the right way to run any project.
+        evidence: 'Rigby et al.: agile has greatly increased software success rates, speed to market and team motivation, and is spreading across industries and into the C-suite.'
+        objection: 'They also say it is not a panacea: routine operations rarely have its conditions, and a transition''s training, behavioural change and IT costs must be justified by the payoff, as OpenView found with selling.'
+      - position: Once most of a company adopts agile, holdouts should be made to follow.
+        evidence: 'Rigby et al.: when the majority adopts agile, leaders may need to press the holdouts to follow suit or even replace them.'
+        objection: 'But it is better to enlist passionate volunteers than to coerce resisters: Maxwell trained OpenView''s portfolio companies and let them decide; some adopted agile at once, others held off.'
+    sources:
+      - Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016) (pp 44–46)
+  - concept: mgmt2094-w10-leading-agile
+    plain: Agile usually stalls because of executives, not methods. Leaders should learn it, apply it where it fits, start small, let master teams adapt it, practise it themselves and destroy the barriers.
+    concrete: George Tome, a software engineer turned project manager in John Deere's corporate IT group, began applying agile principles in 2004 on a low-key basis, and over several years other software units followed. In 2012, in the R&D group's Enterprise Advanced Marketing unit, he found that software jargon sounded like gibberish to a manager with no software background, so he tracked down a coach who could work with such people and began weekly one-page articles on agile that hundreds of employees discussed.
+    formal: 'Rigby, Sutherland and Takeuchi (2016): the greatest impediment is not methodology or evidence but ''the behavior of executives''. Six practices: learn how agile really works; understand where agile does or does not work; start small and let the word spread; allow ''master'' teams to customise their practices; practise agile at the top; destroy the barriers to agile behaviours.'
+    terms:
+      - term: shu-ha-ri
+        gloss: 'The martial-arts path Rigby et al. borrow: study proven disciplines (shu), then modify them (ha), then improvise freely (ri). Master agile before customising it.'
+      - term: enterprise backlog
+        gloss: The rank-ordered list of enterprise-wide priorities that an executive agile team builds and refines, as at Mission Bell Winery.
+      - term: one boss for each decision
+        gloss: 'People can have several bosses, but decisions cannot: it must be clear who commissions a team, appoints its leader and approves its decisions.'
+    elements:
+      - name: 1 Learn how agile really works
+        test: 'Do leaders understand agile as neither anarchy nor ''doing what I say, only faster'', and know its varieties: scrum, lean development and kanban?'
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: 2 Understand where agile does or does not work
+        test: Has the work been tested against the conditions (complex, changing, modular, customer feedback, instructive mistakes), and does the payoff justify the cost?
+        authorities:
+          - mgmt2094-example-openview-and-intronis
+      - name: 3 Start small and let the word spread
+        test: Did agile begin small, often in IT, and spread as practitioners coach others and each success creates evangelists, as at John Deere from 2004?
+        authorities:
+          - mgmt2094-example-john-deere
+      - name: 4 Allow master teams to customise
+        test: 'Shu-ha-ri: master proven disciplines first, with stable, full-time teams; then modify, testing that changes improve satisfaction, velocity and morale, as Spotify''s squads do.'
+        authorities:
+          - mgmt2094-example-spotify
+      - name: 5 Practise agile at the top
+        test: Does the executive team run itself as an agile team, rank-ordering an enterprise backlog and removing barriers, as at Systematic, GE Digital and Mission Bell Winery?
+        authorities:
+          - mgmt2094-example-systematic
+          - mgmt2094-example-ge-digital
+          - mgmt2094-example-mission-bell-winery
+      - name: 6 Destroy the barriers to agile behaviours
+        test: Same enterprise priorities for everyone; change roles, not structures; one boss for each decision; focus on teams, not individuals; lead with questions, not orders.
+        authorities:
+          - mgmt2094-example-financial-services-app-pilot
+    misconceptions:
+      - claim: Agile spreads slowly beyond IT because better methods and evidence are still needed.
+        tempting: New methods usually need proof.
+        correction: 'Rigby et al.: the greatest impediment is not better methodologies, empirical evidence or proof that agile works outside IT. It is the behaviour of executives.'
+      - claim: The fastest way to adopt agile is a company-wide mandate.
+        tempting: Large companies launch change programs as massive efforts.
+        correction: 'Rigby et al.: the most successful introductions usually start small, often in IT, and spread as each success creates passionate evangelists, as at John Deere.'
+      - claim: Cross-functional teams require restructuring the organisation first.
+        tempting: New teams seem to need a new organisation chart.
+        correction: 'Rigby et al.: don''t change structures right away; change roles. Cross-functional teams mainly need disciplines to learn to work together simultaneously rather than separately and sequentially.'
+    socratic:
+      - ask: A retailer's agile teams stall while executives launch many urgent initiatives, sit in on team sessions and overturn decisions. Whose behaviour is the problem?
+        hint: Not the teams.
+        answer: 'The executives''. Rigby et al. say such managers unwittingly undermine agile teams: too many initiatives, frequent meetings, overturned decisions and extra review layers.'
+      - ask: What did Systematic's CEO, Michael Holm, do when he felt his leadership team was hindering progress?
+        hint: '''Follow me — I''m just behind you.'''
+        answer: 'In 2010 he ran his nine-member executive group as an agile team: it cut more than half of recurring reports and moved to daily 20-minute stand-ups.'
+      - ask: At Mission Bell Winery, how did Erik Martella handle a superior's personal passion project?
+        hint: The backlog.
+        answer: He replied that it would be added to the list of potential opportunities and prioritised. It was given a low priority, and the executive readily accepted that.
+      - ask: Spotify's squads drop burndown charts and don't always measure velocity. Is that a breach of agile?
+        hint: Shu-ha-ri.
+        answer: 'No: experienced practitioners may customise, as long as changes are consistent with agile principles and tested to improve results, as Spotify''s squads have done.'
+    what-if:
+      - change: The financial services company had made its agile app the top priority for budgeting, vulnerability testing and integration, not only for software development.
+        effect: 'That is Rigby et al.''s technique of getting everyone on the same page. They say agile innovations otherwise struggle in implementation, which is where this pilot lost its time: in funding, testing and integration queues.'
+    boundary:
+      - text: Spotify squads omitting burndown charts and not always measuring velocity.
+        why: 'Allowed: master teams may customise when changes stay consistent with agile principles and are shown to improve outcomes. Spotify was agile from its founding in 2006.'
+      - text: A team new to agile dropping practices and rotating part-time members in its first month.
+        why: 'Not yet: in the shu stage teams practise proven methods first; Rigby et al. warn against beginning with part-time assignment or rotating membership.'
+    transfer:
+      - scenario: A state health department's first agile team has built a well-liked online booking service, but the minister's office keeps adding review layers and each division head asks for changes.
+        answer: 'Destroy the barriers: one boss for each decision; everyone working from the same enterprise priorities so approvals and testing do not queue the work; lead with questions, not orders. Practise agile at the top, with leaders rank-ordering a shared backlog, as at Mission Bell. Rigby et al. say added review layers erode agile''s benefits.'
+    objections:
+      - position: When agile fails, it is usually the teams' fault.
+        evidence: Agile teams are self-managing and strictly accountable for every aspect of their work (Rigby et al.).
+        objection: Rigby et al. place the main impediment with executives; Scrum Alliance found over 70% of agile practitioners report tension between their teams and the rest of the organisation, which follows different road maps at different speeds.
+      - position: Agile is for project teams, not the C-suite.
+        evidence: 'Rigby et al.: routine and predictable C-suite tasks, such as performance assessments, press interviews and visits to plants, customers and suppliers, are not suited to agile.'
+        objection: 'But many of the most important ones are: strategy development, resource allocation, breakthrough innovation and collaboration. Systematic, GE Digital and Mission Bell ran executive agile teams.'
+    storyboard:
+      - caption: Starts quietly in IT, 2004
+        detail: George Tome, a software engineer turned project manager in corporate IT, applies agile principles on a low-key basis.
+      - caption: Spreads to other software units
+        detail: Over several years software units elsewhere in Deere adopt it, making it easier to introduce to business development and marketing.
+      - caption: Reaches R&D marketing, 2012
+        detail: In Enterprise Advanced Marketing, unit head Jason Brantley and Tome test whether agile can speed innovation slowed by traditional project management.
+      - caption: Finds a coach for non-software people
+        detail: Software terminology sounded like gibberish to one manager, so Tome found a coach who knew how to work with people without a software background.
+      - caption: Builds a Deere-specific knowledge base
+        detail: Weekly one-page articles, e-mailed and later posted on Deere's Yammer site; hundreds of employees join the discussion group.
+      - caption: Results attract attention
+        detail: Cycle times cut by more than 75% in some cases; a working prototype in about eight months, against a year and a half to three years.
+    sources:
+      - Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016) (pp 41–42, 45–50)
+  - concept: mgmt2094-w10-lean-start-up
+    plain: 'A lean start-up treats its business plan as guesses to test with real customers: it sells a minimum viable product to early adopters, learns from their response and corrects course before scaling.'
+    concrete: The Week 10 tutorial opens with a dilemma. Your team has spent two months developing a mobile app for university students. Just before launch, customer research reveals that students don't want several of its key features. Do you continue with the original plan, reconsider priorities based on feedback, or add the requested features while keeping everything originally planned?
+    formal: 'Lecture slides 5–7 and 18: the Lean Start-Up (LSU), associated with Steve Blank and Eric Ries, has two key principles: the minimum viable product (MVP) and lean–agile development. Its core concepts are the MVP (a product with just those features that allow you to sell to early adopters and validate demand), pivoting and the business model canvas. Lean start-up method = customer development + agile development.'
+    terms:
+      - term: minimum viable product (MVP)
+        gloss: 'Slide 7: a product with just those features that allows you to sell to early adopters and validate demand. Not the cheapest version of the final product.'
+      - term: pivoting
+        gloss: 'Slide 7: course correction to the proposed set of hypotheses, based on market learnings. Not abandoning the venture.'
+      - term: lean–agile development
+        gloss: 'Slide 18: fast, iterative and incremental product development: MVP 1, 2, 3 and 4, each shaped by customer feedback, with rapid deployment to the final product.'
+      - term: customer development
+        gloss: With agile development, one half of slide 18's lean start-up method; slide 10 lists it as a way to learn faster.
+    misconceptions:
+      - claim: An MVP is the cheapest version of the final product, built for a mass-market launch.
+        tempting: '''Minimum'' sounds like cheap.'
+        correction: 'Slide 7: an MVP has just those features that allow you to sell to early adopters and validate demand. Slide 18 builds up through MVP 1 to 4, shaped by customer feedback.'
+      - claim: A start-up is a small version of a large company and should execute its business plan.
+        tempting: Plans and discipline work for big firms.
+        correction: 'Blank''s hypotheses: start-ups aren''t small versions of large organisations; they are about learning and discovery, not execution, and must test assumptions against facts that live outside the building.'
+      - claim: Pivoting means abandoning the venture after a failed test.
+        tempting: A pivot follows bad news.
+        correction: 'Slide 7: pivoting is course correction to the proposed set of hypotheses, based on market learnings. The venture continues on a corrected course.'
+    socratic:
+      - ask: Two months into building a student app, research shows students don't want several key features. What had the team been executing on?
+        hint: Blank's first hypothesis.
+        answer: 'Guesses. Blank: entrepreneurs and investors are generally executing on guesses.'
+      - ask: Where could the team have found the facts earlier?
+        hint: Not in the plan.
+        answer: 'Outside the building, with students. Blank: surface hypotheses and assumptions and test them against facts, and the facts live outside the building.'
+      - ask: What should it have built first?
+        hint: Just enough to sell.
+        answer: 'An MVP: a product with just those features that allows it to sell to early adopters and validate demand.'
+      - ask: The research now says several features are unwanted. What does the lean start-up call the response?
+        hint: Course correction.
+        answer: 'A pivot: course correction to the proposed set of hypotheses, based on market learnings.'
+      - ask: How does the product then reach its final form?
+        hint: MVP 1, 2, 3…
+        answer: Through successive MVPs shaped by customer feedback and rapid deployment, with no waste of time and money and a culture of continuous improvement.
+    what-if:
+      - change: The student-app team had released an MVP with only its core feature to early adopters in its first fortnight.
+        effect: It would have tested its assumptions against facts outside the building before investing two months. Slide 18's method builds up from MVP 1 on customer feedback, avoiding waste of time and money.
+    boundary:
+      - text: Toyota's production line, shown on the lean start-up slides.
+        why: 'The source of ''lean'': the slides trace lean principles to Japan''s manufacturing industry, Toyota''s Production System and kanban. The lean start-up itself comes from Blank (2005) and Ries (2011).'
+      - text: Tesla's lithium ion batteries.
+        why: 'At the edge: Collis says they would never have got off the ground had they been expected to demonstrate immediate success. Some innovations can''t be judged by quick, cheap tests.'
+    transfer:
+      - scenario: A recent graduate plans to spend all his savings fitting out a café for international students, with a full menu, before anyone has tasted his food.
+        answer: Blank's hypotheses say he is executing on guesses and the facts live outside the building. He should surface his assumptions (who will come, what they will buy, at what price) and test them with an MVP sold to early adopters, then pivot or persevere, building up through further MVPs before committing his savings.
+    objections:
+      - position: A start-up should execute its business plan with discipline.
+        evidence: Collis notes that strategy is commonly seen as the pursuit of a clearly defined path, systematically identified in advance.
+        objection: 'Blank: start-ups aren''t small versions of large organisations; they are about learning and discovery, not execution. The tutorial''s app team learned that students didn''t want key features only after two months.'
+      - position: 'The lean start-up makes strategy unnecessary: just pivot as you learn.'
+        evidence: Pivoting lets a venture correct course whenever market learnings arrive.
+        objection: 'Collis: entrepreneurship without strategy leads to chaos. Strategy is the screen novel ideas must pass and the yardstick for evaluating experiments.'
+    storyboard:
+      - caption: Lean begins in Japanese manufacturing
+        detail: 'Toyota''s Production System and kanban: Taiichi Ohno, 1978 in Japanese, 1988 in English.'
+      - caption: A 1986 article inspires scrum
+        detail: Takeuchi and Nonaka's 'The New New Product Development Game' (1986) leads to scrum (Sutherland and Schwaber).
+      - caption: Software adds extreme programming
+        detail: Kent Beck's Extreme Programming (1999), drawing on Design Patterns (Gang of Four, 1994), joins the agile stream.
+      - caption: Agile is named, 2001
+        detail: The Agile Manifesto; lean software development (Poppendieck, 2003) and kanban (Anderson, 2010) follow.
+      - caption: Blank brings it to start-ups
+        detail: Steve Blank's The Four Steps to the Epiphany (2005).
+      - caption: Ries's Lean Startup, 2011
+        detail: The lean, agile and start-up streams meet in Eric Ries's Lean Startup.
+    sources:
+      - Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up (slides 5–7, 16–20)
+      - Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW) (slides 3)
+      - Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016) (pp 63–64)
+  - concept: mgmt2094-w10-business-model-canvas
+    plain: The business model canvas puts a whole business on one page as nine building blocks, each a question. In a lean start-up every answer is a hypothesis to test, not a settled fact.
+    concrete: 'Eleet, a start-up in Providence, Rhode Island, had a concept of providing chauffeurs to drive you in your own car. Its founders first developed eight possible B2B and B2C use cases. Before testing even one, they analysed the target markets, judged a B2B version the most sustainable and set the B2C cases aside. They then ran tests showing there were high-volume B2B users: firms that would provide the service to their employees in lieu of limousine service.'
+    formal: 'Lecture slides 7–8: one of the lean start-up''s three core concepts, ''a view of all nine building blocks of a business on one page and their relative hypotheses''. Value propositions sit at the centre; key partners, key activities and key resources to the left; customer relationships, channels and customer segments to the right; cost structure and revenue streams along the bottom.'
+    terms:
+      - term: business model canvas
+        gloss: A one-page view of all nine building blocks of a business and their relative hypotheses (slide 7); with the MVP and pivoting, a core concept of the lean start-up.
+      - term: value propositions
+        gloss: 'The centre block: what value we deliver, which customer problems we help solve and which needs we satisfy. The slide also asks here what the MVP is.'
+      - term: revenue streams
+        gloss: For what value customers are really willing to pay, what they currently pay for, the revenue model and the pricing tactics.
+    elements:
+      - name: Customer segments
+        test: For whom are we creating value? Who are our most important customers? What are the customer archetypes?
+      - name: Value propositions
+        test: What value do we deliver? Which customer problems are we helping to solve, which needs are we satisfying? What bundles do we offer each segment? What is the minimum viable product?
+      - name: Channels
+        test: Through which channels do our segments want to be reached? How do other companies reach them now? Which work best, and which are most cost-efficient?
+      - name: Customer relationships
+        test: How do we get, keep and grow customers? Which relationships have we established, how are they integrated with the rest of the model, and how costly are they?
+      - name: Revenue streams
+        test: For what value are our customers really willing to pay? For what do they currently pay? What is the revenue model, and what are the pricing tactics?
+      - name: Key resources
+        test: What key resources do our value propositions require?
+      - name: Key activities
+        test: What key activities do our value propositions require?
+      - name: Key partners
+        test: Who are our key partners and suppliers? Which key resources are we acquiring from them? Which key activities do partners perform?
+      - name: Cost structure
+        test: What are the most important costs inherent to our business model? Which key resources and which key activities are most expensive?
+    misconceptions:
+      - claim: The MVP question belongs in key activities, since building an MVP is an activity.
+        tempting: Building it is work the venture does.
+        correction: On slide 8 'What is the minimum viable product?' sits in the value propositions block, beside what value we deliver and which needs we satisfy.
+      - claim: The canvas is a fixed business plan or financial forecast.
+        tempting: It covers costs and revenue.
+        correction: 'Slide 7: it is a view of the nine building blocks on one page ''and their relative hypotheses'', assumptions that MVPs test and pivots correct.'
+      - claim: '''Cloud hosting is our biggest expense'' belongs in key resources.'
+        tempting: Hosting is a resource.
+        correction: Cost structure asks which key resources and activities are most expensive; key resources asks only what resources the value propositions require.
+    socratic:
+      - ask: Eleet's founders had eight B2B and B2C use cases. Which block's question were they answering when they chose among them?
+        hint: For whom…?
+        answer: 'Customer segments: for whom are we creating value, and who are our most important customers? They chose businesses over consumers.'
+      - ask: What would Eleet's B2B customers be paying for?
+        hint: In lieu of…
+        answer: 'A chauffeur service they would provide to their employees in lieu of limousine service: the value proposition for that segment.'
+      - ask: Was the B2B choice proven when they made it?
+        hint: Analysis, then…
+        answer: 'No: it came from analysing the markets, a hypothesis. They then ran tests that demonstrated high-volume B2B users.'
+      - ask: Had those tests failed, what would the lean start-up suggest?
+        hint: Slide 15.
+        answer: 'A pivot: course correction based on market learnings. Slide 15''s one-page sheet lists pivot types including a customer segment pivot.'
+    what-if:
+      - change: Eleet's tests had found no high-volume B2B users.
+        effect: The customer-segments hypothesis would be invalidated. The lean start-up would call for a pivot, a course correction to the hypotheses such as the customer segment pivot on slide 15, rather than building out the B2B business.
+    boundary:
+      - text: A note on which ways of reaching customers are most cost-efficient.
+        why: 'Channels, not cost structure: the channels block asks which channels work best and are most cost-efficient; cost structure asks about the most important costs of the model.'
+      - text: A founder who fills all nine blocks and treats them as settled before any customer test.
+        why: 'Outside the lean start-up use: slide 7 presents each block with its hypotheses, which MVPs test and pivots correct.'
+    transfer:
+      - scenario: A community radio station wants a sustainable model and is torn between listener subscriptions and local business sponsorship.
+        answer: Map it on the canvas. Subscriptions or sponsorship is a revenue streams question (for what value will they really pay? what is the revenue model?), and it changes the customer segments (listeners or businesses) and the value propositions. Treat each as a hypothesis and test the riskiest with an MVP before committing.
+    objections:
+      - position: If a canvas's hypotheses pass MVP tests, the business model is proven.
+        evidence: 'Slides 7–8: the canvas sets out the business''s hypotheses, and the MVP validates demand with early adopters.'
+        objection: 'Collis: a path that might be readily validated by an MVP market test may still be unlikely to support a long-term business. Eleet screened its use cases strategically before testing any.'
+    sources:
+      - Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up (slides 7–8, 15)
+      - Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016) (pp 65)
+  - concept: mgmt2094-w10-build-measure-learn
+    plain: 'Build–measure–learn is the lean start-up''s loop: build the simplest experiment, measure customers'' response against a target, then learn whether to pivot or persevere. Go round it as fast as possible.'
+    concrete: 'Instagram began as Burbn, a private mobile app that let friends check in to locations, make plans, earn points for hanging out with friends, post pictures ''and much more''. Users reacted negatively to an app that could do all those things. The founders did not throw the baby out with the bathwater: noticing that users posted a lot of pictures, they decided to be really good at one thing, and spent eight weeks developing a better photo-sharing app and running a beta test.'
+    formal: 'Slides 9–12: Build (experiments) → Measure (metrics, against a baseline) → Learn (analyse; pivot or persevere) → a new hypothesis. ''Minimize the total time through the loop.'' Validated learning plans in reverse: what do we need to learn, how can we measure it, what is the simplest thing to build (the MVP)? The innovation accounting report documents learning as validated, invalidated or inconclusive.'
+    analogy:
+      text: 'A science experiment: state a prediction, set up the simplest apparatus that can test it, take readings, then write up whether the prediction held before designing the next experiment.'
+      maps:
+        - from: the prediction
+          to: a falsifiable hypothesis
+        - from: the simplest apparatus
+          to: the MVP
+        - from: the readings
+          to: 'Measure: results = data'
+        - from: the write-up
+          to: 'Learn: validated, invalidated or inconclusive'
+      limits:
+        - A laboratory controls its conditions; customers do not stay still, and Collis warns that quick tests can mistake ephemeral traction for lasting demand.
+        - A failed reading ends one experiment; in the loop it can trigger a pivot in the venture's whole set of hypotheses.
+    terms:
+      - term: validated learning
+        gloss: 'Planning the loop in reverse: 1) what do we need to learn? 2) how can we measure it? 3) what is the simplest thing to build to measure it?'
+      - term: falsifiable hypothesis
+        gloss: A testable prediction with quantified goals and a set scope or timebox, so that a result could disprove it. Test the value and growth hypothesis first.
+      - term: innovation accounting report
+        gloss: 'Slide 12''s record of one experiment: background, falsifiable hypothesis, build, measure (results = data), learn (validated, invalidated or inconclusive), next action.'
+      - term: pivot or persevere
+        gloss: 'The decision at Learn: correct course on the hypotheses, or continue on the current course.'
+    elements:
+      - name: Background
+        test: Why is the experiment relevant? What are you trying to learn or achieve?
+      - name: Falsifiable hypothesis
+        test: 'Is the expected outcome stated so a result could disprove it: quantified goals, a set scope or timebox, the value and growth hypothesis tested first?'
+      - name: Build
+        test: How will the experiment be set up and executed, using the simplest thing that can measure it, the MVP?
+      - name: Measure
+        test: What were the results? Results = data, read against the baseline with actionable metrics.
+      - name: Learn
+        test: Was the hypothesis validated, invalidated or inconclusive? Decide whether to pivot or persevere.
+        authorities:
+          - mgmt2094-example-instagram-burbn
+      - name: Next action
+        test: What is the next experiment? Move to it, minimising the total time through the loop.
+    misconceptions:
+      - claim: Each pass through the loop should be slow and thorough to get it right.
+        tempting: Thoroughness sounds careful.
+        correction: 'Slides 10 and 21: minimise the total time through the loop. Build faster (small batches, MVP), measure faster (split testing, actionable metrics), learn faster (customer development, five whys).'
+      - claim: '''Customers will probably like free delivery'' is a good hypothesis.'
+        tempting: It states a prediction.
+        correction: 'Slide 12 wants a falsifiable hypothesis: quantify your goals and set the scope or timebox, so the result can be documented as validated or invalidated.'
+      - claim: Validated learning starts by deciding what to build.
+        tempting: The loop's first step is Build.
+        correction: 'Slide 11 plans it in reverse: first what we need to learn, then how to measure it, then the simplest thing to build to measure it, the MVP.'
+    socratic:
+      - ask: Burbn let friends check in, make plans, earn points and post pictures. Users reacted negatively. In loop terms, what has happened?
+        hint: Build, then…
+        answer: 'Build and Measure: the market''s response is data showing the do-everything app was not what users wanted.'
+      - ask: Should the founders simply record a no-go?
+        hint: What would be lost?
+        answer: 'No. Collis: if the outcome is simply a no-go, all the information and skills developed are lost. Dig into which hypotheses were validated or disproved.'
+      - ask: What did they learn?
+        hint: What were users actually doing?
+        answer: 'Users posted a lot of pictures, so the founders decided to focus on being really good at one thing: photo sharing.'
+      - ask: Pivot or persevere?
+        hint: Course correction.
+        answer: 'Pivot: a course correction to their hypotheses based on market learning. Eight weeks building a better photo-sharing app and running a beta test began the next turn of the loop.'
+    what-if:
+      - change: Instagram's founders had treated Burbn's poor reception as a simple no-go and shut it down.
+        effect: 'Collis: a simple no-go loses all the information and skills an experiment developed. Without digging into which hypotheses failed, the founders would have missed the users'' heavy picture-posting that shaped the photo-sharing app.'
+    boundary:
+      - text: Groupon's quick early sales.
+        why: 'A measurement trap: Collis says quick tests focus too heavily on initial usage. Groupon''s customers found repeated use uneconomical, so its traction was ephemeral; consumer-goods firms distinguish trial from repeated use.'
+      - text: An experiment written up as 'it went OK', with no target set beforehand.
+        why: 'Outside the report''s method: without a quantified, timeboxed hypothesis the learning cannot be documented as validated or invalidated.'
+    transfer:
+      - scenario: A gym believes many members would pay extra for a 6 am small-group class. The manager wants to hire two trainers and renovate a studio first.
+        answer: Plan in reverse. What must we learn (will enough members pay)? How will we measure it (paid sign-ups against a quantified target within a timebox)? What is the simplest thing to build (one trial class)? Record the results as data, document the hypothesis as validated, invalidated or inconclusive, then pivot or persevere before renovating.
+    objections:
+      - position: Quick, cheap experiments are the best way to judge any new idea.
+        evidence: 'Slides 10 and 21: minimise the total time through the loop; build, measure and learn faster.'
+        objection: 'Collis: simple market tests aren''t always useful. Some ideas need substantial up-front or long-term investment, like Federal Express or Tesla''s batteries, and quick tests may capture only initial usage, as Groupon''s ephemeral traction showed.'
+        reply: Collis accepts that rapid testing may be an effective way to innovate incrementally and fine-tune an offering's fit with the market.
+    sources:
+      - Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up (slides 9–15, 21)
+      - Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016) (pp 64–65, 68)
+  - concept: mgmt2094-w10-lean-strategy
+    plain: 'Collis says ventures need both: strategy sets the direction and boundaries, and experiments inside those boundaries test ideas and reshape the strategy over time. Know what not to do.'
+    concrete: 'Southwest built its original low-cost strategy within a clearly defined scope: no head-to-head competition with the majors in big airports or on routes over a couple of hours, but a network of short-haul flights between second-tier airports. Rapid turnaround was a key advantage, so it served no meals. Employees later suggested Business Select, a free drink and early boarding for a small premium; because it would not interfere with fast gate turns, the airline introduced it.'
+    formal: 'Collis (2016): ''Strategy without entrepreneurship is central planning. Entrepreneurship without strategy leads to chaos.'' His lean strategy process integrates the lean start-up''s bottom-up approach with strategic management''s top-down orientation: a permanent vision; a deliberate strategy (objective, scope, competitive advantage) agreed after analysis; learning through experiments; emergent strategy reshaping it. Strategy is a screen and a yardstick.'
+    analogy:
+      text: A football coach sets a game plan, players make countless choices on the field within it, and at half-time the plan is revised from what worked; the club's identity stays the same.
+      maps:
+        - from: the club's identity
+          to: the vision, the only permanent part
+        - from: the game plan
+          to: 'deliberate strategy: objective, scope and advantage'
+        - from: players' choices on the field
+          to: frontline decisions and experiments
+        - from: the half-time revision
+          to: emergent strategy reshaping the deliberate strategy
+      limits:
+        - A coach cannot choose the competition; a venture's scope is its own choice of what it will and will not do.
+    terms:
+      - term: deliberate strategy
+        gloss: Agreed by senior executives from an analysis of strengths, weaknesses, opportunities, threats, resources and capabilities; sets the objective, scope and competitive advantage.
+      - term: emergent strategy
+        gloss: The sum of managers' daily decisions and experiments, guided by the strategy, which gradually alters the firm's position; feedback and findings reshape the strategy.
+      - term: scope
+        gloss: 'Probably the most critical strategic guide rail: ''what business we are in'', with boundaries around what the venture will and will not do.'
+      - term: screen and yardstick
+        gloss: 'Strategy''s two jobs for experiments: a screen that novel ideas must pass, and a yardstick for evaluating whether experiments succeed.'
+    elements:
+      - name: Vision
+        test: 'What is the organisation''s reason for existence? The only part that should be in any sense permanent: compelling, motivational, perhaps aspirational.'
+        authorities:
+          - mgmt2094-collis-2016-lean-strategy
+      - name: Analysis
+        test: What are the firm's strengths, weaknesses, opportunities, threats, resources and capabilities?
+      - name: Objective
+        test: What near-term goal defines success in the venture leader's eyes, and which metrics will show it has been achieved?
+      - name: Scope
+        test: What business are we in? What will we, and will we not, do?
+        authorities:
+          - mgmt2094-example-southwest-airlines
+      - name: Competitive advantage
+        test: Why will customers buy from us rather than competitors? A distinctive value proposition that aligns activities and shapes future experiments.
+        authorities:
+          - mgmt2094-example-southwest-airlines
+      - name: Learning
+        test: Are managers at all levels making daily decisions and running experiments guided by the strategy, as screen and yardstick?
+      - name: Emergent strategy
+        test: Do feedback and findings reshape the strategy and build new capabilities, before the process restarts?
+        authorities:
+          - mgmt2094-example-instagram-burbn
+    misconceptions:
+      - claim: Start-ups should drop strategy and pivot continually as information comes in.
+        tempting: That is how entrepreneurship is often seen.
+        correction: 'Collis: entrepreneurship without strategy leads to chaos. Effective strategy encourages entrepreneurial behaviour by identifying the bounds within which innovation and experimentation should take place.'
+      - claim: In lean strategy the whole strategy is permanent once agreed.
+        tempting: Strategy sounds fixed.
+        correction: 'Collis: only the vision should be in any sense permanent. Experiments'' findings can revise the deliberate strategy, and the process restarts; a rigid, fixed strategy is dangerous.'
+      - claim: Emergent strategy means the strategy appears only after the fact.
+        tempting: '''Emergent'' sounds like hindsight.'
+        correction: 'Collis: the firm evolves through incremental daily choices, but at every point there must be clear agreement on the constraints imposed by the current strategy.'
+    socratic:
+      - ask: Southwest decided not to compete in big airports or on routes over a couple of hours. Which element of strategy is that?
+        hint: Boundaries.
+        answer: 'Scope: what business we are in, and what the venture will and will not do.'
+      - ask: Why did Southwest serve no meals?
+        hint: Its key advantage.
+        answer: Rapid turnaround was a key competitive advantage, keeping asset use high and prices low; meals would have raised costs and turnaround times.
+      - ask: Employees proposed Business Select. Why was it introduced?
+        hint: The screen.
+        answer: 'It passed the strategic screen: a free drink and early boarding for a small premium would not interfere with fast gate turns. It is emergent strategy at work.'
+      - ask: Wartime analysts planned to reinforce Spitfires where returning planes showed damage. What was wrong?
+        hint: Which planes didn't come back?
+        answer: 'The undamaged areas were probably the most vulnerable, since planes hit there never returned. Collis: without a broader orientation, wrong conclusions are drawn from results.'
+      - ask: What is the single best piece of advice for any company builder?
+        hint: Three words, then…
+        answer: Know what not to do. Strategy helps you figure that out.
+    what-if:
+      - change: Nasty Gal had set strategic bounds after its success reselling vintage clothing on eBay.
+        effect: 'Collis diagnosed the absence of focus: Amoruso threw ideas at the wall, employees competed for resources and growth stalled. Bounds would concentrate resources; ventures that lack them spread too thin to win any key market.'
+    boundary:
+      - text: Eleet setting aside its B2C use cases before testing any of them.
+        why: 'Lean strategy at work: an initial strategic screen, from analysing the target markets, saved it from paths an MVP test might validate but that were unlikely to support a long-term business.'
+      - text: Muzzy Lane discouraging staff from lucrative work-for-hire games.
+        why: 'In: its clarified strategy focused on educational publishers and its authoring tools; diverting scarce developers to one-off games would slow that critical activity.'
+    transfer:
+      - scenario: 'A food-delivery start-up''s staff keep chasing new lines: groceries, alcohol, pet food, a cookbook. Each test wins a few early orders, and growth has stalled.'
+        answer: 'Collis would set a deliberate strategy: objective, scope (what we will and will not do) and advantage. Ideas must pass that screen before testing, and results are judged against it as a yardstick rather than on initial traction, which may be ephemeral like Groupon''s. As at Nasty Gal, lack of focus spreads resources thin: know what not to do.'
+    objections:
+      - position: Strategy slows entrepreneurs down; they should experiment freely.
+        evidence: The lean start-up camp celebrates agility and adaptation through rapid testing, and entrepreneurship is often seen as pivoting continually as markets shift.
+        objection: 'Collis: in resource-constrained ventures choices are mutually exclusive, each creates a unique path and decisions are interdependent; without bounds ventures spread too thin, as Nasty Gal did.'
+      - position: Established firms already manage innovation well through strategic planning.
+        evidence: They use stage-gate processes and multiple-horizon planning to manage strategic growth initiatives.
+        objection: 'Collis: such corporate tools can undermine innovation, and strategy without entrepreneurship is central planning. Empowered local experimentation is necessary whatever a firm''s size or industry.'
+    sources:
+      - Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016) (pp 63–68)
+  - concept: mgmt2094-w10-agile-lean-start-up-lean-strategy
+    plain: Agile organises the team, lean start-up tests whether customers value the innovation, and lean strategy keeps experiments aligned with direction. They complement one another; having only one leaves a gap.
+    concrete: A large financial services company launched a pilot to build its next mobile app with agile. Assembling the team needed a budget request, which waited months in the annual planning process. The pilot produced an effective app that customers praised. But before release it had to pass vulnerability testing in a traditional waterfall process with a long queue, then integration into core IT systems, another waterfall process with a six-to-nine-month logjam. The total time to release improved very little.
+    formal: 'Tutor slide 10: ''These three approaches complement one another to help organisations innovate more effectively.'' Agile: how do we organise teams to develop and improve innovations? Lean startup: how do we test whether our innovation creates value for customers? Lean strategy: how do we ensure experimentation remains aligned with strategic direction? Slide 9: UniConnect''s three levels of decision-making, managing tasks, change and barriers.'
+    terms:
+      - term: managing tasks
+        gloss: 'UniConnect''s first level of decision-making: prioritise work based on value and capacity.'
+      - term: managing change
+        gloss: 'The second level: test assumptions and adapt based on evidence.'
+      - term: managing barriers
+        gloss: 'The third level: remove organisational barriers and enable cross-functional collaboration.'
+      - term: guardrails
+        gloss: 'Lean strategy''s bounds on experimentation: direction and scope, so that experimentation is encouraged within them and does not become rampant (Collis).'
+    elements:
+      - name: Agile
+        test: How do we organise teams to develop and improve innovations? Organise work into short, iterative cycles (sprints), enable collaboration and quick adaptation, continuously improve the product.
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - name: Lean start-up
+        test: How do we test whether our innovation creates value for customers? Test assumptions with real users, learn from feedback and adapt, develop solutions that create value for customers.
+      - name: Lean strategy
+        test: How do we keep experimentation aligned with strategic direction? Set direction, scope and guardrails for experimentation, prioritise the right opportunities, allocate resources effectively.
+        authorities:
+          - mgmt2094-collis-2016-lean-strategy
+    misconceptions:
+      - claim: Agile, lean start-up and lean strategy compete, so an organisation must pick one.
+        tempting: Each has its own advocates and vocabulary.
+        correction: 'Tutor slide 10: the three complement one another, each answering a different question: organise the teams, test customer value, keep experiments aligned with strategic direction.'
+      - claim: If our teams run Scrum, innovation is handled.
+        tempting: Scrum delivers increments and gathers feedback.
+        correction: Scrum organises the team's work. Without lean start-up's tests of customer value and lean strategy's direction, an agile organisation can still fail to innovate, as the stalled app pilot shows.
+      - claim: Testing assumptions with real users is lean strategy's job.
+        tempting: Collis writes about experiments.
+        correction: The slide lists testing assumptions with real users under lean start-up; lean strategy sets direction, scope and guardrails, prioritises opportunities and allocates resources.
+    socratic:
+      - ask: Can an organisation be agile and still fail to innovate successfully?
+        hint: The tutor's discussion question.
+        answer: Yes. An agile team can work well while the organisation around it, or the lack of customer tests or strategic direction, defeats the innovation.
+      - ask: The financial services pilot built an app customers praised. Where did the time go?
+        hint: Before and after the team's work.
+        answer: Months waiting for funding in the annual planning process, then waterfall vulnerability testing with a long queue and integration with a six-to-nine-month logjam.
+      - ask: Which UniConnect level of decision-making does that failure belong to?
+        hint: Tasks, change or barriers?
+        answer: 'Managing barriers: removing organisational barriers and enabling cross-functional collaboration.'
+      - ask: A team ships features on time in two-week sprints but never checks whether students want them. What is missing?
+        hint: Which question goes unanswered?
+        answer: 'Lean start-up: testing, with real users, whether the innovation creates value for customers.'
+      - ask: A start-up runs dozens of quick tests across eight unrelated markets. What is missing now?
+        hint: Collis.
+        answer: 'Lean strategy: direction, scope and guardrails. Entrepreneurship without strategy leads to chaos.'
+    what-if:
+      - change: UniConnect's team runs disciplined two-week sprints but never tests features with students.
+        effect: 'Agile is in place but lean start-up is not: the team organises and delivers work well, yet nobody tests whether the innovation creates value for customers, so features shipped on time may be unwanted.'
+    boundary:
+      - text: Nasty Gal throwing many ideas against the wall to see what would stick.
+        why: 'Plenty of experimentation but no lean strategy: with no clear focus, employees stumbled over one another competing for resources, and growth stalled.'
+      - text: Mission Bell Winery's executive agile team building the backlog of enterprise priorities.
+        why: 'Agile at the top doing part of lean strategy''s job: prioritising the right opportunities and making sure teams work on the right problems with sufficient resources.'
+    transfer:
+      - scenario: A university's new careers app was built by an agile team in sprints. Students like it, but it took a year to launch, and staff keep proposing unrelated add-ons.
+        answer: 'Agile is working inside the team. Lean start-up asks whether each add-on creates value, tested with real students before it is built. Lean strategy sets direction, scope and guardrails so only aligned ideas get resources. The slow launch is a barrier: as in Rigby et al.''s app pilot, budgeting, testing and integration must share the team''s priorities.'
+    objections:
+      - position: An organisation that adopts agile will innovate successfully.
+        evidence: 'Rigby et al.: agile improves speed to market; at John Deere''s Enterprise Advanced Marketing unit, innovation project cycle times fell by more than 75% in some cases.'
+        objection: Their own app pilot shows agile teams stalled by annual funding and waterfall queues, and Collis warns that entrepreneurship without strategy leads to chaos. The tutor slide pairs agile with lean start-up and lean strategy.
+    storyboard:
+      - caption: 'Round 1: manage tasks'
+        detail: 'Prioritise the product backlog and plan your first agile sprint. Lesson: prioritise work based on value and capacity.'
+      - caption: 'Round 2: manage change'
+        detail: 'Use customer feedback to revise priorities and plan your next experiment. Lesson: test assumptions and adapt based on evidence.'
+      - caption: 'Round 3: manage innovation'
+        detail: 'Identify organisational barriers and recommend how managers can enable agile. Lesson: remove barriers and enable cross-functional collaboration.'
+      - caption: Share and reflect
+        detail: 'Which was the hardest decision: prioritising, adapting or managing organisational barriers?'
+    sources:
+      - Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW) (slides 8–10)
+      - Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016) (pp 49–50)
+      - Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016) (pp 63, 68)
+flows:
+  - slug: screen-test-and-learn
+    title: Should we test this idea, and what do we do with the result?
+    summary: Screens an idea against the strategy (Collis), then takes one experiment through the innovation accounting report to persevere, pivot or run the next experiment.
+    start: n1
+    concepts:
+      - mgmt2094-w10-lean-strategy
+      - mgmt2094-w10-build-measure-learn
+      - mgmt2094-w10-lean-start-up
+    sources:
+      - Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016) (pp 64–68)
+      - Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up (slides 9–15)
+    nodes:
+      - id: n1
+        kind: ask
+        text: 'Does the idea pass the strategic screen: does it fit the vision and the deliberate strategy''s objective, scope and advantage?'
+        note: 'Collis: strategy is a screen that novel ideas must pass. The single best piece of advice for any company builder: know what not to do.'
+        concept: mgmt2094-w10-lean-strategy
+        authorities:
+          - mgmt2094-collis-2016-lean-strategy
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: 'No'
+            to: n2
+      - id: n2
+        kind: end
+        tone: not-met
+        text: 'Set it aside: strategy says what not to do.'
+        note: Eleet set aside its B2C use cases after analysing the target markets, before testing any of them.
+        authorities:
+          - mgmt2094-example-eleet
+      - id: n3
+        kind: ask
+        text: Can the idea be judged by quick, cheap experiments?
+        note: 'Collis: some ideas cannot. Truly novel products may need whole ecosystems and long-term investment; Tesla''s lithium ion batteries would never have got off the ground had they had to show immediate success.'
+        branches:
+          - label: 'Yes'
+            to: n5
+          - label: 'No: it needs long-term investment'
+            to: n4
+      - id: n4
+        kind: end
+        tone: qualified
+        text: Commit only after careful analysis, and only if the investment is a strategic fit.
+        exception: true
+        authorities:
+          - mgmt2094-example-tesla
+      - id: n5
+        kind: step
+        text: 'Write a falsifiable hypothesis: quantify your goals, set the scope and timebox, and test the value and growth hypothesis first.'
+        note: 'Begin the innovation accounting report with the background: why is this experiment relevant?'
+        concept: mgmt2094-w10-build-measure-learn
+        next: n6
+      - id: n6
+        kind: step
+        text: Build the simplest thing that can measure it, the MVP, and plan how to execute the experiment.
+        note: 'Validated learning plans in reverse: what do we need to learn, how can we measure it, what is the simplest thing to build?'
+        concept: mgmt2094-w10-lean-start-up
+        next: n7
+      - id: n7
+        kind: step
+        text: 'Measure: record the results as data, against the target and the baseline.'
+        note: 'Measure faster with split testing, actionable metrics and net promoter score. Collis: tests that capture only initial usage can mistake ephemeral traction, like Groupon''s, for lasting demand.'
+        authorities:
+          - mgmt2094-example-groupon
+        next: n8
+      - id: n8
+        kind: ask
+        text: 'Learn: was the hypothesis validated, invalidated or inconclusive?'
+        note: 'Collis: with the strategy as yardstick, decide whether to end, continue or amend the experiment.'
+        branches:
+          - label: Validated
+            to: n9
+          - label: Invalidated
+            to: n10
+          - label: Inconclusive
+            to: n12
+      - id: n9
+        kind: end
+        tone: met
+        text: 'Persevere: move to the next experiment, keeping the total time through the loop short.'
+      - id: n10
+        kind: step
+        text: 'Before deciding, dig into where things went right or wrong: which hypotheses were validated or disproved?'
+        note: 'Collis: a simple no-go loses all the information and skills developed. Instagram''s founders noticed that Burbn''s users posted a lot of pictures.'
+        authorities:
+          - mgmt2094-example-instagram-burbn
+        next: n11
+      - id: n11
+        kind: end
+        tone: qualified
+        text: 'Pivot: correct course on the hypotheses and run the next loop.'
+        note: Slide 15's one-page sheet lists pivot types such as zoom-in, zoom-out, channel, customer segment, customer need and value capture.
+      - id: n12
+        kind: end
+        tone: qualified
+        text: 'Inconclusive: document it, and move to the next experiment.'

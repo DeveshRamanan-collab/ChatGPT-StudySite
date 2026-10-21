@@ -1,0 +1,121 @@
+/* Reset + type defaults. All values come from tokens.css. */
+@import './fonts.css';
+@import './tokens.css';
+@import './components.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  min-height: 100dvh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 14, 'SOFT' 50, 'WONK' 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+img, picture, svg, video, canvas { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: default; }
+p, li, dd, h1, h2, h3, h4, blockquote { overflow-wrap: break-word; }
+
+/* Type */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: var(--lh-heading);
+  letter-spacing: var(--track-display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 0; /* opsz follows size */
+  text-wrap: balance;
+  margin-top: 3rem;
+  margin-bottom: .75rem;
+}
+h1 { font-size: var(--t-3xl); margin-top: var(--s-6); }
+h2 { font-size: var(--t-2xl); }
+h3 { font-size: var(--t-xl); }
+h4 { font-size: var(--t-lg); }
+p, ul, ol, dl, blockquote, table, pre { margin-bottom: 1.25em; }
+p { text-wrap: pretty; }
+ul, ol { padding-left: 1.25em; }
+small { font-size: var(--t-sm); color: var(--ink-2); }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .18em; text-decoration-color: var(--ink-3); }
+a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 3px; border-radius: var(--r-sm);
+}
+@media (hover: hover) and (pointer: fine) {
+  a:hover { text-decoration-color: currentColor; }
+}
+code, kbd, samp, pre { font-family: var(--font-mono); font-size: .9em; }
+blockquote { border-left: 1px solid var(--line); padding-left: var(--s-4); color: var(--ink-2); }
+hr { border: 0; border-top: 1px solid var(--line); margin: var(--s-7) 0; }
+dt { font-family: var(--font-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+dd { margin: 0 0 var(--s-4); }
+table { border-collapse: collapse; max-width: var(--measure-wide); }
+th, td { text-align: left; padding: var(--s-2) var(--s-3); border-bottom: 1px solid var(--line); }
+::selection { background: var(--accent-soft); color: var(--ink); }
+
+/* Prose measure: 66ch reading column, tables 80ch */
+.prose, .content > p, .content > ul, .content > ol, .content > dl, .content > blockquote, .content > article { max-width: var(--measure); }
+.content > table, .prose table { max-width: var(--measure-wide); }
+.prose h2, .prose h3 { margin-top: 3rem; } /* 3× the .75rem below */
+.label, .caps { font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+.ui { font-family: var(--font-ui); line-height: var(--lh-ui); }
+.mono { font-family: var(--font-mono); }
+
+/* Callouts (from :::rule etc.) */
+.callout { border-left: 2px solid var(--line); padding: var(--s-1) 0 var(--s-1) var(--s-4); margin: 1.25em 0; }
+.callout::before {
+  content: attr(data-label); display: block; margin-bottom: var(--s-1);
+  font-family: var(--font-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2);
+}
+.callout > :last-child { margin-bottom: 0; }
+
+/* Utilities */
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.skip { position: absolute; left: var(--s-2); top: var(--s-2); z-index: var(--z-toast); transform: translateY(-200%); background: var(--paper-2); padding: var(--s-2) var(--s-4); border-radius: var(--r-sm); }
+.skip:focus { transform: none; }
+
+/* ---------- View transitions (catalogue) ---------- */
+@keyframes ss-page-leave { to { opacity: 0; transform: translateY(-8px); } }
+@keyframes ss-page-enter { from { opacity: 0; transform: scale(var(--enter-scale)); } }
+@keyframes ss-fade-out { to { opacity: 0; } }
+@keyframes ss-fade-in { from { opacity: 0; } }
+::view-transition-group(*) { animation-duration: var(--dur-ui); animation-timing-function: var(--ease-inout); }
+/* Calm and off: fades only — no positional movement, no shared-element morph. */
+:root:is([data-motion='calm'], [data-motion='off'])::view-transition-group(*) { animation: none !important; }
+:root:is([data-motion='calm'], [data-motion='off'])::view-transition-old(*) { animation: ss-fade-out 150ms linear both !important; }
+:root:is([data-motion='calm'], [data-motion='off'])::view-transition-new(*) { animation: ss-fade-in 200ms linear both !important; }
+
+/* ---------- Reading progress hairline ---------- */
+.read-progress { display: none; position: fixed; inset: 0 0 auto 0; height: 2px; z-index: calc(var(--z-sticky) + 1); background: var(--ink); transform: scaleX(var(--progress, 0)); transform-origin: 0 50%; pointer-events: none; }
+
+/* Pretest gate (week pages): notes wait until the pretest is done or skipped. */
+html[data-pretest] #notes, html[data-pretest] .site-footer { display: none; }
+#notes:focus { outline: none; }
+
+/* Long answer exam-paper mode: the chrome steps back until Finish. */
+html[data-exam] .site-header nav[aria-label="Main"], html[data-exam] .site-header .tools, html[data-exam] .crumbs, html[data-exam] .site-footer, html[data-exam] .quiz__count, html[data-exam] .shell > .content > h1 { visibility: hidden; }
+
+
+/* Reading progress line: off by default (Settings → Reading progress line → html[data-progress="on"]). */
+:root[data-progress='on'] .read-progress { display: block; }
+:root[data-progress='on'] .toc__list { position: relative; }
+:root[data-progress='on'] .toc__list::after { content: ''; position: absolute; left: -1px; top: 0; width: 1px; height: 100%; background: var(--ink-2); transform: scaleY(var(--progress, 0)); transform-origin: 50% 0; pointer-events: none; }
+
+/* Native scrollbar in the theme; the gutter is reserved so the centred column never shifts. */
+html { scrollbar-width: thin; scrollbar-color: var(--ink-3) transparent; scrollbar-gutter: stable; }
+/* No sideways page scroll, ever: the hub's pinned week track is wider than the window by design. html's value goes to
+   the viewport; body clips its own box. clip (unlike hidden) makes no scroll container, so sticky and pins still work. */
+html, body { overflow-x: clip; }
+:root[data-scrollbar='hidden'] { scrollbar-width: none; }
+:root[data-scrollbar='hidden']::-webkit-scrollbar { display: none; }
+
+/* Theme switch: colours cross-fade over --dur-ui for the moment of the switch only (src/lib/theme.ts). */
+html.theme-switching, html.theme-switching *, html.theme-switching *::before, html.theme-switching *::after {
+  transition: color var(--dur-ui) var(--ease-hover), background-color var(--dur-ui) var(--ease-hover), border-color var(--dur-ui) var(--ease-hover), fill var(--dur-ui) var(--ease-hover), stroke var(--dur-ui) var(--ease-hover), box-shadow var(--dur-ui) var(--ease-hover) !important;
+}

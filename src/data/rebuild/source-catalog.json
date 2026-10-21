@@ -1,0 +1,3172 @@
+[
+  {
+    "path": "raw/README.md",
+    "name": "README.md",
+    "kind": "md",
+    "unit": "shared",
+    "bytes": 5066,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/README.md",
+    "supplied": false,
+    "sha256": "c7ed9c8844cf30320307c780b4caf0152bdda1838f5b3940f4c162dcdadab37a"
+  },
+  {
+    "path": "raw/laws2000-pil/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "name": "Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "kind": "webp",
+    "unit": "laws2000",
+    "bytes": 204942,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "supplied": false,
+    "sha256": "407715851c03683000951d1ce6b332ecc5ed7a68fa443a2a7b6e27b289f8ef53"
+  },
+  {
+    "path": "raw/laws2000-pil/assessment/Exam - UG-JD Exam Technique Tips video - Transcript.txt",
+    "name": "Exam - UG-JD Exam Technique Tips video - Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2000",
+    "bytes": 12442,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/assessment/Exam - UG-JD Exam Technique Tips video - Transcript.txt",
+    "supplied": false,
+    "sha256": "fd8303efcbbcc702d54792412bce61bc1347e8c8c8863f7b53c25d1ef906c833"
+  },
+  {
+    "path": "raw/laws2000-pil/assessment/Exam - iLearn Assessment Standards (screenshot 3 of 3).webp",
+    "name": "Exam - iLearn Assessment Standards (screenshot 3 of 3).webp",
+    "kind": "webp",
+    "unit": "laws2000",
+    "bytes": 196340,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/assessment/Exam - iLearn Assessment Standards (screenshot 3 of 3).webp",
+    "supplied": false,
+    "sha256": "7aaad4aeaa75cab0b0611c3947b863cc3f0b85f34b51a54fb1c95a48f189cb5c"
+  },
+  {
+    "path": "raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (screenshot 1 of 3).webp",
+    "name": "Exam - iLearn Final Invigilated Exam (screenshot 1 of 3).webp",
+    "kind": "webp",
+    "unit": "laws2000",
+    "bytes": 170816,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (screenshot 1 of 3).webp",
+    "supplied": false,
+    "sha256": "c246686bd558aa73aff416543751156e0d8cacd5bc18691890ae51da4d78110f"
+  },
+  {
+    "path": "raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (screenshot 2 of 3).webp",
+    "name": "Exam - iLearn Final Invigilated Exam (screenshot 2 of 3).webp",
+    "kind": "webp",
+    "unit": "laws2000",
+    "bytes": 208760,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (screenshot 2 of 3).webp",
+    "supplied": false,
+    "sha256": "53db69bc9c478a1d2b05fe137f5de8bee84751aaefbc2c363e835c459ea74a32"
+  },
+  {
+    "path": "raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (transcribed 20 Oct 2026).md",
+    "name": "Exam - iLearn Final Invigilated Exam (transcribed 20 Oct 2026).md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 7854,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (transcribed 20 Oct 2026).md",
+    "supplied": false,
+    "sha256": "a2331b02cad1688b1daaad53c03c8461fddcf642e40bfaf60ababe9784abddde"
+  },
+  {
+    "path": "raw/laws2000-pil/unit-wide/Unit-wide - Exam - Main Exam Cover Sheet (Questions Format).docx",
+    "name": "Unit-wide - Exam - Main Exam Cover Sheet (Questions Format).docx",
+    "kind": "docx",
+    "unit": "laws2000",
+    "bytes": 43966,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/unit-wide/Unit-wide - Exam - Main Exam Cover Sheet (Questions Format).docx",
+    "supplied": false,
+    "sha256": "e1d9dff5189c81f9489c054a0758496f8e7d5c7006aa2f9e962584898aa98810"
+  },
+  {
+    "path": "raw/laws2000-pil/unit-wide/Unit-wide - Schedule - LAWS2000 Semester 2 2026.pdf",
+    "name": "Unit-wide - Schedule - LAWS2000 Semester 2 2026.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 114569,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/unit-wide/Unit-wide - Schedule - LAWS2000 Semester 2 2026.pdf",
+    "supplied": false,
+    "sha256": "53d07189532d0fd66e17e6d113ec585753adb4afa3473707c3eb0d75cdb6bf0c"
+  },
+  {
+    "path": "raw/laws2000-pil/unit-wide/Unit-wide - Useful Web Links and Online Resources.pdf",
+    "name": "Unit-wide - Useful Web Links and Online Resources.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 53724,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/unit-wide/Unit-wide - Useful Web Links and Online Resources.pdf",
+    "supplied": false,
+    "sha256": "28d3e93736cf23e4400f08c982979a4d0deef4e54ab83b45fde56515cfd8947b"
+  },
+  {
+    "path": "raw/laws2000-pil/unit.yaml",
+    "name": "unit.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 1126,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/unit.yaml",
+    "supplied": false,
+    "sha256": "eecfe18a1a692f3851ad9b5245884e818a53cb572053333ac90f2f4a9930c3ea"
+  },
+  {
+    "path": "raw/laws2000-pil/week-01/Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript.md",
+    "name": "Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 54663,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-01/Week 01 - Lecture Recording (Live) - What Is Public International Law - Full Transcript.md",
+    "supplied": false,
+    "sha256": "f6b50d9fe1c50838607e571acfd9b1168d04ce15bedb1275cedf6825064d800b"
+  },
+  {
+    "path": "raw/laws2000-pil/week-01/Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript.md",
+    "name": "Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 27804,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-01/Week 01 - Lecture Recording (Online) - Introduction to International Law - Full Transcript.md",
+    "supplied": false,
+    "sha256": "e2d8ba1f1d2027938f59689e4fd5d3c3da96b96763392e1e295d4c63f5b947e3"
+  },
+  {
+    "path": "raw/laws2000-pil/week-01/Week 01 - Lecture Slides - What Is Public International Law.pdf",
+    "name": "Week 01 - Lecture Slides - What Is Public International Law.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 1358882,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-01/Week 01 - Lecture Slides - What Is Public International Law.pdf",
+    "supplied": false,
+    "sha256": "b96bfdb890ffe065e4957ed67b38304cd10faebbc532355b39e438f00fa7b6e5"
+  },
+  {
+    "path": "raw/laws2000-pil/week-01/Week 01 - Notes - What Is Public International Law.md",
+    "name": "Week 01 - Notes - What Is Public International Law.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 114283,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-01/Week 01 - Notes - What Is Public International Law.md",
+    "supplied": false,
+    "sha256": "fdd0fdcbfcd078e5847fc1128e1fe17587bf251439298dc2f50fe8d0922f10a3"
+  },
+  {
+    "path": "raw/laws2000-pil/week-01/Week 01 - Tutorial Questions - What Is Public International Law.pdf",
+    "name": "Week 01 - Tutorial Questions - What Is Public International Law.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 184414,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-01/Week 01 - Tutorial Questions - What Is Public International Law.pdf",
+    "supplied": false,
+    "sha256": "2f5643b5f568bf4ca815627efb56a6b79f6ac3d2b6cf43a8d18f1e26734a6d31"
+  },
+  {
+    "path": "raw/laws2000-pil/week-02/Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript.md",
+    "name": "Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 56456,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-02/Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript.md",
+    "supplied": false,
+    "sha256": "4b0fbaa0acd74305959d2a2afd461bb8de07a91f2064a9296626c567186109aa"
+  },
+  {
+    "path": "raw/laws2000-pil/week-02/Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript.md",
+    "name": "Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 35913,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-02/Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript.md",
+    "supplied": false,
+    "sha256": "e8d9e4f7237491aa55e165ab1e12d825810bae9b1f2f585220d746083b685252"
+  },
+  {
+    "path": "raw/laws2000-pil/week-02/Week 02 - Lecture Slides - Sources of International Law.pdf",
+    "name": "Week 02 - Lecture Slides - Sources of International Law.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 675658,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-02/Week 02 - Lecture Slides - Sources of International Law.pdf",
+    "supplied": false,
+    "sha256": "42af77d67ebd099d0dd0aa0429ff182dda86fc18a663f5c20d42ca92f0c51a21"
+  },
+  {
+    "path": "raw/laws2000-pil/week-02/Week 02 - Notes - Sources of International Law.md",
+    "name": "Week 02 - Notes - Sources of International Law.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 141083,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-02/Week 02 - Notes - Sources of International Law.md",
+    "supplied": false,
+    "sha256": "6714ae3ec9367f3085d4c7eaf7449eaafe6d38ea050643a76f672a0d7823b584"
+  },
+  {
+    "path": "raw/laws2000-pil/week-02/Week 02 - Study Aid - Customary International Law Flowchart.png",
+    "name": "Week 02 - Study Aid - Customary International Law Flowchart.png",
+    "kind": "png",
+    "unit": "laws2000",
+    "bytes": 83922,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-02/Week 02 - Study Aid - Customary International Law Flowchart.png",
+    "supplied": false,
+    "sha256": "dea2d44766ba311b59c32bfb18779d504d1a300eb99868c3dd8b37d59301c161"
+  },
+  {
+    "path": "raw/laws2000-pil/week-02/Week 02 - Tutorial Questions - Sources of International Law.pdf",
+    "name": "Week 02 - Tutorial Questions - Sources of International Law.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 197437,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-02/Week 02 - Tutorial Questions - Sources of International Law.pdf",
+    "supplied": false,
+    "sha256": "da9ef0156d9e98261506a781902da1a69856980f9c563ecf8dbf16827b7b0b98"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Case Study - AUKUS National Interest Analysis.rtf",
+    "name": "Week 03 - Case Study - AUKUS National Interest Analysis.rtf",
+    "kind": "rtf",
+    "unit": "laws2000",
+    "bytes": 199848,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Case Study - AUKUS National Interest Analysis.rtf",
+    "supplied": false,
+    "sha256": "c4ec4a4baee7f8054266b0322aecfa27192a29f0095ebeb12b7df45d54440fe4"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Case Study - JSCOT AUKUS Report.pdf",
+    "name": "Week 03 - Case Study - JSCOT AUKUS Report.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 550589,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Case Study - JSCOT AUKUS Report.pdf",
+    "supplied": false,
+    "sha256": "798eceb49880096aaede3c5b5cb975c221eaa44037ae5f30f5b630f4d8fdbaaf"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript.md",
+    "name": "Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 55312,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Lecture Recording (Live) - The Law of Treaties - Full Transcript.md",
+    "supplied": false,
+    "sha256": "5d7b936eecd38a4647eef1cc2554e25f0951ae145e959ad6aebcd1e9639e9bee"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Lecture Recording (Online) - The Law of Treaties - Full Transcript.md",
+    "name": "Week 03 - Lecture Recording (Online) - The Law of Treaties - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 39244,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Lecture Recording (Online) - The Law of Treaties - Full Transcript.md",
+    "supplied": false,
+    "sha256": "5814b8dc9547218270488884fbe4391bd9bfb545b3f59f7a5bc195eb0446489a"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Lecture Slides - The Law of Treaties.pdf",
+    "name": "Week 03 - Lecture Slides - The Law of Treaties.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 1600934,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Lecture Slides - The Law of Treaties.pdf",
+    "supplied": false,
+    "sha256": "268cd35b6b84e173fb71e83ee168e815bdc11c67adcd0a83a59adb752b8135eb"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Notes - The Law of Treaties.md",
+    "name": "Week 03 - Notes - The Law of Treaties.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 139635,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Notes - The Law of Treaties.md",
+    "supplied": false,
+    "sha256": "2f092e622c7bc4c3d6666bea7009d2bc05e8a0c548d88f94ee22348b69b53edc"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Reading - Australia's Treaty-Making Process.pdf",
+    "name": "Week 03 - Reading - Australia's Treaty-Making Process.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 77659,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Reading - Australia's Treaty-Making Process.pdf",
+    "supplied": false,
+    "sha256": "ac79d0a285a6a40e4bb48b3efcf835f0e6a2f4f1a93fda4b8f1ecddec5e5c9e5"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Reference - UN Treaty Collection Depositary.pdf",
+    "name": "Week 03 - Reference - UN Treaty Collection Depositary.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 284104,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Reference - UN Treaty Collection Depositary.pdf",
+    "supplied": false,
+    "sha256": "ba8fe8aeeac375b38524c46972bb8f040b9c752a8d66216acc1078c5a9b4d953"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Study Aid - Treaty Interpretation Flowchart.pdf",
+    "name": "Week 03 - Study Aid - Treaty Interpretation Flowchart.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 322147,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Study Aid - Treaty Interpretation Flowchart.pdf",
+    "supplied": false,
+    "sha256": "6f4b4f908bc2ead7ea7ab937b0657b70bac3ae1aa4151fbc06a2422b4669d2b8"
+  },
+  {
+    "path": "raw/laws2000-pil/week-03/Week 03 - Tutorial Task - The Law of Treaties.pdf",
+    "name": "Week 03 - Tutorial Task - The Law of Treaties.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 242385,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-03/Week 03 - Tutorial Task - The Law of Treaties.pdf",
+    "supplied": false,
+    "sha256": "05c49b7320c1acb30edb41635d8911418ab2ab8175bcf7e1525faed3a6078520"
+  },
+  {
+    "path": "raw/laws2000-pil/week-04/Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript.md",
+    "name": "Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 54142,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-04/Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript.md",
+    "supplied": false,
+    "sha256": "2fd75d6d223d2cbee089e96fcc1674159fa5f9100964e29a785d6c9a700ee6f0"
+  },
+  {
+    "path": "raw/laws2000-pil/week-04/Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript.md",
+    "name": "Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 48317,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-04/Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript.md",
+    "supplied": false,
+    "sha256": "6c976fea6db4d7c40c336e683b0798812abae4029b168d484d749a9b1c856c39"
+  },
+  {
+    "path": "raw/laws2000-pil/week-04/Week 04 - Lecture Slides - Subjects of International Law and Statehood.pdf",
+    "name": "Week 04 - Lecture Slides - Subjects of International Law and Statehood.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 4150245,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-04/Week 04 - Lecture Slides - Subjects of International Law and Statehood.pdf",
+    "supplied": false,
+    "sha256": "a6e3bea748c423b324390e9cc5d7d30c66cd6c0c2dea4f6f6cce7aac50ea91a1"
+  },
+  {
+    "path": "raw/laws2000-pil/week-04/Week 04 - Notes - Subjects of International Law and Statehood.md",
+    "name": "Week 04 - Notes - Subjects of International Law and Statehood.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 162892,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-04/Week 04 - Notes - Subjects of International Law and Statehood.md",
+    "supplied": false,
+    "sha256": "2d8b6be0c393049255a4c3f303906cff87886d57e60ffa78b2082ca27adb018b"
+  },
+  {
+    "path": "raw/laws2000-pil/week-04/Week 04 - Tutorial Task - Subjects of International Law and Statehood.pdf",
+    "name": "Week 04 - Tutorial Task - Subjects of International Law and Statehood.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 242026,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-04/Week 04 - Tutorial Task - Subjects of International Law and Statehood.pdf",
+    "supplied": false,
+    "sha256": "a5251e156d3e41e73909b4b911c76514ca9bcd70c0e20fc04a0d04a940e7419f"
+  },
+  {
+    "path": "raw/laws2000-pil/week-05/Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript.md",
+    "name": "Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 52946,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-05/Week 05 - Lecture Recording (Live) - International and National Law and Jurisdiction - Full Transcript.md",
+    "supplied": false,
+    "sha256": "f3a46c5f4bfa522e4b77b4767bed862a27791c732fccb2c7e369deef9899ed9c"
+  },
+  {
+    "path": "raw/laws2000-pil/week-05/Week 05 - Lecture Recording (Online) - International and National Law and Jurisdiction - Full Transcript.md",
+    "name": "Week 05 - Lecture Recording (Online) - International and National Law and Jurisdiction - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 41735,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-05/Week 05 - Lecture Recording (Online) - International and National Law and Jurisdiction - Full Transcript.md",
+    "supplied": false,
+    "sha256": "dd8d8674ca7609dad0909bd419073b0a80ef48b4fb1e7fb2255b7b495ea618b5"
+  },
+  {
+    "path": "raw/laws2000-pil/week-05/Week 05 - Lecture Slides - International and National Law and Jurisdiction.pdf",
+    "name": "Week 05 - Lecture Slides - International and National Law and Jurisdiction.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 1287017,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-05/Week 05 - Lecture Slides - International and National Law and Jurisdiction.pdf",
+    "supplied": false,
+    "sha256": "d77e74bc5fe45c94f9ef8e7f69f431d773210d5d4fe5c3097860ec49b99c3555"
+  },
+  {
+    "path": "raw/laws2000-pil/week-05/Week 05 - Notes - International and National Law and Jurisdiction.md",
+    "name": "Week 05 - Notes - International and National Law and Jurisdiction.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 157573,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-05/Week 05 - Notes - International and National Law and Jurisdiction.md",
+    "supplied": false,
+    "sha256": "e900990bdf31a0a2f35b254ae1c09f3db1381cf574d431e6f0ead5b003caf2e3"
+  },
+  {
+    "path": "raw/laws2000-pil/week-05/Week 05 - Tutorial Tasks - International and National Law and Jurisdiction.pdf",
+    "name": "Week 05 - Tutorial Tasks - International and National Law and Jurisdiction.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 179963,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-05/Week 05 - Tutorial Tasks - International and National Law and Jurisdiction.pdf",
+    "supplied": false,
+    "sha256": "4eb9ae2f4237c1c0ad202269365e3bcab3cb5c790cc55524c80b275e35bcc53d"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Lecture Recording (Live) - Immunities - Full Transcript.md",
+    "name": "Week 06 - Lecture Recording (Live) - Immunities - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 54260,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Lecture Recording (Live) - Immunities - Full Transcript.md",
+    "supplied": false,
+    "sha256": "ee2df887ba0c4f804900dc97fd43c7c1fced40db18b7d2f302d6262bd085bf25"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Lecture Recording (Online) - Immunities - Full Transcript.md",
+    "name": "Week 06 - Lecture Recording (Online) - Immunities - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 21977,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Lecture Recording (Online) - Immunities - Full Transcript.md",
+    "supplied": false,
+    "sha256": "21e48dfa964fa3e971ac36381f9c89908af10a173feeadc3cae643c8face5449"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Lecture Slides - Immunities.pdf",
+    "name": "Week 06 - Lecture Slides - Immunities.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 1363032,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Lecture Slides - Immunities.pdf",
+    "supplied": false,
+    "sha256": "9e0feddb7f9f33dafe71f5de863c35e27c7a8adbf6391d3953e38b0ca23176ab"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Lecture Transcript (Online) - Immunities (Part B Diplomatic Immunities).txt",
+    "name": "Week 06 - Lecture Transcript (Online) - Immunities (Part B Diplomatic Immunities).txt",
+    "kind": "txt",
+    "unit": "laws2000",
+    "bytes": 17595,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Lecture Transcript (Online) - Immunities (Part B Diplomatic Immunities).txt",
+    "supplied": false,
+    "sha256": "b340ae7a8ec738166d282d257af2abe7ac5e3d60776d2cfaa29b24b0775d6d67"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Notes - Immunities.md",
+    "name": "Week 06 - Notes - Immunities.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 137557,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Notes - Immunities.md",
+    "supplied": false,
+    "sha256": "9032fce50b7f422f6df237ea6abca55132e4af0c4829f5db338a21d429df69d0"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Supplemental Lecture - Functional Immunity and Pinochet - Full Transcript.md",
+    "name": "Week 06 - Supplemental Lecture - Functional Immunity and Pinochet - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 5069,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Supplemental Lecture - Functional Immunity and Pinochet - Full Transcript.md",
+    "supplied": false,
+    "sha256": "4d21a873a388d93f14f467c17ccf1d4b4cb0686ec9c9d6f0173e62d16ebee4c3"
+  },
+  {
+    "path": "raw/laws2000-pil/week-06/Week 06 - Tutorial Task - Immunities and Julian Assange.pdf",
+    "name": "Week 06 - Tutorial Task - Immunities and Julian Assange.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 208964,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-06/Week 06 - Tutorial Task - Immunities and Julian Assange.pdf",
+    "supplied": false,
+    "sha256": "f457d02afa0c0dff1c14770926a6a5e20988e1bba2248e45268437aab49c36c5"
+  },
+  {
+    "path": "raw/laws2000-pil/week-07/Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript.md",
+    "name": "Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 60240,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-07/Week 07 - Lecture Recording (Live) - State Responsibility - Full Transcript.md",
+    "supplied": false,
+    "sha256": "2efbda5df8828efffac497d3e35d89b439f3d59040e736bcff7bc870ddc50041"
+  },
+  {
+    "path": "raw/laws2000-pil/week-07/Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript.md",
+    "name": "Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 38126,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-07/Week 07 - Lecture Recording (Online) - State Responsibility - Full Transcript.md",
+    "supplied": false,
+    "sha256": "5321e8ebcb980bc1d4552699cfe6ac34ef22054ff0010db52e62affcaf52b787"
+  },
+  {
+    "path": "raw/laws2000-pil/week-07/Week 07 - Lecture Slides - State Responsibility.pdf",
+    "name": "Week 07 - Lecture Slides - State Responsibility.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 5048979,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-07/Week 07 - Lecture Slides - State Responsibility.pdf",
+    "supplied": false,
+    "sha256": "107d79e96e1a49d67ce7a21ad2d4173eecac56bc74d96ee33b84629d04b9d065"
+  },
+  {
+    "path": "raw/laws2000-pil/week-07/Week 07 - Notes - State Responsibility.md",
+    "name": "Week 07 - Notes - State Responsibility.md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 154647,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-07/Week 07 - Notes - State Responsibility.md",
+    "supplied": false,
+    "sha256": "3e1d799a2dc913c29c4f27fa54f92fecc7fe4a0f45fe24b65cf6b007032f8a1f"
+  },
+  {
+    "path": "raw/laws2000-pil/week-07/Week 07 - Tutorial Task - State Responsibility.pdf",
+    "name": "Week 07 - Tutorial Task - State Responsibility.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 326293,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-07/Week 07 - Tutorial Task - State Responsibility.pdf",
+    "supplied": false,
+    "sha256": "4a20cf2e0d6624088ce830fd3b2d9431a8828aacc1a07fc80fac7cdb5899a701"
+  },
+  {
+    "path": "raw/laws2000-pil/week-08/Week 08 - Lecture Slides - International Dispute Settlement.pdf",
+    "name": "Week 08 - Lecture Slides - International Dispute Settlement.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 1501934,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-08/Week 08 - Lecture Slides - International Dispute Settlement.pdf",
+    "supplied": false,
+    "sha256": "1a56536a764a2afb5773542420e383d31c064383a7698dd99d033b4921980a56"
+  },
+  {
+    "path": "raw/laws2000-pil/week-08/Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A).txt",
+    "name": "Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A).txt",
+    "kind": "txt",
+    "unit": "laws2000",
+    "bytes": 39132,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-08/Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A).txt",
+    "supplied": false,
+    "sha256": "31b23b31d7ff1b073f0e90fbb976c196b2038e59615e1fc96f57fc603e94eea1"
+  },
+  {
+    "path": "raw/laws2000-pil/week-08/Week 08 - Tutorial Tasks - International Dispute Settlement.pdf",
+    "name": "Week 08 - Tutorial Tasks - International Dispute Settlement.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 154843,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-08/Week 08 - Tutorial Tasks - International Dispute Settlement.pdf",
+    "supplied": false,
+    "sha256": "9b81aea01aace6d71123a1456237160231f8a1bdf3baaf6a74fd8ecc0ff3477c"
+  },
+  {
+    "path": "raw/laws2000-pil/week-09/Week 09 - Lecture Slides - The Use of Force.pdf",
+    "name": "Week 09 - Lecture Slides - The Use of Force.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 1822716,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-09/Week 09 - Lecture Slides - The Use of Force.pdf",
+    "supplied": false,
+    "sha256": "6701b425b853435f644f518acf37acd3888794f1a5e5f7d0551dc0dd9fdd306d"
+  },
+  {
+    "path": "raw/laws2000-pil/week-09/Week 09 - Lecture Transcript (Live) - The Use of Force (Part A).txt",
+    "name": "Week 09 - Lecture Transcript (Live) - The Use of Force (Part A).txt",
+    "kind": "txt",
+    "unit": "laws2000",
+    "bytes": 41713,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-09/Week 09 - Lecture Transcript (Live) - The Use of Force (Part A).txt",
+    "supplied": false,
+    "sha256": "a87172e2e689076eb60a44fb655c46878f24c7db72943faa1c40af2d0c6edc84"
+  },
+  {
+    "path": "raw/laws2000-pil/week-09/Week 09 - Lecture Transcript (Online) - The Use of Force (Part B).txt",
+    "name": "Week 09 - Lecture Transcript (Online) - The Use of Force (Part B).txt",
+    "kind": "txt",
+    "unit": "laws2000",
+    "bytes": 34350,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-09/Week 09 - Lecture Transcript (Online) - The Use of Force (Part B).txt",
+    "supplied": false,
+    "sha256": "77d19e469e3756a7762b00634fec5135ad444d954baa3492b878daac305af36b"
+  },
+  {
+    "path": "raw/laws2000-pil/week-09/Week 09 - Tutorial Task - The Use of Force.pdf",
+    "name": "Week 09 - Tutorial Task - The Use of Force.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 142927,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-09/Week 09 - Tutorial Task - The Use of Force.pdf",
+    "supplied": false,
+    "sha256": "b3b8277d7b1dec50b5d9523c36320bc117f78d8c503e4bf9ee8a1df1b35b5d00"
+  },
+  {
+    "path": "raw/laws2000-pil/week-10/Week 10 - Lecture Slides - Collective Security and International Organisations.pdf",
+    "name": "Week 10 - Lecture Slides - Collective Security and International Organisations.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 4251507,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-10/Week 10 - Lecture Slides - Collective Security and International Organisations.pdf",
+    "supplied": false,
+    "sha256": "680a8b57a620d99a7cd9133bec6409c2397edd1f21ff4b3e19e333de6be659c4"
+  },
+  {
+    "path": "raw/laws2000-pil/week-10/Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1).txt",
+    "name": "Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1).txt",
+    "kind": "txt",
+    "unit": "laws2000",
+    "bytes": 29538,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-10/Week 10 - Lecture Transcript (Live) - Collective Security (Part A.1).txt",
+    "supplied": false,
+    "sha256": "07d52097e9ae9ca9cca27b8ef5fbfd26424e38f56e97fd0753548df6291843f0"
+  },
+  {
+    "path": "raw/laws2000-pil/week-10/Week 10 - Tutorial Tasks - Collective Security.pdf",
+    "name": "Week 10 - Tutorial Tasks - Collective Security.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 174579,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-10/Week 10 - Tutorial Tasks - Collective Security.pdf",
+    "supplied": false,
+    "sha256": "0be50f46fcdc5c5c0f56c423f08b59858283050fa90d411f2f87a6de75acdc43"
+  },
+  {
+    "path": "raw/laws2000-pil/week-11/Week 11 - Lecture Slides - International Criminal Law (image slides transcribed).md",
+    "name": "Week 11 - Lecture Slides - International Criminal Law (image slides transcribed).md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 17030,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-11/Week 11 - Lecture Slides - International Criminal Law (image slides transcribed).md",
+    "supplied": false,
+    "sha256": "42d29ae31bcae47d9d0ef66e5455835fa6f8a46f63e9f1d5230ae4a4feea103c"
+  },
+  {
+    "path": "raw/laws2000-pil/week-11/Week 11 - Lecture Slides - International Criminal Law (text extract).md",
+    "name": "Week 11 - Lecture Slides - International Criminal Law (text extract).md",
+    "kind": "md",
+    "unit": "laws2000",
+    "bytes": 23100,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-11/Week 11 - Lecture Slides - International Criminal Law (text extract).md",
+    "supplied": false,
+    "sha256": "1f23153b1dfc3101345a8f9028fae0d1f3d3e206b4c9c731099ba2f7ff520042"
+  },
+  {
+    "path": "raw/laws2000-pil/week-11/Week 11 - Tutorial Tasks - International Criminal Law.pdf",
+    "name": "Week 11 - Tutorial Tasks - International Criminal Law.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 188137,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-11/Week 11 - Tutorial Tasks - International Criminal Law.pdf",
+    "supplied": false,
+    "sha256": "196272dcfe59eb425d453da9f1db68c53041d496858ffa67501791d17450403c"
+  },
+  {
+    "path": "raw/laws2000-pil/week-12/Week 12 - Lecture Slides - International Human Rights Law.pptx",
+    "name": "Week 12 - Lecture Slides - International Human Rights Law.pptx",
+    "kind": "pptx",
+    "unit": "laws2000",
+    "bytes": 12392100,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-12/Week 12 - Lecture Slides - International Human Rights Law.pptx",
+    "supplied": false,
+    "sha256": "9da415e51b6a9b1052922a8ed1ce76187c0c42a097b14c81bbe9b507ec3c0238"
+  },
+  {
+    "path": "raw/laws2000-pil/week-12/Week 12 - Revision Slides.pdf",
+    "name": "Week 12 - Revision Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 425210,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-12/Week 12 - Revision Slides.pdf",
+    "supplied": false,
+    "sha256": "a18347e885abd5df7606beb98fe21401103230a1e00e4416a9c978d004adbc7d"
+  },
+  {
+    "path": "raw/laws2000-pil/week-12/Week 12 - Tutorial Revision Quiz Questions.pdf",
+    "name": "Week 12 - Tutorial Revision Quiz Questions.pdf",
+    "kind": "pdf",
+    "unit": "laws2000",
+    "bytes": 129934,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2000-pil/week-12/Week 12 - Tutorial Revision Quiz Questions.pdf",
+    "supplied": false,
+    "sha256": "93f723507a40f8697534de076c0fc67e4459285bfcf96d5f48c804b91f55b1a7"
+  },
+  {
+    "path": "raw/laws2100-juris/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "name": "Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "kind": "webp",
+    "unit": "laws2100",
+    "bytes": 204942,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "supplied": false,
+    "sha256": "407715851c03683000951d1ce6b332ecc5ed7a68fa443a2a7b6e27b289f8ef53"
+  },
+  {
+    "path": "raw/laws2100-juris/assessment/LAWS2100 Jurisprudence - Research Essay - Instructions and Questions 2026.pdf",
+    "name": "LAWS2100 Jurisprudence - Research Essay - Instructions and Questions 2026.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 257660,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/assessment/LAWS2100 Jurisprudence - Research Essay - Instructions and Questions 2026.pdf",
+    "supplied": false,
+    "sha256": "c71a92d317c12e9b5c69469152346cd1841e9ea1e4a7189f04cd07037acc1eb5"
+  },
+  {
+    "path": "raw/laws2100-juris/assessment/LAWS2100-essay-addendum-3-source-dossier.md",
+    "name": "LAWS2100-essay-addendum-3-source-dossier.md",
+    "kind": "md",
+    "unit": "laws2100",
+    "bytes": 84885,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/assessment/LAWS2100-essay-addendum-3-source-dossier.md",
+    "supplied": false,
+    "sha256": "9ec02e1bd0995ba6f8990ba0e19da862a7ab85d45c1aedbfc3c5925dce7d2eb9"
+  },
+  {
+    "path": "raw/laws2100-juris/assessment/Research Essay Rubric - S2 - 2026.pdf",
+    "name": "Research Essay Rubric - S2 - 2026.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 93898,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/assessment/Research Essay Rubric - S2 - 2026.pdf",
+    "supplied": false,
+    "sha256": "fc6024b12b7ef7eedf1e1b5621716f3bfff6ac598773ac94b15ab764e54ba153"
+  },
+  {
+    "path": "raw/laws2100-juris/unit-wide/Jurisprudence, Compressed.pptx",
+    "name": "Jurisprudence, Compressed.pptx",
+    "kind": "pptx",
+    "unit": "laws2100",
+    "bytes": 401558,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/unit-wide/Jurisprudence, Compressed.pptx",
+    "supplied": false,
+    "sha256": "cd2044c205613df4d8ffbfc4a636028e7a2a9e780207af84252fde147ce25bc3"
+  },
+  {
+    "path": "raw/laws2100-juris/unit.yaml",
+    "name": "unit.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 837,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/unit.yaml",
+    "supplied": false,
+    "sha256": "f86407d0bb01e6526d09660f8e4a77d6cf329f1ff2b5d169411e441143ece431"
+  },
+  {
+    "path": "raw/laws2100-juris/week-01/Week 01 - Lecture Slides.pdf",
+    "name": "Week 01 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 2540511,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-01/Week 01 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "b47d93f6d759e77375e0ed1241e5583f49810cf69d76f90a0b40fdecca1109ab"
+  },
+  {
+    "path": "raw/laws2100-juris/week-01/Week 01 - Lecture Transcript.txt",
+    "name": "Week 01 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 76498,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-01/Week 01 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "6b314b6d388b30e384b5a154d034deda726194cb457ce1d5768fa6a6e8cab30e"
+  },
+  {
+    "path": "raw/laws2100-juris/week-02/Week 02 - Lecture Slides.pdf",
+    "name": "Week 02 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 2032534,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-02/Week 02 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "0427e0dea401f0bc4e3f61a6bf5e1e39095a10514b1500f7a5fe4853113a032f"
+  },
+  {
+    "path": "raw/laws2100-juris/week-02/Week 02 - Lecture Transcript.txt",
+    "name": "Week 02 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 80124,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-02/Week 02 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "4ffcde9b212c59fe52f2106ce2db65760f01c615f9f6de7a2a088660eadd732d"
+  },
+  {
+    "path": "raw/laws2100-juris/week-03/Week 03 - Lecture Slides.pdf",
+    "name": "Week 03 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 2105970,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-03/Week 03 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "e01092f57bdc89528f256a412a5a5d0644c01d629fa550b0235b505777a74f43"
+  },
+  {
+    "path": "raw/laws2100-juris/week-03/Week 03 - Lecture Transcript.txt",
+    "name": "Week 03 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 87362,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-03/Week 03 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "ab854dbc1fdba998c795b86da31325d3a4e9cc3d4950fa73df8bfef345c05d24"
+  },
+  {
+    "path": "raw/laws2100-juris/week-04/Week 04 - Lecture Slides.pdf",
+    "name": "Week 04 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 713058,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-04/Week 04 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "6c3b7f5ed82d2b6278548bfce0a0d1cb840b6b56861ef121c3eb3ad16f80ab19"
+  },
+  {
+    "path": "raw/laws2100-juris/week-04/Week 04 - Lecture Transcript.txt",
+    "name": "Week 04 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 77541,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-04/Week 04 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "695766df86820359fe8c6f47e149d06eb0e3cf6a03ff5cdf2166cf825883753c"
+  },
+  {
+    "path": "raw/laws2100-juris/week-05/Week 05 - Lecture Slides.pdf",
+    "name": "Week 05 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 350696,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-05/Week 05 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "d4b2796e986d9da6a63888b1a547d81b535d9f5a68882eb1a72ba16c9555fe15"
+  },
+  {
+    "path": "raw/laws2100-juris/week-05/Week 05 - Lecture Transcript.txt",
+    "name": "Week 05 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 82593,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-05/Week 05 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "083b86d09f7f5ab084398e013b6f607e906b116d94308c369375b4622f8af1b2"
+  },
+  {
+    "path": "raw/laws2100-juris/week-06/Week 06 - Lecture Slides.pdf",
+    "name": "Week 06 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 572823,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-06/Week 06 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "41faf3b099906e360bc7a7f5261e3a8953723b333eb98ed260a53d2a9a294e5e"
+  },
+  {
+    "path": "raw/laws2100-juris/week-06/Week 06 - Lecture Transcript.txt",
+    "name": "Week 06 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 79323,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-06/Week 06 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "6f32bdcdcd2fc5b97f8aae802ba0c4f3d90b618109c261b03eef88f8d1ee00af"
+  },
+  {
+    "path": "raw/laws2100-juris/week-07/Week 07 - Lecture Slides.pdf",
+    "name": "Week 07 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 878706,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-07/Week 07 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "117d075aa5e8f93e8bf995145be20ad9025a78f35080db2b0e7ce8cb01e8befb"
+  },
+  {
+    "path": "raw/laws2100-juris/week-07/Week 07 - Lecture Transcript.txt",
+    "name": "Week 07 - Lecture Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 82282,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-07/Week 07 - Lecture Transcript.txt",
+    "supplied": false,
+    "sha256": "28c39d9660bd095275f9c0de4b00bfa774c053b3f576abc7e61a63ad14a496a7"
+  },
+  {
+    "path": "raw/laws2100-juris/week-08/Week 08 - Lecture Slides.pdf",
+    "name": "Week 08 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 1672582,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-08/Week 08 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "1d744773a9d54cc717da3759ff697ff6be004434830f88039793d962f9fbb2f4"
+  },
+  {
+    "path": "raw/laws2100-juris/week-08/Week 08 - Lecture Transcript - Outsider Jurisprudence.txt",
+    "name": "Week 08 - Lecture Transcript - Outsider Jurisprudence.txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 77327,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-08/Week 08 - Lecture Transcript - Outsider Jurisprudence.txt",
+    "supplied": false,
+    "sha256": "779233f6cd9111340fbc4c34ae6afc610b1491bc90bb1cc337e720795d476bbc"
+  },
+  {
+    "path": "raw/laws2100-juris/week-09/Week 09 - Lecture Slides.pdf",
+    "name": "Week 09 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 685304,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-09/Week 09 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "3790e1268dd2d916abad0814c3ef0072ab3db90befc31b0789ce583df21d64ed"
+  },
+  {
+    "path": "raw/laws2100-juris/week-09/Week 09 - Lecture Transcript - Rights (Pre-Recorded, 2025 recording).txt",
+    "name": "Week 09 - Lecture Transcript - Rights (Pre-Recorded, 2025 recording).txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 71030,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-09/Week 09 - Lecture Transcript - Rights (Pre-Recorded, 2025 recording).txt",
+    "supplied": false,
+    "sha256": "580269b8e170db8293e26032fec69dc6cb74c4d3118f6d28d5edb9917955e462"
+  },
+  {
+    "path": "raw/laws2100-juris/week-10/Week 10 - Lecture Slides.pdf",
+    "name": "Week 10 - Lecture Slides.pdf",
+    "kind": "pdf",
+    "unit": "laws2100",
+    "bytes": 629427,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-10/Week 10 - Lecture Slides.pdf",
+    "supplied": false,
+    "sha256": "2a6e8f47237bd6089fddca2e113bb4bbfa16f135f14e49272a9bb2bba5821b51"
+  },
+  {
+    "path": "raw/laws2100-juris/week-10/Week 10 - Lecture Transcript - The Moral Limits of the Law (Pre-Recorded, 2025 recording).txt",
+    "name": "Week 10 - Lecture Transcript - The Moral Limits of the Law (Pre-Recorded, 2025 recording).txt",
+    "kind": "txt",
+    "unit": "laws2100",
+    "bytes": 61181,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2100-juris/week-10/Week 10 - Lecture Transcript - The Moral Limits of the Law (Pre-Recorded, 2025 recording).txt",
+    "supplied": false,
+    "sha256": "61230f7fdb1f5987d1fc735f6f9380fe32815d32ddcc03bc0f187c600c158b50"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Abdel-Hady ANNOTATED (draft notes).pdf",
+    "name": "Abdel-Hady ANNOTATED (draft notes).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 353837,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Abdel-Hady ANNOTATED (draft notes).pdf",
+    "supplied": false,
+    "sha256": "a53caaba962edc36ad9aad49c0bca43ed4667f6772d705591243a549783605d9"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Abdel-Hady v Commonwealth (2026) 100 ALJR 742 (1)-2.pdf",
+    "name": "Abdel-Hady v Commonwealth (2026) 100 ALJR 742 (1)-2.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 316251,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Abdel-Hady v Commonwealth (2026) 100 ALJR 742 (1)-2.pdf",
+    "supplied": false,
+    "sha256": "a690ccc30bd3bfcc1800427a597f13fcb2d3e8cc278167201246c49271794255"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Abdel-Hady v Commonwealth (2026) 100 ALJR 742 (1).pdf",
+    "name": "Abdel-Hady v Commonwealth (2026) 100 ALJR 742 (1).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 316251,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Abdel-Hady v Commonwealth (2026) 100 ALJR 742 (1).pdf",
+    "supplied": false,
+    "sha256": "a690ccc30bd3bfcc1800427a597f13fcb2d3e8cc278167201246c49271794255"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt",
+    "name": "Exam - Examinable Law List (text).txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 7401,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt",
+    "supplied": false,
+    "sha256": "0184cdbfb3b05ffa0d6fec551b3333d0c26f819f3a877e022e4b78b3dd6d2f5b"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+    "name": "Exam - Examinable Law List.docx",
+    "kind": "docx",
+    "unit": "laws2400",
+    "bytes": 26179,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+    "supplied": false,
+    "sha256": "10d0a5648625651bdf5c6164624af54939a341418692aa4a377cbf64a07a51ff"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "name": "Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "kind": "webp",
+    "unit": "laws2400",
+    "bytes": 204942,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "supplied": false,
+    "sha256": "407715851c03683000951d1ce6b332ecc5ed7a68fa443a2a7b6e27b289f8ef53"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Exam - UG Exam Prep video - Transcript.txt",
+    "name": "Exam - UG Exam Prep video - Transcript.txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 10903,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Exam - UG Exam Prep video - Transcript.txt",
+    "supplied": false,
+    "sha256": "33dfd58f8eea95d7d8c242fde8463069d2c07758ca2376b5297617871df6d284"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Exam - iLearn Exam Information and Study Tips (screenshot).webp",
+    "name": "Exam - iLearn Exam Information and Study Tips (screenshot).webp",
+    "kind": "webp",
+    "unit": "laws2400",
+    "bytes": 330510,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Exam - iLearn Exam Information and Study Tips (screenshot).webp",
+    "supplied": false,
+    "sha256": "a7337b3c4fd80407d353e6a80d09fd31e0806a8de8d8eebd4b4b23f0830158df"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Exam - iLearn Exam Information and Study Tips (transcribed 20 Oct 2026).md",
+    "name": "Exam - iLearn Exam Information and Study Tips (transcribed 20 Oct 2026).md",
+    "kind": "md",
+    "unit": "laws2400",
+    "bytes": 6995,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Exam - iLearn Exam Information and Study Tips (transcribed 20 Oct 2026).md",
+    "supplied": false,
+    "sha256": "2c4fd32b0f1ca0db5f7e2773ed944276ea4292abc3a4024e92d0864c66a667f3"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/LAWS2400_SHFYR_2026_ALL_U- Practice-Based Task- Brief and Instructions - iLearn.pdf",
+    "name": "LAWS2400_SHFYR_2026_ALL_U- Practice-Based Task- Brief and Instructions - iLearn.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 323610,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/LAWS2400_SHFYR_2026_ALL_U- Practice-Based Task- Brief and Instructions - iLearn.pdf",
+    "supplied": false,
+    "sha256": "d337b063e79c5cd8173d8d64a7f24e01e08a2c32d1b39c78aff747e0f5730c32"
+  },
+  {
+    "path": "raw/laws2400-torts/assessment/Torts PBT - 20 Annotated Secondary Sources.docx",
+    "name": "Torts PBT - 20 Annotated Secondary Sources.docx",
+    "kind": "docx",
+    "unit": "laws2400",
+    "bytes": 73638,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/assessment/Torts PBT - 20 Annotated Secondary Sources.docx",
+    "supplied": false,
+    "sha256": "0d8fd7b2114062df16ecdaec5328028834b8b71badddca56cbf0f5a6e716972e"
+  },
+  {
+    "path": "raw/laws2400-torts/unit-wide/Casebook - iLearn 10.21.55 am.pdf",
+    "name": "Casebook - iLearn 10.21.55 am.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 309607,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/unit-wide/Casebook - iLearn 10.21.55 am.pdf",
+    "supplied": false,
+    "sha256": "b33413a370be082b83a6f5b74cd6ac5dba9ed34ed58990ca8e9aac55c3a2e85e"
+  },
+  {
+    "path": "raw/laws2400-torts/unit-wide/Motor Accidents Act 1988 No 102 (NSW) - as made.pdf",
+    "name": "Motor Accidents Act 1988 No 102 (NSW) - as made.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 9092444,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/unit-wide/Motor Accidents Act 1988 No 102 (NSW) - as made.pdf",
+    "supplied": false,
+    "sha256": "4630762b74bb04321c3f5b5fee2bc8f75b6674ecee6e762811f7b8ee3ac95c00"
+  },
+  {
+    "path": "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+    "name": "act-2002-022.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 450391,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+    "supplied": false,
+    "sha256": "a2b917bcb7a02a2e2be8582427f4fd668887a2ad50bddbfb0d748242133c301b"
+  },
+  {
+    "path": "raw/laws2400-torts/unit.yaml",
+    "name": "unit.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 1071,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/unit.yaml",
+    "supplied": false,
+    "sha256": "3f814cfc934f12c8db0356aed85fba2664238fb0ecdacfabeb271f26c54b0782"
+  },
+  {
+    "path": "raw/laws2400-torts/week-01/Topic 1 Lecture 2.pptx",
+    "name": "Topic 1 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 884215,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-01/Topic 1 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "499a9713058c284693e9abcbab8e61c7837595986e333575555c5ac08a83f084"
+  },
+  {
+    "path": "raw/laws2400-torts/week-01/Torts Topic 1 Lecture 1.pptx",
+    "name": "Torts Topic 1 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 5800910,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-01/Torts Topic 1 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "632b021c05fac6047f9428073b33a435f19b36cd02f574053da1729ff993a71e"
+  },
+  {
+    "path": "raw/laws2400-torts/week-01/Week 1.pdf",
+    "name": "Week 1.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 53277,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-01/Week 1.pdf",
+    "supplied": false,
+    "sha256": "fb804d2f5aa0e2dd92a0a5bc314888c99fa23119e159ea14c1353fd20ad68c36"
+  },
+  {
+    "path": "raw/laws2400-torts/week-02/Topic 2 Flowcharts - Trespass to the Person (Tort Law Principles 3e, pp 76-79).pdf",
+    "name": "Topic 2 Flowcharts - Trespass to the Person (Tort Law Principles 3e, pp 76-79).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 314540,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-02/Topic 2 Flowcharts - Trespass to the Person (Tort Law Principles 3e, pp 76-79).pdf",
+    "supplied": false,
+    "sha256": "7722227ca47f657c6c414ed81791673e7739fa443794c94525138c4c98065772"
+  },
+  {
+    "path": "raw/laws2400-torts/week-02/Topic 2 Lecture 2.pptx",
+    "name": "Topic 2 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 748164,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-02/Topic 2 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "87a7849fef2fbbb6fc4dbe3f91e9a7db7c249724ba2940c0c06d4933952f5c0c"
+  },
+  {
+    "path": "raw/laws2400-torts/week-02/Torts Topic 2 Lecture 1.pptx",
+    "name": "Torts Topic 2 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 764364,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-02/Torts Topic 2 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "5c2ff048cd99729676f45dd0e913171b7157561f6f24da97c5748abee240c5c2"
+  },
+  {
+    "path": "raw/laws2400-torts/week-02/Torts Week 2 Casebook.pdf",
+    "name": "Torts Week 2 Casebook.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 70409,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-02/Torts Week 2 Casebook.pdf",
+    "supplied": false,
+    "sha256": "410dfd162b1e63566bd571c5946fad07f96fcd79631d74d9a471bf31855527af"
+  },
+  {
+    "path": "raw/laws2400-torts/week-03/Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142).pdf",
+    "name": "Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 65702,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-03/Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142).pdf",
+    "supplied": false,
+    "sha256": "d97ef4a086ced6ab12fdc0e6141431f0bcd7e4cc91e9ffa5840fed027ac8f148"
+  },
+  {
+    "path": "raw/laws2400-torts/week-03/Topic 3 Lecture 2.pptx",
+    "name": "Topic 3 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 712977,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-03/Topic 3 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "79bb7cb82d71a24953e0f05518cedba5882dab0276f1e4064ed52ea217e8bd0b"
+  },
+  {
+    "path": "raw/laws2400-torts/week-03/Torts Topic 3 Lecture 1.pptx",
+    "name": "Torts Topic 3 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 1753418,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-03/Torts Topic 3 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "f02854fc35f87a63889d5a16eb32cbdb97f4137d22d1908b6f386c9458d6a6f6"
+  },
+  {
+    "path": "raw/laws2400-torts/week-04/Topic 4 Lecture 1 10.21.55 am.pptx",
+    "name": "Topic 4 Lecture 1 10.21.55 am.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 763735,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-04/Topic 4 Lecture 1 10.21.55 am.pptx",
+    "supplied": false,
+    "sha256": "6501207512d26064429843d4142dcd42f9c08cb1365191a0ae4b2c0e0bd9f24f"
+  },
+  {
+    "path": "raw/laws2400-torts/week-04/Topic 4 Lecture 2 10.21.55 am.pptx",
+    "name": "Topic 4 Lecture 2 10.21.55 am.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 713009,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-04/Topic 4 Lecture 2 10.21.55 am.pptx",
+    "supplied": false,
+    "sha256": "3430e6c2c262610df151b9a7257d6afb5da11ff8a85de2a7509c88ad5afd73e9"
+  },
+  {
+    "path": "raw/laws2400-torts/week-05/Topic 5 Flowcharts - Negligence Overview and Duty of Care (Tort Law Principles 3e, pp 195, 290-291) 10.21.55 am.pdf",
+    "name": "Topic 5 Flowcharts - Negligence Overview and Duty of Care (Tort Law Principles 3e, pp 195, 290-291) 10.21.55 am.pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 254953,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-05/Topic 5 Flowcharts - Negligence Overview and Duty of Care (Tort Law Principles 3e, pp 195, 290-291) 10.21.55 am.pdf",
+    "supplied": false,
+    "sha256": "f379ffd01200dca355e84e4fd70848779fb76b1df06a9fd6e2f31e99202d34f6"
+  },
+  {
+    "path": "raw/laws2400-torts/week-05/Topic 5 Lecture 1 10.21.55 am.pptx",
+    "name": "Topic 5 Lecture 1 10.21.55 am.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 1591901,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-05/Topic 5 Lecture 1 10.21.55 am.pptx",
+    "supplied": false,
+    "sha256": "aaf469d8c548db5109e56f5e4e88012d9e3bd68a3ef8453b112521ee0014aa06"
+  },
+  {
+    "path": "raw/laws2400-torts/week-05/Topic 5 Lecture 2 10.21.55 am.pptx",
+    "name": "Topic 5 Lecture 2 10.21.55 am.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 935098,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-05/Topic 5 Lecture 2 10.21.55 am.pptx",
+    "supplied": false,
+    "sha256": "03d3f44cf440aa9d4d30a62261bd052ffc033bbafb9ab3904d894a938a9b07e2"
+  },
+  {
+    "path": "raw/laws2400-torts/week-06/Topic 6 Lecture 1.pptx",
+    "name": "Topic 6 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 759521,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-06/Topic 6 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "5efb4768b458f218544e5a78ab3456913546487ab0cb2a3c893a428d16b504fe"
+  },
+  {
+    "path": "raw/laws2400-torts/week-06/Topic 6 Lecture 2.pptx",
+    "name": "Topic 6 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 751662,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-06/Topic 6 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "18a1640de93b937bcf18aedcdda31714c72307fab101c66492cfd3e7c64d1afd"
+  },
+  {
+    "path": "raw/laws2400-torts/week-07/Topic 7 Lecture 1 Transcript - Negligent Misstatement.txt",
+    "name": "Topic 7 Lecture 1 Transcript - Negligent Misstatement.txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 44672,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-07/Topic 7 Lecture 1 Transcript - Negligent Misstatement.txt",
+    "supplied": false,
+    "sha256": "167dc16823471df8f6bab813a3d395b4e85959b83a5e11e05f4ef79dd6ce07cf"
+  },
+  {
+    "path": "raw/laws2400-torts/week-07/Topic 7 Lecture 1.pptx",
+    "name": "Topic 7 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 1495318,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-07/Topic 7 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "64d95a36e218bcdd6ae0b6fb180d478dcf9e4266a31ef9a0f8cc8b244bef93b6"
+  },
+  {
+    "path": "raw/laws2400-torts/week-07/Topic 7 Lecture 2 Transcript - Pure Economic Loss (Acts and Defective Structures).txt",
+    "name": "Topic 7 Lecture 2 Transcript - Pure Economic Loss (Acts and Defective Structures).txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 37690,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-07/Topic 7 Lecture 2 Transcript - Pure Economic Loss (Acts and Defective Structures).txt",
+    "supplied": false,
+    "sha256": "2c2cd8e3b8aadf96192ab976996bf6947304856b905befa0873dba8e134ab785"
+  },
+  {
+    "path": "raw/laws2400-torts/week-07/Topic 7 Lecture 2.pptx",
+    "name": "Topic 7 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 716130,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-07/Topic 7 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "11d1de066c4a5f1fff21da68e02f9b9298912cca2e312fd924846fb116caa9fe"
+  },
+  {
+    "path": "raw/laws2400-torts/week-08/Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities).txt",
+    "name": "Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities).txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 44217,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-08/Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities).txt",
+    "supplied": false,
+    "sha256": "ec7db58bb20626c1b1a2c52215de76e6d460b28c397de8fcf6bd4f3cbc2746d9"
+  },
+  {
+    "path": "raw/laws2400-torts/week-08/Topic 8 Lecture 1.pptx",
+    "name": "Topic 8 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 768679,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-08/Topic 8 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "baba0427af350740855375359bcbcc2f3f9be561fbf65c851af74b2cd32eb9aa"
+  },
+  {
+    "path": "raw/laws2400-torts/week-08/Topic 8 Lecture 2 Transcript - Special Parties (Other Categories).txt",
+    "name": "Topic 8 Lecture 2 Transcript - Special Parties (Other Categories).txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 28556,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-08/Topic 8 Lecture 2 Transcript - Special Parties (Other Categories).txt",
+    "supplied": false,
+    "sha256": "c7346763ce977e9348a610414b1325defac70681da19a772c4f54bd956f0a56f"
+  },
+  {
+    "path": "raw/laws2400-torts/week-08/Topic 8 Lecture 2.pptx",
+    "name": "Topic 8 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 725615,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-08/Topic 8 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "f10e3232d629e88cc88d241c5af4ff47c775cc2e76293a48fc66e71eaeca87f9"
+  },
+  {
+    "path": "raw/laws2400-torts/week-09/Topic 9 Flowcharts - Breach of Duty (Tort Law Principles 3e, pp 381-382).pdf",
+    "name": "Topic 9 Flowcharts - Breach of Duty (Tort Law Principles 3e, pp 381-382).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 191165,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-09/Topic 9 Flowcharts - Breach of Duty (Tort Law Principles 3e, pp 381-382).pdf",
+    "supplied": false,
+    "sha256": "816897a2e0caedb1e1c0d798495d9ecb011fba98f9d5610d5e8905a5536dc804"
+  },
+  {
+    "path": "raw/laws2400-torts/week-09/Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty.txt",
+    "name": "Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty.txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 40317,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-09/Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty.txt",
+    "supplied": false,
+    "sha256": "ec5b3a690c8c9983d3e0333437472c16d19c08f31e876742ca1765c1bc4e812f"
+  },
+  {
+    "path": "raw/laws2400-torts/week-09/Topic 9 Lecture 1.pptx",
+    "name": "Topic 9 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 773676,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-09/Topic 9 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "1f534580ffe1ff0f94c57d620c9d55a45ef6df834cfebeb8c714556f860a3d1e"
+  },
+  {
+    "path": "raw/laws2400-torts/week-09/Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty.txt",
+    "name": "Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty.txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 44667,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-09/Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty.txt",
+    "supplied": false,
+    "sha256": "dda7e3617bcaa51472b224ef6ec7f3163cfb92d1867a29d84225d71a65a43a7c"
+  },
+  {
+    "path": "raw/laws2400-torts/week-09/Topic 9 Lecture 2.pptx",
+    "name": "Topic 9 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 850686,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-09/Topic 9 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "c26e8a8876a42fa30c081dc8b0d2d965230fabc814e0581451b2c0bde3b4fb67"
+  },
+  {
+    "path": "raw/laws2400-torts/week-09/Topic 9 Tutorial Preparation - Breach of Duty of Care.md",
+    "name": "Topic 9 Tutorial Preparation - Breach of Duty of Care.md",
+    "kind": "md",
+    "unit": "laws2400",
+    "bytes": 3284,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-09/Topic 9 Tutorial Preparation - Breach of Duty of Care.md",
+    "supplied": false,
+    "sha256": "1ba35174560f66648713034c92ff4c60c08392627b66c042edebe14086330e12"
+  },
+  {
+    "path": "raw/laws2400-torts/week-10/Topic 10 Flowcharts - Causation (Tort Law Principles 3e, pp 433-435).pdf",
+    "name": "Topic 10 Flowcharts - Causation (Tort Law Principles 3e, pp 433-435).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 228824,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-10/Topic 10 Flowcharts - Causation (Tort Law Principles 3e, pp 433-435).pdf",
+    "supplied": false,
+    "sha256": "7427f3daad2e728660f1613ebe5ea6e792d08bf6e15a8a621d53ae94fe771693"
+  },
+  {
+    "path": "raw/laws2400-torts/week-10/Topic 10 Lecture 1 Transcript - Causation.txt",
+    "name": "Topic 10 Lecture 1 Transcript - Causation.txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 42305,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-10/Topic 10 Lecture 1 Transcript - Causation.txt",
+    "supplied": false,
+    "sha256": "6fb5192fa50e1aa8d79b951e4fc03336cdeccafd8cd518ba14bc446c08aad612"
+  },
+  {
+    "path": "raw/laws2400-torts/week-10/Topic 10 Lecture 1.pptx",
+    "name": "Topic 10 Lecture 1.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 743649,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-10/Topic 10 Lecture 1.pptx",
+    "supplied": false,
+    "sha256": "c6e07e02f01cdd5a2203afc2a3b1675e43794be5e44cf2f55cfc6cacc7e62b6c"
+  },
+  {
+    "path": "raw/laws2400-torts/week-10/Topic 10 Lecture 2 Transcript - Causation.txt",
+    "name": "Topic 10 Lecture 2 Transcript - Causation.txt",
+    "kind": "txt",
+    "unit": "laws2400",
+    "bytes": 31957,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-10/Topic 10 Lecture 2 Transcript - Causation.txt",
+    "supplied": false,
+    "sha256": "590519a1467535ddf8401c5ebd3fe54e2bd635bac6f887fc556ec3bd5b3b1b58"
+  },
+  {
+    "path": "raw/laws2400-torts/week-10/Topic 10 Lecture 2.pptx",
+    "name": "Topic 10 Lecture 2.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 711385,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-10/Topic 10 Lecture 2.pptx",
+    "supplied": false,
+    "sha256": "1cfc96df679795ce93b2876b44fe437f5c9450f1bb1cf9ada52dbdc3dc4dce8d"
+  },
+  {
+    "path": "raw/laws2400-torts/week-10/Topic 10 Tutorial Preparation - Causation.md",
+    "name": "Topic 10 Tutorial Preparation - Causation.md",
+    "kind": "md",
+    "unit": "laws2400",
+    "bytes": 3890,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-10/Topic 10 Tutorial Preparation - Causation.md",
+    "supplied": false,
+    "sha256": "1d3001fb1b564394bce7cb92a4202f866040a747868dd6062d99a2c458287106"
+  },
+  {
+    "path": "raw/laws2400-torts/week-11/Topic 11 Flowcharts - Scope of Liability and Remoteness (Tort Law Principles 3e, pp 436-438).pdf",
+    "name": "Topic 11 Flowcharts - Scope of Liability and Remoteness (Tort Law Principles 3e, pp 436-438).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 188809,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-11/Topic 11 Flowcharts - Scope of Liability and Remoteness (Tort Law Principles 3e, pp 436-438).pdf",
+    "supplied": false,
+    "sha256": "40d4fce6c88acf5a610535553ae583d2fb95178676463558441132f83d9607ca"
+  },
+  {
+    "path": "raw/laws2400-torts/week-11/Topic 11 Tutorial Preparation Slides - Communication and Trauma-Informed Practice.pptx",
+    "name": "Topic 11 Tutorial Preparation Slides - Communication and Trauma-Informed Practice.pptx",
+    "kind": "pptx",
+    "unit": "laws2400",
+    "bytes": 2998626,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-11/Topic 11 Tutorial Preparation Slides - Communication and Trauma-Informed Practice.pptx",
+    "supplied": false,
+    "sha256": "de4ad6bfb704ba934eeca246ff382d1dc785faf4fd99cc07ddb0a66718618f0a"
+  },
+  {
+    "path": "raw/laws2400-torts/week-12/Topic 12 Flowcharts - Defences to Negligence (Tort Law Principles 3e, pp 478-479).pdf",
+    "name": "Topic 12 Flowcharts - Defences to Negligence (Tort Law Principles 3e, pp 478-479).pdf",
+    "kind": "pdf",
+    "unit": "laws2400",
+    "bytes": 132413,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/laws2400-torts/week-12/Topic 12 Flowcharts - Defences to Negligence (Tort Law Principles 3e, pp 478-479).pdf",
+    "supplied": false,
+    "sha256": "a9dbb72c029e058d22e7eb5607474f2eadbc3b3a325cf90c7854b0ed2fc50e6e"
+  },
+  {
+    "path": "raw/mgmt2094-sci/assessment/Exam - Assessment 3 Written report (final exam) - iLearn page.html",
+    "name": "Exam - Assessment 3 Written report (final exam) - iLearn page.html",
+    "kind": "html",
+    "unit": "mgmt2094",
+    "bytes": 109718,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/assessment/Exam - Assessment 3 Written report (final exam) - iLearn page.html",
+    "supplied": false,
+    "sha256": "5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97"
+  },
+  {
+    "path": "raw/mgmt2094-sci/assessment/Exam - Assessment 3 Written report (final exam) - text.txt",
+    "name": "Exam - Assessment 3 Written report (final exam) - text.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 6156,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/assessment/Exam - Assessment 3 Written report (final exam) - text.txt",
+    "supplied": false,
+    "sha256": "a11b916aa26f620687c714aa41824ef538b330cd50bceeffd4e0f83a7704acc1"
+  },
+  {
+    "path": "raw/mgmt2094-sci/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "name": "Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "kind": "webp",
+    "unit": "mgmt2094",
+    "bytes": 204942,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp",
+    "supplied": false,
+    "sha256": "407715851c03683000951d1ce6b332ecc5ed7a68fa443a2a7b6e27b289f8ef53"
+  },
+  {
+    "path": "raw/mgmt2094-sci/unit.yaml",
+    "name": "unit.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 1096,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/unit.yaml",
+    "supplied": false,
+    "sha256": "2164e7a09c2296a6f513247335af026773ffbaa1130f49e5d0b100ec7f36c257"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-01/Marketing - Week 01 - Introduction Lecture Slides (MGMT2094).pdf",
+    "name": "Marketing - Week 01 - Introduction Lecture Slides (MGMT2094).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 964016,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-01/Marketing - Week 01 - Introduction Lecture Slides (MGMT2094).pdf",
+    "supplied": false,
+    "sha256": "71885f4391eec677889b7d96b9d8bb0874d1d3d2e8fde0ff2782ede13a15163a"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-01/Marketing - Week 01 - Lecture Transcript - Introduction and Overview.txt",
+    "name": "Marketing - Week 01 - Lecture Transcript - Introduction and Overview.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 30134,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-01/Marketing - Week 01 - Lecture Transcript - Introduction and Overview.txt",
+    "supplied": false,
+    "sha256": "64a0222a514d307281f3e320ed100cfaff02d8e44ff48430643966cc72acec90"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-01/Marketing - Week 01 - Reading - Empire of Tech (Iger, 2015).pdf",
+    "name": "Marketing - Week 01 - Reading - Empire of Tech (Iger, 2015).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 5484639,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-01/Marketing - Week 01 - Reading - Empire of Tech (Iger, 2015).pdf",
+    "supplied": false,
+    "sha256": "aadaa19ec2496cd37e0d6ab0a3b0ea51fa2bac143435ee94b836db99741536a6"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-02/Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem.pdf",
+    "name": "Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 2053126,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-02/Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem.pdf",
+    "supplied": false,
+    "sha256": "6b7480b082e5ed5b1277b88213ee6c194d92838da9eb0cc2f367d90ef2c13c99"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-02/Marketing - Week 02 - Reading - Example of Student Mind Maps.pdf",
+    "name": "Marketing - Week 02 - Reading - Example of Student Mind Maps.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 2516802,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-02/Marketing - Week 02 - Reading - Example of Student Mind Maps.pdf",
+    "supplied": false,
+    "sha256": "8bb9c73b716132132d4ce29110376782c15f546bb34ff3c12ba81a6c3d2eba92"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-02/Marketing - Week 02 - Reading - Handout on Mind Map Guidelines.pdf",
+    "name": "Marketing - Week 02 - Reading - Handout on Mind Map Guidelines.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 335761,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-02/Marketing - Week 02 - Reading - Handout on Mind Map Guidelines.pdf",
+    "supplied": false,
+    "sha256": "1679b27898a3aa53fd4b424985a193e0db1cdf91ff8fc417403b89d6f0a459b5"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-02/Marketing - Week 02 - Tutorial Materials - Mind Mapping.pdf",
+    "name": "Marketing - Week 02 - Tutorial Materials - Mind Mapping.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 3278137,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-02/Marketing - Week 02 - Tutorial Materials - Mind Mapping.pdf",
+    "supplied": false,
+    "sha256": "574a1653598ba0ddb6c16c373d4bf23cdf8cab1c5bf030e835fe89bfa981588a"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-02/Marketing - Week 02 - Tutorial Slides (JE).pptx",
+    "name": "Marketing - Week 02 - Tutorial Slides (JE).pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 1674416,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-02/Marketing - Week 02 - Tutorial Slides (JE).pptx",
+    "supplied": false,
+    "sha256": "5b31302db03e5e8bf6cf20c25f7e9b705added1a78107745de0b8335c2af6f8d"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-03/Marketing - Week 03 - Creativity Exercises.pdf",
+    "name": "Marketing - Week 03 - Creativity Exercises.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 40042,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-03/Marketing - Week 03 - Creativity Exercises.pdf",
+    "supplied": false,
+    "sha256": "5d03ab0b16ca1583326c2f8d0d9eb6415e1fb17b5e96d52432c7b904b2269644"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-03/Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird).txt",
+    "name": "Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird).txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 56475,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-03/Marketing - Week 03 - Lecture Transcript - Design Thinking (Guest Lecture, Nathan Baird).txt",
+    "supplied": false,
+    "sha256": "3a7eeb2ad6c5824cbd6dd43786b6bdefc4885bd29d693bf4cb886cd9ccb8f465"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-03/Marketing - Week 03 - Reading - Design Thinking.pdf",
+    "name": "Marketing - Week 03 - Reading - Design Thinking.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 758375,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-03/Marketing - Week 03 - Reading - Design Thinking.pdf",
+    "supplied": false,
+    "sha256": "e190c9534070d1d3c15ce2efa25f5e55243922969029143ad0f0a4bad8311bfc"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-03/Marketing - Week 03 - Tutorial Materials - Creative Project.pdf",
+    "name": "Marketing - Week 03 - Tutorial Materials - Creative Project.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 381884,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-03/Marketing - Week 03 - Tutorial Materials - Creative Project.pdf",
+    "supplied": false,
+    "sha256": "1de26c962ae0245562c466a5c4e359969dabf5b21cbaa2543729ca6f9e386b13"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-04/Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono.pdf",
+    "name": "Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 4354311,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-04/Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono.pdf",
+    "supplied": false,
+    "sha256": "ac3885bd14eaa9dd4129ee11fa2a73260cddbfe2b7cdfc2f845fa0df5db4ef17"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-04/Marketing - Week 04 - Lecture Transcript - Six Thinking Hats.txt",
+    "name": "Marketing - Week 04 - Lecture Transcript - Six Thinking Hats.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 58134,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-04/Marketing - Week 04 - Lecture Transcript - Six Thinking Hats.txt",
+    "supplied": false,
+    "sha256": "367bcb77f9d3aeab262c91ab913fdd3c4d78782f6ac511a8ac1d9cdd5d98b078"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Brainwalking Article.pdf",
+    "name": "Marketing - Week 04 - Reading - Brainwalking Article.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1209140,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Brainwalking Article.pdf",
+    "supplied": false,
+    "sha256": "e9e4154d74b5f53a445f24d23edf9e19641696f8dbc0a4d7fd9a5841039b5f6f"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Leadership and Creative Problem-Solving.pdf",
+    "name": "Marketing - Week 04 - Reading - Leadership and Creative Problem-Solving.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 343462,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Leadership and Creative Problem-Solving.pdf",
+    "supplied": false,
+    "sha256": "1b8c4412325d710757a9994029786b4abf6792b8208405b2c205807531de5487"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Linear Thinking in a Non-Linear World.pdf",
+    "name": "Marketing - Week 04 - Reading - Linear Thinking in a Non-Linear World.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 7648358,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Linear Thinking in a Non-Linear World.pdf",
+    "supplied": false,
+    "sha256": "a025c63bbe70e0f990276a2657364d3e2ae6a980dae74c625685c89db2fb5038"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving.pdf",
+    "name": "Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 3714407,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-04/Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving.pdf",
+    "supplied": false,
+    "sha256": "ee2da797cf5a05222d24ce5df0bde6a78438cbe1bb597c7441e294a819ca4a1b"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-05/Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking.pdf",
+    "name": "Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1434692,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-05/Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking.pdf",
+    "supplied": false,
+    "sha256": "8b34724355d1260bae8363b14290f66122ba1095973ff041cf74e5f671419fcc"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-05/Marketing - Week 05 - Lecture Transcript - Creativity Theories.txt",
+    "name": "Marketing - Week 05 - Lecture Transcript - Creativity Theories.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 48526,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-05/Marketing - Week 05 - Lecture Transcript - Creativity Theories.txt",
+    "supplied": false,
+    "sha256": "775db509e1e3a2f53f5997d628bf3571f120ca9f279474a8ae629057cf708edb"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-05/Marketing - Week 05 - Reading - How You Define Problems Determines How You Solve It.pdf",
+    "name": "Marketing - Week 05 - Reading - How You Define Problems Determines How You Solve It.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 483236,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-05/Marketing - Week 05 - Reading - How You Define Problems Determines How You Solve It.pdf",
+    "supplied": false,
+    "sha256": "201ebae6b179fc1862c8868f72737a17c022386e52fb9fc8c5eed5c97b190655"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-05/Marketing - Week 05 - Reading - How to Spark Creativity When You Are in a Rut.pdf",
+    "name": "Marketing - Week 05 - Reading - How to Spark Creativity When You Are in a Rut.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 513740,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-05/Marketing - Week 05 - Reading - How to Spark Creativity When You Are in a Rut.pdf",
+    "supplied": false,
+    "sha256": "0d7875fa60daf68a8943741cc92d24f05ed7dcaed85128f5963f2e6278d542a8"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-05/Marketing - Week 05 - Reading - Wallas' Model of Creative Thinking.pdf",
+    "name": "Marketing - Week 05 - Reading - Wallas' Model of Creative Thinking.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 562529,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-05/Marketing - Week 05 - Reading - Wallas' Model of Creative Thinking.pdf",
+    "supplied": false,
+    "sha256": "75a2ea4ae996244cbd370f9f3f00cc4da246eb8ad53b28bf73e35998765bc5cb"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-05/Marketing - Week 05 - Tutorial Materials - Creative Gadgets.pptx",
+    "name": "Marketing - Week 05 - Tutorial Materials - Creative Gadgets.pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 1064401,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-05/Marketing - Week 05 - Tutorial Materials - Creative Gadgets.pptx",
+    "supplied": false,
+    "sha256": "a1be0c51153bc09270aa6621d3ebe90697271606453c2f8768005875ae3ee798"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-06/Marketing - Week 06 - Lecture Materials - Reflective Writing (file labelled Week 7 on iLearn).pdf",
+    "name": "Marketing - Week 06 - Lecture Materials - Reflective Writing (file labelled Week 7 on iLearn).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 158815,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-06/Marketing - Week 06 - Lecture Materials - Reflective Writing (file labelled Week 7 on iLearn).pdf",
+    "supplied": false,
+    "sha256": "b639b551abe05c1f2bc278b7b8d77075ad4c899a11804bf29b0be28faf7d3f75"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-06/Marketing - Week 06 - Tutorial Materials - Floor Company Exercise.pptx",
+    "name": "Marketing - Week 06 - Tutorial Materials - Floor Company Exercise.pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 620444,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-06/Marketing - Week 06 - Tutorial Materials - Floor Company Exercise.pptx",
+    "supplied": false,
+    "sha256": "b9ef461ca4f98b9685bd360105a345e8753ff93e6b1cda6fa666b47b6911d2e6"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-07/Marketing - Week 07 - Tutorial Materials - Invention, Innovation, Creativity.pptx",
+    "name": "Marketing - Week 07 - Tutorial Materials - Invention, Innovation, Creativity.pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 1208698,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-07/Marketing - Week 07 - Tutorial Materials - Invention, Innovation, Creativity.pptx",
+    "supplied": false,
+    "sha256": "2204a3b318ecef7fcdaddd2ed76bd99a8f0d7d2bb495ae40949e65667776e364"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-08/Marketing - Week 08 - Class Activity (JE) - Is It Really Disruptive Innovation.docx",
+    "name": "Marketing - Week 08 - Class Activity (JE) - Is It Really Disruptive Innovation.docx",
+    "kind": "docx",
+    "unit": "mgmt2094",
+    "bytes": 17375,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-08/Marketing - Week 08 - Class Activity (JE) - Is It Really Disruptive Innovation.docx",
+    "supplied": false,
+    "sha256": "f35955d47f07960dda989fdbb0dc622b0317f20f4546ba964914ff74d19d450d"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-08/Marketing - Week 08 - Lecture Materials - Innovation.pdf",
+    "name": "Marketing - Week 08 - Lecture Materials - Innovation.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 722452,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-08/Marketing - Week 08 - Lecture Materials - Innovation.pdf",
+    "supplied": false,
+    "sha256": "010df650df9d51e1aa7e23055891f5deeefdc202f122a5867727f67b0498c029"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-08/Marketing - Week 08 - Lecture Transcript - Innovation.txt",
+    "name": "Marketing - Week 08 - Lecture Transcript - Innovation.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 45784,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-08/Marketing - Week 08 - Lecture Transcript - Innovation.txt",
+    "supplied": false,
+    "sha256": "0489e728410ffa9737363ab32ee2c501fd0dea36bcafdd063a4fce66112da5ab"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-08/Marketing - Week 08 - Reading - Design Thinking for Social Innovation (Brown and Wyatt, 2010).pdf",
+    "name": "Marketing - Week 08 - Reading - Design Thinking for Social Innovation (Brown and Wyatt, 2010).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1008297,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-08/Marketing - Week 08 - Reading - Design Thinking for Social Innovation (Brown and Wyatt, 2010).pdf",
+    "supplied": false,
+    "sha256": "68e2c58c5d0c0ce7579d8874cca448f380aea794f2289422917208a3963a4023"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-08/Marketing - Week 08 - Reading - Inside Lego's Quest to Create the Plastic-Free Block.pdf",
+    "name": "Marketing - Week 08 - Reading - Inside Lego's Quest to Create the Plastic-Free Block.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1074498,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-08/Marketing - Week 08 - Reading - Inside Lego's Quest to Create the Plastic-Free Block.pdf",
+    "supplied": false,
+    "sha256": "492b88702278023657f1ae8ecadf236fc9e4ee69e02274199e5f32eb22f52b2c"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-08/Marketing - Week 08 - Tutorial Materials - Activity.pptx",
+    "name": "Marketing - Week 08 - Tutorial Materials - Activity.pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 1664909,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-08/Marketing - Week 08 - Tutorial Materials - Activity.pptx",
+    "supplied": false,
+    "sha256": "cfa93749e9a79b711a66753d6ba7e8cab7989287e29741a32417d06a7015e088"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-09/Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning.pdf",
+    "name": "Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 880469,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-09/Marketing - Week 09 - Lecture Materials - Product Development, A Case Study at Dow Corning.pdf",
+    "supplied": false,
+    "sha256": "fce3ff3c3034f0cae3b665fe58e5c17a6a05bc2b5b00484a9ff1308ffcbb1ac1"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-09/Marketing - Week 09 - Lecture Transcript - Types and Models of Innovation, Reflective Writing.txt",
+    "name": "Marketing - Week 09 - Lecture Transcript - Types and Models of Innovation, Reflective Writing.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 37075,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-09/Marketing - Week 09 - Lecture Transcript - Types and Models of Innovation, Reflective Writing.txt",
+    "supplied": false,
+    "sha256": "230c9056fc7b9a9061e4409e45fbaa870b15e399aa678a7401618b68a49871b7"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-09/Marketing - Week 09 - Tutorial Materials - Video Project.pptx",
+    "name": "Marketing - Week 09 - Tutorial Materials - Video Project.pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 792321,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-09/Marketing - Week 09 - Tutorial Materials - Video Project.pptx",
+    "supplied": false,
+    "sha256": "cf6eea3a455fb7398b0d27c5b90e97fee9a9411dc1f57298345023f98277348b"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-10/Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up.pdf",
+    "name": "Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1944028,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-10/Marketing - Week 10 - Lecture Materials - Agile Innovation and Lean Start-up.pdf",
+    "supplied": false,
+    "sha256": "a413bfdfed7fa7d1a6dee23bc3b04c42e23082955103c8ca1b68c293d919bd7e"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-10/Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+    "name": "Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 50855,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-10/Marketing - Week 10 - Lecture Transcript - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+    "supplied": false,
+    "sha256": "fc12afbe9a8924c6ce173adab1f8bc42df39949a33b02903a529c493600def9a"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-10/Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016).pdf",
+    "name": "Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 2048340,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-10/Marketing - Week 10 - Reading - Embracing Agile (Harvard Business Review, 2016).pdf",
+    "supplied": false,
+    "sha256": "f191091f2cc4d7cc7776be70c3b5a137e6e21244801452d3b34fe166d0f3be5d"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-10/Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016).pdf",
+    "name": "Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 5530798,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-10/Marketing - Week 10 - Reading - Lean Strategy (Collis, 2016).pdf",
+    "supplied": false,
+    "sha256": "3c9182d6a177fdc8600752412775c47330e5cc82d961ff4629d01b77f5921502"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-10/Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW).pdf",
+    "name": "Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 702970,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-10/Marketing - Week 10 - Tutorial Materials - Agile Innovation (Tutor Slides, SW).pdf",
+    "supplied": false,
+    "sha256": "746749a339b8b6e7cbe65872ad869af8d734afdd4dbe8d7c51e32f45a21c022b"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-10/Marketing - Week 10 - Tutorial Materials - Agile Innovation.pdf",
+    "name": "Marketing - Week 10 - Tutorial Materials - Agile Innovation.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 420174,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-10/Marketing - Week 10 - Tutorial Materials - Agile Innovation.pdf",
+    "supplied": false,
+    "sha256": "52a66f7c990ecb91229291e2de8b1a86796a712731b43df954a2994f3de87d43"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-11/Marketing - Week 11 - Lecture Materials - Innovation Models.pdf",
+    "name": "Marketing - Week 11 - Lecture Materials - Innovation Models.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1078272,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-11/Marketing - Week 11 - Lecture Materials - Innovation Models.pdf",
+    "supplied": false,
+    "sha256": "a09d10178a9edce0a01e77187bf0e29c71fac65a86a5e542d632164ee2f50aad"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-11/Marketing - Week 11 - Lecture Transcript - Guest Lecture, Business Founder (Mark).txt",
+    "name": "Marketing - Week 11 - Lecture Transcript - Guest Lecture, Business Founder (Mark).txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 35448,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-11/Marketing - Week 11 - Lecture Transcript - Guest Lecture, Business Founder (Mark).txt",
+    "supplied": false,
+    "sha256": "7f2fb6489810c39572db3954c25cdab361efa5012c206aa666dea82fe86e3055"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-11/Marketing - Week 11 - Reading - Which Innovation Model Is Right for Your Company (BCG, 2017).pdf",
+    "name": "Marketing - Week 11 - Reading - Which Innovation Model Is Right for Your Company (BCG, 2017).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 573258,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-11/Marketing - Week 11 - Reading - Which Innovation Model Is Right for Your Company (BCG, 2017).pdf",
+    "supplied": false,
+    "sha256": "7668fc898f61187a70c338555c6d8f3adfa99eb18e229dd84b63b97451212418"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-11/Marketing - Week 11 - Tutorial Materials - Video Project (Continued).pptx",
+    "name": "Marketing - Week 11 - Tutorial Materials - Video Project (Continued).pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 2163916,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-11/Marketing - Week 11 - Tutorial Materials - Video Project (Continued).pptx",
+    "supplied": false,
+    "sha256": "573aef22c789e5fc5257ba1f2e204bd3896cfe4cd8d8ce28e2ca29cff3e7bda3"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-12/Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture.pdf",
+    "name": "Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture.pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 1186185,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-12/Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture.pdf",
+    "supplied": false,
+    "sha256": "5ede8c496d4b1dea0d74ac9dd06af92b1fa82908950010c3b8fdef51ad22d892"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-12/Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson.txt",
+    "name": "Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson.txt",
+    "kind": "txt",
+    "unit": "mgmt2094",
+    "bytes": 65486,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-12/Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson.txt",
+    "supplied": false,
+    "sha256": "2a7d8196fabad34f80cf47bdf8c01eb81a35afbc8842a900687f55f5982ae617"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-12/Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017).pdf",
+    "name": "Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017).pdf",
+    "kind": "pdf",
+    "unit": "mgmt2094",
+    "bytes": 2376878,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-12/Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017).pdf",
+    "supplied": false,
+    "sha256": "2cece5a6511e192abba50be564309559804627ae1a143bd2c175a7b1324f5da8"
+  },
+  {
+    "path": "raw/mgmt2094-sci/week-12/Marketing - Week 12 - Tutorial Materials - Final Exam Preparation.pptx",
+    "name": "Marketing - Week 12 - Tutorial Materials - Final Exam Preparation.pptx",
+    "kind": "pptx",
+    "unit": "mgmt2094",
+    "bytes": 2161083,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/mgmt2094-sci/week-12/Marketing - Week 12 - Tutorial Materials - Final Exam Preparation.pptx",
+    "supplied": false,
+    "sha256": "40e6be4affbd11f16013a3cbf438090f321a715da3dd4336b07b7797f49652a7"
+  },
+  {
+    "path": "raw/supplied-exam-2026/01-5.webp",
+    "name": "01-5.webp",
+    "kind": "webp",
+    "unit": "shared",
+    "bytes": 204942,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/01-5.webp",
+    "supplied": true,
+    "sha256": "407715851c03683000951d1ce6b332ecc5ed7a68fa443a2a7b6e27b289f8ef53"
+  },
+  {
+    "path": "raw/supplied-exam-2026/02-4.webp",
+    "name": "02-4.webp",
+    "kind": "webp",
+    "unit": "shared",
+    "bytes": 330510,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/02-4.webp",
+    "supplied": true,
+    "sha256": "a7337b3c4fd80407d353e6a80d09fd31e0806a8de8d8eebd4b4b23f0830158df"
+  },
+  {
+    "path": "raw/supplied-exam-2026/03-3.webp",
+    "name": "03-3.webp",
+    "kind": "webp",
+    "unit": "shared",
+    "bytes": 196340,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/03-3.webp",
+    "supplied": true,
+    "sha256": "7aaad4aeaa75cab0b0611c3947b863cc3f0b85f34b51a54fb1c95a48f189cb5c"
+  },
+  {
+    "path": "raw/supplied-exam-2026/04-2.webp",
+    "name": "04-2.webp",
+    "kind": "webp",
+    "unit": "shared",
+    "bytes": 208760,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/04-2.webp",
+    "supplied": true,
+    "sha256": "53db69bc9c478a1d2b05fe137f5de8bee84751aaefbc2c363e835c459ea74a32"
+  },
+  {
+    "path": "raw/supplied-exam-2026/05-1.webp",
+    "name": "05-1.webp",
+    "kind": "webp",
+    "unit": "shared",
+    "bytes": 170816,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/05-1.webp",
+    "supplied": true,
+    "sha256": "c246686bd558aa73aff416543751156e0d8cacd5bc18691890ae51da4d78110f"
+  },
+  {
+    "path": "raw/supplied-exam-2026/06-MGMT-4-Exam-Final-Assessment-.html",
+    "name": "06-MGMT-4-Exam-Final-Assessment-.html",
+    "kind": "html",
+    "unit": "shared",
+    "bytes": 109718,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/06-MGMT-4-Exam-Final-Assessment-.html",
+    "supplied": true,
+    "sha256": "5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97"
+  },
+  {
+    "path": "raw/supplied-exam-2026/07-Torts.txt",
+    "name": "07-Torts.txt",
+    "kind": "txt",
+    "unit": "shared",
+    "bytes": 10903,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/07-Torts.txt",
+    "supplied": true,
+    "sha256": "33dfd58f8eea95d7d8c242fde8463069d2c07758ca2376b5297617871df6d284"
+  },
+  {
+    "path": "raw/supplied-exam-2026/08-Examinable_Law_List.docx",
+    "name": "08-Examinable_Law_List.docx",
+    "kind": "docx",
+    "unit": "shared",
+    "bytes": 26179,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/08-Examinable_Law_List.docx",
+    "supplied": true,
+    "sha256": "10d0a5648625651bdf5c6164624af54939a341418692aa4a377cbf64a07a51ff"
+  },
+  {
+    "path": "raw/supplied-exam-2026/09-UG-JD-Exam-technique-transcript.txt",
+    "name": "09-UG-JD-Exam-technique-transcript.txt",
+    "kind": "txt",
+    "unit": "shared",
+    "bytes": 12442,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/09-UG-JD-Exam-technique-transcript.txt",
+    "supplied": true,
+    "sha256": "fd8303efcbbcc702d54792412bce61bc1347e8c8c8863f7b53c25d1ef906c833"
+  },
+  {
+    "path": "raw/supplied-exam-2026/10-LAWS2000Pink-Cover-Sheet_Main.docx",
+    "name": "10-LAWS2000Pink-Cover-Sheet_Main.docx",
+    "kind": "docx",
+    "unit": "shared",
+    "bytes": 43966,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/10-LAWS2000Pink-Cover-Sheet_Main.docx",
+    "supplied": true,
+    "sha256": "e1d9dff5189c81f9489c054a0758496f8e7d5c7006aa2f9e962584898aa98810"
+  },
+  {
+    "path": "raw/supplied-exam-2026/11-UG-Exam-Prep-transcript.txt",
+    "name": "11-UG-Exam-Prep-transcript.txt",
+    "kind": "txt",
+    "unit": "shared",
+    "bytes": 10903,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/raw/supplied-exam-2026/11-UG-Exam-Prep-transcript.txt",
+    "supplied": true,
+    "sha256": "33dfd58f8eea95d7d8c242fde8463069d2c07758ca2376b5297617871df6d284"
+  },
+  {
+    "path": "content-src/aids/laws2000-w00.yaml",
+    "name": "laws2000-w00.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 164313,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w00.yaml",
+    "supplied": false,
+    "sha256": "1cc3a884b4621ba5034c3762f5e0b7089830498e1f8f6b82a27a972a8c2bd3f5"
+  },
+  {
+    "path": "content-src/aids/laws2000-w01.yaml",
+    "name": "laws2000-w01.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 57540,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w01.yaml",
+    "supplied": false,
+    "sha256": "32d8c07cbcc7556464e46dcc3d78e3a64a0256d9ce17f453dc6741a11563cbd8"
+  },
+  {
+    "path": "content-src/aids/laws2000-w02.yaml",
+    "name": "laws2000-w02.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 70531,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w02.yaml",
+    "supplied": false,
+    "sha256": "d1a078ac07f55adaa57cfea94236266b2204131033d698c2496d7cd7a8e99ab6"
+  },
+  {
+    "path": "content-src/aids/laws2000-w03.yaml",
+    "name": "laws2000-w03.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 74174,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w03.yaml",
+    "supplied": false,
+    "sha256": "7e36ed8ed1c743ca15340e91fcf74cb5610435d1d931131b401aa3c074b64ff7"
+  },
+  {
+    "path": "content-src/aids/laws2000-w04.yaml",
+    "name": "laws2000-w04.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 82007,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w04.yaml",
+    "supplied": false,
+    "sha256": "aa0c7145aa228a6812464cd4df456755719d776b5f93ce647d6998e2003731a8"
+  },
+  {
+    "path": "content-src/aids/laws2000-w05.yaml",
+    "name": "laws2000-w05.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 67635,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w05.yaml",
+    "supplied": false,
+    "sha256": "a895e0e1bc5a26470a42001dbacf4eb0767cca10eab0ed4a101ceb2b2aec8c7b"
+  },
+  {
+    "path": "content-src/aids/laws2000-w06.yaml",
+    "name": "laws2000-w06.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 60328,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w06.yaml",
+    "supplied": false,
+    "sha256": "9998e2c2dd8fd5f21b660c675ac21cbcf2c51cd6298302abf2f152364e3d2aa0"
+  },
+  {
+    "path": "content-src/aids/laws2000-w07.yaml",
+    "name": "laws2000-w07.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 72006,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w07.yaml",
+    "supplied": false,
+    "sha256": "03ea14a2aac8ecba047d9c28b270c29c503e9752acf8b0921ef2fc60bc38e21d"
+  },
+  {
+    "path": "content-src/aids/laws2000-w08.yaml",
+    "name": "laws2000-w08.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 63795,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w08.yaml",
+    "supplied": false,
+    "sha256": "9468842be020233476b9e0d8328a00e3a5983126258d252ca233a53b42f4a9b6"
+  },
+  {
+    "path": "content-src/aids/laws2000-w09.yaml",
+    "name": "laws2000-w09.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 70561,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w09.yaml",
+    "supplied": false,
+    "sha256": "584f4f9faf7de8db7715f0a4077e76f19fc3618a66048ed586ad1901d0b93272"
+  },
+  {
+    "path": "content-src/aids/laws2000-w10.yaml",
+    "name": "laws2000-w10.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 80971,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w10.yaml",
+    "supplied": false,
+    "sha256": "0a42b6eb640dad24d200a5fe006b4de2fa37a893e48ee60a4ac6c84ffca0d186"
+  },
+  {
+    "path": "content-src/aids/laws2000-w11.yaml",
+    "name": "laws2000-w11.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 66549,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w11.yaml",
+    "supplied": false,
+    "sha256": "961d6c508e3d580a889937dde16a4527f515bff04495941b2f45ac6ad11038c4"
+  },
+  {
+    "path": "content-src/aids/laws2000-w12.yaml",
+    "name": "laws2000-w12.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 59118,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2000-w12.yaml",
+    "supplied": false,
+    "sha256": "29270ba4819f3c42d894c54bea2af3cf9e9b213cb74107e5855e7d918032f2fa"
+  },
+  {
+    "path": "content-src/aids/laws2100-w01.yaml",
+    "name": "laws2100-w01.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 55541,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w01.yaml",
+    "supplied": false,
+    "sha256": "cb3853ded01305504d967f8e82b0e0b106c38a3e62b0f1f13c1c476bd0f99aab"
+  },
+  {
+    "path": "content-src/aids/laws2100-w02.yaml",
+    "name": "laws2100-w02.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 50838,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w02.yaml",
+    "supplied": false,
+    "sha256": "630bb74c8b90c9a8e8ae6e0bd405cee082bfecec80cdebb7c2ef7e19a332e858"
+  },
+  {
+    "path": "content-src/aids/laws2100-w03.yaml",
+    "name": "laws2100-w03.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 64338,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w03.yaml",
+    "supplied": false,
+    "sha256": "cb737378e478798bc3c25e2e29d1fd3b2f42c865a9686074cd17b711d8680ba6"
+  },
+  {
+    "path": "content-src/aids/laws2100-w04.yaml",
+    "name": "laws2100-w04.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 55673,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w04.yaml",
+    "supplied": false,
+    "sha256": "23526ee0ef672dd5b7eccc4e7b007f39fa2503d899044e748103314df3fad4bb"
+  },
+  {
+    "path": "content-src/aids/laws2100-w05.yaml",
+    "name": "laws2100-w05.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 53186,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w05.yaml",
+    "supplied": false,
+    "sha256": "976ce51ff5bc516a87f22d5617121d52d99601f5d1a95b3a3f1290c962a428a2"
+  },
+  {
+    "path": "content-src/aids/laws2100-w06.yaml",
+    "name": "laws2100-w06.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 54225,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w06.yaml",
+    "supplied": false,
+    "sha256": "186e84a3642f3f3c02b579b8859170bf6fff1a3cc7268b865f6eaa6f00483e7e"
+  },
+  {
+    "path": "content-src/aids/laws2100-w07.yaml",
+    "name": "laws2100-w07.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 54676,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w07.yaml",
+    "supplied": false,
+    "sha256": "9cd863c366bcf386b7cf1c309639d7e440d29874454ff5f829ddacf69c64c908"
+  },
+  {
+    "path": "content-src/aids/laws2100-w08.yaml",
+    "name": "laws2100-w08.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 52685,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w08.yaml",
+    "supplied": false,
+    "sha256": "7bd8c54d0d52c80b4b458164691de92839285391cc431c88772ad62c56d3aa92"
+  },
+  {
+    "path": "content-src/aids/laws2100-w09.yaml",
+    "name": "laws2100-w09.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 61958,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w09.yaml",
+    "supplied": false,
+    "sha256": "6553bde53b71f7caceb0943ddd56c1c928079aac9283a67ee32c3310386461d2"
+  },
+  {
+    "path": "content-src/aids/laws2100-w10.yaml",
+    "name": "laws2100-w10.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 66980,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2100-w10.yaml",
+    "supplied": false,
+    "sha256": "a070eff1fafd4f5cd1847692f4af638994fd2ab6776ed6435b8b41c5c523c257"
+  },
+  {
+    "path": "content-src/aids/laws2400-w00.yaml",
+    "name": "laws2400-w00.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 188789,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w00.yaml",
+    "supplied": false,
+    "sha256": "f1f4901046990d3559bab0f17345b58cd9afb06ab41db2b3eed99fccb0f0aec6"
+  },
+  {
+    "path": "content-src/aids/laws2400-w01.yaml",
+    "name": "laws2400-w01.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 58078,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w01.yaml",
+    "supplied": false,
+    "sha256": "c5dfe63c2ac3e24d5e620cde2b0df1ec478a124f1dcaf3aede1efbc90dad3c39"
+  },
+  {
+    "path": "content-src/aids/laws2400-w02.yaml",
+    "name": "laws2400-w02.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 60439,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w02.yaml",
+    "supplied": false,
+    "sha256": "fea07a55873fe6ff37b5bbc201715e7b616cee915954fd42d9277e5e5b91bec8"
+  },
+  {
+    "path": "content-src/aids/laws2400-w03.yaml",
+    "name": "laws2400-w03.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 64471,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w03.yaml",
+    "supplied": false,
+    "sha256": "0bce59f8e7be453120134adf963e6fe2bd5dfd7981f07a41525675916d2b9bc9"
+  },
+  {
+    "path": "content-src/aids/laws2400-w04.yaml",
+    "name": "laws2400-w04.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 65703,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w04.yaml",
+    "supplied": false,
+    "sha256": "57c0227b148bdc5057f50d4bb0316d94a929335bd3f292cda34eb04890914c93"
+  },
+  {
+    "path": "content-src/aids/laws2400-w05.yaml",
+    "name": "laws2400-w05.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 54148,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w05.yaml",
+    "supplied": false,
+    "sha256": "1b71c15be4fd6060372deba019d60d1fbb2666a3fcf617d36725634084a126ae"
+  },
+  {
+    "path": "content-src/aids/laws2400-w06.yaml",
+    "name": "laws2400-w06.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 63069,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w06.yaml",
+    "supplied": false,
+    "sha256": "2f88313aacf179344e57e39c2d752c59576e705a276ecc3ebbf15536f2e2026a"
+  },
+  {
+    "path": "content-src/aids/laws2400-w07.yaml",
+    "name": "laws2400-w07.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 70208,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w07.yaml",
+    "supplied": false,
+    "sha256": "ea9f16c86344e5193c5c903ea8fa9be55de9c29f7db66fde00b7d8dd62af12bb"
+  },
+  {
+    "path": "content-src/aids/laws2400-w08.yaml",
+    "name": "laws2400-w08.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 65806,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w08.yaml",
+    "supplied": false,
+    "sha256": "df6d4e44b88faf7f1f91a0dfbc84e6df784d2307de15934b1f2ab5d98f50ca36"
+  },
+  {
+    "path": "content-src/aids/laws2400-w09.yaml",
+    "name": "laws2400-w09.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 57697,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w09.yaml",
+    "supplied": false,
+    "sha256": "9edfdf3c6299bde5bf82f65abc2c956c239205e460206dcdffee522fe8f3db8f"
+  },
+  {
+    "path": "content-src/aids/laws2400-w10.yaml",
+    "name": "laws2400-w10.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 69456,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w10.yaml",
+    "supplied": false,
+    "sha256": "b6fa2ec1b641fe79749fefdb3cd8f49f850aed7838c5b5ec92f00dea1263f0b2"
+  },
+  {
+    "path": "content-src/aids/laws2400-w11.yaml",
+    "name": "laws2400-w11.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 51737,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w11.yaml",
+    "supplied": false,
+    "sha256": "e33c577d749c27230900a0e84563972b47fe4ae7ac3592933b0f652dac2bcf90"
+  },
+  {
+    "path": "content-src/aids/laws2400-w12.yaml",
+    "name": "laws2400-w12.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 54739,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/laws2400-w12.yaml",
+    "supplied": false,
+    "sha256": "7fc23f4bf083e11a3c105a1e3aef892d4ddfd8a0b0a08b9930e64eca3ca8861e"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w01.yaml",
+    "name": "mgmt2094-w01.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 54576,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w01.yaml",
+    "supplied": false,
+    "sha256": "2e53382c6de0a2625ab89236446cab61773247a3e72829ef0ffe7a13033fc7f3"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w02.yaml",
+    "name": "mgmt2094-w02.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 49882,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w02.yaml",
+    "supplied": false,
+    "sha256": "0f070222eb4d742840cff2608b4053b07ae55f279a2871cc29a7460a328b17b1"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w03.yaml",
+    "name": "mgmt2094-w03.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 59178,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w03.yaml",
+    "supplied": false,
+    "sha256": "5cf4272f8666cee0de35e8296bdd10208a77570c2faed60249948fd6767bbb15"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w04.yaml",
+    "name": "mgmt2094-w04.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 56168,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w04.yaml",
+    "supplied": false,
+    "sha256": "a7396812b809a092d0abcf4c65561dffd79ad4dd91cf667e85db14b31b485020"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w05.yaml",
+    "name": "mgmt2094-w05.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 58685,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w05.yaml",
+    "supplied": false,
+    "sha256": "81b18c855e012e9c58fd0a9729b314bbf890088f3000cbb38aeac532b8f0e8de"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w06.yaml",
+    "name": "mgmt2094-w06.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 44179,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w06.yaml",
+    "supplied": false,
+    "sha256": "9b0d87eeafb86f710bfbf8f6a4e177a25429b7f5e4c6d8bc91f3b4faaef6a2d0"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w07.yaml",
+    "name": "mgmt2094-w07.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 18297,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w07.yaml",
+    "supplied": false,
+    "sha256": "957e1e1668aa9f6bd0d69d4b8820b33722d06ca830482254c67affb45c1386fd"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w08.yaml",
+    "name": "mgmt2094-w08.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 62702,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w08.yaml",
+    "supplied": false,
+    "sha256": "2a5f88ed324fa5b62d895ef63b810d162c62946633c0f469f97cc18506dcae9e"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w09.yaml",
+    "name": "mgmt2094-w09.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 51358,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w09.yaml",
+    "supplied": false,
+    "sha256": "92080a008454d20094cfe2fc74b84a3b9fb35ddcae645a37cc31901263a18789"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w10.yaml",
+    "name": "mgmt2094-w10.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 89022,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w10.yaml",
+    "supplied": false,
+    "sha256": "6b67a892511d2870c3f3292a0f99e3924c0575ff71bf39b757b0dd8c64bbb155"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w11.yaml",
+    "name": "mgmt2094-w11.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 60328,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w11.yaml",
+    "supplied": false,
+    "sha256": "dae4d0321cc5cbbc85987d0756fcc2e1645272933a051a206fea92545d3bbb75"
+  },
+  {
+    "path": "content-src/aids/mgmt2094-w12.yaml",
+    "name": "mgmt2094-w12.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 47972,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/aids/mgmt2094-w12.yaml",
+    "supplied": false,
+    "sha256": "bc51c72a34928564d743839e47b8700ba0de2565fdc1d0b370d200b8a2996119"
+  },
+  {
+    "path": "content-src/dossiers/cases/donoghue-v-stevenson.yaml",
+    "name": "donoghue-v-stevenson.yaml",
+    "kind": "yaml",
+    "unit": "shared",
+    "bytes": 8131,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/dossiers/cases/donoghue-v-stevenson.yaml",
+    "supplied": false,
+    "sha256": "6fac2e1ab881e57a63fdcbe6ba72694b4fe2ed2a35c2a5475cc9f8723e7f5cd3"
+  },
+  {
+    "path": "content-src/dossiers/provisions/civil-liability-act-2002-nsw-s5b.yaml",
+    "name": "civil-liability-act-2002-nsw-s5b.yaml",
+    "kind": "yaml",
+    "unit": "shared",
+    "bytes": 6230,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/dossiers/provisions/civil-liability-act-2002-nsw-s5b.yaml",
+    "supplied": false,
+    "sha256": "11253d27b454407826bfd48add4ff6af54d052d56432864e40ee7f50ad6740f2"
+  },
+  {
+    "path": "content-src/dossiers/vocab.yaml",
+    "name": "vocab.yaml",
+    "kind": "yaml",
+    "unit": "shared",
+    "bytes": 24625,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/dossiers/vocab.yaml",
+    "supplied": false,
+    "sha256": "abfa18bf00cc501fe760e3b88b84b2ff79e21a38c385e40cc0bfb6b7a4dfe491"
+  },
+  {
+    "path": "content-src/laws2000-pq.yaml",
+    "name": "laws2000-pq.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 333042,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-pq.yaml",
+    "supplied": false,
+    "sha256": "6564d53a57ff44dc478b793a3902822d37fe96c72f7aad337a806ce6be487277"
+  },
+  {
+    "path": "content-src/laws2000-w01.yaml",
+    "name": "laws2000-w01.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 206052,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w01.yaml",
+    "supplied": false,
+    "sha256": "5b9618fffd1f28d4d1b5e4e60b5e25010287e7b6e0f40e700c508210389f58f5"
+  },
+  {
+    "path": "content-src/laws2000-w02.yaml",
+    "name": "laws2000-w02.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 276532,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w02.yaml",
+    "supplied": false,
+    "sha256": "0bf60989acbdbdb31c936696fae3e08306c2ebc66874d203e07b923d28fb7d37"
+  },
+  {
+    "path": "content-src/laws2000-w03.yaml",
+    "name": "laws2000-w03.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 270976,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w03.yaml",
+    "supplied": false,
+    "sha256": "3c346855f409c2dff144117aa84b503ae5bdb47dae75841227b7dd09f1b37811"
+  },
+  {
+    "path": "content-src/laws2000-w04.yaml",
+    "name": "laws2000-w04.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 241956,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w04.yaml",
+    "supplied": false,
+    "sha256": "ab198717ac11bc40260a08adeaac4ad5d2b5fc518c7f080db7f9ca73014fe2e0"
+  },
+  {
+    "path": "content-src/laws2000-w05.yaml",
+    "name": "laws2000-w05.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 237698,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w05.yaml",
+    "supplied": false,
+    "sha256": "78204ca041438a02c23d76469eb5cbdef79bc5552262af837984b12fb71f5bc4"
+  },
+  {
+    "path": "content-src/laws2000-w06.yaml",
+    "name": "laws2000-w06.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 247182,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w06.yaml",
+    "supplied": false,
+    "sha256": "ce4b18ae65bf74f5626c214f782ef8539f1c1eb915b602b7e15d1c360014ffed"
+  },
+  {
+    "path": "content-src/laws2000-w07.yaml",
+    "name": "laws2000-w07.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 242769,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w07.yaml",
+    "supplied": false,
+    "sha256": "70c31aac7b9d2097c517925934d5979c439b5e784e7b5ddf2858da8e8a065994"
+  },
+  {
+    "path": "content-src/laws2000-w08.yaml",
+    "name": "laws2000-w08.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 253966,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w08.yaml",
+    "supplied": false,
+    "sha256": "235ffc99defd2eabfeb5b316ece84734f5e19bf7a8bc494e480ba4e3c49023a4"
+  },
+  {
+    "path": "content-src/laws2000-w09.yaml",
+    "name": "laws2000-w09.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 270301,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w09.yaml",
+    "supplied": false,
+    "sha256": "cc679b6ec86024ab26354e8a52908f7c253b9f45c3769d3de3cf0d94fb86cf32"
+  },
+  {
+    "path": "content-src/laws2000-w10.yaml",
+    "name": "laws2000-w10.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 352395,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w10.yaml",
+    "supplied": false,
+    "sha256": "2dfa8edad78bc11c6a4cff15475a759e25fa641eef87530435b3312e874b6e7a"
+  },
+  {
+    "path": "content-src/laws2000-w11.yaml",
+    "name": "laws2000-w11.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 353217,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w11.yaml",
+    "supplied": false,
+    "sha256": "738307971230f20e8c3622238e053f472bb7afa88d481eea20cdde5b0fda0e82"
+  },
+  {
+    "path": "content-src/laws2000-w12.yaml",
+    "name": "laws2000-w12.yaml",
+    "kind": "yaml",
+    "unit": "laws2000",
+    "bytes": 251549,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2000-w12.yaml",
+    "supplied": false,
+    "sha256": "18bec32a951bae339a1f716c274d02aefc2f577c77126139d4727f24e9dd7e69"
+  },
+  {
+    "path": "content-src/laws2100-pq.yaml",
+    "name": "laws2100-pq.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 282959,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-pq.yaml",
+    "supplied": false,
+    "sha256": "92e5193e42c0af47872a0df79a09448f72132973bc70ac20ef8389e9f32dfa5d"
+  },
+  {
+    "path": "content-src/laws2100-w01.yaml",
+    "name": "laws2100-w01.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 193039,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w01.yaml",
+    "supplied": false,
+    "sha256": "4aa496d4ff4cafc04a92d73562ccb386fe83d57e76af447d33151a5aa4ca711a"
+  },
+  {
+    "path": "content-src/laws2100-w02.yaml",
+    "name": "laws2100-w02.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 178134,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w02.yaml",
+    "supplied": false,
+    "sha256": "e03baf785bb55e8ced23ca877fda5065ac04ee84b0df6aa85062b8c5ba41d265"
+  },
+  {
+    "path": "content-src/laws2100-w03.yaml",
+    "name": "laws2100-w03.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 224107,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w03.yaml",
+    "supplied": false,
+    "sha256": "5ff28894ce26e706d8515715ed6cde477800bef2643e6c80fbc957adaeb3b496"
+  },
+  {
+    "path": "content-src/laws2100-w04.yaml",
+    "name": "laws2100-w04.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 173687,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w04.yaml",
+    "supplied": false,
+    "sha256": "9d889d5fe07feae89e02dec44b6c1551a0131a69225aeefb0fa567cb47539d2f"
+  },
+  {
+    "path": "content-src/laws2100-w05.yaml",
+    "name": "laws2100-w05.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 198202,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w05.yaml",
+    "supplied": false,
+    "sha256": "af965c25c59ae2f0415ddfdf2ef7393e89dce4795d39527eb0b6c1c83b7f9939"
+  },
+  {
+    "path": "content-src/laws2100-w06.yaml",
+    "name": "laws2100-w06.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 202292,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w06.yaml",
+    "supplied": false,
+    "sha256": "e420d9b5a882b8edcc2763e0ddb79cedc62dc2915252de164c118c457cf31eb0"
+  },
+  {
+    "path": "content-src/laws2100-w07.yaml",
+    "name": "laws2100-w07.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 200846,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w07.yaml",
+    "supplied": false,
+    "sha256": "961e0c76843df0f69355ad4a2057578b29460f2e90f667b708903400884ea312"
+  },
+  {
+    "path": "content-src/laws2100-w08.yaml",
+    "name": "laws2100-w08.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 199633,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w08.yaml",
+    "supplied": false,
+    "sha256": "6ddd234819c0693b79d20710c4b6f109bfdbb3a73fb09723ba19866dd0ce28cf"
+  },
+  {
+    "path": "content-src/laws2100-w09.yaml",
+    "name": "laws2100-w09.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 234130,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w09.yaml",
+    "supplied": false,
+    "sha256": "e174b2dae96f75549ef1d4b58677e8b32c49153e87eee2b2684b1119f7629b99"
+  },
+  {
+    "path": "content-src/laws2100-w10.yaml",
+    "name": "laws2100-w10.yaml",
+    "kind": "yaml",
+    "unit": "laws2100",
+    "bytes": 233297,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2100-w10.yaml",
+    "supplied": false,
+    "sha256": "918bcbf9223c5741a0040b48175d609e39ce6ab872c925e1ac3e69781f436f5b"
+  },
+  {
+    "path": "content-src/laws2400-pq.yaml",
+    "name": "laws2400-pq.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 373112,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-pq.yaml",
+    "supplied": false,
+    "sha256": "c113b95fa021298b054c22121ea2169070ad83f8d848bb0b102099764559af39"
+  },
+  {
+    "path": "content-src/laws2400-w01.yaml",
+    "name": "laws2400-w01.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 210721,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w01.yaml",
+    "supplied": false,
+    "sha256": "2fe08ab466cea290169007667df102a7a1c7164a1af7b298251326ac551a8c3f"
+  },
+  {
+    "path": "content-src/laws2400-w02.yaml",
+    "name": "laws2400-w02.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 254889,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w02.yaml",
+    "supplied": false,
+    "sha256": "8ccf73ebff9a06b1174d35338d0766e04e0e7ac907fdf5f4d767834353f789fc"
+  },
+  {
+    "path": "content-src/laws2400-w03.yaml",
+    "name": "laws2400-w03.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 253394,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w03.yaml",
+    "supplied": false,
+    "sha256": "6d15a6360398e42dd5db26fa1d955dd2ff16e1748214faaa09d27d60d2750072"
+  },
+  {
+    "path": "content-src/laws2400-w04.yaml",
+    "name": "laws2400-w04.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 280944,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w04.yaml",
+    "supplied": false,
+    "sha256": "9c94e30603c2ec118cd5c64fb443911a17a849ae6009f6a6bde09ae368039cba"
+  },
+  {
+    "path": "content-src/laws2400-w05.yaml",
+    "name": "laws2400-w05.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 249663,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w05.yaml",
+    "supplied": false,
+    "sha256": "47d62fda87dad6d4a37640266da8ee397287ae01a28747804e1332f8b81f86a3"
+  },
+  {
+    "path": "content-src/laws2400-w06.yaml",
+    "name": "laws2400-w06.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 246484,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w06.yaml",
+    "supplied": false,
+    "sha256": "5e986fdd7c857f837c5b7c492b11748b29f1ed89dff715ade89604cba953b36f"
+  },
+  {
+    "path": "content-src/laws2400-w07.yaml",
+    "name": "laws2400-w07.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 251042,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w07.yaml",
+    "supplied": false,
+    "sha256": "d662ee483baba247ba64131bb3ed98227e15326051bb89c01229f81c6d19b1fe"
+  },
+  {
+    "path": "content-src/laws2400-w08.yaml",
+    "name": "laws2400-w08.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 275507,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w08.yaml",
+    "supplied": false,
+    "sha256": "646820e032942073aac91b35ce4bbbcc8e1a368c46eb74c6c0547d2c46d6f164"
+  },
+  {
+    "path": "content-src/laws2400-w09.yaml",
+    "name": "laws2400-w09.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 316063,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w09.yaml",
+    "supplied": false,
+    "sha256": "dd6d3a240e7aef3f4470564d01823482c7979d9d4b399b16236415084c6bd732"
+  },
+  {
+    "path": "content-src/laws2400-w10.yaml",
+    "name": "laws2400-w10.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 284111,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w10.yaml",
+    "supplied": false,
+    "sha256": "2d0b713c40eb4d343795af069b52c2499afdd363e392a861b46253da475674ab"
+  },
+  {
+    "path": "content-src/laws2400-w11.yaml",
+    "name": "laws2400-w11.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 179847,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w11.yaml",
+    "supplied": false,
+    "sha256": "b092bb3617c47e884bf33cc5f57ef4ed84b80082e334798ce55f378ab3871c58"
+  },
+  {
+    "path": "content-src/laws2400-w12.yaml",
+    "name": "laws2400-w12.yaml",
+    "kind": "yaml",
+    "unit": "laws2400",
+    "bytes": 181766,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/laws2400-w12.yaml",
+    "supplied": false,
+    "sha256": "b07feb46dc126b57f8b7d4ed2cabaee561c6efdc27abdade30d1c5a8b7180879"
+  },
+  {
+    "path": "content-src/mgmt2094-pq.yaml",
+    "name": "mgmt2094-pq.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 126082,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-pq.yaml",
+    "supplied": false,
+    "sha256": "15d71224c95d409afbc35a78d2a78cd2a61d18e66a06dae4bf24a2cec6a10f72"
+  },
+  {
+    "path": "content-src/mgmt2094-w01.yaml",
+    "name": "mgmt2094-w01.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 190411,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w01.yaml",
+    "supplied": false,
+    "sha256": "2fbf2d484c6107dd37cbe894e4ec611580ba31f8b0379db9226326ffc0f912f3"
+  },
+  {
+    "path": "content-src/mgmt2094-w02.yaml",
+    "name": "mgmt2094-w02.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 201893,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w02.yaml",
+    "supplied": false,
+    "sha256": "0171a054cbcba876b85a99a977f42e94a7ce7621be05e4d10db1ab06d2a337b1"
+  },
+  {
+    "path": "content-src/mgmt2094-w03.yaml",
+    "name": "mgmt2094-w03.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 259983,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w03.yaml",
+    "supplied": false,
+    "sha256": "2b90ae469bb0722ac3ca4b5f0df02ff22314e6f7a966dffc5d4ac6cdb4519daa"
+  },
+  {
+    "path": "content-src/mgmt2094-w04.yaml",
+    "name": "mgmt2094-w04.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 208215,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w04.yaml",
+    "supplied": false,
+    "sha256": "fd5c0da769ff1f82a91e022b28f53415ed47686d41d747ed08f2b42aaabf35ad"
+  },
+  {
+    "path": "content-src/mgmt2094-w05.yaml",
+    "name": "mgmt2094-w05.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 226277,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w05.yaml",
+    "supplied": false,
+    "sha256": "3c952ef0152a0a530e582ef237b7ab16c8a13d8bb85aa3abe5409f3a1654e359"
+  },
+  {
+    "path": "content-src/mgmt2094-w06.yaml",
+    "name": "mgmt2094-w06.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 172171,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w06.yaml",
+    "supplied": false,
+    "sha256": "e39e7321ea0d4dfbf645f253c88d9651f982585e5682bdced942c0e0feec60fc"
+  },
+  {
+    "path": "content-src/mgmt2094-w07.yaml",
+    "name": "mgmt2094-w07.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 66554,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w07.yaml",
+    "supplied": false,
+    "sha256": "c70c4cbd49c683e322354a6b3e2a5331a6ebf4c1fa614dff683ecaf2880f4e64"
+  },
+  {
+    "path": "content-src/mgmt2094-w08.yaml",
+    "name": "mgmt2094-w08.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 257820,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w08.yaml",
+    "supplied": false,
+    "sha256": "d890739a52cd0030f4021057bcb8974702f447e96d0c27a55a0565af3fe9c390"
+  },
+  {
+    "path": "content-src/mgmt2094-w09.yaml",
+    "name": "mgmt2094-w09.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 195897,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w09.yaml",
+    "supplied": false,
+    "sha256": "36eb3c6e511702f872a0ca18148c1e79cbced26320bbc2bd93bd43545f573351"
+  },
+  {
+    "path": "content-src/mgmt2094-w10.yaml",
+    "name": "mgmt2094-w10.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 316191,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w10.yaml",
+    "supplied": false,
+    "sha256": "14d771941c825372d66aeee6928b30d4c2dd8b80e4c967130280916efec13c4f"
+  },
+  {
+    "path": "content-src/mgmt2094-w11.yaml",
+    "name": "mgmt2094-w11.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 238267,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w11.yaml",
+    "supplied": false,
+    "sha256": "88bd1248d2f5546799a1020c95d0d0a4323f39b8996bfde0198e5ff61763798a"
+  },
+  {
+    "path": "content-src/mgmt2094-w12.yaml",
+    "name": "mgmt2094-w12.yaml",
+    "kind": "yaml",
+    "unit": "mgmt2094",
+    "bytes": 169111,
+    "href": "https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/content-src/mgmt2094-w12.yaml",
+    "supplied": false,
+    "sha256": "aee341c537dd2d77de8d41070e8b622e26528534e08647ec84c6b75993d56cf5"
+  }
+]

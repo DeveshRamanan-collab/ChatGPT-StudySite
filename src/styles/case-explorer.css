@@ -1,0 +1,55 @@
+/* Case explorer (src/components/cases/CaseExplorer.tsx). Ink on paper; the chosen case is the one accent. */
+.case-explorer { display: grid; gap: var(--s-4); margin-top: var(--s-5); }
+.case-explorer__controls { display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; justify-content: space-between; }
+.case-explorer__chips { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.case-explorer__search input {
+  font: inherit; font-family: var(--font-ui); font-size: var(--t-sm); min-height: 44px; width: min(320px, 100%);
+  padding: 0 var(--s-3); border: 1px solid var(--line); border-radius: var(--r-pill); background: var(--paper); color: var(--ink);
+}
+.case-explorer__search input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.case-explorer__count { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin: 0; }
+
+/* The timeline scrolls inside its own box on narrow screens; the page never scrolls sideways. */
+.case-explorer__scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); }
+.case-explorer__svg { display: block; min-width: 680px; width: 100%; height: auto; font-family: var(--font-ui); }
+.case-explorer__lane line { stroke: var(--line); stroke-width: 1; }
+.case-explorer__lane text, .case-explorer__tick { font-size: 11px; fill: var(--ink-2); }
+.case-explorer__dot { fill: var(--ink-2); opacity: .6; cursor: pointer; transition: opacity var(--dur-micro) var(--ease-hover); }
+.case-explorer__svg[data-has-sel] .case-explorer__dot { opacity: .22; }
+.case-explorer__svg[data-has-sel] .case-explorer__dot[data-state='near'] { opacity: 1; fill: var(--ink); }
+.case-explorer__dot[data-state='sel'] { opacity: 1 !important; fill: var(--accent); }
+@media (hover: hover) and (pointer: fine) { .case-explorer__dot:hover { opacity: 1; } }
+.case-explorer__link { stroke: var(--ink-2); stroke-width: 1; opacity: .5; }
+
+.case-explorer__detail { border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper-2); padding: var(--s-5); max-width: var(--measure); box-shadow: var(--shadow); }
+.case-explorer__detail > * + * { margin-top: var(--s-2); }
+.case-explorer__name { font-size: var(--t-lg); margin: 0; }
+.case-explorer__cite { color: var(--ink-2); font-size: var(--t-sm); }
+.case-explorer__verify { color: var(--ink-2); font-family: var(--font-ui); font-size: var(--t-sm); }
+.case-explorer__h { font-family: var(--font-ui); font-size: var(--t-sm); font-weight: 600; margin-top: var(--s-4); }
+.case-explorer__links { padding-left: 1.1em; margin: 0; display: grid; gap: var(--s-1); }
+.case-explorer__meta { color: var(--ink-2); font-family: var(--font-ui); font-size: var(--t-sm); }
+
+.case-explorer__group { margin-top: var(--s-5); }
+.case-explorer__lane-h { font-size: var(--t-lg); margin: 0 0 var(--s-2); }
+.case-explorer__n { font-size: var(--t-sm); color: var(--ink-2); font-weight: 400; }
+.case-explorer__list { list-style: none; padding: 0; margin: 0; display: grid; max-width: var(--measure-wide); }
+.case-explorer__list li { display: grid; grid-template-columns: 3.5rem 1fr auto; align-items: center; gap: var(--s-3); min-height: 44px; border-bottom: 1px solid var(--line); }
+.case-explorer__list li[data-sel] { background: var(--accent-soft); }
+.case-explorer__year { color: var(--ink-2); font-size: var(--t-sm); }
+.case-explorer__pick {
+  font: inherit; text-align: left; background: none; border: 0; padding: var(--s-2) 0; color: var(--ink); cursor: pointer; min-height: 44px;
+  transition: transform var(--dur-press) var(--ease-out);
+}
+.case-explorer__pick:active { transform: scale(.97); }
+.case-explorer__pick:focus-visible, .case-explorer__open:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: var(--r-sm); }
+@media (hover: hover) and (pointer: fine) { .case-explorer__pick:hover { text-decoration: underline; text-underline-offset: 3px; } }
+.case-explorer__open { font-family: var(--font-ui); font-size: var(--t-sm); padding: var(--s-2); }
+html[data-motion='off'] .case-explorer__dot { transition: none; }
+.case-explorer__break { stroke: var(--line); stroke-width: 1; stroke-dasharray: 3 4; }
+.case-explorer__body { display: grid; gap: var(--s-6); }
+@media (min-width: 1100px) {
+  .case-explorer__body { grid-template-columns: minmax(0, 1fr) minmax(300px, 380px); align-items: start; }
+  .case-explorer__aside { position: sticky; top: calc(var(--header-h, 64px) + var(--s-4)); }
+}
+.case-explorer__inline { grid-column: 1 / -1; padding-bottom: var(--s-4); }

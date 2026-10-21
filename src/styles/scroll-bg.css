@@ -1,0 +1,7 @@
+/* Quiet archival paper. The centre stays plain; only distant margin lines move with scrolling. */
+.scroll-bg--paper {position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;background:var(--paper);contain:strict;}
+.scroll-bg--paper::before,.scroll-bg--paper::after {content:'';position:absolute;top:-30px;bottom:-30px;width:clamp(36px,8vw,150px);opacity:.055;transform:translate3d(0,var(--paper-drift,0),0);background:repeating-linear-gradient(90deg,transparent 0 22px,var(--ink) 22px 23px,transparent 23px 44px);}
+.scroll-bg--paper::before{left:0}.scroll-bg--paper::after{right:0;transform:translate3d(0,calc(-1 * var(--paper-drift,0px)),0)}
+:root[data-motion=off] .scroll-bg,:root[data-lowstim=on] .scroll-bg{display:none}
+@media(prefers-reduced-motion:reduce){.scroll-bg{display:none}}
+@media print{.scroll-bg{display:none!important}}

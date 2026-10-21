@@ -1,0 +1,2805 @@
+unit: laws2100
+week: 1
+source: raw/laws2100-juris/week-01
+generator: ingest-1
+
+week_file:
+  topic: Jurisprudence and the nature of law
+  summary: |-
+    Week 1 asks two connected questions: what is (the nature of) jurisprudence, and what is (the nature of) law? It
+    sorts the meanings of "jurisprudence", the split between general and particular jurisprudence, conceptual analysis,
+    and six kinds of questions a theory can ask, then opens Hart's The Concept of Law: knowing is not understanding, the
+    three persistent questions, why law cannot be defined per genus et differentiam, and Hart's claim to a theory that is
+    both general and descriptive. For the essay, the week supplies the vocabulary for telling a claim about jurisprudence
+    from a claim about law, and the criteria on which Hart's theory can be judged on its own terms.
+  notes: |
+    ## Jurisprudence
+
+    The word 'jurisprudence' has more than one meaning. *Iurisprudentia* = *iuris* (of right, of law) + *prudentia*
+    (wisdom, foresight, knowledge).
+
+    - Jurisprudence as a body of judicial decisions: consider, for example, the expression 'the constitutional
+      jurisprudence of the High Court'.
+    - Jurisprudence in relation to religious law (eg Hindu law, Jewish halakha, Christian canon law, Islamic sharia).
+    - Medical jurisprudence (legal medicine).
+
+    The lecture does not engage with these uses; they show the complexity of the subject, mirrored in the different
+    uses of the term. For our purposes, jurisprudence should be understood as legal theory.
+
+    ## Jurisprudence and legal theory
+
+    Jurisprudence as a general theory of law. Brian Bix uses the terms 'jurisprudence', 'legal theory' and 'legal
+    philosophy' interchangeably throughout his textbook (Preface to the ninth edition, p vii). Not everyone agrees: the
+    further readings include Roger Cotterrell, 'Why Jurisprudence Is Not Legal Philosophy'.
+
+    - On what basis can we speak of a general theory of law?
+    - General jurisprudence as a philosophical inquiry into the nature of law?
+
+    :::definition
+    **General jurisprudence** deals with philosophical puzzles that are thrown up by all legal systems (eg what is law?
+    what is a legal system? what is legal reasoning? is there a general obligation to obey the law?).
+    **Particular jurisprudence** deals with puzzles that emerge in some legal systems or traditions but not necessarily
+    all (eg what is common about the common law? in what sense is Parliament sovereign?).
+    :::
+
+    This is a very rough distinction, and the two are not completely disconnected; a number of theories use it and make
+    different methodological claims about the two areas.
+
+    ## Jurisprudence and conceptual analysis
+
+    - Analytical jurisprudence and analytical philosophy. Hart's *The Concept of Law* (1961) is widely seen as the
+      beginning of modern analytical jurisprudence, though the tradition is older (Bentham, Austin). Hart combined it
+      with the Oxford philosophy of his time, which focused on the analysis of (ordinary) language.
+    - Conceptual analysis has been a key element/method of analytical philosophy.
+    - Conceptual theories generally define terms by necessary and sufficient conditions.
+    - "…conceptual theories and claims set the boundaries of categories. The drawing of such boundaries can be helpful
+      in establishing a common ground for investigation and discussion, but the placement of the boundaries is often
+      contested." (Bix, p 18)
+    - According to Bix, purely conceptual theories can be contrasted with two different kinds of theories:
+      non-conceptual theories in the natural sciences, and non-conceptual theories in the social sciences. Those
+      theories use concepts, but they are not conceptual theories.
+
+    When people disagree about a concept, ask what kind of disagreement it is: semantic (about the meaning of a term)
+    or conceptual (not sharing the same concept). The lecture's example: 'football' in the UK and in Australia; once I
+    say "I meant soccer", we share the concept, and context (pragmatics) does the rest.
+
+    ## According to William Twining (1934–2025)…
+
+    - "…there is a lot of work to be done on usable concepts in cross-cultural and transnational legal discourse and
+      that this is a task for analytical jurisprudence" (p 34)
+    - "It is part of my general thesis that conceptual analysis has an important part to play in reviving general
+      jurisprudence, but that what is needed is a much broader conception of what is involved than those of Hart or Raz
+      or even Stone" (p 39)
+    - "…conceptual elucidation is as important for social scientific investigation as it is for legal exposition and
+      the methods of conceptual analysis developed by analytical philosophy are applicable to important concepts in
+      empirical legal studies and the social sciences generally" (p 57)
+
+    Twining pays much more attention to the social side of things, and to the empirical and social sciences, than Hart.
+    Stone is Julius Stone, long professor of jurisprudence at Sydney, who defended a sociological jurisprudence.
+
+    ## Legal theory in the real world
+
+    :::case
+    *Milirrpum v Nabalco Pty Ltd* [1971] 17 FLR 141 (the Gove land rights case) — an Australian case in which Aboriginal
+    claims to land were questioned on the basis that the customary rules of Aboriginal peoples could not be described
+    by the court as legal rules. The lecture: the court was buying into assumptions about the nature of law that came
+    from Austin's theory, and you cannot fully understand the reasoning in Mabo without it.
+    :::
+
+    :::case
+    *Madzimbamuto v Lardner-Burke* [1969] 1 AC 645 — a decision of the Judicial Committee of the Privy Council on United
+    Kingdom constitutional law and the constitutional law of Rhodesia. The case considers the legality of the Unilateral
+    Declaration of Independence made by Rhodesia in 1965, in light of Hans Kelsen's theory of law.
+    :::
+
+    :::case
+    The *Miller* case — the UK's first case on Brexit (decided by the UK Supreme Court in 2017), considering whether the
+    British Government could withdraw from the European Union without an Act of Parliament giving permission to do so.
+    The judges used Hart's concept of the rule of recognition: "we would not accept that the so-called fundamental rule
+    of recognition (i.e. the fundamental rule by reference to which all other rules are validated) underlying UK laws has
+    been varied by the 1972 Act or would be varied by its repeal" [60]; and one argument was "that the UK's withdrawal
+    from the EU will alter the UK's rule of recognition: that is to say, the rule which identifies the sources of law in
+    our legal system and imposes a duty to give effect to laws emanating from those sources" [173].
+    :::
+
+    Concepts developed within theories of law filter through into the real world, and make a difference when officials
+    decide on the basis of them. Look for these theories in the rest of your legal studies, and use your legal knowledge
+    to put pressure on the theories.
+
+    ## Six kinds of questions
+
+    1. **Doctrinal questions** — eg questions about domestic law (what the law is on a specific issue). Every
+       hypothetical is a cluster of doctrinal questions.
+    2. **Normative questions** — descriptive vs normative claims (is/ought distinction). Normative: justificatory vs
+       critical claims (and theories).
+    3. **Empirical questions** — explanatory/causal vs effects claims (and theories).
+    4. **Metatheoretical questions** — what are the success criteria for a given theory?
+    5. **Methodological questions** — how should we conduct research in this field?
+    6. **Conceptual questions** — eg what is a contract? what is law? what is justice?
+
+    Picking one theory over another is not like picking an ice-cream flavour: a metatheoretical question looks for
+    criteria to say a theory is superior, at least in respect of X, Y, Z. Some claims in the readings are theoretical,
+    others metatheoretical; it matters to see at which level a claim operates.
+
+    ## Jurisprudence and the nature of law
+
+    (1) What is (the nature of) jurisprudence? (2) What is (the nature of) law? These are connected but different
+    problems. When you read, ask: is this an argument or claim about jurisprudence — the subject, the theory — or a
+    claim about law, about the nature of law?
+
+    :::examtip
+    Confusing the two levels is the commonest way to be off topic: an essay about whether law is connected to morality
+    answers a question about the nature of law, not one about the nature of jurisprudence.
+    :::
+
+    "In law as elsewhere, we can know and yet not understand" (H.L.A. Hart, *Definition and Theory in Jurisprudence: An
+    Inaugural Lecture*, 1953). "My aim in this book has been to further the understanding of law, coercion, and morality
+    as different but related social phenomena" (H.L.A. Hart, *The Concept of Law*, 6). Remember this and you already
+    have a map of the book: its chapters mirror it.
+
+    ## H.L.A. Hart (1907–1992)
+
+    Professor of Jurisprudence at the University of Oxford and Fellow of University College, Oxford (1952–1973 on the
+    slide; the lecture said he took the chair in 1951). Inaugural lecture at Oxford: *Definition and Theory in
+    Jurisprudence* (1953). *The Concept of Law* (1961; 2nd ed 1994; 3rd ed 2012). The 2nd edition, published after
+    Hart's death, adds the unfinished Postscript, largely a response to critics, especially Ronald Dworkin; its curators
+    included Joseph Raz. The 3rd edition adds a new introduction by Leslie Green. Use the book as a tool, not the gospel.
+
+    ## Hart's theoretical project
+
+    The purpose of the book "…is not to provide a definition of law, in the sense of a rule by reference to which the
+    correctness of the use of the word can be tested; it is to advance legal theory by providing an improved analysis of
+    the distinctive structure of a municipal legal system and a better understanding of the resemblances and differences
+    between law, coercion, and morality, as types of social phenomena." (CL, 17)
+
+    "Notwithstanding its concern with analysis the book may also be regarded as an essay in descriptive sociology;…"
+    (Preface). Whether it really is, and what that means, is debated (see Twining's chapter).
+
+    ## Hart on the question 'What is law?'
+
+    - Unending theoretical debate in books vs the ability of most people to cite examples of law.
+    - Consider the "salient features" listed at page 3 of *The Concept of Law*.
+    - The question "what is law?" expresses perplexities about the general nature of law.
+    - Clear/standard/paradigm cases of law (for Hart, "the legal systems of modern states") vs
+      questionable/challengeable/borderline cases (for Hart, "primitive law and international law").
+    - Speculation about the nature of law has historically centred on a few principal issues.
+    - Confusion about these issues may coexist with a firm knowledge of the law: I can be an expert in Italian contract
+      law and still struggle to understand law at the general level.
+
+    ## Three persistent questions
+
+    "We shall distinguish here three [...] recurrent issues, and show later why they come together in the form of a
+    request for a definition of law or an answer to the question 'What is law?', or in more obscurely framed questions
+    such as 'What is the nature (or the essence) of law?'" (CL, 6)
+
+    1. How does law differ from and how is it related to orders backed by threats? (law and coercion)
+    2. How does legal obligation differ from, and how is it related to, moral obligation? (law and morality)
+    3. What are rules and to what extent is law an affair of rules? (law, like games and sports, is a rule-based social
+       practice — but playing law is not playing chess)
+
+    The rest of the book is organised around these three issues.
+
+    ## Searching for a definition…
+
+    "…even skilled lawyers have felt that, though they know the law, there is much about law and its relations to other
+    things that they cannot explain and do not fully understand. Like a man who can get from one point to another in a
+    familiar town but cannot explain or show others how to do it, those who press for a definition need a map
+    exhibiting clearly the relationships dimly felt to exist between the law they know and other things. Sometimes in
+    such cases a definition of a word can supply such a map: at one and the same time it may make explicit the latent
+    principle which guides our use of a word, and may exhibit relationships between the type of phenomena to which we
+    apply the word and other phenomena." (CL, 14)
+
+    The map has two dimensions: particular law and law as a general idea; and law and the other things we know
+    (morality, religion, games, sports, etiquette).
+
+    ## Triangles, elephants, and…law
+
+    - Triangle (def.) = three-sided rectilinear figure.
+    - Elephant (def.) = quadruped distinguished from others by its possession of a thick skin, tusks, and trunk.
+
+    :::definition
+    These are definitions **per genus et differentiam**: general kind + distinguishing features. This type of
+    definition does two things at once: it provides a code or formula translating the word into other well-understood
+    terms, and it locates the kind of thing the word refers to, by indicating the features it shares with a wider
+    family of things and those which mark it off from others of that same family.
+    :::
+
+    Can we define law per genus et differentiam? Some theorists (Austin, Kelsen) tried. Hart says this type of
+    definition does not work for law. That is a big claim, and many disagree. There are in fact two different claims:
+    one, that it is impossible to define law per genus et differentiam; another, that it may be possible, but there are
+    better definitions of law. Hart claims it is not possible, so law must be defined by another method (the end of
+    chapter 1; discussed in the week 2 tutorial).
+
+    ## Hart on the nature of legal theory
+
+    "My aim in this book was to provide a theory of what law is which is both general and descriptive." (CL, 239 —
+    the Postscript)
+
+    - General in the sense that it is not tied to any particular legal system or legal culture.
+    - Descriptive in that it is morally neutral and has no justificatory aims.
+
+    "As a means of carrying out this descriptive enterprise my book makes repeated use of a number of concepts such as
+    duty-imposing rules, power-conferring rules, rules of recognition, rules of change, acceptance of rules, internal
+    and external points of view, internal and external statements, and legal validity" (CL, 240).
+
+    :::examtip
+    These two claims can be used as criteria to assess the theory on its own terms. Is it really general — not tied to
+    any particular legal system? Is it really descriptive — morally neutral, with no justificatory aims? Open questions
+    you should be able to write an essay on in a few weeks.
+    :::
+
+    ## John Finnis on law and philosophy
+
+    "Making, acknowledging, and complying with law involves acts of rational judgment. The reasonableness and
+    justification of these acts cannot be assessed without premises about true human goods, the nature of persons and
+    their acts, and the contours of the common good and human rights. […] legal studies are really attractive and
+    worthwhile because law, and juristic argumentation, is an arena where themes and theses in ethics, political theory,
+    and related philosophical domains all come to bear on – and crystallize out in – legislating and adjudicating to make
+    a difference to human persons." (J. Finnis, *Philosophy of Law: Collected Essays Volume IV*, OUP, 2011)
+
+    Finnis, a natural law thinker (week 4), connects analytical jurisprudence with a rich understanding of human nature
+    and of what we ought to do — not at all what Raz or Hart try to do. Yet he uses concepts Hart developed, which makes
+    the comparison meaningful.
+
+    ## Dickson on the problem of the nature of law
+
+    "[…] recent years have seen many thought-provoking challenges emerge which cast doubt on the very possibility of,
+    and/or call into question the current manner of engaging in, that part of the philosophy of law which attempts to
+    identify and understand law's nature." (J. Dickson, *Elucidating Law*, OUP, 2022, 11–12)
+
+    "Some […] theorists are wary of the idea that a human-made social construction such as law can have a nature which
+    legal philosophers can attempt to identify and explain. Others mount challenges in respect of what they regard as the
+    key method employed by legal philosophers attempting to ascertain law's nature, namely conceptual analysis…" (p 12)
+
+    ## Gardner on the value of studying jurisprudence
+
+    - As a philosophical subject, jurisprudence can assist in our development as human beings.
+    - Two practical implications: jurisprudence contributes to excellence in argument; and it can help us recognise
+      different perspectives and different aspects of a given legal issue.
+    - "A philosophical education encourages us to look […] for timeless problems underlying topical problems" (John
+      Gardner, 'Why study jurisprudence?', p 8).
+
+    ## Leslie Green on legal philosophy
+
+    "Legal philosophy is here to remind you that you are not a slave to your own (legal) head, that there is an escape
+    from the 'default setting' of your own little legal system, however profitable and powerful it may be. It will
+    explain how something that is true 'legally speaking' may be utterly false. It will show you the difference between
+    the way things are around here and the way things ought to be. It may even help you envision the way things could
+    well be, if only we cared enough."
+
+    ## Julie Dickson's philosophy of legal philosophy
+
+    Understanding law by elucidating it.
+
+    - The task of legal philosophy is to illuminate and explain aspects of something that exists in our social reality
+      and that we call 'law'.
+    - Law is a complex phenomenon, and the task of legal philosophy is never-ending.
+    - Elucidation is an active process which requires one to identify law's most important and significant features.
+    - A proper understanding of law can help us appreciate how law bears upon our practical reasoning — for example, it
+      can help us decide if we should take law as having authority over us (the question of week 12: is there an
+      obligation to obey the law?).
+
+    ## How to approach this subject…
+
+    **Curiosity** — follow the readings, but also your own questions. **Charity** — make the argument you are reading
+    the strongest version of the argument, as Hart does with Austin before trying to knock it down. **Clarity** — even
+    when you make a mistake, be clear. Don't memorise theories: use them to develop your own understanding of law.
+
+concepts:
+  - slug: meaning-of-jurisprudence
+    title: What jurisprudence means — general and particular
+    visual: diagram
+    visual-brief: The word splits into four uses (body of decisions, religious law, medical jurisprudence, legal theory); the legal-theory branch forks into general jurisprudence (puzzles of all legal systems) and particular jurisprudence (puzzles of some systems), joined by a dotted line because they are not disconnected.
+    related: [conceptual-analysis, six-kinds-of-questions]
+    depends-on: []
+    contrasts-with: [six-kinds-of-questions]
+    cases: []
+    authorities: [bix-jurisprudence-theory-and-context]
+    verify: false
+    body: |
+      The word 'jurisprudence' has more than one meaning. *Iurisprudentia* = *iuris* (of right, of law) + *prudentia*
+      (wisdom, foresight, knowledge). It can mean a body of judicial decisions ('the constitutional jurisprudence of the
+      High Court'), jurisprudence in relation to religious law (Hindu law, Jewish halakha, Christian canon law, Islamic
+      sharia), or medical jurisprudence (legal medicine). For our purposes, jurisprudence should be understood as legal
+      theory — a general theory of law.
+
+      Brian Bix uses 'jurisprudence', 'legal theory' and 'legal philosophy' interchangeably. Others (Cotterrell, 'Why
+      Jurisprudence Is Not Legal Philosophy') think they should be distinguished.
+
+      **General jurisprudence** deals with philosophical puzzles thrown up by all legal systems: what is law? what is a
+      legal system? what is legal reasoning? is there a general obligation to obey the law? Its object is not the law
+      of a particular jurisdiction but law in general — which is why some see it as a philosophical inquiry into the
+      nature of law.
+
+      **Particular jurisprudence** deals with puzzles that emerge in some legal systems or traditions but not
+      necessarily all: what is common about the common law? in what sense is Parliament sovereign? Where a system has
+      no doctrine of parliamentary sovereignty, that question does not really make sense.
+
+      The distinction is rough, and the two are not completely disconnected: we cannot think about law in general
+      without our knowledge of specific laws.
+
+      Exam use: say early whether your question is general or particular — it fixes what counts as evidence.
+
+  - slug: conceptual-analysis
+    title: Conceptual analysis and analytical jurisprudence
+    visual: explainer
+    visual-brief: A boundary is drawn around a category by necessary and sufficient conditions; the line is then contested and redrawn, while beside it natural- and social-science theories use concepts without being conceptual theories.
+    related: [meaning-of-jurisprudence, harts-project]
+    depends-on: [meaning-of-jurisprudence]
+    contrasts-with: [six-kinds-of-questions]
+    cases: []
+    authorities: [bix-jurisprudence-theory-and-context, twining-general-jurisprudence]
+    verify: false
+    body: |
+      Analytical jurisprudence understands jurisprudence as the analysis of general ideas relevant in the legal
+      domain; the tradition predates Hart (Bentham, Austin). Hart combined it with the analytical philosophy practised
+      at Oxford, which focused on the analysis of ordinary language.
+
+      Conceptual analysis has been a key element/method of analytical philosophy. Conceptual theories generally define terms by necessary and sufficient conditions. Bix: "conceptual
+      theories and claims set the boundaries of categories. The drawing of such boundaries can be helpful in
+      establishing a common ground for investigation and discussion, but the placement of the boundaries is often
+      contested" (p 18).
+
+      According to Bix, purely conceptual theories can be contrasted with non-conceptual theories in the natural
+      sciences and non-conceptual theories in the social sciences. Those theories use concepts, but they are not
+      conceptual theories.
+
+      When a concept is contested, ask what kind of disagreement it is: semantic (about the meaning of the term) or
+      conceptual (not sharing the same concept). 'Football' in the UK versus Australia is easily solved — "I meant
+      soccer" — and context does the rest.
+
+      William Twining keeps conceptual analysis but widens it: it "has an important part to play in reviving general
+      jurisprudence, but … what is needed is a much broader conception of what is involved than those of Hart or Raz or
+      even Stone" (p 39); conceptual elucidation is as important for social scientific investigation as for legal
+      exposition (p 57).
+
+      Exam use: Twining is the ready counterargument to treating conceptual analysis as self-sufficient.
+
+  - slug: six-kinds-of-questions
+    title: Six kinds of questions
+    visual: palace
+    visual-brief: Six rooms in order — doctrinal, normative (is/ought; justificatory vs critical), empirical (explanatory vs effects), metatheoretical, methodological, conceptual — each holding one example question; the last three rooms are raised to show they are questions about theories and concepts rather than about a legal system.
+    related: [meaning-of-jurisprudence, general-and-descriptive-theory]
+    depends-on: [meaning-of-jurisprudence]
+    contrasts-with: [conceptual-analysis]
+    cases: []
+    authorities: [bix-jurisprudence-theory-and-context]
+    verify: false
+    body: |
+      Theories ask different questions; a claim can only be judged once you know which kind it is.
+
+      1. **Doctrinal** — eg questions about domestic law: what the law is on a specific issue. A hypothetical is a
+         cluster of doctrinal questions.
+      2. **Normative** — descriptive vs normative claims (the is/ought distinction). Normative claims are either
+         justificatory (defending the status quo) or critical (criticising it).
+      3. **Empirical** — explanatory/causal vs effects claims: why something happens, or what a new statute actually
+         does to a community on the ground.
+      4. **Metatheoretical** — what are the success criteria for a given theory? Picking one theory over another is not
+         like picking an ice-cream flavour: we look for criteria that make a theory superior, at least in some respect.
+      5. **Methodological** — how should we conduct research in this field? Settled in the natural sciences, harder in
+         the social sciences, even more debatable in philosophy.
+      6. **Conceptual** — eg what is a contract? what is law? what is justice?
+
+      Legal philosophers tend to ask conceptual questions, but they also ask the others, and even an empirical inquiry
+      needs concepts. The task is to see how the questions relate.
+
+      These map onto two connected but different problems: the nature of jurisprudence (questions 4 and 5 about a
+      theory) and the nature of law (the object the theory explains).
+
+      Exam use: label the kind of question in your introduction, and do not answer a normative question with a
+      descriptive claim.
+
+  - slug: legal-theory-in-the-real-world
+    title: Legal theory in the real world — and why study it
+    visual: diagram
+    visual-brief: Three theories (Austin, Kelsen, Hart) each send an arrow into a courtroom — Milirrpum, Madzimbamuto, Miller — showing concepts from legal theory filtering back into judicial reasoning; a return arrow shows legal knowledge putting pressure on the theories.
+    related: [harts-project, general-and-descriptive-theory]
+    depends-on: [meaning-of-jurisprudence]
+    contrasts-with: []
+    cases: [milirrpum-v-nabalco-pty-ltd, madzimbamuto-v-lardner-burke, r-miller-v-secretary-of-state-for-exiting-the-european-union, mabo-v-queensland-no-2]
+    authorities: [gardner-why-study-jurisprudence, green-why-study-jurisprudence]
+    verify: false
+    body: |
+      Legal theory has generated concepts that go back into the world: judges use, more or less explicitly, theories of
+      law or their concepts to make sense of a case and decide it.
+
+      - *Milirrpum v Nabalco Pty Ltd* [1971] 17 FLR 141 (the Gove land rights case): Aboriginal claims to land were
+        questioned on the basis that the customary rules of Aboriginal peoples could not be described by the court as
+        legal rules — assumptions from Austin's theory. You cannot fully understand Mabo without it.
+      - *Madzimbamuto v Lardner-Burke* [1969] 1 AC 645: the Privy Council considered the legality of Rhodesia's 1965
+        Unilateral Declaration of Independence in light of Hans Kelsen's theory of law.
+      - The *Miller* case (UK Supreme Court, 2017), on whether the Government could withdraw from the EU without an Act
+        of Parliament, used Hart's rule of recognition — "the rule which identifies the sources of law in our legal
+        system" [173].
+
+      Use your legal knowledge to put pressure on the theories.
+
+      Why study it? Gardner: jurisprudence contributes to excellence in argument and helps us recognise different
+      perspectives on a legal issue; "a philosophical education encourages us to look … for timeless problems
+      underlying topical problems". Green: legal philosophy offers "an escape from the 'default setting' of your own
+      little legal system" and shows "the difference between the way things are around here and the way things ought
+      to be".
+
+      Exam use: a real case is the quickest proof that a theoretical point matters.
+
+  - slug: harts-project
+    title: Hart's project — knowing and understanding
+    visual: explainer
+    visual-brief: A familiar town — a figure walks from point to point without being able to give directions — then a map is drawn showing the relationships between law and coercion, law and morality, and law and rules, with paradigm cases at the centre and borderline cases at the edge.
+    related: [definition-per-genus-et-differentiam, general-and-descriptive-theory]
+    depends-on: [conceptual-analysis]
+    contrasts-with: [definition-per-genus-et-differentiam]
+    cases: []
+    authorities: [hart-the-concept-of-law, hart-definition-and-theory-in-jurisprudence]
+    verify: false
+    body: |
+      "In law as elsewhere, we can know and yet not understand" (Hart, inaugural lecture, 1953). Hart's aim in *The
+      Concept of Law* is "to further the understanding of law, coercion, and morality as different but related social
+      phenomena" (CL 6).
+
+      The purpose is not a definition "by reference to which the correctness of the use of the word can
+      be tested", but "an improved analysis of the distinctive structure of a municipal legal system and a better
+      understanding of the resemblances and differences between law, coercion, and morality" (CL 17). The book "may also
+      be regarded as an essay in descriptive sociology" (Preface).
+
+      Debate in books is unending, yet most people can cite examples of law. "What is law?" expresses perplexities about
+      the general nature of law: beside paradigm cases (the legal systems of modern states) sit borderline cases
+      (primitive law and international law). Confusion may coexist with a firm knowledge of the law.
+
+      Three persistent questions (CL 6):
+      1. How does law differ from and relate to orders backed by threats? (coercion)
+      2. How does legal obligation differ from and relate to moral obligation? (morality)
+      3. What are rules and to what extent is law an affair of rules? (rules)
+
+      Together they ask for a definition — a map "exhibiting clearly the relationships dimly felt to exist
+      between the law they know and other things" (CL 14) — like crossing a familiar town without giving directions.
+
+      Exam use: knowing versus understanding is Hart's measure of what theory adds.
+
+  - slug: definition-per-genus-et-differentiam
+    title: Definition per genus et differentiam
+    visual: diagram
+    visual-brief: Two nested-set diagrams that work (triangle inside rectilinear figures, marked off by three sides; elephant inside quadrupeds, marked off by thick skin, tusks and trunk), then a third for law where the outer set has no agreed boundary and the arrow reads "does not work".
+    related: [harts-project]
+    depends-on: [conceptual-analysis]
+    contrasts-with: [harts-project]
+    cases: []
+    authorities: [hart-the-concept-of-law]
+    verify: false
+    body: |
+      A definition *per genus et differentiam* gives a general kind plus distinguishing features:
+
+      - Triangle = three-sided rectilinear figure.
+      - Elephant = quadruped distinguished from others by its possession of a thick skin, tusks, and trunk.
+
+      It does two things at once: it provides a code or formula translating the word into other well-understood terms,
+      and it locates the kind of thing the word refers to, by indicating the features it shares with a wider family of
+      things and those which mark it off from others of that family. A good one captures all the essential properties:
+      a four-sided shape is not a triangle.
+
+      Some theorists, such as John Austin and Hans Kelsen, tried to define law this way — place law in a broader
+      category (with games, social etiquette, religion) and find the features that belong only to law.
+
+      Hart says this type of definition does not work when we are trying to define law. That is a big claim, and many
+      disagree. There are in fact two different claims:
+      1. it is impossible to define law per genus et differentiam; or
+      2. it may be possible, but there are better definitions of law.
+
+      Hart makes the first, stronger claim, so he must define law by another method — the end of chapter 1 of *The
+      Concept of Law*.
+
+      Exam use: separate the impossibility claim from the "better definition" claim before agreeing or disagreeing
+      with Hart — they need different arguments.
+
+  - slug: general-and-descriptive-theory
+    title: A general and descriptive theory — and its challengers
+    visual: diagram
+    visual-brief: A spectrum of views on what legal philosophy is for — Hart's general and descriptive theory at one end, Dickson's elucidation of law's important features in the middle, Finnis's theory resting on true human goods at the other — with Dickson's sceptics questioning whether law has a nature at all.
+    related: [harts-project, six-kinds-of-questions, legal-theory-in-the-real-world]
+    depends-on: [harts-project, six-kinds-of-questions]
+    contrasts-with: [six-kinds-of-questions]
+    cases: []
+    authorities: [hart-the-concept-of-law, finnis-philosophy-of-law, dickson-elucidating-law]
+    verify: false
+    body: |
+      In the Postscript Hart says: "My aim in this book was to provide a theory of what law is which is both general
+      and descriptive" (CL 239).
+
+      - **General**: not tied to any particular legal system or legal culture.
+      - **Descriptive**: morally neutral, with no justificatory aims.
+
+      He carries out this descriptive enterprise with concepts such as duty-imposing and power-conferring rules, rules
+      of recognition and change, acceptance of rules, internal and external points of view, and legal validity
+      (CL 240). The two claims are criteria to assess the theory on its own terms — a metatheoretical exercise.
+
+      Finnis disagrees about what legal philosophy can be: making, acknowledging and complying with law involves acts
+      of rational judgment whose reasonableness "cannot be assessed without premises about true human goods, the nature
+      of persons … and the contours of the common good and human rights". For Finnis, a natural law thinker, analysis
+      is connected with what we ought to do — not what Hart or Raz try to do.
+
+      Dickson notes challenges to the very possibility of identifying law's nature: some doubt that a human-made social
+      construction can have a nature; others doubt conceptual analysis as a method. Her own view: legal philosophy
+      elucidates law, an active and never-ending process of identifying law's most important and significant features,
+      which can help us decide whether to take law as having authority over us.
+
+      Exam use: test "general" and "descriptive" separately — a theory can pass one criterion and fail the other.
+
+cases:
+  - slug: milirrpum-v-nabalco-pty-ltd
+    name: Milirrpum v Nabalco Pty Ltd (the Gove land rights case)
+    citation: "[1971] 17 FLR 141"
+    aglc: Milirrpum v Nabalco Pty Ltd [1971] 17 FLR 141
+    facts: |
+      The materials describe it only as the Gove land rights case: an Australian case about Aboriginal claims to land.
+    issue: |
+      Whether Aboriginal claims to land could be recognised, given the question whether the customary rules of
+      Aboriginal peoples could be described by the court as legal rules.
+    held: |
+      Aboriginal claims to land were questioned on the basis that the customary rules of Aboriginal peoples could not be
+      described by the court as legal rules. The materials do not give the orders.
+    ratio: |
+      Not stated in the materials. The lecture's point is that the court was buying into assumptions about the nature of
+      law that came from Austin's theory of law.
+    significance: |
+      An example of legal theory in the real world: an understanding of the nature of law filtered into judicial
+      reasoning and made a difference. The lecture says you cannot fully understand the reasoning in Mabo without it.
+    why-here: Used to show that a theory of what law is (here, Austin's) can decide whether a people's rules count as law in court.
+    verify: true
+  - slug: madzimbamuto-v-lardner-burke
+    name: Madzimbamuto v Lardner-Burke
+    citation: "[1969] 1 AC 645"
+    aglc: Madzimbamuto v Lardner-Burke [1969] 1 AC 645
+    facts: |
+      Rhodesia made a Unilateral Declaration of Independence in 1965. The materials give no further facts.
+    issue: |
+      The legality of the Unilateral Declaration of Independence made by Rhodesia in 1965, as a matter of United Kingdom
+      constitutional law and the constitutional law of Rhodesia.
+    held: |
+      The materials do not state the outcome; they say the Judicial Committee of the Privy Council considered the
+      legality of the declaration in light of Hans Kelsen's theory of law.
+    ratio: |
+      Not stated in the materials.
+    significance: |
+      A court explicitly reasoning with a general theory of law (Kelsen's) to decide a question about the legality of a
+      new regime.
+    why-here: Used to show a court applying a named legal theorist's theory to a live constitutional crisis.
+    verify: true
+  - slug: r-miller-v-secretary-of-state-for-exiting-the-european-union
+    name: R (Miller) v Secretary of State for Exiting the European Union (the Miller case)
+    citation: "[2017] UKSC 5"
+    aglc: R (Miller) v Secretary of State for Exiting the European Union [2017] UKSC 5
+    facts: |
+      The UK's first case on Brexit, decided by the UK Supreme Court in 2017.
+    issue: |
+      Whether the British Government could withdraw from the European Union without an Act of Parliament giving
+      permission to do so.
+    held: |
+      The materials do not state the outcome. They quote the Court: "we would not accept that the so-called fundamental
+      rule of recognition (i.e. the fundamental rule by reference to which all other rules are validated) underlying UK
+      laws has been varied by the 1972 Act or would be varied by its repeal" [60].
+    ratio: |
+      Not stated in the materials. At [173] the Court records the argument "that the UK's withdrawal from the EU will
+      alter the UK's rule of recognition: that is to say, the rule which identifies the sources of law in our legal system
+      and imposes a duty to give effect to laws emanating from those sources".
+    significance: |
+      Judges framing a constitutional problem in light of the rule of recognition, a concept introduced by H.L.A. Hart in
+      The Concept of Law.
+    why-here: Used to show a concept from Hart's theory (the rule of recognition) doing work in a modern apex court.
+    verify: true
+
+authorities:
+  - slug: hart-the-concept-of-law
+    title: H.L.A. Hart, The Concept of Law (1961; 2nd ed 1994; 3rd ed 2012)
+    kind: other
+    text: |
+      "My aim in this book has been to further the understanding of law, coercion, and morality as different but related
+      social phenomena." (CL 6) "My aim in this book was to provide a theory of what law is which is both general and
+      descriptive." (CL 239)
+    gloss: The book the unit starts from; it analyses law through its relations to coercion, morality and rules, and claims to be general and descriptive.
+    cases: [r-miller-v-secretary-of-state-for-exiting-the-european-union]
+    verify: false
+  - slug: hart-definition-and-theory-in-jurisprudence
+    title: H.L.A. Hart, Definition and Theory in Jurisprudence — An Inaugural Lecture (1953)
+    kind: other
+    text: |
+      "In law as elsewhere, we can know and yet not understand."
+    gloss: Hart's Oxford inaugural lecture, which outlined a new research project for jurisprudence.
+    cases: []
+    verify: false
+  - slug: bix-jurisprudence-theory-and-context
+    title: Brian Bix, Jurisprudence — Theory and Context (9th ed)
+    kind: other
+    text: |
+      "…conceptual theories and claims set the boundaries of categories. The drawing of such boundaries can be helpful in
+      establishing a common ground for investigation and discussion, but the placement of the boundaries is often
+      contested." (p 18)
+    gloss: The unit textbook; it uses jurisprudence, legal theory and legal philosophy interchangeably and contrasts conceptual with non-conceptual theories.
+    cases: []
+    verify: false
+  - slug: twining-general-jurisprudence
+    title: William Twining, General Jurisprudence
+    kind: other
+    text: |
+      "It is part of my general thesis that conceptual analysis has an important part to play in reviving general
+      jurisprudence, but that what is needed is a much broader conception of what is involved than those of Hart or Raz
+      or even Stone" (p 39)
+    gloss: Twining keeps conceptual analysis but widens it to cross-cultural legal discourse and the social sciences.
+    cases: []
+    verify: true
+  - slug: finnis-philosophy-of-law
+    title: John Finnis, Philosophy of Law — Collected Essays Volume IV (2011)
+    kind: other
+    text: |
+      "Making, acknowledging, and complying with law involves acts of rational judgment. The reasonableness and
+      justification of these acts cannot be assessed without premises about true human goods, the nature of persons and
+      their acts, and the contours of the common good and human rights."
+    gloss: Finnis ties the study of law to ethics and political theory, so legal philosophy cannot be morally neutral.
+    cases: []
+    verify: false
+  - slug: dickson-elucidating-law
+    title: Julie Dickson, Elucidating Law (2022)
+    kind: other
+    text: |
+      "[…] recent years have seen many thought-provoking challenges emerge which cast doubt on the very possibility of,
+      and/or call into question the current manner of engaging in, that part of the philosophy of law which attempts to
+      identify and understand law's nature." (11–12)
+    gloss: Dickson defends legal philosophy as the never-ending, active elucidation of law's most important and significant features.
+    cases: []
+    verify: false
+  - slug: gardner-why-study-jurisprudence
+    title: John Gardner, 'Why study jurisprudence?'
+    kind: other
+    text: |
+      "A philosophical education encourages us to look […] for timeless problems underlying topical problems" (p 8)
+    gloss: Jurisprudence helps us develop as human beings, argue excellently and see different perspectives on a legal issue.
+    cases: []
+    verify: false
+  - slug: green-why-study-jurisprudence
+    title: Leslie Green, Semper Viridis blog (30 August 2020)
+    kind: other
+    text: |
+      "Legal philosophy is here to remind you that you are not a slave to your own (legal) head, that there is an escape
+      from the 'default setting' of your own little legal system, however profitable and powerful it may be."
+    gloss: Legal philosophy shows how something true 'legally speaking' may be false, and the gap between how things are and how they ought to be.
+    cases: []
+    verify: false
+
+questions:
+  # ---- meaning-of-jurisprudence ----
+  - key: q101
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 1
+    set: pretest
+    stem: Which question belongs to particular jurisprudence rather than general jurisprudence?
+    options:
+      - text: Is there a general obligation to obey the law?
+        why: Tempting because it sounds like a question about one's own duties at home, but the slides list it as a general puzzle thrown up by all legal systems.
+      - text: In what sense is Parliament sovereign over other bodies?
+        correct: true
+        why: Correct — it only makes sense in systems with a doctrine of parliamentary sovereignty, so it emerges in some legal systems but not necessarily all.
+      - text: What is legal reasoning, and how does it differ from other reasoning?
+        why: Tempting because legal reasoning is taught through a particular system, but 'what is legal reasoning?' is on the slide's list of general puzzles.
+      - text: What is a legal system, as opposed to a set of unrelated laws?
+        why: Tempting because we meet legal systems one at a time, but what a legal system is counts as a general question asked of law in general.
+  - key: q102
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 1
+    stem: A law report says 'the constitutional jurisprudence of the High Court has shifted'. In which sense is 'jurisprudence' used?
+    options:
+      - text: As legal theory, the sense used for this unit.
+        why: Tempting because that is the unit's sense, but the phrase points to what the High Court has decided, not to a theory of law in general.
+      - text: As a body of judicial decisions.
+        correct: true
+        why: Correct — the slides give exactly this expression as the example of jurisprudence meaning a body of judicial decisions.
+      - text: As legal medicine, applying medical knowledge to law.
+        why: Tempting only because it is another listed meaning, but medical jurisprudence is legal medicine and has nothing to do with the High Court's decisions.
+  - key: q103
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 1
+    stem: What does the Latin 'iurisprudentia' combine, according to the slides?
+    options:
+      - text: Iuris (of right, of law) and prudentia (wisdom, foresight, knowledge).
+        correct: true
+        why: Correct — the slide breaks the word into iuris, of right or of law, and prudentia, wisdom, foresight or knowledge.
+      - text: Ius (a court) and prudentia (a rule or command laid down by a sovereign).
+        why: Tempting because courts and commands feature in legal theory, but the slide translates iuris as of right or of law and prudentia as wisdom.
+      - text: Iuris (of judges) and prudentia (the careful weighing of precedent).
+        why: Tempting because the 'body of decisions' sense involves judges, but the etymology on the slide is about right or law combined with wisdom or knowledge.
+  - key: q104
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    stem: How does Brian Bix use the terms 'jurisprudence', 'legal theory' and 'legal philosophy'?
+    options:
+      - text: He treats legal philosophy as one branch of jurisprudence, distinct from legal theory.
+        why: Tempting because some theorists do separate the terms, but the slide says Bix uses all three interchangeably throughout his textbook.
+      - text: Interchangeably, throughout his textbook.
+        correct: true
+        why: Correct — the slide cites the Preface to the ninth edition, p vii, for Bix using the three terms interchangeably.
+      - text: He reserves 'jurisprudence' for bodies of judicial decisions and 'legal theory' for the rest.
+        why: Tempting because 'jurisprudence' does have that judicial sense, but Bix does not split the terms; he uses them as having the same meaning.
+      - text: He argues, like Cotterrell, that jurisprudence is not legal philosophy.
+        why: Tempting because Cotterrell's article is in the further readings, but it is set precisely because it disagrees with people like Bix.
+  - key: q105
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    contrasts-with: [six-kinds-of-questions]
+    stem: A student says 'general jurisprudence is just doctrinal law at a high level of abstraction, since it studies the law of all jurisdictions at once'. What is the best correction?
+    options:
+      - text: General jurisprudence studies the law of Australia first and then generalises from it to every other legal system in the world.
+        why: Tempting because we do rely on the law we know, but the object of general jurisprudence is law in general, not one jurisdiction scaled up.
+      - text: General jurisprudence asks philosophical questions about law in general, such as what law is, not what the law is on an issue.
+        correct: true
+        why: Correct — doctrinal questions ask what the law is on a specific issue in a jurisdiction; general jurisprudence asks puzzles thrown up by all legal systems.
+      - text: General jurisprudence is comparative law, which compares rules across different jurisdictions.
+        why: Tempting because comparative law also looks beyond one system, but comparing rules is still doctrinal; the lecture treats general jurisprudence as philosophical inquiry.
+  - key: q106
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    stem: Why does the lecture say the question 'in what sense is Parliament sovereign?' does not really make sense in some systems?
+    options:
+      - text: Because it is a normative question, and some systems forbid normative questions about their constitution or its history.
+        why: Tempting because sovereignty can be argued about normatively, but the reason given is structural, not a prohibition on asking normative questions.
+      - text: Because those systems have no doctrine of parliamentary sovereignty and a different constitutional architecture.
+        correct: true
+        why: Correct — the lecture says where that doctrine is not present and there is a different constitutional architecture, the question does not really make sense.
+      - text: Because sovereignty is a question for international law, not for any domestic legal system at all.
+        why: Tempting because sovereignty is central to international law, but the question here is about Parliament within some domestic systems.
+  - key: q107
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    stem: Which statement best captures the relationship between general and particular jurisprudence in the lecture?
+    options:
+      - text: They are sealed off from each other, because general jurisprudence uses no examples from any legal system.
+        why: Tempting because general jurisprudence is about law in general, but the lecture says we cannot think about law in general without knowledge of specific laws.
+      - text: Particular jurisprudence is the only rigorous part; general jurisprudence is speculation without an object.
+        why: Tempting to a sceptic, but the lecture presents general jurisprudence as having an object — law in general — and does not rank the two.
+      - text: The distinction is rough, and the two are not completely disconnected.
+        correct: true
+        why: Correct — the lecture calls it a very rough distinction that works for now, and says the two are not completely disconnected.
+  - key: q108
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 3
+    stem: The lecture points out that the Romans had laws different from those of New South Wales, yet we use 'the same concept'. What is this used to show?
+    options:
+      - text: That Roman law is the source of NSW law, so the two are one legal system.
+        why: Tempting because Roman law influenced later systems, but the point is not about historical sources; it is about sharing one concept across different laws.
+      - text: That the object of a general theory of law is law in general, not the law of a particular country.
+        correct: true
+        why: Correct — the example shows we apply one concept of law across very different systems, which is what a general theory tries to explain.
+      - text: That there can be no general theory of law, because laws differ so much from place to place.
+        why: Tempting because the differences are real, but the lecture uses the shared concept to explain what a general theory aims at, not to deny it.
+      - text: That doctrinal questions are the same in every legal system once translated from Latin.
+        why: Tempting because of the Latin etymology earlier, but doctrinal answers differ by jurisdiction; the shared thing is the concept, not the doctrine.
+  - key: q109
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    variant-of: q101
+    stem: Which of these is a question of general jurisprudence?
+    options:
+      - text: What is common about the common law?
+        why: Tempting because 'common' sounds universal, but the slides give it as a puzzle of particular jurisprudence, arising only in common law traditions.
+      - text: In what sense is the Westminster Parliament sovereign over the courts?
+        why: Tempting because sovereignty is a big theoretical idea, but parliamentary sovereignty arises only in some systems, so it is particular jurisprudence.
+      - text: Is there a general obligation to obey the law?
+        correct: true
+        why: Correct — the slides list it among the philosophical puzzles thrown up by all legal systems, the domain of general jurisprudence.
+  - key: q110
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 1
+    stem: Which is NOT listed on the slides as a meaning of 'jurisprudence'?
+    options:
+      - text: Jurisprudence in relation to religious law.
+        why: Tempting to rule out because religion seems far from law school, but the slide lists religious law, such as Jewish halakha and Islamic sharia.
+      - text: Medical jurisprudence, or legal medicine.
+        why: Tempting to rule out because it sounds unusual, but medical jurisprudence (legal medicine) is on the slide's list of meanings.
+      - text: The rules of procedure that govern a particular court's hearings.
+        correct: true
+        why: Correct — court procedure is not one of the listed meanings; the slide gives judicial decisions, religious law, medical jurisprudence and legal theory.
+      - text: A body of judicial decisions.
+        why: Tempting to rule out because it is not the unit's sense, but it is the first listed use, as in 'the constitutional jurisprudence of the High Court'.
+  - key: q111
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 3
+    stem: Why does the lecturer set Cotterrell's 'Why Jurisprudence Is Not Legal Philosophy' in the week 1 further readings?
+    options:
+      - text: To show that some theorists think jurisprudence and legal philosophy should be distinguished, unlike Bix.
+        correct: true
+        why: Correct — the lecture says some people understand jurisprudence as legal philosophy, like Bix, while other theorists think that should not be the case.
+      - text: To show that jurisprudence is really a body of judicial decisions rather than theory.
+        why: Tempting because that is another meaning of the word, but the article is about jurisprudence versus legal philosophy, not about case law.
+      - text: To confirm Bix's view that the three terms have exactly the same meaning.
+        why: Tempting because both are set readings, but the article is chosen because it takes the opposite view to Bix's interchangeable usage.
+  - key: q112
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 3
+    variant-of: q105
+    stem: A tutor says 'a general theory of law is impossible — we only ever study Australian law, or other particular systems'. Which reply best fits the lecture?
+    options:
+      - text: Agree, because Bix concludes that jurisprudence must be particular.
+        why: Tempting because Bix raises whether a general theory is possible, but he treats it as a question to discuss, and the lecture does not report such a conclusion.
+      - text: Disagree — we study law in particular contexts, but we share an understanding of law even before university, and a general theory tries to explain that.
+        correct: true
+        why: Correct — the lecture accepts we study law in specific contexts, yet notes we all share a concept of law, and a general theory aims at that shared object.
+      - text: Disagree, because comparative law already gives us a complete general theory of law.
+        why: Tempting because comparative law looks across systems, but the lecture treats comparison as another particular study, not a general theory of law.
+  - key: q113
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    stem: Which pair correctly matches each question to its type of jurisprudence?
+    options:
+      - text: "'What is law?' — particular; 'what is common about the common law?' — general."
+        why: Tempting if 'common' is read as universal, but the pairing is reversed; 'what is law?' is the central general question.
+      - text: "'What is law?' — general; 'what is common about the common law?' — particular."
+        correct: true
+        why: Correct — 'what is law?' is thrown up by all systems; the common law question arises only in common law traditions.
+      - text: Both are general, because both ask 'what is' questions.
+        why: Tempting because both are phrased the same way, but the test is whether the puzzle arises in all systems or only some, not the grammar.
+      - text: Both are particular, because both are asked by lawyers trained in one system.
+        why: Tempting because questions are always asked from somewhere, but the distinction turns on where the puzzle arises, not on who asks it.
+  - key: q114
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 3
+    stem: Some universities call a law degree a 'BA of jurisprudence'. Which sense of the word is closest to this use?
+    options:
+      - text: Jurisprudence as a body of judicial decisions of one court.
+        why: Tempting because degrees study cases, but the degree name refers to law as a whole, not to one court's decisions.
+      - text: Jurisprudence as a general, philosophical theory of the nature of law.
+        why: Tempting because that is this unit's sense, but a degree in law covers much more than legal theory; the lecture treats this as a broader use.
+      - text: Jurisprudence capturing the idea of law in a very general sense, close to its root meaning of knowledge of law.
+        correct: true
+        why: Correct — the lecture says going back to iurisprudentia, the word is sometimes used just to capture law in a very general sense, hence such degree names.
+  - key: q115
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 4
+    contrasts-with: [six-kinds-of-questions]
+    stem: An essay asks 'Is there a general obligation to obey the law?'. A student answers by setting out when NSW statutes make disobedience an offence. What has gone wrong?
+    options:
+      - text: Nothing — offences show exactly when there is an obligation to obey.
+        why: Tempting because offences do create legal duties, but that answers what NSW law requires, not the general philosophical question asked of all legal systems.
+      - text: They answered a particular, doctrinal question instead of a general one.
+        correct: true
+        why: Correct — the slides list the obligation to obey as a puzzle of general jurisprudence; a survey of NSW offences is doctrinal and particular.
+      - text: They should have answered using international law, since the question is general.
+        why: Tempting because international law seems more general, but it is itself a particular body of law; the question asks about law in general.
+  - key: q116
+    type: mcq
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    stem: For the purposes of this unit, how should 'jurisprudence' be understood?
+    options:
+      - text: As legal theory — a general theory of law.
+        correct: true
+        why: Correct — the lecture says that for our purposes jurisprudence should be understood as legal theory, and the slide heads this 'jurisprudence as a general theory of law'.
+      - text: As the case law of the courts studied in other units, read for its principles.
+        why: Tempting because other units call case law jurisprudence, but the lecture sets that meaning aside and adopts legal theory for this unit.
+      - text: As the religious and customary laws of different traditions, compared side by side.
+        why: Tempting because religious law is a listed meaning, but the lecture says the unit will not engage with that use of the term.
+  # true/false
+  - key: q117
+    type: truefalse
+    set: quickfire
+    concept: meaning-of-jurisprudence
+    difficulty: 1
+    statement: Brian Bix uses 'jurisprudence', 'legal theory' and 'legal philosophy' interchangeably.
+    answer: true
+    why: True — the slide cites the Preface to the ninth edition of Bix's textbook for his use of the three terms interchangeably throughout.
+  - key: q118
+    type: truefalse
+    set: quickfire
+    concept: meaning-of-jurisprudence
+    difficulty: 1
+    statement: '"What is common about the common law?" is a question of general jurisprudence.'
+    answer: false
+    why: False — it arises only in common law traditions, so the slides class it as particular jurisprudence, alongside parliamentary sovereignty.
+  - key: q119
+    type: truefalse
+    set: quickfire
+    concept: meaning-of-jurisprudence
+    difficulty: 2
+    statement: The lecture says general and particular jurisprudence are completely disconnected.
+    answer: false
+    why: False — the lecture calls the distinction very rough and says the two are not completely disconnected; general theory draws on knowledge of particular laws.
+  - key: q120
+    type: short
+    concept: meaning-of-jurisprudence
+    difficulty: 3
+    prompt: "'Jurisprudence is just the law of one's own legal system, studied at a higher level of generality.' Discuss, with reference to the distinction between general and particular jurisprudence."
+    model: |
+      The statement is wrong about the object of jurisprudence, though right that theory starts from particular law.
+      Understood as legal theory, general jurisprudence deals with philosophical puzzles thrown up by all legal systems:
+      what is law, what is a legal system, what is legal reasoning, is there a general obligation to obey the law? Its
+      object is law in general, not the law of a jurisdiction: the Romans had laws unlike those of New South Wales, yet
+      we use the same concept of law for both. Particular jurisprudence, by contrast, asks puzzles that arise in some
+      systems only, such as what is common about the common law or in what sense Parliament is sovereign. The
+      counterargument has force: we study law in specific contexts, and we cannot think about law in general without our
+      knowledge of specific laws, so the two are not completely disconnected. But that shows a dependence of evidence,
+      not an identity of question. On balance, jurisprudence uses one's own system as a starting point, not as its
+      subject, and an answer about NSW doctrine answers a different question.
+    rubric:
+      - id: r1
+        criterion: Thesis — takes a clear position on whether jurisprudence is one's own law generalised.
+        marks: 2
+        top-band: States a qualified thesis in the first sentence and keeps to it.
+        margin-note: What is your answer to the question?
+        authorities: []
+      - id: r2
+        criterion: Argument — defines general and particular jurisprudence with the slides' examples.
+        marks: 3
+        top-band: Gives both definitions with examples of each and explains why law in general is the object.
+        margin-note: Which puzzles arise in all systems, and which only in some?
+        authorities: [bix-jurisprudence-theory-and-context]
+      - id: r3
+        criterion: Counterargument — states the strongest case for the proposition charitably.
+        marks: 2
+        top-band: Uses the lecture's point that we cannot think about law in general without particular laws.
+        margin-note: Put the other side at its strongest before replying.
+        authorities: []
+      - id: r4
+        criterion: Evaluation — weighs the two and reaches a reasoned conclusion.
+        marks: 2
+        top-band: Distinguishes evidence from object and explains why that settles the question.
+        margin-note: Why does your conclusion survive the objection?
+        authorities: []
+  # ---- conceptual-analysis ----
+  - key: q201
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 1
+    stem: How do conceptual theories generally define terms, according to the slides?
+    options:
+      - text: By necessary and sufficient conditions.
+        correct: true
+        why: Correct — the slide states that conceptual theories generally define terms by necessary and sufficient conditions, which set the boundaries of a category.
+      - text: By surveying how often people use the word in ordinary speech and adopting the majority usage.
+        why: Tempting because Hart's Oxford philosophy analysed ordinary language, but conceptual theories define by conditions, not by counting usage.
+      - text: By measuring the causes and effects of the thing the term refers to in society.
+        why: Tempting because social science studies causes and effects, but that describes empirical, non-conceptual theories rather than conceptual ones.
+  - key: q202
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    stem: "Bix says conceptual theories 'set the boundaries of categories'. What further point does he make about those boundaries?"
+    options:
+      - text: Once drawn correctly, they are fixed and cannot reasonably be disputed.
+        why: Tempting because definitions sound final, but Bix says the placement of the boundaries is often contested.
+      - text: Drawing them can establish common ground for discussion, but their placement is often contested.
+        correct: true
+        why: Correct — Bix (p 18) says drawing boundaries can help establish common ground for investigation and discussion, but where they go is often contested.
+      - text: They are useful only in the natural sciences, where categories are given by nature rather than drawn by theorists.
+        why: Tempting because natural kinds seem easier to bound, but Bix contrasts conceptual theories with natural-science theories; he does not confine them there.
+  - key: q203
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    stem: According to Bix, purely conceptual theories can be contrasted with which two kinds of theories?
+    options:
+      - text: Normative theories and doctrinal theories of a particular jurisdiction's law.
+        why: Tempting because both appear among the six kinds of questions, but Bix's contrast on this slide is with the natural and the social sciences.
+      - text: Natural law theories and positivist theories of law, as rival conceptual accounts.
+        why: Tempting because those schools appear later in the unit, but both offer conceptual claims; they are not Bix's contrast class here.
+      - text: Non-conceptual theories in the natural sciences, and non-conceptual theories in the social sciences.
+        correct: true
+        why: "Correct — the slide lists exactly these two: non-conceptual theories in the natural sciences and non-conceptual theories in the social sciences."
+  - key: q204
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    contrasts-with: [six-kinds-of-questions]
+    stem: A psychologist builds a theory of why people comply with parking fines. It uses the concept 'fine'. Is it a conceptual theory in Bix's sense?
+    options:
+      - text: Yes, because any theory that uses a concept is, for that reason alone, a conceptual theory.
+        why: Tempting because the theory does rely on concepts, but the lecture says such theories use concepts yet are not conceptual theories.
+      - text: No — it uses concepts, but it is a non-conceptual theory in the social sciences.
+        correct: true
+        why: Correct — theories in the social sciences use concepts but are not conceptual theories; this one explains causes of compliance, an empirical question.
+      - text: Yes, because psychology is a branch of analytical philosophy.
+        why: Tempting because both are academic disciplines about people, but the lecture places psychological theories among empirical social sciences.
+      - text: No, because conceptual theories may only be about law itself.
+        why: Tempting because this unit analyses the concept of law, but the six kinds of questions show concepts like contract and justice are analysed too.
+  - key: q205
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    stem: What did Hart combine in The Concept of Law, according to the lecture?
+    options:
+      - text: Sociological jurisprudence with the empirical methods of the social sciences, as Julius Stone had done at Sydney.
+        why: Tempting because the Preface mentions descriptive sociology, but Stone's sociological jurisprudence is set against the Oxford approach in the lecture.
+      - text: The tradition of analytical jurisprudence with the Oxford analytical philosophy focused on ordinary language.
+        correct: true
+        why: Correct — the lecture says Hart combined the older analytical jurisprudence with the Oxford philosophy of his time, which analysed ordinary language.
+      - text: The natural law tradition with the ethical premises about human goods later defended by Finnis.
+        why: Tempting because Finnis studied with Hart, but the lecture says Finnis's rich ethical understanding is not at all what Hart tried to do.
+  - key: q206
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    stem: Which pair of theorists does the lecture name as writing in the analytical tradition well before Hart?
+    options:
+      - text: Austin and Bentham.
+        correct: true
+        why: Correct — the lecture names Austin and Bentham as theorists who wrote well before Hart within the tradition of analytical jurisprudence.
+      - text: Finnis and Raz, his Oxford students.
+        why: Tempting because both studied with Hart at Oxford, but they wrote after him, so they cannot be his predecessors in the tradition.
+      - text: Dickson and Twining, commenting on Hart.
+        why: Tempting because both write about Hart's method, but they are later commentators, not the earlier analytical jurists the lecture names.
+  - key: q207
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    stem: "Twining says conceptual analysis has 'an important part to play in reviving general jurisprudence'. What is his qualification?"
+    options:
+      - text: That it should be abandoned for purely empirical legal studies.
+        why: Tempting because Twining values the social sciences, but he keeps conceptual analysis and wants it widened, not abandoned.
+      - text: That only Hart's version of it is legitimate, and the rest should be dropped from general jurisprudence.
+        why: Tempting because Hart dominates the week, but Twining says what is needed is a much broader conception than Hart's or Raz's or even Stone's.
+      - text: That what is needed is a much broader conception of it than those of Hart or Raz or even Stone.
+        correct: true
+        why: "Correct — this is the p 39 quote: conceptual analysis matters, but a much broader conception of what it involves is needed."
+      - text: That it can revive general jurisprudence only for common law systems like England's.
+        why: Tempting because Twining studied at Oxford, but he calls for usable concepts in cross-cultural and transnational legal discourse, not common law only.
+  - key: q208
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    stem: For Twining, where else do the methods of conceptual analysis apply beyond legal exposition?
+    options:
+      - text: Only to international law, where concepts are least settled and most in need of clarification.
+        why: Tempting because Twining speaks of transnational discourse, but his p 57 claim reaches empirical legal studies and the social sciences generally.
+      - text: To important concepts in empirical legal studies and the social sciences generally.
+        correct: true
+        why: Correct — at p 57 Twining says conceptual elucidation is as important for social scientific investigation as for legal exposition.
+      - text: Nowhere else — conceptual analysis belongs only to legal exposition of doctrine.
+        why: Tempting to someone who sees analysis as a lawyer's tool, but Twining's point is exactly that it extends to the social sciences.
+  - key: q209
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    stem: Two friends argue about whether they watched 'the football'. It turns out one meant soccer and the other a different code. What kind of disagreement was it, in the lecture's terms?
+    options:
+      - text: A deep conceptual disagreement about the nature of sport.
+        why: Tempting because they seemed to disagree, but once one says 'I meant soccer' they share the concept; nothing deep was in dispute.
+      - text: A semantic confusion about the term, easily solved by clarifying usage.
+        correct: true
+        why: "Correct — the lecture says this kind of confusion is easily solvable: clarify how you are using the term and it turns out you share the same concept."
+      - text: A normative disagreement about which football code ought to be played and watched.
+        why: Tempting because people do argue about which code is better, but the friends never disagreed about what ought to be; they misread each other's words.
+  - key: q210
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    variant-of: q209
+    stem: Two theorists fully agree on what the word 'law' means in English, yet one says international law is law and the other denies it. On the lecture's layers, where might their disagreement lie?
+    options:
+      - text: At the linguistic level, because they are speaking different languages.
+        why: Tempting because the lecture lists a linguistic layer first, but both use English words the same way; the problem lies deeper than language.
+      - text: At the conceptual level — they may not share the same concept of law at all.
+        correct: true
+        why: "Correct — once the linguistic and semantic layers agree, a remaining dispute may be conceptual: they may be working with different concepts."
+      - text: At the pragmatic level only, because each forgot to state the context of their claims.
+        why: Tempting because context matters in the soccer example, but here the context is clear; the disagreement survives clarification of context.
+  - key: q211
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    stem: Who was Julius Stone, as mentioned in connection with Twining's quote?
+    options:
+      - text: An Oxford student of Hart's who defended a positivist theory of law.
+        why: Tempting because the quote names Hart and Raz, but that describes Raz; Stone was at Sydney and closer to the sociology of law.
+      - text: A professor of jurisprudence at Sydney who defended a sociological jurisprudence.
+        correct: true
+        why: Correct — the lecture says Stone was long professor of jurisprudence at Sydney and defended what he called sociological jurisprudence.
+      - text: A natural law thinker who criticised conceptual analysis for ignoring human goods.
+        why: Tempting because that echoes Finnis, but the lecture presents Stone as a sociological jurist, not a natural law thinker.
+  - key: q212
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    stem: Which statement about conceptual analysis is most accurate to week 1?
+    options:
+      - text: It was invented by Hart in 1961 and has no earlier history in legal theory.
+        why: Tempting because Hart's book is seen as the start of modern analytical jurisprudence, but the lecture stresses a long earlier tradition, including Austin and Bentham.
+      - text: It is a key method of analytical philosophy that Hart and others imported into jurisprudence.
+        correct: true
+        why: Correct — the slide calls conceptual analysis a key element or method of analytical philosophy, and the lecture says Hart imported these tools.
+      - text: It is the method of the social sciences, which Hart rejected as unscientific and unsuited to law.
+        why: Tempting because Twining links it with social science, but it is a method of analytical philosophy, and Hart called his book descriptive sociology too.
+  - key: q213
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 4
+    contrasts-with: [meaning-of-jurisprudence]
+    stem: An essay claims 'conceptual analysis is useless because where you draw a concept's boundaries is always contested'. Which reply draws most directly on Bix?
+    options:
+      - text: Contested boundaries show the concept is empty, so the essay is right to dismiss conceptual analysis as a method for jurisprudence altogether.
+        why: Tempting because contestation can look like emptiness, but Bix treats contested boundaries as a normal feature, not proof the concept is empty.
+      - text: Bix accepts boundaries are often contested, yet says drawing them still helps build common ground for investigation and discussion.
+        correct: true
+        why: "Correct — Bix's p 18 claim holds both halves together: boundaries are often contested, but drawing them helps establish a common ground."
+      - text: Bix says contested concepts belong to particular jurisprudence, so the objection misses general jurisprudence.
+        why: Tempting because it borrows another distinction from the week, but Bix's point about boundaries is not about general versus particular jurisprudence.
+  - key: q214
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    stem: Why does the lecturer set Twining's chapter in week 1?
+    options:
+      - text: Because Twining fully embraces Hart's understanding of legal philosophy.
+        why: Tempting because Twining studied at Oxford in Hart's time, but the lecture says he did not completely embrace Hart's view and paid more attention to social science.
+      - text: Because Twining argues jurisprudence should drop conceptual questions entirely in favour of sociology.
+        why: Tempting because Twining widens the field, but his thesis is that conceptual analysis has an important part to play in reviving general jurisprudence.
+      - text: Because he lived that time at Oxford and contextualises Hart's analytical jurisprudence.
+        correct: true
+        why: Correct — the lecture says Twining lived that period as a student at Oxford and gives a very helpful contextualisation of Hart's version of analytical jurisprudence.
+  - key: q215
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 2
+    variant-of: q201
+    stem: 'A student defines "vehicle" as "anything with an engine". A classmate replies that a bicycle is a vehicle without an engine. What has the classmate shown, in conceptual-analysis terms?'
+    options:
+      - text: That having an engine is not a necessary condition of being a vehicle.
+        correct: true
+        why: Correct — a counterexample that falls inside the category without the feature shows the feature is not necessary, which is how conceptual boundaries are tested.
+      - text: That having an engine is a sufficient condition, so the definition is complete as it stands.
+        why: Tempting because the definition may still pick out many vehicles, but the bicycle shows it misses members of the category, so it is not complete.
+      - text: That the disagreement is empirical and should be settled by counting bicycles on the road.
+        why: Tempting because vehicles are physical things, but counting does not settle where the category's boundary lies; that is a conceptual question.
+  - key: q216
+    type: mcq
+    concept: conceptual-analysis
+    difficulty: 3
+    stem: Twining says there is a lot of work to be done on 'usable concepts' in which setting, as a task for analytical jurisprudence?
+    options:
+      - text: In the domestic courts of the United Kingdom.
+        why: Tempting because Twining studied in England, but his p 34 claim is about cross-cultural and transnational legal discourse, not one country's courts.
+      - text: In cross-cultural and transnational legal discourse.
+        correct: true
+        why: Correct — at p 34 Twining says there is a lot of work to be done on usable concepts in cross-cultural and transnational legal discourse.
+      - text: In the drafting of statutes by parliamentary counsel.
+        why: Tempting because drafters must use concepts carefully, but Twining's point concerns concepts that work across cultures and legal orders.
+  # true/false
+  - key: q217
+    type: truefalse
+    set: quickfire
+    concept: conceptual-analysis
+    difficulty: 1
+    statement: Conceptual theories generally define terms by necessary and sufficient conditions.
+    answer: true
+    why: True — the slide on jurisprudence and conceptual analysis says exactly this, and Bix adds that such boundaries are often contested.
+  - key: q218
+    type: truefalse
+    set: quickfire
+    concept: conceptual-analysis
+    difficulty: 2
+    statement: Twining argues that conceptual analysis has no role to play in reviving general jurisprudence.
+    answer: false
+    why: False — Twining says conceptual analysis has an important part to play in reviving general jurisprudence, but needs a much broader conception than Hart's or Raz's.
+  - key: q219
+    type: truefalse
+    set: quickfire
+    concept: conceptual-analysis
+    difficulty: 2
+    statement: For Bix, theories in the social sciences are not conceptual theories even though they use concepts.
+    answer: true
+    why: True — Bix contrasts purely conceptual theories with non-conceptual theories in the natural and social sciences; the lecture adds that those theories still use concepts.
+  - key: q220
+    type: short
+    concept: conceptual-analysis
+    difficulty: 3
+    prompt: "Is conceptual analysis an adequate method for general jurisprudence? Discuss with reference to Bix and Twining."
+    model: |
+      Conceptual analysis is a necessary method for general jurisprudence but not, by itself, an adequate one. It has
+      been a key method of analytical philosophy, and Hart imported it into jurisprudence. Conceptual theories generally
+      define terms by necessary and sufficient conditions and so set the boundaries of categories; as Bix says, drawing
+      them can establish common ground for investigation and discussion. Without that common ground, disputes collapse
+      into semantic confusion, like the football/soccer example. The counterargument is that the placement of the
+      boundaries is often contested, and Dickson reports sceptics who doubt conceptual analysis as a method at all. The
+      better evaluation is Twining's: conceptual analysis "has an important part to play in reviving general
+      jurisprudence", but what is needed is "a much broader conception" than Hart's or Raz's, one that also serves
+      cross-cultural discourse, empirical legal studies and the social sciences. So analysis is adequate only if it is
+      widened: contestation is a reason to do it more carefully and more broadly, not to abandon it.
+    rubric:
+      - id: r1
+        criterion: Thesis — takes a clear position on adequacy, not just usefulness.
+        marks: 2
+        top-band: A qualified thesis (necessary but not sufficient) stated at the outset.
+        margin-note: Adequate for what, exactly?
+        authorities: []
+      - id: r2
+        criterion: Argument — explains conceptual analysis and Bix's account of boundaries.
+        marks: 3
+        top-band: Necessary and sufficient conditions, boundaries and common ground, with the Bix quote.
+        margin-note: What does drawing boundaries buy us?
+        authorities: [bix-jurisprudence-theory-and-context]
+      - id: r3
+        criterion: Counterargument — contested boundaries and scepticism about the method.
+        marks: 2
+        top-band: States the objection at full strength, using Bix's own admission and Dickson's sceptics.
+        margin-note: Who doubts the method, and why?
+        authorities: [dickson-elucidating-law]
+      - id: r4
+        criterion: Evaluation — uses Twining to reach a reasoned verdict.
+        marks: 3
+        top-band: Shows how Twining's broader conception answers the objection without abandoning analysis.
+        margin-note: Does Twining save the method or replace it?
+        authorities: [twining-general-jurisprudence]
+  # ---- six-kinds-of-questions ----
+  - key: q301
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 1
+    set: pretest
+    stem: "'What are the success criteria for a given theory?' Which kind of question is this?"
+    options:
+      - text: Methodological — a question about how research in the field should be conducted.
+        why: Tempting because methodology is close by on the list, but the slide asks 'how should we conduct research?' there; success criteria are metatheoretical.
+      - text: Metatheoretical.
+        correct: true
+        why: Correct — the slide defines metatheoretical questions as asking what the success criteria for a given theory are.
+      - text: Conceptual — a question about what the concept of a theory itself is and means.
+        why: Tempting because it concerns what a theory is, but conceptual questions on the slide are like 'what is law?'; criteria for judging theories are metatheory.
+      - text: Normative — a question about what a theory ought to say about law and justice.
+        why: Tempting because criteria sound evaluative, but normative questions ask how things ought to be in law, not how we judge a theory's success.
+  - key: q302
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 1
+    stem: A tutorial problem asks whether a shop owner is liable in negligence under NSW law. What kind of question is it?
+    options:
+      - text: An empirical question about the causes and effects of negligence law in the community.
+        why: Tempting because the facts are real-world facts, but asking what the law is on a specific issue in a jurisdiction is doctrinal, not empirical.
+      - text: Doctrinal.
+        correct: true
+        why: Correct — doctrinal questions ask what the law is on a specific issue; the lecture says every hypothetical is a cluster of doctrinal questions.
+      - text: A conceptual question about what negligence is, in general, in every legal system.
+        why: Tempting because negligence is a concept, but the question asks for the NSW answer on these facts, not the general nature of negligence.
+  - key: q303
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 2
+    stem: Which distinction does the slide attach to normative questions?
+    options:
+      - text: Explanatory/causal vs effects claims.
+        why: Tempting because it is also a pair on the slide, but explanatory/causal vs effects is the distinction attached to empirical questions.
+      - text: Descriptive vs normative (is/ought), with normative claims either justificatory or critical.
+        correct: true
+        why: Correct — the slide sets out the is/ought distinction and then splits normative claims and theories into justificatory and critical.
+      - text: General vs particular jurisprudence.
+        why: Tempting because it is another week 1 pair, but that distinction sorts the scope of jurisprudence, not the kinds of normative claim.
+  - key: q304
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 2
+    stem: A researcher interviews a community to find out what a new statute actually did to them, compared with what the legislature intended. What kind of claim will the findings support?
+    options:
+      - text: A justificatory normative claim, defending the policy decisions behind the statute as good.
+        why: Tempting because the statute's policy is discussed, but the research investigates on the ground what happened, which is empirical, not a defence of it.
+      - text: A metatheoretical claim about the success criteria that any theory of statutes must meet.
+        why: Tempting because findings can test theories, but the study is about this statute's effects, not the criteria for judging theories.
+      - text: An empirical claim about effects.
+        correct: true
+        why: Correct — the lecture's example of an empirical question is investigating how a new statute affects a community, which may differ from what was intended.
+  - key: q305
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 2
+    contrasts-with: [meaning-of-jurisprudence]
+    stem: "An essay says: 'This family law arrangement is desirable and should be kept.' What kind of claim is this?"
+    options:
+      - text: A justificatory normative claim.
+        correct: true
+        why: Correct — it says how things ought to be and defends the status quo, which the lecture calls a justificatory normative claim.
+      - text: A critical normative claim, because any claim about family law criticises some people's interests.
+        why: Tempting because normative claims can criticise, but this one defends the existing arrangement; critical claims attack the status quo.
+      - text: A descriptive claim, because it describes an arrangement that already exists in family law.
+        why: Tempting because the arrangement exists, but saying it is desirable and should be kept goes beyond describing it to what ought to be.
+  - key: q306
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 2
+    variant-of: q305
+    stem: "Another essay says: 'This family law arrangement is unjust and should be changed.' What kind of claim is this?"
+    options:
+      - text: A justificatory normative claim, because it gives reasons for its view.
+        why: Tempting because it does give reasons, but justificatory claims defend the status quo; this one attacks it.
+      - text: A critical normative claim.
+        correct: true
+        why: Correct — it is about how things ought to be and it criticises the status quo, the lecture's example of a critical normative claim.
+      - text: An empirical effects claim, because it predicts what will happen after the law is changed.
+        why: Tempting because change has effects, but the essay argues the law is unjust and ought to change, which is normative, not a finding about effects.
+      - text: A doctrinal claim, because it states what the family law currently is on the issue.
+        why: Tempting because it mentions current law, but its point is that the law should be changed, not what the law is.
+  - key: q307
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 3
+    stem: "The lecture says picking one theory over another 'isn't like picking an ice-cream flavour'. What is the point?"
+    options:
+      - text: That all theories are equally good, so the choice is purely a matter of preference.
+        why: "Tempting because the lecture names that relativist temptation, but it raises it in order to deny it: there may be criteria to judge theories."
+      - text: That there may be criteria to say one theory is superior, at least in some respect — a metatheoretical question.
+        correct: true
+        why: Correct — asking for criteria to assess theories is engaging with a metatheoretical question, not expressing a mere preference.
+      - text: That theories should be chosen by their authority, as cases are chosen by the court's rank.
+        why: Tempting to a law student, but the lecture says jurisprudence lacks authorities with the weight they have in a positive law subject.
+  - key: q308
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 3
+    stem: "'Assuming there is such a thing as the nature of law, how should we investigate it?' What kind of question is this?"
+    options:
+      - text: Methodological.
+        correct: true
+        why: Correct — asking how we should investigate our object is a methodological question; the lecture uses exactly this example about the nature of law.
+      - text: Doctrinal, because it asks what the law is.
+        why: Tempting because it mentions law, but it asks how to research law's nature, not what the law is on a specific issue.
+      - text: Empirical, because natural scientists investigate nature by experiment and observation.
+        why: Tempting because the word 'nature' suggests science, but the question is about how to conduct the inquiry, which is methodology.
+  - key: q309
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 2
+    stem: Which is given on the slide as an example of a conceptual question?
+    options:
+      - text: What is justice?
+        correct: true
+        why: Correct — the slide's examples of conceptual questions are 'what is a contract?', 'what is law?' and 'what is justice?'.
+      - text: How should we conduct research in this field of study?
+        why: Tempting because it is general in form, but the slide gives it as the methodological question, not a conceptual one.
+      - text: What effects did this particular statute have on a given community?
+        why: Tempting because it asks 'what', but it is an empirical effects question about one statute, not a question about a concept.
+  - key: q310
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 3
+    stem: The lecture says even an empirical inquiry into something still needs what?
+    options:
+      - text: A normative justification of the status quo it investigates.
+        why: Tempting because research can have political aims, but the lecture's point is that empirical work relies on concepts, not that it must justify anything.
+      - text: Concepts.
+        correct: true
+        why: Correct — the lecture says even when you develop an empirical inquiry you still need concepts, so the different questions relate to one another.
+      - text: A doctrinal answer from a court in the relevant jurisdiction.
+        why: Tempting because law students start from cases, but empirical inquiry investigates the world; what it cannot do without is concepts.
+  - key: q311
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 3
+    contrasts-with: [general-and-descriptive-theory]
+    stem: "Hart claims his theory is 'general and descriptive'. A critic asks whether those two claims are met. What level is the critic's question at?"
+    options:
+      - text: Doctrinal, because it asks what Hart's text actually says.
+        why: Tempting because it involves reading a text closely, but doctrinal questions are about the content of the law in a jurisdiction.
+      - text: Metatheoretical — it applies success criteria to the theory.
+        correct: true
+        why: Correct — the lecture says Hart's two claims can be used as criteria to assess the theory on its own terms, which is a metatheoretical exercise.
+      - text: Empirical, because generality is measured by counting legal systems the theory covers.
+        why: Tempting because generality sounds countable, but asking whether a theory meets its success criteria is metatheory, not a head count.
+  - key: q312
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 4
+    stem: A theorist says 'my theory of law is better than yours because it explains international law and yours does not'. Which kind of claim is this, and what does it assume?
+    options:
+      - text: A doctrinal claim, assuming international law is binding on Australian courts.
+        why: Tempting because international law is a body of doctrine, but the claim ranks theories, which is not a question about what the law is.
+      - text: A normative claim, assuming international law ought to be obeyed by all states at all times.
+        why: Tempting because obligation is in the background, but the claim concerns which theory is better, not whether states ought to comply.
+      - text: A metatheoretical claim, assuming that explaining borderline cases is a criterion of success.
+        correct: true
+        why: Correct — ranking theories uses a success criterion; here the assumed criterion is covering borderline cases like international law.
+  - key: q313
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 3
+    variant-of: q304
+    stem: A sociologist asks why a particular law was passed — which pressures and interests caused it. What kind of claim is being sought?
+    options:
+      - text: An explanatory/causal empirical claim.
+        correct: true
+        why: Correct — the slide splits empirical claims into explanatory/causal and effects claims; asking what caused a law is explanatory.
+      - text: An empirical effects claim, because it concerns what the law did once it was in force.
+        why: Tempting because both are empirical, but effects claims ask what a law did after it passed; this asks what caused it.
+      - text: A methodological claim, because the sociologist must choose between interviews and surveys.
+        why: Tempting because methods are involved, but the question asked is about causes of the law; the choice of method is a separate issue.
+  - key: q314
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 3
+    contrasts-with: [meaning-of-jurisprudence]
+    stem: The lecture distinguishes two connected problems — the nature of jurisprudence and the nature of law. Which is a claim about the nature of jurisprudence?
+    options:
+      - text: Legal obligation differs from moral obligation.
+        why: Tempting because it is a claim from Hart's book, but it concerns law and its relation to morality, so it is about the nature of law.
+      - text: Coercion is an essential feature of law.
+        why: Tempting because it is a big theoretical claim, but it is a claim about what law is — the object — not about the theory.
+      - text: A theory of law can be wholly morally neutral.
+        correct: true
+        why: Correct — whether a theory can be morally neutral is about what kind of thing the theory is, a claim about the nature of jurisprudence.
+  - key: q315
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 2
+    stem: Which is the best description of a descriptive claim, as the lecture uses the is/ought distinction?
+    options:
+      - text: A claim about what the law ought to be once all the policy arguments have been considered.
+        why: Tempting because policy arguments are part of legal debate, but a claim about what ought to be is normative, not descriptive.
+      - text: A claim about what the law is, setting all criticism aside for a separate conversation.
+        correct: true
+        why: Correct — the lecture says you can put aside the normative arguments and just ask what the law says; that is a description.
+      - text: A claim that defends the existing law as good for all the reasons its supporters give.
+        why: Tempting because it concerns existing law, but defending it as good is a justificatory normative claim, not a description.
+  - key: q316
+    type: mcq
+    concept: six-kinds-of-questions
+    difficulty: 4
+    variant-of: q311
+    stem: "Dickson reports theorists who are 'wary of the idea that a human-made social construction such as law can have a nature'. Their doubt is primarily about what?"
+    options:
+      - text: Whether a particular statute is valid.
+        why: Tempting because validity is a legal idea, but the doubt is not about any statute; it is about whether law has a nature a theory can explain.
+      - text: Whether the object that jurisprudence aims to explain exists in the form assumed — a question about the enterprise itself.
+        correct: true
+        why: Correct — doubting that law has a nature puts pressure on the theoretical enterprise, a metatheoretical and methodological challenge.
+      - text: Whether judges ought to follow precedent, which is a question of normative legal theory about courts.
+        why: Tempting because judges appear in legal theory, but the sceptics' target is the idea of law's nature, not the duties of judges.
+  # true/false
+  - key: q317
+    type: truefalse
+    set: quickfire
+    concept: six-kinds-of-questions
+    difficulty: 1
+    statement: Explanatory/causal vs effects is the distinction the slide attaches to empirical questions.
+    answer: true
+    why: True — empirical questions divide into explanatory/causal claims and effects claims, and theories of each kind; the is/ought split belongs to normative questions.
+  - key: q318
+    type: truefalse
+    set: quickfire
+    concept: six-kinds-of-questions
+    difficulty: 2
+    statement: '"How should we conduct research in this field?" is a metatheoretical question.'
+    answer: false
+    why: False — the slide gives it as the methodological question; metatheoretical questions ask what the success criteria for a given theory are.
+  - key: q319
+    type: truefalse
+    set: quickfire
+    concept: six-kinds-of-questions
+    difficulty: 2
+    statement: A normative theory can be either justificatory or critical.
+    answer: true
+    why: True — the slide splits normative claims and theories into justificatory, which defend the status quo, and critical, which criticise it.
+  - key: q320
+    type: short
+    concept: six-kinds-of-questions
+    difficulty: 3
+    prompt: "'In jurisprudence, every question is really a normative question.' Discuss, using the six kinds of questions from week 1."
+    model: |
+      The claim is overstated: jurisprudence asks at least six kinds of questions, and only one is normative. Doctrinal
+      questions ask what the law is on a specific issue; normative questions, drawing on the is/ought distinction, ask
+      what ought to be and are either justificatory or critical; empirical questions make explanatory/causal or effects
+      claims; metatheoretical questions ask for a theory's success criteria; methodological questions ask how research
+      should be conducted; and conceptual questions ask what law, contract or justice is. Hart claims a theory that is
+      descriptive — morally neutral, with no justificatory aims — which would be impossible if every question were
+      normative. The best counterargument is that choosing criteria to judge theories, or deciding which features of law
+      matter, may involve evaluation; Finnis thinks legal judgments cannot be assessed without premises about true human
+      goods. But evaluation in metatheory is not the same as a normative claim about how law ought to be. On balance the
+      kinds of questions remain distinct, though they interact, and an essay must say which one it is answering.
+    rubric:
+      - id: r1
+        criterion: Thesis — a clear position on whether all questions reduce to normative ones.
+        marks: 2
+        top-band: Commits to a thesis and signals the distinction it will rely on.
+        margin-note: Agree, disagree, or qualify?
+        authorities: []
+      - id: r2
+        criterion: Argument — sets out the six kinds accurately with examples.
+        marks: 3
+        top-band: All six named with the slide's sub-distinctions (is/ought; justificatory/critical; explanatory/effects).
+        margin-note: Which kind is Hart's own claim?
+        authorities: []
+      - id: r3
+        criterion: Counterargument — shows how evaluation might creep into metatheory.
+        marks: 2
+        top-band: Uses Finnis on true human goods as the strongest opposing view.
+        margin-note: Is choosing criteria itself value-laden?
+        authorities: [finnis-philosophy-of-law]
+      - id: r4
+        criterion: Evaluation — reasoned verdict that distinguishes evaluation from normative claims.
+        marks: 2
+        top-band: Explains why the kinds stay distinct even though they interact.
+        margin-note: Why does the distinction survive?
+        authorities: [hart-the-concept-of-law]
+  # ---- legal-theory-in-the-real-world ----
+  - key: q401
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 1
+    stem: In the Gove land rights case (Milirrpum v Nabalco), on what basis were Aboriginal claims to land questioned?
+    options:
+      - text: That the claimants had not registered their title under the Torrens system.
+        why: Tempting because registration matters in land law, but the slide says the claims were questioned because customary rules could not be described as legal rules.
+      - text: That the customary rules of Aboriginal peoples could not be described by the court as legal rules.
+        correct: true
+        why: Correct — the slide says the claims were questioned on exactly this basis, which turns on a theory of what counts as law.
+      - text: That the land was covered by an Act of the Commonwealth Parliament.
+        why: Tempting because statutes often extinguish claims, but the slide gives no statutory ground; the point is about whether customary rules are law.
+      - text: That international law barred the claim.
+        why: Tempting because the unit mentions international law often, but the slide does not; the basis was a view about what counts as legal rules.
+  - key: q402
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 1
+    stem: Whose theory of law does the slide say Madzimbamuto v Lardner-Burke considered in deciding the legality of Rhodesia's Unilateral Declaration of Independence?
+    options:
+      - text: H.L.A. Hart's, especially his rule of recognition.
+        why: Tempting because Hart's rule of recognition is used in Miller, but the slide ties Madzimbamuto to Hans Kelsen's theory of law.
+      - text: Hans Kelsen's.
+        correct: true
+        why: Correct — the slide says the case considers the legality of the 1965 declaration in light of Hans Kelsen's theory of law.
+      - text: John Austin's command theory, as applied by the court in Milirrpum.
+        why: Tempting because the lecture links Milirrpum to Austin, but Madzimbamuto is the Kelsen example, decided by the Privy Council.
+  - key: q403
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 1
+    stem: Which concept from Hart did the UK Supreme Court use in the Miller case?
+    options:
+      - text: The internal point of view.
+        why: Tempting because it is one of Hart's listed concepts, but the quoted paragraphs of Miller turn on the rule of recognition.
+      - text: The rule of recognition, as Hart used it.
+        correct: true
+        why: Correct — at [60] and [173] the Court discusses the UK's rule of recognition, a concept introduced by Hart in The Concept of Law.
+      - text: Primary rules imposing duties on citizens.
+        why: Tempting because duty-imposing rules are Hart's too, but Miller's quoted reasoning is about the fundamental rule that validates other rules.
+  - key: q404
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: What question did the Miller case consider, according to the slide?
+    options:
+      - text: Whether the UK could remain in the EU after a referendum without holding a second vote.
+        why: Tempting because Brexit involved referendums, but the slide frames the question as whether withdrawal needed an Act of Parliament.
+      - text: Whether the British Government could withdraw from the EU without an Act of Parliament giving permission.
+        correct: true
+        why: Correct — the slide says Miller considered whether the Government could withdraw from the European Union without an Act of Parliament.
+      - text: Whether EU law was ever part of UK law.
+        why: Tempting because the 1972 Act is mentioned, but the question was about the Government withdrawing without an Act, not whether EU law ever applied.
+  - key: q405
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: In Miller at [173], how is the rule of recognition described?
+    options:
+      - text: As a rule telling judges how to interpret ambiguous statutes by looking at the purpose of the enactment as a whole.
+        why: Tempting because interpretation is a judicial task, but [173] describes the rule that identifies the sources of law, not a canon of interpretation.
+      - text: As the rule which identifies the sources of law and imposes a duty to give effect to laws from those sources.
+        correct: true
+        why: Correct — [173] describes it as the rule which identifies the sources of law in our legal system and imposes a duty to give effect to their laws.
+      - text: As a political convention.
+        why: Tempting because conventions matter in UK constitutional law, but the Court describes the rule of recognition as identifying sources of law.
+  - key: q406
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: Why does the lecture say you cannot fully understand the reasoning in Mabo without Milirrpum?
+    options:
+      - text: Because Mabo simply applied Milirrpum.
+        why: Tempting because both are land rights cases, but the lecture's point is that Milirrpum shows the theory of law in the background, not that Mabo applied it.
+      - text: Because in Milirrpum the court was buying into assumptions about the nature of law from Austin's theory.
+        correct: true
+        why: Correct — the lecture says the Gove court was clearly buying into assumptions from Austin's theory, and that background matters for reading Mabo.
+      - text: Because Mabo was decided by the Privy Council on appeal from Milirrpum, in light of Kelsen's theory.
+        why: Tempting because Madzimbamuto was a Privy Council case about Kelsen, but that is a different case; the Milirrpum link is to Austin.
+  - key: q407
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 3
+    stem: What general lesson does the lecture draw from the three real-world cases?
+    options:
+      - text: That judges should avoid legal theory altogether, since theories distorted all three of these decisions.
+        why: Tempting because Milirrpum is troubling, but the lecture does not tell judges to avoid theory; it shows theories filtering into decisions.
+      - text: Concepts developed within theories of law filter into judicial reasoning and make a difference.
+        correct: true
+        why: Correct — the lecture says these understandings of law filter through and make a difference when officials decide on the basis of them.
+      - text: That only the High Court of Australia uses legal theory, and English courts do not.
+        why: Tempting because two cases are Australian-related, but Miller is a UK Supreme Court case, so the lesson is not limited to Australia.
+  - key: q408
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 3
+    stem: The lecture asks you to 'put pressure on' legal theories. What does it mean?
+    options:
+      - text: Use your knowledge from your other law units to test the theories and their concepts.
+        correct: true
+        why: Correct — the lecture says use your other legal studies to put pressure on the theories and concepts, since theory is about law, not something else.
+      - text: Memorise the theories thoroughly so you can reproduce each author's arguments in the exam.
+        why: Tempting to an exam-focused student, but the lecture says memorising theories is a waste of time; you must use them.
+      - text: Keep theory and law in separate compartments so that neither contaminates the other.
+        why: Tempting because the subjects look different, but the lecture says the more interesting approach is to combine them.
+  - key: q409
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: Which court decided Madzimbamuto v Lardner-Burke, according to the slide?
+    options:
+      - text: The High Court of Australia, sitting as a full bench.
+        why: Tempting because the week also discusses Australian cases, but Madzimbamuto was a Rhodesian matter decided in London.
+      - text: The Judicial Committee of the Privy Council, in London.
+        correct: true
+        why: Correct — the slide calls it a decision of the Judicial Committee of the Privy Council on UK and Rhodesian constitutional law.
+      - text: The UK Supreme Court, in its first constitutional case on independence.
+        why: Tempting because Miller was a UK Supreme Court case, but that court did not exist in 1969; Madzimbamuto was a Privy Council decision.
+  - key: q410
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: "Gardner says 'a philosophical education encourages us to look … for timeless problems underlying topical problems'. In law, what are the topical problems?"
+    options:
+      - text: The doctrinal questions we answer when studying the law of a given jurisdiction.
+        correct: true
+        why: Correct — the lecture says the topical problems in law are the doctrinal questions of a given jurisdiction; the timeless ones may lie underneath.
+      - text: The deepest philosophical puzzles about the nature of persons and their acts.
+        why: Tempting because those sound profound, but on Gardner's picture those would be the timeless problems, not the topical ones.
+      - text: Problems that have no answer at all and therefore should not be studied at university by law students.
+        why: Tempting to a sceptic, but Gardner treats topical problems as the ordinary doctrinal questions of law, not unanswerable ones.
+  - key: q411
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: Which is NOT one of Gardner's reasons for studying jurisprudence on the slide?
+    options:
+      - text: It can assist in our development as human beings.
+        why: Tempting to pick because it sounds grand, but it is on the slide as the first reason, as a philosophical subject.
+      - text: It contributes to excellence in argument.
+        why: Tempting to pick because it sounds merely practical, but it is one of Gardner's two practical implications.
+      - text: It supplies binding authorities for use in court.
+        correct: true
+        why: Correct — the slide gives no such reason, and the lecture stresses that jurisprudence cannot use authorities the way a legal problem does.
+      - text: It helps us recognise different perspectives on a legal issue.
+        why: Tempting to pick because it overlaps with the other reasons, but it is Gardner's second practical implication.
+  - key: q412
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    stem: "Leslie Green says legal philosophy offers 'an escape from the default setting' of what?"
+    options:
+      - text: Of our moral intuitions.
+        why: Tempting because philosophy often challenges intuitions, but Green's target is the default setting of your own little legal system.
+      - text: Of your own little legal system, however profitable and powerful it may be.
+        correct: true
+        why: Correct — Green says you are not a slave to your own legal head and there is an escape from the default setting of your own little legal system.
+      - text: Of the common law method of reasoning by analogy from precedent to precedent.
+        why: Tempting because precedent is a default of common law thinking, but Green speaks of your legal system as a whole, not one method.
+  - key: q413
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 3
+    variant-of: q412
+    stem: "Green says legal philosophy 'will explain how something that is true legally speaking may be utterly false'. Which distinction from week 1 does this echo most closely?"
+    options:
+      - text: General vs particular jurisprudence.
+        why: Tempting because Green also mentions your own little legal system, but the true/false contrast is about is and ought, not scope.
+      - text: The is/ought distinction — the way things are around here versus the way they ought to be.
+        correct: true
+        why: "Correct — the lecture reads Green's line as the descriptive/normative distinction: what is true legally may be false when judged by how things ought to be."
+      - text: Semantic vs conceptual disagreement about the meaning of legal terms in different systems.
+        why: Tempting because 'true' and 'false' can be about meaning, but Green's contrast is between law as it is and as it ought to be.
+  - key: q414
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 4
+    contrasts-with: [harts-project]
+    stem: A student argues that Miller shows Hart's theory is correct, because an apex court used his rule of recognition. What is the best response?
+    options:
+      - text: Agree — when a court adopts a concept, the theory that created it is thereby verified as true.
+        why: Tempting because judicial use seems authoritative, but a court using a concept shows the theory's influence, not that its claims about law are true.
+      - text: Disagree — use by a court shows theory filtering into practice, but the theory must still be assessed on its own criteria.
+        correct: true
+        why: Correct — the lecture shows concepts filtering into decisions, while stressing that theories are judged by criteria such as generality and descriptiveness.
+      - text: Disagree, because courts are forbidden to rely on academic theories.
+        why: Tempting because judges decide on law not theory, but the week's point is that they do use theories, more or less explicitly.
+  - key: q415
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 3
+    stem: "At [60] in Miller, the Court said it would not accept that the UK's fundamental rule of recognition had been varied by what?"
+    options:
+      - text: By the 2016 referendum result, which expressed the will of the people.
+        why: Tempting because the referendum triggered the case, but [60] refers to the 1972 Act and its repeal, not the referendum.
+      - text: By the 1972 Act, or by its repeal.
+        correct: true
+        why: Correct — the quoted passage says the fundamental rule of recognition had not been varied by the 1972 Act and would not be varied by its repeal.
+      - text: By the decisions of the Court of Justice of the EU applying the treaties.
+        why: Tempting because EU courts featured in the Brexit debate, but the quoted passage mentions only the 1972 Act and its repeal.
+  - key: q416
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 3
+    stem: Dickson says a proper understanding of law can help us appreciate how law bears on our practical reasoning. What example does the slide give?
+    options:
+      - text: Deciding how to win an appeal before the High Court.
+        why: Tempting because it is practical, but Dickson's example is whether we should take law as having authority over us, not litigation strategy.
+      - text: Deciding whether we should take law as having authority over us.
+        correct: true
+        why: Correct — the slide says understanding law can help us decide if we should take law as having authority over us, the question of week 12.
+      - text: Deciding which of several statutes to read first when we research a problem.
+        why: Tempting because research is practical reasoning of a kind, but the slide's example is about law's authority over us.
+  - key: q417
+    type: mcq
+    concept: legal-theory-in-the-real-world
+    difficulty: 4
+    variant-of: q401
+    stem: A court is asked whether the rules of a community with no legislature or courts are 'legal rules'. Which week 1 example shows how the answer can depend on a theory of law?
+    options:
+      - text: Milirrpum v Nabalco (the Gove land rights case).
+        correct: true
+        why: Correct — there, Aboriginal claims were questioned because customary rules could not be described as legal rules, on assumptions from Austin's theory.
+      - text: The Miller case, because it asked whether EU law was law in the UK before 1972.
+        why: Tempting because Miller involved sources of law, but it concerned withdrawal from the EU, not whether a community's customary rules are law.
+      - text: Madzimbamuto v Lardner-Burke, because it asked whether Aboriginal custom bound the Crown.
+        why: Tempting because it used a theory of law, but Madzimbamuto concerned Rhodesia's declaration of independence, not customary rules.
+  # true/false
+  - key: q418
+    type: truefalse
+    set: quickfire
+    concept: legal-theory-in-the-real-world
+    difficulty: 1
+    statement: The Miller case used the rule of recognition, a concept introduced by Hart in The Concept of Law.
+    answer: true
+    why: True — the slide quotes Miller at [60] and [173] on the UK's rule of recognition, and the lecture says the concept comes from Hart.
+  - key: q419
+    type: truefalse
+    set: quickfire
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    statement: Madzimbamuto v Lardner-Burke considered Rhodesia's Unilateral Declaration of Independence in light of Austin's theory of law.
+    answer: false
+    why: False — the slide says the Privy Council considered the declaration in light of Hans Kelsen's theory; Austin is linked to the Gove land rights case.
+  - key: q420
+    type: truefalse
+    concept: legal-theory-in-the-real-world
+    difficulty: 2
+    statement: Gardner says jurisprudence can help us recognise different perspectives and different aspects of a given legal issue.
+    answer: true
+    why: True — it is the second of the two practical implications on the Gardner slide, alongside the contribution to excellence in argument.
+  # ---- harts-project ----
+  - key: q501
+    type: mcq
+    concept: harts-project
+    difficulty: 1
+    set: pretest
+    stem: Which of these is NOT one of Hart's three persistent questions?
+    options:
+      - text: How does law differ from, and relate to, orders backed by threats?
+        why: Tempting to pick because it sounds like Austin rather than Hart, but it is the first persistent question, about law and coercion.
+      - text: Is there a general obligation to obey the law?
+        correct: true
+        why: Correct — it is a general jurisprudence puzzle on the week 1 slides, but not one of Hart's three; his are coercion, morality and rules.
+      - text: What are rules, and to what extent is law an affair of rules, as games and sports are affairs of rules?
+        why: Tempting to pick because of the added comparison with games, but the third persistent question asks exactly what rules are and how far law is an affair of rules.
+      - text: How does legal obligation differ from, and relate to, moral obligation?
+        why: Tempting to pick because morality seems a separate subject, but this is the second persistent question, about law and morality.
+  - key: q502
+    type: mcq
+    concept: harts-project
+    difficulty: 1
+    stem: "'In law as elsewhere, we can know and yet not understand.' Where did Hart say this?"
+    options:
+      - text: In the Postscript to the second edition of The Concept of Law, replying to Dworkin.
+        why: Tempting because the Postscript also discusses method, but the line comes from Hart's 1953 inaugural lecture at Oxford.
+      - text: In his inaugural lecture, Definition and Theory in Jurisprudence (1953).
+        correct: true
+        why: "Correct — the slide attributes the line to Definition and Theory in Jurisprudence: An Inaugural Lecture (Clarendon Press, 1953)."
+      - text: In the Preface to The Concept of Law.
+        why: Tempting because the Preface is where Hart calls the book descriptive sociology, but the knowing/understanding line is from the 1953 lecture.
+  - key: q503
+    type: mcq
+    concept: harts-project
+    difficulty: 2
+    stem: According to Hart (CL 17), what is the purpose of The Concept of Law?
+    options:
+      - text: To provide a definition of law by which the correctness of the use of the word 'law' can be tested in any case.
+        why: Tempting because the book asks 'what is law?', but Hart says the purpose is precisely not to provide a definition of that kind.
+      - text: To justify the legal systems of modern states as morally legitimate.
+        why: Tempting because the book centres on modern state law, but Hart says his theory has no justificatory aims.
+      - text: To give an improved analysis of a municipal legal system's structure and of law, coercion and morality.
+        correct: true
+        why: Correct — CL 17 speaks of an improved analysis of the distinctive structure of a municipal legal system and of law, coercion and morality as social phenomena.
+  - key: q504
+    type: mcq
+    concept: harts-project
+    difficulty: 2
+    stem: For Hart, which are the clear, standard or paradigm cases of law?
+    options:
+      - text: Primitive law and international law.
+        why: Tempting because they are named in the same passage, but Hart treats them as the questionable or borderline cases, not the paradigms.
+      - text: The legal systems of modern states, as Hart puts it.
+        correct: true
+        why: Correct — the slide quotes Hart's paradigm cases as "the legal systems of modern states", against the borderline primitive and international law.
+      - text: The customary rules of every society, whether or not it has courts or a legislature to apply them.
+        why: Tempting because custom seems universal, but Hart's paradigm is modern state law; rules without institutions fall toward the borderline cases.
+  - key: q505
+    type: mcq
+    concept: harts-project
+    difficulty: 2
+    stem: Hart notes an oddity about the question 'what is law?'. What is it?
+    options:
+      - text: Nobody can give any example of law, though lawyers use the word every day.
+        why: "Tempting because the question seems unanswerable, but Hart says the opposite: most people can cite examples of law."
+      - text: Theoretical debate in books is unending, yet most people can cite examples of law.
+        correct: true
+        why: Correct — the slide contrasts the unending theoretical debate in books with the ability of most people to cite examples of law.
+      - text: Every other discipline also argues endlessly about its own definition, so law is no different from biology.
+        why: Tempting because definitions are contested elsewhere too, but Hart says other disciplines usually start with a short definition and get on with it.
+  - key: q506
+    type: mcq
+    concept: harts-project
+    difficulty: 3
+    stem: An expert in Italian contract law says she still does not understand what law in general is. How would Hart describe her position?
+    options:
+      - text: As impossible — anyone who knows the law must understand its general nature.
+        why: Tempting because expertise seems to imply understanding, but Hart's point is that we can know and yet not understand.
+      - text: As showing that confusion about the principal issues may coexist with a firm knowledge of the law.
+        correct: true
+        why: Correct — the slide says confusion about these issues may coexist with a firm knowledge of the law; the lecture gives this very Italian contract law example.
+      - text: As a problem of particular jurisprudence only.
+        why: Tempting because she knows one system's law, but her puzzle is about law in general, which is the question Hart's book addresses.
+  - key: q507
+    type: mcq
+    concept: harts-project
+    difficulty: 2
+    stem: Which pairing of each persistent question to its theme is correct?
+    options:
+      - text: Orders backed by threats — morality; legal and moral obligation — coercion; rules — rules.
+        why: "Tempting because all three themes appear, but the first two are swapped: orders backed by threats is about coercion, obligation about morality."
+      - text: Orders backed by threats — coercion; legal vs moral obligation — morality; rules — rules.
+        correct: true
+        why: Correct — the lecture maps the three questions onto law and coercion, law and morality, and law and rules.
+      - text: All three concern coercion, since every legal rule is an order backed by a threat.
+        why: Tempting because that is roughly Austin's view, but Hart separates the three issues, and whether law is coercion is itself the first question.
+  - key: q508
+    type: mcq
+    concept: harts-project
+    difficulty: 3
+    stem: Hart compares those who press for a definition of law to a man in a familiar town. What does the analogy show?
+    options:
+      - text: That lawyers are lost in the law and should not be trusted to explain it.
+        why: Tempting because the man cannot give directions, but he can get around perfectly well; lawyers know the law, they just cannot explain its relations.
+      - text: That they can find their way in the law but need a map of its relations to other things.
+        correct: true
+        why: "Correct — CL 14: like a man who can move around a familiar town but cannot explain the way, they need a map exhibiting law's relations to other things."
+      - text: That a definition of law must list every legal rule, like a street directory listing every road in the town.
+        why: Tempting because maps and directories are similar, but Hart's map shows relationships between law and other things, not a list of rules.
+  - key: q509
+    type: mcq
+    concept: harts-project
+    difficulty: 3
+    stem: According to CL 14, what two things can a definition of a word do 'at one and the same time'?
+    options:
+      - text: Make explicit the latent principle guiding our use of a word, and exhibit its phenomena's relations to other phenomena.
+        correct: true
+        why: Correct — Hart says a definition may make explicit the latent principle that guides our use of a word and exhibit relationships to other phenomena.
+      - text: Settle all legal disputes and fix the meaning of the word for the courts.
+        why: Tempting because definitions sound decisive, but Hart describes definitions as maps of relationships, not tools for settling disputes.
+      - text: Justify the law and criticise its opponents.
+        why: Tempting because definitions can be used polemically, but Hart's theory has no justificatory aims; the two functions are about use and relationships.
+  - key: q510
+    type: mcq
+    concept: harts-project
+    difficulty: 3
+    stem: "Hart says his book 'may also be regarded as an essay in descriptive sociology'. Why is this claim debated, according to the lecture?"
+    options:
+      - text: Because Hart used surveys and field research that later proved unreliable.
+        why: Tempting because sociology involves fieldwork, but the lecture does not say Hart did empirical research; the debate is about the claim itself.
+      - text: Because many see analysis and descriptive sociology as incompatible, and question what Hart meant.
+        correct: true
+        why: Correct — the lecture says many see conceptual analysis and descriptive sociology as incompatible, and Twining shows different views on what Hart meant.
+      - text: Because Hart later withdrew it in the Postscript, apologising for overstating his aims to Dworkin.
+        why: Tempting because the Postscript revisits his aims, but the lecture reports no withdrawal; it says the claim is open to different views.
+  - key: q511
+    type: mcq
+    concept: harts-project
+    difficulty: 2
+    stem: What is added in the second edition (1994) of The Concept of Law?
+    options:
+      - text: A new introduction by Leslie Green.
+        why: Tempting because Green's introduction is a later addition, but it came with the third edition in 2012, not the second.
+      - text: An unfinished Postscript, largely a response to critics, especially Dworkin.
+        correct: true
+        why: Correct — the lecture says the second edition, published after Hart's death, includes the unfinished Postscript replying to critics, Dworkin in particular.
+      - text: A final chapter setting out a natural law theory, written with John Finnis after years of debate.
+        why: Tempting because Finnis was Hart's student, but no such chapter exists; the lecture describes only the Postscript and, later, Green's introduction.
+  - key: q512
+    type: mcq
+    concept: harts-project
+    difficulty: 3
+    contrasts-with: [definition-per-genus-et-differentiam]
+    stem: Hart says the three persistent questions 'come together in the form of a request for a definition of law'. What kind of definition is he after?
+    options:
+      - text: A dictionary entry telling us when the word 'law' is used correctly.
+        why: Tempting because he speaks of a definition, but the lecture stresses Hart does not want an entry telling you how to use 'law' correctly.
+      - text: A formula per genus et differentiam, like the definition of a triangle or an elephant.
+        why: Tempting because triangles appear in chapter 1, but Hart argues that type of definition does not work for law.
+      - text: A map exhibiting the relationships between the law we know and other things.
+        correct: true
+        why: Correct — Hart says those who press for a definition need a map of relationships; for Hart that is what a good definition of law should provide.
+  - key: q513
+    type: mcq
+    concept: harts-project
+    difficulty: 4
+    variant-of: q506
+    stem: A senior barrister can win any contract case but cannot say how law differs from morality or from a gunman's orders. Which Hart idea best fits her?
+    options:
+      - text: That confusion about law's relation to coercion and morality may coexist with firm knowledge of the law.
+        correct: true
+        why: Correct — she knows the law but lacks understanding of the persistent questions, exactly Hart's point that knowledge and confusion can coexist.
+      - text: That she is a borderline case of a lawyer.
+        why: Tempting because borderline cases feature in chapter 1, but Hart's borderline cases are kinds of law, like international law, not kinds of lawyer.
+      - text: That her knowledge is merely empirical, since winning cases is a matter of causes and effects that sociologists study.
+        why: Tempting because success in court has causes, but her knowledge is doctrinal; what she lacks is understanding of law's general nature.
+  - key: q514
+    type: mcq
+    concept: harts-project
+    difficulty: 3
+    stem: The lecture says Hart's third question distinguishes law from games like chess. What is the point of the comparison?
+    options:
+      - text: That law, like games and sports, is a social practice based on rules — yet playing law differs from playing chess.
+        correct: true
+        why: Correct — the lecture says law, like other social practices, is based upon rules, but there is a difference between playing law and playing chess that Hart wants to explain.
+      - text: That law is just a game, so it has no serious claim on anyone.
+        why: Tempting as a sceptical reading, but the comparison is used to ask what distinguishes law from other rule-based practices, not to trivialise it.
+      - text: That chess rules are enforced by threats as law is.
+        why: Tempting because both have rules, but threats belong to the first question about coercion; the chess comparison concerns rules.
+  - key: q515
+    type: mcq
+    concept: harts-project
+    difficulty: 4
+    contrasts-with: [general-and-descriptive-theory]
+    stem: Hart picks the legal systems of modern states as his paradigm cases before his description starts. Why might that choice matter for his claim to be descriptive?
+    options:
+      - text: It does not matter, because paradigm cases are fixed by nature and involve no choice.
+        why: Tempting because the modern state seems an obvious paradigm, but the point is that deciding which cases are central is itself a choice.
+      - text: It may involve a judgment about what is important, which puts pressure on a morally neutral description.
+        correct: true
+        why: Correct — if choosing paradigms rests on a judgment of importance, it is a starting point for asking whether Hart's method is purely descriptive.
+      - text: It shows that Hart's theory is really about international law, since that is where the description begins.
+        why: Tempting because international law is discussed in chapter 1, but Hart treats it as a borderline case, not the starting point.
+  - key: q516
+    type: mcq
+    concept: harts-project
+    difficulty: 2
+    stem: Which best states Hart's aim in The Concept of Law at page 6?
+    options:
+      - text: To prove that law is a set of orders backed by threats issued by a sovereign.
+        why: Tempting because orders backed by threats are the first persistent question, but that is Austin's view, which Hart criticises in later chapters.
+      - text: To further the understanding of law, coercion, and morality as different but related social phenomena.
+        correct: true
+        why: Correct — this is the quotation from CL 6 on the slide; the lecture says remembering it gives you a map of the book's chapters.
+      - text: To catalogue the laws of England and the common law world.
+        why: Tempting because Hart was an English lawyer, but his aim is understanding law in general, not listing any system's rules.
+  # true/false
+  - key: q517
+    type: truefalse
+    set: quickfire
+    concept: harts-project
+    difficulty: 1
+    statement: For Hart, primitive law and international law are clear, paradigm cases of law.
+    answer: false
+    why: False — Hart's paradigm cases are the legal systems of modern states; primitive law and international law are his questionable or borderline cases.
+  - key: q518
+    type: truefalse
+    set: quickfire
+    concept: harts-project
+    difficulty: 1
+    statement: Hart says the purpose of The Concept of Law is not to provide a definition by which the correctness of the use of the word 'law' can be tested.
+    answer: true
+    why: True — CL 17 says the purpose is not that kind of definition but an improved analysis of a municipal legal system and of law, coercion and morality.
+  - key: q519
+    type: truefalse
+    set: quickfire
+    concept: harts-project
+    difficulty: 2
+    statement: Hart's second persistent question asks how legal obligation differs from, and is related to, moral obligation.
+    answer: true
+    why: True — the second of the three persistent questions (CL 6) concerns law and morality; the first concerns coercion and the third concerns rules.
+  - key: q520
+    type: short
+    concept: harts-project
+    difficulty: 3
+    prompt: "'In law as elsewhere, we can know and yet not understand.' Explain what Hart meant, and evaluate whether this justifies writing a general theory of law."
+    model: |
+      Hart's line from his 1953 inaugural lecture justifies a general theory, provided the theory is understood as a
+      map rather than a dictionary definition. Hart observes an oddity: debate about 'what is law?' is unending, yet most
+      people can cite examples of law; and confusion about law's nature may coexist with a firm knowledge of the law.
+      The perplexity arises because beside paradigm cases, the legal systems of modern states, there are borderline cases
+      such as primitive and international law, and it centres on three persistent questions: law and orders backed by
+      threats, legal and moral obligation, and rules. Skilled lawyers are like a man who can cross a familiar town but
+      cannot give directions; they need a map of law's relations to other things (CL 14). A sceptic might reply that
+      lawyers function perfectly well without the map, so theory is idle. But the real-world cases answer this: in
+      Milirrpum, a theory of what counts as law shaped a decision. Understanding therefore matters practically, and the
+      gap Hart identifies is a sound reason for theory.
+    rubric:
+      - id: r1
+        criterion: Thesis — a clear answer to whether the knowing/understanding gap justifies theory.
+        marks: 2
+        top-band: A qualified thesis that specifies what kind of theory is justified.
+        margin-note: Justifies which kind of theory?
+        authorities: [hart-definition-and-theory-in-jurisprudence]
+      - id: r2
+        criterion: Argument — explains Hart's oddity, paradigm/borderline cases and the three persistent questions.
+        marks: 3
+        top-band: All three questions stated accurately with the map metaphor from CL 14.
+        margin-note: Why is 'what is law?' perplexing at all?
+        authorities: [hart-the-concept-of-law]
+      - id: r3
+        criterion: Counterargument — the practitioner who needs no theory.
+        marks: 2
+        top-band: Puts the sceptic's case charitably, using Hart's own admission that lawyers know the law.
+        margin-note: If lawyers cope, why theorise?
+        authorities: []
+      - id: r4
+        criterion: Evaluation — answers the objection with evidence and reaches a verdict.
+        marks: 2
+        top-band: Uses a real-world case such as Milirrpum to show understanding matters.
+        margin-note: Does the objection survive the real-world cases?
+        authorities: []
+  # ---- definition-per-genus-et-differentiam ----
+  - key: q601
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 1
+    set: pretest
+    stem: A definition per genus et differentiam combines which two elements?
+    options:
+      - text: A list of paradigm cases and a list of borderline cases.
+        why: Tempting because Hart uses paradigm and borderline cases in chapter 1, but that is his way of framing the problem, not the structure of this definition.
+      - text: A general kind and distinguishing features.
+        correct: true
+        why: Correct — the slide summarises the definition as general kind plus distinguishing features, as in 'three-sided rectilinear figure'.
+      - text: A command from a sovereign and a threatened sanction for disobedience.
+        why: Tempting because orders backed by threats appear in the same chapter, but that is a model of law, not the structure of a definition.
+  - key: q602
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 1
+    stem: In 'triangle = three-sided rectilinear figure', which part is the genus?
+    options:
+      - text: Three-sided.
+        why: Tempting because it comes first, but 'three-sided' is the distinguishing feature that marks triangles off from other rectilinear figures.
+      - text: Rectilinear figure.
+        correct: true
+        why: Correct — 'rectilinear figure' is the wider family (the general kind); 'three-sided' is the differentia.
+      - text: The word 'triangle' itself, since the thing defined is always the genus.
+        why: Tempting because the definition is about triangles, but the genus is the wider category the triangle is placed in, not the word defined.
+  - key: q603
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    variant-of: q602
+    stem: In the elephant definition on the slide, which is the differentia?
+    options:
+      - text: Quadruped.
+        why: Tempting because it is part of the definition, but 'quadruped' is the genus — the wider family elephants belong to.
+      - text: Possession of a thick skin, tusks, and trunk.
+        correct: true
+        why: Correct — these features distinguish elephants from other quadrupeds; they are the differentia.
+      - text: Being a large animal found in Africa and Asia.
+        why: Tempting because it is true of elephants, but it is not in the slide's definition, which uses skin, tusks and trunk.
+  - key: q604
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    stem: According to the slide, what two things does a definition per genus et differentiam do at once?
+    options:
+      - text: It justifies the thing defined and criticises its rivals.
+        why: Tempting because definitions can be used to take sides, but the two functions on the slide are translating the word and locating the thing.
+      - text: It gives a formula translating the word into well-understood terms, and locates the kind of thing within a wider family.
+        correct: true
+        why: Correct — it provides a code or formula translating the word, and locates the kind of thing by what it shares with and what marks it off from a wider family.
+      - text: It records how the word is pronounced and where it first appeared in the language.
+        why: Tempting because dictionaries do this, but the slide's two functions are translation and location within a family of things.
+  - key: q605
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    stem: Which theorists does the lecture say tried to define law per genus et differentiam?
+    options:
+      - text: John Austin and Hans Kelsen.
+        correct: true
+        why: Correct — the lecture says people like John Austin or Hans Kelsen wrote books trying to find this type of definition of law.
+      - text: Julie Dickson and Leslie Green, in their work on the methodology of legal philosophy.
+        why: Tempting because both write about legal philosophy, but the lecture does not present them as offering genus-and-differentia definitions of law.
+      - text: William Twining and Julius Stone, in their sociological jurisprudence.
+        why: Tempting because they appear in week 1, but the lecture names Austin and Kelsen as the theorists who sought this kind of definition.
+  - key: q606
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 3
+    stem: What is Hart's position on defining law per genus et differentiam?
+    options:
+      - text: That it works well, and chapter 1 gives the definition.
+        why: Tempting because chapter 1 discusses definitions at length, but Hart says this type of definition does not work for law.
+      - text: That it does not work for law, so another method is needed.
+        correct: true
+        why: Correct — the lecture says Hart claims it is not possible to define law this way, so law must be defined using another method.
+      - text: That it would work if only we agreed on which of law's features is essential, which is merely a matter of agreeing on words.
+        why: Tempting because agreement seems to be the obstacle, but Hart does not treat the problem as merely verbal; he says the method does not work for law.
+  - key: q607
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 3
+    contrasts-with: [harts-project]
+    stem: The lecture separates two claims about defining law per genus et differentiam. Which pair is it?
+    options:
+      - text: That it is impossible; or that it is possible but there are better definitions of law.
+        correct: true
+        why: "Correct — the lecture says there are in fact two different claims: impossibility, and possibility with better alternatives available."
+      - text: That it is possible for municipal law; or that it is possible only for international law.
+        why: Tempting because municipal and international law are contrasted in chapter 1, but the two claims concern whether and how well the method works.
+      - text: That it is descriptive; or that it is normative.
+        why: Tempting because the is/ought distinction runs through the week, but the two claims here are about possibility, not description versus evaluation.
+  - key: q608
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 3
+    variant-of: q607
+    stem: A critic says 'Hart is wrong that law cannot be defined per genus et differentiam — but his map approach is still the better one'. Which claim is the critic rejecting, and which accepting?
+    options:
+      - text: Rejecting the claim that a map is better; accepting that the method is impossible.
+        why: Tempting because the critic mentions both, but the critic says the map is better, so that is what they accept, not reject.
+      - text: Rejecting both claims.
+        why: "Tempting because the critic opens by saying Hart is wrong, but the critic keeps the second point: another definition is better."
+      - text: Rejecting impossibility; accepting that it is possible but there are better definitions.
+        correct: true
+        why: Correct — the critic denies that the method is impossible but agrees that there are better definitions, the second of the lecture's two claims.
+  - key: q609
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    stem: Why does a four-sided figure fail the definition of a triangle?
+    options:
+      - text: Because it is not a rectilinear figure.
+        why: Tempting because it fails somewhere, but a four-sided figure can be rectilinear; it lacks the distinguishing feature, not the genus.
+      - text: Because it lacks the distinguishing property of being three-sided.
+        correct: true
+        why: Correct — the lecture says if a shape has four sides it is not a triangle; the differentia of being three-sided marks triangles off.
+      - text: Because four-sided figures belong to a borderline case of geometry, as international law is a borderline case of law.
+        why: Tempting because it mirrors Hart's borderline cases, but a square is clearly not a triangle; nothing about it is borderline.
+  - key: q610
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 3
+    stem: To define law per genus et differentiam, a theorist might place law in a broader category with which other things, according to the lecture?
+    options:
+      - text: With games, social etiquette and religion.
+        correct: true
+        why: Correct — the lecture suggests law might be placed in a broader category with games, social etiquette and religion, then marked off by its distinguishing features.
+      - text: With triangles and elephants, since all definitions share one genus.
+        why: Tempting because they are the slide's examples, but they illustrate the method; they are not the category law would be placed in.
+      - text: With medicine and religious law, the other meanings of the word 'jurisprudence'.
+        why: Tempting because those meanings appear earlier in the week, but they are uses of a word, not the broader category of social things like law.
+  - key: q611
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 4
+    stem: A theorist defines law as 'a system of social rules distinguished by being backed by organised sanctions'. How would Hart classify this attempt?
+    options:
+      - text: As a map of relationships, the method Hart himself recommends.
+        why: Tempting because it relates law to social rules, but it offers a genus plus a distinguishing feature, the formula Hart says fails for law.
+      - text: As a definition per genus et differentiam — the type Hart says does not work for law.
+        correct: true
+        why: Correct — 'system of social rules' is a genus and 'backed by organised sanctions' a differentia, exactly the structure Hart rejects for law.
+      - text: As a descriptive sociology of sanctions.
+        why: Tempting because it mentions sanctions and society, but its form is a definition by kind and difference, not a sociological description.
+  - key: q612
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    stem: What does the Latin 'differentiam' refer to in the expression per genus et differentiam?
+    options:
+      - text: The difference between law and morality, which Hart treats as essential.
+        why: Tempting because law and morality are contrasted in the book, but in this expression the difference means the distinguishing features of whatever is defined.
+      - text: The distinguishing features that mark the thing off from the rest of its general kind.
+        correct: true
+        why: Correct — the lecture says the differentia identifies the distinguishing features that differentiate the thing from the rest of the general kind.
+      - text: The different editions of The Concept of Law.
+        why: Tempting only as wordplay, but differentia is a term of the definition, not a reference to the book's editions.
+  - key: q613
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 3
+    contrasts-with: [conceptual-analysis]
+    stem: How does a definition per genus et differentiam relate to 'necessary and sufficient conditions' in conceptual analysis?
+    options:
+      - text: They are opposites — one is used in science, the other only in law.
+        why: Tempting because they come from different slides, but both set the boundaries of a category; neither is confined to science or law.
+      - text: Both try to capture essential properties that fix a category's boundaries.
+        correct: true
+        why: Correct — the lecture says a good genus-and-differentia definition captures all the essential properties of a triangle, which is what necessary and sufficient conditions do.
+      - text: Necessary and sufficient conditions apply only to empirical theories in the social sciences.
+        why: Tempting because Bix contrasts conceptual and social-science theories, but necessary and sufficient conditions belong to conceptual theories.
+  - key: q614
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 4
+    stem: An essay says 'Hart refuses to define law at all'. What is the most accurate correction?
+    options:
+      - text: Hart does give a definition per genus et differentiam in chapter 1.
+        why: Tempting because chapter 1 is about definition, but Hart argues that type of definition does not work for law.
+      - text: The essay is right — Hart thinks the question 'what is law?' should be abandoned.
+        why: Tempting because Hart rejects one kind of definition, but he pursues the question and says the persistent issues come together as a request for a definition.
+      - text: Hart rejects one type of definition, and seeks another — an elucidation that maps law's relations.
+        correct: true
+        why: Correct — the lecture says Hart is interested in a definition of law, but not in the shallow dictionary sense or per genus et differentiam.
+  - key: q615
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    stem: Why does the lecture say the question whether law can be defined per genus et differentiam is not 'a matter of picking your favourite team'?
+    options:
+      - text: Because the answer is settled, so there is nothing to choose between.
+        why: Tempting because Hart states his view firmly, but the lecture says many disagree with him; the question is open, not settled.
+      - text: Because you must think carefully about whether the claim is true, not side with Hart or his critics by preference.
+        correct: true
+        why: Correct — the lecture asks you to think carefully about Hart's big claim rather than just choosing between 'team Hart' and his critics.
+      - text: Because only doctrinal answers count in law.
+        why: Tempting to a law student, but the question is conceptual; the lecture's warning is against preference, not against theory.
+  - key: q616
+    type: mcq
+    concept: definition-per-genus-et-differentiam
+    difficulty: 3
+    variant-of: q611
+    stem: "A theorist defines law as 'commands of a sovereign, distinguished from other commands by being habitually obeyed'. What structure does this definition have?"
+    options:
+      - text: A map of the relations between law and other social phenomena.
+        why: Tempting because it mentions obedience, a social fact, but its form is a general kind plus a distinguishing feature, not a map.
+      - text: A general kind (commands) plus a distinguishing feature (habitual obedience).
+        correct: true
+        why: Correct — it places law in the genus of commands and marks it off by a differentia, the type of definition the lecture links to Austin.
+      - text: An empirical effects claim, because it describes what happens when sovereigns command their subjects.
+        why: Tempting because habitual obedience is observable, but the sentence is offered as a definition, not a finding about the effects of commands.
+  # true/false
+  - key: q617
+    type: truefalse
+    set: quickfire
+    concept: definition-per-genus-et-differentiam
+    difficulty: 1
+    statement: In the definition of a triangle as a three-sided rectilinear figure, 'three-sided' is the genus.
+    answer: false
+    why: False — 'rectilinear figure' is the genus, the wider family; 'three-sided' is the differentia that marks triangles off from other rectilinear figures.
+  - key: q618
+    type: truefalse
+    set: quickfire
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    statement: Hart claims that law cannot be defined per genus et differentiam.
+    answer: true
+    why: True — the lecture says Hart claims this type of definition does not work for law, so he defines law using another method.
+  - key: q619
+    type: truefalse
+    set: quickfire
+    concept: definition-per-genus-et-differentiam
+    difficulty: 2
+    statement: Saying law is impossible to define per genus et differentiam is the same claim as saying there are better definitions of law.
+    answer: false
+    why: "False — the lecture says these are in fact two different claims: impossibility, and possibility with better definitions available."
+  - key: q620
+    type: short
+    concept: definition-per-genus-et-differentiam
+    difficulty: 4
+    prompt: "Can law be defined per genus et differentiam? Evaluate Hart's claim that it cannot."
+    model: |
+      Hart is right that such a definition cannot deliver what the question 'what is law?' asks for, though the stronger
+      claim of impossibility is harder to establish. A definition per genus et differentiam gives a general kind plus
+      distinguishing features: a triangle is a three-sided rectilinear figure; an elephant a quadruped with thick skin,
+      tusks and trunk. It translates the word and locates the thing in a wider family. Austin and Kelsen tried to define
+      law this way, placing it with games, etiquette or religion and seeking law's distinguishing features. Hart says the
+      method does not work for law. The counterargument is that the lecture separates two claims: that it is impossible,
+      and that it is possible but there are better definitions. A critic can reject the first and still accept the
+      second. On balance, the borderline cases — primitive and international law — and the need for a map of law's
+      relations to coercion, morality and rules suggest the better-definition claim is well supported, while impossibility
+      remains open to argument.
+    rubric:
+      - id: r1
+        criterion: Thesis — a clear verdict on Hart's claim, distinguishing its strength.
+        marks: 2
+        top-band: Commits to a view on both the strong and weak versions of the claim.
+        margin-note: Impossible, or just inferior?
+        authorities: []
+      - id: r2
+        criterion: Argument — explains the method with the triangle and elephant examples.
+        marks: 3
+        top-band: Accurately explains genus, differentia and the two functions of the definition.
+        margin-note: What are the genus and differentia here?
+        authorities: [hart-the-concept-of-law]
+      - id: r3
+        criterion: Counterargument — separates impossibility from the better-definition claim.
+        marks: 2
+        top-band: Uses the lecture's two-claim distinction to put the critics' case at its strongest.
+        margin-note: Which of the two claims are you attacking?
+        authorities: []
+      - id: r4
+        criterion: Evaluation — uses borderline cases and the map idea to reach a verdict.
+        marks: 3
+        top-band: Explains why borderline cases defeat a single genus, and what Hart offers instead.
+        margin-note: What does Hart put in its place?
+        authorities: []
+  # ---- general-and-descriptive-theory ----
+  - key: q701
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 1
+    set: pretest
+    stem: In the Postscript, what does Hart mean by calling his theory 'descriptive'?
+    options:
+      - text: That it describes English law in detail.
+        why: Tempting because Hart was an English lawyer, but 'descriptive' concerns moral neutrality; not being tied to one system is what 'general' means.
+      - text: That it is morally neutral and has no justificatory aims.
+        correct: true
+        why: Correct — the slide glosses 'descriptive' as morally neutral with no justificatory aims.
+      - text: That it describes how law ought to be once its moral purposes are properly understood by officials.
+        why: Tempting because descriptions of law's purposes sound neutral, but saying how law ought to be is normative, the opposite of Hart's claim.
+  - key: q702
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 1
+    stem: In the Postscript, what does Hart mean by calling his theory 'general'?
+    options:
+      - text: That it covers every area of law, from contract to crime, in one book.
+        why: Tempting because 'general' can mean comprehensive, but Hart means not tied to any particular legal system or legal culture.
+      - text: That it is not tied to any particular legal system or legal culture.
+        correct: true
+        why: Correct — the slide glosses 'general' as not tied to any particular legal system or legal culture.
+      - text: That it is general knowledge.
+        why: Tempting as a plain-English reading, but Hart's 'general' is a claim about the theory's scope across legal systems, not its accessibility.
+  - key: q703
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    stem: Which concepts does Hart list (CL 240) as tools for carrying out his descriptive enterprise?
+    options:
+      - text: True human goods, the common good and human rights.
+        why: Tempting because these appear on the week 1 slides, but they come from the Finnis quotation, not Hart's list of descriptive tools.
+      - text: Duty-imposing and power-conferring rules, rules of recognition and change, and internal and external points of view.
+        correct: true
+        why: Correct — CL 240 lists these, along with acceptance of rules, internal and external statements, and legal validity.
+      - text: Sovereign, command and sanction.
+        why: Tempting because they belong to theories Hart discusses, but they are not on his own list of concepts for the descriptive enterprise.
+  - key: q704
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    stem: According to the lecture, how can Hart's claims to generality and descriptiveness be used?
+    options:
+      - text: As criteria to assess the theory on its own terms.
+        correct: true
+        why: "Correct — the lecture says the two claims can be used as criteria to assess the theory on its own terms: is it really general, really descriptive?"
+      - text: As proof that the theory is correct, since Hart says so himself in the Postscript.
+        why: Tempting because the claims come from Hart, but stating an aim does not show it was achieved; the lecture calls both open questions.
+      - text: As doctrinal rules that courts must follow when they identify law.
+        why: Tempting because Miller used Hart's concepts, but generality and descriptiveness are claims about the theory, not rules for courts.
+  - key: q705
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    contrasts-with: [six-kinds-of-questions]
+    stem: "Finnis says the reasonableness of acts of making and complying with law 'cannot be assessed without premises about true human goods'. Which of Hart's claims does this most directly challenge?"
+    options:
+      - text: That his theory is general.
+        why: Tempting because Finnis also claims to speak about law generally, but his target is moral neutrality — the descriptive claim.
+      - text: That his theory is descriptive — morally neutral.
+        correct: true
+        why: Correct — if law cannot be understood without premises about true human goods, a morally neutral theory with no justificatory aims looks incomplete.
+      - text: That the rule of recognition identifies the sources of law in the United Kingdom.
+        why: Tempting because the rule of recognition is Hart's, but Finnis's quote is about method and ethical premises, not the sources of UK law.
+  - key: q706
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    stem: Which tradition does the lecture place Finnis in?
+    options:
+      - text: Legal realism, which the unit studies in the second part of semester.
+        why: Tempting because the realists are mentioned in the unit outline, but the lecture places Finnis in the natural law tradition.
+      - text: The natural law tradition.
+        correct: true
+        why: Correct — the lecture calls Finnis a natural law thinker, to be studied in week 4 alongside Fuller.
+      - text: Sociological jurisprudence in the manner of Julius Stone.
+        why: Tempting because Stone is named on a week 1 slide, but Stone is the sociological jurist; Finnis is a natural law thinker.
+  - key: q707
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    stem: Why does the lecture say comparing Finnis and Raz is meaningful even though their theories are very different?
+    options:
+      - text: Because both studied with Hart and on The Concept of Law, so they share assumptions.
+        correct: true
+        why: Correct — the lecture says because both studied with Hart and on his book, there are shared assumptions that make the comparison meaningful.
+      - text: Because they reached the same conclusion about the nature of law, though by different routes.
+        why: Tempting because meaningful comparison suggests agreement, but Finnis is a natural lawyer and Raz a positivist; they disagree.
+      - text: Because both rejected analytical jurisprudence.
+        why: Tempting because Finnis departs from Hart's aims, but the lecture says Finnis uses Hart's concepts; both work within the tradition.
+  - key: q708
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    stem: Dickson identifies two kinds of challenge to identifying law's nature. Which pair is correct?
+    options:
+      - text: Doubts that law is ever really obeyed, and doubts that courts apply it consistently across similar cases over time.
+        why: Tempting because both are real worries about law, but Dickson's challenges concern whether law has a nature and whether conceptual analysis can find it.
+      - text: Doubts that law, a human-made construction, has a nature; and doubts about conceptual analysis as the method.
+        correct: true
+        why: Correct — Dickson (p 12) reports theorists wary that a human-made social construction can have a nature, and others sceptical of conceptual analysis.
+      - text: Doubts about Hart's dates and editions.
+        why: Tempting only as trivia, but Dickson's challenges are philosophical — about law's nature and method — not bibliographical.
+  - key: q709
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    stem: How does Dickson describe the task of legal philosophy?
+    options:
+      - text: As listing the rules of every legal system and comparing them, one by one, to find what they share.
+        why: Tempting because generality seems to require comparison, but Dickson speaks of illuminating law's most important and significant features, not listing rules.
+      - text: As elucidating law — an active, never-ending process of identifying its most important features.
+        correct: true
+        why: "Correct — the slide: understanding law by elucidating it; the task is never-ending, and elucidation requires identifying law's most important features."
+      - text: As justifying law's authority.
+        why: Tempting because the slide mentions authority, but Dickson says understanding law can help us decide whether to take it as authoritative, not that it justifies it.
+  - key: q710
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 4
+    contrasts-with: [harts-project]
+    stem: Dickson says elucidation requires identifying law's 'most important and significant features'. Why might this put pressure on Hart's descriptive claim?
+    options:
+      - text: Because deciding which features are important may involve evaluation, even if not moral evaluation.
+        correct: true
+        why: Correct — selecting important features is a judgment; whether that judgment is compatible with a morally neutral description is the question it raises.
+      - text: Because Dickson says law has no features at all.
+        why: Tempting because Dickson reports sceptics, but her own view is that legal philosophy identifies law's important features, so law has them.
+      - text: Because Dickson argues legal philosophy should be purely empirical and abandon the analysis of concepts altogether.
+        why: Tempting because some sceptics doubt conceptual analysis, but Dickson reports those challenges rather than adopting an empirical programme.
+  - key: q711
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    variant-of: q705
+    stem: "A theorist says: 'You cannot explain what law is without asking what makes it good for human persons.' Whose view on the slides is this closest to?"
+    options:
+      - text: Hart's, because he calls his book an essay in descriptive sociology.
+        why: Tempting because Hart discusses law as social phenomenon, but his theory is morally neutral with no justificatory aims, the opposite claim.
+      - text: Finnis's.
+        correct: true
+        why: Correct — Finnis says law's reasonableness cannot be assessed without premises about true human goods, and law makes a difference to human persons.
+      - text: Twining's, because he wants conceptual analysis extended to empirical legal studies and the social sciences.
+        why: Tempting because Twining also criticises Hart, but his point is about widening analysis, not grounding it in human goods.
+  - key: q712
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    stem: A student says 'Hart's theory is general because it is based on English law, the most influential system'. What is wrong with this?
+    options:
+      - text: Nothing — influence is exactly what 'general' means.
+        why: Tempting because influence spreads a system widely, but Hart's 'general' means not tied to any particular system, however influential.
+      - text: Being based on one system is what 'general' denies; the theory must not be tied to any legal system or culture.
+        correct: true
+        why: Correct — generality in Hart's sense is not being tied to any particular legal system or legal culture; basing it on English law would undercut that.
+      - text: Hart's theory is based on international law, not English law.
+        why: Tempting because international law appears in chapter 1, but Hart treats it as a borderline case, not the base of his theory.
+  - key: q713
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 4
+    variant-of: q712
+    stem: Twining wants conceptual analysis to serve 'cross-cultural and transnational legal discourse'. How could that be used against Hart's claim to generality?
+    options:
+      - text: It shows Hart's theory is too descriptive.
+        why: Tempting because Twining criticises Hart, but the point about cross-cultural concepts presses on generality, not on moral neutrality.
+      - text: If Hart's concepts are drawn from modern state law, they may not travel across cultures — so the theory may not be general.
+        correct: true
+        why: Correct — if the tools are parochial, the generality is too; Twining's demand for a broader conception makes that challenge available.
+      - text: It proves that Hart's rule of recognition was rejected by the UK Supreme Court in Miller, which relied on Kelsen's theory instead.
+        why: Tempting because Miller discusses the rule of recognition, but the Court used Hart's concept; Kelsen is the Madzimbamuto example.
+  - key: q714
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    stem: Which statement about Hart's claims to generality and descriptiveness is most accurate to the lecture?
+    options:
+      - text: Both have been conclusively shown to be false, and are now of historical interest only to jurisprudence scholars.
+        why: Tempting because both claims are attacked, but the lecture calls them open questions you should be able to write an essay on.
+      - text: They are open questions.
+        correct: true
+        why: Correct — the lecture asks whether each claim is true and says you cannot answer today, but should be able to write an essay on them in a few weeks.
+      - text: Both are obviously true, since Hart wrote them.
+        why: Tempting because Hart is the unit's starting point, but the lecture says the book is a tool, not the gospel, and the claims must be assessed.
+  - key: q715
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    contrasts-with: [six-kinds-of-questions]
+    stem: A theory that aims to show that the existing legal order is good and should be kept would fail which of Hart's criteria?
+    options:
+      - text: Descriptiveness, because it has justificatory aims.
+        correct: true
+        why: Correct — Hart's descriptive theory has no justificatory aims; a theory that defends the status quo is justificatory, a kind of normative theory.
+      - text: Generality, because every theory that defends a legal order must be about one particular legal system only.
+        why: Tempting because defending an order sounds local, but a justificatory theory could be general; what it lacks is moral neutrality.
+      - text: Neither, because Hart's criteria concern only the rule of recognition.
+        why: Tempting because the rule of recognition is Hart's best-known concept, but his criteria are generality and descriptiveness.
+  - key: q716
+    type: mcq
+    concept: general-and-descriptive-theory
+    difficulty: 3
+    stem: "Finnis says law is 'an arena where themes and theses in ethics, political theory, and related philosophical domains' come to bear. For Finnis, what makes legal studies really worthwhile?"
+    options:
+      - text: Issues of doctrine and interpretation that are resolvable by technique.
+        why: Tempting because Finnis grants these have some intellectual appeal, but he says the real attraction lies in law as an arena for ethics and political theory.
+      - text: That legislating and adjudicating make a difference to human persons, where ethics and political theory crystallise.
+        correct: true
+        why: Correct — the quote says legal studies are really attractive because philosophical themes crystallise in legislating and adjudicating that make a difference to persons.
+      - text: The chance to avoid ethics.
+        why: Tempting to someone who sees law as technical, but Finnis says ethics and political theory all come to bear on law.
+  # true/false
+  - key: q717
+    type: truefalse
+    set: quickfire
+    concept: general-and-descriptive-theory
+    difficulty: 1
+    statement: For Hart, a 'descriptive' theory is one that is morally neutral and has no justificatory aims.
+    answer: true
+    why: True — the slide on Hart and the nature of legal theory glosses 'descriptive' in exactly these terms; 'general' means not tied to any legal system or culture.
+  - key: q718
+    type: truefalse
+    set: quickfire
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    statement: Finnis shares Hart's aim of a morally neutral theory of law.
+    answer: false
+    why: False — Finnis says the reasonableness of acts of law cannot be assessed without premises about true human goods, which is not at all what Hart tries to do.
+  - key: q719
+    type: truefalse
+    set: quickfire
+    concept: general-and-descriptive-theory
+    difficulty: 2
+    statement: Dickson reports that some theorists doubt conceptual analysis as the method for ascertaining law's nature.
+    answer: true
+    why: True — Dickson (p 12) says some theorists mount challenges to conceptual analysis, the key method legal philosophers use to ascertain law's nature.
+  - key: q720
+    type: short
+    concept: general-and-descriptive-theory
+    difficulty: 4
+    prompt: "Can a theory of law be both general and descriptive? Discuss with reference to Hart, Finnis and Dickson."
+    model: |
+      A theory can plausibly be general and descriptive in aim, but whether Hart's succeeds on both criteria is doubtful.
+      In the Postscript Hart claims a theory both general, not tied to any legal system or culture, and descriptive,
+      morally neutral with no justificatory aims (CL 239), carried out through concepts such as rules of recognition and
+      change and internal and external points of view (CL 240). These claims are criteria to assess the theory on its own
+      terms. Finnis offers the strongest counterargument to descriptiveness: making and complying with law involves
+      rational judgment that cannot be assessed without premises about true human goods. Dickson adds a subtler pressure:
+      elucidation requires identifying law's most important and significant features, and choosing what is important is a
+      judgment. Generality faces a separate test: if Hart's paradigm is the legal systems of modern states, his concepts may
+      not travel, as Twining's call for cross-cultural concepts suggests. On balance, a theory can avoid moral
+      justification yet still involve evaluation, so 'descriptive' should be read narrowly, and generality must be
+      earned, not assumed.
+    rubric:
+      - id: r1
+        criterion: Thesis — separates the two criteria and takes a position on each.
+        marks: 2
+        top-band: A thesis that treats generality and descriptiveness separately.
+        margin-note: Which criterion is harder to meet?
+        authorities: [hart-the-concept-of-law]
+      - id: r2
+        criterion: Argument — explains Hart's claims and their role as criteria.
+        marks: 2
+        top-band: Accurate glosses of both terms with CL 239–240 and the criteria point.
+        margin-note: On whose terms is the theory judged?
+        authorities: []
+      - id: r3
+        criterion: Counterargument — Finnis and Dickson at full strength.
+        marks: 3
+        top-band: Uses Finnis on true human goods and Dickson on important features as distinct objections.
+        margin-note: Are Finnis and Dickson making the same objection?
+        authorities: [finnis-philosophy-of-law, dickson-elucidating-law]
+      - id: r4
+        criterion: Evaluation — reasoned verdict distinguishing moral from other evaluation.
+        marks: 3
+        top-band: Concludes with a precise sense in which the theory can or cannot be descriptive.
+        margin-note: Is all evaluation moral evaluation?
+        authorities: []
+
+pretest: [q101, q301, q501, q601, q701]
+
+cards:
+  - type: basic
+    concept: meaning-of-jurisprudence
+    front: Name the four meanings of 'jurisprudence' on the week 1 slides.
+    back: A body of judicial decisions; jurisprudence in relation to religious law; medical jurisprudence (legal medicine); and, for this unit, legal theory — a general theory of law.
+    source: Week 01 Lecture Slides, slides 11–12
+  - type: cloze
+    concept: meaning-of-jurisprudence
+    text: "Iurisprudentia = {{c1::iuris}} (of right, of law) + {{c2::prudentia}} (wisdom, foresight, knowledge)."
+    source: Week 01 Lecture Slides, slide 11
+  - type: basic
+    concept: meaning-of-jurisprudence
+    front: General vs particular jurisprudence — what is the difference?
+    back: General jurisprudence deals with philosophical puzzles thrown up by all legal systems (what is law?); particular jurisprudence with puzzles that emerge in some systems or traditions but not necessarily all (in what sense is Parliament sovereign?).
+    source: Week 01 Lecture Slides, slide 12
+  - type: apply
+    concept: meaning-of-jurisprudence
+    scenario: A classmate plans an essay on 'what is common about the common law?' and calls it a question of general jurisprudence.
+    answer: It is particular jurisprudence — the puzzle emerges in common law traditions but not necessarily all systems; general jurisprudence asks puzzles thrown up by all legal systems.
+    source: Week 01 Lecture Slides, slide 12
+  - type: cloze
+    concept: conceptual-analysis
+    text: "Conceptual theories generally define terms by {{c1::necessary and sufficient}} conditions."
+    source: Week 01 Lecture Slides, slide 13
+  - type: basic
+    concept: conceptual-analysis
+    front: What does Bix say about the boundaries that conceptual theories draw?
+    back: They set the boundaries of categories; drawing them can help establish a common ground for investigation and discussion, but the placement of the boundaries is often contested (p 18).
+    source: Week 01 Lecture Slides, slide 13
+  - type: basic
+    concept: conceptual-analysis
+    front: What is Twining's 'general thesis' about conceptual analysis (p 39)?
+    back: Conceptual analysis has an important part to play in reviving general jurisprudence, but what is needed is a much broader conception of what is involved than those of Hart or Raz or even Stone.
+    source: Week 01 Lecture Slides, slide 14
+  - type: apply
+    concept: conceptual-analysis
+    scenario: Two people argue about 'the football' until one says 'I meant soccer', and the argument ends.
+    answer: A semantic confusion, not a conceptual disagreement — once usage is clarified they share the same concept, and context (pragmatics) does the rest.
+    source: Week 01 Lecture Transcript
+  - type: basic
+    concept: six-kinds-of-questions
+    front: List the six kinds of questions in order.
+    back: Doctrinal; normative; empirical; metatheoretical; methodological; conceptual.
+    source: Week 01 Lecture Slides, slide 17
+  - type: cloze
+    concept: six-kinds-of-questions
+    text: "Normative claims and theories are either {{c1::justificatory}} or {{c2::critical}}; empirical ones are {{c3::explanatory/causal}} or about {{c4::effects}}."
+    source: Week 01 Lecture Slides, slide 17
+  - type: basic
+    concept: six-kinds-of-questions
+    front: What is a metatheoretical question?
+    back: One asking what the success criteria for a given theory are — how to pick one theory over another, which is not like picking an ice-cream flavour.
+    source: Week 01 Lecture Slides, slide 17; Lecture Transcript
+  - type: apply
+    concept: six-kinds-of-questions
+    scenario: A researcher studies what a new statute actually did to a community, compared with the legislature's intentions.
+    answer: An empirical question producing an effects claim — it investigates on the ground the law's effects, which may differ from the policy intended.
+    source: Week 01 Lecture Transcript
+  - type: basic
+    concept: legal-theory-in-the-real-world
+    front: Match each case to the theory it drew on — Milirrpum, Madzimbamuto, Miller.
+    back: Milirrpum v Nabalco — assumptions from Austin's theory; Madzimbamuto v Lardner-Burke — Kelsen's theory; Miller — Hart's rule of recognition.
+    source: Week 01 Lecture Slides, slides 15–16; Lecture Transcript
+  - type: cloze
+    concept: legal-theory-in-the-real-world
+    text: "In the Gove land rights case, Aboriginal claims to land were questioned because the {{c1::customary rules}} of Aboriginal peoples could not be described by the court as {{c2::legal rules}}."
+    source: Week 01 Lecture Slides, slide 15
+  - type: cloze
+    concept: legal-theory-in-the-real-world
+    text: "Miller [173]: the rule of recognition is 'the rule which identifies the {{c1::sources of law}} in our legal system and imposes a {{c2::duty}} to give effect to laws emanating from those sources'."
+    source: Week 01 Lecture Slides, slide 16
+  - type: basic
+    concept: legal-theory-in-the-real-world
+    front: Gardner's reasons for studying jurisprudence?
+    back: It can assist our development as human beings; it contributes to excellence in argument; and it helps us recognise different perspectives and aspects of a legal issue — looking for timeless problems underlying topical ones.
+    source: Week 01 Lecture Slides, slide 28
+  - type: cloze
+    concept: harts-project
+    text: "'In law as elsewhere, we can {{c1::know}} and yet not {{c2::understand}}' (Hart, inaugural lecture, {{c3::1953}})."
+    source: Week 01 Lecture Slides, slide 18
+  - type: basic
+    concept: harts-project
+    front: Hart's three persistent questions (CL 6)?
+    back: 1. How does law differ from and relate to orders backed by threats? 2. How does legal obligation differ from and relate to moral obligation? 3. What are rules and to what extent is law an affair of rules?
+    source: Week 01 Lecture Slides, slide 22
+  - type: basic
+    concept: harts-project
+    front: Hart's paradigm cases of law, and his borderline cases?
+    back: Paradigm — the legal systems of modern states. Borderline (questionable, challengeable) — primitive law and international law.
+    source: Week 01 Lecture Slides, slide 21
+  - type: apply
+    concept: harts-project
+    scenario: A skilled lawyer can win any case but cannot explain how law differs from morality or from orders backed by threats.
+    answer: Hart's man in a familiar town — she knows the law but does not understand it; she needs a map exhibiting law's relations to other things (CL 14).
+    source: Week 01 Lecture Slides, slide 23
+  - type: cloze
+    concept: definition-per-genus-et-differentiam
+    text: "A definition per genus et differentiam gives a {{c1::general kind}} plus {{c2::distinguishing features}}."
+    source: Week 01 Lecture Slides, slide 24
+  - type: basic
+    concept: definition-per-genus-et-differentiam
+    front: What two things does a definition per genus et differentiam do at once?
+    back: It provides a code or formula translating the word into other well-understood terms, and locates the kind of thing by the features it shares with a wider family and those that mark it off.
+    source: Week 01 Lecture Slides, slide 24
+  - type: basic
+    concept: definition-per-genus-et-differentiam
+    front: What two different claims can be made about defining law per genus et differentiam?
+    back: That it is impossible; or that it may be possible but there are better definitions of law. Hart makes the first claim.
+    source: Week 01 Lecture Transcript
+  - type: apply
+    concept: definition-per-genus-et-differentiam
+    scenario: A theorist defines law as 'a system of social rules distinguished by organised sanctions'.
+    answer: A definition per genus et differentiam (genus — social rules; differentia — organised sanctions), the type Hart says does not work for law.
+    source: Week 01 Lecture Slides, slide 24; Lecture Transcript
+  - type: basic
+    concept: general-and-descriptive-theory
+    front: What do 'general' and 'descriptive' mean in Hart's Postscript (CL 239)?
+    back: General — not tied to any particular legal system or legal culture. Descriptive — morally neutral, with no justificatory aims.
+    source: Week 01 Lecture Slides, slide 25
+  - type: cloze
+    concept: general-and-descriptive-theory
+    text: "Finnis: the reasonableness and justification of acts of law 'cannot be assessed without premises about {{c1::true human goods}}'."
+    source: Week 01 Lecture Slides, slide 26
+  - type: basic
+    concept: general-and-descriptive-theory
+    front: What two challenges to identifying law's nature does Dickson report?
+    back: Some doubt that a human-made social construction such as law can have a nature; others are sceptical of conceptual analysis as the method.
+    source: Week 01 Lecture Slides, slide 27
+  - type: apply
+    concept: general-and-descriptive-theory
+    scenario: A theory argues that the existing legal order is good and should be preserved.
+    answer: It has justificatory aims, so it fails Hart's criterion of a descriptive (morally neutral) theory — though it could still be general.
+    source: Week 01 Lecture Slides, slides 17, 25
+  - type: basic
+    concept: general-and-descriptive-theory
+    front: How does Dickson describe legal philosophy's task?
+    back: Understanding law by elucidating it — illuminating something in our social reality called law; a never-ending, active process of identifying law's most important and significant features.
+    source: Week 01 Lecture Slides, slide 30
+
+audio:
+  title: Week 1 recap — jurisprudence and the nature of law
+  minutes: 3
+  script: |
+    Week one asks two questions that sound alike but are not: what is the nature of jurisprudence, and what is the
+    nature of law? The first is about the theory; the second is about its object. Keep them apart and most essays stay
+    on topic.
+
+    The word jurisprudence has several meanings: a body of judicial decisions, religious law, medical jurisprudence. For
+    us it means legal theory, a general theory of law. Bix uses jurisprudence, legal theory and legal philosophy
+    interchangeably, though Cotterrell thinks they should be distinguished. General jurisprudence deals with puzzles
+    thrown up by all legal systems, like what is law, or is there a general obligation to obey it. Particular
+    jurisprudence deals with puzzles of some systems only, like in what sense Parliament is sovereign.
+
+    Analytical jurisprudence relies on conceptual analysis, which defines terms by necessary and sufficient conditions.
+    Bix says drawing those boundaries builds common ground, but where they go is often contested. Twining keeps the
+    method but wants a much broader conception than Hart's or Raz's.
+
+    Then the six kinds of questions: doctrinal, normative, empirical, metatheoretical, methodological and conceptual.
+    Normative claims are justificatory or critical; empirical claims are explanatory or about effects; metatheory asks
+    for a theory's success criteria.
+
+    Theory is not idle. In Milirrpum, the Gove land rights case, Aboriginal claims were questioned because customary
+    rules could not be described as legal rules, an assumption from Austin. Madzimbamuto used Kelsen to consider
+    Rhodesia's declaration of independence, and Miller used Hart's rule of recognition.
+
+    Hart's line is that in law, as elsewhere, we can know and yet not understand. Most people can cite examples of law,
+    yet the debate never ends, because beside the paradigm cases, modern state legal systems, sit borderline cases such
+    as primitive and international law. Hart's three persistent questions are law and orders backed by threats, legal and
+    moral obligation, and rules. Lawyers are like someone who can cross a familiar town but cannot give directions; they
+    need a map.
+
+    A definition per genus et differentiam, general kind plus distinguishing features, works for triangles and
+    elephants, but Hart says it does not work for law. Separate the claim that it is impossible from the claim that
+    better definitions exist.
+
+    Finally, Hart claims a theory that is general, tied to no legal system, and descriptive, morally neutral with no
+    justificatory aims. Those are criteria to test him on his own terms. Finnis says law cannot be assessed without
+    premises about true human goods, and Dickson notes that elucidating law means choosing its most important features.
+    Read with curiosity, charity and clarity.

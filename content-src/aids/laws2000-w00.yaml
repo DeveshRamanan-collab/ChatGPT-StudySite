@@ -1,0 +1,3468 @@
+unit: laws2000
+week: 0
+source: content-src/laws2000-pq.yaml
+generator: aids-1
+facts:
+  - question: laws2000-w00-q001
+    parties:
+      - name: Australia
+        role: party to the Memorandum; the client seeking advice
+      - name: Veloria
+        role: other party to the Memorandum; now denies it is bound
+      - name: Kestrel Lithium Pty Ltd
+        role: Australian processor suing the Commonwealth in the Federal Court
+    issues:
+      - id: treaty
+        label: Is the Memorandum a treaty? The four elements of VCLT art 2(1)(a)
+        concept: laws2000-w03-treaty-definition-and-form
+      - id: substance
+        label: 'Substance over form: Aegean Sea, Qatar v Bahrain, Somalia v Kenya'
+        concept: laws2000-w03-treaty-definition-and-form
+      - id: authority
+        label: 'Authority to conclude: art 7, full powers and s 61'
+        concept: laws2000-w03-authority-to-conclude-a-treaty
+      - id: in-force
+        label: 'Consent v entry into force: Clause 11 and art 24'
+        concept: laws2000-w03-consent-to-be-bound-and-entry-into-force
+      - id: art18
+        label: The interim obligation not to defeat object and purpose (art 18)
+        concept: laws2000-w03-consent-to-be-bound-and-entry-into-force
+      - id: art46
+        label: 'Veloria''s Constitution: art 46 and Cameroon v Nigeria'
+        concept: laws2000-w03-invalidity-of-treaties
+      - id: domestic
+        label: 'Kestrel''s proceedings: no direct effect in Australian law (Dietrich, Teoh)'
+        concept: laws2000-w05-treaties-in-australian-law
+    facts:
+      - text: At a regional summit in Suva, Australia's Minister for Resources and the Minister for Trade of Veloria signed
+        weight: essential
+        kind: conduct
+        issues:
+          - treaty
+          - authority
+        why: An agreement between two states, but neither signatory is an art 7 official, so each needed full powers.
+      - text: a four-page document headed "Memorandum of Understanding on Critical Minerals Supply".
+        weight: essential
+        kind: statement
+        issues:
+          - treaty
+          - substance
+        why: Written form is met; the "MoU" label is a trap, because designation is irrelevant under art 2(1)(a).
+      - text: Clause 2 provides that Veloria "shall ensure" Australian processors receive priority access to 40 per cent of its annual lithium exports.
+        weight: essential
+        kind: statement
+        issues:
+          - treaty
+          - substance
+          - art18
+        why: Mandatory "shall" wording signals legal obligation, and priority supply is the object and purpose art 18 protects.
+      - text: Clause 3 provides that Australia "shall provide" concessional finance of AUD 200 million for a new Velorian processing plant.
+        weight: essential
+        kind: statement
+        issues:
+          - treaty
+          - substance
+        why: 'A second mandatory, specific commitment: points to an agreement governed by international law.'
+      - text: Clause 9 states that any dispute "shall be settled in accordance with international law".
+        weight: essential
+        kind: statement
+        issues:
+          - treaty
+          - substance
+        why: 'Express submission of disputes to international law: the strongest textual sign of the contested element.'
+      - text: Clause 11 provides that the Memorandum "shall enter into force upon an exchange of diplomatic notes by which each Participant confirms the completion of its internal procedures".
+        weight: essential
+        kind: statement
+        issues:
+          - in-force
+        why: 'The treaty sets its own mode of entry into force (art 24): an exchange of notes by both states.'
+      - text: Veloria registered the signed document with the United Nations Secretariat the following week.
+        weight: essential
+        kind: conduct
+        issues:
+          - treaty
+          - substance
+        why: 'UN registration was the feature that weighed in Somalia v Kenya: supports treaty status.'
+      - text: In Canberra, the document was never the subject of a National Interest Analysis, was not tabled before the Joint Standing Committee on Treaties and did not go to the Executive Council.
+        weight: essential
+        kind: conduct
+        issues:
+          - authority
+        why: Australia's domestic treaty steps were skipped; these are internal procedures and do not stop the instrument being a treaty.
+      - text: DFAT officials say that, in Australian practice, an MoU is "less than a treaty".
+        weight: essential
+        kind: statement
+        issues:
+          - substance
+        why: Australia's own classification; it cannot control the document's status at international law when the text points the other way.
+      - text: Nonetheless, Australia sent Veloria a diplomatic note confirming completion of its internal procedures.
+        weight: essential
+        kind: conduct
+        issues:
+          - in-force
+        why: Australia has done its half of the Clause 11 exchange; one note alone does not bring the treaty into force.
+      - text: Veloria has sent no note.
+        weight: essential
+        kind: conduct
+        issues:
+          - in-force
+          - art18
+        why: No exchange of notes, so the treaty is not in force; Veloria is at most bound by art 18.
+      - text: Four months later, a new Velorian government signed contracts to sell its entire lithium output for the next five years to buyers in a third state.
+        weight: essential
+        kind: conduct
+        issues:
+          - art18
+        why: Selling all its lithium for five years arguably defeats the Memorandum's object and purpose of priority supply.
+      - text: It says the Memorandum is "a political statement only"
+        weight: essential
+        kind: statement
+        issues:
+          - treaty
+          - art18
+        why: Denies any intention to be bound; may also make clear Veloria will not become a party, ending art 18.
+      - text: and, in any event, that its Trade Minister acted beyond power, because Veloria's Constitution requires parliamentary approval of all trade agreements
+        weight: essential
+        kind: statement
+        issues:
+          - art46
+        why: 'An internal-law competence argument: art 46 allows it only if the violation was manifest and the rule fundamental.'
+      - text: a requirement published in Veloria's official gazette and routinely cited in its negotiations.
+        weight: essential
+        kind: context
+        issues:
+          - art46
+        why: Publication and routine citation make the violation objectively evident to Australia ("manifest"); a constitutional rule is "of fundamental importance".
+      - text: Separately, Kestrel Lithium Pty Ltd, an Australian processor that had expanded its refinery in reliance on Clause 2
+        weight: essential
+        kind: party
+        issues:
+          - domestic
+        why: A private company's reliance on the Memorandum cannot give an unincorporated treaty domestic effect.
+      - text: has commenced proceedings in the Federal Court of Australia seeking an order that the Commonwealth honour its own commitments under the Memorandum so that the Velorian supply chain can proceed.
+        weight: essential
+        kind: conduct
+        issues:
+          - domestic
+        why: Seeks to enforce a treaty in an Australian court; without implementing legislation it has no direct effect (Dietrich; Teoh).
+      - text: 'Advise the Australian Government on: (a) whether the Memorandum is a treaty and whether it is binding on Australia and Veloria; (b) whether Veloria can rely on its Constitution to deny that it is bound; and (c) whether Kestrel''s proceedings can succeed.'
+        weight: background
+        kind: context
+        issues:
+          - treaty
+          - in-force
+          - art46
+          - domestic
+  - question: laws2000-w00-q002
+    parties:
+      - name: Northmark (Provisional Council)
+        role: seceding province claiming statehood and seeking recognition
+      - name: Calvenia
+        role: parent state; still holds part of the province
+      - name: Ostrava
+        role: neighbour whose troops entered Northmark; the only state to recognise it
+      - name: Calvenian National Grain Board
+        role: state-owned statutory exporter; defendant claiming immunity
+      - name: Harbour Mills Pty Ltd
+        role: Sydney flour miller suing the Board for breach of contract
+    issues:
+      - id: montevideo
+        label: The Montevideo criteria and their customary status
+        concept: laws2000-w04-montevideo-criteria-for-statehood
+      - id: territory
+        label: Population and territory, including the unsurveyed border
+        concept: laws2000-w04-montevideo-criteria-for-statehood
+      - id: government
+        label: Effective government and capacity for relations
+        concept: laws2000-w04-montevideo-criteria-for-statehood
+      - id: self-det
+        label: Self-determination and secession (Re Secession of Quebec)
+        concept: laws2000-w04-self-determination-and-secession
+      - id: recognition
+        label: 'Recognition: declaratory v constitutive, and the duty of non-recognition'
+        concept: laws2000-w04-recognition-of-states
+      - id: immunity
+        label: 'State immunity: custom, the 2004 Convention and the FSIA'
+        concept: laws2000-w06-state-immunity-foundations
+      - id: commercial
+        label: The restrictive approach to the diverted wheat contract
+        concept: laws2000-w06-restrictive-state-immunity
+    facts:
+      - text: Northmark is a mountainous province of the State of Calvenia with a population of about 1.2 million
+        weight: essential
+        kind: party
+        issues:
+          - territory
+          - self-det
+        why: A permanent population with no minimum size, but Northmark is a province of an existing state.
+      - text: most of whom speak Nordic Calvenian rather than the national language.
+        weight: essential
+        kind: context
+        issues:
+          - self-det
+        why: 'A distinct linguistic group: arguably a "people" for self-determination purposes.'
+      - text: Northmarkers have elected representatives in Calvenia's national parliament, their own regional assembly with powers over schools, policing and local taxes
+        weight: essential
+        kind: relationship
+        issues:
+          - self-det
+        why: 'Representation and real regional autonomy: internal self-determination is being met (Re Secession of Quebec).'
+      - text: and a constitutional right to use their language in the courts.
+        weight: essential
+        kind: relationship
+        issues:
+          - self-det
+        why: Minority rights are protected; no oppression that could ground a claim to external self-determination.
+      - text: In March, following a dispute over mining royalties
+        weight: essential
+        kind: context
+        issues:
+          - self-det
+        why: 'An economic grievance, not colonial rule or oppression: no basis for secession.'
+      - text: the regional assembly declared Northmark an independent republic.
+        weight: essential
+        kind: conduct
+        issues:
+          - montevideo
+          - self-det
+        why: A declaration does not make a state; statehood turns on the Montevideo criteria, applied to the facts.
+      - text: The day before the declaration, troops of neighbouring Ostrava crossed into Northmark "to protect Nordic-speaking civilians"
+        weight: essential
+        kind: conduct
+        issues:
+          - government
+          - recognition
+        why: 'Foreign forces enter first: the entity rests on an unlawful use of force, triggering the duty of non-recognition.'
+      - text: and Ostravan units remain there.
+        weight: essential
+        kind: conduct
+        issues:
+          - government
+          - recognition
+        why: Continuing foreign presence undermines the Council's independence and taints the entity's creation.
+      - text: The new Provisional Council now administers about 80 per cent of the province, collects taxes and runs the schools
+        weight: essential
+        kind: conduct
+        issues:
+          - government
+        why: Substantial but partial control; new entities face a stricter effectiveness test than established states.
+      - text: but Calvenian forces still hold the regional capital's airport and a strip of land along the eastern border
+        weight: essential
+        kind: context
+        issues:
+          - government
+          - territory
+        why: The parent state retains key territory, so the Council's control is neither exclusive nor fully effective.
+      - text: where the boundary itself has never been formally surveyed.
+        weight: essential
+        kind: context
+        issues:
+          - territory
+        why: Undelimited boundaries are not fatal (North Sea Continental Shelf [46]); a stable core territory suffices.
+      - text: The Provisional Council has written to 40 states, including Australia, asking for recognition and for the opening of diplomatic relations.
+        weight: essential
+        kind: conduct
+        issues:
+          - government
+          - recognition
+        why: Shows will to enter relations, but capacity needs independence from Ostrava; Australia must decide whether to recognise.
+      - text: Only Ostrava has recognised Northmark so far.
+        weight: essential
+        kind: conduct
+        issues:
+          - recognition
+        why: Recognition only by the intervening state carries little weight and itself breaches the duty of non-recognition.
+      - text: Separately, the Calvenian National Grain Board
+        weight: background
+        kind: party
+      - text: a body established by Calvenian statute, wholly owned by the Calvenian government, and holding a statutory monopoly over the country's grain exports
+        weight: essential
+        kind: relationship
+        issues:
+          - immunity
+        why: 'Statutory, state-owned and a monopoly: arguably a state agency or instrumentality and a "State" under art 2(1)(b).'
+      - text: had contracted to sell 60,000 tonnes of wheat to Harbour Mills Pty Ltd, a Sydney flour miller.
+        weight: essential
+        kind: conduct
+        issues:
+          - commercial
+        why: 'A sale of goods to a private buyer: a commercial transaction under art 10 of the 2004 Convention.'
+      - text: After the declaration of independence, Calvenia's Foreign Ministry directed the Board to divert the cargo to feed Calvenian troops in Northmark
+        weight: essential
+        kind: conduct
+        issues:
+          - commercial
+        why: A state-directed breach for military ends; the motive does not change the commercial nature (Trendex; Playa Largo).
+      - text: '"for reasons of national security and foreign policy".'
+        weight: essential
+        kind: statement
+        issues:
+          - commercial
+        why: A sovereign purpose; art 2(2) looks first to the nature of the contract, so immunity is not revived.
+      - text: Harbour Mills has sued the Board for breach of contract in the Supreme Court of New South Wales.
+        weight: essential
+        kind: conduct
+        issues:
+          - immunity
+        why: 'Proceedings in an Australian court: the FSIA 1985 (Cth), which mirrors custom, governs.'
+      - text: The Board claims immunity as an emanation of a foreign state.
+        weight: essential
+        kind: statement
+        issues:
+          - immunity
+          - commercial
+        why: Even if the Board counts as the state, the commercial transaction exception defeats the claim.
+      - text: 'Advise the Australian Government: (a) whether Northmark is a state under international law and whether Australia should recognise it; and (b) whether the Board is immune from Harbour Mills'' claim.'
+        weight: background
+        kind: context
+        issues:
+          - montevideo
+          - recognition
+          - immunity
+  - question: laws2000-w00-q003
+    parties:
+      - name: Lorran
+        role: sending state; its embassy occupied and diplomats detained
+      - name: Castrea
+        role: receiving state; denies responsibility
+      - name: Castrean Youth Front
+        role: private student association that stormed the embassy
+      - name: Sergeant Ilić
+        role: Castrean police officer who arrested the First Secretary
+    issues:
+      - id: framework
+        label: 'Framework: ARSIWA art 2 and the VCDR primary rules (arts 22, 24, 29)'
+        concept: laws2000-w07-framework-of-state-responsibility
+      - id: omission
+        label: 'The storming: Castrea''s own failure to protect (art 4; Tehran)'
+        concept: laws2000-w07-attribution-to-the-state
+      - id: adoption
+        label: 'The occupation: acknowledgement and adoption (art 11)'
+        concept: laws2000-w07-attribution-to-the-state
+      - id: ilic
+        label: Sergeant Ilić's arrest despite orders (arts 4 and 7)
+        concept: laws2000-w07-attribution-to-the-state
+      - id: espionage
+        label: 'The espionage justification: a self-contained regime (VCDR art 9)'
+        concept: laws2000-w06-diplomatic-and-consular-immunities
+      - id: injured
+        label: Lorran as the injured state (art 42)
+        concept: laws2000-w07-invocation-of-responsibility
+      - id: reparation
+        label: Cessation and full reparation (arts 30, 31, 35–37)
+        concept: laws2000-w07-cessation-and-reparation
+    facts:
+      - text: Lorran and Castrea are both parties to the Vienna Convention on Diplomatic Relations 1961 (VCDR).
+        weight: essential
+        kind: relationship
+        issues:
+          - framework
+          - injured
+        why: 'Both bound by the VCDR: the inviolability obligations are owed by Castrea to Lorran, making Lorran the injured state.'
+      - text: Relations soured when a Lorranian court convicted a Castrean businessman of fraud.
+        weight: background
+        kind: context
+      - text: Two days later, about 300 members of the Castrean Youth Front, a private student association, marched on Lorran's embassy in the Castrean capital.
+        weight: essential
+        kind: conduct
+        issues:
+          - omission
+        why: 'Private actors: the storming itself is not attributable, so the focus is Castrea''s own omission.'
+      - text: The Lorranian ambassador telephoned the Castrean Foreign Ministry three times asking for protection.
+        weight: essential
+        kind: statement
+        issues:
+          - omission
+        why: Repeated requests put Castrea on notice; failing to act after warning is its own breach of art 22.
+      - text: A dozen Castrean police officers stood at the gates but did nothing as the students climbed the walls, broke down the doors and occupied the building.
+        weight: essential
+        kind: conduct
+        issues:
+          - omission
+          - framework
+        why: 'State organs present and passive: Castrea breaches its duty to protect the premises (art 22), as in Tehran.'
+      - text: Two Lorranian diplomats were trapped inside.
+        weight: essential
+        kind: harm
+        issues:
+          - omission
+          - reparation
+        why: Diplomats' persons are inviolable (art 29); their confinement is part of the injury.
+      - text: The next evening, Castrea's Interior Minister said on national television that the students were "true patriots"
+        weight: essential
+        kind: statement
+        issues:
+          - adoption
+        why: 'A minister publicly endorses the students: the start of acknowledgement and adoption under art 11.'
+      - text: and that the embassy would be "held in trust by the Castrean people" until Lorran released the businessman.
+        weight: essential
+        kind: statement
+        issues:
+          - adoption
+        why: Using the occupation as leverage adopts it as state policy, as Iran's decree did in Tehran.
+      - text: Police then took over the perimeter and allowed food and supplies in to the students but refused to let the diplomats leave.
+        weight: essential
+        kind: conduct
+        issues:
+          - adoption
+          - framework
+        why: 'State organs now support the occupation and detain the diplomats: Castrea''s own conduct, breaching art 29.'
+      - text: Over the following three weeks the students broke open the embassy's filing cabinets
+        weight: essential
+        kind: conduct
+        issues:
+          - adoption
+          - framework
+        why: Archives are inviolable (art 24); once adopted, the students' acts count as Castrea's.
+      - text: and a Castrean government newspaper published a selection of Lorran's diplomatic correspondence.
+        weight: essential
+        kind: conduct
+        issues:
+          - adoption
+          - reparation
+        why: 'State publication of the archives: a further breach of art 24 and a non-material injury calling for satisfaction.'
+      - text: During the occupation, Sergeant Ilić of the Castrean police stopped Lorran's First Secretary on a city street.
+        weight: essential
+        kind: conduct
+        issues:
+          - ilic
+        why: A police officer is a state organ (art 4), acting here in his official capacity.
+      - text: Although his commander had expressly ordered officers not to approach Lorranian diplomats
+        weight: essential
+        kind: statement
+        issues:
+          - ilic
+        why: 'Contrary orders do not matter: ultra vires conduct of an organ is still attributed (art 7; Velásquez Rodríguez).'
+      - text: Ilić arrested the First Secretary and held him in a police cell overnight.
+        weight: essential
+        kind: conduct
+        issues:
+          - ilic
+          - framework
+        why: Arresting and detaining a diplomat directly breaches art 29 VCDR.
+      - text: The two trapped diplomats were released after 23 days
+        weight: essential
+        kind: timing
+        issues:
+          - reparation
+        why: 'Twenty-three days of detention: duration bears on compensation and satisfaction.'
+      - text: one of them needing hospital treatment for an untreated heart condition.
+        weight: essential
+        kind: harm
+        issues:
+          - reparation
+        why: 'Physical injury: material damage to be compensated (art 36).'
+      - text: 'Castrea''s position is that: the students are private citizens for whom it is not responsible'
+        weight: essential
+        kind: statement
+        issues:
+          - omission
+          - adoption
+        why: Answered by Castrea's own omission in phase one and its adoption of the occupation in phase two.
+      - text: Sergeant Ilić disobeyed orders
+        weight: essential
+        kind: statement
+        issues:
+          - ilic
+        why: 'Irrelevant under art 7: ultra vires acts of organs acting in an official capacity remain attributable.'
+      - text: and, in any event, Lorran's First Secretary had been gathering intelligence, so Castrea was entitled to respond as it did.
+        weight: essential
+        kind: statement
+        issues:
+          - espionage
+        why: 'Diplomatic law is self-contained: the remedy for abuse is persona non grata (art 9), never arrest or detention.'
+      - text: Advise Lorran whether Castrea has incurred international responsibility, and what Lorran can demand.
+        weight: background
+        kind: context
+        issues:
+          - framework
+          - injured
+          - reparation
+  - question: laws2000-w00-q004
+    parties:
+      - name: Mira Kade
+        role: Australian-Tessalian dual national; leader of the Greyfin hacking group
+      - name: Mr Okafor
+        role: Australian patient who died after the hospital attack
+      - name: Dr Aurel Voss
+        role: Tessaly's serving Minister for Foreign Affairs
+      - name: Tessaly
+        role: Kade's other state of nationality; objects to Australian proceedings
+    issues:
+      - id: forms
+        label: Forms of jurisdiction and the Lotus rule
+        concept: laws2000-w05-forms-of-jurisdiction
+      - id: territorial
+        label: 'Objective territoriality: the hospital attack'
+        concept: laws2000-w05-grounds-of-jurisdiction
+      - id: nationality
+        label: Active nationality and passive personality
+        concept: laws2000-w05-grounds-of-jurisdiction
+      - id: protective
+        label: 'The protective principle: the counterfeiting'
+        concept: laws2000-w05-grounds-of-jurisdiction
+      - id: concurrent
+        label: Concurrent jurisdiction with Tessaly
+        concept: laws2000-w05-grounds-of-jurisdiction
+      - id: seizure
+        label: 'The proposed seizure in Tessaly: unlawful enforcement'
+        concept: laws2000-w05-forms-of-jurisdiction
+      - id: personal
+        label: Personal immunity of a serving foreign minister (Arrest Warrant)
+        concept: laws2000-w06-immunities-of-state-officials
+      - id: functional
+        label: 'After office: functional immunity for official, not private, acts'
+        concept: laws2000-w06-immunities-of-state-officials
+    facts:
+      - text: Mira Kade holds both Australian and Tessalian nationality.
+        weight: essential
+        kind: party
+        issues:
+          - nationality
+          - concurrent
+        why: Australian nationality grounds active nationality jurisdiction; Tessaly has the same ground over its own national.
+      - text: She was born in Adelaide but has lived in Tessaly for the last ten years
+        weight: essential
+        kind: context
+        issues:
+          - nationality
+          - concurrent
+        why: Genuine links with both states (Nottebohm); her ties to Tessaly are now arguably closer.
+      - text: where she leads a hacking group known as Greyfin.
+        weight: background
+        kind: conduct
+      - text: Working from an office in Tessaly's capital, Greyfin launched a ransomware attack on the computer systems of a Melbourne public hospital.
+        weight: essential
+        kind: conduct
+        issues:
+          - territorial
+        why: 'Initiated in Tessaly, completed in Melbourne: objective territoriality gives Australia prescriptive jurisdiction.'
+      - text: The hospital's systems were shut down for two days
+        weight: essential
+        kind: harm
+        issues:
+          - territorial
+        why: The harm occurred in Australia, completing the offence on Australian territory.
+      - text: an Australian patient, Mr Okafor, died when his surgery could not proceed.
+        weight: essential
+        kind: harm
+        issues:
+          - nationality
+        why: 'An Australian victim: passive personality (US v Yunis), controversial and subsidiary to territoriality.'
+      - text: Greyfin also used its servers in Tessaly to design and distribute counterfeit Australian $100 notes
+        weight: essential
+        kind: conduct
+        issues:
+          - protective
+        why: 'Counterfeiting a state''s currency abroad is the classic protective-principle case: a threat to a vital state interest.'
+      - text: several thousand of which have been detected circulating in Queensland.
+        weight: essential
+        kind: harm
+        issues:
+          - protective
+          - territorial
+        why: Effects inside Australia reinforce the protective ground with a territorial link.
+      - text: Australian investigators have evidence that Tessaly's Minister for Foreign Affairs, Dr Aurel Voss, met Greyfin's leaders in Tessaly
+        weight: essential
+        kind: party
+        issues:
+          - personal
+        why: 'A serving foreign minister: complete immunity ratione personae from foreign criminal jurisdiction (Arrest Warrant).'
+      - text: and approved the hospital attack
+        weight: essential
+        kind: conduct
+        issues:
+          - functional
+        why: 'Approval given as minister: an official act, so functional immunity continues for it after office.'
+      - text: as part of a government operation to pressure Australia in a trade dispute.
+        weight: essential
+        kind: mental
+        issues:
+          - functional
+        why: State purpose confirms the approval was an act in official capacity, not a private act.
+      - text: Separately, while on a private holiday on the Gold Coast last year
+        weight: essential
+        kind: context
+        issues:
+          - personal
+          - functional
+        why: 'A private act: covered by personal immunity while in office, but not by functional immunity afterwards.'
+      - text: Dr Voss crashed a hired jet ski into a swimmer, a British tourist
+        weight: essential
+        kind: conduct
+        issues:
+          - personal
+          - functional
+        why: Occurred in Australia, so jurisdiction exists; only immunity bars proceedings while he holds office.
+      - text: causing her serious injuries.
+        weight: background
+        kind: harm
+      - text: Dr Voss is due to attend an international conference in Sydney next month.
+        weight: essential
+        kind: timing
+        issues:
+          - personal
+        why: 'He will still be in office when he visits: personal immunity applies whatever the nature of the act.'
+      - text: The Australian Federal Police wish to arrest him on arrival.
+        weight: essential
+        kind: conduct
+        issues:
+          - personal
+        why: Arresting a serving foreign minister would breach his inviolability (Arrest Warrant; Djibouti v France).
+      - text: A senior AFP officer has also proposed sending a team to Tessaly, without Tessaly's knowledge, to seize Ms Kade and bring her to Australia.
+        weight: essential
+        kind: conduct
+        issues:
+          - seizure
+          - forms
+        why: Enforcement on another state's territory without consent is prohibited under Lotus, like Eichmann's seizure in Argentina.
+      - text: Tessaly has announced that it will prosecute Ms Kade itself, as one of its nationals, for offences under Tessalian law
+        weight: essential
+        kind: statement
+        issues:
+          - concurrent
+        why: 'Concurrent jurisdiction: no binding priority rule; consultation (Cybercrime Convention art 22(5)) and the closest link guide the outcome.'
+      - text: and objects to any Australian proceedings.
+        weight: essential
+        kind: statement
+        issues:
+          - concurrent
+        why: An objection does not displace Australia's valid grounds; it calls for consultation.
+      - text: 'Advise the Australian Government on: (a) whether Australia can assert jurisdiction over Ms Kade for the hospital attack and the counterfeiting; (b) whether the proposed operation in Tessaly is lawful; and (c) whether Dr Voss can be arrested in Sydney, now or after he leaves office.'
+        weight: background
+        kind: context
+        issues:
+          - forms
+          - seizure
+          - personal
+          - functional
+  - question: laws2000-w00-q005
+    parties:
+      - name: Oldavia
+        role: party that lodged the "Interpretative Declaration"; licenses egg collection
+      - name: Brenmark
+        role: party that objected; wishes to bring a claim
+      - name: Marisol
+        role: party that accepted Oldavia's statement
+    issues:
+      - id: classify
+        label: Reservation or interpretative declaration? (art 2(1)(d))
+        concept: laws2000-w03-reservations-to-treaties
+      - id: permissible
+        label: Permissibility under art 19 and Article 22
+        concept: laws2000-w03-reservations-to-treaties
+      - id: effect
+        label: 'Objection and acceptance: why art 20 does not operate'
+        concept: laws2000-w03-reservations-to-treaties
+      - id: interpret
+        label: 'Interpreting "taking": art 31 before art 32'
+        concept: laws2000-w03-treaty-interpretation
+      - id: breach
+        label: Breach of Article 4 and attribution to Oldavia (arts 2, 4, 12)
+        concept: laws2000-w07-attribution-to-the-state
+      - id: standing
+        label: Brenmark's standing as a non-injured state (art 48(1)(a))
+        concept: laws2000-w07-invocation-of-responsibility
+    facts:
+      - text: The (fictional) Convention on the Conservation of Southern Seabirds 2019 has 34 parties, including Oldavia, Brenmark and Marisol.
+        weight: essential
+        kind: relationship
+        issues:
+          - standing
+        why: All three are parties; Article 4 is owed to the whole group of 34, supporting erga omnes partes standing.
+      - text: Its preamble records the parties' determination "to halt the decline of seabird breeding colonies".
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+          - permissible
+          - standing
+        why: 'The object and purpose: context for "taking" (art 31) and the test of a reservation (art 19(c)).'
+      - text: 'Article 4 provides: "Each Party shall prohibit the taking of any species listed in Annex I, including its eggs."'
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+          - breach
+        why: The primary obligation, which expressly extends to eggs.
+      - text: Annex I defines "taking" as "capturing, killing, collecting or disturbing".
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+        why: 'Ordinary meaning in context: "collecting" eggs is plainly "taking", so there is no need for art 32.'
+      - text: 'Article 22 provides: "No reservations may be made to Article 4."'
+        weight: essential
+        kind: statement
+        issues:
+          - permissible
+        why: 'An express prohibition: a reservation to Article 4 is impermissible under art 19(a).'
+      - text: When Oldavia ratified the Convention in 2021, it lodged a statement headed "Interpretative Declaration"
+        weight: essential
+        kind: statement
+        issues:
+          - classify
+        why: 'The heading is not decisive: art 2(1)(d) applies "however phrased or named".'
+      - text: '"The Republic of Oldavia understands Article 4 as not extending to the traditional collection of eggs by its coastal communities'
+        weight: essential
+        kind: statement
+        issues:
+          - classify
+          - interpret
+        why: Framed as an understanding, but it carves an activity out of Article 4 rather than clarifying its meaning.
+      - text: and will not apply Article 4 to such collection."
+        weight: essential
+        kind: statement
+        issues:
+          - classify
+          - permissible
+        why: 'A refusal to apply the provision excludes its legal effect: a reservation, and one Article 22 forbids.'
+      - text: Brenmark promptly lodged a formal objection.
+        weight: essential
+        kind: statement
+        issues:
+          - effect
+        why: Art 20 objections and acceptances govern permissible reservations; for a prohibited one, their effect is unresolved.
+      - text: Marisol wrote to the depositary accepting Oldavia's statement.
+        weight: essential
+        kind: statement
+        issues:
+          - effect
+        why: Acceptance cannot validate a reservation the treaty prohibits; its effect is one of the three unresolved solutions.
+      - text: No other party responded.
+        weight: essential
+        kind: context
+        issues:
+          - effect
+        why: Silence is normally tacit acceptance after 12 months (art 20(5)), but not for an impermissible reservation.
+      - text: Since then, Oldavia's Ministry of Fisheries has issued annual licences to coastal villagers permitting the collection of up to 50,000 albatross eggs each season from the Kerrin Islands, an Oldavian territory
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+        why: Licensing by a state organ (art 4) is Oldavia's own conduct, authorising what Article 4 requires it to prohibit.
+      - text: the albatross is listed in Annex I.
+        weight: essential
+        kind: context
+        issues:
+          - breach
+          - interpret
+        why: Brings the eggs squarely within Article 4.
+      - text: Oldavian Coast Guard vessels escort the licensed collectors to the islands
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+        why: 'State organs actively facilitate the taking: further conduct attributable under art 4.'
+      - text: and keep scientists away from the colonies during the collection season.
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+        why: The state shields the collection from scrutiny, confirming it is a state-run activity.
+      - text: Independent surveys show the Kerrin colony has fallen by 40 per cent since 2021.
+        weight: essential
+        kind: harm
+        issues:
+          - breach
+          - permissible
+        why: The decline defeats the preamble's aim, showing the carve-out undermines the treaty's object and purpose.
+      - text: Oldavia now argues that (1) its statement was merely interpretative
+        weight: essential
+        kind: statement
+        issues:
+          - classify
+        why: 'Rebutted by substance: the statement excludes Article 4''s legal effect for egg collection.'
+      - text: (2) in any event, "taking" in Article 4 is ambiguous
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+        why: Art 31 yields a clear meaning from text, Annex I and preamble; without ambiguity, art 32 cannot displace it.
+      - text: and the Convention's negotiating records show that one delegation raised traditional collection during the drafting
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+        why: 'Travaux are supplementary (art 32): only to confirm, or where art 31 leaves meaning ambiguous or absurd.'
+      - text: and (3) the collectors are private villagers, not Oldavian officials.
+        weight: essential
+        kind: statement
+        issues:
+          - breach
+        why: 'Beside the point: the breach is Oldavia''s own licensing and escorting through its organs.'
+      - text: Brenmark, whose own nationals are not affected, wishes to bring a claim against Oldavia.
+        weight: essential
+        kind: context
+        issues:
+          - standing
+        why: Not specially affected, so not injured under art 42; it may invoke a collective obligation under art 48(1)(a).
+      - text: Advise Brenmark on the legal status of Oldavia's statement, the relationships between Oldavia, Brenmark and Marisol under the Convention, whether Oldavia is in breach of Article 4, and whether Brenmark can invoke Oldavia's responsibility.
+        weight: background
+        kind: context
+        issues:
+          - classify
+          - effect
+          - breach
+          - standing
+  - question: laws2000-w00-q006
+    parties:
+      - name: About 70 banning states
+        role: states whose practice and statements may have formed the rule
+      - name: Kerrova
+        role: major fishing state that objected from the start
+      - name: Arvelle
+        role: fishing state that stayed silent, then objected late
+      - name: Southern Deep Pty Ltd
+        role: Australian permit holder trawling on a high-seas seamount
+      - name: Environmental group
+        role: seeks an injunction and a prosecution in Australia
+    issues:
+      - id: elements
+        label: The two elements of custom and the North Sea threshold
+        concept: laws2000-w02-customary-international-law-elements
+      - id: practice
+        label: 'State practice: specially affected states and the short period'
+        concept: laws2000-w02-customary-international-law-elements
+      - id: opinio
+        label: 'Opinio juris: mixed statements and General Assembly resolutions'
+        concept: laws2000-w02-customary-international-law-elements
+      - id: objector
+        label: 'Persistent objector: Kerrova and Arvelle'
+        concept: laws2000-w02-persistent-objector-and-particular-custom
+      - id: reception
+        label: Reception of custom into the common law, and the injunction
+        concept: laws2000-w05-customary-international-law-in-australian-law
+      - id: crime
+        label: 'The prosecution request: Nulyarimma'
+        concept: laws2000-w05-customary-international-law-in-australian-law
+    facts:
+      - text: Over the past eight years
+        weight: essential
+        kind: timing
+        issues:
+          - practice
+        why: A short period is no bar if practice is extensive and virtually uniform (North Sea Continental Shelf).
+      - text: about 70 states
+        weight: essential
+        kind: party
+        issues:
+          - practice
+          - elements
+        why: Widespread practice, though well short of all states; density and representativeness matter more than numbers.
+      - text: including nearly every state with a significant deep-sea fishing fleet
+        weight: essential
+        kind: context
+        issues:
+          - practice
+        why: Specially affected states take part, which North Sea treats as essential to the practice element.
+      - text: have banned their vessels from bottom trawling on seamounts in the high seas.
+        weight: essential
+        kind: conduct
+        issues:
+          - practice
+        why: 'Concrete state practice: bans on their own vessels on the high seas.'
+      - text: Most did so by legislation.
+        weight: essential
+        kind: conduct
+        issues:
+          - practice
+        why: Legislation is clear, formal state practice.
+      - text: When introducing their laws, many governments declared that the ban was "required by international law to protect vulnerable marine ecosystems"
+        weight: essential
+        kind: statement
+        issues:
+          - opinio
+        why: 'Express statements of legal obligation: strong evidence of opinio juris.'
+      - text: a smaller number described it as "sound environmental policy".
+        weight: essential
+        kind: statement
+        issues:
+          - opinio
+        why: Policy motives add practice but not opinio juris; the element turns on the majority's sense of obligation.
+      - text: Several UN General Assembly resolutions over the same period have called on all states to end bottom trawling on seamounts.
+        weight: essential
+        kind: statement
+        issues:
+          - opinio
+        why: Not binding, but resolutions can evidence opinio juris depending on their wording and the votes (Nicaragua).
+      - text: A handful of vessels from banning states have been caught trawling on seamounts since the bans
+        weight: essential
+        kind: conduct
+        issues:
+          - practice
+        why: Occasional inconsistent conduct does not prevent a rule forming if it is treated as a breach (Nicaragua).
+      - text: in each case their flag state prosecuted the crew and publicly described the trawling as "a violation of the international prohibition".
+        weight: essential
+        kind: statement
+        issues:
+          - practice
+          - opinio
+        why: Treating deviations as violations confirms the rule and shows opinio juris.
+      - text: Kerrova, a major fishing state, has voted against every one of the General Assembly resolutions since the first
+        weight: essential
+        kind: conduct
+        issues:
+          - objector
+          - practice
+        why: A specially affected state objecting from the outset, while the rule was forming.
+      - text: and has stated in every relevant forum since then that it "does not accept any rule of international law restricting high-seas trawling".
+        weight: essential
+        kind: statement
+        issues:
+          - objector
+        why: 'Persistent, consistent and clear objection before crystallisation: Kerrova is not bound (Fisheries; Asylum).'
+      - text: Arvelle, another fishing state, said nothing for six years
+        weight: essential
+        kind: conduct
+        issues:
+          - objector
+        why: Silence during formation suggests acquiescence.
+      - text: two years ago, after most of the bans were in place, it announced that it would not be bound by any such rule.
+        weight: essential
+        kind: statement
+        issues:
+          - objector
+        why: 'An objection after the rule has crystallised comes too late: Arvelle is likely bound.'
+      - text: Australia is among the 70 banning states in respect of its exclusive economic zone
+        weight: essential
+        kind: conduct
+        issues:
+          - reception
+        why: Australia's own ban stops at its EEZ; for the high seas Parliament has legislated differently.
+      - text: but the High Seas Fishing Permits Act 2015 (Cth) — a fictional statute for this problem — authorises a permit holder to fish on the high seas "by any method specified in the permit".
+        weight: essential
+        kind: context
+        issues:
+          - reception
+        why: Custom yields to a clearly inconsistent statute (Polites); the Act expressly authorises the permitted method.
+      - text: Southern Deep Pty Ltd holds a permit specifying bottom trawling and is trawling on a high-seas seamount in the Southern Ocean.
+        weight: essential
+        kind: conduct
+        issues:
+          - reception
+        why: 'Conduct authorised by statute: even if custom were received, the statute controls.'
+      - text: An environmental group has brought proceedings in the Federal Court seeking an injunction to stop Southern Deep
+        weight: essential
+        kind: conduct
+        issues:
+          - reception
+        why: The injunction needs custom to be part of the common law and not displaced by statute.
+      - text: arguing that the customary prohibition forms part of Australian common law.
+        weight: essential
+        kind: statement
+        issues:
+          - reception
+        why: In Australia custom is a source of the common law, not automatically part of it, and yields to statute.
+      - text: It has also asked the Commonwealth Director of Public Prosecutions to charge Southern Deep's managing director with "a crime against the marine environment under customary international law".
+        weight: essential
+        kind: conduct
+        issues:
+          - crime
+        why: 'Nulyarimma: customary crimes are not common-law offences without legislation; courts cannot create crimes.'
+      - text: 'Advise on: (a) whether a customary rule prohibiting bottom trawling on high-seas seamounts has formed; (b) whether it binds Kerrova and Arvelle; and (c) whether the environmental group''s injunction and its request for prosecution can succeed in Australia.'
+        weight: background
+        kind: context
+        issues:
+          - elements
+          - objector
+          - reception
+          - crime
+  - question: laws2000-w00-q007
+    parties:
+      - name: SRSO
+        role: international organisation created by the nine-state SRSO Charter
+      - name: Solvania
+        role: member state that requested the mission
+      - name: Brenmark
+        role: member state that placed its battalion at the SRSO's disposal
+      - name: Families of the Merrin victims
+        role: claimants suing the SRSO and Brenmark in Brenmark's courts
+    issues:
+      - id: personality
+        label: The SRSO's international legal personality (Reparation)
+        concept: laws2000-w04-international-organisations-definition-and-personality
+      - id: powers
+        label: 'Speciality and implied powers: the Special Tribunal'
+        concept: laws2000-w04-powers-and-responsibility-of-international-organisations
+      - id: art7
+        label: 'The governing rule: ARIO art 7, not art 6'
+        concept: laws2000-w04-powers-and-responsibility-of-international-organisations
+      - id: control
+        label: Effective control over the withdrawal at Merrin
+        concept: laws2000-w04-powers-and-responsibility-of-international-organisations
+      - id: immunity
+        label: The SRSO's immunity from suit
+        concept: laws2000-w06-immunities-of-international-organisations
+      - id: brenmark
+        label: The claim against Brenmark in its own courts
+        concept: laws2000-w04-powers-and-responsibility-of-international-organisations
+    facts:
+      - text: Nine states created the (fictional) Southern Regional Stabilisation Organisation (SRSO) by a treaty, the SRSO Charter.
+        weight: essential
+        kind: relationship
+        issues:
+          - personality
+        why: 'Created by a treaty between states: an international organisation within ARIO art 2(a).'
+      - text: The Charter gives the SRSO a Council of member states and a Secretariat
+        weight: essential
+        kind: context
+        issues:
+          - personality
+        why: 'Organs with a will distinct from the members: an indicator of personality (Reparation).'
+      - text: and empowers it "to deploy stabilisation missions, at the request of a member state, to restore public order and protect civilians".
+        weight: essential
+        kind: statement
+        issues:
+          - personality
+          - powers
+        why: Functions that need personality to perform; also the measure of its express powers under the speciality principle.
+      - text: The Charter says nothing about the SRSO's international legal personality.
+        weight: essential
+        kind: context
+        issues:
+          - personality
+        why: 'Silence is not fatal: personality can be implied from functions and powers (Reparation).'
+      - text: A separate Headquarters Agreement, to which all nine members are parties
+        weight: essential
+        kind: relationship
+        issues:
+          - immunity
+        why: Brenmark is a party, so it is bound by treaty to respect the SRSO's immunity in its courts.
+      - text: provides that the SRSO, its property and assets "shall enjoy immunity from every form of legal process except insofar as in any particular case it has expressly waived its immunity".
+        weight: essential
+        kind: statement
+        issues:
+          - immunity
+        why: Immunity from every form of legal process unless expressly waived, on the UN General Convention model.
+      - text: After violent unrest in Solvania, a member state, the SRSO Council deployed a stabilisation mission at Solvania's request.
+        weight: essential
+        kind: conduct
+        issues:
+          - powers
+        why: 'Within the express power: a mission deployed at a member state''s request.'
+      - text: Brenmark, another member, placed an infantry battalion at the SRSO's disposal.
+        weight: essential
+        kind: relationship
+        issues:
+          - art7
+        why: 'A seconded national contingent: ARIO art 7 (organ placed at disposal), not art 6, governs attribution.'
+      - text: Under the mission's arrangements, the SRSO Force Commander issued general orders
+        weight: essential
+        kind: conduct
+        issues:
+          - control
+        why: General orders alone do not give the SRSO effective control over the specific conduct.
+      - text: but Brenmark's own colonel kept command over the battalion's movements
+        weight: essential
+        kind: relationship
+        issues:
+          - control
+        why: 'Operational command stayed with Brenmark: points to Brenmark''s effective control.'
+      - text: and Brenmark's defence ministry approved each of the battalion's operations in advance.
+        weight: essential
+        kind: conduct
+        issues:
+          - control
+        why: 'Prior approval of every operation: Brenmark held factual control over the battalion''s conduct.'
+      - text: The battalion was assigned to protect a declared "safe zone" around the town of Merrin.
+        weight: background
+        kind: context
+      - text: When armed rebels approached, the Brenmarkian colonel, acting on direct instructions from Brenmark's defence ministry, withdrew the battalion
+        weight: essential
+        kind: conduct
+        issues:
+          - control
+          - brenmark
+        why: 'Withdrawal on Brenmark''s direct instructions: Brenmark had effective control of this act (Mothers of Srebrenica).'
+      - text: and ordered the civilians sheltering in its compound to leave.
+        weight: essential
+        kind: conduct
+        issues:
+          - control
+          - brenmark
+        why: The specific act that exposed the civilians; attributable to the state controlling it, possibly to both.
+      - text: The rebels killed 140 of those civilians.
+        weight: essential
+        kind: harm
+        issues:
+          - brenmark
+        why: 'The loss flowing from the expulsion: the basis of the families'' claims against whoever controlled the withdrawal.'
+      - text: The SRSO Council later resolved to create a Special Tribunal to try the rebel leaders
+        weight: essential
+        kind: conduct
+        issues:
+          - powers
+        why: A judicial body is not an express power; ask whether it is implied as necessary to the SRSO's functions.
+      - text: even though the Charter does not mention any judicial function.
+        weight: essential
+        kind: context
+        issues:
+          - powers
+        why: Speciality confines an organisation to conferred powers; implied powers must be essential to its functions (Nuclear Weapons).
+      - text: The families of the Merrin victims have sued both the SRSO and the State of Brenmark in the courts of Brenmark.
+        weight: essential
+        kind: conduct
+        issues:
+          - immunity
+          - brenmark
+        why: 'Two defendants, two questions: treaty immunity for the SRSO; no immunity for Brenmark in its own courts.'
+      - text: The SRSO has refused to waive its immunity
+        weight: essential
+        kind: conduct
+        issues:
+          - immunity
+        why: No express waiver, so the Headquarters Agreement immunity applies on its terms.
+      - text: and has offered no other means of settling the families' claims.
+        weight: essential
+        kind: conduct
+        issues:
+          - immunity
+        why: No alternative remedy raises access-to-justice concerns, yet Mothers of Srebrenica upheld UN immunity regardless.
+      - text: 'Advise the families on: (a) whether the SRSO has international legal personality and whether the Council had power to create the Special Tribunal; (b) whether the battalion''s conduct at Merrin is attributable to the SRSO, to Brenmark, or to both; and (c) whether their claims against the SRSO and Brenmark in Brenmark''s courts can proceed.'
+        weight: background
+        kind: context
+        issues:
+          - personality
+          - powers
+          - art7
+          - immunity
+          - brenmark
+  - question: laws2000-w00-q008
+    parties:
+      - name: Ms Hana Farah
+        role: Velorian national detained under s 12 for three years
+      - name: Australia (DFAT)
+        role: party to the Convention; drafting a reply to Veloria
+      - name: Veloria
+        role: party to the Convention; protesting Ms Farah's detention
+    issues:
+      - id: direct-effect
+        label: Article 5 has no direct effect (Dietrich; s 51(xxix))
+        concept: laws2000-w05-treaties-in-australian-law
+      - id: s15ab
+        label: Section 20 and s 15AB, including the prior-participation condition
+        concept: laws2000-w05-international-law-in-australian-interpretation
+      - id: jumbunna
+        label: The Jumbunna presumption applied to s 20
+        concept: laws2000-w05-international-law-in-australian-interpretation
+      - id: legality
+        label: 'Section 12: the principle of legality and the clear-words limit'
+        concept: laws2000-w05-international-law-in-australian-interpretation
+      - id: art27
+        label: 'DFAT''s draft reply: VCLT art 27 and ARSIWA art 3'
+        concept: laws2000-w05-il-perspective-on-national-law
+    facts:
+      - text: In 2019 Australia ratified the (fictional) Convention on Standards of Immigration Detention 2018
+        weight: essential
+        kind: relationship
+        issues:
+          - direct-effect
+          - s15ab
+          - art27
+        why: Binds Australia internationally; ratification before the 2021 Act meets s 15AB's prior-participation condition.
+      - text: after it was tabled before the Joint Standing Committee on Treaties.
+        weight: background
+        kind: context
+      - text: 'Article 5 of the Convention provides: "No person shall be held in immigration detention for more than twelve months without review of the lawfulness of that detention by an independent court."'
+        weight: essential
+        kind: statement
+        issues:
+          - direct-effect
+          - s15ab
+          - jumbunna
+          - art27
+        why: 'The obligation relied on: independent court review once detention passes twelve months.'
+      - text: The National Interest Analysis stated that the Convention "will be implemented through existing legislation" and that no new laws were needed.
+        weight: essential
+        kind: statement
+        issues:
+          - direct-effect
+          - s15ab
+        why: An executive statement cannot implement a treaty; at most it is extrinsic material on meaning.
+      - text: No implementing legislation has been passed.
+        weight: essential
+        kind: context
+        issues:
+          - direct-effect
+        why: Without legislation (s 51(xxix)), Article 5 has no direct effect in Australian law (Dietrich).
+      - text: Veloria and 40 other states are also parties to the Convention.
+        weight: essential
+        kind: relationship
+        issues:
+          - art27
+        why: Australia owes Article 5 to Veloria as a fellow party, which grounds Veloria's protest.
+      - text: In 2021 Parliament enacted the Border Detention Act 2021 (Cth), a fictional statute for this problem.
+        weight: essential
+        kind: timing
+        issues:
+          - s15ab
+        why: Enacted after ratification, so the Convention qualifies as extrinsic material under s 15AB(2)(d).
+      - text: 'Section 12 provides: "An unlawful non-citizen must be kept in detention until he or she is removed from Australia or granted a visa."'
+        weight: essential
+        kind: statement
+        issues:
+          - legality
+        why: 'Clear words authorising detention until removal or a visa: legality cannot override them.'
+      - text: 'Section 20 provides: "The detention of each person under this Act shall be reviewed every six months."'
+        weight: essential
+        kind: statement
+        issues:
+          - s15ab
+          - jumbunna
+        why: 'Silent on who reviews: arguably ambiguous, which opens the door to the Convention as an aid.'
+      - text: The Act does not say who conducts the review
+        weight: essential
+        kind: context
+        issues:
+          - s15ab
+          - jumbunna
+        why: The gap creates ambiguity, so s 15AB and Jumbunna favour reading in an independent court.
+      - text: in practice, a departmental officer reviews each file.
+        weight: essential
+        kind: conduct
+        issues:
+          - s15ab
+          - art27
+        why: 'Executive review only: falls short of Article 5''s independent court requirement.'
+      - text: Ms Hana Farah, a Velorian national
+        weight: essential
+        kind: party
+        issues:
+          - art27
+        why: A Velorian national, so Veloria is the party state directly concerned in the protest.
+      - text: has been detained under s 12 for three years.
+        weight: essential
+        kind: conduct
+        issues:
+          - legality
+          - art27
+        why: 'Three years without court review: far beyond Article 5''s twelve-month limit.'
+      - text: Her detention has been reviewed six times, always by departmental officers.
+        weight: essential
+        kind: conduct
+        issues:
+          - art27
+          - s15ab
+        why: Six departmental reviews satisfy s 20 on its face but not Article 5.
+      - text: She has applied to the Federal Court arguing that (1) Article 5 of the Convention entitles her to release or, at least, to review by a court
+        weight: essential
+        kind: statement
+        issues:
+          - direct-effect
+        why: 'Fails: an unimplemented treaty creates no enforceable rights (Dietrich; Teoh).'
+      - text: (2) s 20 should be read as requiring review by an independent court
+        weight: essential
+        kind: statement
+        issues:
+          - s15ab
+          - jumbunna
+        why: 'Her strongest argument: ambiguity plus s 15AB and Jumbunna support a treaty-consistent reading.'
+      - text: and (3) the Act should not be read as authorising indefinite detention.
+        weight: essential
+        kind: statement
+        issues:
+          - legality
+        why: Legality (Coco) demands clear words; s 12 arguably supplies them, and a treaty cannot modify them (Yager).
+      - text: Meanwhile, Veloria has protested to the Australian Government, complaining that Ms Farah's detention violates the Convention.
+        weight: essential
+        kind: statement
+        issues:
+          - art27
+        why: An inter-state claim judged by international law, not Australian law.
+      - text: 'DFAT''s draft reply states: "Ms Farah''s detention is lawful under the Border Detention Act, which Parliament was entitled to pass.'
+        weight: essential
+        kind: statement
+        issues:
+          - art27
+        why: 'Domestic lawfulness is irrelevant: internal law cannot justify failure to perform a treaty (VCLT art 27).'
+      - text: Australia has therefore not breached its international obligations."
+        weight: essential
+        kind: statement
+        issues:
+          - art27
+        why: 'Wrong: international law alone characterises wrongfulness, whatever domestic law says (ARSIWA art 3).'
+      - text: Advise Ms Farah on her arguments in the Federal Court, and advise DFAT on whether its draft reply to Veloria is correct in international law.
+        weight: background
+        kind: context
+        issues:
+          - direct-effect
+          - s15ab
+          - legality
+          - art27
+  - question: laws2000-w00-q009
+    parties:
+      - name: Arvena
+        role: upstream state bound to release a minimum flow
+      - name: Dessary
+        role: downstream state; client, and author of its own response
+      - name: River Guard
+        role: Arvenian nationalist militia supported by the Arvenian army
+    issues:
+      - id: interpret
+        label: Article 3 read with Article 8 and the preamble (art 31)
+        concept: laws2000-w03-treaty-interpretation
+      - id: breaches
+        label: Framework (ARSIWA art 2) and the breaches
+        concept: laws2000-w07-framework-of-state-responsibility
+      - id: force-majeure
+        label: Force majeure and the contribution exception (art 23)
+        concept: laws2000-w07-circumstances-precluding-wrongfulness
+      - id: necessity
+        label: Necessity, applied strictly (art 25)
+        concept: laws2000-w07-circumstances-precluding-wrongfulness
+      - id: river-guard
+        label: 'The River Guard raid: art 8 and effective control'
+        concept: laws2000-w07-effective-control-and-private-conduct
+      - id: countermeasures
+        label: Dessary's countermeasures (arts 22, 49–53)
+        concept: laws2000-w07-circumstances-precluding-wrongfulness
+      - id: consequences
+        label: 'Consequences: cessation and reparation (arts 30–31)'
+        concept: laws2000-w07-cessation-and-reparation
+    facts:
+      - text: The Kalt River rises in Arvena and flows into Dessary, where it irrigates most of Dessary's farmland.
+        weight: background
+        kind: context
+      - text: Under the (fictional) Kalt River Treaty 2010 between the two states
+        weight: essential
+        kind: relationship
+        issues:
+          - breaches
+        why: 'A bilateral treaty: its obligations are owed by Arvena to Dessary.'
+      - text: whose preamble records their aim "to guarantee Dessary a reliable and predictable flow of water"
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+          - necessity
+        why: 'Object and purpose (art 31): a reliable flow supports reading Article 3 with no implied drought exception.'
+      - text: Article 3 provides that Arvena "shall release a minimum flow of 400 cubic metres per second from the Kalt Dam at all times".
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+          - breaches
+        why: 'A mandatory minimum "at all times": any shortfall is a breach unless a defence applies.'
+      - text: Article 8 provides that "in the event of an emergency affecting the river, the Parties shall consult without delay".
+        weight: essential
+        kind: statement
+        issues:
+          - interpret
+          - breaches
+        why: 'Context: emergencies are met by consultation, not unilateral cuts; failing to consult is itself a breach.'
+      - text: Under Article 11, Dessary pays Arvena an annual fee for the hydroelectric power generated at the dam.
+        weight: essential
+        kind: statement
+        issues:
+          - countermeasures
+        why: The obligation Dessary later suspends; a countermeasure must be directed at Arvena and be reversible.
+      - text: In 2024 Arvena's own dam engineers reported that the dam's outlet gates were corroded and needed urgent replacement
+        weight: essential
+        kind: mental
+        issues:
+          - force-majeure
+        why: Arvena knew of the defect, which sets up the contribution exception in art 23(2)(a).
+      - text: the Arvenian government deferred the work to save money.
+        weight: essential
+        kind: conduct
+        issues:
+          - force-majeure
+        why: A deliberate choice that contributed to the gate failure, so force majeure is unavailable.
+      - text: In March 2026 an earthquake jammed the gates shut, and for three weeks no water could be released at all.
+        weight: essential
+        kind: context
+        issues:
+          - force-majeure
+          - breaches
+        why: 'An irresistible event making performance materially impossible: prima facie force majeure for the three weeks.'
+      - text: After the gates were repaired, Arvena's worst drought in a century set in.
+        weight: essential
+        kind: context
+        issues:
+          - necessity
+        why: A grave natural peril, but necessity also requires the only available means and no contribution by Arvena.
+      - text: Arvena reduced the release to 200 cubic metres per second
+        weight: essential
+        kind: conduct
+        issues:
+          - breaches
+        why: 'Half the guaranteed minimum: a clear breach of Article 3 unless a defence applies.'
+      - text: saying that its capital's reservoirs would otherwise run dry within two months.
+        weight: essential
+        kind: statement
+        issues:
+          - necessity
+        why: Invokes an essential interest under grave and imminent peril (art 25(1)(a)); a two-month horizon is arguable.
+      - text: Arvena did not consult Dessary
+        weight: essential
+        kind: conduct
+        issues:
+          - breaches
+          - interpret
+        why: Breach of Article 8's duty to consult without delay in an emergency.
+      - text: did not impose water restrictions in its capital
+        weight: essential
+        kind: conduct
+        issues:
+          - necessity
+        why: Other means were available, so the cut was not the "only way" (Gabčíkovo-Nagymaros).
+      - text: and continued to supply full flows to its own export cotton farms upstream.
+        weight: essential
+        kind: conduct
+        issues:
+          - necessity
+        why: 'Arvena protected its own commercial use while cutting Dessary''s flow: fatal to the "only way" requirement.'
+      - text: Crop losses in Dessary are severe.
+        weight: essential
+        kind: harm
+        issues:
+          - consequences
+        why: Material damage calling for full reparation, chiefly compensation (art 31; Chorzów).
+      - text: In May, members of the River Guard
+        weight: background
+        kind: party
+      - text: an Arvenian nationalist militia that the Arvenian army funds, trains and supplies
+        weight: essential
+        kind: relationship
+        issues:
+          - river-guard
+        why: Funding, training and supply alone do not amount to effective control (Nicaragua).
+      - text: and whose targets the army's intelligence unit has helped select
+        weight: essential
+        kind: conduct
+        issues:
+          - river-guard
+        why: Help selecting targets moves towards direction or control under art 8, but must relate to this operation.
+      - text: seized and wrecked a Dessarian river-monitoring station on the Arvenian bank of the river.
+        weight: essential
+        kind: conduct
+        issues:
+          - river-guard
+          - breaches
+        why: The act to be attributed; if attributable, a further internationally wrongful act by Arvena.
+      - text: Arvenian officials say they did not know of the raid in advance.
+        weight: essential
+        kind: mental
+        issues:
+          - river-guard
+        why: No advance knowledge suggests no instruction or control over this raid, defeating art 8 attribution.
+      - text: In June, without prior notice or any attempt at negotiation
+        weight: essential
+        kind: conduct
+        issues:
+          - countermeasures
+        why: Art 52 requires a demand and notice with an offer to negotiate before countermeasures; neither was given.
+      - text: Dessary stopped paying the Article 11 fees
+        weight: essential
+        kind: conduct
+        issues:
+          - countermeasures
+        why: Suspending a treaty payment is a classic reversible countermeasure, if proportionate and procedurally proper.
+      - text: and announced it would withhold them "until Arvena complies with the Treaty".
+        weight: essential
+        kind: statement
+        issues:
+          - countermeasures
+        why: Aimed at inducing compliance, as art 49 requires; it must end once Arvena complies.
+      - text: It also closed its airspace to all Arvenian civil aircraft.
+        weight: essential
+        kind: conduct
+        issues:
+          - countermeasures
+        why: 'An unrelated, wider measure hitting civil aviation: proportionality under art 51 is doubtful.'
+      - text: Advise Dessary on Arvena's international responsibility, the defences Arvena may raise, and the lawfulness of Dessary's own response.
+        weight: background
+        kind: context
+        issues:
+          - breaches
+          - force-majeure
+          - necessity
+          - countermeasures
+  - question: laws2000-w00-q010
+    parties:
+      - name: Pelora
+        role: island state; the client, claiming Ashkar and Tallis
+      - name: Oriande
+        role: neighbouring island state; occupies Ashkar and administers Tallis
+      - name: Leo Park
+        role: Australian engineer who killed a Peloran worker at Reef K
+    issues:
+      - id: ashkar
+        label: 'Ashkar: an island acquired by Pelora through accretion'
+        concept: laws2000-w04-modes-of-territorial-acquisition
+      - id: occupation
+        label: Oriande's forcible occupation of Ashkar
+        concept: laws2000-w04-modes-of-territorial-acquisition
+      - id: prescription
+        label: 'Tallis Island: prescription and acquiescence'
+        concept: laws2000-w04-modes-of-territorial-acquisition
+      - id: reef-k
+        label: The status of Reef K
+        concept: laws2000-w04-modes-of-territorial-acquisition
+      - id: arrest
+        label: 'The arrest of the Peloran crew: Lotus and enforcement'
+        concept: laws2000-w05-forms-of-jurisdiction
+      - id: park
+        label: Each state's ground of jurisdiction over Mr Park
+        concept: laws2000-w05-grounds-of-jurisdiction
+    facts:
+      - text: Pelora and Oriande are neighbouring island states in the Serin Sea.
+        weight: background
+        kind: party
+      - text: Three territorial disputes have arisen between them.
+        weight: background
+        kind: context
+      - text: Ashkar. In 2022 an undersea volcanic eruption created a new island, Ashkar, nine nautical miles off Pelora's coast
+        weight: essential
+        kind: context
+        issues:
+          - ashkar
+        why: 'New land formed by a natural process: accretion to the coastal state, not terra nullius.'
+      - text: within Pelora's territorial sea.
+        weight: essential
+        kind: context
+        issues:
+          - ashkar
+          - occupation
+        why: Formed within Pelora's sovereign waters, so the new land accrues to Pelora automatically.
+      - text: Ashkar is about two square kilometres in area and remains above water at high tide.
+        weight: essential
+        kind: context
+        issues:
+          - ashkar
+        why: 'Above water at high tide: an island under UNCLOS art 121(1).'
+      - text: In 2024 Oriande landed a detachment of marines on Ashkar, raised its flag and declared the island Oriandan territory
+        weight: essential
+        kind: conduct
+        issues:
+          - occupation
+        why: Military seizure of another state's territory breaches art 2(4); conquest confers no title.
+      - text: '"by effective occupation of land belonging to no state".'
+        weight: essential
+        kind: statement
+        issues:
+          - occupation
+          - ashkar
+        why: Occupation needs terra nullius; Ashkar already belonged to Pelora by accretion.
+      - text: Pelora protested immediately and has protested ever since.
+        weight: essential
+        kind: statement
+        issues:
+          - occupation
+        why: Continuous protest prevents acquiescence or any consolidation of Oriande's claim.
+      - text: Oriandan coast guard vessels now patrol the waters around Ashkar
+        weight: essential
+        kind: conduct
+        issues:
+          - arrest
+        why: Enforcement activity in Peloran waters without title.
+      - text: and last month arrested the crew of a Peloran fishing boat there, taking them to Oriande for trial.
+        weight: essential
+        kind: conduct
+        issues:
+          - arrest
+        why: 'Enforcement jurisdiction on Pelora''s territory without consent: unlawful under Lotus.'
+      - text: Tallis Island. Under an 1890 treaty, a colonial power ceded Tallis Island to Pelora.
+        weight: essential
+        kind: statement
+        issues:
+          - prescription
+        why: Cession by treaty gives Pelora an original title.
+      - text: Since the 1950s, however, Oriande has peacefully administered Tallis
+        weight: essential
+        kind: conduct
+        issues:
+          - prescription
+        why: 'Long, peaceful and public display of authority: the core of acquisitive prescription.'
+      - text: it runs the island's school, post office and police station, and its residents vote in Oriandan elections.
+        weight: essential
+        kind: conduct
+        issues:
+          - prescription
+        why: Concrete acts of sovereign administration, sustained for decades.
+      - text: Pelora made no protest until 2020, when it first asserted that Tallis was Peloran.
+        weight: essential
+        kind: conduct
+        issues:
+          - prescription
+        why: Seventy years' silence amounts to acquiescence; a late protest cannot undo it.
+      - text: Reef K. Reef K is a coral formation 150 nautical miles from Oriande, within Oriande's exclusive economic zone
+        weight: essential
+        kind: context
+        issues:
+          - reef-k
+        why: Within Oriande's EEZ, so Oriande has rights over installations there (UNCLOS art 60).
+      - text: that is submerged at high tide.
+        weight: essential
+        kind: context
+        issues:
+          - reef-k
+        why: 'Not an island: a low-tide feature beyond the territorial sea cannot be appropriated (South China Sea).'
+      - text: Oriande has piled sand and concrete onto it to build a permanent airstrip and a port
+        weight: essential
+        kind: conduct
+        issues:
+          - reef-k
+        why: Artificial works cannot change a feature's natural status; installations have no island status (art 60(8)).
+      - text: and now claims a 12-nautical-mile territorial sea around it.
+        weight: essential
+        kind: statement
+        issues:
+          - reef-k
+        why: 'Invalid: artificial installations get no territorial sea, only safety zones up to 500 metres (art 60(5)).'
+      - text: Last month, aboard an Oriandan-registered supply ship moored at Reef K's port
+        weight: essential
+        kind: context
+        issues:
+          - park
+        why: 'The flag state has jurisdiction over its ship, akin to territory (Lotus): Oriande''s strongest ground.'
+      - text: Leo Park, an Australian engineer employed by an Oriandan contractor
+        weight: essential
+        kind: party
+        issues:
+          - park
+        why: Australian nationality gives Australia active nationality jurisdiction.
+      - text: killed a Peloran worker in a fight.
+        weight: essential
+        kind: harm
+        issues:
+          - park
+        why: A Peloran victim gives Pelora passive personality (US v Yunis), the weakest ground.
+      - text: Oriande, Australia and Pelora have each announced an intention to prosecute Mr Park.
+        weight: essential
+        kind: statement
+        issues:
+          - park
+        why: Concurrent jurisdiction with no hierarchy; custody and the closest link usually decide.
+      - text: Advise Pelora on its territorial claims to Ashkar and Tallis, the status of Reef K, the lawfulness of Oriande's arrest of the Peloran crew, and which states may exercise jurisdiction over Mr Park.
+        weight: background
+        kind: context
+        issues:
+          - ashkar
+          - prescription
+          - reef-k
+          - arrest
+          - park
+  - question: laws2000-w00-q011
+    parties:
+      - name: Rostam Vell
+        role: former President of Kaldera; ordered the torture
+      - name: Ines Moro
+        role: Kaldera's serving Minister for Foreign Affairs
+      - name: Kaldera
+        role: defendant state in the civil claim; asserts immunity
+      - name: Torture survivors
+        role: some now Australian citizens; seek prosecution, a declaration and damages
+    issues:
+      - id: jurisdiction
+        label: Universal jurisdiction and Division 268
+        concept: laws2000-w05-grounds-of-jurisdiction
+      - id: procedural
+        label: Immunity is procedural; responsibility is substantive
+        concept: laws2000-w06-immunity-and-serious-international-crimes
+      - id: vell
+        label: 'Vell''s functional immunity: Pinochet (No 3)'
+        concept: laws2000-w06-immunity-and-serious-international-crimes
+      - id: moro
+        label: 'Moro: personal immunity of a serving foreign minister'
+        concept: laws2000-w06-immunities-of-state-officials
+      - id: declaration
+        label: 'The declaration request: Nulyarimma'
+        concept: laws2000-w05-customary-international-law-in-australian-law
+      - id: state-immunity
+        label: 'The civil claim against Kaldera: state immunity'
+        concept: laws2000-w06-immunity-and-serious-international-crimes
+    facts:
+      - text: Rostam Vell was President of Kaldera from 2016 until he lost an election in 2024.
+        weight: essential
+        kind: party
+        issues:
+          - vell
+        why: 'A former head of state: personal immunity has ended, so only functional immunity can remain.'
+      - text: Human rights investigators have documented that between 2019 and 2022
+        weight: essential
+        kind: timing
+        issues:
+          - vell
+        why: The torture post-dates both states joining the Convention against Torture, the date that mattered in Pinochet (No 3).
+      - text: on orders issued by Vell as President
+        weight: essential
+        kind: conduct
+        issues:
+          - vell
+          - procedural
+        why: Official acts, so functional immunity is in issue; Pinochet (No 3) denied it for torture under the Convention.
+      - text: Kalderan security forces systematically tortured hundreds of political prisoners in state detention centres.
+        weight: essential
+        kind: conduct
+        issues:
+          - jurisdiction
+          - state-immunity
+        why: 'Systematic torture by state agents: a crime against humanity under Div 268, and the basis of the civil claim.'
+      - text: Kaldera and Australia have both been parties to the Convention against Torture since the 1990s.
+        weight: essential
+        kind: relationship
+        issues:
+          - vell
+          - jurisdiction
+        why: Both bound by the Convention's prosecute-or-extradite regime, which Pinochet (No 3) found inconsistent with functional immunity.
+      - text: Kaldera has not prosecuted anyone.
+        weight: essential
+        kind: context
+        issues:
+          - jurisdiction
+        why: No home-state prosecution strengthens the case for Australia exercising universal jurisdiction.
+      - text: In March 2026 Vell arrived in Sydney on a private visit
+        weight: essential
+        kind: timing
+        issues:
+          - vell
+          - jurisdiction
+        why: Presence in Australia makes arrest possible; a former head of state on a private visit has no personal immunity.
+      - text: accompanied by Ines Moro, Kaldera's current Minister for Foreign Affairs.
+        weight: essential
+        kind: party
+        issues:
+          - moro
+        why: 'A serving foreign minister: complete personal immunity and inviolability while in office (Arrest Warrant).'
+      - text: Evidence suggests that, as Kaldera's Minister of the Interior in 2021, Moro personally directed the enforced disappearance of several opposition journalists.
+        weight: essential
+        kind: conduct
+        issues:
+          - moro
+          - procedural
+        why: A likely crime against humanity, but no exception to personal immunity; prosecution must wait until she leaves office.
+      - text: The Commonwealth Director of Public Prosecutions considers that the conduct of both could amount to crimes against humanity within Division 268 of the Criminal Code Act 1995 (Cth).
+        weight: essential
+        kind: statement
+        issues:
+          - jurisdiction
+        why: Div 268 gives a statutory basis for universal jurisdiction over crimes against humanity.
+      - text: A group of torture survivors, some of whom are now Australian citizens, wants three things.
+        weight: background
+        kind: party
+      - text: First, that Vell and Moro be arrested and prosecuted in Australia.
+        weight: essential
+        kind: statement
+        issues:
+          - vell
+          - moro
+        why: 'Two different immunities: functional for the former President, personal for the serving minister.'
+      - text: Second, and failing that, that the Federal Court declare that Vell has committed "the customary international crime of torture", even if no Australian statute applies.
+        weight: essential
+        kind: statement
+        issues:
+          - declaration
+        why: 'Nulyarimma: a customary crime is not part of Australian law without legislation, so no declaration on custom alone.'
+      - text: Third, they have sued the State of Kaldera in the Supreme Court of New South Wales for damages for their torture in Kalderan detention centres.
+        weight: essential
+        kind: conduct
+        issues:
+          - state-immunity
+        why: 'Torture abroad: the territorial personal-injury exception does not apply, and Germany v Italy recognises no jus cogens exception.'
+      - text: Kaldera has not appeared in the civil proceedings but has sent a diplomatic note asserting immunity.
+        weight: essential
+        kind: statement
+        issues:
+          - state-immunity
+        why: No submission to the jurisdiction; immunity is claimed and must be given effect unless an exception applies.
+      - text: Kaldera has also formally demanded Vell's and Moro's immediate departure
+        weight: essential
+        kind: statement
+        issues:
+          - moro
+        why: 'No waiver: only Kaldera could waive its officials'' immunity, and it refuses.'
+      - text: insisting that both are protected by immunity "as a matter of customary international law".
+        weight: essential
+        kind: statement
+        issues:
+          - vell
+          - moro
+        why: Right for Moro while in office; wrong for Vell's torture after Pinochet (No 3).
+      - text: Advise the survivors on each of their three objectives.
+        weight: background
+        kind: context
+        issues:
+          - jurisdiction
+          - declaration
+          - state-immunity
+  - question: laws2000-w00-q012
+    parties:
+      - name: Sarenia
+        role: treaty party claiming invalidity; the client
+      - name: Tovald
+        role: other treaty party; its President made the 2020 statement
+      - name: TovaldOil
+        role: state-owned company empowered to grant drilling licences
+    issues:
+      - id: error
+        label: 'Error under art 48: the erroneous map'
+        concept: laws2000-w03-invalidity-of-treaties
+      - id: competence
+        label: 'The Senate regulation: arts 7 and 46'
+        concept: laws2000-w03-invalidity-of-treaties
+      - id: corruption
+        label: 'Corruption under art 50: the evidence'
+        concept: laws2000-w03-invalidity-of-treaties
+      - id: unilateral
+        label: The President's statement as a binding unilateral undertaking
+        concept: laws2000-w03-unilateral-statements
+      - id: attribution
+        label: 'TovaldOil''s conduct: attribution under art 5 and the breach'
+        concept: laws2000-w07-attribution-to-the-state
+      - id: reparation
+        label: Consequences matched to Sarenia's losses
+        concept: laws2000-w07-cessation-and-reparation
+    facts:
+      - text: In 2018 Sarenia and Tovald signed a Maritime Boundary Treaty dividing the continental shelf between their coasts.
+        weight: essential
+        kind: relationship
+        issues:
+          - error
+        why: The treaty whose validity is challenged; consent was expressed by signature.
+      - text: Sarenia's Minister for Energy signed after producing full powers issued by Sarenia's Foreign Minister
+        weight: essential
+        kind: conduct
+        issues:
+          - competence
+        why: Full powers establish authority under art 7(1)(a); Tovald was entitled to rely on them.
+      - text: the treaty entered into force on signature, as its final clause provided.
+        weight: background
+        kind: timing
+      - text: Annex A, a map prepared by Tovald's national survey office, plotted the boundary line and showed the Zaran gas field lying wholly on Sarenia's side.
+        weight: essential
+        kind: statement
+        issues:
+          - error
+        why: 'An error of fact in Tovald''s own map: Sarenia did not contribute to it, so art 48(2) is no bar.'
+      - text: The Sarenian delegation had told Tovald throughout the negotiations that Sarenia would sign only if Zaran fell within its area.
+        weight: essential
+        kind: statement
+        issues:
+          - error
+        why: Zaran's location was an essential basis of Sarenia's consent, and Tovald knew it.
+      - text: In 2023 new surveys revealed that Tovald's map was wrong
+        weight: essential
+        kind: context
+        issues:
+          - error
+        why: An error of fact that existed when the treaty was concluded, discovered only later.
+      - text: plotted correctly, the agreed coordinates in the treaty text place about 60 per cent of Zaran on Tovald's side.
+        weight: essential
+        kind: context
+        issues:
+          - error
+        why: 'Sarenia agreed coordinates on a mistaken basis created by the map: the paradigm art 48 case.'
+      - text: Sarenia now argues that the treaty is invalid.
+        weight: essential
+        kind: statement
+        issues:
+          - error
+        why: Error makes the treaty voidable at Sarenia's instance, not void from the start.
+      - text: It also argues that its Energy Minister lacked authority because a 1962 internal regulation of the Sarenian Senate
+        weight: essential
+        kind: statement
+        issues:
+          - competence
+        why: 'An internal-law competence argument: art 46 requires a manifest violation of a fundamental rule.'
+      - text: never published outside Sarenia and never mentioned in the negotiations
+        weight: essential
+        kind: context
+        issues:
+          - competence
+        why: Not objectively evident to Tovald acting in good faith, so not "manifest" (Cameroon v Nigeria).
+      - text: requires Senate approval of boundary treaties.
+        weight: essential
+        kind: context
+        issues:
+          - competence
+        why: An internal regulation, unlikely to be a rule "of fundamental importance".
+      - text: Finally, it has heard rumours that Tovald's state oil company paid for the Sarenian chief negotiator's daughter to study abroad in 2017
+        weight: essential
+        kind: conduct
+        issues:
+          - corruption
+        why: A possible non-due advantage to a representative, but art 50 requires that it induced consent.
+      - text: but has no documentary evidence.
+        weight: essential
+        kind: context
+        issues:
+          - corruption
+        why: Rumours cannot establish corruption, and the delegation's map-driven position suggests no inducement.
+      - text: Meanwhile, at a televised press conference in 2020, Tovald's President
+        weight: essential
+        kind: context
+        issues:
+          - unilateral
+        why: Public, and by the head of state, who can bind the state without full powers (Nuclear Tests).
+      - text: responding to Sarenian concerns about the field
+        weight: essential
+        kind: context
+        issues:
+          - unilateral
+        why: Directed to Sarenia's specific concern, like the minister's promise in Eastern Greenland.
+      - text: 'declared: "Tovald solemnly undertakes that it will not drill in the Zaran field until any question about the boundary has been finally resolved between our two nations."'
+        weight: essential
+        kind: statement
+        issues:
+          - unilateral
+        why: '"Solemnly undertakes": clear and specific words showing an intention to be legally bound.'
+      - text: In 2025 TovaldOil, a state-owned company
+        weight: essential
+        kind: party
+        issues:
+          - attribution
+        why: State ownership alone does not make a company a state organ.
+      - text: empowered by Tovald's Petroleum Act to grant drilling licences on the state's behalf
+        weight: essential
+        kind: relationship
+        issues:
+          - attribution
+        why: 'Empowered by law to exercise governmental authority: art 5 attributes its conduct in that capacity.'
+      - text: licensed itself and began drilling in the part of Zaran that falls on Tovald's side of the treaty coordinates.
+        weight: essential
+        kind: conduct
+        issues:
+          - attribution
+          - unilateral
+        why: Licensing is the governmental function, so the drilling is Tovald's and breaches the 2020 undertaking (art 12).
+      - text: It has already extracted gas worth USD 300 million.
+        weight: essential
+        kind: harm
+        issues:
+          - reparation
+        why: Gas cannot be returned in kind, so compensation for its value (art 36), subject to the boundary outcome.
+      - text: Tovald says the President's statement was "political, not legal"
+        weight: essential
+        kind: statement
+        issues:
+          - unilateral
+        why: 'Contradicted by its terms: "solemnly undertakes" shows an intention to be bound.'
+      - text: and that in any event TovaldOil is a company, not the state.
+        weight: essential
+        kind: statement
+        issues:
+          - attribution
+        why: 'Fails: art 5 looks to governmental authority conferred by law, not corporate form.'
+      - text: Advise Sarenia on whether the Maritime Boundary Treaty is valid, whether Tovald is bound by its President's statement, and whether Tovald has incurred international responsibility and, if so, what Sarenia can claim.
+        weight: background
+        kind: context
+        issues:
+          - error
+          - unilateral
+          - attribution
+          - reparation
+  - question: laws2000-w00-q013
+    parties:
+      - name: Ardenia
+        role: state whose corvette was sunk; later struck and occupied Velmoran territory
+      - name: Velmora
+        role: state that sank the Tamsin and armed the Northern Front; ICJ applicant
+      - name: Northern Front
+        role: rebel group fighting the Ardenian government
+    issues:
+      - id: framework
+        label: The prohibition (art 2(4)) and the self-defence framework (art 51)
+        concept: laws2000-w09-prohibition-on-the-use-of-force
+      - id: armed-attack
+        label: 'The sinking of the Tamsin: an armed attack?'
+        concept: laws2000-w09-armed-attack
+      - id: support
+        label: 'Support for the Northern Front: not an armed attack'
+        concept: laws2000-w09-armed-attack
+      - id: march
+        label: 'Necessity and proportionality: the March strike'
+        concept: laws2000-w09-necessity-proportionality-and-reporting
+      - id: july
+        label: 'The July operations: necessity, proportionality and purpose'
+        concept: laws2000-w09-necessity-proportionality-and-reporting
+      - id: reporting
+        label: Reporting to the Security Council
+        concept: laws2000-w09-necessity-proportionality-and-reporting
+      - id: pm
+        label: 'Provisional measures: the art 41 conditions and LaGrand'
+        concept: laws2000-w08-provisional-measures
+    facts:
+      - text: Ardenia and Velmora share a river border and have disputed the ownership of Kessel Island, in the river, for twenty years.
+        weight: background
+        kind: context
+      - text: Both are UN members
+        weight: essential
+        kind: relationship
+        issues:
+          - framework
+        why: Both bound by art 2(4), which also binds as custom (Nicaragua).
+      - text: and both have made declarations under art 36(2) of the ICJ Statute accepting the Court's jurisdiction over legal disputes with any state accepting the same obligation.
+        weight: essential
+        kind: relationship
+        issues:
+          - pm
+        why: Reciprocal optional clause declarations give prima facie jurisdiction for provisional measures.
+      - text: Over the past year Velmora has supplied rifles, funds and training to the Northern Front, a rebel group fighting the Ardenian government in Ardenia's north.
+        weight: essential
+        kind: conduct
+        issues:
+          - support
+        why: Arms, funds and training breach non-intervention but fall below an armed attack (Nicaragua).
+      - text: Ardenian intelligence has found no evidence that Velmoran officers plan or direct the Front's operations.
+        weight: essential
+        kind: context
+        issues:
+          - support
+        why: No effective control, so the Front's operations are not attributable to Velmora (art 8; Nicaragua).
+      - text: On 3 March a Velmoran missile boat fired two missiles at the Ardenian navy corvette Tamsin
+        weight: essential
+        kind: conduct
+        issues:
+          - armed-attack
+        why: Force by a state organ against a warship can be an armed attack (Oil Platforms).
+      - text: which was patrolling in Ardenia's territorial sea near Kessel Island.
+        weight: essential
+        kind: context
+        issues:
+          - armed-attack
+        why: Inside Ardenia's own waters, which undercuts any claim the corvette was intruding.
+      - text: The corvette sank and 31 sailors were killed.
+        weight: essential
+        kind: harm
+        issues:
+          - armed-attack
+        why: Scale and effects well above the gravity threshold for an armed attack.
+      - text: Velmora said the corvette had "strayed into Velmoran waters" but offered no evidence.
+        weight: essential
+        kind: statement
+        issues:
+          - armed-attack
+        why: An unsupported justification that does not change the character of the attack.
+      - text: On 5 March Ardenian aircraft destroyed the Velmoran missile boat squadron at its base at Port Ovin, 40 kilometres from the island
+        weight: essential
+        kind: conduct
+        issues:
+          - march
+        why: 'Two days later and aimed at the squadron that fired: immediate, targeted and necessary.'
+      - text: four Velmoran sailors were killed.
+        weight: essential
+        kind: harm
+        issues:
+          - march
+        why: 'Limited casualties relative to the attack: proportionate in scale.'
+      - text: Ardenia reported the strikes to the Security Council the same day, describing them as self-defence under art 51.
+        weight: essential
+        kind: conduct
+        issues:
+          - reporting
+          - march
+        why: Same-day report meets art 51's procedural requirement and supports Ardenia's good faith.
+      - text: Regional mediation followed and produced a ceasefire, which held.
+        weight: essential
+        kind: context
+        issues:
+          - july
+        why: A ceasefire that held shows the threat had ended, defeating necessity for later force (Nicaragua [237]).
+      - text: In July, after the mediation stalled
+        weight: essential
+        kind: timing
+        issues:
+          - july
+        why: 'Four months after the attack and during a ceasefire: no longer necessary.'
+      - text: Ardenian troops crossed the border and occupied Lorvan, Velmora's second-largest city, 350 kilometres from Kessel Island
+        weight: essential
+        kind: conduct
+        issues:
+          - july
+        why: Occupying a major city 350 km away goes far beyond repelling the attack (Armed Activities [147]).
+      - text: and Ardenian aircraft destroyed Velmora's main power station.
+        weight: essential
+        kind: conduct
+        issues:
+          - july
+        why: National infrastructure unconnected with the attack fails proportionality (Oil Platforms [77]).
+      - text: Ardenia did not report these operations to the Security Council.
+        weight: essential
+        kind: conduct
+        issues:
+          - reporting
+          - july
+        why: Not fatal alone, but suggests Ardenia did not itself regard the operations as self-defence (Nicaragua).
+      - text: Its Defence Minister said they would "teach Velmora that attacks on Ardenia have a price"
+        weight: essential
+        kind: mental
+        issues:
+          - july
+        why: 'A punitive purpose: self-defence must repel an attack, not punish; this is an unlawful reprisal.'
+      - text: and would continue "until Velmora stops arming the Northern Front".
+        weight: essential
+        kind: mental
+        issues:
+          - july
+          - support
+        why: Aimed at the arms supply, which is not an armed attack and cannot justify force.
+      - text: Velmora has now filed an application against Ardenia in the ICJ
+        weight: essential
+        kind: conduct
+        issues:
+          - pm
+        why: A legal dispute over the use of force, within both art 36(2) declarations.
+      - text: and asks the Court to order, as a provisional measure, that Ardenia withdraw from Lorvan and stop attacking Velmoran infrastructure.
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: Linked to plausible rights under art 2(4); urgency from the continuing occupation and attacks.
+      - text: Ardenia replies that the Court cannot indicate measures before it has decided whether it has jurisdiction
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: 'Wrong: prima facie jurisdiction is enough for art 41 measures.'
+      - text: and that any measures would only be recommendations.
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: 'Wrong: provisional measures are binding (LaGrand).'
+      - text: 'Advise on: (a) whether Velmora''s conduct gave Ardenia a right of self-defence; (b) whether Ardenia''s March and July operations were lawful exercises of that right; and (c) Velmora''s request for provisional measures.'
+        weight: background
+        kind: context
+        issues:
+          - armed-attack
+          - march
+          - july
+          - pm
+  - question: laws2000-w00-q014
+    parties:
+      - name: Lumeria
+        role: State Party since 2010; referred the situation
+      - name: Kestovia
+        role: non-party state whose forces shelled Brask and expelled a minority
+      - name: General Ilsa Varn
+        role: Kestovian artillery commander who directed the shelling
+      - name: President Oren Dahl
+        role: Kestovia's serving head of state; gave the instructions
+      - name: Free Border Group
+        role: Lumerian militia that bombed a Kestovian bus station
+    issues:
+      - id: crimes
+        label: Classifying each set of conduct against art 5
+        concept: laws2000-w11-icc-jurisdiction
+      - id: time
+        label: The time gate (art 11)
+        concept: laws2000-w11-icc-jurisdiction
+      - id: shelling
+        label: 'The trigger and art 12(2) preconditions: the shelling of Brask'
+        concept: laws2000-w11-icc-jurisdiction
+      - id: expulsions
+        label: 'The expulsions: outside jurisdiction on this referral, and the routes in'
+        concept: laws2000-w11-icc-jurisdiction
+      - id: admissibility
+        label: 'Complementarity under art 17: the case against Varn'
+        concept: laws2000-w11-icc-admissibility-and-complementarity
+      - id: defences
+        label: Head of state, superior orders and domestic law
+        concept: laws2000-w11-nuremberg-principles
+      - id: australia
+        label: Australia's obligations as a State Party (arts 86, 88)
+        concept: laws2000-w11-icc-applicable-law-and-cooperation
+    facts:
+      - text: Lumeria has been a State Party to the Rome Statute since 2010.
+        weight: essential
+        kind: relationship
+        issues:
+          - time
+          - shelling
+        why: Lumeria's ratification predates the conduct, and its territory satisfies art 12(2)(a).
+      - text: Its neighbour, Kestovia, has never signed or ratified the Statute.
+        weight: essential
+        kind: relationship
+        issues:
+          - shelling
+          - expulsions
+        why: 'A non-party: its nationality alone cannot ground jurisdiction, but conduct on a State Party''s territory can.'
+      - text: Both are UN members.
+        weight: essential
+        kind: relationship
+        issues:
+          - expulsions
+        why: Both bound by Security Council decisions (Charter art 25), so a Council referral could reach Kestovia.
+      - text: In 2025, during a border conflict
+        weight: essential
+        kind: timing
+        issues:
+          - time
+          - crimes
+        why: After 2010 (art 11), and in an armed conflict, so war crimes are available.
+      - text: Kestovian artillery units commanded by General Ilsa Varn repeatedly shelled the Lumerian town of Brask
+        weight: essential
+        kind: conduct
+        issues:
+          - crimes
+          - shelling
+        why: 'On Lumerian territory: art 12(2)(a) is met whatever Varn''s nationality.'
+      - text: which contained no military targets, killing more than 200 civilians.
+        weight: essential
+        kind: harm
+        issues:
+          - crimes
+        why: 'Deliberate attacks on civilians: a war crime under art 8, and grave.'
+      - text: Intercepted orders show that Varn directed the shelling of the town "to empty it"
+        weight: essential
+        kind: mental
+        issues:
+          - crimes
+          - admissibility
+        why: Intent to target and displace civilians; marks Varn as among those most responsible.
+      - text: acting on instructions from Kestovia's President, Mr Oren Dahl.
+        weight: essential
+        kind: conduct
+        issues:
+          - defences
+        why: Sets up the superior-orders and head-of-state arguments, both answered by the Nuremberg Principles.
+      - text: At the same time, inside Kestovia
+        weight: essential
+        kind: context
+        issues:
+          - expulsions
+        why: 'On a non-party''s territory by its own nationals: no art 12(2) precondition is met.'
+      - text: police and army units rounded up and expelled thousands of members of Kestovia's Lumerian-speaking minority from its border districts, burning their homes.
+        weight: essential
+        kind: conduct
+        issues:
+          - crimes
+        why: 'Deportation of a civilian population: a crime against humanity under art 7.'
+      - text: Separately, a Lumerian militia, the Free Border Group, bombed a bus station in Kestovia
+        weight: essential
+        kind: conduct
+        issues:
+          - crimes
+        why: Lumerian nationals, so art 12(2)(b) is met; but only an art 5 crime, not "terrorism", can be charged.
+      - text: which Kestovia calls "an act of terrorism".
+        weight: essential
+        kind: statement
+        issues:
+          - crimes
+        why: Terrorism is not an art 5 crime; the label does not create jurisdiction.
+      - text: Lumeria has referred "the situation in the Lumeria–Kestovia border region since 2025" to the ICC Prosecutor.
+        weight: essential
+        kind: conduct
+        issues:
+          - shelling
+          - expulsions
+        why: A State Party referral (arts 13(a), 14) triggers jurisdiction over the situation, subject to art 12(2).
+      - text: 'Kestovia responds that: (1) Kestovia is not a party to the Rome Statute, so the Court has no jurisdiction over Kestovian nationals or over anything done on Kestovian territory'
+        weight: essential
+        kind: statement
+        issues:
+          - shelling
+          - expulsions
+        why: 'Half right: true for the expulsions inside Kestovia, wrong for the shelling of Lumerian territory.'
+      - text: (2) Kestovia's military prosecutor opened an investigation into General Varn last month
+        weight: essential
+        kind: conduct
+        issues:
+          - admissibility
+        why: 'A national investigation engages art 17: is Kestovia unwilling genuinely to investigate?'
+      - text: the file has been assigned to a colonel on Varn's own staff
+        weight: essential
+        kind: conduct
+        issues:
+          - admissibility
+        why: 'No independence: a subordinate investigating his own commander points to unwillingness (art 17(2)(c)).'
+      - text: no witnesses have been interviewed
+        weight: essential
+        kind: conduct
+        issues:
+          - admissibility
+        why: 'No real steps taken: unjustified delay inconsistent with genuine intent (art 17(2)(b)).'
+      - text: and Varn remains in command
+        weight: essential
+        kind: context
+        issues:
+          - admissibility
+        why: Suggests the proceedings shield him from responsibility (art 17(2)(a)).
+      - text: (3) President Dahl is a serving head of state and is immune
+        weight: essential
+        kind: statement
+        issues:
+          - defences
+        why: Official capacity is no bar before the ICC (Nuremberg Principle III); immunity does not bind international courts (Arrest Warrant).
+      - text: (4) Varn was obeying the President's orders
+        weight: essential
+        kind: statement
+        issues:
+          - defences
+        why: Superior orders do not relieve responsibility (Nuremberg Principle IV).
+      - text: and the shelling was lawful under Kestovia's National Security Decree
+        weight: essential
+        kind: statement
+        issues:
+          - defences
+        why: Domestic law is no defence to an international crime (Nuremberg Principle II).
+      - text: (5) the Court should instead prosecute the Free Border Group for terrorism.
+        weight: essential
+        kind: statement
+        issues:
+          - crimes
+        why: 'The Court cannot try "terrorism" as such: it is not an art 5 crime.'
+      - text: General Varn is due to attend a defence exhibition in Sydney next month.
+        weight: essential
+        kind: timing
+        issues:
+          - australia
+        why: His presence in a State Party engages its duty to arrest and surrender him on request.
+      - text: Australia is a State Party to the Rome Statute.
+        weight: essential
+        kind: relationship
+        issues:
+          - australia
+        why: Bound to cooperate fully (art 86) and to have national procedures for arrest and surrender (art 88).
+      - text: 'Advise the ICC Prosecutor on: (a) whether the Court can exercise jurisdiction over the shelling of Brask, the expulsions in Kestovia and the bus station bombing; (b) whether a case against General Varn would be admissible; (c) Kestovia''s arguments (3) and (4); and (d) Australia''s obligations if the Court issues a warrant for Varn''s arrest.'
+        weight: background
+        kind: context
+        issues:
+          - crimes
+          - admissibility
+          - defences
+          - australia
+  - question: laws2000-w00-q015
+    parties:
+      - name: Mirovia
+        role: applicant state; receives Orun refugees
+      - name: Teslan
+        role: respondent state; its army and an allied militia attack the Orun
+      - name: Orun National Council
+        role: body representing the Orun in exile; seeks to join as co-applicant
+    issues:
+      - id: access
+        label: 'Access to the Court: only states (art 34)'
+        concept: laws2000-w08-icj-jurisdiction-and-consent
+      - id: consent
+        label: Consent through art 36(1) and art IX of the Genocide Convention
+        concept: laws2000-w08-icj-jurisdiction-and-consent
+      - id: dispute
+        label: A dispute existing at the date of filing
+        concept: laws2000-w08-existence-of-a-dispute
+      - id: standing
+        label: 'Mirovia''s standing: obligations erga omnes (art 48)'
+        concept: laws2000-w07-invocation-of-responsibility
+      - id: pm
+        label: 'Provisional measures: the four art 41 conditions for each measure'
+        concept: laws2000-w08-provisional-measures
+      - id: binding
+        label: Provisional measures bind (LaGrand)
+        concept: laws2000-w08-provisional-measures
+      - id: judgment
+        label: Effect and enforcement of a judgment (arts 59, 60; Charter art 94)
+        concept: laws2000-w08-icj-cases-and-effect-of-decisions
+    facts:
+      - text: Mirovia and Teslan are UN members and parties to the Genocide Convention
+        weight: essential
+        kind: relationship
+        issues:
+          - access
+          - consent
+          - judgment
+        why: UN members are parties to the ICJ Statute and bound by art 94; both accept art IX of the Convention.
+      - text: neither has made any reservation to it.
+        weight: essential
+        kind: context
+        issues:
+          - consent
+        why: Art IX applies in full; no reservation removes the Court's jurisdiction.
+      - text: Neither has made a declaration under art 36(2) of the ICJ Statute.
+        weight: essential
+        kind: context
+        issues:
+          - consent
+        why: No optional clause route, so jurisdiction must rest on a compromissory clause under art 36(1).
+      - text: Since January, Teslan's army and an allied militia have attacked villages of the Orun, an ethnic minority in Teslan's eastern province.
+        weight: essential
+        kind: conduct
+        issues:
+          - pm
+        why: 'Attacks on a protected group: grounds plausible rights under arts I–III.'
+      - text: Reports by UN agencies describe mass killings, the destruction of food stores and wells, and the forced transfer of Orun children to state-run "education camps".
+        weight: essential
+        kind: harm
+        issues:
+          - pm
+        why: 'Killing, destroying means of life and transferring children map onto art II acts: plausibility and urgency.'
+      - text: Teslan's Minister for Information has broadcast speeches on state radio describing the Orun as "vermin to be cleared from our land".
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: 'Dehumanising words from a minister: evidence of intent, and possible public incitement (art III(c)).'
+      - text: About 40,000 Orun refugees have crossed into Mirovia.
+        weight: essential
+        kind: harm
+        issues:
+          - standing
+        why: Mirovia is affected but not legally injured; its standing rests on the erga omnes character of the duties.
+      - text: In March, Mirovia's Foreign Minister told the UN General Assembly that Teslan was "committing genocide against the Orun, in breach of the Genocide Convention".
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: 'A specific claim of breach in Teslan''s presence: Teslan was aware of Mirovia''s position.'
+      - text: Teslan's ambassador replied in the same debate that its operations were "lawful counter-terrorism" and that "no genocide has occurred or will occur".
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: 'Positively opposed views (South West Africa): a dispute existed before filing.'
+      - text: In April Mirovia sent Teslan a diplomatic note demanding that it comply with the Convention.
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: Further notice of the claim; formal notice is not required, but it confirms awareness (Georgia v Russia).
+      - text: Teslan did not reply.
+        weight: essential
+        kind: conduct
+        issues:
+          - dispute
+        why: Silence where a response is called for can itself show opposition; the test is objective (Peace Treaties).
+      - text: In May, Mirovia instituted proceedings against Teslan in the ICJ, relying on art IX of the Convention
+        weight: essential
+        kind: conduct
+        issues:
+          - consent
+          - dispute
+        why: Art IX lets "any of the parties to the dispute" seise the Court; the dispute is tested at this date.
+      - text: and asked the Court to indicate provisional measures ordering Teslan to (i) prevent acts of genocide against the Orun
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: Linked to the plausible art I duty to prevent; urgent given ongoing killings.
+      - text: (ii) stop the radio broadcasts
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: Linked to the plausible right under art III(c) against direct and public incitement.
+      - text: and (iii) preserve all evidence of the operations.
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: Preserving evidence protects the rights to be decided at the merits.
+      - text: The Orun National Council, which represents the Orun in exile, has asked to be joined as a co-applicant.
+        weight: essential
+        kind: conduct
+        issues:
+          - access
+        why: 'Not a state: under art 34 only states may be parties in contentious cases.'
+      - text: 'Teslan argues that: (1) there was no dispute when Mirovia filed its application, because Teslan never answered the note and the General Assembly exchange was "political theatre"'
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: 'Fails: the General Assembly exchange shows positively opposed views and awareness, judged objectively.'
+      - text: (2) Mirovia has no standing, because no Mirovian nationals have been harmed
+        weight: essential
+        kind: statement
+        issues:
+          - standing
+        why: 'Fails: genocide duties are owed erga omnes, so any party may invoke them (ARSIWA art 48(1)(b)).'
+      - text: (3) the Court cannot indicate measures until it has decided whether it has jurisdiction
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+          - binding
+        why: 'Wrong: prima facie jurisdiction is enough, and the measures, once indicated, bind (LaGrand).'
+      - text: (4) even if the Court rules against it, Teslan will simply ignore the judgment.
+        weight: essential
+        kind: statement
+        issues:
+          - judgment
+        why: Judgments are final and binding (arts 59, 60); non-compliance can go to the Security Council (Charter art 94(2)).
+      - text: 'Advise Mirovia on: (a) whether the Court has jurisdiction and whether the Orun National Council can be a party; (b) Teslan''s arguments (1) and (2); (c) the request for provisional measures; and (d) Teslan''s argument (4).'
+        weight: background
+        kind: context
+        issues:
+          - access
+          - dispute
+          - standing
+          - pm
+          - judgment
+  - question: laws2000-w00-q016
+    parties:
+      - name: Sarovia
+        role: state under military junta; subject of the March Resolution
+      - name: Belvane
+        role: the client; bound by a 2019 arms treaty with Sarovia
+      - name: Dalmor
+        role: Sarovia's neighbour, reportedly arming one faction
+      - name: Southern Coast Union
+        role: regional organisation that tried mediation
+    issues:
+      - id: characterise
+        label: Characterising the March Resolution under arts 39, 40 and 41
+        concept: laws2000-w10-article-39-determination-and-provisional-measures
+      - id: binding
+        label: 'The arms embargo binds: arts 25 and 103 and Belvane''s treaty'
+        concept: laws2000-w10-decisions-and-recommendations
+      - id: authorisation
+        label: No implied or revived authorisation of force (art 42)
+        concept: laws2000-w10-authorisation-of-force-under-article-42
+      - id: ga
+        label: The General Assembly's role and its limits
+        concept: laws2000-w10-general-assembly-and-secretary-general
+      - id: peacekeeping
+        label: Peacekeeping principles and the use of force
+        concept: laws2000-w10-un-peacekeeping-operations
+      - id: art41
+        label: Further non-forcible measures under art 41
+        concept: laws2000-w10-non-forcible-measures-under-article-41
+    facts:
+      - text: In January a military junta seized power in Sarovia.
+        weight: background
+        kind: conduct
+      - text: Fighting between the junta and two armed factions has since killed thousands of civilians
+        weight: essential
+        kind: harm
+        issues:
+          - characterise
+        why: Mass civilian deaths in an internal conflict can found an art 39 threat to the peace.
+      - text: more than 300,000 refugees have crossed into neighbouring states
+        weight: essential
+        kind: harm
+        issues:
+          - characterise
+        why: Cross-border refugee flows give the internal crisis an international dimension.
+      - text: and the junta is blocking UN food convoys to besieged cities.
+        weight: essential
+        kind: conduct
+        issues:
+          - characterise
+          - art41
+        why: Obstructing humanitarian access supports the threat finding and targeted measures against those responsible.
+      - text: Journalists report that Dalmor, Sarovia's neighbour, is supplying weapons to one of the factions, which Dalmor denies.
+        weight: essential
+        kind: conduct
+        issues:
+          - binding
+        why: If true, Dalmor breaches the arms embargo, which every member must carry out (art 25).
+      - text: The Southern Coast Union, a regional organisation of which Sarovia and Dalmor are members
+        weight: background
+        kind: party
+      - text: has tried mediation without success and has asked the Security Council to act.
+        weight: essential
+        kind: conduct
+        issues:
+          - characterise
+        why: Regional efforts have failed; the Council, with primary responsibility (art 24), acts under Chapter VII.
+      - text: In March the Security Council, "acting under Chapter VII", adopted a resolution (the March Resolution).
+        weight: essential
+        kind: statement
+        issues:
+          - characterise
+        why: An express Chapter VII basis signals an intention that the operative decisions bind.
+      - text: It determined that the situation in Sarovia constitutes a threat to international peace and security
+        weight: essential
+        kind: statement
+        issues:
+          - characterise
+        why: The art 39 determination that opens the Council's Chapter VII powers.
+      - text: called on all parties to observe an immediate ceasefire
+        weight: essential
+        kind: statement
+        issues:
+          - characterise
+        why: A provisional measure under art 40, in hortatory "calls on" language.
+      - text: '"decided" that all states shall prevent the supply of arms to Sarovia'
+        weight: essential
+        kind: statement
+        issues:
+          - binding
+          - characterise
+        why: '"Decided": a binding art 41 measure that members must carry out (art 25).'
+      - text: froze the assets of, and imposed travel bans on, eleven named junta leaders
+        weight: essential
+        kind: statement
+        issues:
+          - characterise
+          - art41
+        why: Targeted art 41 sanctions; more names could be added for those attacking civilians.
+      - text: and established a sanctions committee.
+        weight: background
+        kind: statement
+      - text: It ended by stating that the Council "will consider further measures" if the resolution is not implemented.
+        weight: essential
+        kind: statement
+        issues:
+          - authorisation
+        why: A warning of possible future action, not an authorisation; force needs express "all necessary means" wording.
+      - text: The fighting has continued.
+        weight: background
+        kind: context
+      - text: In September a draft resolution authorising member states "to use all necessary means to protect civilians and secure humanitarian access" in Sarovia received 13 votes in favour
+        weight: essential
+        kind: statement
+        issues:
+          - authorisation
+          - ga
+        why: Majority support is not authorisation; an unadopted draft has no legal effect.
+      - text: but was vetoed by a permanent member.
+        weight: essential
+        kind: conduct
+        issues:
+          - authorisation
+          - ga
+        why: The veto blocks adoption (art 27(3)) and opens the Uniting for Peace route to the General Assembly.
+      - text: You are a legal adviser to the government of Belvane, which asks
+        weight: background
+        kind: context
+      - text: (1) Belvane has a 2019 bilateral treaty with Sarovia obliging it to deliver 40 armoured vehicles this year. Must it still deliver them?
+        weight: essential
+        kind: relationship
+        issues:
+          - binding
+        why: Conflicts with the binding embargo; Charter obligations prevail (art 103), so Belvane must not deliver.
+      - text: (2) A coalition of states proposes to send air forces to secure aid corridors
+        weight: essential
+        kind: conduct
+        issues:
+          - authorisation
+        why: Force on Sarovian territory needs Council authorisation or self-defence; neither exists.
+      - text: arguing that the March Resolution's reference to "further measures", read with the 13 votes for the vetoed draft, authorises force. Is that right?
+        weight: essential
+        kind: statement
+        issues:
+          - authorisation
+        why: 'Rejected: no implied or revived authorisation; only express authorisation (as in Res 678) permits force.'
+      - text: (3) Can the General Assembly act instead, and with what effect?
+        weight: background
+        kind: context
+        issues:
+          - ga
+      - text: (4) The Secretary-General has proposed a UN peacekeeping operation. What principles would govern it, and could it use force?
+        weight: essential
+        kind: conduct
+        issues:
+          - peacekeeping
+        why: Peacekeeping rests on consent, impartiality and no force except in self-defence and defence of the mandate.
+      - text: (5) What other non-forcible measures could the Council take against those responsible for attacks on civilians?
+        weight: background
+        kind: context
+        issues:
+          - art41
+  - question: laws2000-w00-q017
+    parties:
+      - name: Orvania
+        role: ICCPR party; issued the emergency decree
+      - name: Tarn Liberation Army
+        role: armed group bombing the capital
+      - name: Belkan villagers
+        role: held by Orvanian troops in a camp inside Belka
+      - name: Kallen Mining Ltd
+        role: private company whose security firm attacked protesters
+    issues:
+      - id: formal
+        label: The formal conditions of a derogation (art 4)
+        concept: laws2000-w12-derogations-and-limitations
+      - id: detention
+        label: 'The 21-day detention: necessity and proportionality'
+        concept: laws2000-w12-derogations-and-limitations
+      - id: curfew
+        label: 'The curfew: discrimination'
+        concept: laws2000-w12-derogations-and-limitations
+      - id: torture
+        label: The non-derogable prohibition of torture
+        concept: laws2000-w12-derogations-and-limitations
+      - id: belka
+        label: 'The camp in Belka: extraterritorial application (art 2(1))'
+        concept: laws2000-w12-scope-and-extraterritoriality
+      - id: security-firm
+        label: 'The security firm: attribution v the duty to protect'
+        concept: laws2000-w12-rights-holders-and-duty-bearers
+      - id: views
+        label: The weight of the Committee's views and other mechanisms
+        concept: laws2000-w12-international-human-rights-machinery
+    facts:
+      - text: Orvania is a party to the ICCPR
+        weight: essential
+        kind: relationship
+        issues:
+          - formal
+        why: Bound by the Covenant, including art 4's conditions on derogation.
+      - text: and has accepted the Human Rights Committee's individual complaints procedure.
+        weight: essential
+        kind: relationship
+        issues:
+          - views
+        why: Individual complaints are open to the detainees; the resulting views carry weight though not formally binding.
+      - text: In June an armed group, the Tarn Liberation Army (TLA), began bombing government buildings in Orvania's capital, killing 40 people.
+        weight: essential
+        kind: conduct
+        issues:
+          - formal
+        why: Serious, sustained violence may amount to a public emergency threatening the life of the nation.
+      - text: The TLA draws its support from the Tarn, a minority whose first language is Tarnic.
+        weight: essential
+        kind: context
+        issues:
+          - curfew
+        why: 'Links a linguistic minority to the conflict: measures aimed at language risk the discrimination art 4(1) forbids.'
+      - text: The President issued a decree, published in the Official Gazette, declaring a "state of national emergency".
+        weight: essential
+        kind: statement
+        issues:
+          - formal
+        why: Official proclamation is met, but art 4(3) also requires notification to other parties.
+      - text: 'Under the decree: (a) persons suspected of supporting the TLA may be detained for up to 21 days without being brought before a judge'
+        weight: essential
+        kind: conduct
+        issues:
+          - detention
+        why: Departs from art 9(3)'s prompt judicial control; 21 days without a judge is hard to justify as strictly required.
+      - text: (b) a night curfew applies, but only in the six districts of the capital where most residents speak Tarnic
+        weight: essential
+        kind: conduct
+        issues:
+          - curfew
+        why: 'Targeting districts by language: discrimination that art 4(1) prohibits even in a valid derogation.'
+      - text: (c) interrogators may use "enhanced pressure techniques", including sleep deprivation for up to 96 hours and mock executions, on detainees believed to hold information about planned attacks.
+        weight: essential
+        kind: conduct
+        issues:
+          - torture
+        why: 'Torture or cruel treatment: art 7 is non-derogable (art 4(2)) and jus cogens, whatever the emergency.'
+      - text: Orvania has not notified any derogation from the ICCPR.
+        weight: essential
+        kind: conduct
+        issues:
+          - formal
+        why: 'No art 4(3) notification: the derogation is formally defective, so ordinary Covenant standards apply.'
+      - text: Orvanian troops have also occupied a strip of land inside neighbouring Belka
+        weight: essential
+        kind: conduct
+        issues:
+          - belka
+        why: Effective control over foreign territory brings people there within Orvania's jurisdiction (art 2(1); Wall).
+      - text: from which TLA fighters had launched raids
+        weight: background
+        kind: context
+      - text: and run a detention camp there.
+        weight: essential
+        kind: conduct
+        issues:
+          - belka
+        why: 'Physical control over detainees is jurisdiction over persons: the Covenant applies in the camp.'
+      - text: Belkan villagers held in the camp have been denied any contact with lawyers or family.
+        weight: essential
+        kind: harm
+        issues:
+          - belka
+        why: Incommunicado detention engages arts 9 and 10 and the right to a lawyer.
+      - text: In Orvania's south, Kallen Mining Ltd, a private company, employs a security firm
+        weight: essential
+        kind: party
+        issues:
+          - security-firm
+        why: 'Private actors exercising no governmental authority: not attributable under ARSIWA art 5.'
+      - text: that has beaten and shot at villagers protesting against the company's mine.
+        weight: essential
+        kind: harm
+        issues:
+          - security-firm
+        why: 'Violence against life, security and peaceful protest: rights Orvania must protect.'
+      - text: Orvanian police were present on two occasions but did not intervene
+        weight: essential
+        kind: conduct
+        issues:
+          - security-firm
+        why: 'State organs present and passive: breach of the positive duty to protect (General Comment 31 para 8).'
+      - text: and no one has been investigated.
+        weight: essential
+        kind: conduct
+        issues:
+          - security-firm
+        why: Failure to investigate is itself a breach of the duty to ensure rights and provide a remedy.
+      - text: 'The Orvanian Attorney-General says that: (1) the emergency decree is a valid derogation, so none of these measures breaches the ICCPR'
+        weight: essential
+        kind: statement
+        issues:
+          - formal
+          - torture
+        why: 'Fails: no notification, measures must be strictly required, and art 7 can never be derogated from.'
+      - text: (2) the ICCPR does not apply in Belka, which is not Orvanian territory
+        weight: essential
+        kind: statement
+        issues:
+          - belka
+        why: 'Wrong: art 2(1) covers persons within a state''s power or effective control, even abroad (Wall).'
+      - text: (3) the security firm is a private company, so Orvania is not responsible for what it does
+        weight: essential
+        kind: statement
+        issues:
+          - security-firm
+        why: 'Confuses attribution with positive obligations: Orvania answers for its own failure to protect and investigate.'
+      - text: (4) any "views" of the Human Rights Committee can be ignored because they are not binding.
+        weight: essential
+        kind: statement
+        issues:
+          - views
+        why: Not binding, but authoritative and owed good-faith consideration (Diallo); Universal Periodic Review is another route.
+      - text: Advise a human rights organisation acting for detainees and protesters on the Attorney-General's four arguments.
+        weight: background
+        kind: context
+        issues:
+          - formal
+          - belka
+          - security-firm
+          - views
+  - question: laws2000-w00-q018
+    parties:
+      - name: Pelora
+        role: coastal state claiming Halvard Shoal; the client
+      - name: Kamsai
+        role: coastal state claiming the shoal; walked out of negotiations
+      - name: Coral Sea Cooperation Community
+        role: regional organisation with a Conciliation Commission
+    issues:
+      - id: negotiate
+        label: The obligation of conduct and the good-faith duty to negotiate
+        concept: laws2000-w08-obligation-of-peaceful-settlement
+      - id: dispute
+        label: A dispute exists despite Kamsai's denial
+        concept: laws2000-w08-existence-of-a-dispute
+      - id: diplomatic
+        label: Diplomatic means and their non-binding outcomes (art 33(1))
+        concept: laws2000-w08-diplomatic-modes-of-settlement
+      - id: adjudication
+        label: Arbitration under UNCLOS compared with the ICJ
+        concept: laws2000-w08-international-arbitration
+      - id: council
+        label: The Security Council's Chapter VI role and art 52
+        concept: laws2000-w10-peaceful-settlement-under-chapter-vi
+      - id: platform
+        label: The effect of the platform
+        concept: laws2000-w04-modes-of-territorial-acquisition
+    facts:
+      - text: Pelora and Kamsai, two coastal states, both claim Halvard Shoal
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: 'Competing sovereignty claims to the same feature: the subject matter of a legal dispute.'
+      - text: a reef 90 nautical miles from each coast that is exposed only at low tide.
+        weight: essential
+        kind: context
+        issues:
+          - platform
+        why: A low-tide elevation beyond the territorial sea cannot be appropriated (South China Sea).
+      - text: Its surrounding waters hold rich fisheries and, according to recent surveys, a gas field.
+        weight: background
+        kind: context
+      - text: Both states are UN members and parties to UNCLOS
+        weight: essential
+        kind: relationship
+        issues:
+          - negotiate
+          - adjudication
+          - council
+        why: Bound by Charter arts 2(3) and 33, and by UNCLOS Part XV compulsory procedures, including Annex VII arbitration.
+      - text: and both are members of the Coral Sea Cooperation Community (CSCC), a regional organisation whose founding treaty commits members to "settle disputes between them by peaceful means"
+        weight: essential
+        kind: relationship
+        issues:
+          - negotiate
+          - council
+        why: 'A regional arrangement: art 52(2) expects local settlement efforts before referral to the Council.'
+      - text: and establishes a CSCC Conciliation Commission.
+        weight: essential
+        kind: statement
+        issues:
+          - diplomatic
+        why: Conciliation proposes terms, but its report does not bind the parties.
+      - text: Neither has made a declaration under art 36(2) of the ICJ Statute.
+        weight: essential
+        kind: context
+        issues:
+          - adjudication
+        why: 'No optional clause route: an ICJ case needs a special agreement, so UNCLOS arbitration is the likelier binding route.'
+      - text: For 15 years the two states have exchanged diplomatic notes asserting sovereignty over the shoal and protesting each other's fishing licences.
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: 'Long-standing, positively opposed claims known to both: a dispute plainly exists (Mavrommatis; South West Africa).'
+      - text: Last year they agreed to negotiate.
+        weight: essential
+        kind: conduct
+        issues:
+          - negotiate
+        why: Negotiations must be meaningful and in good faith (North Sea Continental Shelf).
+      - text: After two rounds Kamsai's delegation walked out without explanation
+        weight: essential
+        kind: conduct
+        issues:
+          - negotiate
+        why: An unexplained walk-out suggests a lack of good faith.
+      - text: and Kamsai has since refused all further meetings
+        weight: essential
+        kind: conduct
+        issues:
+          - negotiate
+        why: Refusing to negotiate at all breaches the good-faith duty, though there is no duty to agree.
+      - text: while granting gas exploration licences in the shoal's waters.
+        weight: essential
+        kind: conduct
+        issues:
+          - negotiate
+          - platform
+        why: Unilateral acts that aggravate the dispute sit badly with good-faith settlement.
+      - text: Kamsai's Foreign Minister recently told journalists that "there is no dispute — Halvard Shoal is Kamsai's, and always has been".
+        weight: essential
+        kind: statement
+        issues:
+          - dispute
+        why: 'Denial cannot end a dispute: its existence is objectively determined (Peace Treaties), and the statement shows opposed views.'
+      - text: Kamsai has also begun building a concrete platform and helipad on the reef.
+        weight: essential
+        kind: conduct
+        issues:
+          - platform
+        why: Construction cannot turn a low-tide elevation into territory or create entitlements (UNCLOS art 60(8)).
+      - text: 'Pelora''s Cabinet asks: (1) Is Kamsai in breach of international law by refusing to continue negotiating, and would Pelora be in breach if the dispute is still unresolved in ten years?'
+        weight: background
+        kind: context
+        issues:
+          - negotiate
+      - text: (2) Can Kamsai avoid any third-party process by saying there is no dispute?
+        weight: background
+        kind: context
+        issues:
+          - dispute
+      - text: (3) Which peaceful means are open to Pelora, and what would each produce — in particular, would conciliation through the CSCC, arbitration under UNCLOS or a case in the ICJ give Pelora a binding outcome?
+        weight: background
+        kind: context
+        issues:
+          - diplomatic
+          - adjudication
+      - text: (4) Can Pelora take the matter to the Security Council, and what could the Council do?
+        weight: background
+        kind: context
+        issues:
+          - council
+      - text: (5) Does Kamsai's platform strengthen its claim to the shoal?
+        weight: background
+        kind: context
+        issues:
+          - platform
+  - question: laws2000-w00-q019
+    parties:
+      - name: Red Ridge Brigades (RRB)
+        role: armed group attacking Calder from northern Tolmar
+      - name: Calder
+        role: state attacked by the RRB; considering force
+      - name: Tolmar
+        role: host state; once supplied the RRB; besieging Esk
+      - name: Nordland
+        role: unconnected state proposing a humanitarian intervention
+    issues:
+      - id: framework
+        label: The prohibition, its exceptions and the absence of consent
+        concept: laws2000-w09-exceptions-to-the-prohibition
+      - id: armed-attack
+        label: Do the RRB's attacks amount to an armed attack?
+        concept: laws2000-w09-armed-attack
+      - id: attribution
+        label: Attribution to Tolmar, and Tolmar's own obligations
+        concept: laws2000-w07-effective-control-and-private-conduct
+      - id: nsa
+        label: Self-defence against a non-state actor on another state's territory
+        concept: laws2000-w09-self-defence-against-non-state-actors
+      - id: anticipatory
+        label: 'The anticipatory element: option (c)'
+        concept: laws2000-w09-anticipatory-self-defence
+      - id: necessity
+        label: 'Necessity, proportionality and reporting: options (a) and (b)'
+        concept: laws2000-w09-necessity-proportionality-and-reporting
+      - id: r2p
+        label: 'Nordland: humanitarian intervention and R2P'
+        concept: laws2000-w09-humanitarian-intervention-and-r2p
+      - id: uga
+        label: The UN route through the General Assembly
+        concept: laws2000-w10-general-assembly-and-secretary-general
+    facts:
+      - text: The Red Ridge Brigades (RRB) is an armed group based in the mountains of northern Tolmar.
+        weight: essential
+        kind: party
+        issues:
+          - nsa
+        why: 'A non-state actor operating from another state''s territory: the contested self-defence scenario.'
+      - text: Over the past six months it has fired rockets and flown explosive drones from Tolmar into the neighbouring state of Calder
+        weight: essential
+        kind: conduct
+        issues:
+          - armed-attack
+        why: Repeated cross-border attacks; accumulated incidents may be assessed together for scale and effects.
+      - text: killing 60 Calderan civilians.
+        weight: essential
+        kind: harm
+        issues:
+          - armed-attack
+        why: Scale and effects that would be an armed attack if carried out by a state.
+      - text: Two years ago Tolmar's intelligence service supplied the RRB with weapons and money
+        weight: essential
+        kind: conduct
+        issues:
+          - attribution
+        why: Past arming and funding fall short of effective control over these attacks (Nicaragua; art 8).
+      - text: Tolmar says it ended that relationship when the RRB began attacking Calder.
+        weight: essential
+        kind: statement
+        issues:
+          - attribution
+        why: No current direction or control, so the attacks are not attributable to Tolmar.
+      - text: Tolmar's army has since lost control of the northern mountains
+        weight: essential
+        kind: context
+        issues:
+          - nsa
+        why: 'An "unable" host state: the footing of the contested unwilling-or-unable argument.'
+      - text: and Tolmar's President has publicly condemned the RRB but says his forces "cannot reach them".
+        weight: essential
+        kind: statement
+        issues:
+          - nsa
+          - attribution
+        why: Condemnation rules out adoption (art 11); Tolmar still owes due diligence over its territory (Corfu Channel).
+      - text: Tolmar has refused Calder's request for permission to strike RRB camps.
+        weight: essential
+        kind: conduct
+        issues:
+          - framework
+          - nsa
+        why: No consent, so strikes on Tolmar need self-defence; the refusal also bears on "unwilling".
+      - text: Last week the RRB's leader announced a "great offensive within days".
+        weight: essential
+        kind: statement
+        issues:
+          - anticipatory
+        why: A specific threat of imminent attack, relevant to whether self-defence may anticipate it.
+      - text: Calderan satellite images show rocket launchers being moved to within 10 kilometres of the border.
+        weight: essential
+        kind: context
+        issues:
+          - anticipatory
+        why: Concrete evidence of imminence, beyond mere capability.
+      - text: 'Calder''s Prime Minister is considering three options: (a) air strikes on RRB launch sites and camps in northern Tolmar'
+        weight: essential
+        kind: conduct
+        issues:
+          - nsa
+          - necessity
+        why: 'Aimed at the source of the attacks: likely necessary and proportionate if self-defence against the RRB is accepted.'
+      - text: (b) in addition, strikes on Tolmar army bases 200 kilometres away
+        weight: essential
+        kind: conduct
+        issues:
+          - necessity
+          - attribution
+        why: 'Tolmar''s army has not attacked Calder: striking it is neither necessary nor proportionate.'
+      - text: '"so that Tolmar learns to control its territory"'
+        weight: essential
+        kind: mental
+        issues:
+          - necessity
+        why: 'A punitive, coercive purpose: a reprisal, not self-defence.'
+      - text: and (c) waiting for the announced offensive to begin before acting.
+        weight: essential
+        kind: conduct
+        issues:
+          - anticipatory
+        why: Safest under art 51's "if an armed attack occurs", though the attacks are already ongoing.
+      - text: She also asks whether Tolmar is itself internationally responsible for the RRB's attacks.
+        weight: background
+        kind: context
+        issues:
+          - attribution
+      - text: Separately, in Tolmar's southern province, government forces have besieged the city of Esk for four months
+        weight: essential
+        kind: conduct
+        issues:
+          - r2p
+        why: 'Mass-atrocity conditions: the situation R2P addresses, though it creates no right of unilateral force.'
+      - text: cutting off food and medicine to 200,000 civilians from the Vash minority
+        weight: essential
+        kind: harm
+        issues:
+          - r2p
+        why: 'Starving a minority: possible crimes against humanity, engaging the international community''s responsibility.'
+      - text: UN agencies report deaths from starvation.
+        weight: essential
+        kind: harm
+        issues:
+          - r2p
+        why: 'Grave, ongoing harm: urgency for collective action through the UN.'
+      - text: A Security Council draft resolution authorising states to use "all necessary means" to open aid corridors was vetoed by a permanent member.
+        weight: essential
+        kind: conduct
+        issues:
+          - r2p
+          - uga
+        why: No authorisation, so force breaches art 2(4); the deadlock opens the Uniting for Peace route.
+      - text: Nordland, a state with no connection to the region, proposes to lead a coalition to break the siege by force without Security Council authorisation
+        weight: essential
+        kind: conduct
+        issues:
+          - r2p
+          - framework
+        why: 'Unilateral force with no authorisation and no self-defence: prohibited by art 2(4).'
+      - text: relying on the Kosovo precedent and the "responsibility to protect".
+        weight: essential
+        kind: statement
+        issues:
+          - r2p
+        why: Kosovo is not accepted as a legal precedent; the 2005 World Summit ties R2P force to the Security Council.
+      - text: Advise (i) Calder on the lawfulness of options (a)–(c) and on Tolmar's responsibility for the RRB's attacks; and (ii) Nordland on the lawfulness of its proposed intervention, and on any route through the United Nations.
+        weight: background
+        kind: context
+        issues:
+          - nsa
+          - attribution
+          - r2p
+          - uga
+  - question: laws2000-w00-q020
+    parties:
+      - name: Ondara
+        role: State Party since 2005; tried privates and passed an amnesty
+      - name: Colonel (now General) Bren Rask
+        role: commanded the brigade that killed the Vey villagers
+      - name: Ms Talia Hale
+        role: planned the operation as Defence Minister; now Ondara's Foreign Minister
+      - name: Vey community group
+        role: asks the Commonwealth DPP to prosecute Hale in Australia
+    issues:
+      - id: crimes
+        label: Classifying the conduct under art 5
+        concept: laws2000-w11-icc-jurisdiction
+      - id: gates
+        label: Time, trigger and preconditions
+        concept: laws2000-w11-icc-jurisdiction
+      - id: admissibility
+        label: 'Art 17 complementarity: Rask and Hale'
+        concept: laws2000-w11-icc-admissibility-and-complementarity
+      - id: amnesty
+        label: Ondara's reconciliation and amnesty argument (art 21)
+        concept: laws2000-w11-icc-applicable-law-and-cooperation
+      - id: nuremberg
+        label: Superior orders, domestic law and immunity before the ICC
+        concept: laws2000-w11-nuremberg-principles
+      - id: in-office
+        label: Prosecution in Australia during the visit
+        concept: laws2000-w06-immunities-of-state-officials
+      - id: after-office
+        label: The position after Hale leaves office
+        concept: laws2000-w06-immunity-and-serious-international-crimes
+    facts:
+      - text: Ondara has been a State Party to the Rome Statute since 2005.
+        weight: essential
+        kind: relationship
+        issues:
+          - gates
+        why: Ratified before the conduct (art 11); the conduct occurred on its territory by its nationals (art 12(2)).
+      - text: In 2024, during a counter-insurgency campaign in Ondara's western highlands
+        weight: essential
+        kind: timing
+        issues:
+          - gates
+        why: 'After 2005 and on Ondaran territory: inside the temporal and territorial gates.'
+      - text: an army brigade commanded by Colonel Bren Rask killed about 900 villagers of the Vey ethnic group.
+        weight: essential
+        kind: conduct
+        issues:
+          - crimes
+          - admissibility
+        why: 'Mass killing of an ethnic group: genocide or crimes against humanity, of sufficient gravity (art 17(1)(d)).'
+      - text: Radio intercepts record Rask telling his officers that "no Vey village is to be left standing and no Vey family is to remain in the west".
+        weight: essential
+        kind: mental
+        issues:
+          - crimes
+        why: 'Evidence of intent to destroy the Vey in part: genocidal intent, or at least a systematic attack.'
+      - text: The operation was planned by Ondara's then Defence Minister, Ms Talia Hale
+        weight: essential
+        kind: conduct
+        issues:
+          - crimes
+          - admissibility
+          - nuremberg
+        why: Planning makes Hale among those most responsible; her later office does not matter before the ICC.
+      - text: who is now Ondara's Foreign Minister.
+        weight: essential
+        kind: party
+        issues:
+          - in-office
+          - nuremberg
+        why: 'A serving foreign minister: personal immunity in national courts (Arrest Warrant), but none before the ICC (art 27).'
+      - text: Under international pressure, Ondara's military court tried three privates for "excessive use of a firearm"
+        weight: essential
+        kind: conduct
+        issues:
+          - admissibility
+        why: 'Different people and different conduct: no national proceeding covers Rask or Hale.'
+      - text: they were fined.
+        weight: essential
+        kind: context
+        issues:
+          - admissibility
+        why: Token penalties point to proceedings that shield rather than genuinely prosecute (art 17(2)(a)).
+      - text: In March 2025 Ondara's Parliament passed a National Reconciliation Act granting amnesty for "all acts done in good faith in restoring public order in the western highlands".
+        weight: essential
+        kind: statement
+        issues:
+          - amnesty
+          - admissibility
+        why: An amnesty is neither investigation nor prosecution and suggests intent to shield; the Court applies its own law (art 21).
+      - text: Colonel Rask has since been promoted to General.
+        weight: essential
+        kind: conduct
+        issues:
+          - admissibility
+        why: Promotion instead of investigation points to unwillingness to bring him to justice.
+      - text: Ondara's justice system is functioning normally.
+        weight: essential
+        kind: context
+        issues:
+          - admissibility
+        why: Not "unable"; inaction or unwillingness makes the cases admissible.
+      - text: In June 2025 the ICC Prosecutor, acting on her own initiative, obtained authorisation to open an investigation into the situation in the western highlands.
+        weight: essential
+        kind: conduct
+        issues:
+          - gates
+        why: A proprio motu trigger (arts 13(c), 15), authorised by the Pre-Trial Chamber.
+      - text: 'Ondara argues that: (1) the Court must defer to Ondara, because Ondara has already tried those responsible and has decided, through its democratic Parliament, that reconciliation requires amnesty'
+        weight: essential
+        kind: statement
+        issues:
+          - admissibility
+          - amnesty
+        why: 'Fails: no proceedings against Rask or Hale for this conduct, and an amnesty is not genuine accountability.'
+      - text: (2) Rask's acts were lawful under the National Reconciliation Act
+        weight: essential
+        kind: statement
+        issues:
+          - nuremberg
+        why: Domestic law is no defence to an international crime (Nuremberg Principle II).
+      - text: and he was carrying out the Defence Minister's orders
+        weight: essential
+        kind: statement
+        issues:
+          - nuremberg
+        why: Superior orders do not relieve responsibility (Nuremberg Principle IV); orders to commit genocide are manifestly unlawful (art 33).
+      - text: (3) Ms Hale is immune as a serving Foreign Minister.
+        weight: essential
+        kind: statement
+        issues:
+          - nuremberg
+        why: Immunity does not bar the ICC (art 27; Arrest Warrant); it bars only national courts while she holds office.
+      - text: Ms Hale is due to attend a regional security conference in Brisbane next month.
+        weight: essential
+        kind: timing
+        issues:
+          - in-office
+        why: 'Still in office: personal immunity bars arrest in Australia, even for genocide (Arrest Warrant).'
+      - text: A Vey community group in Australia has asked the Commonwealth Director of Public Prosecutions to have her arrested and prosecuted in Australia for genocide and crimes against humanity.
+        weight: essential
+        kind: conduct
+        issues:
+          - in-office
+          - after-office
+        why: Div 268 supplies jurisdiction; immunity blocks it now, but functional immunity may not cover international crimes later (Pinochet).
+      - text: 'Advise: (a) whether the ICC has jurisdiction, and whether cases against Rask and Hale would be admissible; (b) Ondara''s arguments (2) and (3) as they affect proceedings before the ICC; and (c) whether Ms Hale can be prosecuted in an Australian court during her visit, and whether that would change after she leaves office.'
+        weight: background
+        kind: context
+        issues:
+          - crimes
+          - admissibility
+          - nuremberg
+          - in-office
+          - after-office
+  - question: laws2000-w00-q021
+    parties:
+      - name: Halvia
+        role: occupying state administering the Drava Valley
+      - name: Mesken
+        role: state whose territory is occupied; ICJ applicant
+      - name: Valley Guard
+        role: local militia armed and paid by Halvia
+      - name: Former Camp Orl detainees
+        role: complainants before the Human Rights Committee
+    issues:
+      - id: jurisdiction
+        label: ICJ jurisdiction and the existence of a dispute
+        concept: laws2000-w08-icj-jurisdiction-and-consent
+      - id: pm
+        label: 'Provisional measures: the art 41 conditions'
+        concept: laws2000-w08-provisional-measures
+      - id: extraterritorial
+        label: Extraterritorial application of the Covenant
+        concept: laws2000-w12-scope-and-extraterritoriality
+      - id: camp
+        label: 'Camp Orl: conduct of state organs and arts 7, 9 and 10'
+        concept: laws2000-w07-attribution-to-the-state
+      - id: valley-guard
+        label: 'The Valley Guard: attribution v Halvia''s failure to prevent'
+        concept: laws2000-w07-effective-control-and-private-conduct
+      - id: fence
+        label: 'The fence: a restriction, and no necessity'
+        concept: laws2000-w12-derogations-and-limitations
+      - id: views-remedies
+        label: The weight of the Committee's views, and the remedies
+        concept: laws2000-w07-cessation-and-reparation
+    facts:
+      - text: Halvia and Mesken are neighbouring states, both UN members and both parties to the ICCPR.
+        weight: essential
+        kind: relationship
+        issues:
+          - extraterritorial
+          - jurisdiction
+        why: Both bound by the Covenant, so Halvia owes its ICCPR obligations to Mesken as a fellow party.
+      - text: Both have made declarations under art 36(2) of the ICJ Statute accepting the Court's jurisdiction over legal disputes with any state accepting the same obligation.
+        weight: essential
+        kind: relationship
+        issues:
+          - jurisdiction
+          - pm
+        why: Reciprocal optional clause declarations found jurisdiction, and prima facie jurisdiction for provisional measures.
+      - text: Eighteen months ago, after a border war, Halvian forces occupied the Drava Valley, part of Mesken's territory.
+        weight: essential
+        kind: conduct
+        issues:
+          - extraterritorial
+        why: Occupation is effective control over territory, so the Covenant applies there (Wall; Armed Activities).
+      - text: (The lawfulness of the original use of force is not in issue.)
+        weight: background
+        kind: context
+      - text: Halvia administers the valley through a military governor.
+        weight: essential
+        kind: conduct
+        issues:
+          - extraterritorial
+        why: Exercising governmental authority abroad confirms jurisdiction under art 2(1).
+      - text: 'Since then: (a) Halvian soldiers have detained about 300 Meskeni civilians at Camp Orl, in the valley, without charge or access to lawyers'
+        weight: essential
+        kind: conduct
+        issues:
+          - camp
+        why: Soldiers are state organs (art 4); detention without charge or counsel breaches arts 9 and 10.
+      - text: former detainees describe beatings during interrogation
+        weight: essential
+        kind: harm
+        issues:
+          - camp
+        why: Ill-treatment in custody breaches art 7, which is non-derogable.
+      - text: (b) the Valley Guard, a local militia armed and paid by Halvia but commanded by its own leaders
+        weight: essential
+        kind: relationship
+        issues:
+          - valley-guard
+        why: Arming and paying without directing operations falls short of effective control (art 8; Bosnian Genocide).
+      - text: has burned the homes of Meskeni families who refuse to leave the valley
+        weight: essential
+        kind: harm
+        issues:
+          - valley-guard
+        why: 'Destruction of homes and forced displacement: the question is who answers for it.'
+      - text: while Halvian patrols watched without intervening
+        weight: essential
+        kind: conduct
+        issues:
+          - valley-guard
+        why: 'Halvia''s own omission: breach of the duty to protect within its jurisdiction (General Comment 31 para 8).'
+      - text: (c) Halvia has built a fortified fence through the valley
+        weight: essential
+        kind: conduct
+        issues:
+          - fence
+        why: 'A state measure restricting movement and other rights: it must be necessary and proportionate.'
+      - text: cutting 4,000 Meskeni farmers off from their fields and from the valley's only hospital.
+        weight: essential
+        kind: harm
+        issues:
+          - fence
+          - pm
+        why: 'Severe effects on livelihood and health: disproportionate (Wall), and urgent for provisional measures.'
+      - text: Halvia has not proclaimed any emergency or derogation.
+        weight: essential
+        kind: context
+        issues:
+          - fence
+        why: No derogation, so the full Covenant applies and restrictions must fit the limitation clauses.
+      - text: Two former detainees brought individual complaints to the Human Rights Committee, whose competence Halvia has accepted.
+        weight: essential
+        kind: relationship
+        issues:
+          - views-remedies
+        why: Halvia accepted the procedure, so good faith requires it to consider the views seriously.
+      - text: The Committee adopted views finding that Halvia had violated ICCPR arts 7, 9 and 10.
+        weight: essential
+        kind: statement
+        issues:
+          - views-remedies
+          - camp
+        why: Not binding, but the ICJ gives them great weight (Diallo).
+      - text: Halvia rejected the views as "not binding".
+        weight: essential
+        kind: statement
+        issues:
+          - views-remedies
+        why: 'Formally correct, but beside the point: the views are authoritative and owed good-faith consideration (Diallo).'
+      - text: It also says that the ICCPR does not apply outside Halvia's territory
+        weight: essential
+        kind: statement
+        issues:
+          - extraterritorial
+        why: 'Wrong: art 2(1) covers territory under effective control (Wall; Armed Activities).'
+      - text: that it is not responsible for what the Valley Guard does
+        weight: essential
+        kind: statement
+        issues:
+          - valley-guard
+        why: Perhaps right on attribution, but Halvia answers for its own failure to prevent.
+      - text: and that the fence is a temporary security measure made necessary by cross-border raids.
+        weight: essential
+        kind: statement
+        issues:
+          - fence
+        why: Necessity (art 25) requires the only means of safeguarding an essential interest; the Wall rejected this argument.
+      - text: Mesken, which has protested each of these matters in diplomatic notes
+        weight: essential
+        kind: statement
+        issues:
+          - jurisdiction
+        why: 'Protests met by Halvia''s denials show positively opposed views: a dispute existed before filing.'
+      - text: has filed an application against Halvia in the ICJ alleging breaches of the ICCPR.
+        weight: essential
+        kind: conduct
+        issues:
+          - jurisdiction
+        why: Jurisdiction rests on the art 36(2) declarations; the ICCPR itself has no ICJ clause.
+      - text: It asks the Court (i) to indicate provisional measures ordering the release of the Camp Orl detainees and the opening of gates in the fence for access to the hospital
+        weight: essential
+        kind: statement
+        issues:
+          - pm
+        why: Linked to plausible Covenant rights; urgency from ongoing detention and lost hospital access.
+      - text: and (ii) at the merits stage, to order the dismantling of the fence and compensation.
+        weight: essential
+        kind: statement
+        issues:
+          - views-remedies
+        why: Cessation (art 30) means dismantling the fence; full reparation (art 31) includes compensation, as in the Wall.
+      - text: 'Advise Mesken on: (a) the Court''s jurisdiction and the request for provisional measures; (b) whether Halvia''s conduct in the valley breaches the ICCPR and engages its responsibility; (c) the weight of the Committee''s views; and (d) the remedies Mesken can obtain.'
+        weight: background
+        kind: context
+        issues:
+          - jurisdiction
+          - pm
+          - extraterritorial
+          - views-remedies

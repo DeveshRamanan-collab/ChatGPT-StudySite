@@ -1,0 +1,650 @@
+unit: mgmt2094
+week: 5
+source: raw/mgmt2094-sci/week-05
+generator: aids-1
+aids:
+  - concept: mgmt2094-w05-whole-brain-model
+    plain: Herrmann's model sorts thinking into four quadrants (A analytical, B organised, C interpersonal, D intuitive) and profiles which ones you prefer, can use, and avoid.
+    concrete: 'The lecturer: someone prone to organising and structuring things goes first to the B quadrant; someone who notices other people’s emotions favours C. But the task decides the quadrant you need: a maths problem needs A, the logical, quantitative side. If A is a quadrant you avoid, be aware of that and consciously push yourself towards it, or work with team members whose preferences complement yours.'
+    formal: 'Slides: Herrmann''s model is based on learning/thinking/doing. A: logical, analytical, fact based, quantitative; B: organised, sequential, planned, detailed; C: interpersonal, feeling based, kinaesthetic, emotional; D: holistic, intuitive, integrating, synthesising. It profiles how you first look at a problem: preferred mode 1, competent mode 2, avoidance 3. A and B are preparation and verification; C and D incubation and illumination.'
+    analogy:
+      text: 'Being right- or left-handed: you reach first with your preferred hand and can manage with the other, but some jobs need a particular hand whatever you prefer.'
+      maps:
+        - from: the hand you reach with first
+          to: preferred mode (code 1)
+        - from: managing with the other hand
+          to: competent mode (code 2)
+        - from: a job that needs a particular hand
+          to: a task that needs a particular quadrant, such as A for maths
+      limits:
+        - Handedness is physical; the lecturer warns the quadrants do not necessarily correspond to how the brain works. There are also four quadrants, and several can share a code.
+    terms:
+      - term: thinking profile
+        gloss: 'A record of how you respond to each quadrant when you first look at a problem: 1 preferred, 2 competent, 3 avoidance.'
+      - term: competent mode (2)
+        gloss: The way you can function in a quadrant, though it may not be your first choice.
+      - term: avoidance (3)
+        gloss: A quadrant you tend to stay away from; if a task needs it, push yourself there consciously or team up.
+    elements:
+      - name: 'A: logical, analytical, fact based, quantitative'
+        test: 'How scientists, physicists and mathematicians think: numbers and logic. With B, the side of preparation and verification.'
+      - name: 'B: organised, sequential, planned, detailed'
+        test: Planning, organisation and following a structure. With A, the side of preparation and verification.
+      - name: 'C: interpersonal, feeling based, kinaesthetic, emotional'
+        test: How you and others feel, and how others will receive your ideas. With D, the side of incubation and illumination.
+      - name: 'D: holistic, intuitive, integrating, synthesising'
+        test: Integrating and synthesising ideas, where fresh thinking comes from; often ignored (lecturer). With C, the side of incubation and illumination.
+        authorities:
+          - mgmt2094-example-poincare-mathematical-discovery
+    misconceptions:
+      - claim: In a thinking profile, a 3 marks your strongest quadrant.
+        tempting: Higher numbers usually mean higher scores.
+        correction: 'The slide: preferred mode is 1, competent mode 2, and avoidance is given a 3. A 3 marks the quadrant you tend to stay away from.'
+      - claim: Your preferred quadrant should lead every task.
+        tempting: Working from your strengths feels natural.
+        correction: 'The lecturer: to solve a certain problem you need to go to a certain quadrant (a maths problem needs A), so be aware of what you avoid and push yourself there.'
+      - claim: The four quadrants are four physical parts of the brain.
+        tempting: The model is drawn as a brain and called 'whole brain'.
+        correction: The lecturer cautioned that the quadrants do not necessarily correspond to how your brain actually works.
+    socratic:
+      - ask: When you first face a problem, do you reach for numbers, a plan, how people feel, or the big picture?
+        hint: Four quadrants.
+        answer: 'That first reach shows your preferred mode (code 1): A numbers and logic, B plans and structure, C feelings and people, D holistic synthesis.'
+      - ask: Does your preference decide which quadrant a task needs?
+        hint: Think of a maths problem.
+        answer: 'No: the task decides. A maths problem needs the logical, quantitative A quadrant whatever your preference.'
+      - ask: What if the task needs a quadrant you avoid (a 3)?
+        hint: Two options from the lecture.
+        answer: Be aware of it and consciously push yourself there, or work in a team whose members' preferences complement yours.
+      - ask: How does the model link to Wallas' creative process?
+        hint: Pairs of sides.
+        answer: The A and B sides are preparation and verification; the C and D sides are incubation and illumination.
+    what-if:
+      - change: A start-up founder who scores A = 3 must build the financial model for investors this week.
+        effect: The task needs A (logical, quantitative) whatever her profile. Aware that she avoids it, she should consciously push herself there or bring in a co-founder who prefers A.
+    boundary:
+      - text: A profile of A = 1, B = 1, C = 3, D = 2.
+        why: 'Valid: the slide says you may have more than one quadrant with the same number. She prefers A and B, is competent in D and avoids C.'
+      - text: Poincaré's idea arriving as he stepped onto a bus, then checked at home.
+        why: 'Uses both halves: the idea came out of incubation (the C and D sides) and was then verified consciously and logically (the A and B sides).'
+    transfer:
+      - scenario: A charity's fundraising committee loves planning events and tracking budgets but struggles to imagine new campaigns.
+        answer: Its members probably prefer A and B (analytical, organised) and avoid D (holistic, intuitive). Those sides suit preparation and verification, not incubation and illumination. Recruit members who prefer C and D, or consciously push into those quadrants, so the committee covers the whole creative process.
+    objections:
+      - position: Knowing your thinking profile improves your creative work.
+        evidence: It shows which quadrants you prefer and avoid; the lecture says be aware, push yourself into the quadrant a task needs, and build teams that complement each other.
+        objection: The lecturer cautions that the quadrants do not necessarily correspond to how the brain actually works, so the model is a simplification of thinking, not a map of the brain.
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 3–4)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+  - concept: mgmt2094-w05-wallas-model-of-creative-thinking
+    plain: 'Wallas'' model says creative ideas come in stages: work on the problem, let it simmer unconsciously, sense an answer coming, have the ''eureka'' flash, then check that the idea works.'
+    concrete: Poincaré worked fruitlessly for fifteen days on a class of mathematical functions. Later, on a geological excursion that made him forget his work, an idea came to him as he put his foot on the step of a bus. He did not check it then, carrying on his conversation, but verified the result at leisure back home in Caen. He warned that an inspiration felt with absolute certainty can still fail the test of verification.
+    formal: 'Slides: Preparation (focuses on the problem, explores its dimensions); Incubation (subconscious mulling); Intimation (inkling that a solution may be on its way); Illumination (''eureka''); Verification (practicality, effectiveness, appropriateness). Sadler-Smith (2015): Wallas'' Art of Thought (1926) treated Intimation in detail, so five stages across three levels of consciousness are more authentic than the usual four.'
+    analogy:
+      text: 'Baking bread: you knead the dough, leave it covered to rise, smell it baking, take out the loaf, then cut and taste it.'
+      maps:
+        - from: kneading
+          to: 'Preparation: conscious work on the problem'
+        - from: rising, covered and unseen
+          to: 'Incubation: nonconscious, not forced'
+        - from: the smell from the oven
+          to: 'Intimation: a sense the answer is coming'
+        - from: cutting and tasting
+          to: 'Verification: checking the idea works'
+      limits:
+        - Dough rises reliably given time; Incubation guarantees nothing, and a confident flash can still fail verification (Poincaré).
+    terms:
+      - term: incubation
+        gloss: 'Not consciously working on the problem while nonconscious mental events go on. Two forms: distraction (other work) or mental relaxation (rest from all mental work).'
+      - term: intimation
+        gloss: 'A fringe-conscious feeling that a solution is coming: ''I often know that the solution is coming, though I don''t know what the solution will be.'''
+      - term: fringe consciousness
+        gloss: Wallas' corona around full consciousness, where Intimation sits; only partly open to attention and influence.
+      - term: verification
+        gloss: 'Conscious, logical checking of an idea, a term Wallas borrowed from Poincaré. Sadler-Smith adds a social side: the field verifies.'
+    elements:
+      - name: 1 Preparation (conscious)
+        test: 'Voluntary, effortful work: focus on the problem and explore its dimensions, investigating it ''in all directions'' (Helmholtz). Depends on domain knowledge.'
+        authorities:
+          - mgmt2094-sadler-smith-2015-wallas-four-stage-model
+          - mgmt2094-example-helmholtz-happy-ideas
+      - name: 2 Incubation (nonconscious)
+        test: Involuntary, effortless and not open to introspection. Distraction suits less difficult problems; mental relaxation, even physical exercise, suits harder ones.
+        authorities:
+          - mgmt2094-example-darwin-and-wallace-natural-selection
+      - name: 3 Intimation (fringe consciousness)
+        test: An inkling that a solution may well be on its way; only partly amenable to attention.
+      - name: 4 Illumination (conscious)
+        test: 'The instantaneous ''flash'' or ''click'': discovery, the ''eureka'' moment when the idea bursts through.'
+        authorities:
+          - mgmt2094-example-poincare-mathematical-discovery
+      - name: 5 Verification (conscious)
+        test: Logical checking of the idea's practicality, effectiveness and appropriateness; certainty can deceive.
+    misconceptions:
+      - claim: 'Wallas'' model has just four stages: Preparation, Incubation, Illumination, Verification.'
+        tempting: That is how most researchers cite it.
+        correction: 'Sadler-Smith (2015): Wallas devoted 12 pages to Intimation, the fringe consciousness linking Incubation and Illumination; the slide and reading give five stages.'
+      - claim: Once you have the eureka moment, the creative work is done.
+        tempting: Illumination often comes with a feeling of certainty.
+        correction: 'Poincaré: an inspiration felt with absolute certainty sometimes does not stand the test of verification. The lecture stresses checking that the idea actually fits the problem.'
+      - claim: Incubation means working harder on the problem until it cracks.
+        tempting: Hard problems seem to need hard work.
+        correction: During Incubation we do not voluntarily think about the problem; Wallas says harder problems benefit from total mental relaxation, like Helmholtz's walks up wooded hills.
+    socratic:
+      - ask: Before any good idea arrives, what must the thinker have done?
+        hint: 'Helmholtz: ''in all directions''.'
+        answer: 'Preparation: conscious work exploring the problem''s dimensions. Chance favours the prepared mind.'
+      - ask: Helmholtz's happy ideas never came at his working table. When did they come?
+        hint: Wooded hills on a sunny day.
+        answer: 'After investigating the problem, during slow walks: Incubation, when the mind is not consciously on the problem.'
+      - ask: What might you feel just before the answer arrives?
+        hint: A civil servant's report to Wallas.
+        answer: 'Intimation: a sense that the solution is coming, before you know what it is.'
+      - ask: When the idea bursts through, is it safe to act on it straight away?
+        hint: Poincaré's warning.
+        answer: 'Not yet: Illumination must be followed by Verification, a conscious check of practicality, effectiveness and appropriateness.'
+      - ask: Which stages are conscious and which are not?
+        hint: Three levels.
+        answer: Preparation, Illumination and Verification are conscious; Incubation is nonconscious; Intimation sits in the fringe of consciousness.
+    what-if:
+      - change: The task is a routine one, like writing this week’s staff newsletter, rather than a scientific discovery.
+        effect: Wallas thought distraction (conscious work on other problems) suits less difficult creative thought, like a preacher's Sunday sermon; total mental relaxation is for harder problems.
+      - change: A team with a tight deadline wants to go straight from Preparation to Illumination.
+        effect: 'Incubation takes time: the slide says the approach needs time and a variety of people, and Sadler-Smith advises posing the problem as early as possible to maximise incubation.'
+    boundary:
+      - text: Darwin and Wallace, forced to rest by ill-health and malaria before natural selection.
+        why: 'Incubation through mental relaxation: Wallas reasoned that their misfortunes compelled them to stop mental activity, so they incubated involuntarily.'
+      - text: Becquerel's chance discovery of radioactivity from uranium salts and photographic paper in a drawer.
+        why: 'It looks like pure accident, but Cropley (cited by Sadler-Smith) says he could not have made it without deep Preparation: chance favours the prepared mind.'
+    transfer:
+      - scenario: A game designer is stuck for days on a level's puzzle. She takes a week's holiday, feels on the flight home that the answer is close, and in the airport queue it suddenly clicks.
+        answer: 'The stuck days were Preparation; the holiday, Incubation by mental relaxation; the feeling on the flight, Intimation; the click, Illumination. She now needs Verification: playtest whether the puzzle actually works, because certainty can deceive (Poincaré).'
+    objections:
+      - position: Wallas' model is best read as five stages, not four.
+        evidence: 'Sadler-Smith: Wallas gave Intimation 12 pages of his ''Stages of Control'' chapter; a close reading shows five stages.'
+        objection: 'Wallas'' own summary named four: ''Preparation, Incubation, Illumination (and its accompaniments), and Verification'', and the four-stage version has anchored hundreds of research projects.'
+        reply: Illumination is a single, instantaneous flash, while Intimation is a rising train of association lasting varying lengths of time, so it deserves its own stage.
+      - position: The stages let people manage their creativity.
+        evidence: 'Wallas wrote a pragmatic book: distraction, mental relaxation and physical exercise help control Incubation and facilitate Illumination.'
+        objection: Wallas acknowledged that controlling Illumination is much more difficult, and Intimations and Illuminations are unpredictable and elusive.
+    storyboard:
+      - caption: Fifteen fruitless days
+        detail: Poincaré sat at his work table for an hour or two each day, tried many combinations, and reached no results (Preparation).
+      - caption: A geological excursion
+        detail: 'The trip made him forget his mathematical work: Incubation, with no conscious mathematical thinking.'
+      - caption: A foot on the bus step
+        detail: The idea came to him without anything in his former thoughts seeming to pave the way (Illumination).
+      - caption: Verified at home in Caen
+        detail: He did not check the idea on the bus; back home he verified the result at his leisure (Verification).
+      - caption: Certainty can deceive
+        detail: He warned that inspirations felt with absolute certainty sometimes fail the test of verification.
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 5)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+      - Marketing - Week 05 - Reading - Wallas' Model of Creative Thinking (Sadler-Smith 2015, pp 342–349)
+  - concept: mgmt2094-w05-psychological-theories-of-creativity
+    plain: 'Four theories say creativity comes from moving away from a ''normal'' state: hardship or repressed emotion, mild mental illness, substance use, or a rule-rejecting personality.'
+    concrete: 'The lecturer pictures ''normality'' as stability and security: middle-aged, middle-class, well fed, healthy, in a stable job. To be creative you must move away from that in one way or another. In very creative lives you often find trauma, such as losing a parent or partner, or an illness. Many people never fully recover, but creative people recover by reinterpreting reality creatively: the psychoanalytical picture.'
+    formal: 'Slides: psychoanalytical (Jung; Freud, Adler and Hammer): creativity as a reaction to difficult circumstances and/or repressed emotions; ''unsatisfied wishes are the driving power behind fantasies'' (Freud). Mental illness (Briggs; Eisemann; Goodman): some, not severe, illness. Addiction (Lapp, Collins, Norlander and Wallas): substances may contribute. Psychoticism (Eysenck): a disposition halfway between ''normal'' and psychosis.'
+    terms:
+      - term: psychoanalytical theory
+        gloss: 'Creativity as a reaction to difficult circumstances or repressed emotions: people pull back, then rely on their creative side as an outlet.'
+      - term: psychoticism
+        gloss: 'Eysenck: a disposition halfway between a ''normal'' person and psychosis: rejecting norms, risk taking, impulsive, spontaneous.'
+      - term: reflective mode
+        gloss: 'Verhaeghen and colleagues: a state that makes people more creative but can also lead to depression, as in artists and writers.'
+    misconceptions:
+      - claim: On the mental illness theory, the more severe the illness, the more creative the person.
+        tempting: The theory ties creativity to illness.
+        correction: 'The slide: the illness does not have to be severe, as severe illness can actually impede creativity.'
+      - claim: The addiction theory shows that substances cause creativity.
+        tempting: The slide says substances contribute, and may even cause it in some people.
+        correction: 'Its critics reverse the cause: addiction does not cause creativity; people with creative tendencies are more prone to addiction. The lecturer warned against following the theory.'
+      - claim: Stress makes people more creative.
+        tempting: These theories link creativity to difficulty.
+        correction: The mental illness slide says stress actually impairs creativity by distracting us; the lecturer adds that some stress can sometimes spur it, so it depends.
+    socratic:
+      - ask: What does the lecturer mean by the 'normal' state?
+        hint: Stable, secure, calm.
+        answer: 'Stability and security: well fed, healthy, a stable job, not venturing into unknown territory. Creativity means moving away from it.'
+      - ask: Which theory says people create after trauma or because of repressed emotions?
+        hint: Freud and Jung.
+        answer: 'The psychoanalytical theory: people pull back after a difficult event and use their creative side as an outlet; a sense of inferiority can also drive them.'
+      - ask: Which theory needs some mental illness present, and how much?
+        hint: Bipolar disorder, mood swings.
+        answer: 'The mental illness theory (Briggs; Eisemann; Goodman): some form of illness, but not severe, as that can impede creativity.'
+      - ask: If creative people use more substances, does that prove substances cause creativity?
+        hint: Which way does the cause run?
+        answer: 'No: critics say creative tendencies make people more prone to addiction, so the cause may run the other way.'
+      - ask: Which theory describes a rule-rejecting, impulsive risk taker?
+        hint: Eysenck.
+        answer: 'Psychoticism: halfway between ''normal'' and psychosis, an anti-convention form of rebellion.'
+    what-if:
+      - change: The entrepreneur did not lose her business; she led a secure, comfortable life with every need met.
+        effect: 'The psychoanalytical theory, which needs difficult circumstances, would struggle to explain her new venture; the humanistic theory fits better: once needs are met, a person can choose to be creative.'
+    boundary:
+      - text: An engineer who rejects company rules, takes big risks, acts on impulse and produces the most original designs.
+        why: Fits psychoticism (anti-convention, impulsive, risk taking). Nothing points to bipolar disorder or mood swings, so it is not the mental illness theory.
+      - text: A writer who becomes more creative in a reflective mode, and also more prone to depression.
+        why: 'The evidence the slides give for the mental illness theory (Verhaeghen and colleagues): reflection raises creativity but can lead to depression, typical of artists and writers.'
+    transfer:
+      - scenario: 'An agency director says her best designers ''all have a bit of darkness: they create because something is wrong''.'
+        answer: This echoes the psychoanalytical theory (a reaction to difficult circumstances or repressed emotion) and the mental illness theory (some, not severe, illness). But stress impairs creativity by distracting us, and the humanistic theory says creativity flows once needs are met, so she should support her staff, not rely on distress.
+    objections:
+      - position: Creativity comes from being a bit troubled.
+        evidence: 'Psychoanalytical and mental illness theories: creativity as a reaction to hardship or repressed emotion; a reflective mode links creativity and depression in artists and writers (Verhaeghen).'
+        objection: Stress impairs creativity by distracting us, severe illness impedes it, and the humanistic theory says creativity comes once needs are met.
+      - position: Substance use contributes to creativity.
+        evidence: 'Addiction theory: substances may remove the stress that inhibits creativity, and the loose, unpredictable thinking they bring is linked to creativity.'
+        objection: Critics say creative people are more prone to addiction, not made creative by it; the lecturer adds that stimulants can worsen anxiety in people who are already creative.
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 6–9)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+  - concept: mgmt2094-w05-humanistic-theory-and-maslows-types
+    plain: 'The humanistic theory says people create once their needs are met, at the top of Maslow''s hierarchy. Maslow also named three types of creativity: primary, secondary and integrated.'
+    concrete: 'The lecturer: in a war-torn society it is very difficult to be creative, or even to function properly; you need personal security first. Even someone with a job and good money who is not respected for their achievements ends up with low self-esteem. Only once these needs are at least partly met do we reach self-actualisation, where we are free and comfortable enough to express ourselves creatively.'
+    formal: 'Slides: humanistic theory (Maslow; Rogers and Fromm): once we get to self-actualisation in Maslow''s hierarchy of needs, we are free and comfortable enough to express ourselves creatively. Environment is not a factor: a person able to meet all their needs can then choose to be creative. Creativity is central to growth and learning. Maslow''s three types: primary, secondary and integrated.'
+    terms:
+      - term: self-actualisation
+        gloss: 'The top of Maslow''s hierarchy: the desire to become the most that one can be, where creativity is freely expressed.'
+      - term: primary creativity
+        gloss: Creativity that lets us escape the daily grind and stress of life, through painting, drawing or writing; it need not be good.
+      - term: secondary creativity
+        gloss: A higher level of thought; more thought out and involved than primary creativity.
+      - term: integrated creativity
+        gloss: 'Combines both: it may be spontaneous at first, but much thought goes in before we begin, e.g. philosophy and scientific discoveries.'
+    elements:
+      - name: Physiological needs
+        test: Air, water, food, shelter, sleep, clothing, reproduction.
+      - name: Safety needs
+        test: Personal security, employment, resources, health, property.
+      - name: Love and belonging
+        test: Friendship, intimacy, family, sense of connection.
+      - name: Esteem
+        test: Respect, self-esteem, status, recognition, strength, freedom.
+      - name: Self-actualisation
+        test: The desire to become the most that one can be; here we are free and comfortable enough to express ourselves creatively.
+    misconceptions:
+      - claim: The humanistic theory says hardship drives creativity.
+        tempting: Struggle stories are common, and the psychoanalytical theory says so.
+        correction: 'It says the opposite: creativity comes once needs are met, at self-actualisation. Hardship as the driver is the psychoanalytical theory.'
+      - claim: Primary creativity is the best, most original type.
+        tempting: '''Primary'' sounds first-rate.'
+        correction: Primary creativity is an escape from the daily grind and stress, through painting, drawing or writing; the lecturer stressed it need not be any good.
+      - claim: Integrated creativity means creating together with other people.
+        tempting: '''Integrated'' sounds social.'
+        correction: 'It integrates primary and secondary creativity: spontaneous when we begin, with much thought about what we hope to achieve, as in philosophy and scientific discoveries.'
+    socratic:
+      - ask: Could someone in a war zone, worried for their safety, easily be creative?
+        hint: Maslow's lower levels.
+        answer: 'Hardly: the lecturer says without personal security it is difficult even to function properly. Lower needs come first.'
+      - ask: So when, on this theory, does creativity appear?
+        hint: The top of the hierarchy.
+        answer: 'At self-actualisation, once needs are at least partly met: we are then free and comfortable enough to express ourselves creatively.'
+      - ask: Does environment matter on this view?
+        hint: What can a person then do?
+        answer: 'The theory argues environment is not a factor: a person able to meet all their needs can then choose to be creative.'
+      - ask: 'Sketching in a park to unwind after a stressful week: which type of creativity?'
+        hint: Escape from the daily grind.
+        answer: Primary creativity, and it need not be any good.
+      - ask: 'A scientific discovery, planned for years but sparked spontaneously: which type?'
+        hint: It combines both.
+        answer: Integrated creativity, like philosophy and scientific discoveries.
+    what-if:
+      - change: A well-paid employee's work is never recognised or respected.
+        effect: An esteem need is unmet, and the lecturer says this leads to low self-esteem; on the humanistic theory she is less free to self-actualise and express herself creatively.
+    boundary:
+      - text: A refugee founder who builds a successful company soon after arriving with nothing.
+        why: Hard for the humanistic theory, since her safety and esteem needs were unmet. The psychoanalytical theory, creativity as a reaction to difficult circumstances, explains it more easily.
+      - text: The theory of evolution through natural selection.
+        why: 'A scientific discovery, the slide’s example of integrated creativity: much prior thought combined with spontaneous insight.'
+    transfer:
+      - scenario: A café owner wants staff to suggest new menu ideas, but they work insecure casual shifts and feel unappreciated.
+        answer: On the humanistic theory, unmet safety (employment) and esteem (respect, recognition) needs block self-actualisation, where creativity is freely expressed. Securing shifts and recognising contributions should come before asking for ideas; creativity then becomes a choice staff can make.
+    objections:
+      - position: Creativity flows once needs are met, and environment is not a factor.
+        evidence: 'Humanistic theory (Maslow; Rogers and Fromm): at self-actualisation we are free and comfortable enough to express ourselves; a person who meets all their needs can choose to be creative.'
+        objection: The psychoanalytical theory makes difficult circumstances the trigger, and the lecturer notes trauma in many very creative lives.
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 10–12)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+  - concept: mgmt2094-w05-grace-accident-association-and-cognitive-theories
+    plain: 'Four answers to where ideas come from: a rare gift (grace), luck (accident), borrowing methods from another field (association), or the ordinary reasoning everyone has (cognitive).'
+    concrete: 'Darwin, a biologist, read Malthus'' An Essay on the Principle of Population (1798), a work of political economy, and it contributed to the insight behind natural selection (Sadler-Smith 2015). Knowledge from a seemingly unrelated domain, met by deliberate scanning or serendipity, fed his creativity. That is creative association: applying ideas or procedures from one area to another, the basis of techniques such as lateral thinking and brainstorming.'
+    formal: 'Slides: creativity by grace: the idea of genius, endowed with superhuman potential, a divine gift. By accident: it rises by chance, e.g. immunisation from an interruption in work, radioactivity from a wrong hypothesis. Creative association: applying procedures from one area to another; it underlies divergent techniques such as lateral thinking and brainstorming. Cognitive: a normal human activity of reasoning, recognition and understanding.'
+    terms:
+      - term: creativity by grace
+        gloss: 'Creativity as a divine gift: geniuses endowed with superhuman potential; you either have it or you do not.'
+      - term: creativity by accident
+        gloss: Creativity that rises by chance, as in discoveries from an interruption in work or a wrong hypothesis.
+      - term: creative association
+        gloss: Applying procedures from one area to another; it underlies lateral thinking and brainstorming.
+      - term: cognitive creativity
+        gloss: 'Creativity as a normal human activity: reasoning, recognition and understanding.'
+    misconceptions:
+      - claim: Accidental discoveries show that preparation doesn't matter.
+        tempting: The slide says creativity by accident rises by chance.
+        correction: 'Sadler-Smith, citing Cropley: Becquerel could not have discovered radioactivity by chance had he not already been immersed in the research. Chance favours the prepared mind.'
+      - claim: Creativity belongs to the talented few and people in artistic roles.
+        tempting: Genius stories and the grace theory suggest so.
+        correction: 'Claman (2017): everyone has creativity when confronted with new problems; it is not just for the talented few. It fades in a rut but can be revived.'
+      - claim: Creative association means ideas pop up by chance when two things happen to meet.
+        tempting: Accident and association both involve things coming together.
+        correction: 'Association is deliberate: applying procedures from one area to another. Ideas rising by chance is creativity by accident.'
+    socratic:
+      - ask: If creativity is a divine gift, can a firm train its staff to be creative?
+        hint: Grace.
+        answer: 'No: on the grace view you are either a genius or not, so training would be pointless.'
+      - ask: Is a lucky discovery pure luck?
+        hint: Becquerel's drawer.
+        answer: 'Not quite: chance favours the prepared mind. Becquerel needed deep immersion in the research to make use of what chance produced.'
+      - ask: What did Darwin take from Malthus?
+        hint: Two different fields.
+        answer: 'Knowledge from political economy carried into biology: creative association, applying ideas from one area to another.'
+      - ask: If creativity is ordinary reasoning, recognition and understanding, who has it?
+        hint: Claman's first day at work.
+        answer: 'Everyone: Claman says people are naturally creative when confronted with new problems, though creativity can fade in a rut.'
+      - ask: What does Claman suggest to revive it?
+        hint: Four work habits.
+        answer: Think new; look for intersections; capitalise on obstacles; share what you know.
+    what-if:
+      - change: A manager believes creativity comes by grace rather than as normal cognition.
+        effect: She would hunt for "geniuses" and see training as pointless. On the cognitive view, as in Claman, creativity is normal and can be rebuilt, so she would develop habits such as looking for intersections.
+    boundary:
+      - text: A hospital team adopting motor-racing pit-stop routines to speed up patient handovers.
+        why: 'Creative association: a deliberate transfer of procedures from one field to another, not chance or a divine gift.'
+      - text: Claman's advice to look for intersections between your department and others.
+        why: 'Closest to association: creativity at the crossroads of different people and ideas, sought deliberately, e.g. by volunteering for cross-functional teams.'
+    transfer:
+      - scenario: A bank's product team says it has 'run out of ideas' after three years on the same project.
+        answer: On the cognitive view, and Claman’s, creativity is normal but fades in a rut. The team should think new (new clients, assignments), look for intersections with other departments, capitalise on obstacles and share what it knows. Borrowing procedures from other fields (association) underlies lateral thinking and brainstorming.
+    objections:
+      - position: Big ideas just happen by luck, so innovation can't be planned.
+        evidence: 'The slides'' creativity by accident: immunisation from an interruption in work, radioactivity from a wrong hypothesis.'
+        objection: Chance favours the prepared mind (Becquerel, in Sadler-Smith); Markman calls tapping memory more repeatable than luck; Claman treats creativity as a habit that can be rebuilt.
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 13–14)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+      - Marketing - Week 05 - Reading - Wallas' Model of Creative Thinking (Sadler-Smith 2015, p 348)
+      - Marketing - Week 05 - Reading - How to Spark Creativity When You Are in a Rut (Claman 2017, pp 1–3)
+  - concept: mgmt2094-w05-creative-problem-solving-process
+    plain: Creative problem solving runs in six stages, from finding the problem area to getting a solution accepted, switching between divergent (many options) and convergent (choose one) thinking.
+    concrete: 'The lecturer walks it through: first list all kinds of problems and define the problem area; gather information and research; then narrow from many problems to maybe one, defined precisely, ''an extremely important part''. Then diverge again, generating as many ideas as you can, evaluate and choose between the possible solutions, and implement. Information gathered along the way can spark ideas you come back to later.'
+    formal: 'Slides: Objective finding (defines the problem area); Fact finding (gathers the information); Problem finding (defines the problem correctly); Idea finding (generates many solutions); Solution finding (evaluates and chooses); Acceptance finding (implements the chosen ideas correctly). Divergent thinking: many possible solutions to one problem; convergent: one single correct solution.'
+    terms:
+      - term: divergent thinking
+        gloss: Coming up with many possible solutions to the one problem.
+      - term: convergent thinking
+        gloss: 'Solving a problem with only one single correct solution: narrowing and choosing.'
+      - term: hits and hotspots
+        gloss: The promising items found by questioning ownership, priority and critical nature; they carry forward to the next stage.
+      - term: conditions of creative thinking
+        gloss: 'The slides list five: receptivity, immersion, seeing questions, utilisation of errors and detached devotion.'
+    elements:
+      - name: 1 Objective finding
+        test: Diverge to list problems, then converge on the most relevant areas; find hits and hotspots by asking about ownership (motivated to solve it?), priority (how important?) and critical nature (how urgent?).
+      - name: 2 Fact finding
+        test: 'Collect relevant information: it increases comprehension, helps new ideas, and may show the problems from a new perspective; hits and hotspots assist convergence.'
+      - name: 3 Problem finding
+        test: Use the previous stage's hits to identify the most productive problem definition possible.
+        authorities:
+          - mgmt2094-markman-2017-how-you-define-the-problem
+      - name: 4 Idea finding
+        test: 'Mainly divergent: structure the search for solutions and generate many ideas using a variety of idea generation aids.'
+      - name: 5 Solution finding
+        test: 'Converge: choose the ideas that can be transformed into workable solutions.'
+      - name: 6 Acceptance finding
+        test: 'Divergent: list implementation obstacles and ways to overcome them, develop preventive actions and contingency plans, and generate an action plan.'
+    misconceptions:
+      - claim: 'Acceptance finding is a convergent stage: the final yes or no.'
+        tempting: It comes last, after the choice is made.
+        correction: 'The slides call it a divergent activity: listing obstacles and ways to overcome them, preventive and contingency plans, and an action plan.'
+      - claim: Problem finding comes before fact finding.
+        tempting: Defining the problem feels like an early step.
+        correction: Objective finding sets the problem area, fact finding gathers information, and problem finding then uses those hits to define the problem.
+      - claim: Creative problem solving replaces our natural creativity with a fixed procedure.
+        tempting: It is a six-stage process.
+        correction: 'The slides: it is intuitive and natural, not designed to replace our natural creative processes but to build on them, and it can be used in all aspects of life.'
+    socratic:
+      - ask: A café chain says 'sales are down' and jumps straight to brainstorming menu items. What has it skipped?
+        hint: Stages one to three.
+        answer: 'Objective, fact and problem finding: defining the problem area, gathering information and defining the real problem before generating ideas.'
+      - ask: How does a team pick which problem areas to pursue?
+        hint: Three questions.
+        answer: By ownership (are we motivated to solve it?), priority (how important?) and critical nature (how urgent?), which mark the hits and hotspots.
+      - ask: Once the problem is defined, which kind of thinking produces options?
+        hint: Many solutions to one problem.
+        answer: 'Divergent thinking in idea finding: many ideas, using a variety of idea generation aids.'
+      - ask: Then how do you get to one?
+        hint: The opposite move.
+        answer: 'Convergent thinking in solution finding: choosing the ideas that can become workable solutions.'
+      - ask: Why diverge again at the very end?
+        hint: What can block a good solution?
+        answer: Acceptance finding lists obstacles, preventive and contingency plans and an action plan, so the solution is implemented successfully.
+    what-if:
+      - change: The chosen solution is sound, but staff are likely to resist it.
+        effect: 'Acceptance finding becomes the key stage: list the obstacles (the resistance) and ways to overcome them, develop preventive actions and contingency plans, and generate an action plan before implementing.'
+    boundary:
+      - text: Wallas' model of creative thinking.
+        why: 'It overlaps but differs: Wallas tracks levels of consciousness (Incubation is subconscious), while creative problem solving is a deliberate sequence. Both judge ideas: Verification and Solution finding.'
+      - text: Markman's advice to write many descriptions of the problem.
+        why: 'It sits in problem finding: the problem statement cues memory, so several descriptions help find the most productive problem definition.'
+    transfer:
+      - scenario: A university gym finds that many members cancel after two months.
+        answer: 'Objective finding: list problem areas (cost, crowding, motivation) and pick hits by ownership, priority and urgency. Fact finding: ask the leavers. Problem finding: define the most productive problem. Idea finding: diverge. Solution finding: choose workable ideas. Acceptance finding: obstacles, contingency plans and an action plan.'
+    objections:
+      - position: Good ideas come from brainstorming, not from following a process.
+        evidence: Idea finding is itself a mainly divergent, brainstorming-style stage, and the slides call the process intuitive and natural.
+        objection: Without objective, fact and problem finding a team may brainstorm on the wrong problem; the lecturer calls defining the problem correctly an extremely important part.
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 15–22)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+  - concept: mgmt2094-w05-defining-the-problem
+    plain: How you word a problem decides which memories it brings up. Rewording it, especially more abstractly, helps people find solutions they half-know already.
+    concrete: 'Thinking about vacuum cleaner bags reminds you of bags, which is why so many bags carry long lists of patent numbers. Markman redescribes the problem: a vacuum takes in dirt and air and has to separate the dirt from the air. That statement doesn''t mention the bag at all, and there are many ways to separate particles from air, including the industrial cyclone, which James Dyson adapted to eliminate the bag.'
+    formal: 'Markman (2017): most creative solutions are found inside the collective memory of the people working on the problem. Memory works by cues, and ''when doing creative problem solving, the statement of the problem is the cue to memory''. There is no ideal problem statement: consistently creative people and groups find many descriptions, specific and abstract. Not ''think outside the box'' but find more descriptions of the box.'
+    analogy:
+      text: 'Searching a library catalogue: the words you type decide which books come up. Change the words and different shelves open.'
+      maps:
+        - from: the search words
+          to: the problem statement
+        - from: the books returned
+          to: the knowledge drawn out of memory
+        - from: a narrow search term
+          to: 'a specific statement: closely related knowledge'
+        - from: a broad search term
+          to: 'an abstract statement: distantly related knowledge'
+      limits:
+        - A catalogue lists every book it holds; with memory, people often do not realise they already know something that will help.
+    terms:
+      - term: cue (to memory)
+        gloss: 'Information that triggers recall of related things: a birthday party brings hats, cake and singing; salad brings lettuce, tomatoes and dressing.'
+      - term: problem statement
+        gloss: The wording of the problem; in creative problem solving it is the cue that draws related information out of memory.
+      - term: generalising the problem
+        gloss: 'Redescribing it without the specific components usually used to solve it: ''separate dirt from air'', not ''a better bag''.'
+      - term: collective memory
+        gloss: What the people working on a problem already know, often without realising that it will help.
+    misconceptions:
+      - claim: Creativity means thinking outside the box, setting aside what you already know.
+        tempting: It is the standard advice.
+        correction: 'Markman: we should find more descriptions of the box and see what they cause us to remember; most solutions lie in the collective memory of the people working on the problem.'
+      - claim: 'There is one ideal problem statement: the most abstract one.'
+        tempting: The abstract Dyson statement worked.
+        correction: 'Markman: there is no ideal problem statement. Creative groups write several, some specific (retrieving closely related knowledge) and some abstract (retrieving distant knowledge).'
+      - claim: Creative breakthroughs come mostly from luck or huge research budgets.
+        tempting: Archimedes in the bath; drug companies' billions.
+        correction: 'Markman: some stumble on answers and others spend decades and millions, but tapping memory is one of the most cost-effective and repeatable approaches.'
+    socratic:
+      - ask: Why does the Dyson story, told the usual way, make creativity seem a mystery?
+        hint: What do such stories focus on?
+        answer: They focus on the novel solution, so the problem seems obvious and nobody can see how the first person found the answer.
+      - ask: Where does Markman say most creative solutions are found?
+        hint: Not luck, not budgets.
+        answer: 'In the collective memory of the people working on the problem: someone knows something that will help but hasn''t realised it.'
+      - ask: What pulls the right knowledge out of memory?
+        hint: A birthday party, then salad.
+        answer: A cue. In creative problem solving the problem statement is the cue, so changing the statement draws out new information.
+      - ask: How could anyone get from vacuum bags to cyclones?
+        hint: Leave the bag out.
+        answer: Describe the problem as separating dirt from air; that general statement brings to mind other ways to separate particles from air, such as industrial cyclones.
+      - ask: So what should a group do before generating ideas?
+        hint: How many statements?
+        answer: 'Write many descriptions: some specific about the objects acted on, some abstract about relationships or the goal.'
+    what-if:
+      - change: 'The team describes its problem only in specific terms: ''How do we make a better vacuum bag?'''
+        effect: It will retrieve closely related knowledge, such as types of bags, and may improve bags, but Markman says a radically new solution requires a new problem statement.
+    boundary:
+      - text: Archimedes noticing the bath water rise and solving the volume of a decorated crown.
+        why: 'Outside Markman''s method: he ''lucked into'' the solution. Markman contrasts luck with tapping memory, which is more cost-effective and repeatable.'
+      - text: Picasso and Braque's cubism, and Xerox PARC's spatial desktop.
+        why: 'Markman''s opening examples: told as novel solutions, they make creativity seem mysterious; his point is that the problem statement behind them is what matters.'
+    transfer:
+      - scenario: 'A hospital asks: ''How do we get more nurses to fill in the handover form?'''
+        answer: 'Write several statements. Specific: ''How do we make the form shorter?'' retrieves closely related knowledge. Abstract: ''How does the next shift learn what the last one learned?'' leaves the form out and reaches distant knowledge, such as other industries'' shift changes. The statement is the cue to memory (Markman 2017).'
+    objections:
+      - position: Redescribing the problem is the most reliable route to creative solutions.
+        evidence: 'Markman: the problem statement cues memory; tapping memory is cost-effective and repeatable; Dyson''s ''separate dirt from air''.'
+        objection: It depends on the group already knowing something useful; Markman concedes there is no ideal statement, and that some answers come by luck or from decades of research.
+    sources:
+      - Marketing - Week 05 - Reading - How You Define Problems Determines How You Solve It (Markman 2017, pp 1–3)
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 20)
+  - concept: mgmt2094-w05-four-creative-thinking-preferences
+    plain: 'People lean towards one of four creative styles: Clarifier (gets the problem right), Ideator (dreams up ideas), Developer (refines ideas) or Implementer (makes them happen). Teams work best mixing them.'
+    concrete: 'The lecturer describes the Developer: they take an idea and tinker with it, weighing pros and cons, but can get caught in constant improvement, polishing and polishing, and never implement. The Implementer is the opposite: quick to action and determined, but may jump in too soon. His advice: work out which type is closest to you, know its strengths and weaknesses, and build teams whose members'' preferences differ.'
+    formal: 'Slides: four ways to have a preference for creative thinking. Clarifier: ''are we really solving the right problem?''; researches, methodical, asks many questions. Ideator: big picture, dreams of possibilities, jumps from A to Z. Developer: tinkers with and improves others'' ideas, weighs pros and cons; a perfectionist. Implementer: quick to action, decisive; may leap too soon. Understanding your preference can improve your creative performance.'
+    terms:
+      - term: creative-thinking preference
+        gloss: 'The way of thinking creatively a person leans towards: Clarifier, Ideator, Developer or Implementer.'
+      - term: complementary ideas
+        gloss: Ideas from teammates who think differently, which fill each other’s gaps and solve the problem more effectively.
+      - term: emotional intelligence (lecture link)
+        gloss: Knowing your strengths and weaknesses and seeing them in others, so you can match traits in a team.
+    elements:
+      - name: Clarifier
+        test: Asks 'are we really solving the right problem?'; likes research and gathering information; methodical, attends to detail, asks many questions; wants to move quickly to the solution.
+      - name: Ideator
+        test: Looks at the big picture, dreams of possibilities, toys with ideas, stretches the imagination and jumps from A to Z; adventurous.
+      - name: Developer
+        test: 'Tinkers with and improves others'' ideas, puts together workable solutions, weighs pros and cons. Risk: perfectionism, stuck on the perfect solution, seen as a nit-picker.'
+      - name: Implementer
+        test: 'Quick to action, always moving forward, needs ideas to hit fruition; decisive and determined. Risk: leaps in too soon, appears pushy, oversells the idea.'
+    misconceptions:
+      - claim: Leaping into action too soon is the Developer's risk.
+        tempting: Developers and Implementers both build things.
+        correction: It is the Implementer's risk. The Developer is a perfectionist who can get stuck developing the perfect solution and be seen as a nit-picker.
+      - claim: The best creative teams are made of people who think alike.
+        tempting: Similar people work smoothly together.
+        correction: 'The slides: others who think differently should lead to complementary ideas and solve the problem more effectively by taking account of different paths to the solution.'
+      - claim: 'The four preferences are the Whole Brain quadrants renamed: Clarifier is A, and so on.'
+        tempting: Both frameworks have four parts.
+        correction: They are separate frameworks; neither slide maps one onto the other.
+    socratic:
+      - ask: Sam keeps asking for more customer data and whether the issue is framed correctly. Which preference?
+        hint: The right problem.
+        answer: 'The Clarifier: methodical, craves information, asks ''are we really solving the right problem?'''
+      - ask: Once the problem is clear, who generates the wild possibilities?
+        hint: From A to Z.
+        answer: 'The Ideator: big picture, toys with ideas, stretches the imagination.'
+      - ask: Who turns a rough idea into a workable solution, and what is their risk?
+        hint: Tinkering.
+        answer: The Developer, who improves others' ideas and weighs pros and cons, but may get stuck perfecting it.
+      - ask: Who gets it launched, and what is their risk?
+        hint: Fruition.
+        answer: The Implementer, decisive and determined, who may leap into action too soon and oversell the idea.
+      - ask: So why mix preferences in a team?
+        hint: Complementary ideas.
+        answer: People who think differently bring complementary ideas and take account of different paths to the solution, so the team solves the problem more effectively.
+    what-if:
+      - change: A team of Ideators and Developers produces polished concepts, but none is ever launched.
+        effect: It lacks an Implementer, someone quick to action who needs ideas to hit fruition. More tinkering is the Developer’s risk, not the cure.
+    boundary:
+      - text: Leo takes a colleague's rough campaign idea, weighs it against two rivals and builds a workable version.
+        why: 'Developer, not Ideator: he did not originate the idea; improving others'' ideas and weighing pros and cons is the Developer''s mark.'
+    transfer:
+      - scenario: A student forming a team for the group innovation video project knows she is an Implementer.
+        answer: 'Her strengths: decisive and determined, she will get the video made. Her risk: leaping in too soon and overselling her idea. She should recruit a Clarifier (the right problem), an Ideator (possibilities) and a Developer (refining the concept), and create a schedule, as the tutorial asks.'
+    objections:
+      - position: Teams should mix the four preferences.
+        evidence: 'Slides: others who think differently lead to complementary ideas and solve problems more effectively; the lecturer says matching traits in a team can make you unstoppable.'
+        objection: 'Differences carry risks too: Developers can be seen as nit-pickers finding flaws in others’ solutions, and Implementers may appear pushy and oversell their idea.'
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 23–25)
+      - Marketing - Week 05 - Lecture Transcript - Creativity Theories
+      - Marketing - Week 05 - Tutorial Materials - Creative Gadgets (slides 2–3)
+flows:
+  - slug: creative-problem-solving-stages
+    title: Running creative problem solving, stage by stage
+    summary: Takes a problem area through the six stages, marking where to diverge and where to converge, and where to redescribe the problem.
+    start: n1
+    concepts:
+      - mgmt2094-w05-creative-problem-solving-process
+      - mgmt2094-w05-defining-the-problem
+    sources:
+      - Marketing - Week 05 - Lecture Materials - Creative Theories and Thinking (slides 15–21)
+      - Marketing - Week 05 - Reading - How You Define Problems Determines How You Solve It (Markman 2017, pp 2–3)
+    nodes:
+      - id: n1
+        kind: step
+        text: 'Objective finding: diverge to list possible problem areas.'
+        note: Divergent thinking generates the list; convergence then picks the most relevant areas to explore.
+        concept: mgmt2094-w05-creative-problem-solving-process
+        next: n2
+      - id: n2
+        kind: ask
+        text: 'For this area: are we motivated to solve it, is it important, and is it urgent?'
+        note: 'Ownership, priority and critical nature: the questions that identify hits and hotspots.'
+        branches:
+          - label: 'Yes: it is a hit or hotspot'
+            to: n4
+          - label: 'No'
+            to: n3
+      - id: n3
+        kind: end
+        tone: not-met
+        text: Set this area aside; it is not one of the most relevant problem areas.
+      - id: n4
+        kind: step
+        text: 'Fact finding: gather the relevant information.'
+        note: It increases comprehension, helps new ideas, and may show the problem from a new perspective.
+        next: n5
+      - id: n5
+        kind: step
+        text: 'Problem finding: use the hits to define the most productive problem.'
+        next: n6
+      - id: n6
+        kind: ask
+        text: How many ways have you described the problem?
+        branches:
+          - label: One, naming the objects involved
+            to: n7
+          - label: Several, both specific and abstract
+            to: n8
+      - id: n7
+        kind: step
+        text: 'Redescribe it: generalise the problem and leave out the usual components.'
+        note: 'Markman: the statement of the problem is the cue to memory. ''Separate dirt from air'' leaves the bag out and brings industrial cyclones to mind.'
+        concept: mgmt2094-w05-defining-the-problem
+        authorities:
+          - mgmt2094-example-dyson-bagless-vacuum
+        exception: true
+        next: n8
+      - id: n8
+        kind: step
+        text: 'Idea finding: diverge to generate many possible solutions.'
+        note: Use a variety of idea generation aids.
+        next: n9
+      - id: n9
+        kind: step
+        text: 'Solution finding: converge on the ideas that can become workable solutions.'
+        next: n10
+      - id: n10
+        kind: step
+        text: 'Acceptance finding: diverge again on how to implement it.'
+        note: List obstacles and ways to overcome them, develop preventive actions and contingency plans, and generate an action plan.
+        next: n11
+      - id: n11
+        kind: end
+        tone: met
+        text: Implement the chosen solution using the action plan.

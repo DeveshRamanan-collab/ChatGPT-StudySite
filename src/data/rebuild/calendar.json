@@ -1,0 +1,703 @@
+{
+  "snapshotDate": "2026-10-20",
+  "timezone": "Australia/Sydney",
+  "calendarChanged": false,
+  "liveSync": false,
+  "warnings": [
+    "Snapshot only; calendar changes after retrieval are not reflected.",
+    "Scheduled or elapsed time is not evidence of learning or completion.",
+    "Wednesday attempts marked for repetition must not be counted as dependable progress.",
+    "Protected Spare Time stays unassigned.",
+    "Study descriptions may disagree with location fields; preserve both and flag for review.",
+    "Older date-TBA exam placeholders in the Claude calendar are superseded by confirmed Assessments & Exams entries and were not imported as exam dates."
+  ],
+  "calendars": [
+    {
+      "kind": "study",
+      "label": "Preparation",
+      "nextPageToken": null,
+      "events": [
+        {
+          "id": "c03dkhaloftr2o7vbdmscu8tfo",
+          "title": "MGMT2094 assessment — Finalise argument, unit frameworks and rubric coverage (1/6)",
+          "status": "confirmed",
+          "start": "2026-10-19T10:30:00+11:00",
+          "end": "2026-10-19T12:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Dedicated MGMT2094 assessment day. Planned work, not completed. Finalise\nargument, unit frameworks and rubric coverage (1/6). Finish all quality\nchecks, video/Turnitin uploads and receipt checks at university before going\nhome. Due 19 October at 11:59 PM. No study after arriving home; submit by\n10:30 PM to leave a deadline buffer.\n\n"
+        },
+        {
+          "id": "36cvh8klrhs6gacq4udb0cjdto",
+          "title": "MGMT2094 assessment — Complete script/slides and coordinate final contributions (2/6)",
+          "status": "confirmed",
+          "start": "2026-10-19T13:00:00+11:00",
+          "end": "2026-10-19T15:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Dedicated MGMT2094 assessment day. Planned work, not completed. Complete\nscript/slides and coordinate final contributions (2/6). Finish all quality\nchecks, video/Turnitin uploads and receipt checks at university before going\nhome. Due 19 October at 11:59 PM. No study after arriving home; submit by\n10:30 PM to leave a deadline buffer.\n\n"
+        },
+        {
+          "id": "2c37miht2tn70rl9b7e5rf85cc",
+          "title": "MGMT2094 assessment — Record/edit video and assemble deliverables (3/6)",
+          "status": "confirmed",
+          "start": "2026-10-19T15:30:00+11:00",
+          "end": "2026-10-19T17:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Dedicated MGMT2094 assessment day. Planned work, not completed. Record/edit\nvideo and assemble deliverables (3/6). Finish all quality checks,\nvideo/Turnitin uploads and receipt checks at university before going home. Due\n19 October at 11:59 PM. No study after arriving home; submit by 10:30 PM to\nleave a deadline buffer.\n\n"
+        },
+        {
+          "id": "pvdcal0qutjokd8idh88lu84ls",
+          "title": "MGMT2094 assessment — Check references, submission requirements and file exports (4/6)",
+          "status": "confirmed",
+          "start": "2026-10-19T18:00:00+11:00",
+          "end": "2026-10-19T19:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Dedicated MGMT2094 assessment day. Planned work, not completed. Check\nreferences, submission requirements and file exports (4/6). Finish all quality\nchecks, video/Turnitin uploads and receipt checks at university before going\nhome. Due 19 October at 11:59 PM. No study after arriving home; submit by\n10:30 PM to leave a deadline buffer.\n\n"
+        },
+        {
+          "id": "v7ga5ubj4vsc17q6d5ljtjrim4",
+          "title": "MGMT2094 assessment — Final quality check and uploads (5/6)",
+          "status": "confirmed",
+          "start": "2026-10-19T19:00:00+11:00",
+          "end": "2026-10-19T20:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Dedicated MGMT2094 assessment day. Planned work, not completed. Final quality\ncheck and uploads (5/6). Finish all quality checks, video/Turnitin uploads and\nreceipt checks at university before going home. Due 19 October at 11:59 PM. No\nstudy after arriving home; submit by 10:30 PM to leave a deadline buffer.\n\n"
+        },
+        {
+          "id": "nvhcpphmhgm8u1e0b8ktk6hruk",
+          "title": "MGMT2094 assessment — Submit and verify Turnitin/video receipts (6/6)",
+          "status": "confirmed",
+          "start": "2026-10-19T20:30:00+11:00",
+          "end": "2026-10-19T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Dedicated MGMT2094 assessment day. Planned work, not completed. Submit and\nverify Turnitin/video receipts (6/6). Finish all quality checks,\nvideo/Turnitin uploads and receipt checks at university before going home. Due\n19 October at 11:59 PM. No study after arriving home; submit by 10:30 PM to\nleave a deadline buffer.\n\n"
+        },
+        {
+          "id": "ee2tioaogep5eathku3osa2qso",
+          "title": "Torts — Week 5 (remaining 50%)",
+          "status": "confirmed",
+          "start": "2026-10-20T16:00:00+11:00",
+          "end": "2026-10-20T18:00:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Finish the remaining approximately 50% of Week\n5 and consolidate. Keep each subject chronological; if unfinished, use\nprotected reserve time before advancing. Duration: 2 hours. No weekend or\nafter-home study. Full catch-up planned by 8 November. Study at university\nfinishes by 9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "jmbpog6q6a04qdtp9sb91hpsd8",
+          "title": "Torts — Week 6 (first hour) + consolidation",
+          "status": "confirmed",
+          "start": "2026-10-20T18:30:00+11:00",
+          "end": "2026-10-20T20:00:00+11:00",
+          "location": "Home",
+          "description": "Planned study, not completed. First hour of Week 6, followed by 30 minutes\nconsolidating Weeks 5–6 with retrieval practice and questions. Complete Week 5\nfirst; do not advance beyond the first hour of Week 6. The remaining Week 6\nmaterial stays scheduled Wednesday 21 October, 2:15–3:45 PM, before Week 7.\nStudy finishes at 8 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "hjd1s43794rtfkah5rkg2f9344",
+          "title": "Torts — Week 6 (remaining hour; no repeat)",
+          "status": "confirmed",
+          "start": "2026-10-21T14:15:00+11:00",
+          "end": "2026-10-21T15:45:00+11:00",
+          "location": "Macquarie University",
+          "description": "The one hour moved from Tuesday 20 October. Complete the remainder of Week 6\nbefore Week 7. Devesh explicitly confirmed this hour will get done; do not\nduplicate it.\n\n"
+        },
+        {
+          "id": "25stemdq1f20tui7f75fomkcek",
+          "title": "Torts — Week 7 — Wednesday attempt",
+          "status": "confirmed",
+          "start": "2026-10-21T17:15:00+11:00",
+          "end": "2026-10-21T19:15:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 7's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Shared Wednesday study may be very distracted. Count zero\ndependable progress; the same full block is scheduled again before any later\nweek in this subject. Duration: 2 hours. No study after arriving home. Weekend\nstudy is allowed only after the 10 AM–4 PM work shifts on 7–8 November. Full\ncatch-up planned by 8 November. Study at university finishes by 9:30 PM;\ntravel home and dinner follow.\n\n"
+        },
+        {
+          "id": "083hmaqn0ql7hvmjbbh835sgmk",
+          "title": "Torts — Week 7 — full repeat",
+          "status": "confirmed",
+          "start": "2026-10-22T11:00:00+11:00",
+          "end": "2026-10-22T13:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 7's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Full duplicate of the Wednesday attempt. Treat this as the\ndependable learning block; complete it before moving to the next week.\nDuration: 2 hours. No study after arriving home. Weekend study is allowed only\nafter the 10 AM–4 PM work shifts on 7–8 November. Latest realistic full catch-\nup finish: 6 November. Study at university finishes by 9:30 PM; travel home\nand dinner follow.\n\n"
+        },
+        {
+          "id": "qc8re68a86mno6iq7qaegfn25k",
+          "title": "Torts — Week 8",
+          "status": "confirmed",
+          "start": "2026-10-22T14:00:00+11:00",
+          "end": "2026-10-22T16:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 8's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "ht1t5b8eslfkbkuuhvekdo43n0",
+          "title": "MGMT2094 — Week 1",
+          "status": "confirmed",
+          "start": "2026-10-22T20:30:00+11:00",
+          "end": "2026-10-22T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 1's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "3a5f30k9kq64uf38kkrur9kp5o",
+          "title": "Torts — Week 9",
+          "status": "confirmed",
+          "start": "2026-10-23T11:00:00+11:00",
+          "end": "2026-10-23T13:00:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 9's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "d1p39cb79viedof10ou3v19hmk",
+          "title": "Torts — Week 10",
+          "status": "confirmed",
+          "start": "2026-10-23T14:00:00+11:00",
+          "end": "2026-10-23T16:00:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 10's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "soi2connq11l2pmljq3852b3gc",
+          "title": "MGMT2094 — Week 2",
+          "status": "confirmed",
+          "start": "2026-10-23T20:30:00+11:00",
+          "end": "2026-10-23T21:30:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 2's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. Home-study day; no university\ntrip. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "kqmok5fl1f2nr8aepmnkdlcu44",
+          "title": "Torts — Week 11",
+          "status": "confirmed",
+          "start": "2026-10-26T10:30:00+11:00",
+          "end": "2026-10-26T12:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 11's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "lk6us8nludho65u5u0769bgs4g",
+          "title": "Torts — Week 12",
+          "status": "confirmed",
+          "start": "2026-10-26T13:30:00+11:00",
+          "end": "2026-10-26T15:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 12's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "7760haemk1ie9oicgmoq0bj4oo",
+          "title": "Public International Law — Week 1",
+          "status": "confirmed",
+          "start": "2026-10-26T16:00:00+11:00",
+          "end": "2026-10-26T18:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 1's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "h7guedonbbmskn8qtvucvluolc",
+          "title": "Public International Law — Week 2",
+          "status": "confirmed",
+          "start": "2026-10-26T18:30:00+11:00",
+          "end": "2026-10-26T20:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 2's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "qntp31msr5iqlep69m2hobjcdc",
+          "title": "Public International Law — Week 3",
+          "status": "confirmed",
+          "start": "2026-10-27T14:30:00+11:00",
+          "end": "2026-10-27T16:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 3's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "smq7mfi2ug78pjgcrld0cli9ng",
+          "title": "Public International Law — Week 4",
+          "status": "confirmed",
+          "start": "2026-10-27T17:00:00+11:00",
+          "end": "2026-10-27T19:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 4's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "vf1pl170ei8qaf06froj807tkc",
+          "title": "Public International Law — Week 5",
+          "status": "confirmed",
+          "start": "2026-10-27T19:30:00+11:00",
+          "end": "2026-10-27T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 5's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "lrr664emj5oggjrj6k1mjjtbko",
+          "title": "Public International Law — Week 6 — Wednesday attempt",
+          "status": "confirmed",
+          "start": "2026-10-28T16:30:00+11:00",
+          "end": "2026-10-28T18:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 6's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Shared Wednesday study may be very distracted. Count zero\ndependable progress; the same full block is scheduled again before any later\nweek in this subject. Duration: 2 hours. No study after arriving home. Weekend\nstudy is allowed only after the 10 AM–4 PM work shifts on 7–8 November. Full\ncatch-up planned by 8 November. Study at university finishes by 9:30 PM;\ntravel home and dinner follow.\n\n"
+        },
+        {
+          "id": "tgj8mbkhurffpjrpfd6lkuir7s",
+          "title": "Public International Law — Week 6 — full repeat",
+          "status": "confirmed",
+          "start": "2026-10-29T11:00:00+11:00",
+          "end": "2026-10-29T13:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 6's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Full duplicate of the Wednesday attempt. Treat this as the\ndependable learning block; complete it before moving to the next week.\nDuration: 2 hours. No study after arriving home. Weekend study is allowed only\nafter the 10 AM–4 PM work shifts on 7–8 November. Latest realistic full catch-\nup finish: 6 November. Study at university finishes by 9:30 PM; travel home\nand dinner follow.\n\n"
+        },
+        {
+          "id": "pmoqt87mgut8eeh3pbhuksumpc",
+          "title": "Public International Law — Week 7",
+          "status": "confirmed",
+          "start": "2026-10-29T14:00:00+11:00",
+          "end": "2026-10-29T16:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 7's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "ltr12r92leoh5dh0u4m43971lo",
+          "title": "MGMT2094 — Week 3",
+          "status": "confirmed",
+          "start": "2026-10-29T20:30:00+11:00",
+          "end": "2026-10-29T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 3's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "ks9r472qgl8k3grs2st88ksgu0",
+          "title": "Public International Law — Week 8",
+          "status": "confirmed",
+          "start": "2026-10-30T11:00:00+11:00",
+          "end": "2026-10-30T13:00:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 8's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "q3rpn3ra2p0a3gntjdetnpav9g",
+          "title": "Public International Law — Week 9",
+          "status": "confirmed",
+          "start": "2026-10-30T13:30:00+11:00",
+          "end": "2026-10-30T15:30:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 9's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "460sqt2tmccmhc9hb7np1brf6k",
+          "title": "Fright Night preparation",
+          "status": "confirmed",
+          "start": "2026-10-31T15:10:00+11:00",
+          "end": "2026-10-31T15:40:00+11:00",
+          "location": null,
+          "description": "30-minute preparation block before getting ready for Fright Night.\n\n"
+        },
+        {
+          "id": "od4osc4uuvs0ldh9fglkk7mceo",
+          "title": "Get ready for Fright Night",
+          "status": "confirmed",
+          "start": "2026-10-31T15:40:00+11:00",
+          "end": "2026-10-31T16:40:00+11:00",
+          "location": null,
+          "description": "One-hour getting-ready block before leaving for Adam’s.\n\n"
+        },
+        {
+          "id": "e4qdq7qeh9gkdso7c799norvqc",
+          "title": "Public International Law — Week 10",
+          "status": "confirmed",
+          "start": "2026-11-02T10:30:00+11:00",
+          "end": "2026-11-02T12:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 10's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "firntkvvjpctql5q8kuhc27m98",
+          "title": "Public International Law — Week 11",
+          "status": "confirmed",
+          "start": "2026-11-02T13:30:00+11:00",
+          "end": "2026-11-02T15:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 11's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "vtn03vdn9bv8bk1v15g66n534g",
+          "title": "Public International Law — Week 12",
+          "status": "confirmed",
+          "start": "2026-11-02T16:00:00+11:00",
+          "end": "2026-11-02T18:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 12's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "tjgarsnbi137467c1dunu9r138",
+          "title": "Jurisprudence — Week 1",
+          "status": "confirmed",
+          "start": "2026-11-02T18:30:00+11:00",
+          "end": "2026-11-02T20:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 1's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "auo3dt403fcfdhdh878d09u9tk",
+          "title": "MGMT2094 — Week 4",
+          "status": "confirmed",
+          "start": "2026-11-03T11:00:00+11:00",
+          "end": "2026-11-03T12:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Sequential catch-up study for MGMT2094 — Week 4. Cover the prescribed material\nand practise retrieval/questions. Rescheduled from Friday to keep Friday gym\nin the afternoon and the evening reserve free. Study ends before the trip\nhome.\n\n"
+        },
+        {
+          "id": "lqhpasd9lk1o2qiupat29s662k",
+          "title": "MGMT2094 — Week 5",
+          "status": "confirmed",
+          "start": "2026-11-03T13:30:00+11:00",
+          "end": "2026-11-03T14:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 5's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "37ec9vb6glckt6aqh2t5126o3s",
+          "title": "Jurisprudence — Week 2",
+          "status": "confirmed",
+          "start": "2026-11-03T14:30:00+11:00",
+          "end": "2026-11-03T16:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 2's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "b9oqm8uhbbrc1omug9hjci4lk4",
+          "title": "Jurisprudence — Week 3",
+          "status": "confirmed",
+          "start": "2026-11-03T17:00:00+11:00",
+          "end": "2026-11-03T19:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 3's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "l2ntn1hurm23odlk394hr0ivv0",
+          "title": "Jurisprudence — Week 4",
+          "status": "confirmed",
+          "start": "2026-11-03T19:30:00+11:00",
+          "end": "2026-11-03T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 4's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "13gtslr57lu9ra5gc1al0b6fpc",
+          "title": "MGMT2094 — Week 6",
+          "status": "confirmed",
+          "start": "2026-11-04T13:30:00+11:00",
+          "end": "2026-11-04T14:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 6's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "7i9scvf5h1c45lsscvapivrsas",
+          "title": "Jurisprudence — Week 5",
+          "status": "confirmed",
+          "start": "2026-11-04T14:30:00+11:00",
+          "end": "2026-11-04T16:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 5's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "1l1jj7jjl6t7389j48hfqrusm4",
+          "title": "Jurisprudence — Week 6",
+          "status": "confirmed",
+          "start": "2026-11-04T17:00:00+11:00",
+          "end": "2026-11-04T19:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 6's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "79290crbr45jadl1tsnrhtluog",
+          "title": "Jurisprudence — Week 7",
+          "status": "confirmed",
+          "start": "2026-11-04T19:30:00+11:00",
+          "end": "2026-11-04T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 7's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "1t2r1a8psdq1kku4jmluh59i20",
+          "title": "Jurisprudence — Week 8",
+          "status": "confirmed",
+          "start": "2026-11-05T11:45:00+11:00",
+          "end": "2026-11-05T13:45:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 8's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "89ivi928ukqupa1fv2k12gbj3g",
+          "title": "Jurisprudence — Week 9",
+          "status": "confirmed",
+          "start": "2026-11-05T14:15:00+11:00",
+          "end": "2026-11-05T16:15:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 9's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "j37rkkq8vhi00m0nkfv9fnutjk",
+          "title": "MGMT2094 — Week 7",
+          "status": "confirmed",
+          "start": "2026-11-05T20:30:00+11:00",
+          "end": "2026-11-05T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Sequential catch-up study for MGMT2094 — Week 7. Cover the prescribed material\nand practise retrieval/questions. Rescheduled from Friday to keep Friday gym\nin the afternoon and the evening reserve free. Study ends before the trip\nhome.\n\n"
+        },
+        {
+          "id": "4de329qc93schvfuseftgb2aig",
+          "title": "Jurisprudence — Week 10",
+          "status": "confirmed",
+          "start": "2026-11-06T11:00:00+11:00",
+          "end": "2026-11-06T13:00:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 10's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "b1lffs7j81ttdn55s66ecf4mcs",
+          "title": "Jurisprudence — Week 11",
+          "status": "confirmed",
+          "start": "2026-11-06T13:30:00+11:00",
+          "end": "2026-11-06T15:30:00+11:00",
+          "location": "Home",
+          "description": "Planned study at Home; no learning or completion is assumed from a past\ncalendar timestamp. Cover Week 11's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "dp4cv2cdnggiri0flte263o5p4",
+          "title": "Jurisprudence — Week 12",
+          "status": "confirmed",
+          "start": "2026-11-07T17:00:00+11:00",
+          "end": "2026-11-07T19:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 12's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 2 hours. No study after arriving\nhome. Weekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "te07gd2bpdlphj17feicrn592s",
+          "title": "MGMT2094 — Week 8",
+          "status": "confirmed",
+          "start": "2026-11-07T19:30:00+11:00",
+          "end": "2026-11-07T20:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 8's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "9mjc4od47ls8v0c4jl8ub0vvac",
+          "title": "MGMT2094 — Week 9",
+          "status": "confirmed",
+          "start": "2026-11-07T20:30:00+11:00",
+          "end": "2026-11-07T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 9's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "tacm2qa9abu5p0m4vi7k3b81f8",
+          "title": "MGMT2094 — Week 10",
+          "status": "confirmed",
+          "start": "2026-11-08T17:00:00+11:00",
+          "end": "2026-11-08T18:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 10's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "egq0rvl7e6e8cdn7f1pkhga1q4",
+          "title": "MGMT2094 — Week 11",
+          "status": "confirmed",
+          "start": "2026-11-08T18:00:00+11:00",
+          "end": "2026-11-08T19:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 11's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "s9jb097k62gemgsvo9u9ooq1gg",
+          "title": "MGMT2094 — Week 12",
+          "status": "confirmed",
+          "start": "2026-11-08T19:30:00+11:00",
+          "end": "2026-11-08T20:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Planned study at Macquarie University; no learning or completion is assumed\nfrom a past calendar timestamp. Cover Week 12's prescribed readings, lecture\nrecording/transcript and tutorial material, then practise retrieval and\nquestions. Keep each subject chronological; if unfinished, use protected\nreserve time before advancing. Duration: 1 hour. No study after arriving home.\nWeekend study is allowed only after the 10 AM–4 PM work shifts on 7–8\nNovember. Full catch-up planned by 8 November. Study at university finishes by\n9:30 PM; travel home and dinner follow.\n\n"
+        },
+        {
+          "id": "n4fqar8ggfnf350edrrh4seomg",
+          "title": "MGMT2094 — exam practice and error review",
+          "status": "confirmed",
+          "start": "2026-11-08T20:30:00+11:00",
+          "end": "2026-11-08T21:30:00+11:00",
+          "location": "Macquarie University",
+          "description": "Practise timed responses using Weeks 1–12, then correct errors. Focus on the\nweakest topics. Weekend study exception on 8 November; finish by 9:30 PM.\n\n"
+        }
+      ]
+    },
+    {
+      "kind": "exams",
+      "label": "Assessments & Exams",
+      "nextPageToken": null,
+      "events": [
+        {
+          "id": "qc63ukb50qhdci1vbdgd8cnh14",
+          "title": "Assessment: Group Strategy Project - MGMT2094 Strategic Creativity and Innovation",
+          "status": "confirmed",
+          "start": "2026-10-19T23:45:00+11:00",
+          "end": "2026-10-19T23:59:00+11:00",
+          "location": "Turnitin and video upload (iLearn)",
+          "description": "Assessment 2: Group strategy project (30%), Week 11. Submission: Turnitin and\nvideo upload. Feedback: 1-2 weeks. ULO1, ULO2. Deadline marker; does not\nreserve study time.\n\n"
+        },
+        {
+          "id": "8h8fr52h3r00a3rnmi995vvccc",
+          "title": "Exam details released — rooms, seats & Zoom links",
+          "status": "confirmed",
+          "start": "2026-11-04T13:00:00+11:00",
+          "end": "2026-11-04T13:05:00+11:00",
+          "location": "Macquarie University personalised exam timetable",
+          "description": "Publication marker from the supplied Session 2, 2026 FINAL exam timetable.\nRooms, seat numbers and Zoom links are released from 1 PM AEDT on Wednesday 4\nNovember. Check all four units. If approved IEAP/reasonable adjustments apply,\nfinal personalised arrangements are also published from this time, and details\nare emailed that evening. This marker does not block other activities.\n\n"
+        },
+        {
+          "id": "9f5aisiqg1nhgs6a0o60ata4mg",
+          "title": "EXAM: Strategic Creativity and Innovation (MGMT2094) — Online Zoom",
+          "status": "confirmed",
+          "start": "2026-11-10T09:00:00+11:00",
+          "end": "2026-11-10T11:40:00+11:00",
+          "location": "Online — Zoom invigilated via iLearn",
+          "description": "CONFIRMED against the user-supplied Macquarie University Session 2, 2026 FINAL\nExam Timetable screenshots (generated 14 October 2026 at 2:21 PM). Replaces\nthe previous DRAFT-source wording.\n\nTuesday 10 November 2026 Sydney time (AEDT): 9:00–11:40 AM AEDT Duration: 2\nhours 40 minutes Mode: Online Zoom-invigilated exam, delivered through iLearn.\nNo campus attendance required. Duration breakdown: 10 minutes reading (working\npermitted), 2 hours working, and 30 minutes technical time (working\npermitted). Optional Week 13 practice Zoom sessions last around 30 minutes;\nthe Exams team will email dates and registration details in Week 12.\n\nBring valid photographic identification; this applies to both on-campus and\nZoom exams. Rooms, seats and Zoom links are released from 1 PM AEDT on\nWednesday 4 November 2026 in the personalised timetable.\n\nIf approved IEAP/reasonable adjustments apply, the screenshots note that these\nmay not yet be reflected in the released timetable. Final personalised dates,\ntimes and rooms are published from 1 PM on 4 November, with adjustment details\nemailed that evening. No individual adjustment has been assumed or applied\nhere.\n\n"
+        },
+        {
+          "id": "mq62f91k590kvm1asudeckgn7k",
+          "title": "EXAM: Torts (LAWS2400)",
+          "status": "confirmed",
+          "start": "2026-11-11T17:30:00+11:00",
+          "end": "2026-11-11T20:15:00+11:00",
+          "location": "Macquarie University, North Ryde NSW 2109",
+          "description": "CONFIRMED against the user-supplied Macquarie University Session 2, 2026 FINAL\nExam Timetable screenshots (generated 14 October 2026 at 2:21 PM). Replaces\nthe previous DRAFT-source wording.\n\nWednesday 11 November 2026 Sydney time (AEDT): 5:30–8:15 PM AEDT Duration: 2\nhours 45 minutes Mode: On-campus invigilated face-to-face exam at Macquarie\nUniversity, North Ryde. Room and seat number are not yet provided in the\ntimetable.\n\nBring valid photographic identification; this applies to both on-campus and\nZoom exams. Rooms, seats and Zoom links are released from 1 PM AEDT on\nWednesday 4 November 2026 in the personalised timetable.\n\nIf approved IEAP/reasonable adjustments apply, the screenshots note that these\nmay not yet be reflected in the released timetable. Final personalised dates,\ntimes and rooms are published from 1 PM on 4 November, with adjustment details\nemailed that evening. No individual adjustment has been assumed or applied\nhere.\n\n"
+        },
+        {
+          "id": "ske25lo7msl93iaafd3o6tr5vc",
+          "title": "EXAM: Jurisprudence (LAWS2100)",
+          "status": "confirmed",
+          "start": "2026-11-14T14:00:00+11:00",
+          "end": "2026-11-14T16:45:00+11:00",
+          "location": "Macquarie University, North Ryde NSW 2109",
+          "description": "CONFIRMED against the user-supplied Macquarie University Session 2, 2026 FINAL\nExam Timetable screenshots (generated 14 October 2026 at 2:21 PM). Replaces\nthe previous DRAFT-source wording.\n\nSaturday 14 November 2026 Sydney time (AEDT): 2:00–4:45 PM AEDT Duration: 2\nhours 45 minutes Mode: On-campus invigilated face-to-face exam at Macquarie\nUniversity, North Ryde. Room and seat number are not yet provided in the\ntimetable.\n\nBring valid photographic identification; this applies to both on-campus and\nZoom exams. Rooms, seats and Zoom links are released from 1 PM AEDT on\nWednesday 4 November 2026 in the personalised timetable.\n\nIf approved IEAP/reasonable adjustments apply, the screenshots note that these\nmay not yet be reflected in the released timetable. Final personalised dates,\ntimes and rooms are published from 1 PM on 4 November, with adjustment details\nemailed that evening. No individual adjustment has been assumed or applied\nhere.\n\n"
+        },
+        {
+          "id": "vbgl83k660m82s17lc8d302j8c",
+          "title": "EXAM: Public International Law (LAWS2000)",
+          "status": "confirmed",
+          "start": "2026-11-19T13:30:00+11:00",
+          "end": "2026-11-19T16:15:00+11:00",
+          "location": "Macquarie University, North Ryde NSW 2109",
+          "description": "CONFIRMED against the user-supplied Macquarie University Session 2, 2026 FINAL\nExam Timetable screenshots (generated 14 October 2026 at 2:21 PM). Replaces\nthe previous DRAFT-source wording.\n\nThursday 19 November 2026 Sydney time (AEDT): 1:30–4:15 PM AEDT Duration: 2\nhours 45 minutes Mode: On-campus invigilated face-to-face exam at Macquarie\nUniversity, North Ryde. Room and seat number are not yet provided in the\ntimetable.\n\nBring valid photographic identification; this applies to both on-campus and\nZoom exams. Rooms, seats and Zoom links are released from 1 PM AEDT on\nWednesday 4 November 2026 in the personalised timetable.\n\nIf approved IEAP/reasonable adjustments apply, the screenshots note that these\nmay not yet be reflected in the released timetable. Final personalised dates,\ntimes and rooms are published from 1 PM on 4 November, with adjustment details\nemailed that evening. No individual adjustment has been assumed or applied\nhere.\n\n"
+        }
+      ]
+    },
+    {
+      "kind": "protected",
+      "label": "Personal: Protected Spare Time",
+      "nextPageToken": null,
+      "events": [
+        {
+          "id": "m4rbdukqqum2dgjhjqj9jb0uhs",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-22T16:00:00+11:00",
+          "end": "2026-10-22T18:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "qk0m7b1i3v068k77j2rkpdlcn4",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-22T18:00:00+11:00",
+          "end": "2026-10-22T20:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "bksldk0luc7f8ok45kns9g2k20",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-23T16:00:00+11:00",
+          "end": "2026-10-23T18:00:00+11:00",
+          "location": "Home",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "jdg67sr4t00s72ga21e793g00k",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-23T18:00:00+11:00",
+          "end": "2026-10-23T20:00:00+11:00",
+          "location": "Home",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "m87uq4msf8755drqb153rhkrvs",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-29T16:00:00+11:00",
+          "end": "2026-10-29T18:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "nrggua0otmg8depeit0l0aicdg",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-29T18:00:00+11:00",
+          "end": "2026-10-29T20:00:00+11:00",
+          "location": "Macquarie University",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "1b4skkifktsbsc2faco6ojcouc",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-30T18:00:00+11:00",
+          "end": "2026-10-30T20:00:00+11:00",
+          "location": "Home",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "s4squk43337d6v5egbs17nk1uc",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-10-30T20:00:00+11:00",
+          "end": "2026-10-30T22:00:00+11:00",
+          "location": "Home",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "vng8hj06hvrm972u64vp0jj5hc",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-11-05T16:15:00+11:00",
+          "end": "2026-11-05T18:15:00+11:00",
+          "location": "Macquarie University",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "u67fplqk5jeln8nrn06g2rlqkc",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-11-05T18:15:00+11:00",
+          "end": "2026-11-05T20:15:00+11:00",
+          "location": "Macquarie University",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "noskp4225uvuesr0rnjjne25co",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-11-06T18:00:00+11:00",
+          "end": "2026-11-06T20:00:00+11:00",
+          "location": "Home",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        },
+        {
+          "id": "3djv1656vj5ifo70269dj04vt4",
+          "title": "Protected Spare Time",
+          "status": "confirmed",
+          "start": "2026-11-06T20:00:00+11:00",
+          "end": "2026-11-06T22:00:00+11:00",
+          "location": "Home",
+          "description": "Reserved personal time, available for unfinished work or any other use. Keep\nthis time free from assigned tasks.\n\n"
+        }
+      ]
+    }
+  ]
+}

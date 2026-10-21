@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LearnerModel from '../components/LearnerModel';
+---
+
+<Layout title="What I know" description="What the site has learned from your answers: strengths, recurring errors, what is fading and your open questions.">
+  <p class="label">Insight</p>
+  <h1 data-split>What I know</h1>
+  <p class="insight-lede">What the site has learned from your answers across all four units. Every estimate shows its evidence: press Why? beside it.</p>
+  <div class="island-stage"><LearnerModel client:load /></div>
+</Layout>
+
+<style>
+  .insight-lede { color: var(--ink-2); max-width: var(--measure); }
+</style>

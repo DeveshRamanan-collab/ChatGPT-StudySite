@@ -1,0 +1,71 @@
+/* Practice modes: Tell apart (?mode=contrast), Drills (?mode=drills), Where am I? (?mode=diagnostic).
+   Cards reuse the quiz classes (.quiz, .qcard, .option, .explain, .btn); everything here is namespaced to the feature.
+   Tokens only. Motion: transform/opacity only, ≤ 300ms; calm drops the lift; off keeps a short fade. */
+
+/* ---------- Tell apart ---------- */
+.tell-apart__pair { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin: 0 0 var(--s-3); text-wrap: pretty; }
+.tell-apart__pair .label { margin-right: var(--s-2); }
+.tell-apart__note { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin: 0 0 var(--s-3); }
+.tell-apart__ask { font-family: var(--font-ui); font-size: var(--t-sm); font-weight: 500; color: var(--ink); margin: 0; }
+.tell-apart__recap { padding: var(--s-5); border-radius: var(--r-md); background: var(--paper-2); animation: drill-in var(--dur-ui) var(--ease-out) both; }
+.tell-apart__recap p { margin: 0; }
+.tell-apart__recap-h, .drill__recap-h { font-size: var(--t-lg); margin: 0 0 var(--s-2); }
+.tell-apart__actions, .drill__actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: var(--s-3); margin-top: var(--s-5); }
+.tell-apart--empty { display: grid; justify-items: start; gap: var(--s-4); max-width: var(--measure); }
+.tell-apart--empty p { margin: 0; }
+
+/* ---------- Drills ---------- */
+.drill__lead { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin: 0 0 var(--s-1); }
+.drill__write { display: grid; gap: var(--s-2); }
+.drill__label { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.drill__input {
+  width: 100%; min-height: 48px; padding: var(--s-3) var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: var(--t-body); line-height: var(--lh-ui);
+  transition: border-color var(--dur-micro) var(--ease-hover);
+}
+.drill__input--long { min-height: 7em; field-sizing: content; resize: vertical; line-height: var(--lh-body); }
+.drill__input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.drill__input:disabled { color: var(--ink-3); }
+@media (hover: hover) and (pointer: fine) { .drill__input:hover:not(:disabled) { border-color: var(--ink-3); } }
+.drill__submit { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: var(--s-3); margin-top: var(--s-2); }
+.drill__hint, .drill__think { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin-right: auto; }
+.drill__think { color: var(--ink); }
+.drill__reveal:focus { outline: none; }
+.drill__reveal:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.drill__yours { color: var(--ink-2); white-space: pre-wrap; }
+.drill__rate { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); margin-top: var(--s-4); }
+.drill__rate-label { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); margin-right: auto; }
+.drill__rate-opts { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.drill__rate-btn .kbd { font-size: .7rem; }
+.drill__rate .drill__rate-btn[aria-pressed='true'] { --_bg: var(--paper-3); --_fg: var(--ink); --_bd: var(--ink-3); }
+.drill__recap { padding: var(--s-5); border-radius: var(--r-md); background: var(--paper-2); animation: drill-in var(--dur-ui) var(--ease-out) both; }
+.drill__recap p { margin: 0; }
+
+/* ---------- Where am I? ---------- */
+.diagnostic__lede { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); max-width: var(--measure); margin: 0 0 var(--s-4); }
+.diagnostic__map { max-width: var(--measure); margin-top: var(--s-8); }
+.diagnostic__h { font-size: var(--t-xl); margin: 0 0 var(--s-2); }
+.diagnostic__sum { margin: 0 0 var(--s-4); }
+.diagnostic__rows { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.diagnostic__row { border-bottom: 1px solid var(--line); animation: drill-in var(--dur-ui) var(--ease-out) both; animation-delay: calc(var(--i, 0) * var(--stagger)); }
+.diagnostic__link {
+  display: grid; grid-template-columns: 5.5em 1fr auto; align-items: center; gap: var(--s-3); min-height: 48px; padding: var(--s-2) var(--s-3);
+  color: var(--ink); text-decoration: none; border-radius: var(--r-sm);
+  transition: background-color var(--dur-micro) var(--ease-hover), transform var(--dur-micro) var(--ease-hover);
+}
+@media (hover: hover) and (pointer: fine) { .diagnostic__link:hover { background: var(--paper-2); } .diagnostic__link:hover .diagnostic__topic { text-decoration: underline; text-underline-offset: 3px; } }
+.diagnostic__link:active { transform: scale(.97); transition-duration: var(--dur-press); }
+.diagnostic__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.diagnostic__week { font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); }
+.diagnostic__topic { font-size: var(--t-sm); line-height: var(--lh-ui); text-wrap: pretty; }
+.diagnostic__result { display: inline-flex; align-items: center; gap: var(--s-2); font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+.diagnostic__dot { width: 8px; height: 8px; border-radius: 50%; border: 1px solid currentColor; }
+.diagnostic__row[data-result='right'] .diagnostic__dot { background: var(--sage); border-color: var(--sage); }
+.diagnostic__row[data-result='wrong'] .diagnostic__dot { background: transparent; border-color: var(--clay); }
+@media (max-width: 479px) { .diagnostic__link { grid-template-columns: 1fr auto; } .diagnostic__week { grid-column: 1 / -1; } }
+
+/* ---------- Motion ---------- */
+@keyframes drill-in { from { opacity: 0; transform: translateY(12px); } }
+@keyframes drill-fade { from { opacity: 0; } }
+:root:is([data-motion='calm'], [data-motion='off']) :is(.tell-apart__recap, .drill__recap, .diagnostic__row) { animation-name: drill-fade; }
+:root[data-motion='off'] :is(.tell-apart__recap, .drill__recap, .diagnostic__row) { animation-duration: 150ms; animation-delay: 0ms; }

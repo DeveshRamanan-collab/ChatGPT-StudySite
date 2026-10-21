@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StudyStudio from '../components/rebuild/StudyStudio';
+import {FEATURES} from '../lib/study-studio';
+---
+<Layout title="Learning studio" wide centre><p class="label">Understand · apply · recall</p><h1>Learning studio</h1><p class="rb-lede">Twenty connected ways to turn the course material into something you can explain and use.</p><StudyStudio client:load/><noscript><ul>{FEATURES.map(([id,title,desc])=><li>{title}: {desc} <a href={id==='exam'?'/exams/':id==='calendar'?'/plan/':id==='index'?'/everything/':'/cases/'}>Open the source pages</a></li>)}</ul></noscript></Layout>

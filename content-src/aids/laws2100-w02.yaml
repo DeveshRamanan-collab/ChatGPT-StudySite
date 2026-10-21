@@ -1,0 +1,567 @@
+unit: laws2100
+week: 2
+source: raw/laws2100-juris/week-02
+generator: aids-1
+aids:
+  - concept: laws2100-w02-austins-command-theory
+    plain: 'For Austin, laws properly so called are commands: an expressed wish that someone act or forbear, backed by a threatened evil (a sanction), from someone with the power to inflict it.'
+    concrete: 'Look at any human society, however it is organised: someone is in a position of power. They express a wish, in words or signs, to influence how others behave, and the others know they are liable to an evil, a sanction, if they do not comply. For Austin, wherever such a command is signified a duty is imposed; and a law is a command that obliges generally, to a class of acts.'
+    formal: 'Law in general: ''a rule laid down for the guidance of an intelligent being by an intelligent being having power over him'' (PJD 18). Laws properly so called are a species of commands: a wish, an evil for non-compliance, and an expression of the wish. Command and duty are correlative; command, duty and sanction are inseparable. A law obliges generally to acts or forbearances of a class; superiority means might.'
+    analogy:
+      text: 'A parent says: ''Tidy your room, or no pocket money this week.'''
+      maps:
+        - from: the parent wanting the room tidied
+          to: a wish that another shall do or forbear
+        - from: '''or no pocket money'''
+          to: the evil (sanction) to be incurred for non-compliance
+        - from: saying it out loud
+          to: the expression of the wish by words or other signs
+        - from: the parent controlling the pocket money
+          to: 'superiority as might: the power to enforce compliance'
+      limits:
+        - Children often obey out of respect as well as fear; for Hart, 'command' already suggests authority, which Austin's idea of might leaves out (CL 20).
+        - 'One instruction about one room lacks the generality Austin requires of a law: obliging generally, to acts or forbearances of a class.'
+    terms:
+      - term: Command
+        gloss: An expressed wish that another do or forbear, with an evil to be incurred from the commander if they do not comply.
+      - term: Sanction (evil)
+        gloss: 'The evil threatened for non-compliance: an enforcement of obedience. Punishments are only one class of sanctions.'
+      - term: Superiority
+        gloss: 'Might: the power to affect others with evil and, through fear of it, force them to comply with one''s wishes.'
+      - term: Positive law
+        gloss: 'Law ''simply and strictly so called'': law set by political superiors to political inferiors, the matter of jurisprudence (PJD 18).'
+    misconceptions:
+      - claim: For Austin, a command creates a duty only once the addressee accepts it as legitimate.
+        tempting: It echoes Hart's point that commanding is an exercise of authority.
+        correction: 'Austin needs no acceptance: command and duty are correlative. Wherever a command is signified, backed by an evil, a duty is imposed.'
+      - claim: Austin's 'evil' means moral wrongdoing, or else only criminal punishment.
+        tempting: '''Evil'' has a moral ring, and punishment is the obvious sanction.'
+        correction: Evil means sanction, an enforcement of obedience. The slide notes that punishments are only a class of sanctions.
+      - claim: Austin counts international law as positive law.
+        tempting: States make treaties and can pressure one another.
+        correction: 'It falls in his third kind: objects improperly but by close analogy termed laws, rules set and enforced by mere opinion (positive morality).'
+    socratic:
+      - ask: Someone with power says 'do X, or else'. What three ingredients does Austin find in that?
+        hint: Something wanted, something threatened, something said.
+        answer: 'A wish that another do or forbear; an evil to follow non-compliance; and an expression of the wish by words or other signs. Together: a command.'
+      - ask: Does that command create a duty?
+        hint: Austin calls command and duty correlative.
+        answer: Yes. Wherever a command is signified a duty is imposed, and wherever a duty lies a command has been signified.
+      - ask: Is every command a law?
+        hint: Think of a single order for a single act.
+        answer: No. A law obliges generally, to acts or forbearances of a class; and positive law must also come from a political superior.
+      - ask: What makes someone a 'superior' for Austin?
+        hint: Not merit, not election.
+        answer: 'Might: the power to enforce compliance with a wish. Whoever can oblige another to comply is the superior.'
+      - ask: Where does that leave international law?
+        hint: Who is its political superior?
+        answer: 'Outside positive law. Austin classes it as positive morality: rules set and enforced by mere opinion, improperly but by close analogy termed laws.'
+    elements:
+      - name: Wish
+        test: Has a rational being conceived a wish or desire that another shall do or forbear?
+        authorities:
+          - austin-province-of-jurisprudence-determined
+      - name: Evil (sanction)
+        test: Will the addressee incur an evil from the commander if they do not comply? No sanction, no command and no duty.
+      - name: Expression
+        test: Has the wish been expressed or intimated by words or other signs?
+      - name: Generality
+        test: Does the command oblige generally, to acts or forbearances of a class, rather than to one individual act?
+      - name: Superiority
+        test: 'Does it come from a superior: someone with the might to enforce compliance with the wish?'
+    what-if:
+      - change: The government expresses a wish that citizens recycle, but attaches no penalty of any kind.
+        effect: 'No evil is threatened, so for Austin there is no command and no duty: command, duty and sanction are inseparable. It is not a law properly so called.'
+      - change: The order is addressed to one named person, to do one act.
+        effect: 'It may still be a command, but it is not a law: a law obliges generally, to acts or forbearances of a class.'
+      - change: A rule is enforced only by the disapproval of peers, not by any superior.
+        effect: 'It becomes positive morality, set and enforced by mere opinion: improperly, though by close analogy, termed a law; not positive law.'
+    boundary:
+      - text: The laws of motion governing falling bodies.
+        why: 'Austin''s fourth kind, objects metaphorically termed laws: no one expresses a wish and no sanction follows, so they are ''laws'' only by metaphor.'
+      - text: Divine law.
+        why: Austin's first kind, understood as commands of God (he rejects the notion of a Law of Nature). It is law, but not positive law, so outside the matter of jurisprudence.
+    transfer:
+      - scenario: 'A homeowners'' association emails residents: ''Bins must be off the kerb by 10 am every Monday; residents who fail to comply will be fined $50.'''
+        answer: 'Run Austin''s elements: a wish, an evil (the fine), an expression, and generality (a class of acts). So it is a command and imposes a duty. Whether it is positive law turns on its source: unless the association is a political superior, it is a law set by someone who is not a political superior, so not positive law.'
+    objections:
+      - position: 'Law is a species of command: a wish, backed by a sanction, expressed by a superior (Austin).'
+        evidence: In every human society someone holds power and issues wishes backed by evil; the model fits a city state, an absolute monarchy or a constitutional democracy alike (PJD 18; lecture).
+        objection: 'Hart: ''to command is characteristically to exercise authority over men, not power to inflict harm'' (CL 20); a theory built on might cannot explain legal obligation.'
+        reply: 'Schauer: law as experienced is overwhelmingly coercive; whether Austin was right depends on what a theory of law is designed to accomplish.'
+      - position: Austin simply stipulates what 'law' means, so the rest of his theory follows by definition.
+        evidence: He opens with a general definition of law and derives his four kinds of laws from it (PJD 18).
+        objection: 'The lecture says this is not what Austin is doing: he compares human societies and finds a common denominator, a power relation in which someone issues commands.'
+    sources:
+      - Week 02 - Lecture Slides (slides 6–10)
+      - Week 02 - Lecture Transcript (first half)
+  - concept: laws2100-w02-austins-sovereign
+    plain: For Austin, positive laws are a sovereign's commands. The sovereign is a determinate superior whom the bulk of a society habitually obeys, and who habitually obeys no one else.
+    concrete: 'Picture a small community that habitually obeys a council of elders, which obeys no one else. No territory and no modern state institutions are needed: for Austin that is enough for an independent political society, and the council''s general commands are its positive laws. The same test fits a city state, an empire, an absolute monarchy or a constitutional democracy: find the highest political power.'
+    formal: '''Every positive law is set by a sovereign person, or a sovereign body of persons, to a member or members of the independent political society wherein that person or body is sovereign or supreme'' (PJD 165). A society is political iff the generality of members habitually obey a determinate and common superior; independent iff that superior does not habitually obey another (PJD 169).'
+    terms:
+      - term: Sovereign
+        gloss: A determinate person or body of persons whom the bulk of a society habitually obeys, and who does not habitually obey anyone else.
+      - term: Independent political society
+        gloss: A society whose members generally obey a determinate and common superior, who in turn habitually obeys no other person or body.
+      - term: Habit of obedience
+        gloss: 'The fact that the bulk of a society regularly obeys one and the same superior: the pillar on which Austin''s sovereignty rests.'
+      - term: Austin's legal positivism
+        gloss: '''The existence of law is one thing; its merit or demerit is another'' (Lecture V): law as it is, kept apart from law as it ought to be.'
+    misconceptions:
+      - claim: Austin's political society needs a defined territory.
+        tempting: That is how we define a modern state.
+        correction: 'The lecture stresses that Austin''s definition is broader than the nation state and never mentions territory: the key is habitual obedience to a determinate and common superior.'
+      - claim: '''The existence of law is one thing; its merit or demerit is another'' means bad laws need not be obeyed.'
+        tempting: It talks about the merit or demerit of laws.
+        correction: 'It says the opposite: a law which actually exists is a law, though we happen to dislike it. Existence and merit are different enquiries (Lecture V).'
+      - claim: For Austin the sovereign must be a single person.
+        tempting: He speaks of a determinate superior.
+        correction: 'PJD 165 speaks of ''a sovereign person, or a sovereign body of persons'': a parliament or a council of elders can be sovereign.'
+    socratic:
+      - ask: Every positive law is a command, but not every command is positive law. How does Austin tell them apart?
+        hint: 'Lecture VI: look at who issues them.'
+        answer: Positive laws are set by a sovereign to members of the independent political society in which it is sovereign (PJD 165).
+      - ask: How do you find the sovereign in a society?
+        hint: Watch who obeys whom.
+        answer: Find the determinate, common superior whom the generality of members habitually obey.
+      - ask: Colonists habitually obey a governor, who habitually obeys a distant emperor. Is the governor sovereign?
+        hint: Independence.
+        answer: No. A society is political and independent only if its superior does not habitually obey another person or body; the governor obeys the emperor.
+      - ask: What if the bulk of members do not obey any one superior?
+        hint: PJD 169.
+        answer: Then the society is in a state of nature, or split into two or more independent political societies.
+      - ask: Does identifying the law this way tell us whether the law is good?
+        hint: Lecture V.
+        answer: 'No. The existence of law is one thing, its merit another: a descriptive claim, paired in Lecture XI with a claim to generality.'
+    elements:
+      - name: Determinate common superior
+        test: Is there a determinate person or body of persons whom the generality of the society's members habitually obey?
+        authorities:
+          - austin-province-of-jurisprudence-determined
+      - name: Independence
+        test: Does that superior not habitually obey any other person or body?
+      - name: Obedience by the bulk
+        test: Is habitual obedience rendered by the bulk of members to one and the same superior? If not, the society is in a state of nature or split.
+      - name: Set to a member
+        test: Is the command set by that sovereign to a member or members of the independent political society in which it is sovereign?
+        authorities:
+          - austin-province-of-jurisprudence-determined
+    what-if:
+      - change: The council of elders begins habitually obeying a neighbouring king.
+        effect: The society is no longer independent, because its superior habitually obeys another. The king, not the council, becomes the candidate sovereign.
+      - change: 'The community splits: half habitually obeys the council, half a rival chief.'
+        effect: No one superior has the bulk's habitual obedience, so Austin would say the society is in a state of nature or split into two independent political societies.
+    boundary:
+      - text: Austin presents principles 'abstracted from every particular system' but illustrates them from 'the Roman Law, and the Law of England' (Lecture XI).
+        why: 'A claim to generality built from two particular systems: the lecture asks whether a general theory is possible, and at what level of generality it should work.'
+      - text: A constitutional democracy.
+        why: Austin says his test still works, so find the highest political power; but Hart objects that real legislators are bound by their own laws and no one has legally unlimited power.
+    transfer:
+      - scenario: A breakaway region declares independence. Most residents now habitually obey its new council, a minority still obey the national government, and the council obeys no one.
+        answer: 'Apply Austin''s test: is habitual obedience rendered by the bulk of members to one and the same superior, and does that superior obey no other? If so, the council is sovereign of an independent political society and its general commands are positive law. The test asks about obedience, not about legality under the old system.'
+    objections:
+      - position: 'Austin offers a neat, general explanation of law: identify the highest power and its general commands.'
+        evidence: It fits a city state, an absolute monarchy or a constitutional democracy; it needs no territory, only habitual obedience to a determinate superior (PJD 165–169; lecture).
+        objection: 'Hart: ''the whole conception of a supreme and independent sovereign habitually obeyed ... is misleading, since there is little in any actual legal system which corresponds to it'' (CL 27).'
+      - position: A theory of law can be general, with principles 'abstracted from every particular system' (Austin, Lecture XI).
+        evidence: Austin illustrates his principles from Roman law and the law of England, the two systems he had studied with some accuracy.
+        objection: Some argue we are historically situated and can say something meaningful only about our own legal system, perhaps compared with others; the essence of law cannot be captured (lecture).
+        reply: 'Austin, Kelsen and Hart argue it is possible, necessary and useful to work at that level, building from knowledge of positive law: theory does not ''come from the sky''.'
+    sources:
+      - Week 02 - Lecture Slides (slides 11–13)
+      - Week 02 - Lecture Transcript (first half)
+  - concept: laws2100-w02-gunman-situation
+    plain: 'Hart''s test case: a gunman orders a clerk to hand over money. The clerk is obliged to comply, but has no obligation to. Austin''s theory treats law as this situation writ large.'
+    concrete: 'A gunman orders a bank clerk to hand over the money and threatens to shoot if he refuses. The clerk complies. We would say he was obliged to hand it over, but not that he had an obligation to: he acted from fear, not from any recognition of authority. And the moment the gunman leaves the bank, it is all over.'
+    formal: Orders backed by threats, or coercive orders, are orders which, like the gunman's, are 'supported only by threats' (CL 19); 'to command is characteristically to exercise authority over men, not power to inflict harm' (CL 20). Add generality, enduring character, a general habit of obedience, and supremacy and independence (CL 24), and laws become 'general orders backed by threats' from the sovereign or subordinates (CL 25).
+    terms:
+      - term: Being obliged vs having an obligation
+        gloss: Being forced to comply by a threat, as against being under a duty. The clerk is obliged to hand over the money, but has no obligation to.
+      - term: Coercive order
+        gloss: Hart's term (also 'order backed by threats') for orders supported only by threats; used instead of 'command', which suggests authority.
+      - term: Writ large
+        gloss: 'Scaled up: a sovereign habitually obeyed in place of the gunman, and general orders in place of one demand (CL 82).'
+      - term: Charitable interpretation
+        gloss: Interpreting a claim in the most rational way possible and discussing its best, strongest version before criticising it.
+    misconceptions:
+      - claim: The clerk has an obligation to hand over the money, because a threat-backed order was given.
+        tempting: That is what Austin's correlation of command and duty implies.
+        correction: Hart's point is that we would say the clerk was obliged to hand it over, not that he had an obligation to. Coercion alone does not explain obligation.
+      - claim: The Chapter II model of coercive orders is Hart's own theory of law.
+        tempting: Hart builds it carefully and in detail.
+        correction: It is Austin's theory stated in its strongest form, built so it can be tested and attacked in Chapters III and IV; Hart develops his own theory in Chapters V and VI.
+      - claim: Charitable interpretation means softening criticism, or listing every inconsistency first.
+        tempting: '''Charity'' suggests kindness; rigour suggests nit-picking.'
+        correction: 'It means stating the view at its strongest: Hart ignored Austin''s doubtful or inconsistent passages to state ''a clear and consistent position'' (CL 18), then criticised it.'
+    socratic:
+      - ask: The gunman threatens the clerk, who hands over the money. What would we ordinarily say about the clerk?
+        hint: Compare 'he was obliged to' with 'he had an obligation to'.
+        answer: That he was obliged to hand it over, not that he had an obligation to. He acted from fear, not out of respect for any authority.
+      - ask: Why does Hart avoid Austin's word 'command' here?
+        hint: Think of a command in the army.
+        answer: To command is characteristically to exercise authority, not power to inflict harm. 'Coercive order' captures an order supported only by threats.
+      - ask: The gunman's order is one-off and individual. What must be added to make it look like a legal system?
+        hint: Four additions (CL 24).
+        answer: Generality, enduring character, a general habit of obedience, and supremacy and independence.
+      - ask: On the scaled-up model, what are the laws of a country?
+        hint: CL 25.
+        answer: 'General orders backed by threats, issued by the sovereign or by subordinates in obedience to the sovereign: the gunman situation writ large.'
+      - ask: Why build the strongest version of a theory you mean to reject?
+        hint: Curiosity, charity, clarity.
+        answer: 'Charitable interpretation: criticism counts only against the best version. Hart develops Austin''s hints, partly along Kelsen''s lines, so the doctrine is ''stated in its strongest form'' (CL 18).'
+    elements:
+      - name: Generality
+        test: Do the orders cover a general type of conduct and a general class of persons, not one act by one person?
+        authorities:
+          - hart-the-concept-of-law
+      - name: Enduring character
+        test: Do the orders persist over time, rather than ending when the gunman leaves the bank?
+      - name: General habit of obedience
+        test: By and large, do most people in the community obey the orders?
+      - name: Supremacy and independence
+        test: Is the person or body issuing the orders supreme within the community and independent of any other?
+        authorities:
+          - hart-the-concept-of-law
+    what-if:
+      - change: Instead of a robber, an army officer orders a private to hand over equipment.
+        effect: 'Now ''command'' fits: the private complies because he recognises his superior''s authority, not only from fear. Hart says that appeal to authority is much closer to law than the gunman''s order (CL 20).'
+      - change: The demand becomes a standing rule addressed to everyone, obeyed by most people for years, from a source that obeys no one.
+        effect: 'All four additions are present: this is the gunman situation writ large, Hart''s Austin-like model of law (CL 24–25), which he then tests in Chapters III and IV.'
+      - change: An occupying army posts general orders, enforced by patrols and obeyed for years; it obeys no one locally.
+        effect: It fits the Chapter II model, yet on Hart's analysis the population is still only obliged, not under an obligation, which suggests the model misses something about law.
+    boundary:
+      - text: A judge orders one named litigant to pay damages.
+        why: An individual order, unlike most legal requirements; the lecture says it is still legal because it is justified in light of a general legal requirement.
+      - text: Kelsen's version of the gunman example.
+        why: 'The example is not Hart''s alone: the lecture says Kelsen used a similar one and concluded that law is a coercive order, a lesson opposite to Hart''s.'
+    transfer:
+      - scenario: 'A landlord texts a tenant: ''Pay an extra $100 cash this week or I''ll change the locks.'' Nothing in the lease allows it. The tenant pays.'
+        answer: 'Hart would say the tenant was obliged to pay, forced by a threat, but had no obligation to. It is an order backed by threats with no authority behind it, so it shows what the gunman shows: coercion alone does not produce obligation.'
+    objections:
+      - position: Legal obligation is the gunman situation writ large (the Austin-like model, CL 82).
+        evidence: 'The legal systems we know are coercive: enforcement agencies, physical force, jails. Seen from the receiving end, law can look like the gunman situation (lecture).'
+        objection: 'Hart: the clerk is obliged but has no obligation, and to command is to exercise authority, not power to inflict harm, so the model cannot explain legal obligation (CL 19–20).'
+        reply: Schauer is critical of how Hart uses the obliged/obligation distinction, and says law as experienced is overwhelmingly coercive; he calls Hart's critique of Austin 'problematic in two distinct ways' (p 7).
+    storyboard:
+      - caption: The gunman situation (CL 6)
+        detail: 'A gunman orders the clerk to hand over the money, threatening to shoot. The clerk complies: obliged, but under no obligation.'
+      - caption: 'Rename it: ''coercive orders'''
+        detail: Hart drops 'command', which suggests authority, for orders 'supported only by threats' (CL 19–20).
+      - caption: Add four elements (CL 24)
+        detail: Generality, enduring character, a general habit of obedience, and supremacy and independence.
+      - caption: 'The model: law as writ large'
+        detail: Laws are 'the general orders backed by threats' issued by the sovereign or subordinates in obedience to the sovereign (CL 25).
+      - caption: Then test it (Chapters III–IV)
+        detail: Built in its strongest form, the model is checked against real legal systems, and found wanting.
+    sources:
+      - Week 02 - Lecture Slides (slides 14–17, 25)
+      - Week 02 - Lecture Transcript (first half)
+      - Week 02 - Lecture Transcript (second half)
+  - concept: laws2100-w02-harts-chapter-iii-objections
+    plain: 'In Chapter III Hart tests the coercive-orders model against real legal systems and finds three misfits: what laws contain, whom they bind, and how they come into existence.'
+    concrete: Making a will. There is no duty to make one, and nothing happens to you if you never do. But if you want a valid will, the law gives you the power to make one, provided you follow the procedure. Skip a step and you have not disobeyed anything; you have simply not made a valid will. Can a rule like that be an order backed by threats?
+    formal: 'Chapter III (''The Variety of Laws'') raises three groups of objections. Content: duty-imposing versus power-conferring rules (contracts, wills, marriage). Range of application: laws bind those who make them. Modes of origin: customary law is not issued by the sovereign. A descriptive theory of positive law must fit real legal systems; if it does not, change the theory.'
+    terms:
+      - term: Duty-imposing rule
+        gloss: A rule requiring or forbidding conduct, as much of the criminal law does; it can resemble an order backed by threats.
+      - term: Power-conferring rule
+        gloss: A rule giving people the power to do things legally, such as make a contract, a valid will or a marriage, by following a procedure. No duty to use it.
+      - term: Tacit command
+        gloss: 'Austin''s answer to custom: by not interfering, the sovereign tacitly accepts customary rules, so they are in a way its orders.'
+    misconceptions:
+      - claim: Failing to follow the formalities for a will or contract is disobeying an order backed by threats.
+        tempting: Not doing what the law says sounds like breaking it.
+        correction: There is no duty to make a will or contract; failing the procedure simply means no valid will or contract. Power-conferring rules do not fit the coercive-order model.
+      - claim: The range-of-application objection is that laws are too general to be commands.
+        tempting: Generality runs through Chapters II and III.
+        correction: 'Range concerns whom the law binds: legislators are bound by their own laws, whereas Austin''s sovereign commands only others.'
+      - claim: Hart criticises Austin by a standard Austin never accepted.
+        tempting: Hart's own theory ends up resting on rules and authority, which Austin lacks.
+        correction: 'The lecture stresses that Hart uses Austin''s own metatheoretical criteria: a descriptive theory of positive law must fit the facts of real legal systems.'
+    socratic:
+      - ask: Some criminal laws say 'do not do this, or you go to jail'. Do these fit the model of coercive orders?
+        hint: A duty plus a threat.
+        answer: 'They resemble it: duty-imposing rules can look like coercive orders. Hart grants this, for the sake of argument.'
+      - ask: Now take the rules for making a valid will. Is there a duty to make one?
+        hint: What happens if you never make a will?
+        answer: No. The rules give a power to make one if you follow the procedure; they impose no duty and threaten no sanction.
+      - ask: 'Who is bound by a statute Parliament passes: on Austin''s model, and in reality?'
+        hint: Austin's sovereign obeys no one.
+        answer: On the model, only the subjects; in reality, legislators are usually bound by their own laws too. That is the range-of-application objection.
+      - ask: Who issued a community's customary rules?
+        hint: Did any sovereign enact them?
+        answer: 'No sovereign: customs develop in the community and are accepted. Austin answers that they are tacit orders of a sovereign who does not interfere.'
+      - ask: If the theory does not fit these facts, what has to give way?
+        hint: You cannot change the reality of law.
+        answer: The theory. A descriptive theory of positive law must explain real legal systems, so Hart uses real law as counter-examples on Austin's own criteria.
+    elements:
+      - name: Content
+        test: Can the model explain power-conferring rules (contracts, wills, marriage), which impose no duty and threaten no sanction?
+        authorities:
+          - hart-the-concept-of-law
+      - name: Range of application
+        test: Can it explain that laws bind those who make them, when Austin's sovereign commands only others?
+      - name: Modes of origin
+        test: Can it explain customary law, which develops in the community rather than being issued by a sovereign?
+      - name: Reply and counter-reply
+        test: 'State the reply Austin, or someone like Kelsen, could make (for custom: tacit command), and engage with it before concluding.'
+    what-if:
+      - change: The rule says 'do not assault anyone, on pain of imprisonment' instead of 'this is how to make a valid will'.
+        effect: Now it is duty-imposing and resembles a coercive order, so the content objection loses its force for this rule; Hart grants such rules for argument's sake.
+      - change: Parliament passes a tax that applies to all residents, members of Parliament included.
+        effect: 'The range-of-application objection bites: the law binds those who made it, which Austin''s model of a sovereign commanding only others cannot capture.'
+      - change: A grazing rule develops in a village over generations and is never enacted.
+        effect: 'Modes of origin: no sovereign issued it. Austin must treat it as the tacit command of a sovereign who does not interfere; Hart says a good theory must explain custom as it is.'
+    boundary:
+      - text: Powers conferred in public law, not just private law.
+        why: The lecture says Hart draws examples from public law as well as private law, so the content objection is not confined to wills and contracts.
+      - text: Austin's own discussion of custom in the Province.
+        why: Austin knew about customary law and treated customs as tacit orders of the sovereign. The question is not whether he ignored custom, but whether his reply works.
+    transfer:
+      - scenario: A university's rules say a student may apply for special consideration by lodging a form within five days. A student who misses the deadline complains she has been 'punished'.
+        answer: 'It is a power-conferring rule: it gives a power to obtain special consideration if a procedure is followed, and there is no duty to apply. Missing the deadline is a failure to exercise the power validly, not disobedience to a coercive order: exactly the point of Hart''s content objection.'
+    objections:
+      - position: Power-conferring rules defeat the coercive-orders model (Hart, Chapter III).
+        evidence: There is no duty to make a contract, a will or a marriage; the law gives powers if a procedure is followed; failure brings invalidity, not a sanction (lecture).
+        objection: Austin, or someone like Kelsen, could recast such rules in the model's terms; Hart himself sets out these replies in the next part of the chapter.
+        reply: Hart engages each reply before concluding that the model still does not fit the facts of real legal systems (lecture).
+      - position: Customary law fits Austin's theory as tacit command.
+        evidence: By not interfering with customary law, the sovereign tacitly accepts it, so customs are in a way endorsed or issued by the sovereign (lecture).
+        objection: 'Hart, modes of origin: customs are not created or issued by the sovereign; they develop in the community and are accepted, a feature of real law the theory must explain.'
+    sources:
+      - Week 02 - Lecture Slides (slide 18)
+      - Week 02 - Lecture Transcript (second half)
+  - concept: laws2100-w02-habits-and-rules
+    plain: Habits and rules both show people behaving alike, but only rules attract criticism of deviation, supply a reason for it, and are seen from the inside as standards. Habits cannot confer authority.
+    concrete: 'Most people go to the cinema at the weekend; men remove their hats on entering a church. From outside, both look the same: convergence of behaviour. But a man who keeps his hat on in church is criticised, and the rule is cited as the reason; skipping the cinema draws no criticism at all. The first is a social rule, the second a mere habit.'
+    formal: 'Chapter IV: ''the whole conception of a supreme and independent sovereign habitually obeyed ... is misleading'' (CL 27). Can a habit of obedience explain the continuity and persistence of law, the sovereign''s legally unlimited power, its position above the law? Rules differ from habits: deviation is criticised, the rule is a good reason for criticism, rules have an internal aspect. ''Habits are not "normative"'' (CL 60).'
+    terms:
+      - term: Internal aspect
+        gloss: 'How members treat a social rule from the inside: as a standard for conduct and a reason for criticising deviation, not just a regularity.'
+      - term: Continuity of law
+        gloss: 'That law carries on across a change of law-maker: a salient feature Hart says a habit of obedience cannot explain.'
+      - term: Persistence of law
+        gloss: 'That laws outlast the law-maker who made them: the second salient feature in Chapter IV.'
+      - term: Normativity of law
+        gloss: 'Law''s normative force: legal obligation is more than coercion, but different from moral obligation.'
+    misconceptions:
+      - claim: Hart rejects Austin because Austin thinks there is coercion in law.
+        tempting: Hart attacks the coercive-orders model throughout Chapters II to IV.
+        correction: 'Hart accepts a coercive element in the legal systems we know, but denies law is only coercion: it is also a matter of authority and rules.'
+      - claim: Rules differ from habits because rules are followed more regularly.
+        tempting: Rules seem firmer than habits.
+        correction: Both show convergence of behaviour. The differences are criticism of deviation, the rule as a good reason for that criticism, and the internal aspect.
+      - claim: For Hart, legal obligation is the same as moral obligation.
+        tempting: Both are expressed with 'ought' and 'must'.
+        correction: 'The lecture: legal obligation is more than coercion but different from moral obligation; law has a specific normativity of its own.'
+    socratic:
+      - ask: A stranger sees that most men remove their hats in church and most people go to the cinema on Saturdays. Can she tell which is a rule?
+        hint: What can an observer record from outside?
+        answer: No. From the external point of view both show only convergence of behaviour.
+      - ask: What happens when someone deviates from each pattern?
+        hint: Is anyone criticised?
+        answer: Keeping your hat on in church draws criticism, and the rule is cited as a good reason for it; skipping the cinema draws none.
+      - ask: What does the churchgoer have that the cinema-goer lacks?
+        hint: Think of how he sees the practice himself.
+        answer: 'The internal aspect: he treats the rule as a standard for his own and others'' conduct, not just as what usually happens.'
+      - ask: Why does this matter for Austin's sovereign?
+        hint: What is sovereignty built on?
+        answer: Austin's sovereignty conceptually depends on a habit of obedience. Habits are not normative and cannot confer rights or authority, so they cannot explain legal authority or obligation.
+      - ask: What should replace the habit of obedience?
+        hint: Chapters IV and V.
+        answer: 'The idea of a rule. Without it a theory cannot explain legal obligation, the normative force of law: more than coercion, different from morality.'
+    elements:
+      - name: Convergence
+        test: Do most members behave the same way? Habits and rules both pass, so this alone decides nothing.
+        authorities:
+          - hart-the-concept-of-law
+      - name: Criticism
+        test: Are deviations from the pattern met with criticism?
+      - name: Good reason
+        test: Is the rule itself regarded as a good reason for making that criticism?
+      - name: Internal aspect
+        test: Do members treat the pattern from the inside, as a standard for their own and others' conduct?
+        authorities:
+          - hart-the-concept-of-law
+    what-if:
+      - change: A monarch habitually obeyed for 40 years dies, and her son's first statute is treated as law at once.
+        effect: No habit of obeying the son has had time to form, yet his law is law. That is the continuity of law, which a habit of obedience to a person cannot explain; a rule can.
+      - change: People start criticising anyone who skips the weekend cinema, citing 'what we do' as the reason, and expect it of one another.
+        effect: 'The habit has become a social rule: criticism of deviation, the rule as a good reason for it, and the internal aspect are now all present.'
+    boundary:
+      - text: A legislature described as 'sovereign' in a real legal system.
+        why: 'It resembles Austin''s sovereign, but the lecture says even the sovereigns we can identify lack legally unlimited power and are not above the law: Chapter IV''s second and third lines.'
+      - text: Coercion in the legal systems we know.
+        why: 'Hart does not deny it: there is a coercive element, but law is more than coercive force. The line runs between ''law involves coercion'' and ''law is coercion''.'
+    transfer:
+      - scenario: In an office everyone happens to arrive by 9 am. A new manager starts reprimanding latecomers, citing 'the 9 am start' as the reason, and staff begin to expect it of one another.
+        answer: 'At first there is only convergence of behaviour: a habit. Once deviation is criticised, the start time is cited as a good reason for the criticism, and staff treat it from the inside as a standard, it is a rule. Only then can it ground ''you ought to be here''.'
+    objections:
+      - position: Law can be explained through a habit of obedience to a sovereign (Austin).
+        evidence: Sovereignty, subjection and independent political society are all defined by habitual obedience to a determinate superior (PJD 165–169).
+        objection: 'Hart: habits are not normative and cannot confer rights or authority (CL 60); a habit of obedience cannot explain the continuity and persistence of law, and no real sovereign has legally unlimited power.'
+      - position: Law is a matter of authority and rules, not only power (Hart).
+        evidence: Rules, unlike habits, involve criticism of deviation, reasons for criticism and an internal aspect; legal obligation is more than coercion but different from moral obligation (CL 60; lecture).
+        objection: 'Schauer: law as experienced is overwhelmingly coercive, and some systems offer little reason to obey beyond fear of sanctions, so a theory that sets coercion aside may fail to fit the facts (p 18).'
+    sources:
+      - Week 02 - Lecture Slides (slides 18–20)
+      - Week 02 - Lecture Transcript (second half)
+    verify: true
+  - concept: laws2100-w02-law-and-coercion
+    plain: Is coercion part of what law is? Some say law is a kind of coercion; others that law regulates it. The key question is whether coercion is necessary to law, or only salient in it.
+    concrete: 'Imagine a society of angels: everyone complies with the rules, so nothing ever needs enforcing. Raz argues that even angels face coordination problems, so their community still needs laws, just not coercive ones. If a legal system without coercion can be imagined, coercion is not a necessary feature of the concept of law. Schauer accepts this might be so, but says the law we actually live under is coercive.'
+    formal: 'Lamond: interest in law and coercion is ''clarificatory'' and ''evaluative'' (2001, 36). Coercion is law''s genus (Austin); law is a coercive social order (Kelsen); coercion is law''s most salient aspect (Bentham, Holmes, Raz); law regulates coercion (Bobbio); legal practice guides and constrains state coercion (Dworkin). Lamond: coercion is at best ''the most salient aspect of certain legal systems'' (p 56).'
+    terms:
+      - term: Necessary feature
+        gloss: A feature law could not lack. If a legal system without it can be imagined, it is not necessary to the concept of law.
+      - term: Salient feature
+        gloss: A prominent, significant feature of law as we know and experience it, even if law could exist without it.
+      - term: Coercive social order (Kelsen)
+        gloss: Law as a distinctive form of social ordering because of its reliance on coercion; Kelsen looks at the legal order as a whole, Austin at individual laws.
+    misconceptions:
+      - claim: Raz's society of angels shows that angels would need no law at all.
+        tempting: If everyone already does what is right, rules seem pointless.
+        correction: Raz says even angels face coordination problems, so the community still needs laws; they just need not be coercive. So coercion is not necessary.
+      - claim: Because law without sanctions is conceivable, coercion is unimportant to understanding law.
+        tempting: The society of angels shows coercion is not necessary.
+        correction: 'Schauer: law as experienced is overwhelmingly coercive; whether that matters depends on what a legal theory is supposed to accomplish (p 16). Salient features may count, not only necessary ones.'
+      - claim: Lamond holds that coercion is the most salient aspect of law.
+        tempting: He lists that view, held by Bentham, Holmes and Raz.
+        correction: 'He rejects it: coercion ''is not the most salient aspect of law – at best it is the most salient aspect of certain legal systems'' (p 56).'
+    socratic:
+      - ask: Can we imagine a legal system with no coercion at all?
+        hint: Raz's society of angels.
+        answer: 'Raz says yes: angels comply anyway, but still face coordination problems, so they need laws, just not coercive ones.'
+      - ask: If that is conceivable, what follows about coercion?
+        hint: Necessary means law could not exist without it.
+        answer: Coercion is not a necessary feature of the concept of law.
+      - ask: Does that make coercion unimportant to a theory of law?
+        hint: Look at the law we actually live under.
+        answer: 'Not for Schauer: law as experienced is overwhelmingly coercive, so a theory that ignores this may fail to fit the facts.'
+      - ask: So who is right, Raz or Schauer?
+        hint: What is a theory of law for?
+        answer: 'It depends on the aim of legal theory: capturing necessary features, or salient ones too. ''The focus of legal theory is dependent on a conception of what a legal theory is supposed to accomplish'' (Schauer, p 16).'
+    what-if:
+      - change: In the society of angels there are no coordination problems either.
+        effect: Raz's case for coercion-free law rests on coordination problems the community must still solve; without them, the lecture notes, some would say such a society needs no law at all.
+      - change: The question becomes whether coercion is the most salient aspect of law, not whether it is necessary.
+        effect: The society of angels no longer settles it. Bentham, Holmes and Raz see coercion as most salient; Lamond says at best of certain systems; Schauer points to law as experienced.
+    boundary:
+      - text: Legal systems where people obey only from fear of sanctions 'meted out solely on the whim of a single individual' (Schauer, p 18).
+        why: They fit the coercive model almost perfectly; Schauer uses them to press that a theory ignoring coercion may fail to fit the facts.
+      - text: 'Bobbio: law regulates the use of coercion.'
+        why: 'Coercion here is law''s object, not its form: forbidding vendetta and limiting force. Coercion stays central, but in a different role from Austin''s or Kelsen''s.'
+    transfer:
+      - scenario: A worldwide sporting federation has detailed rules but no fines, bans or other enforcement; clubs comply because the rules settle when and where matches happen.
+        answer: 'This resembles Raz''s society of angels: rules solving coordination problems without coercion, so coercion would not be necessary to such an order. Schauer would ask what the theory is for: real legal systems are overwhelmingly coercive, and a theory should capture that salient feature too.'
+    objections:
+      - position: Coercion is a necessary feature of law.
+        evidence: 'Austin: coercion is the genus of which law is a species. Kelsen: law is a coercive social order (Lamond, pp 42–45).'
+        objection: 'Raz''s society of angels: angels comply anyway but face coordination problems, so they need law without coercion. A coercion-free legal system is conceivable.'
+        reply: 'Schauer: perhaps, but law as experienced is overwhelmingly coercive; focusing only on necessary features rests on a contestable view of what legal theory is for (pp 16, 18).'
+      - position: Coercion is the most salient aspect of law (Bentham, Holmes, Raz).
+        evidence: The legal systems we know rely on enforcement agencies and jails; some offer little reason to obey beyond fear of sanctions (Schauer, p 18).
+        objection: 'Lamond: coercion ''is not the most salient aspect of law – at best it is the most salient aspect of certain legal systems''; regulating coercion falls within law''s claim to authority (p 56).'
+    sources:
+      - Week 02 - Lecture Slides (slides 2, 21–23)
+      - Week 02 - Lecture Transcript (second half)
+    verify: true
+flows:
+  - slug: austin-positive-law-test
+    title: Is this a positive law on Austin's theory?
+    summary: 'Runs a rule through Austin''s definitions: is it a command, is it general, and is it set by a sovereign of an independent political society? Ends at positive law or at one of Austin''s other kinds of ''law''.'
+    start: n1
+    concepts:
+      - laws2100-w02-austins-command-theory
+      - laws2100-w02-austins-sovereign
+    sources:
+      - Week 02 - Lecture Slides (slides 7–12)
+      - Week 02 - Lecture Transcript (first half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Has someone expressed, by words or other signs, a wish that another shall do or forbear?
+        note: A command starts with a wish of a rational being, intimated to another. The 'laws' of motion involve no wish at all.
+        concept: laws2100-w02-austins-command-theory
+        authorities:
+          - austin-province-of-jurisprudence-determined
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n10
+      - id: n2
+        kind: ask
+        text: Is the wish backed by an evil (a sanction) that the person expressing it will inflict if there is no compliance?
+        note: Evil means sanction, an enforcement of obedience; punishments are one class of sanctions. Disapproval by others is not a sanction from the commander.
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: Only general disapproval
+            to: n9
+          - label: 'No'
+            to: n11
+      - id: n3
+        kind: step
+        text: 'It is a command, and so a duty is imposed: command and duty are correlative.'
+        note: Command, duty and sanction are inseparably connected for Austin. Even the gunman's order fits here.
+        next: n4
+      - id: n4
+        kind: ask
+        text: Does it oblige generally, to acts or forbearances of a class?
+        note: A law is not an individual command for one act; it obliges generally.
+        branches:
+          - label: 'Yes'
+            to: n5
+          - label: No, one act only
+            to: n8
+      - id: n5
+        kind: ask
+        text: Is it set by a determinate, common superior whom the bulk of the society habitually obeys?
+        note: A person or a body of persons will do, such as a monarch, a parliament or a council of elders. No territory is required.
+        concept: laws2100-w02-austins-sovereign
+        branches:
+          - label: 'Yes'
+            to: n6
+          - label: 'No'
+            to: n12
+      - id: n6
+        kind: ask
+        text: Does that superior habitually obey some other person or body?
+        note: A society is political and independent only if its superior does not habitually obey another (PJD 169).
+        branches:
+          - label: 'No'
+            to: n7
+          - label: 'Yes'
+            to: n13
+      - id: n7
+        kind: end
+        tone: met
+        text: 'Positive law: set by a sovereign to a member of the independent political society in which it is sovereign (PJD 165), the matter of jurisprudence.'
+      - id: n8
+        kind: end
+        tone: qualified
+        text: 'A particular command, like the gunman''s single order, but not a law properly so called: it does not oblige generally.'
+      - id: n9
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'Positive morality: a rule set and enforced by mere opinion, such as international law, improperly but by close analogy termed a law.'
+      - id: n10
+        kind: end
+        tone: not-met
+        text: No command at all. If it is called a law, it is so only by metaphor, like the laws determining the movements of bodies.
+      - id: n11
+        kind: end
+        tone: not-met
+        text: 'No sanction, so no command and no duty: for Austin command, duty and sanction are inseparable.'
+      - id: n12
+        kind: end
+        tone: qualified
+        text: 'A human law set by someone who is not a political superior: a command, but not positive law.'
+      - id: n13
+        kind: end
+        tone: qualified
+        exception: true
+        text: This superior is not sovereign, and the society is not independent. Look for the person or body they habitually obey.

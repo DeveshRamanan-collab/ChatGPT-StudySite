@@ -1,0 +1,559 @@
+unit: laws2100
+week: 7
+source: raw/laws2100-juris/week-07
+generator: aids-1
+aids:
+  - concept: laws2100-w07-raz-and-finnis-on-legal-reasoning
+    plain: Raz, a legal positivist, says legal reasoning is an instance of moral reasoning. Finnis, a natural law thinker, says it is largely technical. Each says the reverse of what his camp suggests.
+    concrete: 'A judge finds the statutes and precedents unclear on a question. For Raz, in following her system''s principles she reasons morally, since those principles are moral principles, though possibly mistaken ones. For Finnis, clear authoritative sources are the only rational basis for her decision, and natural reason makes no pretence of giving her the one right answer where the sources are unclear: she faces a hard case, and legal indeterminacy is part of the law.'
+    formal: 'Raz: ''I have rejected the strong thesis of the autonomy of legal reasoning. Legal reasoning is an instance of moral reasoning''; legal doctrines are justified only if morally justified (slide 3). Finnis: ''Legal reasoning, indeed, is technical reasoning, at least in large part not moral reasoning''; classical natural law ''makes no pretence that natural reason can determine the one right answer'' where the sources are unclear (slide 4).'
+    analogy:
+      text: 'Predicting an author''s view on legal reasoning from their camp is like predicting a politician''s vote on one bill from their party: often a fair guess, but you must check the actual vote.'
+      maps:
+        - from: the party
+          to: the author's general theory of law (positivism, natural law)
+        - from: the vote on one bill
+          to: a specific claim, such as what legal reasoning is
+        - from: checking the voting record
+          to: reading the specific argument the author gives
+      limits:
+        - Parties impose discipline; a theory of law does not dictate a view on legal reasoning, though the two are not completely disconnected.
+    terms:
+      - term: Strong thesis of the autonomy of legal reasoning
+        gloss: 'The view that legal reasoning is self-standing and separate from moral reasoning. Raz says he has rejected it: legal reasoning is an instance of moral reasoning.'
+      - term: Practical reasoning
+        gloss: Reasoning geared towards action. In law the action is a decision; the question is whether legal reasoning differs in kind from other practical reasoning.
+        example: Deciding whether to take an umbrella with you.
+      - term: Technical reasoning
+        gloss: 'Finnis''s description of legal reasoning: ''at least in large part not moral reasoning'', resting on clear authoritative sources rather than open weighing of greater good or lesser evil.'
+    misconceptions:
+      - claim: Because Raz is a positivist, he must hold that legal reasoning is disconnected from morality.
+        tempting: Positivists separate law and morals.
+        correction: 'That separation concerns identifying law. Raz rejects the strong autonomy thesis: legal reasoning is moral reasoning, though sometimes morally incorrect (slide 3). The mistake is inferring a specific claim from a general theory.'
+      - claim: As a natural law thinker, Finnis holds that judges can always reason their way to the one right answer.
+        tempting: Natural law is associated with principles of justice discoverable by reason.
+        correction: 'Finnis: classical natural law ''makes no pretence that natural reason can determine the one right answer'' where the sources are unclear (slide 4). He criticises Dworkin''s one right answer thesis.'
+      - claim: The lesson is that an author's claims about legal reasoning are completely disconnected from their theory of law.
+        tempting: The camps predict the wrong answers here.
+        correction: 'The lecture: specific claims and general views are ''not completely disconnected, but they are separable'' for analysis. Zoom in on the claim, then zoom out to the theory.'
+    socratic:
+      - ask: Raz is a positivist and Finnis a natural law thinker. What would you predict each says about legal reasoning?
+        hint: Think of the separation of law and morals.
+        answer: 'Raz: highly technical, disconnected from morality. Finnis: connected with morality, much as Dworkin treats legal principles as having a moral dimension.'
+      - ask: What does Raz actually say?
+        hint: Slide 3.
+        answer: 'He rejects the strong thesis of the autonomy of legal reasoning: courts ought to follow their system''s principles, ''which are moral principles, though they may be mistaken moral principles''.'
+      - ask: And Finnis?
+        hint: Slide 4.
+        answer: Legal reasoning is technical, at least in large part not moral. Academic theory exaggerates what reason can settle and minimises the need for authoritative sources.
+      - ask: Why is Finnis's view not really surprising?
+        hint: His criticism of Dworkin.
+        answer: He criticised Dworkin's one right answer thesis in light of incommensurability. A judge can face a hard case; legal indeterminacy is part of the law, and natural law still explains it.
+      - ask: What two lessons does the lecture draw?
+        hint: Claims and theories; kinds of reasoning.
+        answer: Specific claims are separable from general views of law; and the real problem is whether legal reasoning differs in kind from other practical reasoning.
+    what-if:
+      - change: The legal sources on the question are clear and respect the few absolute moral rights and duties.
+        effect: For Finnis they are to be respected as the only rational basis for judicial reasoning and decision; the judge does not reopen what is the greater good or lesser evil.
+      - change: The sources are unclear.
+        effect: 'Finnis: natural reason cannot claim to determine the one right answer, so the judge faces a hard case. Raz would still call her reasoning moral, following her system''s possibly mistaken moral principles.'
+    boundary:
+      - text: Dworkin's judge reasoning with legal principles.
+        why: 'Dworkin uses legal reasoning to argue that law and morality connect: principles have a moral dimension and are part of the law. That fits the expected natural law picture better than Finnis does (lecture).'
+      - text: A court departing from a legal doctrine that conflicts with morality.
+        why: 'Raz: systems make varying claims, through doctrines balancing the powers of government organs, about when courts may or must deviate, and when reform is left to other bodies (slide 3).'
+    transfer:
+      - scenario: A biographer assumes a judge known for weighing values must be a natural lawyer, and a judge known for strict, technical reading must be a positivist, and writes each judge's jurisprudence on that basis.
+        answer: 'The Raz/Finnis lesson: specific claims, defended by specific arguments, are separable (though not disconnected) from general views of law. A positivist (Raz) can call legal reasoning moral; a natural lawyer (Finnis) can call it technical. Read each judge''s actual claims and arguments first, then place them within a general theory.'
+    objections:
+      - position: Legal reasoning is an instance of moral reasoning (Raz).
+        evidence: Legal doctrines are justified only if morally justified; courts ought to follow their system's principles, which are moral principles, though possibly mistaken ones (slide 3).
+        objection: 'Finnis: legal reasoning is largely technical; theory exaggerates what reason can settle, and clear authoritative sources are the only rational basis for decision in countless issues (slide 4).'
+      - position: Legal reasoning is technical reasoning, at least in large part not moral reasoning (Finnis).
+        evidence: Reason cannot settle every question of greater good or lesser evil; classical natural law makes no pretence of the one right answer when sources are unclear (slide 4).
+        objection: 'Dworkin: legal principles, which have a moral dimension, are part of the law, so judges reasoning with them can find the right answer even in hard cases (lecture; week 5).'
+    sources:
+      - Week 07 - Lecture Slides (slides 3–4)
+      - Week 07 - Lecture Transcript (first half)
+  - concept: laws2100-w07-types-of-reasoning-and-rules
+    plain: Law uses many types of reasoning (deduction, induction, analogy, abduction, purpose, principle) and of rules (mandatory, prohibitive, permissive, power-conferring, constitutive). None of them is unique to law.
+    concrete: 'A document is offered as a will. Deductively: all documents with these characteristics are valid wills; this one has them; so it is a valid will. The rule about wills confers a power to change legal relations; if the formalities are missing, Hart says the result is a nullity, not a punishment. What counts as a goal in football is likewise created by constitutive rules: such rules and reasoning exist outside law too.'
+    formal: 'Reasoning (slide 5): deductive (general rule → specific conclusion), inductive (specific cases → general principle), analogical (similar facts → similar outcomes), abductive (best explanation; ''plausibility, not certainty''), purposive (a rule''s purpose) and by principle (weighing values). Rules (slide 6): mandatory, prohibitive, permissive, power-conferring, constitutive. Background: Hart''s duty-imposing and power-conferring rules (CL ch 3, against Austin).'
+    analogy:
+      text: Types of reasoning are like tools in a toolbox. Carpenters and home handymen use the same hammer and saw, but a carpenter reaches for some tools far more often.
+      maps:
+        - from: the tools
+          to: the types of reasoning on slide 5
+        - from: the home handyman
+          to: everyday reasoning, in sport and daily life
+        - from: the carpenter's favourite tools
+          to: analogy and precedent, particularly important in law
+      limits:
+        - Tools are picked up one at a time; in a real judgment types combine, eg purposive reasoning followed by analogy.
+        - Whether heavy use of shared tools makes legal reasoning special is the open question Schauer takes up.
+    terms:
+      - term: Abductive reasoning
+        gloss: 'Inference to the best explanation: from an observation or a set of facts to the best available hypothesis explaining them; plausibility, not certainty (slide 5).'
+      - term: Reasoning by principle
+        gloss: Weighing and balancing competing principles or values, rather than applying fixed rules (slide 5).
+      - term: Power-conferring rule
+        gloss: A rule conferring legal power to create, change or extinguish legal relations, eg making a will or passing legislation (slide 6).
+      - term: Constitutive rule
+        gloss: A rule that creates the activity or institution itself, eg rules defining contracts, marriage or corporations; outside law, what counts as a goal in football.
+    misconceptions:
+      - claim: These types of reasoning are techniques found only in law.
+        tempting: They are taught in law school as legal reasoning.
+        correction: 'The lecture: all are found in law and elsewhere, such as sport and daily life; some, like analogy and precedent, matter particularly in law. Hence ''(legal)'' in brackets on the slide.'
+      - claim: Abductive reasoning gives certainty, like deduction.
+        tempting: Both draw a conclusion from what we already know.
+        correction: 'Slide 5: abduction is inference to the best explanation, giving ''plausibility, not certainty''. Deduction runs from a general rule to a specific conclusion.'
+      - claim: A statute saying 'a person over 18 may make a will' is merely a permissive rule.
+        tempting: '''May'' usually marks a liberty.'
+        correction: 'It confers a power to change legal relations. A document lacking the formalities is a nullity, not a punishment: Hart''s point against Austin (CL ch 3).'
+    socratic:
+      - ask: How does a syllogism about a will work?
+        hint: The general rule comes first.
+        answer: 'All documents with these characteristics are valid wills; this document has them; so it is a valid will. That is deduction: from a general rule to a specific conclusion.'
+      - ask: How does the common law build a general principle?
+        hint: The reverse direction.
+        answer: 'By induction, from specific cases to a general principle. Analogy compares cases directly: similar facts, similar outcomes (precedent).'
+      - ask: What if no fixed rule decides between two values?
+        hint: Slide 5's last type.
+        answer: 'Reasoning by principle: weighing and balancing competing principles or values. Purposive reasoning, by contrast, reads one rule in light of its purpose.'
+      - ask: Does a rule about making wills impose a duty?
+        hint: Hart against Austin.
+        answer: 'No: it confers a power. Failing the formalities produces a nullity, not a punishment, which is why not all laws are commands backed by sanctions.'
+      - ask: Is any of these unique to law?
+        hint: A goal in football.
+        answer: No. Constitutive rules, precedent and analogy exist in sport and daily life; law concentrates some of them. Whether that makes legal reasoning special is Schauer's question.
+    what-if:
+      - change: A tribunal deciding whether an electric scooter is a 'vehicle' first asks what the rule is for, then compares scooters with bicycles, which an earlier decision excluded.
+        effect: 'Two types combine: purposive reasoning, then analogical reasoning. Naming each step lets you assess it: is the purpose right, and are the cases relevantly similar?'
+      - change: 'A will-making statute is redrafted as a duty: every adult must make a will before two witnesses.'
+        effect: 'It would become a mandatory rule, imposing a duty to act. As enacted it imposes no duty: it confers a power and sets conditions for using it validly.'
+    boundary:
+      - text: '''Rules, principles, standards, norms…'' (slide 6).'
+        why: Some theorists (Dworkin) see important differences among them; some use 'norms' as an umbrella term; some tie norms to social norms (lecture).
+      - text: What counts as a goal in football.
+        why: 'A constitutive rule outside law: it creates something that makes sense only within the game. Such rules are not unique to legal systems.'
+    transfer:
+      - scenario: A university policy says students 'must submit original work' and 'may consult tutors', and defines what a degree is and when it is conferred. An integrity panel compares a new case with last year's similar case.
+        answer: '''Must submit'' is a mandatory rule; ''may consult'' is permissive; the degree rules create the qualification itself, as constitutive rules do. Comparing the cases is analogical reasoning. None is unique to law: name the type of rule and reasoning before assessing the argument.'
+    objections:
+      - position: Law uses no type of reasoning or rule unique to law (lecture).
+        evidence: Deduction, analogy, precedent and constitutive rules appear in sport and daily life; we reason about rules and their purposes outside law too.
+        objection: 'Schauer: legal reasoning may still be a real category if methods found everywhere are ''particularly concentrated and dominant'' in legal argument and decision-making (p 8).'
+    sources:
+      - Week 07 - Lecture Slides (slides 5–6)
+      - Week 07 - Lecture Transcript (first half)
+  - concept: laws2100-w07-schauer-thinking-like-a-lawyer
+    plain: 'Schauer asks whether lawyers reason differently from everyone else. His answer: legal reasoning uses methods found everywhere, concentrated and dominant in law; whether it is distinct is an empirical question.'
+    concrete: 'Fuller''s rule: ''It shall be a misdemeanor, punishable by a fine of five dollars, to sleep in any railway station.'' A tired commuter nods off waiting for the train home; a homeless person is setting up a bed for the night but is not yet asleep. Read by its words, the rule fines the commuter, not the homeless person. Fuller says we understand ''sleep'' only through the rule''s aim. Schauer calls this exchange ''a debate within a debate''.'
+    formal: 'Thinking Like a Lawyer (2009): legal reasoning is a real category if we find ''methods of reasoning that are found everywhere but that are particularly concentrated and dominant in legal argument and decision-making'' (p 8). A ''moderately distinct form of reasoning'' is ''in the final analysis an empirical claim'' (p 11). Among the wise and the good, the Rule of Law ''would be at least superfluous, and quite possible pernicious''.'
+    analogy:
+      text: 'Legal reasoning is like a city''s café strip: the same coffee is sold all over town, but on the strip it is concentrated and dominant, and that gives the strip its character.'
+      maps:
+        - from: coffee sold all over town
+          to: methods of reasoning found everywhere
+        - from: the café strip
+          to: legal argument and decision-making
+        - from: the strip's character
+          to: legal reasoning, special by concentration, not by difference in kind
+      limits:
+        - Coffee is the same wherever it is sold; legal reasons may claim special status over other considerations, which is the further question the lecture asks.
+    terms:
+      - term: A debate within a debate
+        gloss: Schauer's name for the vehicles-in-the-park exchange inside the Hart–Fuller debate, with insights about legal rules, interpretation and legal language (slide 7).
+      - term: Legal reasoning (Schauer)
+        gloss: Methods of reasoning found everywhere but particularly concentrated and dominant in legal argument and decision-making (p 8).
+      - term: Extra-legal factors
+        gloss: Considerations other than legal rules, such as economic, moral or political ones, which analyses like law and economics find in judicial reasoning (lecture).
+    misconceptions:
+      - claim: Schauer says legal reasoning is special because it uses techniques found nowhere else.
+        tempting: That seems to be what a distinct 'legal reasoning' needs.
+        correction: 'He sets a lower bar: methods found everywhere but ''particularly concentrated and dominant'' in law (p 8). Special by concentration, not by difference in kind.'
+      - claim: Whether lawyers reason distinctively is a conceptual question about the nature of law.
+        tempting: It is asked in a jurisprudence unit.
+        correction: 'Schauer: ''in the final analysis an empirical claim'' (p 11). Separate the empirical question (do judges reason differently?) from conceptual ones.'
+      - claim: Schauer is a legal realist who rejects reasoning with rules.
+        tempting: He takes the realist challenge seriously.
+        correction: 'The lecture: Schauer is not a legal realist, though he takes the realist argument seriously, here and in his work on rules and standards.'
+    socratic:
+      - ask: Under Fuller's railway-station rule, should the tired commuter be fined? The homeless person not yet asleep?
+        hint: Words versus aim.
+        answer: 'Read literally: the commuter yes, the homeless person no. Fuller says ''sleep'' can be understood only through the aim of the statute.'
+      - ask: Are Hart and Fuller disagreeing about the concept of law, or about something else?
+        hint: Slide 7.
+        answer: Perhaps about what judges do or should do when they interpret and apply the law. Schauer calls this exchange 'a debate within a debate'.
+      - ask: What would make 'legal reasoning' a real category?
+        hint: Schauer, p 8.
+        answer: Methods of reasoning found everywhere but particularly concentrated and dominant in legal argument and decision-making.
+      - ask: If judges weigh legal rules together with economic, moral and political factors, what follows?
+        hint: Law and economics.
+        answer: Their reasoning resembles ordinary reasoning, and the question becomes whether legal reasons have special status over other considerations, as the search for a ratio assumes.
+      - ask: Would a society governed by the wise and the good need legal reasoning?
+        hint: Schauer, p 11.
+        answer: It would likely get in the way, and the Rule of Law would be at least superfluous, quite possibly pernicious. Legal reasoning goes with the inherent generality of law.
+    what-if:
+      - change: Studies show judges' decisions are best predicted by the facts of cases, not by the doctrine they cite.
+        effect: 'That supports the sceptic the lecture says we must consider (American legal realism): the debate assumes officials reason with rules meaningfully. Since Schauer calls the claim empirical, such evidence bears on it directly.'
+      - change: A society is governed only by the wise and the good.
+        effect: 'Schauer: legal reasoning ''is likely simply to get in the way'', and the Rule of Law would be at least superfluous, quite possibly pernicious. The provocation asks what legal reasoning is for.'
+    boundary:
+      - text: Veterans want to place a truck in the park as part of a war memorial (the lecture on Fuller).
+        why: Clearly a vehicle, yet an exception seems right, and only the rule's purpose can show it. Fuller says the semantics of 'vehicle' alone cannot settle the case.
+      - text: 'Raz: legal reasoning is an instance of moral reasoning.'
+        why: 'A different kind of claim: Raz classifies legal reasoning as moral; Schauer treats its distinctness as an empirical matter of concentration.'
+    transfer:
+      - scenario: Chess arbiters say they reason distinctively, 'like arbiters'. A sociologist finds they use rule-application, precedent and analogy just as referees in other sports do, but far more often and more formally.
+        answer: 'Schauer''s test: methods found everywhere can still mark a distinct form of reasoning if they are particularly concentrated and dominant in the practice (p 8). Whether arbiters really reason distinctively is an empirical claim, settled by observing them, not by definition.'
+    objections:
+      - position: There is something called legal reasoning, special by concentration (Schauer).
+        evidence: Methods found everywhere are particularly concentrated and dominant in legal argument and decision-making (p 8); legal reasoning goes with the generality of law.
+        objection: 'American legal realism: officials may not reach their conclusions by reasoning with rules at all, but by responding to the facts (lecture).'
+      - position: We cannot interpret a word in a statute without knowing the statute's aim (Fuller).
+        evidence: 'The railway-station rule: the tired commuter and the homeless person; the veterans'' memorial truck (slide 7; lecture).'
+        objection: 'Hart: general terms have a core of settled meaning; a motor-car is plainly a vehicle, and discretion arises only in the penumbra (CL ch 7; week 6).'
+    sources:
+      - Week 07 - Lecture Slides (slides 7–10)
+      - Week 07 - Lecture Transcript (first half)
+  - concept: laws2100-w07-speluncean-explorers-five-options
+    plain: Fuller invented a case in which trapped explorers killed and ate a companion. His imaginary judges answer it in five ways, each voicing a different theory of law and of the judge's role.
+    concrete: 'Four members of the Speluncean Society and Roger Whetmore are trapped in a limestone cave by a landslide. They are rescued after 32 days, and it is then discovered that on day 23 Whetmore was killed and eaten by his companions. Convicted of murder, they are sentenced to hang, the law permitting the judge ''no discretion'' on penalty. On appeal, the Supreme Court of Newgarth must decide what § 12-A requires: ''Whoever shall willfully take the life of another shall be punished by death.'''
+    formal: 'Fuller, ''The Case of the Speluncean Explorers'' (1949) 62(4) Harvard Law Review 619. Five options: apply § 12-A regardless of the results (Truepenny CJ; Keen J); do not apply the law (Foster J, first argument); apply it in light of its purpose (Foster J, second); withdraw (Tatting J); use common sense and public opinion (Handy J). The Postscript: ''divergent philosophies of law and government'' (p 645).'
+    terms:
+      - term: Cessante ratione legis, cessat et ipsa lex
+        gloss: '''When the reason for a law ceases, the law itself ceases.'' Foster J''s maxim for saying positive law did not reach men in a state of nature.'
+      - term: Ubi societas, ibi ius
+        gloss: '''Wherever there is society, there is law.'' With it Foster J ties the moral justification of legal powers to an agreement or social contract (slide 16).'
+      - term: State of nature
+        gloss: 'Foster J''s contrast with the state of civil society: the men in the cave were outside the society positive law presupposes. A concept long used in social contract theory.'
+      - term: Intelligent and unintelligent fidelity
+        gloss: Foster J's second argument raises 'no question of fidelity to enacted law', only of 'the distinction between intelligent and unintelligent fidelity' (p 625).
+    misconceptions:
+      - claim: Foster J argues that strong moral reasons defeat the law, so he is simply a natural law judge.
+        tempting: He appeals to justice and to the state of nature.
+        correction: 'The lecture: Foster J says the law itself, properly understood, declares them innocent: a different view of what the law requires, like the disagreement Dworkin finds in Riggs v Palmer.'
+      - claim: Truepenny CJ and Keen J reason in the same way, since both apply § 12-A.
+        tempting: They reach the same outcome.
+        correction: Truepenny CJ looks to executive clemency to mitigate the rigours of the law. Keen J sets clemency and moral judgment aside as irrelevant to the judicial office, grounding plain meaning in legislative supremacy.
+      - claim: Fuller built the case to show that the right answer was acquittal.
+        tempting: Foster J's appeal to a law that 'incorporates justice' is powerful.
+        correction: 'The Postscript: the case was ''constructed for the sole purpose of bringing into a common focus certain divergent philosophies of law and government'', which are permanent problems (p 645).'
+    socratic:
+      - ask: On its words, does § 12-A cover what the explorers did?
+        hint: '''Whoever shall willfully take the life of another''.'
+        answer: 'Yes. Truepenny CJ: the statute ''permits of no exception applicable to this case'', however our sympathies incline. The trial judge had no discretion on penalty.'
+      - ask: If the result seems unjust, where can relief come from without bending the law?
+        hint: Another institution.
+        answer: 'Executive clemency (Truepenny CJ): justice without impairing the letter or spirit of the statutes. The position raises the role of the judiciary among other institutions.'
+      - ask: Could positive law simply not apply in the cave?
+        hint: Cessante ratione legis.
+        answer: 'Foster J''s first argument: positive law is predicated on the possibility of a human society. In a state of nature the reason for the law ceased, so the law did too.'
+      - ask: Assume it applies. Can a man break the letter of the law without breaking the law itself?
+        hint: Self-defence.
+        answer: 'Foster J''s second argument: read the statute in light of its evident purpose. As killing in self-defence is excused, an implicit exception may apply: intelligent, not unintelligent, fidelity.'
+      - ask: How do Tatting J, Keen J and Handy J respond?
+        hint: Purposes, scope, practical wisdom.
+        answer: 'Tatting: more than one purpose, another explanation for self-defence, an exception of uncertain scope; he withdraws. Keen: the question is the rule''s scope, not its conjectural purpose. Handy: practical wisdom and public opinion.'
+    what-if:
+      - change: § 12-A expressly excepted killings 'in self-defence or out of necessity'.
+        effect: 'The case would turn on an explicit exception, not an implicit one; Foster J''s purpose argument would be unnecessary. Keen J would still ask about scope: for an exception, as for the statute, the question is its scope, not its conjectural purpose.'
+      - change: The trial judge had a discretion over the penalty.
+        effect: Much of the pressure would ease. The facts stress that the law permitted 'no discretion' on penalty, which is why Truepenny CJ turns to executive clemency to avoid an unjust result.
+      - change: The men had been trapped in a city basement, within reach of help, rather than cut off from society.
+        effect: Foster J's first argument weakens, since it depends on civil society being suspended, a state of nature. His purpose-based second argument, and Tatting J's objections to it, would remain.
+    boundary:
+      - text: 'Riggs v Palmer: a beneficiary who murdered the testator.'
+        why: 'A real case with the same structure as Foster J''s second argument: a clear, valid statute read subject to an implicit exception. Dworkin reads it as a disagreement about the grounds of law.'
+      - text: Church of the Holy Trinity v United States (1892).
+        why: 'Real, not imaginary: a statute covering ''labor or service of any kind'' was held not to reach an English priest. The purposive move Foster J makes, in a real court.'
+    transfer:
+      - scenario: 'A bylaw says: ''Any person who enters the reservoir enclosure shall be fined $500.'' A lifeguard climbs the fence to pull out a drowning child. The council''s tribunal must decide whether to fine her.'
+        answer: 'Truepenny/Keen: the words cover her; fine her, and leave relief to a waiver (clemency) or the council. Foster J (second argument): read the bylaw by its evident purpose, protecting the water supply; the rescue is an implicit exception. Tatting J: what is the exception''s scope? Handy J: common sense and public opinion.'
+    objections:
+      - position: Judges must apply § 12-A according to its plain meaning (Keen J).
+        evidence: Legislative supremacy obliges judges to enforce the written law by its plain meaning; 'the question is not the conjectural purpose of the rule, but its scope' (pp 633, 636).
+        objection: 'Foster J: ''a man may break the letter of the law without breaking the law itself''; every proposition of positive law is to be read in light of its evident purpose (p 624).'
+        reply: 'Keen J: if we do not know the purpose of § 12-A, how can we possibly say there is a ''gap'' in it? (slide 20).'
+      - position: Read in light of its purpose, § 12-A contains an implicit exception (Foster J).
+        evidence: Killing in self-defence is excused though the words cover it; intelligent fidelity follows the evident purpose (pp 624–625).
+        objection: 'Tatting J: the statute has more than one purpose; self-defence may have a different explanation; and the scope of the new exception is uncertain (slide 18).'
+      - position: The case is a question of practical wisdom, with forms and concepts as instruments (Handy J).
+        evidence: Officials do their jobs best treating forms and abstract concepts as instruments; common sense, public opinion, clemency and gossip (slide 21).
+        objection: 'The lecture: this personifies legal realism, deciding on the facts and non-legal considerations; Hart calls formalism and rule-scepticism ''great exaggerations'' (CL 147).'
+    storyboard:
+      - caption: Trapped by a landslide
+        detail: 'Early May 4299: four Speluncean Society members and Roger Whetmore are trapped in a limestone cave.'
+      - caption: Rescued after 32 days
+        detail: It is then discovered that on day 23 Whetmore was killed and eaten by his companions.
+      - caption: Convicted and sentenced to hang
+        detail: Found guilty of murder under § 12-A; the law permits the trial judge no discretion on penalty.
+      - caption: Five judges, five options
+        detail: Apply regardless (Truepenny CJ, Keen J); not applicable (Foster J); apply by purpose (Foster J); withdraw (Tatting J); practical wisdom (Handy J).
+      - caption: Fuller's Postscript
+        detail: 'Divergent philosophies of law and government: live questions of choice since Plato and Aristotle, ''among the permanent problems of the human race''.'
+    sources:
+      - Week 07 - Lecture Slides (slides 11–22)
+      - Week 07 - Lecture Transcript (first half)
+  - concept: laws2100-w07-rules-standards-and-defeasibility
+    plain: 'Rules and standards sit on one spectrum, and use pushes them together: exceptions loosen rules, concrete tests tighten standards. A rule is defeasible: further facts can defeat its conclusion, yet it remains a rule.'
+    concrete: 'An 1885 US statute prohibited importing aliens under contract ''to perform labor or service of any kind in the United States''. The Church of the Holy Trinity in New York made an employment contract with an English Anglican priest. The words plainly covered him, and nobody disputed the statute''s validity. Yet in 1892 the US Supreme Court held that a minister was not a foreign labourer under the statute: an implicit exception to an explicit rule.'
+    formal: 'Schauer: the choice between rules and standards ''may not make nearly as much of a difference as is ordinarily assumed'' (p 305); with the avoidance of rules and the concretization of standards, specificity manages discretion less than thought (p 319). Hart: rules may have ''exceptions incapable of exhaustive statement''; ''A rule that ends with the word "unless…" is still a rule'' (CL 139).'
+    analogy:
+      text: A fenced path and an open lawn. People cut gaps in the fence where they need to get through; on the lawn ('walk carefully') they wear tracks. Over time the path looks more like lawn, and the lawn more like paths.
+      maps:
+        - from: the fenced path
+          to: a specific rule
+        - from: gaps cut in the fence
+          to: 'exceptions: the avoidance of rules'
+        - from: the open lawn
+          to: a vague standard such as 'drive carefully'
+        - from: tracks worn into the lawn
+          to: the concretization of standards
+      limits:
+        - Gaps in a fence can be listed; Hart says a rule's exceptions are 'incapable of exhaustive statement' and appear only as cases arise.
+        - 'Convergence is not mere wear and tear: it comes from interpreters, especially judges, choosing arguments.'
+    terms:
+      - term: Convergence hypothesis
+        gloss: 'Schauer: over time interpreters push rules towards standards and standards towards rules, so both move towards the middle of a spectrum of ''ruleness''.'
+      - term: Avoidance of rules and concretization of standards
+        gloss: 'Schauer''s two mechanisms: escaping a specific rule''s strictness, eg by finding exceptions; and creating more specific rules in order to apply a vague standard.'
+      - term: Defeasibility
+        gloss: A rule is defeasible if a conclusion justified when certain criteria are met can be defeated if further criteria are met (slide 25).
+        example: '''Dogs not allowed'', and a guide dog is let in.'
+      - term: Implicit exception
+        gloss: An exception the text does not state but an interpreter identifies, as in Church of the Holy Trinity, and on one reading Riggs v Palmer.
+    misconceptions:
+      - claim: Schauer argues there is no real difference between rules and standards.
+        tempting: He says the choice may not matter much.
+        correction: 'The lecture: that is a different argument. Schauer assumes they differ, as a matter of degree on a spectrum; his point is what interpreters do with them over time.'
+      - claim: Once a rule has an exception, it is no longer really a rule.
+        tempting: 'Llewellyn''s dilemma: rules bind as fetters, or there are none.'
+        correction: 'Hart calls it a false dilemma: a promise not kept for someone dangerously ill leaves the promise rule intact. ''A rule that ends with the word "unless…" is still a rule'' (CL 139).'
+      - claim: In Holy Trinity the Court applied an exception for ministers written into the statute.
+        tempting: Courts usually apply stated exceptions.
+        correction: 'The 1885 statute covered ''labor or service of any kind''. The exception was implicit: the Court identified it despite the clear words (slide 26).'
+    socratic:
+      - ask: A rule maker wants to limit officials' discretion. Rule or standard?
+        hint: The conventional wisdom.
+        answer: Specific rules leave little discretion; vague standards like 'drive carefully' leave more. Schauer challenges this as a reliable tool for managing discretion.
+      - ask: What do interpreters do to a strict rule over time?
+        hint: Exceptions.
+        answer: They avoid it, eg by identifying exceptions. The more exceptions, the less strict and more standard-like the rule becomes.
+      - ask: And to a vague standard?
+        hint: They need to apply it.
+        answer: 'They make it concrete, creating more specific rules in order to apply it. Both movements push norms towards the middle: the convergence hypothesis.'
+      - ask: Does an exception destroy the rule?
+        hint: Hart's promise to visit a friend.
+        answer: No. Keeping the promise may yield to someone dangerously ill, yet the rule survives. Rules can have exceptions incapable of exhaustive statement; an 'unless…' rule is still a rule.
+      - ask: What do Holy Trinity and Riggs v Palmer raise about defeasibility?
+        hint: Clear, valid statutes.
+        answer: Each court identified an implicit exception to a clear, valid statute. Is defeasibility due to language, rules or law, and how does it bear on certainty and indeterminacy?
+    what-if:
+      - change: The restaurant sign reads 'Dogs not allowed — except service dogs'.
+        effect: 'An explicit exception, stated by the rule maker. Without the small print, staff admitting a guide dog identify an implicit exception to an explicit rule: the harder case for defeasibility.'
+      - change: Courts keep finding new implicit exceptions to a strict statute over decades.
+        effect: On Schauer's account the rule becomes less strict and more standard-like, moving towards the middle of the spectrum. The lecture asks whether this threatens certainty, a value of the Rule of Law.
+      - change: A legislature replaces a specific rule with the standard 'act reasonably' to give officials flexibility.
+        effect: Schauer predicts interpreters will make the standard concrete, building specific rules to apply it, so the flexibility gained may shrink over time.
+    boundary:
+      - text: 'Riggs v Palmer: the murderer-beneficiary.'
+        why: 'Can be read as defeasibility: if the requirements of a valid will are met, the beneficiary takes, unless he murdered the testator. Dworkin reads it instead as principles forming part of the law; the lecture says this is not the only reading.'
+      - text: Truepenny CJ on § 12-A.
+        why: 'The opposite stance: the statute ''permits of no exception applicable to this case'', so any relief must come from outside the rule, through executive clemency.'
+    transfer:
+      - scenario: An app store rule bans 'any app that collects location data'. Reviewers approve map apps, then emergency apps, then fitness trackers, each as 'obviously not what the rule meant'.
+        answer: 'Schauer''s avoidance of rules: each implicit exception pushes the specific rule towards a standard. Hart: the rule survives its ''unless…'' clauses. But as exceptions multiply, certainty, a value of the Rule of Law, suffers, and the question of reviewers'' discretion arises.'
+    objections:
+      - position: Choosing between rules and standards is a weaker tool for managing discretion than assumed (Schauer).
+        evidence: Over time interpreters push rules towards standards (avoidance) and standards towards rules (concretization) (pp 305, 319).
+        objection: 'The conventional wisdom: specific rules leave decision makers little discretion and general standards more, since a standard must be reasoned through before it can be applied (lecture).'
+      - position: Rules survive their exceptions (Hart).
+        evidence: The promise example; rules may have exceptions incapable of exhaustive statement; 'unless…' rules are still rules (CL 139).
+        objection: 'Llewellyn, The Bramble Bush: either rules are what they would be in the formalist''s heaven and bind as fetters, or there are no rules, only predictable decisions (quoted CL 139).'
+        reply: 'Hart: a false dilemma. Exceptions do not mean that in every situation we are left to our discretion and never bound.'
+    sources:
+      - Week 07 - Lecture Slides (slides 23–26)
+      - Week 07 - Lecture Transcript (second half)
+  - concept: laws2100-w07-hart-and-dworkin-on-judicial-discretion
+    plain: Hart says some cases are legally unregulated, so judges make law there, but narrowly. Dworkin says law includes principles, so judges never make new law. This is their sharpest conflict.
+    concrete: 'A case reaches court that no statute or precedent settles. On Hart''s view, the judge exercises law-making power, but she cannot introduce large-scale reforms or new codes; she fills the gap interstitially; and she must justify her decision by general reasons, as a conscientious legislator would. On Dworkin''s view, she never steps outside the law: settled law and implicit legal principles supply an answer she must find.'
+    formal: 'Hart (CL 130): systems compromise between rules individuals can apply to themselves ''without fresh official guidance'' and issues left for ''informed, official choice'' in concrete cases. Postscript (CL 272): ''the sharpest direct conflict'' with Dworkin is his contention that there will always be ''legally unregulated cases'', the law being ''partly indeterminate or incomplete''. Dworkin: law includes settled law and implicit principles.'
+    analogy:
+      text: 'A builder hired to fill gaps in an old stone wall: she chooses the stones, but must match the wall around her, may not rebuild the house, and must be able to say why each stone fits.'
+      maps:
+        - from: the builder
+          to: the judge in a hard case
+        - from: filling gaps in an existing wall
+          to: interstitial law-making
+        - from: not rebuilding the house
+          to: no large-scale reforms or new codes
+        - from: saying why each stone fits
+          to: justifying the decision by general reasons
+      limits:
+        - 'Dworkin denies the gaps: once implicit principles are counted, the wall is already complete.'
+    terms:
+      - term: Legally unregulated case
+        gloss: 'A case in which ''no decision either way is dictated by the law'', so the law is ''partly indeterminate or incomplete'' (CL 272): a hard case.'
+      - term: Interstitial powers
+        gloss: Judges' law-making in the gaps of existing law, unlike the legislator's power to make large-scale reforms or new codes (slide 29).
+      - term: Conscientious legislator
+        gloss: 'Hart''s standard for judges in hard cases: they must justify decisions in light of general reasons, so judicial power is not arbitrary power.'
+      - term: Retrospective legislation
+        gloss: 'Law made after the events it governs. Dworkin''s third criticism: judicial law-making is unjust because it is retrospective.'
+    misconceptions:
+      - claim: For Hart, judges in hard cases have the same law-making power as a legislator.
+        tempting: Both make new law.
+        correction: 'Hart: judicial law-making is different: constrained (no large-scale reforms or new codes), interstitial, and not arbitrary, since judges must justify decisions by general reasons (slide 29).'
+      - claim: Hart answers the retrospectivity criticism by pointing to delegated legislation.
+        tempting: Delegation is one of his replies.
+        correction: 'That answers the democracy criticism. On retrospectivity: in hard cases, by definition, there is no state of clear established law to justify expectations (slide 30).'
+      - claim: All three of Dworkin's criticisms are normative.
+        tempting: Two concern democracy and justice.
+        correction: The first, that Hart falsely describes what judges do in hard cases, is descriptive; the second and third are normative. Answer each on its own level.
+    socratic:
+      - ask: What two social needs must every legal system balance?
+        hint: CL 130.
+        answer: Rules individuals can safely apply to themselves without fresh official guidance, and leaving open issues best settled by informed official choice in a concrete case.
+      - ask: Where does Hart locate his sharpest conflict with Dworkin?
+        hint: Postscript, CL 272.
+        answer: In his contention that there will always be legally unregulated cases, where no decision either way is dictated by the law, which is partly indeterminate or incomplete.
+      - ask: How do judges' law-making powers differ from a legislator's?
+        hint: Three ways on slide 29.
+        answer: 'They are constrained (no large-scale reforms or new codes), interstitial, and not arbitrary: judges must justify decisions by general reasons, acting as conscientious legislators.'
+      - ask: Dworkin says this misdescribes judging, is undemocratic and is unjust. How does Hart answer each?
+        hint: Law books; a small price; expectations.
+        answer: Judges 'do not just push away their law books', and Dworkin's theory involves choices too; a necessary, small price, like delegated power; and hard cases have no clear law founding expectations.
+      - ask: Does the one right answer thesis escape the retrospectivity problem?
+        hint: Who can find the answer?
+        answer: 'The lecture: if only Hercules can find it, parties still cannot know their rights and duties until a judge declares them.'
+    elements:
+      - name: A partly unregulated case
+        test: Is the law unclear or silent, so that no decision either way is dictated by it? Otherwise the judge applies settled law and no discretion arises (CL 272).
+        authorities:
+          - hart-the-concept-of-law
+      - name: Constrained
+        test: Does the decision stay within narrow limits, avoiding large-scale reforms or new codes, which belong to the legislator? (slide 29)
+      - name: Interstitial
+        test: Does it fill a gap between existing rules rather than replace them?
+      - name: Not arbitrary
+        test: Is it justified by general reasons, as a conscientious legislator would justify it? (slide 29)
+    what-if:
+      - change: A judge in a hard case announces a sweeping new code for a whole area of law.
+        effect: 'Outside Hart''s account: judicial power is constrained and interstitial, and large-scale reforms and new codes are for the legislator. Dworkin''s democracy criticism would bite hard.'
+      - change: The judges were elected.
+        effect: Dworkin's second criticism (judges are not elected) would lose much of its force. The descriptive criticism and the retrospectivity criticism would remain, so Hart would still need his other replies.
+      - change: The law on the point is clear and well established.
+        effect: 'Not a hard case: for Hart no discretion arises, and the retrospectivity criticism has no footing, since clear established law justifies the parties'' expectations.'
+    boundary:
+      - text: Tatting J withdraws from the Speluncean case.
+        why: 'Not Hart''s picture: a partly unregulated case calls for constrained judicial law-making, not withdrawal. The lecture asks whether withdrawal is justifiable for a judge.'
+      - text: Keen J's separation-of-powers reasoning.
+        why: 'It shares the theme of judiciary versus legislature, as the lecture notes. Hart answers it differently: judges may make law, but only interstitially and under constraints.'
+    transfer:
+      - scenario: 'A sports tribunal faces a doping case its code never contemplated: a new substance, not listed and not clearly banned. It rules against the athlete, giving reasons meant to cover future like cases.'
+        answer: 'Hart: a partly unregulated case; the tribunal exercises interstitial law-making power, constrained and justified by general reasons. Dworkin would say the code''s principles already held the answer. To the athlete''s complaint of retrospectivity, Hart replies that with no clear established rule there were no settled expectations to defeat.'
+    objections:
+      - position: There will always be legally unregulated cases, in which judges exercise limited law-making powers (Hart).
+        evidence: Every system compromises between certainty and informed official choice (CL 130, 272); judicial power is constrained, interstitial and not arbitrary (slide 29).
+        objection: 'Dworkin: a false description of judging. Law includes implicit principles, so the judge never steps outside the law to make new law.'
+        reply: 'Hart: in hard cases ''judges do not just push away their law books''; even Dworkin''s theory of adjudication incorporates choices.'
+      - position: Judicial discretion is acceptable in a democracy (Hart).
+        evidence: Judicial power is limited and must be justified by general reasons (slide 29).
+        objection: 'Dworkin: it is undemocratic, because judges are not elected.'
+        reply: 'Hart: a necessary, small price if judicial power is limited; delegating limited legislative powers to the executive is a familiar feature of modern democracies.'
+      - position: Judicial law-making is unjust because it is retrospective (Dworkin).
+        evidence: On Dworkin's liberal theory, people's legal positions should be settled before they reach court (lecture).
+        objection: 'Hart: in hard cases, by definition, there is no state of clear established law to justify expectations (slide 30).'
+    sources:
+      - Week 07 - Lecture Slides (slides 27–30)
+      - Week 07 - Lecture Transcript (second half)
+flows:
+  - slug: speluncean-section-12a
+    title: Must the court uphold the conviction under § 12-A?
+    summary: 'Walks the five options in Fuller''s Speluncean Explorers from the questions each judge answers differently: does positive law apply, is this a matter for legal reasoning, words or purpose, clemency, and how far purpose goes.'
+    start: n1
+    concepts:
+      - laws2100-w07-speluncean-explorers-five-options
+      - laws2100-w07-rules-standards-and-defeasibility
+    sources:
+      - Week 07 - Lecture Slides (slides 11–22)
+      - Week 07 - Lecture Transcript (first half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Did Newgarth's positive law govern what the men did in the cave?
+        note: 'Foster J''s first argument: positive law is predicated on the possibility of a human society. Cessante ratione legis, cessat et ipsa lex: when the reason for a law ceases, the law itself ceases.'
+        concept: laws2100-w07-speluncean-explorers-five-options
+        authorities:
+          - fuller-the-case-of-the-speluncean-explorers
+        branches:
+          - label: 'Yes: positive law applied'
+            to: n3
+          - label: 'No: they were in a state of nature'
+            to: n2
+      - id: n2
+        kind: end
+        tone: not-met
+        text: 'Foster J (first argument): the statutes and precedents of the Commonwealth do not apply; the defendants are innocent. Tatting J rejects this ''code of nature'' and its ''odious and perverted rules''.'
+      - id: n3
+        kind: ask
+        text: Is the case to be settled by legal argument about § 12-A, or as a question of practical wisdom?
+        branches:
+          - label: Legal argument about § 12-A
+            to: n5
+          - label: Practical wisdom
+            to: n4
+      - id: n4
+        kind: end
+        tone: qualified
+        text: 'Handy J: treat forms and abstract concepts as instruments; decide by common sense, public opinion, clemency and gossip. The lecture calls him the personification of legal realism.'
+      - id: n5
+        kind: ask
+        text: Should § 12-A be read by its plain words, or in the light of its evident purpose?
+        note: 'Keen J: if we do not know the purpose of § 12-A, how can we possibly say there is a ''gap'' in it?'
+        branches:
+          - label: Plain words
+            to: n6
+          - label: Evident purpose
+            to: n9
+      - id: n6
+        kind: step
+        text: '''Whoever shall willfully take the life of another shall be punished by death.'' On its words the statute covers the killing and permits of no exception applicable to this case.'
+        next: n7
+      - id: n7
+        kind: ask
+        text: May the court count on executive clemency to mitigate the rigours of the law?
+        branches:
+          - label: 'Yes'
+            to: n8
+          - label: 'No: irrelevant to the judicial office'
+            to: n12
+      - id: n8
+        kind: end
+        tone: met
+        text: 'Truepenny CJ: apply § 12-A regardless of the results. If clemency follows, justice is done without impairing the letter or spirit of the statutes.'
+      - id: n12
+        kind: end
+        tone: met
+        text: 'Keen J: set aside clemency and whether the act was right or wrong. Legislative supremacy requires the plain meaning: the question is not the rule''s conjectural purpose but its scope.'
+      - id: n9
+        kind: ask
+        text: Does the purpose clearly support an exception for the explorers, as for killing in self-defence?
+        note: '''A man may break the letter of the law without breaking the law itself'' (p 624). Tatting J: there is more than one purpose, and self-defence may have a different explanation.'
+        concept: laws2100-w07-rules-standards-and-defeasibility
+        branches:
+          - label: 'Yes'
+            to: n10
+          - label: Not clearly
+            to: n11
+      - id: n10
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'Foster J (second argument): an implicit exception to an explicit rule, by analogy with self-defence. No question of fidelity to enacted law, only of ''intelligent and unintelligent fidelity''.'
+      - id: n11
+        kind: end
+        tone: qualified
+        text: 'Tatting J: with competing purposes and an exception of uncertain scope, he can accept neither side and withdraws from the decision of the case.'

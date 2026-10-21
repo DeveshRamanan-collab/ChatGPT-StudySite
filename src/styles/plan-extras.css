@@ -1,0 +1,11 @@
+/* Study plan extras: today's pack, replanning note, imported commitments (src/components/StudyPlan.tsx). */
+.plan-pack { border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper-2); padding: var(--s-5); margin-bottom: var(--s-6); max-width: var(--measure); }
+.plan-pack__h, .plan-cal__h { font-size: var(--t-lg); margin: 0 0 var(--s-3); }
+.plan-pack__list { margin: 0 0 var(--s-3); padding-left: 1.2em; display: grid; gap: var(--s-2); }
+.plan-pack__list .mono { color: var(--ink-2); font-size: var(--t-sm); }
+.plan-replanned { max-width: var(--measure); color: var(--ink-2); border-left: 2px solid var(--line); padding-left: var(--s-4); }
+.plan-cal { margin: var(--s-6) 0; max-width: var(--measure); }
+.plan-cal__note, .plan-cal__status { color: var(--ink-2); font-size: var(--t-sm); font-family: var(--font-ui); }
+.plan-cal__row { display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: center; }
+.plan-cal__pick { cursor: pointer; }
+.plan-cal__pick:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }

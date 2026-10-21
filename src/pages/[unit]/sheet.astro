@@ -1,0 +1,58 @@
+---
+// Unit overview poster (feature 23): the whole unit's structure on one page — every week, every concept as its
+// one-line statement, the week's decision flows by name — so the central ideas and their order are visible at once.
+// Each week links to its one-page sheet. Prints to two columns.
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { units, weeksOf, conceptsOf, conceptSlug } from '../../lib/content';
+import { firstSentence } from '../../lib/courts';
+
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const weeks = await weeksOf(u.id);
+const concepts = new Map((await conceptsOf(u.id)).map((c) => [c.id, c]));
+const aids = new Map((await getCollection('aids', (a) => a.data.unit === u.id)).map((a) => [a.data.concept, a.data.plain]));
+const flows = await getCollection('flows', (f) => f.data.unit === u.id);
+const plainOf = (id: string) => aids.get(id) ?? firstSentence((concepts.get(id)?.body ?? '').replace(/[*_#>`]/g, ''));
+---
+
+<Layout title={`${u.data.code} on one page`} wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'On one page' }]} />
+  <p class="label">{u.data.code} · overview</p>
+  <h1>{u.data.name} on one page</h1>
+  <p class="poster-actions"><button type="button" class="btn btn--secondary btn--sm" onclick="window.print()">Print or save as PDF</button></p>
+  <ol class="poster-weeks">
+    {weeks.map((w) => {
+      const wf = flows.filter((f) => f.data.week === w.id);
+      return (
+        <li class="poster-week">
+          <h2 class="poster-week__title"><span class="mono poster-week__n">Week {w.data.number}</span> <a href={`/${u.id}/week/${w.data.number}/sheet`}>{w.data.topic}</a></h2>
+          <ul class="poster-week__concepts">
+            {w.data.concepts.map((id) => concepts.get(id)).filter((c) => c !== undefined).map((c) => (
+              <li><a href={`/${u.id}/concept/${conceptSlug(c!)}`}>{c!.data.title}</a> — <span class="poster-plain">{plainOf(c!.id)}</span></li>
+            ))}
+          </ul>
+          {wf.length > 0 && <p class="poster-flows"><span class="label">Decision flows</span> {wf.map((f, i) => <>{i > 0 && ' · '}<a href={`/${u.id}/flow/${f.id.replace(`${u.id}-`, '')}`}>{f.data.title}</a></>)}</p>}
+        </li>
+      );
+    })}
+  </ol>
+</Layout>
+
+<style>
+  .poster-actions { margin: var(--s-3) 0 var(--s-6); }
+  .poster-weeks { list-style: none; padding: 0; margin: 0; columns: 2 30rem; column-gap: var(--s-7); }
+  .poster-week { break-inside: avoid; margin-bottom: var(--s-6); }
+  .poster-week__title { font-size: var(--t-lg); margin: 0 0 var(--s-2); }
+  .poster-week__n { display: block; font-size: var(--t-xs); color: var(--ink-2); font-weight: 400; }
+  .poster-week__concepts { margin: 0; padding-left: 1.1em; display: grid; gap: var(--s-1); font-size: var(--t-sm); line-height: 1.5; }
+  .poster-plain { color: var(--ink-2); }
+  .poster-flows { font-size: var(--t-sm); margin-top: var(--s-2); }
+  @media print {
+    .poster-actions { display: none !important; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>

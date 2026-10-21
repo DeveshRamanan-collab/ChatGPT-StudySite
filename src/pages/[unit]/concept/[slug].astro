@@ -1,0 +1,75 @@
+---
+import { getEntry, getCollection, render } from 'astro:content';
+import { flowSlug } from '../../../lib/flow';
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CriterionRing from '../../../components/CriterionRing';
+import ReadingAids from '../../../components/ReadingAids';
+import Backlinks from '../../../components/Backlinks.astro';
+import ExplainBack from '../../../components/ExplainBack';
+import ExplainerHost from '../../../components/explainers/ExplainerHost';
+import ConceptAids from '../../../components/aids/ConceptAids.astro';
+import { MANIFEST } from '../../../components/explainers/registry';
+import { units, conceptsOf, conceptSlug } from '../../../lib/content';
+export async function getStaticPaths() {
+  const paths = [];
+  for (const u of await units())
+    for (const c of await conceptsOf(u.id)) paths.push({ params: { unit: u.id, slug: conceptSlug(c) }, props: { u, c } });
+  return paths;
+}
+const { u, c } = Astro.props;
+const { Content } = await render(c);
+const cases = (await Promise.all(c.data.cases.map((id) => getEntry('cases', id)))).filter((x) => x !== undefined);
+const auths = (await Promise.all(c.data.authorities.map((id) => getEntry('authorities', id)))).filter((x) => x !== undefined);
+const related = (await Promise.all(c.data.related.map((id) => getEntry('concepts', id)))).filter((x) => x !== undefined);
+const week = await getEntry('weeks', c.data.week);
+const flows = await getCollection('flows', (f) => !f.data.seed && f.data.unit === u.id && (f.data.concepts.includes(c.id) || f.data.nodes.some((n) => n.concept === c.id)));
+---
+
+<Layout title={c.data.title} progress index="Concept" unit={c.data.unit} toc="main h2, #ways-in h3">
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, ...(week ? [{ href: `/${u.id}/week/${week.data.number}`, label: `Week ${week.data.number}` }] : []), { label: c.data.title }]} />
+  <div class="title-row">
+    <h1 data-split>{c.data.title}</h1>
+    <CriterionRing client:visible conceptId={c.id} title={c.data.title} size={36} />
+  </div>
+  {MANIFEST[c.id] && (
+    <section id="explainer" class="explainer-slot" aria-labelledby="explainer-h">
+      <h2 id="explainer-h" class="visually-hidden">{c.data.title}: explainer</h2>
+      <ExplainerHost client:visible conceptId={c.id} unit={u.id} title={c.data.title} />
+    </section>
+  )}
+  <ReadingAids client:load pageKey={c.id} title={c.data.title} quizHref={`/${u.id}/quiz?concept=${c.id}`} />
+  <ExplainBack client:load conceptId={c.id} unit={u.id} title={c.data.title} examDate={+u.data['exam-start']} />
+  <div hidden data-page-concepts={JSON.stringify([{ id: c.id, title: c.data.title }])} data-unit={u.id}></div>
+  <article class="prose" data-reveal="children"><Content /></article>
+  <ConceptAids concept={c} />
+  <div class="actions">
+    <a class="btn btn--primary" href={`/${u.id}/quiz?concept=${c.id}`}>Quiz me</a>
+    <a class="btn btn--secondary" href={`/${u.id}/cards?concept=${c.id}`}>Cards</a>
+    <button class="btn btn--ghost" type="button" onclick="document.dispatchEvent(new CustomEvent('studysite:explain'))">Explain it back</button>
+    <button class="btn btn--ghost" type="button" data-read-aloud="article.prose" aria-pressed="false">Read aloud</button>
+    <a class="btn btn--ghost" href={`/compare?a=${encodeURIComponent(`/${u.id}/concept/${conceptSlug(c)}/`)}`}>Compare with…</a>
+    <a class="btn btn--ghost" href={`/${u.id}/listen?tab=viva&concept=${c.id}`}>Viva</a>
+  </div>
+  {cases.length > 0 && (<><h2>Cases</h2><p class="chips">{cases.map((k) => <a class="chip chip--case" href={`/cases/${k.id}`} transition:name={`case-${k.id}`}>{k.data.name}</a>)}</p></>)}
+  {auths.length > 0 && (<><h2>Authorities</h2><p class="chips">{auths.map((a) => <a class="chip" href={`/authorities/${a.id}`}>{a.data.title}</a>)}</p></>)}
+  {flows.length > 0 && (<><h2>Decision flows for this concept</h2><ul class="rel">{flows.map((f) => <li><a href={`/${u.id}/flow/${flowSlug(f.id, u.id)}`}>{f.data.title}</a></li>)}</ul></>)}
+  <Backlinks kind="concept" id={c.id} />
+
+  {related.length > 0 && (
+    <nav slot="rail" aria-label="Related concepts">
+      <p class="label">Related</p>
+      <ul class="rel">{related.map((r) => <li><a href={`/${r.data.unit}/concept/${conceptSlug(r)}`}>{r.data.title}</a></li>)}</ul>
+    </nav>
+  )}
+</Layout>
+
+<style>
+  .title-row { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); max-width: var(--measure); }
+  .title-row h1 { margin-bottom: .75rem; min-width: 0; overflow-wrap: break-word; hyphens: auto; }
+  .title-row > :last-child { flex: none; }
+  .actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-5); }
+  .chips { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+  .rel { padding-left: 1.25em; margin: 0; display: grid; gap: var(--s-2); }
+  .rel a { display: inline-block; min-height: 24px; padding-block: 2px; }
+</style>

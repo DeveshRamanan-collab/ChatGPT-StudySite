@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CardReview from '../../components/cards/CardReview';
+import { units, cardsOf } from '../../lib/content';
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const cards = await cardsOf(u.id);
+const front = (c: (typeof cards)[number]) => {
+  const d = c.data;
+  if (d.type === 'basic') return d.front;
+  if (d.type === 'cloze') return d.text.replace(/\{\{c\d+::(.*?)\}\}/g, '[…]');
+  if (d.type === 'apply') return d.scenario;
+  return `Diagram with ${d.masks.length} hidden labels`;
+};
+---
+
+<Layout title={`${u.data.code} cards`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Cards' }]} />
+  <h1 data-split>Cards</h1>
+  <p class="lede">{cards.length} cards for {u.data.name}. Today’s queue: due first, then new.</p>
+  {cards.length ? (
+    <>
+      <CardReview client:load units={[u.id]} />
+      <p class="c-make"><a href="/occlusion">Make a diagram card</a> · select words in any note and press C for a cloze card</p>
+      <details class="c-browse">
+        <summary>Browse all {cards.length} cards</summary>
+        <ol class="c-grid">
+          {cards.map((c) => (
+            <li class="card"><p class="card__label">{c.data.type}</p><p class="c-front">{front(c)}</p></li>
+          ))}
+        </ol>
+      </details>
+    </>
+  ) : <p class="empty">No cards for this unit yet.</p>}
+</Layout>
+
+<style>
+  .lede, .empty { color: var(--ink-2); }
+  .c-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: var(--s-4); max-width: none; }
+  .c-grid .card { box-shadow: none; }
+  .c-make { margin-top: var(--s-6); font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+  .c-browse { margin-top: var(--s-8); }
+  .c-browse summary { cursor: pointer; font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+  .c-browse .c-grid { margin-top: var(--s-4); }
+  .c-front { margin: 0; font-size: var(--t-sm); line-height: 1.5; }
+</style>

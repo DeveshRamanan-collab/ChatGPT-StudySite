@@ -1,0 +1,929 @@
+unit: laws2000
+week: 4
+source: raw/laws2000-pil/week-04
+generator: aids-1
+aids:
+  - concept: laws2000-w04-subjects-and-international-legal-personality
+    plain: A subject of international law is an entity that holds international rights and duties and can bring, and be made to answer, international claims. States hold the full set; other subjects hold only some.
+    concrete: 'A UN mediator was killed, and UN officials injured, in clashes involving Israeli militants. Could the UN itself claim reparation from Israel? To bring an international claim it needed international legal personality — and the UN Charter never says it has any. The General Assembly asked the ICJ. In Reparation for Injuries (1949) the Court said yes: the UN was meant to exercise functions only an international person could perform, though it "certainly is not" a state.'
+    formal: A subject is "an entity possessing international rights and obligations and having the capacity (1) to maintain its rights by bringing international claims; and (2) to be responsible for its breaches of obligation by being subjected to such claims" (Crawford, 2019). Only states have full capacity. Subjects "are not necessarily identical in their nature or in the extent of their rights" (Reparation for Injuries [1949] ICJ Rep 174, 178).
+    analogy:
+      text: 'Driver''s licences: a full licence lets you drive any vehicle; a restricted licence lets you drive too, but only certain vehicles for certain purposes. Both holders are licensed drivers — the extent differs.'
+      maps:
+        - from: a full licence
+          to: a state's full international legal personality
+        - from: a restricted licence
+          to: the partial personality of an international organisation or individual
+        - from: the conditions printed on the licence
+          to: the functions and capacities the subject actually has
+      limits:
+        - A licence is issued by an authority above the driver; no authority stands above states — they hold personality by being states, and an IO's comes from its members and functions.
+    terms:
+      - term: international legal personality
+        gloss: Holding rights and obligations under international law, with capacity to bring international claims and to be held responsible. Asking who is a subject is asking who has personality.
+      - term: full and partial capacity
+        gloss: Only states have every capacity of subjecthood; international organisations and others have only some, limited by their functions.
+        example: The UN can bring claims and make treaties, but it is not a state.
+      - term: capacity to create international law
+        gloss: The power to make the rules a subject is bound by — for example, concluding binding treaties.
+      - term: immunity from jurisdiction
+        gloss: A subject's freedom from other states' courts. Sovereign equals have no authority above them, so Australia cannot try New Zealand in its courts.
+    misconceptions:
+      - claim: Once an entity has international legal personality, it has the same rights and duties as a state.
+        tempting: Personality sounds all-or-nothing, and states are the model subject.
+        correction: Subjects "are not necessarily identical in their nature or in the extent of their rights" (Reparation). The UN is an international person but "certainly" not a state; only states have full capacity.
+      - claim: An entity must meet the statehood criteria, or be a UN member, to be a subject of international law.
+        tempting: Statehood and UN membership are this week's headline tests of status.
+        correction: Crawford's definition turns on rights, obligations and claims, not statehood. International organisations and individuals are subjects without being states or UN members.
+      - claim: Individuals hold ICCPR rights, so they have the same legal personality as states.
+        tempting: Holding rights under a binding treaty is one capacity of subjecthood.
+        correction: Only states have full personality. Individuals hold some rights (and some obligations, under international criminal law), not the whole set of capacities.
+    socratic:
+      - ask: The UN wants to claim reparation from a state for injuries to its agent. What must be true of the UN before it can bring that claim?
+        hint: Crawford's definition, limb (1).
+        answer: It must be a subject of international law — have international legal personality, including the capacity to maintain its rights by bringing international claims.
+      - ask: The UN Charter never says the UN has international personality. Does that end the matter?
+        hint: What did the ICJ look at in Reparation?
+        answer: No. The Court looked at the functions and rights the UN was intended to exercise; they could only be explained if it had a large measure of international personality.
+      - ask: Does that make the UN a state?
+        hint: Read the passage at 178–179.
+        answer: No. It is an international person — "not the same thing as saying that it is a State, which it certainly is not" — and its rights and duties are not the same as a state's.
+      - ask: So how should an exam answer frame "Is X a subject?"
+        hint: The five capacities on slide 9.
+        answer: Ask which capacities X has — claiming rights, diplomatic relations, direct obligations, law-making, immunities — and where each comes from. Only states have all of them.
+    elements:
+      - name: International rights and obligations
+        test: The entity holds rights and bears obligations under international law, not merely under a state's domestic law.
+      - name: Capacity to bring international claims
+        test: It can maintain its rights by bringing international claims — as the UN could for injuries to its agents (Reparation).
+        cases:
+          - reparation-for-injuries-suffered-in-the-service-of-the-united-nations
+      - name: Capacity to be held responsible
+        test: It can be responsible for breaches of its obligations by being subjected to international claims.
+      - name: Extent of capacity
+        test: States have full capacity; other subjects have partial capacity, shaped by their functions and the needs of the international community (Reparation).
+        cases:
+          - reparation-for-injuries-suffered-in-the-service-of-the-united-nations
+    what-if:
+      - change: The UN Charter had expressly said the UN has international legal personality.
+        effect: 'No need to imply it: express conferral, as in WTO Agreement art VIII, settles personality and is now the norm. The UN''s capacities would still follow its functions, not a state''s full set.'
+      - change: The claimant is an individual whose ICCPR rights were breached, not the UN.
+        effect: Individuals hold some international rights, but they pursue them only through mechanisms their state has accepted, such as the ICCPR Optional Protocol; only states can be parties in contentious ICJ cases.
+      - change: Australia wants to put New Zealand on trial in an Australian court.
+        effect: 'It cannot. States enjoy immunity from other states'' jurisdiction: all states are sovereign and equal, and there is no authority above a state.'
+    boundary:
+      - text: The UN's capacity under Charter art 104 to rent offices in New York and employ staff.
+        why: Domestic legal capacity only. It does not regulate relations on the international plane, so by itself it would not make the UN a subject — Reparation was needed for that.
+      - text: A multinational corporation with rights under investment treaties.
+        why: 'Partly in: it can claim some international rights. Partly out: to date it bears no legally binding international obligations, so Crawford''s second limb is missing.'
+    transfer:
+      - scenario: A fisheries commission created by treaty signs a headquarters agreement with its host state, then wants to claim compensation from a member whose navy sank its research vessel. Its treaty says nothing about legal personality.
+        answer: Ask which capacities it has, not whether it is a state. Concluding agreements and bringing claims are capacities of subjecthood (Crawford). As in Reparation, personality can be implied where the members intended the body to exercise functions requiring it. Its personality is partial, limited to those functions.
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 7–10, 17)
+      - 'Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript (04:00–12:00: legal personality, the five capacities, immunities, Reparation for Injuries)'
+      - Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q1(a)–(b))
+    verify: false
+  - concept: laws2000-w04-emerging-actors-beyond-the-state
+    plain: International law once dealt only with states. Since the Second World War, individuals, groups and corporations have gained some rights, and some obligations, but none has a state's full personality.
+    concrete: Eight Torres Strait Islanders complained to the UN Human Rights Committee under the ICCPR's Optional Protocol, after exhausting their options at home. They argued that Australia's failure to implement and mitigate climate commitments violated their rights to enjoy their culture and to be free from arbitrary interference with family and private life. In 2022 the Committee found Australia had violated those rights, and Australia accepted at least part of its recommendations — something individuals could not have done 60 years earlier.
+    formal: 'Individuals were not originally subjects. After WWII they gained rights exercisable against states: the non-binding Universal Declaration of Human Rights 1948, then binding treaty law (ECHR 1950; ICCPR 1966). Individuals bear obligations under international criminal law (Milošević, indicted by the ICTY, 1999). Non-state armed actors are bound by IHL, including common art 3 of the Geneva Conventions. Corporations: investment rights, but "to date, no legally binding obligations".'
+    terms:
+      - term: Optional Protocol to the ICCPR
+        gloss: A treaty letting individuals complain to the Human Rights Committee once domestic options are exhausted — but only against a state that has accepted it.
+      - term: people (and minority)
+        gloss: 'No clear definition of a people: look for shared language, territory or culture. Peoples hold group rights; minority rights are usually claimed individually.'
+        example: A French speaker outside Quebec claiming service in French is asserting a minority right.
+      - term: non-state armed actor
+        gloss: An armed group in a conflict, such as a non-international armed conflict; not a state, but bound by IHL obligations on prisoners and civilians.
+      - term: Guiding Principles on Business and Human Rights (2011)
+        gloss: Non-binding UN principles on corporate human rights responsibility. Multinationals still have no legally binding obligations under international law.
+    misconceptions:
+      - claim: The Universal Declaration of Human Rights 1948 is a binding treaty.
+        tempting: It is the milestone of international human rights and is cited everywhere.
+        correction: The lecture calls it a non-binding instrument. It gave way to binding treaties — the ICCPR, the ICESCR and the ECHR — which bind states that ratify them.
+      - claim: Multinational corporations have binding human rights obligations under the 2011 Guiding Principles.
+        tempting: The Guiding Principles address business and human rights directly.
+        correction: They are not binding. The slide says that "to date" there are no legally binding obligations of multinationals under international law; that gap drives the push in this field.
+      - claim: A non-state armed group has no international obligations, because only states are bound by international law.
+        tempting: States are the primary subjects, and armed groups ratify nothing.
+        correction: Non-state actors in armed conflict are bound by certain IHL obligations (for example on prisoners and civilians); common art 3 of the Geneva Conventions applies to them, though their duties may differ from a state's.
+    socratic:
+      - ask: Before WWII, if a state mistreated a foreign national, whose rights did international law engage?
+        hint: Individuals were the responsibility of…
+        answer: Their state of nationality's. Individuals had no international rights or obligations of their own; international law cared only if the injury was treated as an injury to their state.
+      - ask: What changed after 1945?
+        hint: The three instruments on slide 11.
+        answer: 'Individuals gained rights exercisable against states: the non-binding UDHR 1948, then binding treaties such as the ECHR 1950 and the ICCPR 1966.'
+      - ask: Can an individual now take those rights to an international body?
+        hint: The Torres Strait Islanders.
+        answer: 'Yes, where their state has accepted a mechanism: eight Torres Strait Islanders complained to the Human Rights Committee under the ICCPR Optional Protocol, and the Committee found Australia had violated their rights.'
+      - ask: Do individuals also carry international obligations?
+        hint: May 1999.
+        answer: Yes — under international criminal law. The ICTY indicted Slobodan Milošević for crimes against humanity, the first head of state indicted before an international tribunal.
+      - ask: For any non-state actor in a problem, which two distinctions should you draw?
+        hint: What it has; where it comes from.
+        answer: Separate rights from obligations, and binding from non-binding sources. Corporations, for example, hold investment rights but face only non-binding human rights guidance.
+    what-if:
+      - change: The Torres Strait Islanders' state had never accepted the ICCPR Optional Protocol.
+        effect: 'The ICCPR would still bind the state, but the individuals could not complain to the Human Rights Committee: the state must agree to the complaint mechanism.'
+      - change: The actor is a non-state armed group that captures government soldiers, not a corporation.
+        effect: It bears binding obligations under IHL — on prisoners and civilians, including common art 3 — even though it is not a state. A corporation, by contrast, has no binding international obligations to date.
+    boundary:
+      - text: A French speaker in Ontario refused service in French by a federal official.
+        why: 'A group-linked right, but claimed by the individual before a domestic tribunal: a minority right, not a people''s right such as self-determination.'
+      - text: The 2007 UN Declaration on the Rights of Indigenous Peoples.
+        why: Recognises rights of peoples and has influence, but it is a declaration and not binding; ILO conventions on indigenous peoples bind only states that ratify them.
+    transfer:
+      - scenario: A mining multinational's security contractors abuse villagers near a mine abroad. An NGO asks whether international law reaches the company itself and the individual contractors.
+        answer: Separate rights from obligations, and binding from non-binding. The company has investment rights but, to date, no binding international obligations; the 2011 Guiding Principles are not binding. Individuals, however, can bear obligations under international criminal law if their acts amount to international crimes — as Milošević's ICTY indictment shows.
+    objections:
+      - position: Individuals are now genuine subjects of international law.
+        evidence: They hold rights against states (ICCPR), can complain to international bodies (the Torres Strait Islanders' win before the Human Rights Committee) and bear obligations under international criminal law (Milošević).
+        objection: 'Their access depends on state consent: a state must accept the complaint mechanism, and the Committee''s remedies took effect because Australia accepted its recommendations. Individuals still lack full personality.'
+    storyboard:
+      - caption: States only
+        detail: Classical international law governs relations between sovereign states; individuals are the responsibility of their state of nationality.
+      - caption: '1948: rights declared'
+        detail: The Universal Declaration of Human Rights, a non-binding milestone.
+      - caption: Binding treaties follow
+        detail: The ECHR 1950 and the ICCPR 1966 turn declared rights into binding treaty law.
+      - caption: Individuals complain internationally
+        detail: Optional protocols let individuals take states to bodies such as the Human Rights Committee — the Torres Strait Islanders, 2022.
+      - caption: Individuals answer for crimes
+        detail: 'From Nuremberg to the ICTY: Milošević indicted in 1999 for crimes against humanity.'
+      - caption: 'Corporations: the new frontier'
+        detail: Investment rights, but only the non-binding 2011 Guiding Principles on human rights obligations.
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 11–17, incl. image slide 12)
+      - 'Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript (11:00–29:00: individuals, Torres Strait Islanders, Milošević, peoples and minorities, armed groups, corporations)'
+      - Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q1(c))
+    verify: false
+  - concept: laws2000-w04-montevideo-criteria-for-statehood
+    plain: An entity is a state if it has a permanent population, a defined territory, an effective government and the capacity to deal with other states. Size and form of government do not matter.
+    concrete: 'Scotland has a permanent population, a defined territory and its own government, with a lot of independence in running its affairs. But decisions about its borders, and negotiations with other states, are made at the level of the United Kingdom. So Scotland meets three Montevideo criteria and fails the fourth: it cannot enter into international relations on its own. The lecturer adds Greenland — its own territory, population and government, but part of Denmark.'
+    formal: 'Montevideo Convention on Rights and Duties of States 1933 art 1: the state "should possess the following qualifications: a. a permanent population; b. a defined territory; c. government; and d. capacity to enter into relations with other states" — widely regarded as codifying customary international law. Boundaries need not be fully delimited (North Sea Continental Shelf [1969] [46]). Established statehood carries a presumption of continuity.'
+    analogy:
+      text: A four-legged stool stands only on all four legs. A leg may be short or thin, but it must be there.
+      maps:
+        - from: the four legs
+          to: population, territory, government and capacity for relations
+        - from: a short leg
+          to: no minimum population or territory (Nauru, the Vatican)
+        - from: the stool standing
+          to: the entity being a state
+      limits:
+        - An established state keeps 'standing' when its government leg cracks (presumption of continuity); a real stool would fall.
+        - A stool on four legs always stands, but an entity meeting the criteria through illegal force may be refused recognition (TRNC).
+    terms:
+      - term: permanent population
+        gloss: A core population living in the territory permanently. No minimum number (Nauru has about 12,000 people) and no nationality requirement.
+      - term: defined territory
+        gloss: Some territory of any size (the Vatican is about 0.5 sq km), with reasonably defined boundaries; border disputes do not defeat it.
+      - term: effective government
+        gloss: A coherent, effective exercise of public power over the territory and population — "a stable political community supporting a legal order to the exclusion of others" (Crawford).
+      - term: presumption of continuity
+        gloss: Once statehood is established, ineffective government does not necessarily end it (Somalia, Syria, Yemen); new entities face the stricter test.
+    misconceptions:
+      - claim: A state must have fully delimited, undisputed land borders.
+        tempting: '''Defined territory'' sounds like fixed lines on a map.'
+        correction: There is "no rule that the land frontiers of a State must be fully delimited and defined" (North Sea Continental Shelf [46]); border disputes are common among states.
+      - claim: The population must be large, or consist mainly of the entity's own nationals.
+        tempting: Statehood and nationality are linked in everyday thinking, and tiny populations seem fragile.
+        correction: No fixed or minimum number is prescribed (Nauru about 12,000; China about 1.4 billion), and the criterion does not relate to nationality — only a core population living there permanently.
+      - claim: A state whose government loses control of much of its territory stops being a state.
+        tempting: Effective government is one of the four criteria.
+        correction: 'Once statehood is established it carries a presumption of continuity: Somalia, Syria and Yemen remain states though described as fragile or failed. Effectiveness matters mainly for new entities.'
+    socratic:
+      - ask: An entity has 12,000 residents, many of them long-term foreign workers. Is the population criterion met?
+        hint: Does size matter? Does nationality?
+        answer: Yes. No minimum number is prescribed (Nauru has about 12,000), and the criterion does not relate to nationality; a core population living there permanently is enough.
+      - ask: Part of its land border has never been agreed with its neighbour. Does that defeat 'defined territory'?
+        hint: North Sea Continental Shelf [46].
+        answer: No. There is "no rule that the land frontiers of a State must be fully delimited", and border disputes are a common phenomenon among states.
+      - ask: Which criterion needs the closest look, and what does it ask?
+        hint: The lecturer's "most tricky" one.
+        answer: 'Effective government: a coherent, effective exercise of public power over the territory and population, to the exclusion of others — independent, not answering to an outside authority as a colony would.'
+      - ask: Why is the bar higher for this new entity than for Somalia?
+        hint: What protects established states?
+        answer: 'The presumption of continuity: established states keep their statehood despite ineffective government, while for a new entity effectiveness remains important for establishing statehood and recognition.'
+      - ask: It meets the first three criteria, but another state runs its foreign relations. Result?
+        hint: Scotland.
+        answer: It fails criterion (d). Capacity to enter into relations arises from independence; like Scotland, it is not a state.
+    elements:
+      - name: Permanent population
+        test: Some core population inhabiting the territory permanently; size and nationality are irrelevant.
+        authorities:
+          - montevideo-convention-1933-art-1
+      - name: Defined territory
+        test: A territory of any size with reasonably defined boundaries; they need not be fully fixed or undisputed.
+        cases:
+          - north-sea-continental-shelf-cases
+        authorities:
+          - montevideo-convention-1933-art-1
+      - name: Effective government
+        test: A coherent, effective exercise of public power to the exclusion of others; any form of government. Established states enjoy a presumption of continuity.
+        authorities:
+          - montevideo-convention-1933-art-1
+      - name: Capacity to enter into relations with other states
+        test: The capacity to contract with other states internationally, arising from independence and recognition; Scotland and Greenland lack it.
+        authorities:
+          - montevideo-convention-1933-art-1
+    what-if:
+      - change: The entity is ruled by an unelected military council.
+        effect: No difference. No specific form of government is prescribed — dictatorships and democracies alike can be states, because each state chooses its own system as a matter of sovereignty.
+      - change: An established state loses control of half its territory in a civil war.
+        effect: It remains a state. The presumption of continuity means ineffective government does not necessarily affect established statehood, as with Somalia, Syria and Yemen.
+      - change: The entity met the criteria only after a neighbour invaded and drove out the parent state's forces.
+        effect: 'Meeting the criteria may not be enough: non-recognition may prevent statehood where the means used were illegal (Friendly Relations Declaration; TRNC). Move on to recognition.'
+    boundary:
+      - text: The Vatican, about 0.5 sq km.
+        why: 'Inside: no minimum territory is prescribed, so micro-states such as the Vatican, Monaco, Nauru and Tuvalu are states.'
+      - text: Scotland, or Greenland as part of Denmark.
+        why: 'Outside: each has a population, territory and its own government, but neither can enter into international relations on its own, so criterion (d) fails.'
+    transfer:
+      - scenario: A self-governing island territory of 9,000 people has its own parliament, police and courts. Its constitution leaves defence, borders and treaty-making to the distant state it belongs to. It asks to sign a regional fisheries treaty in its own right.
+        answer: Apply art 1 criterion by criterion. Population and territory are met — no minimum size. Its government appears effective. But capacity to enter into relations arises from independence, and its external affairs are run by another state. Like Scotland or Greenland, it fails criterion (d) and is not a state.
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 19–23)
+      - 'Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript (29:00–38:00: the four criteria, North Sea Continental Shelf, presumption of continuity, Scotland and Greenland)'
+      - Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q2)
+    verify: false
+  - concept: laws2000-w04-recognition-of-states
+    plain: Recognition is one state officially acknowledging that another state or government exists. The prevailing view is that it confirms statehood rather than creates it — but refusing it can block entities created illegally.
+    concrete: In 1974 Turkey invaded Cyprus and occupied the north of the island. In 1983 the Turkish Cypriot authorities declared a "Turkish Republic of Northern Cyprus". The lecturer says the TRNC meets the Montevideo criteria — but it reached them through an unlawful invasion. Security Council resolutions 541 (1983) and 550 (1984) called the declaration legally invalid, and only Turkey recognises the TRNC. Non-recognition is doing the legal work.
+    formal: 'Declaratory theory (most widely held): recognition acknowledges "a pre-existing legal capacity (statehood)"; statehood does not depend on it. Constitutive theory: recognition is a "necessary precondition" — "no recognition, no existence". Non-recognition may prevent statehood if the criteria were achieved illegally (Friendly Relations Declaration 1970; Kosovo Advisory Opinion 2010: "the unlawful use of force or other egregious violations of norms of general international law").'
+    analogy:
+      text: 'A birth certificate records a birth that has already happened: the child exists whether or not the certificate is issued. A citizenship grant is different — you are not a citizen until it is granted.'
+      maps:
+        - from: the birth
+          to: meeting the Montevideo criteria
+        - from: the birth certificate
+          to: recognition on the declaratory theory
+        - from: the citizenship grant
+          to: recognition on the constitutive theory
+      limits:
+        - One registry issues a birth certificate; recognition is given state by state, often for political reasons, and can be withheld from an entity created illegally.
+    terms:
+      - term: declaratory theory
+        gloss: Recognition only acknowledges statehood that already exists once the criteria are met; it is symbolic. The most widely held view today.
+      - term: constitutive theory
+        gloss: 'Recognition by other states creates the state and confers legal personality: no recognition, no existence. Still has some weight.'
+      - term: collective recognition
+        gloss: Recognition by states acting together in an international organisation. UN admission needs a Security Council recommendation (vetoable) and a two-thirds General Assembly vote.
+      - term: non-recognition
+        gloss: Refusing to recognise an entity whose criteria were achieved by unlawful force or egregious violations, especially of jus cogens.
+        example: The TRNC, recognised only by Turkey.
+    misconceptions:
+      - claim: If two states have no diplomatic relations, they do not recognise each other.
+        tempting: Recognition usually comes with embassies and official relations.
+        correction: The slide says a lack of diplomatic relations between two states does not necessarily mean absence of recognition.
+      - claim: Recognition is purely political, so a state can withdraw it whenever it likes.
+        tempting: Recognition is "often an extension of politics", and states recognise for political reasons.
+        correction: The lecture says recognising a state creates obligations — respect its sovereignty, do not interfere in its affairs — and that recognition, once given, cannot be retracted.
+      - claim: In the Kosovo Advisory Opinion the ICJ held that Kosovo is a state and that its secession was lawful.
+        tempting: Kosovo is recognised by more than 100 states and the opinion is the leading authority.
+        correction: The Court said the declaration of independence was not in itself illegal, but refrained from deciding whether Kosovo was a state or whether unilateral secession was lawful.
+    socratic:
+      - ask: An entity meets all four Montevideo criteria, but only three states recognise it. Is it a state on the prevailing view?
+        hint: Which theory is most widely held?
+        answer: 'Yes, on the declaratory theory: recognition only acknowledges existing statehood. On the constitutive theory it would not be — no recognition, no existence.'
+      - ask: Why can't you simply count recognitions?
+        hint: Law and politics.
+        answer: 'Recognition is highly political: states recognise entities that fail the criteria and refuse some that meet them. Kosovo (100+ recognitions) and Palestine (150+) both remain contested.'
+      - ask: The TRNC meets the criteria. Why is it not treated as a state?
+        hint: How were the criteria achieved?
+        answer: Through Turkey's unlawful 1974 invasion. Non-recognition may prevent statehood where the means were illegal; Security Council resolutions 541 and 550 called the declaration legally invalid.
+      - ask: Would UN membership settle Palestine's status?
+        hint: Who must agree to admit a member?
+        answer: It would be strong evidence — two-thirds of the General Assembly — but admission also needs a Security Council recommendation, which a permanent member can veto. Palestine has only non-member observer status.
+      - ask: What exactly did the ICJ decide about Kosovo?
+        hint: It answered a narrow question.
+        answer: That the declaration of independence was not in itself illegal. It refrained from deciding whether Kosovo is a state, or whether unilateral secession was lawful.
+    elements:
+      - name: Montevideo criteria
+        test: Apply art 1 first. On the declaratory view, an entity that meets the four criteria is a state whatever others do.
+        authorities:
+          - montevideo-convention-1933-art-1
+      - name: Achieved lawfully
+        test: Non-recognition may prevent statehood where the criteria were achieved by unlawful force or egregious violations of general international law, especially jus cogens.
+        cases:
+          - declaration-of-independence-in-respect-of-kosovo
+        authorities:
+          - friendly-relations-declaration-1970
+          - unsc-resolutions-541-and-550
+      - name: Recognition by other states
+        test: 'Individual or collective (UN admission: Security Council recommendation, then two-thirds of the General Assembly). Symbolic on the declaratory theory; essential on the constitutive theory.'
+        authorities:
+          - un-charter-art-4
+    what-if:
+      - change: The northern Cypriot entity had separated by a negotiated agreement with Cyprus, with no invasion.
+        effect: The illegality ground for non-recognition (Friendly Relations Declaration; Kosovo Advisory Opinion) would not apply. On the declaratory view it would be a state once it met the criteria, recognised or not.
+      - change: A permanent member vetoes an entity's UN admission, although 180 states recognise it.
+        effect: It is not a UN member, but that does not decide statehood. Collective recognition through the UN can be blocked by a single veto despite wide individual recognition.
+      - change: Two states that recognise each other break off diplomatic relations.
+        effect: 'Recognition is unaffected: lack of diplomatic relations does not necessarily mean absence of recognition, and recognition once given cannot be retracted.'
+    boundary:
+      - text: 'Palestine: recognised by over 150 UN member states, a UN non-member observer, party to several treaties.'
+        why: 'At the edge: wide recognition and treaty accession point towards statehood, but its nominal control amid Israeli occupation keeps its statehood contested.'
+      - text: 'Kosovo: independence declared 2008, 100+ recognitions, member of the IMF and World Bank.'
+        why: 'Contested: wide recognition, yet the EU is split and the ICJ refrained from deciding whether Kosovo is a state.'
+    transfer:
+      - scenario: After a neighbour's tanks roll in, a breakaway region declares independence and soon runs its own police, courts and tax office. Only the invading state recognises it. Should Australia recognise it?
+        answer: 'Apply Montevideo first: it may meet the criteria. But they were achieved through an unlawful use of force, and the Friendly Relations Declaration and the Kosovo Advisory Opinion indicate such an entity should not be recognised. The TRNC is the model: it meets the criteria, only Turkey recognises it, and the Security Council called its declaration legally invalid.'
+    objections:
+      - position: 'Declaratory theory: statehood depends only on meeting the criteria; recognition is symbolic.'
+        evidence: It is the most widely held view today, and art 1 of the Montevideo Convention lists four factual criteria, none of them recognition.
+        objection: 'Practice does not fit neatly: non-recognition can keep an entity that meets the criteria from statehood (TRNC), and the slides say capacity for relations "arises from independence and recognition by other states".'
+      - position: 'Constitutive theory: no recognition, no existence.'
+        evidence: The lecture says it still has some weight, and recognition is tied to the capacity to enter into relations with other states.
+        objection: 'Recognition is "often an extension of politics": states recognise entities that fail the criteria and refuse some that meet them, so statehood would vary with each state''s politics.'
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 25–30)
+      - 'Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript (38:00–50:00: the two theories, collective recognition and the veto, illegality, TRNC, Kosovo, Palestine, Western Sahara)'
+      - Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q3)
+    verify: false
+  - concept: laws2000-w04-modes-of-territorial-acquisition
+    plain: 'A state can gain sovereign title to land in five ways: transfer from another state, new land formed by nature, occupying land no state ever held, uncontested long possession — and, no longer, conquest.'
+    concrete: In 1986 an undersea volcano erupted in Japan's territorial sea and a new island formed. New land created gradually by nature within Japan's own waters became Japan's territory — accretion. Contrast the South China Sea, where states have built structures on reefs and low-tide elevations to strengthen their claims. The lecturer explains that in the 2016 arbitration the tribunal held that construction does not change a feature's legal status, which depends on its natural condition.
+    formal: 'Five modes: cession (the acquirer gets no more rights than the ceding state had); accretion (an island is "a naturally formed area of land, surrounded by water, which is above water at high tide": UNCLOS art 121(1); artificial islands are not islands: art 60(8)); occupation of terra nullius (effective control plus intention); prescription (peaceful control, implied consent; sustained protest prevents it); conquest — prohibited since 1945 (UN Charter art 2(4)).'
+    analogy:
+      text: 'Ways to get a house: buy it; the river leaves new land on your block; build on land no one ever owned; live openly in a house whose owner never objects. Breaking in and changing the locks gives you no title at all.'
+      maps:
+        - from: buying the house
+          to: cession
+        - from: building on land no one ever owned
+          to: occupation of terra nullius
+        - from: living there while the owner never objects
+          to: prescription (implied consent)
+        - from: breaking in
+          to: conquest — now only belligerent occupation, no title
+      limits:
+        - Adverse possession at home usually has a fixed period; prescription has none, and how much control or what form of protest is needed remains unresolved.
+    terms:
+      - term: title
+        gloss: The source of a state's right to territory (and sometimes the proof of it). The five modes are sources of title.
+      - term: terra nullius
+        gloss: Land never under any state's sovereignty, acquired by effective control plus an intention to claim title. Barely applicable now, but central to colonial expansion.
+      - term: low-tide elevation
+        gloss: A naturally formed area of land submerged at high tide. Not an island under UNCLOS art 121(1), so it cannot ground a sovereignty claim.
+      - term: belligerent occupation
+        gloss: 'The regime triggered when one state''s military occupies another''s territory: temporary, with no transfer of sovereignty however effective the control.'
+    misconceptions:
+      - claim: A state that conquers territory acquires title once its control is effective and stable.
+        tempting: Effective control is what matters for terra nullius, and conquest once gave title.
+        correction: Since the UN Charter (art 2(4)) territory cannot be acquired by force. Occupation triggers the belligerent occupation regime — temporary, with no transfer of sovereignty (Kuwait 1990; Crimea 2014).
+      - claim: Long, peaceful administration of another state's land gives title by prescription, whatever the owner says.
+        tempting: Peaceful control acting as sovereign is a requirement of prescription.
+        correction: 'Prescription rests on implied consent, so sustained protests and objections by the ''old'' state prevent it. Land never under any sovereignty is a different mode: terra nullius.'
+      - claim: Building an artificial island, or building up a reef, creates new territory with its own territorial sea.
+        tempting: New land is added, and accretion recognises new land.
+        correction: Accretion must be natural. Artificial islands "do not possess the status of islands" and have no territorial sea (UNCLOS art 60(8)); low-tide elevations are not islands (art 121(1); South China Sea arbitration).
+    socratic:
+      - ask: Faced with any territorial claim, what do you ask first?
+        hint: Sort the five modes into two groups.
+        answer: 'Was the land previously under some state''s sovereignty? If not: terra nullius or accretion. If so: cession, prescription or conquest — then check consent and force.'
+      - ask: Land passed under a treaty of sale. What does the buyer get?
+        hint: Alaska, 1867.
+        answer: Title by cession — but no more rights than the seller had, and subject to the potential rights of third states and the indigenous population.
+      - ask: A state has peacefully administered another state's island for decades, acting as sovereign. What else must you check?
+        hint: Prescription rests on implied consent.
+        answer: Whether the original sovereign protested. Sustained protests and objections prevent prescription; only silence implies consent.
+      - ask: A state builds an airstrip on a reef that is submerged at high tide, then claims it. Is it an island?
+        hint: UNCLOS art 121(1) has two limbs.
+        answer: No. An island must be naturally formed and above water at high tide. A low-tide elevation, or an artificial island (art 60(8)), cannot ground sovereignty.
+      - ask: An army seizes and annexes a neighbour's province. Title?
+        hint: UN Charter art 2(4).
+        answer: No. Since 1945 territory cannot be acquired by force. The occupation triggers the belligerent occupation regime — temporary, with no transfer of sovereignty.
+    elements:
+      - name: Cession
+        test: Transfer by agreement, often a purchase treaty (Alaska 1867). The acquirer gets no more rights than the ceding state had and must respect third states' and indigenous rights.
+      - name: Accretion
+        test: New land formed gradually by nature (Japan's 1986 volcanic island). An island must be naturally formed and above water at high tide; artificial islands and low-tide elevations do not count.
+        cases:
+          - south-china-sea-arbitration-philippines-v-china
+        authorities:
+          - unclos-art-121-1
+          - unclos-art-60
+      - name: Occupation of terra nullius
+        test: Land never under any state's sovereignty, plus effective control and an intention to obtain title.
+      - name: Prescription
+        test: Land under another state's sovereignty; peaceful control, acting as sovereign, with implied consent. Sustained protests and objections by the old state prevent it.
+      - name: Conquest (prohibited)
+        test: 'Since 1945 territory cannot be acquired by force. Military occupation triggers the belligerent occupation regime: temporary, no transfer of sovereignty.'
+        authorities:
+          - un-charter-art-2-4
+    what-if:
+      - change: In the prescription scenario, the original sovereign has protested every year.
+        effect: Prescription fails. It rests on implied consent, and sustained protests and objections by the old state prevent it, however long and peaceful the control.
+      - change: The acquiring state first seized the island by force, then administered it peacefully for decades.
+        effect: No title. Prescription requires peaceful control, with no force or aggression, and acquisition by force has been prohibited since 1945; the seizure triggers the belligerent occupation regime instead.
+      - change: The reef was naturally above water at high tide before any building began.
+        effect: It is then a naturally formed area of land above water at high tide — an island under art 121(1) — so it can be subject to sovereignty. Later building does not change its natural status.
+    boundary:
+      - text: The United States' interest in buying Greenland from Denmark.
+        why: 'A purchase by treaty would be lawful cession — Denmark has rejected it. Taking Greenland by force would not be: conquest confers no title since 1945.'
+      - text: A disused offshore military platform.
+        why: 'Outside accretion: it is above water but not "naturally formed", so it is not an island under art 121(1) and supports no sovereignty or territorial sea (art 60(8)).'
+    transfer:
+      - scenario: A border river slowly deposits silt, building a new strip of land along State A's bank. State B sends surveyors and plants a flag on the strip, calling it new land that belongs to no one.
+        answer: The strip formed gradually by natural processes adjoining A's territory — accretion, as when a river deposits sediment and adds to a state's territory. It accrued to A as it formed, so it was never terra nullius open to B's occupation. B's flag gives no title, and taking it by force would breach art 2(4).
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 34–42)
+      - 'Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript (00:00–15:00: title, cession, Greenland, accretion, artificial islands, South China Sea, terra nullius, prescription, belligerent occupation)'
+    verify: false
+  - concept: laws2000-w04-self-determination-and-secession
+    plain: Peoples have a right to control their own destiny. For colonised peoples that clearly includes independence; elsewhere it usually means a real say within the existing state, and a right to break away is contested.
+    concrete: Quebec held referendums on leaving Canada, and the question whether it could secede unilaterally went to the Supreme Court of Canada. In 1998 the Court held that unilateral secession is consistent with neither international law nor the Canadian Constitution. Distinguishing internal from external self-determination, it found that Quebec's people already enjoyed internal self-determination within Canada — so there was no ground to claim the external kind, secession.
+    formal: 'UN Charter art 1(2) refers to the "principle of equal rights and self-determination of peoples" without framing it as a right; ICCPR art 1: "All peoples have the right of self-determination." The 1960 Declaration on the Granting of Independence calls alien subjugation "a denial of fundamental human rights"; Chagos (2019) affirmed the right in decolonisation. Outside it, unilateral secession is "highly contentious" (Kosovo; Re Secession of Quebec).'
+    terms:
+      - term: internal self-determination
+        gloss: A people freely pursuing its political, economic, social and cultural development within an existing state. Quebec's was held to be fulfilled.
+      - term: external self-determination
+        gloss: A people leaving the existing state — independence or secession. Accepted for colonised peoples; outside decolonisation, highly contentious.
+      - term: decolonisation context
+        gloss: Peoples under colonial rule, where self-determination is generally accepted (1960 Declaration; Chagos).
+      - term: unilateral secession
+        gloss: Breaking away from an existing state without its agreement.
+        example: Kosovo 2008; contested attempts in Iraqi Kurdistan and Catalonia in 2017.
+    misconceptions:
+      - claim: The UN Charter makes self-determination a right of peoples.
+        tempting: Self-determination is a foundational UN principle, named in art 1(2).
+        correction: Art 1(2) refers to the principle of self-determination but did not frame it as a right. It was later enshrined as a human right in ICCPR art 1.
+      - claim: If most people in a region vote to leave, international law gives them a right to secede.
+        tempting: Self-determination sounds like majority choice, and referendums are its usual form.
+        correction: 'Re Secession of Quebec: unilateral secession is not consistent with international law where the people''s internal self-determination is fulfilled. Quebec''s referendums failed; a vote alone confers no right.'
+      - claim: The Kosovo Advisory Opinion confirmed a right to secede for oppressed peoples.
+        tempting: Kosovo's supporters made exactly that argument, and the Court found the declaration lawful.
+        correction: The Court said only that the declaration of independence was not in itself illegal; it refrained from saying unilateral self-determination was lawful.
+    socratic:
+      - ask: 'A Western Australian movement wants to secede: it no longer wants to be governed from Canberra and wants full ownership of WA''s resources. What do you classify first?'
+        hint: Decolonisation or not?
+        answer: Western Australia is not a colony, so the claim falls outside the decolonisation context where self-determination is generally accepted. It is a claim to external self-determination — unilateral secession.
+      - ask: Outside decolonisation, is there an accepted right to secede?
+        hint: The 2008 Kosovo debate.
+        answer: 'No settled right: it is highly contentious. Supporters argue for it in extreme cases of systematic discrimination and oppression; opponents say it violates the parent state''s sovereignty and territorial integrity.'
+      - ask: Is Western Australians' internal self-determination being denied?
+        hint: Can they take part in how they are governed?
+        answer: Nothing suggests it. As in Re Secession of Quebec, where a people's internal self-determination is fulfilled, there is no ground for external self-determination.
+      - ask: Is a dispute over resources the kind of case on which the argument for secession relies?
+        hint: What did Kosovo's supporters point to?
+        answer: No. That argument rests on an ethnic population subjected to systematic discrimination and oppression by a non-democratic government — far from a dispute over resources and governance from Canberra.
+    elements:
+      - name: A people
+        test: 'No clear definition: look for a shared language, territory or culture.'
+      - name: Decolonisation context?
+        test: If the people is under colonial rule, self-determination, including independence, is generally accepted (1960 Declaration; Chagos).
+        cases:
+          - chagos-islands-case
+        authorities:
+          - declaration-on-the-granting-of-independence-1960
+          - un-charter-art-1-2
+      - name: Internal self-determination fulfilled?
+        test: Outside decolonisation, ask whether the people can pursue its development within the state. If so, there is no ground for external self-determination (Re Secession of Quebec).
+        cases:
+          - re-secession-of-quebec
+        authorities:
+          - iccpr-art-1
+      - name: External self-determination (secession)
+        test: A unilateral right to secede is highly contentious; argued only for extreme cases of systematic discrimination and oppression. The ICJ in Kosovo did not endorse it.
+        cases:
+          - declaration-of-independence-in-respect-of-kosovo
+    what-if:
+      - change: The territory is a colony, and the colonial power split off part of it and removed its people before independence.
+        effect: 'Decolonisation context: the right is generally accepted. As in Chagos, detaching part of a colony before independence violated self-determination, and the colonial power must complete decolonisation.'
+      - change: The region's ethnic population has suffered systematic discrimination and oppression by a non-democratic central government.
+        effect: Supporters of a right to secede, as in the Kosovo debate, would say it arises in such extreme cases. It remains highly contentious, and the ICJ in Kosovo refrained from endorsing it.
+    boundary:
+      - text: Kosovo's 2008 declaration of independence from Serbia.
+        why: 'At the edge: argued as secession after systematic oppression and backed by many Western states; the ICJ found the declaration not itself illegal but refrained from calling unilateral secession lawful.'
+      - text: The Chagos Islands (2019).
+        why: 'Squarely inside: decolonisation, where the right is generally accepted; the UK''s detachment of the islands and removal of their population before Mauritius''s independence violated it.'
+    transfer:
+      - scenario: An island province of a federal state elects members to the national parliament and runs its own schools and police. After a tax dispute it holds an unofficial vote and announces it is leaving the federation.
+        answer: This is not a colonial case, so there is no generally accepted right to independence. The islanders enjoy internal self-determination — representation and regional self-government — so, as in Re Secession of Quebec, there is no ground for external self-determination. A tax dispute is far from the systematic oppression argued in the Kosovo debate.
+    objections:
+      - position: Self-determination includes a right to secede in extreme cases.
+        evidence: Kosovo's supporters argued that an ethnic population subjected to systematic discrimination and oppression may legitimately declare independence as an exercise of self-determination.
+        objection: 'Opponents (Serbia, Russia, China) said no such right exists: secession violates the parent state''s sovereignty and territorial integrity and sets a dangerous precedent for other secessionist movements.'
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 31, 43–46)
+      - 'Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript (15:00–21:00: decolonisation, Chagos, internal and external self-determination, Kosovo, Quebec)'
+      - 'Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript (49:00–51:00: self-determination and Quebec)'
+      - 'Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q4: Western Australia scenario)'
+    verify: false
+  - concept: laws2000-w04-international-organisations-definition-and-personality
+    plain: An international organisation is a body that states create under international law — usually by treaty — with a legal identity of its own, separate from its members.
+    concrete: The UN rents office buildings in New York and employs staff there; Charter art 104 gives it the domestic legal capacity to do that. But when it wanted to claim reparation from a state for injuries to its agent, domestic capacity was not enough — it needed international legal personality, which the Charter never mentions. In Reparation for Injuries (1949) the ICJ held that the members, by entrusting functions to the UN, had clothed it with the competence those functions required.
+    formal: 'ARIO art 2(a): an IO is "established by a treaty or other instrument governed by international law and possessing its own international legal personality", and "may include as members, in addition to States, other entities". Personality is conferred expressly (WTO Agreement art VIII) or implicitly (Reparation for Injuries [1949] ICJ Rep 174, 179). Membership, withdrawal and expulsion follow the constitutive instrument (UN Charter arts 4, 6; Rome Statute art 127).'
+    analogy:
+      text: 'A company: its shareholders create it, but it has its own legal identity — it signs contracts and is sued in its own name, and the shareholders are not the company.'
+      maps:
+        - from: the shareholders
+          to: the member states
+        - from: the company's constitution
+          to: the constitutive treaty
+        - from: the company's own legal identity
+          to: the IO's distinct international legal personality
+      limits:
+        - A company is created under a state's domestic law — which is exactly what makes a body an NGO rather than an IO.
+        - A company may do anything lawful; an IO has only the powers its members conferred (speciality).
+    terms:
+      - term: constitutive instrument
+        gloss: The treaty or other instrument creating an IO, such as the UN Charter. It sets membership, withdrawal, expulsion, personality and powers.
+      - term: non-governmental organisation (NGO)
+        gloss: A body such as Greenpeace or Amnesty International, constituted under domestic law rather than international law — so not an IO, despite its international focus.
+      - term: implied personality
+        gloss: International personality found from the functions the members intended an IO to exercise, where its instrument is silent (Reparation for Injuries).
+      - term: domestic legal capacity (UN Charter art 104)
+        gloss: The UN's capacity within members' territory to rent offices, employ staff and contract — distinct from international personality.
+    misconceptions:
+      - claim: Article 104 of the UN Charter confers international legal personality on the UN.
+        tempting: It is the Charter's only clause about the UN's legal capacity.
+        correction: Art 104 gives domestic legal capacity in members' territory only. The Charter is silent on international personality, which the ICJ found implicitly in Reparation for Injuries.
+      - claim: Any body working across many countries, with states involved, is an international organisation.
+        tempting: International reach and state participation look like the marks of an IO.
+        correction: 'The test is the governing law: an IO is established by an instrument governed by international law. NGOs such as Greenpeace are constituted under domestic law, whatever their reach.'
+      - claim: An IO has international legal personality only if its founding treaty expressly confers it.
+        tempting: Express conferral has been the norm for the last 30 years (e.g. WTO art VIII).
+        correction: Personality can also be implied from the functions the members intended the organisation to exercise, as the ICJ held for the UN in Reparation for Injuries (1949).
+    socratic:
+      - ask: Is the body created by a treaty or other instrument governed by international law?
+        hint: Compare the UN with Greenpeace.
+        answer: 'The UN: yes — the UN Charter is a treaty. Greenpeace: no — it is constituted under domestic law, so it is an NGO, not an IO.'
+      - ask: Can an IO be created by something other than a treaty?
+        hint: The ICTY and ICTR.
+        answer: Yes — "or other instrument". Almost all IOs are created by treaty, but the ICTY and ICTR, for example, were created by Security Council resolutions.
+      - ask: The constitutive instrument is silent on international personality. Where do you look?
+        hint: Express and implicit conferral.
+        answer: To the functions the members intended it to exercise. As in Reparation for Injuries, personality can be implied where those functions require it; art 104-type clauses give only domestic capacity.
+      - ask: Who can join, and how does a member leave?
+        hint: The constitutive instrument decides.
+        answer: 'The instrument sets the conditions: UN Charter art 4 ("peace-loving states"); expulsion for persistent violation (art 6). Withdrawal depends on the instrument: Rome Statute art 127 provides it; the UN Charter does not.'
+    elements:
+      - name: Established by a treaty or other instrument
+        test: Usually a treaty (the UN Charter); sometimes another instrument, such as the Security Council resolutions creating the ICTY and ICTR.
+        authorities:
+          - ario-2011-art-2-a
+      - name: Governed by international law
+        test: Its legal framework is international, not domestic law — what distinguishes it from NGOs such as Greenpeace or Amnesty International.
+        authorities:
+          - ario-2011-art-2-a
+      - name: Own international legal personality
+        test: 'Distinct from its members'': it can conclude treaties, send and receive delegations, bring claims and be responsible. Conferred expressly (WTO art VIII) or implicitly (Reparation).'
+        cases:
+          - reparation-for-injuries-suffered-in-the-service-of-the-united-nations
+        authorities:
+          - ario-2011-art-2-a
+          - wto-agreement-art-viii
+      - name: Members
+        test: Mostly states, but may include other entities (the EU is a member of the FAO); conditions set by the instrument, e.g. UN Charter art 4.
+        authorities:
+          - ario-2011-art-2-a
+          - un-charter-art-4
+    what-if:
+      - change: The founding treaty expressly says the organisation "shall have legal personality".
+        effect: Express conferral settles personality, as with WTO Agreement art VIII — the norm for IOs created in the last 30 years. No argument from implied functions is needed.
+      - change: A state wants to leave the UN rather than the ICC.
+        effect: The Rome Statute provides withdrawal by written notice, effective one year after receipt (art 127). The UN Charter has no withdrawal clause, so how a state could leave the UN is unclear.
+      - change: The body was incorporated under Dutch law, though state officials sit on its board.
+        effect: It is not governed by international law, so it is an NGO, not an IO under ARIO art 2(a). International reach and state involvement do not change that.
+    boundary:
+      - text: The G20.
+        why: 'Outside: an informal network of states with no constitutive instrument governed by international law and no personality of its own (slide 51).'
+      - text: The ICTY, created by Security Council resolution.
+        why: 'Inside without a treaty: a Security Council resolution is an "other instrument governed by international law".'
+    transfer:
+      - scenario: Five Pacific states sign a treaty creating an ocean-data agency with a governing council and a secretariat. The treaty says nothing about legal personality. The agency now wants to sign a data-sharing agreement with a non-member state.
+        answer: 'It fits ARIO art 2(a): created by treaty, governed by international law, with members. Personality is not express, but as in Reparation it can be implied if the functions the members intended — sharing data with other states — require capacity on the international plane. That personality is partial, tied to its functions.'
+    sources:
+      - 'Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 49–56, incl. image slide 56: Reparation p 179)'
+      - 'Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript (21:00–38:00: IOs and NGOs, ARIO art 2(a), membership, withdrawal and expulsion, art 104, Reparation)'
+      - Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q1(b))
+    verify: false
+  - concept: laws2000-w04-powers-and-responsibility-of-international-organisations
+    plain: An international organisation can do only what its members gave it power to do, expressly or by necessary implication — and it answers for its own wrongful acts, separately from its members.
+    concrete: 'UN peacekeeping forces are subsidiary organs of the UN, acting under the control of the Security Council and General Assembly. But they are made up of troops contributed by member states, which keep jurisdiction and residual control over them. So when peacekeepers act wrongfully, who is responsible? ARIO art 7 asks who had effective control over the specific conduct: the UN, or a contributing state that kept control of its soldiers.'
+    formal: 'Speciality: IOs "do not, unlike States, possess a general competence" (Nuclear Weapons [1996] [25]). Implied powers: "conferred upon it by necessary implication as being essential to the performance of its duties" (Reparation, 182). ARIO art 3: every internationally wrongful act of an IO entails its responsibility; art 6: organs'' and agents'' conduct; art 7: a seconded organ''s conduct is the IO''s if it "exercises effective control over that conduct".'
+    analogy:
+      text: An agent acting under a power of attorney may do only what the document authorises, plus what is necessarily incidental to that task.
+      maps:
+        - from: the principal granting the power
+          to: the member states
+        - from: the power of attorney
+          to: the constitutive instrument (express powers)
+        - from: acts necessarily incidental to the task
+          to: implied powers
+      limits:
+        - An agent acts for the principal, who answers for the agent's acts; an IO has its own personality and is responsible for its own wrongful acts (International Tin Council).
+    terms:
+      - term: principle of speciality (attribution, conferred powers)
+        gloss: 'IOs have no general competence: only the powers their members give them, limited by the common interests entrusted to them (Nuclear Weapons [25]).'
+      - term: implied powers
+        gloss: Powers not expressly provided but conferred by necessary implication as essential to the IO's duties (Reparation, 182) — for the UN, bringing a claim.
+      - term: effective control (ARIO art 7)
+        gloss: 'The test for attributing a seconded organ''s conduct to an IO: factual, assessed for the specific conduct, in the full circumstances (ILC commentary).'
+      - term: ARIO
+        gloss: 'The ILC''s 2011 draft articles on the responsibility of IOs: not binding, modelled on state responsibility, criticised for treating very different IOs alike.'
+    misconceptions:
+      - claim: International organisations, like states, have a general competence over any matter not excluded.
+        tempting: IOs have international personality, and personality is the state's model.
+        correction: IOs "do not, unlike States, possess a general competence" (Nuclear Weapons [25]). They have only the powers their members conferred — the principle of speciality.
+      - claim: An IO can only exercise powers expressly written into its constitutive instrument.
+        tempting: Speciality limits IOs to conferred powers.
+        correction: 'Conferred powers include implied ones: the UN "must be deemed to have those powers which, though not expressly provided in the Charter, are conferred upon it by necessary implication" (Reparation, 182).'
+      - claim: Peacekeepers are UN organs, so their conduct is always attributed to the UN alone.
+        tempting: Peacekeeping forces are subsidiary organs acting under Security Council control.
+        correction: Contributing states keep jurisdiction and residual control. Under ARIO art 7 the conduct is the UN's only if it had effective control; a state that kept control over the specific conduct can be responsible.
+    socratic:
+      - ask: A regional fisheries body's treaty lets it set catch quotas but says nothing about inspecting vessels. Can it inspect?
+        hint: Does the body have a general competence?
+        answer: Not as a general competence — IOs have only conferred powers. But the power may be implied if inspection is essential to performing its quota duties (Reparation, 182).
+      - ask: Why could the WHO not have the ICJ address the legality of nuclear weapons?
+        hint: Nuclear Weapons [25].
+        answer: That question could not be deemed a necessary implication of the WHO's constitution; attributing the competence to it would disregard the principle of speciality.
+      - ask: The body's own inspectors wrongfully damage a vessel. Who is responsible — the body or its members?
+        hint: Distinct personality; the International Tin Council.
+        answer: The body. Every internationally wrongful act of an IO entails its own responsibility (ARIO art 3), and its organs' and agents' conduct in performing their functions is its act (art 6).
+      - ask: Now the inspectors are a member state's coast guard placed at the body's disposal, and that state's ministry gave the specific order. Who answers?
+        hint: ARIO art 7.
+        answer: Art 7 attributes the conduct to the IO only if it exercised effective control over that conduct. Here the state kept control, so the conduct is likely the state's.
+      - ask: How much weight do the ARIO carry?
+        hint: Their status, and the critique.
+        answer: They are draft articles, not binding, and criticised for modelling one state-responsibility framework for very different IOs. Cite them as the ILC's framework and note those limits.
+    elements:
+      - name: Power conferred — express
+        test: 'Check the constitutive instrument first: express powers, such as the Security Council''s power to authorise force (UN Charter art 42). IOs have no general competence.'
+        cases:
+          - legality-of-the-threat-or-use-of-nuclear-weapons
+        authorities:
+          - un-charter-art-42
+      - name: Power conferred — implied
+        test: Powers "conferred upon it by necessary implication as being essential to the performance of its duties" (Reparation, 182); not whatever members later wish.
+        cases:
+          - reparation-for-injuries-suffered-in-the-service-of-the-united-nations
+          - legality-of-the-threat-or-use-of-nuclear-weapons
+      - name: Internationally wrongful act of the IO
+        test: Conduct (action or omission) attributable to the IO that breaches its international obligation; every such act entails its own responsibility (ARIO arts 3–4).
+        authorities:
+          - ario-2011-arts-3-4
+      - name: Attribution — organs and agents
+        test: Conduct of an IO organ or agent in performing its functions is the IO's act, "whatever position" it holds (art 6).
+        authorities:
+          - ario-2011-art-6
+      - name: Attribution — seconded state organs
+        test: A state organ placed at the IO's disposal acts for the IO only if the IO exercises effective control over that conduct (art 7); otherwise the state may be responsible.
+        authorities:
+          - ario-2011-art-7
+    what-if:
+      - change: The Security Council creates an international criminal tribunal, though the Charter never mentions one.
+        effect: An implied-powers question. When the Council created the ICTY and ICTR, some states said it lacked the power even by implication; it is now widely recognised that it can.
+      - change: The contributing state handed full operational command to the UN, which gave the specific order.
+        effect: The UN exercised effective control over that conduct, so under art 7 it is the UN's act and the UN is responsible, not the contributing state.
+      - change: Claimants argue that the member states, not the IO, must answer for its wrongful act.
+        effect: 'Distinct personality cuts against them: the IO itself is responsible for its wrongful acts, as with the International Tin Council — not its members.'
+    boundary:
+      - text: UN peacekeepers.
+        why: 'At the edge: subsidiary UN organs under Security Council control (art 6), yet troops stay under contributing states'' jurisdiction and residual control, so art 7''s effective-control test decides the specific conduct.'
+      - text: The Security Council's creation of the ICTY and ICTR.
+        why: Not express in the Charter; whether it was implied was disputed at the time, though now widely recognised — showing implied powers can be contested.
+    transfer:
+      - scenario: A regional health organisation created to coordinate disease surveillance announces trade sanctions against a member that hid outbreak data. Its treaty gives it no power to sanction.
+        answer: 'IOs have no general competence (Nuclear Weapons [25]): only express powers and those necessarily implied as essential to their duties (Reparation, 182). Coordinating surveillance does not obviously require trade sanctions. As with the WHO and nuclear weapons, attributing that power would likely disregard the principle of speciality.'
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 57–60)
+      - 'Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript (38:00–49:00: speciality, Nuclear Weapons, express and implied powers, ICTY/ICTR, responsibility, ARIO arts 3, 4, 6, 7, peacekeeping)'
+    verify: false
+flows:
+  - slug: is-the-entity-a-state
+    title: Is this entity a state?
+    summary: Runs an entity through the four Montevideo criteria, the presumption of continuity, the illegality bar and the two theories of recognition.
+    start: s1
+    concepts:
+      - laws2000-w04-montevideo-criteria-for-statehood
+      - laws2000-w04-recognition-of-states
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 19–30)
+      - Week 04 - Lecture Recording (Live) - Subjects of International Law and Statehood - Full Transcript (29:00–48:00)
+      - Week 04 - Tutorial Task - Subjects of International Law and Statehood (Q2–Q3)
+    nodes:
+      - id: s1
+        kind: ask
+        text: Does a permanent population live in the territory?
+        note: 'No minimum number (Nauru about 12,000) and no nationality requirement: a core population living there permanently is enough.'
+        authorities:
+          - montevideo-convention-1933-art-1
+        branches:
+          - label: 'Yes'
+            to: s2
+          - label: 'No'
+            to: e1
+      - id: s2
+        kind: ask
+        text: Is there a defined territory?
+        note: 'Any size (the Vatican is about 0.5 sq km). Borders need not be fully delimited: "no rule that the land frontiers of a State must be fully delimited" (North Sea Continental Shelf [46]).'
+        cases:
+          - north-sea-continental-shelf-cases
+        branches:
+          - label: 'Yes'
+            to: s3
+          - label: 'No'
+            to: e1
+      - id: s3
+        kind: ask
+        text: Is there an effective government?
+        note: A coherent, effective exercise of public power over territory and population, to the exclusion of others; any form of government. The "most tricky" criterion.
+        branches:
+          - label: 'Yes'
+            to: s4
+          - label: No — but it is an established state
+            to: e2
+          - label: No — it is a new entity
+            to: e1
+      - id: s4
+        kind: ask
+        text: Can it enter into relations with other states on its own?
+        note: Capacity arises from independence. Scotland and Greenland have population, territory and government, but not this.
+        branches:
+          - label: 'Yes'
+            to: s5
+          - label: 'No'
+            to: e1
+      - id: s5
+        kind: ask
+        text: Were the criteria achieved lawfully?
+        note: Non-recognition may prevent statehood where the criteria were achieved by "the unlawful use of force or other egregious violations" of general international law, especially jus cogens (Kosovo Advisory Opinion; Friendly Relations Declaration).
+        cases:
+          - declaration-of-independence-in-respect-of-kosovo
+        authorities:
+          - friendly-relations-declaration-1970
+        branches:
+          - label: 'Yes'
+            to: s6
+          - label: No — by unlawful force or egregious violations
+            to: e3
+      - id: s6
+        kind: step
+        text: 'Consider recognition: state both theories, noting that the declaratory theory is the most widely held today.'
+        concept: laws2000-w04-recognition-of-states
+        next: s7
+      - id: s7
+        kind: ask
+        text: Which theory of recognition are you applying?
+        branches:
+          - label: Declaratory (prevailing)
+            to: e4
+          - label: Constitutive
+            to: s8
+      - id: s8
+        kind: ask
+        text: Have other states recognised it, individually or collectively?
+        note: 'Collective recognition: UN admission needs a Security Council recommendation (vetoable) and two-thirds of the General Assembly. No diplomatic relations does not mean no recognition.'
+        authorities:
+          - un-charter-art-4
+        branches:
+          - label: 'Yes'
+            to: e5
+          - label: 'No'
+            to: e6
+      - id: e1
+        kind: end
+        tone: not-met
+        text: 'Not a state: a Montevideo criterion is missing.'
+        authorities:
+          - montevideo-convention-1933-art-1
+      - id: e2
+        kind: end
+        tone: met
+        exception: true
+        text: 'Still a state: the presumption of continuity means ineffective government does not end established statehood (Somalia, Syria, Yemen).'
+      - id: e3
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'Not recognised as a state: illegality blocks statehood through non-recognition (TRNC — Security Council resolutions 541 and 550).'
+        authorities:
+          - unsc-resolutions-541-and-550
+      - id: e4
+        kind: end
+        tone: met
+        text: 'A state. Recognition only acknowledges it: symbolic, though it signals that the criteria and legitimacy are met.'
+      - id: e5
+        kind: end
+        tone: met
+        text: 'A state on the constitutive theory too: recognition has constituted it.'
+      - id: e6
+        kind: end
+        tone: qualified
+        text: Not a state on the constitutive theory ("no recognition, no existence") — though on the prevailing declaratory view it is.
+  - slug: has-title-to-territory-been-acquired
+    title: Has a state acquired title to this territory?
+    summary: Sorts a territorial claim into the five modes of acquisition — accretion, terra nullius, cession, prescription and the prohibited conquest — and tests each.
+    start: t1
+    concepts:
+      - laws2000-w04-modes-of-territorial-acquisition
+    sources:
+      - Week 04 - Lecture Slides - Subjects of International Law and Statehood (slides 34–42)
+      - Week 04 - Lecture Recording (Online) - Subjects of International Law and Statehood - Full Transcript (00:00–15:00)
+    nodes:
+      - id: t1
+        kind: ask
+        text: Is the land newly formed?
+        branches:
+          - label: Yes — new land
+            to: t2
+          - label: No — it already existed
+            to: t3
+      - id: t2
+        kind: ask
+        text: Was it naturally formed, and is it above water at high tide?
+        note: UNCLOS art 121(1). Artificial islands are not islands and have no territorial sea (art 60(8)); building on a feature does not change its status (South China Sea arbitration).
+        cases:
+          - south-china-sea-arbitration-philippines-v-china
+        authorities:
+          - unclos-art-121-1
+          - unclos-art-60
+        branches:
+          - label: 'Yes'
+            to: e-accretion
+          - label: No — artificial, or submerged at high tide
+            to: e-no-island
+      - id: t3
+        kind: ask
+        text: Was the land ever under any state's sovereignty?
+        branches:
+          - label: No — terra nullius
+            to: t4
+          - label: Yes — another state's territory
+            to: t5
+      - id: t4
+        kind: ask
+        text: Did the claimant exercise effective control with an intention to obtain title?
+        note: Barely applicable today, since almost all land has been claimed, but central to colonial expansion.
+        branches:
+          - label: 'Yes'
+            to: e-terra
+          - label: 'No'
+            to: e-none
+      - id: t5
+        kind: ask
+        text: How did the claimant come to control it?
+        branches:
+          - label: By agreement with the sovereign
+            to: e-cession
+          - label: By force
+            to: e-conquest
+          - label: By peaceful control over time
+            to: t6
+      - id: t6
+        kind: ask
+        text: Did the claimant control it peacefully, acting as sovereign?
+        note: No force or aggression; it must take over the territory and act as if it were its own.
+        branches:
+          - label: 'Yes'
+            to: t7
+          - label: 'No'
+            to: e-none
+      - id: t7
+        kind: ask
+        text: Did the original sovereign protest and object?
+        note: Prescription rests on implied consent. How much control, and what form protest must take, remain unresolved.
+        branches:
+          - label: Sustained protests
+            to: e-none
+          - label: No protest
+            to: e-prescription
+      - id: e-accretion
+        kind: end
+        tone: met
+        text: Title by accretion where the new land forms within the state's territory or territorial sea (Japan's 1986 volcanic island).
+      - id: e-no-island
+        kind: end
+        tone: not-met
+        text: 'No title: an artificial island or low-tide elevation cannot ground a sovereignty claim.'
+        authorities:
+          - unclos-art-121-1
+          - unclos-art-60
+      - id: e-terra
+        kind: end
+        tone: met
+        text: Title by occupation of terra nullius.
+      - id: e-cession
+        kind: end
+        tone: qualified
+        text: Title by cession — but no more rights than the ceding state had, subject to third states' and indigenous rights (Alaska 1867).
+      - id: e-conquest
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'No title: conquest is prohibited since 1945 (art 2(4)). Belligerent occupation applies — temporary, no transfer of sovereignty.'
+        authorities:
+          - un-charter-art-2-4
+      - id: e-prescription
+        kind: end
+        tone: qualified
+        text: Title by prescription, on the old sovereign's implied consent — a controversial mode with unresolved questions.
+      - id: e-none
+        kind: end
+        tone: not-met
+        text: No title passes on these facts.

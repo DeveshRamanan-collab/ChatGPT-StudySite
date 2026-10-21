@@ -1,0 +1,41 @@
+# The slow suites, run only on demand: Actions → "suites (manual)" → Run workflow → pick e2e, lighthouse or both.
+# Never triggered by pushes or pull requests (GitHub's free Actions minutes; see ci.yml for the per-push checks).
+name: suites (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: Which suite to run
+        type: choice
+        options: [both, e2e, lighthouse]
+        default: both
+concurrency:
+  group: suites-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  e2e:
+    if: inputs.suite != 'lighthouse'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with: { name: playwright-results, path: test-results/, retention-days: 7 }
+  lighthouse:
+    if: inputs.suite != 'e2e'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - run: npm run lh

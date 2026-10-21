@@ -1,0 +1,209 @@
+/* Knowledge map extras: src/components/hub/KnowledgeMap.tsx, MapPanel.tsx, MapRebuild.tsx (features 51–57, 59, 60,
+   94, 117). The base map styles (.kmap*) live in components.css and are only extended here, under .mapx.
+   Ink on paper. One accent: the panel's "Open concept" or the rebuild's "Check my links". Sage / clay only for the
+   rebuild's feedback, always beside a glyph, a word and a distinct line style. Motion: dimming is opacity only
+   (instant with motion off); the panel enters from scale .96 + fade in Full, fades in Calm, appears in Off. */
+
+/* ---------- Toolbar: layers and weeks ---------- */
+.mapx__tools { display: grid; gap: var(--s-2); margin-bottom: var(--s-4); }
+.mapx__group { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.mapx__group-label {
+  min-width: 4.5rem; font-family: var(--font-ui); font-size: var(--t-xs); letter-spacing: var(--track-caps);
+  text-transform: uppercase; color: var(--ink-2);
+}
+.mapx__chip svg { flex: none; }
+.mapx__week { min-width: 32px; justify-content: center; }
+.mapx__actions { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+@media (pointer: coarse) {
+  .mapx__chip, .mapx__action, .mapx-panel__btn, .mapx-trace__btn { min-height: 44px; }
+  .mapx__week { min-width: 44px; }
+  .mapx-panel__link, .mapx-top__name { min-height: 44px; }
+}
+
+/* ---------- Map: relationship status (59), dimming (53), routes (52, 56) ---------- */
+/* Related links are dotted as well as faint, so no kind is told apart by colour alone. */
+.mapx .kmap__edge--related { stroke-dasharray: 1 3; stroke-linecap: round; }
+.mapx .kmap__node, .mapx .kmap__edge { transition: opacity var(--dur-ui) var(--ease-out); }
+.mapx .kmap__node[data-hl='dim'] { opacity: .22; }
+.mapx .kmap__edge[data-hl='dim'] { opacity: .12; }
+.mapx .kmap__edge[data-hl='lit'] { stroke: var(--ink); stroke-width: 1.5; stroke-opacity: 1; }
+.mapx .kmap__node[data-hl='focus'] circle { stroke: var(--ink); stroke-width: 3; }
+.mapx .kmap__node:focus-visible circle { stroke: var(--accent); stroke-width: 3; }
+/* Names: all on with the Names layer; otherwise the focused dot, plus every dot on a traced or prerequisite route
+   (neighbourhoods can be dense, so their names stay on hover and in the panel). */
+.mapx--labels .kmap__label,
+.mapx .kmap__node[data-hl='focus'] .kmap__label,
+.mapx--named .kmap__node[data-hl='lit'] .kmap__label { opacity: 1; }
+@media (hover: hover) and (pointer: fine) { .mapx .kmap__node[data-hl='dim']:hover { opacity: .6; } }
+.mapx .mapx__path { stroke: var(--ink); stroke-width: 2.5; stroke-opacity: 1; pointer-events: none; }
+.mapx .mapx__path.kmap__edge--contrasts { stroke-dasharray: 7 5; }
+.mapx .mapx__path.kmap__edge--related { stroke-dasharray: 1 6; }
+.mapx__num {
+  font-family: var(--font-mono); font-size: 11px; font-weight: 600; fill: var(--ink); pointer-events: none;
+  paint-order: stroke; stroke: var(--paper); stroke-width: 4px; stroke-linejoin: round;
+}
+
+/* The traced route in words, directly under the map (the panel steps aside while a route is shown). */
+.mapx__route { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-4); margin-top: var(--s-3); animation: mapx-fade var(--dur-ui) var(--ease-out) both; }
+.mapx__route-words b { font-weight: 600; }
+.mapx__rel { color: var(--ink-2); }
+.mapx__route-words { flex: 1 1 30rem; margin: 0; max-width: var(--measure-wide); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink); }
+
+/* ---------- Stage + panel: the panel sits inside the map area and never moves the map ---------- */
+.mapx__stage { position: relative; container-type: inline-size; }
+.mapx__dock { margin-top: var(--s-4); }
+@container (min-width: 720px) {
+  /* Wide maps: the panel overlays the map on the side away from the focused dot and sticks below the header while
+     the map scrolls past. The dock lets clicks through to the map. */
+  .mapx__dock { position: absolute; inset: 0; z-index: 1; margin: 0; padding: var(--s-3); display: flex; align-items: flex-start; pointer-events: none; }
+  .mapx__dock[data-side='right'] { justify-content: flex-end; }
+  .mapx__dock[data-side='left'] { justify-content: flex-start; }
+  .mapx__dock .mapx-panel {
+    position: sticky; top: calc(var(--nav-h) + var(--s-3)); width: 340px; pointer-events: auto;
+    max-height: min(100%, calc(100svh - var(--nav-h) - var(--s-6)));
+  }
+}
+.mapx-panel {
+  box-sizing: border-box; overflow-y: auto; overscroll-behavior: contain;
+  padding: var(--s-3) var(--s-5) var(--s-5); border: 1px solid var(--line); border-radius: var(--r-lg);
+  background: var(--paper-2); box-shadow: var(--shadow); color: var(--ink);
+  font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui);
+  animation: mapx-fade var(--dur-ui) var(--ease-out) both;
+}
+html[data-motion='full'] .mapx-panel { animation-name: mapx-in; transform-origin: top right; }
+html[data-motion='full'] .mapx__dock[data-side='left'] .mapx-panel { transform-origin: top left; }
+.mapx-panel__head { display: flex; align-items: center; justify-content: space-between; gap: var(--s-2); margin-right: calc(-1 * var(--s-3)); }
+.mapx-panel__meta { margin: 0; font-size: var(--t-xs); color: var(--ink-2); }
+.mapx-panel__title { margin: 0 0 var(--s-2); font-family: var(--font-display); font-size: var(--t-lg); font-weight: 600; line-height: var(--lh-heading); letter-spacing: var(--track-display); }
+.mapx-panel__plain { margin: 0 0 var(--s-3); font-family: var(--font-body); font-size: var(--t-body); line-height: var(--lh-body); max-width: var(--measure); }
+.mapx-panel__go { display: flex; flex-wrap: wrap; gap: var(--s-2); margin: var(--s-3) 0 var(--s-2); }
+.mapx-panel__sec { margin-top: var(--s-4); }
+.mapx-panel__label {
+  margin: 0 0 var(--s-1); font-family: var(--font-ui); font-size: var(--t-xs); letter-spacing: var(--track-caps);
+  text-transform: uppercase; color: var(--ink-2);
+}
+.mapx-panel__list { list-style: none; margin: 0; padding: 0; display: grid; }
+.mapx-panel__list li { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-3); }
+.mapx-panel__week { flex: none; font-size: var(--t-xs); color: var(--ink-2); }
+.mapx-panel__note { margin: 0; color: var(--ink-2); }
+.mapx-panel__steps { margin: var(--s-3) 0 0; padding-left: 1.6em; display: grid; gap: var(--s-1); }
+.mapx-panel__steps li::marker { font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); }
+.mapx-panel__steps a { display: inline-block; padding-block: 4px; color: var(--ink); }
+.mapx-panel__here { color: var(--ink-2); }
+.mapx-panel__trace { margin: var(--s-4) 0 0; margin-left: calc(-1 * var(--s-4)); }
+
+/* Link-like buttons: focus a neighbour (panel) or a most-connected concept. */
+.mapx-panel__link, .mapx-top__name {
+  appearance: none; display: inline-flex; align-items: center; min-height: 32px; padding: 4px 0; border: 0; border-radius: var(--r-sm);
+  background: none; color: var(--ink); font: inherit; text-align: left; cursor: pointer;
+  text-decoration: underline; text-decoration-color: var(--ink-3); text-decoration-thickness: 1px; text-underline-offset: .18em;
+  transition: text-decoration-color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) { .mapx-panel__link:hover, .mapx-top__name:hover { text-decoration-color: var(--ink); } }
+.mapx-panel__link:active, .mapx-top__name:active { transform: scale(.97); }
+.mapx-panel__link:focus-visible, .mapx-top__name:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.mapx-panel__link:disabled, .mapx-top__name:disabled { color: var(--ink-3); cursor: default; transform: none; }
+
+/* ---------- Below the map: finder / trace, most connected, actions ---------- */
+.mapx__more { display: grid; gap: var(--s-2); margin-top: var(--s-5); max-width: var(--measure); }
+.mapx-details > summary, .mapx-panel__more > summary {
+  padding-block: 10px; cursor: pointer; border-radius: var(--r-sm); width: fit-content;
+  font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink);
+  transition: transform var(--dur-press) var(--ease-out);
+}
+.mapx-details > summary:active, .mapx-panel__more > summary:active { transform: scale(.97); }
+.mapx-details > summary:focus-visible, .mapx-panel__more > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (hover: hover) and (pointer: fine) {
+  .mapx-details > summary:hover, .mapx-panel__more > summary:hover { text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: 1px; }
+}
+.mapx-panel__more { margin-top: var(--s-3); }
+.mapx-panel__more > summary { font-size: var(--t-xs); letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--ink-2); }
+.mapx-trace { display: grid; gap: var(--s-3); margin-top: var(--s-2); }
+.mapx-trace__row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--s-2); }
+.mapx-field { display: grid; gap: 2px; flex: 1 1 16rem; min-width: 0; font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+.mapx-field select, .mapx-rb__select {
+  box-sizing: border-box; width: 100%; max-width: 100%; min-height: 44px; padding: 0 var(--s-3);
+  border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); color: var(--ink);
+  font-family: var(--font-ui); font-size: var(--t-sm); cursor: pointer;
+  transition: border-color var(--dur-micro) var(--ease-hover);
+}
+@media (hover: hover) and (pointer: fine) { .mapx-field select:hover, .mapx-rb__select:hover { border-color: var(--ink-3); } }
+.mapx-field select:focus-visible, .mapx-rb__select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.mapx-field select:disabled, .mapx-rb__select:disabled { color: var(--ink-3); cursor: default; }
+.mapx-trace__out { margin: var(--s-3) 0 var(--s-2); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink); }
+.mapx-top { margin: var(--s-2) 0 var(--s-2); padding-left: 1.6em; display: grid; gap: var(--s-2); font-family: var(--font-ui); font-size: var(--t-sm); }
+.mapx-top li::marker { font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); }
+.mapx-top__why { display: block; font-size: var(--t-xs); color: var(--ink-2); }
+
+/* ---------- Rebuild a week from memory (60, 94) ---------- */
+.mapx-rb { display: grid; gap: var(--s-4); }
+.mapx-rb__top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-3); }
+.mapx-rb__title { margin: 0; font-size: var(--t-xl); line-height: var(--lh-heading); }
+.mapx-rb__intro { margin: 0; max-width: var(--measure); color: var(--ink-2); }
+.mapx-rb__opts { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--s-3) var(--s-5); }
+.mapx-rb__opts .mapx-field { flex: 0 1 20rem; }
+.mapx-rb__check {
+  display: inline-flex; align-items: center; gap: var(--s-2); min-height: 44px; cursor: pointer;
+  font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink);
+}
+.mapx-rb__check input { width: 18px; height: 18px; margin: 0; accent-color: var(--ink); cursor: pointer; }
+.mapx-rb__check input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.mapx-rb__scroll { max-width: 60rem; overflow-x: auto; overscroll-behavior-x: contain; }
+.mapx-rb__scroll svg { display: block; width: 100%; min-width: 600px; height: auto; }
+.mapx-rb__node { cursor: pointer; outline: none; transform-box: fill-box; transform-origin: center; transition: transform var(--dur-press) var(--ease-out); }
+.mapx-rb__hit { fill: transparent; }
+.mapx-rb__dot { fill: var(--paper-2); stroke: var(--ink-2); stroke-width: 1.5; transition: fill var(--dur-micro) var(--ease-hover), stroke var(--dur-micro) var(--ease-hover); }
+@media (hover: hover) and (pointer: fine) { .mapx-rb__node:hover .mapx-rb__dot { stroke: var(--ink); stroke-width: 2.5; } }
+.mapx-rb__node:active { transform: scale(.97); }
+.mapx-rb__node[aria-pressed='true'] .mapx-rb__dot { fill: var(--ink); stroke: var(--ink); }
+.mapx-rb__node:focus-visible .mapx-rb__dot { stroke: var(--accent); stroke-width: 3; }
+.mapx-rb__label { font-family: var(--font-ui); font-size: 13px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; stroke-linejoin: round; }
+
+/* Line styles: the four check results differ by dash pattern and weight as well as colour, each with a glyph. */
+.mapx-rb__line { fill: none; stroke: var(--ink-2); stroke-width: 2; }
+.mapx-rb__line--contrasts { stroke-dasharray: 6 4; }
+.mapx-rb__line--related { stroke-dasharray: 1 5; stroke-linecap: round; stroke-opacity: .7; }
+.mapx-rb__line--correct { stroke: var(--sage); stroke-width: 3; }
+.mapx-rb__line--wrong { stroke: var(--ink-2); stroke-width: 1.75; stroke-dasharray: 12 3 2 3; }
+.mapx-rb__line--extra { stroke: var(--clay); stroke-width: 2; stroke-dasharray: 6 4; }
+.mapx-rb__line--missing { stroke: var(--ink-2); stroke-width: 2.5; stroke-dasharray: .5 6; stroke-linecap: round; }
+.mapx-rb__arrow[data-tone='ink'] { fill: var(--ink-2); }
+.mapx-rb__arrow[data-tone='sage'] { fill: var(--sage); }
+.mapx-rb__arrow[data-tone='clay'] { fill: var(--clay); }
+.mapx-rb__mark { color: var(--ink-2); pointer-events: none; }
+.mapx-rb__mark[data-tone='sage'], .mapx-rb__glyph[data-tone='sage'] { color: var(--sage); }
+.mapx-rb__mark[data-tone='clay'], .mapx-rb__glyph[data-tone='clay'] { color: var(--clay); }
+.mapx-rb__mark circle { fill: var(--paper); stroke: currentColor; stroke-width: 1.5; }
+.mapx-rb__mark text { fill: currentColor; font-family: var(--font-ui); font-size: 12px; font-weight: 700; text-anchor: middle; }
+.mapx-rb__key { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+.mapx-rb__key li { display: inline-flex; align-items: center; gap: var(--s-2); }
+.mapx-rb__glyph { font-weight: 700; color: var(--ink-2); }
+
+.mapx-rb__choose {
+  max-width: 60rem; padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper-2);
+  animation: mapx-fade var(--dur-ui) var(--ease-out) both;
+}
+.mapx-rb__ask { margin: 0 0 var(--s-3); font-family: var(--font-ui); font-size: var(--t-sm); }
+.mapx-rb__kinds { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.mapx-rb__kind {
+  max-width: 100%; min-height: 44px; padding: var(--s-2) var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--paper); color: var(--ink); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); text-align: left; cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) { .mapx-rb__kind:hover { background: var(--paper-3); } }
+.mapx-rb__kind:active { transform: scale(.97); }
+.mapx-rb__kind:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.mapx-rb__kind:disabled { color: var(--ink-3); cursor: default; transform: none; }
+.mapx-rb__actions { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.mapx-rb__result { animation: mapx-fade var(--dur-ui) var(--ease-out) both; }
+.mapx-rb__score { margin: 0 0 var(--s-3); max-width: var(--measure); font-size: var(--t-lg); line-height: var(--lh-ui); }
+.mapx-rb__lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr)); gap: var(--s-4); max-width: 60rem; }
+.mapx-rb__words ul { margin: 0; padding-left: 1.2em; display: grid; gap: var(--s-1); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); }
+.mapx-rb__mine { list-style: none; margin: 0; padding: 0; max-width: var(--measure-wide); font-family: var(--font-ui); font-size: var(--t-sm); }
+.mapx-rb__mine li { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); padding: var(--s-1) 0; border-bottom: 1px solid var(--line); }
+.mapx-rb__pairs { list-style: none; margin: var(--s-2) 0 0; padding: 0; display: grid; gap: var(--s-4); max-width: var(--measure-wide); }
+.mapx-rb__pairs li { display: grid; gap: var(--s-1); }
+.mapx-rb__pair { font-family: var(--font-ui); font-size: var(--t-sm); }
+
+@keyframes mapx-fade { from { opacity: 0; } }
+@keyframes mapx-in { from { opacity: 0; transform: scale(var(--enter-scale)); } }

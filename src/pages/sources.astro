@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SourceBrowser from '../components/rebuild/SourceBrowser';
+import catalog from '../data/rebuild/source-catalog.json';
+import data from '../data/rebuild/exam-info.json';
+---
+<Layout title="Original sources" wide centre><p class="label">Evidence & provenance</p><h1>Original sources</h1><p class="rb-lede">Check the source behind a rule, example or exam instruction.</p><nav class="rb-actions"><a href="/coverage/">Completeness audit</a><a href="/exams/">Exam command centre</a></nav><h2>Supplied exam documents</h2>{data.sourceRegistry.filter(s=>s.id.startsWith('supplied-')).map(s=><details class="rb-note"><summary>{s.filename} · {s.role}</summary><p>Reviewed: {s.reviewMethod}</p><p>{s.limitations}</p><a download={s.filename} href={`/exam-sources/${encodeURIComponent(s.filename || '')}`}>Download original file</a></details>)}<h2>Search all retained course sources</h2><SourceBrowser client:load catalog={catalog}/><noscript><ul>{catalog.map(s=><li><a href={s.href}>{s.path}</a></li>)}</ul></noscript></Layout>

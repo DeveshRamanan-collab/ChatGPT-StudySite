@@ -1,0 +1,26 @@
+/* Simulation Explore panel (Simulation base): sweep table, two-fact grid, scenario pair, notebook. */
+.sim-explore { margin: var(--s-4) 0; border: 1px solid var(--line); border-radius: var(--r-md); padding: 0 var(--s-4); background: var(--paper-2); }
+.sim-explore > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-family: var(--font-ui); font-size: var(--t-sm); }
+.sim-explore > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: var(--r-sm); }
+.sim-explore[open] { padding-bottom: var(--s-4); }
+.sim-explore__note, .sim-explore__legend, .sim-explore__facts, .sim-explore__diff { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.sim-explore__tabs { display: flex; flex-wrap: wrap; gap: var(--s-2); margin: var(--s-3) 0; }
+.sim-explore__pickrow { display: flex; flex-wrap: wrap; gap: var(--s-3); }
+.sim-explore__pick { display: inline-grid; gap: var(--s-1); margin-bottom: var(--s-3); }
+.sim-explore__pick--wide { display: grid; }
+.sim-explore__pick select, .sim-explore__pick textarea { font: inherit; font-family: var(--font-ui); font-size: var(--t-sm); min-height: 40px; padding: var(--s-1) var(--s-2); border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--paper); color: var(--ink); }
+.sim-explore__pick :is(select, textarea):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.sim-explore__table, .sim-explore__grid { border-collapse: collapse; font-family: var(--font-ui); font-size: var(--t-sm); }
+.sim-explore__table :is(th, td), .sim-explore__grid :is(th, td) { border-bottom: 1px solid var(--line); padding: var(--s-2) var(--s-3); text-align: left; vertical-align: top; }
+.sim-explore__table tr[data-current] { background: var(--accent-soft); }
+.sim-explore__now, .sim-explore__flip { color: var(--ink-2); }
+.sim-explore__scroll { overflow-x: auto; }
+.sim-explore__grid td[data-tone='no'] { text-decoration: none; }
+.sim-explore__grid td { white-space: nowrap; }
+.sim-explore__mark[data-tone='yes'], .sim-explore__grid td[data-tone='yes'] span[aria-hidden] { color: var(--sage); }
+.sim-explore__mark[data-tone='no'], .sim-explore__grid td[data-tone='no'] span[aria-hidden] { color: var(--clay); }
+.sim-explore__pair { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.sim-explore__side { border: 1px solid var(--line); border-radius: var(--r-sm); padding: var(--s-3); background: var(--paper); }
+.sim-explore__notes { padding-left: 1.2em; display: grid; gap: var(--s-3); }
+.sim-explore__mine { font-style: italic; }
+.sim-explore__acts { display: flex; gap: var(--s-2); }

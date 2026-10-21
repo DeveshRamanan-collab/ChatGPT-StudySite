@@ -1,0 +1,642 @@
+unit: laws2400
+week: 11
+source: raw/laws2400-torts/week-11
+generator: aids-1
+aids:
+  - concept: laws2400-w11-scope-of-liability-decision-flow
+    plain: 'After factual causation, the court asks whether the defendant ought to answer for this harm. Two things can take it outside: a later event that breaks the chain, or harm of an unforeseeable kind.'
+    concrete: 'In the Topic 10 tutorial problem, Nancy''s careless driving pushes Fred''s car into Lucy, breaking both her legs. Later events follow. A youth snatches her handbag at the scene; Dr Sun''s untried technique leaves her with a permanent ankle disability; she gives up kickboxing, drinks heavily and loses her job. Each later loss raises scope of liability: did a later event break the chain, or is the harm too remote?'
+    formal: 'CLA s 5D(1)(b): ''that it is appropriate for the scope of the negligent person''s liability to extend to the harm so caused''. Section 5D(4): the court is to consider whether or not and why responsibility for the harm should be imposed. This embraces policy-based considerations the courts are required to articulate (Wallace v Kam) and raises normative questions (Ruddock v Taylor).'
+    terms:
+      - term: Scope of liability
+        gloss: 'Whether it is appropriate for the negligent person''s liability to extend to the harm so caused: the second element of causation, s 5D(1)(b).'
+      - term: Policy-based considerations
+        gloss: Reasons for or against imposing responsibility, which the courts are required to articulate when deciding scope of liability (Wallace v Kam).
+      - term: New intervening act
+        gloss: 'Novus actus interveniens: a later event that may break the chain of causation between the negligence and the harm.'
+      - term: Remoteness of harm
+        gloss: 'Concerned with the extent of the defendant''s liability for losses: was the damage of a reasonably foreseeable kind?'
+    misconceptions:
+      - claim: Once factual causation is shown, the defendant is liable for all the harm that follows.
+        tempting: Factual causation is often the hard part of the argument.
+        correction: Section 5D(1) makes scope of liability a separate element, and s 5D(4) asks whether and why responsibility for the harm should be imposed.
+      - claim: Policy considerations belong only at the duty of care stage.
+        tempting: Policy is familiar from the salient features approach to duty.
+        correction: Scope of liability itself embraces policy-based considerations which the courts are required to articulate (Wallace v Kam).
+      - claim: New intervening acts and remoteness are the two elements of s 5D(1).
+        tempting: They are the two common law concepts on the scope of liability flowchart.
+        correction: The two elements are factual causation (s 5D(1)(a)) and scope of liability (s 5D(1)(b)). Novus actus and remoteness both sit inside element (b).
+    socratic:
+      - ask: Nancy's negligence was a necessary condition of everything that later happened to Lucy. Is Nancy liable for all of it?
+        hint: How many elements does s 5D(1) have?
+        answer: Not necessarily. Factual causation is element (a); element (b) asks whether it is appropriate for liability to extend to each harm so caused.
+      - ask: What does s 5D(4) direct the court to consider?
+        hint: Amongst other relevant things...
+        answer: Whether or not and why responsibility for the harm should be imposed on the negligent party.
+      - ask: What must the court do with the policy behind its answer?
+        hint: Wallace v Kam.
+        answer: 'Articulate it: scope of liability embraces policy-based considerations which the courts are required to state.'
+      - ask: A youth snatches Lucy's handbag at the scene. Which branch does that raise?
+        hint: A later event, or an unexpected kind of harm?
+        answer: 'New intervening acts: whether the youth''s deliberate later act breaks the chain between Nancy''s negligence and the loss of the bag.'
+      - ask: The harm is of the expected kind but much worse than anyone would predict. Which branch?
+        hint: No later event; think extent.
+        answer: Remoteness of harm. The extent of the harm need not be reasonably foreseeable, provided harm of that kind was.
+    elements:
+      - name: Scope of liability (s 5D(1)(b))
+        test: Is it appropriate for the scope of the negligent person's liability to extend to the harm so caused?
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: Responsibility and policy (s 5D(4))
+        test: 'Consider whether and why responsibility should be imposed; articulate the policy (Wallace v Kam). It is a normative question: ought the defendant to be held liable (Ruddock v Taylor)?'
+        cases:
+          - wallace-v-kam
+          - ruddock-v-taylor
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: New intervening acts
+        test: Did a later event break the chain of causation between the negligence and the harm?
+        cases:
+          - the-oropesa
+          - haber-v-walker
+          - mahony-v-j-kruschich-demolitions-pty-ltd
+      - name: Remoteness of harm
+        test: Was the damage of a reasonably foreseeable kind? Extent and precise manner need not be foreseeable.
+        cases:
+          - overseas-tankship-v-morts-dock-the-wagon-mound-no-1
+          - overseas-tankship-v-miller-steamship-the-wagon-mound-no-2
+    what-if:
+      - change: No later event occurs; the only dispute is how badly the plaintiff was hurt.
+        effect: 'Only the remoteness branch is engaged: was harm of that kind reasonably foreseeable? The extent and precise manner of the harm need not be.'
+      - change: A stranger, for his own reasons, steals the plaintiff's bag after the crash.
+        effect: 'The novus actus branch is engaged: a third party''s deliberate, volitional act may break the chain, taking the bag''s loss outside the scope of liability.'
+      - change: The plaintiff's own careless conduct follows the defendant's negligence.
+        effect: 'Use the negligent-acts branch: whether it severs the chain is a matter of fact and degree (Mahony), and the plaintiff''s negligence does not necessarily sever it.'
+    boundary:
+      - text: A later careless act that is the very risk the defendant's negligence created.
+        why: 'Stays within scope: where the defendant generated the very risk and the injury occurs in the ordinary course of things, later negligence does not sever the chain (March v Stramare).'
+    transfer:
+      - scenario: A council negligently leaves a pothole unrepaired. A cyclist hits it and breaks her wrist. In hospital a nurse's careless hygiene gives her an infection, and months later her painting business fails because she cannot paint.
+        answer: 'After factual causation, apply s 5D(1)(b) and s 5D(4) to each later harm. The nurse''s carelessness is later negligence by a third party: a matter of fact and degree (Mahony) that does not necessarily sever the chain. The business loss raises remoteness: was harm of that kind a real, not far-fetched, risk (The Wagon Mound (No 2))? The court must articulate why responsibility should or should not extend (Wallace v Kam).'
+    sources:
+      - Topic 11 Flowcharts (p 436)
+      - Topic 10 Tutorial Preparation - Causation (Main Hypo)
+      - Civil Liability Act 2002 (NSW) s 5D(1)(b), (4) (act-2002-022.pdf)
+  - concept: laws2400-w11-novus-actus-volitional-acts-and-coincidences
+    plain: 'A later event breaks the chain only if it is a genuinely new cause: ordinarily a free, deliberate human choice, or an extremely unlikely coincidence unconnected with the defendant''s negligence.'
+    concrete: 'McKew''s leg, injured by the defendant''s negligence, was prone to give way. He went down a steep staircase without a handrail, unaided; the leg gave way and he suffered a severe ankle fracture. The original injury set up the fall, but his own unreasonable conduct was a novus actus interveniens: the chain was broken, and the defendant was not liable for the second injury.'
+    formal: 'The Oropesa: is the subsequent event ''ultroneous, something unwarrantable, a new cause which disturbs the sequence of events, something which can be described as either unreasonable or extraneous or extrinsic''? To sever the connection, the intervening act must ordinarily be voluntary human action (conduct which is volitional) or a causally independent act which is an extremely unlikely coincidence (Haber v Walker).'
+    terms:
+      - term: Volitional conduct
+        gloss: 'Voluntary human action: a deliberate choice. The flowchart''s examples that severed the chain: Rickards v Lothian, Yates v Jones, CES v Superclinics (Aust) Pty Ltd.'
+      - term: Non-volitional conduct
+        gloss: 'Conduct that is not a free choice. The flowchart''s examples did not sever the chain: Urbanski v Patel, Haynes v G Harwood & Son, Medlin, Hirst.'
+      - term: Ultroneous
+        gloss: 'The Oropesa''s word for a subsequent event that is unwarrantable: a new cause which disturbs the sequence of events.'
+      - term: Causally independent coincidence
+        gloss: A later event unconnected with the defendant's negligence and extremely unlikely; it can sever the chain (Haber v Walker).
+    misconceptions:
+      - claim: Any later act of a third party breaks the chain of causation.
+        tempting: A new person acting after the breach looks like a fresh cause.
+        correction: To sever, it must ordinarily be voluntary, volitional human action. The flowchart lists non-volitional conduct that did not sever the chain (eg Haynes v G Harwood & Son).
+      - claim: Only voluntary human action can ever sever the chain.
+        tempting: Voluntariness is the first limb on the flowchart.
+        correction: 'There is a second route: a causally independent act which is a coincidence which is extremely unlikely (Haber v Walker).'
+      - claim: Under Haber v Walker, any unlikely later event breaks the chain.
+        tempting: Haber v Walker is cited for extremely unlikely coincidences.
+        correction: The event must also be causally independent. A reaction to the collision the defendant caused, such as another driver's reflex swerve, is not.
+    socratic:
+      - ask: But for the defendant's negligence, the later harm would not have happened. Why is that not the end of the matter?
+        hint: Where does the novus actus branch begin?
+        answer: 'The branch starts where ''but for'' causation is established: the court must still decide whether the later event relieves the defendant of responsibility.'
+      - ask: What does The Oropesa ask about the later event?
+        hint: Ultroneous...
+        answer: 'Whether it is ultroneous, something unwarrantable, a new cause which disturbs the sequence of events: unreasonable, extraneous or extrinsic.'
+      - ask: In the tutorial hypo, Peter, wrongfully cut off workers' compensation, grows Indian hemp to sell and is imprisoned. What kind of later event is his conduct?
+        hint: Was it a free choice?
+        answer: 'A deliberate choice to commit a crime: voluntary human action, the kind of later event that ordinarily severs the chain, putting the imprisonment outside the scope of liability.'
+      - ask: A following driver swerves by reflex after the crash and hits the plaintiff. Same answer?
+        hint: Is a reflex volitional?
+        answer: No. A reflex is not volitional, and the flowchart lists non-volitional conduct that did not sever the chain.
+      - ask: While the plaintiff recovers at home, a freak lightning strike unconnected with the accident injures her again. Can that sever the chain?
+        hint: Haber v Walker.
+        answer: 'Yes, it can: a causally independent act which is a coincidence which is extremely unlikely.'
+    elements:
+      - name: Factual causation established
+        test: The branch applies where 'but for' causation is established but later events affect the situation the defendant's negligence created.
+      - name: The Oropesa question
+        test: 'Is the later event ultroneous, unwarrantable, a new cause disturbing the sequence of events: unreasonable, extraneous or extrinsic?'
+        cases:
+          - the-oropesa
+      - name: Voluntary human action
+        test: Was it volitional conduct? Volitional conduct severed the chain in Rickards, Yates and CES; non-volitional conduct did not in Urbanski, Haynes, Medlin and Hirst.
+        cases:
+          - rickards-v-lothian
+          - yates-v-jones
+          - ces-v-superclinics-aust-pty-ltd
+          - urbanski-v-patel
+          - haynes-v-g-harwood-and-son
+          - medlin-v-state-government-insurance-commission
+          - hirst-v-nominal-defendant
+      - name: Or an extremely unlikely coincidence
+        test: Alternatively, was it a causally independent act which is a coincidence which is extremely unlikely?
+        cases:
+          - haber-v-walker
+    what-if:
+      - change: McKew's leg had given way while he walked carefully on level ground.
+        effect: 'No unreasonable choice intervenes: the fall flows from the original injury, so there is no novus actus, and the further harm is likely within the scope of liability.'
+      - change: The later event is a reflex swerve by another driver reacting to the crash, not a deliberate act.
+        effect: 'Non-volitional conduct, which in the flowchart''s examples did not sever the chain. Nor is it a coincidence: it was a reaction to the collision the defendant caused.'
+      - change: A storm, unconnected with the defendant's negligence and extremely unlikely, causes further harm.
+        effect: A causally independent, extremely unlikely coincidence can sever the chain (Haber v Walker), so the further harm may fall outside the scope of liability.
+    boundary:
+      - text: A third party with a grudge deliberately sets fire to property the defendant had negligently damaged.
+        why: 'Ordinarily severs: voluntary, volitional human action, a new and extraneous cause disturbing the sequence of events (The Oropesa).'
+      - text: A third party's careless, not deliberate, act after the defendant's negligence.
+        why: 'A different branch: later negligence is weighed as a matter of fact and degree and does not necessarily sever the chain (Mahony v J Kruschich).'
+    transfer:
+      - scenario: A removalist negligently drops a client's piano in the street, cracking it, and leaves it there overnight. A passer-by with a grudge against the client deliberately smashes it with a hammer. The client sues the removalist for the whole piano.
+        answer: 'The smashing is voluntary, volitional human action: a new, extraneous cause disturbing the sequence of events (The Oropesa). Like the flowchart''s volitional examples (Rickards; Yates; CES), it ordinarily severs the chain. The removalist remains liable for the crack, but the later destruction is likely outside the scope of liability.'
+    sources:
+      - Topic 11 Flowcharts (p 437)
+      - Topic 10 Lecture 1 (slides 24–26)
+      - Topic 10 Tutorial Preparation - Causation (Hypo 1)
+  - concept: laws2400-w11-subsequent-negligent-acts
+    plain: When someone else's carelessness, or the plaintiff's own, follows the defendant's negligence, the chain does not automatically break. It holds most firmly where the defendant created the very risk that materialised.
+    concrete: 'Early one morning the defendant''s truck was parked in the middle of a six-lane road to unload fruit and vegetables. The plaintiff, drunk and speeding, drove into it. His own negligence did not break the chain of causation: as Mason CJ put it, the defendant''s wrongful conduct had ''generated the very risk of injury resulting from the negligence of the plaintiff or a third party''.'
+    formal: Whether a subsequent negligent act severs the causal connection is a matter of 'fact and degree' (Mahony v J Kruschich (Demolitions) Pty Ltd). Negligence of a third party or even the plaintiff does not necessarily sever the chain (Mahony; Burns v Pearce), especially where the defendant's wrongful conduct generated the very risk of injury and that injury occurs in the ordinary course of things (March v Stramare).
+    terms:
+      - term: Fact and degree
+        gloss: 'How Mahony describes the question whether later negligence severs the chain: decided on the facts of each case, not by a fixed rule.'
+      - term: The very risk
+        gloss: The risk of injury the defendant's wrongful conduct itself generated. Later negligence that realises it, in the ordinary course of things, does not usually break the chain.
+    misconceptions:
+      - claim: A later negligent act by a third party always breaks the chain.
+        tempting: The third party is the immediate cause of the injury.
+        correction: Negligence of a third party, or even the plaintiff, does not necessarily sever the chain (Mahony; Burns v Pearce). It is a matter of fact and degree.
+      - claim: The plaintiff's own carelessness after the breach always takes the injury outside the scope of liability.
+        tempting: It seems fair to blame the plaintiff for their own carelessness.
+        correction: Even the plaintiff's negligence does not necessarily sever the chain. In March v Stramare the drunk, speeding plaintiff's negligence did not.
+      - claim: A careless later act should be tested as voluntary human action, which ordinarily severs the chain.
+        tempting: Carelessness is still something the person chose to do.
+        correction: 'Later negligence has its own branch: fact and degree (Mahony). The voluntary-act test is for deliberate, volitional intervention.'
+    socratic:
+      - ask: In March v Stramare the plaintiff was drunk and speeding when he hit the parked truck. Did his negligence break the chain?
+        hint: What risk did the parked truck create?
+        answer: No. The defendant's wrongful conduct generated the very risk of injury that resulted from the plaintiff's negligence.
+      - ask: Is there a fixed rule for later negligence?
+        hint: Mahony v J Kruschich.
+        answer: 'No: whether a subsequent negligent act severs the causal connection is a matter of fact and degree.'
+      - ask: Whose later negligence can follow without necessarily severing the chain?
+        hint: Two kinds of actor.
+        answer: A third party's, or even the plaintiff's own (Mahony; Burns v Pearce).
+      - ask: When is the case for the chain staying intact strongest?
+        hint: March v Stramare's words.
+        answer: Where the defendant's wrongful conduct generated the very risk of injury resulting from the later negligence, and the injury occurs in the ordinary course of things.
+      - ask: In the tutorial hypo, Dr Sun's untried technique leaves Lucy with a permanent ankle disability. Does Nancy's liability reach that harm?
+        hint: Later negligence by a third party.
+        answer: 'Argue it as fact and degree (Mahony): Dr Sun''s negligence does not necessarily sever the chain. Ask whether Nancy''s negligence generated the very risk that his treatment realised.'
+    elements:
+      - name: Later negligence
+        test: Was the later act itself negligent, by a third party or by the plaintiff? A deliberate, volitional act goes to the voluntary-act test instead.
+      - name: Fact and degree
+        test: Whether the later negligence severs the causal connection is a matter of fact and degree; it does not necessarily sever the chain.
+        cases:
+          - mahony-v-j-kruschich-demolitions-pty-ltd
+          - burns-v-pearce
+      - name: The very risk
+        test: Did the defendant's wrongful conduct generate the very risk of injury the later negligence realised, the injury occurring in the ordinary course of things?
+        cases:
+          - march-v-stramare
+          - club-italia-geelong-inc-v-ritchie
+          - jausnik-v-nominal-defendant-no-5
+          - gittani-stone-pty-ltd-v-pavkovic
+    what-if:
+      - change: The later negligence had nothing to do with the risk the defendant created.
+        effect: The plaintiff loses the March v Stramare point, which makes the chain especially likely to hold. The question stays one of fact and degree, but severance becomes easier to argue.
+      - change: The later act was deliberate and malicious rather than careless.
+        effect: 'It leaves this branch: deliberate, volitional conduct is analysed as voluntary human action, which ordinarily severs the chain.'
+    boundary:
+      - text: A pedestrian forced onto the road by negligently placed scaffolding is hit by a careless driver.
+        why: 'Likely within the chain: the scaffolding generated the very risk of pedestrians being struck on the road, and the injury occurred in the ordinary course of things (March v Stramare).'
+    transfer:
+      - scenario: A landlord negligently leaves a stairwell light broken. A tenant's guest, carrying a large box that blocks her view, carelessly misses a step in the dark and is hurt.
+        answer: 'The guest''s own carelessness does not necessarily sever the chain (Mahony; Burns v Pearce); it is a matter of fact and degree. Her strongest point is March v Stramare: the landlord''s failure generated the very risk of someone missing a step in the dark, and the injury occurred in the ordinary course of things. Her carelessness may instead go to contributory negligence (Topic 12).'
+    sources:
+      - Topic 11 Flowcharts (p 437)
+      - Topic 10 Lecture 1 (slides 9, 25)
+      - Topic 10 Tutorial Preparation - Causation (Main Hypo)
+  - concept: laws2400-w11-remoteness-kind-of-harm
+    plain: The defendant is liable only for harm of a kind that could reasonably be foreseen. If that kind was foreseeable, it does not matter that the harm was worse, or happened differently, than expected.
+    formal: Remoteness of harm is concerned with the extent of the defendant's liability for losses, determined by a reasonable foreseeability test (The Wagon Mound (No 1)). A risk is reasonably foreseeable when it is a 'real risk' which a reasonable man in the position of the defendant's servant would not brush aside as far-fetched (The Wagon Mound (No 2)). Extent and precise manner need not be foreseeable.
+    terms:
+      - term: Kind or type of harm
+        gloss: The category of damage suffered. Remoteness asks whether harm of that kind was reasonably foreseeable (Tremain v Pike; Nader; Commonwealth v McLean; Metrolink v Inglis).
+      - term: Real risk
+        gloss: A risk that would occur to a reasonable man in the position of the defendant's servant and that he would not brush aside as far-fetched (The Wagon Mound (No 2)).
+      - term: Extent and manner
+        gloss: How badly, and exactly how, the harm happened. Neither need be reasonably foreseeable (Hughes v Lord Advocate; Jolley; Pusey; Gittani Stone; Waller v James).
+    misconceptions:
+      - claim: Harm is too remote if it happened in an unusual way the defendant could not have predicted.
+        tempting: An odd sequence of events seems to show the harm was unforeseeable.
+        correction: The precise manner of the harm's occurrence need not be reasonably foreseeable (eg Hughes v Lord Advocate). It is the kind of harm that must be.
+      - claim: Remoteness sets a lower, or a higher, threshold of foreseeability than duty and breach.
+        tempting: The flowchart calls remoteness a 'different test' of reasonable foreseeability.
+        correction: 'The meaning is the same: a real risk, not far-fetched (The Wagon Mound (No 2)). What differs is the object: what damage was foreseeable as a consequence of the negligence.'
+      - claim: A finding that a duty was owed settles remoteness, since both ask about foreseeability.
+        tempting: Both stages use reasonable foreseeability.
+        correction: They ask different questions. Duty asks whether injury to a class including the plaintiff was foreseeable; remoteness asks whether the kind of damage suffered was (San Sebastian, citing Mount Isa Mines v Pusey).
+    socratic:
+      - ask: What is remoteness of harm concerned with?
+        hint: The flowchart's first box.
+        answer: The extent of the defendant's liability for losses, which is determined by a reasonable foreseeability test (The Wagon Mound (No 1)).
+      - ask: What does 'reasonably foreseeable' mean here?
+        hint: The Wagon Mound (No 2).
+        answer: 'A real risk: one that would occur to a reasonable person in the defendant''s position and that he would not brush aside as far-fetched. It means the same as at duty and breach.'
+      - ask: Then what is different about the remoteness question?
+        hint: What is being foreseen?
+        answer: 'Its object: the plaintiff must prove that the kind of damage suffered was foreseeable as a possible outcome of the kind of carelessness charged against the defendant.'
+      - ask: The defendant says the harm was far worse than anyone could have expected. Does that make it too remote?
+        hint: Extent.
+        answer: No. The extent of the harm need not be reasonably foreseeable (eg Jolley; Waller v James), provided harm of that kind was.
+      - ask: For psychiatric harm, how precisely must the kind be foreseen?
+        hint: Tame, in week 6.
+        answer: Only the class of injury, psychiatric illness, need be foreseeable, not the particular type of disorder that eventuated (Gummow and Kirby JJ).
+    elements:
+      - name: Identify the kind of harm
+        test: Name the kind or type of harm the plaintiff actually suffered.
+        cases:
+          - tremain-v-pike
+          - nader-v-urban-transit-authority-of-new-south-wales
+          - commonwealth-v-mclean
+          - metrolink-victoria-pty-ltd-v-inglis
+      - name: A real risk of that kind
+        test: 'Was harm of that kind reasonably foreseeable as a consequence of the negligence: a real risk, not one brushed aside as far-fetched?'
+        cases:
+          - overseas-tankship-v-morts-dock-the-wagon-mound-no-1
+          - overseas-tankship-v-miller-steamship-the-wagon-mound-no-2
+      - name: Extent and manner
+        test: 'Answer arguments about severity or the precise way the harm happened: neither need be reasonably foreseeable.'
+        cases:
+          - hughes-v-lord-advocate
+          - jolley-v-sutton-london-borough-council
+          - mount-isa-mines-ltd-v-pusey
+          - gittani-stone-pty-ltd-v-pavkovic
+          - waller-v-james
+      - name: Egg-shell skull
+        test: The defendant takes the plaintiff with all his weaknesses, beliefs and reactions, and his capacities and attributes.
+        cases:
+          - nader-v-urban-transit-authority-of-new-south-wales
+          - kavanagh-v-akhtar
+    what-if:
+      - change: The harm was of the expected kind but came about through an odd chain of events.
+        effect: 'Not too remote: the precise manner of the harm''s occurrence need not be reasonably foreseeable, provided harm of that kind was.'
+      - change: The harm was of a completely different kind from any the negligence threatened.
+        effect: 'Remoteness is squarely engaged: was harm of that kind a real, not far-fetched, risk? If not, it falls outside the scope of liability.'
+      - change: The plaintiff developed a psychiatric illness of an unusual type.
+        effect: It is enough that the class of injury, psychiatric illness, was foreseeable; the particular disorder need not be (Tame, Gummow and Kirby JJ).
+    boundary:
+      - text: A risk so slight that it would strike anyone as fanciful.
+        why: 'Outside: a risk a reasonable person would brush aside as far-fetched is not reasonably foreseeable (The Wagon Mound (No 2)), so harm of that kind is too remote.'
+      - text: Harm of a foreseeable kind that turns out far more severe than anyone expected.
+        why: 'Inside: the extent of the harm need not be reasonably foreseeable (Hughes v Lord Advocate; Jolley; Pusey; Gittani Stone; Waller v James).'
+    transfer:
+      - scenario: An electrician negligently leaves a live wire exposed in a school storeroom. A student reaching awkwardly over a stack of chairs brushes it; the shock throws her backwards and she breaks her arm in the fall.
+        answer: 'Name the kind of harm: arguably physical injury from contact with the exposed wire, a real, not far-fetched, risk (The Wagon Mound (No 2)). That she was hurt in an awkward way, and by the fall rather than a burn, goes to the precise manner and extent, which need not be reasonably foreseeable (Hughes v Lord Advocate; Jolley). On that view, the harm is not too remote.'
+    sources:
+      - Topic 11 Flowcharts (p 438)
+      - Topic 5 Lecture 2 (slide 9 — San Sebastian)
+      - Casebook, Topic 6 — Tame v New South Wales (Gummow and Kirby JJ) [203]
+  - concept: laws2400-w11-egg-shell-skull-rule
+    plain: Once the defendant causes harm of a foreseeable kind, they take the plaintiff as they find them. A hidden weakness, or a high earning capacity, that makes the loss bigger is the defendant's problem.
+    formal: '''The defendant must take the plaintiff with all his weaknesses, beliefs and reactions as well as his capacities and attributes, physical, social and economic'' (Nader v Urban Transit Authority of NSW; see Kavanagh v Akhtar). In Tame, Gummow and Kirby JJ said that, if liability is established, the egg-shell skull rule applies to the assessment of damages.'
+    analogy:
+      text: A shop's 'you break it, you buy it' sign. Knock over a vase and you pay for that vase, even if it turns out to be a valuable antique rather than a cheap copy.
+      maps:
+        - from: Knocking over the vase
+          to: Negligently causing harm of a foreseeable kind
+        - from: The vase's real value
+          to: The plaintiff's weaknesses, capacities and attributes
+        - from: Paying its real price
+          to: Liability for the harm actually suffered
+      limits:
+        - 'The sign assumes you broke it. The rule does not create liability: that must be established first (Tame).'
+        - A vase has a price tag; the rule also covers the plaintiff's beliefs and reactions, not only economic value.
+    terms:
+      - term: Egg-shell skull rule
+        gloss: 'The defendant takes the plaintiff as found: with all his weaknesses, beliefs and reactions, and his capacities and attributes, physical, social and economic (Nader).'
+      - term: Capacities and attributes
+        gloss: The plaintiff's physical, social and economic characteristics, such as earning capacity, which can make the loss larger without making it too remote.
+      - term: Normal fortitude
+        gloss: An ordinarily robust person. Windeyer J saw a normal fortitude condition of liability as sitting badly with the egg-shell rule; NSW s 32 builds it into the mental harm duty.
+    misconceptions:
+      - claim: The defendant is liable only for the harm a person of ordinary strength would have suffered.
+        tempting: It seems fair to judge the defendant by what could be foreseen.
+        correction: The defendant must take the plaintiff with all his weaknesses, beliefs and reactions (Nader); the extent of the harm need not be reasonably foreseeable.
+      - claim: The rule applies only if the defendant knew of the plaintiff's weakness.
+        tempting: Liability usually tracks what the defendant knew or ought to have known.
+        correction: 'The rule has no knowledge requirement: the defendant takes the plaintiff as found.'
+      - claim: The egg-shell skull rule makes a defendant liable for any reaction, however idiosyncratic.
+        tempting: The rule expressly covers the plaintiff's beliefs and reactions.
+        correction: It does not create liability. Where a response is so extreme or idiosyncratic that its risk is far-fetched, the defendant need not guard against it (Tame); the rule applies to damages once liability exists.
+    socratic:
+      - ask: Because of the plaintiff's pre-existing condition, a careless graze becomes a serious infection. Is the infection too remote?
+        hint: Whose weaknesses does the defendant take?
+        answer: No. The defendant must take the plaintiff with all his weaknesses (Nader), so the condition does not make the harm too remote.
+      - ask: Does the rule cover only physical frailty?
+        hint: Read Nader's words to the end.
+        answer: 'No: weaknesses, beliefs and reactions, and also capacities and attributes, physical, social and economic.'
+      - ask: Does a high earner then recover more for the same injury?
+        hint: Economic attributes.
+        answer: Yes. The defendant takes the plaintiff with his economic capacities and attributes, so a larger loss of earnings is not too remote.
+      - ask: Does the rule decide whether the defendant is liable at all?
+        hint: Tame, Gummow and Kirby JJ.
+        answer: No. Liability must be established first; the egg-shell skull rule then applies to the assessment of damages.
+    elements:
+      - name: Liability established
+        test: Duty, breach, factual causation and harm of a reasonably foreseeable kind. The rule does not itself create liability.
+        cases:
+          - tame-v-new-south-wales
+      - name: A characteristic of the plaintiff
+        test: Is the harm greater because of the plaintiff's weaknesses, beliefs or reactions, or capacities and attributes (physical, social, economic)?
+        cases:
+          - nader-v-urban-transit-authority-of-new-south-wales
+          - kavanagh-v-akhtar
+      - name: Take the plaintiff as found
+        test: The defendant answers for the harm actually suffered; its extent need not be reasonably foreseeable.
+        cases:
+          - nader-v-urban-transit-authority-of-new-south-wales
+    what-if:
+      - change: The plaintiff's weakness was hidden from everyone, including the plaintiff.
+        effect: 'No difference: the rule has no knowledge requirement, so the defendant takes the plaintiff as found.'
+      - change: The plaintiff's reaction to a trivial, corrected clerical error is extreme and idiosyncratic.
+        effect: 'The rule does not help: as in Tame, if the risk of that reaction was far-fetched or fanciful, liability is not established, and the rule only applies to damages once it is.'
+    boundary:
+      - text: Mrs Tame's psychotic depressive illness after a corrected clerical error in a police report.
+        why: 'Outside: her reaction was extreme and idiosyncratic, so the risk was far-fetched and no liability arose. The egg-shell skull rule cannot supply liability.'
+      - text: A NSW claim for pure mental harm by an unusually vulnerable plaintiff.
+        why: 'At the edge: CLA s 32''s normal fortitude test must be met for a duty first. The egg-shell skull rule does not displace it.'
+    transfer:
+      - scenario: A delivery van negligently clips a cyclist, bruising her hand. She is a surgeon, and a rare nerve condition she did not know she had turns the bruise into a permanent tremor that ends her surgical career.
+        answer: Harm of a foreseeable kind, a hand injury, was caused. The defendant must take her with all her weaknesses (the nerve condition) and her capacities and attributes, including economic ones (a surgeon's earnings) (Nader). The extent need not be foreseeable, and the rule has no knowledge requirement, so the larger loss is not too remote.
+    sources:
+      - Topic 11 Flowcharts (p 438)
+      - Casebook, Topic 6 — Tame v New South Wales (Gummow and Kirby JJ) [197]–[203], [233]
+      - Civil Liability Act 2002 (NSW) s 32 (act-2002-022.pdf)
+  - concept: laws2400-w11-client-interviewing-and-trauma-informed-practice
+    plain: A good first interview lets the client tell their story before the lawyer narrows in, and avoids re-traumatising them. Skipping the interview can cost the client their claim.
+    concrete: The client's banana chair broke and she was injured; Depo Medrol injections then made things worse. She joined a class action against Depo Medrol and filled in the firm's questionnaire, but was never interviewed or asked about the original injury. When she found out she should have sued the chair's manufacturer, that claim was time-barred. In Roberts v Cashman the NSW Supreme Court held the firm's duty of care was breached.
+    formal: 'Roberts v Cashman [2000] NSWSC 770 [64]: there is ''a grave danger'' that a solicitor breaches the implied duty in the retainer by not interviewing the client in litigation matters. A questionnaire ''is not of itself a sufficient discharge''; a solicitor who does not interview ''does so at his own peril''. ASCR r 7.1: give clear and timely advice so the client can make informed choices.'
+    terms:
+      - term: Client-focused interviewing
+        gloss: The lawyer controls the process, not the content. The client is an actor and agent who makes their own decisions (ASCR rr 7 and 8).
+      - term: LARS
+        gloss: 'Active listening: Listening, Acknowledging (door openers, minimal encouragers), Reflecting (and reframing), Summarising facts and concerns.'
+      - term: T-funnel questioning
+        gloss: Broad open questions, then general open, then detailed, then nitty-gritty questions, with clarification throughout.
+      - term: Trauma-informed practice
+        gloss: Avoiding re-traumatisation, not solving trauma. Ask 'What happened to you?' rather than 'What is wrong with you?'.
+    misconceptions:
+      - claim: Clients mainly want legal advice, so share your view as soon as the problem looks clear.
+        tempting: Advice is what the client is paying for.
+        correction: Often what clients really need is to be heard; lawyers who jump in before understanding leave clients feeling unheard. Hear the client before trying to solve the problem.
+      - claim: Open with detailed, pointed questions to identify the legal issue quickly.
+        tempting: Boxing the problem early seems efficient.
+        correction: Listen to the narrative first, then start broad and narrow down. Don't start questioning too soon, don't do too much of it, and don't assign legal boxes too early.
+      - claim: Being trauma-informed means helping the client work through their trauma.
+        tempting: A caring lawyer wants to help.
+        correction: Trauma-informed practice is about avoiding re-traumatisation, not solving trauma. Your job is to know where the client can find appropriate professional help.
+    socratic:
+      - ask: In Roberts v Cashman the client had filled in the firm's questionnaire. Why was the firm still liable?
+        hint: What could a questionnaire not draw out?
+        answer: Clients are unreliable in giving their history without interaction. A questionnaire may give an overview but is not a sufficient discharge of the obligation; her original injury was never explored.
+      - ask: Which three duties should be dealt with in an initial interview?
+        hint: The key duties slide.
+        answer: Explain confidentiality, establish the limits of the retainer, and disclose costs.
+      - ask: In a client-focused interview, who controls what?
+        hint: Process or content?
+        answer: The lawyer controls the process, not the content. The client is well informed about the facts and makes their own decisions (ASCR rr 7 and 8).
+      - ask: How should the questions be ordered?
+        hint: The T-funnel.
+        answer: Broad open questions first, then general open, detailed and nitty-gritty questions, clarifying along the way. No leading, compound or double-negative questions.
+      - ask: A client is rude, evasive or oversharing. How might a trauma-informed lawyer read that?
+        hint: Fight, flight, freeze, fawn.
+        answer: As possible coping mechanisms and self-protection. Ask 'What happened to you?' and work with safety, trustworthiness, choice, collaboration and empowerment.
+    what-if:
+      - change: The client comes from a background where high levels of client agency feel uncomfortable.
+        effect: Client-focused interviewing may make them anxious. The ASCR still has clients make the decisions, but adjust your level of scaffolding to the client in front of you.
+      - change: The client's first language answers the grammar, not the proposition, of a negative question.
+        effect: '''So, you did not go to your sister''s house?'' may draw ''no'', meaning ''I did not go''. Use plain, short, single questions and avoid negatives.'
+    boundary:
+      - text: A detailed questionnaire used in a class action.
+        why: Useful for an overview, but not of itself a sufficient discharge of the solicitor's obligation; there is no different standard in class actions or mass tort litigation (Roberts v Cashman).
+    transfer:
+      - scenario: A new client arrives late, apologises repeatedly, agrees with everything you say, and cannot put the events of her workplace injury in order.
+        answer: 'Read it in a trauma-informed way: constant agreement may be a ''fawn'' response, and trauma affects recall, memory and chronology. Avoid re-traumatising her: explain how the interview will run, offer choices, and ask ''What happened to you?''. Begin with broad open questions, let her narrative come before detail, and summarise to check. Know where professional help can be found.'
+    storyboard:
+      - caption: Set up the room and rapport
+        detail: Not rushed, phones away, privacy ensured. Small talk, physical and emotional comfort, appropriate non-verbal communication, and no judgement.
+      - caption: Explain confidentiality, retainer and costs
+        detail: Be truthful about confidentiality, explain what the retainer covers, and have a cost structure ready.
+      - caption: Hear the story first
+        detail: 'Broad open questions: ''Could you tell me what happened?'' Listen to what the client wants to say, not to what you want to hear.'
+      - caption: Acknowledge, reflect, reframe
+        detail: Door openers and minimal encouragers; mirror what the client said to confirm it; reframe to change perspective.
+      - caption: Narrow down with the T-funnel
+        detail: 'General open, then detailed, then nitty-gritty questions: ''At what speed was your car travelling?'', not ''Were you speeding?''.'
+      - caption: Summarise facts and concerns
+        detail: 'Consolidate and double-check: summarise the legally relevant facts and the client''s concerns.'
+    sources:
+      - Topic 11 Tutorial Preparation Slides - Communication and Trauma-Informed Practice (slides 6–8, 12, 14–36, 41–53)
+flows:
+  - slug: new-intervening-act
+    title: Does a later event take the harm outside the scope of liability?
+    summary: 'Follows the textbook flowcharts Causation 4 and 5: s 5D(1)(b) and s 5D(4), then later negligence (fact and degree, the very risk) or other later events (The Oropesa, volition, coincidence).'
+    start: n1
+    concepts:
+      - laws2400-w11-scope-of-liability-decision-flow
+      - laws2400-w11-novus-actus-volitional-acts-and-coincidences
+      - laws2400-w11-subsequent-negligent-acts
+    sources:
+      - Topic 11 Flowcharts (pp 436–437)
+      - Topic 10 Lecture 1 (slides 24–26)
+    nodes:
+      - id: n1
+        kind: step
+        text: Factual causation is established. Ask whether it is appropriate for the scope of the negligent person's liability to extend to the harm so caused (s 5D(1)(b)).
+        note: 'Consider whether and why responsibility should be imposed (s 5D(4)). The court must articulate the policy (Wallace v Kam); the question is normative: ought the defendant be held liable (Ruddock v Taylor)?'
+        concept: laws2400-w11-scope-of-liability-decision-flow
+        cases:
+          - wallace-v-kam
+          - ruddock-v-taylor
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+        next: n2
+      - id: n2
+        kind: ask
+        text: Did a later event have some effect on the situation the defendant's negligence created?
+        note: A later act of the plaintiff, a third party's act, or a natural event that exacerbates the original harm or causes new harm.
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: 'No'
+            to: e-remoteness
+      - id: n3
+        kind: ask
+        text: Was the later event itself negligence, by a third party or the plaintiff?
+        branches:
+          - label: 'Yes: careless conduct'
+            to: n4
+          - label: 'No: a deliberate act, a reaction or a natural event'
+            to: n6
+      - id: n4
+        kind: step
+        text: 'Weigh it as a matter of fact and degree: later negligence does not necessarily sever the chain.'
+        note: Mahony v J Kruschich (Demolitions) Pty Ltd; Burns v Pearce. The same holds whether the later negligence is a third party's or the plaintiff's own.
+        concept: laws2400-w11-subsequent-negligent-acts
+        cases:
+          - mahony-v-j-kruschich-demolitions-pty-ltd
+          - burns-v-pearce
+        next: n5
+      - id: n5
+        kind: ask
+        text: Did the defendant's wrongful conduct generate the very risk of injury that the later negligence realised, with the injury occurring in the ordinary course of things?
+        note: 'March v Stramare: the parked truck generated the very risk realised by the drunk driver. See, eg, Club Italia v Ritchie; Jausnik v Nominal Defendant (No 5); Gittani Stone v Pavkovic.'
+        cases:
+          - march-v-stramare
+          - club-italia-geelong-inc-v-ritchie
+          - jausnik-v-nominal-defendant-no-5
+          - gittani-stone-pty-ltd-v-pavkovic
+        branches:
+          - label: 'Yes'
+            to: e-intact
+          - label: 'No'
+            to: e-arguable
+      - id: n6
+        kind: step
+        text: 'Ask whether the later event breaks the chain: is it ultroneous, unwarrantable, a new cause disturbing the sequence of events, unreasonable, extraneous or extrinsic (The Oropesa)?'
+        concept: laws2400-w11-novus-actus-volitional-acts-and-coincidences
+        cases:
+          - the-oropesa
+        next: n7
+      - id: n7
+        kind: ask
+        text: To sever the connection, the act must ordinarily be one of two things. Which, if either, is it?
+        note: 'Volitional conduct severed the chain in Rickards v Lothian, Yates v Jones and CES v Superclinics; non-volitional conduct did not in Urbanski v Patel, Haynes v Harwood, Medlin and Hirst. Coincidence: Haber v Walker.'
+        cases:
+          - rickards-v-lothian
+          - yates-v-jones
+          - ces-v-superclinics-aust-pty-ltd
+          - haber-v-walker
+          - urbanski-v-patel
+          - haynes-v-g-harwood-and-son
+        branches:
+          - label: Voluntary, volitional human action
+            to: e-broken
+          - label: A causally independent, extremely unlikely coincidence
+            to: e-broken
+          - label: Neither, eg a non-volitional reaction
+            to: e-intact
+      - id: e-broken
+        kind: end
+        tone: not-met
+        text: 'Chain broken: the defendant is not liable for harm after the break, though still liable for the harm before it.'
+      - id: e-intact
+        kind: end
+        tone: met
+        text: 'Chain intact: the later harm stays within the scope of liability. Go on to remoteness.'
+      - id: e-arguable
+        kind: end
+        tone: qualified
+        text: 'Arguable both ways as a matter of fact and degree: without the very-risk point, the later negligence may sever the chain.'
+      - id: e-remoteness
+        kind: end
+        tone: qualified
+        text: 'No intervening act: take the remoteness branch.'
+  - slug: remoteness-of-harm
+    title: Is the harm too remote?
+    summary: 'Follows the textbook flowchart Causation 6: reasonable foreseeability of the kind of harm (a real risk), extent and manner, and the egg-shell skull rule.'
+    start: m1
+    concepts:
+      - laws2400-w11-remoteness-kind-of-harm
+      - laws2400-w11-egg-shell-skull-rule
+      - laws2400-w11-scope-of-liability-decision-flow
+    sources:
+      - Topic 11 Flowcharts (p 438)
+      - Topic 5 Lecture 2 (slide 9)
+    nodes:
+      - id: m1
+        kind: step
+        text: Remoteness concerns the extent of the defendant's liability for losses, determined by a reasonable foreseeability test.
+        note: The leading case is The Wagon Mound (No 1). The court asks what damage was reasonably foreseeable as a consequence of the defendant's negligence.
+        concept: laws2400-w11-remoteness-kind-of-harm
+        cases:
+          - overseas-tankship-v-morts-dock-the-wagon-mound-no-1
+        next: m2
+      - id: m2
+        kind: step
+        text: Identify the kind or type of harm the plaintiff suffered.
+        note: See Tremain v Pike; Nader; Commonwealth v McLean; Metrolink Victoria v Inglis. For psychiatric harm, the class of injury, psychiatric illness, not the particular disorder (Tame).
+        cases:
+          - tremain-v-pike
+          - nader-v-urban-transit-authority-of-new-south-wales
+          - commonwealth-v-mclean
+          - metrolink-victoria-pty-ltd-v-inglis
+          - tame-v-new-south-wales
+        next: m3
+      - id: m3
+        kind: ask
+        text: 'Was harm of that kind reasonably foreseeable as a consequence of the negligence: a real risk, not one brushed aside as far-fetched?'
+        note: '''Reasonable foreseeability'' means the same as at duty and breach (The Wagon Mound (No 2)). The kind of damage must be foreseeable as a possible outcome of the kind of carelessness charged (San Sebastian, citing Pusey).'
+        cases:
+          - overseas-tankship-v-miller-steamship-the-wagon-mound-no-2
+          - mount-isa-mines-ltd-v-pusey
+        branches:
+          - label: 'Yes'
+            to: m4
+          - label: 'No'
+            to: e-remote
+      - id: m4
+        kind: ask
+        text: Does the defendant argue that the harm was worse, or happened differently, than could be foreseen?
+        branches:
+          - label: 'Yes'
+            to: m5
+          - label: 'No'
+            to: m6
+      - id: m5
+        kind: step
+        text: 'Answer it: the extent of the harm and the precise manner of its occurrence need not be reasonably foreseeable.'
+        cases:
+          - hughes-v-lord-advocate
+          - jolley-v-sutton-london-borough-council
+          - mount-isa-mines-ltd-v-pusey
+          - gittani-stone-pty-ltd-v-pavkovic
+          - waller-v-james
+        next: m6
+      - id: m6
+        kind: ask
+        text: Is the harm greater because of the plaintiff's own weaknesses, beliefs or reactions, or capacities and attributes?
+        branches:
+          - label: 'Yes'
+            to: m7
+          - label: 'No'
+            to: e-within
+      - id: m7
+        kind: step
+        text: 'Apply the egg-shell skull rule: the defendant takes the plaintiff with all his weaknesses, beliefs and reactions, and his capacities and attributes, physical, social and economic.'
+        note: Nader v Urban Transit Authority of NSW; see Kavanagh v Akhtar. The rule applies to damages once liability is established; it does not create liability (Tame).
+        exception: true
+        concept: laws2400-w11-egg-shell-skull-rule
+        cases:
+          - nader-v-urban-transit-authority-of-new-south-wales
+          - kavanagh-v-akhtar
+        next: e-within
+      - id: e-within
+        kind: end
+        tone: met
+        text: 'Not too remote: the harm is within the scope of liability, subject to any intervening act and the s 5D(4) question.'
+      - id: e-remote
+        kind: end
+        tone: not-met
+        text: 'Too remote: harm of that kind was not reasonably foreseeable, so it falls outside the scope of liability.'

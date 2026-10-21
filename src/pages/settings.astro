@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SettingsPanel from '../components/SettingsPanel';
+import DataTools from '../components/DataTools';
+import StudioBackup from '../components/rebuild/StudioBackup';
+import { SaveOffline } from '../components/OfflineTools';
+---
+
+<Layout title="Settings">
+  <p class="label">Preferences</p>
+  <h1 data-split>Settings</h1>
+  <p class="settings-lede">Stored on this device only, and included when you export your data.</p>
+  <SettingsPanel client:load />
+  <section id="export" class="settings-export" aria-labelledby="set-export">
+    <h2 id="set-export">Your data</h2>
+    <DataTools client:idle />
+    <h2>Studio drafts and logs</h2>
+    <StudioBackup client:load />
+    <h2>Offline</h2>
+    <SaveOffline client:idle />
+  </section>
+</Layout>
+
+<style>
+  .settings-lede { color: var(--ink-2); }
+  .settings-export { margin-top: var(--s-8); max-width: var(--measure); }
+</style>

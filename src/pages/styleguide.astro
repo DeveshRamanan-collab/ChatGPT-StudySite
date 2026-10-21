@@ -1,0 +1,278 @@
+---
+import Layout from '../layouts/Layout.astro';
+import tokensCss from '../styles/tokens.css?raw';
+import ComponentsDemo from '../components/ui/ComponentsDemo';
+import ThemeDial from '../components/ThemeDial.astro';
+import MotionDial from '../components/MotionDial.astro';
+
+// Tokens are read from tokens.css itself so this page can never drift from the source.
+const rootStart = tokensCss.indexOf(':root');
+const rootBlock = tokensCss.slice(tokensCss.indexOf('{', rootStart) + 1, tokensCss.indexOf('}', rootStart));
+const tokens = [...rootBlock.matchAll(/--([\w-]+):\s*([^;]+);/g)].map(([, name, value]) => ({ name, value: value.trim() }));
+const group = (re: RegExp) => tokens.filter((t) => re.test(t.name));
+const colours = group(/^(paper|ink|accent|sage|clay|gold|line)/);
+const typeScale = group(/^t-/);
+const spacing = group(/^s-\d+$/);
+const radii = group(/^r-/);
+const motion = group(/^(ease|dur|enter|stagger|blur|lerp|tilt|parallax)/);
+const other = tokens.filter((t) => ![colours, typeScale, spacing, radii, motion].flat().includes(t));
+const states = [
+  { label: 'Rest', cls: '' },
+  { label: 'Hover', cls: 'is-hover' },
+  { label: 'Active', cls: 'is-active' },
+  { label: 'Focus', cls: 'is-focus' },
+  { label: 'Disabled', cls: '', disabled: true },
+];
+const variants = ['primary', 'secondary', 'ghost'] as const;
+const id = (s: string) => s.toLowerCase().replace(/\W+/g, '-');
+const glassLevels = [0.3, 0.55, 0.8];
+const behind = 'paper ink accent sage clay gold line '.repeat(6);
+const cursorStates = [
+  { state: 'default', label: 'Rest' },
+  { state: 'link', label: 'Link or button' },
+  { state: 'link', label: 'Pressed', down: true },
+  { state: 'text', label: 'Text' },
+  { state: 'drag', label: 'Drag handle' },
+  { state: 'option', label: 'Quiz option' },
+];
+---
+
+<Layout title="Styleguide" toc="main h2">
+  <p class="label">Design system</p>
+  <h1 data-split>Styleguide</h1>
+  <p>Every token, type style and state, rendered from <code>src/styles/tokens.css</code>. Review here; correct concretely.</p>
+
+  <h2 id={id('Colour')}>Colour</h2>
+  <p>Colour is semantic or absent. One accent element per viewport; sage and clay only in feedback.</p>
+  <ul class="swatches" data-reveal="children">
+    {colours.map((c) => (
+      <li><span class="swatch" style={`background: var(--${c.name})`}></span><code>--{c.name}</code><small class="mono">{c.value}</small></li>
+    ))}
+  </ul>
+
+  <h2 id={id('Type')}>Type</h2>
+  <div class="type-scale">
+    {typeScale.map((t) => (
+      <div class="type-row"><small class="mono">--{t.name}</small><span style={`font-size: var(--${t.name}); line-height: var(--lh-heading)`}>Duty of care</span></div>
+    ))}
+  </div>
+  <h3>Styles</h3>
+  <p class="label">Small-caps label · Inter 500 +0.08em</p>
+  <p>Body · Fraunces 400 at opsz 14, 19 px / 1.6, 66ch measure. A defendant owes a duty of care to those they can reasonably foresee being harmed by their conduct; the plaintiff must show that duty before breach, causation or damage matter.</p>
+  <p class="ui">Interface · Inter at 1.4 line height, for controls, labels and data.</p>
+  <p class="mono">Mono · JetBrains Mono · [1932] AC 562 · s 5B(2)(a) · 24:59</p>
+  <p><em>Italic · Donoghue v Stevenson</em> and <strong>strong · 600</strong>.</p>
+  <h3>Heading three</h3>
+  <p>Headings sit 3rem below the previous block and 0.75rem above their text.</p>
+  <h4>Heading four</h4>
+  <p>Paragraphs are spaced 1.25em, never indented, never justified.</p>
+
+  <h2 id={id('Spacing')}>Spacing</h2>
+  <ul class="spacing" data-reveal="children">
+    {spacing.map((s) => (
+      <li><small class="mono">--{s.name} · {s.value}</small><span class="bar" style={`width: var(--${s.name})`}></span></li>
+    ))}
+  </ul>
+
+  <h2 id={id('Radius and shadow')}>Radius and shadow</h2>
+  <div class="radii" data-reveal="children">
+    {radii.map((r) => (
+      <div class="radius" style={`border-radius: var(--${r.name})`}><small class="mono">--{r.name}</small></div>
+    ))}
+    <div class="radius shadow"><small class="mono">--shadow</small></div>
+  </div>
+
+  <h2 id={id('Motion')}>Motion</h2>
+  <p>Enter/exit ease-out, on-screen moves ease-in-out, hover ease; never ease-in. Scrubbed motion uses no ease.</p>
+  <table>
+    <thead><tr><th>Token</th><th>Value</th></tr></thead>
+    <tbody>{motion.map((m) => <tr><td><code>--{m.name}</code></td><td class="mono">{m.value}</td></tr>)}</tbody>
+  </table>
+
+  <h2 id={id('Grid')}>Grid</h2>
+  <p>Twelve columns. The reading column spans 2–8 and sits left of centre; the rail spans 10–12 and collapses below the content under 1100 px.</p>
+  <div class="grid-demo" aria-hidden="true">{Array.from({ length: 12 }, (_, i) => <span>{i + 1}</span>)}</div>
+
+  <h2 id={id('Callouts')}>Callouts</h2>
+  <aside class="callout callout--rule" data-label="Rule"><p>A left rule and a small-caps label; never heavier than paper-2.</p></aside>
+  <aside class="callout callout--case" data-label="Case"><p><em>Wyong Shire Council v Shirt</em> (1980) 146 CLR 40.</p></aside>
+  <aside class="callout callout--statute" data-label="Statute"><p>Civil Liability Act 2002 (NSW) s 5B.</p></aside>
+  <aside class="callout callout--definition" data-label="Definition"><p>Not insignificant: more than trivial, less than significant.</p></aside>
+  <aside class="callout callout--examtip" data-label="Exam tip"><p>Weigh each factor and say which way it points.</p></aside>
+
+  <h2 id={id('Components')}>Components</h2>
+  <p>Every interactive element has rest, hover, active, focus-visible and disabled states. Hover lifts 2 px in 180 ms; press scales to 0.97 in 160 ms; focus is a 2 px accent ring offset 3 px.</p>
+
+  <h3>Button</h3>
+  <div class="state-grid" role="table" aria-label="Button states">
+    <div role="row" class="state-row state-head"><span role="columnheader"></span>{states.map((st) => <span role="columnheader" class="label">{st.label}</span>)}</div>
+    {variants.map((v) => (
+      <div role="row" class="state-row">
+        <span role="rowheader" class="label">{v}</span>
+        {states.map((st) => <span role="cell"><button type="button" class={`btn btn--${v} ${st.cls}`} disabled={st.disabled} tabindex="-1">{v === 'primary' ? 'Start' : 'Review'}</button></span>)}
+      </div>
+    ))}
+    <div role="row" class="state-row">
+      <span role="rowheader" class="label">icon</span>
+      {states.map((st) => (
+        <span role="cell"><button type="button" class={`btn btn--icon btn--secondary ${st.cls}`} disabled={st.disabled} tabindex="-1" aria-label="Search">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="9" cy="9" r="5.5" /><path d="m13 13 4 4" stroke-linecap="round" /></svg>
+        </button></span>
+      ))}
+    </div>
+  </div>
+  <p class="demo-caption">The accent is reserved for one primary action per viewport; it appears here only to document the state.</p>
+
+  <h3>Chip</h3>
+  <div class="demo-row">
+    {states.map((st) => <button type="button" class={`chip ${st.cls}`} disabled={st.disabled} tabindex="-1">{st.label}</button>)}
+    <button type="button" class="chip" aria-pressed="true" tabindex="-1">Selected</button>
+    <a class="chip chip--case" href="/cases/donoghue-v-stevenson" tabindex="-1">Donoghue v Stevenson</a>
+  </div>
+
+  <h3>Card</h3>
+  <div class="card-grid">
+    <a class="card" href="/laws2400" data-tilt><p class="card__label">Rest · tilt in full motion</p><p class="card__title">LAWS2400 Torts</p><p>Hover to tilt (≤ 3°) with a highlight that follows the cursor.</p></a>
+    <a class="card is-hover" href="/laws2400" tabindex="-1"><p class="card__label">Hover</p><p class="card__title">Week 1</p><p>Lifts 2 px; shadow grows.</p></a>
+    <a class="card is-focus" href="/laws2400" tabindex="-1"><p class="card__label">Focus</p><p class="card__title">Week 2</p><p>Accent ring, offset 3 px.</p></a>
+    <div class="card" aria-disabled="true"><p class="card__label">Disabled</p><p class="card__title">Week 12</p><p>Not ingested yet.</p></div>
+  </div>
+
+  <h3>Tabs</h3>
+  <div class="tabs__list" aria-hidden="true">
+    <span class="tabs__tab" aria-selected="true">Selected</span><span class="tabs__tab is-hover">Hover</span><span class="tabs__tab is-active">Active</span><span class="tabs__tab is-focus">Focus</span><span class="tabs__tab" aria-disabled="true" style="color: var(--ink-3)">Disabled</span>
+  </div>
+
+  <h3>Quiz option</h3>
+  <div class="demo-options" aria-hidden="true">
+    <span class="option">Rest</span><span class="option is-hover">Hover</span><span class="option is-focus">Focus</span>
+    <span class="option" data-state="correct">Correct — sage sweep, left to right</span>
+    <span class="option" data-state="incorrect" style="animation: none">Incorrect — shake, then a clay hairline</span>
+    <span class="option" style="color: var(--ink-2)">Disabled</span>
+  </div>
+
+  <h3>Toast</h3>
+  <div class="toast toast--static">Saved. 12 cards due tomorrow. <span style="flex:1"></span><span class="btn">Undo</span></div>
+
+  <h3>Kbd</h3>
+  <p><kbd class="kbd">⌘</kbd> <kbd class="kbd">K</kbd> · <kbd class="kbd">Ctrl</kbd> <kbd class="kbd">K</kbd> · <kbd class="kbd">?</kbd></p>
+
+  <h3>Interactive</h3>
+  <ComponentsDemo client:visible />
+
+  <h2 id={id('Glass')}>Glass</h2>
+  <p>A warm paper tint over an 18px backdrop blur at 140% saturation, with a hairline edge and a top highlight. It is on the header, the contents rail, the palette, popovers, toasts, unit and concept cards on hover or open, and the session pills — never behind prose. At most three glass layers in a viewport; off in the intro and pinned scenes. Below <code>--glass-text-backing</code> (0.5) a paper layer tops the surface up so its text keeps 4.5:1.</p>
+  <div class="glass-specimens">
+    {(['light', 'dark'] as const).map((t) => (
+      <div class="glass-specimens__theme" data-theme-sample={t}>
+        <p class="label">{t === 'light' ? 'Light' : 'Dark (lamp-lit)'}</p>
+        <div class="glass-specimens__row">
+          {glassLevels.map((o) => (
+            <div class="glass-specimens__stage">
+              <p class="glass-specimens__behind" aria-hidden="true">{behind}</p>
+              <div class="glass glass-specimens__pane" style={`--glass-opacity:${o}`}><span class="mono">{o}</span><span>Glass at {Math.round(o * 100)}%</span></div>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <h2 id={id('Chrome')}>Chrome</h2>
+  <h3>Contents rail</h3>
+  <p>Pages with sections carry an “On this page” rail. Open, the reading column sits left of centre; hidden, it recentres. <kbd class="kbd">]</kbd> or the tab toggles it; below 1024px the tab opens the list as a popover.</p>
+  <div class="rail-specimens">
+    {(['open', 'collapsed'] as const).map((r) => (
+      <figure class="rail-specimens__frame" data-rail-sample={r}>
+        <div class="rail-specimens__page" aria-hidden="true">
+          <span class="rail-specimens__col"></span>
+          <span class="rail-specimens__tab"></span>
+          <span class="rail-specimens__rail"></span>
+        </div>
+        <figcaption>{r === 'open' ? 'Open (default at 1280px and wider)' : 'Hidden: the column recentres'}</figcaption>
+      </figure>
+    ))}
+  </div>
+  <h3>≡ menu</h3>
+  <p>Every unit, week and tool on solid paper, so any week is two clicks away. A collapsed unit shows its week numbers (notes in: link; not in yet: dashed, not a link); expanded, each week is a titled row with a mastery ring and its due cards. This page: accent-soft with an accent edge. Rows are at least 44 px and nothing is smaller than body text. <kbd class="kbd">M</kbd> opens it.</p>
+  <div class="sheet-specimen navsheet">
+    <ol class="navsheet__chips" aria-label="Specimen weeks">
+      <li><a class="navsheet__chip" href="#chrome">1</a></li>
+      <li><a class="navsheet__chip" href="#chrome" aria-current="page">2</a></li>
+      <li><span class="navsheet__chip navsheet__chip--off">3</span></li>
+    </ol>
+    <ol class="navsheet__rows" aria-label="Specimen rows">
+      <li><a class="navsheet__row" href="#chrome"><span class="navsheet__num" aria-hidden="true">1</span><span class="navsheet__row-text">A week title long enough to wrap onto a second line<span class="navsheet__due">3 cards due</span></span><span aria-hidden="true"></span></a></li>
+      <li><a class="navsheet__row" href="#chrome" aria-current="page"><span class="navsheet__num" aria-hidden="true">2</span><span class="navsheet__row-text">This page</span><span aria-hidden="true"></span></a></li>
+      <li><span class="navsheet__row navsheet__row--off"><span class="navsheet__num" aria-hidden="true">3</span><span>Week 3 · not in yet</span></span></li>
+    </ol>
+  </div>
+  <h3>Theme and motion pills</h3>
+  <p>Beside each other in the header (and mirrored in the ≡ menu footer and Settings). These copies are live.</p>
+  <div class="pill-specimens"><ThemeDial name="theme-specimen" /><MotionDial name="motion-specimen" /></div>
+
+  <h2 id={id('Cursor')}>Cursor</h2>
+  <p>Fine pointer and Motion: Full only. The outer ring and dot carry translate only; every state below is drawn by inner shapes (see CLAUDE.md), so a click never shifts the ring.</p>
+  <div class="cursor-specimens">
+    {cursorStates.map((c) => (
+      <figure class="cursor-specimens__stage">
+        <div class={`cursor-sample${c.down ? ' is-down' : ''}`} data-state={c.state} aria-hidden="true">
+          <div class="cursor-ring"><span class="cursor-ring__shape"></span><span class="cursor-ring__square"></span><span class="cursor-ring__drag">drag</span></div>
+          <div class="cursor-dot"><span class="cursor-dot__shape"></span><span class="cursor-dot__beam"></span></div>
+        </div>
+        <figcaption>{c.label}</figcaption>
+      </figure>
+    ))}
+  </div>
+
+  <h2 id={id('Other tokens')}>Other tokens</h2>
+  <table>
+    <tbody>{other.map((m) => <tr><td><code>--{m.name}</code></td><td class="mono">{m.value}</td></tr>)}</tbody>
+  </table>
+
+</Layout>
+
+<style>
+  .swatches { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: var(--s-4); max-width: none; }
+  .swatches li { display: grid; gap: var(--s-1); font-family: var(--font-ui); font-size: var(--t-xs); }
+  .swatch { display: block; height: 56px; border-radius: var(--r-md); border: 1px solid var(--line); }
+  .type-scale { display: grid; gap: var(--s-3); margin-bottom: var(--s-6); }
+  .type-row { display: grid; grid-template-columns: 7rem 1fr; align-items: baseline; gap: var(--s-4); overflow: hidden; }
+  .type-row span { font-family: var(--font-display); font-weight: 600; letter-spacing: var(--track-display); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .spacing { list-style: none; padding: 0; display: grid; gap: var(--s-2); }
+  .spacing li { display: grid; grid-template-columns: 9rem 1fr; align-items: center; gap: var(--s-4); }
+  .spacing .bar { display: block; height: 12px; background: var(--paper-3); border-radius: 2px; max-width: 100%; }
+  .radii { display: flex; flex-wrap: wrap; gap: var(--s-5); margin-bottom: var(--s-6); }
+  .radius { width: 112px; height: 80px; background: var(--paper-2); border: 1px solid var(--line); display: grid; place-items: end start; padding: var(--s-2); }
+  .shadow { box-shadow: var(--shadow); border-radius: var(--r-lg); }
+  .grid-demo { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--s-2); margin-bottom: var(--s-6); }
+  .grid-demo span { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--r-sm); text-align: center; font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); padding-block: var(--s-4); }
+  td.mono { overflow-wrap: anywhere; }
+  .state-grid { display: grid; gap: var(--s-3); margin-bottom: var(--s-4); overflow-x: auto; padding: var(--s-2) var(--s-1); }
+  .state-row { display: grid; grid-template-columns: 5.5rem repeat(5, 6.5rem); gap: var(--s-4); align-items: center; }
+  .state-head { align-items: end; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: var(--s-5); margin-bottom: var(--s-6); }
+  .card-grid .card p:not(.card__label):not(.card__title) { font-size: var(--t-sm); color: var(--ink-2); }
+  .glass-specimens { display: grid; gap: var(--s-4); margin-bottom: var(--s-6); }
+  .glass-specimens__theme { padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper); color: var(--ink); }
+  .glass-specimens__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: var(--s-3); }
+  .glass-specimens__stage { position: relative; height: 112px; overflow: hidden; border-radius: var(--r-md); }
+  .glass-specimens__behind { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: var(--t-lg); line-height: 1.2; color: var(--ink); }
+  .glass-specimens__pane { position: absolute; inset: var(--s-4) var(--s-3); display: flex; gap: var(--s-2); align-items: center; padding-inline: var(--s-3); border-radius: var(--r-md); background: var(--paper-2); font-family: var(--font-ui); font-size: var(--t-sm); }
+  .rail-specimens { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: var(--s-4); margin: 0 0 var(--s-6); }
+  .rail-specimens__frame { margin: 0; font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+  .rail-specimens__page { position: relative; display: block; height: 120px; margin-bottom: var(--s-2); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper); }
+  .rail-specimens__page > span { position: absolute; top: 14px; bottom: 14px; border-radius: var(--r-sm); }
+  .rail-specimens__col { left: 12%; width: 50%; background: repeating-linear-gradient(var(--paper-3) 0 4px, transparent 4px 10px); }
+  .rail-specimens__rail { right: 6%; width: 20%; background: var(--paper-2); border: 1px solid var(--line); }
+  .rail-specimens__tab { right: calc(26% + 6px); width: 10px; height: 10px; bottom: auto; border: 1px solid var(--line); background: var(--paper); }
+  [data-rail-sample='collapsed'] .rail-specimens__col { left: 25%; }
+  [data-rail-sample='collapsed'] .rail-specimens__rail { display: none; }
+  [data-rail-sample='collapsed'] .rail-specimens__tab { right: 6%; }
+  .sheet-specimen { max-width: 26rem; margin-bottom: var(--s-6); padding: var(--s-3) var(--s-5); border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper); font-family: var(--font-ui); font-size: var(--t-body); line-height: 1.45; }
+  .pill-specimens { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-bottom: var(--s-6); }
+  .cursor-specimens { display: grid; grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr)); gap: var(--s-3); margin: 0 0 var(--s-6); }
+  .cursor-specimens__stage { position: relative; height: 112px; margin: 0; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper); }
+  .cursor-specimens__stage figcaption { position: absolute; left: var(--s-2); bottom: var(--s-2); font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+  .cursor-specimens__stage .cursor-ring, .cursor-specimens__stage .cursor-dot { position: absolute; top: 44%; left: 50%; z-index: auto; opacity: 1; will-change: auto; }
+</style>

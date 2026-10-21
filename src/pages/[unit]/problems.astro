@@ -1,0 +1,59 @@
+---
+// Problems index: the unit's problem questions that have fact annotations, each with its first sentence, its issues
+// and a link to work its facts (src/pages/[unit]/problem/[id].astro).
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { units, questionsOf } from '../../lib/content';
+import { firstSentence, problemHref } from '../../lib/problem';
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const questions = new Map((await questionsOf(u.id)).map((q) => [q.id, q]));
+const items = (await getCollection('facts', (f) => f.data.unit === u.id))
+  .sort((a, b) => a.data.question.localeCompare(b.data.question))
+  .flatMap((f) => {
+    const q = questions.get(f.data.question);
+    return q && (q.data.type === 'long' || q.data.type === 'short') ? [{ f, prompt: q.data.prompt }] : [];
+  })
+  .map(({ f, prompt }, i) => ({
+    n: i + 1,
+    href: problemHref(u.id, f.data.question),
+    first: firstSentence(prompt),
+    issues: f.data.issues.map((x) => x.label),
+    facts: f.data.facts.length,
+    essential: f.data.facts.filter((x) => x.weight === 'essential').length,
+  }));
+---
+
+<Layout title={`${u.data.code} problem questions`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Problems' }]} />
+  <h1 data-split>Problem questions</h1>
+  <p class="pq-index__lede">Work a problem's facts before you write: spot what matters one fact at a time, see the whole prompt in layers, then pin each fact to the requirement it proves.</p>
+  {items.length ? (
+    <ol class="pq-index__list">
+      {items.map((it) => (
+        <li class="pq-index__item">
+          <p class="label">Problem {it.n} · {it.facts} facts, {it.essential} essential</p>
+          <p class="pq-index__first">{it.first}</p>
+          <p class="pq-index__issues"><span class="visually-hidden">Issues: </span>{it.issues.join(' · ')}</p>
+          <a class="btn btn--secondary btn--sm" href={it.href} aria-label={`Work the facts of problem ${it.n}`}>Work the facts</a>
+        </li>
+      ))}
+    </ol>
+  ) : (
+    <p class="pq-index__empty">No problem questions are annotated for this unit yet. They appear here as the annotations arrive.</p>
+  )}
+</Layout>
+
+<style>
+  .pq-index__lede { color: var(--ink-2); }
+  .pq-index__list { list-style: none; padding: 0; margin: var(--s-6) 0 0; display: grid; gap: var(--s-2); }
+  .pq-index__item { display: grid; gap: var(--s-2); justify-items: start; padding: var(--s-5) 0; border-top: 1px solid var(--line); }
+  .pq-index__item > p { margin: 0; }
+  .pq-index__first { font-size: var(--t-lg); line-height: 1.35; text-wrap: pretty; }
+  .pq-index__issues { font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink-2); }
+  .pq-index__item .btn { margin-top: var(--s-2); }
+  .pq-index__empty { color: var(--ink-2); }
+</style>

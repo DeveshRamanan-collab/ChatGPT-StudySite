@@ -1,0 +1,675 @@
+unit: laws2100
+week: 9
+source: raw/laws2100-juris/week-09
+generator: aids-1
+aids:
+  - concept: laws2100-w09-will-and-interest-theories
+    plain: A human right is first a right. On the will theory you have a right when you control what others must do; on the interest theory, when it protects an important interest of yours.
+    concrete: 'Sign a contract with someone, the lecture says, and you both gain rights and obligations that exist only because you created them. You can insist that the other side perform, or let them off: that fits the will theory. Now take an infant. She cannot exercise choice the way an adult can. Does she have no rights? The interest theory says she does: her rights protect important interests in her well-being.'
+    formal: 'Slide 5: will theory: a person has a right if they have control or choice over whether others must or must not act in certain ways; rights are tools for exercising free will (autonomy). Interest theory: a person has a right if it serves to protect an important interest; rights promote or safeguard well-being (welfare). Human rights: plural, universal, high-priority; UDHR art 2: ''Everyone is entitled…without distinction of any kind''.'
+    analogy:
+      text: 'A will-theory right is like holding the remote: you decide whether the channel changes. An interest-theory right is like a seatbelt: it protects the passenger, even a baby who chooses nothing.'
+      maps:
+        - from: holding the remote
+          to: control or choice over whether others must or must not act
+        - from: deciding whether the channel changes
+          to: insisting on performance of a contract, or releasing the other party
+        - from: the seatbelt protecting the passenger
+          to: a right protecting an important interest in the holder's well-being
+        - from: the baby who chooses nothing
+          to: the lecture's infant, who cannot exercise choice yet has rights
+      limits:
+        - 'Neither image says where a right''s authority comes from: whether it is a moral right, a legal right or both is the separate authority issue.'
+    terms:
+      - term: Will theory
+        gloss: A person has a right if they have control or choice over whether others must or must not act in certain ways; its value is autonomy (slide 5).
+        example: A party to a contract who may insist on performance or release the other side.
+      - term: Interest theory
+        gloss: A person has a right if it serves to protect an important interest; rights are justified by promoting or safeguarding well-being (welfare).
+        example: An infant's rights, which protect her well-being though she cannot choose.
+      - term: Universality
+        gloss: Human rights claim to apply to each and every human being; a contract binds only its parties.
+      - term: High priority
+        gloss: Human rights have priority over the 'general interest' (slide 5). Constitutional rights also have priority, but a right can be constitutional without being a human right.
+    misconceptions:
+      - claim: The lecture's infant example is aimed at the interest theory.
+        tempting: Others must judge an infant's interests for her, so that theory sounds strained.
+        correction: 'It targets the will theory, which ties rights to control or choice: an infant cannot exercise choice as adults can. The interest theory handles infants through welfare.'
+      - claim: Every constitutional right is a human right, since both have high priority.
+        tempting: Both outrank ordinary legal requirements.
+        correction: 'The lecture: a right can be constitutional without being a human right, and a human right need not be constitutional. Priority alone does not make a right human.'
+      - claim: A lease or contract right is not really a right, because it is not universal.
+        tempting: Universality is listed as a feature of rights on slide 5.
+        correction: Universality separates human rights from other rights; it does not stop contractual rights being rights. Many legal rights exist simply because we create them, eg by signing a contract (lecture).
+    socratic:
+      - ask: Before asking what a human right is, what must we ask first?
+        hint: Human rights are ___.
+        answer: What a right is. Human rights are rights, and many legal rights, such as contractual ones, exist not because they are human rights but because we create them.
+      - ask: Under a contract you can insist that the other side perform, or release them. What does that suggest a right is?
+        hint: Control.
+        answer: 'The will theory: a person has a right if they have control or choice over whether others must act; rights are tools for exercising free will (autonomy).'
+      - ask: Does a six-month-old infant have rights on that view?
+        hint: Can she choose?
+        answer: 'The will theory struggles: she cannot exercise choice as adults can. That is the lecture''s objection: the theory may focus too much on control.'
+      - ask: What would let us say the infant has rights?
+        hint: Move the focus from autonomy to…
+        answer: 'The interest theory: a person has a right if it serves to protect an important interest of theirs. The focus is welfare, not autonomy.'
+      - ask: What then makes some rights human rights?
+        hint: Three features on slide 5, and slide 7.
+        answer: They are plural (which set?), universal (every human being, not just the parties to a contract) and high-priority over the 'general interest'. They protect our fundamental interests as human beings.
+    what-if:
+      - change: The right-holder is an adult party to a contract, not an infant.
+        effect: 'Both theories now fit: she controls the other party''s duty (will theory) and the right protects her interest (interest theory). It binds only the parties, so it is not a human right.'
+      - change: A right is entrenched in a constitution but is not claimed for every human being.
+        effect: 'As a constitutional right it has priority over other legal requirements, but universality is missing, so it is not a human right. The lecture: a right can be constitutional without being human.'
+    boundary:
+      - text: Robots or human artefacts with an intelligence comparable to ours.
+        why: Human rights rest on an idea of humanity, but the lecture notes that biology alone leaves the line between us, other species and intelligent artefacts unclear.
+      - text: The right to self-determination.
+        why: A human right held by a group, not an individual (slide 7). The idea of human rights first focused on individual rights, yet groups claim collective rights too.
+    transfer:
+      - scenario: A care-home resident with advanced dementia can no longer make choices about her daily life. Her family asks whether she still holds any rights against the home.
+        answer: 'On the will theory, rights depend on control or choice, so her rights are hard to explain: the lecture''s infant problem. On the interest theory she holds rights because they protect important interests in her well-being. Any human rights she holds do not depend on capacity: they are universal, applying to every human being.'
+    objections:
+      - position: 'Rights are tools for exercising free will: a person has a right if they have control or choice over others'' duties (will theory).'
+        evidence: 'Contractual rights: a party can insist on performance or release the other side (slide 5; lecture).'
+        objection: It focuses too much on control. An infant cannot exercise choice as adults can; does that mean she has no rights? (lecture)
+      - position: 'Human rights are universal (UDHR art 2: ''Everyone is entitled…without distinction of any kind'').'
+        evidence: Unlike contractual rights, which bind only the parties, they capture the fundamental interests we share as human beings (slide 7).
+        objection: 'What makes us human is hard to define: biology alone leaves the line between us, other species and intelligent artefacts unclear (lecture).'
+    sources:
+      - Week 09 - Lecture Slides (slides 5, 7)
+      - Week 09 - Lecture Transcript (first half)
+  - concept: laws2100-w09-hohfeldian-incidents
+    plain: 'Hohfeld splits ''right'' into four positions: claim (someone owes me a duty), privilege (I have no duty not to act), power (I can change your position), immunity (you cannot change mine).'
+    concrete: 'Take the lecture''s example of rights we create: you and I sign a contract. You are under a duty to me to deliver the goods, so I hold a claim-right against you. Nothing obliges me not to inspect them on arrival: a privilege. If I can release you from your duty, I hold a power over your position. If you cannot alter my entitlement on your own, I hold an immunity against you.'
+    formal: 'Hohfeld (1879–1918), slide 6: X has a claim-right against Y with respect to φ iff Y is under a duty to X to φ; a privilege to φ iff X has no duty not to φ; a (normative) power over Y iff X can alter, through volitional action, Y''s normative position; an immunity against Y iff Y lacks the ability to alter X''s Hohfeldian incidents.'
+    terms:
+      - term: Claim-right
+        gloss: X has a claim-right against Y with respect to φ if and only if Y is under a duty to X to φ.
+        example: 'Under a lease, the landlord must repair the roof: the tenant holds a claim-right.'
+      - term: Privilege
+        gloss: X has a privilege to φ if and only if X has no duty not to φ. The definition is silent on whether others must let X φ.
+        example: No law forbids walking on a public beach.
+      - term: Power
+        gloss: X has a (normative) power over Y if and only if X can alter, through volitional action, Y's normative position.
+        example: Making a will changes what the executor will be required to do.
+      - term: Immunity
+        gloss: X holds an immunity against Y (in respect of X's normative position) if and only if Y lacks the ability to alter X's Hohfeldian incidents.
+        example: A constitution bars Parliament from removing freedom of religion.
+    misconceptions:
+      - claim: A privilege means others are under a duty not to interfere with what I do.
+        tempting: We usually think of freedoms as protected.
+        correction: That would be a claim-right against others. On slide 6, X has a privilege to φ iff X has no duty not to φ; the definition says nothing about anyone else's duty.
+      - claim: An immunity is X's ability to alter Y's normative position.
+        tempting: Power and immunity both concern altering positions.
+        correction: 'That is a power. X holds an immunity against Y when Y lacks the ability to alter X''s Hohfeldian incidents: the mirror case.'
+      - claim: 'Hohfeld''s analysis is just the will theory: having a right means controlling others.'
+        tempting: Control sounds like a power.
+        correction: The will theory says what makes something a right (control or choice). Hohfeld shows that 'right' names four distinct positions, of which a power is only one.
+    socratic:
+      - ask: Someone says 'I have a right'. Why is that not yet a precise claim?
+        hint: 'Slide 6: how many positions?'
+        answer: 'Hohfeld identifies four different legal positions within the concept of a ''right'': claim, privilege, power and immunity. We must ask which one is meant, and against whom.'
+      - ask: Which two positions are defined by duties with respect to φ?
+        hint: Whose duty, in each?
+        answer: Claim and privilege. A claim is another's duty owed to me (Y's duty to X to φ); a privilege is the absence of my own duty not to φ.
+      - ask: Which two are defined by the ability to alter normative positions?
+        hint: Changing positions.
+        answer: Power and immunity. A power is my ability to alter your normative position by a volitional act; an immunity is your inability to alter mine.
+      - ask: A constitution says Parliament cannot pass a law removing freedom of religion. What do citizens hold against Parliament?
+        hint: Who cannot change whose position?
+        answer: 'An immunity: Parliament lacks the ability to alter the citizens'' normative position.'
+      - ask: What further distinction does slide 6 set beside the four positions?
+        hint: '''Freedom from'' and ''freedom to''.'
+        answer: 'Negative and positive rights: consider the difference between ''freedom from'' (eg freedom from torture) and ''freedom to''.'
+    elements:
+      - name: Claim-right
+        test: Is Y under a duty owed to X to φ? Then X holds a claim-right against Y.
+        authorities:
+          - hohfeld-four-incidents
+      - name: Privilege
+        test: Does X have no duty not to φ? Then X has a privilege to φ, whatever others may do.
+        authorities:
+          - hohfeld-four-incidents
+      - name: Power
+        test: Can X, by a volitional act, alter Y's normative position? Then X holds a power over Y.
+        authorities:
+          - hohfeld-four-incidents
+      - name: Immunity
+        test: Does Y lack the ability to alter X's Hohfeldian incidents? Then X holds an immunity against Y.
+        authorities:
+          - hohfeld-four-incidents
+    what-if:
+      - change: A statute that let only a minister revoke a licence is amended so local councils may revoke it too.
+        effect: 'The licence-holder loses her immunity against councils: they now have the ability to alter her position, so they hold a power over her. Power and immunity are the mirror pair.'
+      - change: A new law forbids walking on the public beach where Chloe used to walk.
+        effect: 'Chloe now has a duty not to walk there, so her privilege is gone. She never held a claim-right to walk there: nobody owed her a duty.'
+    boundary:
+      - text: Freedom from torture.
+        why: A 'freedom from' (negative right). Slide 6 asks us to contrast it with 'freedom to'; to analyse it, ask which of the four positions it names, and against whom.
+      - text: Human rights as moral rights.
+        why: Hohfeld calls the four 'legal positions'. Whether human rights are moral rights, legal rights or both is the separate authority issue, which his definitions do not settle.
+    transfer:
+      - scenario: University rules say a student may appeal a grade; once an appeal is lodged the registrar must hold a hearing; and the faculty cannot change the grade while the appeal is pending.
+        answer: 'Translate each piece. Lodging an appeal alters the registrar''s position by a volitional act, creating a duty to hold a hearing: a power. Once lodged, the registrar owes the student a hearing: a claim-right. The faculty lacks the ability to alter the student''s grade meanwhile: an immunity against the faculty.'
+    sources:
+      - Week 09 - Lecture Slides (slide 6)
+  - concept: laws2100-w09-rights-and-utilitarian-reasoning
+    plain: 'Human rights take priority over the general interest. So someone truly committed to them cannot reason only by adding up consequences: some acts stay off-limits even when they would maximise happiness.'
+    concrete: 'Police hold a suspect who planted a bomb in a crowded stadium. Torturing him might reveal where it is and save hundreds of lives. An act-utilitarian may justify the torture: in aggregate, happiness rises. Someone truly committed to human rights says it is not acceptable. A harder variant has the suspect talk only if his innocent child is tortured; the point is not the answer but testing our moral intuitions.'
+    formal: 'Slide 5: human rights have priority over the ''general interest''; do they work as ''trumps'' or ''shields''? A true commitment to human rights is incompatible with a certain type of utilitarian reasoning: act-utilitarianism and the principle of utility (the greatest happiness for the greatest number). Waldron (The Law: Theory and Practice in British Politics, 1990) distinguishes act, rule and indirect utilitarianism, finding compatibility in the last.'
+    analogy:
+      text: In a card game a trump beats any card of an ordinary suit, however high. A right treated as a trump beats appeals to the general interest, however large the gain.
+      maps:
+        - from: the trump card
+          to: the right
+        - from: a high card of an ordinary suit
+          to: a large gain in general welfare or happiness
+        - from: playing the trump takes the trick
+          to: the right cuts off the utilitarian calculation
+      limits:
+        - 'Only a few cards are trumps: if every claim were a right, the category would lose its point (the rhetoric critique).'
+        - Limitation clauses and proportionality let many rights be weighed and partly limited; not every right plays like a trump.
+    terms:
+      - term: Act-utilitarianism
+        gloss: 'Judging each action by its consequences under the principle of utility: the greatest happiness for the greatest number. Utilitarianism is a form of consequentialism.'
+        example: 'Is lying wrong? A consequentialist needs more information: what will this lie bring about?'
+      - term: Deontological reasoning
+        gloss: 'Crudely, the opposite of consequentialism: it judges an action by the principles that lie behind it, not by its consequences (lecture).'
+      - term: Rule utilitarianism
+        gloss: Judging the rules that govern actions, not single acts, by whether they increase the general happiness or welfare (lecture).
+      - term: Indirect utilitarianism
+        gloss: For utilitarian reasons, we create structures in which officials are asked to refrain from utilitarian reasoning and to respect rights (Waldron, as the lecture presents him).
+    misconceptions:
+      - claim: Trumps are Schauer's image of rights and shields are Dworkin's.
+        tempting: The two images are easy to swap.
+        correction: 'The lecture attributes trumps to Dworkin and shields to Schauer. Either way, rights disrupt a certain kind of reasoning: they take priority over the general interest.'
+      - claim: Waldron holds that rights and utilitarian reasoning can never be combined.
+        tempting: The lecture stresses the clash between them.
+        correction: 'He finds compatibility in indirect utilitarianism: for utilitarian reasons, officials are asked to refrain from utilitarian reasoning and to respect rights.'
+      - claim: Utilitarian reasoning has no proper place in law or public policy.
+        tempting: Rights are set against it on slide 5.
+        correction: 'The lecture accepts that balancing interests often makes sense in public policy. The danger is pure majoritarianism: a majority could justify banning a minority''s religion.'
+    socratic:
+      - ask: How does an act-utilitarian decide whether an action is right?
+        hint: Consequences, measured by what?
+        answer: 'By its consequences under the principle of utility: does it promote the greatest happiness for the greatest number? Utilitarianism is a form of consequentialism.'
+      - ask: Apply that to the ticking bomb. What follows?
+        hint: One suspect against hundreds of lives.
+        answer: 'Torturing the suspect may be justified: saving hundreds of lives increases aggregate happiness more than sparing one person does.'
+      - ask: What does someone truly committed to human rights say, and why?
+        hint: 'Slide 5: priority over the general interest.'
+        answer: Torture is not acceptable, even to save lives. Rights have priority over the general interest; as trumps or shields, they disrupt utilitarian reasoning.
+      - ask: A majority is disturbed by a minority's religion. Why can pure utility not defend the minority?
+        hint: Count the preferences.
+        answer: 'In purely utilitarian terms, the majority''s preferences could justify a ban. Resisting it needs other reasons: reasons that value the minority''s rights.'
+      - ask: Can rights and utility ever work together?
+        hint: Waldron's third kind of utilitarianism.
+        answer: 'Indirect utilitarianism: for utilitarian reasons, we build structures in which officials do not reason as utilitarians but respect rights.'
+    what-if:
+      - change: A government rules that interrogators may never torture, because such a rule gives the best results overall.
+        effect: 'This is indirect utilitarianism, not a trump: officials are told not to calculate, but the reason given is utilitarian. The outcome matches the rights view; the justification differs.'
+      - change: The suspect will talk only if his innocent child is tortured.
+        effect: A thorough consequentialist may still call it justifiable, given the lives saved. The variant sharpens the dilemma to test our intuitions; the rights answer does not depend on guilt.
+    boundary:
+      - text: The interrogation 'five techniques' used by the British army during the Troubles in Northern Ireland (Waldron's chapter).
+        why: 'Whether they amounted to torture drew different legal answers, but either way rights were violated: the lecture uses the case to show the tension between rights and utility.'
+      - text: A limitation clause that lets courts weigh a right against a public purpose.
+        why: Proportionality weighs the right; a trump simply prevails. Limitation clauses show that not every right is treated as beyond balancing (slides 18–21).
+    transfer:
+      - scenario: A town council could raise residents' overall happiness by banning a small group's weekly religious procession, which most residents dislike.
+        answer: An act-utilitarian counts preferences, so the ban may be justified. On the rights view, freedom of religion has priority over the general interest; defending the group needs reasons that value its rights, as in the lecture's minority example. An indirect utilitarian might add that, for utilitarian reasons, officials should respect such rights rather than calculate case by case.
+    objections:
+      - position: A true commitment to human rights is incompatible with a certain type of utilitarian reasoning (slide 5).
+        evidence: 'Ticking bomb: an act-utilitarian may justify torture to save many lives; the rights view refuses. Minority religion: utility alone could justify a ban.'
+        objection: 'Balancing interests often makes sense: in many issues of public policy we rightly weigh the welfare of the majority (lecture).'
+        reply: The point is not to banish utility but to resist pure majoritarianism where it creates situations we think unjust (lecture).
+      - position: Rights and utilitarianism can be combined (Waldron).
+        evidence: 'Indirect utilitarianism: for utilitarian reasons, structures ask officials to refrain from utilitarian reasoning and respect rights.'
+        objection: 'The justification is still overall results, so rights here are not trumps: the reasoning stays utilitarian, even where the outcome matches the rights view.'
+    storyboard:
+      - caption: A bomb in a stadium
+        detail: A suspect knows where it is; hundreds or thousands of lives are at stake.
+      - caption: The act-utilitarian sums
+        detail: 'Harm to one person against lives saved: in aggregate, torture may increase happiness.'
+      - caption: The rights answer
+        detail: Someone truly committed to human rights says torture is not acceptable, whatever the numbers.
+      - caption: The innocent child variant
+        detail: The dilemma is sharpened to test our moral intuitions, not to find the solution.
+      - caption: Waldron's indirect route
+        detail: For utilitarian reasons, officials are asked not to reason as utilitarians, and to respect rights.
+    sources:
+      - Week 09 - Lecture Slides (slide 5)
+      - Week 09 - Lecture Transcript (first half)
+      - Week 09 - Lecture Transcript (second half)
+    verify: true
+  - concept: laws2100-w09-moral-and-legal-rights
+    plain: A right can be moral, legal or both. Law may fail to recognise a moral right, and a right written into law may never be put into practice.
+    concrete: Where slavery was legal and regulated, enslaved people had no legal right not to be enslaved. Did they still have a moral right? The lecture says that positive law's failure to recognise a moral requirement does not mean the requirement does not exist, but the moral claim then needs its own justification. Later, some people changed their moral views, and the legal system followed.
+    formal: 'Slide 8: are human rights moral rights, legal rights, or both? For legal rights, authoritative sources help: a constitutional Bill of Rights, eg South Africa s 39(1) (courts must promote the values of an open and democratic society based on human dignity, equality and freedom; must consider international law; may consider foreign law). Slide 17: ''positivisation'' from moral to legal rights; no bill of rights in Australia''s Federal Constitution.'
+    analogy:
+      text: 'A right recognised but never implemented is like a timetable for a railway that was never built: printed, official, and no help to anyone waiting on the platform.'
+      maps:
+        - from: the printed timetable
+          to: a right recognised in a constitution or treaty
+        - from: the railway never built
+          to: the missing implementation
+        - from: people waiting on the platform
+          to: right-holders who gain nothing in practice
+      limits:
+        - A timetable for no train is simply false; a paper right is still law in books, and an unincorporated treaty may still be persuasive or aid interpretation (lecture).
+    terms:
+      - term: Positivisation
+        gloss: 'Transforming moral rights into legal rights, in domestic and international law: from natural law to positive law (slide 17).'
+      - term: Paper rights
+        gloss: 'Rights recognised in a constitution or treaty but never implemented: law in books, not law in action (lecture, recalling legal realism).'
+      - term: Bill of Rights
+        gloss: Rights recognised in a constitution, high in the hierarchy of legal sources, so protected against ordinary legislation. The Australian Federal Constitution has none.
+        example: Articles 1–19 of the Basic Law for the Federal Republic of Germany.
+    misconceptions:
+      - claim: If positive law does not recognise a moral requirement, the requirement does not exist.
+        tempting: 'Bentham''s view: the only real rights are legal rights.'
+        correction: 'The lecture: non-recognition in positive law does not mean the moral requirement does not exist. But the moral claim then needs its own moral justification.'
+      - claim: Australia's Constitution protects rights through a bill of rights, like Germany's Basic Law.
+        tempting: Articles 1–19 sit on the same slide.
+        correction: 'Slide 17: no bill of rights in the Federal Constitution. The lecture: courts, Parliament and the common law protect basic rights; the Vic and Qld acts mimic the UK Human Rights Act.'
+      - claim: Once Australia signs a human rights treaty, the treaty is part of domestic law.
+        tempting: Signing looks like legal adoption.
+        correction: 'The lecture: in a dual system like Australia''s, international recognition does not automatically become domestic law, though it may be persuasive or aid interpretation.'
+    socratic:
+      - ask: Are human rights moral rights, legal rights, or both?
+        hint: 'Slide 8: the authority issue.'
+        answer: The question is open. Rights language expresses moral claims and legal entitlements alike; human rights may be legal rights that track moral ones.
+      - ask: Why is the authority question easier for legal rights?
+        hint: Where does a lawyer look?
+        answer: 'Authoritative legal sources exist: many constitutions (not Australia''s) include a Bill of Rights, high in the hierarchy of sources. South Africa''s s 39(1) even directs how to read it.'
+      - ask: When slavery was legal, did enslaved people have a right not to be enslaved?
+        hint: Legal or moral?
+        answer: No legal right; arguably a moral right. Positive law's silence does not show the moral requirement is absent, but the moral claim needs justification.
+      - ask: How does a moral right become a legal one?
+        hint: Slide 17.
+        answer: 'Positivisation: from natural law to positive law, from moral to legal rights, in domestic and international law. Constitutional protection then shields rights from ordinary legislation.'
+      - ask: A right sits in a constitution but is never enforced. What is it?
+        hint: Law in books.
+        answer: 'A paper right: recognised but not implemented. Recognition sits between two problems: implementation in practice, and the foundations that explain why we recognise the right.'
+    what-if:
+      - change: South Africa's s 39(1) said courts 'may' consider international law, rather than 'must'.
+        effect: International law would become optional, like foreign law under s 39(1)(c). As written, the provision makes international law mandatory, tying interpretation of the Bill of Rights more closely to it.
+      - change: A right in a treaty Australia has signed is enacted in a federal statute.
+        effect: 'The right is positivised in domestic law: a legal right from an authoritative source. With no federal bill of rights, it still lacks constitutional protection against later ordinary legislation.'
+    boundary:
+      - text: Freedom from slavery, which many now see as an absolute right.
+        why: Legal systems once accepted and regulated slavery, so the claim that it is absolute flies in the face of our history, and raises the foundational question of moral rights (lecture).
+      - text: Finnis, Natural Law and Natural Rights (1980), on positive law.
+        why: 'Even natural lawyers see the gap: human authorities must translate general principles of morality and justice into workable rules (the lecture''s reading of Finnis).'
+    transfer:
+      - scenario: A country's constitution guarantees a right to adequate housing, but no law, agency or budget gives it effect, and courts decline to hear claims under it.
+        answer: 'A paper right: recognised in the highest legal source but not implemented, law in books rather than law in action. Its authority as a legal right is clear; the gap is implementation. Whether people had a moral right to housing before it was written down is a separate question, needing a moral justification.'
+    objections:
+      - position: Only legal rights exist; natural rights are 'nonsense upon stilts' (Bentham).
+        evidence: Legal rights are enforceable in court; for Bentham positive law is real and natural law wishful thinking (the lecture's reading).
+        objection: 'Where slavery was legal, enslaved people arguably still had a moral right not to be enslaved: non-recognition in law does not show non-existence (lecture).'
+      - position: Constitutional protection is the strongest form of legal recognition of rights.
+        evidence: The constitution is the highest legal source, so its rights resist ordinary legislation (eg Germany's Basic Law, Articles 1–19).
+        objection: 'Recognition is not enough: unimplemented constitutional rights are paper rights, law in books rather than law in action (lecture).'
+    storyboard:
+      - caption: Slavery legal and regulated
+        detail: 'The legal system accepts slavery and regulates it: no legal right not to be enslaved.'
+      - caption: A moral right without legal form
+        detail: Arguably a moral right remained; the claim needs its own moral justification.
+      - caption: Moral views change
+        detail: At some point some people changed their moral views about slavery.
+      - caption: The law follows
+        detail: 'The legal system changed how it regulated and sanctioned slavery: from moral right toward legal right.'
+      - caption: Recognition, then implementation
+        detail: A right written into law must still be implemented, or it stays a paper right.
+    sources:
+      - Week 09 - Lecture Slides (slides 8, 12, 17)
+      - Week 09 - Lecture Transcript (first half)
+      - Week 09 - Lecture Transcript (second half)
+  - concept: laws2100-w09-generations-and-history-of-human-rights
+    plain: 'Human rights came in three generations: civil and political; social, economic and cultural; then group or ''solidarity'' rights. Their legal history runs from national documents to the universal UDHR (1948).'
+    concrete: 'Compare two rights. Equality before the law is a first-generation right: a legal system can build institutions, rules and principles to protect it. The right to a healthy environment is third generation, a group or solidarity right. The lecture calls such rights more problematic in authority, justification and implementation: it is much harder to move from recognising them to implementing them.'
+    formal: 'Slide 9: first generation, civil and political (life, equality before the law, speech, religion, property, fair trial, voting); second, social, economic and cultural (employment under just conditions, food, housing, health care); third, group and collective ''solidarity'' rights (self-determination, development, healthy environment, natural resources, intergenerational equity). Slide 11: Magna Carta (1215) to the UK Human Rights Act 1998; UDHR 1948; ICCPR and ICESCR 1966.'
+    terms:
+      - term: First-generation rights
+        gloss: Civil and political rights, eg life, equality before the law, freedom of speech and religion, property, a fair trial, voting (slide 9).
+      - term: Second-generation rights
+        gloss: Social, economic and cultural rights, eg to be employed (under just conditions), to food, to housing and to health care.
+      - term: Solidarity rights
+        gloss: Some commentators' name for third-generation group and collective rights, eg self-determination, a healthy environment, intergenerational equity and sustainability.
+      - term: UDHR (1948)
+        gloss: A declaration without real binding force, proclaimed as a 'common standard of achievement'; unlike earlier national documents, it puts universality at its centre.
+    misconceptions:
+      - claim: Each generation replaced the one before, so first-generation rights are now obsolete.
+        tempting: '''Generation'' suggests succession.'
+        correction: The generations build upon each other (slide 9). First-generation rights remain so basic that, the lecture says, we probably do not feel we have to question them.
+      - claim: The slide's history list proves no human rights existed before Magna Carta (1215).
+        tempting: The list starts in 1215.
+        correction: 'The list dates legal recognition. Whether rights existed earlier as moral rights is the open question on slide 4: ''Have human rights always existed?'''
+      - claim: The UDHR was a binding treaty from the start.
+        tempting: It is the most cited human rights instrument.
+        correction: 'The lecture: mainly a political document without real binding force, a ''common standard of achievement'' pursued by teaching, education and progressive measures. Binding covenants and treaties followed (1966 onward).'
+    socratic:
+      - ask: Which rights feel so basic we barely question them?
+        hint: The first generation.
+        answer: 'Civil and political rights: life, equality before the law, freedom of speech and religion, property, a fair trial, voting. Many are recognised in our legal system, even if not constitutionally.'
+      - ask: What did the second generation add?
+        hint: Slide 9.
+        answer: 'Social, economic and cultural rights: to be employed under just conditions, to food, to housing, to health care.'
+      - ask: Why is the third generation 'more problematic'?
+        hint: Authority, justification, implementation.
+        answer: Group and solidarity rights, such as to a healthy environment or natural resources, are harder to ground and much harder to move from recognition to implementation.
+      - ask: What changed with the UDHR in 1948?
+        hint: National against universal.
+        answer: Earlier documents (the US Constitution, the French Declaration) were national; the UDHR puts universality at its centre. International recognition followed through covenants and treaties.
+      - ask: Why does the history matter for a jurisprudence student?
+        hint: It raises a question.
+        answer: 'It shows how our understanding of rights developed, and raises the foundational question: have human rights always existed, perhaps as moral rights before law recognised them?'
+    what-if:
+      - change: A community claims a right to its natural resources, rather than an individual claiming a fair trial.
+        effect: 'The claim moves from the first generation to the third: a group or solidarity right. Its authority, justification and implementation are more problematic, and recognition is harder to turn into practice.'
+      - change: The UDHR had been a national bill of rights, like the US Bill of Rights.
+        effect: 'It would lose what the lecture puts at its centre: universality. National documents focus on a particular political community; recognition at the international level grew from the UDHR.'
+    boundary:
+      - text: The UK Human Rights Act 1998.
+        why: The UK has no codified constitution, so no bill of rights in the US or Canadian sense; it passed the 1998 Act instead, which the Vic and Qld acts try to replicate (lecture).
+      - text: The right to self-determination.
+        why: 'Listed in the third generation and as slide 7''s example of a group right: it sits at the edge between individual human rights and collective ones.'
+    transfer:
+      - scenario: A youth climate group claims a right that governments preserve forests for people not yet born.
+        answer: 'A third-generation solidarity right: intergenerational equity and sustainability, with a healthy environment and natural resources. The lecture flags these as more problematic in authority, justification and implementation; recognising the claim is far easier than implementing it. Then ask whether it is a moral right, a legal right, or both.'
+    objections:
+      - position: Third-generation group rights are human rights (slide 9).
+        evidence: The slide lists self-determination, economic and social development, a healthy environment, natural resources, intergenerational equity and sustainability.
+        objection: They are more problematic in authority, justification and implementation; moving from recognition to implementation is much harder than for equality before the law (lecture).
+      - position: The history of human rights shows they were created at particular times and places.
+        evidence: The documents run from Magna Carta (1215) through the American and French revolutions to the post-war UDHR (1948) and covenants (lecture).
+        objection: 'History dates legal recognition, not existence: enslaved people arguably had a moral right before law recognised it, and history may capture something deeper than its formulations (lecture).'
+    storyboard:
+      - caption: Magna Carta and English Bill
+        detail: 'Magna Carta (1215) and the English Bill of Rights (1689): the earliest documents on the list.'
+      - caption: Revolutionary declarations
+        detail: 'US Constitution (1789), US Bill of Rights (1791), French Declaration of the Rights of Man and of the Citizen (1789): national documents.'
+      - caption: The Universal Declaration
+        detail: 'UDHR (1948), after the Second World War: universality at the centre; a common standard of achievement.'
+      - caption: The two Covenants
+        detail: 'ICCPR and ICESCR (1966): recognition at the international level through covenants and treaties.'
+      - caption: Women and children
+        detail: CEDAW (1979) and the Convention on the Rights of the Child (1989).
+      - caption: UK Human Rights Act
+        detail: 'HRA 1998: rights recognised without a codified constitution; a model for the Vic and Qld acts.'
+    sources:
+      - Week 09 - Lecture Slides (slides 3, 4, 9, 11, 12)
+      - Week 09 - Lecture Transcript (first half)
+  - concept: laws2100-w09-critiques-of-human-rights
+    plain: 'Some deny that human rights can be justified: Bentham called natural rights ''nonsense upon stilts''. Others call rights rhetoric, selfish, oppressive, anti-community or Western. Behind these lies a question about morality itself.'
+    concrete: The 'rhetoric' worry. Over recent decades rights language has expanded until almost every entitlement is cast as a right, even a human right. If rights are trumps, only a few cards can be trumps; if every claim is a right, what is the point of the category? The lecture reads this mainly as a call for better definition and more discipline in rights language, not for abandoning rights.
+    formal: 'Slide 15: Bentham, Anarchical Fallacies (1843): ''Natural rights is simple nonsense: natural and imprescriptible rights, rhetorical nonsense – nonsense upon stilts.'' Sceptical questions: is human nature a myth? Are rights selfish, an instrument of oppression, a threat to community, ethnocentric? Slide 16: moral relativism (are moral disagreements rationally resolvable? metaethical v normative) against objectivism/realism (are moral statements apt for truth and falsity?).'
+    terms:
+      - term: Nonsense upon stilts
+        gloss: Bentham's attack on natural rights. On the lecture's reading, for Bentham the only rights that exist are legal rights; natural rights are wishful thinking.
+      - term: Moral relativism
+        gloss: Moral values and claims are relative to a culture or society. Slide 16 asks whether moral disagreements are rationally resolvable, and separates metaethical from normative relativism.
+      - term: Moral objectivism (realism)
+        gloss: There are moral facts, so moral statements are apt for truth and falsity (slide 16).
+      - term: Ethnocentrism critique
+        gloss: Human rights as we know them may be a Western creation, articulated in concepts that do not translate into other languages, cultures or worldviews.
+    misconceptions:
+      - claim: Bentham's 'nonsense upon stilts' attacks weighing a suspect's rights against lives saved.
+        tempting: Bentham was a utilitarian.
+        correction: It targets the existence of natural rights outside positive law. On the lecture's reading, his positivist outlook means the only real rights are legal rights enforceable in court.
+      - claim: '''Are moral disagreements rationally resolvable?'' is the question for moral objectivism.'
+        tempting: Both questions sit on slide 16.
+        correction: It sits under moral relativism. The objectivism/realism question is whether moral statements are apt for truth and falsity.
+      - claim: The ethnocentrism critique shows human rights should be confined to Western legal systems.
+        tempting: The lecture takes the challenge seriously.
+        correction: 'Its reply: meaningful comparison across legal systems suggests common ground. That rights are expressed differently need not mean nothing common lies behind them.'
+    socratic:
+      - ask: Why would a utilitarian with a positivist outlook call natural rights nonsense?
+        hint: What is real, for a positivist?
+        answer: For Bentham, positive law is real and natural law wishful thinking. The only rights people really have are legal rights, enforceable in court.
+      - ask: If every entitlement is called a human right, what goes wrong?
+        hint: Trumps.
+        answer: 'The category loses its point: only a few cards can be trumps. The lecture reads this critique mainly as a call for better definition and discipline in rights language.'
+      - ask: Which critiques set the individual against something larger?
+        hint: Three of the slide's questions.
+        answer: Rights are selfish (individual against the general interest; what about duties?); rights threaten community (the communitarian challenge to liberal autonomy); rights are an instrument of oppression, tied to a power structure.
+      - ask: How might a defender answer the charge that rights are a Western creation?
+        hint: Comparative law.
+        answer: If comparing legal systems is meaningful, there is common ground. That rights are expressed differently in different languages and cultures need not mean nothing lies behind them.
+      - ask: Why does the justification issue end with relativism and objectivism?
+        hint: What do the debates boil down to?
+        answer: 'Debates about rights boil down to the nature of morality: whether moral disagreements are rationally resolvable, and whether moral statements can be true or false.'
+    what-if:
+      - change: Bentham is shown a statute protecting freedom from slavery.
+        effect: 'That right he accepts: it is a legal right, enforceable in court. His target is rights claimed from nature without positive law.'
+      - change: A critic shows that two cultures' languages express rights differently.
+        effect: 'That alone does not establish ethnocentrism: the lecture asks whether something common lies behind different formulations, as meaningful comparison of legal systems suggests.'
+    boundary:
+      - text: 'Waldron, Nonsense Upon Stilts: Bentham, Burke and Marx on the Rights of Man (1988).'
+        why: Waldron wrote that book, but the phrase is Bentham's, from Anarchical Fallacies (slides 14–15). Tie each line to its author.
+      - text: Social morality set against a deeper, critical morality.
+        why: The lecture separates a particular community's morals, here and now, from possible universal principles of morality and justice; whether the second exists is the relativism question.
+    transfer:
+      - scenario: At an international meeting, a delegate argues that a proposed treaty right to free expression is a Western idea foreign to her country's traditions.
+        answer: 'This is the ethnocentrism critique: human rights as we know them may be a Western creation, in concepts that do not translate. The lecture''s reply: meaningful comparison across legal systems suggests common ground behind different expressions. Underneath lies the relativism question: are moral disagreements rationally resolvable, and are moral statements apt for truth and falsity?'
+    objections:
+      - position: 'Human rights can be justified: natural law, deontological principles and human dignity supply strong moral arguments (lecture).'
+        evidence: Natural law posits universal principles of morality and justice; dignity rose to prominence in modern foundations of rights, as in Waldron's work.
+        objection: 'Bentham: natural rights are ''nonsense upon stilts''; the only rights that exist are legal rights (slide 15).'
+      - position: 'Rights are ethnocentric: a Western creation (slide 15).'
+        evidence: Their history runs through Western documents tied to the American and French revolutions and European modernity (lecture).
+        objection: Meaningful comparison across legal systems suggests common ground behind different formulations (lecture).
+      - position: 'Rights talk is mostly rhetoric: every entitlement is now cast as a right (slide 15: is human nature just a myth?).'
+        evidence: Rights language has expanded over recent decades; if every claim is a right, the category loses its point.
+        objection: This is mainly a call for better definition and more discipline in rights language, not a reason to abandon rights (lecture).
+    sources:
+      - Week 09 - Lecture Slides (slides 14–16)
+      - Week 09 - Lecture Transcript (first half)
+      - Week 09 - Lecture Transcript (second half)
+  - concept: laws2100-w09-limitation-clauses-and-proportionality
+    plain: 'Limitation clauses let some constitutional rights be partly limited. Alexy''s test asks: can the limit achieve its aim? Is there a milder means? Do its benefits outweigh the harm to the right?'
+    concrete: 'Suppose a nation faces a public emergency threatening its life. Under ECHR art 15 it may take measures derogating from its Convention obligations, but only to the extent strictly required, and it must keep the Council of Europe''s Secretary General fully informed. Some rights stay out of reach: no derogation from the prohibition of torture, slavery or servitude, no punishment without law, or the right to life, save deaths from lawful acts of war.'
+    formal: 'Limitation clauses permit the partial limitation of some constitutional rights: Canadian Charter s 1 (''reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society''); Vic Charter s 7(2). Alexy: rights are principles, optimisation requirements, so proportionality is necessarily connected to adjudicating them: suitability, necessity, proportionality in the narrow sense (balancing), formalised by a weight formula.'
+    analogy:
+      text: 'A rule works like a light switch: on or off. Alexy''s principles work like a dimmer: each is turned as high as circumstances allow, and when two compete, a court sets the level for each.'
+      maps:
+        - from: the light switch
+          to: 'a rule: a definitive command'
+        - from: the dimmer
+          to: 'a principle: an optimisation requirement, realised to the greatest extent possible'
+        - from: setting the level when two compete
+          to: proportionality in the narrow sense (balancing)
+      limits:
+        - A dimmer has no fixed stages; Alexy's test runs suitability and necessity before any balancing.
+    terms:
+      - term: Limitation clause
+        gloss: A constitutional provision permitting the partial limitation of some constitutional rights, eg Canadian Charter s 1, Victorian Charter s 7(2) (slide 18).
+      - term: Derogation
+        gloss: Under ECHR art 15, measures departing from Convention obligations in war or public emergency, as strictly required; none from arts 2 (save lawful acts of war), 3, 4(1) or 7.
+      - term: Optimisation requirement
+        gloss: 'Alexy''s account of a principle: realised to the greatest extent possible, given legal and factual constraints; a rule, by contrast, is a definitive command.'
+      - term: Weight formula
+        gloss: 'Alexy''s formalisation of balancing: the intensity of interference, the importance of the competing principle, and the degree of certainty about these factors.'
+    misconceptions:
+      - claim: Alexy's test runs necessity first, then suitability, then balancing.
+        tempting: All three parts are right.
+        correction: 'Order matters: suitability (can it achieve the legitimate aim?), then necessity (no less restrictive means?), then proportionality in the narrow sense (do benefits outweigh the detriment?) (slide 21).'
+      - claim: Under ECHR art 15, a state may derogate from any right in a grave enough emergency.
+        tempting: Art 15(1) allows derogation in war or public emergency.
+        correction: 'Art 15(2): no derogation from art 2 (save deaths from lawful acts of war), art 3 (torture), art 4(1) (slavery or servitude) or art 7 (no punishment without law).'
+      - claim: For Alexy, proportionality is needed because rights are rules applied all-or-nothing.
+        tempting: Rights are often stated like rules.
+        correction: 'The reverse: rights are principles, optimisation requirements, which conflict and must be balanced. So proportionality is necessarily connected to adjudicating constitutional rights.'
+    socratic:
+      - ask: Are there any absolute human rights?
+        hint: Slide 8; then ECHR art 15(2).
+        answer: Contested. Limitation clauses permit partial limits on some rights; art 15(2) puts a few beyond derogation, and there is a debate whether these are a kind of absolute right.
+      - ask: What does the Canadian Charter's s 1 require of any limit?
+        hint: Three qualifiers.
+        answer: Reasonable limits, prescribed by law, that can be demonstrably justified in a free and democratic society.
+      - ask: Why, for Alexy, must constitutional rights be balanced at all?
+        hint: Rules against principles.
+        answer: 'Rights are principles: optimisation requirements, realised as far as legal and factual constraints allow. Principles conflict, so proportionality is necessarily connected to adjudicating them.'
+      - ask: A protest restriction cannot in fact reduce the harm it targets. Where does it fail?
+        hint: The first stage.
+        answer: 'Suitability: the measure must be capable of achieving the legitimate aim. It never reaches necessity or balancing.'
+      - ask: Pile enough limits onto a right. What happens, and what does that recall?
+        hint: Week 7.
+        answer: Like exceptions piling up on a defeasible rule, the limits may chip the right away until we ask what having it still means (lecture).
+    elements:
+      - name: A permitted limit
+        test: 'Does a limitation clause allow it: a reasonable limit, prescribed by law, demonstrably justified in a free and democratic society (Vic s 7(2) adds: based on human dignity, equality and freedom)?'
+        authorities:
+          - canadian-charter-of-rights-and-freedoms-s1
+          - charter-of-human-rights-and-responsibilities-act-2006-vic-s7
+      - name: Suitability
+        test: Is the measure capable of achieving the legitimate aim?
+        authorities:
+          - alexy-proportionality
+      - name: Necessity
+        test: 'Is there no less restrictive means to achieve the same goal? (cf Vic s 7(2)(e): any less restrictive means reasonably available)'
+        authorities:
+          - alexy-proportionality
+          - charter-of-human-rights-and-responsibilities-act-2006-vic-s7
+      - name: Proportionality in the narrow sense (balancing)
+        test: 'Do the benefits of the measure outweigh the detriment to the right infringed? The weight formula: intensity of interference, importance of the competing principle, certainty about both.'
+        authorities:
+          - alexy-proportionality
+    what-if:
+      - change: The measure works, but an equally effective and less restrictive option exists.
+        effect: It fails necessity (cf Vic s 7(2)(e), any less restrictive means reasonably available). Balancing is never reached.
+      - change: The right affected is the prohibition of torture, during a public emergency under the ECHR.
+        effect: 'Art 15(2) bars any derogation from art 3, even in war or public emergency: the derogation route is closed, whatever the exigencies.'
+      - change: A measure is suitable and necessary, but its detriment to the right outweighs its benefits.
+        effect: It fails proportionality in the narrow sense, the final stage. The weight formula looks to the intensity of interference, the importance of the competing principle, and certainty about both.
+    boundary:
+      - text: The right to life under ECHR art 15(2).
+        why: 'Non-derogable, save for deaths resulting from lawful acts of war: an express exception, so even this right is not beyond every limit.'
+      - text: Victorian Charter s 7(3).
+        why: 'Nothing in the Charter gives anyone a right to limit human rights beyond what it provides, or to destroy them: limits are partial, never destruction (slide 20).'
+    transfer:
+      - scenario: During a disease outbreak, a state bans all public gatherings of more than two people for six months to slow infection.
+        answer: 'Run Alexy''s test in order. Suitability: can the ban achieve the legitimate aim of slowing infection? Necessity: is there a less restrictive means, such as a smaller cap or a shorter period (cf Vic s 7(2)(e))? Balancing: do the benefits outweigh the detriment to the rights infringed, weighing intensity of interference, importance of the competing principle, and certainty about both?'
+    objections:
+      - position: Proportionality is necessarily connected to adjudicating constitutional rights, because rights are principles (Alexy).
+        evidence: Principles are optimisation requirements; when they conflict, suitability, necessity and balancing structure the conflict (slide 21).
+        objection: 'Many disagree at this point: the claim depends on seeing constitutional rights as principles, which must itself be justified; the weight formula has attracted criticism (lecture).'
+      - position: Some human rights are absolute.
+        evidence: 'ECHR art 15(2): no derogation from art 3 even in war or public emergency; some scholars argue the prohibition of torture can never be limited (lecture).'
+        objection: 'Many see freedom from slavery as absolute, yet legal systems once accepted and regulated slavery: the claim flies in the face of our history (lecture).'
+    sources:
+      - Week 09 - Lecture Slides (slides 8, 18–21)
+      - Week 09 - Lecture Transcript (second half)
+flows:
+  - slug: limit-on-a-protected-right
+    title: Can this limit on a protected right be justified?
+    summary: 'Walks a measure that restricts a constitutional or Convention right through the week''s two routes: emergency derogation under ECHR art 15, or a limitation clause tested by Alexy''s three stages.'
+    start: n1
+    concepts:
+      - laws2100-w09-limitation-clauses-and-proportionality
+    sources:
+      - Week 09 - Lecture Slides (slides 18–21)
+    nodes:
+      - id: n1
+        kind: ask
+        text: 'Does the state rely on an emergency derogation: war or other public emergency threatening the life of the nation (ECHR art 15(1))?'
+        authorities:
+          - echr-art-15
+        branches:
+          - label: 'Yes: emergency derogation'
+            to: n2
+          - label: 'No: an ordinary limit'
+            to: n5
+      - id: n2
+        kind: ask
+        text: Is the right one that art 15(2) puts beyond derogation?
+        note: Art 2 (right to life, save deaths resulting from lawful acts of war), art 3 (prohibition of torture), art 4(1) (no one held in slavery or servitude), art 7 (no punishment without law).
+        authorities:
+          - echr-art-15
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: 'No'
+            to: n4
+      - id: n3
+        kind: end
+        tone: not-met
+        exception: true
+        text: No derogation may be made, even in war or public emergency. There is a debate whether these non-derogable rights are a kind of absolute right.
+      - id: n4
+        kind: end
+        tone: qualified
+        text: Derogation is possible, but only to the extent strictly required by the exigencies of the situation, consistently with other obligations under international law; the Secretary General must be kept fully informed (art 15(1), (3)).
+      - id: n5
+        kind: step
+        text: 'Find the limitation clause: a constitutional provision permitting the partial limitation of some constitutional rights.'
+        note: 'Canadian Charter s 1: ''such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society''. Vic Charter s 7(2) adds ''based on human dignity, equality and freedom'' and lists factors (a)–(e).'
+        authorities:
+          - canadian-charter-of-rights-and-freedoms-s1
+          - charter-of-human-rights-and-responsibilities-act-2006-vic-s7
+        next: n6
+      - id: n6
+        kind: ask
+        text: Is the limit prescribed by law?
+        branches:
+          - label: 'Yes'
+            to: n8
+          - label: 'No'
+            to: n7
+      - id: n7
+        kind: end
+        tone: not-met
+        text: 'Not justified: s 1 allows only limits ''prescribed by law'', and s 7(2) only limits ''under law''.'
+      - id: n8
+        kind: ask
+        text: 'Suitability: is the measure capable of achieving the legitimate aim?'
+        concept: laws2100-w09-limitation-clauses-and-proportionality
+        authorities:
+          - alexy-proportionality
+        branches:
+          - label: 'Yes'
+            to: n10
+          - label: 'No'
+            to: n9
+      - id: n9
+        kind: end
+        tone: not-met
+        text: Fails suitability. A measure that cannot achieve its aim never reaches necessity or balancing.
+      - id: n10
+        kind: ask
+        text: 'Necessity: is there a less restrictive means to achieve the same goal?'
+        note: 'Victorian Charter s 7(2)(e): ''any less restrictive means reasonably available to achieve the purpose that the limitation seeks to achieve''.'
+        authorities:
+          - alexy-proportionality
+          - charter-of-human-rights-and-responsibilities-act-2006-vic-s7
+        branches:
+          - label: Yes, a milder means exists
+            to: n11
+          - label: 'No'
+            to: n12
+      - id: n11
+        kind: end
+        tone: not-met
+        text: 'Fails necessity: the same goal can be reached with less restriction of the right.'
+      - id: n12
+        kind: ask
+        text: 'Balancing (proportionality in the narrow sense): do the benefits of the measure outweigh the detriment to the right infringed?'
+        note: 'Alexy''s weight formula formalises this step: the intensity of interference, the importance of the competing principle, and the degree of certainty about these factors.'
+        authorities:
+          - alexy-proportionality
+        branches:
+          - label: 'Yes'
+            to: n13
+          - label: 'No'
+            to: n14
+      - id: n13
+        kind: end
+        tone: met
+        text: 'The limit is proportionate and can be justified. Remember Vic s 7(3): limits are partial; nothing permits destroying the right.'
+      - id: n14
+        kind: end
+        tone: not-met
+        text: 'Fails proportionality in the narrow sense: the detriment to the right outweighs the benefits.'

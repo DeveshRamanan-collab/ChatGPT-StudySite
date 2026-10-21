@@ -1,0 +1,7 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AuthorityLibrary from '../../components/rebuild/AuthorityLibrary';
+import { getLibrary } from '../../lib/rebuild';
+const items=(await getLibrary()).filter(r=>r.kind==='case');
+---
+<Layout title="Case library" wide centre><p class="label">The authorities</p><h1>Case library</h1><p class="rb-lede">The story, the legal principle, and how to use it. Start with one line; open the detail when you need it.</p><nav class="rb-actions" aria-label="Library"><a href="/statutes/">Legislation and treaties</a><a href="/cases/?lawlist=1">Torts examinable list</a><a href="/studio/?tool=theatre">Case theatre</a><a href="/coverage/">Coverage audit</a></nav><AuthorityLibrary client:load items={items} kind="case"/><noscript><ul>{items.map(r=><li><a href={r.href}>{r.title}</a> — {r.oneLine}</li>)}</ul></noscript></Layout>

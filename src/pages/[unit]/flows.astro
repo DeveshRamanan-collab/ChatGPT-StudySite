@@ -1,0 +1,54 @@
+---
+// Decision flows for one unit, grouped by week (features 12, 156): each flow walks a doctrine one question at a time.
+import { getCollection, getEntry } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { units } from '../../lib/content';
+import { flowSlug, reachable } from '../../lib/flow';
+import '../../styles/flows.css';
+
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const flows = await getCollection('flows', (f) => f.data.unit === u.id && !f.data.seed);
+const groups = new Map<string, typeof flows>();
+for (const f of flows) groups.set(f.data.week, [...(groups.get(f.data.week) ?? []), f]);
+const weeks = (await Promise.all([...groups.keys()].map(async (id) => ({ id, entry: await getEntry('weeks', id) }))))
+  .map(({ id, entry }) => ({ id, number: entry?.data.number ?? Number(id.match(/w(\d+)$/)?.[1] ?? 0), topic: entry?.data.topic, flows: groups.get(id)!.sort((a, b) => a.data.title.localeCompare(b.data.title)) }))
+  .sort((a, b) => a.number - b.number);
+const meta = (f: (typeof flows)[number]) => {
+  const ids = new Set(reachable({ start: f.data.start, nodes: f.data.nodes }));
+  const ns = f.data.nodes.filter((n) => ids.has(n.id));
+  const asks = ns.filter((n) => n.kind === 'ask').length;
+  const ends = ns.filter((n) => n.kind === 'end').length;
+  return `${asks} question${asks === 1 ? '' : 's'} · ${ends} outcome${ends === 1 ? '' : 's'}`;
+};
+---
+
+<Layout title={`${u.data.code} decision flows`} description={`Decision flows for ${u.data.code}: each doctrine walked one question at a time.`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Decision flows' }]} />
+  <p class="label">{u.data.code}</p>
+  <h1 data-split>Decision flows</h1>
+  <p class="flows-index__lede">Each flow walks a doctrine one question at a time. Walk it, see the whole flow as a map, or put its steps in order.</p>
+  {weeks.length ? (
+    weeks.map((w) => (
+      <section class="flows-index__week" aria-labelledby={`fw-${w.id}`}>
+        <h2 id={`fw-${w.id}`}>Week {w.number}{w.topic && <span class="flows-index__topic"> · {w.topic}</span>}</h2>
+        <ul class="flows-index__list">
+          {w.flows.map((f) => (
+            <li class="flows-index__item">
+              <a class="flows-index__link" href={`/${u.id}/flow/${flowSlug(f.id, u.id)}`}>
+                <span class="flows-index__title">{f.data.title}</span>
+                <span class="flows-index__summary">{f.data.summary}</span>
+                <span class="flows-index__meta">{meta(f)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  ) : (
+    <p class="flows-index__empty">No decision flows for {u.data.code} yet. They appear here as each week's material is processed.</p>
+  )}
+</Layout>

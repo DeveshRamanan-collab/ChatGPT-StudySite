@@ -1,0 +1,989 @@
+unit: mgmt2094
+week: 7
+source: raw/mgmt2094-sci/week-07
+generator: ingest-1
+week_file:
+  topic: Invention, innovation, creativity
+  summary: "Week 7 is a tutorial that sets three words side by side: invention, innovation and creativity. The first chart separates invention (a novel product, device, process or concept) from innovation (the introduction of a newer and better solution that meets new requirements or existing market needs), with the cue to pay attention to the economic value. The second chart separates creativity (imagination, cannot be measured) from innovation (implementation, can be measured) and fixes the order: creativity precedes innovation."
+  thin: true
+  thin-reason: "Week 7 has only a three-slide tutorial deck: a title slide and two comparison charts (invention vs innovation; creativity vs innovation). There are no lecture slides, readings, tutorial answers or lecture recording or transcript, so the week supports two concepts (target 4–8) and four short answers (target 6)."
+  source-note: "Built from the Week 7 tutorial slides only: three slides, two of them comparison charts credited to Pediaa.com. There was no lecture, reading or lecture transcript for this week."
+  notes: |
+    ## Invention vs innovation
+
+    Let's understand the difference. Pay attention to the economic value.
+
+    | | Invention | Innovation |
+    | --- | --- | --- |
+    | What it is | A novel product, device, process, or concept | The introduction of a newer and better solution that meets new requirements or existing market needs |
+    | What it requires | Knowledge, competence, and financial aid | Technical knowledge, competence, knowledge about market needs, trends, and financial support |
+    | Examples | The invention of the printing press, electricity, the telephone | The introduction of the iPhone, the tablet, the flat-screen TV |
+
+    :::definition
+    **Invention** is a novel product, device, process, or concept. **Innovation** is the introduction of a newer and
+    better solution that meets new requirements or existing market needs.
+    :::
+
+    Both columns need competence and money ("financial aid" for invention, "financial support" for innovation). Only the
+    innovation column is tied to the market: it is defined by meeting requirements or market needs, it adds knowledge
+    about market needs and trends, and its examples are introductions (the iPhone) where invention's are inventions (the
+    printing press). The slide does not spell out the economic value; this is where the chart's two columns differ.
+
+    ## Creativity vs innovation
+
+    Remember which one follows the other. In which ways are they useful in organisations?
+
+    | | Innovation | Creativity |
+    | --- | --- | --- |
+    | What it is | The introduction of new or improved goods, services, processes, etc. | The use of imagination or original ideas to create something |
+    | Related to | Implementation | Imagination |
+    | Measurement | Can be measured | Cannot be measured |
+    | Order | Follows creativity | Precedes innovation |
+
+    :::rule
+    Creativity precedes innovation; innovation follows creativity.
+    :::
+
+    Innovation here covers improved goods, services and processes, not only brand-new ones. The question of how
+    creativity and innovation are useful in organisations is left for discussion in the tutorial; the materials do not
+    answer it, so start from the chart's rows: imagination and original ideas on one side, implementation of new or
+    improved goods, services and processes on the other.
+
+    :::examtip
+    Use the right chart for the right pair. Invention against innovation turns on whether something novel has been
+    introduced to meet requirements or market needs; creativity against innovation turns on imagination against
+    implementation, and on order — creativity comes first.
+    :::
+concepts:
+  - slug: invention-vs-innovation-economic-value
+    title: "Invention vs innovation: the economic value"
+    visual: diagram
+    visual-brief: Two columns drawn row by row (what it is, what it requires, examples); then the cells that tie innovation to the market (market needs, knowledge of market needs and trends, introductions) are marked as the difference the economic-value cue points to.
+    related:
+      - creativity-precedes-innovation
+    depends-on: []
+    contrasts-with:
+      - creativity-precedes-innovation
+    cases: []
+    authorities:
+      - mgmt2094-example-printing-press-electricity-telephone
+      - mgmt2094-example-iphone-tablet-flat-screen-tv
+    verify: false
+    body: |
+      The tutorial's first comparison: let's understand the difference between invention and innovation, and pay
+      attention to the economic value.
+
+      - **Invention** is a novel product, device, process, or concept. It requires knowledge, competence, and financial
+        aid. Examples: the invention of the printing press, electricity, the telephone.
+      - **Innovation** is the introduction of a newer and better solution that meets new requirements or existing market
+        needs. It requires technical knowledge, competence, knowledge about market needs, trends, and financial support.
+        Examples: the introduction of the iPhone, the tablet, the flat-screen TV.
+
+      Both columns need competence and money. Only innovation is tied to the market: it is defined by meeting
+      requirements or market needs, it adds knowledge about market needs and trends, and its examples are introductions
+      rather than inventions. The slide does not spell out the economic value; this is where the two columns differ.
+
+      **Exam use:** ask whether the thing is simply novel (invention) or has been introduced as a newer, better solution
+      that meets a requirement or market need (innovation), and cite the chart's examples.
+  - slug: creativity-precedes-innovation
+    title: "Creativity vs innovation: which follows which"
+    visual: simulation
+    visual-brief: "A two-station track from creativity to innovation: the learner sets what is happening (imagining original ideas, or introducing something new or improved) and the marker moves to the matching station, lighting its pair of attributes (imagination or implementation; cannot or can be measured) and the order (precedes or follows)."
+    related:
+      - invention-vs-innovation-economic-value
+    depends-on: []
+    contrasts-with:
+      - invention-vs-innovation-economic-value
+    cases: []
+    authorities:
+      - mgmt2094-example-iphone-tablet-flat-screen-tv
+    verify: false
+    body: |
+      The tutorial's second comparison: remember which one follows the other.
+
+      - **Creativity** is the use of imagination or original ideas to create something. It is related to imagination,
+        it cannot be measured, and it precedes innovation.
+      - **Innovation** is the introduction of new or improved goods, services, processes, etc. It is related to
+        implementation, it can be measured, and it follows creativity.
+
+      The order is fixed: creativity first, innovation second. The two columns pair off — imagination against
+      implementation, cannot be measured against can be measured — and innovation covers improved goods, services and
+      processes, not only brand-new ones. The first chart's examples of innovation (the introduction of the iPhone, the
+      tablet, the flat-screen TV) are introductions of exactly this kind.
+
+      The slide ends with a question for discussion: in which ways are they useful in organisations? The materials leave
+      it open; the chart's rows are the place to start.
+
+      **Exam use:** when a scenario describes original ideas being imagined, call it creativity; when something new or
+      improved is introduced and put into practice, call it innovation, and say that innovation follows creativity.
+authorities:
+  - slug: mgmt2094-example-printing-press-electricity-telephone
+    title: "Example: the printing press, electricity and the telephone (inventions)"
+    kind: other
+    text: "The Week 7 tutorial's invention-versus-innovation chart gives \"the invention of the printing press, electricity, telephone, etc.\" as its examples of invention: a novel product, device, process, or concept, which requires knowledge, competence, and financial aid."
+    gloss: Illustrates invention, as distinct from innovation, in the Week 7 comparison.
+    cases: []
+    verify: false
+  - slug: mgmt2094-example-iphone-tablet-flat-screen-tv
+    title: "Example: the iPhone, the tablet and the flat-screen TV (innovations)"
+    kind: other
+    text: "The Week 7 tutorial's invention-versus-innovation chart gives \"the introduction of the iPhone, tablet, flat screen TV, etc.\" as its examples of innovation: the introduction of a newer and better solution that meets new requirements or existing market needs, which requires technical knowledge, competence, knowledge about market needs, trends, and financial support."
+    gloss: Illustrates innovation as an introduction that meets market needs, against invention and against creativity.
+    cases: []
+    verify: false
+questions:
+  - key: a01
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    set: pretest
+    stem: On the Week 7 tutorial chart, what is an invention?
+    options:
+      - text: A novel product, device, process, or concept
+        correct: true
+        why: "Right: this is the chart's definition of invention, word for word — something novel, whether a product, a device, a process or a concept."
+      - text: The introduction of a newer and better solution that meets market needs
+        why: Tempting because both columns involve something new, but this is the chart's definition of innovation, which is about introducing a solution that meets needs.
+      - text: The use of imagination or original ideas to create something
+        why: Tempting because invention sounds imaginative, but this is how the second chart defines creativity, not invention.
+      - text: The introduction of new or improved goods, services or processes
+        why: Tempting because it mentions processes, but this is the second chart's definition of innovation; invention is not defined as an introduction.
+  - key: a02
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    stem: On the invention-versus-innovation chart, how is innovation defined?
+    options:
+      - text: A novel product, device, process, or concept, whether or not it ever meets a requirement or a market need
+        why: Tempting because innovation involves something new, but a novel product, device, process or concept is the chart's definition of invention.
+      - text: The introduction of a newer and better solution that meets new requirements or existing market needs
+        correct: true
+        why: "Right: the chart defines innovation as an introduction — a newer and better solution that meets new requirements or existing market needs."
+      - text: The use of imagination or original ideas to create something new for customers in an existing market
+        why: Tempting because innovation needs ideas, but this is the second chart's definition of creativity, which it places before innovation.
+      - text: Any original idea a business has for a better solution, even if it is never introduced or put into practice
+        why: Tempting because ideas feed innovation, but the chart makes innovation an introduction that meets needs; an idea never put into practice is not that.
+  - key: a03
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    stem: According to the chart, what does invention require?
+    options:
+      - text: Technical knowledge, competence, knowledge of market needs and trends, and financial support
+        why: Tempting because it overlaps with invention, but this longer list is what the chart says innovation requires; knowledge of market needs and trends is the extra item.
+      - text: Knowledge, competence, and financial aid
+        correct: true
+        why: "Right: the chart lists knowledge, competence, and financial aid for invention — nothing about market needs or trends."
+      - text: Imagination and original ideas only, with no money needed
+        why: Tempting because invention sounds like pure imagination, but the chart lists financial aid as a requirement, and imagination belongs to the creativity chart.
+      - text: Knowledge about market needs and trends, but no financial aid
+        why: "Wrong on both counts: market needs and trends are listed only for innovation, and the chart says invention does require financial aid."
+  - key: a04
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    stem: Which requirement does the chart list for innovation but not for invention?
+    options:
+      - text: Competence
+        why: Tempting because it appears in the innovation list, but competence is listed for invention too, so it does not separate the two columns.
+      - text: Financial backing
+        why: Tempting because innovation needs financial support, but invention needs financial aid as well, so money does not separate the two columns.
+      - text: Knowledge about market needs and trends
+        correct: true
+        why: "Right: only the innovation column lists knowledge about market needs and trends — the requirement that ties innovation to the market."
+      - text: Knowledge
+        why: Tempting because innovation lists technical knowledge, but invention lists knowledge too; it is knowledge of market needs and trends that is extra.
+  - key: a05
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    stem: Which of these does the chart give as an example of invention?
+    options:
+      - text: The tablet
+        why: Tempting because the tablet was new in its day, but the chart lists the introduction of the tablet as an example of innovation, not invention.
+      - text: The printing press
+        correct: true
+        why: "Right: the chart's examples of invention are the invention of the printing press, electricity and the telephone."
+      - text: The iPhone
+        why: Tempting because the iPhone is a famous new device, but the chart lists the introduction of the iPhone as an example of innovation.
+      - text: The flat-screen TV
+        why: Tempting because it is a new device, but the chart gives the introduction of the flat-screen TV as an example of innovation.
+  - key: a06
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    set: pretest
+    stem: Which of these does the chart give as an example of innovation?
+    options:
+      - text: The invention of the telephone
+        why: Tempting because the telephone changed communication, but the chart lists it with the printing press and electricity as examples of invention.
+      - text: The introduction of the iPhone
+        correct: true
+        why: "Right: the chart's innovation examples are introductions — the iPhone, the tablet and the flat-screen TV."
+      - text: The invention of electricity
+        why: Tempting because electricity transformed the economy, but the chart lists it as an example of invention, not innovation.
+      - text: The invention of the printing press
+        why: Tempting because it spread new ideas widely, but the chart gives the printing press as an example of invention.
+  - key: a07
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    verify: true
+    stem: The slide asks you to "pay attention to the economic value" when telling invention from innovation. On the chart, which feature does that cue point to?
+    options:
+      - text: Innovation is defined by meeting requirements or market needs, and needs knowledge of market needs and trends
+        correct: true
+        why: "Right, on a reading of the chart: the slide does not explain the cue, but only innovation is tied to the market — meeting needs, knowing market trends."
+      - text: Invention needs financial aid, so invention is the column where the economic value of the work lies
+        why: Tempting because money is mentioned, but both columns need money (financial aid and financial support), so funding does not separate them.
+      - text: Both columns need competence and knowledge, so economic value plays no real part in telling invention and innovation apart
+        why: Tempting because competence and knowledge are shared, but the slide tells you to attend to economic value to understand the difference; shared items cannot show it.
+      - text: Invention's examples (the printing press, the telephone) are older, and so more valuable, than innovation's
+        why: Tempting because the examples differ in age, but the chart says nothing about dates or which is more valuable; its columns differ on market needs.
+  - key: a08
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 3
+    stem: An engineer builds a working prototype of a new kind of water filter in her garage. Nobody has been offered it yet. Using the invention-versus-innovation chart, what is it so far?
+    options:
+      - text: An innovation, because it is a newer and better solution
+        why: Tempting because it may be better, but the chart defines innovation as the introduction of a solution that meets requirements or market needs; nothing has been introduced yet.
+      - text: "An invention: a novel device"
+        correct: true
+        why: "Right: a working prototype of a new device fits invention — a novel product, device, process or concept — and it has not been introduced to anyone."
+      - text: Neither, because she has no financial aid yet
+        why: Tempting because the chart lists financial aid for invention, but that is a requirement for inventing, and the device already exists; it is an invention.
+      - text: An innovation, because she needed technical knowledge to build it
+        why: Tempting because the innovation column lists technical knowledge, but invention needs knowledge too; what makes innovation is an introduction that meets needs.
+  - key: a09
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 3
+    stem: A phone maker introduces a newer model with a larger battery, meeting customers' existing need for a phone that lasts all day. On the chart, which best describes this?
+    options:
+      - text: Invention, because the model is a new device
+        why: Tempting because the model is new, but the chart's invention column is about something novel, while this is an introduction that meets an existing market need.
+      - text: Neither, because improving an existing product is not new enough
+        why: Tempting because nothing wholly new was made, but the chart counts a newer and better solution, and the second chart counts improved goods as innovation.
+      - text: "Innovation: a newer, better solution introduced to meet an existing need"
+        correct: true
+        why: "Right: the chart defines innovation as the introduction of a newer and better solution that meets new requirements or existing market needs."
+      - text: Invention, because it needed knowledge, competence and money
+        why: Tempting because those are invention's requirements, but innovation needs them too; the introduction to meet an existing need is what makes this innovation.
+  - key: a10
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    variant-of: a08
+    stem: A university laboratory devises a new process for recycling glass. The process exists only in the lab; no business has adopted it or offered it to anyone. On the chart, what is it so far?
+    options:
+      - text: An innovation, because recycling meets a market need
+        why: Tempting because recycling may meet a need, but the chart makes innovation the introduction of a solution; this process has not been introduced to anyone.
+      - text: An innovation, because the chart says innovation can be a process
+        why: Tempting because the second chart lists processes under innovation, but there it means introducing them; invention also covers a novel process.
+      - text: "An invention: a novel process"
+        correct: true
+        why: "Right: the chart defines invention as a novel product, device, process or concept; a new process kept in the lab fits it."
+      - text: Nothing yet, because a process cannot be an invention
+        why: Tempting if you think only of gadgets, but the chart's definition of invention expressly includes a novel process.
+  - key: a11
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 3
+    variant-of: a09
+    stem: A bank introduces a better version of its app that meets a new requirement customers have raised. Its team studied market needs and trends before the launch. On the chart, which column fits?
+    options:
+      - text: Invention, because an app is a novel product
+        why: Tempting because the app is a product, but the chart's invention column is about novelty; this is a better version introduced to meet a requirement.
+      - text: "Innovation: a better solution introduced to meet a new requirement"
+        correct: true
+        why: "Right: it is introduced, it is newer and better, it meets a new requirement, and the team drew on knowledge of market needs and trends."
+      - text: Invention, because the team needed competence
+        why: Tempting because competence is required, but both columns list competence, so it cannot decide which one fits.
+      - text: Neither, because a better version is not a newer solution
+        why: Tempting if only brand-new things count, but the chart speaks of a newer and better solution, and the second chart includes improved goods and services.
+  - key: a12
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 4
+    stem: Team A devises a novel kitchen device. Team B studies market needs and trends and introduces a better version of an existing device that meets customers' needs. Which statement fits the chart?
+    options:
+      - text: Team A's work matches invention; Team B's matches innovation
+        correct: true
+        why: "Right: a novel device is invention; introducing a better solution that meets needs, using knowledge of market needs and trends, is innovation."
+      - text: Team A's work matches innovation; Team B's matches invention
+        why: "Tempting if you link \"new\" with innovation, but this reverses the chart: the novel device is invention, and the introduction meeting needs is innovation."
+      - text: Both are innovation, because both teams produced something new
+        why: "Tempting because both made something, but the chart separates them: only Team B introduced a solution that meets needs, as innovation requires."
+      - text: Both are invention, because both needed competence and money
+        why: Tempting because both columns list competence and money, but shared requirements cannot separate the columns; meeting market needs does.
+  - key: a13
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    contrasts-with:
+      - creativity-precedes-innovation
+    stem: "A student writes: \"Invention is the use of imagination or original ideas to create something.\" What has the student done?"
+    options:
+      - text: Defined invention as the chart does
+        why: Tempting because invention sounds imaginative, but the chart defines invention as a novel product, device, process or concept.
+      - text: Given the definition of innovation
+        why: Tempting because the second chart pairs this definition with innovation, but it is the creativity column's definition, not innovation's.
+      - text: Given the second chart's definition of creativity
+        correct: true
+        why: "Right: \"the use of imagination or original ideas to create something\" is how the second chart defines creativity; invention is a novel product, device, process or concept."
+      - text: Merged the definitions of invention and innovation
+        why: Tempting because the student has mixed things up, but neither the invention nor the innovation definition mentions imagination; this is creativity.
+  - key: a14
+    type: mcq
+    concept: invention-vs-innovation-economic-value
+    difficulty: 3
+    contrasts-with:
+      - creativity-precedes-innovation
+    stem: Two definitions on the Week 7 charts begin with "the introduction of". Which two?
+    options:
+      - text: Invention and innovation
+        why: Tempting because they share a chart, but invention is defined as a novel product, device, process or concept, not as an introduction.
+      - text: Both definitions of innovation
+        correct: true
+        why: "Right: the first chart's innovation is \"the introduction of a newer and better solution…\"; the second chart's is \"the introduction of new or improved goods, services, processes\"."
+      - text: Creativity and innovation
+        why: Tempting because they share the second chart, but creativity is defined as "the use of imagination or original ideas", not as an introduction.
+      - text: Invention and creativity
+        why: Tempting because both involve making something new, but neither is defined as an introduction; only the innovation definitions are.
+  - key: t01
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: On the Week 7 chart, invention is a novel product, device, process, or concept.
+    answer: true
+    why: "True: that is the chart's definition of invention — something novel, in any of those four forms."
+  - key: t02
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: On the chart, invention is the introduction of a newer and better solution that meets market needs.
+    answer: false
+    why: "False: that is the chart's definition of innovation; invention is a novel product, device, process or concept."
+  - key: t03
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: The chart lists knowledge about market needs and trends as a requirement of innovation.
+    answer: true
+    why: "True: innovation requires technical knowledge, competence, knowledge about market needs, trends, and financial support."
+  - key: t04
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    statement: The chart lists knowledge about market needs and trends as a requirement of invention.
+    answer: false
+    why: "False: invention requires knowledge, competence and financial aid; market needs and trends appear only in the innovation column."
+  - key: t05
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: The chart says invention requires knowledge, competence, and financial aid.
+    answer: true
+    why: "True: those are the three requirements the chart lists for invention, with no mention of market needs."
+  - key: t06
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: The introduction of the iPhone is the chart's example of invention.
+    answer: false
+    why: "False: the introduction of the iPhone is an example of innovation; the invention examples are the printing press, electricity and the telephone."
+  - key: t07
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: The printing press, electricity and the telephone are the chart's examples of invention.
+    answer: true
+    why: "True: the chart gives the invention of the printing press, electricity and the telephone as its examples of invention."
+  - key: t08
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: The tablet and the flat-screen TV are the chart's examples of innovation.
+    answer: true
+    why: "True: with the iPhone, the introduction of the tablet and the flat-screen TV are the chart's examples of innovation."
+  - key: t09
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 1
+    statement: The tutorial slide tells you to pay attention to the economic value when telling invention from innovation.
+    answer: true
+    why: "True: the slide says \"Let's understand the difference\" and \"Pay attention to the economic value\"."
+  - key: t10
+    type: truefalse
+    set: quickfire
+    concept: invention-vs-innovation-economic-value
+    difficulty: 2
+    statement: On the chart, innovation needs no financial support, unlike invention.
+    answer: false
+    why: "False: both columns need money — financial aid for invention, financial support for innovation — so funding does not separate them."
+  - key: s01
+    type: short
+    concept: invention-vs-innovation-economic-value
+    difficulty: 3
+    prompt: "Using the Week 7 tutorial chart, distinguish invention from innovation, with the chart's examples. Apply the distinction to a small firm that has built a working prototype of a novel kitchen gadget but has not yet offered it to anyone: is it an invention or an innovation, and what would have to happen for the chart to call it innovation?"
+    model: |-
+      The chart defines invention as a novel product, device, process, or concept, requiring knowledge, competence, and financial aid; its examples are the invention of the printing press, electricity and the telephone. Innovation is the introduction of a newer and better solution that meets new requirements or existing market needs, requiring technical knowledge, competence, knowledge about market needs, trends, and financial support; its examples are the introduction of the iPhone, the tablet and the flat-screen TV.
+
+      The firm's prototype is a novel device, so it is an invention. It is not yet an innovation, because nothing has been introduced to meet a requirement or a market need. For the chart to call it innovation, the firm would have to introduce it as a newer and better solution that meets a new requirement or an existing market need, drawing on knowledge about market needs and trends.
+
+      The limit of the chart is that both columns share competence and money, so effort or funding cannot tell them apart; the difference is the tie to the market.
+    rubric:
+      - id: r1
+        criterion: "Concept: accurate definitions of invention and innovation"
+        marks: 2
+        top-band: "States both chart definitions accurately: invention as a novel product, device, process or concept; innovation as the introduction of a newer and better solution meeting new requirements or existing market needs."
+        margin-note: Both definitions are the chart's own; keep "introduction" in innovation.
+        authorities: []
+      - id: r2
+        criterion: "Example: the chart's examples"
+        marks: 2
+        top-band: "Gives the chart's examples in the right columns: the printing press, electricity and the telephone as invention; the introduction of the iPhone, the tablet and the flat-screen TV as innovation."
+        margin-note: Examples in the right columns — the iPhone is an introduction, so innovation.
+        authorities: []
+      - id: r3
+        criterion: "Application: the prototype"
+        marks: 2
+        top-band: Classifies the prototype as an invention (a novel device) and explains that it becomes innovation only once introduced as a better solution meeting a requirement or market need.
+        margin-note: "Good: you said what is missing (introduction to meet a need), not just the label."
+        authorities: []
+      - id: r4
+        criterion: "Evaluation: what does and does not separate them"
+        marks: 2
+        top-band: Notes that competence and money appear in both columns, so they cannot separate invention from innovation; the market (needs, trends, introduction) does.
+        margin-note: Sharp point that shared requirements do not discriminate.
+        authorities: []
+  - key: s02
+    type: short
+    concept: invention-vs-innovation-economic-value
+    difficulty: 3
+    verify: true
+    prompt: The Week 7 tutorial tells you to "pay attention to the economic value" when distinguishing invention from innovation. Explain how the chart supports that cue, and apply it to a company deciding whether to launch a novel device it has already built.
+    model: |-
+      The slide does not explain the cue, so it has to be read from the chart. Invention is a novel product, device, process, or concept; it requires knowledge, competence, and financial aid. Innovation is the introduction of a newer and better solution that meets new requirements or existing market needs, and it requires, in addition, knowledge about market needs and trends. Only the innovation column is tied to the market, and its examples are introductions — the iPhone, the tablet, the flat-screen TV — where the invention examples (the printing press, electricity, the telephone) are inventions.
+
+      For the company, the device it has built is an invention. Deciding whether to launch is the step the chart calls innovation: introducing it as a better solution that meets a requirement or market need, which needs knowledge of market needs and trends as well as financial support. On this reading, the economic value the slide points to lies in that introduction to meet a need.
+
+      The chart cannot settle more than this: it gives no measure of economic value and does not say an invention has none.
+    rubric:
+      - id: r1
+        criterion: "Concept: the two definitions and requirements"
+        marks: 2
+        top-band: Accurately states both definitions and both lists of requirements, identifying knowledge about market needs and trends as the requirement only innovation has.
+        margin-note: Market needs and trends — the one extra requirement — correctly isolated.
+        authorities: []
+      - id: r2
+        criterion: "Example: the chart's examples as evidence"
+        marks: 2
+        top-band: "Uses the chart's examples as evidence: innovation's are introductions (the iPhone, the tablet, the flat-screen TV); invention's are inventions (the printing press, electricity, the telephone)."
+        margin-note: Nice use of the examples' wording as evidence.
+        authorities: []
+      - id: r3
+        criterion: "Application: the launch decision"
+        marks: 2
+        top-band: Identifies the built device as an invention and the launch as the step the chart calls innovation, needing knowledge of market needs and trends.
+        margin-note: Launch = introduction = innovation. Clear.
+        authorities: []
+      - id: r4
+        criterion: "Evaluation: limits of the cue"
+        marks: 2
+        top-band: Acknowledges that the slide does not define economic value and that the chart neither measures it nor says an invention has none.
+        margin-note: "Good restraint: you did not claim more than the slide says."
+        authorities: []
+  - key: b01
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    set: pretest
+    stem: On the Week 7 creativity-versus-innovation chart, what is creativity?
+    options:
+      - text: The introduction of new or improved goods, services, processes, etc.
+        why: Tempting because it sits on the same chart, but this is the chart's definition of innovation, which follows creativity.
+      - text: The use of imagination or original ideas to create something
+        correct: true
+        why: "Right: the chart defines creativity as the use of imagination or original ideas to create something."
+      - text: A novel product, device, process, or concept that has been made
+        why: Tempting because creativity produces new things, but this is the first chart's definition of invention, not creativity.
+      - text: A newer and better solution that meets existing market needs
+        why: Tempting because creative ideas can solve problems, but this is the first chart's definition of innovation, tied to market needs.
+  - key: b02
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    set: pretest
+    stem: The slide says "Remember which one follows the other." According to the chart, which order is right?
+    options:
+      - text: Innovation precedes creativity
+        why: "Tempting if you think a new product sparks new ideas, but the chart says the reverse: innovation follows creativity."
+      - text: Creativity precedes innovation
+        correct: true
+        why: "Right: the chart says creativity precedes innovation, and innovation follows creativity."
+      - text: They happen together, so neither comes first
+        why: "Tempting because the two are closely linked, but the chart gives them a fixed order: creativity first, then innovation."
+      - text: Whichever can be measured comes first
+        why: Tempting because measurement is on the chart, but it is a separate row; and the measurable one, innovation, comes second, not first.
+  - key: b03
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 2
+    stem: According to the chart, which of the two can be measured?
+    options:
+      - text: Creativity can be measured; innovation cannot
+        why: "Tempting if you picture counting ideas, but this reverses the chart: innovation can be measured, creativity cannot."
+      - text: Both can be measured
+        why: Tempting because organisations like to measure things, but the chart says creativity cannot be measured.
+      - text: Innovation can be measured; creativity cannot
+        correct: true
+        why: "Right: the chart says innovation can be measured and creativity cannot be measured."
+      - text: Neither can be measured
+        why: Tempting because both sound intangible, but the chart says innovation can be measured; only creativity cannot.
+  - key: b04
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    set: pretest
+    stem: "Complete the chart: innovation is related to ___; creativity is related to ___."
+    options:
+      - text: imagination; implementation
+        why: "Tempting because the two words look alike, but this swaps them: the chart pairs innovation with implementation and creativity with imagination."
+      - text: market needs; financial aid
+        why: Tempting because these words appear in Week 7, but they come from the first chart's requirements, not from this row of the second chart.
+      - text: implementation; imagination
+        correct: true
+        why: "Right: the chart says innovation is related to implementation and creativity is related to imagination."
+      - text: measurement; original ideas
+        why: Tempting because both words are on the chart, but the "related to" row says implementation for innovation and imagination for creativity.
+  - key: b05
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 2
+    stem: How does the creativity-versus-innovation chart define innovation?
+    options:
+      - text: The introduction of new or improved goods, services, processes, etc.
+        correct: true
+        why: "Right: the second chart defines innovation as the introduction of new or improved goods, services, processes, etc."
+      - text: The original idea for a new good or service, before it is put into practice
+        why: Tempting because innovation starts from ideas, but an idea before implementation is closer to creativity; innovation is the introduction.
+      - text: The use of imagination or original ideas to create something new
+        why: Tempting because it sits on the same chart, but this is the creativity column's definition, which precedes innovation.
+      - text: A novel product, device or process, whether or not anyone uses it
+        why: Tempting because it lists products and processes, but this is the first chart's invention, which is not defined by introduction.
+  - key: b06
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 3
+    stem: At a staff workshop, a hotel's employees imagine twenty original ideas for a new guest service. None has been put into practice. Using the creativity-versus-innovation chart, which column fits?
+    options:
+      - text: Innovation, because the ideas are for a new service
+        why: Tempting because services count as innovation, but innovation is the introduction of the service; nothing has been implemented yet.
+      - text: Creativity, because it follows innovation
+        why: "Right label, wrong reason: the chart says creativity precedes innovation, not that it follows it."
+      - text: "Creativity: imagination and original ideas"
+        correct: true
+        why: "Right: imagining original ideas is the use of imagination or original ideas — creativity, which precedes innovation."
+      - text: Innovation, because twenty ideas can be counted
+        why: Tempting because counting looks like measuring, but the chart says creativity cannot be measured, and nothing has been introduced.
+  - key: b07
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 3
+    stem: The hotel then puts one of the ideas into practice and introduces the new service to its guests. Using the chart, which column now fits, and why?
+    options:
+      - text: Creativity, because the idea was original
+        why: Tempting because the idea began as original, but introducing and implementing the service is innovation, which follows creativity.
+      - text: Innovation, because it precedes creativity
+        why: "Right label, wrong reason: the chart says innovation follows creativity, as it does here — the ideas came first."
+      - text: Neither, because a service is not a good or a process
+        why: "Tempting if innovation meant only products, but the chart's definition expressly includes services: new or improved goods, services, processes."
+      - text: "Innovation: a new service introduced and implemented"
+        correct: true
+        why: "Right: the introduction of a new service is innovation; it is related to implementation and follows the creative stage."
+  - key: b08
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 3
+    variant-of: b06
+    stem: A software firm holds a hackathon where staff sketch original ideas for features. No feature has been built or released. Using the chart, how should the hackathon be described?
+    options:
+      - text: As innovation, because software counts as a new product
+        why: Tempting because the ideas concern a product, but innovation is the introduction of new or improved goods or services; nothing has been introduced.
+      - text: "As creativity: original ideas, not yet implemented"
+        correct: true
+        why: "Right: sketching original ideas is the use of imagination or original ideas — creativity, which precedes innovation."
+      - text: As innovation, because the firm can measure how many ideas it got
+        why: Tempting because a count looks like a measure, but the chart says creativity cannot be measured, and nothing has been implemented.
+      - text: As neither, because the ideas may never be used
+        why: Tempting because the ideas may be dropped, but the chart's creativity needs only the use of imagination or original ideas, not implementation.
+  - key: b09
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 3
+    variant-of: b07
+    stem: A local council introduces an improved process for approving building permits, replacing its old one. On the chart, which column fits?
+    options:
+      - text: Creativity, because someone had to imagine the new process
+        why: Tempting because the process began as an idea, but what is described is its introduction and implementation, which is innovation.
+      - text: Neither, because the process is improved rather than new
+        why: Tempting if only brand-new things count, but the chart's innovation includes improved goods, services and processes.
+      - text: "Innovation: an improved process, introduced and implemented"
+        correct: true
+        why: "Right: the introduction of an improved process is innovation on the chart, related to implementation and able to be measured."
+  - key: b10
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 2
+    variant-of: b03
+    stem: A manager asks for a single number showing how much creativity the team produced last quarter. On the Week 7 chart, what is the difficulty?
+    options:
+      - text: The chart says creativity cannot be measured; it is innovation that can be measured
+        correct: true
+        why: "Right: the chart says creativity cannot be measured and innovation can, so a direct number for creativity runs against the chart."
+      - text: "There is none: the chart says creativity can be measured once it follows innovation"
+        why: Tempting because measurement is on the chart, but the chart says creativity cannot be measured, and creativity precedes innovation.
+      - text: The chart says innovation cannot be measured, so the manager should measure creativity instead
+        why: "Tempting because both are hard to pin down, but this reverses the chart: innovation can be measured, creativity cannot."
+  - key: b11
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 4
+    contrasts-with:
+      - invention-vs-innovation-economic-value
+    stem: Which statement is NOT supported by the Week 7 charts?
+    options:
+      - text: Innovation requires knowledge about market needs and trends
+        why: "This is supported: the first chart lists knowledge about market needs and trends among innovation's requirements."
+      - text: Creativity is related to imagination
+        why: "This is supported: the second chart says creativity is related to imagination, and innovation to implementation."
+      - text: Creativity can be measured, so it follows innovation
+        correct: true
+        why: "Right, this is the unsupported one: the chart says creativity cannot be measured and that it precedes innovation — both halves are wrong."
+      - text: Invention requires knowledge, competence, and financial aid
+        why: "This is supported: those are the three requirements the first chart lists for invention."
+  - key: b12
+    type: mcq
+    concept: creativity-precedes-innovation
+    difficulty: 2
+    verify: true
+    stem: "The slide asks: in which ways are creativity and innovation useful in organisations? Using only the chart, which answer is best supported?"
+    options:
+      - text: Creativity supplies imagination and original ideas; innovation implements them as new or improved goods, services or processes
+        correct: true
+        why: "Right, as a reading of the chart: creativity is imagination and original ideas, and innovation is the implementation that follows it."
+      - text: Creativity is useful because it can be measured, and innovation is useful because it comes first, before any ideas
+        why: "Tempting because it uses chart words, but it reverses both rows: creativity cannot be measured, and innovation follows creativity."
+      - text: Only innovation is useful to organisations, because creativity cannot be measured and so cannot be managed
+        why: Tempting because measurability matters to managers, but the chart makes creativity what innovation follows; it never says creativity is useless or unmanageable.
+  - key: t11
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: On the chart, creativity is the use of imagination or original ideas to create something.
+    answer: true
+    why: "True: that is the chart's definition of creativity, which it relates to imagination."
+  - key: t12
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: On the chart, creativity is related to implementation.
+    answer: false
+    why: "False: creativity is related to imagination; it is innovation that is related to implementation."
+  - key: t13
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: On the chart, innovation is related to implementation.
+    answer: true
+    why: "True: innovation is related to implementation, creativity to imagination."
+  - key: t14
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: According to the chart, creativity can be measured.
+    answer: false
+    why: "False: the chart says creativity cannot be measured; innovation is the one that can be measured."
+  - key: t15
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: According to the chart, innovation can be measured.
+    answer: true
+    why: "True: the chart says innovation can be measured, while creativity cannot."
+  - key: t16
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: According to the chart, innovation precedes creativity.
+    answer: false
+    why: "False: the order runs the other way — creativity precedes innovation, and innovation follows creativity."
+  - key: t17
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: According to the chart, creativity precedes innovation.
+    answer: true
+    why: "True: the chart says creativity precedes innovation; the slide asks you to remember which one follows the other."
+  - key: t18
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 2
+    statement: The second chart defines innovation as the introduction of new or improved goods, services, processes, etc.
+    answer: true
+    why: "True: that is the creativity-versus-innovation chart's definition of innovation."
+  - key: t19
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 2
+    statement: On the second chart, only brand-new goods count as innovation; improved ones do not.
+    answer: false
+    why: "False: the chart's definition covers new or improved goods, services and processes, so improvements count."
+  - key: t20
+    type: truefalse
+    set: quickfire
+    concept: creativity-precedes-innovation
+    difficulty: 1
+    statement: The chart pairs creativity with imagination and innovation with implementation.
+    answer: true
+    why: "True: in the \"related to\" row, creativity is related to imagination and innovation to implementation."
+  - key: s03
+    type: short
+    concept: creativity-precedes-innovation
+    difficulty: 3
+    prompt: Using the Week 7 chart, explain the relationship between creativity and innovation, including which one follows the other. Apply it to a café whose staff imagine new menu ideas and which later introduces one of them, an improved ordering process, to its customers.
+    model: |-
+      The chart defines creativity as the use of imagination or original ideas to create something. It is related to imagination, it cannot be measured, and it precedes innovation. Innovation is the introduction of new or improved goods, services, processes, etc. It is related to implementation, it can be measured, and it follows creativity. The order is fixed: creativity first, innovation second.
+
+      In the café, the staff imagining new menu ideas is creativity: the use of imagination and original ideas, with nothing yet implemented. The later introduction of an improved ordering process is innovation: an improved process, introduced and implemented. It follows the creative stage, as the chart says it should. An improved process counts; innovation is not limited to brand-new things.
+
+      The chart also sets a limit for the café's owner: innovation can be measured, creativity cannot. The café can measure the new ordering process it introduced, but not the brainstorm that came before it.
+    rubric:
+      - id: r1
+        criterion: "Concept: definitions and order"
+        marks: 2
+        top-band: "Defines creativity and innovation as the chart does and states the order: creativity precedes innovation; innovation follows creativity."
+        margin-note: Order stated plainly — the slide's "which one follows the other".
+        authorities: []
+      - id: r2
+        criterion: "Example: the chart's paired rows"
+        marks: 2
+        top-band: "Uses the chart's paired rows as the evidence: imagination against implementation, cannot be measured against can be measured."
+        margin-note: Both pairs used, not just one.
+        authorities: []
+      - id: r3
+        criterion: "Application: the café"
+        marks: 2
+        top-band: Classifies the menu ideas as creativity and the introduced ordering process as innovation, noting that an improved process counts.
+        margin-note: Right on "improved" — the chart says new or improved.
+        authorities: []
+      - id: r4
+        criterion: "Evaluation: the measurement limit"
+        marks: 2
+        top-band: "Draws out the limit the chart sets: the introduced process (innovation) can be measured, the brainstorm (creativity) cannot."
+        margin-note: "Good: the measurement row turned into a practical limit."
+        authorities: []
+  - key: s04
+    type: short
+    concept: creativity-precedes-innovation
+    difficulty: 3
+    verify: true
+    prompt: "The Week 7 tutorial asks: \"In which ways are creativity and innovation useful in organisations?\" Answer using the tutorial's two charts, with an example from them, and say what the charts leave unanswered."
+    model: |-
+      The materials pose this as a discussion question, so the answer has to be built from the charts. Creativity is the use of imagination or original ideas to create something; innovation is the introduction of new or improved goods, services, processes, etc. Read together, creativity is useful as the source of imagination and original ideas, and innovation is useful as the implementation that follows it, turning ideas into new or improved goods, services and processes.
+
+      The first chart adds what innovation needs and what it does: it requires technical knowledge, competence, knowledge about market needs and trends, and financial support, and it meets new requirements or existing market needs. Its examples are the introduction of the iPhone, the tablet and the flat-screen TV.
+
+      An organisation therefore needs both, in order: creativity first, innovation second. The charts also suggest a practical difference: innovation can be measured, creativity cannot.
+
+      The charts leave a good deal open. They do not say how organisations encourage creativity, how they choose which ideas to implement, or how innovation is measured.
+    rubric:
+      - id: r1
+        criterion: "Concept: creativity and innovation defined"
+        marks: 2
+        top-band: Defines both from the charts and states the order, creativity preceding innovation.
+        margin-note: Definitions accurate and in order.
+        authorities: []
+      - id: r2
+        criterion: "Example: a chart example"
+        marks: 1
+        top-band: Uses a chart example of innovation (the introduction of the iPhone, the tablet or the flat-screen TV) in support.
+        margin-note: Example from the materials, not invented.
+        authorities: []
+      - id: r3
+        criterion: "Application: usefulness to organisations"
+        marks: 2
+        top-band: "Explains each one's use from the charts: creativity as the source of original ideas; innovation as implementation that meets requirements or market needs and can be measured."
+        margin-note: Each use tied to a row of the chart.
+        authorities: []
+      - id: r4
+        criterion: "Evaluation: what the charts leave open"
+        marks: 2
+        top-band: Identifies what the charts do not answer, such as how creativity is encouraged, how ideas are chosen, and how innovation is measured.
+        margin-note: Honest about the limits of a two-chart source.
+        authorities: []
+pretest:
+  - a01
+  - a06
+  - b01
+  - b02
+  - b04
+cards:
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: On the Week 7 chart, what is an invention?
+    back: A novel product, device, process, or concept.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: On the Week 7 chart, what is innovation (invention-versus-innovation chart)?
+    back: The introduction of a newer and better solution that meets new requirements or existing market needs.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: What does invention require, according to the chart?
+    back: Knowledge, competence, and financial aid.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: What does innovation require, according to the chart?
+    back: Technical knowledge, competence, knowledge about market needs, trends, and financial support.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: Which requirement does innovation have that invention does not?
+    back: Knowledge about market needs and trends. Competence and money appear in both columns.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: What are the chart's examples of invention?
+    back: The invention of the printing press, electricity, the telephone.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: What are the chart's examples of innovation?
+    back: The introduction of the iPhone, the tablet, the flat-screen TV.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: invention-vs-innovation-economic-value
+    front: What does the tutorial slide tell you to pay attention to when distinguishing invention from innovation?
+    back: The economic value ("Let's understand the difference. Pay attention to the economic value.").
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: basic
+    concept: creativity-precedes-innovation
+    front: On the Week 7 chart, what is creativity?
+    back: The use of imagination or original ideas to create something.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: basic
+    concept: creativity-precedes-innovation
+    front: How does the creativity-versus-innovation chart define innovation?
+    back: The introduction of new or improved goods, services, processes, etc.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: basic
+    concept: creativity-precedes-innovation
+    front: "Which follows which: creativity or innovation?"
+    back: Innovation follows creativity; creativity precedes innovation.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: basic
+    concept: creativity-precedes-innovation
+    front: "Which can be measured: creativity or innovation?"
+    back: Innovation can be measured; creativity cannot be measured.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: basic
+    concept: creativity-precedes-innovation
+    front: "What is each related to: creativity and innovation?"
+    back: Creativity is related to imagination; innovation is related to implementation.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: basic
+    concept: creativity-precedes-innovation
+    front: What question does the Week 7 tutorial pose about organisations?
+    back: In which ways are creativity and innovation useful in organisations? (A discussion question; the materials do not answer it.)
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: cloze
+    concept: invention-vs-innovation-economic-value
+    text: Invention is a novel {{c1::product}}, {{c2::device}}, {{c3::process}}, or {{c4::concept}}.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: cloze
+    concept: invention-vs-innovation-economic-value
+    text: Innovation is the {{c1::introduction}} of a newer and better solution that meets new {{c2::requirements}} or existing {{c3::market needs}}.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: cloze
+    concept: invention-vs-innovation-economic-value
+    text: Innovation requires technical knowledge, competence, knowledge about {{c1::market needs, trends}}, and financial support.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: cloze
+    concept: creativity-precedes-innovation
+    text: Creativity is the use of {{c1::imagination}} or {{c2::original ideas}} to create something.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: cloze
+    concept: creativity-precedes-innovation
+    text: Creativity {{c1::precedes}} innovation; innovation {{c2::follows}} creativity.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: cloze
+    concept: creativity-precedes-innovation
+    text: Innovation {{c1::can}} be measured; creativity {{c2::cannot}} be measured.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: cloze
+    concept: creativity-precedes-innovation
+    text: Innovation is related to {{c1::implementation}}; creativity is related to {{c2::imagination}}.
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: apply
+    concept: invention-vs-innovation-economic-value
+    scenario: An inventor builds a working prototype of a new bicycle lock. It has not been offered to anyone.
+    answer: "An invention on the chart (a novel device). Not yet innovation: nothing has been introduced to meet a requirement or market need."
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: apply
+    concept: invention-vs-innovation-economic-value
+    scenario: A carmaker introduces a newer model with a better seat design, meeting drivers' existing need for comfort on long trips.
+    answer: "Innovation: the introduction of a newer and better solution that meets an existing market need."
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: apply
+    concept: invention-vs-innovation-economic-value
+    scenario: Two firms both have competence and funding. One has devised a novel process; the other has studied market needs and trends and introduced a better service.
+    answer: The first matches invention; the second matches innovation. Competence and money are in both columns, so they do not decide it.
+    source: Week 7 Tutorial, slide 2 (Invention vs innovation chart)
+  - type: apply
+    concept: creativity-precedes-innovation
+    scenario: A school's teachers brainstorm original ideas for a new orientation day. None has been put into practice.
+    answer: "Creativity: the use of imagination or original ideas. On the chart it cannot be measured, and it precedes innovation."
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+  - type: apply
+    concept: creativity-precedes-innovation
+    scenario: A gym introduces an improved booking process for its classes, replacing the old one.
+    answer: "Innovation: the introduction of an improved process. It is related to implementation, can be measured, and follows creativity."
+    source: Week 7 Tutorial, slide 3 (Creativity vs innovation chart)
+audio:
+  title: Week 7 recap — invention, innovation, creativity
+  minutes: 2
+  script: |-
+    This week is a tutorial with two charts, and the job is to keep three words apart: invention, innovation and creativity.
+
+    Start with invention against innovation. The slide says, let's understand the difference, and pay attention to the economic value. On the chart, an invention is a novel product, device, process, or concept. It needs knowledge, competence, and financial aid. The examples are the invention of the printing press, electricity and the telephone. Innovation is the introduction of a newer and better solution that meets new requirements or existing market needs. It needs technical knowledge, competence, knowledge about market needs and trends, and financial support. The examples are the introduction of the iPhone, the tablet and the flat-screen TV.
+
+    So notice what is shared and what is not. Both columns need competence and money, so effort and funding won't tell them apart. What only innovation has is the market: it meets requirements or market needs, it needs knowledge of market needs and trends, and its examples are introductions, not inventions. The slide doesn't spell out the economic value, but that's where the two columns differ.
+
+    Now creativity against innovation. The slide says, remember which one follows the other. Creativity is the use of imagination or original ideas to create something. It's related to imagination, it can't be measured, and it comes first. Innovation is the introduction of new or improved goods, services, processes and so on. It's related to implementation, it can be measured, and it follows creativity. Improved counts, not only brand new.
+
+    For a scenario, use the right chart for the right pair. A novel device sitting in a garage is an invention; once it's introduced to meet a need, that's innovation. Staff imagining ideas is creativity; putting one into practice is innovation, and innovation follows creativity.
+
+    The tutorial ends with a question for discussion: in which ways are creativity and innovation useful in organisations? The materials leave it open, so build your answer from the chart's rows.

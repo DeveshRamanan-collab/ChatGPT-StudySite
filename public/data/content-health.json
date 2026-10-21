@@ -1,0 +1,5491 @@
+{
+ "summary": {
+  "laws2000": {
+   "concepts": 93,
+   "withAids": 93,
+   "withExplainer": 93,
+   "withFlows": 63,
+   "under20Questions": 0
+  },
+  "laws2100": {
+   "concepts": 66,
+   "withAids": 66,
+   "withExplainer": 66,
+   "withFlows": 29,
+   "under20Questions": 0
+  },
+  "laws2400": {
+   "concepts": 88,
+   "withAids": 88,
+   "withExplainer": 88,
+   "withFlows": 67,
+   "under20Questions": 13
+  },
+  "mgmt2094": {
+   "concepts": 85,
+   "withAids": 85,
+   "withExplainer": 85,
+   "withFlows": 32,
+   "under20Questions": 0
+  }
+ },
+ "stale": [
+  {
+   "spec": "content-src/laws2000-pq.yaml",
+   "kind": "notes",
+   "week": "laws2000-w00",
+   "source": "raw/laws2000-pil",
+   "files": 41,
+   "locked": 0
+  },
+  {
+   "spec": "content-src/laws2100-pq.yaml",
+   "kind": "notes",
+   "week": "laws2100-w00",
+   "source": "raw/laws2100-juris",
+   "files": 22,
+   "locked": 0
+  },
+  {
+   "spec": "content-src/laws2400-pq.yaml",
+   "kind": "notes",
+   "week": "laws2400-w00",
+   "source": "raw/laws2400-torts/assessment",
+   "files": 27,
+   "locked": 0
+  }
+ ],
+ "conflicts": [
+  {
+   "kind": "citation-year",
+   "unit": "laws2400",
+   "subject": "Amaca v Booth",
+   "detail": "note says 2010, case card says 2011",
+   "where": [
+    "laws2400-w10-risk-chance-and-material-contribution"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "action on the case",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w01-intentional-torts-classification",
+    "laws2400-w05-negligence-elements-overview"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "actionable per se",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w01-trespass-voluntary-act-and-damage",
+    "laws2400-w03-trespass-to-land-elements"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "ad hoc tribunal",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2000-w08-international-arbitration",
+    "laws2000-w11-ad-hoc-tribunals-icty-and-ictr"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "art 33(1) means",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2000-w08-obligation-of-peaceful-settlement",
+    "laws2000-w10-peaceful-settlement-under-chapter-vi"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "assumption of responsibility",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w05-duty-of-care-and-pure-economic-loss",
+    "laws2400-w07-esanda-and-misstatement-salient-features"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "balance of probabilities",
+   "detail": "3 different glosses",
+   "where": [
+    "laws2400-w01-tort-law-and-other-branches",
+    "laws2400-w09-standard-of-care-reasonableness",
+    "laws2400-w10-factual-causation-necessary-condition"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "business model canvas",
+   "detail": "2 different glosses",
+   "where": [
+    "mgmt2094-w03-desirability-feasibility-viability",
+    "mgmt2094-w10-business-model-canvas"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "commercialisation",
+   "detail": "2 different glosses",
+   "where": [
+    "mgmt2094-w08-what-is-innovation",
+    "mgmt2094-w09-new-product-market-share"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "compromis",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2000-w08-icj-jurisdiction-and-consent",
+    "laws2000-w08-international-arbitration"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "contributory negligence",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w04-provocation-and-contributory-negligence",
+    "laws2400-w12-defences-to-negligence-flowchart"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "control",
+   "detail": "3 different glosses",
+   "where": [
+    "laws2400-w06-omissions-and-control-of-others",
+    "laws2400-w07-pel-caused-by-acts-perre-and-caltex",
+    "laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "convergent thinking",
+   "detail": "2 different glosses",
+   "where": [
+    "mgmt2094-w02-creative-problem-solving-steps",
+    "mgmt2094-w05-creative-problem-solving-process"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "divergent thinking",
+   "detail": "3 different glosses",
+   "where": [
+    "mgmt2094-w02-creative-problem-solving-steps",
+    "mgmt2094-w03-divergent-thinking-and-idea-generation",
+    "mgmt2094-w05-creative-problem-solving-process"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "good offices",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2000-w08-diplomatic-modes-of-settlement",
+    "laws2000-w10-general-assembly-and-secretary-general"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "good samaritan (s 56)",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-omissions-and-control-of-others",
+    "laws2400-w12-contributory-negligence-employees-emergencies-rescuers"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "implied licence",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w03-implied-licence",
+    "laws2400-w04-legal-process-defence"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "inherent risk",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-sport-and-recreational-injury",
+    "laws2400-w09-reasonable-response-s5b-1c-and-2"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "innovation (week 7 chart)",
+   "detail": "2 different glosses",
+   "where": [
+    "mgmt2094-w07-creativity-precedes-innovation",
+    "mgmt2094-w07-invention-vs-innovation-economic-value"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2100",
+   "subject": "internal point of view",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2100-w03-legal-obligation-and-social-rules",
+    "laws2100-w08-outsider-jurisprudence"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "international law commission",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2000-w01-history-nineteenth-century-to-un",
+    "laws2000-w02-judicial-decisions-and-scholarly-writings"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "jus cogens",
+   "detail": "3 different glosses",
+   "where": [
+    "laws2000-w05-customary-international-law-in-australian-law",
+    "laws2000-w09-prohibition-on-the-use-of-force",
+    "laws2000-w12-core-instruments-and-sources-of-obligation"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "lawful justification",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w02-false-imprisonment",
+    "laws2400-w03-trespass-to-land-elements"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "limitation period",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w01-intentional-torts-classification",
+    "laws2400-w08-advocates-immunity"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "mass buyers",
+   "detail": "2 different glosses",
+   "where": [
+    "mgmt2094-w08-value-innovation-and-what-if",
+    "mgmt2094-w11-value-innovation"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "neighbour principle",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w01-tort-law-and-other-branches",
+    "laws2400-w05-neighbour-principle-and-duty-evolution"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "normal fortitude",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-psychiatric-harm-civil-liability-act",
+    "laws2400-w11-egg-shell-skull-rule"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "novel case",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w05-established-categories-of-duty",
+    "laws2400-w05-novel-duty-and-salient-features"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "obvious risk (s 5f)",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-occupiers-liability-and-obvious-risk",
+    "laws2400-w12-volenti-and-legislation"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "omission",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w01-trespass-voluntary-act-and-damage",
+    "laws2400-w06-omissions-and-control-of-others"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2100",
+   "subject": "positive law",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2100-w02-austins-command-theory",
+    "laws2100-w04-natural-law-and-positivism"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2100",
+   "subject": "power-conferring rule",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2100-w02-harts-chapter-iii-objections",
+    "laws2100-w07-types-of-reasoning-and-rules"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2100",
+   "subject": "principles of legality",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2100-w04-fullers-inner-morality-of-law",
+    "laws2100-w04-harts-six-claims"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "public authority",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-duty-of-care-categories-and-factors",
+    "laws2400-w08-public-authorities-as-defendants"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "real risk",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w09-breach-of-duty-flowchart",
+    "laws2400-w11-remoteness-kind-of-harm"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "recreational activity (s 5k)",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-sport-and-recreational-injury",
+    "laws2400-w12-volenti-and-legislation"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "salient features",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w05-novel-duty-and-salient-features",
+    "laws2400-w07-esanda-and-misstatement-salient-features"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "scope of liability",
+   "detail": "3 different glosses",
+   "where": [
+    "laws2400-w05-negligence-elements-overview",
+    "laws2400-w10-causation-flowchart",
+    "laws2400-w11-scope-of-liability-decision-flow"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "special relationship",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w06-duty-of-care-categories-and-factors",
+    "laws2400-w07-negligent-words-from-deceit-to-hedley-byrne"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "substantial and unreasonable",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w03-private-nuisance-elements",
+    "laws2400-w03-public-nuisance"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "mgmt2094",
+   "subject": "triz",
+   "detail": "2 different glosses",
+   "where": [
+    "mgmt2094-w02-creativity-technique-families",
+    "mgmt2094-w09-creativity-within-discipline"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2000",
+   "subject": "unilateral statement",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2000-w02-sources-beyond-article-38",
+    "laws2000-w03-unilateral-statements"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "volenti non fit injuria",
+   "detail": "2 different glosses",
+   "where": [
+    "laws2400-w12-defences-to-negligence-flowchart",
+    "laws2400-w12-voluntary-assumption-of-risk"
+   ]
+  },
+  {
+   "kind": "term",
+   "unit": "laws2400",
+   "subject": "vulnerability",
+   "detail": "3 different glosses",
+   "where": [
+    "laws2400-w05-duty-of-care-and-pure-economic-loss",
+    "laws2400-w07-disclaimers-and-vulnerability",
+    "laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "coll": "aids",
+   "id": "laws2000-w09-necessity-proportionality-and-reporting"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2100-w02-habits-and-rules"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2100-w02-law-and-coercion"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2100-w03-kelsen-pure-theory"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2100-w04-fullers-inner-morality-of-law"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2100-w05-law-as-integrity"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2100-w09-rights-and-utilitarian-reasoning"
+  },
+  {
+   "coll": "aids",
+   "id": "laws2400-w02-assault"
+  },
+  {
+   "coll": "aids",
+   "id": "mgmt2094-w03-desirability-feasibility-viability"
+  },
+  {
+   "coll": "aids",
+   "id": "mgmt2094-w03-discovering-needs-and-insights"
+  },
+  {
+   "coll": "aids",
+   "id": "mgmt2094-w03-prototyping-and-experimentation"
+  },
+  {
+   "coll": "aids",
+   "id": "mgmt2094-w09-creativity-within-discipline"
+  },
+  {
+   "coll": "aids",
+   "id": "mgmt2094-w09-six-sigma-methods"
+  },
+  {
+   "coll": "authorities",
+   "id": "acts-interpretation-act-1901-cth-s15ab"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-art-12"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-art-15"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-art-42"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-arts-13-14"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-arts-16-18"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-arts-35-37"
+  },
+  {
+   "coll": "authorities",
+   "id": "arsiwa-arts-49-53"
+  },
+  {
+   "coll": "authorities",
+   "id": "australian-constitution-cth-s61"
+  },
+  {
+   "coll": "authorities",
+   "id": "children-and-young-persons-care-and-protection-act-1998-nsw-s174"
+  },
+  {
+   "coll": "authorities",
+   "id": "civil-liability-act-2002-nsw-s45"
+  },
+  {
+   "coll": "authorities",
+   "id": "constitutional-reform-and-governance-act-2010-uk-s20"
+  },
+  {
+   "coll": "authorities",
+   "id": "cpiun-s-29"
+  },
+  {
+   "coll": "authorities",
+   "id": "criminal-code-act-1995-cth-div-268"
+  },
+  {
+   "coll": "authorities",
+   "id": "design-and-building-practitioners-act-2020-nsw-s36"
+  },
+  {
+   "coll": "authorities",
+   "id": "design-and-building-practitioners-act-2020-nsw-ss39-40"
+  },
+  {
+   "coll": "authorities",
+   "id": "diplomatic-privileges-and-immunities-act-1967-cth-s7"
+  },
+  {
+   "coll": "authorities",
+   "id": "foreign-states-immunities-act-1985-cth"
+  },
+  {
+   "coll": "authorities",
+   "id": "friendly-relations-declaration-1970"
+  },
+  {
+   "coll": "authorities",
+   "id": "hart-positivism-and-the-separation-of-law-and-morals"
+  },
+  {
+   "coll": "authorities",
+   "id": "icj-statute-art-34"
+  },
+  {
+   "coll": "authorities",
+   "id": "icj-statute-art-36"
+  },
+  {
+   "coll": "authorities",
+   "id": "icj-statute-art-38-1"
+  },
+  {
+   "coll": "authorities",
+   "id": "ila-2018-report"
+  },
+  {
+   "coll": "authorities",
+   "id": "law-enforcement-powers-and-responsibilities-act-2002-nsw-s99"
+  },
+  {
+   "coll": "authorities",
+   "id": "law-enforcement-powers-and-responsibilities-act-2002-nsw-ss230-231"
+  },
+  {
+   "coll": "authorities",
+   "id": "law-reform-miscellaneous-provisions-act-1946-nsw-s5"
+  },
+  {
+   "coll": "authorities",
+   "id": "law-reform-miscellaneous-provisions-act-1965-nsw-s9"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-apple-and-nokia"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-creative-business-figures"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-dow-corning-rd-centralisation"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-fleming-penicillin"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-guest-nathan-baird"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-kortian-emulsion-patent"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-nepal-infant-warmer"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-osborne-bbdo-brainstorming"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-segway-and-dyson"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-share-a-coke"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-tesla"
+  },
+  {
+   "coll": "authorities",
+   "id": "mgmt2094-example-zappos"
+  },
+  {
+   "coll": "authorities",
+   "id": "police-administration-act-1978-nt-s126"
+  },
+  {
+   "coll": "authorities",
+   "id": "schauer-the-convergence-of-rules-and-standards"
+  },
+  {
+   "coll": "authorities",
+   "id": "schauer-was-austin-right-after-all"
+  },
+  {
+   "coll": "authorities",
+   "id": "state-immunity-act-1978-uk-s1"
+  },
+  {
+   "coll": "authorities",
+   "id": "twining-general-jurisprudence"
+  },
+  {
+   "coll": "authorities",
+   "id": "un-charter-art-104"
+  },
+  {
+   "coll": "authorities",
+   "id": "un-charter-art-2-1"
+  },
+  {
+   "coll": "authorities",
+   "id": "un-charter-art-2-4"
+  },
+  {
+   "coll": "authorities",
+   "id": "un-charter-art-94"
+  },
+  {
+   "coll": "authorities",
+   "id": "un-charter-art-96"
+  },
+  {
+   "coll": "authorities",
+   "id": "un-charter-arts-5-6"
+  },
+  {
+   "coll": "authorities",
+   "id": "unsc-resolution-1373-2001"
+  },
+  {
+   "coll": "authorities",
+   "id": "vclt-art-11"
+  },
+  {
+   "coll": "authorities",
+   "id": "vclt-art-19"
+  },
+  {
+   "coll": "authorities",
+   "id": "vclt-art-20"
+  },
+  {
+   "coll": "authorities",
+   "id": "vclt-art-7"
+  },
+  {
+   "coll": "authorities",
+   "id": "vclt-arts-48-50"
+  },
+  {
+   "coll": "authorities",
+   "id": "waldron-the-law-theory-and-practice-in-british-politics"
+  },
+  {
+   "coll": "authorities",
+   "id": "world-summit-outcome-2005"
+  },
+  {
+   "coll": "cards",
+   "id": "laws2000-w06-c031"
+  },
+  {
+   "coll": "cards",
+   "id": "laws2000-w10-c041"
+  },
+  {
+   "coll": "cards",
+   "id": "laws2000-w10-c046"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w01-c021"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w01-c022"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w03-c010"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w03-c024"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w03-c025"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w03-c026"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w03-c032"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w09-c012"
+  },
+  {
+   "coll": "cards",
+   "id": "mgmt2094-w09-c030"
+  },
+  {
+   "coll": "cases",
+   "id": "aegean-sea-continental-shelf-greece-v-turkey"
+  },
+  {
+   "coll": "cases",
+   "id": "aksoy-v-turkey"
+  },
+  {
+   "coll": "cases",
+   "id": "al-kateb-v-godwin"
+  },
+  {
+   "coll": "cases",
+   "id": "applicant-a-v-minister-for-immigration-and-ethnic-affairs"
+  },
+  {
+   "coll": "cases",
+   "id": "avram-v-gusakoski"
+  },
+  {
+   "coll": "cases",
+   "id": "banovic-v-perkovic"
+  },
+  {
+   "coll": "cases",
+   "id": "barcelona-traction-case-belgium-v-spain"
+  },
+  {
+   "coll": "cases",
+   "id": "barker-v-the-queen"
+  },
+  {
+   "coll": "cases",
+   "id": "benic-v-nsw"
+  },
+  {
+   "coll": "cases",
+   "id": "blyth-v-birmingham-waterworks-co"
+  },
+  {
+   "coll": "cases",
+   "id": "bolton-v-stone"
+  },
+  {
+   "coll": "cases",
+   "id": "bradwell-v-illinois"
+  },
+  {
+   "coll": "cases",
+   "id": "burns-v-pearce"
+  },
+  {
+   "coll": "cases",
+   "id": "carey-v-lake-macquarie-city-council"
+  },
+  {
+   "coll": "cases",
+   "id": "caswell-v-powell-duffryn-associated-collieries"
+  },
+  {
+   "coll": "cases",
+   "id": "caterson-v-commissioner-for-railways"
+  },
+  {
+   "coll": "cases",
+   "id": "cavalier-v-pope"
+  },
+  {
+   "coll": "cases",
+   "id": "certain-expenses-of-the-united-nations"
+  },
+  {
+   "coll": "cases",
+   "id": "certain-questions-of-mutual-assistance-in-criminal-matters-djibouti-v-france"
+  },
+  {
+   "coll": "cases",
+   "id": "ces-v-superclinics-aust-pty-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "chagos-islands-case"
+  },
+  {
+   "coll": "cases",
+   "id": "church-of-the-holy-trinity-v-united-states"
+  },
+  {
+   "coll": "cases",
+   "id": "club-italia-geelong-inc-v-ritchie"
+  },
+  {
+   "coll": "cases",
+   "id": "coco-v-the-queen"
+  },
+  {
+   "coll": "cases",
+   "id": "commissioner-for-railways-v-cardy"
+  },
+  {
+   "coll": "cases",
+   "id": "commonwealth-v-mclean"
+  },
+  {
+   "coll": "cases",
+   "id": "cook-v-lewis"
+  },
+  {
+   "coll": "cases",
+   "id": "cox-v-new-south-wales"
+  },
+  {
+   "coll": "cases",
+   "id": "crimmins-v-stevedoring-industry-finance-committee"
+  },
+  {
+   "coll": "cases",
+   "id": "davies-v-swan-motor-co-swansea-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "deasy-investments-v-monreast"
+  },
+  {
+   "coll": "cases",
+   "id": "declaration-of-independence-in-respect-of-kosovo"
+  },
+  {
+   "coll": "cases",
+   "id": "derry-v-peek"
+  },
+  {
+   "coll": "cases",
+   "id": "empire-of-iran-case"
+  },
+  {
+   "coll": "cases",
+   "id": "factory-at-chorzow"
+  },
+  {
+   "coll": "cases",
+   "id": "gala-v-preston"
+  },
+  {
+   "coll": "cases",
+   "id": "giannarelli-v-wraith"
+  },
+  {
+   "coll": "cases",
+   "id": "gittani-stone-pty-ltd-v-pavkovic"
+  },
+  {
+   "coll": "cases",
+   "id": "haber-v-walker"
+  },
+  {
+   "coll": "cases",
+   "id": "hargrave-v-goldman"
+  },
+  {
+   "coll": "cases",
+   "id": "haynes-v-g-harwood-and-son"
+  },
+  {
+   "coll": "cases",
+   "id": "henville-v-walker"
+  },
+  {
+   "coll": "cases",
+   "id": "hill-v-chief-constable-of-west-yorkshire"
+  },
+  {
+   "coll": "cases",
+   "id": "hirst-v-nominal-defendant"
+  },
+  {
+   "coll": "cases",
+   "id": "hocking-v-director-general-of-the-national-archives-of-australia"
+  },
+  {
+   "coll": "cases",
+   "id": "hollywood-silver-fox-farm-v-emmett"
+  },
+  {
+   "coll": "cases",
+   "id": "hughes-v-lord-advocate"
+  },
+  {
+   "coll": "cases",
+   "id": "hunter-v-canary-wharf"
+  },
+  {
+   "coll": "cases",
+   "id": "ici-v-shatwell"
+  },
+  {
+   "coll": "cases",
+   "id": "imbree-v-mcneilly"
+  },
+  {
+   "coll": "cases",
+   "id": "innes-v-wylie"
+  },
+  {
+   "coll": "cases",
+   "id": "interpretation-of-the-agreement-of-25-march-1951-between-the-who-and-egypt"
+  },
+  {
+   "coll": "cases",
+   "id": "jausnik-v-nominal-defendant-no-5"
+  },
+  {
+   "coll": "cases",
+   "id": "jolley-v-sutton-london-borough-council"
+  },
+  {
+   "coll": "cases",
+   "id": "jones-v-livox-quarries-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "jumbunna-coal-mine-nl-v-victoria-coal-miners-association"
+  },
+  {
+   "coll": "cases",
+   "id": "kavanagh-v-akhtar"
+  },
+  {
+   "coll": "cases",
+   "id": "kelsen-v-imperial-tobacco-co"
+  },
+  {
+   "coll": "cases",
+   "id": "khorasandjian-v-bush"
+  },
+  {
+   "coll": "cases",
+   "id": "koowarta-v-bjelke-petersen"
+  },
+  {
+   "coll": "cases",
+   "id": "land-and-maritime-boundary-cameroon-v-nigeria"
+  },
+  {
+   "coll": "cases",
+   "id": "legality-of-the-threat-or-use-of-nuclear-weapons"
+  },
+  {
+   "coll": "cases",
+   "id": "lincoln-hunt-aust-v-willesee"
+  },
+  {
+   "coll": "cases",
+   "id": "ljp-investments-v-howard-chia-investments"
+  },
+  {
+   "coll": "cases",
+   "id": "mabo-v-queensland-no-2"
+  },
+  {
+   "coll": "cases",
+   "id": "madzimbamuto-v-lardner-burke"
+  },
+  {
+   "coll": "cases",
+   "id": "mahony-v-j-kruschich-demolitions-pty-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "mallonland-pty-ltd-v-advanta-seeds-pty-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "maritime-delimitation-and-territorial-questions-qatar-v-bahrain"
+  },
+  {
+   "coll": "cases",
+   "id": "maritime-delimitation-in-the-indian-ocean-somalia-v-kenya"
+  },
+  {
+   "coll": "cases",
+   "id": "marshall-islands-v-united-kingdom"
+  },
+  {
+   "coll": "cases",
+   "id": "mcgee-v-national-coal-board"
+  },
+  {
+   "coll": "cases",
+   "id": "mclean-v-tedman"
+  },
+  {
+   "coll": "cases",
+   "id": "mcnamara-v-duncan"
+  },
+  {
+   "coll": "cases",
+   "id": "medlin-v-state-government-insurance-commission"
+  },
+  {
+   "coll": "cases",
+   "id": "metrolink-victoria-pty-ltd-v-inglis"
+  },
+  {
+   "coll": "cases",
+   "id": "milirrpum-v-nabalco-pty-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "minister-for-immigration-and-ethnic-affairs-v-teoh"
+  },
+  {
+   "coll": "cases",
+   "id": "mount-isa-mines-ltd-v-pusey"
+  },
+  {
+   "coll": "cases",
+   "id": "munnings-v-barrett"
+  },
+  {
+   "coll": "cases",
+   "id": "mutual-life-and-citizens-assurance-co-v-evatt"
+  },
+  {
+   "coll": "cases",
+   "id": "nader-v-urban-transit-authority-of-new-south-wales"
+  },
+  {
+   "coll": "cases",
+   "id": "nagle-v-rottnest-island-board"
+  },
+  {
+   "coll": "cases",
+   "id": "new-south-wales-v-commonwealth"
+  },
+  {
+   "coll": "cases",
+   "id": "newcrest-mining-wa-ltd-v-commonwealth"
+  },
+  {
+   "coll": "cases",
+   "id": "northern-sandblasting-pty-ltd-v-harris"
+  },
+  {
+   "coll": "cases",
+   "id": "nottebohm-case"
+  },
+  {
+   "coll": "cases",
+   "id": "oil-platforms-islamic-republic-of-iran-v-united-states-of-america"
+  },
+  {
+   "coll": "cases",
+   "id": "overseas-tankship-v-miller-steamship-the-wagon-mound-no-2"
+  },
+  {
+   "coll": "cases",
+   "id": "overseas-tankship-v-morts-dock-the-wagon-mound-no-1"
+  },
+  {
+   "coll": "cases",
+   "id": "pabai-v-commonwealth-of-australia-no-2"
+  },
+  {
+   "coll": "cases",
+   "id": "paris-v-stepney-borough-council"
+  },
+  {
+   "coll": "cases",
+   "id": "pennington-v-norris"
+  },
+  {
+   "coll": "cases",
+   "id": "perre-v-apand-pty-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "peterkin-v-tadros"
+  },
+  {
+   "coll": "cases",
+   "id": "playa-largo-v-i-congreso-del-partido"
+  },
+  {
+   "coll": "cases",
+   "id": "plenty-v-dillon"
+  },
+  {
+   "coll": "cases",
+   "id": "polites-v-commonwealth"
+  },
+  {
+   "coll": "cases",
+   "id": "progress-and-properties-ltd-v-craft"
+  },
+  {
+   "coll": "cases",
+   "id": "prosecutor-v-dusko-tadic"
+  },
+  {
+   "coll": "cases",
+   "id": "prosecutor-v-jean-paul-akayesu"
+  },
+  {
+   "coll": "cases",
+   "id": "r-miller-v-secretary-of-state-for-exiting-the-european-union"
+  },
+  {
+   "coll": "cases",
+   "id": "r-v-bow-street-metropolitan-stipendiary-magistrate-ex-parte-pinochet-ugarte-no-3"
+  },
+  {
+   "coll": "cases",
+   "id": "rail-corporation-nsw-v-donald"
+  },
+  {
+   "coll": "cases",
+   "id": "rainbow-warrior-case"
+  },
+  {
+   "coll": "cases",
+   "id": "re-secession-of-quebec"
+  },
+  {
+   "coll": "cases",
+   "id": "rickards-v-lothian"
+  },
+  {
+   "coll": "cases",
+   "id": "riggs-v-palmer"
+  },
+  {
+   "coll": "cases",
+   "id": "roy-v-oneill"
+  },
+  {
+   "coll": "cases",
+   "id": "rta-v-dederer"
+  },
+  {
+   "coll": "cases",
+   "id": "ruddock-v-taylor"
+  },
+  {
+   "coll": "cases",
+   "id": "scott-v-shepherd"
+  },
+  {
+   "coll": "cases",
+   "id": "secretary-department-of-health-and-community-services-v-jwb"
+  },
+  {
+   "coll": "cases",
+   "id": "serbian-loans-case"
+  },
+  {
+   "coll": "cases",
+   "id": "sergio-euben-lopez-burgos-v-uruguay"
+  },
+  {
+   "coll": "cases",
+   "id": "ss-lotus-france-v-turkey"
+  },
+  {
+   "coll": "cases",
+   "id": "staveley-iron-and-chemical-co-v-jones"
+  },
+  {
+   "coll": "cases",
+   "id": "stuart-v-kirkland-veenstra"
+  },
+  {
+   "coll": "cases",
+   "id": "sutherland-shire-council-v-heyman"
+  },
+  {
+   "coll": "cases",
+   "id": "swain-v-waverley-municipal-council"
+  },
+  {
+   "coll": "cases",
+   "id": "tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "the-oropesa"
+  },
+  {
+   "coll": "cases",
+   "id": "tremain-v-pike"
+  },
+  {
+   "coll": "cases",
+   "id": "trendex-trading-corporation-v-central-bank-of-nigeria"
+  },
+  {
+   "coll": "cases",
+   "id": "urbanski-v-patel"
+  },
+  {
+   "coll": "cases",
+   "id": "us-v-yunis"
+  },
+  {
+   "coll": "cases",
+   "id": "vaughan-v-menlove"
+  },
+  {
+   "coll": "cases",
+   "id": "velasquez-rodriguez-v-honduras"
+  },
+  {
+   "coll": "cases",
+   "id": "wallace-v-kam"
+  },
+  {
+   "coll": "cases",
+   "id": "waller-v-james"
+  },
+  {
+   "coll": "cases",
+   "id": "white-v-johnston"
+  },
+  {
+   "coll": "cases",
+   "id": "woolcock-street-investments-pty-ltd-v-cdg-pty-ltd"
+  },
+  {
+   "coll": "cases",
+   "id": "yager-v-the-queen"
+  },
+  {
+   "coll": "cases",
+   "id": "yates-v-jones"
+  },
+  {
+   "coll": "cases",
+   "id": "zalewski-v-turcarolo"
+  },
+  {
+   "coll": "cases",
+   "id": "zecevic-v-dpp"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w09-anticipatory-self-defence"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w09-armed-attack"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w09-exceptions-to-the-prohibition"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w09-necessity-proportionality-and-reporting"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w09-prohibition-on-the-use-of-force"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w09-self-defence-against-non-state-actors"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2000-w11-ad-hoc-tribunals-icty-and-ictr"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2100-w09-rights-and-utilitarian-reasoning"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2400-w10-s5d2-exceptional-cases"
+  },
+  {
+   "coll": "concepts",
+   "id": "laws2400-w12-contributory-negligence-employees-emergencies-rescuers"
+  },
+  {
+   "coll": "concepts",
+   "id": "mgmt2094-w03-discovering-needs-and-insights"
+  },
+  {
+   "coll": "concepts",
+   "id": "mgmt2094-w09-creativity-within-discipline"
+  },
+  {
+   "coll": "concepts",
+   "id": "mgmt2094-w09-six-sigma-methods"
+  },
+  {
+   "coll": "flows",
+   "id": "mgmt2094-w03-flow-design-thinking-journey"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q010"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q011"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q012"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q013"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q015"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q017"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q019"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q020"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q026"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q029"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q036"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q037"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w00-q041"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w06-q124"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w10-q202"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w10-q211"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w11-q079"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w11-q080"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w11-q160"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w11-q196"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2000-w11-q217"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w00-q015"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w00-q016"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w00-q022"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w02-q093"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q048"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q050"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q051"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q052"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q053"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q059"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q060"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q072"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2100-w09-q073"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q014"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q015"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q016"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q017"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q018"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q020"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q021"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q022"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q024"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q026"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w00-q027"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w12-q034"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w12-q035"
+  },
+  {
+   "coll": "questions",
+   "id": "laws2400-w12-q065"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w01-q098"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q025"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q026"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q033"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q097"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q098"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q099"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q100"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q101"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q102"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q103"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q104"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q105"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q106"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q107"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q108"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q109"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q110"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q111"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q112"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q113"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q114"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q115"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q116"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q130"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q141"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q142"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q143"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q144"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q146"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q156"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w03-q160"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w07-q007"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w07-q026"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w07-q038"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w07-q050"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q049"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q050"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q051"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q124"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q125"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q126"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q127"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q132"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q133"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q134"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q136"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q139"
+  },
+  {
+   "coll": "questions",
+   "id": "mgmt2094-w09-q140"
+  }
+ ],
+ "locked": [
+  {
+   "coll": "authorities",
+   "id": "motor-accidents-act-1988-nsw-s76"
+  }
+ ],
+ "coverage": [
+  {
+   "id": "laws2000-w01-compliance-and-enforcement",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "Why states comply without a world police",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w01-defining-international-law",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "Defining international law",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w01-general-and-specialized-international-law",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "General and specialised international law",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w01-history-ancient-to-westphalia",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "History I: the polis to Westphalia",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w01-history-nineteenth-century-to-un",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "History II: positivism to the United Nations",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w01-international-law-as-living-process",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "International law as a living process",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w01-sovereign-equality-and-consent",
+   "unit": "laws2000",
+   "week": "laws2000-w01",
+   "title": "Sovereign equality and state consent",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w02-article-38-and-sources-of-international-law",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "Article 38(1) and the sources of international law",
+   "questions": 22,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w02-customary-international-law-elements",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "Customary international law — practice and opinio juris",
+   "questions": 22,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2000-w02-general-principles-of-law",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "General principles of law",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w02-judicial-decisions-and-scholarly-writings",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "Judicial decisions and scholarly writings",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w02-persistent-objector-and-particular-custom",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "Persistent objector and particular custom",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w02-relationship-between-treaties-and-custom",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "The relationship between treaties and custom",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w02-sources-beyond-article-38",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "Sources beyond Article 38 — what is missing",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w02-treaties-as-a-source",
+   "unit": "laws2000",
+   "week": "laws2000-w02",
+   "title": "Treaties as a source",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w03-australian-treaty-making-process",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Australia's treaty-making process and the AUKUS case study",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w03-authority-to-conclude-a-treaty",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Authority to conclude a treaty",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w03-consent-to-be-bound-and-entry-into-force",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Consent to be bound, entry into force and provisional application",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w03-invalidity-of-treaties",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Invalidity of treaties",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w03-reservations-to-treaties",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Reservations",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w03-treaty-definition-and-form",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "What is a treaty",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w03-treaty-interpretation",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Treaty interpretation",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w03-unilateral-statements",
+   "unit": "laws2000",
+   "week": "laws2000-w03",
+   "title": "Unilateral statements",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w04-emerging-actors-beyond-the-state",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "Emerging actors beyond the state",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w04-international-organisations-definition-and-personality",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "International organisations — definition, membership and legal personality",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w04-modes-of-territorial-acquisition",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "Modes of territorial acquisition",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w04-montevideo-criteria-for-statehood",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "The Montevideo criteria for statehood",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w04-powers-and-responsibility-of-international-organisations",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "Powers and responsibility of international organisations",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w04-recognition-of-states",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "Recognition and contested statehood",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w04-self-determination-and-secession",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "Self-determination and secession",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w04-subjects-and-international-legal-personality",
+   "unit": "laws2000",
+   "week": "laws2000-w04",
+   "title": "Subjects of international law and legal personality",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w05-customary-international-law-in-australian-law",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "Customary international law in Australian law",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w05-forms-of-jurisdiction",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "Forms of jurisdiction",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w05-grounds-of-jurisdiction",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "Grounds for asserting jurisdiction",
+   "questions": 25,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w05-il-perspective-on-national-law",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "International law's view of national law",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w05-international-law-in-australian-interpretation",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "International law as an aid to interpretation",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w05-monism-and-dualism",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "Monism and dualism",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w05-treaties-in-australian-law",
+   "unit": "laws2000",
+   "week": "laws2000-w05",
+   "title": "Treaties in Australian law",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w06-diplomatic-and-consular-immunities",
+   "unit": "laws2000",
+   "week": "laws2000-w06",
+   "title": "Diplomatic and consular immunities",
+   "questions": 34,
+   "cards": 10,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w06-immunities-of-international-organisations",
+   "unit": "laws2000",
+   "week": "laws2000-w06",
+   "title": "Immunities of international organisations",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w06-immunities-of-state-officials",
+   "unit": "laws2000",
+   "week": "laws2000-w06",
+   "title": "Immunity ratione materiae and ratione personae",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w06-immunity-and-serious-international-crimes",
+   "unit": "laws2000",
+   "week": "laws2000-w06",
+   "title": "Immunity, impunity and international crimes",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2000-w06-restrictive-state-immunity",
+   "unit": "laws2000",
+   "week": "laws2000-w06",
+   "title": "Restrictive immunity — acta jure imperii and jure gestionis",
+   "questions": 22,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w06-state-immunity-foundations",
+   "unit": "laws2000",
+   "week": "laws2000-w06",
+   "title": "State immunity — basis, scope and waiver",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w07-attribution-to-the-state",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "Attribution to the state (arts 4–7, 10, 11, 16–18)",
+   "questions": 21,
+   "cards": 8,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2000-w07-breach-of-an-international-obligation",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "Breach of an international obligation",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w07-cessation-and-reparation",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "Consequences — cessation and full reparation",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w07-circumstances-precluding-wrongfulness",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "Circumstances precluding wrongfulness (arts 20–26)",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w07-effective-control-and-private-conduct",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "Private conduct and the effective control test (art 8)",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w07-framework-of-state-responsibility",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "State responsibility — the framework and the two elements",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w07-invocation-of-responsibility",
+   "unit": "laws2000",
+   "week": "laws2000-w07",
+   "title": "Who may invoke responsibility — injured and non-injured states",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w08-diplomatic-modes-of-settlement",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "Diplomatic modes — negotiation, good offices, mediation, inquiry, conciliation",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w08-existence-of-a-dispute",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "The existence of a legal dispute",
+   "questions": 23,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w08-icj-cases-and-effect-of-decisions",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "The ICJ — contentious cases, advisory opinions and the effect of decisions",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w08-icj-jurisdiction-and-consent",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "ICJ jurisdiction — access and the four ways to consent (art 36)",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w08-international-arbitration",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "International arbitration",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w08-obligation-of-peaceful-settlement",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "The obligation to settle disputes peacefully",
+   "questions": 23,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w08-provisional-measures",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "Provisional measures (art 41) and LaGrand",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2000-w08-regional-and-economic-dispute-settlement",
+   "unit": "laws2000",
+   "week": "laws2000-w08",
+   "title": "Regional organisations and WTO dispute settlement",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w09-anticipatory-self-defence",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "Anticipatory or pre-emptive self-defence",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w09-armed-attack",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "The armed attack trigger — scale and effects",
+   "questions": 22,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2000-w09-exceptions-to-the-prohibition",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "Exceptions — Security Council authorisation, self-defence, and invitation",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w09-humanitarian-intervention-and-r2p",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "Humanitarian intervention and the responsibility to protect",
+   "questions": 22,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w09-jus-ad-bellum-and-jus-in-bello",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "Jus ad bellum and jus in bello — from just war to the Charter",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w09-necessity-proportionality-and-reporting",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "Conditions of self-defence — necessity, proportionality and reporting",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w09-prohibition-on-the-use-of-force",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "The prohibition on the threat or use of force — art 2(4)",
+   "questions": 25,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w09-self-defence-against-non-state-actors",
+   "unit": "laws2000",
+   "week": "laws2000-w09",
+   "title": "Armed attacks by non-state actors",
+   "questions": 22,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-article-39-determination-and-provisional-measures",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Chapter VII — the art 39 determination, provisional measures and the path to force",
+   "questions": 26,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-article-39-findings-in-practice",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Threat, breach or aggression — the art 39 findings in practice",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-authorisation-of-force-under-article-42",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Authorising force under art 42 — coalitions, regional organisations and \"revived\" authorisation",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2000-w10-collective-security-and-the-un-system",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Collective security and the UN system",
+   "questions": 23,
+   "cards": 8,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w10-decisions-and-recommendations",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Decisions and recommendations — which parts of a Council resolution bind",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-general-assembly-and-secretary-general",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "The General Assembly, Uniting for Peace and the Secretary-General",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-non-forcible-measures-under-article-41",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Non-forcible measures under art 41 — sanctions, tribunals and ICC referrals",
+   "questions": 24,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-peaceful-settlement-under-chapter-vi",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "Peaceful settlement of disputes under Chapter VI",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-security-council-composition-and-powers",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "The Security Council — composition, primary responsibility and binding decisions",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w10-un-peacekeeping-operations",
+   "unit": "laws2000",
+   "week": "laws2000-w10",
+   "title": "UN peacekeeping and peace operations",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w11-ad-hoc-tribunals-icty-and-ictr",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "The ad hoc tribunals — ICTY and ICTR",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w11-hybrid-tribunals-and-the-eccc",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "Hybrid tribunals — the Extraordinary Chambers in the Courts of Cambodia",
+   "questions": 41,
+   "cards": 10,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w11-icc-admissibility-and-complementarity",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "ICC admissibility and complementarity",
+   "questions": 30,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w11-icc-applicable-law-and-cooperation",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "ICC applicable law and state cooperation",
+   "questions": 28,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w11-icc-jurisdiction",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "ICC jurisdiction — crimes, time, triggers and preconditions",
+   "questions": 46,
+   "cards": 15,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w11-nuremberg-principles",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "The Nuremberg Principles",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w11-post-wwii-military-tribunals",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "The post-WWII military tribunals",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w11-what-is-international-criminal-law",
+   "unit": "laws2000",
+   "week": "laws2000-w11",
+   "title": "What is international criminal law?",
+   "questions": 27,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w12-core-instruments-and-sources-of-obligation",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "Core human rights treaties and the sources of human rights obligations",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w12-derogations-and-limitations",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "Derogations in emergencies and limitations outside them",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w12-generations-and-principles-of-rights",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "Generations of rights, universality and indivisibility",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w12-history-and-foundations-of-human-rights",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "History and foundations of international human rights law",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w12-international-bill-of-rights",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "The International Bill of Rights — UDHR, ICCPR and ICESCR",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w12-international-human-rights-machinery",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "International human rights machinery — Charter-based and treaty-based mechanisms",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2000-w12-rights-holders-and-duty-bearers",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "Rights holders and duty bearers — vertical and horizontal obligations",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2000-w12-scope-and-extraterritoriality",
+   "unit": "laws2000",
+   "week": "laws2000-w12",
+   "title": "Scope of human rights obligations — territory, jurisdiction and extraterritoriality",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w01-conceptual-analysis",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "Conceptual analysis and analytical jurisprudence",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w01-definition-per-genus-et-differentiam",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "Definition per genus et differentiam",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w01-general-and-descriptive-theory",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "A general and descriptive theory — and its challengers",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w01-harts-project",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "Hart's project — knowing and understanding",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w01-legal-theory-in-the-real-world",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "Legal theory in the real world — and why study it",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w01-meaning-of-jurisprudence",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "What jurisprudence means — general and particular",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w01-six-kinds-of-questions",
+   "unit": "laws2100",
+   "week": "laws2100-w01",
+   "title": "Six kinds of questions",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w02-austins-command-theory",
+   "unit": "laws2100",
+   "week": "laws2100-w02",
+   "title": "Austin's command theory — law as a command",
+   "questions": 21,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w02-austins-sovereign",
+   "unit": "laws2100",
+   "week": "laws2100-w02",
+   "title": "Sovereignty, independent political society and Austin's positivism",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w02-gunman-situation",
+   "unit": "laws2100",
+   "week": "laws2100-w02",
+   "title": "The gunman situation writ large",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w02-habits-and-rules",
+   "unit": "laws2100",
+   "week": "laws2100-w02",
+   "title": "Chapter IV — sovereign and subject, habits and rules",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w02-harts-chapter-iii-objections",
+   "unit": "laws2100",
+   "week": "laws2100-w02",
+   "title": "Hart's Chapter III objections — content, range, origin",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w02-law-and-coercion",
+   "unit": "laws2100",
+   "week": "laws2100-w02",
+   "title": "Is coercion a necessary feature of law?",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w03-kelsen-pure-theory",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "Kelsen's pure theory — coercive order, chain of validity, basic norm",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w03-legal-obligation-and-social-rules",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "Legal obligation and the internal aspect of rules",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w03-primary-and-secondary-rules",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "Law as the union of primary and secondary rules",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w03-recognition-vs-basic-norm",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "Hart's rule of recognition vs Kelsen's Grundnorm",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w03-rule-of-recognition-and-validity",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "The rule of recognition, validity and the existence of a legal system",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w03-separation-of-law-and-morals",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "The separation of law and morals — law as it is and as it ought to be",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w03-what-is-legal-positivism",
+   "unit": "laws2100",
+   "week": "laws2100-w03",
+   "title": "Five meanings of 'positivism' and three senses of legal positivism",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w04-finnis-central-case-method",
+   "unit": "laws2100",
+   "week": "laws2100-w04",
+   "title": "Finnis's method — evaluation, central case and viewpoint",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w04-fullers-inner-morality-of-law",
+   "unit": "laws2100",
+   "week": "laws2100-w04",
+   "title": "Fuller's inner morality of law — the eight principles",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w04-harts-six-claims",
+   "unit": "laws2100",
+   "week": "laws2100-w04",
+   "title": "Hart's six claims about law and morality",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w04-lex-iniusta-strong-and-weak",
+   "unit": "laws2100",
+   "week": "laws2100-w04",
+   "title": "Lex iniusta non est lex — strong and weak natural law theses",
+   "questions": 22,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w04-minimum-content-of-natural-law",
+   "unit": "laws2100",
+   "week": "laws2100-w04",
+   "title": "Hart's minimum content of natural law",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w04-natural-law-and-positivism",
+   "unit": "laws2100",
+   "week": "laws2100-w04",
+   "title": "The natural law tradition and the necessary connection (NCLM)",
+   "questions": 21,
+   "cards": 8,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w05-discretion-riggs-and-obligation",
+   "unit": "laws2100",
+   "week": "laws2100-w05",
+   "title": "Strong discretion, Riggs v Palmer and legal obligation",
+   "questions": 21,
+   "cards": 9,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w05-inclusive-and-exclusive-positivism",
+   "unit": "laws2100",
+   "week": "laws2100-w05",
+   "title": "Hart's Postscript: inclusive and exclusive positivism",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w05-law-as-integrity",
+   "unit": "laws2100",
+   "week": "laws2100-w05",
+   "title": "Constructive interpretation and law as integrity",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w05-rules-principles-and-policies",
+   "unit": "laws2100",
+   "week": "laws2100-w05",
+   "title": "Rules, principles and policies",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w05-ruling-theory-and-three-tenets",
+   "unit": "laws2100",
+   "week": "laws2100-w05",
+   "title": "The ruling theory and Dworkin's three tenets of positivism",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w05-theoretical-disagreement",
+   "unit": "laws2100",
+   "week": "laws2100-w05",
+   "title": "Theoretical disagreement about law",
+   "questions": 22,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w06-conceptual-and-empirical-rule-scepticism",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "Conceptual and empirical rule-scepticism",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w06-critical-legal-studies",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "Critical Legal Studies",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w06-holmes-prediction-theory",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "Holmes's bad man and the prediction theory",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w06-leiter-realism-as-theory-of-adjudication",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "Leiter: realism as a descriptive theory of adjudication",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w06-nightmare-and-noble-dream",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "The Nightmare and the Noble Dream",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w06-open-texture-and-harts-middle-way",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "Open texture and Hart's middle way",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w06-realism-against-formalism",
+   "unit": "laws2100",
+   "week": "laws2100-w06",
+   "title": "Legal realism against formalism",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w07-hart-and-dworkin-on-judicial-discretion",
+   "unit": "laws2100",
+   "week": "laws2100-w07",
+   "title": "Hart and Dworkin on judicial discretion",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w07-raz-and-finnis-on-legal-reasoning",
+   "unit": "laws2100",
+   "week": "laws2100-w07",
+   "title": "Raz and Finnis on legal reasoning — the expected camps reversed",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w07-rules-standards-and-defeasibility",
+   "unit": "laws2100",
+   "week": "laws2100-w07",
+   "title": "Convergence of rules and standards, and legal defeasibility",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w07-schauer-thinking-like-a-lawyer",
+   "unit": "laws2100",
+   "week": "laws2100-w07",
+   "title": "Schauer: vehicles in the park and whether legal reasoning is special",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w07-speluncean-explorers-five-options",
+   "unit": "laws2100",
+   "week": "laws2100-w07",
+   "title": "The Speluncean Explorers — five options on § 12-A",
+   "questions": 21,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w07-types-of-reasoning-and-rules",
+   "unit": "laws2100",
+   "week": "laws2100-w07",
+   "title": "Main types of (legal) reasoning and of (legal) rules",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w08-critical-race-theory",
+   "unit": "laws2100",
+   "week": "laws2100-w08",
+   "title": "Critical race theory",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w08-four-feminisms",
+   "unit": "laws2100",
+   "week": "laws2100-w08",
+   "title": "Four feminisms: liberal, difference, radical, postmodern",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w08-lacey-impartiality-and-community",
+   "unit": "laws2100",
+   "week": "laws2100-w08",
+   "title": "Lacey: the challenge to conventional legal scholarship and the idea of community",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w08-naffine-in-praise-of-legal-feminism",
+   "unit": "laws2100",
+   "week": "laws2100-w08",
+   "title": "Naffine: the aims, methods and epistemology of legal feminism",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w08-outsider-jurisprudence",
+   "unit": "laws2100",
+   "week": "laws2100-w08",
+   "title": "Outsider jurisprudence: inside and outside law and legal theory",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w08-separate-spheres-and-the-personal-is-political",
+   "unit": "laws2100",
+   "week": "laws2100-w08",
+   "title": "Separate spheres and 'the personal is the political'",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w09-critiques-of-human-rights",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Can human rights be justified? Bentham's 'nonsense upon stilts' and the sceptics",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w09-generations-and-history-of-human-rights",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Three generations and a short history of human rights",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w09-hohfeldian-incidents",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Hohfeld's four incidents: claim, privilege, power, immunity",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w09-limitation-clauses-and-proportionality",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Limitation clauses and Alexy's proportionality test",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w09-moral-and-legal-rights",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Moral rights, legal rights and positivisation",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w09-rights-and-utilitarian-reasoning",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Rights against utility: trumps, shields and Waldron's indirect utilitarianism",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w09-will-and-interest-theories",
+   "unit": "laws2100",
+   "week": "laws2100-w09",
+   "title": "Human rights are rights: will theory and interest theory",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w10-devlins-legal-moralism",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Legal moralism: Devlin's popular and George's critical versions",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w10-feinbergs-offence-principle",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Feinberg's offence principle",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w10-harts-reply-to-devlin",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Hart's reply to Devlin",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w10-legal-paternalism",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Legal paternalism: soft and hard",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w10-liberty-limiting-principles",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "State coercion vs individual freedom: five justifying principles",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w10-mills-harm-principle",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Mill's harm principle",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2100-w10-pornography-and-euthanasia",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Case studies: adult pornography and voluntary euthanasia",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2100-w10-rawls-and-raz",
+   "unit": "laws2100",
+   "week": "laws2100-w10",
+   "title": "Rawls's neutrality and Raz's liberal perfectionism",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w01-defining-tort-law",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Defining tort law",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w01-intentional-torts-classification",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Classifying intentional torts — trespass and action on the case",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w01-theories-of-tort-law",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Theories about the role of tort law in society",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w01-tort-law-and-other-branches",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Tort law and other branches of law",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w01-trespass-directness",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Trespass — the directness requirement",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w01-trespass-fault-and-onus",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Trespass — fault and the onus of proof",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w01-trespass-voluntary-act-and-damage",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Trespass — voluntary act and actionable per se",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w01-vicarious-liability-intro",
+   "unit": "laws2400",
+   "week": "laws2400-w01",
+   "title": "Introducing vicarious liability",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w02-action-on-the-case-intentional-harm",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "Action on the case for intentional harm",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w02-assault",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "Assault",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w02-battery",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "Battery",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w02-conversion-and-detinue",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "Conversion and detinue",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w02-false-imprisonment",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "False imprisonment",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w02-remedies-intentional-torts-to-person",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "Remedies for intentional interference with the person",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w02-trespass-to-goods",
+   "unit": "laws2400",
+   "week": "laws2400-w02",
+   "title": "Trespass to goods",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w03-implied-licence",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Implied licence to enter",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w03-nuisance-defences-remedies",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Defences and remedies for nuisance",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w03-private-nuisance-elements",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Private nuisance: elements",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2400-w03-public-nuisance",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Public nuisance",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w03-remedies-trespass-to-land",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Remedies for trespass to land",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w03-trespass-to-land-decision-flow",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Trespass to land: the decision flow",
+   "questions": 26,
+   "cards": 13,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2400-w03-trespass-to-land-elements",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "Trespass to land: elements",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w03-trespass-to-land-scope",
+   "unit": "laws2400",
+   "week": "laws2400-w03",
+   "title": "What counts as land, and who can sue",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w04-consent-capacity-and-minors",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Consent: capacity, minors and medical treatment",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w04-consent-defence-nature-and-onus",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Consent: nature of the defence and the onus debate",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w04-consent-validity-and-scope",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Consent: validity and its limits",
+   "questions": 22,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w04-legal-process-defence",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Legal process: arrest and entering or remaining on land",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w04-necessity-defence",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Necessity",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w04-provocation-and-contributory-negligence",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Provocation and contributory negligence as (non-)defences",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w04-self-defence-common-law-and-cla",
+   "unit": "laws2400",
+   "week": "laws2400-w04",
+   "title": "Self-defence: common law test and the Civil Liability Act",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w05-duty-of-care-and-pure-economic-loss",
+   "unit": "laws2400",
+   "week": "laws2400-w05",
+   "title": "Duty of care for pure economic loss",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w05-established-categories-of-duty",
+   "unit": "laws2400",
+   "week": "laws2400-w05",
+   "title": "Established categories of duty",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w05-negligence-elements-overview",
+   "unit": "laws2400",
+   "week": "laws2400-w05",
+   "title": "The elements of negligence",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w05-neighbour-principle-and-duty-evolution",
+   "unit": "laws2400",
+   "week": "laws2400-w05",
+   "title": "The neighbour principle and the evolution of duty",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w05-novel-duty-and-salient-features",
+   "unit": "laws2400",
+   "week": "laws2400-w05",
+   "title": "Novel duty situations and the salient features approach",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w05-reasonable-foreseeability-meaning",
+   "unit": "laws2400",
+   "week": "laws2400-w05",
+   "title": "What reasonable foreseeability means",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w06-duty-of-care-categories-and-factors",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Categories of harm and the factors courts weigh",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w06-occupiers-liability-and-obvious-risk",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Occupiers' duty and obvious risk",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w06-omissions-and-control-of-others",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Omissions and control of the conduct of others",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w06-product-liability-duty-of-care",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Product liability",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w06-psychiatric-harm-civil-liability-act",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Psychiatric harm under the Civil Liability Act",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w06-psychiatric-harm-common-law-development",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Psychiatric harm at common law",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w06-sport-and-recreational-injury",
+   "unit": "laws2400",
+   "week": "laws2400-w06",
+   "title": "Sport and recreational injury",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-acl-s18-misleading-or-deceptive-conduct",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Statutory liability for misstatements: ACL s 18",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-defective-structures-and-the-dbpa",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Defective structures: Bryan v Maloney, Woolcock and the DBPA",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-disclaimers-and-vulnerability",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Disclaimers, assumption of responsibility and vulnerability",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-esanda-and-misstatement-salient-features",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Esanda and the salient features for negligent misstatement",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-negligent-words-from-deceit-to-hedley-byrne",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Negligent words: from deceit to Hedley Byrne",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w07-pel-caused-by-acts-perre-and-caltex",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "PEL caused by an act: Perre v Apand and Caltex Oil",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-pure-economic-loss-and-policy",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Pure economic loss and why courts hesitate",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko",
+   "unit": "laws2400",
+   "week": "laws2400-w07",
+   "title": "Reasonable and known reliance: Shaddock, San Sebastian, Tepko",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w08-advocates-immunity",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Immune defendants: legal advocates",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w08-children-parents-and-the-unborn",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Children: parents, carers and the unborn",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w08-cla-part-5-public-authorities",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Civil Liability Act Part 5: public and other authorities",
+   "questions": 23,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Control, vulnerability and knowledge: Graham Barclay Oysters and Amaca",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w08-crimmins-and-mchugh-six-questions",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Crimmins and McHugh J's six questions",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w08-landlords-occupiers-and-trespassers",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Landlords, occupiers and trespassers",
+   "questions": 22,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w08-public-authorities-as-defendants",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Public authorities as defendants",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w08-third-party-conduct-dorset-yacht-and-modbury",
+   "unit": "laws2400",
+   "week": "laws2400-w08",
+   "title": "Duty for the conduct of third parties: Dorset Yacht and Modbury",
+   "questions": 22,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-breach-of-duty-flowchart",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Breach of duty: the two-question flowchart",
+   "questions": 22,
+   "cards": 9,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-foreseeable-risk-s5b-1a",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Question 1(a): was the risk foreseeable?",
+   "questions": 22,
+   "cards": 9,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-identifying-the-risk-of-harm",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Benic step 1: identifying the risk of harm",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-not-insignificant-risk-s5b-1b",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Question 1(b): a risk that is not insignificant",
+   "questions": 22,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-professional-standard-s5o",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Professionals: Rogers v Whitaker, s 5O and the order with s 5B",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-reasonable-response-s5b-1c-and-2",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Question 2: the reasonable response — s 5B(1)(c) and (2)",
+   "questions": 38,
+   "cards": 12,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w09-standard-of-care-reasonableness",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "The standard of care: reasonable care, judged objectively",
+   "questions": 21,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w09-the-reasonable-person",
+   "unit": "laws2400",
+   "week": "laws2400-w09",
+   "title": "Unpacking the reasonable person: age, mental illness and inexperience",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w10-causation-flowchart",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "The causation flowchart: factual causation and scope of liability",
+   "questions": 22,
+   "cards": 8,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w10-common-sense-causation-and-s5d",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "From common sense to s 5D: March v Stramare, the Ipp Report and Adeels Palace",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w10-contribution-between-tortfeasors",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "Contribution between tortfeasors",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w10-factual-causation-necessary-condition",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "Factual causation: the 'but for' and necessary condition tests",
+   "questions": 28,
+   "cards": 9,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w10-multiple-sufficient-causes-and-material-contribution",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "Two kinds of gap case: multiple sufficient causes and material contribution",
+   "questions": 22,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2400-w10-risk-chance-and-material-contribution",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "Possibility, risk and contribution: Tabet v Gett and the dust disease cases",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w10-s5d2-exceptional-cases",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "When necessary condition cannot be shown: CLA s 5D(2)",
+   "questions": 22,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w10-scope-of-liability-element",
+   "unit": "laws2400",
+   "week": "laws2400-w10",
+   "title": "Scope of liability: the second element of causation",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w11-client-interviewing-and-trauma-informed-practice",
+   "unit": "laws2400",
+   "week": "laws2400-w11",
+   "title": "Tutorial skills: client interviewing and trauma-informed practice",
+   "questions": 0,
+   "cards": 8,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "laws2400-w11-egg-shell-skull-rule",
+   "unit": "laws2400",
+   "week": "laws2400-w11",
+   "title": "The egg-shell skull rule",
+   "questions": 11,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w11-novus-actus-volitional-acts-and-coincidences",
+   "unit": "laws2400",
+   "week": "laws2400-w11",
+   "title": "New intervening acts: volitional conduct and coincidence",
+   "questions": 19,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w11-remoteness-kind-of-harm",
+   "unit": "laws2400",
+   "week": "laws2400-w11",
+   "title": "Remoteness of harm: a foreseeable kind, not extent or manner",
+   "questions": 19,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w11-scope-of-liability-decision-flow",
+   "unit": "laws2400",
+   "week": "laws2400-w11",
+   "title": "Scope of liability: the s 5D decision flow",
+   "questions": 18,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2400-w11-subsequent-negligent-acts",
+   "unit": "laws2400",
+   "week": "laws2400-w11",
+   "title": "Negligent acts followed by negligent acts",
+   "questions": 15,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w12-contributory-negligence-apportionment-and-standard",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Contributory negligence: the just and equitable reduction, the standard and causation",
+   "questions": 15,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w12-contributory-negligence-employees-emergencies-rescuers",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Contributory negligence in context: employees, the agony of the moment and rescuers",
+   "questions": 12,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w12-defences-to-negligence-flowchart",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Defences to negligence: the flowchart decision path",
+   "questions": 14,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 2
+  },
+  {
+   "id": "laws2400-w12-illegality-defence",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Illegality: the joint criminal enterprise",
+   "questions": 10,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w12-intoxicated-plaintiff-cla-s50",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Intoxication: the CLA s 50 presumption of contributory negligence",
+   "questions": 14,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w12-volenti-and-legislation",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Volenti and legislation: intoxicated drivers and CLA s 5L",
+   "questions": 11,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "laws2400-w12-voluntary-assumption-of-risk",
+   "unit": "laws2400",
+   "week": "laws2400-w12",
+   "title": "Voluntary assumption of risk (volenti): knowing and accepting the specific risk",
+   "questions": 13,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w01-creative-competencies",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "Competencies for creativity: individual and team",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w01-creativity-and-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "Creativity versus innovation: thinking up new things, doing new things",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w01-creativity-gym",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "The creativity gym: three stages of developing creative skill",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w01-defining-creativity",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "Defining creativity: seeing what everyone has seen, thinking what no-one has thought",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w01-flip-mindset",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "The flip mindset: zig when everyone else is zagging",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w01-innovation-at-disney",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "Innovation at Disney under Bob Iger: the CEO as CTO",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w01-methods-for-creativity",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w01",
+   "title": "Six methods for becoming more creative",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w02-creative-problem-solving-steps",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "The three steps of creative problem solving",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w02-creativity-technique-families",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "Families of creativity techniques: rational and non-rational",
+   "questions": 23,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w02-divergent-thinking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "Divergent thinking and the quota method",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w02-idea-gathering-techniques",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "Idea gathering: brainstorming and participatory innovation",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w02-measuring-creativity",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "Why creativity resists a standardised test",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w02-mind-maps",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "Mind maps and Buzan's guidelines",
+   "questions": 22,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w02-problem-identification",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w02",
+   "title": "Identifying an interesting problem",
+   "questions": 22,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w03-design-thinking-process",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "The design thinking process: empathy, define, ideate, prototype, test",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w03-desirability-feasibility-viability",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "The sweet spot: desirable, feasible and viable",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w03-discovering-needs-and-insights",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "Discover and distil: from customer research to needs and insights",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w03-divergent-thinking-and-idea-generation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "Divergent thinking and idea-generation exercises",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w03-empathy-and-human-centred-design",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "Empathy and human-centred design",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w03-four-rules-of-design-thinking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "The four rules of design thinking (Meinel and Leifer)",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w03-prototyping-and-experimentation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "Prototyping and testing: think with your hands, fail early",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w03-what-is-design-thinking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w03",
+   "title": "What design thinking is, and why organisations use it",
+   "questions": 20,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w04-brainwriting-and-brainwalking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "Brainstorming, brainwriting and brainwalking",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w04-hat-sequences",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "Single hats and sequences",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w04-leadership-and-knowledge-sharing",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "Leadership, knowledge sharing and creative problem-solving capacity",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w04-linear-thinking-trap",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "Linear thinking in a nonlinear world",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w04-parallel-thinking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "Parallel thinking — an alternative to argument",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w04-running-a-hats-session",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "Running a session — the blue hat and the rules for the hats",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w04-six-thinking-hats",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w04",
+   "title": "The six thinking hats",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w05-creative-problem-solving-process",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "The creative problem-solving process",
+   "questions": 21,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w05-defining-the-problem",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "How you define the problem (Markman)",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w05-four-creative-thinking-preferences",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "Four preferences for thinking creatively",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w05-grace-accident-association-and-cognitive-theories",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "Creativity by grace, by accident, by association, or as cognition",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w05-humanistic-theory-and-maslows-types",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "Humanistic theory and Maslow's three types of creativity",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w05-psychological-theories-of-creativity",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "Psychoanalytical, mental illness, addiction and psychoticism theories",
+   "questions": 22,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w05-wallas-model-of-creative-thinking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "Wallas' model of creative thinking — five stages",
+   "questions": 22,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w05-whole-brain-model",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w05",
+   "title": "Herrmann's Whole Brain Model",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w06-creativity-tool",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "The creativity tool (Floor Company Exercise)",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w06-describe-analyse-reflect",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "Don't just describe: analyse and reflect",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w06-diverging-and-converging",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "Diverging and converging: patterns of creative thinking",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w06-purposes-of-reflection",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "The five purposes of reflection",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w06-revealing-information-wisely",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "Reveal information wisely",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w06-why-reflect",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "Why reflect? Learning from experience",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w06-writing-a-reflective-paper",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w06",
+   "title": "How to write a reflective paper",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w07-creativity-precedes-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w07",
+   "title": "Creativity vs innovation: which follows which",
+   "questions": 25,
+   "cards": 12,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w07-invention-vs-innovation-economic-value",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w07",
+   "title": "Invention vs innovation: the economic value",
+   "questions": 26,
+   "cards": 14,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w08-design-thinking",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "Design thinking and the ideation process",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w08-disruptive-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "Disruptive innovation: is it really disruptive?",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w08-ideation-toolkit",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "The Ideation Tool Kit (Mattimore, 2012)",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w08-innovation-map",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "Types of innovation and the innovation map",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w08-innovation-process-and-management",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "The innovation process and innovation management",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w08-value-innovation-and-what-if",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "Value innovation and \"What if\" questions",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w08-what-is-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "What innovation is: new, commercialised, desirable, possible and viable",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w08-why-innovate-goals-and-sources",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w08",
+   "title": "Why innovate: goals and sources of innovation",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w09-creativity-within-discipline",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "Creativity within discipline",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w09-customer-risk-after-commercialisation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "After commercialisation: customer risk and the lessons learned",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w09-deck-protector-case",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "The Deck Protector: Design for Six Sigma in practice",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w09-dmedi-design-process",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "DMEDI: the Six Sigma design process",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w09-new-product-market-share",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "The commercialisation problem: New Product Market Share",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w09-six-sigma-methods",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "Six Sigma's three methods: DMAIC, DFSS and Process Management",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w09-transformation-and-change-management",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w09",
+   "title": "Transformation, focus on strengths and change management",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-agile-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Agile innovation: methods, roles and values",
+   "questions": 26,
+   "cards": 7,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-agile-lean-start-up-lean-strategy",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Agile, lean start-up and lean strategy together",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-build-measure-learn",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Build–measure–learn and validated learning",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w10-business-model-canvas",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "The business model canvas",
+   "questions": 20,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-conditions-for-agile",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Where agile does or does not work",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-leading-agile",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Six practices for leaders who want agile to work",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-lean-start-up",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Lean start-up: Blank's hypotheses and its lean–agile roots",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w10-lean-strategy",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "Lean strategy: direction for experiments (Collis)",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w10-scrum-framework",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "The Scrum framework: roles, events and artifacts",
+   "questions": 24,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w10-scrum-in-practice",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w10",
+   "title": "How a scrum team works",
+   "questions": 20,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w11-architectural-and-modular-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "Architectural and modular innovation",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w11-bcg-six-innovation-models",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "BCG's six innovation models and choosing by context",
+   "questions": 23,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w11-four-actions-framework",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "The four actions framework and the strategy canvas: Yellow Tail",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w11-models-of-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "Models of innovation: serendipity, linear and simultaneous coupling",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w11-open-and-closed-innovation-models",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "Closed and open models for innovation",
+   "questions": 21,
+   "cards": 3,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w11-types-of-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "Types of innovation",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w11-value-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "Value innovation",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w11-views-of-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w11",
+   "title": "Views of innovation: where innovation comes from",
+   "questions": 21,
+   "cards": 4,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w12-barriers-to-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w12",
+   "title": "Barriers to innovation: external and internal",
+   "questions": 21,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w12-challenges-managing-innovation",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w12",
+   "title": "Seven challenges in managing innovation",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w12-innovation-culture",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w12",
+   "title": "Innovation culture: commitment or resistance",
+   "questions": 22,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w12-innovative-leader",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w12",
+   "title": "The innovative leader",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  },
+  {
+   "id": "mgmt2094-w12-overcoming-barriers",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w12",
+   "title": "Learning to manage innovation: overcoming the barriers",
+   "questions": 20,
+   "cards": 6,
+   "explainer": true,
+   "aids": true,
+   "flows": 0
+  },
+  {
+   "id": "mgmt2094-w12-responding-to-disruption",
+   "unit": "mgmt2094",
+   "week": "mgmt2094-w12",
+   "title": "Responding to disruption: partnering with the disruptor",
+   "questions": 20,
+   "cards": 5,
+   "explainer": true,
+   "aids": true,
+   "flows": 1
+  }
+ ]
+}

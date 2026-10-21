@@ -1,0 +1,898 @@
+unit: laws2000
+week: 2
+source: raw/laws2000-pil/week-02
+generator: aids-1
+aids:
+  - concept: laws2000-w02-article-38-and-sources-of-international-law
+    plain: 'Article 38(1) of the ICJ Statute is the starting list of where international law comes from: treaties, custom and general principles make law; court decisions and scholars help interpret it.'
+    concrete: 'The lecturer''s example: if Australia were attacked, its right of self-defence would rest on two primary sources at once — customary international law and Article 51 of the UN Charter, a treaty. An ICJ judgment such as Nicaragua, which discussed the customary rules on the use of force, would not itself create that right. It would help interpret it, and under Article 59 it binds only the parties to that case.'
+    formal: 'Article 38(1) ICJ Statute lists international conventions (treaties), international custom, "the general principles of law recognized by civilized nations", and judicial decisions and "the teachings of the most highly qualified publicists". The first three are primary, law-creating sources; the last two are secondary, law-interpreting. Article 59: a decision binds only the parties and that case.'
+    analogy:
+      text: 'A kitchen: recipes are what you actually cook from; cookbook notes and judges'' past scorecards help you read a recipe but are not recipes themselves.'
+      maps:
+        - from: the recipes
+          to: 'primary sources: treaties, custom, general principles'
+        - from: cookbook notes
+          to: the teachings of highly qualified publicists
+        - from: judges' past scorecards
+          to: judicial decisions (binding only the parties, Art 59)
+      limits:
+        - 'The recipe shelf is incomplete: unilateral statements, jus cogens, binding IO decisions and soft law sit outside Article 38.'
+        - Recipes are not ranked — a treaty and a customary rule can apply side by side.
+    terms:
+      - term: Article 38(1) ICJ Statute
+        gloss: The provision telling the ICJ what to apply when deciding disputes; the first place of reference for sources, though not drafted as a complete list.
+      - term: primary source
+        gloss: 'A law-creating source: treaties, customary international law and general principles of law (Art 38(1)(a)–(c)).'
+      - term: secondary (subsidiary) source
+        gloss: 'A law-interpreting source: judicial decisions and scholarly writings (Art 38(1)(d)); evidence of rules, not their creator.'
+    misconceptions:
+      - claim: 'Article 38(1) ranks the sources: treaty beats custom, and custom beats general principles.'
+        tempting: They are listed (a) to (d), which looks like an order of authority.
+        correction: The ordering tracks primary (law-creating) versus secondary (law-interpreting). A treaty and a customary rule can bind the same states at once; general principles fill gaps.
+      - claim: Article 38(1) lists every source of international law.
+        tempting: It is the first place of reference and courts rely on it constantly.
+        correction: It was drafted to tell the ICJ what to apply, not to catalogue sources. Unilateral statements, jus cogens, IO decisions and soft law all sit outside it.
+      - claim: Because judicial decisions appear in Article 38(1), an ICJ decision creates law like a treaty.
+        tempting: In common law systems, case law is a primary source through precedent.
+        correction: 'Judicial decisions are secondary sources. Article 59: a decision has no binding force except between the parties and in respect of that particular case.'
+    socratic:
+      - ask: With no international legislator, where do we first look to identify international law?
+        hint: A provision in the ICJ's own Statute.
+        answer: Article 38(1) of the ICJ Statute — always the first place of reference.
+      - ask: Why might that list be incomplete?
+        hint: Who was the article written for?
+        answer: It was drafted to tell the ICJ what it could apply in deciding cases, not designed as a catalogue of sources.
+      - ask: Which items in Article 38(1) actually create obligations?
+        hint: Paragraphs (a) to (c).
+        answer: Treaties, customary international law and general principles of law — the primary sources.
+      - ask: What do judicial decisions and scholarly writings do instead?
+        hint: Create, or interpret?
+        answer: They interpret the primary sources and serve as evidence of rules; they do not create law themselves.
+      - ask: Does the (a)–(d) order mean a treaty always beats custom?
+        hint: Can one rule live in both at once?
+        answer: No. The order reflects primary versus secondary; treaty and custom can coexist and bind the same states simultaneously.
+    elements:
+      - name: Treaty — Art 38(1)(a)
+        test: Is there a treaty the state has ratified or otherwise become party to? If so, it is the most direct evidence of the obligation.
+        authorities:
+          - icj-statute-art-38-1
+          - vclt-art-2-1-a
+      - name: Custom — Art 38(1)(b)
+        test: Is there a general practice accepted as law (practice plus opinio juris)? Check particular custom and persistent objection.
+        cases:
+          - north-sea-continental-shelf-cases
+          - nicaragua-v-united-states-of-america
+      - name: General principles — Art 38(1)(c)
+        test: 'Only if treaty and custom cannot resolve it: a principle recognised across legal systems and usable internationally, such as equity or good faith.'
+        authorities:
+          - icj-statute-art-38-1
+      - name: Interpretive aids — Art 38(1)(d)
+        test: Use judicial decisions (binding only the parties, Art 59) and leading scholars or the ILC to interpret the rule, not as its source.
+        authorities:
+          - icj-statute-art-59
+      - name: Beyond Article 38
+        test: Check unilateral statements, jus cogens, binding decisions of international organisations (Art 25 UN Charter), and soft law as evidence.
+        cases:
+          - legal-status-of-eastern-greenland-denmark-v-norway
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+        authorities:
+          - vclt-art-53
+          - un-charter-art-25
+    what-if:
+      - change: The respondent state is not party to the relevant treaty.
+        effect: The treaty does not bind it, but the same rule may exist as custom and bind it anyway; move to Article 38(1)(b) before concluding there is no obligation.
+      - change: Neither an applicable treaty nor a customary rule resolves the dispute.
+        effect: The court can reach for general principles of law under Article 38(1)(c), such as equity or good faith, as gap-fillers.
+      - change: The only authority found is an earlier ICJ judgment between different states.
+        effect: Under Article 59 it binds only those parties in that case. Cite it as weighty interpretive support, not as the source of the obligation.
+    boundary:
+      - text: The ILC's Draft Articles on State Responsibility.
+        why: Formally a subsidiary source under Article 38(1)(d) and not binding, yet courts rely on them heavily because no treaty covers the topic; draft articles can later become treaties.
+      - text: A UN Security Council decision under Article 25 of the Charter.
+        why: 'Binding, yet absent from Article 38(1): it binds through the Charter, a treaty members consented to — proof the list is not exhaustive.'
+    transfer:
+      - scenario: A tribunal must decide whether a state owes compensation for river pollution. Counsel cite a regional treaty the state never ratified, a widely repeated scholarly view, and an ICJ judgment in a dispute between two other states.
+        answer: 'Work through Article 38(1). The unratified treaty does not bind the state, but check whether its rule also exists as custom (practice plus opinio juris). If neither resolves the issue, general principles may fill the gap. The scholarly view and the ICJ judgment are secondary: they help interpret, and Article 59 confines that judgment''s binding force to its own parties.'
+    objections:
+      - position: Article 38(1) sets out a clear hierarchy of sources.
+        evidence: Treaties come first and are the most direct evidence of obligation; courts usually check them first; general principles are reached only as gap-fillers.
+        objection: 'The (a)–(d) order tracks law-creating versus law-interpreting, not rank: treaty and custom can bind the same states at once (Nicaragua). If anything sits on top, it is jus cogens (VCLT art 53) — which Article 38 does not even mention.'
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 3, 16–20, 26)
+      - 'Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (03:06–11:48: Article 38, primary and secondary sources)'
+      - 'Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript (00:00–01:17; 34:13–35:21: review)'
+      - Week 02 - Tutorial Questions - Sources of International Law (Question 1)
+    verify: false
+  - concept: laws2000-w02-treaties-as-a-source
+    plain: A treaty is a written agreement between states, governed by international law, that binds the states which consent to it; whatever it is called, they must honour it.
+    concrete: 'The UN Charter is a treaty: it created the United Nations and sets out its powers and main organs. NATO and the European Union were created the same way. The lecturer notes that treaties are the most common way to create an international organisation, and that they can run to hundreds of provisions — far more detailed than custom, which tends to be more general.'
+    formal: 'A treaty is "an international agreement concluded between States in written form and governed by international law" (VCLT art 2(1)(a)). The label — agreement, convention, protocol, covenant, exchange of letters — does not matter; the key is consent to be bound. Pacta sunt servanda: states must honour treaty obligations and keep domestic law and practice consistent with them.'
+    analogy:
+      text: 'A signed contract between two businesses: whatever the document is titled, once both sign intending to be bound, each must perform.'
+      maps:
+        - from: signing intending to be bound
+          to: becoming a party (e.g. ratifying)
+        - from: the document's title
+          to: 'treaty labels: convention, protocol, exchange of letters'
+        - from: the duty to perform
+          to: pacta sunt servanda
+      limits:
+        - A contract is enforced by courts with compulsory jurisdiction; treaty compliance rests largely on consent and reputation.
+        - A treaty can require a state to change its own domestic law, which no private contract can do.
+    terms:
+      - term: pacta sunt servanda
+        gloss: States are bound to honour their treaty-based obligations once they have become parties.
+      - term: bilateral and multilateral treaties
+        gloss: 'Bilateral: between two states. Multilateral: between three or more states.'
+      - term: becoming a party
+        gloss: Ratifying or otherwise joining a treaty implies consent to be bound; checking it is the easiest way to see what a state accepted.
+      - term: Vienna Convention on the Law of Treaties (1969)
+        gloss: The treaty on treaties. It covers only written treaties between states, though treaties generally may involve international organisations or even be oral.
+    misconceptions:
+      - claim: A document is a treaty only if it is called a 'treaty' or 'convention'.
+        tempting: Formal titles seem to signal legal importance.
+        correction: 'The name does not matter: agreements, protocols, covenants and exchanges of letters can all be treaties. What counts is whether the parties intended binding obligations governed by international law.'
+      - claim: A widely ratified treaty binds every state.
+        tempting: A treaty with most of the world as parties looks like general law.
+        correction: A treaty binds its parties, because becoming a party implies consent. A non-party is bound only if the same rule exists in another source, such as custom.
+      - claim: Treaty obligations operate only internationally and never touch domestic law.
+        tempting: Treaties are made between governments, not parliaments.
+        correction: A state party must ensure its domestic law and practice are consistent with the treaty and should not legislate contrary to it (slide 5; pacta sunt servanda).
+    socratic:
+      - ask: Two states sign an 'Exchange of Letters' intending binding obligations. Does the title stop it being a treaty?
+        hint: What does the lecturer say really counts?
+        answer: No. The label is irrelevant; the question is whether the parties intended binding obligations governed by international law.
+      - ask: What makes the treaty bind State A in particular?
+        hint: What does becoming a party imply?
+        answer: 'State A''s consent: becoming a party, for example by ratifying, implies consent to be bound.'
+      - ask: Why do courts usually look at treaties first?
+        hint: How easy is it to prove consent?
+        answer: 'A treaty is the most direct evidence of an obligation: you can check whether the state ratified or became a party.'
+      - ask: Once bound, what must State A do at home?
+        hint: Think pacta sunt servanda and slide 5.
+        answer: Honour its obligations and keep its domestic law and practice consistent with what the treaty requires.
+    elements:
+      - name: International agreement
+        test: The parties intended to create binding obligations; the title (convention, protocol, exchange of letters) does not matter.
+        authorities:
+          - vclt-art-2-1-a
+      - name: Between states
+        test: Concluded between states for VCLT purposes; treaties generally may also involve international organisations, such as the EU.
+        authorities:
+          - vclt-art-2-1-a
+      - name: In written form
+        test: Written, for the VCLT; the lecturer notes treaties generally can even be oral, but the unit focuses on written treaties.
+        authorities:
+          - vclt-art-2-1-a
+      - name: Governed by international law
+        test: The agreement is governed by international law, not domestic law and not mere political commitment.
+        authorities:
+          - vclt-art-2-1-a
+      - name: Consent to be bound
+        test: The state has become a party, for example by ratification; only then does pacta sunt servanda bind it to the treaty.
+    what-if:
+      - change: The document is a joint political statement the parties did not intend to be binding.
+        effect: 'No treaty: the key is the intention to create legal obligations. It may be soft law — possible evidence of practice or opinio juris, not a binding source.'
+      - change: One party is an international organisation rather than a state.
+        effect: It can still be a treaty in general international law (the EU is the slide's example), but it falls outside the 1969 VCLT, which covers written treaties between states only.
+      - change: The state is a party but later passes a law contradicting the treaty.
+        effect: 'Pacta sunt servanda: it remains bound internationally and must keep its domestic law consistent with the treaty, so the new law puts it in breach.'
+    boundary:
+      - text: An oral agreement between two states.
+        why: Treaties generally can be oral, the lecturer notes, but VCLT art 2(1)(a) covers only written agreements — so it is a treaty in general, outside the VCLT's scope.
+      - text: A treaty creating an international organisation, such as the UN Charter.
+        why: 'Squarely a treaty, but it also creates a body whose decisions can bind members (Art 25 UN Charter): the treaty becomes the source of further obligations.'
+    transfer:
+      - scenario: Two states' environment ministers sign a 'Memorandum on River Care' setting out detailed duties, with a clause that disputes are to be settled under international law. Later one state says it was 'just a memorandum'.
+        answer: The title does not decide treaty status (slide 4). If the states intended binding obligations governed by international law — and the dispute clause points that way — it is a treaty under VCLT art 2(1)(a). Pacta sunt servanda then requires each to honour it and keep its domestic law consistent with it.
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 4–5)
+      - 'Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (11:48–17:50: treaties, VCLT scope, names, pacta sunt servanda)'
+    verify: false
+  - concept: laws2000-w02-customary-international-law-elements
+    plain: Custom is unwritten law formed when states generally and consistently act a certain way because they believe the law requires it; both the behaviour and the belief are needed.
+    concrete: 'The lecturer''s examples of practice that is not law: diplomatic protocol when a foreign delegation arrives, and sending humanitarian aid after a disaster abroad. Many states do both, often and consistently, yet neither is legally required — states act from courtesy, tradition or goodwill. Because the belief of legal obligation (opinio juris) is missing, no customary rule exists, however common the practice.'
+    formal: Custom requires (a) a general practice — consistent repetition by states facing the same facts (objective element) — and (b) acceptance as law, opinio juris sive necessitatis (subjective element). Practice need not be in "absolutely rigorous conformity" (Nicaragua [186]) but must be "extensive and virtually uniform", including specially affected states, even over a short period (North Sea [74]); courtesy is not enough ([77]).
+    analogy:
+      text: 'The lecturer''s own image: people crossing a field keep walking the same line until a dirt path forms that everyone then follows.'
+      maps:
+        - from: walkers repeating the same route
+          to: state practice
+        - from: everyone feeling they should use the path
+          to: opinio juris
+        - from: the worn path
+          to: the customary rule
+      limits:
+        - A path can form from habit alone; custom also needs the belief that the practice is legally required, so habits like diplomatic protocol do not count.
+    terms:
+      - term: state practice
+        gloss: 'The objective element: what states do or omit to do — diplomatic acts, legislation, court decisions, conduct on the ground; no hierarchy among forms (ILC Conclusion 6).'
+      - term: opinio juris sive necessitatis
+        gloss: 'The subjective element: states'' belief that a practice is legally required, distinguishing law from courtesy, convenience or tradition.'
+      - term: specially affected states
+        gloss: States whose interests a rule most concerns, such as coastal states for territorial sea delimitation; their practice weighs heavily (North Sea [74]).
+      - term: failure to react
+        gloss: Inaction over time may evidence opinio juris, if the state could react and the circumstances called for a reaction (ILC Conclusion 10(3)).
+    misconceptions:
+      - claim: A practice must continue for a very long time, even centuries, before it becomes custom.
+        tempting: Custom was traditionally pictured as practice repeated over hundreds of years.
+        correction: 'North Sea [74]: a short period is not of itself a bar, provided practice within it — including that of specially affected states — is extensive and virtually uniform.'
+      - claim: Any inconsistent state conduct defeats a customary rule.
+        tempting: A rule seems unproven if states keep departing from it.
+        correction: 'Nicaragua [186]: practice need not be in absolutely rigorous conformity; inconsistent conduct generally treated as a breach does not create a new rule, and invoking an exception within the rule confirms it.'
+      - claim: If states do something often enough, it becomes custom.
+        tempting: Frequency looks like the best evidence of a rule.
+        correction: 'North Sea [77]: frequency or habit "is not in itself enough". Ceremonial and protocol acts motivated by courtesy, convenience or tradition lack opinio juris.'
+    socratic:
+      - ask: Many states send aid after disasters abroad. Is there a customary duty to do so?
+        hint: Is the practice there? Is the belief there?
+        answer: 'The practice is there, but states do not act from a sense of legal obligation, so opinio juris is missing: no custom.'
+      - ask: What is the objective element, and why is it the easier one to show?
+        hint: You can observe it.
+        answer: State practice — what states do or omit — visible in diplomatic acts, legislation, court decisions and conduct on the ground.
+      - ask: How consistent must the practice be?
+        hint: Compare Asylum with Nicaragua.
+        answer: Generally consistent, not perfect (Nicaragua). But "so much uncertainty and contradiction", as in Asylum, means no constant and uniform usage.
+      - ask: Must every state take part, over a long time?
+        hint: Think of landlocked states and territorial sea rules.
+        answer: No. Extensive, virtually uniform practice including specially affected states can suffice, even over a short period (North Sea [74]).
+      - ask: How do you prove the belief if states rarely explain themselves?
+        hint: ILC Conclusion 10 lists forms of evidence.
+        answer: From public statements, official publications, government legal opinions, diplomatic correspondence, national court decisions, treaty provisions, conduct on resolutions — even failure to react.
+    elements:
+      - name: Uniform and consistent practice
+        test: States facing the same facts act in the same way. Departures generally treated as breaches do not defeat it (Nicaragua [186]); pervasive contradiction and fluctuation do (Asylum).
+        cases:
+          - nicaragua-v-united-states-of-america
+          - asylum-case-colombia-v-peru
+      - name: Generality of practice
+        test: Practice is extensive, including that of states whose interests are specially affected; not every state needs to have taken part (North Sea [74]).
+        cases:
+          - north-sea-continental-shelf-cases
+      - name: Duration of practice
+        test: 'No fixed period: a short time is not of itself a bar if practice within it is extensive and virtually uniform (North Sea [74]).'
+        cases:
+          - north-sea-continental-shelf-cases
+      - name: Opinio juris
+        test: States feel they are conforming to a legal obligation, not courtesy, convenience or tradition (North Sea [77]); shown by statements, legal opinions, court decisions, or failure to react.
+        cases:
+          - north-sea-continental-shelf-cases
+    what-if:
+      - change: The practice is just as widespread, but states say they act only out of courtesy.
+        effect: 'Opinio juris fails: like ceremonial and protocol acts, this is habit without a sense of legal duty (North Sea [77]), so there is no customary rule.'
+      - change: The practice emerged within five years, but every coastal state followed it uniformly.
+        effect: 'Short duration is not a bar: extensive, virtually uniform practice including the specially affected coastal states may suffice (North Sea [74]). Opinio juris must still be shown.'
+      - change: The practice is marked by contradiction and political expediency.
+        effect: As in the Asylum Case, no "constant and uniform usage, accepted as law" can be discerned, so the alleged rule fails at the practice stage.
+    boundary:
+      - text: A state breaks a rule but defends itself by claiming an exception within the rule.
+        why: 'Nicaragua [186]: appealing to exceptions or justifications contained in the rule confirms rather than weakens it, so the conduct supports the rule''s existence.'
+      - text: '''Instant custom'', shown on the lecturer''s flowchart where practice lacks duration.'
+        why: North Sea [74] allows quick formation only if practice is extensive and virtually uniform within the short period; speed never removes the need for opinio juris ([77]).
+    transfer:
+      - scenario: Within three years of satellites first being used to beam solar power to Earth, every state operating such satellites notifies its neighbours before transmitting, and their foreign ministries publicly call this a legal requirement.
+        answer: Likely custom. Practice is extensive and virtually uniform among the specially affected states (satellite operators), and a short period is not of itself a bar (North Sea [74]). Public statements describing a legal requirement evidence opinio juris (ILC Conclusion 10). Occasional failures treated as breaches would not defeat the rule (Nicaragua [186]).
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 6–11)
+      - 'Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (18:00–37:40: elements, the path image, Asylum, Nicaragua, North Sea, protocol and humanitarian aid, ILC conclusions)'
+      - Week 02 - Study Aid - Customary International Law Flowchart
+      - Week 02 - Tutorial Questions - Sources of International Law (Question 2)
+    verify: false
+  - concept: laws2000-w02-persistent-objector-and-particular-custom
+    plain: 'Custom usually binds every state, with two exceptions: a custom may bind only a region or even two states, and a state that objected from the start is not bound.'
+    concrete: Portugal held a small enclave inside India, reachable only by a route through Indian territory. For centuries Portugal had used that route. When India denied any right of passage, the ICJ looked at the long practice and found a customary right of passage binding as between Portugal and India — even though no treaty between them created one.
+    formal: 'Particular custom: a customary rule may bind only a group of states, regional or even bilateral (Right of Passage over Indian Territory [1960] ICJ Rep 6; ILC Conclusion 16). Persistent objector: a state that consistently objects to a rule from the beginning of its formation is not bound by it (Fisheries [1951] ICJ Rep 116; ILC Conclusion 15). This reconciles custom with consent.'
+    analogy:
+      text: 'House rules in an apartment block: everyone follows them, but a tenant who objected before a rule took effect, and kept objecting, is exempt; two neighbours may also have their own long-standing arrangement over a shared gate.'
+      maps:
+        - from: the house rules
+          to: general customary international law
+        - from: the tenant who objected from the start
+          to: the persistent objector (Norway in Fisheries)
+        - from: the neighbours' gate arrangement
+          to: bilateral custom (Portugal and India)
+      limits:
+        - House rules are made by a committee; custom grows from practice and belief.
+        - A tenant can often object later; a persistent objector must object from the very beginning.
+    terms:
+      - term: persistent objector
+        gloss: A state that has consistently objected to a customary rule from the beginning of its formation, and so is not bound by it.
+      - term: particular custom
+        gloss: 'A customary rule binding only a limited group of states: a region, or even just two states.'
+      - term: crystallise
+        gloss: When practice plus opinio juris becomes an established customary rule; a persistent objection must come before this point.
+    misconceptions:
+      - claim: A state can opt out of a customary rule whenever it becomes inconvenient.
+        tempting: International law rests on consent, so withdrawing consent seems enough.
+        correction: The objection must start at the beginning of the rule's formation and be maintained consistently; objecting midway does not work. That is why the rule is rarely invoked successfully.
+      - claim: Customary law needs many states; it cannot exist between just two.
+        tempting: Custom is defined as general practice among states.
+        correction: 'Right of Passage: centuries of practice created a customary right binding only Portugal and India, with no treaty between them.'
+      - claim: In Fisheries the Court held Norway was a persistent objector to an established 10-mile rule.
+        tempting: The case is the leading persistent objector authority.
+        correction: The Court found the 10-mile rule was not custom at all; it added that even if it were, Norway, having always opposed it, would not be bound.
+    socratic:
+      - ask: Once a customary rule exists, whom does it bind?
+        hint: General rule first, then the exceptions.
+        answer: Generally every state — subject to two exceptions.
+      - ask: Portugal used one route to its enclave for centuries. What did that practice create?
+        hint: Can custom exist between just two states?
+        answer: A particular, bilateral customary right of passage between Portugal and India, without any treaty.
+      - ask: Norway always used straight baselines and rejected the UK's 10-mile rule. Would it be bound if the rule were custom?
+        hint: When, and how consistently, did Norway object?
+        answer: 'No: it objected from the start and consistently, so as a persistent objector it would not be bound.'
+      - ask: Why does international law allow this exception at all?
+        hint: Recall Week 1's foundation.
+        answer: Because international law rests on consent; the persistent objector rule reconciles customary law with consent.
+      - ask: Why is the rule rarely invoked successfully?
+        hint: Timing and resources.
+        answer: The objection must run from the beginning and be sustained, which is resource-intensive; states do it only when it really matters to them.
+    elements:
+      - name: Scope of the custom
+        test: Is the practice and opinio juris universal, or confined to a region or two states? A particular custom binds only those states (Right of Passage).
+        cases:
+          - right-of-passage-over-indian-territory-portugal-v-india
+      - name: Objection before the rule crystallised
+        test: The state objected from the very beginning of the rule's formation; an objection raised midway, once the rule proves inconvenient, fails.
+        cases:
+          - fisheries-case-united-kingdom-v-norway
+      - name: Consistent objection
+        test: The objection was maintained throughout — as Norway always used its baseline method and never applied the 10-mile rule.
+        cases:
+          - fisheries-case-united-kingdom-v-norway
+      - name: Objection made known
+        test: Other states were informed of the objection (lecturer's flowchart).
+    what-if:
+      - change: Norway had applied the 10-mile rule for years and objected only once it proved inconvenient.
+        effect: 'No persistent objection: the objection must start at the beginning of the rule''s formation. A late objection cannot exempt a state from an established rule.'
+      - change: A new state emerges after the customary rule has already crystallised.
+        effect: It could not have objected from the beginning of the rule's formation, so on the lecture's test it cannot claim persistent objector status.
+      - change: India had contested Portugal's passage throughout, rather than allowing it for centuries.
+        effect: The bilateral custom in Right of Passage rested on long practice between the two states; without accepted practice between them, no particular customary right would crystallise.
+    boundary:
+      - text: 'Fisheries: the persistent objector point was not needed for the decision.'
+        why: The 10-mile rule failed for lack of state practice; Norway's objection was an 'even if' ground. Fisheries supports the doctrine, but as an alternative line of reasoning.
+      - text: 'Asylum Case: a claimed regional custom of diplomatic asylum in Latin America.'
+        why: Regional custom is possible, but Colombia failed to prove a constant and uniform usage accepted as law; the regional label does not lower the standard of proof.
+    transfer:
+      - scenario: For 80 years, three neighbouring island states have let each other's fishing boats shelter in their harbours during cyclones, and each describes this as a legal duty. A distant fourth state is asked to do the same and refuses.
+        answer: 'This may be a particular (regional) custom: practice and opinio juris among the three can create a rule binding only them, just as Right of Passage shows custom can bind even two states. The distant state, outside that regional practice, is not bound by it. The three must still prove consistent practice accepted as law.'
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 12–13)
+      - 'Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (37:44–45:00: two exceptions, Fisheries, persistent objector, Right of Passage, rarity)'
+      - Week 02 - Study Aid - Customary International Law Flowchart
+    verify: false
+  - concept: laws2000-w02-relationship-between-treaties-and-custom
+    plain: The same rule can live in a treaty and in custom at once; a treaty can record an existing custom, finish forming a developing one, or start a new one.
+    concrete: 'If Australia were attacked by another state tomorrow, the lecturer says, it would have a right of self-defence. That right exists as customary international law and is also written into Article 51 of the UN Charter. Because the customary rule exists in parallel, even a state not party to the Charter would have a right of self-defence: the treaty is not the rule''s only home.'
+    formal: A rule may be contained in a treaty and be a rule of custom simultaneously (Nicaragua, ICJ Rep 1986, paras 175–178; see also North Sea Continental Shelf). A treaty may (a) codify a pre-existing rule of custom, (b) crystallise a developing rule of custom, or (c) give rise to a new rule of customary law. The two versions keep separate existences and may differ in content.
+    analogy:
+      text: 'A folk song later printed in a songbook: the book may record an old song, fix a version still evolving, or print a new song that everyone then starts singing. People without the book still sing it.'
+      maps:
+        - from: the folk song
+          to: the customary rule
+        - from: the songbook
+          to: the treaty
+        - from: people without the book still singing
+          to: non-parties still bound by the custom
+      limits:
+        - A song spreads through popularity; a treaty rule becomes custom only through practice accepted as law.
+    terms:
+      - term: codification
+        gloss: A treaty writing down a pre-existing customary rule; the customary rule continues to exist alongside it.
+      - term: crystallisation
+        gloss: A treaty prompting the intense state practice that completes the formation of a developing customary rule.
+      - term: generating new custom
+        gloss: Practice developing around a treaty provision on a genuinely new issue, giving rise to a new customary rule that can bind non-parties.
+    misconceptions:
+      - claim: Once a rule is written into a treaty, the customary version disappears.
+        tempting: In domestic law, a statute often displaces the common law on the same point.
+        correction: 'Nicaragua: a rule can be contained in a treaty and be custom simultaneously. Codification does not extinguish the customary rule.'
+      - claim: A state not party to the UN Charter has no right of self-defence.
+        tempting: Article 51 is the best-known source of the right.
+        correction: Self-defence is also customary, so non-parties hold the right through custom; the lecturer uses this to show why parallel existence matters.
+      - claim: The treaty and customary versions of a rule always say the same thing.
+        tempting: They describe the same right.
+        correction: 'They can evolve differently: the customary specification may be more or less permissive than the treaty''s, so check which version binds the state.'
+    socratic:
+      - ask: Where does a state's right of self-defence come from?
+        hint: It has two homes.
+        answer: Customary international law, and Article 51 of the UN Charter.
+      - ask: If a state never joined the UN Charter, does it lose the right?
+        hint: Which of the two homes requires ratification?
+        answer: No. Treaties bind only parties, but the customary rule binds independently.
+      - ask: Name the three ways a treaty can relate to custom.
+        hint: Before, during and after the custom forms.
+        answer: Codify a pre-existing custom, crystallise a developing one, or give rise to a new customary rule (Nicaragua; North Sea).
+      - ask: Can the two versions say different things?
+        hint: They have separate existences.
+        answer: Yes. They can evolve differently, one more permissive than the other, so identify which version applies to the state.
+    elements:
+      - name: Treaty route
+        test: Is the state a party to the treaty containing the rule? If so, the treaty version binds it.
+      - name: Customary route
+        test: Does the same rule also exist as custom — codified, crystallised or generated by the treaty? Test practice and opinio juris.
+        cases:
+          - nicaragua-v-united-states-of-america
+          - north-sea-continental-shelf-cases
+      - name: Which content applies
+        test: 'Compare the versions: the customary specification may differ from the treaty''s (self-defence: custom and Art 51). Apply the version that binds this state.'
+        authorities:
+          - un-charter-art-51
+    what-if:
+      - change: The respondent state is a party to the treaty.
+        effect: The treaty binds it directly. The customary rule continues in parallel and may still matter if the treaty version is narrower or does not apply.
+      - change: The treaty deals with a genuinely new issue, and non-parties then widely adopt its approach, believing it legally required.
+        effect: 'The treaty has given rise to a new customary rule: non-parties are bound by the custom, though not by the treaty itself.'
+      - change: Many states ratify a convention, but non-parties reject its rule and act differently.
+        effect: Without extensive, virtually uniform practice accepted as law (North Sea [74]), the rule stays purely conventional and non-parties are not bound.
+    boundary:
+      - text: 'North Sea Continental Shelf [74]: practice built on ''what was originally a purely conventional rule''.'
+        why: A treaty rule can become custom even quickly, but only if practice — including specially affected states' — is extensive and virtually uniform. The treaty alone does not create custom.
+    transfer:
+      - scenario: A multilateral treaty requires states to warn neighbours before launching rockets over their territory. A non-party launches without warning. The neighbour says the treaty does not matter because the rule binds anyway.
+        answer: The treaty itself binds only its parties. But the neighbour can argue the same rule exists as custom — codified, crystallised or generated by the treaty (Nicaragua; North Sea). It must prove general practice, including specially affected launching states, accepted as law. If it does, the non-party is bound by the customary version, whose content may differ from the treaty's.
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slide 14)
+      - 'Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (45:00–47:20: self-defence in custom and Art 51; codify, crystallise, generate)'
+    verify: false
+  - concept: laws2000-w02-general-principles-of-law
+    plain: When no treaty or custom answers a question, courts can use principles common to the world's legal systems, such as good faith or fairness.
+    concrete: When the ICJ delimits maritime boundaries between coastal states with opposite or adjacent coasts, it often refers to equity and equitable principles — what is fair and reasonable in the administration of justice. The lecturer gives boundary delimitation, at sea and on land, as the area where equity as a general principle has been most useful.
+    formal: 'Article 38(1)(c) ICJ Statute: "the general principles of law recognized by civilized nations". Courts rely on them when a dispute cannot be effectively resolved on the basis of a treaty or customary international law. Examples: equity, good faith, res judicata and the impartiality of judges. A principle must be recognised across legal systems and capable of being usefully applied internationally.'
+    analogy:
+      text: A referee applying fair-play principles that every football code shares when the rulebook says nothing about the situation.
+      maps:
+        - from: the rulebook
+          to: treaty and customary rules
+        - from: fair-play principles every code shares
+          to: principles recognised across legal systems
+        - from: the rulebook falling silent
+          to: a gap where treaty and custom cannot resolve the dispute
+      limits:
+        - A referee can improvise; a court may use only principles genuinely shared across legal traditions and workable at the international level.
+    terms:
+      - term: equity
+        gloss: What is fair and reasonable in the administration of justice; used by the ICJ when delimiting maritime boundaries between opposite or adjacent coasts.
+      - term: res judicata
+        gloss: A matter already judged — a general principle listed on the slides.
+      - term: good faith
+        gloss: A general principle listed on the slides; the lecture also says it grounds the binding force of unilateral statements.
+      - term: gap-filler
+        gloss: 'The role of general principles: applied where a treaty or customary rule cannot effectively resolve the dispute.'
+    misconceptions:
+      - claim: General principles are secondary sources, like judicial decisions.
+        tempting: They are used less often and only to fill gaps.
+        correction: They are primary, law-creating sources under Article 38(1)(c). Their gap-filling role concerns when they are used, not their status.
+      - claim: A rule found in one country's law is a general principle of international law.
+        tempting: Article 38(1)(c) refers to principles recognised by nations.
+        correction: It needs a decent geographical spread across legal traditions — civil law, common law, Arabic law systems — and must be usefully transposable to international law.
+      - claim: Courts start with general principles because they are the most basic rules.
+        tempting: '''General'' sounds foundational, so it seems to come first.'
+        correction: 'They are a fallback: courts reach for them when a treaty or customary rule cannot effectively resolve the dispute.'
+    socratic:
+      - ask: A tribunal finds no applicable treaty and no proven custom. Must it give up?
+        hint: What does Article 38(1)(c) offer?
+        answer: No. It can turn to the general principles of law recognised by civilised nations.
+      - ask: What examples does slide 15 give?
+        hint: Four principles.
+        answer: Equity, good faith, res judicata and the impartiality of judges.
+      - ask: How do we know a principle qualifies?
+        hint: Breadth, then transposability.
+        answer: It is recognised by states with decent geographical spread across legal traditions, and it can be usefully implemented at the international level.
+      - ask: Where has equity done real work?
+        hint: Think coastlines.
+        answer: In ICJ delimitation of maritime boundaries between coastal states with opposite or adjacent coasts, and of land boundaries.
+    elements:
+      - name: No treaty or custom resolves the dispute
+        test: The dispute cannot be effectively resolved on the basis of an applicable treaty or customary international law.
+        authorities:
+          - icj-statute-art-38-1
+      - name: Recognised across legal systems
+        test: States with decent geographical spread recognise the principle, across legal traditions — civil law, common law, Arabic law systems — not one family alone.
+      - name: Transposable to international law
+        test: The principle can be usefully implemented and followed at the international level; not everything recognised domestically transposes.
+    what-if:
+      - change: An applicable treaty between the parties covers the point.
+        effect: Apply the treaty. General principles are gap-fillers and are not reached while a treaty or custom effectively resolves the dispute.
+      - change: The principle is recognised only in common law countries.
+        effect: 'It probably fails: recognition must span legal traditions with decent geographical representation, not a single legal family.'
+    boundary:
+      - text: Good faith as the basis of binding unilateral statements (Nuclear Tests).
+        why: 'A general principle doing work beyond gap-filling: the lecture says the binding character of unilateral statements rests on good faith.'
+    transfer:
+      - scenario: Two states arbitrate a dispute. After losing, one starts a fresh arbitration on exactly the same claim. No treaty between them, and no customary rule, addresses re-litigation.
+        answer: With treaty and custom silent, the tribunal may apply a general principle under Article 38(1)(c). Res judicata — a matter already judged — is listed among the recognised general principles, so the same claim should not be litigated again.
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slide 15)
+      - 'Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (47:20–49:30: general principles as gap-fillers, criteria, equity)'
+    verify: false
+  - concept: laws2000-w02-judicial-decisions-and-scholarly-writings
+    plain: Court decisions and expert writings don't make international law; they help show what the law is, and an ICJ judgment formally binds only the states in that case.
+    concrete: 'The lecturer''s example: if Australia and France litigate before the ICJ, the judgment binds those two states in that case. If Australia later sues another state on similar facts and similar law, the first judgment does not bind the new case. Still, ICJ judgments cite earlier rulings in almost every paragraph, and states invoke ICJ cases as bargaining chips when negotiating settlements.'
+    formal: 'Article 59 ICJ Statute: "The decision of the Court has no binding force except between the parties and in respect of that particular case." Judicial decisions and "the teachings of the most highly qualified publicists" (Art 38(1)(d)) are subsidiary, law-interpreting sources. Yet decisions carry substantial interpretative weight, and the ICJ rarely departs from its jurisprudence (Guillaume 2011).'
+    analogy:
+      text: 'A respected umpire''s past rulings: each binds only that match, but other umpires and players rely on them to know how the rules work.'
+      maps:
+        - from: a ruling binding only that match
+          to: 'Article 59: binding only the parties and that case'
+        - from: others relying on past rulings
+          to: the interpretative weight of ICJ decisions
+      limits:
+        - Common law precedent makes earlier rulings binding; Article 59 deliberately does not, to respect consent to the Court's non-compulsory jurisdiction.
+    terms:
+      - term: Article 59 ICJ Statute
+        gloss: An ICJ decision binds only the parties and only in respect of that particular case — there is no binding precedent.
+      - term: teachings of the most highly qualified publicists
+        gloss: Writings of leading international law scholars — a subsidiary means under Article 38(1)(d) for clarifying ambiguous law.
+      - term: International Law Commission
+        gloss: UN body of elected, geographically representative experts on codification and progressive development; its draft articles, such as on state responsibility, are often cited by the ICJ.
+      - term: ad hoc tribunals
+        gloss: Courts set up by the Security Council for specific situations, such as the tribunals for the former Yugoslavia and Rwanda, then phased out.
+    misconceptions:
+      - claim: ICJ decisions bind later cases as precedent, as in Australian courts.
+        tempting: ICJ judgments cite earlier decisions in almost every paragraph.
+        correction: 'Article 59: a decision binds only the parties and that case, respecting consent to the Court''s non-compulsory jurisdiction. Consistency is practice, not obligation.'
+      - claim: Because judgments are not binding precedent, they carry little weight.
+        tempting: '''Non-binding'' sounds optional.'
+        correction: They carry substantial interpretative weight; the ICJ rarely departs from its jurisprudence, for legitimacy, predictability and the peaceful settlement of disputes.
+      - claim: ILC draft articles are binding law.
+        tempting: Courts cite them constantly, especially the Draft Articles on State Responsibility.
+        correction: They are subsidiary, non-binding expert work that helps interpret the law; they can become treaties if states adopt them.
+    socratic:
+      - ask: Australia wins an ICJ case against France. Does the judgment bind Australia's later case against another state?
+        hint: Read Article 59.
+        answer: No. It binds only the parties and only in respect of that particular case.
+      - ask: Why design the Court that way?
+        hint: Is the ICJ's jurisdiction compulsory?
+        answer: 'To respect consent: a state that never accepted the Court''s jurisdiction over a dispute should not be bound by what the Court says.'
+      - ask: So why do judges still follow earlier decisions?
+        hint: The lecture gives three reasons.
+        answer: Legitimacy, predictability (states would otherwise avoid litigating) and the peaceful settlement of disputes.
+      - ask: Where do scholars and the ILC fit?
+        hint: Article 38(1)(d).
+        answer: 'As subsidiary means: they clarify ambiguous law but do not create it; ILC drafts may later become treaties.'
+    what-if:
+      - change: The same two states return to court on similar facts in a new dispute.
+        effect: Even between the same parties, the earlier decision does not bind the new case under Article 59; it is persuasive and will very likely be followed for consistency.
+      - change: The authority relied on is a domestic decision, such as the Canadian Supreme Court on the secession of Quebec.
+        effect: Domestic decisions can also be relevant — the Quebec decision is often discussed on self-determination — but as evidence or interpretation, not as binding international law.
+    boundary:
+      - text: The ILC's Draft Articles on State Responsibility.
+        why: Formally only subsidiary, yet heavily relied on by courts because no treaty covers the topic — an interpretive source carrying near-primary weight in practice.
+      - text: A judge's academic article written in a personal capacity.
+        why: It counts as scholarly writing under Article 38(1)(d), not as a judicial decision of the judge's tribunal; the lecture includes judges acting in an academic capacity among scholars.
+    transfer:
+      - scenario: A new regional human rights court hears its very first case. One party argues the court may not refer to any ICJ judgment, because ICJ judgments do not bind it.
+        answer: 'True that they do not bind it: under Article 59 an ICJ decision binds only its parties and that case. But judicial decisions are subsidiary means with substantial interpretative weight, and international judges and practitioners constantly draw on earlier decisions. The new court may rely on ICJ reasoning as persuasive authority.'
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 18–19)
+      - 'Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript (01:17–10:27: judicial decisions, Article 59, consistency, scholarly writings, ILC)'
+      - Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (06:00–11:48)
+      - Week 02 - Tutorial Questions - Sources of International Law (Question 1B)
+    verify: false
+  - concept: laws2000-w02-sources-beyond-article-38
+    plain: Some rules bind states even though Article 38 doesn't list them — public promises, peremptory norms and some decisions of international organisations — and non-binding soft law still shapes the law.
+    concrete: 'In 1919 Norway''s foreign minister, Mr Ihlen, told the Danish minister that Norway "would not make any difficulty" over Denmark''s claim to all of Greenland. When Norway later occupied part of Eastern Greenland, the Permanent Court of International Justice held the promise "unconditional and definitive": Norway was obliged not to contest Danish sovereignty over Greenland as a whole, and so not to occupy any part of it.'
+    formal: 'Unilateral declarations intended to bind create legal undertakings; no quid pro quo or acceptance is required (Nuclear Tests [1974]). Jus cogens: a norm "accepted and recognized by the international community of States as a whole" from which "no derogation is permitted" (VCLT art 53). Members "agree to accept and carry out the decisions of the Security Council" (UN Charter art 25). Soft law is not an independent source.'
+    terms:
+      - term: unilateral statement
+        gloss: A public declaration by a state's representative, made with the intention to be bound, creating a legal obligation without any reciprocal promise or acceptance.
+      - term: jus cogens (peremptory norm)
+        gloss: A norm accepted by the community of states as a whole from which no derogation is permitted, even by treaty (VCLT art 53).
+        example: 'ILC examples: genocide, crimes against humanity, aggression, slavery, torture and self-determination.'
+      - term: soft law
+        gloss: Non-legally binding instruments, such as General Assembly declarations, that can evidence practice or opinio juris, aid interpretation, or lead to treaties.
+      - term: hard law
+        gloss: The legally binding sources, such as treaties and custom, contrasted with soft law.
+    misconceptions:
+      - claim: A unilateral statement binds only once the other state accepts it.
+        tempting: Most binding promises, like contracts, need acceptance.
+        correction: 'Nuclear Tests: no quid pro quo, acceptance, reply or reaction from other states is required; the declaring state''s intention to be bound is enough.'
+      - claim: General Assembly declarations bind because almost every state votes for them.
+        tempting: Wide support looks like consent.
+        correction: Soft law is not an independent source. It can evidence practice or opinio juris and lead to custom or treaties — the UDHR led to the ICCPR and ICESCR.
+      - claim: A treaty provision that breaches jus cogens is simply cut out and the rest of the treaty survives.
+        tempting: Domestic courts often sever invalid clauses.
+        correction: The lecture says no treaty can contain even one provision violating jus cogens; such a treaty will be terminated.
+    socratic:
+      - ask: Norway's minister orally promised not to make difficulties over Greenland. Was there a treaty?
+        hint: Was there a written agreement between states?
+        answer: No — a unilateral statement. Yet the Permanent Court held it bound Norway (Eastern Greenland).
+      - ask: What made France's press-conference statements binding in Nuclear Tests?
+        hint: Whose intention matters?
+        answer: France's own intention to be bound by their terms. Form is not strict, and the binding character rests on good faith.
+      - ask: Could two states validly agree by treaty to permit torture between them?
+        hint: VCLT art 53.
+        answer: No. The prohibition of torture is jus cogens; no derogation is permitted, and such a treaty would be terminated.
+      - ask: How can a Security Council decision bind a state that voted against it?
+        hint: Look at the treaty the state already ratified.
+        answer: Under Article 25 of the UN Charter, members agreed in advance to accept and carry out Council decisions.
+      - ask: Is a General Assembly declaration law?
+        hint: Hard law or soft law?
+        answer: No, it is soft law. But it can evidence practice or opinio juris and lead to custom or new treaties.
+    elements:
+      - name: Public declaration by a representative
+        test: A statement by an authorised representative, such as a foreign minister or president; no strict form is required — oral statements and press conferences suffice.
+        cases:
+          - legal-status-of-eastern-greenland-denmark-v-norway
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+      - name: Intention to be bound
+        test: Interpreting the words used, the state intended to become bound by them; in Eastern Greenland the promise was 'unconditional and definitive'.
+        cases:
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+          - legal-status-of-eastern-greenland-denmark-v-norway
+      - name: No reciprocity required
+        test: No quid pro quo, acceptance, reply or reaction from other states is needed.
+        cases:
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+      - name: Good faith
+        test: 'The binding character rests on good faith: the state must thereafter follow a course of conduct consistent with its declaration.'
+        cases:
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+    what-if:
+      - change: The Norwegian minister had said only that Norway would consider Denmark's claim sympathetically.
+        effect: 'Unlikely to bind: the Court stressed the promise was ''unconditional and definitive''. A vague or conditional statement shows no clear intention to be bound.'
+      - change: The Security Council text is a recommendation rather than a decision.
+        effect: Article 25 makes Council decisions binding; the lecture flags a distinction between decisions and recommendations, so a mere recommendation would not bind members.
+      - change: A General Assembly fisheries declaration is followed consistently by states that come to treat it as legally required.
+        effect: The declaration itself stays non-binding, but the resulting practice and opinio juris may crystallise a customary rule.
+    boundary:
+      - text: ICAO technical rules on flights over the high seas.
+        why: Adopted by a two-thirds vote, they bind contracting states with no possibility of deviation — a rare example of international legislation by majority that departs from the consent principle.
+      - text: Whether jus cogens is a subset of customary international law.
+        why: 'Debated: some say yes; others say no, because a jus cogens rule can be asserted without supporting practice or consent. Its content and consequences are also contested.'
+    transfer:
+      - scenario: At a press conference a prime minister declares, unconditionally, that her state will stop dumping waste in a shared sea from next year. The neighbouring state never replies. Two years later the dumping resumes.
+        answer: Following Nuclear Tests and Eastern Greenland, a public, unconditional declaration by an authorised representative, showing an intention to be bound, creates a legal undertaking; no acceptance or reply is required and form is not strict. Its binding force rests on good faith, so resuming the dumping breaches the state's own unilateral obligation.
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 20–26)
+      - 'Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript (10:40–34:13: unilateral statements, jus cogens, IO decisions, soft law)'
+      - Week 02 - Tutorial Questions - Sources of International Law (Question 1C)
+    verify: false
+flows:
+  - slug: is-there-binding-custom
+    title: Is this state bound by a rule of customary international law?
+    summary: 'Follows the lecturer''s flowchart: test practice (uniformity, generality, duration) and opinio juris, then ask whom the custom binds and whether the state persistently objected.'
+    start: n1
+    concepts:
+      - laws2000-w02-customary-international-law-elements
+      - laws2000-w02-persistent-objector-and-particular-custom
+    sources:
+      - Week 02 - Study Aid - Customary International Law Flowchart
+      - Week 02 - Lecture Slides - Sources of International Law (slides 6–13)
+      - Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (18:00–45:00)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Is there state practice that is uniform and consistent?
+        note: States facing the same facts act the same way. Perfection is not required (Nicaragua [186]); 'so much uncertainty and contradiction' defeats it (Asylum).
+        cases:
+          - nicaragua-v-united-states-of-america
+          - asylum-case-colombia-v-peru
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n10
+      - id: n2
+        kind: ask
+        text: Is the practice general — extensive, including specially affected states?
+        note: Not every state must take part; the practice of states whose interests are specially affected (e.g. coastal states for sea rules) weighs heavily (North Sea [74]).
+        cases:
+          - north-sea-continental-shelf-cases
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: 'No'
+            to: n10
+      - id: n3
+        kind: ask
+        text: Has the practice lasted a significant period?
+        note: There is no fixed period. A short time is not of itself a bar (North Sea [74]).
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: No, it is very recent
+            to: n3b
+      - id: n3b
+        kind: step
+        exception: true
+        text: 'Possible ''instant custom'' (flowchart): accept only if practice within the short period is extensive and virtually uniform.'
+        cases:
+          - north-sea-continental-shelf-cases
+        next: n4
+      - id: n4
+        kind: ask
+        text: Is there opinio juris — do states act from a belief that the law requires it?
+        note: 'Not courtesy, convenience or tradition (North Sea [77]). Evidence: public statements, legal opinions, national court decisions, treaty provisions, failure to react (ILC Conclusion 10).'
+        cases:
+          - north-sea-continental-shelf-cases
+        branches:
+          - label: 'Yes'
+            to: n5
+          - label: 'No'
+            to: n11
+      - id: n5
+        kind: step
+        text: Customary international law is established.
+        next: n6
+      - id: n6
+        kind: ask
+        text: To whom does the custom apply?
+        note: 'Universal relevance: the entire international community. Specific regional significance or a specialised area: a regional or special custom (flowchart).'
+        concept: laws2000-w02-persistent-objector-and-particular-custom
+        branches:
+          - label: Universal relevance
+            to: n7
+          - label: Only a region, or two states
+            to: n12
+      - id: n7
+        kind: ask
+        text: Did this state object from the very beginning of the rule's formation?
+        note: Objecting midway, once the rule proves inconvenient, does not work.
+        branches:
+          - label: 'Yes'
+            to: n8
+          - label: 'No'
+            to: n13
+      - id: n8
+        kind: ask
+        text: Has it objected consistently and made its objection known to other states?
+        note: Norway always rejected the UK's 10-mile rule and used its own baselines (Fisheries).
+        cases:
+          - fisheries-case-united-kingdom-v-norway
+        branches:
+          - label: 'Yes'
+            to: n9
+          - label: 'No'
+            to: n13
+      - id: n9
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'Not bound: a persistent objector (Fisheries). The rule still binds every other state.'
+        cases:
+          - fisheries-case-united-kingdom-v-norway
+      - id: n10
+        kind: end
+        tone: not-met
+        text: 'No customary rule: the practice is not uniform, consistent or general enough (Asylum).'
+        cases:
+          - asylum-case-colombia-v-peru
+      - id: n11
+        kind: end
+        tone: not-met
+        text: 'No customary rule: practice without opinio juris is mere usage or courtesy (North Sea [77]).'
+        cases:
+          - north-sea-continental-shelf-cases
+      - id: n12
+        kind: end
+        tone: met
+        text: 'Particular custom: it binds only the states of that region or relationship (Right of Passage).'
+        cases:
+          - right-of-passage-over-indian-territory-portugal-v-india
+      - id: n13
+        kind: end
+        tone: met
+        text: The state is bound by the customary rule.
+  - slug: which-source-binds
+    title: Which source makes this rule binding on the state?
+    summary: Works through Article 38(1) in the order an answer takes it, then the sources Article 38 leaves out.
+    start: s1
+    concepts:
+      - laws2000-w02-article-38-and-sources-of-international-law
+      - laws2000-w02-treaties-as-a-source
+      - laws2000-w02-general-principles-of-law
+      - laws2000-w02-sources-beyond-article-38
+    sources:
+      - Week 02 - Lecture Slides - Sources of International Law (slides 3–26)
+      - Week 02 - Lecture Recording (Live) - Sources of International Law - Full Transcript (03:06–49:30)
+      - Week 02 - Lecture Recording (Online) - Sources of International Law - Full Transcript (00:00–36:21)
+    nodes:
+      - id: s1
+        kind: ask
+        text: Is there a treaty containing the rule to which the state is a party?
+        note: The most direct evidence of an obligation; the document's label does not matter, only consent to be bound (VCLT art 2(1)(a)).
+        concept: laws2000-w02-treaties-as-a-source
+        authorities:
+          - vclt-art-2-1-a
+        branches:
+          - label: 'Yes'
+            to: s2
+          - label: 'No'
+            to: s3
+      - id: s2
+        kind: ask
+        text: Does the treaty provision conflict with a peremptory norm (jus cogens)?
+        note: No derogation is permitted (VCLT art 53); the lecture says a treaty containing even one such provision will be terminated.
+        authorities:
+          - vclt-art-53
+        branches:
+          - label: 'Yes'
+            to: s9
+          - label: 'No'
+            to: s10
+      - id: s3
+        kind: ask
+        text: Does the rule exist as customary international law binding this state?
+        note: Practice plus opinio juris; check particular custom and persistent objection. ICJ decisions and scholars help show whether a rule is custom (Art 38(1)(d)).
+        concept: laws2000-w02-customary-international-law-elements
+        branches:
+          - label: 'Yes'
+            to: s11
+          - label: 'No'
+            to: s4
+      - id: s4
+        kind: ask
+        text: Does a general principle of law resolve the issue?
+        note: 'Gap-fillers recognised across legal systems and usable internationally: equity, good faith, res judicata, impartiality of judges.'
+        concept: laws2000-w02-general-principles-of-law
+        branches:
+          - label: 'Yes'
+            to: s12
+          - label: 'No'
+            to: s5
+      - id: s5
+        kind: ask
+        text: Did the state make a public unilateral declaration showing an intention to be bound?
+        note: No acceptance or reciprocity is required; form is not strict (Nuclear Tests; Eastern Greenland).
+        cases:
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+          - legal-status-of-eastern-greenland-denmark-v-norway
+        branches:
+          - label: 'Yes'
+            to: s13
+          - label: 'No'
+            to: s6
+      - id: s6
+        kind: ask
+        text: Is there a binding decision of an international organisation the state belongs to?
+        note: 'Binding only where the constitutive treaty says so: Security Council decisions (Art 25 UN Charter); ICAO rules on flights over the high seas.'
+        authorities:
+          - un-charter-art-25
+        branches:
+          - label: 'Yes'
+            to: s14
+          - label: 'No'
+            to: s15
+      - id: s9
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'Not binding: a treaty derogating from jus cogens will be terminated.'
+        authorities:
+          - vclt-art-53
+      - id: s10
+        kind: end
+        tone: met
+        text: 'Bound by the treaty: pacta sunt servanda — honour it and keep domestic law consistent.'
+      - id: s11
+        kind: end
+        tone: met
+        text: Bound by custom — even if not party to a treaty containing the same rule.
+        cases:
+          - nicaragua-v-united-states-of-america
+      - id: s12
+        kind: end
+        tone: met
+        text: Resolved by a general principle of law (Art 38(1)(c)).
+        authorities:
+          - icj-statute-art-38-1
+      - id: s13
+        kind: end
+        tone: met
+        text: Bound by its own unilateral statement, on the basis of good faith.
+        cases:
+          - nuclear-tests-cases-australia-v-france-new-zealand-v-france
+      - id: s14
+        kind: end
+        tone: met
+        text: Bound by the organisation's decision, through consent given in its constitutive treaty.
+        authorities:
+          - un-charter-art-25
+      - id: s15
+        kind: end
+        tone: qualified
+        text: No binding source found. Soft law (e.g. General Assembly declarations) may still evidence practice or opinio juris or aid interpretation, but does not bind on its own.

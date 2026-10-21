@@ -1,0 +1,715 @@
+unit: laws2100
+week: 3
+source: raw/laws2100-juris/week-03
+generator: aids-1
+aids:
+  - concept: laws2100-w03-legal-obligation-and-social-rules
+    plain: 'Being forced is not the same as being under an obligation. Hart explains legal obligation through social rules: standards people accept and use to criticise deviation, not just threats or habits.'
+    concrete: 'A gunman and a tax officer both demand your money, with bad consequences if you refuse. Factually they look alike. Yet only the tax demand creates an obligation, and someone who never pays tax is still under an obligation to pay. Hart''s explanation: the tax demand rests on a rule people accept as a standard; the gunman''s rests on fear alone.'
+    formal: 'Where there is law, ''human conduct is made in some sense non-optional or obligatory'', yet there is ''a difference, yet to be explained'' between being obliged and having an obligation (CL 82). Social rules, unlike habits: deviation is criticised; the rule is a good reason for criticism; an internal aspect, ''a critical reflective attitude to certain patterns of behaviour as a common standard'' (CL 57).'
+    analogy:
+      text: Watching a sport you have never seen. You can record regularities, such as players stopping at the whistle and hugging after goals, but cannot tell which respond to rules until you learn the game.
+      maps:
+        - from: the newcomer recording regularities
+          to: 'the external point of view: patterns of behaviour only'
+        - from: learning the rules of the game
+          to: understanding the internal point of view of those who buy into the rules
+        - from: stopping at the whistle
+          to: conduct that responds to a rule
+        - from: hugging after a goal
+          to: a regular pattern that no rule requires
+      limits:
+        - A player can walk away from a game; a legal obligation binds even those who do not accept the rule or comply with it, like the tax evader.
+        - Games usually have a written rulebook; social rules, and the rule of recognition, are often implicit and shown only in practice.
+    terms:
+      - term: Internal point of view
+        gloss: The point of view of participants who buy into the rules. A spectator who knows the practice can understand it without taking part.
+      - term: External point of view
+        gloss: An observer's view that registers only patterns of behaviour, like a visitor who knows nothing of the practice.
+      - term: Critical reflective attitude
+        gloss: 'Hart''s internal aspect of rules: treating a pattern as a common standard, used to criticise deviation and as a reason to act; not feelings of compulsion.'
+      - term: Reasons for action
+        gloss: Rules give those who accept them reasons to criticise others and to act themselves; Raz, who studied under Hart, develops the idea.
+    misconceptions:
+      - claim: For Hart, the internal aspect of rules is a feeling of compulsion.
+        tempting: People do report feeling bound by rules, and some legal realists built on such feelings.
+        correction: 'Hart calls it a critical reflective attitude: using the pattern as a common standard and as a reason for criticism and action. He criticises the realists for misunderstanding it.'
+      - claim: An obligation is a prediction that something bad will happen to you if you disobey.
+        tempting: Sanctions often follow breach, so predicting them looks like a refined account of duty.
+        correction: 'Hart pushes against this realist move: those who accept rules treat them as reasons to criticise others and to act themselves, and the tax evader is under an obligation however unlikely a sanction is.'
+      - claim: Only someone currently following the rules can understand the internal point of view.
+        tempting: It is described as the participants' point of view.
+        correction: 'The lecture says you can understand it while only watching: a religion you do not practise, or a cricket match you are only watching, if you know how the practice works.'
+    socratic:
+      - ask: A gunman and a tax officer each demand money, threatening bad consequences. Factually, what is the difference?
+        hint: Compare the power, the demand and the threat.
+        answer: 'From a very factual standpoint, none: someone with power over me demands money, with negative consequences if I refuse.'
+      - ask: Yet which one leaves you with an obligation, even if you never comply?
+        hint: Think of a tax evader.
+        answer: The tax demand. Someone who never pays tax is still under an obligation to pay; the gunman's victim is merely obliged.
+      - ask: Can a habit of obedience explain that difference?
+        hint: CL 60.
+        answer: 'No. Habits are not normative: they cannot confer rights or authority on anyone; they only record what people usually do.'
+      - ask: What does a social rule add?
+        hint: Watch a queue-jumper being called out.
+        answer: Deviation is criticised, the rule is cited as a good reason for the criticism, and members take a critical reflective attitude to the pattern as a common standard.
+      - ask: So is the internal aspect a feeling, or a prediction of punishment?
+        hint: Hart's quarrel with the realists.
+        answer: 'Neither. It is using the rule as a standard and a reason: to criticise others and to act oneself.'
+    elements:
+      - name: Convergence
+        test: Do most members behave the same way? Habits and rules share this, so it decides nothing alone.
+        authorities:
+          - hart-the-concept-of-law
+      - name: Criticism
+        test: Are deviations from the pattern met with criticism?
+      - name: Good reason
+        test: Is the rule itself regarded as a good reason for making that criticism?
+      - name: Internal aspect
+        test: Do members take a critical reflective attitude to the pattern as a common standard (CL 57), rather than merely feeling compelled?
+        authorities:
+          - hart-the-concept-of-law
+    what-if:
+      - change: The taxpayer resolves never to pay and is confident of never being caught.
+        effect: 'He is still under an obligation: on Hart''s account obligation does not depend on compliance, on feeling compelled, or on how likely a sanction is.'
+      - change: When someone pushes into the queue, nobody says anything, and nobody would.
+        effect: 'With no criticism of deviation and no rule cited as a reason, there is only convergence of behaviour: on Hart''s test, a habit rather than a social rule.'
+    boundary:
+      - text: Celebrating after scoring a goal in soccer.
+        why: 'A regular pattern that no rule requires: the lecture''s example of behaviour an outsider might mistake for rule-following.'
+      - text: A spectator at a cricket match who knows the game.
+        why: 'Not playing, yet able to understand how the players buy into the rules: the internal point of view can be understood without participating.'
+    transfer:
+      - scenario: In a group chat, members always reply within a day. When one member stops replying, others tell her 'you know we always reply within a day' and agree she was in the wrong.
+        answer: 'Hart''s three marks of a social rule are present: deviation is criticised, the pattern is cited as a good reason for the criticism, and members treat it as a common standard (the internal aspect). It is a rule of the group, not just a habit, and gives reasons both to act and to criticise.'
+    objections:
+      - position: Legal obligation is explained by accepted social rules, not by threats (Hart).
+        evidence: The gunman's victim is obliged but has no obligation; the tax evader is under an obligation though he never pays; habits cannot confer rights or authority (CL 60, 82).
+        objection: 'Natural law theorists agree sanctions are too reductive, but say legal obligation exists because it tracks morality: legal obligations are parasitic on moral ones (lecture).'
+        reply: 'Hart pushes against this: legal normativity is independent of purely factual and of moral considerations, even though it interacts with both (lecture).'
+    sources:
+      - Week 03 - Lecture Slides (slides 3–5)
+      - Week 03 - Lecture Transcript (first half)
+  - concept: laws2100-w03-primary-and-secondary-rules
+    plain: For Hart, a legal system is the union of primary rules, which impose duties, and secondary rules, which say how the primary rules are identified, changed and enforced.
+    concrete: Imagine an island community run only by customs. When people disagree about what a custom requires, they ask the elders, who know the traditions (recognition). When they discover they can fish, they call a general assembly to make a new fishing rule (change). When disputes drag on, they appoint a third party to decide them (adjudication). Each fix is a rule about the rules.
+    formal: 'A regime of primary rules of obligation alone is uncertain, static and inefficient. ''The remedy for each of these three main defects ... consists in supplementing the primary rules of obligation with secondary rules which are rules of a different kind'' (CL 94): uncertainty, rule of recognition; static quality, rules of change; inefficiency, rules of adjudication. The union is ''the heart of a legal system'' (CL 98).'
+    analogy:
+      text: 'A casual kick-about among friends runs on shared rules of play. A league adds more: an official rulebook, an annual meeting that can change the rules, and referees and tribunals to settle disputes.'
+      maps:
+        - from: the shared rules of play
+          to: primary rules of obligation
+        - from: the official rulebook
+          to: 'the rule of recognition: an authoritative way to identify the rules'
+        - from: the annual meeting
+          to: rules of change
+        - from: referees and tribunals
+          to: rules of adjudication
+      limits:
+        - A league is designed on purpose; Hart's story of the three defects is a thought experiment, not a history of how legal systems arose.
+        - 'Leagues really do have secondary rules, which is the problem: the lecture''s FIFA example suggests structure alone may be an over-inclusive mark of law.'
+    terms:
+      - term: Primary rules of obligation
+        gloss: Rules that impose duties, requiring or forbidding conduct.
+      - term: Secondary rules
+        gloss: '''Rules of a different kind'' (CL 94): rules about primary rules, saying how they are identified, changed and authoritatively applied.'
+      - term: Rules of change
+        gloss: Rules empowering someone to create new rules or change existing ones, remedying the static quality of primary rules.
+      - term: Rules of adjudication
+        gloss: Rules authorising a third party to settle disputes about breaches of the rules, remedying inefficiency.
+    misconceptions:
+      - claim: Rules of adjudication remedy the uncertainty of primary rules, since judges say what rules mean.
+        tempting: Courts do settle what a rule requires in a dispute.
+        correction: Hart pairs uncertainty with the rule of recognition; rules of adjudication remedy inefficiency in enforcing the rules (slide 7).
+      - claim: For Hart, international law is not law because it lacks secondary rules.
+        tempting: The union of primary and secondary rules is the key idea of his theory.
+        correction: 'Hart says international law is law but not a legal system: separate primary rules, similar to municipal law in function and content but different in form (CL 233).'
+      - claim: The union of primary and secondary rules is the whole of a legal system.
+        tempting: Hart calls it 'the heart of a legal system'.
+        correction: 'He says it is at the centre but not the whole: as we move away from the centre, we must accommodate elements of a different character.'
+    socratic:
+      - ask: A community has only customs. What goes wrong when members disagree about what a custom requires?
+        hint: How do they find out who is right?
+        answer: 'Nothing settles it: the rules are uncertain. They need an authoritative way to identify the rules, such as the elders: a rule of recognition.'
+      - ask: The community discovers it can fish, and its customs say nothing about fishing. What now?
+        hint: Customs cannot change themselves.
+        answer: 'Primary rules are static. The community empowers someone, such as a general assembly, to make new rules: a rule of change.'
+      - ask: Two members dispute whether one broke the grazing rule, and the quarrel drags on. What helps?
+        hint: Bring in someone outside the quarrel.
+        answer: 'Authorising a third party to decide such disputes, remedying inefficiency: a rule of adjudication. Its content can vary: a jury here, a judge there.'
+      - ask: Stand back. What has the community built?
+        hint: CL 98.
+        answer: 'The union of primary and secondary rules: ''the heart of a legal system'' and a powerful tool for analysing what puzzles jurists and political theorists.'
+      - ask: Does every body of law have that union?
+        hint: Hart's final chapter.
+        answer: 'No. International law, for Hart, is law but not a legal system: separate primary rules, without secondary rules uniting them.'
+    elements:
+      - name: 'Uncertainty: rule of recognition'
+        test: Is there an authoritative way to identify which rules exist and what they require?
+        authorities:
+          - hart-the-concept-of-law
+      - name: 'Static quality: rules of change'
+        test: Is someone empowered to create new rules and to change or repeal old ones?
+      - name: 'Inefficiency: rules of adjudication'
+        test: Is a third party authorised to settle disputes about whether a rule was broken?
+    what-if:
+      - change: Instead of appointing a third party, the island community leaves disputes to be settled by whoever is stronger.
+        effect: 'There is no rule of adjudication, so enforcement stays inefficient: a defect of a regime of primary rules alone. Without the union, Hart would not see a legal system.'
+      - change: In one country certain disputes go to a jury; in another, the same kind of dispute goes to a judge.
+        effect: 'Different content, same type of rule: both have rules of adjudication. What matters to Hart is that some rule empowers someone to adjudicate.'
+    boundary:
+      - text: FIFA, or a large criminal organisation.
+        why: 'Both have something like rules of recognition, change and adjudication. If structure alone marks law, Hart''s theory may be over-inclusive: the demarcation problem raised in the lecture.'
+      - text: International law.
+        why: 'Law without a legal system, for Hart: separate primary rules, analogous to municipal law in function and content but different in structure. Kelsen insists it must have a basic norm (CL 233).'
+    transfer:
+      - scenario: A student housing co-op starts with unwritten house rules. Chore disputes recur, nobody is sure whether 'quiet after 10' still applies, and new problems keep arising. Members adopt a written rulebook, an annual meeting to amend it, and a mediator.
+        answer: 'Hart''s story in miniature: the written rulebook remedies uncertainty (recognition), the annual meeting the static quality (change), the mediator inefficiency (adjudication). The co-op now has a union of primary and secondary rules; whether that makes its rules ''law'' is the demarcation problem the lecture raises.'
+    objections:
+      - position: Law is best understood as the union of primary and secondary rules (Hart).
+        evidence: It explains how rules are identified, changed and enforced, and is 'a most powerful tool for the analysis of much that has puzzled both the jurist and the political theorist' (CL 98).
+        objection: 'Demarcation: FIFA or a mafia has rules of recognition, change and adjudication too, so structure alone may be over-inclusive (lecture).'
+      - position: The Concept of Law gives an account of law in general.
+        evidence: Hart treats international law as law even though it lacks secondary rules, because it resembles municipal law in function and content (CL 233).
+        objection: Its real focus is the legal system, the law of the modern state; some say the book should have been called 'The Concept of a Legal System' (lecture).
+        reply: 'Hart''s idea of law is broader than a legal system: most law comes as a legal system, and non-systematic law such as international law is explained through its similarities (lecture).'
+    storyboard:
+      - caption: 'Only customs: primary rules of obligation'
+        detail: A small community lives by accepted social rules that impose duties, and nothing else.
+      - caption: 'Doubt about a custom: ask the elders'
+        detail: Disagreement about content shows the rules are uncertain; elders who know the traditions fix the content. A rule of recognition.
+      - caption: 'Fishing discovered: call an assembly'
+        detail: The rules are static; empowering a general assembly to make a new fishing rule is a rule of change.
+      - caption: 'Disputes drag on: appoint a third party'
+        detail: Enforcement is inefficient; authorising someone to decide disputes is a rule of adjudication (a jury here, a judge there).
+      - caption: 'The union: heart of a legal system'
+        detail: 'Primary rules plus secondary rules of recognition, change and adjudication: ''the heart of a legal system'' (CL 98).'
+    sources:
+      - Week 03 - Lecture Slides (slides 6–7, 12)
+      - Week 03 - Lecture Transcript (first half)
+  - concept: laws2100-w03-rule-of-recognition-and-validity
+    plain: 'For Hart, a rule is valid law if it passes the tests set by the rule of recognition: the accepted practice, kept up by officials and judges, that says where law is found.'
+    concrete: 'An NSW lawyer says ''this regulation is valid law in New South Wales''. How does she know? She checks it against the sources the system treats as authoritative: the federal and state constitutions, the relevant legislation, the case law. Why those sources and not others? Because a rule, practised by officials and above all judges, supplies those criteria. That practised rule is the rule of recognition.'
+    formal: A rule of recognition provides 'authoritative criteria for identifying primary rules of obligation' (CL 100). A valid rule passes 'all the tests provided by the rule of recognition' and so is 'a rule of the system' (CL 103). The rule itself 'can neither be valid nor invalid' (CL 109). A legal system exists where valid rules are generally obeyed and officials accept the secondary rules (CL 109).
+    analogy:
+      text: 'The standard metre bar in Paris: the bar every metre was once measured against. It makes no sense to ask whether the bar itself is a metre long (Hart, CL 109).'
+      maps:
+        - from: measuring objects against the bar
+          to: testing rules against the rule of recognition
+        - from: the bar itself
+          to: the rule of recognition
+        - from: '''is the bar really a metre?'''
+          to: '''is the rule of recognition valid?'': a question that cannot arise'
+      limits:
+        - The bar is a physical object; the rule of recognition is a social rule that exists only because officials accept and use it in a general practice.
+        - 'As the lecture notes, the bar is no longer the standard for the metre: the analogy illustrates Hart''s point, not measurement today.'
+    terms:
+      - term: Rule of recognition
+        gloss: The secondary rule giving authoritative criteria for identifying the valid rules of a system; a social rule shown in the practice of officials, especially judges.
+      - term: Validity (Hart)
+        gloss: 'Membership of a system: a rule is valid if it satisfies all the criteria provided by the rule of recognition (CL 103).'
+      - term: Ultimate rule of recognition
+        gloss: A complex system may have several rules of recognition, with one ultimate and supreme rule among them (CL 105–107).
+      - term: Minimum conditions
+        gloss: 'Two conditions, necessary and sufficient, for a legal system to exist: valid rules generally obeyed; secondary rules accepted by officials as common public standards.'
+    misconceptions:
+      - claim: The rule of recognition is valid because it meets its own criteria, or its validity is 'assumed but cannot be demonstrated'.
+        tempting: Every other rule's validity is tested, so the top rule seems to need a test too.
+        correction: 'Hart: no such question can arise. The rule ''can neither be valid nor invalid but is simply accepted as appropriate for use in this way'', like the standard metre bar (CL 109).'
+      - claim: Hart's first condition is that citizens accept the primary rules as common public standards.
+        tempting: Acceptance is central to Hart's account of rules.
+        correction: Citizens need only generally obey the valid rules. Acceptance as common public standards of official behaviour is required of officials, for the secondary rules (CL 109).
+      - claim: Calling a rule 'valid' means it is morally justified, or that a court will probably enforce it.
+        tempting: '''Valid'' sounds like approval, and enforcement usually follows validity.'
+        correction: 'For Hart validity is membership: the rule satisfies all the criteria provided by the rule of recognition (CL 103). Merit and prediction are separate questions.'
+    socratic:
+      - ask: Why do you look for NSW law in constitutions, statutes and cases rather than in, say, a newspaper editorial?
+        hint: What tells you which sources count?
+        answer: 'A rule, practised especially by officials and judges, supplies the criteria for identifying valid law: the rule of recognition.'
+      - ask: So what does it mean to call a regulation 'valid'?
+        hint: CL 103.
+        answer: 'That it passes all the tests provided by the rule of recognition, and so is a rule of the system: validity as membership.'
+      - ask: Where would you find the rule of recognition written down?
+        hint: Is it always spelled out?
+        answer: 'Often nowhere. Its existence is shown in the way primary rules are identified: it is manifest in a general practice.'
+      - ask: Is the rule of recognition itself valid?
+        hint: Think of the standard metre bar.
+        answer: 'No question of validity arises: it is neither valid nor invalid, simply accepted as appropriate for use.'
+      - ask: When does a legal system exist at all?
+        hint: Two minimum conditions (CL 109).
+        answer: When valid rules are generally obeyed, and officials effectively accept the rules of recognition, change and adjudication as common public standards of official behaviour.
+    elements:
+      - name: General obedience
+        test: Are the rules valid by the system's ultimate criteria generally obeyed? (Hart's first minimum condition.)
+        authorities:
+          - hart-the-concept-of-law
+      - name: Official acceptance
+        test: Do officials effectively accept the rules of recognition, change and adjudication as common public standards of official behaviour? (The second condition.)
+      - name: Identify the rule of recognition
+        test: 'From practice: what criteria do officials, above all judges, use: an authoritative text, enactment, custom, declarations of specified persons, past decisions?'
+        cases:
+          - r-miller-v-secretary-of-state-for-exiting-the-european-union
+      - name: Validity
+        test: 'Does the rule in question satisfy all the criteria provided by the rule of recognition? If so, it is valid: a member of the system.'
+        authorities:
+          - hart-the-concept-of-law
+    what-if:
+      - change: A revolutionary regime is obeyed out of fear, but its officials disagree about which rules count as law and apply no common criteria.
+        effect: Hart's second condition fails, since officials accept no common public standards. On his account there is no legal system, even though Austin's test of habitual obedience might be met.
+      - change: A jurisdiction writes its sources of law into its constitution.
+        effect: 'Part of the criteria is now spelled out, but the lecture notes the question remains why the constitution counts: because officials treat it as a source, a matter of practice.'
+    boundary:
+      - text: 'Miller (UK Supreme Court, 2017): ''the so-called fundamental rule of recognition'' [60].'
+        why: 'Judges reasoning with Hart''s concept: the Court said the fundamental rule had not been varied by the 1972 Act. Theory has become part of legal reasoning.'
+      - text: '''Rules of recognition'' in the plural.'
+        why: A complex system may have a number of rules of recognition, but Hart also speaks of one ultimate, supreme rule among them (CL 105–107).
+    transfer:
+      - scenario: A sports league's tribunal must decide whether a by-law passed by the board and posted online binds players. The league's settled practice is that only by-laws approved at a general meeting count.
+        answer: 'Apply Hart''s validity test: does the by-law satisfy the criteria the league''s officials treat as authoritative? Approval at a general meeting is one, so a board-only by-law fails it and is not a valid rule of the league, whatever its merits. The criterion exists because officials accept and apply it.'
+    objections:
+      - position: 'Validity is membership: passing the tests set by an accepted rule of recognition (Hart).'
+        evidence: The rule supplies authoritative criteria (CL 100); its existence is a fact shown in official practice; the UK Supreme Court reasoned with it in Miller.
+        objection: 'Kelsen: validity is binding force, not membership, and cannot be a fact; it must be traced through a chain of validity to a presupposed basic norm.'
+        reply: 'Hart: asking whether the ultimate rule is valid is a mistake; saying its validity is ''assumed but cannot be demonstrated'' is speaking ''darkly''. It is simply accepted (CL 109).'
+      - position: Hart's two conditions explain when a legal system exists.
+        evidence: General obedience captures Austin's factual element; official acceptance of the secondary rules adds what Austin lacked (CL 109; lecture).
+        objection: 'The conditions concern existence, not legitimacy: a system can exist that deserves no obedience at all.'
+        reply: 'Hart accepts this: he is concerned here with existence, and holds that a clear understanding of law is an important preliminary to any useful moral criticism of it (CL 240).'
+    sources:
+      - Week 03 - Lecture Slides (slides 8–11)
+      - Week 03 - Lecture Transcript (first half)
+      - Week 03 - Lecture Transcript (second half)
+  - concept: laws2100-w03-kelsen-pure-theory
+    plain: For Kelsen, law is a coercive order of norms. A norm is valid, which means binding, because a higher norm authorised it, all the way back to a basic norm that must be presupposed.
+    concrete: 'Why is a council regulation valid? Because a higher norm authorised the council to make it. Why is that norm valid? Because a still higher norm authorised its maker, and so on up to the constitution, then back in time through earlier constitutions to the historically first one. Why obey that? Here we must presuppose a norm: you ought to obey the historically first constitution.'
+    formal: Law is 'a definite type of norm'; 'the law is a coercive order' (p 1); it 'regulates its own creation, application and execution' (p 5). The tax officer's command is 'authorized by an objectively valid legal norm', the gangster's is not (p 6). Validity is binding force, not a fact; only a competent authority creates a valid norm; the chain ends in a presupposed basic norm.
+    analogy:
+      text: A staff purchase is approved because a manager signed it off; the manager's authority comes from a director, the director's from the board, the board's from the company's founding charter.
+      maps:
+        - from: each signature passing authority down
+          to: a higher norm authorising the creation of a lower one
+        - from: the chain of sign-offs
+          to: the chain of validity and the hierarchical structure of the order
+        - from: the founding charter
+          to: the historically first constitution
+      limits:
+        - A company's charter rests on a statute outside the company; at the top of a legal order there is no higher norm, so Kelsen must presuppose one.
+        - Sign-offs record who may act; Kelsen's validity is binding force, which he says can never be a mere fact like a signature.
+    terms:
+      - term: Basic norm (Grundnorm)
+        gloss: 'The presupposed norm ''you ought to obey the historically first constitution'': a transcendental-logical presupposition, not part of the legal order.'
+      - term: Chain of validity
+        gloss: Each norm is valid because a higher norm authorised its creation, up to the constitution and back to the historically first constitution.
+      - term: Stufenbau
+        gloss: The Vienna school's term for the hierarchical structure of a legal order, built on authorisation.
+      - term: Pure theory
+        gloss: 'A theory of positive law that ''answers the question of what the law is, not what it ought to be'': the latter is politics; the pure theory is science (1941).'
+    misconceptions:
+      - claim: For Kelsen, validity is membership of a system, as it is for Hart.
+        tempting: Both explain legal validity and the unity of a legal order.
+        correction: 'For Kelsen a valid norm is binding: validity is binding force, and it cannot be a fact. Validity as membership is Hart''s account.'
+      - claim: Kelsen distinguishes the tax officer's demand from the gangster's by its stronger sanction, or its fairness.
+        tempting: Kelsen defines law by coercion, and taxes may be fair.
+        correction: 'Both demands have the same subjective meaning. The difference is authorisation: the tax officer''s command is authorised by an objectively valid legal norm, the gangster''s is not (p 6).'
+      - claim: The chain of validity stops at today's constitution, since nothing in the system is higher.
+        tempting: The constitution is the highest source in the system.
+        correction: 'We can still ask why it is valid: the chain goes back through earlier constitutions to the historically first, and then to the presupposed basic norm.'
+    socratic:
+      - ask: A gangster and a tax officer both demand money, and their commands mean the same thing subjectively. What makes one of them law?
+        hint: 'Not the threat: look for authorisation.'
+        answer: The tax officer's command is authorised by an objectively valid legal norm; the gangster's is not.
+      - ask: Why is the norm that authorises the tax officer valid?
+        hint: Ask the same question one level up.
+        answer: Because a higher norm authorised its creation. Searching for the reason of validity reveals the hierarchical structure of the legal order.
+      - ask: You reach today's constitution. Is the question over?
+        hint: Was it authorised by anything earlier?
+        answer: No. Go back in time through earlier constitutions to the historically first constitution.
+      - ask: Why should the historically first constitution be obeyed?
+        hint: No higher norm exists, and we cannot ask forever.
+        answer: 'We must presuppose a basic norm: you ought to obey the historically first constitution. It is a transcendental-logical presupposition.'
+      - ask: Why does Kelsen call the theory 'pure'?
+        hint: His 1941 article.
+        answer: 'It answers what the law is, not what it ought to be: the latter is a question of politics, while the pure theory is science.'
+    elements:
+      - name: Norm, not fact
+        test: 'Treat validity as binding force: for Kelsen it cannot be a fact, such as being obeyed or feared.'
+        authorities:
+          - kelsen-pure-theory-of-law
+      - name: Competent authority
+        test: Was the norm created by an authority competent to create it?
+      - name: Higher authorising norm
+        test: Which higher norm authorised that authority? Repeat the question up the hierarchy to the constitution.
+      - name: Historically first constitution
+        test: Trace the constitution back through earlier constitutions to the historically first constitution.
+      - name: Basic norm
+        test: Presuppose 'you ought to obey the historically first constitution'. This ends the chain; it is not itself part of the legal order.
+        authorities:
+          - kelsen-pure-theory-of-law
+    what-if:
+      - change: A mafia boss's 'protection' demand replaces the city's levy on the same shopkeeper.
+        effect: 'Same subjective meaning, but no objectively valid norm authorises the boss and no chain of validity reaches him: for Kelsen it is not law, however effective the threat.'
+      - change: The chain of validity leads back to a statute of another country's parliament, as Australia's leads to a statute of the Imperial Parliament.
+        effect: The chain runs outside the jurisdiction. The lecture says some use Kelsen to understand such constitutional history, while others use it to put pressure on his theory.
+    boundary:
+      - text: Kelsen on Austin's analytical jurisprudence.
+        why: Kelsen says there is 'no essential difference' between it and the pure theory on law and justice and on formalism, yet he does not hold that laws are commands of human beings.
+      - text: 'The static aspect of law: the content of norms.'
+        why: It matters most in morality. For law, Kelsen says the dynamic aspect, the chain of authorisation, is what reveals its nature.
+    transfer:
+      - scenario: A university by-law imposes library fines. A student asks why the by-law binds her. It was made under the university's statute, which was made under a state Act.
+        answer: 'Kelsen''s method: the by-law binds because a competent authority made it under a higher norm, the university statute, which a state Act authorised, and so on up to the constitution and back to the historically first constitution. At the end the jurist presupposes the basic norm: obey the historically first constitution.'
+    objections:
+      - position: Coercion marks law off from other normative orders, and validity comes from authorisation (Kelsen).
+        evidence: The tax officer and the gangster share a subjective meaning; only the tax officer's command is authorised by an objectively valid norm (p 6); law regulates its own creation (p 5).
+        objection: The chain ends in a presupposed basic norm, a 'juristic hypothesis' or 'fiction'. Hart says the ultimate rule is a social fact, neither valid nor invalid, shown in official practice.
+      - position: 'A theory of law can be pure: about what the law is, not what it ought to be (Kelsen, 1941).'
+        evidence: From a comparison of all the phenomena called law, it seeks law's structure and typical forms, independent of their changing content (1941, 44).
+        objection: For some legal philosophers the sharp is/ought distinction is intellectually misleading and/or practically dangerous, for example faced with morally evil laws such as the Nazi regime's (slide 29).
+    storyboard:
+      - caption: 'A council regulation: why valid?'
+        detail: 'Kelsen''s question is about binding force: why does this regulation bind anyone?'
+      - caption: A higher norm authorised the council
+        detail: Only a competent authority can create a valid norm, and each authority is authorised by a norm above it.
+      - caption: Up the hierarchy to the constitution
+        detail: Searching for the reason of validity reveals the hierarchical structure of the legal order (p 6).
+      - caption: Back to the historically first constitution
+        detail: Today's constitution was authorised by earlier ones; trace them back in time to the first.
+      - caption: Presuppose the basic norm
+        detail: 'We cannot ask forever: presuppose ''you ought to obey the historically first constitution'', a transcendental-logical presupposition.'
+    sources:
+      - Week 03 - Lecture Slides (slides 13–19, 21–22)
+      - Week 03 - Lecture Transcript (second half)
+    verify: true
+  - concept: laws2100-w03-recognition-vs-basic-norm
+    plain: Hart's rule of recognition and Kelsen's basic norm do the same job, explaining validity and the unity of a legal system, but one is a social fact and the other a presupposition.
+    concrete: Compare two countries. On Hart's view, what ultimately makes each country's law valid is a fact about what its officials accept as criteria, so the two rules of recognition may differ in content. On Kelsen's view, a jurist in each country presupposes the same basic norm, 'who laid down the first constitution ought to be obeyed'; only the first constitution differs.
+    formal: 'Same function, different nature (slide 20). Hart: the rule of recognition''s existence is ''a complex, empirical question of fact''; it is neither valid nor invalid; its content varies by jurisdiction. Kelsen: the basic norm is a ''juristic hypothesis'', a ''postulated ultimate rule'', a ''fiction''; its validity must be presupposed; its content is always the same. ''Rule of recognition'' avoids ''Kelsen''s view of the conflict between law and morals'' (CL 293).'
+    terms:
+      - term: Juristic hypothesis
+        gloss: 'Kelsen''s description of the basic norm: presupposed by the jurist to make sense of validity, not a rule officials practise.'
+      - term: Membership vs binding force
+        gloss: 'Hart: a valid rule belongs to the system. Kelsen: a valid norm binds.'
+      - term: Conflict of law and morals
+        gloss: For Kelsen a legal and a moral norm cannot both be valid at once, so no meaningful conflict arises; Hart can accept such conflicts.
+    misconceptions:
+      - claim: Hart and Kelsen both say the ultimate rule is presupposed by legal theorists.
+        tempting: Both ultimate rules sit at the top of the system and do the same job.
+        correction: Only Kelsen. For Hart the rule of recognition is a social rule whose existence is a complex, empirical question of fact, shown in official practice.
+      - claim: Each country's basic norm has a different content.
+        tempting: Each country has its own historically first constitution.
+        correction: For Kelsen the basic norm always has the same content, 'who laid down the first constitution ought to be obeyed'; only the constitution it points to differs. Hart's rules of recognition can differ in content.
+      - claim: The difference between the two is only one of terminology.
+        tempting: Hart knew Kelsen's work and gives his rule the same job.
+        correction: Hart chose 'rule of recognition' partly 'to avoid any commitment to Kelsen's view of the conflict between law and morals' (CL 293); they also differ on fact versus presupposition, validity and content.
+    socratic:
+      - ask: What problem do the rule of recognition and the basic norm both solve?
+        hint: Why does this rule belong to, or bind within, this order?
+        answer: 'Legal validity and the unity of a legal order: how a multitude of rules hang together as one system.'
+      - ask: How would you show that a rule of recognition exists?
+        hint: Watch the officials.
+        answer: 'As a matter of fact: it exists if officials accept it and use it to identify the rules, as shown in a general practice.'
+      - ask: How would you show that Kelsen's basic norm exists?
+        hint: Is it practised, or presupposed?
+        answer: 'You cannot point to it: it is presupposed by the jurist, a ''juristic hypothesis'' or ''fiction'', and is not part of the legal order.'
+      - ask: Is either ultimate rule valid?
+        hint: '''Neither valid nor invalid'' against ''must be presupposed''.'
+        answer: 'For Hart the question cannot arise: the rule is neither valid nor invalid. For Kelsen the jurist must presuppose the basic norm''s validity.'
+      - ask: A statute requires what morality forbids. What does each theory say?
+        hint: CL 293.
+        answer: 'Kelsen: a legal and a moral norm cannot both be valid at once, so there is no meaningful conflict. Hart: a genuine conflict is possible; the law is valid, yet one may have moral reason not to comply.'
+    elements:
+      - name: Function
+        test: Both explain legal validity and the unity of the legal order.
+        authorities:
+          - hart-the-concept-of-law
+          - kelsen-pure-theory-of-law
+      - name: Fact or presupposition
+        test: 'Hart: a social rule whose existence is a complex, empirical question of fact. Kelsen: a presupposed ''juristic hypothesis'', a ''fiction''.'
+      - name: Validity of the ultimate rule
+        test: 'Hart: neither valid nor invalid, simply accepted. Kelsen: the jurist must presuppose its validity.'
+      - name: Content
+        test: 'Hart: may differ between jurisdictions. Kelsen: always the same: obey whoever laid down the first constitution.'
+      - name: Law and morals
+        test: 'Hart: legal and moral norms can genuinely conflict. Kelsen: no meaningful conflict, since both cannot be valid at once (CL 293).'
+        authorities:
+          - hart-the-concept-of-law
+    what-if:
+      - change: Officials in a country stop applying the criteria they used to accept and start applying new ones.
+        effect: For Hart, whose rule of recognition exists as a fact of official practice, the rule follows what officials now accept. For Kelsen, the basic norm's content stays the same whatever happens.
+      - change: A statute requires an act that a moral norm forbids.
+        effect: 'Hart: a genuine conflict; the statute is valid law, yet there may be moral reason not to comply. Kelsen: both cannot be valid at once, so no meaningful conflict: the reason Hart avoided ''basic norm'' (CL 293).'
+    boundary:
+      - text: International law.
+        why: Kelsen and many modern theorists insist it must have a basic norm or rule of recognition; Hart takes the opposed view that it is a set of separate primary rules (CL 233).
+      - text: 'Miller [60]: the fundamental rule of recognition, ''the fundamental rule by reference to which all other rules are validated''.'
+        why: 'The UK Supreme Court used Hart''s term, not Kelsen''s, while describing the rule''s function in terms both theories share: validating all other rules.'
+    transfer:
+      - scenario: A new microstate adopts its first constitution. A visiting theorist asks what ultimately makes its laws valid.
+        answer: 'Kelsen: trace each norm up to this historically first constitution, then presuppose the basic norm, ''obey the first constitution'', with the same content as anywhere else. Hart: look at practice; the rule of recognition exists if officials accept the constitution''s criteria as common public standards, and its content is whatever they accept.'
+    objections:
+      - position: The ultimate rule of a legal system is a social fact (Hart).
+        evidence: Its existence is a complex, empirical question of fact; it exists if officials accept it; its content varies between jurisdictions (slide 20).
+        objection: 'Kelsen: validity is binding force, which cannot be a fact; to explain why the first constitution binds, the jurist must presuppose the basic norm.'
+        reply: 'Hart: no question of validity arises for the ultimate rule. It is neither valid nor invalid, simply accepted, like the standard metre bar (CL 109).'
+    sources:
+      - Week 03 - Lecture Slides (slides 12, 20)
+      - Week 03 - Lecture Transcript (second half)
+  - concept: laws2100-w03-separation-of-law-and-morals
+    plain: 'Legal positivists separate law as it is from law as it ought to be: whether something is law depends on social facts, not on its moral merits, even though law and morality often overlap.'
+    concrete: A parliament passes a plainly unjust statute, and nothing in the constitution makes justice a test of validity. On Bentham and Austin's 'two simple things', its injustice alone does not show it is not law. Equally, a rule that would be morally excellent is not law just because it is desirable. Whether each is law depends on the system's own criteria.
+    formal: 'Green and Adams: positivism is ''the thesis that the existence and content of law depends on social facts and not on its merits''. Austin: ''The existence of law is one thing; its merit and demerit another'' (PJD 157). Hart: ''it is in no sense a necessary truth that laws reproduce or satisfy certain demands of morality, though in fact they have often done so'' (CL 185–186).'
+    terms:
+      - term: Separation thesis
+        gloss: No necessary connection between law as it is and law as it ought to be; overlap is contingent, not part of the concept of law.
+      - term: Two simple things
+        gloss: Absent an express provision, immorality alone does not show a rule is not law, and moral desirability alone does not show it is law (Hart 1958, 599).
+      - term: Hart–Fuller debate
+        gloss: 'The 1958 Harvard Law Review exchange: Hart''s ''Positivism and the Separation of Law and Morals'' and Fuller''s ''Positivism and Fidelity to Law''.'
+    misconceptions:
+      - claim: Positivists deny that law and morality are ever connected.
+        tempting: They insist on separating law as it is from law as it ought to be.
+        correction: Hart says Bentham and Austin never denied that many legal rules mirror moral rules as historical fact, nor that moral principles can enter law by explicit provision. Separation denies only a necessary connection.
+      - claim: The utilitarians' three doctrines stand or fall together.
+        tempting: Bentham and Austin held all three at once.
+        correction: 'Separation of law and morals, the analytical study of legal concepts and the imperative theory are separate doctrines, not a package: Hart rejects the imperative theory but keeps separation.'
+      - claim: A morally neutral, descriptive theory leaves no room for moral criticism of law.
+        tempting: Describing law without judging it can look like endorsing it.
+        correction: 'Hart: understanding law''s forms and structures is ''an important preliminary to any useful moral criticism of law'' (CL 240); Bentham and Austin were themselves reformers.'
+    socratic:
+      - ask: A statute is grossly unjust. Does that alone show it is not law?
+        hint: The first of the 'two simple things'.
+        answer: No. Without an express constitutional or legal provision, the mere fact that a rule violates morality does not show it is not a rule of law.
+      - ask: A rule would be morally excellent. Is it therefore law?
+        hint: The second simple thing.
+        answer: No. It does not follow from the mere fact that a rule is morally desirable that it is a rule of law.
+      - ask: Do positivists deny that laws often match morality?
+        hint: Bentham and Austin, as Hart reads them.
+        answer: No. Many legal rules mirror moral rules as a matter of historical fact; the claim is only that this is not a necessary truth.
+      - ask: What if the constitution itself says no law may be grossly unjust?
+        hint: Bentham's concession.
+        answer: Then morality enters through an explicit legal provision, which Bentham never denied. The statute fails because of that provision, not because immorality as such defeats law.
+      - ask: Why do some find the sharp is/ought separation worrying?
+        hint: Hart names three lines of criticism.
+        answer: 'As intellectually misleading or practically dangerous: on law and morality, on formalism in adjudication, and on morally evil laws such as those of the Nazi regime.'
+    elements:
+      - name: Express provision?
+        test: Does an express constitutional or legal provision make a moral standard one of the criteria of law? If so, apply it as a legal criterion.
+        authorities:
+          - hart-positivism-and-the-separation-of-law-and-morals
+      - name: Immorality alone
+        test: Without such a provision, a rule's violating standards of morality does not show that it is not a rule of law.
+      - name: Desirability alone
+        test: A rule's being morally desirable does not show that it is a rule of law.
+        authorities:
+          - hart-positivism-and-the-separation-of-law-and-morals
+    what-if:
+      - change: The constitution expressly provides that no law may be grossly unjust.
+        effect: Morality now enters through an express legal provision, which Bentham never denied. A grossly unjust statute fails that provision, and positivism is untouched.
+      - change: The question is no longer 'is it law?' but 'should it be obeyed, or changed?'.
+        effect: 'The question is now normative: law as it ought to be. Bentham and Austin asked such questions as reformers, but kept them apart from whether the law exists.'
+    boundary:
+      - text: Morally evil laws, such as those of the Nazi regime.
+        why: 'The hardest case for separation: Hart lists it as the practical line of criticism that makes the sharp is/ought distinction seem dangerous to some.'
+      - text: Bentham and Austin as reformers.
+        why: 'They were ''not dry analysts fiddling with verbal distinctions while cities burn'' but campaigners for better laws (Hart 1958, 596): separation sits with fierce moral criticism.'
+    transfer:
+      - scenario: A historian argues that because a 1930s statute discriminating on the basis of race was unjust, it 'was never really law' in that country.
+        answer: On the positivist separation, unless an express provision made justice a criterion of validity, the statute's injustice alone does not show it was not law. The historian runs together law as it is and law as it ought to be. The statute can be valid law and deeply wrong; saying so begins moral criticism rather than denying it.
+    objections:
+      - position: Law as it is should be kept separate from law as it ought to be (Bentham, Austin, Hart).
+        evidence: Existence and merit are different enquiries (Austin, PJD 157); it is no necessary truth that laws satisfy morality, though they often do (CL 185–186); the 'two simple things' (Hart 1958, 599).
+        objection: For some legal philosophers the sharp distinction is intellectually misleading and/or practically dangerous, above all faced with morally evil laws such as those of the Nazi regime (slide 29).
+        reply: 'Hart: a clear understanding of law is a preliminary to useful moral criticism of it, and Bentham and Austin themselves worked for better laws (CL 240; Hart 1958, 596).'
+    storyboard:
+      - caption: '1958: Hart, ''Positivism and the Separation'''
+        detail: 'Harvard Law Review vol 71: Hart defends separating law as it is from law as it ought to be, recovering Bentham and Austin.'
+      - caption: '1958: Fuller replies'
+        detail: Fuller, 'Positivism and Fidelity to Law – A Reply to Professor Hart', answers from the natural law side.
+      - caption: '1961: The Concept of Law'
+        detail: 'Hart''s book: ''it is in no sense a necessary truth that laws reproduce or satisfy certain demands of morality'' (185–186).'
+      - caption: '1964: Fuller, The Morality of Law'
+        detail: Fuller's book carries his side of the debate further.
+      - caption: '2010: the debate revisited'
+        detail: 'Peter Cane (ed), The Hart–Fuller Debate in the Twenty-First Century: a collection returning to the exchange half a century on.'
+    sources:
+      - Week 03 - Lecture Slides (slides 23–29)
+      - Week 03 - Lecture Transcript (second half)
+  - concept: laws2100-w03-what-is-legal-positivism
+    plain: '''Legal positivism'' names several different claims. Hart lists five meanings of ''positivism''; the lecture separates positivism as a theory of law, as a methodology, and as a political theory.'
+    concrete: Run three theorists through Hart's five meanings. Bentham and Austin held that laws are commands of human beings, that law and morals have no necessary connection, and that analysing legal concepts is worthwhile. Kelsen held the last two plus noncognitivism, but not that laws are commands. None of them held that a legal system is a closed logical system.
+    formal: 'Hart''s five meanings (1958, n 25; CL 302): (1) laws are commands of human beings; (2) no necessary connection between law and morals; (3) analysis of legal concepts is worth pursuing and distinct from history, sociology and appraisal; (4) a legal system is a ''closed logical system''; (5) moral judgments cannot be rationally defended (''noncognitivism''). Three senses: general theory, methodology, political theory.'
+    terms:
+      - term: Social facts, sources, separability
+        gloss: 'Positivism as a general theory: law rests on social facts; its existence and content depend on sources, not merits; law and morality are separable.'
+      - term: Positivism as a methodology
+        gloss: The meta-theoretical claim that legal theory is a morally neutral, descriptive enterprise.
+      - term: Positivism as a political theory
+        gloss: The prescriptive claim that moral criteria of validity, though conceptually possible, are not morally desirable, so law and morality should be kept apart.
+      - term: Noncognitivism
+        gloss: 'Hart''s fifth meaning: moral judgments cannot be established or defended, as statements of fact can, by rational argument, evidence or proof.'
+    misconceptions:
+      - claim: Bentham and Austin held all five of Hart's meanings of positivism.
+        tempting: They founded the positivist tradition.
+        correction: Hart says they held (1), (2) and (3), but not (4), law as a closed logical system, or (5), noncognitivism (1958, n 25).
+      - claim: '''Legal theory is morally neutral and descriptive'' is a claim about the nature of law.'
+        tempting: It uses 'descriptive', a word also attached to the separability thesis.
+        correction: 'It is positivism as a methodology: a meta-theoretical claim about the nature of legal theory, not about law itself (slide 33).'
+      - claim: Positivism as a political theory says moral criteria of validity are conceptually impossible.
+        tempting: It insists that law and morality be kept apart.
+        correction: 'It says moral criteria are conceptually possible but not morally desirable, so law and morality should be kept separate: a prescriptive separability thesis.'
+    socratic:
+      - ask: A judge says every right answer can be deduced from the statute book by logic alone. Which meaning of positivism is that?
+        hint: Count to four.
+        answer: 'The fourth: a legal system as a ''closed logical system''. Hart says neither Bentham, Austin nor Kelsen held it.'
+      - ask: Which meanings did Kelsen hold?
+        hint: Not commands.
+        answer: '(2), (3) and (5): no necessary connection between law and morals, the worth of conceptual analysis, and noncognitivism; not (1) or (4).'
+      - ask: Where does Hart himself stand on meaning (1)?
+        hint: Recall his critique of Austin.
+        answer: 'He rejects it: Chapters II to IV attack the model of laws as coercive orders. Placing Hart on all five meanings is the exercise the lecture sets.'
+      - ask: An essay asks whether a general, descriptive theory of law can be value-free. Which sense of positivism is in play?
+        hint: Is the question about law, or about legal theory?
+        answer: 'Positivism as a methodology: a meta-theoretical claim about legal theory, not the separability thesis about law itself.'
+      - ask: '''Law and morality are separable'' appears in two senses. What distinguishes them?'
+        hint: Can versus should.
+        answer: As a general theory, law can be conceptualised without morality. As a political theory, law and morality should be kept apart because moral criteria are undesirable.
+    elements:
+      - name: General theory of law
+        test: 'Is the claim about the nature of law: social facts, sources, separability? Then it is descriptive and conceptual.'
+        authorities:
+          - green-adams-legal-positivism
+      - name: Methodology
+        test: Is the claim about legal theory itself, that it is a morally neutral, descriptive enterprise? Then it is meta-theoretical.
+      - name: Political theory of law
+        test: Does the claim say law and morality should be kept apart because moral criteria of validity are undesirable? Then it is prescriptive.
+    what-if:
+      - change: A theorist denies that laws are commands, but accepts no necessary connection between law and morals and the worth of conceptual analysis.
+        effect: 'She holds meanings (2) and (3) only: not Bentham and Austin''s pattern, since she rejects (1), and not Kelsen''s, since she does not hold noncognitivism.'
+      - change: An author says positivism 'requires judges to ignore morality'.
+        effect: 'That runs meanings together: it sounds like (4), the closed logical system, which none of Bentham, Austin or Kelsen held; or the political sense, a prescription, not a claim about what law is.'
+    boundary:
+      - text: Philosophical positivism outside law.
+        why: 'The lecture sets it aside: in legal theory, ''legal positivism'' refers to theories focused on positive law, with their own claims about it.'
+      - text: Kelsen's pure theory as 'the most consistent version' of legal positivism.
+        why: It counts as law only positive law and refuses to recognise natural law as law (1941, p 1), yet it does not hold meaning (1), that laws are commands.
+    transfer:
+      - scenario: 'Reading an article, you meet the sentence: ''Positivism collapses, because judges plainly use moral reasoning in hard cases.'''
+        answer: 'Stop and ask which positivism. If it targets meaning (4), the closed logical system, none of the positivists on Hart''s list held it. If it targets separation, Bentham never denied moral principles can enter law through explicit provisions. If it targets the methodology, it misses: that is a claim about legal theory, not about judges.'
+    objections:
+      - position: Austin, Kelsen and Hart are all legal positivists.
+        evidence: 'Each holds that the existence of law is one thing and its merit another; Green and Adams: law''s existence and content depend on social facts, not merits.'
+        objection: 'Their theories differ sharply: Austin''s commands, Hart''s rules, Kelsen''s basic norm; on Hart''s five meanings they hold different sets, so ''positivism'' names a family, not one theory (lecture).'
+      - position: Positivism is a morally neutral methodology for legal theory (Hart).
+        evidence: 'Hart: ''My account is descriptive in that it is morally neutral and has no justificatory aims'' (CL 240).'
+        objection: 'Finnis: the reasonableness of law''s acts ''cannot be assessed without premises about true human goods'' (week 1); the lecture flags his methodological challenge in Natural Law and Natural Rights, chapter 1.'
+    sources:
+      - Week 03 - Lecture Slides (slides 2, 22–24, 30–33)
+      - Week 03 - Lecture Transcript (second half)
+flows:
+  - slug: hart-legal-validity
+    title: Is this rule valid law, on Hart's account?
+    summary: Checks first that a legal system exists (Hart's two minimum conditions), then tests the rule against the rule of recognition, and shows what a rule's injustice does and does not change.
+    start: n1
+    concepts:
+      - laws2100-w03-rule-of-recognition-and-validity
+      - laws2100-w03-separation-of-law-and-morals
+    sources:
+      - Week 03 - Lecture Slides (slides 8–11, 27)
+      - Week 03 - Lecture Transcript (first half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Is the rule you are testing the system's ultimate rule of recognition itself?
+        note: Every other rule is tested against the rule of recognition; the ultimate rule is the test.
+        concept: laws2100-w03-rule-of-recognition-and-validity
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n3
+      - id: n2
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'No question of validity arises: it is neither valid nor invalid, simply accepted as appropriate for use, like the standard metre bar (CL 109).'
+      - id: n3
+        kind: ask
+        text: Are the rules that are valid by the system's ultimate criteria generally obeyed?
+        note: 'Hart''s first minimum condition: the factual element Austin''s theory already captured.'
+        authorities:
+          - hart-the-concept-of-law
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: 'No'
+            to: n10
+      - id: n4
+        kind: ask
+        text: Do officials effectively accept the rules of recognition, change and adjudication as common public standards of official behaviour?
+        note: The second condition, what Hart adds to Austin. Citizens need only obey; acceptance is required of officials.
+        branches:
+          - label: 'Yes'
+            to: n5
+          - label: 'No'
+            to: n11
+      - id: n5
+        kind: step
+        text: 'A legal system exists. Now identify its rule of recognition from practice: how officials, above all judges, identify the primary rules.'
+        note: Criteria may refer to an authoritative text, legislative enactment, customary practice, declarations of specified persons, or past judicial decisions (CL 100). The rule is often implicit.
+        cases:
+          - r-miller-v-secretary-of-state-for-exiting-the-european-union
+        next: n6
+      - id: n6
+        kind: ask
+        text: Leaving its moral merits aside, does the rule pass all the tests the rule of recognition provides?
+        note: A valid rule passes 'all the tests provided by the rule of recognition' and so is 'a rule of the system' (CL 103).
+        branches:
+          - label: 'Yes'
+            to: n7
+          - label: 'No'
+            to: n12
+      - id: n7
+        kind: ask
+        text: Is the objection to the rule that it is unjust or immoral?
+        branches:
+          - label: 'No'
+            to: n8
+          - label: 'Yes'
+            to: n9
+      - id: n8
+        kind: end
+        tone: met
+        text: 'Valid: the rule passes all the tests of the rule of recognition, so it is a rule of the system. Validity is membership.'
+      - id: n9
+        kind: ask
+        text: Does an express constitutional or legal provision make that moral standard one of the criteria of validity?
+        note: Bentham never denied that moral principles might become part of a legal system through explicit legal provisions.
+        concept: laws2100-w03-separation-of-law-and-morals
+        authorities:
+          - hart-positivism-and-the-separation-of-law-and-morals
+        branches:
+          - label: 'Yes'
+            to: n13
+          - label: 'No'
+            to: n14
+      - id: n10
+        kind: end
+        tone: not-met
+        text: 'No legal system exists: Hart''s first minimum condition, general obedience to the valid rules, fails.'
+      - id: n11
+        kind: end
+        tone: not-met
+        text: 'No legal system exists: obedience alone is not enough. Officials must accept common secondary rules as public standards (CL 109).'
+      - id: n12
+        kind: end
+        tone: not-met
+        text: Not a valid rule of this system. However desirable it may be, a rule's moral merit does not make it law.
+      - id: n13
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'The rule fails a criterion of the system: invalid because of the positive provision, not because immorality as such defeats law.'
+      - id: n14
+        kind: end
+        tone: met
+        text: 'Still valid law: its immorality alone does not show it is not law. It can be morally criticised, and one may have moral reason not to comply.'

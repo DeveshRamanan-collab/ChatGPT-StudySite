@@ -1,0 +1,54 @@
+/* Startup film overlay (src/lib/intro-film.ts). Above everything while it plays; leaves with a fade. */
+.intro-film {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  background: var(--paper) center / cover no-repeat;
+  display: grid;
+  cursor: default;
+  opacity: 1;
+  transition: opacity 600ms var(--ease-out);
+}
+.intro-film.is-leaving { opacity: 0; pointer-events: none; }
+:root[data-motion='calm'] .intro-film { transition-duration: 420ms; }
+:root[data-motion='off'] .intro-film { transition: none; }
+.intro-film__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.intro-film__skip {
+  position: absolute;
+  right: max(var(--gutter), env(safe-area-inset-right, 0px));
+  bottom: max(var(--s-5), env(safe-area-inset-bottom, 0px));
+  min-height: 44px;
+  padding: 0 var(--s-4);
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line);
+  background: color-mix(in oklab, var(--paper) 72%, transparent);
+  color: var(--ink);
+  font: 500 var(--t-sm) / 1 var(--font-ui);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  transition: transform var(--dur-press) var(--ease-out), background var(--dur-micro) var(--ease-hover);
+}
+.intro-film__skip kbd { font: 500 var(--t-xs) / 1 var(--font-mono); color: var(--ink-2); }
+.intro-film__skip:active { transform: scale(0.97); }
+.intro-film__skip:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (hover: hover) and (pointer: fine) { .intro-film__skip:hover { background: var(--paper); } }
+@media print { .intro-film { display: none !important; } }
+
+/* Before the film mounts (set pre-paint by the home page): its first frame covers the page, so nothing flashes. */
+:root[data-intro-pending] body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 69;
+  background: #17140f url('/intro/light-first.webp') center / cover no-repeat;
+  animation: intro-cover-failsafe 1ms linear 6s forwards; /* never strands the page if the film cannot start */
+}
+@keyframes intro-cover-failsafe { to { opacity: 0; visibility: hidden; } }
+:root[data-intro-pending='calm'] body::after { background-image: url('/intro/light-last.webp'); background-color: var(--paper); }

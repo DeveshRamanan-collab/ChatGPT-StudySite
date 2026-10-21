@@ -1,0 +1,51 @@
+---
+// Case anatomy (feature 154 stand-in) and fact comparison (feature 155) for one unit. Sentences come only from the
+// unit's verified case cards; the comparison pairs each annotated problem question with the cases its issues'
+// concepts cite. Logic in src/lib/legal.ts; islands in src/components/legal/.
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CaseAnatomy from '../../components/legal/CaseAnatomy';
+import type { CompareCase, CompareProblem } from '../../components/legal/FactCompare';
+import { units, conceptsOf, questionsOf } from '../../lib/content';
+import { splitSentences } from '../../lib/legal';
+
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const allCases = new Map((await getCollection('cases', (c) => !c.data.seed)).map((c) => [c.id, c]));
+const verified = [...allCases.values()]
+  .filter((c) => c.data.units.includes(u.id) && !c.data.verify)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name))
+  .map((c) => ({ id: c.id, name: c.data.name, facts: c.data.facts, issue: c.data.issue, held: c.data.held, ratio: c.data.ratio }));
+
+const concepts = new Map((await conceptsOf(u.id)).map((c) => [c.id, c]));
+const questions = new Map((await questionsOf(u.id)).map((q) => [q.id, q]));
+const problems: CompareProblem[] = (await getCollection('facts', (f) => f.data.unit === u.id && !f.data.seed))
+  .sort((a, b) => a.data.question.localeCompare(b.data.question))
+  .flatMap((f) => {
+    const q = questions.get(f.data.question);
+    const prompt = q && 'prompt' in q.data ? q.data.prompt : '';
+    const essential = f.data.facts.filter((x) => x.weight === 'essential').map((x) => x.text);
+    const cited = [...new Set(f.data.issues.flatMap((i) => (i.concept ? concepts.get(i.concept)?.data.cases ?? [] : [])))].filter((id) => allCases.has(id));
+    return prompt && essential.length && cited.length ? [{ id: f.data.question, n: 0, first: splitSentences(prompt)[0] ?? '', essential, cases: cited }] : [];
+  })
+  .map((p, i) => ({ ...p, n: i + 1 }));
+const compareCases: Record<string, CompareCase> = Object.fromEntries(
+  [...new Set(problems.flatMap((p) => p.cases))].map((id) => {
+    const c = allCases.get(id)!;
+    return [id, { name: c.data.name, facts: c.data.facts, verify: c.data.verify }];
+  }),
+);
+---
+
+<Layout title={`${u.data.code} case anatomy`} description={`Sort sentences from ${u.data.code}'s cases into facts, issue, held and ratio, and compare a problem's facts with a case's.`} wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Case anatomy' }]} />
+  <p class="label">{u.data.code}</p>
+  <h1 data-split>Case anatomy</h1>
+  <p class="anatomy-lede">Read one sentence from a case and say which part it is: the facts, the issue, what was held, or the ratio. Then put a problem's facts beside a case's.</p>
+  <div class="island-stage">
+    <CaseAnatomy client:load code={u.data.code} cases={verified} problems={problems} compareCases={compareCases} />
+  </div>
+</Layout>

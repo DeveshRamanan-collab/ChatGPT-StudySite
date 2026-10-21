@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Offline">
+  <p class="label">Offline</p>
+  <h1>This page is not saved yet</h1>
+  <p class="offline-lede">You are offline and this page has not been opened on this device before. Pages you have opened, your cards and your progress still work. When you are back online, Settings → Save for offline stores every page.</p>
+  <p><a class="btn btn--primary" href="/">Home</a> <a class="btn btn--ghost" href="/cards">Cards</a></p>
+</Layout>
+
+<style>
+  .offline-lede { max-width: var(--measure); color: var(--ink-2); }
+</style>

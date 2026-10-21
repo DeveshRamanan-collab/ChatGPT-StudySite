@@ -1,0 +1,804 @@
+unit: laws2400
+week: 8
+source: raw/laws2400-torts/week-08
+generator: aids-1
+aids:
+  - concept: laws2400-w08-public-authorities-as-defendants
+    plain: 'Government bodies can be sued in negligence, but it is harder than suing a private person: courts need more than foreseeability, and will not second-guess high-level policy or how limited public money is spent.'
+    concrete: 'Police responding to a call shot an agitated man in the course of the operation. For police, the starting point is that no duty is owed to individual members of the public in investigating and suppressing crime (Hill v Chief Constable of West Yorkshire). But that is not an immunity: in Zalewski v Turcarolo the operational response attracted a duty of care.'
+    formal: Public authorities are bodies created by statutes to perform public functions or act in the public interest. With no Crown immunity now, they may be sued in negligence. They differ from private defendants in their nature and responsibilities, in exercising statutory functions, and in the public policy considerations courts weigh. Sutherland Shire Council v Heyman (1985) considered the policy versus operation distinction and general reliance.
+    analogy:
+      text: A restaurant's menu versus its cooking. Choosing the menu on a limited budget (policy) is the owner's call, and no critic can say which dishes to fund. Burning a dish (operations) is open to criticism.
+      maps:
+        - from: Choosing the menu on a budget
+          to: 'Policy: the high-level approach, such as letting an industry self-regulate'
+        - from: Cooking the dishes
+          to: 'Operations: carrying the policy out'
+        - from: The critic who cannot pick the menu
+          to: Courts, which cannot direct the executive's allocation of resources
+      limits:
+        - Even operational negligence still faces hurdles for a public authority; it is only more arguable.
+        - A restaurant's budget raises no separation of powers issue; a public authority spends taxpayers' money under statute.
+    terms:
+      - term: Public authority
+        gloss: A body created by statute to perform public functions or act in the public interest, such as the State, councils, statutory authorities and the police.
+      - term: Policy vs operation
+        gloss: Policy is the high-level approach (largely off limits to courts); operations is how the authority carries it out (more arguable).
+      - term: Crown immunity
+        gloss: The old rule protecting government from tort claims. It no longer applies, so public authorities can be sued in negligence.
+    misconceptions:
+      - claim: A public authority can only be challenged through administrative law, not sued in negligence.
+        tempting: Administrative law remedies exist for authorities that abuse their discretion.
+        correction: There is no Crown immunity now from tortious liability, so public authorities may also be sued in negligence; a duty is simply harder to establish.
+      - claim: Hill v Chief Constable makes police immune from negligence claims.
+        tempting: Hill starts from no duty to members of the public in investigating crime.
+        correction: 'It is not an immunity. Negligent operational conduct can attract a duty: Zalewski v Turcarolo (police shooting during an operational response).'
+      - claim: If an authority had a statutory power to intervene, it owed a duty to use it.
+        tempting: The power would have prevented the harm, so failing to use it looks careless.
+        correction: A statutory power to intervene is not of itself a duty to exercise it (Stuart v Kirkland-Veenstra).
+    socratic:
+      - ask: A pedestrian is hurt by a careless private driver. Why is foreseeability usually enough for a duty?
+        hint: Recall the paradigm case.
+        answer: 'It is the paradigm: an act causing physical injury, with nothing special about the parties. Reasonable foreseeability is typically enough.'
+      - ask: Now the defendant is a council. Why might foreseeability no longer be enough?
+        hint: Think about money, and who decides how to spend it.
+        answer: Resources are limited. A court saying the council should have spent money on this would intrude on the executive (separation of powers). Indeterminacy is also a concern.
+      - ask: A State decides to let an industry largely regulate itself. Can a court review that choice in negligence?
+        hint: Is this policy or operations?
+        answer: 'It is high-level policy, which is pretty much off limits: setting policy is the executive''s job.'
+      - ask: Then an inspector the State does send carelessly misreads a test. Is that different?
+        hint: Is this setting policy or carrying it out?
+        answer: It is operational, carrying the policy out, so a duty is more arguable, though hurdles remain.
+      - ask: Do police owe a duty to each member of the public to catch criminals?
+        hint: Hill, then Zalewski.
+        answer: 'No: no duty in investigating and suppressing crime (Hill), because of conflicting responsibilities, resource allocation and defensive policing. But negligent operational conduct can attract a duty (Zalewski).'
+    what-if:
+      - change: The complaint is a council's decision to rely on industry self-regulation, not an inspector's careless test.
+        effect: That is policy, a high-level choice the courts treat as pretty much off limits, so a duty becomes very unlikely.
+      - change: Victims say police should have investigated more carefully and caught an offender sooner.
+        effect: 'Hill''s starting point applies: no duty to individual members of the public in the investigation and suppression of crime.'
+      - change: Police enter a house under a warrant and the owner says they had no lawful authority.
+        effect: 'That is mainly an intentional tort (trespass: did they have lawful authority?), not a duty of care question.'
+    boundary:
+      - text: 'Stuart v Kirkland-Veenstra (recalled from Topic 6): police could have intervened but did not.'
+        why: A statutory power to intervene is not of itself a duty to exercise it, so the existence of the power does not settle the duty question.
+    transfer:
+      - scenario: A State fire service has a policy of patrolling high-risk bushland each summer. One crew, on patrol, sees smoke near homes but finishes a card game before responding; a house burns down.
+        answer: 'Separate policy from operations. The patrol policy is off limits, but the crew''s response is operational, so a duty is more arguable: the homeowners are vulnerable, and the crew knew of the risk and was in control of the response. Foreseeability alone is not enough; then check CLA Part 5. The lecturer suggested such conduct might be very unreasonable.'
+    sources:
+      - Topic 8 Lecture 1 (slides 4–7, 34)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+  - concept: laws2400-w08-crimmins-and-mchugh-six-questions
+    plain: A regulator that directs a worker into danger it knows about, where the worker cannot protect himself, can owe him a duty even though it is not his employer.
+    concrete: 'Crimmins was a casual waterside worker at Port Melbourne in the 1960s. The Australian Stevedoring Industry Authority, the regulator, not his employer, directed workers where to work. He unloaded asbestos cargoes and in 1997 was diagnosed with mesothelioma. The High Court held the Authority owed him a duty: it had an overarching supervisory and regulatory role regarding safety.'
+    formal: 'Crimmins v Stevedoring Industry Finance Committee (1999). McHugh J: the authority owed a duty because it directed the worker to places of risk of which it was, or ought to have been, aware, knowing he was specially vulnerable through casual employment and his obligation to obey its directions. McHugh J set six questions for an affirmative duty of a statutory authority in a novel case.'
+    terms:
+      - term: Affirmative duty
+        gloss: A duty to act, for example to exercise a statutory power to protect someone, rather than a duty to take care in what one does.
+      - term: Specific class
+        gloss: A defined group the authority's powers can protect, such as waterside workers it directs, as opposed to the public at large.
+      - term: Core policy making / quasi-legislative function
+        gloss: High-level decisions, such as whether to make an order requiring respirators; a duty over these points against liability.
+    misconceptions:
+      - claim: A duty was obvious in Crimmins because the Authority was his employer.
+        tempting: Employers owe workers a duty of care, and the Authority told him where to work.
+        correction: The Authority was the regulator, not his employer; that is why the case needed McHugh J's questions. A statutory authority employer would have made a duty much easier.
+      - claim: All six questions must be answered "yes" for a duty.
+        tempting: They are set out as a list of questions to tick.
+        correction: Not all need an affirmative answer. A "yes" to question 5 (core policy or quasi-legislative functions) or question 6 (other policy reasons) points against a duty.
+      - claim: Crimmins was vulnerable because he did not know asbestos was dangerous.
+        tempting: Ignorance of a risk sounds like vulnerability.
+        correction: 'McHugh J located vulnerability in his casual employment and his obligation to obey the Authority''s directions: refusing a dangerous job could cost him work.'
+    socratic:
+      - ask: The Authority was not Crimmins's employer. Who was it, and what did it do?
+        hint: Look at its role at the port.
+        answer: The regulator of stevedoring. It directed waterside workers where to work and had an overarching supervisory and regulatory role regarding safety.
+      - ask: Could Crimmins protect himself by refusing to work in the holds with asbestos?
+        hint: What kind of job did he have?
+        answer: Not realistically. He was a casual worker obliged to obey the Authority's directions; refusing could mean no job. That made him specially vulnerable.
+      - ask: What did the Authority know?
+        hint: 'McHugh J: "was, or ought to have been".'
+        answer: It was, or ought to have been, aware of the risks at the places it sent him, and knew or ought to have known he was specially vulnerable.
+      - ask: Why did Hayne J dissent?
+        hint: What kind of power was ordering respirators?
+        answer: Deciding whether to order respirators was a quasi-legislative power; a duty there would affect how the body went about its task.
+      - ask: How should you use the six questions in an answer?
+        hint: Weigh, do not tick.
+        answer: 'Walk them on the facts and weigh them: control, knowledge and vulnerability support a duty; core policy and other policy reasons point against one.'
+    elements:
+      - name: 1. Reasonable foreseeability
+        test: Was it reasonably foreseeable that an act or omission of the defendant, including a failure to exercise its statutory powers, would injure the plaintiff?
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+      - name: 2. Power to protect a specific class
+        test: By its statutory obligations, did the defendant have power to protect a specific class including the plaintiff, rather than the public at large?
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+          - graham-barclay-oysters-v-ryan
+      - name: 3. Vulnerability
+        test: 'Was the plaintiff vulnerable: could she not reasonably be expected to adequately safeguard herself from harm?'
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+      - name: 4. Knowledge
+        test: Did the defendant know, or ought it to have known, of the risk of harm to the specific class if it did not exercise its powers?
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+      - name: 5. Core policy or quasi-legislative function
+        test: Would a duty impose liability for the defendant's core policy making or quasi-legislative functions? If yes, that points against a duty.
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+      - name: 6. Other policy reasons
+        test: Are there any other supervening reasons in policy, such as indeterminate liability, to deny a duty of care?
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+    what-if:
+      - change: Crimmins had been a permanent employee free to refuse unsafe work without losing his job.
+        effect: 'The vulnerability question weakens: he could more reasonably safeguard himself, so a key reason for McHugh J''s duty falls away.'
+      - change: The complaint was only that the Authority failed to make a general order requiring respirators across the industry.
+        effect: That targets a quasi-legislative power. On Hayne J's reasoning, and McHugh J's fifth question, this points against a duty.
+      - change: The Authority had merely licensed stevedoring firms and never directed workers anywhere.
+        effect: Control and the specific relationship disappear; the facts move towards Graham Barclay Oysters, where powers for the public generally did not found a duty.
+    boundary:
+      - text: 'The majority judges disagreed on method: start with the common law and then the statute, or begin by interpreting the statute.'
+        why: Even the High Court has not settled the order. The lecturer recommends common law first, then the CLA; the exam rewards engagement, not the order.
+    transfer:
+      - scenario: A statutory port authority allocates casual labourers to berths each day. It knows fumigation chemicals at one berth are hazardous but gives no direction about masks. A labourer who would lose work if he refused is injured there.
+        answer: Walk McHugh J's questions. Injury is foreseeable; the authority's powers protect a specific class (labourers it allocates); the labourer is vulnerable, as he cannot refuse without losing work; and it knew of the hazard. A direction about masks at one berth is operational rather than core policy. As in Crimmins, a duty is likely.
+    storyboard:
+      - caption: '1961–65: directed to the holds'
+        detail: Crimmins, a casual waterside worker at Port Melbourne, is directed where to work by the Stevedoring Industry Authority; he unloads asbestos cargoes.
+      - caption: The Authority is abolished
+        detail: The Stevedoring Industry Finance Committee assumes its liabilities, which is why it is the defendant.
+      - caption: '1997: mesothelioma diagnosed'
+        detail: The disease is caused by unloading asbestos cargoes.
+      - caption: 'High Court: a duty owed'
+        detail: Overarching supervisory and regulatory role; McHugh J stresses knowledge, direction and special vulnerability. Hayne J dissents.
+    sources:
+      - Topic 8 Lecture 1 (slides 8–14)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+  - concept: laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca
+    plain: Having power over a risk is not the same as controlling it. An authority far from the harm, whose powers serve the public generally, usually owes no duty.
+    concrete: Consumers made ill by contaminated oysters sued the grower, Graham Barclay, as well as the Great Lakes Council and the NSW government. The High Court held, by majority, that neither the Council nor the State owed a duty. The State had chosen to let the industry largely regulate itself, and the Council's powers served the public generally. The grower owed a duty but did not breach it.
+    formal: 'Graham Barclay Oysters v Ryan (2002): Gleeson CJ: the complaint was "not about acts, but about omissions"; no criterion lets a court judge a decision to allow industry self-regulation; the Council''s powers were for the public generally. Gummow and Hayne JJ: "the factor of control is of fundamental importance". Amaca v NSW [2004] NSWCA 124: five propositions; the State owed no duty.'
+    terms:
+      - term: Non-feasance
+        gloss: A failure to act (an omission), as opposed to a positive act; a complaint of non-feasance makes a public authority duty harder to establish.
+      - term: Control
+        gloss: Control of a situation containing a risk of harm to others; Gummow and Hayne JJ called it "of fundamental importance".
+      - term: Totality of the relationship
+        gloss: 'Amaca''s first proposition: the whole relationship between the parties (control, vulnerability, reliance, knowledge) decides whether a duty exists.'
+      - term: Vulnerability
+        gloss: The inability to protect oneself from the defendant's want of care.
+    misconceptions:
+      - claim: Because the State had powers over the oyster industry and knew of contamination risks, it owed consumers a duty.
+        tempting: Power plus knowledge seems to make the State responsible.
+        correction: 'Amaca: a duty does not arise merely because an authority might have prevented harm by using a power, and knowledge that harm may follow is not enough. Graham Barclay found no duty.'
+      - claim: Past exercise of a statutory power creates a duty to keep exercising it.
+        tempting: Once the authority starts helping, people come to expect it.
+        correction: 'Amaca: the existence of powers and their prior exercise from time to time do not create a duty to exercise them in future (and CLA s 46 is to similar effect).'
+      - claim: The CLA s 43 threshold decided Amaca v NSW.
+        tempting: Amaca is a public authority case decided after 2002.
+        correction: 'Amaca is a dust disease case, so it is common law: CLA s 3B(1)(b) excludes it. It was decided on the common law propositions.'
+    socratic:
+      - ask: 'In Graham Barclay, what was the complaint against the State and the Council: something they did, or something they failed to do?'
+        hint: Gleeson CJ's phrase.
+        answer: '"Not about acts, but about omissions": alleged non-feasance, which makes a duty harder to establish.'
+      - ask: The State let the oyster industry largely regulate itself. How could a court judge whether that was reasonable?
+        hint: Is this policy?
+        answer: Gleeson CJ asked by what criterion a court could judge that decision. It was high-level policy; arguing the government should have done more is a political argument.
+      - ask: Why did Gummow and Hayne JJ deny a duty on the Council?
+        hint: Sewage could come from many places.
+        answer: 'The Council had much less control over the risk that eventuated: "the factor of control is of fundamental importance".'
+      - ask: In Amaca, why was the State not liable to the asbestos workers?
+        hint: Compare the State with the employer, site owner and supplier.
+        answer: James Hardie knew no less than the State; the employer, site owner and supplier had far more control; the workers could rely on them; and a duty would be a massive obligation.
+      - ask: How does Crimmins differ from these cases?
+        hint: Control, knowledge, vulnerability.
+        answer: The Authority in Crimmins directed the plaintiff, knew the risks and he was very vulnerable to it. In Graham Barclay and Amaca there was a big gap in the relationship.
+    what-if:
+      - change: The Council in Graham Barclay had itself discharged sewage into the lake.
+        effect: The complaint would be about a positive act creating the risk, and the Council would have direct control over it; a duty becomes far more arguable.
+      - change: In Amaca, the State had been the workers' employer and directed them where to work.
+        effect: 'Control and vulnerability would point the other way: the facts would resemble Crimmins, where direction and knowledge supported a duty.'
+    boundary:
+      - text: Graham Barclay itself, the grower and distributor, owed consumers a duty but did not breach it.
+        why: A producer and distributor of food sits in a familiar relationship with consumers; the difficulty was only with the public authorities. It had done everything available with the technology at the time.
+    transfer:
+      - scenario: A State lets the tattoo industry largely regulate itself. A customer is infected by a tattooist's unsterilised needle and sues the State, arguing it should have run a licensing scheme.
+        answer: Graham Barclay Oysters helps the State. The complaint is an omission, and choosing industry self-regulation is high-level policy that a court has no criterion to judge. The State's powers serve the public generally, and it had far less control over the risk than the tattooist. Under Amaca, having powers and knowing of risks is not enough. No duty is likely.
+    storyboard:
+      - caption: Hay sues employer and site owner
+        detail: Exposed to asbestos, Hay sues his employer, Rolls Royce, and the site owner, Pacific Power.
+      - caption: Cross-claims against James Hardie
+        detail: Both defendants cross-claim against James Hardie, the asbestos manufacturer, which is held liable.
+      - caption: James Hardie turns on the State
+        detail: 'It cross-claims against NSW: the State knew asbestos was dangerous and should have done more.'
+      - caption: Rejected, reversed, remitted
+        detail: Rejected at trial and by the Court of Appeal; the High Court reversed on the principles and remitted the case.
+      - caption: 'On remitter: no duty'
+        detail: The Court of Appeal states five propositions and again holds the State owed no duty.
+    sources:
+      - Topic 8 Lecture 1 (slides 15–22)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+      - Civil Liability Act 2002 (NSW) s 3B (act-2002-022.pdf)
+  - concept: laws2400-w08-cla-part-5-public-authorities
+    plain: 'A NSW statute adds extra protection for public authorities: limited budgets count, and some claims succeed only if the authority acted so unreasonably that no sensible authority would have.'
+    concrete: 'On the F5 freeway near Sydney, third parties dropped a large piece of concrete from an overpass, killing Evans, a truck driver employed by Refrigerated Roadways. The RTA knew people dropped objects from overpasses. The Court of Appeal held the RTA owed a duty. Section 43A did not help it, because erecting protective screens is not a special statutory power: anybody can erect a screen. But the RTA had not breached its duty.'
+    formal: 'CLA Part 5 reflects the Ipp Committee''s aim: liability only for acts so unreasonable that no reasonable authority would take them (Wednesbury). Section 42: functions are limited by resources reasonably available; their general allocation is not open to challenge. Section 43: no breach of statutory duty unless so unreasonable that no authority with those functions could properly consider it reasonable; s 43A applies the same test to special statutory powers.'
+    terms:
+      - term: Public or other authority (s 41)
+        gloss: Includes the Crown, government departments, local councils, statutory authorities, and any person with public official functions, as to those functions.
+      - term: Special statutory power (s 43A)
+        gloss: A statutory power of a kind persons generally cannot exercise without specific statutory authority.
+        example: Back-burning; issuing firearm licences.
+      - term: Wednesbury unreasonableness
+        gloss: 'An administrative law idea: conduct so unreasonable that no reasonable authority would engage in it. A far higher bar than ordinary carelessness.'
+    misconceptions:
+      - claim: Under s 43, an authority breaches its statutory duty whenever a reasonable person would have acted differently.
+        tempting: That is the ordinary negligence standard.
+        correction: 'Section 43 sets a much higher bar: the act or omission must be so unreasonable that no authority with those functions could properly consider it a reasonable exercise of its functions.'
+      - claim: Anything a public authority does under statute is a special statutory power for s 43A.
+        tempting: Everything an authority does is authorised by statute.
+        correction: 'A special statutory power is one persons generally cannot exercise without specific statutory authority. Erecting screens on a bridge is not: anybody can erect a screen (RTA v Refrigerated Roadways).'
+      - claim: Once an authority exercises a function, it must keep exercising it with care.
+        tempting: Starting to help seems to create an obligation to continue.
+        correction: 'Section 46: exercising, or deciding to exercise, a function does not of itself indicate a duty to exercise it, or to exercise it in a particular way.'
+    socratic:
+      - ask: Is a psychiatrist acting under the Mental Health Act a "public or other authority"?
+        hint: Section 41(e1).
+        answer: 'Yes, as to those functions: any person having public official functions or acting in a public official capacity, whether or not employed as a public official.'
+      - ask: A plaintiff says the council should have spent more on fencing. What does s 42 say?
+        hint: Resources, and their allocation.
+        answer: Functions are limited by the resources reasonably available, and the general allocation of resources is not open to challenge.
+      - ask: A council never considered cancelling a café's food licence. Can a poisoned customer sue for that failure?
+        hint: 'Section 44(2): licensing is regulating.'
+        answer: Not unless the customer could have required the council to exercise the function in proceedings; licensing is a function to regulate an activity.
+      - ask: In Refrigerated Roadways, why did s 43A not help the RTA?
+        hint: Who can put up a screen?
+        answer: 'Erecting protective screens is not a special statutory power: anybody can do it. So the ordinary analysis applied, and the RTA won on breach.'
+      - ask: 'Common law or CLA: which comes first in an answer?'
+        hint: The lecturer's recommendation.
+        answer: Usually both. Start with the common law, the more complete body, then see how the CLA modifies it.
+    elements:
+      - name: Public or other authority (s 41)
+        test: Is the defendant the Crown, a department, a council, a statutory authority, or a person exercising public official functions?
+        authorities:
+          - civil-liability-act-2002-nsw-s41
+      - name: Resources and functions (s 42)
+        test: 'For duty and breach: functions are limited by resources reasonably available; general allocation is not open to challenge; functions are judged by the broad range of activities.'
+        authorities:
+          - civil-liability-act-2002-nsw-s42
+      - name: Exercise does not create duty (s 46)
+        test: That the authority exercised or decided to exercise a function does not of itself show a duty to exercise it, or to do so in a particular way.
+        authorities:
+          - civil-liability-act-2002-nsw-s46
+      - name: Regulatory functions (s 44)
+        test: If the claim is a failure to prohibit or regulate an activity (including licensing), could the plaintiff have required the authority to exercise the function in proceedings? If not, no liability.
+        authorities:
+          - civil-liability-act-2002-nsw-s44
+      - name: Unreasonableness threshold (ss 43, 43A)
+        test: 'For breach of statutory duty or a special statutory power: was the act or omission so unreasonable that no authority with those functions could properly consider it reasonable?'
+        cases:
+          - rta-v-refrigerated-roadways
+        authorities:
+          - civil-liability-act-2002-nsw-s43
+          - civil-liability-act-2002-nsw-s43a
+    what-if:
+      - change: In Refrigerated Roadways, the claim had attacked a fire service's decision whether to back-burn.
+        effect: 'Back-burning is a special statutory power, so s 43A would apply: no liability unless the decision was so unreasonable that no authority with that power could properly consider it reasonable.'
+      - change: The plaintiff could have obtained a court order compelling the council to enforce the licence condition, and the council still did nothing.
+        effect: Section 44 no longer bars the claim, because the authority could have been required to exercise the function in proceedings by the plaintiff.
+    boundary:
+      - text: A driver hurt by a pothole sues the roads authority for failing to repair it.
+        why: 'Section 45 gives roads authorities special protection: no liability for failing to carry out road work unless they had actual knowledge of the particular risk. The lecturer noted such legislative exceptions for potholes.'
+    transfer:
+      - scenario: A council has a power, which only it holds by statute, to order the demolition of unsafe buildings. It does not use it on a crumbling wall, which later falls on a pedestrian.
+        answer: 'Start at common law (McHugh J''s questions), then Part 5. The council is an authority (s 41); s 42 applies to resources. The demolition power is a special statutory power, so s 43A applies: no liability unless the failure was so unreasonable that no authority with that power could properly consider it reasonable. Section 46 means past use creates no duty to act.'
+    sources:
+      - Topic 8 Lecture 1 (slides 23–33)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+      - Civil Liability Act 2002 (NSW) ss 40–46 (act-2002-022.pdf)
+  - concept: laws2400-w08-third-party-conduct-dorset-yacht-and-modbury
+    plain: You can owe a duty for harm someone else causes, but usually only if you controlled that person, had a special relationship, or created the risk yourself.
+    concrete: 'Boys escaped from detention run by the Home Office and caused significant damage to several yachts in the nearby harbour. The yacht owners sued the Home Office. The House of Lords held a duty was owed: damage on escape was reasonably foreseeable, and the officers had control over the boys. For policy reasons, the duty covered damage in the vicinity immediately after the escape, not later damage while the boys remained at large.'
+    formal: 'A duty for a third party''s conduct is found only in certain circumstances, usually a pre-existing relationship (defendant–plaintiff or defendant–third party) or a situation of control. Home Office v Dorset Yacht [1970]: duty owed through control, limited in scope by policy. Modbury Triangle v Anzil (2000): no duty to protect an employee from a third party''s crime; the centre had not created the risk, and there was no special relationship.'
+    analogy:
+      text: A dog owner and a dog. If you hold the lead, you answer for the bite in the park. If a stranger's dog wanders through your open gate, you did not create or control that danger.
+      maps:
+        - from: Holding the lead
+          to: 'Control over the third party: the Home Office over the detainees'
+        - from: The bite in the park, just after it slips free
+          to: Damage in the vicinity immediately after escape
+        - from: A stranger's dog through your open gate
+          to: 'Modbury: a stranger''s crime the occupier neither created nor controlled'
+      limits:
+        - 'Holding the lead does not mean answering for everything the dog does for weeks: Dorset Yacht limited the duty in time and place.'
+        - People, unlike dogs, choose to commit crimes, which is part of why courts are reluctant to impose these duties.
+    terms:
+      - term: Third party
+        gloss: The person whose conduct actually causes the plaintiff's harm, but who is not the defendant sued, often because they have no money.
+      - term: Creating vs failing to prevent
+        gloss: 'Modbury''s distinction: a defendant who creates a risk may owe a duty; one who merely fails to prevent harm caused by someone else usually does not.'
+    misconceptions:
+      - claim: If a third party's crime was foreseeable, the defendant owed a duty to prevent it.
+        tempting: Foreseeability is the paradigm test for duty.
+        correction: 'Foreseeability is not enough: Modbury shows a relationship or control is needed. There is general reluctance to make defendants protect others from third parties'' criminal acts.'
+      - claim: Dorset Yacht makes a custodian liable for everything escapees do until caught.
+        tempting: Control founded the duty, so it seems to last as long as the escape.
+        correction: Policy limited the scope to damage in the vicinity immediately after escape; no duty for further damage while at large (indeterminate liability).
+      - claim: Third-party duty is vicarious liability for the third party's tort.
+        tempting: The defendant pays for what someone else did.
+        correction: It is the defendant's own duty, arising from control or a relationship. The Home Office did not employ the boys; it controlled them.
+    socratic:
+      - ask: The boys, not the Home Office, damaged the yachts. Why sue the Home Office?
+        hint: Who has money, and who had control?
+        answer: Detainees usually cannot pay compensation, and the Home Office had control over the boys.
+      - ask: Why was a duty owed in Dorset Yacht?
+        hint: Two features.
+        answer: Damage on escape was reasonably foreseeable, and the detention officers had control over the boys.
+      - ask: Was the Home Office liable for damage the boys did weeks later, far away?
+        hint: Policy and indeterminacy.
+        answer: No. Policy limited the duty to damage in the vicinity immediately after the escape, to avoid continuing, unlimited liability.
+      - ask: In Modbury, the centre switched off the car park lights and an employee was attacked. Why no duty?
+        hint: Who created the risk, and was there control or a relationship?
+        answer: The centre had not created the risk of criminal attack; it merely failed to prevent harm by someone else, and there was no special relationship or control.
+      - ask: Why did RTA v Refrigerated Roadways distinguish Modbury?
+        hint: Could objects fall from an overpass without a crime?
+        answer: In Modbury the harm could only arise through crime. The RTA had a unique role concerning objects falling from overpasses, knew of the problem, and drivers below were vulnerable.
+    elements:
+      - name: The triangle
+        test: Identify the defendant sued, the third party whose conduct caused the harm, and the plaintiff.
+        cases:
+          - home-office-v-dorset-yacht-co-ltd
+      - name: Control or relationship
+        test: Was there a pre-existing relationship (defendant–plaintiff or defendant–third party) or a situation of control over the third party?
+        cases:
+          - home-office-v-dorset-yacht-co-ltd
+          - modbury-triangle-shopping-centre-v-anzil
+      - name: Creation of the risk
+        test: Did the defendant create the risk, or merely fail to prevent harm caused by someone else?
+        cases:
+          - modbury-triangle-shopping-centre-v-anzil
+          - rta-v-refrigerated-roadways
+      - name: Scope limited by policy
+        test: Does the duty extend to this harm, at this time and place, or would that create indeterminate liability?
+        cases:
+          - home-office-v-dorset-yacht-co-ltd
+    what-if:
+      - change: In Dorset Yacht, the boys had stolen a car and damaged property in a city a week later.
+        effect: 'Outside the duty''s scope: policy confined it to damage in the vicinity immediately after escape, not further damage while the boys remained at large.'
+      - change: In Modbury, the car park was known for frequent attacks and the centre had promised tenants' staff security escorts.
+        effect: A known risk and a protective undertaking start to supply the relationship Modbury lacked; the lecturer suggested a particularly risky car park might put more on the occupier.
+      - change: The concrete in Refrigerated Roadways had fallen accidentally from a vehicle on the overpass.
+        effect: 'This strengthens the RTA distinction: the harm does not depend on crime, and the RTA''s unique role over objects falling from overpasses remains.'
+    boundary:
+      - text: 'RTA v Refrigerated Roadways: concrete deliberately dropped from an overpass killed a truck driver; the RTA owed a duty.'
+        why: Unlike Modbury, the harm did not arise only through crime, the RTA had a unique role and knowledge, and drivers were vulnerable. There was still no breach.
+    transfer:
+      - scenario: A private school runs an after-school detention room. Two students left unsupervised slip out and immediately smash windscreens of cars parked in the street outside. The car owners sue the school.
+        answer: 'Draw the triangle: school (defendant), students (third parties), car owners (plaintiffs). As in Dorset Yacht, the school had control over the students and damage on escape was foreseeable, so a duty is likely. The damage was in the immediate vicinity straight after they left, within the scope Dorset Yacht allowed.'
+    sources:
+      - Topic 8 Lecture 2 (slides 17–20)
+      - Topic 8 Lecture 1 (slides 30–33)
+      - Topic 8 Lecture 2 Transcript - Special Parties (Other Categories)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+  - concept: laws2400-w08-landlords-occupiers-and-trespassers
+    plain: Landlords and occupiers usually owe people on their premises a duty of care. The real argument is about how far it goes and what reasonable steps were needed.
+    concrete: 'In Jones v Bartlett, the tenant''s son walked through a glass door and was injured. The door met the Australian standards when the house was built, but not when it was leased, and the landlord did not know. The High Court held the landlord owed a duty of care but had not breached it: the glass door was not held to be a dangerous defect.'
+    formal: 'Cavalier v Pope (1906), no landlord duty for defective premises, was rejected in Northern Sandblasting v Harris (1997). Jones v Bartlett (Gummow and Hayne JJ): premises reasonably fit for habitation as a domestic residence; do not let premises with defects known or knowable to make them unsafe; the duty is discharged by reasonable steps to ascertain defects and remove them or make the premises safe.'
+    terms:
+      - term: Occupier
+        gloss: A person or entity who controls the relevant land; not necessarily the owner.
+      - term: Lawful entrant
+        gloss: Someone entitled to be on the land, such as a customer or invited guest; owed a duty whose extent depends on the relationship, purpose of entry and type of premises.
+      - term: Trespasser
+        gloss: Someone on land without permission. Under Cardy, they trespass at their own risk; the occupier must only refrain from intentional or wanton harm.
+    misconceptions:
+      - claim: A landlord owes no duty for defects, because the tenant is in control.
+        tempting: 'That was the old reasoning: the tenant is there and can see the defects.'
+        correction: The Cavalier v Pope rule was rejected in Northern Sandblasting v Harris. Landlords owe a duty; Jones v Bartlett is about its content.
+      - claim: A landlord must guarantee that the premises meet current building standards.
+        tempting: The door in Jones v Bartlett failed the standards at the time of letting.
+        correction: The duty is to take reasonable steps to ascertain defects and to remove them or make the premises safe. The door was not a dangerous defect, so there was no breach.
+      - claim: Trespassers are owed the same duty as lawful entrants.
+        tempting: Everyone on land can be injured by the same hazards.
+        correction: 'Cardy: a trespasser enters at their own risk; the occupier must only refrain from intentional or wanton harm. The position is unresolved, but the trend places more responsibility on the trespasser.'
+    socratic:
+      - ask: Why did the law once give landlords no duty for defective premises?
+        hint: Who lives there and sees the defects?
+        answer: The tenant, in the premises and in control, was thought better placed to see defects (Cavalier v Pope). The High Court rejected that rule in Northern Sandblasting.
+      - ask: In Jones v Bartlett, did the landlord owe the tenant's son a duty?
+        hint: Gummow and Hayne JJ moved past this question quickly.
+        answer: Yes. The key issue was not whether a duty existed but its nature and extent.
+      - ask: What does the landlord's duty require?
+        hint: Fit for what? And what steps?
+        answer: 'Premises reasonably fit for habitation as a domestic residence: reasonable steps to ascertain defects that make them unsafe, and reasonable steps to remove them or make them safe.'
+      - ask: Why did the son's claim fail?
+        hint: Was the door a dangerous defect?
+        answer: 'There was no breach: the glass door was not held to be a dangerous defect.'
+      - ask: A shopping centre is closed and barricaded; an intruder is hurt inside. What duty is owed?
+        hint: Cardy (1960).
+        answer: The intruder trespasses at their own risk; the occupier must only refrain from intentional or wanton harm. Later cases leave this unresolved, trending towards more responsibility on the trespasser.
+    elements:
+      - name: Relationship
+        test: Is the defendant a landlord (to the tenant, or to other entrants) or an occupier, the one who controls the land?
+        cases:
+          - jones-v-bartlett
+          - northern-sandblasting-pty-ltd-v-harris
+      - name: Content of the duty
+        test: 'For a landlord: premises reasonably fit for habitation as a domestic residence. For an occupier: shaped by the relationship, purpose of entry and type of premises.'
+        cases:
+          - jones-v-bartlett
+      - name: Known or knowable defect
+        test: Was there a defect the landlord knew or ought to have known made the premises unsafe for use?
+        cases:
+          - jones-v-bartlett
+      - name: Reasonable steps
+        test: Did the landlord take reasonable steps to ascertain defects and to remove them or make the premises safe? What is reasonable depends on all the circumstances.
+        cases:
+          - jones-v-bartlett
+    what-if:
+      - change: The landlord in Jones v Bartlett had been told before letting that the glass door shattered easily.
+        effect: The defect becomes one the landlord knew made the premises unsafe. Failing to take reasonable steps to fix it would make breach much more arguable.
+      - change: The injured person was a guest of the tenant rather than the tenant's son.
+        effect: The landlord still owes a duty to other entrants, though narrower than an occupier's. The tenant, who controls the premises, is the occupier.
+      - change: The injured person had broken into an empty house.
+        effect: 'A trespasser: under Cardy, the occupier must only refrain from intentional or wanton harm, though the position is now unresolved.'
+    boundary:
+      - text: A tenant's guest trips on a loose stair the tenant knew about for months but never reported; the landlord inspected properly before letting.
+        why: The tenant controls the premises and is the occupier. The landlord owes the guest a narrower duty and took reasonable steps, so is unlikely to be liable.
+    transfer:
+      - scenario: A holiday-flat owner lets a flat for a week. Before letting, she has a licensed electrician check the wiring. A hidden fault that a reasonable inspection could not detect later injures the guest.
+        answer: Apply Jones v Bartlett. A duty is owed; the question is its content. The owner must not let premises with defects she knows or ought to know make them unsafe, and discharges the duty by reasonable steps to ascertain and remove defects. The electrician's check is likely a reasonable step, so there is probably no breach.
+    storyboard:
+      - caption: '1906: Cavalier v Pope'
+        detail: Landlords owe no duty, to tenants or other users, for defective premises.
+      - caption: '1960: Cardy on trespassers'
+        detail: A trespasser enters at their own risk; the occupier must only refrain from intentional or wanton harm.
+      - caption: '1997: Northern Sandblasting'
+        detail: The High Court rejects the Cavalier v Pope rule.
+      - caption: '2000: Jones v Bartlett'
+        detail: A landlord owes a duty; its content is reasonable steps to find and fix defects. The glass door was no dangerous defect.
+    sources:
+      - Topic 8 Lecture 2 (slides 3–9)
+      - Topic 8 Lecture 2 Transcript - Special Parties (Other Categories)
+  - concept: laws2400-w08-advocates-immunity
+    plain: Barristers cannot be sued in negligence for how they run a case in court, or for closely connected preparation. The protection serves the court system, not lawyers, and is narrow.
+    concrete: 'The lecturer''s example: a solicitor acting on a claim worth about $10 million was investigating and gathering evidence but forgot to diarise the limitation period. The time limit passed, the claim became statute barred, and the client lost the right to sue. The client could then sue the solicitor, because the advocates'' immunity covers the conduct of cases in court, not this kind of file management.'
+    formal: 'As a matter of public policy, barristers are immune from liability for negligence in the conduct of cases in court, and in pre-trial matters intimately connected with the case in court. Giannarelli v Wraith gave the policy reasons: the advocate''s duty to the court may conflict with the duty to the client; court time may be wasted on defensive arguments; and the finality of judgment.'
+    terms:
+      - term: Intimately connected
+        gloss: Describes pre-trial work so closely tied to the case in court that it shares the immunity; general advice is not.
+      - term: Finality of judgment
+        gloss: The principle that a decided case should stay decided; a negligence suit about how it was run would reopen it. Later cases treat this as the key reason.
+      - term: Limitation period
+        gloss: A time limit for bringing a case, after which the claim is statute barred.
+    misconceptions:
+      - claim: All lawyers are immune from negligence claims for litigation work.
+        tempting: The immunity is described as an advocates' immunity, and solicitors run litigation too.
+        correction: The immunity concerns barristers' conduct of cases in court and intimately connected pre-trial matters. Solicitors definitely can be sued for negligence in acting for clients.
+      - claim: A barrister's written advice months before any proceedings is covered by the immunity.
+        tempting: The advice comes from a barrister.
+        correction: The immunity attaches to the courtroom, not to who the lawyer is. Advice falls under pure economic loss caused by negligent misstatement (Topic 7).
+      - claim: The immunity exists to protect barristers from the cost of claims.
+        tempting: Immunities usually benefit the person immune.
+        correction: 'It rests on public policy about the court process: conflicting duties to court and client, wasted court time, and the finality of judgment.'
+    socratic:
+      - ask: During a trial, a barrister decides not to call a witness, for reasons tied to her duty to the court. The client loses. Can he sue her?
+        hint: Where did the conduct happen?
+        answer: 'No: it is the conduct of a case in court, within the immunity. Her duty to the court may conflict with what the client wanted.'
+      - ask: Why would allowing such suits waste court time?
+        hint: Think about defensive advocacy.
+        answer: Advocates might run numerous unnecessary arguments simply to protect themselves against negligence allegations.
+      - ask: Which reason did later cases treat as the key one?
+        hint: What happens to the first judgment?
+        answer: 'Finality of judgment: a negligence case about how the first case was run disrupts that judgment and undermines the court process.'
+      - ask: A solicitor misses a limitation period. Is she protected?
+        hint: Is this conduct of a case in court?
+        answer: No. Solicitors can be sued; missing a limitation date is not conduct of a case in court.
+    elements:
+      - name: Advocate
+        test: Is the defendant acting as an advocate, typically a barrister conducting the case? Solicitors can be sued for negligence in acting for clients.
+        cases:
+          - giannarelli-v-wraith
+      - name: Conduct in court
+        test: Was the alleged negligence in the conduct of the case in court?
+        cases:
+          - giannarelli-v-wraith
+      - name: Intimately connected pre-trial work
+        test: If outside court, was it a pre-trial matter intimately connected with the case in court? General advice is not.
+        cases:
+          - giannarelli-v-wraith
+    what-if:
+      - change: The barrister carelessly decides, at a conference the night before trial, which documents to tender at the hearing.
+        effect: 'That points towards immunity: a pre-trial matter intimately connected with the case in court.'
+      - change: The barrister's error was in written advice on a contract, given months before any dispute arose.
+        effect: 'Outside the immunity: it is advice, analysed as negligent misstatement causing pure economic loss (Topic 7).'
+    boundary:
+      - text: A barrister gives advice in chambers about whether to settle, with the hearing weeks away.
+        why: 'At the edge: it is advice, but it may be intimately connected with the case in court. The answer depends on how closely tied it is to the conduct of the case.'
+    transfer:
+      - scenario: An expert-witness coordinator at a law firm forgets to file a key expert report by the court's deadline, and the client's case collapses.
+        answer: 'The immunity is narrow: it protects barristers'' conduct of cases in court and intimately connected pre-trial work, for policy reasons about the court process. Missing a filing deadline is file management by the firm, like the lecturer''s missed limitation period, so the client can sue in negligence.'
+    sources:
+      - Topic 8 Lecture 2 (slide 10)
+      - Topic 8 Lecture 2 Transcript - Special Parties (Other Categories)
+  - concept: laws2400-w08-children-parents-and-the-unborn
+    plain: Parents can owe others a duty to control their children, and owe their own children a duty not to create danger, but not a general duty about how they raise them.
+    concrete: 'In Hahn v Conley, a grandfather was minding his 3-year-old granddaughter. She called out from across the road; he answered her call; she crossed and was struck by a car. The driver claimed an indemnity from the grandfather. The High Court held that the grandfather, in loco parentis, owed her no duty to protect her against that danger: he did not call her to come to him.'
+    formal: 'Parents may owe others a duty to control their child (Smith v Leurs: duty owed, not breached). Parents generally owe no duty to a child in feeding, clothing and raising, but must drive carefully and not create danger; they may be liable if the child is led into danger by their actions (Hahn v Conley). A child injured in the womb may sue for pre-natal injuries if later born alive.'
+    terms:
+      - term: In loco parentis
+        gloss: Standing in the place of a parent, such as a grandfather minding a child; the carer is treated as a parent for the duty question.
+      - term: Wrongful conception / wrongful birth
+        gloss: 'Parents'' claims: the mother would not have conceived (conception), or the pregnancy would have been terminated (birth), but for the negligence.'
+      - term: Wrongful life
+        gloss: A child's claim that the pregnancy should have been terminated because of handicap; controversial, e.g. how do you put a value on life?
+    misconceptions:
+      - claim: Parents owe their child a duty of reasonable care in every aspect of upbringing.
+        tempting: Parents are responsible for their children's welfare.
+        correction: 'Generally no duty in feeding, clothing and raising: parents may raise a child as they see fit. They must still drive carefully and not create danger for the child.'
+      - claim: In Smith v Leurs the parents were liable for their son's sling shot injury.
+        tempting: The court held a duty was owed.
+        correction: 'A duty was owed but not breached: the parents had taken reasonable steps by telling their son not to use the sling shot outside their home.'
+      - claim: A wrongful conception claim is the child's claim that she should not have been born.
+        tempting: The names of the three actions are similar.
+        correction: That is wrongful life, brought by the child. Wrongful conception is a parents' claim that the mother would not have conceived but for the negligence.
+    socratic:
+      - ask: A 13-year-old fires a stone from a sling shot and injures a stranger's eye. Whom does the stranger sue, and for what?
+        hint: Which way does the duty run?
+        answer: 'The parents, for failing to control their child: parents may owe others a duty to control their child (Smith v Leurs).'
+      - ask: Why did that claim fail?
+        hint: Duty, then breach.
+        answer: 'A duty was owed but not breached: the parents had told their son not to use the sling shot outside their home, a reasonable step.'
+      - ask: In Hahn v Conley, the girl crossed the road after her grandfather answered her call. Did he owe her a duty to protect her from that danger?
+        hint: Did he lead her into danger?
+        answer: No. A carer can be liable if the child is led into danger by their actions, but he did not call her to come to him.
+      - ask: A baby is injured in the womb in a car crash. Can the child sue?
+        hint: When can a child bring an action?
+        answer: Yes, for pre-natal injuries, provided the child is later born alive. Until born, she cannot bring an action.
+    what-if:
+      - change: In Hahn v Conley, the grandfather had waved and called, "Come here now!"
+        effect: 'A duty becomes more arguable: by calling her over, he would have led the child into danger by his own actions.'
+      - change: The Leurs parents had let their son take the sling shot to the park with no instructions.
+        effect: 'The duty is the same, but breach becomes far more arguable: telling him not to use it outside the home was the reasonable step that defeated the claim.'
+    boundary:
+      - text: A prenatal test negligently misses a serious genetic abnormality; the mother says she would have terminated the pregnancy.
+        why: A wrongful birth claim by the parents (wrongful life if brought by the child). The lecturer flags these as controversial; their detail belongs to health law, not this unit.
+    transfer:
+      - scenario: A neighbour sues the parents of a 12-year-old who deliberately scratched his car. The parents had confiscated the boy's keys and grounded him after earlier incidents.
+        answer: 'Frame it as the parents'' duty to others to control their child (Smith v Leurs), not a duty to the child. A duty may be owed, but the question becomes breach: confiscating the keys and grounding him look like reasonable steps, as the instruction about the sling shot was in Smith v Leurs.'
+    sources:
+      - Topic 8 Lecture 2 (slides 11–16)
+      - Topic 8 Lecture 2 Transcript - Special Parties (Other Categories)
+flows:
+  - slug: public-authority-duty
+    title: Does a public authority owe a duty of care, and does CLA Part 5 bar the claim?
+    summary: 'Common law first (McHugh J''s six questions in Crimmins), then how CLA Part 5 modifies it: regulatory functions (s 44) and the unreasonableness threshold (ss 43, 43A).'
+    start: p1
+    concepts:
+      - laws2400-w08-crimmins-and-mchugh-six-questions
+      - laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca
+      - laws2400-w08-cla-part-5-public-authorities
+      - laws2400-w08-public-authorities-as-defendants
+    sources:
+      - Topic 8 Lecture 1 (slides 8–33)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+      - Civil Liability Act 2002 (NSW) ss 40–46 (act-2002-022.pdf)
+    nodes:
+      - id: p1
+        kind: ask
+        text: Was injury to the plaintiff from the authority's act or omission, including a failure to exercise its powers, reasonably foreseeable?
+        note: 'Always needed, never enough. Weigh the six questions: a "no" to questions 1–4, or a "yes" to 5 or 6, points against a duty.'
+        concept: laws2400-w08-crimmins-and-mchugh-six-questions
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+        branches:
+          - label: 'Yes'
+            to: p2
+          - label: 'No'
+            to: e-noduty
+      - id: p2
+        kind: ask
+        text: Did its statutory powers let it protect a specific class including the plaintiff, rather than the public at large?
+        note: 'Graham Barclay: the Council''s powers were for the public generally, not a specific class.'
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+          - graham-barclay-oysters-v-ryan
+        branches:
+          - label: 'Yes'
+            to: p3
+          - label: 'No: the public at large'
+            to: e-noduty
+      - id: p3
+        kind: ask
+        text: 'Was the plaintiff vulnerable: unable reasonably to safeguard herself from the harm?'
+        note: 'Crimmins: casual work and an obligation to obey directions. Amaca: workers could rely on employer, supplier and site owner, so were not vulnerable to the State.'
+        concept: laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+          - amaca-v-nsw
+        branches:
+          - label: 'Yes'
+            to: p4
+          - label: 'No'
+            to: e-noduty
+      - id: p4
+        kind: ask
+        text: Did the authority know, or ought it to have known, of the risk to that class if it did not act?
+        note: Knowledge alone is not enough (Amaca), but without it a duty fails.
+        cases:
+          - crimmins-v-stevedoring-industry-finance-committee
+          - amaca-v-nsw
+        branches:
+          - label: 'Yes'
+            to: p5
+          - label: 'No'
+            to: e-noduty
+      - id: p5
+        kind: ask
+        text: Would a duty impose liability for core policy making or quasi-legislative functions, or are there other supervening policy reasons?
+        note: 'Graham Barclay: letting an industry self-regulate is policy. Hayne J in Crimmins: ordering respirators was quasi-legislative. Other reasons include indeterminacy and resources.'
+        cases:
+          - graham-barclay-oysters-v-ryan
+          - crimmins-v-stevedoring-industry-finance-committee
+        branches:
+          - label: 'No: operational, no other reason'
+            to: p6
+          - label: 'Yes'
+            to: e-policy
+      - id: p6
+        kind: ask
+        text: Is the claim that the authority failed to prohibit or regulate an activity, such as licensing?
+        note: A common law duty is arguable; now see how CLA Part 5 modifies it. Section 41 decides who is an authority; s 42 (resources) applies to duty and breach.
+        concept: laws2400-w08-cla-part-5-public-authorities
+        authorities:
+          - civil-liability-act-2002-nsw-s41
+          - civil-liability-act-2002-nsw-s42
+        branches:
+          - label: 'Yes'
+            to: p7
+          - label: 'No'
+            to: p8
+      - id: p7
+        kind: ask
+        text: Could the plaintiff have required the authority to exercise that function in proceedings?
+        note: 'Section 44: otherwise the authority is not liable for failing to exercise or consider exercising a regulatory function.'
+        exception: true
+        authorities:
+          - civil-liability-act-2002-nsw-s44
+        branches:
+          - label: 'Yes'
+            to: p8
+          - label: 'No'
+            to: e-s44
+      - id: p8
+        kind: ask
+        text: Does the claim rest on a special statutory power (s 43A) or a breach of statutory duty (s 43)? If so, was the conduct so unreasonable that no authority with those functions could properly consider it reasonable?
+        note: 'RTA v Refrigerated Roadways: erecting screens is not a special statutory power, since anybody can erect one, so s 43A did not apply.'
+        exception: true
+        cases:
+          - rta-v-refrigerated-roadways
+        authorities:
+          - civil-liability-act-2002-nsw-s43
+          - civil-liability-act-2002-nsw-s43a
+        branches:
+          - label: Neither applies
+            to: e-met
+          - label: Yes, that unreasonable
+            to: e-met
+          - label: 'No'
+            to: e-s43
+      - id: e-noduty
+        kind: end
+        tone: not-met
+        text: The relationship points against a duty, as for the Council and State in Graham Barclay.
+      - id: e-policy
+        kind: end
+        tone: not-met
+        text: 'No duty: core policy or other supervening policy reasons.'
+      - id: e-s44
+        kind: end
+        tone: not-met
+        text: 'Not liable: s 44 (failure to exercise a regulatory function).'
+      - id: e-s43
+        kind: end
+        tone: not-met
+        text: 'No liability: below the ss 43/43A unreasonableness threshold.'
+      - id: e-met
+        kind: end
+        tone: met
+        text: 'Duty arguable as in Crimmins: move to breach, applying s 42 (resources).'
+  - slug: third-party-conduct
+    title: Does the defendant owe a duty for harm caused by a third party?
+    summary: Draws the triangle, then asks about control (Dorset Yacht), creation of the risk or a protective relationship (Modbury), and the RTA distinction.
+    start: t1
+    concepts:
+      - laws2400-w08-third-party-conduct-dorset-yacht-and-modbury
+      - laws2400-w08-children-parents-and-the-unborn
+    sources:
+      - Topic 8 Lecture 2 (slides 11, 17–20)
+      - Topic 8 Lecture 1 (slides 30–33)
+      - Topic 8 Lecture 2 Transcript - Special Parties (Other Categories)
+      - Topic 8 Lecture 1 Transcript - Special Parties (Public Authorities)
+    nodes:
+      - id: t1
+        kind: ask
+        text: Was the plaintiff's harm caused by a third party's conduct, rather than the defendant's own?
+        note: 'The triangle: the defendant owes the plaintiff a duty, but the third party''s conduct causes the loss. Plaintiffs sue the defendant because third parties often cannot pay.'
+        branches:
+          - label: 'Yes'
+            to: t2
+          - label: 'No'
+            to: e-ordinary
+      - id: t2
+        kind: ask
+        text: Did the defendant have control over the third party?
+        note: 'Dorset Yacht: officers controlled the detained boys. A parent may owe others a duty to control a child (Smith v Leurs).'
+        cases:
+          - home-office-v-dorset-yacht-co-ltd
+          - smith-v-leurs
+        branches:
+          - label: 'Yes'
+            to: t3
+          - label: 'No'
+            to: t4
+      - id: t3
+        kind: ask
+        text: 'Was the harm within the duty''s scope: in the vicinity, immediately after the third party escaped control?'
+        note: 'Policy limited Dorset Yacht''s duty: none for further damage while the escapees remained at large (indeterminate liability).'
+        exception: true
+        cases:
+          - home-office-v-dorset-yacht-co-ltd
+        branches:
+          - label: 'Yes'
+            to: e-dorset
+          - label: 'No: later, while at large'
+            to: e-scope
+      - id: t4
+        kind: ask
+        text: Did the defendant create the risk, or have a protective relationship with the plaintiff?
+        note: 'Modbury: the centre had not created the risk of criminal attack and had no special relationship with the employee.'
+        cases:
+          - modbury-triangle-shopping-centre-v-anzil
+        branches:
+          - label: 'Yes'
+            to: e-relationship
+          - label: 'No'
+            to: t5
+      - id: t5
+        kind: ask
+        text: Could the harm arise other than through crime, with the defendant in a unique role and the plaintiff vulnerable?
+        note: 'RTA v Refrigerated Roadways: objects can fall from overpasses for many reasons; the RTA had a unique role and knowledge; drivers below were vulnerable.'
+        cases:
+          - rta-v-refrigerated-roadways
+          - modbury-triangle-shopping-centre-v-anzil
+        branches:
+          - label: 'Yes'
+            to: e-rta
+          - label: 'No: only through crime'
+            to: e-modbury
+      - id: e-ordinary
+        kind: end
+        tone: qualified
+        text: 'Not a third-party case: use the ordinary duty analysis.'
+      - id: e-dorset
+        kind: end
+        tone: met
+        text: Duty owed through control, as in Dorset Yacht.
+      - id: e-scope
+        kind: end
+        tone: not-met
+        text: Outside the duty's scope, as for later damage in Dorset Yacht.
+      - id: e-relationship
+        kind: end
+        tone: qualified
+        text: 'A duty is arguable: weigh the relationship and the risk created.'
+      - id: e-rta
+        kind: end
+        tone: met
+        text: Duty owed, as in RTA v Refrigerated Roadways; breach is a separate question.
+      - id: e-modbury
+        kind: end
+        tone: not-met
+        text: No duty to prevent a third party's crime (Modbury).

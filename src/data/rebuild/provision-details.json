@@ -1,0 +1,2225 @@
+{
+  "provisions": [
+    {
+      "listId": "torts-provision-01",
+      "ref": "civil-liability-act-2002-nsw-s3b",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 3B(1)(a), (b), (f)-(g); s 3B(2)(a)  Civil liability excluded from Act",
+      "section": "3B",
+      "oneLine": "Check the listed exclusions before applying the Civil Liability Act.",
+      "plain": "The Act does not govern every civil claim. The listed parts of s 3B exclude or partly exclude intentional injury, sexual misconduct, specified dust-disease and workers-compensation liabilities. The exclusions contain important carve-backs. The listed s 3B(2)(a) also tells you which negligence divisions apply to motor accidents. Start with the type of liability and identify which Part remains available.",
+      "concreteExplanation": "Illustrative hypothetical: A worker sues for a workplace injury. You cannot start by applying every CLA negligence provision: first identify whether the workers-compensation exclusion governs this particular award. A sexual-abuse claim likewise needs the Part 1B carve-back considered.",
+      "conditions": [
+        "Apply only the law-list scope: s 3B(1)(a), (b), (f)–(g), and s 3B(2)(a).",
+        "Paragraph (1)(a) requires an intentional act done with intent to cause injury/death, or sexual assault/other sexual misconduct; intentional conduct alone is not the stated test.",
+        "Paragraph (1)(b) concerns proceedings of the kind referred to by s 11 of the Dust Diseases Tribunal Act 1989.",
+        "Paragraph (1)(f) concerns an award within Division 3 of Part 5 of the Workers Compensation Act 1987. Paragraph (1)(g) excludes civil liability for compensation under the Workers Compensation Act 1987, Workers Compensation (Bush Fire, Emergency and Rescue Services) Act 1987, Workers’ Compensation (Dust Diseases) Act 1942 and Anti-Discrimination Act 1977, or a benefit payable under the Sporting Injuries Insurance Act 1978."
+      ],
+      "exceptions": [
+        "Paragraph (1)(a) retains Part 1B; s 15B; s 18(1) only in its application to damages for loss within s 18(1)(c); Part 7 only for the specified intentional injury/death liability; and Part 2A.",
+        "Paragraph (1)(b) retains ss 15A and 15B, and s 18(1) only in its application to damages for loss within s 18(1)(c).",
+        "Paragraph (1)(f) excepts Part 1B from its whole-Act exclusion.",
+        "Section 3B(2)(a) applies Divisions 1–4 and 8 of Part 1A to motor accidents."
+      ],
+      "limits": [
+        "The full section contains other exclusions; those are not silently added to this examinable entry.",
+        "The explanatory note accompanying paragraph (f) is retained separately in sourceNotes and is not part of the Act."
+      ],
+      "examUse": "Use at the application stage before selecting a CLA test or defence.",
+      "pitfalls": [
+        "Do not say all deliberate acts are excluded.",
+        "Do not erase the express carve-backs.",
+        "Do not expand this filter to every subsection of s 3B."
+      ],
+      "weeks": [
+        5
+      ],
+      "topics": [
+        "negligence-overview"
+      ],
+      "text": "(1) The provisions of this Act do not apply to or in respect of civil liability (and awards of\n    damages in those proceedings) as follows—\n\n(a) civil liability of a person in respect of an intentional act that is done by the person\n         with intent to cause injury or death or that is sexual assault or other sexual\n         misconduct committed by the person—the whole Act except—\n\n          (ia) Part 1B (Child abuse—liability of organisations), and\n\n          (i) section 15B and section 18(1) (in its application to damages for any loss of the\n              kind referred to in section 18(1)(c)), and\n\n          (ii) Part 7 (Self-defence and recovery by criminals) in respect of civil liability in\n               respect of an intentional act that is done with intent to cause injury or death,\n               and\n\n          (iii) Part 2A (Special provisions for offenders in custody),\n\n(b) civil liability in proceedings of the kind referred to in section 11 (Claims for\n         damages for dust diseases etc to be brought under this Act) of the Dust Diseases\n         Tribunal Act 1989—the whole Act except sections 15A and 15B and section 18(1)\n         (in its application to damages for any loss of the kind referred to in section\n         18(1)(c)),\n\n(f) civil liability relating to an award to which Division 3 of Part 5 of the Workers\n         Compensation Act 1987 applies—the whole Act (other than Part 1B),\n\n(g) civil liability for compensation under the Workers Compensation Act 1987, the\n         Workers Compensation (Bush Fire, Emergency and Rescue Services) Act 1987, the\n         Workers’ Compensation (Dust Diseases) Act 1942 or the Anti-Discrimination Act\n         1977 or a benefit payable under the Sporting Injuries Insurance Act 1978—the\n         whole Act,\n\n(2) The following provisions apply to motor accidents—\n\n(a) Divisions 1–4 and 8 of Part 1A (Negligence),",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date. This entry deliberately reproduces only (1)(a), (b), (f)–(g) and (2)(a), with their necessary chapeaux and internal carve-backs.",
+      "sourceNotes": [
+        "Section 151E(2A) of the Workers Compensation Act 1987 provides that Division 3 of Part 5 of that Act does not apply to an award of damages that arises from abuse against a child (whether arising under Part 1B of this Act or the common law)."
+      ],
+      "textScope": "Only s 3B(1)(a), (b), (f)–(g) and s 3B(2)(a), including subsection chapeaux and all internal carve-backs; not the whole of s 3B.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        11,
+        12,
+        13
+      ],
+      "textSha256": "95c1044e25d8815875f1572a344ecbec80e7b6a6089c1c4854d58568d4908c42"
+    },
+    {
+      "listId": "torts-provision-02",
+      "ref": "civil-liability-act-2002-nsw-s3c",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 3C  Act operates to exclude or limit vicarious liability",
+      "section": "3C",
+      "oneLine": "A CLA exclusion or limit on the tortfeasor also reaches another person’s vicarious liability for that tort.",
+      "plain": "If the CLA removes or limits the civil liability of the person who committed a tort, the same statutory protection also operates on a person sued vicariously for that tort. This provision concerns the effect of an existing exclusion or limit; it does not itself decide whether an employment relationship or another basis for vicarious liability exists.",
+      "concreteExplanation": "Illustrative hypothetical: An employer is sued for an employee’s tort. If an applicable CLA provision limits liability for that tort, s 3C carries that limit to the employer’s vicarious liability. You still have to establish why the employer is vicariously liable.",
+      "conditions": [
+        "Identify a provision of the CLA that excludes or limits civil liability for a tort.",
+        "Identify the other person’s vicarious liability for the same tort."
+      ],
+      "exceptions": [],
+      "limits": [
+        "This is not a general immunity for employers.",
+        "It does not establish an employment relationship or course-of-employment connection."
+      ],
+      "examUse": "Apply after identifying both the underlying tort and the basis of vicarious liability.",
+      "pitfalls": [
+        "Do not use s 3C to create vicarious liability."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "vicarious-liability"
+      ],
+      "text": "Any provision of this Act that excludes or limits the civil liability of a person for a tort also\noperates to exclude or limit the vicarious liability of another person for that tort.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        13
+      ],
+      "textSha256": "ebc6240a02c899b04cd061294f3f1d18e7a2b92c2a90786e78498f6688de3e74"
+    },
+    {
+      "listId": "torts-provision-03",
+      "ref": "civil-liability-act-2002-nsw-s5",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5  Definitions",
+      "section": "5",
+      "oneLine": "Part 1A defines harm broadly and negligence as a failure to use reasonable care and skill.",
+      "plain": "For the negligence Part, harm includes injury or death, property damage and economic loss. Personal injury includes prenatal injury, impairment of a physical or mental condition, and disease. These definitions explain why the statutory negligence framework can apply to economic loss as well as physical accidents; they do not prove that a duty is owed in every such situation.",
+      "concreteExplanation": "Illustrative hypothetical: A careless valuation causes only a financial loss. That loss can still be harm under Part 1A. The claimant must separately establish the special duty requirements for pure economic loss and all the remaining elements.",
+      "conditions": [
+        "These definitions operate in Part 1A.",
+        "Harm includes personal injury/death, property damage and economic loss.",
+        "Negligence means failure to exercise reasonable care and skill.",
+        "Personal injury includes prenatal injury, physical/mental impairment and disease."
+      ],
+      "exceptions": [],
+      "limits": [
+        "A definition of harm is not an automatic right to recover."
+      ],
+      "examUse": "Classify the damage before addressing duty, breach, causation and defences.",
+      "pitfalls": [
+        "Do not exclude pure economic loss merely because no person or property was physically hurt."
+      ],
+      "weeks": [
+        5,
+        7
+      ],
+      "topics": [
+        "negligence-overview",
+        "pure-economic-loss"
+      ],
+      "text": "In this Part—\n\nharm means harm of any kind, including the following—\n\n(a) personal injury or death,\n\n(b) damage to property,\n\n(c) economic loss.\n\nnegligence means failure to exercise reasonable care and skill.\n\npersonal injury includes—\n\n(a) pre-natal injury, and\n\n(b) impairment of a person’s physical or mental condition, and\n\n(c) disease.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        14
+      ],
+      "textSha256": "8d2e4ed91a8df8ced0a9e7cffd823ee1359e8bc3d0419cc351763d30c5ccf460"
+    },
+    {
+      "listId": "torts-provision-04",
+      "ref": "civil-liability-act-2002-nsw-s5a",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5A  Application of Part",
+      "section": "5A",
+      "oneLine": "Part 1A follows negligent conduct, regardless of the legal form of the damages claim.",
+      "plain": "A damages claim for harm resulting from negligence falls within Part 1A even if the claimant pleads contract, statute or another cause of action rather than tort. However, liabilities excluded by s 3B remain excluded. The section prevents a change of pleading label from bypassing the negligence Part.",
+      "concreteExplanation": "Illustrative hypothetical: A customer frames a careless-service claim as a broken contractual promise. If the harm resulted from a failure to exercise reasonable care and skill, Part 1A can still apply, subject to its exclusions.",
+      "conditions": [
+        "A claim for damages.",
+        "Harm resulting from negligence.",
+        "The cause of action may be tort, contract, statute or otherwise."
+      ],
+      "exceptions": [
+        "Civil liability excluded from Part 1A by s 3B is not covered."
+      ],
+      "limits": [
+        "Part 1A provisions still have their own wording and requirements."
+      ],
+      "examUse": "Establish statutory application near the beginning of a negligence answer.",
+      "pitfalls": [
+        "Do not assume pleading contract avoids the CLA.",
+        "Do not skip s 3B."
+      ],
+      "weeks": [
+        5
+      ],
+      "topics": [
+        "negligence-overview"
+      ],
+      "text": "(1) This Part applies to any claim for damages for harm resulting from negligence,\n    regardless of whether the claim is brought in tort, in contract, under statute or\n    otherwise.\n\n(2) This Part does not apply to civil liability that is excluded from the operation of this Part\n    by section 3B.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        14
+      ],
+      "textSha256": "157546ef36c7ced093ba4fe8f2008e6c4d8173ed21c57eb83555eb2c70b56b52"
+    },
+    {
+      "listId": "torts-provision-05",
+      "ref": "civil-liability-act-2002-nsw-s5b",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5B  General principles",
+      "section": "5B",
+      "oneLine": "Breach requires a foreseeable, not insignificant risk and precautions a reasonable person would take.",
+      "plain": "The court asks prospectively what a reasonable person in the defendant’s position would have done about the identified risk. The risk must be foreseeable and not insignificant. The reasonableness of precautions involves probability, seriousness, the burden of precautions and social utility, together with any other relevant matters. A bad outcome alone does not prove breach.",
+      "concreteExplanation": "Illustrative hypothetical: For an unfenced drop near a busy path, identify the risk of someone falling. Then weigh how likely a fall was, how serious it could be, the cost and practicability of fencing, and the activity’s utility. The presence of injury does not replace this analysis.",
+      "conditions": [
+        "The risk was known or ought to have been known.",
+        "The risk was not insignificant.",
+        "A reasonable person in the defendant’s position would have taken the proposed precautions.",
+        "Consider probability, likely seriousness, burden of precautions and social utility, among other relevant matters."
+      ],
+      "exceptions": [],
+      "limits": [
+        "This provision addresses failure to take precautions, not the whole existence of a duty.",
+        "The statutory expression is not insignificant; do not substitute the common-law not far-fetched or fanciful threshold."
+      ],
+      "examUse": "State the precise risk and precaution, then apply each statutory consideration to the facts.",
+      "pitfalls": [
+        "Do not reason backwards from the accident.",
+        "Do not merely list the four factors without weighing them."
+      ],
+      "weeks": [
+        9
+      ],
+      "topics": [
+        "breach"
+      ],
+      "text": "(1) A person is not negligent in failing to take precautions against a risk of harm unless—\n\n     (a) the risk was foreseeable (that is, it is a risk of which the person knew or ought to\n         have known), and\n\n     (b) the risk was not insignificant, and\n\n     (c) in the circumstances, a reasonable person in the person’s position would have\n         taken those precautions.\n\n(2) In determining whether a reasonable person would have taken precautions against a\n    risk of harm, the court is to consider the following (amongst other relevant things)—\n\n     (a) the probability that the harm would occur if care were not taken,\n\n     (b) the likely seriousness of the harm,\n\n     (c) the burden of taking precautions to avoid the risk of harm,\n\n     (d) the social utility of the activity that creates the risk of harm.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "textSha256": "21bee65e889a65a717e6fdec41eece28cc809bf2a370ff5adefd4d054755118b"
+    },
+    {
+      "listId": "torts-provision-06",
+      "ref": "civil-liability-act-2002-nsw-s5c",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5C  Other principles",
+      "section": "5C",
+      "oneLine": "Breach analysis counts similar risks and avoids treating alternatives or repairs as automatic admissions.",
+      "plain": "When assessing the burden of precautions, consider comparable risks for which the defendant is responsible, not just one isolated danger. Showing that an activity could have been done differently does not itself establish liability. Nor does later remedial work itself establish liability or admit it.",
+      "concreteExplanation": "Illustrative hypothetical: A council repairs one pavement after an accident. The repair alone does not prove the earlier condition was negligent. A proposed inspection programme must also be assessed across the similar risks for which the council is responsible.",
+      "conditions": [
+        "Include the burden of precautions against similar risks.",
+        "An alternative way of doing the activity does not itself establish or affect liability.",
+        "Later preventive action does not itself establish or affect liability or constitute an admission."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The words of itself matter: relevant surrounding evidence is not made irrelevant by this provision."
+      ],
+      "examUse": "Use while applying the burden factor and when the facts mention subsequent repairs or alternative methods.",
+      "pitfalls": [
+        "Do not infer breach solely from a later repair.",
+        "Do not assess a system-wide precaution as if only one location existed."
+      ],
+      "weeks": [
+        9
+      ],
+      "topics": [
+        "breach"
+      ],
+      "text": "In proceedings relating to liability for negligence—\n\n(a) the burden of taking precautions to avoid a risk of harm includes the burden of taking\n    precautions to avoid similar risks of harm for which the person may be responsible,\n    and\n\n(b) the fact that a risk of harm could have been avoided by doing something in a different\n    way does not of itself give rise to or affect liability for the way in which the thing was\n    done, and\n\n(c) the subsequent taking of action that would (had the action been taken earlier) have\n    avoided a risk of harm does not of itself give rise to or affect liability in respect of the\n    risk and does not of itself constitute an admission of liability in connection with the\n    risk.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        15
+      ],
+      "textSha256": "c6febfc6629189ca45dc821b7aa28a7ac6eb12dfa952fb85f5bb1f3b81834d78"
+    },
+    {
+      "listId": "torts-provision-07",
+      "ref": "civil-liability-act-2002-nsw-s5d",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5D  General principles",
+      "section": "5D",
+      "oneLine": "Separate factual causation from the appropriate scope of responsibility for the harm.",
+      "plain": "First ask whether the negligence was a necessary condition of the particular harm. Then ask whether the defendant should legally be responsible for that harm. Exceptional cases where the necessary-condition test cannot be established require established principles and a reasoned responsibility analysis. If the claimant’s hypothetical choice matters, assess it subjectively from all relevant circumstances, subject to the restriction on self-serving statements made after the harm.",
+      "concreteExplanation": "Illustrative hypothetical: If a doctor omitted a warning, ask what this patient would have done if properly warned, and whether avoiding that choice would have prevented the harm. Even if factual causation is established, separately ask whether the harm falls within the responsibility attached to the warning duty.",
+      "conditions": [
+        "Factual causation: negligence was a necessary condition of the occurrence of the harm.",
+        "Scope: it is appropriate for liability to extend to that harm.",
+        "Exceptional factual-causation cases are assessed in accordance with established principles and the responsibility question.",
+        "A claimant’s hypothetical conduct is assessed subjectively in all relevant circumstances."
+      ],
+      "exceptions": [
+        "A claimant’s statement made after the harm about what they would have done is inadmissible except to the extent it is against their interest."
+      ],
+      "limits": [
+        "The exceptional-case provision does not dispense generally with proof of causation.",
+        "Section 5D(4) separately requires the responsibility question for scope."
+      ],
+      "examUse": "Use separate headings for s 5D(1)(a) and (b), and explain any reliance on (2), (3) or (4).",
+      "pitfalls": [
+        "Do not merge breach, factual causation and scope.",
+        "Do not treat a claimant’s later assertion as conclusive proof."
+      ],
+      "weeks": [
+        10,
+        11
+      ],
+      "topics": [
+        "causation",
+        "scope-of-liability"
+      ],
+      "text": "(1) A determination that negligence caused particular harm comprises the following\n    elements—\n\n     (a) that the negligence was a necessary condition of the occurrence of the harm\n         (factual causation), and\n\n     (b) that it is appropriate for the scope of the negligent person’s liability to extend to\n         the harm so caused (scope of liability).\n\n(2) In determining in an exceptional case, in accordance with established principles,\n    whether negligence that cannot be established as a necessary condition of the\n    occurrence of harm should be accepted as establishing factual causation, the court is\n    to consider (amongst other relevant things) whether or not and why responsibility for\n    the harm should be imposed on the negligent party.\n\n(3) If it is relevant to the determination of factual causation to determine what the person\n    who suffered harm would have done if the negligent person had not been negligent—\n\n     (a) the matter is to be determined subjectively in the light of all relevant\n         circumstances, subject to paragraph (b), and\n\n     (b) any statement made by the person after suffering the harm about what he or she\n\n          would have done is inadmissible except to the extent (if any) that the statement is\n          against his or her interest.\n\n(4) For the purpose of determining the scope of liability, the court is to consider (amongst\n    other relevant things) whether or not and why responsibility for the harm should be\n    imposed on the negligent party.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        15,
+        16
+      ],
+      "textSha256": "97ffef590d74b6e1368f25afee4e11d99595691f497d6696aba15d06ff745605"
+    },
+    {
+      "listId": "torts-provision-08",
+      "ref": "civil-liability-act-2002-nsw-s5e",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5E  Onus of proof",
+      "section": "5E",
+      "oneLine": "The claimant bears the balance-of-probabilities burden on every fact relevant to causation.",
+      "plain": "For negligence causation, the plaintiff must establish relevant facts as more probable than not. A defendant does not have to disprove causation merely because breach has been shown. Inferences can be important, but must satisfy the civil burden.",
+      "concreteExplanation": "Illustrative hypothetical: A shop failed to clean a spill. The plaintiff still has to prove, using the evidence and permissible inferences, that a reasonable cleaning system would probably have prevented this slip.",
+      "conditions": [
+        "Proceedings relate to liability for negligence.",
+        "The plaintiff bears the onus for any fact relevant to causation.",
+        "The standard is the balance of probabilities."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Breach does not itself reverse this onus."
+      ],
+      "examUse": "State the onus when analysing uncertain counterfactuals, timing or competing causes.",
+      "pitfalls": [
+        "Do not say the defendant must prove its negligence made no difference."
+      ],
+      "weeks": [
+        10
+      ],
+      "topics": [
+        "causation"
+      ],
+      "text": "In proceedings relating to liability for negligence, the plaintiff always bears the onus of\nproving, on the balance of probabilities, any fact relevant to the issue of causation.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        16
+      ],
+      "textSha256": "c1243faa9a38d89548b5e5771dea73b282ae62bc42d0b57a93a290cf2e8c67dd"
+    },
+    {
+      "listId": "torts-provision-09",
+      "ref": "civil-liability-act-2002-nsw-s5f",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5F  Meaning of “obvious risk”",
+      "section": "5F",
+      "oneLine": "An obvious risk is judged from the reasonable person in the claimant’s position, even if unlikely or hidden.",
+      "plain": "Obviousness is an objective inquiry about the risk in its circumstances. A risk may be obvious because it is patent or common knowledge. A low chance of occurrence does not prevent obviousness, and the danger or its physical cause need not be conspicuous or observable.",
+      "concreteExplanation": "Illustrative hypothetical: An ordinary person may appreciate the risk of striking a shallow riverbed when diving, even without seeing the bottom. The question remains what risk was obvious to a reasonable person in this claimant’s position in these circumstances.",
+      "conditions": [
+        "Identify the relevant risk at an appropriate level of specificity.",
+        "Ask whether it would have been obvious to a reasonable person in the claimant’s position.",
+        "Patent risks and common-knowledge risks are included."
+      ],
+      "exceptions": [],
+      "limits": [
+        "A low-probability risk can be obvious.",
+        "The risk or its source need not be prominent, conspicuous or physically observable.",
+        "This definition is not itself a complete defence to every negligence allegation."
+      ],
+      "examUse": "Use before ss 5G, 5H or 5L, identifying the specific risk that materialised.",
+      "pitfalls": [
+        "Do not equate obvious with likely.",
+        "Do not treat all risks of an activity as interchangeable."
+      ],
+      "weeks": [
+        6,
+        9,
+        12
+      ],
+      "topics": [
+        "obvious-and-inherent-risk"
+      ],
+      "text": "(1) For the purposes of this Division, an obvious risk to a person who suffers harm is a\n    risk that, in the circumstances, would have been obvious to a reasonable person in the\n    position of that person.\n\n(2) Obvious risks include risks that are patent or a matter of common knowledge.\n\n(3) A risk of something occurring can be an obvious risk even though it has a low\n    probability of occurring.\n\n(4) A risk can be an obvious risk even if the risk (or a condition or circumstance that gives\n    rise to the risk) is not prominent, conspicuous or physically observable.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        16
+      ],
+      "textSha256": "2eebb71d2272eb6004ad95d716e933c285eb4f56ae7693f25434e6a9f77d76f4"
+    },
+    {
+      "listId": "torts-provision-10",
+      "ref": "civil-liability-act-2002-nsw-s5g",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5G  Injured persons presumed to be aware of obvious risks",
+      "section": "5G",
+      "oneLine": "The claimant is presumed to know an obvious risk unless they prove otherwise.",
+      "plain": "Where the harm arose from an obvious risk, awareness is presumed in negligence proceedings. The claimant can rebut that presumption on the balance of probabilities. Awareness of the type of risk is sufficient; knowledge of its precise extent or mechanism is unnecessary.",
+      "concreteExplanation": "Illustrative hypothetical: A diver may know the general type of danger of hitting submerged ground without knowing the precise depth or the particular injury that will follow. The awareness presumption can still operate, although it remains rebuttable.",
+      "conditions": [
+        "An obvious risk under s 5F.",
+        "Negligence proceedings relating to the claimant’s harm.",
+        "Knowledge of the type or kind of risk suffices."
+      ],
+      "exceptions": [
+        "The claimant may prove on the balance of probabilities that they were not aware of the risk."
+      ],
+      "limits": [
+        "Presumed knowledge is not the same as voluntary acceptance of legal responsibility."
+      ],
+      "examUse": "Analyse awareness separately from any legal defence requiring acceptance of the risk.",
+      "pitfalls": [
+        "Do not turn a rebuttable awareness presumption into automatic consent to the defendant’s negligence."
+      ],
+      "weeks": [
+        6,
+        12
+      ],
+      "topics": [
+        "obvious-and-inherent-risk",
+        "voluntary-assumption-of-risk"
+      ],
+      "text": "(1) In proceedings relating to liability for negligence, a person who suffers harm is\n    presumed to have been aware of the risk of harm if it was an obvious risk, unless the\n    person proves on the balance of probabilities that he or she was not aware of the risk.\n\n(2) For the purposes of this section, a person is aware of a risk if the person is aware of\n    the type or kind of risk, even if the person is not aware of the precise nature, extent or\n    manner of occurrence of the risk.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        16
+      ],
+      "textSha256": "a1e0b37842abc964a920dc1a814915e54281ffba0d5f84ddb7f72c874b5a3c45"
+    },
+    {
+      "listId": "torts-provision-11",
+      "ref": "civil-liability-act-2002-nsw-s5h",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5H  No proactive duty to warn of obvious risk",
+      "section": "5H",
+      "oneLine": "There is ordinarily no proactive duty to warn of an obvious risk, subject to three specified exceptions.",
+      "plain": "A defendant ordinarily need not warn another person about an obvious risk. The rule does not apply where the claimant requested advice about the risk, a written law requires a warning, or a professional service involves a risk of the claimant’s death or personal injury. Removing this statutory protection does not itself establish that a duty to warn exists.",
+      "concreteExplanation": "Illustrative hypothetical: A patient asks a surgeon about a procedure’s risks. The surgeon cannot simply rely on the no-warning rule for obvious risks: the request and the professional-service exception must be considered. The applicable warning duty still needs analysis.",
+      "conditions": [
+        "The alleged duty is a duty to warn.",
+        "The risk is obvious to the claimant under s 5F."
+      ],
+      "exceptions": [
+        "The claimant requested advice or information about the risk.",
+        "A written law requires a warning.",
+        "The defendant is a professional and the risk concerns the claimant’s death or personal injury from the professional service."
+      ],
+      "limits": [
+        "Subsection (2) does not presume a duty to warn in any of the exceptions.",
+        "The section does not erase other possible duties to take precautions."
+      ],
+      "examUse": "Separate failure to warn from failure to make premises or an activity reasonably safe.",
+      "pitfalls": [
+        "Do not infer no duty of care of any kind.",
+        "Do not infer a warning duty automatically from an exception."
+      ],
+      "weeks": [
+        6,
+        9
+      ],
+      "topics": [
+        "obvious-and-inherent-risk",
+        "professional-negligence"
+      ],
+      "text": "(1) A person (the defendant) does not owe a duty of care to another person (the\n    plaintiff) to warn of an obvious risk to the plaintiff.\n\n(2) This section does not apply if—\n\n     (a) the plaintiff has requested advice or information about the risk from the\n         defendant, or\n\n     (b) the defendant is required by a written law to warn the plaintiff of the risk, or\n\n     (c) the defendant is a professional and the risk is a risk of the death of or personal\n         injury to the plaintiff from the provision of a professional service by the defendant.\n\n(3) Subsection (2) does not give rise to a presumption of a duty to warn of a risk in the\n    circumstances referred to in that subsection.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        16,
+        17
+      ],
+      "textSha256": "31d25fb0e34d761d9d7056fa8df789cfa71f32f9e097834db57ef142f85c11ab"
+    },
+    {
+      "listId": "torts-provision-12",
+      "ref": "civil-liability-act-2002-nsw-s5i",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5I  No liability for materialisation of inherent risk",
+      "section": "5I",
+      "oneLine": "An unavoidable inherent risk can exclude negligence liability, but not a distinct duty to warn.",
+      "plain": "An inherent risk is one that reasonable care and skill cannot avoid. If that risk materialises, negligence liability is excluded for the resulting harm. A danger that was simply not avoided is not necessarily inherent. The statute preserves any liability connected with a duty to warn.",
+      "concreteExplanation": "Illustrative hypothetical: A treatment complication may occur even with reasonable skill. That can raise s 5I for the occurrence of the complication. If there should have been a warning about the complication, that warning question remains separate.",
+      "conditions": [
+        "The harm resulted from materialisation of the identified risk.",
+        "The risk could not be avoided by reasonable care and skill."
+      ],
+      "exceptions": [
+        "The section does not exclude liability connected with a duty to warn of the risk."
+      ],
+      "limits": [
+        "Inherent does not mean merely usual, obvious, or statistically possible."
+      ],
+      "examUse": "Test whether reasonable care could have avoided the risk, then preserve any warning issue.",
+      "pitfalls": [
+        "Do not confuse unavoidable risk with avoidable careless performance."
+      ],
+      "weeks": [
+        9
+      ],
+      "topics": [
+        "obvious-and-inherent-risk"
+      ],
+      "text": "(1) A person is not liable in negligence for harm suffered by another person as a result of\n    the materialisation of an inherent risk.\n\n(2) An inherent risk is a risk of something occurring that cannot be avoided by the\n    exercise of reasonable care and skill.\n\n(3) This section does not operate to exclude liability in connection with a duty to warn of\n    a risk.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        17
+      ],
+      "textSha256": "43b42798028724fd85afa44a30af3e9d345083f3029c1fe6c426b804c3348fff"
+    },
+    {
+      "listId": "torts-provision-13",
+      "ref": "civil-liability-act-2002-nsw-s5k",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5K  Definitions",
+      "section": "5K",
+      "oneLine": "The recreational defence definitions include leisure broadly but require significant physical risk for dangerous activities.",
+      "plain": "Recreational activity includes sport, leisure pursuits, and activities at places where people ordinarily engage in sport or leisure. A dangerous recreational activity is one involving a significant risk of physical harm. Obvious risk uses the Division 4 meaning. The activity’s actual character and the relevant risk must still be examined.",
+      "concreteExplanation": "Illustrative hypothetical: A person playing an informal sport can be engaged in a recreational activity even without an organised competition. Whether it is dangerous requires a separate assessment of significant physical risk; the label sport does not settle it.",
+      "conditions": [
+        "Dangerous recreational activity: recreational activity involving a significant risk of physical harm.",
+        "Recreational activity includes organised or unorganised sport, enjoyment/relaxation/leisure pursuits, and relevant activities at ordinary recreation places.",
+        "Obvious risk has the Division 4 meaning."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Recreational and dangerous recreational are different thresholds."
+      ],
+      "examUse": "Define the activity before applying s 5L or a recreational risk warning.",
+      "pitfalls": [
+        "Do not assume every recreational activity is dangerous."
+      ],
+      "weeks": [
+        9,
+        12
+      ],
+      "topics": [
+        "obvious-and-inherent-risk"
+      ],
+      "text": "In this Division—\n\ndangerous recreational activity means a recreational activity that involves a\nsignificant risk of physical harm.\n\nobvious risk has the same meaning as it has in Division 4.\n\nrecreational activity includes—\n\n(a) any sport (whether or not the sport is an organised activity), and\n\n(b) any pursuit or activity engaged in for enjoyment, relaxation or leisure, and\n\n(c) any pursuit or activity engaged in at a place (such as a beach, park or other public\n    open space) where people ordinarily engage in sport or in any pursuit or activity for\n    enjoyment, relaxation or leisure.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        17
+      ],
+      "textSha256": "91a10b0ac2d2d160cc0506a18feb2b025b7fa7646f8c56a1d7e020e7363665b6"
+    },
+    {
+      "listId": "torts-provision-14",
+      "ref": "civil-liability-act-2002-nsw-s5l",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5L  No liability for harm suffered from obvious risks of dangerous recreational activities",
+      "section": "5L",
+      "oneLine": "An obvious risk of a dangerous recreational activity can exclude liability even without the claimant’s actual awareness.",
+      "plain": "The defendant is not liable in negligence for harm from the materialisation of an obvious risk of a dangerous recreational activity undertaken by the claimant. Both the activity and the risk need to be identified with care. Actual knowledge of the risk by this claimant is not required.",
+      "concreteExplanation": "Illustrative hypothetical: A rider is injured during a high-risk recreational event. Decide whether the event was a dangerous recreational activity and whether the actual injury arose from an obvious risk of that activity. A general statement that riding is risky is not enough.",
+      "conditions": [
+        "The claimant engaged in a dangerous recreational activity under s 5K.",
+        "The relevant risk was obvious under s 5F.",
+        "The harm resulted from materialisation of that risk."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Actual awareness is immaterial under subsection (2).",
+        "The actual risk must be matched to the risk that caused the harm."
+      ],
+      "examUse": "Work through activity, dangerousness, obviousness and materialisation separately.",
+      "pitfalls": [
+        "Do not use the claimant’s lack of subjective awareness as a complete answer.",
+        "Do not characterise the risk so broadly that the actual negligent danger disappears."
+      ],
+      "weeks": [
+        6,
+        9,
+        12
+      ],
+      "topics": [
+        "obvious-and-inherent-risk"
+      ],
+      "text": "(1) A person (the defendant) is not liable in negligence for harm suffered by another\n    person (the plaintiff) as a result of the materialisation of an obvious risk of a\n\n     dangerous recreational activity engaged in by the plaintiff.\n\n(2) This section applies whether or not the plaintiff was aware of the risk.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "textSha256": "9e7058d4cf5bb3f787f9896560447bff562e62803847f2b71878cbdfcce85250"
+    },
+    {
+      "listId": "torts-provision-15",
+      "ref": "civil-liability-act-2002-nsw-s5m",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5M  No duty of care for recreational activity where risk warning",
+      "section": "5M",
+      "oneLine": "A qualifying recreational risk warning can remove a duty, but its many statutory limits matter.",
+      "plain": "A warning can remove a duty to take care regarding a recreational risk if it is likely to warn people before they undertake the activity. It can be spoken, written or general, and actual receipt or understanding need not be proved. However, there are special rules for incapable people and limits involving the warning’s source, safety legislation, contradictory assurances and compulsory participation.",
+      "concreteExplanation": "Illustrative hypothetical: A climbing operator displays a warning but then expressly tells a customer that the warned-of danger cannot occur. The contradiction can prevent reliance on the warning to that extent. A young child also requires the special recipient rules to be checked.",
+      "conditions": [
+        "A recreational activity and the particular risk are identified.",
+        "The warning is given in a way reasonably likely to warn people before participation.",
+        "A general warning must cover the general nature of the relevant risk.",
+        "The warning is by/on behalf of the defendant or the occupier.",
+        "For an incapable person, subsection (2)(a) requires control or accompaniment by a person who is neither incapable nor the defendant, and a warning to that other person; alternatively, (2)(b) permits a warning to a parent whether or not the parent controls or accompanies the person.",
+        "An incapable person lacks capacity to understand the warning because of young age or physical or mental disability. A parent is a person with parental responsibility who is not an incapable person.",
+        "The warning may be oral or written, including a sign."
+      ],
+      "exceptions": [
+        "No reliance if it is established on the balance of probabilities that the harm resulted from contravention of a State or Commonwealth written-law provision establishing specific practices or procedures for personal safety.",
+        "No reliance to the extent the warning was contradicted by the defendant’s risk representation.",
+        "No reliance if the defendant required the claimant to undertake the activity."
+      ],
+      "limits": [
+        "Actual receipt, understanding or capacity to understand need not be proved under subsection (3).",
+        "A warning does not itself prove that a risk is non-obvious/non-inherent or create a duty to take precautions.",
+        "The section preserves the effect of warnings for non-recreational activities."
+      ],
+      "examUse": "Treat this as a multi-step statutory warning analysis, not a sign-equals-immunity shortcut.",
+      "pitfalls": [
+        "Do not omit subsections (2), (6)–(9) and (12).",
+        "Do not confuse a risk warning with a contractual waiver."
+      ],
+      "weeks": [
+        6,
+        9,
+        12
+      ],
+      "topics": [
+        "obvious-and-inherent-risk"
+      ],
+      "text": "(1) A person (the defendant) does not owe a duty of care to another person who\n    engages in a recreational activity (the plaintiff) to take care in respect of a risk of the\n    activity if the risk was the subject of a risk warning to the plaintiff.\n\n(2) If the person who suffers harm is an incapable person, the defendant may rely on a\n    risk warning only if—\n\n     (a) the incapable person was under the control of or accompanied by another person\n         (who is not an incapable person and not the defendant) and the risk was the\n         subject of a risk warning to that other person, or\n\n     (b) the risk was the subject of a risk warning to a parent of the incapable person\n         (whether or not the incapable person was under the control of or accompanied by\n         the parent).\n\n(3) For the purposes of subsections (1) and (2), a risk warning to a person in relation to a\n    recreational activity is a warning that is given in a manner that is reasonably likely to\n    result in people being warned of the risk before engaging in the recreational activity.\n    The defendant is not required to establish that the person received or understood the\n    warning or was capable of receiving or understanding the warning.\n\n(4) A risk warning can be given orally or in writing (including by means of a sign or\n    otherwise).\n\n(5) A risk warning need not be specific to the particular risk and can be a general warning\n    of risks that include the particular risk concerned (so long as the risk warning warns of\n    the general nature of the particular risk).\n\n(6) A defendant is not entitled to rely on a risk warning unless it is given by or on behalf\n    of the defendant or by or on behalf of the occupier of the place where the recreational\n    activity is engaged in.\n\n(7) A defendant is not entitled to rely on a risk warning if it is established (on the balance\n    of probabilities) that the harm concerned resulted from a contravention of a provision\n    of a written law of the State or Commonwealth that establishes specific practices or\n    procedures for the protection of personal safety.\n\n(8) A defendant is not entitled to rely on a risk warning to a person to the extent that the\n    warning was contradicted by any representation as to risk made by or on behalf of the\n    defendant to the person.\n\n(9) A defendant is not entitled to rely on a risk warning if the plaintiff was required to\n\n     engage in the recreational activity by the defendant.\n\n(10) The fact that a risk is the subject of a risk warning does not of itself mean—\n\n     (a) that the risk is not an obvious or inherent risk of an activity, or\n\n     (b) that a person who gives the risk warning owes a duty of care to a person who\n         engages in an activity to take precautions to avoid the risk of harm from the\n         activity.\n\n(11) This section does not limit or otherwise affect the effect of a risk warning in respect\n    of a risk of an activity that is not a recreational activity.\n\n(12) In this section—\n\n     incapable person means a person who, because of the person’s young age or a\n     physical or mental disability, lacks the capacity to understand the risk warning.\n\n     parent of an incapable person means any person (not being an incapable person)\n     having parental responsibility for the incapable person.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "textSha256": "57c55aea01fe63cb88dbffc0b8737b8adba21eec77c6e798d34679d7d6a05e30"
+    },
+    {
+      "listId": "torts-provision-16",
+      "ref": "civil-liability-act-2002-nsw-s5o",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5O  Standard of care for professionals",
+      "section": "5O",
+      "oneLine": "A professional can rely on competent practice widely accepted by Australian peers, unless that opinion is irrational.",
+      "plain": "For a professional service, the relevant practice must have been widely accepted in Australia by peer professional opinion as competent at the time of service. It need not have been universally accepted, and more than one widely accepted view may exist. The court can reject irrational peer opinion. Warning/advice liabilities require s 5P to be checked.",
+      "concreteExplanation": "Illustrative hypothetical: Two competent schools of professional practice coexist. The existence of a different accepted approach does not alone defeat reliance on the approach actually used. But evidence of acceptance must relate to the time of the service, and irrational opinion cannot be relied on.",
+      "conditions": [
+        "A person practising a profession provides a professional service.",
+        "The manner of acting was, at that time, widely accepted in Australia by peer professional opinion as competent practice."
+      ],
+      "exceptions": [
+        "Peer opinion cannot be relied upon if the court considers it irrational.",
+        "Section 5P excludes the specified warning, advice and information liabilities from this Division."
+      ],
+      "limits": [
+        "Universal acceptance is unnecessary.",
+        "Differing widely accepted opinions may each be relied upon."
+      ],
+      "examUse": "Identify the professional practice, timing, peer evidence and irrationality issue before concluding.",
+      "pitfalls": [
+        "Do not treat any expert’s personal approval as widely accepted peer practice.",
+        "Do not use s 5O to dispose of a warning claim without s 5P."
+      ],
+      "weeks": [
+        9
+      ],
+      "topics": [
+        "professional-negligence"
+      ],
+      "text": "(1) A person practising a profession (a professional) does not incur a liability in\n    negligence arising from the provision of a professional service if it is established that\n    the professional acted in a manner that (at the time the service was provided) was\n    widely accepted in Australia by peer professional opinion as competent professional\n    practice.\n\n(2) However, peer professional opinion cannot be relied on for the purposes of this\n    section if the court considers that the opinion is irrational.\n\n(3) The fact that there are differing peer professional opinions widely accepted in\n    Australia concerning a matter does not prevent any one or more (or all) of those\n    opinions being relied on for the purposes of this section.\n\n(4) Peer professional opinion does not have to be universally accepted to be considered\n    widely accepted.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        20
+      ],
+      "textSha256": "db60901372787bd5b90a20c04f272dc52357594e7e7efb2d28f706fe2f822199"
+    },
+    {
+      "listId": "torts-provision-17",
+      "ref": "civil-liability-act-2002-nsw-s5p",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5P  Division does not apply to duty to warn of risk",
+      "section": "5P",
+      "oneLine": "The peer-practice Division does not govern specified professional risk warnings, advice or information.",
+      "plain": "Division 6 does not apply to liability connected with giving or failing to give a warning, advice or information about the risk of a person’s death or injury associated with a professional service. This keeps the warning question outside the peer-practice protection of s 5O. It does not itself establish breach or causation.",
+      "concreteExplanation": "Illustrative hypothetical: A patient challenges the lack of information about a surgical risk rather than the surgeon’s operative technique. Separate the two allegations: the warning claim is governed by its applicable warning principles, not simply by peer approval of the technique.",
+      "conditions": [
+        "Liability is connected with giving or failing to give a warning, advice or other information.",
+        "The information concerns a risk of death or injury associated with provision of a professional service."
+      ],
+      "exceptions": [],
+      "limits": [
+        "It excludes the Division’s operation for the specified liability; it does not create automatic liability."
+      ],
+      "examUse": "Use to separate professional performance and professional warning issues.",
+      "pitfalls": [
+        "Do not treat peer acceptance as a complete answer to a failure-to-warn allegation."
+      ],
+      "weeks": [
+        9,
+        11
+      ],
+      "topics": [
+        "professional-negligence",
+        "scope-of-liability"
+      ],
+      "text": "This Division does not apply to liability arising in connection with the giving of (or the\nfailure to give) a warning, advice or other information in respect of the risk of death of or\ninjury to a person associated with the provision by a professional of a professional service.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        20
+      ],
+      "textSha256": "2527c9893953aa50a6014a7435eb2158197e2f624f98b7f28893fa96e3ee5969"
+    },
+    {
+      "listId": "torts-provision-18",
+      "ref": "civil-liability-act-2002-nsw-s5q",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5Q  Liability based on non-delegable duty",
+      "section": "5Q",
+      "oneLine": "An existing non-delegable duty is measured as if liability were vicarious for the delegate’s negligence.",
+      "plain": "Where a person breaches a non-delegable duty to ensure reasonable care in entrusted work, the extent of their tort liability is determined as if they were vicariously liable for the person performing that work. The section expressly applies to tort actions beyond negligence despite s 5A. It does not identify every relationship in which a non-delegable duty exists.",
+      "concreteExplanation": "Illustrative hypothetical: A school entrusts a task to another person. First establish whether the school owed the relevant non-delegable duty. If it did, analyse the delegate’s negligence and the statutory extent of the school’s liability; do not assume delegation itself discharged the duty.",
+      "conditions": [
+        "A non-delegable duty to ensure reasonable care is established.",
+        "Work or a task was delegated or otherwise entrusted by the defendant.",
+        "Liability concerns negligence in connection with performance of that work or task."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Applies to an action in tort whether or not it is an action in negligence.",
+        "Does not itself create a non-delegable-duty category."
+      ],
+      "examUse": "After establishing the duty category, explain the statutory basis for measuring liability.",
+      "pitfalls": [
+        "Do not call s 5Q a universal rule making principals liable for every independent contractor."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "non-delegable-duty",
+        "vicarious-liability"
+      ],
+      "text": "(1) The extent of liability in tort of a person (the defendant) for breach of a non-\n    delegable duty to ensure that reasonable care is taken by a person in the carrying out\n    of any work or task delegated or otherwise entrusted to the person by the defendant\n    is to be determined as if the liability were the vicarious liability of the defendant for\n    the negligence of the person in connection with the performance of the work or task.\n\n(2) This section applies to an action in tort whether or not it is an action in negligence,\n    despite anything to the contrary in section 5A.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        20
+      ],
+      "textSha256": "180550da444fc690ead1536270a3f7ed25e84fde9f28cc38b8d5a45de164bd08"
+    },
+    {
+      "listId": "torts-provision-19",
+      "ref": "civil-liability-act-2002-nsw-s5r",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5R  Standard of contributory negligence",
+      "section": "5R",
+      "oneLine": "Assess the claimant’s self-protection with negligence principles and the reasonable person in their position.",
+      "plain": "Contributory negligence asks whether the injured person failed to take precautions against the risk of their own harm. Apply the negligence principles, judged against a reasonable person in the claimant’s position, using what they knew or ought to have known at the time. This is a separate inquiry from the defendant’s breach.",
+      "concreteExplanation": "Illustrative hypothetical: An injured passenger did not use an available seatbelt. Identify what a reasonable passenger in that position would have done about the risk and what was known then; only after establishing contributory negligence consider the appropriate reduction.",
+      "conditions": [
+        "A failure by the claimant to take precautions against the risk of their harm.",
+        "The reasonable-person standard in that claimant’s position.",
+        "Knowledge assessed at the relevant time."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The amount of reduction is a further question, not specified by s 5R alone."
+      ],
+      "examUse": "Analyse the claimant’s conduct separately, then address causation and apportionment.",
+      "pitfalls": [
+        "Do not automatically find contributory negligence merely because the claimant was injured.",
+        "Do not select a percentage before explaining the conduct and its contribution."
+      ],
+      "weeks": [
+        12
+      ],
+      "topics": [
+        "contributory-negligence"
+      ],
+      "text": "(1) The principles that are applicable in determining whether a person has been negligent\n    also apply in determining whether the person who suffered harm has been\n\n     contributorily negligent in failing to take precautions against the risk of that harm.\n\n(2) For that purpose—\n\n     (a) the standard of care required of the person who suffered harm is that of a\n         reasonable person in the position of that person, and\n\n     (b) the matter is to be determined on the basis of what that person knew or ought to\n         have known at the time.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        20,
+        21
+      ],
+      "textSha256": "5d8fb506aa0b5afdd0501d477d151979bb45c87a29172040bb69a207a9576b5f"
+    },
+    {
+      "listId": "torts-provision-20",
+      "ref": "civil-liability-act-2002-nsw-s5s",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 5S  Contributory negligence can defeat claim",
+      "section": "5S",
+      "oneLine": "Contributory negligence can reduce damages by 100% if that is just and equitable.",
+      "plain": "The court has power to make a complete reduction for contributory negligence. It must consider a 100% reduction just and equitable; the section does not require complete defeat whenever the claimant was careless. It modifies the assumption that contributory negligence can only produce a partial reduction.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant’s own conduct is found overwhelmingly responsible. A complete reduction is legally available, but the answer still has to justify why 100%, rather than a smaller reduction, is just and equitable on these facts.",
+      "conditions": [
+        "A reduction by reason of contributory negligence is being determined.",
+        "The court considers a 100% reduction just and equitable."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The power is discretionary, not an automatic outcome."
+      ],
+      "examUse": "Mention when discussing the outer limit of contributory-negligence apportionment.",
+      "pitfalls": [
+        "Do not state that contributory negligence can never defeat a NSW claim."
+      ],
+      "weeks": [
+        12
+      ],
+      "topics": [
+        "contributory-negligence"
+      ],
+      "text": "In determining the extent of a reduction in damages by reason of contributory negligence,\na court may determine a reduction of 100% if the court thinks it just and equitable to do\nso, with the result that the claim for damages is defeated.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        21
+      ],
+      "textSha256": "4799bdc9066db543949b6932b3a5935d25ff461081c03242be0ecc2c1750c411"
+    },
+    {
+      "listId": "torts-provision-21",
+      "ref": "civil-liability-act-2002-nsw-s6g",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 6G  Employees include persons exercising functions akin to employees",
+      "section": "6G",
+      "oneLine": "For organisational child-abuse liability, employee includes an integral, beneficial worker akin to an employee.",
+      "plain": "In this Division, an individual can count as an employee without a conventional employment contract if their activities are integral to, and benefit, the organisation. The statute excludes recognisably independent businesses and specified authorised carers, subject to regulations. This is a Division-specific expansion, not a replacement definition for all employment law.",
+      "concreteExplanation": "Illustrative hypothetical: A volunteer performs an integral role for an organisation’s benefit. That relationship can meet the akin-to-employee test even without wages. A genuinely independent business or an authorised carer acting in that capacity needs the express exclusions checked.",
+      "conditions": [
+        "The individual’s activities are integral to the organisation’s activities.",
+        "Those activities benefit the organisation.",
+        "The expanded definition operates in Division 3 of Part 1B."
+      ],
+      "exceptions": [
+        "Activities of a recognisably independent business are excluded.",
+        "Activities in the capacity of an authorised carer are excluded, subject to the statutory definition.",
+        "Regulations may prescribe inclusion or exclusion despite subsections (2) and (3)."
+      ],
+      "limits": [
+        "An authorised carer has the Care and Protection Act meaning, except a person authorised only because they are principal officer of a designated agency.",
+        "The s 6H connection with abuse must still be established."
+      ],
+      "examUse": "Use for the relationship limb of Part 1B vicarious liability, keeping common-law employment analysis distinct.",
+      "pitfalls": [
+        "Do not assume every volunteer or contractor is included.",
+        "Do not export this expanded definition to every vicarious-liability question."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "vicarious-liability"
+      ],
+      "text": "(1) In this Division—\n\n     employee of an organisation includes an individual who is akin to an employee of the\n     organisation.\n\n(2) An individual is akin to an employee of an organisation if the individual carries out\n    activities as an integral part of the activities carried on by the organisation and does\n    so for the benefit of the organisation.\n\n(3) However, an individual is not akin to an employee if—\n\n     (a) the activities are carried out for a recognisably independent business of the\n         individual or of another person or organisation, or\n\n     (b) the activities carried on by the individual are the activities of an authorised carer\n         carried on in the individual’s capacity as an authorised carer.\n\n(4) The regulations may, despite subsections (2) and (3), prescribe circumstances in\n    which an individual will be akin to an employee or not akin to an employee.\n\n(5) In this section—\n\n     authorised carer means a person who is an authorised carer within the meaning of\n     the Children and Young Persons (Care and Protection) Act 1998 other than a person\n     who is an authorised carer only because the person is the principal officer of a\n     designated agency.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        24
+      ],
+      "textSha256": "b63cfdda34665b45e8cd9bf2e0b6d8edccb2ee7df73b3d64220f1424e78ac7b2"
+    },
+    {
+      "listId": "torts-provision-22",
+      "ref": "civil-liability-act-2002-nsw-s6h",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 6H  Organisations vicariously liable for child abuse perpetrated by employees",
+      "section": "6H",
+      "oneLine": "Organisational liability requires an employee’s entrusted role to supply the occasion for child abuse which the employee exploits.",
+      "plain": "The organisation is vicariously liable when the apparent performance of the role in which it placed the employee supplied the occasion for the abuse, and the employee took advantage of that occasion. Consider authority, power or control, the child’s trust, and the ability to achieve intimacy. This statutory route exists in addition to the common law.",
+      "concreteExplanation": "Illustrative hypothetical: A person is placed in a trusted supervisory role over children and uses the access and authority of that role to abuse a child. Examine how the role supplied the occasion and how it was exploited; employment and opportunity in an abstract sense are not the whole analysis.",
+      "conditions": [
+        "An employee, including the s 6G category.",
+        "Apparent performance of the organisationally assigned role supplies the occasion for child abuse.",
+        "The employee takes advantage of that occasion.",
+        "Consider authority/power/control, the child’s trust and ability to achieve intimacy."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Child abuse means sexual or physical abuse against a child, excluding an act lawful when done.",
+        "The provision supplements rather than displaces the common law.",
+        "Commencement and temporal application must be checked where historic abuse is in issue; do not assume retrospectivity."
+      ],
+      "examUse": "Structure the answer as relationship, role/occasion, exploitation, and any temporal issue.",
+      "pitfalls": [
+        "Do not treat all misconduct by an employee as satisfying the role connection."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "vicarious-liability"
+      ],
+      "text": "(1) An organisation is vicariously liable for child abuse perpetrated against a child by an\n    employee of the organisation if—\n\n     (a) the apparent performance by the employee of a role in which the organisation\n         placed the employee supplies the occasion for the perpetration of the child abuse\n         by the employee, and\n\n     (b) the employee takes advantage of that occasion to perpetrate the child abuse on\n         the child.\n\n(2) In determining if the apparent performance by the employee of a role in which the\n    organisation placed the employee supplied the occasion for the perpetration of child\n    abuse on a child, a court is to take into account whether the organisation placed the\n    employee in a position in which the employee has one or more of the following—\n\n     (a) authority, power or control over the child,\n\n     (b) the trust of the child,\n\n     (c) the ability to achieve intimacy with the child.\n\n(3) This section does not affect, and is in addition to, the common law as it applies with\n    respect to vicarious liability.\n\n(4) In this section—\n\n     child abuse means sexual abuse or physical abuse perpetrated against a child but\n     does not include any act that is lawful at the time that it takes place.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        24,
+        25
+      ],
+      "textSha256": "897de3cf70b6e8dc5281a259b1890302a45f0723222f31383a071b14610771cf"
+    },
+    {
+      "listId": "torts-provision-23",
+      "ref": "civil-liability-act-2002-nsw-s27",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 27  Definitions",
+      "section": "27",
+      "oneLine": "Part 3 distinguishes standalone mental harm from mental harm consequent on another personal injury.",
+      "plain": "Mental harm means impairment of mental condition. Consequential mental harm follows another kind of personal injury; pure mental harm is mental harm other than consequential mental harm. Part 3 also defines negligence and personal injury. Classifying the harm determines which later statutory restrictions need analysis.",
+      "concreteExplanation": "Illustrative hypothetical: A person develops psychiatric illness after witnessing another person’s accident but suffers no separate bodily injury: consider pure mental harm. Psychiatric consequences of that person’s own fractured leg raise consequential mental harm instead.",
+      "conditions": [
+        "Mental harm: impairment of mental condition.",
+        "Consequential mental harm: consequence of another kind of personal injury.",
+        "Pure mental harm: mental harm other than consequential mental harm.",
+        "Personal injury includes prenatal injury, physical/mental impairment and disease; negligence is failure of reasonable care and skill."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Definitions do not themselves prove a recognised psychiatric illness, duty or causation."
+      ],
+      "examUse": "Classify the mental-harm claim before applying ss 30, 31 and 32.",
+      "pitfalls": [
+        "Do not confuse the victim’s physical injury with a physical injury suffered by the claimant."
+      ],
+      "weeks": [
+        6
+      ],
+      "topics": [
+        "mental-harm"
+      ],
+      "text": "In this Part—\n\nconsequential mental harm means mental harm that is a consequence of a personal\ninjury of any other kind.\n\nmental harm means impairment of a person’s mental condition.\n\nnegligence means failure to exercise reasonable care and skill.\n\npersonal injury includes—\n\n(a) pre-natal injury, and\n\n(b) impairment of a person’s physical or mental condition, and\n\n(c) disease.\n\npure mental harm means mental harm other than consequential mental harm.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        62,
+        63
+      ],
+      "textSha256": "2a4ab6ad53c73212800f6d79292f50004a4e989e43a25a5243612e8e6747c293"
+    },
+    {
+      "listId": "torts-provision-24",
+      "ref": "civil-liability-act-2002-nsw-s29",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 29  Personal injury arising from mental or nervous shock",
+      "section": "29",
+      "oneLine": "Personal injury is not unrecoverable merely because it arose from mental or nervous shock.",
+      "plain": "A claimant is not barred from personal-injury damages just because mental or nervous shock caused some or all of the injury. This removes a particular objection; the relevant cause of action and other applicable statutory requirements remain necessary.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant’s personal injury followed shock rather than a direct physical impact. That feature alone does not prevent recovery. You still apply the applicable duty, illness, causation and other statutory requirements.",
+      "conditions": [
+        "An action for personal injury.",
+        "The injury arose wholly or partly from mental or nervous shock."
+      ],
+      "exceptions": [],
+      "limits": [
+        "This is not automatic recovery for distress.",
+        "The section does not remove the other restrictions relevant to the claim."
+      ],
+      "examUse": "Use when the mechanism of personal injury is mental or nervous shock.",
+      "pitfalls": [
+        "Do not mistake removal of one bar for proof of every negligence element."
+      ],
+      "weeks": [
+        6
+      ],
+      "topics": [
+        "mental-harm"
+      ],
+      "text": "In any action for personal injury, the plaintiff is not prevented from recovering damages\nmerely because the personal injury arose wholly or in part from mental or nervous shock.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        63
+      ],
+      "textSha256": "aa4f9892e92a4c25ac43964edd4ab47214881cb172573de8f7a3187858eaa9d6"
+    },
+    {
+      "listId": "torts-provision-25",
+      "ref": "civil-liability-act-2002-nsw-s30",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 30  Limitation on recovery for pure mental harm arising from shock",
+      "section": "30",
+      "oneLine": "Shock-connected pure mental harm requires scene witnessing or close family, with linked reductions and bars.",
+      "plain": "For pure mental harm arising wholly or partly from shock connected with another person being killed, injured or put in peril by the defendant’s act or omission, the claimant must have witnessed it at the scene or be a close family member. The victim’s contributory-negligence reduction also reduces this claimant’s damages proportionately; a legal bar preventing recovery by or through the victim also prevents recovery here. The family and partner definitions must be checked precisely.",
+      "concreteExplanation": "Illustrative hypothetical: A sibling who did not witness the accident may satisfy the family route. An unrelated person must consider the scene-witness route. If the victim’s damages would be reduced for contributory negligence, subsection (3) affects the psychiatric-harm damages too.",
+      "conditions": [
+        "Pure mental harm arising wholly or partly from shock in connection with another victim’s death, injury or peril caused by the defendant.",
+        "Either scene witnessing or close-family membership.",
+        "Close family includes a parent or person with parental responsibility; spouse/partner; child, stepchild or anyone for whom the victim has parental responsibility; brother, sister, half-brother, half-sister, stepbrother or stepsister."
+      ],
+      "exceptions": [
+        "A bar to recovery by or through the victim under written or unwritten law also bars these damages."
+      ],
+      "limits": [
+        "Reduce damages in the same proportion as the victim’s contributory-negligence reduction.",
+        "Spouse/partner includes legal spouse or de facto partner, with only the last person qualifying where more than one otherwise qualifies.",
+        "Do not treat the section as applying to every mental-harm claim irrespective of its opening conditions."
+      ],
+      "examUse": "Check scope, gateway, definitions, linked reduction and linked bar in that order.",
+      "pitfalls": [
+        "Do not stop at subsection (2).",
+        "Do not substitute friend, cousin or any relative for the statutory close-family definition."
+      ],
+      "weeks": [
+        6
+      ],
+      "topics": [
+        "mental-harm"
+      ],
+      "text": "(1) This section applies to the liability of a person (the defendant) for pure mental harm\n    to a person (the plaintiff) arising wholly or partly from mental or nervous shock in\n    connection with another person (the victim) being killed, injured or put in peril by the\n    act or omission of the defendant.\n\n(2) The plaintiff is not entitled to recover damages for pure mental harm unless—\n\n     (a) the plaintiff witnessed, at the scene, the victim being killed, injured or put in peril,\n         or\n\n     (b) the plaintiff is a close member of the family of the victim.\n\n(3) Any damages to be awarded to the plaintiff for pure mental harm are to be reduced in\n    the same proportion as any reduction in the damages that may be recovered from the\n    defendant by or through the victim on the basis of the contributory negligence of the\n    victim.\n\n(4) No damages are to be awarded to the plaintiff for pure mental harm if the recovery of\n    damages from the defendant by or through the victim in respect of the act or omission\n    would be prevented by any provision of this Act or any other written or unwritten law.\n\n(5) In this section—\n\n     close member of the family of a victim means—\n\n     (a) a parent of the victim or other person with parental responsibility for the victim, or\n\n     (b) the spouse or partner of the victim, or\n\n     (c) a child or stepchild of the victim or any other person for whom the victim has\n         parental responsibility, or\n\n     (d) a brother, sister, half-brother or half-sister, or stepbrother or stepsister of the\n         victim.\n\n     spouse or partner means—\n\n     (a) the person to whom the victim is legally married (including the husband or wife of\n         the victim), or\n\n     (b) a de facto partner,\n\n     but where more than one person would so qualify as a spouse or partner, means only\n     the last person to so qualify.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        63,
+        64
+      ],
+      "textSha256": "efa8787b113de090a45509ee81375c231352fc03f252a8ecac1507f658a479a7"
+    },
+    {
+      "listId": "torts-provision-26",
+      "ref": "civil-liability-act-2002-nsw-s31",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 31  Pure mental harm—liability only for recognised psychiatric illness",
+      "section": "31",
+      "oneLine": "Pure mental harm from negligence must be a recognised psychiatric illness.",
+      "plain": "Grief, fear and distress alone do not satisfy this damages threshold for pure mental harm resulting from negligence. The harm must consist of a recognised psychiatric illness. Establishing that illness still leaves duty, causation and the other applicable requirements to prove.",
+      "concreteExplanation": "Illustrative hypothetical: A witness is deeply upset after an accident. That alone does not establish s 31. Evidence that the witness has a recognised psychiatric illness is needed before this statutory damages threshold is satisfied.",
+      "conditions": [
+        "Pure mental harm resulting from negligence.",
+        "The harm consists of a recognised psychiatric illness."
+      ],
+      "exceptions": [],
+      "limits": [
+        "A diagnostic threshold is not proof of a duty or factual causation."
+      ],
+      "examUse": "Address early so ordinary distress is not analysed as an established psychiatric-injury claim.",
+      "pitfalls": [
+        "Do not equate severe emotions with a legally recognised psychiatric illness."
+      ],
+      "weeks": [
+        6
+      ],
+      "topics": [
+        "mental-harm"
+      ],
+      "text": "There is no liability to pay damages for pure mental harm resulting from negligence\nunless the harm consists of a recognised psychiatric illness.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        64
+      ],
+      "textSha256": "cb0f81c6dd15ef807622c45cde2d1ba311bce3778cb3b7946cfa2b7ec6f8f326"
+    },
+    {
+      "listId": "torts-provision-27",
+      "ref": "civil-liability-act-2002-nsw-s32",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 32  Mental harm—duty of care",
+      "section": "32",
+      "oneLine": "Mental-harm duty depends on foreseeable recognised psychiatric illness, considering the claimant’s circumstances and known fortitude.",
+      "plain": "The defendant must have been able to foresee that a person of normal fortitude might suffer recognised psychiatric illness if reasonable care were not taken. For pure harm, the statute identifies shock, scene witnessing and relevant relationships as circumstances, rather than compulsory standalone elements. For consequential harm, consider the personal injury. Known vulnerability is not to be ignored.",
+      "concreteExplanation": "Illustrative hypothetical: An employer knows a worker is particularly vulnerable and sends them into a traumatic situation. The normal-fortitude formulation does not require the court to disregard that knowledge. Analyse the actual circumstances and any relevant relationship.",
+      "conditions": [
+        "Foreseeability of recognised psychiatric illness to a person of normal fortitude in the circumstances if care were not taken.",
+        "For pure mental harm, consider sudden shock, scene witnessing, claimant–victim relationship and any pre-existing claimant–defendant relationship.",
+        "For consequential mental harm, consider the claimant’s personal injury."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Subsection (4) preserves what the defendant knew or ought to have known about the claimant’s fortitude.",
+        "The listed circumstances are not a rigid four-element checklist."
+      ],
+      "examUse": "Explain the foreseeable psychiatric consequence and weigh the relevant statutory circumstances.",
+      "pitfalls": [
+        "Do not demand sudden shock or direct perception in every s 32 claim.",
+        "Do not ignore known susceptibility."
+      ],
+      "weeks": [
+        6
+      ],
+      "topics": [
+        "mental-harm"
+      ],
+      "text": "(1) A person (the defendant) does not owe a duty of care to another person (the\n    plaintiff) to take care not to cause the plaintiff mental harm unless the defendant\n    ought to have foreseen that a person of normal fortitude might, in the circumstances\n    of the case, suffer a recognised psychiatric illness if reasonable care were not taken.\n\n(2) For the purposes of the application of this section in respect of pure mental harm, the\n    circumstances of the case include the following—\n\n     (a) whether or not the mental harm was suffered as the result of a sudden shock,\n\n     (b) whether the plaintiff witnessed, at the scene, a person being killed, injured or put\n         in peril,\n\n     (c) the nature of the relationship between the plaintiff and any person killed, injured\n         or put in peril,\n\n     (d) whether or not there was a pre-existing relationship between the plaintiff and the\n         defendant.\n\n(3) For the purposes of the application of this section in respect of consequential mental\n    harm, the circumstances of the case include the personal injury suffered by the\n    plaintiff.\n\n(4) This section does not require the court to disregard what the defendant knew or ought\n    to have known about the fortitude of the plaintiff.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        64,
+        65
+      ],
+      "textSha256": "e1ec5e189e78b470949c303cb64df5178301661c27b3a02d49f8f13f5313cb10"
+    },
+    {
+      "listId": "torts-provision-28",
+      "ref": "civil-liability-act-2002-nsw-s34",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 34  Application of Part",
+      "section": "34",
+      "oneLine": "Part 4 is limited to defined economic/property claims and concurrent wrongdoers, excluding personal-injury claims.",
+      "plain": "Proportionate liability applies to the specified economic-loss or property-damage claims arising from a failure to take reasonable care, and to the specified misleading-conduct claims. Subsection (1)(a) excludes any claim arising out of personal injury. Multiple causes of action for the same loss form a single apportionable claim. Insolvency, winding-up, cessation of existence or death of a concurrent wrongdoer does not prevent the Part operating. The specified Home Building Act statutory-warranty claims are excluded.",
+      "concreteExplanation": "Illustrative hypothetical: Two advisers independently contribute to the same investment loss. First test whether the claim is apportionable under s 34. A separate bodily-injury claim cannot simply be placed in the same scheme, and a Home Building Act statutory-warranty claim needs its express exclusion checked.",
+      "conditions": [
+        "A claim within subsection (1): specified careless economic/property loss, or the listed Fair Trading/ACL misleading-conduct category.",
+        "Concurrent wrongdoers are two or more persons whose acts or omissions caused the same loss, independently or jointly.",
+        "The same loss forms one apportionable claim despite multiple causes of action."
+      ],
+      "exceptions": [
+        "Personal-injury claims are excluded from subsection (1)(a).",
+        "Specified Part 2C Home Building Act 1989 statutory-warranty claims brought by a beneficiary are excluded by subsection (3A)."
+      ],
+      "limits": [
+        "Only subsection (1) claims are apportionable.",
+        "Insolvency, winding-up, cessation of existence or death of a wrongdoer does not prevent operation.",
+        "The full text preserves the historical Fair Trading Act reference alongside ACL (NSW) s 18."
+      ],
+      "examUse": "Determine the scope of Part 4 before apportioning liability under s 35.",
+      "pitfalls": [
+        "Do not apply proportionate liability to all multiple-defendant negligence claims.",
+        "Do not confuse contribution between tortfeasors with liability limited at the claimant-facing stage."
+      ],
+      "weeks": [
+        7,
+        10,
+        12
+      ],
+      "topics": [
+        "proportionate-liability",
+        "pure-economic-loss"
+      ],
+      "text": "(1) This Part applies to the following claims (apportionable claims)—\n\n      (a) a claim for economic loss or damage to property in an action for damages\n          (whether in contract, tort or otherwise) arising from a failure to take reasonable\n          care, but not including any claim arising out of personal injury,\n\n      (b) a claim for economic loss or damage to property in an action for damages under\n          the Fair Trading Act 1987 for a contravention of section 42 of that Act (as in force\n          before its repeal by the Fair Trading Amendment (Australian Consumer Law) Act\n          2010) or under the Australian Consumer Law (NSW) for a contravention of section\n          18 of that Law.\n\n(1A) For the purposes of this Part, there is a single apportionable claim in proceedings in\n    respect of the same loss or damage even if the claim for the loss or damage is based\n    on more than one cause of action (whether or not of the same or a different kind).\n\n(2) In this Part, a concurrent wrongdoer, in relation to a claim, is a person who is one\n    of two or more persons whose acts or omissions (or act or omission) caused,\n    independently of each other or jointly, the damage or loss that is the subject of the\n    claim.\n\n(3) For the purposes of this Part, apportionable claims are limited to those claims\n    specified in subsection (1).\n\n(3A) This Part does not apply to a claim in an action for damages arising from a breach of\n    statutory warranty under Part 2C of the Home Building Act 1989 and brought by a\n    person having the benefit of the statutory warranty.\n\n(4) For the purposes of this Part it does not matter that a concurrent wrongdoer is\n    insolvent, is being wound up or has ceased to exist or died.\n\n(5)    (Repealed)",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        65,
+        66
+      ],
+      "textSha256": "27931c49b1f585d80440fe1925733d7beafda6f07f805a586f2f028b60eb5714"
+    },
+    {
+      "listId": "torts-provision-29",
+      "ref": "civil-liability-act-2002-nsw-s35",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 35  Proportionate liability for apportionable claims",
+      "section": "35",
+      "oneLine": "For an apportionable claim, each concurrent wrongdoer’s liability is capped at the responsibility share the court finds just.",
+      "plain": "Once Part 4 applies, the defendant’s liability is limited to a just share reflecting their responsibility. Separate apportionable from non-apportionable claims, remove the claimant’s contributory-negligence proportion before apportioning among defendants, and consider other concurrent wrongdoers even if they are not parties. The statute does not prescribe an automatic numerical formula.",
+      "concreteExplanation": "Illustrative hypothetical: After excluding the claimant’s own share, the court evaluates each adviser’s responsibility for the remaining economic loss. An absent or insolvent concurrent wrongdoer does not automatically cause the sued adviser to pay that missing share under this Part.",
+      "conditions": [
+        "An apportionable claim under s 34.",
+        "The defendant is a concurrent wrongdoer.",
+        "Judgment does not exceed the amount reflecting the just responsibility proportion.",
+        "Exclude the claimant’s contributory-negligence proportion in apportioning between defendants."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Mixed proceedings require different treatment of non-apportionable claims.",
+        "The court may consider a concurrent wrongdoer who is not a party; not all need be joined.",
+        "Defendant includes a joined defendant or other party except a plaintiff."
+      ],
+      "examUse": "Explain the order of reductions and why the selected shares reflect responsibility.",
+      "pitfalls": [
+        "Do not make up percentages without factual reasoning.",
+        "Do not treat the example calculation as a judicial outcome prediction."
+      ],
+      "weeks": [
+        7,
+        10,
+        12
+      ],
+      "topics": [
+        "proportionate-liability"
+      ],
+      "text": "(1) In any proceedings involving an apportionable claim—\n\n     (a) the liability of a defendant who is a concurrent wrongdoer in relation to that claim\n         is limited to an amount reflecting that proportion of the damage or loss claimed\n         that the court considers just having regard to the extent of the defendant’s\n         responsibility for the damage or loss, and\n\n     (b) the court may give judgment against the defendant for not more than that\n         amount.\n\n(2) If the proceedings involve both an apportionable claim and a claim that is not an\n    apportionable claim—\n\n     (a) liability for the apportionable claim is to be determined in accordance with the\n         provisions of this Part, and\n\n     (b) liability for the other claim is to be determined in accordance with the legal rules,\n         if any, that (apart from this Part) are relevant.\n\n(3) In apportioning responsibility between defendants in the proceedings—\n\n     (a) the court is to exclude that proportion of the damage or loss in relation to which\n         the plaintiff is contributorily negligent under any relevant law, and\n\n     (b) the court may have regard to the comparative responsibility of any concurrent\n         wrongdoer who is not a party to the proceedings.\n\n(4) This section applies in proceedings involving an apportionable claim whether or not all\n    concurrent wrongdoers are parties to the proceedings.\n\n(5) A reference in this Part to a defendant in proceedings includes any person joined as a\n    defendant or other party in the proceedings (except as a plaintiff) whether joined\n    under this Part, under rules of court or otherwise.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        66,
+        67
+      ],
+      "textSha256": "9ccdf63b6febead0f6eeb5e62bfc63fb39de09923e52d53b53f5ca5e8bedb3e4"
+    },
+    {
+      "listId": "torts-provision-30",
+      "ref": "civil-liability-act-2002-nsw-s41",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 41  Definitions",
+      "section": "41",
+      "oneLine": "Part 5 defines public authorities and functions broadly, including specified public-official roles.",
+      "plain": "Public or other authority includes the Crown, government departments, public health organisations, local councils, statutory public/local authorities, and the specified regulatory categories. A person with public-official functions can qualify in relation to those functions even without public employment. Function includes powers, authorities and duties; exercising a function includes performing a duty.",
+      "concreteExplanation": "Illustrative hypothetical: A private individual exercises a statutory public-official function. Ask whether the claim concerns that function before deciding whether the person falls within Part 5; their private activities are not automatically covered.",
+      "conditions": [
+        "Identify a category in the statutory definition.",
+        "For the public-official-function category, connect the relevant conduct to that function.",
+        "Check any applicable prescribed persons, bodies, functions or classes."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Status as a covered authority does not automatically establish every Part 5 protection.",
+        "The definitions of function and exercise extend to duties."
+      ],
+      "examUse": "Identify the defendant and relevant function before applying ss 42–46.",
+      "pitfalls": [
+        "Do not restrict Part 5 only to conventional government employees.",
+        "Do not assume all acts by an official are covered."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "public-authorities"
+      ],
+      "text": "In this Part—\n\nexercise a function includes perform a duty.\n\nfunction includes a power, authority or duty.\n\npublic or other authority means—\n\n(a) the Crown (within the meaning of the Crown Proceedings Act 1988), or\n\n(b) a Government department, or\n\n(c) a public health organisation within the meaning of the Health Services Act 1997, or\n\n(d) a local council, or\n\n(e) any public or local authority constituted by or under an Act, or\n\n(e1) any person having public official functions or acting in a public official capacity\n    (whether or not employed as a public official), but only in relation to the exercise of\n    the person’s public official functions, or\n\n(f) a person or body prescribed (or of a class prescribed) by the regulations as an\n    authority to which this Part applies (in respect of all or specified functions), or\n\n(g) any person or body in respect of the exercise of public or other functions of a class\n    prescribed by the regulations for the purposes of this Part.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        68,
+        69
+      ],
+      "textSha256": "c6e175eb5541f3a247214413be6ee8a264bb68a5195e3ae8dbbf9d44ebeb4860"
+    },
+    {
+      "listId": "torts-provision-31",
+      "ref": "civil-liability-act-2002-nsw-s42",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 42  Principles concerning resources, responsibilities etc of public or other authorities",
+      "section": "42",
+      "oneLine": "Duty and breach for authorities account for available resources, general allocation, whole responsibilities and compliance evidence.",
+      "plain": "What an authority must do is limited by reasonably available financial and other resources. The general allocation of those resources is not open to challenge. Assess its functions against its broad range of activities rather than this problem alone. Evidence of compliance with general procedures and applicable standards can support proper performance, but is evidence rather than an automatic conclusion.",
+      "concreteExplanation": "Illustrative hypothetical: A council has many facilities requiring inspection. Assess the proposed inspection burden against its available resources and broad responsibilities, rather than assuming all resources should have been concentrated on the place where this accident occurred.",
+      "conditions": [
+        "The principles operate when determining duty or breach in relevant Part 5 proceedings.",
+        "Consider reasonably available financial and other resources.",
+        "Do not challenge general resource allocation.",
+        "Consider the broad range of the authority’s activities.",
+        "The authority may rely on compliance evidence."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The section does not itself mean an authority can never be negligent.",
+        "Compliance evidence is not expressed as conclusive proof."
+      ],
+      "examUse": "Apply to both duty and breach where relevant, tying each resource claim to the evidence.",
+      "pitfalls": [
+        "Do not turn limited resources into an unexplained blanket immunity."
+      ],
+      "weeks": [
+        8,
+        9
+      ],
+      "topics": [
+        "public-authorities",
+        "breach"
+      ],
+      "text": "The following principles apply in determining whether a public or other authority has a\nduty of care or has breached a duty of care in proceedings for civil liability to which this\nPart applies—\n\n(a) the functions required to be exercised by the authority are limited by the financial and\n    other resources that are reasonably available to the authority for the purpose of\n    exercising those functions,\n\n(b) the general allocation of those resources by the authority is not open to challenge,\n\n(c) the functions required to be exercised by the authority are to be determined by\n    reference to the broad range of its activities (and not merely by reference to the\n    matter to which the proceedings relate),\n\n(d) the authority may rely on evidence of its compliance with the general procedures and\n    applicable standards for the exercise of its functions as evidence of the proper\n    exercise of its functions in the matter to which the proceedings relate.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        69
+      ],
+      "textSha256": "66eb82fb823d374bc4825c3ba61546174ce17601fc27662c1487ef8cbfd020a7"
+    },
+    {
+      "listId": "torts-provision-32",
+      "ref": "civil-liability-act-2002-nsw-s43",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 43  Proceedings against public or other authorities based on breach of statutory duty",
+      "section": "43",
+      "oneLine": "Breach-of-statutory-duty proceedings against an authority require the specified very unreasonable conduct threshold.",
+      "plain": "Where the liability is based on breach of an authority’s statutory duty, an act or omission does not breach that duty unless it was so unreasonable that no authority with those functions could properly view it as a reasonable exercise. This is more demanding than simply finding a better available course. Regulatory functions also require s 44.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant argues that a council breached a statutory duty to act. It is not enough to say the claimant would have preferred more action: explain why no authority with those functions could properly consider this response reasonable.",
+      "conditions": [
+        "Relevant civil liability is based on breach of statutory duty.",
+        "The conduct is connected with exercise or failure to exercise an authority function.",
+        "Apply the statutory so-unreasonable threshold."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The cause of action and statutory duty must first be identified.",
+        "For prohibition/regulation functions, s 44 applies in addition."
+      ],
+      "examUse": "Use for statutory-duty liability; distinguish it from ordinary negligence and the special-power question.",
+      "pitfalls": [
+        "Do not cite s 43 as if every negligence claim against an authority were necessarily a breach-of-statutory-duty action."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "public-authorities"
+      ],
+      "text": "(1) This section applies to proceedings for civil liability to which this Part applies to the\n    extent that the liability is based on a breach of a statutory duty by a public or other\n    authority in connection with the exercise of or a failure to exercise a function of the\n    authority.\n\n(2) For the purposes of any such proceedings, an act or omission of the authority does\n    not constitute a breach of statutory duty unless the act or omission was in the\n    circumstances so unreasonable that no authority having the functions of the authority\n    in question could properly consider the act or omission to be a reasonable exercise of\n    its functions.\n\n(3) In the case of a function of a public or other authority to prohibit or regulate an\n    activity, this section applies in addition to section 44.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        69,
+        70
+      ],
+      "textSha256": "75448d58cc46fbe19b32c263dc153d48861174c0e9a325973f653686e73fb1c1"
+    },
+    {
+      "listId": "torts-provision-33",
+      "ref": "civil-liability-act-2002-nsw-s43a",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 43A  Proceedings against public or other authorities for the exercise of special statutory powers",
+      "section": "43A",
+      "oneLine": "Special statutory powers attract a stringent unreasonableness threshold for relevant civil liability.",
+      "plain": "A special statutory power is conferred by statute and is of a kind ordinary people cannot exercise without specific statutory authority. Liability based on exercising or failing to exercise such a power requires conduct so unreasonable that no authority with that power could properly consider it reasonable. The statute covers both action and inaction.",
+      "concreteExplanation": "Illustrative hypothetical: Issuing a statutory licence can involve a special power. Putting up an ordinary barrier may be something anyone can do. Identify the actual power before applying the stringent threshold; do not rely solely on the defendant being a council.",
+      "conditions": [
+        "A power conferred by or under statute.",
+        "A kind of power people generally cannot exercise without specific statutory authority.",
+        "Liability is based on its exercise or non-exercise.",
+        "The act/omission satisfies the statutory so-unreasonable threshold."
+      ],
+      "exceptions": [],
+      "limits": [
+        "For prohibition/regulation powers, s 44 operates in addition.",
+        "A statutory source alone does not satisfy the second limb of special statutory power."
+      ],
+      "examUse": "Identify the source and character of the precise power before applying subsection (3).",
+      "pitfalls": [
+        "Do not call every activity of a statutory authority a special statutory power."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "public-authorities"
+      ],
+      "text": "(1) This section applies to proceedings for civil liability to which this Part applies to the\n    extent that the liability is based on a public or other authority’s exercise of, or failure\n    to exercise, a special statutory power conferred on the authority.\n\n(2) A special statutory power is a power—\n\n     (a) that is conferred by or under a statute, and\n\n     (b) that is of a kind that persons generally are not authorised to exercise without\n         specific statutory authority.\n\n(3) For the purposes of any such proceedings, any act or omission involving an exercise\n    of, or failure to exercise, a special statutory power does not give rise to civil liability\n    unless the act or omission was in the circumstances so unreasonable that no authority\n    having the special statutory power in question could properly consider the act or\n    omission to be a reasonable exercise of, or failure to exercise, its power.\n\n(4) In the case of a special statutory power of a public or other authority to prohibit or\n    regulate an activity, this section applies in addition to section 44.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        70
+      ],
+      "textSha256": "526a1b6ab96eb6a65643aabe451d5c6742f1ce9c4345f9bea639f685af2a1d17"
+    },
+    {
+      "listId": "torts-provision-34",
+      "ref": "civil-liability-act-2002-nsw-s44",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 44  When public or other authority not liable for failure to exercise regulatory functions",
+      "section": "44",
+      "oneLine": "An authority is protected for relevant regulatory inaction if this claimant could not have compelled it to act.",
+      "plain": "For a claim based on failure to prohibit or regulate an activity, the authority is not liable if proceedings by the claimant could not have required exercise of the function. Regulatory functions expressly include licensing, permits, registration and other authorisation. This is a particular protection for failure to act, not a general rule about every negligent positive act.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant says the authority should have revoked another person’s licence. Ask whether that claimant could have required the authority to exercise the function in proceedings; do not assume the existence of a power created an enforceable obligation.",
+      "conditions": [
+        "Liability is based on failure to exercise or consider exercising a prohibition/regulation function.",
+        "The authority could not have been required to exercise it in proceedings instituted by this claimant."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Licensing, permits, registration and authorisation fall within regulation.",
+        "Sections 43 and 43A can operate alongside this protection."
+      ],
+      "examUse": "Analyse the claimant’s ability to compel action and the nature of the regulatory failure.",
+      "pitfalls": [
+        "Do not equate discretion to regulate with a privately enforceable duty to do so."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "public-authorities"
+      ],
+      "text": "(1) A public or other authority is not liable in proceedings for civil liability to which this\n    Part applies to the extent that the liability is based on the failure of the authority to\n    exercise or to consider exercising any function of the authority to prohibit or regulate\n    an activity if the authority could not have been required to exercise the function in\n    proceedings instituted by the plaintiff.\n\n(2) Without limiting what constitutes a function to regulate an activity for the purposes of\n    this section, a function to issue a licence, permit or other authority in respect of an\n    activity, or to register or otherwise authorise a person in connection with an activity,\n    constitutes a function to regulate the activity.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        70
+      ],
+      "textSha256": "762e82a8cfac551c58c86a594472a9d9927569cab48b52b5cfe6ed54ea45e332"
+    },
+    {
+      "listId": "torts-provision-35",
+      "ref": "civil-liability-act-2002-nsw-s45",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 45  Special non-feasance protection for roads authorities",
+      "section": "45",
+      "oneLine": "Roads-authority non-feasance protection requires actual knowledge of the particular risk before the statutory bar can be displaced.",
+      "plain": "A roads authority is protected for failure to carry out or consider road work unless it actually knew, at the relevant time, of the particular risk that materialised. Merely showing what it ought to have known is insufficient for this exception. Actual knowledge does not itself create a duty or change the otherwise applicable standard of care.",
+      "concreteExplanation": "Illustrative hypothetical: A pothole causes injury. Distinguish a failure to inspect or repair from negligent positive work, and identify evidence that the relevant authority actually knew of this particular risk before the failure. General awareness that roads deteriorate is not the stated test.",
+      "conditions": [
+        "A roads authority as defined by the Roads Act 1993.",
+        "Harm from failure to carry out or consider road work.",
+        "Exception requires actual knowledge, at that time, of the particular risk that materialised."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Actual knowledge neither creates a duty by itself nor changes the applicable standard.",
+        "Carry out road work includes any activity connected with construction, erection, installation, maintenance, inspection, repair, removal or replacement of a road work within the Roads Act 1993 meaning."
+      ],
+      "examUse": "Separate non-feasance, actual knowledge, duty and breach; use the supplied case treatment for whose knowledge counts.",
+      "pitfalls": [
+        "Do not replace actual knowledge with ought to have known.",
+        "Do not treat knowledge as automatic liability."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "public-authorities"
+      ],
+      "text": "(1) A roads authority is not liable in proceedings for civil liability to which this Part applies\n\n     for harm arising from a failure of the authority to carry out road work, or to consider\n     carrying out road work, unless at the time of the alleged failure the authority had\n     actual knowledge of the particular risk the materialisation of which resulted in the\n     harm.\n\n(2) This section does not operate—\n\n     (a) to create a duty of care in respect of a risk merely because a roads authority has\n         actual knowledge of the risk, or\n\n     (b) to affect any standard of care that would otherwise be applicable in respect of a\n         risk.\n\n(3) In this section—\n\n     carry out road work means carry out any activity in connection with the\n     construction, erection, installation, maintenance, inspection, repair, removal or\n     replacement of a road work within the meaning of the Roads Act 1993.\n\n     roads authority has the same meaning as in the Roads Act 1993.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        70,
+        71
+      ],
+      "textSha256": "62bb10f9ba8de51eede0ba888433fd690ddf41c33a39ab726bc07683c3977e99"
+    },
+    {
+      "listId": "torts-provision-36",
+      "ref": "civil-liability-act-2002-nsw-s46",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 46  Exercise of function or decision to exercise does not create duty",
+      "section": "46",
+      "oneLine": "Exercising or deciding to exercise a function does not itself establish a duty about exercising it.",
+      "plain": "An authority’s choice to act, or its prior exercise of a power, does not alone show that it had a duty to exercise the function in those circumstances or in a particular way. Other facts and legal principles may still establish a duty or breach; this section simply prevents the choice itself doing all the work.",
+      "concreteExplanation": "Illustrative hypothetical: A council once inspected a site. That fact alone does not establish a duty to inspect on every later occasion. Look for the relationship, statutory framework and other relevant features instead.",
+      "conditions": [
+        "Proceedings to which Part 5 applies.",
+        "Reliance on exercise or a decision to exercise a function as indicating a duty."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The words of itself preserve a wider contextual duty analysis."
+      ],
+      "examUse": "Use when the argument relies on the authority having acted or chosen to act before.",
+      "pitfalls": [
+        "Do not infer a complete immunity from a provision that rejects only one automatic inference."
+      ],
+      "weeks": [
+        8
+      ],
+      "topics": [
+        "public-authorities"
+      ],
+      "text": "In proceedings to which this Part applies, the fact that a public or other authority exercises\nor decides to exercise a function does not of itself indicate that the authority is under a\nduty to exercise the function or that the function should be exercised in particular\ncircumstances or in a particular way.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        71
+      ],
+      "textSha256": "c2ccf6c329ad252afb586f55ec1f1bb2feec30f2416017a4820d478f05611984"
+    },
+    {
+      "listId": "torts-provision-37",
+      "ref": "civil-liability-act-2002-nsw-s50",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 50  No recovery where person intoxicated",
+      "section": "50",
+      "oneLine": "Impairing intoxication can bar recovery or trigger at least a 25% reduction, subject to the statutory qualifications.",
+      "plain": "The relevant intoxicated person is the person whose death, injury or damage is the subject of the proceedings, which may differ from the person bringing the claim. If intoxication impaired that person’s capacity for reasonable care and skill at the causative act or omission, damages are barred unless the court is satisfied that the death, injury or property damage—or some other injury or property damage—was likely even without intoxication. If that hurdle is passed, contributory negligence is presumed unless the court is satisfied that intoxication contributed in no way. Where the presumption applies, the reduction is at least 25%. The section does not apply if the court is satisfied that intoxication was not self-induced.",
+      "concreteExplanation": "Illustrative hypothetical: An intoxicated pedestrian proves an unavoidable collision was likely even if sober. Recovery is not automatically intact: determine whether intoxication contributed in any way and whether the statutory presumption and minimum reduction apply.",
+      "conditions": [
+        "At the time of the causative act or omission, the person whose death, injury or damage is in issue was intoxicated to the extent that capacity for reasonable care and skill was impaired.",
+        "To recover, establish the statutory likely-even-if-sober counterfactual.",
+        "If recovery survives, test the contributory-negligence presumption."
+      ],
+      "exceptions": [
+        "The presumption can be displaced if intoxication did not contribute in any way.",
+        "The section does not apply where the court is satisfied intoxication was not self-induced."
+      ],
+      "limits": [
+        "The minimum 25% reduction operates when the presumption applies, not in every case involving alcohol.",
+        "The precise counterfactual wording includes some other injury or property damage."
+      ],
+      "examUse": "Apply the bar, presumption and percentage stages in order, preserving subsection (5).",
+      "pitfalls": [
+        "Do not impose a universal 25% discount merely because the claimant drank.",
+        "Do not skip the initial recovery hurdle."
+      ],
+      "weeks": [
+        12
+      ],
+      "topics": [
+        "illegality-and-intoxication",
+        "contributory-negligence"
+      ],
+      "text": "(1) This section applies when it is established that the person whose death, injury or\n    damage is the subject of proceedings for the recovery of damages was at the time of\n    the act or omission that caused the death, injury or damage intoxicated to the extent\n    that the person’s capacity to exercise reasonable care and skill was impaired.\n\n(2) A court is not to award damages in respect of liability to which this Part applies unless\n    satisfied that the death, injury or damage to property (or some other injury or damage\n    to property) is likely to have occurred even if the person had not been intoxicated.\n\n(3) If the court is satisfied that the death, injury or damage to property (or some other\n    injury or damage to property) is likely to have occurred even if the person had not\n    been intoxicated, it is to be presumed that the person was contributorily negligent\n    unless the court is satisfied that the person’s intoxication did not contribute in any\n    way to the cause of the death, injury or damage.\n\n(4) When there is a presumption of contributory negligence, the court must assess\n    damages on the basis that the damages to which the person would be entitled in the\n    absence of contributory negligence are to be reduced on account of contributory\n    negligence by 25% or a greater percentage determined by the court to be appropriate\n    in the circumstances of the case.\n\n(5) This section does not apply in a case where the court is satisfied that the intoxication\n    was not self-induced.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        72
+      ],
+      "textSha256": "56819d4f8d8e80d5a431417438b446311f3592dba46e3461ab21a57c21343667"
+    },
+    {
+      "listId": "torts-provision-38",
+      "ref": "civil-liability-act-2002-nsw-s54",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 54  Criminals not to be awarded damages",
+      "section": "54",
+      "oneLine": "A materially contributing serious offence by the claimant can bar damages, except where the defendant’s causative conduct is an offence.",
+      "plain": "The bar concerns conduct of the person whose death, injury or damage is the subject of the proceedings. That harm must occur at the time of or after conduct that, on the balance of probabilities, constitutes an offence punishable by at least six months’ imprisonment; the conduct must materially contribute to the harm or its risk. The bar does not apply against a defendant whose causative conduct constitutes any offence, serious or otherwise. Criminal proceedings and conviction are unnecessary, including where prosecution is not possible. The Felons (Civil Proceedings) Act 1981 remains unaffected.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant is hurt during conduct punishable by six months or more. Do not stop at criminality: assess material contribution and whether the defendant’s conduct causing the injury was also an offence. The latter offence need not itself be serious.",
+      "conditions": [
+        "The relevant person is the person whose death, injury or damage is the subject of the proceedings; that person’s conduct constitutes a serious offence on the balance of probabilities.",
+        "The harm occurred at the time of or following that conduct.",
+        "The conduct materially contributed to the harm or its risk."
+      ],
+      "exceptions": [
+        "The section does not apply where the defendant’s causative conduct constitutes an offence, serious or otherwise."
+      ],
+      "limits": [
+        "A serious offence is punishable by six months’ imprisonment or more.",
+        "The section operates whether or not a person whose conduct is alleged to be an offence has been, will be, or is capable of being proceeded against or convicted.",
+        "The Felons (Civil Proceedings) Act 1981 is unaffected.",
+        "The source note says ss 52 and 53 can still prevent or limit recovery despite the defendant’s offence; those provisions are contextual, not added to the examinable filter."
+      ],
+      "examUse": "Analyse statutory seriousness, timing, material contribution and the defendant-offence exception separately.",
+      "pitfalls": [
+        "Do not treat any illegality as automatically barring recovery.",
+        "Do not demand a criminal conviction."
+      ],
+      "weeks": [
+        12
+      ],
+      "topics": [
+        "illegality-and-intoxication"
+      ],
+      "text": "(1) A court is not to award damages in respect of liability to which this Part applies if the\n    court is satisfied that—\n\n     (a) the death of, or the injury or damage to, the person that is the subject of the\n         proceedings occurred at the time of, or following, conduct of that person that, on\n         the balance of probabilities, constitutes a serious offence, and\n\n     (b) that conduct contributed materially to the death, injury or damage or to the risk of\n         death, injury or damage.\n\n(2) This section does not apply to an award of damages against a defendant if the\n    conduct of the defendant that caused the death, injury or damage concerned\n    constitutes an offence (whether or not a serious offence).\n\n(3) A serious offence is an offence punishable by imprisonment for 6 months or more.\n\n(4) This section does not affect the operation of the Felons (Civil Proceedings) Act 1981.\n\n(5) This section operates whether or not a person whose conduct is alleged to constitute\n    an offence has been, will be or is capable of being proceeded against or convicted of\n    any offence concerned.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "sourceNotes": [
+        "Sections 52 and 53 can apply to prevent or limit recovery of damages even though the defendant’s conduct constitutes an offence."
+      ],
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        74
+      ],
+      "textSha256": "00484dabfd21a18ddb4179b58ea24b7ee92f805f14040719bcdfb203cafa08fe"
+    },
+    {
+      "listId": "torts-provision-39",
+      "ref": "civil-liability-act-2002-nsw-s55",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 55  Application of Part",
+      "section": "55",
+      "oneLine": "The good-samaritan Part applies to civil liability of any kind, subject to s 3B exclusions.",
+      "plain": "Part 8 is not confined by its application clause to negligence as a cause of action. However, any liability excluded from this Part by s 3B remains outside it. The application clause is only the entry point: the definition, emergency protection and exclusions in ss 56–58 still need analysis.",
+      "concreteExplanation": "Illustrative hypothetical: A claim against a volunteer is given a legal label other than negligence. Check Part 8’s broad application and s 3B before assuming that label avoids the good-samaritan provisions.",
+      "conditions": [
+        "Civil liability of any kind.",
+        "No applicable s 3B exclusion from this Part."
+      ],
+      "exceptions": [
+        "Liability excluded by s 3B remains excluded."
+      ],
+      "limits": [
+        "This provision alone does not confer immunity."
+      ],
+      "examUse": "Use before the definition and protection in ss 56–58.",
+      "pitfalls": [
+        "Do not assume every volunteer is protected just because Part 8 applies."
+      ],
+      "weeks": [
+        6,
+        12
+      ],
+      "topics": [
+        "good-samaritans"
+      ],
+      "text": "(1) This Part applies to civil liability of any kind.\n\n(2) This Part does not apply to civil liability that is excluded from the operation of this Part\n    by section 3B.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        78
+      ],
+      "textSha256": "3eb0535cf482fdaf9bbb80c2758863298950b3a304ba2352b270957615a6b763"
+    },
+    {
+      "listId": "torts-provision-40",
+      "ref": "civil-liability-act-2002-nsw-s56",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 56  Who is a good samaritan",
+      "section": "56",
+      "oneLine": "A good samaritan helps an apparently injured or endangered person in good faith without expecting reward.",
+      "plain": "The definition requires good faith, no expectation of payment or other reward, and assistance to someone apparently injured or at risk of injury. It is not confined to medically qualified people. Meeting this definition is the first step; the emergency protection and its exclusions must then be considered.",
+      "concreteExplanation": "Illustrative hypothetical: An off-duty nurse voluntarily helps a stranger who appears injured and expects no payment. She may meet the definition. A paid on-duty response or a person acting for reward needs different analysis.",
+      "conditions": [
+        "Good faith.",
+        "No expectation of payment or other reward.",
+        "Assistance to a person apparently injured or at risk of being injured."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Meeting the definition does not dispense with the emergency requirement in s 57 or the exclusions in s 58."
+      ],
+      "examUse": "Establish the rescuer’s status before applying the personal-liability protection.",
+      "pitfalls": [
+        "Do not make professional qualifications or a pre-existing friendship prerequisites.",
+        "Do not call self-rescue assistance to another."
+      ],
+      "weeks": [
+        6,
+        12
+      ],
+      "topics": [
+        "good-samaritans"
+      ],
+      "text": "For the purposes of this Part, a good samaritan is a person who, in good faith and\nwithout expectation of payment or other reward, comes to the assistance of a person who\nis apparently injured or at risk of being injured.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        78
+      ],
+      "textSha256": "450555bd0cbb9dd652a7541134634c73135805c4e92571ab7a95e393a78711ed"
+    },
+    {
+      "listId": "torts-provision-41",
+      "ref": "civil-liability-act-2002-nsw-s57",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 57  Protection of good samaritans",
+      "section": "57",
+      "oneLine": "A good samaritan receives personal civil-liability protection for emergency assistance, without removing another person’s vicarious liability.",
+      "plain": "A person meeting s 56 is protected personally for acts or omissions in an emergency while helping someone apparently injured or endangered. The protection must be read with s 58. It does not affect another person’s vicarious liability for the rescuer’s acts or omissions.",
+      "concreteExplanation": "Illustrative hypothetical: A genuine unpaid rescuer makes a careless mistake while providing emergency help. Personal liability may be protected, but examine the exclusions and keep any other person’s vicarious liability separate.",
+      "conditions": [
+        "A good samaritan under s 56.",
+        "An act or omission in an emergency.",
+        "Assistance to someone apparently injured or at risk."
+      ],
+      "exceptions": [
+        "Section 58 removes protection in its specified circumstances."
+      ],
+      "limits": [
+        "Only the rescuer’s personal liability is protected; subsection (2) preserves another person’s vicarious liability."
+      ],
+      "examUse": "Apply after the definition, then test each exclusion that the facts raise.",
+      "pitfalls": [
+        "Do not omit subsection (2).",
+        "Do not assume every non-emergency volunteer service falls within this section."
+      ],
+      "weeks": [
+        6,
+        12
+      ],
+      "topics": [
+        "good-samaritans"
+      ],
+      "text": "(1) A good samaritan does not incur any personal civil liability in respect of any act or\n    omission done or made by the good samaritan in an emergency when assisting a\n    person who is apparently injured or at risk of being injured.\n\n(2) This section does not affect the vicarious liability of any other person for the acts or\n    omissions of the good samaritan.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        78,
+        79
+      ],
+      "textSha256": "b1ade65572a25334f19a4e95e944d5a26af45fb1a168bb33bdce763a37ed07b7"
+    },
+    {
+      "listId": "torts-provision-42",
+      "ref": "civil-liability-act-2002-nsw-s58",
+      "act": "Civil Liability Act 2002 (NSW)",
+      "sourceLine": "s 58  Exclusion from protection",
+      "section": "58",
+      "oneLine": "Good-samaritan protection is lost for a self-created danger, specified impairing intoxication plus lack of care, or false emergency expertise.",
+      "plain": "The protection does not cover a person whose intentional or negligent act or omission caused the original injury or risk. A second exclusion requires both significant impairment from voluntarily consumed alcohol/drugs and failure of reasonable care and skill. A third excludes impersonation of emergency/health/police personnel or false claims of relevant emergency skills. Voluntary medication can fall within the intoxication wording.",
+      "concreteExplanation": "Illustrative hypothetical: A helper whose intentional or negligent act caused the original injury or risk cannot rely on this protection. For a helper who voluntarily consumed medication, assess both significant impairment and failure of reasonable care and skill; drug use alone is insufficient. A person falsely claiming to be a paramedic raises the separate impersonation or false-skills exclusion.",
+      "conditions": [
+        "Exclusion (1): the helper’s intentional or negligent act/omission caused the injury or risk initially assisted.",
+        "Exclusion (2): voluntary alcohol/drug consumption significantly impaired care and skill, and the helper failed to use reasonable care and skill.",
+        "Exclusion (3): the act/omission occurred while impersonating specified workers or falsely claiming relevant emergency skills/expertise."
+      ],
+      "exceptions": [],
+      "limits": [
+        "Voluntarily consumed drugs include medication for subsection (2).",
+        "Mere consumption does not satisfy both limbs of subsection (2).",
+        "Loss of statutory protection is not itself proof of all elements of a tort."
+      ],
+      "examUse": "Test all factually raised exclusions without turning them into automatic tort liability.",
+      "pitfalls": [
+        "Do not omit subsection (3).",
+        "Do not say any alcohol or medication automatically removes protection."
+      ],
+      "weeks": [
+        6,
+        12
+      ],
+      "topics": [
+        "good-samaritans"
+      ],
+      "text": "(1) The protection from personal liability conferred by this Part does not apply if it is the\n    good samaritan’s intentional or negligent act or omission that caused the injury or risk\n    of injury in respect of which the good samaritan first comes to the assistance of the\n    person.\n\n(2) The protection from personal liability conferred by this Part in respect of an act or\n    omission does not apply if—\n\n     (a) the ability of the good samaritan to exercise reasonable care and skill was\n         significantly impaired by reason of the good samaritan being under the influence\n         of alcohol or a drug voluntarily consumed (whether or not it was consumed for\n         medication), and\n\n     (b) the good samaritan failed to exercise reasonable care and skill in connection with\n         the act or omission.\n\n(3) This Part does not confer protection from personal liability on a person in respect of\n    any act or omission done or made while the person is impersonating a health care or\n    emergency services worker or a police officer or is otherwise falsely representing that\n    the person has skills or expertise in connection with the rendering of emergency\n    assistance.",
+      "textStatus": "verbatim-provided-statute-extract",
+      "textComplete": true,
+      "sourceVersion": "Current version from 30 July 2026; official compilation accessed 7 September 2026 at 09:31, supplied with the course materials.",
+      "sources": [
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt"
+      ],
+      "verification": "primary-verified",
+      "verificationNote": "Operative text transcribed from the supplied official statute PDF. Formatting/page furniture removed; law-list scope retained. This verifies the supplied course version, not amendments after its access date.",
+      "textScope": "The entire listed section, including all operative subsections and definitions; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        79
+      ],
+      "textSha256": "0efd379b74c6bc084e99513d64be280a022a85fe5b2204000d9bb0ec7c7df8c9"
+    },
+    {
+      "listId": "torts-provision-43",
+      "ref": "law-reform-miscellaneous-provisions-act-1946-nsw-s5",
+      "act": "Law Reform (Miscellaneous Provisions) Act 1946 (NSW)",
+      "sourceLine": "s 5  Proceedings against and contribution between joint and several tort-feasors",
+      "section": "5",
+      "oneLine": "Section 5 regulates successive judgments, contribution between tortfeasors and the court’s power to allocate responsibility.",
+      "plain": "A judgment against one joint tortfeasor does not itself bar an action against another for the same damage. For the multiple actions specified in (1)(b), total damages cannot exceed the first judgment, and later-action costs need reasonable grounds. A liable tortfeasor may seek contribution from another who is or would have been liable for the same damage. The court allocates a just and equitable amount by responsibility, and may order no contribution or a complete indemnity. Indemnity obligations, appeal-adjusted judgments, Crown liability and the temporal rules must be checked.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant obtains a judgment against one of two jointly liable companies. Section 5(1)(a) permits a further action against the other, while (1)(b) limits aggregate damages and later-action costs. If one company seeks contribution, the court assesses responsibility rather than mechanically splitting the bill. It may exempt the other company or order a complete indemnity, but cannot grant contribution against a person whom the contributor is itself obliged to indemnify. If the first judgment is reversed or varied on appeal, use the adjusted statutory meaning of the first judgment.",
+      "conditions": [
+        "Damage was suffered as a result of a tort, whether or not also a crime.",
+        "Subsection (1)(a): the first judgment and later action concern the same damage, and the later defendant would, if sued, have been liable as a joint tortfeasor.",
+        "Subsection (1)(b): more than one action is brought by/on behalf of the injured person, or for the benefit of the estate, spouse, brother, sister, half-brother, half-sister, parent or child, against tortfeasors liable for the damage, jointly or otherwise.",
+        "Subsection (1)(c): the contributor and the other tortfeasor are, or the latter would if sued have been, liable for the same damage, jointly or otherwise.",
+        "Contribution is just and equitable having regard to the extent of responsibility for the damage; the court may exempt a person or order a complete indemnity.",
+        "Parent and child carry the Compensation to Relatives Act 1897 meanings. Spouse includes the de facto partner at death.",
+        "Where Crown vicarious liability arises under s 8 of the Law Reform (Vicarious Liability) Act 1983, Crown and tortfeasor are joint tortfeasors for this section."
+      ],
+      "exceptions": [
+        "No contribution may be recovered from a person whom the claimant for contribution must indemnify in respect of that liability.",
+        "Later-action costs under (1)(b) require the court to consider there was reasonable ground for bringing that action.",
+        "A reversed first judgment is replaced by the first judgment not reversed; a varied judgment is read as varied."
+      ],
+      "limits": [
+        "In the multiple actions within (1)(b), aggregate damages cannot exceed the damages awarded by the first judgment, read with the appeal rule in (3)(b).",
+        "The section does not apply to torts committed before commencement of Part 3.",
+        "The Crown/person joint-tortfeasor rule does not apply to the specified pre-commencement torts governed by s 8 of the Law Reform (Vicarious Liability) Act 1983.",
+        "The section leaves criminal proceedings unaffected and does not make an otherwise unenforceable indemnity agreement enforceable.",
+        "The 2002 relationships amendments do not apply where the tort occurred before their commencement.",
+        "Full wording was verified in the official 2017 compilation. Continuity into the 28 March 2026 version is an amendment-history inference: the sole listed change, 2025 No 61 Schedule 2.59, substitutes terminology in s 2(2), not s 5. Direct retrieval of the current whole-Act text returned HTTP 403."
+      ],
+      "examUse": "Distinguish claimant-facing liability, contribution and indemnity.",
+      "pitfalls": [
+        "Do not confuse contribution with Part 4 proportionate liability."
+      ],
+      "weeks": [
+        10,
+        12
+      ],
+      "topics": [
+        "proportionate-liability"
+      ],
+      "text": "(1) Where damage is suffered by any person as a result of a tort (whether a crime or not):\n\n(a) judgment recovered against any tort-feasor liable in respect of that damage shall not be a bar to an action against any other person who would, if sued, have been liable as a joint tort-feasor in respect of the same damage,\n\n(b) if more than one action is brought in respect of that damage by or on behalf of the person by whom it was suffered, or for the benefit of the estate, or of the spouse, brother, sister, half-brother, half-sister, parent or child, of that person, against tort-feasors liable in respect of the damage (whether as joint tort-feasors or otherwise) the sums recoverable under the judgments given in those actions by way of damages shall not in the aggregate exceed the amount of the damages awarded by the judgment first given; and in any of those actions, other than that in which judgment is first given, the plaintiff shall not be entitled to costs unless the court is of opinion that there was reasonable ground for bringing the action,\n\n(c) any tort-feasor liable in respect of that damage may recover contribution from any other tort-feasor who is, or would if sued have been, liable in respect of the same damage, whether as a joint tort-feasor or otherwise, so, however, that no person shall be entitled to recover contribution under this section from any person entitled to be indemnified by that person in respect of the liability in respect of which the contribution is sought.\n\n(2) In any proceedings for contribution under this section the amount of the contribution recoverable from any person shall be such as may be found by the court to be just and equitable having regard to the extent of that person’s responsibility for the damage; and the court shall have power to exempt any person from liability to make contribution, or to direct that the contribution to be recovered from any person shall amount to a complete indemnity.\n\n(3) For the purposes of this section:\n\n(a) the expressions “parent” and “child” have the same meanings as they have for the purposes of the Compensation to Relatives Act of 1897 as amended by subsequent Acts, and\n\n(b) the reference in this section to “the judgment first given” shall, in a case where that judgment is reversed on appeal, be construed as a reference to the judgment first given which is not so reversed and, in a case where a judgment is varied on appeal, be construed as a reference to that judgment as so varied, and\n\n(c) the expression spouse of a person includes the de facto partner of a person at the time of his or her death.\n\n(3A) For the purposes of this section, where a person commits a tort and the Crown is vicariously liable under section 8 of the Law Reform (Vicarious Liability) Act 1983 in respect of that tort, the Crown and the person are joint tort-feasors.\n\n(4) Nothing in this section shall:\n\n(a) apply with respect to any tort committed before the commencement of this Part, or\n\n(a1) apply so as to cause the Crown and a person in the service of the Crown to be joint tort-feasors with respect to a tort to which section 8 of the Law Reform (Vicarious Liability) Act 1983 applies committed before the day appointed and notified under section 2 (2) of the Law Reform (Vicarious Liability) Act 1983, or\n\n(b) affect any criminal proceedings against any person in respect of any wrongful act, or\n\n(c) render enforceable any agreement for indemnity which would not have been enforceable if this section had not been passed.\n\n(5) An amendment made to this section by the Miscellaneous Acts Amendment (Relationships) Act 2002 does not apply in respect of an action where the tort concerned occurred before the commencement of the amendment.",
+      "textStatus": "verbatim-official-indexed-statute-extract",
+      "textComplete": true,
+      "verification": "primary-verified",
+      "sourceVersion": "Full text: official compilation from 1 June 2017, accessed 2 and 4 October 2025, pp 5–6. Current metadata: version from 28 March 2026, accessed 25 September 2026. Section 5 continuity is inferred from the official amendment history and the passed-both-Houses text of 2025 No 61 Schedule 2.59 (a change to s 2(2) only).",
+      "sources": [
+        "content-src/laws2400-w10.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt",
+        "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-10-01/act-1946-033",
+        "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-10-04/act-1946-033",
+        "https://legislation.nsw.gov.au/view/whole/html/inforce/2026-03-28/act-1946-033",
+        "https://legislation.nsw.gov.au/view/xml/2002-11-01/act-1946-033/lh",
+        "https://legislation.nsw.gov.au/view/pdf/bill/3b7e327b-acc3-4c38-8e2a-f7292308733c"
+      ],
+      "verificationNote": "Every operative subsection (1), (2), (3), (3A), (4) and (5) was transcribed from official indexed PDF pages 5–6, including every paragraph, appeal adjustment, indemnity restriction and temporal qualification. Explanatory note retained separately. Currency is cross-checked as expressly described in sourceVersion; it is not a claim that a current whole-Act download succeeded.",
+      "sourceNotes": [
+        "“De facto partner” is defined in section 21C of the Interpretation Act 1987."
+      ],
+      "currencyVerification": "amendment-history-cross-check; current whole-Act text not directly retrieved",
+      "textScope": "The entire listed section, including every operative subsection, definition and qualification; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "textSha256": "e478b693b79f218f8f61e334b5cc40c43fdf5262ec01d4e9f28aff574484109b"
+    },
+    {
+      "listId": "torts-provision-44",
+      "ref": "law-reform-miscellaneous-provisions-act-1965-nsw-s8",
+      "act": "Law Reform (Miscellaneous Provisions) Act 1965 (NSW)",
+      "sourceLine": "s 8  Definitions",
+      "section": "8",
+      "oneLine": "Section 8 defines the terms governing the contributory-negligence apportionment Part.",
+      "plain": "These definitions govern Part 3. Claimant and contributory negligence refer to s 9(1); court means the court determining the claim, and damage includes death and personal injury. A wrong is either an act or omission creating tort liability for which common-law contributory negligence is available, or breach of a contractual care duty concurrent and co-extensive with a tort care duty. Not every tort or contractual breach meets that definition.",
+      "concreteExplanation": "Illustrative hypothetical: A claimant pleads careless professional advice in contract. Compare the actual contractual care duty with the tort duty: the contractual route in the definition of wrong requires them to be concurrent and co-extensive. If the claim instead sounds in tort, ask whether contributory negligence is available at common law for that tort. The definition of damage expressly includes personal injury and loss of life.",
+      "conditions": [
+        "Definitions apply in Part 3.",
+        "Claimant and contributory negligence: see s 9(1).",
+        "Court: the court by or before which the claim falls to be determined.",
+        "Damage includes loss of life and personal injury.",
+        "Wrong limb (a): an act or omission giving rise to tort liability for which contributory negligence is a common-law defence.",
+        "Wrong limb (b): breach of a contractual care duty concurrent and co-extensive with a tort care duty."
+      ],
+      "exceptions": [],
+      "limits": [
+        "The wrong definition is not every tort or every breach of contract.",
+        "Read with s 9 and any independently applicable CLA provisions."
+      ],
+      "examUse": "Read the definitions before applying s 9.",
+      "pitfalls": [
+        "Do not assume every contractual breach is a wrong under this Part."
+      ],
+      "weeks": [
+        12
+      ],
+      "topics": [
+        "contributory-negligence"
+      ],
+      "text": "In this Part:\n\nclaimant—see section 9 (1).\n\ncontributory negligence—see section 9 (1).\n\ncourt, in relation to any claim, means the court by or before which the claim falls to be determined.\n\ndamage includes loss of life and personal injury.\n\nwrong means an act or omission that:\n\n(a) gives rise to a liability in tort in respect of which a defence of contributory negligence is available at common law, or\n\n(b) amounts to a breach of a contractual duty of care that is concurrent and co-extensive with a duty of care in tort.",
+      "textStatus": "verbatim-official-indexed-statute-extract",
+      "textComplete": true,
+      "verification": "primary-verified",
+      "sourceVersion": "Official compilation current from 6 December 2002; indexed PDF pp 5–6 accessed 26 November and 12 December 2025. Official current metadata still identifies the 6 December 2002 version (accessed 3 October 2026).",
+      "sources": [
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt",
+        "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-11-26/act-1965-032",
+        "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-11-30/act-1965-032",
+        "https://legislation.nsw.gov.au/view/html/2002-12-06/act-1965-032"
+      ],
+      "verificationNote": "Complete listed section transcribed from official NSW indexed PDF pages 5–6. Section 8 spans both pages; section 9 includes all three subsections, including the contractual-defence saving and applicable maximum-liability limit. Direct whole-Act requests returned HTTP 403, so indexed official primary content and official version metadata were used; no AI summary substituted for statutory text.",
+      "currencyVerification": "official current-version metadata cross-check",
+      "textScope": "The entire listed section, including every operative subsection, definition and qualification; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "textSha256": "9c2ca592a91206486a41746ef63dd0f617ac54c5579b42c8fa60bbeeb537ba8b"
+    },
+    {
+      "listId": "torts-provision-45",
+      "ref": "law-reform-miscellaneous-provisions-act-1965-nsw-s9",
+      "act": "Law Reform (Miscellaneous Provisions) Act 1965 (NSW)",
+      "sourceLine": "s 9  Apportionment of liability in cases of contributory negligence",
+      "section": "9",
+      "oneLine": "Contributory negligence generally reduces damages by a just-and-equitable responsibility share, rather than defeating the claim.",
+      "plain": "If damage is partly the claimant’s own failure of reasonable care and partly another person’s wrong, the claim is not defeated simply by the claimant’s contributory negligence. Damages are reduced by the extent the court finds just and equitable, having regard to the claimant’s share of responsibility. Contractual defences remain available, and an applicable contractual or statutory liability maximum still caps recovery. Read with the Part’s definitions and CLA ss 5R and 5S where applicable; s 5S permits a 100% reduction if just and equitable.",
+      "concreteExplanation": "Illustrative hypothetical: Both a claimant and an adviser contribute to the same damage. The court reasons about responsibility before selecting a reduction; s 9 supplies no automatic percentage. A surviving contractual defence is not erased by the apportionment rule, and any applicable contractual or statutory maximum still limits the damages recoverable. In a negligence claim governed by CLA s 5S, a just and equitable reduction can reach 100%.",
+      "conditions": [
+        "Damage results partly from the claimant’s failure to take reasonable care and partly from another person’s wrong as defined by s 8.",
+        "The reduction is what the court thinks just and equitable having regard to the claimant’s share in responsibility for the damage."
+      ],
+      "exceptions": [
+        "Subsection (1) does not defeat any defence arising under a contract."
+      ],
+      "limits": [
+        "An applicable contract or enactment limiting liability caps the amount recoverable under subsection (1) at that maximum.",
+        "Where applicable, CLA ss 5R and 5S must also be considered; s 5S permits a just and equitable 100% reduction."
+      ],
+      "examUse": "Connect the apportionment rationale to the facts and the CLA provisions.",
+      "pitfalls": [
+        "Do not claim that contributory negligence can never defeat a claim after CLA s 5S."
+      ],
+      "weeks": [
+        12
+      ],
+      "topics": [
+        "contributory-negligence"
+      ],
+      "text": "(1) If a person (the claimant) suffers damage as the result partly of the claimant’s failure to take reasonable care (contributory negligence) and partly of the wrong of any other person:\n\n(a) a claim in respect of the damage is not defeated by reason of the contributory negligence of the claimant, and\n\n(b) the damages recoverable in respect of the wrong are to be reduced to such extent as the court thinks just and equitable having regard to the claimant’s share in the responsibility for the damage.\n\n(2) Subsection (1) does not operate to defeat any defence arising under a contract.\n\n(3) If any contract or enactment providing for the limitation of liability is applicable to the claim, the amount of damages recoverable by the claimant by virtue of subsection (1) is not to exceed the maximum limit so applicable.",
+      "textStatus": "verbatim-official-indexed-statute-extract",
+      "textComplete": true,
+      "verification": "primary-verified",
+      "sourceVersion": "Official compilation current from 6 December 2002; indexed PDF pp 5–6 accessed 26 November and 12 December 2025. Official current metadata still identifies the 6 December 2002 version (accessed 3 October 2026).",
+      "sources": [
+        "content-src/laws2400-w12.yaml",
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List (text).txt",
+        "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-11-26/act-1965-032",
+        "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-11-30/act-1965-032",
+        "https://legislation.nsw.gov.au/view/html/2002-12-06/act-1965-032"
+      ],
+      "verificationNote": "Complete listed section transcribed from official NSW indexed PDF pages 5–6. Section 8 spans both pages; section 9 includes all three subsections, including the contractual-defence saving and applicable maximum-liability limit. Direct whole-Act requests returned HTTP 403, so indexed official primary content and official version metadata were used; no AI summary substituted for statutory text.",
+      "currencyVerification": "official current-version metadata cross-check",
+      "textScope": "The entire listed section, including every operative subsection, definition and qualification; explanatory notes are identified separately where present.",
+      "verificationCheckedAt": "2026-10-20",
+      "sourcePages": [
+        6
+      ],
+      "textSha256": "4d82de3f17b96c578dd33d143fc2ca168b511ffcd2009001621bfb507b878db4"
+    }
+  ]
+}

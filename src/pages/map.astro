@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import KnowledgeMap from '../components/hub/KnowledgeMap';
+import { units, mapShape } from '../lib/content';
+
+const shape = await Promise.all((await units()).map(mapShape));
+---
+
+<Layout title="Map" wide>
+  <p class="label">Map</p>
+  <h1 data-split>Every concept, one map</h1>
+  <p class="map-lede">Units side by side, weeks running down. Choose a unit to see its weeks laid out left to right. Choose a dot to see what it links to; choose it again, or press Enter, to open it.</p>
+  <KnowledgeMap client:load shape={shape} />
+</Layout>
+
+<style>
+  .map-lede { color: var(--ink-2); max-width: var(--measure); }
+</style>

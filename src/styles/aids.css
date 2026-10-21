@@ -1,0 +1,236 @@
+/* "Ways in": a concept's study aids (src/components/aids/ConceptAids.astro, Socratic.tsx). Ink on paper; the one accent
+   is the Socratic step's primary action. Disclosures are native <details>; open, ticked and broken states are carried by
+   shape (fill, +/−, strike, dashed frame, icon + label), never by colour alone. Tokens only. */
+
+.ways { margin-top: var(--s-8); max-width: var(--measure-wide); container-type: inline-size; }
+.ways > h2 { margin-top: 0; }
+.ways h3 { font-size: var(--t-lg); }
+.ways__plain { max-width: 56ch; font-size: var(--t-lg); line-height: 1.45; }
+.ways__note { max-width: var(--measure); margin-bottom: var(--s-3); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink-2); }
+.ways textarea:focus-visible, .ways summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+@keyframes ways-fade { from { opacity: 0; } }
+@keyframes ways-rise { from { opacity: 0; transform: translateY(-4px); filter: blur(var(--blur-polish)); } }
+@keyframes ways-slide { from { opacity: 0; transform: translateX(24px); } }
+
+/* ---------- Disclosures (example/rule rungs, what-ifs, edge cases, transfer, "N more") ---------- */
+.ways-reveals { display: grid; gap: var(--s-3); max-width: var(--measure); margin-bottom: 1.25em; }
+.ways-reveal {
+  border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2);
+  transition: transform var(--dur-press) var(--ease-out);
+}
+.ways-reveal:has(> .ways-reveal__sum:active) { transform: scale(.985); }
+.ways-reveal__sum {
+  list-style: none; display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-4);
+  min-height: 44px; padding: var(--s-3) var(--s-4); border-radius: calc(var(--r-md) - 1px); cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-hover); -webkit-tap-highlight-color: transparent;
+}
+.ways-reveal__sum::-webkit-details-marker { display: none; }
+.ways-reveal__sum::marker { content: ''; }
+.ways-reveal[open] > .ways-reveal__sum { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+@media (hover: hover) and (pointer: fine) { .ways-reveal__sum:hover { background: var(--paper-3); } }
+.ways-reveal__text { display: grid; gap: var(--s-1); min-width: 0; }
+.ways-reveal__tag, .ways-reveal__label { font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+.ways-reveal__label { display: block; margin-bottom: var(--s-1); }
+.ways-reveal__cta { font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); color: var(--ink-2); }
+.ways-reveal[open] .ways-reveal__cta { display: none; }
+.ways-reveal__sum > .ways-reveal__prompt { align-self: center; font-family: var(--font-ui); font-size: var(--t-sm); font-weight: 500; line-height: var(--lh-ui); }
+/* +/− : the vertical bar folds away when open (transform only). */
+.ways-reveal__icon { position: relative; flex: none; width: 20px; height: 20px; margin-top: 2px; border: 1px solid var(--ink-3); border-radius: 50%; }
+.ways-reveal__icon::before, .ways-reveal__icon::after { content: ''; position: absolute; left: 50%; top: 50%; width: 9px; height: 1.5px; margin: -.75px 0 0 -4.5px; background: var(--ink); border-radius: 1px; }
+.ways-reveal__icon::after { transform: rotate(90deg); transition: transform var(--dur-ui) var(--ease-inout); }
+.ways-reveal[open] > summary .ways-reveal__icon::after { transform: rotate(90deg) scaleX(0); }
+.ways-reveal__body { padding: var(--s-3) var(--s-4) var(--s-4); border-top: 1px solid var(--line); }
+.ways-reveal__body > p { margin: 0; }
+.ways-reveal--quiet { background: transparent; }
+
+.ways-reveal[open] > .ways-reveal__body, .ways-more[open] > :not(summary) { animation: ways-fade var(--dur-ui) var(--ease-out); }
+html[data-motion='full'] .ways-reveal[open] > .ways-reveal__body, html[data-motion='full'] .ways-more[open] > :not(summary) { animation-name: ways-rise; }
+
+.ways-group > :last-child { margin-bottom: 1.25em; }
+.ways-more { max-width: var(--measure); margin-bottom: 1.25em; }
+.ways-more__sum {
+  list-style: none; display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--s-4); margin-bottom: var(--s-2);
+  border: 1px solid var(--line); border-radius: var(--r-pill); font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+.ways-more__sum::-webkit-details-marker { display: none; }
+.ways-more__sum::marker { content: ''; }
+.ways-more__sum::after { content: '+'; margin-left: var(--s-2); font-family: var(--font-mono); }
+.ways-more[open] > .ways-more__sum::after { content: '−'; }
+@media (hover: hover) and (pointer: fine) { .ways-more__sum:hover { background: var(--paper-3); color: var(--ink); } }
+.ways-more__sum:active { transform: scale(.97); }
+
+/* ---------- Abstraction ladder: one line → example → rule; a rung fills when it is open ---------- */
+.ways-ladder { display: grid; gap: var(--s-3); max-width: var(--measure); margin-bottom: 1.25em; }
+.ways-ladder__steps { list-style: none; padding: 0; margin: 0; display: flex; align-items: flex-end; gap: var(--s-2); font-family: var(--font-ui); font-size: var(--t-xs); line-height: var(--lh-ui); color: var(--ink-2); }
+.ways-ladder__step { position: relative; display: grid; gap: var(--s-1); width: 6.5rem; }
+.ways-ladder__step::before, .ways-ladder__step::after { content: ''; display: block; height: var(--_h, 8px); border-radius: 3px 3px 0 0; }
+.ways-ladder__step::before { border: 1px solid var(--ink-3); }
+.ways-ladder__step::after { position: absolute; left: 0; right: 0; top: 0; background: var(--ink); transform: scaleY(0); transform-origin: 50% 100%; transition: transform var(--dur-ui) var(--ease-out); }
+.ways-ladder__step:nth-child(2) { --_h: 16px; }
+.ways-ladder__step:nth-child(3) { --_h: 24px; }
+.ways-ladder__step[data-rung='plain'],
+.ways-ladder:has(.ways-ladder__rung[data-rung='example'][open]) .ways-ladder__step[data-rung='example'],
+.ways-ladder:has(.ways-ladder__rung[data-rung='rule'][open]) .ways-ladder__step[data-rung='rule'] { color: var(--ink); }
+.ways-ladder__step[data-rung='plain']::after,
+.ways-ladder:has(.ways-ladder__rung[data-rung='example'][open]) .ways-ladder__step[data-rung='example']::after,
+.ways-ladder:has(.ways-ladder__rung[data-rung='rule'][open]) .ways-ladder__step[data-rung='rule']::after { transform: none; }
+
+/* ---------- Rule checklist: numbered marks that become ticks (native checkboxes; a CSS counter keeps the tally) ---------- */
+.ways-check { counter-reset: ways-done; max-width: var(--measure); margin-bottom: 1.25em; }
+.ways-check__list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.ways-check__item { position: relative; padding: var(--s-2) 0 var(--s-4); border-bottom: 1px solid var(--line); }
+.ways-check__box:checked { counter-increment: ways-done; }
+.ways-check__label { display: flex; align-items: center; gap: var(--s-3); min-height: 44px; cursor: pointer; font-weight: 600; line-height: 1.35; -webkit-tap-highlight-color: transparent; }
+.ways-check__mark {
+  position: relative; flex: none; display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid var(--ink-3); border-radius: 50%;
+  font-family: var(--font-mono); font-size: var(--t-xs); font-weight: 400; color: var(--ink-2);
+  transition: transform var(--dur-press) var(--ease-out), border-color var(--dur-micro) var(--ease-hover);
+}
+.ways-check__mark::before { content: ''; position: absolute; inset: -1px; border-radius: 50%; background: var(--ink); transform: scale(0); transition: transform var(--dur-ui) var(--ease-out); }
+.ways-check__n, .ways-check__tick { grid-area: 1 / 1; position: relative; }
+.ways-check__n { transition: opacity var(--dur-micro) var(--ease-out); }
+.ways-check__tick { width: 16px; height: 16px; color: var(--paper); clip-path: inset(0 100% 0 0); transition: clip-path var(--dur-ui) var(--ease-out); }
+.ways-check__box:checked + .ways-check__label .ways-check__mark { border-color: var(--ink); }
+.ways-check__box:checked + .ways-check__label .ways-check__mark::before { transform: none; }
+.ways-check__box:checked + .ways-check__label .ways-check__n { opacity: 0; }
+.ways-check__box:checked + .ways-check__label .ways-check__tick { clip-path: inset(0 0 0 0); }
+.ways-check__box:focus-visible + .ways-check__label .ways-check__mark { outline: 2px solid var(--accent); outline-offset: 3px; }
+.ways-check__label:active .ways-check__mark { transform: scale(.97); }
+@media (hover: hover) and (pointer: fine) { .ways-check__label:hover .ways-check__mark { border-color: var(--ink); } }
+.ways-check__box:disabled + .ways-check__label { color: var(--ink-3); cursor: default; }
+.ways-check__test, .ways-check__refs { margin: 0 0 0 calc(30px + var(--s-3)); }
+.ways-check__refs { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-2); }
+.ways-check__foot { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); min-height: 44px; margin-top: var(--s-2); }
+.ways-check__count { margin: 0; font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); }
+.ways-check__count::before { content: counter(ways-done) ' of ' attr(data-total) ' ticked'; }
+.ways-check:not(:has(.ways-check__box:checked)) .ways-check__reset { visibility: hidden; }
+
+/* ---------- Common mistakes: wrong (struck) beside right, stacked in narrow columns ---------- */
+.ways-mistakes { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-4); }
+.ways-mistake { display: grid; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); overflow: hidden; }
+.ways-mistake__wrong, .ways-mistake__right { padding: var(--s-4); }
+.ways-mistake__right { border-top: 1px solid var(--line); background: var(--paper); }
+.ways-mistake__claim, .ways-mistake__fix { margin: 0; }
+.ways-mistake__tag { display: flex; align-items: center; gap: var(--s-2); margin: 0 0 var(--s-2); font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 600; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink); }
+.ways-mistake__tag svg { width: 16px; height: 16px; flex: none; }
+.ways-mistake__claim { color: var(--ink-2); }
+.ways-mistake__claim s { text-decoration-thickness: 1px; text-decoration-color: color-mix(in oklab, var(--ink) 60%, transparent); }
+.ways-mistake__why { margin: var(--s-3) 0 0; font-size: var(--t-sm); color: var(--ink-2); }
+.ways-mistake__sub { display: block; font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; color: var(--ink-2); }
+@container (min-width: 38rem) {
+  .ways-mistake { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .ways-mistake__right { border-top: 0; border-left: 1px solid var(--line); }
+}
+
+/* ---------- Analogy: mapping with hairline connectors, then where it breaks ---------- */
+.ways-analogy__text { max-width: var(--measure); }
+.ways-analogy__map { max-width: var(--measure); margin-bottom: var(--s-5); }
+.ways-analogy__heads { display: none; }
+.ways-analogy__rows { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-3); }
+.ways-analogy__row { display: grid; justify-items: start; }
+.ways-analogy__from, .ways-analogy__to { display: block; padding: var(--s-2) var(--s-3); border: 1px solid var(--line); border-radius: var(--r-sm); font-size: var(--t-sm); line-height: 1.45; }
+.ways-analogy__from { background: var(--paper-2); }
+.ways-analogy__link { position: relative; width: 1px; height: 14px; margin-left: var(--s-5); background: var(--ink-3); }
+.ways-analogy__link::before, .ways-analogy__link::after { content: ''; position: absolute; left: -2px; width: 5px; height: 5px; border-radius: 50%; background: var(--ink-3); }
+.ways-analogy__link::before { top: -2px; }
+.ways-analogy__link::after { bottom: -2px; }
+@container (min-width: 30rem) {
+  .ways-analogy__heads, .ways-analogy__row { display: grid; grid-template-columns: minmax(0, 1fr) 2.5rem minmax(0, 1fr); align-items: center; justify-items: stretch; }
+  .ways-analogy__heads { margin: 0 0 var(--s-2); font-family: var(--font-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+  .ways-analogy__rows { gap: var(--s-2); }
+  .ways-analogy__from, .ways-analogy__to { align-self: stretch; display: flex; align-items: center; }
+  .ways-analogy__link { width: auto; height: 1px; margin: 0; }
+  .ways-analogy__link::before { top: -2px; left: -2px; }
+  .ways-analogy__link::after { top: -2px; bottom: auto; left: auto; right: -2px; }
+}
+.ways-analogy__breaks { max-width: var(--measure); margin-bottom: 1.25em; padding: var(--s-4); border: 1px dashed var(--ink-3); border-radius: var(--r-md); }
+.ways-analogy__breaks-h { display: flex; align-items: center; gap: var(--s-2); margin: 0 0 var(--s-2); font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 600; text-transform: uppercase; letter-spacing: var(--track-caps); }
+.ways-analogy__breaks-h svg { width: 24px; height: 16px; flex: none; }
+.ways-analogy__limits { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-2); }
+.ways-analogy__limits li { position: relative; padding-left: 2rem; font-size: var(--t-sm); }
+.ways-analogy__limits li::before {
+  content: ''; position: absolute; left: 0; top: .3em; width: 1.25rem; height: 1em; background: var(--ink-2);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 16'%3E%3Cpath d='M1 8h7.5M15.5 8H23M9 12l2.5-8M12.5 12 15 4' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 16'%3E%3Cpath d='M1 8h7.5M15.5 8H23M9 12l2.5-8M12.5 12 15 4' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ---------- Key terms ---------- */
+.ways-terms { max-width: var(--measure); margin-bottom: 1.25em; border-top: 1px solid var(--line); }
+.ways-terms__row { display: grid; gap: var(--s-1); padding: var(--s-3) 0; border-bottom: 1px solid var(--line); }
+.ways-terms dt { font-family: var(--font-display); font-size: var(--t-body); font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--ink); }
+.ways-terms dd { margin: 0; }
+.ways-terms__eg { font-size: var(--t-sm); color: var(--ink-2); }
+.ways-terms__eg-label { font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; text-transform: uppercase; letter-spacing: var(--track-caps); margin-right: var(--s-1); }
+@container (min-width: 36rem) {
+  .ways-terms__row { grid-template-columns: 11rem minmax(0, 1fr); column-gap: var(--s-5); }
+  .ways-terms dt { grid-column: 1; }
+  .ways-terms dd { grid-column: 2; }
+}
+
+/* ---------- Storyboard: numbered still panels, wrapping ---------- */
+.ways-story { list-style: none; padding: 0; margin: 0 0 1.25em; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr)); gap: var(--s-3); }
+.ways-story__frame { display: grid; align-content: start; gap: var(--s-2); padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); }
+.ways-story__n { font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); padding-bottom: var(--s-2); border-bottom: 1px solid var(--line); }
+.ways-story__cap { margin: 0; font-family: var(--font-display); font-size: var(--t-body); font-weight: 600; line-height: 1.3; }
+.ways-story__detail { margin: 0; font-size: var(--t-sm); color: var(--ink-2); }
+
+/* ---------- Argument cards ---------- */
+.ways-args { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-4); max-width: var(--measure); }
+.ways-arg { padding: var(--s-1) var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); }
+.ways-arg__grid { margin: 0; }
+.ways-arg__row { display: grid; gap: var(--s-1); padding: var(--s-3) 0; border-bottom: 1px solid var(--line); }
+.ways-arg__row:last-child { border-bottom: 0; }
+.ways-arg__row dd { margin: 0; }
+.ways-arg__row--against dt { color: var(--ink); font-weight: 600; }
+.ways-arg__none { color: var(--ink-2); font-style: italic; }
+@container (min-width: 36rem) { .ways-arg__row { grid-template-columns: 9.5rem minmax(0, 1fr); column-gap: var(--s-4); align-items: baseline; } }
+
+/* ---------- Evidence trail ---------- */
+.ways__trail { max-width: var(--measure); margin-top: var(--s-7); padding-top: var(--s-3); border-top: 1px solid var(--line); }
+.ways__sources { margin: 0; font-family: var(--font-ui); font-size: var(--t-xs); line-height: var(--lh-ui); color: var(--ink-2); }
+.ways__sources-label { font-weight: 600; text-transform: uppercase; letter-spacing: var(--track-caps); margin-right: var(--s-2); }
+.ways__verify { display: flex; align-items: flex-start; gap: var(--s-2); margin: var(--s-2) 0 0; font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); }
+.ways__verify svg { width: 16px; height: 16px; flex: none; margin-top: .15em; }
+
+/* ---------- Work it out (Socratic island) ---------- */
+.ways-socratic { max-width: var(--measure); margin-bottom: 1.25em; padding: var(--s-5); border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper-2); }
+.ways-socratic__top { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); margin-bottom: var(--s-3); }
+.ways-socratic__count { margin: 0; font-family: var(--font-mono); font-size: var(--t-xs); color: var(--ink-2); }
+.ways-socratic__dots { list-style: none; padding: 0; margin: 0; display: flex; gap: var(--s-1); }
+.ways-socratic__dots li { position: relative; width: 20px; height: 3px; border-radius: 2px; background: var(--paper-3); overflow: hidden; }
+.ways-socratic__dots li::after { content: ''; position: absolute; inset: 0; background: var(--ink); transform: scaleX(0); transform-origin: 0 50%; transition: transform var(--dur-ui) var(--ease-inout); }
+.ways-socratic__dots li[data-state='now']::after { transform: scaleX(.5); }
+.ways-socratic__dots li[data-state='done']::after { transform: none; }
+.ways-socratic__ask { margin: 0 0 var(--s-4); font-size: var(--t-lg); line-height: 1.4; border-radius: var(--r-sm); }
+.ways-socratic__think { display: grid; gap: var(--s-1); margin-bottom: var(--s-4); }
+.ways-socratic__think-label { font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+.ways-socratic__opt { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.ways-socratic__think textarea {
+  width: 100%; min-height: 3.5rem; resize: vertical; padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--paper); color: var(--ink); line-height: 1.5;
+  transition: border-color var(--dur-micro) var(--ease-hover);
+}
+@media (hover: hover) and (pointer: fine) { .ways-socratic__think textarea:hover { border-color: var(--ink-3); } }
+.ways-socratic__think textarea:disabled { color: var(--ink-3); }
+.ways-socratic__reveals { display: grid; gap: var(--s-3); }
+.ways-socratic__reveals:not(:empty) { margin-bottom: var(--s-4); }
+.ways-socratic__hint, .ways-socratic__answer { margin: 0; padding: var(--s-3) var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper); animation: ways-fade var(--dur-ui) var(--ease-out); }
+.ways-socratic__hint { border-style: dashed; border-color: var(--ink-3); }
+.ways-socratic__answer { border-left: 2px solid var(--ink); }
+html[data-motion='full'] :is(.ways-socratic__hint, .ways-socratic__answer) { animation-name: ways-rise; }
+.ways-socratic__label { display: block; margin-bottom: var(--s-1); font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); }
+.ways-socratic__actions { display: flex; flex-wrap: wrap; gap: var(--s-3); }
+.ways-socratic__step--in { animation: ways-fade var(--dur-ui) var(--ease-out); }
+html[data-motion='full'] .ways-socratic__step--in { animation-name: ways-slide; }
+
+/* No JS: the island stays inert, so the same steps show as a plain list of disclosures instead (the pre-paint script
+   in Layout.astro always sets data-motion, so its absence means scripts are off). */
+.ways-socratic-static { max-width: var(--measure); margin-bottom: 1.25em; padding-left: 1.25em; }
+.ways-socratic-static > li + li { margin-top: var(--s-4); }
+.ways-socratic-static details { margin-top: var(--s-2); }
+html[data-motion] .ways-socratic-static { display: none; }
+html:not([data-motion]) .ways-socratic-live { display: none; }
+
+html[data-motion='off'] .ways :is(.ways-reveal__body, .ways-more > :not(summary), .ways-socratic__hint, .ways-socratic__answer, .ways-socratic__step--in) { animation: none; }

@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HomeStart from '../components/HomeStart';
+import EverythingIndex from '../components/rebuild/EverythingIndex';
+import UnitTileStats from '../components/UnitTileStats';
+import { units, weeksOf, conceptsOf } from '../lib/content';
+import { daysLabel, daysUntil, examDayLabel, examTimeLabel } from '../lib/exam';
+const list = await Promise.all((await units()).map(async (u) => ({ u, weeks: (await weeksOf(u.id)).length, concepts: (await conceptsOf(u.id)).map((c) => c.id) })));
+---
+
+<Layout title="StudySite">
+  <h1 class="visually-hidden">StudySite</h1>
+  <script>
+    import {refreshCountdowns} from '../lib/exam';
+    document.addEventListener('astro:page-load',()=>refreshCountdowns());
+  </script>
+  <div class="home-col">
+  <section class="rb-home-start"><p class="label">Your study desk</p><h2>Where do you want to go?</h2><nav class="rb-link-grid" aria-label="Start here"><a href="/exams/">Exam command centre<span>Rules, topics and revision notes</span></a><a href="/plan/">My preferred study blocks<span>Calendar times and protected reserve</span></a><a href="/studio/">Learning studio<span>Twenty ways to understand and practise</span></a><a href="/cases/">Every case<span>Facts, reasoning, limits and filters</span></a><a href="/statutes/">Legislation & treaties<span>Full provisions and explanations</span></a><a href="/everything/">Any page<span>Search and pin a direct shortcut</span></a></nav></section><HomeStart client:load />
+  <h2 class="home-units">Your units</h2>
+  <ul class="unit-grid" data-reveal="children">
+    {list.map(({ u, weeks, concepts }) => (
+      <li>
+        <a class="card unit-card" href={`/${u.id}`} data-tilt data-flip-id={`unit-${u.id}`}>
+          <p class="card__label">{u.data.code}</p>
+          <p class="card__title" transition:name={`unit-${u.id}`}>{u.data.name}</p>
+          <p class="unit-meta">Exam {examDayLabel(+u.data['exam-start'])}, {examTimeLabel(+u.data['exam-start'])}{u.data['exam-status'] === 'draft' && ' (draft)'} · <span data-exam-days data-exam-start={+u.data['exam-start']}>{daysLabel(daysUntil(+u.data['exam-start'], Date.now()))}</span></p>
+          <p class="unit-meta">{weeks} of {u.data['weeks-expected']} weeks ingested</p>
+          <UnitTileStats client:idle unit={u.id} concepts={concepts} />
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="home-exam"><a class="btn btn--secondary" href="/exam">Exam paper across all units</a> <a class="btn btn--ghost" href="/cards">All due cards</a></p>
+  <section class="rb-home-index"><EverythingIndex client:idle compact/></section>
+  </div>
+</Layout>
+
+<style>
+  .intro { position: relative; height: 450vh; }
+  .intro-stage { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: var(--paper); }
+  .intro-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  /* Beat 1 before three.js arrives: the amber point as a soft CSS glow (the canvas covers it once mounted). */
+  .intro-stage::before { content: ''; position: absolute; left: 50%; top: 50%; width: 72px; height: 72px; margin: -36px 0 0 -36px; border-radius: 50%; background: radial-gradient(circle, color-mix(in oklab, var(--accent) 70%, transparent), transparent 70%); }
+  /* Grain 3% + vignette 8% as a pseudo-element (not an LCP candidate). */
+  .intro-stage::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 55%, rgba(31, 27, 22, .08) 100%), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.03'/%3E%3C/svg%3E"); }
+  .intro-title { position: absolute; left: 50%; top: 30%; transform: translate(-50%, -50%); margin: 0; font-family: var(--font-display); font-weight: 600; font-size: var(--t-hero); letter-spacing: var(--track-display); line-height: 1; white-space: nowrap; }
+  .intro-title span { display: inline-block; opacity: 0; transform: translateY(20%); }
+  .intro-caption { position: absolute; left: 50%; bottom: 16%; transform: translateX(-50%); width: min(40ch, calc(100vw - 32px)); margin: 0; text-align: center; font-size: var(--t-lg); color: var(--ink-2); opacity: 0; }
+  .intro-label { position: absolute; left: 0; top: 0; font-family: var(--font-ui); font-size: var(--t-sm); font-weight: 600; letter-spacing: var(--track-caps); color: var(--ink); opacity: 0; will-change: transform; }
+  .intro-skip { position: absolute; right: var(--gutter); bottom: var(--s-5); }
+  .intro-skip__hint { color: var(--ink-2); margin-left: var(--s-1); }
+  .intro-hint { position: absolute; left: 50%; bottom: var(--s-5); transform: translateX(-50%); margin: 0; font-family: var(--font-ui); font-size: var(--t-xs); letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--ink-2); }
+  @media (pointer: coarse), (max-width: 599px) { .intro-skip__hint, .intro-hint { display: none; } }
+  .home-units { font-size: var(--t-xl); margin-top: var(--s-8); }
+  /* Home: one centred block (the 2×2 unit grid's width) inside the centred column; everything shares its left edge. */
+  .home-col { max-width: 44rem; margin-inline: auto; }
+  .unit-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); gap: var(--s-5); }
+  .unit-card { height: 100%; display: flex; flex-direction: column; }
+  .home-exam { margin-top: var(--s-6); display: flex; flex-wrap: wrap; gap: var(--s-3); }
+  .unit-meta { font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); margin: 0; }
+</style>

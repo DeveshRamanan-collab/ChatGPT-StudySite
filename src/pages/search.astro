@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Search">
+  <p class="label">Find</p>
+  <h1 data-split>Search</h1>
+  <form role="search" action="/search" class="search-form" data-search-form>
+    <label for="q" class="label">Search notes, concepts, cases and authorities</label>
+    <input id="q" name="q" type="search" autocomplete="off" data-cursor="text" />
+  </form>
+  <p class="search-status" role="status" aria-live="polite" data-search-status></p>
+  <div class="search-groups" data-search-results></div>
+</Layout>
+
+<script>
+  // Pagefind index is built after astro build (npm run build); results are grouped by page kind.
+  type Hit = { url: string; meta: { title?: string }; excerpt: string; filters: { kind?: string[]; unit?: string[] } };
+  type PF = { search: (q: string) => Promise<{ results: { data: () => Promise<Hit> }[] }>; init?: () => Promise<void> };
+  const ORDER = ['Week', 'Concept', 'Case', 'Authority'];
+  const PLURAL: Record<string, string> = { Week: 'Notes', Concept: 'Concepts', Case: 'Cases', Authority: 'Authorities' };
+  let pf: Promise<PF | null> | null = null;
+  const load = () =>
+    (pf ??= import(/* @vite-ignore */ `${location.origin}/pagefind/pagefind.js`).then((m) => (m.init?.(), m as PF)).catch(() => null));
+
+  function esc(s: string) {
+    return s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  }
+
+  function setup() {
+    const form = document.querySelector<HTMLFormElement>('[data-search-form]');
+    if (!form || form.dataset.wired) return;
+    form.dataset.wired = '1';
+    const input = form.querySelector('input')!;
+    const out = document.querySelector<HTMLElement>('[data-search-results]')!;
+    const status = document.querySelector<HTMLElement>('[data-search-status]')!;
+    let seq = 0;
+    async function run(q: string) {
+      const my = ++seq;
+      const url = new URL(location.href);
+      if (q) url.searchParams.set('q', q); else url.searchParams.delete('q');
+      history.replaceState(history.state, '', url);
+      if (!q.trim()) { out.replaceChildren(); status.textContent = ''; return; }
+      status.textContent = 'Searching…';
+      const lib = await load();
+      if (my !== seq) return;
+      if (!lib) { status.textContent = 'The search index is built with npm run build; it is not available in dev.'; return; }
+      const res = await lib.search(q);
+      const all = await Promise.all(res.results.slice(0, 40).map((r) => r.data()));
+      if (my !== seq) return;
+      // Pagefind matches an unknown word by its longest indexed prefix, so "qwxzvjk" can match a bare "Q". Keep a hit only
+      // if some highlighted word covers at least half of a typed word (typos and partial words still match).
+      const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+      const marks = (h: Hit) => [...h.excerpt.matchAll(/<mark>(.*?)<\/mark>/g)].map((m) => m[1].toLowerCase().replace(/[^\p{L}\p{N}]/gu, ''));
+      const real = (h: Hit) => { const ms = marks(h); return !ms.length || ms.some((m) => words.some((w) => m.length >= Math.ceil(w.length / 2))); };
+      const hits = all.filter(real);
+      const groups = new Map<string, Hit[]>();
+      for (const h of hits) {
+        const k = h.filters.kind?.[0] ?? 'Other';
+        groups.set(k, [...(groups.get(k) ?? []), h]);
+      }
+      status.textContent = hits.length ? `${hits.length} result${hits.length === 1 ? '' : 's'}` : `Nothing matches “${q}”.`;
+      const keys = [...groups.keys()].sort((a, b) => (ORDER.indexOf(a) + 99) % 99 - (ORDER.indexOf(b) + 99) % 99);
+      out.innerHTML = keys
+        .map((k) => `<section class="search-group"><h2 class="label">${PLURAL[k] ?? k}</h2><ol>${groups
+          .get(k)!
+          .map((h) => `<li><a class="search-hit" href="${esc(h.url)}"><span class="search-hit__title">${esc(h.meta.title?.replace(/ · StudySite$/, '') ?? h.url)}</span>${h.filters.unit?.[0] ? `<span class="search-hit__unit mono">${esc(h.filters.unit[0])}</span>` : ''}<span class="search-hit__excerpt">${h.excerpt}</span></a></li>`)
+          .join('')}</ol></section>`)
+        .join('');
+    }
+    form.addEventListener('submit', (e) => { e.preventDefault(); run(input.value); });
+    input.addEventListener('input', () => run(input.value));
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) { input.value = q; run(q); }
+    input.focus();
+  }
+  document.addEventListener('astro:page-load', setup);
+</script>
+
+<style>
+  .search-form { display: grid; gap: var(--s-2); max-width: var(--measure); }
+  input { min-height: 48px; padding: 0 var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); font-family: var(--font-ui); transition: border-color var(--dur-micro) var(--ease-hover); }
+  input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  @media (hover: hover) and (pointer: fine) { input:hover { border-color: var(--ink-3); } }
+  .search-status { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); min-height: 1.4em; margin-top: var(--s-4); }
+  .search-groups { max-width: var(--measure); }
+  .search-groups :global(.search-group) { margin-top: var(--s-6); }
+  .search-groups :global(ol) { list-style: none; margin: var(--s-2) 0 0; padding: 0; display: grid; gap: var(--s-2); }
+  .search-groups :global(.search-hit) { display: grid; grid-template-columns: 1fr auto; gap: var(--s-1) var(--s-3); padding: var(--s-3) var(--s-4); border-radius: var(--r-md); text-decoration: none; transition: background-color var(--dur-micro) var(--ease-hover); }
+  .search-groups :global(.search-hit:focus-visible) { outline: 2px solid var(--accent); outline-offset: 3px; }
+  @media (hover: hover) and (pointer: fine) { .search-groups :global(.search-hit:hover) { background: var(--paper-2); } }
+  .search-groups :global(.search-hit:active) { transform: scale(.97); transition: transform var(--dur-press) var(--ease-out); }
+  .search-groups :global(.search-hit__title) { font-weight: 600; }
+  .search-groups :global(.search-hit__unit) { font-size: var(--t-xs); color: var(--ink-2); align-self: center; }
+  .search-groups :global(.search-hit__excerpt) { grid-column: 1 / -1; font-size: var(--t-sm); color: var(--ink-2); }
+  .search-groups :global(mark) { background: var(--accent-soft); color: inherit; border-radius: 2px; padding: 0 1px; }
+</style>

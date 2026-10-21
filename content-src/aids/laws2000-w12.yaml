@@ -1,0 +1,764 @@
+unit: laws2000
+week: 12
+source: raw/laws2000-pil/week-12
+generator: aids-1
+aids:
+  - concept: laws2000-w12-history-and-foundations-of-human-rights
+    plain: Human rights grew from national charters and Enlightenment ideas of freedom and dignity, then narrow early treaties, and became a general international concern only with the UN Charter after World War II.
+    concrete: The first international steps were narrow. Britain abolished slavery in 1807, other European countries followed, and the 1926 Slavery Convention carried the issue onto the international plane; the other early concern was limited women's rights — trafficking in women for prostitution. Only after the Second World War and the Nazi regime did the UN Charter make respect for human rights a general purpose of the international community.
+    formal: 'Early domestic instruments: Magna Carta (1215), English Bill of Rights (1689), French Declaration of the Rights of Man (1789), US Constitution and Bill of Rights (1789, 1791). UN Charter: promoting respect for human rights "for all without distinction as to race, sex, language, or religion" is a Purpose (art 1(3)); the UN shall promote their universal respect and observance (art 55(c)); members pledge joint and separate action (art 56).'
+    terms:
+      - term: issue-specific protection
+        gloss: The 19th and early 20th century phase of international protection, limited to particular issues such as slavery and trafficking in women.
+      - term: natural rights (Locke)
+        gloss: Rights such as life, liberty and property that have a foundation independent of the laws of any particular society; people are by nature free and equal.
+      - term: dignity (Kant)
+        gloss: Every person has inherent value and must be treated "as an end" and "never merely as a means".
+    misconceptions:
+      - claim: The UN Charter says nothing about human rights; they first appear in the UDHR.
+        tempting: The Charter is mostly remembered for peace and security.
+        correction: Promoting respect for human rights is a Purpose of the UN (art 1(3)); the UN shall promote them (art 55(c)); and members pledge joint and separate action (art 56).
+      - claim: Kant argued that people are by nature free and equal, not subject to a monarch.
+        tempting: Both are Enlightenment philosophers of rights.
+        correction: 'That is Locke, in the Two Treatises of Government (1689). Kant''s Groundwork (1785) is the dignity argument: persons must be treated as ends, never merely as means.'
+      - claim: International human rights protection began with a general treaty covering all rights.
+        tempting: Today's system has broad treaties such as the ICCPR.
+        correction: 'The beginning was issue-specific: abolition of slavery (Britain 1807; the 1926 Slavery Convention) and limited women''s rights. General protection came with the UN Charter after WWII.'
+    socratic:
+      - ask: Where did rights language first appear?
+        hint: National documents, 1215–1791.
+        answer: 'In domestic instruments: Magna Carta, the English Bill of Rights, the French Declaration of the Rights of Man and the US Constitution and Bill of Rights.'
+      - ask: What did the Enlightenment add?
+        hint: Locke and Kant.
+        answer: 'A foundation: Locke''s rights to life, liberty and property independent of any society''s laws; Kant''s inherent dignity — treat people as ends, never merely as means.'
+      - ask: How did international protection begin?
+        hint: Narrowly.
+        answer: 'Issue by issue: the abolition of slavery (1807 to the 1926 Slavery Convention) and limited women''s rights against trafficking.'
+      - ask: What turned human rights into a general international concern?
+        hint: '1945.'
+        answer: 'After WWII and the Nazi regime, the UN Charter: arts 1(3), 55(c) and 56.'
+    what-if:
+      - change: A state argues that how it treats its own people is none of the UN's business, since the Charter is about peace.
+        effect: The Charter itself makes promoting respect for human rights a Purpose (art 1(3)), commits the UN to promote them (art 55(c)) and has members pledge joint and separate action (art 56).
+    boundary:
+      - text: Magna Carta (1215).
+        why: 'A forerunner, not international law: an early domestic instrument in the pre-history of rights.'
+      - text: The 1926 Slavery Convention.
+        why: 'International, but issue-specific: it belongs to the early phase, before the Charter made human rights a general concern.'
+    transfer:
+      - scenario: 'An essay question: "Human rights are a post-1945 invention." Agree or disagree?'
+        answer: Partly. As international law of general scope, they begin with the Charter (arts 1(3), 55(c), 56) after WWII. But they rest on earlier domestic instruments (Magna Carta to the US Bill of Rights), Enlightenment foundations (Locke, Kant) and issue-specific international protection such as the abolition of slavery.
+    storyboard:
+      - caption: '1215–1791: national charters'
+        detail: Magna Carta, English Bill of Rights, French Declaration, US Constitution and Bill of Rights.
+      - caption: Enlightenment foundations
+        detail: 'Locke (1689): free and equal, rights independent of any society''s laws. Kant (1785): inherent dignity.'
+      - caption: '1807–1926: issue by issue'
+        detail: Abolition of slavery, from Britain to the Slavery Convention; limited women's rights against trafficking.
+      - caption: WWII and the Nazi regime
+        detail: The catastrophe that precedes the UN's general commitment to human rights.
+      - caption: '1945: the Charter commits'
+        detail: Arts 1(3), 55(c) and 56 make human rights a general international concern.
+      - caption: '1948: the Universal Declaration'
+        detail: The UDHR opens the International Bill of Rights.
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 3–6)
+    verify: false
+  - concept: laws2000-w12-international-bill-of-rights
+    plain: 'The International Bill of Rights is the 1948 Universal Declaration plus the two 1966 Covenants: one on civil and political rights, the other on economic, social and cultural rights.'
+    concrete: Women delegates played a key role in getting women's rights into the Universal Declaration. Hansa Mehta of India is widely credited with changing "All men are born free and equal" to "All human beings are born free and equal" in article 1 — a small edit that made it unmistakable that the Declaration speaks for everyone.
+    formal: 'UDHR (10 Dec 1948) art 2: rights for everyone "without distinction of any kind" — race, colour, sex, language, religion, opinion, national or social origin, property, birth or other status. ICCPR (16 Dec 1966): life (6), torture (7), slavery (8), liberty (9), detention (10), contract debt (11), movement (12), aliens (13). ICESCR (16 Dec 1966): work (6–7), unions (8), social security (9), family (10), food and housing (11), health (12).'
+    terms:
+      - term: International Bill of Rights
+        gloss: The UDHR (1948), the ICCPR and the ICESCR (both 16 December 1966).
+      - term: UDHR art 2
+        gloss: Everyone is entitled to the Declaration's rights without distinction of any kind, including on the status of the country or territory to which they belong.
+      - term: ICCPR / ICESCR
+        gloss: 'The two 1966 Covenants: civil and political rights; economic, social and cultural rights. The same article number means a different right in each.'
+        example: 'Art 11: no imprisonment for contract debt (ICCPR); adequate food, clothing and housing (ICESCR).'
+    misconceptions:
+      - claim: The right to "adequate food, clothing and housing" is ICCPR art 11.
+        tempting: Both Covenants have an art 11.
+        correction: It is ICESCR art 11. ICCPR art 11 is the bar on imprisonment for breach of contract — the same number means a different right in each Covenant.
+      - claim: The International Bill of Rights is the UN Charter, the UDHR and the ICCPR.
+        tempting: The Charter is where human rights enter the UN system.
+        correction: The Bill is the UDHR, the ICCPR and the ICESCR. The Charter's human rights provisions (arts 1(3), 55(c), 56) are not part of it.
+      - claim: The UDHR and the Covenants were adopted together in 1966.
+        tempting: They are always named together.
+        correction: The UDHR dates from 10 December 1948; both Covenants from 16 December 1966.
+    socratic:
+      - ask: What three instruments make up the International Bill of Rights?
+        hint: One declaration, two covenants.
+        answer: The UDHR (1948), the ICCPR and the ICESCR (both 1966).
+      - ask: Who is entitled to the UDHR's rights?
+        hint: Art 2.
+        answer: Everyone, without distinction of any kind — race, colour, sex, language, religion, opinion, origin, property, birth or other status — whatever their territory's status.
+      - ask: Detention conditions are at issue. Which Covenant, which article?
+        hint: Civil and political.
+        answer: ICCPR art 10 (rights in detention), with art 9 for liberty and security.
+      - ask: A family is evicted into homelessness. Which Covenant?
+        hint: Economic and social.
+        answer: 'ICESCR art 11: the right to adequate food, clothing and housing.'
+    what-if:
+      - change: A debtor is jailed simply for failing to pay a contract debt.
+        effect: 'ICCPR art 11: no imprisonment for breach of contract — and art 11 is among the rights from which no derogation is permitted (art 4(2)).'
+      - change: The complaint is that public hospitals deny basic care.
+        effect: 'ICESCR art 12: the right to "the highest attainable standard of physical and mental health" — not an ICCPR right.'
+    boundary:
+      - text: ICERD (21 December 1965).
+        why: A core human rights treaty, but not part of the International Bill of Rights, which is the UDHR and the two Covenants.
+      - text: UN Charter arts 1(3), 55(c) and 56.
+        why: Where human rights enter the UN system, but outside the Bill itself.
+    transfer:
+      - scenario: 'A client''s complaint has three parts: she was arbitrarily detained, then denied her trade-union membership at work, then refused entry to university.'
+        answer: 'Map each to the Bill: arbitrary detention — UDHR art 9, ICCPR art 9; trade unions — ICESCR art 8; education — UDHR art 26. Name the instrument and article each time, since numbers differ between instruments.'
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 7–9)
+    verify: false
+  - concept: laws2000-w12-core-instruments-and-sources-of-obligation
+    plain: States are bound to respect human rights by treaties — nine core UN treaties and regional conventions — and by customary law, some of which, like the ban on torture, is jus cogens.
+    concrete: Take the prohibition of torture. It appears in the Convention against Torture (10 December 1984) and ICCPR art 7, but the slides also list torture among customary human rights norms — and some such norms are considered jus cogens, from which no derogation is permitted. So a state that never ratified the Convention against Torture is still bound not to torture.
+    formal: 'Treaty law: the nine core instruments — ICERD (1965), ICCPR and ICESCR (1966), CEDAW (1979), CAT (1984), CRC (1989), Migrant Workers (1990), Enforced Disappearance and Disabilities (2006) — and regional treaties (ECHR, ACHR). Customary law: e.g. torture, genocide, racial discrimination; some are jus cogens. A treaty is void if it conflicts with a peremptory norm (VCLT art 53).'
+    terms:
+      - term: core instruments
+        gloss: The nine core UN human rights treaties, from ICERD (21 December 1965) to the Disabilities and Enforced Disappearance Conventions (December 2006).
+      - term: customary human rights norm
+        gloss: A human rights rule binding as custom, independently of treaty ratification — e.g. the prohibitions of torture, genocide and racial discrimination.
+      - term: jus cogens
+        gloss: A norm accepted and recognised by the international community as one from which no derogation is permitted, modifiable only by a later norm of the same character.
+    misconceptions:
+      - claim: The European Convention on Human Rights is one of the nine core UN instruments.
+        tempting: It is a major human rights treaty.
+        correction: The ECHR is listed as a regional treaty source of obligations, alongside the American Convention — not as a core UN instrument.
+      - claim: Only states that ratified the Convention against Torture are bound not to torture.
+        tempting: Treaties bind only their parties.
+        correction: The prohibition of torture is also customary international law, binding independently of ratification — and the slides add that some such norms are considered jus cogens.
+      - claim: Two states can validly agree by treaty to set aside a jus cogens norm between themselves.
+        tempting: States are usually free to contract out of general rules.
+        correction: No derogation from a jus cogens norm is permitted; a treaty conflicting with a peremptory norm is void (VCLT art 53).
+    socratic:
+      - ask: Where do states' human rights obligations come from?
+        hint: Two sources on the slide.
+        answer: Treaty law (the core instruments and regional conventions) and customary international law.
+      - ask: Name the earliest and latest core instruments.
+        hint: 1965 and 2006.
+        answer: ICERD (21 December 1965); the Disabilities and Enforced Disappearance Conventions (December 2006).
+      - ask: A state is not party to the relevant treaty. Is it free to act?
+        hint: Check custom.
+        answer: Not if the norm is customary — e.g. torture, genocide, racial discrimination. Custom binds without ratification.
+      - ask: What extra force do some customary norms have?
+        hint: VCLT art 53.
+        answer: 'Some are jus cogens: no derogation is permitted, and a conflicting treaty is void.'
+    elements:
+      - name: Treaty
+        test: Is the state party to a core instrument or regional treaty protecting the right?
+      - name: Custom
+        test: If not, is the norm also customary international law — e.g. the prohibitions of torture, genocide or racial discrimination?
+      - name: Jus cogens
+        test: Is it peremptory? Then no derogation is permitted and a conflicting treaty is void.
+        authorities:
+          - vclt-art-53
+    what-if:
+      - change: State P, accused of torturing detainees, never ratified the Convention against Torture or the ICCPR.
+        effect: 'Still bound: the slides list torture among customary human rights norms, which bind without ratification (and some such norms are jus cogens). Non-ratification is no answer.'
+      - change: Two states sign a treaty allowing each to torture the other's captured nationals.
+        effect: 'The treaty is void: it conflicts with a peremptory norm (VCLT art 53), from which no derogation is permitted.'
+    boundary:
+      - text: The American Convention on Human Rights.
+        why: A treaty source of obligations, but regional, binding only its parties — not one of the nine core UN instruments.
+      - text: Racial discrimination by a state party to no treaty on it.
+        why: 'Inside: the slides give racial discrimination as an example of a customary human rights norm.'
+    transfer:
+      - scenario: 'An exam hypothetical: State W has ratified no human rights treaty at all. Its forces carry out a genocide against a minority. W argues it owes no human rights obligations.'
+        answer: 'Wrong. Obligations arise from customary law as well as treaty: the prohibition of genocide is a customary human rights norm, and some such norms are jus cogens, from which no derogation is permitted (VCLT art 53). W is bound regardless of ratification.'
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 10–11)
+      - 'Week 12 - Revision Slides (Topic 3: art 53 VCLT — a treaty conflicting with a peremptory norm is void)'
+      - 'Week 12 - Tutorial Revision Quiz Questions (Q3: the status of a jus cogens norm)'
+    verify: false
+  - concept: laws2000-w12-generations-and-principles-of-rights
+    plain: Rights are grouped into civil and political, economic, social and cultural, and collective "generations" — but all apply to everyone, have equal standing, and depend on one another.
+    concrete: 'The slides'' example of indivisibility: a state cannot advance everyone''s right to an adequate standard of living by sacrificing the right to health or the right to education. Denying one right invariably impedes the enjoyment of others, and benefiting from one right may depend on others being fulfilled — which is why the three generations are categories, not a ranking.'
+    formal: 'First generation: civil and political rights (life, freedom from torture, expression, fair trial, political participation). Second: economic, social and cultural rights (education, health, adequate standard of living, work, cultural rights). Third: collective rights (self-determination; potentially development and a healthy environment). Universality: rights apply to all humans everywhere. Indivisibility and interdependence: all rights have equal status and cannot be ranked.'
+    terms:
+      - term: first generation
+        gloss: Civil and political rights — e.g. life, freedom from torture, freedom of expression, fair trial, political participation.
+      - term: second generation
+        gloss: Economic, social and cultural rights — e.g. education, health, an adequate standard of living, work, cultural rights.
+      - term: third generation
+        gloss: Collective rights — self-determination; potentially the rights to development and a healthy environment.
+      - term: indivisibility and interdependence
+        gloss: All rights are interconnected and equally important; they cannot be placed in a hierarchy, and denying one impedes others.
+    misconceptions:
+      - claim: Under indivisibility, civil and political rights rank above economic, social and cultural rights.
+        tempting: They are called the "first" generation.
+        correction: Indivisibility means all rights have equal status and cannot be positioned in a hierarchical order; "generations" are categories, not ranks.
+      - claim: '"Rights must be understood in context" is a universalist argument.'
+        tempting: It sounds like a sensible general principle.
+        correction: It is a cultural relativist argument. Universalists say basic rights like life and freedom from torture cannot depend on culture, and that culture changes and evolves.
+      - claim: Cultural rights are third-generation rights because culture belongs to communities.
+        tempting: Culture is shared within groups.
+        correction: The slides list cultural rights in the second generation, with economic and social rights; the third generation is collective rights such as self-determination.
+    socratic:
+      - ask: Where does freedom of expression sit among the generations?
+        hint: Civil and political.
+        answer: First generation — civil and political rights.
+      - ask: And the right to health?
+        hint: Economic and social.
+        answer: Second generation — economic, social and cultural rights.
+      - ask: Which right is the firm third-generation example, and which are only potential?
+        hint: Collective rights.
+        answer: Self-determination; the rights to development and to a healthy environment are only potentially third-generation.
+      - ask: Does "first" generation mean more important?
+        hint: Indivisibility.
+        answer: No. All rights have equal status and cannot be ranked; denying one impedes enjoyment of others.
+      - ask: What does universality claim, and who challenges it?
+        hint: Relativists.
+        answer: That rights apply to all humans everywhere. Cultural relativists say values differ and universal rights are cultural imperialism; universalists reply that basic rights cannot depend on culture.
+    what-if:
+      - change: A government proposes ending free schooling to fund housing for the poor.
+        effect: 'Indivisibility tells against it: the right to an adequate standard of living cannot be pursued at the expense of the right to education; rights are interdependent and equal in status.'
+      - change: A state defends a practice harming women as its cultural tradition.
+        effect: 'The universalist reply: basic rights cannot depend on culture, relativism often masks oppression of women and minorities, and culture is not static.'
+    boundary:
+      - text: The right to a healthy environment.
+        why: 'Only potentially third generation: the slides give it, with development, as a possible collective right.'
+      - text: Political participation rights.
+        why: 'First generation, not collective: though exercised with others, they are listed among civil and political rights.'
+    transfer:
+      - scenario: 'A minister says: "We guarantee free speech and fair trials; food and housing are aspirations, not rights."'
+        answer: 'This ranks first-generation rights above second-generation ones, which indivisibility rejects: all human rights have equal status, cannot be ranked, and denying one (an adequate standard of living) impedes others. The right to "adequate food, clothing and housing" is itself in ICESCR art 11.'
+    objections:
+      - position: 'Universality: human rights apply to all humans everywhere.'
+        evidence: Basic rights like life and freedom from torture cannot depend on culture.
+        objection: 'Cultural relativists: societies have different values and conceptions of rights; Western individualism doesn''t reflect all worldviews, so universal rights are cultural imperialism and must be understood in context.'
+        reply: 'Universalists: cultural relativism often masks oppression, particularly of women and minorities, and culture isn''t static — it changes and evolves.'
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 12–14)
+    verify: false
+  - concept: laws2000-w12-rights-holders-and-duty-bearers
+    plain: Individuals and groups hold human rights; states mainly owe them — both by not violating rights themselves and by protecting people from private abusers. International organisations can owe duties too.
+    concrete: The slides' example of a horizontal obligation is non-discrimination in housing. If private landlords refuse to rent to people of a particular race, the landlords do not breach the ICCPR — the Covenant "cannot be viewed as a substitute for domestic criminal or civil law". But the state's duty to ensure rights is fully discharged only if it protects people against private persons too; failing to do so is the state's own breach.
+    formal: 'Right bearers: individuals and groups. Duty bearers: primarily states — vertical duties to individuals under their jurisdiction; horizontal duties to protect them from private actors. GC 31 para 8: positive obligations are "only ... fully discharged if individuals are protected by the State, not just against violations ... by its agents, but also against acts committed by private persons or entities". International organisations are bound too (WHO–Egypt, para 37).'
+    analogy:
+      text: 'A lifeguard owes swimmers two duties: never to push anyone under, and to pull out anyone another swimmer is dragging under.'
+      maps:
+        - from: the swimmers
+          to: 'right bearers: individuals and groups'
+        - from: the lifeguard
+          to: the state, the primary duty bearer
+        - from: never pushing anyone under
+          to: 'vertical obligation: the state''s own agents must not violate rights'
+        - from: rescuing from other swimmers
+          to: 'horizontal obligation: protecting individuals from private actors (GC 31 para 8)'
+      limits:
+        - 'The state does not answer for every private harm as such: the question is whether it failed to protect — e.g. a lack of vigilance — not merely whether harm occurred.'
+    terms:
+      - term: right bearers
+        gloss: 'Those who hold human rights: the individual, and groups for collective rights.'
+      - term: duty bearers
+        gloss: 'Those who owe human rights obligations: primarily states; international organisations too (e.g. in peacekeeping).'
+      - term: vertical obligation
+        gloss: The state's duties toward individuals under its jurisdiction — e.g. its own agents must not torture.
+      - term: horizontal obligation
+        gloss: The state's duty to protect individuals from violations by other private actors — e.g. torture, non-discrimination in housing.
+    misconceptions:
+      - claim: A horizontal obligation is a duty one state owes another state.
+        tempting: '"Horizontal" suggests a relationship between equals.'
+        correction: On the slides, a horizontal obligation is the state's duty to protect individuals from violations by other private actors, e.g. torture or discrimination in housing.
+      - claim: Private persons owe duties directly under the ICCPR, so victims sue them under the Covenant.
+        tempting: Private actors cause the harm.
+        correction: 'GC 31 para 8: the Covenant "cannot be viewed as a substitute for domestic criminal or civil law". The duty bearer is the state, which must protect individuals against private persons.'
+      - claim: A state discharges its Covenant duties as long as its own agents respect rights.
+        tempting: The ICCPR is addressed to states.
+        correction: 'GC 31 para 8: positive obligations are fully discharged only if individuals are protected against the state''s agents and against private persons or entities.'
+    socratic:
+      - ask: Who holds human rights?
+        hint: Individuals — and?
+        answer: The individual, and groups for collective rights such as self-determination.
+      - ask: Who owes them?
+        hint: Primarily…
+        answer: States, primarily; international organisations can also be duty bearers, e.g. in peacekeeping.
+      - ask: Police torture a detainee. Which kind of obligation is breached?
+        hint: State agent to individual.
+        answer: 'A vertical obligation: the state''s own duty toward individuals under its jurisdiction.'
+      - ask: A private gang tortures people and the state does nothing. Has the state breached anything?
+        hint: GC 31 para 8.
+        answer: 'Yes, potentially: its horizontal obligation to protect individuals against private persons — its positive obligations are not fully discharged.'
+      - ask: Are UN bodies bound by international obligations?
+        hint: WHO–Egypt, para 37.
+        answer: 'Yes: international organisations are subjects of international law, bound by obligations under general international law, their constitutions and their agreements.'
+    elements:
+      - name: Who holds the right?
+        test: The individual, or a group for collective rights.
+      - name: Who bears the duty?
+        test: Primarily the state; an international organisation may also be bound under general international law, its constitution or its agreements.
+        cases:
+          - interpretation-of-the-agreement-of-25-march-1951-between-the-who-and-egypt
+      - name: 'Vertical: the state''s own conduct'
+        test: Did the state's agents violate the right of an individual under its jurisdiction?
+      - name: 'Horizontal: protection from private actors'
+        test: Did the state fail to protect individuals against acts of private persons or entities?
+        authorities:
+          - hrc-general-comment-31-para-8
+    what-if:
+      - change: The torture is carried out by a private militia the state tolerates, not by police.
+        effect: 'No vertical breach by state agents, but the state''s horizontal obligation is engaged: it must protect individuals against private persons too (GC 31 para 8).'
+      - change: The harm is caused by soldiers serving in a UN peacekeeping operation.
+        effect: 'International organisations can be duty bearers: as subjects of international law they are bound by general international law, their constitutions and their agreements (WHO–Egypt, para 37).'
+    boundary:
+      - text: A private company's discriminatory hiring.
+        why: The company is not the treaty's duty bearer, but the state's horizontal duty to protect against private discrimination is engaged.
+      - text: UN peacekeepers' conduct.
+        why: 'Inside the duty-bearer category: the slides give peacekeeping as an example of international organisations bearing duties.'
+    transfer:
+      - scenario: 'Exam hypothetical: in State H, private security guards at a mine beat protesters. H''s courts refuse to hear the victims'' claims and police do not investigate. The victims say "the mining company breached the ICCPR".'
+        answer: 'Reframe it: the company is not the Covenant''s duty bearer. H breached its horizontal obligation — positive obligations are fully discharged only if individuals are protected against private persons or entities (GC 31 para 8) — by failing to investigate or provide domestic remedies.'
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 15–16)
+    verify: false
+  - concept: laws2000-w12-scope-and-extraterritoriality
+    plain: A state owes human rights to everyone in its territory or under its jurisdiction, whatever their nationality or legal status — and that can include people abroad, as in territory it occupies.
+    concrete: Uganda occupied Ituri, in the Democratic Republic of the Congo. The ICJ held Uganda responsible both for its soldiers' violations and for its lack of vigilance in preventing violations by other actors there, including rebel groups acting on their own account (para 179). Human rights instruments applied "in respect of acts done by a State in the exercise of its jurisdiction outside its own territory", particularly in occupied territories (para 216).
+    formal: States must respect the rights of people within their territory and subject to their jurisdiction (ICCPR art 2(1)), irrespective of nationality or legal status. Jurisdiction is "primarily territorial" but may be exercised abroad, and the drafters "did not intend to allow States to escape from their obligations" there (Wall, para 109; DRC v Uganda, para 216). The slides cite Lopez Burgos (para 12.3) for application even sometimes without effective control.
+    terms:
+      - term: jurisdiction (art 2(1))
+        gloss: 'The link that triggers ICCPR duties: people within the state''s territory and those subject to its jurisdiction.'
+      - term: extraterritoriality
+        gloss: Human rights obligations applying to a state's conduct outside its own territory when it exercises jurisdiction there.
+      - term: occupying Power
+        gloss: A state occupying foreign territory; it exercises jurisdiction there, and human rights instruments apply to its acts (DRC v Uganda).
+    misconceptions:
+      - claim: Human rights treaty obligations stop at the state's border.
+        tempting: Jurisdiction is usually territorial.
+        correction: 'Jurisdiction is "primarily", not exclusively, territorial: the ICCPR binds states exercising jurisdiction abroad (Wall, para 109), particularly in occupied territories (DRC v Uganda, para 216).'
+      - claim: A state owes ICCPR rights only to its own nationals, or to those lawfully present.
+        tempting: Some political rights are tied to citizenship.
+        correction: Under art 2(1) the test is territory or jurisdiction, irrespective of nationality or legal status.
+      - claim: Uganda was responsible for the rebels' violations because the rebels were its de facto organs.
+        tempting: Attribution was Week 7's route to responsibility for non-state actors.
+        correction: The Court found Uganda responsible for its own lack of vigilance as occupying Power in preventing violations by others, including rebels acting on their own account (para 179).
+    socratic:
+      - ask: Whose rights must a state respect under ICCPR art 2(1)?
+        hint: Territory and…
+        answer: Everyone within its territory and those subject to its jurisdiction, irrespective of nationality or legal status.
+      - ask: Can jurisdiction exist outside the territory?
+        hint: Wall, para 109.
+        answer: 'Yes: jurisdiction is primarily territorial but may be exercised abroad, and the Covenant''s drafters did not intend states to escape their obligations there.'
+      - ask: What is the clearest example of jurisdiction abroad?
+        hint: Ituri.
+        answer: 'Occupation: in DRC v Uganda, human rights instruments applied to Uganda''s acts as occupying Power (para 216).'
+      - ask: Uganda's soldiers did not commit some of the abuses — rebels did. Why was Uganda still responsible?
+        hint: Para 179.
+        answer: For its own lack of vigilance in preventing violations by other actors in the territory it occupied.
+      - ask: Must the state have effective control?
+        hint: Lopez Burgos, para 12.3.
+        answer: 'Not always: the slides cite Lopez Burgos for obligations applying even sometimes without effective control — an argument to make carefully.'
+    elements:
+      - name: Territory or jurisdiction
+        test: Was the person within the state's territory or subject to its jurisdiction?
+        authorities:
+          - iccpr-art-2-1
+      - name: Status irrelevant
+        test: Protection applies irrespective of nationality or legal status.
+        authorities:
+          - iccpr-art-2-1
+      - name: Jurisdiction abroad
+        test: Outside its territory, does the state exercise jurisdiction — especially as an occupying Power?
+        cases:
+          - construction-of-a-wall-advisory-opinion
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+      - name: Own acts and lack of vigilance
+        test: Responsibility covers the state's agents' violations and any lack of vigilance in preventing violations by others in territory it controls.
+        cases:
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+    what-if:
+      - change: The victim is an undocumented foreign national inside the state.
+        effect: 'Covered: art 2(1) protects people within the territory irrespective of nationality or legal status.'
+      - change: The abuse happens in foreign territory the state occupies.
+        effect: 'Covered: human rights instruments apply to acts done in the exercise of jurisdiction outside the territory, particularly in occupied territories (DRC v Uganda, para 216; Wall, para 109).'
+      - change: The state's agents act abroad where it lacks effective control of the area.
+        effect: 'Arguable: the slides cite Lopez Burgos (para 12.3) for obligations applying even sometimes without effective control — make the argument, but acknowledge it is the harder case.'
+    boundary:
+      - text: Lopez Burgos v Uruguay (para 12.3).
+        why: 'The edge of the doctrine: cited for obligations applying "even sometimes" without effective control.'
+      - text: A person abroad with no link at all to the state.
+        why: 'Outside: not within its territory or subject to its jurisdiction, so art 2(1) is not engaged.'
+    transfer:
+      - scenario: State F's navy intercepts a migrant boat on the high seas, takes the passengers aboard and holds them below deck for weeks without access to anyone.
+        answer: Argue F owed them ICCPR rights. Art 2(1) turns on territory or jurisdiction, not nationality or status; jurisdiction may be exercised outside the territory and the drafters did not intend states to escape their obligations there (Wall, para 109; DRC v Uganda, para 216). Holding people aboard is an exercise of jurisdiction.
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 17–18)
+    verify: false
+  - concept: laws2000-w12-derogations-and-limitations
+    plain: In a genuine national emergency a state may suspend some rights, but only as far as strictly needed, and some rights never. In normal times, any limit must be lawful, legitimate and necessary.
+    concrete: In Aksoy v Turkey, the European Court of Human Rights accepted that investigating terrorist offences presents special problems, but could not accept that it was necessary to hold a suspect for fourteen days without judicial intervention. The period was "exceptionally long", leaving him vulnerable to arbitrary interference with liberty and to torture, and Turkey gave no detailed reasons why judicial intervention was impracticable (para 78).
+    formal: 'ICCPR art 4(1): in an officially proclaimed "public emergency which threatens the life of the nation", a state may derogate "to the extent strictly required by the exigencies of the situation", consistently with other obligations, without listed discrimination. Art 4(2): none from arts 6, 7, 8(1)–(2), 11, 15, 16, 18. ACHR art 27 is similar. Otherwise restrictions need law, a legitimate aim and necessity in a democratic society.'
+    analogy:
+      text: In a declared bushfire emergency a council may close roads and override normal rules — but only while the fire lasts, only as far as needed, announced publicly, and never by blocking the evacuation routes.
+      maps:
+        - from: the declared bushfire emergency
+          to: an officially proclaimed public emergency threatening the life of the nation
+        - from: only while and as far as needed
+          to: '"to the extent strictly required by the exigencies of the situation"'
+        - from: never blocking evacuation routes
+          to: non-derogable rights (ICCPR art 4(2))
+        - from: announcing the closures
+          to: the notification requirement
+      limits:
+        - A council answers to local law; a derogation is tested against international obligations too — consistency with jus cogens and no discrimination on listed grounds.
+    terms:
+      - term: derogation
+        gloss: Temporarily suspending treaty obligations in a public emergency threatening the life of the nation, to the extent strictly required (ICCPR art 4(1)).
+      - term: non-derogable rights
+        gloss: Rights that cannot be suspended even in emergency — ICCPR arts 6, 7, 8(1)–(2), 11, 15, 16 and 18; ACHR art 27(2) lists its own.
+      - term: limitation
+        gloss: 'A restriction in normal times: provided by law, serving a legitimate aim in the limitation clause, and necessary in a democratic society.'
+      - term: notification
+        gloss: One of the four substantive requirements for a valid derogation.
+    misconceptions:
+      - claim: A state may derogate whenever its government considers national security requires it.
+        tempting: Security is the usual reason given.
+        correction: Art 4(1) needs a public emergency threatening the life of the nation, officially proclaimed, and measures strictly required by the situation.
+      - claim: The right to liberty (ICCPR art 9) can never be suspended.
+        tempting: Liberty feels as fundamental as life.
+        correction: Art 9 is not in art 4(2), so it is derogable — but only to the extent strictly required, as Aksoy shows for fourteen-day detention without a judge.
+      - claim: Outside an emergency, a state may restrict a limited right whenever convenient.
+        tempting: Many rights are not absolute.
+        correction: The restriction must be provided by law, serve a legitimate aim in the limitation clause, and be necessary in a democratic society — a public need, proportionate.
+    socratic:
+      - ask: A government suspends rights after riots. What must you decide first?
+        hint: Emergency or normal times?
+        answer: Whether it is derogating in an emergency (art 4) or limiting a right in normal times — different tests apply.
+      - ask: What emergency qualifies under ICCPR art 4(1)?
+        hint: Life of the nation.
+        answer: A public emergency which threatens the life of the nation and whose existence is officially proclaimed.
+      - ask: Which rights are off-limits even then?
+        hint: Art 4(2).
+        answer: Arts 6, 7, 8(1)–(2), 11, 15, 16 and 18 — e.g. life, freedom from torture and slavery.
+      - ask: How far may the measures go?
+        hint: Aksoy.
+        answer: Only as strictly required — necessary and proportionate in nature, duration and impact; Aksoy's fourteen days without a judge failed.
+      - ask: What else must a valid derogation satisfy?
+        hint: Four requirements.
+        answer: Consistency with other international obligations, especially jus cogens; no effect on absolute or non-derogable rights; no discrimination solely on listed grounds; notification.
+    elements:
+      - name: Qualifying emergency
+        test: 'A public emergency threatening the life of the nation, officially proclaimed (ICCPR art 4(1)); ACHR: war, public danger or emergency threatening independence or security.'
+        authorities:
+          - iccpr-art-4
+          - achr-art-27
+      - name: Necessity and proportionality
+        test: Measures strictly required by the exigencies — in nature, duration and impact.
+        cases:
+          - aksoy-v-turkey
+      - name: Consistent with other obligations
+        test: Not inconsistent with other international obligations, especially jus cogens; no discrimination solely on race, colour, sex, language, religion or social origin.
+        authorities:
+          - vclt-art-53
+      - name: No non-derogable rights
+        test: No derogation from absolute or non-derogable rights (ICCPR art 4(2)).
+        authorities:
+          - iccpr-art-4
+      - name: Notification
+        test: The derogation must be notified.
+    what-if:
+      - change: During a proclaimed emergency, interrogators use torture to stop an imminent attack.
+        effect: 'Still unlawful: art 7 (prohibition on torture) is non-derogable under art 4(2), so no emergency justifies it; derogations must also respect jus cogens.'
+      - change: Emergency measures detain only members of one religion.
+        effect: 'Fails art 4(1): measures may not involve discrimination solely on the ground of religion, among other grounds.'
+      - change: There is no emergency; the state bans a protest under a statute to protect others' rights.
+        effect: 'Test it as a limitation: provided by law, a legitimate aim in the limitation clause, and necessary in a democratic society — responding to a public need and proportionate.'
+    boundary:
+      - text: ICCPR art 11 (no imprisonment for contract debt).
+        why: Non-derogable under art 4(2), though it may look minor beside liberty (art 9), which is derogable.
+      - text: Fourteen days' detention without judicial intervention (Aksoy).
+        why: 'Derogable right, but the measure was not strictly required: "exceptionally long", with no detailed reasons given.'
+    transfer:
+      - scenario: After a cyber-attack cripples hospitals, State E proclaims an emergency and notifies it. It suspends freedom of movement nationwide for two years, and bans criticism of the government online.
+        answer: Movement (ICCPR art 12) is derogable, but a nationwide two-year suspension must be strictly required — necessary and proportionate in nature, duration and impact (Aksoy). The online ban must also meet that test and be consistent with E's other obligations; overbroad or open-ended measures fail.
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 19–21)
+    verify: false
+  - concept: laws2000-w12-international-human-rights-machinery
+    plain: 'Human rights are monitored rather than enforced like court orders: the UN Human Rights Council reviews every state and appoints independent experts, and treaty committees examine reports and complaints.'
+    concrete: Under the Universal Periodic Review, every UN member state is reviewed every 4.5 years. The state — and NGOs — submit reports; a working group of 47 members reviews them and issues an "Outcome Report" with recommendations to the state under review. The state then accepts or merely notes each recommendation. Nothing in the process makes the recommendations binding.
+    formal: 'Charter-based: the Human Rights Council replaced the Commission on Human Rights in 2006 (UNGA res 60/251): 47 states elected by the General Assembly for three-year terms (maximum two consecutive), working through sessions, the Universal Periodic Review and special procedures. Treaty-based: committees for each core treaty — state reporting, individual complaints ("views"), inter-state complaints, general comments. Outputs are not binding but carry significant weight (Diallo, para 66).'
+    analogy:
+      text: 'A school inspection rather than a court case: peers review each school on a cycle and make recommendations; expert examiners assess complaints; but nobody issues a binding sentence.'
+      maps:
+        - from: the inspection cycle by peers
+          to: the Universal Periodic Review, every 4.5 years
+        - from: recommendations the school accepts or notes
+          to: UPR outcome reports
+        - from: expert examiners' assessments
+          to: treaty bodies' views, carrying significant weight
+      limits:
+        - Treaty bodies decide individual complaints in written, judicial-style proceedings, and the ICJ gives their interpretations "great weight" (Diallo) — more than a school report.
+    terms:
+      - term: Universal Periodic Review
+        gloss: Peer review of every UN member state every 4.5 years by a 47-member working group; the state accepts or notes the recommendations.
+      - term: special procedures
+        gloss: Independent experts — special rapporteurs, independent experts, working groups — with thematic and country mandates; they visit (with consent), receive complaints and report.
+      - term: treaty body
+        gloss: The committee supervising a core treaty, e.g. the Human Rights Committee for the ICCPR.
+      - term: general comment
+        gloss: A treaty body's interpretation of treaty provisions, considered authoritative — e.g. General Comment No 31.
+    misconceptions:
+      - claim: The Human Rights Council and the Human Rights Committee are the same body.
+        tempting: The names are almost identical.
+        correction: The Council is a Charter-based body of 47 states (UNGA res 60/251). The Committee is the ICCPR's treaty body of independent experts, issuing views and general comments.
+      - claim: Treaty body decisions bind states like ICJ judgments.
+        tempting: Individual complaints are decided in a judicial style.
+        correction: They are not binding but carry significant weight. In Diallo (para 66) the ICJ was "in no way obliged" to follow the Committee but ascribed "great weight" to its interpretation.
+      - claim: UPR recommendations bind the state under review.
+        tempting: They come out of a formal review.
+        correction: The state under review accepts or notes the recommendations; the UPR is peer review, not adjudication.
+    socratic:
+      - ask: Which UN body reviews every state's human rights record?
+        hint: Charter-based.
+        answer: The Human Rights Council, through the Universal Periodic Review, every 4.5 years.
+      - ask: Who sits on the Council?
+        hint: UNGA res 60/251.
+        answer: 47 states elected by the General Assembly for three-year terms, maximum two consecutive, with regional distribution.
+      - ask: Who investigates particular themes or countries?
+        hint: Independent experts.
+        answer: 'The special procedures: special rapporteurs, independent experts and working groups, with thematic and country mandates.'
+      - ask: What do treaty bodies do?
+        hint: Four methods.
+        answer: Consider state reports (concluding observations), decide individual complaints (views), hear inter-state complaints (extremely rare) and issue authoritative general comments.
+      - ask: Does an ICCPR committee view bind the state?
+        hint: Diallo.
+        answer: 'No, but it carries significant weight: the ICJ gives "great weight" to the Committee''s interpretation.'
+    what-if:
+      - change: An individual's complaint to the Human Rights Committee succeeds, and the state ignores the views.
+        effect: The views are not binding, so ignoring them is not itself a breach of a binding order; but they carry significant weight as interpretation, as the ICJ recognised in Diallo.
+      - change: A special rapporteur wants to visit a country to investigate.
+        effect: Country visits need the state's consent; without it, the rapporteur can still receive individual complaints and issue reports.
+    boundary:
+      - text: Inter-state complaints under the treaties.
+        why: 'Available but extremely rare: only three ever, all under ICERD — the only treaty not requiring reciprocal declarations.'
+      - text: General comments.
+        why: Not binding judgments, but considered authoritative interpretations of the treaty.
+    transfer:
+      - scenario: 'A student essay: "The UN human rights system is toothless because none of its outputs bind." Respond.'
+        answer: 'Partly true: UPR recommendations are accepted or noted, and treaty body views and general comments are not binding. But they carry significant weight — the ICJ ascribed "great weight" to the Human Rights Committee''s interpretation in Diallo (para 66) — and periodic review and expert reporting keep every state under scrutiny.'
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 23–29)
+    verify: false
+flows:
+  - slug: is-the-restriction-of-a-right-lawful
+    title: Is this restriction of a human right lawful?
+    summary: Separates a derogation in a public emergency (ICCPR art 4, ACHR art 27) from a limitation in normal times, then tests each against its conditions.
+    start: d1
+    concepts:
+      - laws2000-w12-derogations-and-limitations
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 19–21)
+    nodes:
+      - id: d1
+        kind: ask
+        text: Is the state derogating in a public emergency, or limiting the right in normal times?
+        branches:
+          - label: Derogating in an emergency
+            to: d2
+          - label: Limiting it in normal times
+            to: l1
+      - id: d2
+        kind: ask
+        text: Is there a public emergency threatening the life of the nation, officially proclaimed?
+        note: 'ICCPR art 4(1). ACHR art 27(1): war, public danger or other emergency threatening the state''s independence or security.'
+        authorities:
+          - iccpr-art-4
+          - achr-art-27
+        branches:
+          - label: 'Yes'
+            to: d3
+          - label: No — test it as an ordinary limitation
+            to: l1
+      - id: d3
+        kind: ask
+        text: Is the right absolute or non-derogable?
+        note: 'ICCPR art 4(2): arts 6, 7, 8(1)–(2), 11, 15, 16 and 18. ACHR art 27(2): e.g. life, humane treatment, freedom from slavery, conscience and religion.'
+        authorities:
+          - iccpr-art-4
+        branches:
+          - label: 'Yes'
+            to: e-nonderog
+          - label: 'No'
+            to: d4
+      - id: d4
+        kind: ask
+        text: Are the measures strictly required — necessary and proportionate in nature, duration and impact?
+        note: 'Aksoy v Turkey (para 78): fourteen days'' detention without judicial intervention was "exceptionally long" and not necessary.'
+        cases:
+          - aksoy-v-turkey
+        branches:
+          - label: 'Yes'
+            to: d5
+          - label: 'No'
+            to: e-derog-fail
+      - id: d5
+        kind: ask
+        text: Are they consistent with the state's other international obligations (especially jus cogens), non-discriminatory, and notified?
+        note: No discrimination solely on race, colour, sex, language, religion or social origin (art 4(1)).
+        authorities:
+          - vclt-art-53
+        branches:
+          - label: 'Yes'
+            to: e-derog-ok
+          - label: 'No'
+            to: e-derog-fail
+      - id: l1
+        kind: ask
+        text: Is the restriction provided by law?
+        branches:
+          - label: 'Yes'
+            to: l2
+          - label: 'No'
+            to: e-lim-fail
+      - id: l2
+        kind: ask
+        text: Does it serve a legitimate aim described in the limitation clause — e.g. protecting the rights and freedoms of others?
+        branches:
+          - label: 'Yes'
+            to: l3
+          - label: 'No'
+            to: e-lim-fail
+      - id: l3
+        kind: ask
+        text: Is it necessary in a democratic society — responding to a public need and proportionate?
+        branches:
+          - label: 'Yes'
+            to: e-lim-ok
+          - label: 'No'
+            to: e-lim-fail
+      - id: e-nonderog
+        kind: end
+        tone: not-met
+        text: 'Unlawful: no derogation is permitted from absolute or non-derogable rights, whatever the emergency.'
+      - id: e-derog-fail
+        kind: end
+        tone: not-met
+        text: 'Unlawful derogation: a requirement of art 4 is not met.'
+      - id: e-derog-ok
+        kind: end
+        tone: met
+        text: A valid derogation — for as long, and as far, as the emergency strictly requires.
+      - id: e-lim-fail
+        kind: end
+        tone: not-met
+        text: 'Unlawful restriction: a condition for limiting the right in normal times is not met.'
+      - id: e-lim-ok
+        kind: end
+        tone: met
+        text: A lawful limitation of the right.
+  - slug: does-the-state-owe-this-obligation
+    title: Does this state owe a human rights obligation to this person, for this harm?
+    summary: Checks the source of the obligation (treaty, custom, jus cogens), its reach (territory or jurisdiction, including abroad), and whose conduct caused the harm (vertical, horizontal, or an international organisation).
+    start: o1
+    concepts:
+      - laws2000-w12-core-instruments-and-sources-of-obligation
+      - laws2000-w12-scope-and-extraterritoriality
+      - laws2000-w12-rights-holders-and-duty-bearers
+    sources:
+      - Week 12 - Lecture Slides - International Human Rights Law (slides 10–11, 15–18)
+      - 'Week 12 - Revision Slides (Topic 3: art 53 VCLT)'
+    nodes:
+      - id: o1
+        kind: ask
+        text: Is the state party to a treaty protecting the right?
+        note: The nine core instruments (ICERD to the 2006 Conventions) or a regional treaty such as the ECHR or ACHR.
+        branches:
+          - label: 'Yes'
+            to: o3
+          - label: 'No'
+            to: o2
+      - id: o2
+        kind: ask
+        text: Is the norm also customary international law — e.g. the prohibitions of torture, genocide or racial discrimination?
+        note: Custom binds without ratification; some customary human rights norms are considered jus cogens.
+        concept: laws2000-w12-core-instruments-and-sources-of-obligation
+        authorities:
+          - vclt-art-53
+        branches:
+          - label: 'Yes'
+            to: o3
+          - label: 'No'
+            to: e-unbound
+      - id: o3
+        kind: ask
+        text: Was the person within the state's territory?
+        note: Nationality and legal status are irrelevant (ICCPR art 2(1)).
+        authorities:
+          - iccpr-art-2-1
+        branches:
+          - label: 'Yes'
+            to: o5
+          - label: No — abroad
+            to: o4
+      - id: o4
+        kind: ask
+        text: Was the person subject to the state's jurisdiction abroad — e.g. in territory it occupies?
+        note: Wall (para 109); DRC v Uganda (para 216). The slides cite Lopez Burgos (para 12.3) for application even sometimes without effective control.
+        concept: laws2000-w12-scope-and-extraterritoriality
+        cases:
+          - construction-of-a-wall-advisory-opinion
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+          - sergio-euben-lopez-burgos-v-uruguay
+        branches:
+          - label: 'Yes'
+            to: o5
+          - label: 'No'
+            to: e-noreach
+      - id: o5
+        kind: ask
+        text: Whose conduct caused the harm?
+        concept: laws2000-w12-rights-holders-and-duty-bearers
+        branches:
+          - label: The state's own agents
+            to: e-vertical
+          - label: A private person or group
+            to: o6
+          - label: An international organisation
+            to: e-io
+      - id: o6
+        kind: ask
+        text: Did the state fail to protect — e.g. a lack of vigilance, or no domestic protection against the private actor?
+        note: 'GC 31 para 8: obligations are fully discharged only if individuals are protected against private persons or entities too. DRC v Uganda (para 179): lack of vigilance over rebels.'
+        authorities:
+          - hrc-general-comment-31-para-8
+        cases:
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+        branches:
+          - label: 'Yes'
+            to: e-horizontal
+          - label: No — it protected adequately
+            to: e-protected
+      - id: e-unbound
+        kind: end
+        tone: not-met
+        text: 'No obligation established: the state is not party to the treaty and the norm is not shown to be customary.'
+      - id: e-noreach
+        kind: end
+        tone: not-met
+        text: 'Outside the obligation''s reach: the person was neither in the state''s territory nor subject to its jurisdiction.'
+      - id: e-vertical
+        kind: end
+        tone: met
+        text: 'Vertical obligation engaged: the state answers for its own agents'' violations.'
+      - id: e-horizontal
+        kind: end
+        tone: met
+        text: 'Horizontal obligation breached: the state failed to protect the person from the private actor.'
+      - id: e-protected
+        kind: end
+        tone: not-met
+        text: 'No breach by the state: the private actor does not breach the treaty itself — the Covenant is not a substitute for domestic criminal or civil law.'
+      - id: e-io
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'The organisation may be the duty bearer: international organisations are bound by general international law, their constitutions and their agreements (WHO–Egypt, para 37).'
+        cases:
+          - interpretation-of-the-agreement-of-25-march-1951-between-the-who-and-egypt

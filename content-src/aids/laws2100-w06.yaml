@@ -1,0 +1,586 @@
+unit: laws2100
+week: 6
+source: raw/laws2100-juris/week-06
+generator: aids-1
+aids:
+  - concept: laws2100-w06-realism-against-formalism
+    plain: 'Legal realists asked whether judges really decide cases by deducing results from rules. They answered no: law in action differs from law in books, and judges decide on policy and the facts.'
+    concrete: 'US law students were taught formalism: law is a self-contained system of rules, and a judge decides by syllogism. All cases of this kind are regulated this way; this is such a case; therefore this result. Rules were treated like mathematical propositions. The realists asked: is this really what judges do? Holmes: ''The life of the law has not been logic; it has been experience.'''
+    formal: 'Formalism: law as a self-contained system of rules; judges decide by deductive, syllogistic reasoning (''mechanical jurisprudence''); rules work like mathematical propositions; judicial reasoning is independent of moral, political, economic and social considerations (slide 5). Holmes, The Common Law (1881): ''The life of the law has not been logic; it has been experience.'' Realist claims include law in books versus law in action, and indeterminacy.'
+    analogy:
+      text: 'Formalism pictures the judge as a vending machine: put in the facts, press the button for the rule, and the judgment drops out. The realist opens the machine and finds a person choosing.'
+      maps:
+        - from: putting in the facts and pressing the button
+          to: identifying the facts and the general rule
+        - from: the machine working
+          to: deductive, syllogistic reasoning
+        - from: the person inside choosing
+          to: judges deciding on policy, facts and other non-legal factors
+      limits:
+        - A machine gives no reasons; judges do, and realists say the stated reasons may not be the real ones.
+        - Hart says the machine picture is roughly right for plain cases in a rule's core, and wrong only at the penumbra.
+    terms:
+      - term: Formalism
+        gloss: 'The received view in US law schools: law as a self-contained system of rules from which judges deduce results by syllogism, independent of moral, political, economic and social considerations.'
+      - term: Mechanical jurisprudence
+        gloss: 'Another name for formalism in adjudication: applying general rules to facts so that results follow mechanically, like mathematical propositions.'
+      - term: Paper rules and real rules
+        gloss: 'Law in books versus law in action: the rules as written, and what officials actually do.'
+      - term: Legal realism
+        gloss: An umbrella term for American (Holmes to Cohen) and Scandinavian (Hagerstrom to Ross) theories that share a set of claims rather than one theory.
+    misconceptions:
+      - claim: Legal realism is a single theory held by one school.
+        tempting: It goes by one name.
+        correction: 'Like ''positivism'', it is an umbrella term: American and Scandinavian families share a set of claims, which individual realists hold in different forms.'
+      - claim: When realists called their approach 'positivistic', they meant legal positivism.
+        tempting: The word is the same.
+        correction: 'Slide 9: empirical, observational and positivistic ''in the scientific sense, not the legal sense of positivism''.'
+      - claim: '''Judges (should) decide cases by making policy decisions'' is only a description of what judges do.'
+        tempting: Realism presents itself as empirical.
+        correction: 'The bracketed ''(should)'' flags two readings: descriptive, what judges do, and normative, what they ought to do. Say which one you are attacking.'
+    socratic:
+      - ask: On the formalist picture, how does a judge reach a decision?
+        hint: If X then Y.
+        answer: 'By syllogism: identify the general rule, place the case under it, and the result follows, independently of moral, political, economic or social considerations.'
+      - ask: What did the realists ask of that picture?
+        hint: The last line of slide 5.
+        answer: Is this what judges really do?
+      - ask: What did Holmes put in place of logic?
+        hint: The Common Law, 1881.
+        answer: 'Experience: law as a product of historical experience, social needs and public policy, not timeless logical principle.'
+      - ask: If general rules cannot decide concrete cases, how do judges decide?
+        hint: Policy.
+        answer: By making policy decisions. Legal concepts are not neutral either, being themselves the results of earlier policy decisions by legislatures or courts.
+      - ask: How did the realists propose to study law?
+        hint: Not philosophy.
+        answer: 'By observing judicial behaviour with the help of empirical sciences such as sociology: hence talk of sociological jurisprudence.'
+    what-if:
+      - change: A judge decides a case exactly by syllogism, and nobody disputes the rule or how it applies.
+        effect: That fits formalism, and Hart would call it a plain case in a rule's core. The realist question is whether judges decide this way generally, especially where both sides find support.
+      - change: A realist claims only that judges should decide by policy, not that they do.
+        effect: 'That is the normative reading of ''(should)''. It invites a different objection, raised on slide 10: is the realist normative account of adjudication anti-democratic?'
+    boundary:
+      - text: Scandinavian realism (Hagerstrom, Lundstedt, Olivecrona, Ross).
+        why: Realist, but more concerned with philosophical questions; it called law as a system of rules 'metaphysical'. American realism, shaped by pragmatism and the US system, focused on law in action.
+      - text: Hart's account of plain cases.
+        why: 'It agrees with formalism only at the core of a rule: Hart calls formalism and rule-scepticism two exaggerations, with the truth between them (CL 147).'
+    transfer:
+      - scenario: 'A platform says its content rules are applied ''by the book'': each post is checked against the written policy and the result follows. Leaked data shows similar posts get different outcomes depending on the reviewer''s team.'
+        answer: 'The realist challenge to formalism: law in books (paper rules) differs from law in action (real rules). A realist would study what reviewers actually do and the non-legal factors driving outcomes, such as a team''s shared background, rather than trust the stated syllogism.'
+    objections:
+      - position: Judges do not decide by deducing results from rules; general rules cannot decide concrete cases (realism).
+        evidence: 'Holmes: the life of the law has been experience; dissents and competing canons show the materials support both sides (slides 3, 6; lecture).'
+        objection: 'Hart: formalism and rule-scepticism are ''great exaggerations ... and the truth lies between them'' (CL 147). In plain cases, rules do guide.'
+      - position: Legal institutions can and should be studied with the empirical sciences (realism).
+        evidence: Realists sought 'laws of judicial behaviour' from observation of what courts do (slide 9).
+        objection: 'The lecture: early realist methodology was not sophisticated, and many would now regard it as wrong by the standards of the social sciences.'
+    storyboard:
+      - caption: Formalism in US law schools
+        detail: 'The received view: law a self-contained system of rules; judges deduce results by syllogism, like mathematical propositions.'
+      - caption: 'Holmes: experience, not logic'
+        detail: 'The Common Law (1881) and ''The Path of the Law'' (1897): law as experience, the bad man, and the prediction theory.'
+      - caption: The realist movement
+        detail: Mostly from the 1920s to the Second World War, American realists ask whether judges really decide by rules, and study judicial behaviour empirically.
+      - caption: Hart's chapter VII answers
+        detail: 'The Concept of Law (1961): open texture, a core of plain cases, discretion only at the penumbra; rule-scepticism an exaggeration.'
+      - caption: Critical Legal Studies radicalises
+        detail: 'In the 1970s and 1980s, CLS builds on realist indeterminacy with postmodernism and Marxism: law as ideology.'
+    sources:
+      - Week 06 - Lecture Slides (slides 2–3, 5–6, 9)
+      - Week 06 - Lecture Transcript (first half)
+  - concept: laws2100-w06-holmes-prediction-theory
+    plain: Holmes said law is what the courts will actually do. Seen through the eyes of a 'bad man' who cares only about consequences, law is a prediction of court decisions.
+    concrete: 'A client asks her lawyer: ''Do I have a legal duty to do this?'' On the realist view the answer is: it depends; let''s predict what a judge would say. Holmes''s bad man ''does not care two straws for the axioms or deductions'', but he does want to know what the Massachusetts or English courts are likely to do in fact. For Holmes, that prediction is the law.'
+    formal: '''The prophecies of what the courts will do in fact, and nothing more pretentious, are what I mean by the law'' (Holmes, ''The Path of the Law'' (1897) 10(8) Harvard Law Review 460–461). On this view we are under a legal duty not to do X because doing X is likely to result in an adverse court ruling.'
+    analogy:
+      text: 'The bad man consults his lawyer as a sailor consults a weather forecast: he wants to know what will happen, not why it should.'
+      maps:
+        - from: the forecaster
+          to: the lawyer predicting a ruling
+        - from: the weather
+          to: what the courts will do in fact
+        - from: the sailor planning around it
+          to: the bad man, caring only about consequences
+      limits:
+        - A forecaster predicts weather without making it; courts both decide and, on this theory, constitute the law, so a court could never be mistaken about the law.
+        - Hart's puzzled person wants guidance on what the law requires, not a forecast of what will happen to him.
+    terms:
+      - term: Bad man
+        gloss: 'Holmes''s figure who cares only about the practical consequences of breaking rules, not axioms, deductions or morality: he wants to know what courts will do.'
+      - term: Prediction theory
+        gloss: Law is essentially a prediction of what courts will do in fact (Holmes, 'The Path of the Law', 1897).
+      - term: Puzzled man
+        gloss: 'Hart''s alternative figure: a person who wishes to arrange their affairs according to law, such as making a will or a contract, and wants to know what it requires.'
+      - term: Tû-Tû
+        gloss: 'Ross''s 1957 article: a legal concept like ownership has no semantic reference in the world; it is a placeholder linking factual statements to legal consequences.'
+    misconceptions:
+      - claim: The realist account of legal duty is just Austin's, with sanctions.
+        tempting: Both tie duty to adverse consequences.
+        correction: 'Austin looked at laws as commands that include a sanction; the realists look at the behaviour of officials: there is a duty because an adverse court ruling is likely (lecture).'
+      - claim: Holmes treats court decisions as evidence of a law that exists independently of them.
+        tempting: Predictions usually predict something other than themselves.
+        correction: 'He identifies the prophecies with the law itself: ''and nothing more pretentious, are what I mean by the law''.'
+      - claim: Ross's Tû-Tû says ownership describes a real relation between a person and a thing.
+        tempting: We talk about owning things as a plain fact.
+        correction: 'Ross: ownership has no semantic reference in the world; it works as a placeholder linking factual statements to legal consequences (lecture).'
+    socratic:
+      - ask: What does Holmes's bad man want to know?
+        hint: Not axioms or deductions.
+        answer: What the courts are likely to do in fact if he acts in a certain way.
+      - ask: So what is law, from his point of view?
+        hint: '''Nothing more pretentious''.'
+        answer: 'Prophecies of what the courts will do in fact: the prediction theory.'
+      - ask: Why prefer the bad man's view to that of someone who wants to make a valid will or contract?
+        hint: Hart's puzzled man.
+        answer: 'Hart asks exactly this. The puzzled person wants to know what the law requires so as to use its powers: law guides conduct, not just predicts rulings.'
+      - ask: A barrister argues on appeal that the trial judge got the law wrong. What does the prediction theory say?
+        hint: What was the trial ruling, on that theory?
+        answer: 'It struggles: if law is what courts do, the ruling simply was the law, so a court could never be mistaken about the law.'
+      - ask: If there are no legal rules, who counts as a judge?
+        hint: Rules of adjudication.
+        answer: 'Hart''s point: we identify judges through secondary rules empowering them to adjudicate. Without rules, the theory cannot say whose behaviour to predict.'
+    what-if:
+      - change: The client is a puzzled person who wants to make a valid will, not a bad man.
+        effect: 'A prediction of adverse rulings tells her little: she wants to know what the law requires and what powers it gives her. Hart''s power-conferring rules explain her case better.'
+      - change: An appeal court reverses the trial judge for misapplying the law.
+        effect: 'On a strong prediction theory the trial ruling was the law until reversed, so ''misapplying the law'' makes no sense: Hart''s finality-versus-infallibility objection.'
+    boundary:
+      - text: Austin's command theory.
+        why: It also ties duty to adverse consequences, but through the sovereign's commands backed by sanctions, not predictions of what courts will do.
+      - text: Ross's Scandinavian realism.
+        why: Realist, but reached by criticising Kelsen, as Hart's theory grew from criticising Austin; its interest is the nature of legal concepts (Tû-Tû) rather than the bad man.
+    transfer:
+      - scenario: 'A ride-share company asks its lawyer whether its drivers are ''employees''. The lawyer replies only: ''Courts here have recently ruled against firms like yours; expect the same.'''
+        answer: 'The prediction theory in action: law as a prophecy of what courts will do. Hart''s objections apply: the company may want guidance on what the law requires, not just a forecast; and if courts later change course, the theory cannot say the earlier rulings were mistaken about the law.'
+    objections:
+      - position: Law is the prophecy of what the courts will do in fact (Holmes).
+        evidence: The bad man cares nothing for axioms or deductions, only for what courts will do ('The Path of the Law' 460–461); a lawyer advising on duty predicts a ruling.
+        objection: 'Hart: this misses the internal point of view, cannot say a court has made a mistake about the law, and cannot even identify who a judge is without rules (CL ch VII; slide 10).'
+      - position: Law should be viewed through the eyes of the bad man (Holmes).
+        evidence: He cares only about the practical consequences of breaking rules, which forces attention onto what courts actually do (slide 3).
+        objection: 'Hart: why privilege him? The puzzled person who wishes to arrange their affairs according to law shows law''s guiding function (slide 10).'
+    sources:
+      - Week 06 - Lecture Slides (slides 3–4, 8, 10)
+      - Week 06 - Lecture Transcript (first half)
+  - concept: laws2100-w06-conceptual-and-empirical-rule-scepticism
+    plain: Rule-sceptics doubt that rules matter. Conceptual sceptics deny that law is rules at all; empirical sceptics accept that rules may exist but deny that rules are what decide cases.
+    concrete: 'Pick up an appellate judgment with a dissent. Both sides cite rules; both use canons of interpretation and distinguish precedents to reach opposite results. The empirical rule-sceptic concludes that, in a complex system, there is always legal support for both sides, so the rules cannot be what decides: judges respond to the facts and pick the doctrine they need.'
+    formal: 'Conceptual rule-scepticism: the real law is not ''paper rules''; we are under a legal duty not to do X if and only if the courts say so. Empirical rule-scepticism: judges respond to the underlying facts rather than to legal rules; so many rules might apply that both sides find support; statutes and precedents can be read in conflicting ways (slide 7; CL ch VII, s 2).'
+    terms:
+      - term: Conceptual rule-scepticism
+        gloss: 'A claim about the nature of law: law is not paper rules; a legal duty exists if and only if the courts would rule against you.'
+      - term: Empirical rule-scepticism
+        gloss: 'A claim about adjudication: judges respond to the facts, not rules, which can support both sides. It need not deny that rules exist.'
+      - term: Idiosyncratic, sociological, pragmatic adjudication
+        gloss: 'Realist accounts of what decides cases: a judge''s personal preferences (Frank); judges'' shared background as a class (Llewellyn); policy consequences (Cohen).'
+      - term: Laws of judicial behaviour
+        gloss: 'What realists sought: regularities in what courts do, drawn from observation; ''positivistic'' in the scientific, not the legal, sense.'
+    misconceptions:
+      - claim: To be an empirical rule-sceptic you must deny that legal rules exist.
+        tempting: Both kinds are called 'rule-scepticism'.
+        correction: 'No: you can accept that rules exist, or stay agnostic, and deny only that judges use them to decide cases (lecture).'
+      - claim: '''We have a duty not to do X only if the courts would rule against us'' is an empirical claim about judging.'
+        tempting: It mentions courts.
+        correction: 'It is conceptual: a claim about what legal duty is. Empirical scepticism concerns what causes decisions: facts, not rules.'
+      - claim: Defeating conceptual rule-scepticism defeats legal realism.
+        tempting: Hart's chapter VII arguments are powerful.
+        correction: 'Leiter: Hart has good arguments against the conceptual kind but none against the empirical kind, which is what realism mainly is.'
+    socratic:
+      - ask: What is Hart's answer to his question 'to what extent is law an affair of rules'?
+        hint: The union of primary and secondary rules.
+        answer: 'Law is a matter of rules: obligation exists where a rule is in place, and officials use secondary rules to identify the primary rules they apply.'
+      - ask: What does the conceptual rule-sceptic say instead?
+        hint: Paper rules.
+        answer: 'Real law is not paper rules: we are under a duty not to do X if and only if the courts say so, because an adverse ruling is likely.'
+      - ask: Why must Hart defeat that view in particular?
+        hint: What does it deny?
+        answer: It denies that rules really exist as law, and his whole theory explains law and legal obligation through rules.
+      - ask: Could someone accept that rules exist and still be a sceptic?
+        hint: Do judges use them?
+        answer: 'Yes: the empirical sceptic says judges respond to the facts, find support for both sides among the many rules, and cherry-pick doctrine.'
+      - ask: What then actually decides cases, on the realist accounts?
+        hint: Three kinds of adjudication.
+        answer: 'Non-legal factors: a judge''s idiosyncratic preferences (Frank), judges'' shared background (Llewellyn), or policy consequences (Cohen).'
+    elements:
+      - name: Nature of law
+        test: Does the claim say law is not rules but what courts do, so that duty exists only if the courts say so? Conceptual rule-scepticism.
+        authorities:
+          - hart-the-concept-of-law
+      - name: Adjudication
+        test: Does it say judges respond to facts, not rules, though rules may exist? Empirical rule-scepticism.
+      - name: Which non-legal factor
+        test: Personal preference (Frank), the shared background of judges as a class (Llewellyn), or policy consequences (Cohen)?
+    what-if:
+      - change: 'A judge reasons openly from consequences: ''every small business in the state would face this claim; we will not do that''.'
+        effect: 'Pragmatic adjudication (Cohen): the decision turns on policy consequences. The empirical sceptic says this is common, though often hidden behind doctrine.'
+      - change: A study shows judges from the same schools decide labour cases alike, whatever the statute says.
+        effect: 'Sociological adjudication (Llewellyn): shared background shapes how judges as a class decide. Evidence for empirical, not conceptual, rule-scepticism.'
+    boundary:
+      - text: Hart's discretion in the penumbra.
+        why: 'Not rule-scepticism: Hart agrees rules run out at the borderline but insists they guide in the core. He calls rule-scepticism an exaggeration (CL 147).'
+      - text: Leiter's realism.
+        why: 'Empirical rule-scepticism only: realists cannot be conceptual sceptics, because their indeterminacy arguments presuppose a nonsceptical account of the criteria of legality (293).'
+    transfer:
+      - scenario: A sports journalist argues that referees' decisions are better predicted by which team is playing at home than by the rulebook, while accepting the rulebook states the real rules.
+        answer: 'Empirical, not conceptual, rule-scepticism: she accepts the rules exist but doubts they explain decisions, pointing to a non-legal factor. Hart''s arguments against conceptual scepticism (finality, who is a judge) would not touch her; whether the rulebook causes decisions is an empirical question.'
+    objections:
+      - position: 'Law is what courts do: there is a legal duty not to do X only if the courts say so (conceptual rule-scepticism).'
+        evidence: Lawyers advising on duty predict rulings; paper rules differ from real rules (slide 7).
+        objection: 'Hart: then no court could err about the law, and without rules of adjudication we could not identify who a judge is (CL ch VII; slide 10).'
+      - position: Judges respond to the facts, not the rules (empirical rule-scepticism).
+        evidence: So many rules might apply that both sides find support; canons and precedents can be used either way, as dissents show (slide 7; lecture).
+        objection: 'Hart: not all legal questions are hard cases; in the core of a rule, the rule guides (CL 126, 147).'
+        reply: 'Leiter: whether rules play a causal role is an empirical question, and Hart has no arguments against empirical rule-scepticism (slides 21–22).'
+    sources:
+      - Week 06 - Lecture Slides (slides 7, 9–10, 21)
+      - Week 06 - Lecture Transcript (first half)
+  - concept: laws2100-w06-open-texture-and-harts-middle-way
+    plain: Hart says general rules give clear answers in plain cases but run out at the edges, where judges must choose. Formalism ignores the edges, rule-scepticism the plain cases; the truth lies between.
+    concrete: 'A rule says ''No vehicles in the park''. A motor-car is plainly a vehicle: ''If anything is a vehicle a motor-car is one''. But what of bicycles, aeroplanes, roller skates? There are reasons for and against. The words alone cannot settle it, so the judge must make a fresh choice between open alternatives. That is open texture: the price of using general terms.'
+    formal: '''There is a limit, inherent in the nature of language, to the guidance which general language can provide'' (CL 126). Natural languages are irreducibly open-textured: ''uncertainty at the borderline is the price to be paid for the use of general classifying terms'' (CL 128). ''Formalism and rule-scepticism are the Scylla and Charybdis of juristic theory ... and the truth lies between them'' (CL 147).'
+    terms:
+      - term: Open texture
+        gloss: 'The irreducible feature of natural languages: general terms have clear cases but uncertain borderlines, so rules expressed in them leave some cases open (CL 128).'
+      - term: Core and penumbra
+        gloss: The settled meaning of a general term (a motor-car is a vehicle) and the grey area around it (bicycles, roller skates) where reasonable people disagree.
+      - term: Relative ignorance of fact and of aim
+        gloss: 'Hart''s two handicaps of the human predicament: rule-makers cannot foresee every situation, nor settle in advance what they want in every case.'
+      - term: Scylla and Charybdis
+        gloss: 'Hart''s image for formalism and rule-scepticism: two great exaggerations, salutary where they correct each other, with the truth between them (CL 147).'
+    misconceptions:
+      - claim: Open texture can be removed by drafting statutes carefully enough.
+        tempting: Vague rules look like bad drafting.
+        correction: 'Hart: natural languages are irreducibly open-textured, and we are human beings, not gods, relatively ignorant of fact and of aim (CL 128).'
+      - claim: Legislation is certain and precedent uncertain.
+        tempting: Explicit general language looks more precise than an example.
+        correction: 'Hart: the distinction is ''far less firm than this naïve contrast suggests'' (CL 126); both devices leave uncertainty.'
+      - claim: Since rules run out somewhere, every case is a hard case.
+        tempting: Open texture affects every general term.
+        correction: 'Hart: plain cases constantly recur, and without them general terms would be useless. Judges make law where the law is indeterminate, but not all legal questions are hard cases.'
+    socratic:
+      - ask: Why does law need general rules at all?
+        hint: CL 124.
+        answer: Without general standards that multitudes can understand without further direction, Hart says, nothing we now recognise as law could exist.
+      - ask: What are the two devices for communicating general standards?
+        hint: The hat in church.
+        answer: Legislation, in explicit general language ('Every man and boy must take off his hat'), and precedent, by example ('Look – this is the right way to behave').
+      - ask: '''No vehicles in the park.'' Is a motor-car caught? A bicycle?'
+        hint: A plain case and a borderline one.
+        answer: A motor-car plainly is; bicycles, aeroplanes and roller skates are unclear, with reasons for and against.
+      - ask: What must happen in the unclear case?
+        hint: Language has run out.
+        answer: 'A choice between open alternatives: judicial discretion. Uncertainty at the borderline is the price of general classifying terms.'
+      - ask: So who is right, the formalist or the rule-sceptic?
+        hint: CL 147.
+        answer: Neither. Formalism overstates the need for certainty, rule-scepticism the individual case; every system compromises between both needs, and the truth lies between.
+    elements:
+      - name: Plain case
+        test: Is the case clearly within the general term, like a motor-car for 'vehicle'? Then the rule applies (CL 126).
+        authorities:
+          - hart-the-concept-of-law
+      - name: Penumbra
+        test: 'Are there reasons for and against applying the term? Open texture: the language alone gives no answer (CL 126–128).'
+      - name: Fresh choice
+        test: 'Then a choice between open alternatives must be made by an informed official: the second of the two social needs (CL 130).'
+    what-if:
+      - change: 'The sign is replaced by a list: ''No cars, motorcycles or trucks in the park''.'
+        effect: 'Some borderline cases are settled, but open texture remains: what of an electric scooter? Relative ignorance of fact means rule-makers cannot foresee every case.'
+      - change: The bylaw's purpose, to keep the park quiet and safe, is publicly known.
+        effect: 'Fuller''s reply to Hart: you cannot make sense of the rule without its purpose, which fixes what ''vehicle'' means. Hart''s relative ignorance of aim suggests purpose may not settle every case either.'
+    boundary:
+      - text: A child's scooter in the park.
+        why: 'Penumbral: like Hart''s roller skates, there are reasons for and against calling it a vehicle, so the judge must choose.'
+      - text: 'Precedent: ''Look – this is the right way to behave on such occasions.'''
+        why: 'Communication by example. Not firmly more uncertain than legislation: the naïve contrast between them is far less firm than supposed (CL 126).'
+    transfer:
+      - scenario: A gym's rule says 'No food in the weights room'. Members argue over protein gels, chewing gum and bottled smoothies.
+        answer: 'Hart''s open texture: a sandwich is plainly food (the core), but gels, gum and smoothies are penumbral, with reasons for and against. The rule cannot settle them; the manager must make a fresh choice, ideally informed by the rule''s aims. The rule still guides in plain cases: it is not empty.'
+    objections:
+      - position: Rules settle plain cases and leave penumbral ones to discretion; the truth lies between formalism and rule-scepticism (Hart).
+        evidence: Plain cases constantly recur; open texture is the price of general terms; every system compromises between certainty and official choice (CL 126–130, 147).
+        objection: 'Dworkin: even in hard cases principles yield one right answer, so judges do not have strong discretion (week 5).'
+        reply: 'Hart: Dworkin is ''the noblest dreamer of all''; the Noble Dream is an exaggeration, as the Nightmare is.'
+      - position: 'Indeterminacy is a matter of language: general terms have a core and a penumbra (Hart).'
+        evidence: '''Does "vehicle" used here include bicycles, airplanes, roller skates?'' (CL 126).'
+        objection: 'Fuller: the rule makes no sense without its purpose, which fixes what the term means (lecture). From a postmodern view (CLS), words lack the stable core Hart assumes.'
+    sources:
+      - Week 06 - Lecture Slides (slides 11–15)
+      - Week 06 - Lecture Transcript (first half)
+  - concept: laws2100-w06-nightmare-and-noble-dream
+    plain: 'Hart describes two extremes about judges: the Nightmare, that judges always make law; and the Noble Dream, that they never do. Hart thinks both exaggerate.'
+    concrete: Litigants come to court expecting the existing law to be applied to their dispute, not new law made for them. The Nightmare, pressed by American legal realism, is that this picture of the judge as different from the legislator is an illusion. The Noble Dream answers that even when statutes and precedents give no determinate guide, there is still an existing law somewhere for judges to apply.
+    formal: 'American jurisprudence shows ''a concentration, almost to the point of obsession, on the judicial process'' (Holmes, Gray, Llewellyn, Jaffe), explained partly by the ''quite extraordinary'' role of US courts. The Nightmare: the judge–legislator distinction is an illusion. The Noble Dream: existing law always awaits application, though not as universal natural law. Dworkin is ''the noblest dreamer of all''.'
+    terms:
+      - term: The Nightmare
+        gloss: 'The view that the image of the judge as distinct from the legislator is an illusion: judges make law. Hart ties it to American legal realism.'
+      - term: The Noble Dream
+        gloss: 'The view that judges never make new law: even where positive law is indeterminate, an existing law somewhere supplies the answer.'
+      - term: Judicial review
+        gloss: Courts' power to review legislation. Its wide US form contrasts with 'the impartial application of determinate existing rules of law in the settlement of disputes'.
+    misconceptions:
+      - claim: The Noble Dream appeals to a universal natural law.
+        tempting: An 'existing law somewhere' beyond positive law sounds like natural law.
+        correction: Hart says the American Noble Dream 'does not take the form of an invocation of a universal natural law' (slide 18).
+      - claim: Hart sides with the Nightmare against Dworkin.
+        tempting: He rejects Dworkin's one-right-answer thesis.
+        correction: 'He treats both as exaggerations, to be read with the distinction between easy and hard cases: judges make law only in hard cases.'
+      - claim: Judges hardly matter in Hart's own theory, unlike in American jurisprudence.
+        tempting: He criticises the American obsession with courts.
+        correction: 'The lecture: judicial behaviour matters greatly to Hart, since the rule of recognition is identified from what officials, especially judges, do.'
+    socratic:
+      - ask: Why does American jurisprudence concentrate so much on judges?
+        hint: Slide 16.
+        answer: Partly the 'quite extraordinary' role of US courts, especially the Supreme Court, and their wide powers of judicial review.
+      - ask: What do litigants think they are entitled to from a judge?
+        hint: Existing law or new?
+        answer: An application of the existing law to their dispute, not new law made for them.
+      - ask: What is the Nightmare?
+        hint: Judge versus legislator.
+        answer: 'That this image is an illusion: judges make law. Realism presented it as essential to all law and adjudication, not just to difficult cases such as constitutional ones.'
+      - ask: And the Noble Dream?
+        hint: Dworkin.
+        answer: 'That judges never make law: even in the hardest case an existing law is there to be found. Hart calls Dworkin the noblest dreamer of all.'
+      - ask: Why might a liberal want the Dream to be true?
+        hint: Coercion, and positions fixed in advance.
+        answer: If law's point is to justify state coercion, people's legal positions should be fixed before they reach court, not made by the judge.
+    what-if:
+      - change: A realist confines the claim to constitutional cases, where the text is open and the stakes political.
+        effect: 'Hart could accept much of it: law-making in difficult adjudication is no nightmare. His complaint is the realists'' step from such cases to all law and adjudication.'
+      - change: 'A judge says: ''The statute is silent and the precedents conflict, but the law already contains the answer; I only find it.'''
+        effect: That is the Noble Dream. Hart would say that in such a case a fresh choice must be made, so the judge is in fact making law.
+    boundary:
+      - text: Hart's own position.
+        why: 'Between the two: judges apply existing law in easy cases and make law in hard ones, at the penumbra or where the law is silent.'
+      - text: Constitutional adjudication.
+        why: A kind of difficult adjudication where judicial law-making is plausible; the Nightmare generalises it into an essential feature of all law.
+    transfer:
+      - scenario: 'A new appellate court must decide its first case on a vague constitutional right. Commentators split: ''they will simply legislate'' against ''the answer is already in the constitution''.'
+        answer: 'The Nightmare against the Noble Dream. Hart''s reading: both exaggerate. Where the text is open, judges must make a fresh choice, a form of law-making; but most cases under settled rules apply existing law. Litigants'' expectation of existing law is not an illusion across the board.'
+    objections:
+      - position: Judges always make law; the distinction between judge and legislator is an illusion (the Nightmare; realism).
+        evidence: Law is a prediction of what courts do; rules support both sides; US courts play a 'quite extraordinary' role (slides 3, 7, 16–17).
+        objection: 'Hart: an exaggeration. Rules guide plain cases; judges make law only where the law is indeterminate, and not all questions are hard cases (CL ch VII; slide 10).'
+      - position: Judges never make law; even the hardest case has an existing answer (the Noble Dream; Dworkin).
+        evidence: 'On Dworkin''s liberal view law justifies state coercion, so legal positions must be fixed in advance: one right answer (lecture).'
+        objection: 'Hart: where two interpretations fit equally well, insisting the judge never makes law is a dream. Positivists, and some natural law theorists, say judges do create law in some cases (lecture).'
+    sources:
+      - Week 06 - Lecture Slides (slides 16–18)
+      - Week 06 - Lecture Transcript (second half)
+  - concept: laws2100-w06-leiter-realism-as-theory-of-adjudication
+    plain: Leiter argues that legal realism is not a rival theory of what law is, but a descriptive theory of why judges decide as they do, so it can sit alongside positivism.
+    concrete: 'Realists noticed that decisions fall into patterns by situation type: cases about one industry, say mining, decided one way; fishing cases another, whatever doctrine was cited. If rules do not guide judges to particular results, they cannot explain decisions; the factual patterns can, and they allow prediction. That is a claim about adjudication, not about what counts as law.'
+    formal: 'Leiter challenges two views: that realism and positivism are incompatible, and that realism is ''a jurisprudential joke'', ''a philosophical mess''; both trace to Hart''s chapter VII. ''The Realists […] cannot be conceptual rule skeptics, because their arguments for the indeterminacy of law presuppose a nonskeptical account of the criteria of legality, one that has the most obvious affinities with … hard or exclusive Positivists'' (293).'
+    terms:
+      - term: Descriptive theory of adjudication
+        gloss: A theory of why judges decide as they do, as opposed to a general theory of law, which says what counts as law.
+      - term: Situation types
+        gloss: Discernible patterns in the facts of cases, such as cases from one industry, which explain and predict decisions better than doctrine.
+      - term: Rational indeterminacy
+        gloss: Legal reasons do not lead to one particular result, so rules alone cannot explain why a judge decided as she did.
+      - term: Social Thesis and Separability Thesis
+        gloss: The two theses that, for Leiter, characterise legal positivism as a general theory of law.
+    misconceptions:
+      - claim: Hart's finality argument refutes legal realism.
+        tempting: It shows that a theory equating law with court decisions is incoherent.
+        correction: 'Leiter: it refutes conceptual rule-scepticism only; realism as a descriptive theory of adjudication, resting on empirical scepticism, is untouched.'
+      - claim: Realist indeterminacy arguments presuppose inclusive positivism.
+        tempting: Both concern what counts as law.
+        correction: 'Leiter (293): the affinities are with ''hard or exclusive Positivists''.'
+      - claim: Realists and positivists disagree about whether law is indeterminate.
+        tempting: The realists are famous for indeterminacy.
+        correction: 'Both think law indeterminate, with different views of its source and scope. They disagree over how often rules matter in decisions: an empirical question.'
+    socratic:
+      - ask: How does Hart's chapter VII treat realism?
+        hint: A rival to what?
+        answer: As a theory of law in competition with positivism. Leiter says that is the mistake behind the 'joke' and 'mess' verdicts.
+      - ask: What kind of theory is realism, for Leiter?
+        hint: About courts.
+        answer: 'A descriptive theory of adjudication: judges respond to facts, decisions fall into situation types, and those patterns allow prediction.'
+      - ask: Against which kind of rule-scepticism does Hart have good arguments?
+        hint: Two kinds.
+        answer: The conceptual kind. He has none against empirical rule-scepticism, which is what realism mainly is.
+      - ask: To argue that the legal sources support both sides, what must a realist first assume?
+        hint: Which sources count?
+        answer: 'A way of identifying the legal sources: a nonsceptical account of the criteria of legality, close to exclusive positivism.'
+      - ask: So what disagreement is left between realists and positivists?
+        hint: How often?
+        answer: 'An empirical one: do the rules in books play a causal role in judicial reasoning, and how often?'
+    elements:
+      - name: Shared indeterminacy
+        test: Both think law is indeterminate, though they understand its source and scope differently.
+        authorities:
+          - leiter-legal-realism-and-legal-positivism-reconsidered
+      - name: Positivist presupposition
+        test: Realist arguments for indeterminacy presuppose an essentially positivist account of the criteria of legality (293).
+      - name: Empirical disagreement
+        test: 'They disagree over how often legal rules matter in decisions: do the rules in books play a causal role?'
+    what-if:
+      - change: Careful empirical studies showed that legal rules causally determine most appellate decisions.
+        effect: On Leiter's framing that would settle the remaining dispute against the realists, but empirically, not through Hart's conceptual arguments.
+      - change: A realist claims that statutes are not law until a court applies them.
+        effect: That is conceptual rule-scepticism, open to Hart's objections. Leiter says realists cannot consistently hold it, since their arguments presuppose positivist criteria of legality.
+    boundary:
+      - text: 'Holmes''s prediction theory: ''prophecies of what the courts will do''.'
+        why: It reads as a claim about the nature of law, conceptual scepticism, which is where Hart's arguments bite. Leiter's realism keeps only the theory of adjudication.
+      - text: Dworkin's critique of positivism.
+        why: 'Unlike Leiter''s realism, it competes with positivism as a theory of law: Dworkin denies that a pedigree test captures all of the law.'
+    transfer:
+      - scenario: A data scientist predicts tenancy tribunal outcomes from facts alone, such as rent arrears, landlord type and region, and outperforms lawyers who read the legislation.
+        answer: 'Leiter''s realism: a descriptive theory of adjudication in which decisions follow situation types, not doctrine. It does not deny that the legislation is valid law, identified positivistically; it doubts the legislation causes outcomes. Whether rules play that causal role is an empirical question.'
+    objections:
+      - position: Realism is a descriptive theory of adjudication, compatible with positivism (Leiter).
+        evidence: Realist indeterminacy arguments presuppose positivist criteria of legality; Hart's arguments hit only conceptual scepticism (293; slides 20–22).
+        objection: 'Some realists did make claims about the nature of law: Holmes''s ''what I mean by the law'' and the conceptual sceptic''s duty-iff-courts-say-so (slides 7–8). Hart''s reading had a real target.'
+      - position: Hart rightly treats rule-scepticism as an exaggeration (chapter VII).
+        evidence: Rules guide plain cases; a court can err about the law; rules of adjudication identify judges (CL ch VII; slide 10).
+        objection: 'Leiter: these answer conceptual scepticism only. Whether rules cause decisions is empirical, and Hart has no arguments against empirical rule-scepticism (slides 21–22).'
+    sources:
+      - Week 06 - Lecture Slides (slides 19–22)
+      - Week 06 - Lecture Transcript (second half)
+  - concept: laws2100-w06-critical-legal-studies
+    plain: 'Critical Legal Studies says law is not the neutral, coherent system of rules it claims to be: it is contradictory and political, and it helps maintain the power of dominant groups.'
+    concrete: The rule of law, rights and the legal process are usually presented as objective and neutral. CLS scholars set out to unmask the value choices behind them. On the Marxist strand, capitalism needs a legal system that legitimises private ownership of the means of production, yet law presents itself as a neutral, impartial instrument. Unmasking that, and showing it oppressive, is a reason to change the law.
+    formal: 'CLS offers a radical critique of law as a coherent and neutral system of rules, of legal institutions, and of liberal legal values such as the rule of law, rights and the legal process. For CLS, law is a contradictory and illegitimate system which maintains oppressive social relations (slide 23). Influences: legal realism, postmodernism, Marxism. Key claims: radical indeterminacy; contradiction from political conflict; law as ideology.'
+    terms:
+      - term: Radical indeterminacy
+        gloss: 'The CLS claim, stronger than the realists'': no coherent sense can be made of the legal materials. From postmodernism, words lack stable meaning.'
+      - term: Law as ideology
+        gloss: Law promotes the interests of the powerful and legitimises injustice, while presenting itself as neutral and impartial.
+      - term: Grand narratives
+        gloss: 'Postmodernism''s target: overarching stories such as the Enlightenment project, the ideology of liberal humanism that has dominated modern Western societies.'
+      - term: Historical materialism
+        gloss: 'Marx''s theory: forces of production shape relations of production, and the superstructure, including law, helps the dominant class maintain them.'
+    misconceptions:
+      - claim: CLS rejects realism's view that legal reasoning is a myth.
+        tempting: CLS is a separate movement that criticises a great deal.
+        correction: Following realism, CLS sees legal reasoning as a myth. It goes further, with a more radical indeterminacy and more interest in law's politics and ideology.
+      - claim: If law is radically indeterminate, CLS must say decisions are unpredictable.
+        tempting: Indeterminacy suggests anything goes.
+        correction: CLS says decisions may still be predicted, because judges share a political commitment to the status quo.
+      - claim: CLS makes purely descriptive claims about how judges decide.
+        tempting: It aims to unmask the real reasons behind decisions.
+        correction: 'The lecture: CLS combines descriptive claims with normative ones: the patterns it unmasks are oppressive or unjust, so the law should change.'
+    socratic:
+      - ask: What does CLS share with legal realism?
+        hint: Indeterminacy.
+        answer: 'That law is indeterminate, so it does not guide or constrain judicial reasoning: legal reasoning is a myth.'
+      - ask: Where does CLS go further?
+        hint: Politics, and meaning.
+        answer: 'It is more interested in law''s politics and ideology, and its indeterminacy is more radical: from postmodernism, words have no stable meaning.'
+      - ask: Why would Hart's core and penumbra be wrong from a postmodern point of view?
+        hint: Stable meaning.
+        answer: If words lack stable meaning, there is no settled core of meaning for a penumbra to surround.
+      - ask: On the Marxist strand, what is law for?
+        hint: The superstructure.
+        answer: 'Helping the dominant class maintain relations of production: under capitalism, legitimising private ownership while appearing neutral.'
+      - ask: Why does the is/ought distinction make no sense to CLS?
+        hint: What must we look at to understand law?
+        answer: Understanding law means examining the values, choices and ideologies that underpin it, not bracketing them as Hart or Kelsen do.
+    what-if:
+      - change: The claim is weakened to 'law is sometimes contradictory because it stems from political conflict'.
+        effect: 'Hart could accept that: the lecture says he would call it true sometimes, not always. Many CLS claims come in weaker and stronger versions, a matter of degree.'
+      - change: A legal system's judges come from very different backgrounds and openly disagree on politics.
+        effect: CLS's explanation of predictability, a shared commitment to the status quo, weakens; radical indeterminacy would then leave decisions harder to predict.
+    boundary:
+      - text: Dworkin's law as integrity.
+        why: 'The opposite pole: principles of political morality give law unity and coherence. CLS says law is contradictory because it stems from political conflict.'
+      - text: Legal realism.
+        why: Shares indeterminacy and the myth of legal reasoning, but realists did not always claim, as CLS does, that law is illegitimate and maintains oppressive social relations.
+    transfer:
+      - scenario: A tenancy statute guarantees 'freedom of contract' between landlords and tenants. A study shows tenants almost never negotiate any terms.
+        answer: 'A CLS reading: the neutral language of free, equal parties presents law as impartial while legitimising existing power over property: law as ideology. A positivist reply: describing what the law is does not endorse it, and law may present itself as neutral without being so. Ask which claim is descriptive and which normative.'
+    objections:
+      - position: Law is a contradictory, illegitimate system that maintains oppressive social relations (CLS).
+        evidence: Radical indeterminacy; law stems from political conflict; it presents itself as neutral while legitimising private ownership and the status quo (slides 23–28).
+        objection: Hart would say law is contradictory sometimes, not always; such claims come in weaker and stronger versions, a matter of degree (lecture).
+      - position: Law cannot be understood apart from the values and ideologies that underpin it (CLS).
+        evidence: 'The is/ought distinction makes no sense: supposedly neutral concepts and doctrines hide political choices (slide 28; lecture).'
+        objection: How law presents itself is one thing, how it is another (lecture). Hart's theory explains good and evil legal systems alike, and describing law does not endorse it.
+    sources:
+      - Week 06 - Lecture Slides (slides 23–28)
+      - Week 06 - Lecture Transcript (second half)
+flows:
+  - slug: core-or-penumbra
+    title: Does the rule settle this case, or must the judge choose?
+    summary: 'Hart''s middle way from chapter VII: plain cases in a rule''s core are settled by the rule; penumbral and gap cases call for a fresh choice. Shows where empirical rule-sceptics and Dworkin''s Noble Dream depart from Hart.'
+    start: n1
+    concepts:
+      - laws2100-w06-open-texture-and-harts-middle-way
+      - laws2100-w06-conceptual-and-empirical-rule-scepticism
+      - laws2100-w06-nightmare-and-noble-dream
+    sources:
+      - Week 06 - Lecture Slides (slides 7, 13–15, 18, 20–22)
+      - Week 06 - Lecture Transcript (first half)
+      - Week 06 - Lecture Transcript (second half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Is the case a plain case, clearly within the rule's general term?
+        note: '''If anything is a vehicle a motor-car is one'' (CL 126). Without clear, familiar cases general terms would be useless.'
+        concept: laws2100-w06-open-texture-and-harts-middle-way
+        authorities:
+          - hart-the-concept-of-law
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n4
+      - id: n2
+        kind: ask
+        text: Does the rule, rather than the underlying facts, explain the decision?
+        note: The empirical rule-sceptic says judges respond to the facts and pick doctrine afterwards. For Leiter, whether rules play a causal role is an empirical question.
+        concept: laws2100-w06-conceptual-and-empirical-rule-scepticism
+        branches:
+          - label: 'Yes: the rule guides (Hart)'
+            to: n3
+          - label: 'No: the facts drive it'
+            to: n10
+      - id: n3
+        kind: end
+        tone: met
+        text: 'Core: the rule settles the case. Individuals can apply such rules to themselves without fresh official guidance (CL 130); not every legal question is a hard case.'
+      - id: n4
+        kind: ask
+        text: Why is it not a plain case?
+        branches:
+          - label: Reasons for and against applying the term
+            to: n5
+          - label: 'The law is silent: a gap'
+            to: n6
+      - id: n5
+        kind: step
+        text: 'Penumbra: the open texture of the general term means the language itself gives no answer.'
+        note: '''Uncertainty at the borderline is the price to be paid for the use of general classifying terms'' (CL 128). Rule-makers are human beings, not gods: relatively ignorant of fact and of aim.'
+        next: n7
+      - id: n6
+        kind: step
+        text: 'A gap: no rule gives the judge a straightforward answer, so this is a hard case.'
+        next: n7
+      - id: n7
+        kind: ask
+        text: Does the law nonetheless already contain an answer for the judge to find?
+        note: 'The Noble Dream: even where positive law is indeterminate, there is an existing law somewhere which judges can and should apply. For Hart, Dworkin is ''the noblest dreamer of all''.'
+        concept: laws2100-w06-nightmare-and-noble-dream
+        authorities:
+          - hart-the-nightmare-and-the-noble-dream
+        branches:
+          - label: Yes (Dworkin)
+            to: n8
+          - label: No (Hart)
+            to: n9
+      - id: n8
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'The Noble Dream: the judge never makes law, and principles yield one right answer. Hart treats this as an exaggeration, like the Nightmare at the other extreme.'
+      - id: n9
+        kind: end
+        tone: not-met
+        text: 'The rule does not settle it: a fresh choice between open alternatives must be made. Judicial discretion: judges make law here, but only in hard cases (CL 126–130).'
+      - id: n10
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'Empirical rule-scepticism: rules may exist but do not cause decisions. Hart''s arguments hit conceptual scepticism; Leiter says none answers this empirical claim.'
+        authorities:
+          - leiter-legal-realism-and-legal-positivism-reconsidered

@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AuthorityLibrary from '../components/rebuild/AuthorityLibrary';
+import {getLibrary} from '../lib/rebuild';
+const items=(await getLibrary()).filter(r=>r.kind==='provision');
+---
+<Layout title="Legislation and treaties" wide centre><p class="label">The instruments</p><h1>Legislation and treaties</h1><p class="rb-lede">Find the provision, understand its conditions, and keep its exceptions in view.</p><nav class="rb-actions" aria-label="Library"><a href="/cases/">Case library</a><a href="/statutes/?lawlist=1">Torts examinable list</a><a href="/studio/?tool=statute">Statute lab</a><a href="/coverage/">Coverage audit</a></nav><AuthorityLibrary client:load items={items} kind="provision"/><noscript><ul>{items.map(r=><li><a href={r.href}>{r.title}</a> — {r.oneLine}</li>)}</ul></noscript></Layout>

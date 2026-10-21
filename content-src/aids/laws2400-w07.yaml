@@ -1,0 +1,862 @@
+unit: laws2400
+week: 7
+source: raw/laws2400-torts/week-07
+generator: aids-1
+aids:
+  - concept: laws2400-w07-pure-economic-loss-and-policy
+    plain: Pure economic loss is money lost when nobody was hurt and no property was damaged first. Courts allow it only in certain situations, because of three policy worries.
+    concrete: 'A council crew digging on a footpath negligently cuts the electricity cable a cake shop needs. The chef cannot bake and loses profits, but no one is hurt and nothing the shop owns is damaged: that is pure economic loss. Change one fact, so the surge short-circuits the fridge and the stock spoils, and there is property damage; the losses flowing from it become consequential.'
+    formal: 'Pure economic loss (PEL) is economic loss which does not result from any physical injury to the person or property. It was not recoverable until recently, and even now is recoverable only in certain situations if additional conditions are satisfied. Policy reasons for the reluctance: indeterminate liability, the relationship with the law of contract, and loss linked to a lawful commercial activity. CLA s 5 includes economic loss in "harm".'
+    analogy:
+      text: 'Physical harm is like a stone breaking one window: you can see whose glass broke. Pure economic loss is like the ripples on a pond: money effects spread out to people the defendant never touched, so the law needs a reason to stop somewhere.'
+      maps:
+        - from: The broken window
+          to: 'Physical injury or property damage: the paradigm, where foreseeability is typically enough'
+        - from: The ripples
+          to: Pure economic loss reaching people with no injury or damaged property
+        - from: Where the ripples are allowed to stop
+          to: The additional conditions and policy limits on a duty for PEL
+      limits:
+        - 'Ripples weaken with distance, but PEL can be serious far from the act: the Perres'' farm was 3 km away and lost its whole WA market.'
+        - 'A large pond is not the worry: a large class is not necessarily a problem; an undefinable one is.'
+    terms:
+      - term: Pure economic loss (PEL)
+        gloss: Economic loss which does not result from any physical injury to the person or property.
+        example: Profits lost when a negligently cut cable shuts a business.
+      - term: Consequential economic loss
+        gloss: Economic loss that follows a physical injury or property damage, such as lost wages or medical expenses; reasonable foreseeability is typically enough.
+      - term: Indeterminate liability
+        gloss: 'Liability with no boundaries: the class of people who might sue cannot be narrowed or defined.'
+        example: A tip on the radio or a podcast relied on by anyone listening.
+    misconceptions:
+      - claim: Profits lost after a council cuts a cable are consequential loss, because something physical was damaged.
+        tempting: A cable was physically cut, so the loss seems to follow property damage.
+        correction: The cable was not the plaintiff's property and the plaintiff was not injured, so the lost profit is pure economic loss. It becomes consequential only if the plaintiff's own property (the fridge, the stock) is damaged.
+      - claim: Indeterminacy means no duty for PEL can be owed to a large class of plaintiffs.
+        tempting: Large numbers sound like the floodgates the courts fear.
+        correction: A large class is not necessarily a problem. The concern is a class that cannot be narrowed or defined, such as everyone who might hear a radio tip.
+      - claim: Because PEL is a recognised form of harm, foreseeable PEL means a duty is owed.
+        tempting: That is how the physical-injury paradigm works under Donoghue v Stevenson.
+        correction: Recognition means a duty can arise, not that it always will. Reasonable foreseeability is always needed but, away from the paradigm, more is required (Esanda).
+    socratic:
+      - ask: A car accident leaves you unable to work for 20 years. Is your lost income pure economic loss?
+        hint: 'What came first: an injury, or only the money loss?'
+        answer: No. It follows a physical injury, so it is consequential economic loss, which courts have never had difficulty compensating.
+      - ask: A council crew cuts a cable and your cake shop cannot bake. Nothing you own is damaged. What kind of loss is your lost profit?
+        hint: Was your person or your property harmed?
+        answer: 'Pure economic loss: no physical injury and no damage to your property; only the money loss.'
+      - ask: Why should it matter to the court which kind of loss it is?
+        hint: Think about what foreseeability does in each case.
+        answer: For consequential loss, foreseeability is typically enough. PEL was not recoverable until recently and now needs additional conditions.
+      - ask: A podcaster tells listeners to buy a cryptocurrency that later collapses. What worries a court about a duty here?
+        hint: Who could sue?
+        answer: 'Indeterminate liability: there is no way to define who heard and relied on the statement.'
+      - ask: A new supermarket takes a rival's profits. Is a duty owed for that loss?
+        hint: Is anything wrongful about competing?
+        answer: No. It is loss linked to a lawful commercial activity; competition is the nature of commerce, so no duty arises.
+    what-if:
+      - change: The cable cut also short-circuits the cake shop's fridge and the stock spoils.
+        effect: There is now property damage to the plaintiff. The losses that flow from it are consequential, and reasonable foreseeability is typically enough for a duty.
+      - change: The negligent investment tip is given to one client in a formal meeting instead of on a podcast.
+        effect: 'The indeterminacy worry falls away: the class is one identified person. The duty question then turns on other features such as reliance and assumption of responsibility.'
+      - change: The two parties had negotiated a contract allocating the risk of the loss.
+        effect: 'The relationship with the law of contract weighs against a duty: courts are reluctant to impose extra obligations the parties did not bargain for, though in some circumstances both contract and tort claims can run.'
+    boundary:
+      - text: 'Caltex Oil v Dredge ''Willemstad'': the dredge damaged Caltex''s pipeline, but Caltex claimed only the cost of trucking oil around the bay.'
+        why: There was property damage, but Caltex did not claim for it, so the case was dealt with as pure economic loss. How a claim is framed decides how it is treated.
+      - text: A rival supermarket opens down the road and cuts an established store's profits.
+        why: 'It is plainly PEL, but no duty arises: the loss is linked to lawful commercial activity, which is a policy reason against liability.'
+    transfer:
+      - scenario: A contractor negligently bursts a water main. Two cafés on the street close for three days. Café A's cellar floods and its stock is ruined; Café B is dry but loses three days' trade.
+        answer: 'Classify first. Café A suffered property damage, so its lost trade is consequential and reasonable foreseeability is typically enough. Café B suffered pure economic loss: no injury, no damage to its property. For Café B, foreseeability is necessary but not sufficient; the court will weigh the salient features and the policy concerns, such as whether the class of affected businesses can be defined.'
+    sources:
+      - Topic 7 Lecture 1 (slides 5–8)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+      - Civil Liability Act 2002 (NSW) s 5 (act-2002-022.pdf)
+  - concept: laws2400-w07-negligent-words-from-deceit-to-hedley-byrne
+    plain: For a long time, careless but honest words that cost someone money gave no claim. Since Hedley Byrne, a duty can arise for negligent words where there is a special relationship.
+    concrete: Hedley Byrne, an advertising agency, was about to extend credit to a client and asked its bank to obtain a credit reference from the client's bank, Heller. The reference came back favourable but was marked "without responsibility". The client collapsed and the agency lost money. The House of Lords described what a duty for negligent words would need, but found none on the facts because of the disclaimer.
+    formal: 'Derry v Peek (1889): negligent misstatement will not suffice for deceit; it must be intentional or reckless. Hedley Byrne v Heller [1964]: a duty of care for negligent words where a special relationship exists. Evatt (1968), Barwick CJ: information or advice on a serious matter; the speaker realises (or should) they are being trusted; reasonable for the recipient to act on it; a duty of reasonable care follows.'
+    terms:
+      - term: Deceit
+        gloss: An intentional tort covering fraudulent misstatement; it needs an intentional or reckless misstatement. Outside this unit.
+      - term: Negligent misstatement
+        gloss: Careless (not fraudulent) words, such as advice or information, causing loss; actionable in negligence where a special relationship gives rise to a duty.
+      - term: Special relationship
+        gloss: 'Hedley Byrne''s requirement for a duty for negligent words: trust, reasonable reliance, and a speaker who knows or ought to know of the reliance.'
+    misconceptions:
+      - claim: A careless but honest false statement can be sued on in deceit.
+        tempting: Deceit is the tort for false statements, and the plaintiff lost money because of one.
+        correction: 'Derry v Peek: negligent misstatement will not suffice for deceit; it must be intentional or reckless. Careless words are handled by negligence, via Hedley Byrne.'
+      - claim: Hedley Byrne found that the bank's reference created a duty of care.
+        tempting: Hedley Byrne is the founding case for duties for negligent words.
+        correction: The House of Lords recognised such duties in principle, but the reference was given "without responsibility", so no duty arose on the facts.
+      - claim: Because words differ from acts, careless words can never found liability in negligence.
+        tempting: Lord Reid said the law must treat negligent words differently from negligent acts.
+        correction: Different treatment is not no liability. Lord Reid's point is that opinions on social or informal occasions attract no duty; with a special relationship, a duty can arise.
+    socratic:
+      - ask: In 1889, investors lost money on a company's careless but honest prospectus. Could they sue in deceit?
+        hint: What mental element does deceit need?
+        answer: No. Derry v Peek held negligent misstatement will not suffice for deceit; it must be intentional or reckless. Negligence did not yet fill the gap.
+      - ask: Why should careless words be treated differently from careless acts?
+        hint: Think of opinions at a barbecue.
+        answer: Careful people often give definite opinions on social or informal occasions without the care they would take professionally; Lord Reid said no duty arises on such occasions.
+      - ask: The same tip is given at a barbecue, then by the same adviser in a suit in an office. What changes?
+        hint: The circumstances and the relationship.
+        answer: 'In a business setting a duty is more likely: reliance is more reasonable, the speaker is more likely to know of it, to assume responsibility and to profess skill.'
+      - ask: What did Lord Reid say turns the relationship into a special one?
+        hint: Three things about trust and reliance.
+        answer: The inquirer trusts the speaker to take care, reasonably relies, and the speaker knows or ought to know of the reliance.
+      - ask: Why did the agency's claim in Hedley Byrne still fail?
+        hint: Look at the wording on the reference.
+        answer: It was given "without responsibility". The disclaimer meant no duty arose, which feeds directly into reliance.
+    elements:
+      - name: Serious matter
+        test: Was the information or advice given on a serious matter, rather than casually on a social or informal occasion?
+        cases:
+          - mutual-life-and-citizens-assurance-co-v-evatt
+          - hedley-byrne-v-heller
+      - name: Speaker knows they are trusted
+        test: Did the speaker realise, or should they have realised, that the recipient was trusting them to take care and would rely on what they said?
+        cases:
+          - hedley-byrne-v-heller
+          - mutual-life-and-citizens-assurance-co-v-evatt
+      - name: Reasonable reliance
+        test: Did the recipient actually rely, and was it reasonable to act on the statement in the circumstances?
+        cases:
+          - hedley-byrne-v-heller
+          - mutual-life-and-citizens-assurance-co-v-evatt
+      - name: No disclaimer
+        test: Did the speaker give the statement "without responsibility"? A disclaimer of responsibility meant no duty arose in Hedley Byrne.
+        cases:
+          - hedley-byrne-v-heller
+    what-if:
+      - change: Heller's reference had carried no "without responsibility" wording.
+        effect: The main obstacle to a duty disappears. The House of Lords' reasoning on trust, reasonable reliance and known reliance would then decide whether a special relationship existed.
+      - change: The adviser made the false statement knowingly, to induce the investment.
+        effect: 'That is fraudulent misstatement: deceit, an intentional tort outside this unit, which does not use the duty of care framework.'
+      - change: The tip was given casually at a barbecue rather than in a professional consultation.
+        effect: 'A duty becomes much less likely: Lord Reid said there can be no duty on social or informal occasions, and reliance on such a tip is harder to call reasonable.'
+    boundary:
+      - text: A friend at a barbecue says he has been advising clients to put everything into one stock.
+        why: 'Lord Reid''s social occasion: even a careful speaker gives definite opinions without professional care, so a duty is unlikely, though the lecturer frames it as weighing the circumstances.'
+    transfer:
+      - scenario: A retired engineer, asked by a neighbour over the fence, says a cracked retaining wall "will be fine for years". The neighbour delays repairs and the wall later fails, costing much more to fix.
+        answer: Apply Hedley Byrne and Evatt. The setting is informal, which Lord Reid said weighs against a duty. Ask whether the engineer realised she was being trusted on a serious matter, whether reliance on an off-hand view was reasonable, and whether she assumed responsibility. A duty is unlikely, but expressly asking for a professional view would strengthen the claim.
+    storyboard:
+      - caption: '1889: deceit closes to carelessness'
+        detail: 'Derry v Peek: negligent misstatement will not suffice for deceit; it must be intentional or reckless.'
+      - caption: '1932: the negligence paradigm'
+        detail: 'Donoghue v Stevenson: careless acts causing physical harm. Pure economic loss is not yet recognised; it was not until Hedley Byrne that it was.'
+      - caption: '1964: Hedley Byrne opens the door'
+        detail: A duty for negligent words where a special relationship exists, though the "without responsibility" reference meant none arose on the facts.
+      - caption: '1968: Evatt brings it to Australia'
+        detail: 'Barwick CJ: serious matter, speaker realises they are trusted, reasonable to act on it; a duty of reasonable care follows.'
+    sources:
+      - Topic 7 Lecture 1 (slides 9–13)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+  - concept: laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko
+    plain: 'A duty for careless words turns on two questions: did the speaker know (or ought it to have known) you would rely, and was it reasonable for you to rely?'
+    concrete: 'Tepko, landowners planning a subdivision, needed a water-supply costing for their bank. The Water Board refused several times, then reluctantly gave a "ball-park" figure. The landowners showed it to the bank, the figure was heavily overstated, and the refinancing collapsed. The High Court found no duty: the Board neither knew nor ought to have known of that reliance, and relying on a reluctant, provisional estimate was not reasonable.'
+    formal: 'Shaddock (1981): duty found; it covers information as well as advice, with no separate requirement of special skill. San Sebastian (1986): a duty can arise without any request; Brennan J requires that the representor realise the representee will trust its special competence, that reliance be reasonable, and foreseeable loss. Tepko (2001): no duty; needed known reliance, an assumption of responsibility, or both.'
+    analogy:
+      text: 'Asking for directions: a station attendant reading from the official timetable is someone you can rely on. A stranger who says "maybe the 5 o''clock, don''t quote me" is not, and it is unreasonable to stake your trip on it.'
+      maps:
+        - from: Station attendant with the official timetable
+          to: 'Shaddock: the council as the only source of firm factual information'
+        - from: '"Maybe the 5 o''clock, don''t quote me"'
+          to: 'Tepko: a reluctant, provisional ball-park estimate'
+        - from: Staking your trip on it
+          to: Whether reliance was reasonable
+      limits:
+        - An attendant is paid to answer; the duty does not depend on payment or on special skill (Shaddock).
+        - Whether the speaker knew or ought to have known of the reliance is a separate question the analogy hides.
+    terms:
+      - term: Reasonable reliance
+        gloss: The plaintiff actually relied on the statement and it was reasonable to do so, given its nature, the occasion and any warnings.
+      - term: Knowledge of reliance
+        gloss: 'The defendant knew, or ought to have known, that the plaintiff would rely on the statement in this way: tested actually and objectively (Tepko).'
+      - term: Statement of intention
+        gloss: A statement about what someone plans to do, such as a proposed redevelopment scheme; relying on a mere intention was not reasonable (San Sebastian).
+    misconceptions:
+      - claim: A council officer without planning expertise cannot owe a duty for wrong planning information.
+        tempting: Lord Morris in Hedley Byrne spoke of a person with special skill.
+        correction: 'Shaddock: the duty covers information as well as advice, and there is no separate requirement of special skill. A known lack of a needed skill can still make reliance harder to prove.'
+      - claim: San Sebastian failed because the developers never asked the council for the information.
+        tempting: Most misstatement duties begin with a request, as in Shaddock.
+        correction: San Sebastian says a duty can arise without any request. The claim failed because the statement was one of intention, and relying on a mere intention was not reasonable, though the reliance was genuine.
+      - claim: In Tepko the knowledge factor asks only what the Board actually knew.
+        tempting: Knowledge sounds like the defendant's state of mind.
+        correction: 'The test is also objective: the Board "neither knew nor should have known" of the reliance. Known reliance, an assumption of responsibility, or both, were needed.'
+    socratic:
+      - ask: In Shaddock, the council said no road-widening proposal affected the land, by phone and then by certificate. Why was reliance so strong?
+        hint: Where else could the purchaser get this information?
+        answer: The council was the only source of the information, and the reliance was clear. The court suggested the phone call alone might not have been enough.
+      - ask: The council officer had no special skill. Does that defeat the duty?
+        hint: Shaddock's second proposition.
+        answer: No. The duty covers information as well as advice, and there is no separate requirement that the speaker possess special skill.
+      - ask: In San Sebastian, nobody asked the council anything. Can a duty still arise?
+        hint: Think of inviting or intending reliance.
+        answer: 'Yes. A duty can arise without a request: known special competence, an assumption of responsibility, inviting or intending reliance, or an interest in the recipient acting.'
+      - ask: So why did the developers lose?
+        hint: What kind of statement was the redevelopment scheme?
+        answer: It was a statement of intention. Relying on a mere intention was not reasonable, even though the developers genuinely relied on it.
+      - ask: In Tepko, the Board gave the figure reluctantly, after refusing several times. Which two features failed?
+        hint: One about the Board, one about the landowners.
+        answer: 'Knowledge: the Board neither knew nor ought to have known of the reliance. Reasonable reliance: relying on a reluctant, provisional estimate was not reasonable.'
+    elements:
+      - name: Kind of statement
+        test: Was it information or advice (Shaddock), a statement of intention (San Sebastian) or a reluctant, provisional estimate (Tepko)? The answer shapes whether reliance was reasonable.
+        cases:
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+          - san-sebastian-pty-ltd-v-minister
+          - tepko-pty-ltd-v-water-board
+      - name: Knowledge of reliance
+        test: Did the defendant know, or ought it to have known, that the plaintiff would rely on the statement in this way?
+        cases:
+          - tepko-pty-ltd-v-water-board
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+      - name: Assumption of responsibility
+        test: Did the defendant assume responsibility, for example by inviting or intending reliance or professing special competence? Tepko needed known reliance, an assumption of responsibility, or both.
+        cases:
+          - san-sebastian-pty-ltd-v-minister
+          - tepko-pty-ltd-v-water-board
+      - name: Reasonable reliance
+        test: Did the plaintiff actually rely, and was it reasonable to rely, given the statement's nature, its source (the only source?) and how it was given?
+        cases:
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+          - san-sebastian-pty-ltd-v-minister
+          - tepko-pty-ltd-v-water-board
+    what-if:
+      - change: In Shaddock, the council had given only the telephone answer, with no certificate.
+        effect: 'The duty is less certain: the court suggested the phone call alone might not have been enough. The certificate firmed up both the reliance and its reasonableness.'
+      - change: In Tepko, the Board had volunteered a firm figure knowing the bank would lend on it.
+        effect: 'Both failed features would now point towards a duty: known reliance, and reliance on a firm figure is more reasonable than on a reluctant ball-park estimate.'
+      - change: In San Sebastian, the council had stated as a fact that the scheme had been approved.
+        effect: The statement would no longer be a mere intention, so reliance could be reasonable; with the council inviting reliance, a duty becomes arguable.
+    boundary:
+      - text: 'The Tepko dissenters would have found a duty: a statutory authority, with special knowledge, and serious business consequences.'
+        why: Good reasoning can reach a different conclusion on the same facts. The majority held that, without known reliance or an assumption of responsibility, those features were not enough.
+      - text: A plaintiff knew the speaker lacked a skill the question plainly required.
+        why: Shaddock removes special skill as a separate requirement, but here reliance becomes harder to prove, so a duty is less likely.
+    transfer:
+      - scenario: 'A university''s admissions office, after repeated emails, replies: "Rough guess only, don''t rely on this: your credit transfer should cover a year." The student turns down a job to enrol; the transfer covers one unit.'
+        answer: Tepko is closest. The figure was given reluctantly and expressly as provisional, so relying on it was probably not reasonable; and the office may not have known or ought to have known the student would act on it in this way. Without known reliance or an assumption of responsibility, a duty is unlikely.
+    sources:
+      - Topic 7 Lecture 1 (slides 14–16)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+  - concept: laws2400-w07-esanda-and-misstatement-salient-features
+    plain: Foreseeing that someone might lose money relying on your words is not enough for a duty. Courts weigh several features of the relationship, especially reliance and assumption of responsibility.
+    concrete: 'Esanda lent money to companies associated with Excel, relying on Excel''s accounts, which PMH had audited and certified. Excel went into receivership and Esanda lost money. Esanda argued it belonged to a class who might reasonably rely on audited accounts. The High Court found no duty: there was no request, no intention to induce Esanda to act, and no assumption of responsibility; an audit informs the company and its shareholders.'
+    formal: 'Esanda Finance Corp v PMH (1997): no duty, as no circumstances established a relationship of proximity. Dawson J: mere foreseeability does not, where the only harm is pure economic loss, give rise to a duty; the law requires "a special relationship ... described as a relationship of proximity". "Proximity" is the historical label; the modern approach treats the factors as salient features (Sullivan v Moody).'
+    analogy:
+      text: An audit report is like a letter addressed to the company and its shareholders. Others may read it over their shoulder, and the writer may foresee that, but it was not written for them.
+      maps:
+        - from: The letter's addressees
+          to: 'The company and its shareholders: the purpose of an audit'
+        - from: Someone reading over a shoulder
+          to: A lender such as Esanda relying on publicly available accounts
+        - from: Foreseeing over-the-shoulder readers
+          to: 'Reasonable foreseeability: present, but not enough for PEL'
+      limits:
+        - If the writer had sent the letter to the reader, asked to be relied on, or assumed responsibility, the result could change.
+    terms:
+      - term: Proximity (historical)
+        gloss: In pre-2000 cases like Esanda, an overarching principle covering the special relationship; not the much narrower "proximity" in the salient features list.
+      - term: Salient features
+        gloss: The factors courts weigh, beyond reasonable foreseeability, to decide whether a duty arises outside the paradigm (Sullivan v Moody).
+      - term: Assumption of responsibility
+        gloss: The defendant's undertaking of a task from which acceptance of reasonable care can be inferred; one of the most important features.
+    misconceptions:
+      - claim: PMH owed Esanda a duty because loss to lenders relying on audited accounts was reasonably foreseeable.
+        tempting: The loss plainly was foreseeable, and foreseeability founds the paradigm duty.
+        correction: 'Dawson J: mere foreseeability does not, where the only harm is PEL, give rise to a duty. A special relationship is also required.'
+      - claim: 'The closing list of eight features is a checklist: every item must be satisfied.'
+        tempting: It is set out like a list of elements.
+        correction: 'Not a rigid checklist: the factors cross over and courts look at the circumstances as a whole. Foreseeability must always be ticked; the rest are weighed.'
+      - claim: '"Proximity" in Esanda means the same as "proximity" in the salient features list.'
+        tempting: It is the same word.
+        correction: In pre-2000 cases it is proximity as an overarching principle; in the list it is a much narrower conception. The factors Esanda discussed are now treated as salient features.
+    socratic:
+      - ask: Was it foreseeable that a lender might rely on Excel's audited accounts and lose money?
+        hint: Who reads audited accounts?
+        answer: Yes. Foreseeability was present, but for pure economic loss it is not enough on its own.
+      - ask: Why not, according to Dawson J?
+        hint: Think about the bounds of liability.
+        answer: A duty based only on foreseeability of financial loss would extend liability in negligence beyond acceptable bounds. A special relationship of proximity is also needed.
+      - ask: Esanda said it belonged to a class who might reasonably rely on audited accounts. What was missing?
+        hint: Look at PMH's side of the relationship.
+        answer: There was no request, no intention by PMH to induce Esanda to act, and no assumption of responsibility towards it.
+      - ask: Who is an audit for?
+        hint: The lecturer, a former auditor, answers this.
+        answer: It informs the company and its shareholders about the company's accounts; it is not for investors or financiers to rely on.
+      - ask: What policy reasons did McHugh J give against auditors owing third parties a duty?
+        hint: Four reasons on the slide.
+        answer: Higher auditing costs, more complex litigation, the risk of indeterminate liability, and difficulties proving reliance.
+    elements:
+      - name: Reasonable foreseeability
+        test: Was loss to someone in the plaintiff's position reasonably foreseeable? Always required, but never enough for pure economic loss.
+        cases:
+          - esanda-finance-corp-v-pmh
+      - name: Indeterminacy of liability
+        test: Would a duty expose the defendant to a class that cannot be narrowed or defined, such as everyone who reads public accounts?
+        cases:
+          - esanda-finance-corp-v-pmh
+      - name: Category of relationship
+        test: 'What is the relationship: friends at a social gathering, or a commercial or financial advisory one?'
+        cases:
+          - hedley-byrne-v-heller
+      - name: Defendant's knowledge
+        test: Did the defendant know, or ought it to have known, of matters affecting the plaintiff, including its reliance?
+        cases:
+          - tepko-pty-ltd-v-water-board
+      - name: Reliance by the plaintiff
+        test: Did the plaintiff rely, and was that reliance reasonable in the circumstances?
+        cases:
+          - san-sebastian-pty-ltd-v-minister
+          - tepko-pty-ltd-v-water-board
+      - name: Assumption of responsibility
+        test: Did the defendant undertake a task from which acceptance of reasonable care can be inferred?
+        cases:
+          - esanda-finance-corp-v-pmh
+          - mallonland-pty-ltd-v-advanta-seeds-pty-ltd
+      - name: Special skill of the defendant
+        test: Did the defendant have, or profess, special skill? Relevant, but not a separate requirement (Shaddock).
+        cases:
+          - hedley-byrne-v-heller
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+      - name: Vulnerability of the plaintiff
+        test: Could the plaintiff have protected itself, by contract or its own inquiries? Sophisticated commercial parties usually can.
+        cases:
+          - anchorage-capital-master-offshore-ltd-v-sparkes
+    what-if:
+      - change: PMH had sent the audited accounts to Esanda at Esanda's request, knowing it would lend on them.
+        effect: 'The missing features appear: a request, knowledge of reliance and an arguable assumption of responsibility. A duty becomes much more likely than in Esanda.'
+      - change: The accounts were published online and read by thousands of investors.
+        effect: 'Indeterminacy weighs heavily against a duty: the class of readers cannot be defined, which was one of McHugh J''s policy reasons.'
+    boundary:
+      - text: 'Shaddock: the council answered a specific inquiry it knew would be relied on, and a duty was found.'
+        why: Unlike Esanda, there was a request, known reliance and a single identified recipient, so the relationship was special.
+    transfer:
+      - scenario: A credit-rating agency publishes a free online rating of a listed company. Thousands of investors read it. One investor loses money after the rating proves careless and sues the agency.
+        answer: Start with Esanda. Loss is foreseeable but not enough. The class of readers is open-ended (indeterminacy); the agency made no statement to this investor, had no request from it and did not assume responsibility towards it. Despite the agency's special skill, the features weigh against a duty, much as in Esanda.
+    sources:
+      - Topic 7 Lecture 1 (slides 17–21, 29)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+  - concept: laws2400-w07-disclaimers-and-vulnerability
+    plain: 'What a speaker says about their own care matters: disclaiming responsibility can stop a duty arising. A plaintiff able to protect itself is not vulnerable, which also weighs against a duty.'
+    concrete: In Anchorage Capital Master Offshore v Sparkes, lenders relied on false financial notices from the borrower's officers, and the company collapsed. No duty was owed. The lenders were sophisticated commercial parties who could have protected themselves by contract; they could have obtained the information themselves, and the notices were not the only source of it.
+    formal: 'A disclaimer is one factor against a duty (Hedley Byrne). A disclaimer of responsibility excludes the duty; a warning that care has not been taken goes to whether reliance was reasonable. Mallonland [2024] HCA 25: "assumption of responsibility" is imprecise; an undertaking to take on a task from which acceptance of reasonable care can be inferred. Anchorage (2023): sophisticated commercial parties able to protect themselves by contract are not vulnerable.'
+    terms:
+      - term: Disclaimer of responsibility
+        gloss: A statement that the speaker accepts no responsibility, such as "without responsibility"; it excludes the duty.
+        example: The bank reference in Hedley Byrne.
+      - term: Warning that care has not been taken
+        gloss: A statement that limited care was taken; it does not necessarily exclude a duty but goes to whether reliance was reasonable.
+      - term: Vulnerability
+        gloss: The plaintiff's inability to protect itself from the defendant's want of care, for example by contract or its own inquiries.
+    misconceptions:
+      - claim: A disclaimer and a warning that care has not been taken have the same effect.
+        tempting: Both sound like the speaker protecting itself.
+        correction: 'A disclaimer of responsibility excludes the duty; a warning that care has not been taken may not go so far: it goes to whether reliance was reasonable.'
+      - claim: If a case looks like an earlier case where a duty was found, a duty follows.
+        tempting: Precedent works by analogy, so similar facts should mean the same result.
+        correction: 'Mallonland found no duty and used cautious language: falling into a category where duties have been found before does not guarantee one. Work through the circumstances step by step.'
+      - claim: Vulnerability does not matter in misstatement cases, because Esanda never mentions it.
+        tempting: Esanda, the leading case, lists other factors.
+        correction: Vulnerability is a separate salient feature and was decisive in Anchorage. Esanda does not use the label, but it is part of the reasoning.
+    socratic:
+      - ask: A bank's reference says "without responsibility". What does that do to a duty?
+        hint: Recall Hedley Byrne.
+        answer: It is a disclaimer of responsibility, one factor against a duty; in Hedley Byrne itself it meant no duty arose.
+      - ask: 'A valuer writes: "We have not inspected the roof cavity; rely on this at your own risk." Is that the same?'
+        hint: Is the speaker refusing responsibility, or warning about care?
+        answer: It is mainly a warning that care has not been taken. It may not exclude a duty, but it goes to whether the buyer's reliance on that part was reasonable.
+      - ask: What does "assumption of responsibility" mean after Mallonland?
+        hint: The High Court called the phrase imprecise.
+        answer: An undertaking to take on a task from which acceptance of reasonable care can be inferred.
+      - ask: In Anchorage, the lenders relied on the officers' false notices. Why were they not vulnerable?
+        hint: What could sophisticated lenders have done?
+        answer: They could have protected themselves by contract, obtained the information themselves, and the notices were not the only source.
+    elements:
+      - name: Disclaimer of responsibility
+        test: Did the speaker disclaim responsibility, for example "without responsibility"? If so, that weighs against, and may exclude, a duty.
+        cases:
+          - hedley-byrne-v-heller
+      - name: Warning that care has not been taken
+        test: Did the speaker only warn that care had not been taken? Then ask whether reliance on the statement was still reasonable.
+        cases:
+          - hedley-byrne-v-heller
+      - name: Assumption of responsibility
+        test: Did the defendant undertake a task from which acceptance of reasonable care can be inferred? Work through the circumstances step by step.
+        cases:
+          - mallonland-pty-ltd-v-advanta-seeds-pty-ltd
+      - name: Vulnerability
+        test: Could the plaintiff have protected itself by contract, by its own inquiries or from another source? Sophisticated commercial parties usually can.
+        cases:
+          - anchorage-capital-master-offshore-ltd-v-sparkes
+          - woolcock-street-investments-pty-ltd-v-cdg-pty-ltd
+    what-if:
+      - change: The Hedley Byrne reference had said only "prepared quickly; we have not checked our records fully".
+        effect: That is a warning that care has not been taken rather than a disclaimer of responsibility. It may not exclude the duty; the question becomes whether relying on a hurried reference was reasonable.
+      - change: In Anchorage, the lenders had been small investors with no access to the borrower's information and no bargaining power.
+        effect: 'The vulnerability reasoning would weaken: they could not protect themselves by contract or obtain the information elsewhere, so this feature would point towards a duty.'
+    boundary:
+      - text: The text's flowchart places reliance and assumption of responsibility underneath vulnerability.
+        why: If the defendant knew or ought to have known you would rely, and your reliance was reasonable, you are vulnerable. The lecturer calls this a different way of thinking, not an error.
+    transfer:
+      - scenario: An engineer tells a large developer, "I haven't had time to check these figures properly." The developer, with its own engineers and the right to commission an independent check, builds on the figures and loses money.
+        answer: This is a warning that care has not been taken, not a disclaimer of responsibility, so it goes to whether reliance was reasonable, and reliance on figures flagged as unchecked is weak. The developer is also a sophisticated commercial party able to protect itself, so, as in Anchorage, it is not vulnerable. Both point against a duty.
+    sources:
+      - Topic 7 Lecture 1 (slides 22–23)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+  - concept: laws2400-w07-acl-s18-misleading-or-deceptive-conduct
+    plain: A business that misleads people can be liable under a statute, the Australian Consumer Law, without anyone proving a duty of care or carelessness.
+    concrete: 'The ACCC sued Kimberly-Clark over its wipes on two counts: whether they were "flushable" and whether they were "made in Australia". The Federal Court found the "made in Australia" claim false and misleading, because the wipes were made elsewhere, but held the "flushable" claims were not false and misleading. The Full Federal Court upheld that ruling. Kimberly-Clark had settled similar US actions out of court.'
+    formal: 'Australian Consumer Law s 18: "A person must not, in trade or commerce, engage in conduct that is misleading or deceptive or is likely to mislead or deceive." It covers conduct and words, negligent and intentional. No duty of care or negligence need be proved; a causal link is still needed, but nowhere near the extent required at common law. The common law remains relevant, e.g. outside trade or commerce.'
+    terms:
+      - term: In trade or commerce
+        gloss: The setting s 18 requires; conduct outside it, such as a friend's tip at a barbecue, must be run at common law.
+      - term: Misleading or deceptive conduct
+        gloss: Conduct, including words, that misleads or deceives or is likely to; it may be negligent or intentional.
+    misconceptions:
+      - claim: A plaintiff suing under s 18 must still show the defendant owed a duty of care.
+        tempting: Every misstatement claim studied so far starts with duty.
+        correction: Under s 18 there is no need to establish a duty of care or prove negligence; what must be proved is the existence of misleading or deceptive conduct.
+      - claim: Once misleading conduct is shown under the ACL, loss is presumed.
+        tempting: s 18 is described as the easier route.
+        correction: A causal link is still needed (the provisions say "because of"), but nowhere near the extent required at common law.
+      - claim: Choosing s 18 means giving up any common law claim.
+        tempting: Two routes for the same statement sounds like an election.
+        correction: You can argue both. The common law matters especially where the defendant is not engaging in trade or commerce.
+    socratic:
+      - ask: A company labels its wipes "made in Australia" and they are made elsewhere. What must the ACCC prove under s 18?
+        hint: Is a duty of care part of it?
+        answer: That the company, in trade or commerce, engaged in conduct that was misleading or deceptive or likely to mislead or deceive. No duty or negligence.
+      - ask: Does s 18 reach only intentional lies?
+        hint: Think about negligent misstatements.
+        answer: No. It covers negligent as well as intentional misstatements, and conduct as well as words.
+      - ask: Why might a plaintiff prefer s 18 to negligent misstatement?
+        hint: What does it let you skip?
+        answer: 'It can be easier: no need to establish a duty of care, and the causal link required is nowhere near as demanding as at common law.'
+      - ask: A friend at a barbecue gives a careless tip. Why is s 18 probably no help?
+        hint: Re-read the opening words of s 18.
+        answer: The statement is probably not made "in trade or commerce", so the claim must be run as negligent misstatement at common law.
+    elements:
+      - name: In trade or commerce
+        test: Was the conduct engaged in in trade or commerce? If not, s 18 does not apply and the common law route remains.
+        authorities:
+          - australian-consumer-law-s18
+      - name: Misleading or deceptive conduct
+        test: Was the conduct (including words) misleading or deceptive, or likely to mislead or deceive? Negligent or intentional; no duty or negligence needed.
+        cases:
+          - accc-v-kimberly-clark-australia
+        authorities:
+          - australian-consumer-law-s18
+      - name: Causal link to loss
+        test: Did the loss occur because of the conduct? A causal link is needed, but nowhere near the extent required at common law.
+    what-if:
+      - change: Kimberly-Clark had genuinely believed the wipes were made in Australia.
+        effect: 'The claim is unchanged: s 18 covers negligent as well as intentional conduct, so honesty does not prevent the conduct being misleading.'
+      - change: The false statement is made by a private person selling a car to a friend at a family barbecue.
+        effect: Section 18 may not apply if the sale is not in trade or commerce, so the buyer would need to run negligent misstatement and establish a duty.
+    boundary:
+      - text: A real estate agent advertises a house as a "once in a lifetime opportunity".
+        why: In trade or commerce, so s 18 is in play, but the lecturer says many such cases turn on whether it is reasonable to rely on that sort of statement.
+    transfer:
+      - scenario: A solar-panel retailer's website says its panels "pay for themselves in three years". A household buys them on that basis; the real payback period is twelve years.
+        answer: 'Plead s 18 first: the website is conduct in trade or commerce, and the question is whether the claim was misleading or deceptive or likely to mislead. No duty of care or negligence need be shown, only a causal link between the conduct and the loss. Negligent misstatement can be argued in the alternative.'
+    sources:
+      - Topic 7 Lecture 1 (slides 24–28)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+  - concept: laws2400-w07-pel-caused-by-acts-perre-and-caltex
+    plain: When a careless act (not words) costs someone money without hurting them or their property, Australian courts may find a duty by weighing salient features case by case.
+    concrete: Apand sold potato seed infected with bacterial wilt to Sparnon's farm, 3 km from the Perres' farm. Western Australia prohibited potatoes grown within 20 km of the disease. The Perres' potatoes were tested and disease-free, and they had no contract with Apand, but they could no longer sell into WA. They lost in the lower courts; the High Court held Apand owed them a duty.
+    formal: 'In England, no duty is generally imposed for PEL caused by an act; Australian courts may find one by applying the salient factors approach. Perre v Apand (1999): duty owed. McHugh J asked, in order: foreseeability; indeterminate liability; unreasonable burden on autonomy; vulnerability; knowledge. Caltex Oil v Dredge ''Willemstad'' (1976): a duty for PEL even before the salient factors approach was settled.'
+    terms:
+      - term: Ascertained class
+        gloss: A defined group of potential plaintiffs, such as farms within the 20 km quarantine radius; it answers the indeterminacy concern.
+      - term: Autonomy
+        gloss: The defendant's freedom to pursue its own legitimate interests; a duty must not unreasonably burden it (McHugh J).
+      - term: Control
+        gloss: Who was in control of the situation; the Perres had none over which seed their neighbours planted, which made them vulnerable.
+    misconceptions:
+      - claim: The Perres could not be owed a duty because they had no contract with Apand.
+        tempting: The lower courts reasoned that way, and Sparnon, who had a contract, won.
+        correction: The High Court held a duty was owed despite the absence of any contract, applying the salient features.
+      - claim: After Perre and Caltex Oil, PEL caused by an act attracts a duty.
+        tempting: Both leading High Court cases found a duty.
+        correction: It is definitely not the case that every PEL-by-act case attracts a duty. Courts take an incremental, case-by-case approach; Mallonland found no duty.
+      - claim: McHugh J began with indeterminacy, the key PEL concern.
+        tempting: Indeterminacy is the most famous reason courts hesitate over PEL.
+        correction: Foreseeability came first; indeterminacy was asked only if the loss was foreseeable, then autonomy, vulnerability and knowledge.
+    socratic:
+      - ask: The Perres' potatoes were disease-free and their farm undamaged. What kind of loss did they suffer?
+        hint: Was there any physical damage to them?
+        answer: 'Pure economic loss: they simply lost the ability to sell into WA because of the 20 km rule.'
+      - ask: Was liability to farms like the Perres' indeterminate?
+        hint: What did the WA regulation do?
+        answer: No. The 20 km rule defined who could be affected, so the class was ascertained.
+      - ask: Why were the Perres vulnerable?
+        hint: Could they control their neighbours' choices?
+        answer: They had no control over who in the radius grew potatoes, or which supplier's seed they used.
+      - ask: Did Apand know its conduct could harm people like the Perres?
+        hint: Apand was in the potato industry.
+        answer: Yes. It had knowledge of the disease and the risk of harm to growers nearby.
+      - ask: In Caltex Oil, the dredge damaged Caltex's pipeline. Why was it a PEL case?
+        hint: What did Caltex actually claim?
+        answer: Caltex did not claim for the small property damage, only the cost of trucking oil around the bay, so it was dealt with as pure economic loss. A duty was owed.
+    elements:
+      - name: Reasonable foreseeability
+        test: Was the loss suffered by the plaintiff, or members of its group, reasonably foreseeable?
+        cases:
+          - perre-v-apand-pty-ltd
+      - name: Indeterminate liability
+        test: If foreseeable, would a duty impose indeterminate liability? In Perre, the 20 km rule defined the class.
+        cases:
+          - perre-v-apand-pty-ltd
+      - name: Burden on autonomy
+        test: If not indeterminate, would a duty impose an unreasonable burden on the defendant's autonomy?
+        cases:
+          - perre-v-apand-pty-ltd
+      - name: Vulnerability
+        test: If not, was the plaintiff, or some of the group, vulnerable to loss from the defendant's conduct, for example with no control over the risk?
+        cases:
+          - perre-v-apand-pty-ltd
+      - name: Knowledge
+        test: Did the defendant know that its conduct could cause harm to individuals such as the plaintiff?
+        cases:
+          - perre-v-apand-pty-ltd
+    what-if:
+      - change: The Perres' farm had been 30 km from Sparnon's, outside the quarantine radius.
+        effect: The Perres would have suffered no loss from the WA prohibition, and would fall outside the defined class the 20 km rule created.
+      - change: There was no regulation defining a radius; buyers everywhere simply shunned the region's potatoes.
+        effect: 'The indeterminacy question becomes much harder: without the 20 km rule, the class of affected growers is not ascertained, which points against a duty.'
+      - change: Caltex had claimed the cost of repairing its damaged pipeline.
+        effect: That is property damage, the paradigm, so the losses flowing from it would be consequential and the salient features analysis would not be needed.
+    boundary:
+      - text: 'Mallonland v Advanta Seeds, placed in the lecture alongside PEL caused by an act: no duty was found.'
+        why: Similarity to Perre did not produce a duty; the High Court's cautious, step-by-step language shows each case is decided on its own circumstances.
+    transfer:
+      - scenario: A trucking company negligently spills toxic cargo into a river. The authority closes all fishing within 10 km. A fishing business inside the zone, whose boats and catch are untouched, cannot sell for a season.
+        answer: 'Pure economic loss caused by an act: run McHugh J''s questions from Perre. Loss to fishers was foreseeable; the 10 km closure defines the class, so liability is not indeterminate; a duty does not unreasonably burden the carrier''s autonomy; the business had no control over the spill (vulnerable); and a carrier of toxic cargo would know of the risk. A duty is arguable, as in Perre.'
+    storyboard:
+      - caption: Apand sells infected seed
+        detail: Apand, behind Kettle chips, sells potato seed infected with bacterial wilt to Sparnon's farm.
+      - caption: The 20 km rule bites
+        detail: WA prohibits potatoes grown within 20 km of wilt. The Perres' farm, 3 km away, cannot export, though its potatoes are disease-free.
+      - caption: 'Lower courts: Sparnon wins, Perres lose'
+        detail: 'Sparnon had physical damage and a contract. The Perres had neither: only pure economic loss.'
+      - caption: 'High Court: a duty is owed'
+        detail: All judges apply the salient features; McHugh J asks foreseeability, indeterminacy, autonomy, vulnerability, knowledge.
+    sources:
+      - Topic 7 Lecture 2 (slides 3–8)
+      - Topic 7 Lecture 2 Transcript - Pure Economic Loss (Acts and Defective Structures)
+  - concept: laws2400-w07-defective-structures-and-the-dbpa
+    plain: When a hidden building defect lowers a later owner's property value, the common law asked whether a duty was owed. In NSW, a 2020 statute now gives owners that duty directly.
+    concrete: A builder built a house with defective foundations. Years later Mrs Maloney, the third owner since construction, noticed cracks in the walls caused by the foundations. Her loss was the reduced value of the house, not an injury. In Bryan v Maloney the High Court held the builder owed a subsequent purchaser a duty to take reasonable care in building the house, using the proximity principle and treating homeowners as more vulnerable.
+    formal: 'Bryan v Maloney (1995): a house builder owed a subsequent purchaser a duty. Woolcock v CDG (2004): no duty to a commercial purchaser: no reliance or assumption of responsibility, and not vulnerable. Design and Building Practitioners Act 2020 (NSW) s 37: a person who carries out construction work has a duty to exercise reasonable care to avoid economic loss caused by defects, owed to each owner and each subsequent owner.'
+    terms:
+      - term: Latent defect
+        gloss: A defect not identifiable at or soon after the build, discovered years later, often by a later owner; the reason tort comes into the picture.
+      - term: Construction work (s 36)
+        gloss: 'Defined broadly: building work, preparing designs, manufacturing or supplying building products, and supervision, coordination or project management.'
+      - term: Non-delegable duty
+        gloss: A duty that stays with the person even if they use subcontractors (s 39); the s 37 duty also cannot be contracted out (s 40).
+    misconceptions:
+      - claim: 'Woolcock simply followed Bryan v Maloney: later owners are always owed a duty for latent defects.'
+        tempting: Both cases involve a later owner and a latent defect.
+        correction: 'Woolcock went the other way: no duty, because there was no reliance or assumption of responsibility and the commercial purchaser was not vulnerable.'
+      - claim: Bryan v Maloney applied the salient features approach and the statutory duty.
+        tempting: Both appear in this topic.
+        correction: Bryan (1995) used the proximity principle. The statutory, non-delegable duty comes from the Design and Building Practitioners Act 2020, decades later.
+      - claim: Under the DBPA, only the original owner who paid the builder can sue.
+        tempting: Building disputes are usually contract disputes between builder and client.
+        correction: 'Section 37(2): the duty is owed to each owner of the land and to each subsequent owner.'
+    socratic:
+      - ask: Why does tort matter for buildings when the parties can contract?
+        hint: Think of defects found 20 years later.
+        answer: Parties deal with obvious defects by contract; tort comes in for latent defects, often found by a later owner with no contract with the builder.
+      - ask: A balcony collapses and injures a passer-by. Is that a pure economic loss case?
+        hint: What kind of harm is an injury?
+        answer: 'No. Physical injury is the paradigm: the builder or architect will generally be liable to anyone foreseeably injured.'
+      - ask: Why was Mrs Maloney owed a duty but Woolcock was not?
+        hint: House or commercial building? Who could protect themselves?
+        answer: A homeowner is more vulnerable. Woolcock, a commercial buyer, could have done due diligence, inspections or insurance; there was no reliance or assumption of responsibility.
+      - ask: In NSW today, where does a later owner start?
+        hint: Which statute, which section?
+        answer: 'Design and Building Practitioners Act 2020 s 37: a statutory duty owed to each owner and subsequent owner, so no common law duty need be established.'
+    elements:
+      - name: Construction work
+        test: Did the defendant carry out construction work, including building work, designs, supply of building products, or supervision or project management (s 36)?
+        authorities:
+          - design-and-building-practitioners-act-2020-nsw-s36
+      - name: Economic loss caused by defects
+        test: Is the loss economic loss caused by defects in or related to a building for which the work was done, arising from the construction work (s 37(1))?
+        authorities:
+          - design-and-building-practitioners-act-2020-nsw-s37
+      - name: Owner or subsequent owner
+        test: Is the plaintiff an owner, or a subsequent owner, of the land on which the work was done (s 37(2))?
+        authorities:
+          - design-and-building-practitioners-act-2020-nsw-s37
+      - name: Breach and damages
+        test: Did the defendant fail to exercise reasonable care? Damages are available as if the duty were a common law duty (s 37(3)); the duty is non-delegable and cannot be contracted out.
+        authorities:
+          - design-and-building-practitioners-act-2020-nsw-s37
+          - design-and-building-practitioners-act-2020-nsw-ss39-40
+    what-if:
+      - change: Mrs Maloney's house had instead been a commercial building bought by a property investor.
+        effect: 'At common law, Woolcock points against a duty: a commercial purchaser could protect itself and is not vulnerable. In NSW the DBPA s 37 duty would apply anyway.'
+      - change: The defect causes a ceiling to fall and injure the owner.
+        effect: 'This is physical injury, the paradigm: the builder or architect will generally be liable to anyone foreseeably injured, without the PEL analysis.'
+      - change: The defect arose from an engineer's design, not the builder's work.
+        effect: Under the DBPA, preparing designs is "construction work" (s 36), so the engineer owes the s 37 duty to each owner and subsequent owner.
+    boundary:
+      - text: 'Woolcock: the geotechnical inspection was not done because one owner refused to pay for it, and the commercial building later settled.'
+        why: 'Outside Bryan: a commercial purchaser could have inspected or insured, so it was not vulnerable; and there was no reliance or assumption of responsibility.'
+    transfer:
+      - scenario: In Sydney, a supplier provides faulty waterproofing membrane for an apartment block. Eight years later, the second owner of a unit finds water damage reducing its value.
+        answer: Start with the DBPA. Supplying building products is "construction work" (s 36), so the supplier owes the s 37 duty to exercise reasonable care to avoid economic loss caused by defects, owed to each subsequent owner. No common law duty need be shown; the duty cannot be contracted out (s 40).
+    storyboard:
+      - caption: '1995: Bryan v Maloney'
+        detail: A builder owes the third owner of a house a duty for defective foundations; proximity; homeowners are more vulnerable.
+      - caption: '2004: Woolcock Street Investments'
+        detail: 'Commercial building, sophisticated buyer: no reliance, no assumption of responsibility, not vulnerable, so no duty.'
+      - caption: '2020: the NSW statute'
+        detail: 'Design and Building Practitioners Act s 37: a statutory duty to each owner and subsequent owner; non-delegable; cannot be contracted out.'
+    sources:
+      - Topic 7 Lecture 2 (slides 9–17)
+      - Topic 7 Lecture 2 Transcript - Pure Economic Loss (Acts and Defective Structures)
+flows:
+  - slug: pel-negligent-words
+    title: Is a duty owed for pure economic loss caused by negligent words?
+    summary: 'Classifies the loss, flags the ACL s 18 route, then weighs the misstatement salient features in the order of the lecture''s closing list: disclaimer, knowledge and assumption of responsibility, reasonable reliance, indeterminacy, vulnerability.'
+    start: w1
+    concepts:
+      - laws2400-w07-esanda-and-misstatement-salient-features
+      - laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko
+      - laws2400-w07-disclaimers-and-vulnerability
+      - laws2400-w07-acl-s18-misleading-or-deceptive-conduct
+      - laws2400-w07-pure-economic-loss-and-policy
+    sources:
+      - Topic 7 Lecture 1 (slides 5–29)
+      - Topic 7 Lecture 1 Transcript - Negligent Misstatement
+    nodes:
+      - id: w1
+        kind: ask
+        text: 'Is the plaintiff''s loss pure economic loss: no physical injury to the person or damage to its property?'
+        note: Reasonable foreseeability is always required, but for pure economic loss it is never enough on its own (Dawson J in Esanda).
+        concept: laws2400-w07-pure-economic-loss-and-policy
+        cases:
+          - esanda-finance-corp-v-pmh
+        branches:
+          - label: 'Yes'
+            to: w2
+          - label: 'No: it follows injury or damage'
+            to: e-consequential
+      - id: w2
+        kind: step
+        text: 'If the statement was made in trade or commerce, plead ACL s 18 as well: no duty or negligence needed. Then run the common law.'
+        note: Section 18 covers conduct and words, negligent and intentional. A causal link is still needed. Outside trade or commerce, only the common law route is open.
+        exception: true
+        concept: laws2400-w07-acl-s18-misleading-or-deceptive-conduct
+        authorities:
+          - australian-consumer-law-s18
+        next: w3
+      - id: w3
+        kind: ask
+        text: Did the speaker disclaim responsibility for the statement?
+        note: A disclaimer is one factor against a duty; in Hedley Byrne the "without responsibility" reference meant no duty arose. A mere warning that care has not been taken goes to reasonable reliance instead.
+        concept: laws2400-w07-disclaimers-and-vulnerability
+        cases:
+          - hedley-byrne-v-heller
+        branches:
+          - label: 'Yes'
+            to: e-disclaimer
+          - label: No, or only a warning
+            to: w4
+      - id: w4
+        kind: ask
+        text: Did the defendant know, or ought it to have known, of the reliance, or did it assume responsibility?
+        note: 'Tepko: needed known reliance, an assumption of responsibility, or both. Esanda: no request, no intention to induce, no assumption of responsibility.'
+        concept: laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko
+        cases:
+          - tepko-pty-ltd-v-water-board
+          - esanda-finance-corp-v-pmh
+          - san-sebastian-pty-ltd-v-minister
+        branches:
+          - label: Yes, one or both
+            to: w5
+          - label: Neither
+            to: e-relationship
+      - id: w5
+        kind: ask
+        text: Was the plaintiff's reliance reasonable in the circumstances?
+        note: Consider the kind of statement (fact or advice; an intention; a reluctant estimate), the occasion (social or business), any warning, and whether the defendant was the only source (Shaddock).
+        cases:
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+          - san-sebastian-pty-ltd-v-minister
+          - tepko-pty-ltd-v-water-board
+        branches:
+          - label: 'Yes'
+            to: w6
+          - label: 'No'
+            to: e-relationship
+      - id: w6
+        kind: ask
+        text: Would a duty expose the defendant to a class that cannot be narrowed or defined?
+        note: A large class is not necessarily a problem; an undefinable one, such as everyone who reads public accounts or hears a radio tip, is.
+        concept: laws2400-w07-pure-economic-loss-and-policy
+        cases:
+          - esanda-finance-corp-v-pmh
+        branches:
+          - label: 'Yes'
+            to: e-indeterminate
+          - label: 'No'
+            to: w7
+      - id: w7
+        kind: ask
+        text: 'Was the plaintiff vulnerable: unable to protect itself by contract or its own inquiries?'
+        note: 'Anchorage: sophisticated commercial parties able to protect themselves by contract, who could get the information elsewhere, are not vulnerable.'
+        concept: laws2400-w07-disclaimers-and-vulnerability
+        cases:
+          - anchorage-capital-master-offshore-ltd-v-sparkes
+        branches:
+          - label: 'Yes'
+            to: e-duty
+          - label: 'No: it could protect itself'
+            to: e-vulnerable
+      - id: e-consequential
+        kind: end
+        tone: qualified
+        text: 'Not a pure economic loss problem: consequential loss rides on reasonable foreseeability.'
+      - id: e-disclaimer
+        kind: end
+        tone: not-met
+        text: 'No duty: responsibility was disclaimed (Hedley Byrne).'
+      - id: e-relationship
+        kind: end
+        tone: not-met
+        text: 'No duty likely: no known reliance or assumed responsibility, or unreasonable reliance (Tepko, San Sebastian, Esanda).'
+      - id: e-indeterminate
+        kind: end
+        tone: not-met
+        text: 'No duty likely: indeterminate liability (McHugh J in Esanda).'
+      - id: e-vulnerable
+        kind: end
+        tone: not-met
+        text: 'No duty likely: the plaintiff could protect itself (Anchorage).'
+      - id: e-duty
+        kind: end
+        tone: met
+        text: 'Weighing the features as a whole, a duty is likely: move to breach.'
+  - slug: pel-acts-and-structures
+    title: Is a duty owed for pure economic loss caused by an act or a defective building?
+    summary: For an act, walks McHugh J's questions in Perre v Apand in order; for a latent building defect, starts with the NSW statutory duty and falls back on Bryan v Maloney and Woolcock.
+    start: a1
+    concepts:
+      - laws2400-w07-pel-caused-by-acts-perre-and-caltex
+      - laws2400-w07-defective-structures-and-the-dbpa
+    sources:
+      - Topic 7 Lecture 2 (slides 3–17)
+      - Topic 7 Lecture 2 Transcript - Pure Economic Loss (Acts and Defective Structures)
+    nodes:
+      - id: a1
+        kind: ask
+        text: What caused the pure economic loss?
+        note: Subcategories only help find the closest precedent; the salient features approach is the same throughout.
+        branches:
+          - label: An act, such as a sale or damage
+            to: a2
+          - label: A latent defect in a building
+            to: b1
+      - id: a2
+        kind: ask
+        text: Was the loss to the plaintiff, or members of its group, reasonably foreseeable?
+        note: McHugh J's first question in Perre v Apand. Compare the closest precedent, such as Perre or Caltex Oil.
+        concept: laws2400-w07-pel-caused-by-acts-perre-and-caltex
+        cases:
+          - perre-v-apand-pty-ltd
+          - caltex-oil-v-dredge-willemstad
+        branches:
+          - label: 'Yes'
+            to: a3
+          - label: 'No'
+            to: e-act-no
+      - id: a3
+        kind: ask
+        text: Would a duty impose indeterminate liability on the defendant?
+        note: In Perre, the 20 km rule defined the class of affected growers, so liability was not indeterminate.
+        cases:
+          - perre-v-apand-pty-ltd
+        branches:
+          - label: 'No: the class is defined'
+            to: a4
+          - label: 'Yes'
+            to: e-act-no
+      - id: a4
+        kind: ask
+        text: Would a duty impose an unreasonable burden on the defendant's autonomy?
+        cases:
+          - perre-v-apand-pty-ltd
+        branches:
+          - label: 'No'
+            to: a5
+          - label: 'Yes'
+            to: e-act-no
+      - id: a5
+        kind: ask
+        text: Was the plaintiff vulnerable, and did the defendant know its conduct could harm people such as the plaintiff?
+        note: The Perres had no control over the seed their neighbours planted; Apand, in the potato industry, knew of the disease risk.
+        cases:
+          - perre-v-apand-pty-ltd
+        branches:
+          - label: 'Yes'
+            to: e-act-duty
+          - label: 'No'
+            to: e-act-no
+      - id: b1
+        kind: ask
+        text: In NSW, did the defendant carry out construction work on the building?
+        note: 'Section 36: building work, preparing designs, supplying building products, supervision, coordination or project management.'
+        concept: laws2400-w07-defective-structures-and-the-dbpa
+        authorities:
+          - design-and-building-practitioners-act-2020-nsw-s36
+        branches:
+          - label: 'Yes'
+            to: e-dbpa
+          - label: No, or outside the Act
+            to: b2
+      - id: b2
+        kind: ask
+        text: At common law, was the plaintiff a vulnerable purchaser, such as a homeowner, rather than a commercial party able to protect itself?
+        note: 'Bryan v Maloney (house, third owner): duty. Woolcock (commercial building): no reliance or assumption of responsibility, not vulnerable, so no duty.'
+        exception: true
+        cases:
+          - bryan-v-maloney
+          - woolcock-street-investments-pty-ltd-v-cdg-pty-ltd
+        branches:
+          - label: 'Yes: vulnerable'
+            to: e-bryan
+          - label: 'No: a commercial party'
+            to: e-woolcock
+      - id: e-act-no
+        kind: end
+        tone: not-met
+        text: 'The salient features point against a duty: no duty for this loss.'
+      - id: e-act-duty
+        kind: end
+        tone: met
+        text: 'A duty to avoid pure economic loss is owed, as in Perre v Apand: move to breach.'
+      - id: e-dbpa
+        kind: end
+        tone: met
+        text: Statutory duty owed to each owner and subsequent owner (s 37); non-delegable and cannot be contracted out.
+      - id: e-bryan
+        kind: end
+        tone: qualified
+        text: A duty is arguable, as in Bryan v Maloney.
+      - id: e-woolcock
+        kind: end
+        tone: not-met
+        text: No duty likely, as in Woolcock.

@@ -1,0 +1,779 @@
+unit: laws2400
+week: 6
+source: raw/laws2400-torts/week-06
+generator: aids-1
+aids:
+  - concept: laws2400-w06-duty-of-care-categories-and-factors
+    plain: 'Before deciding whether a duty exists, sort the problem: was the harm caused by an act, an omission or words; who is the defendant; and what kind of harm resulted?'
+    concrete: 'Romeo fell from a cliff in a reserve managed by the Conservation Commission and became paraplegic; she said the Commission should have fenced the cliff. Sorted against the three questions: the complaint is an omission (failing to fence); the defendant is a public authority and the occupier of the reserve; the harm is physical injury. That points to the occupier''s duty and the CLA''s obvious-risk provisions.'
+    formal: Breach of a potential duty may cause physical harm, psychiatric harm or pure economic loss, but not all are legally recognised in the same way. Courts consider how the harm was caused (act or omission; words or acts), who the defendant is (private individual or public authority; special relationships such as occupier–entrant, employer–employee, manufacturer–consumer), and the nature of the harm.
+    analogy:
+      text: 'Like a triage nurse who sorts each patient before treatment (how did it happen, who is involved, what kind of injury?), the three questions send a case to the right ward: the right body of duty rules.'
+      maps:
+        - from: How did it happen?
+          to: Act, omission or words
+        - from: Who is involved?
+          to: Private or public defendant; any special relationship
+        - from: What kind of injury?
+          to: Physical, psychiatric or pure economic loss
+        - from: The right ward
+          to: 'The specific rules: omission factors, CLA Part 3, Hedley Byrne and so on'
+      limits:
+        - 'Triage treats no one: classifying the facts does not itself establish duty, breach or causation.'
+        - 'A patient can need several wards at once: an omission by a public authority causing psychiatric harm engages several bodies of rules.'
+    terms:
+      - term: Act vs omission
+        gloss: Doing something carelessly, versus failing to do something. For physical harm, an omission needs more than reasonable foreseeability to found a duty.
+      - term: Special relationship
+        gloss: A recognised relationship that attracts a duty more readily, such as occupier–entrant, employer–employee or manufacturer–consumer.
+      - term: Public authority
+        gloss: A defendant exercising statutory powers, whose duty may be shaped by those powers and its limited resources.
+    misconceptions:
+      - claim: Once harm was foreseeable, every kind of harm is analysed the same way.
+        tempting: Foreseeability is the common starting point for every duty question.
+        correction: Not all harms are legally recognised in the same way. Courts ask how the harm was caused, who the defendant is and the nature of the harm, and each answer brings its own extra requirements.
+      - claim: Classifying the facts, e.g. "an omission causing physical harm", establishes the duty.
+        tempting: The classification names the relevant rules, so it feels like an answer.
+        correction: Classification only tells you which rules apply next. Duty, breach and causation must still be analysed separately.
+      - claim: A failure to act is treated just like a careless act.
+        tempting: Either way the plaintiff is harmed by the defendant's carelessness.
+        correction: Physical harm caused by an act is the typical case. Where physical harm is caused by an omission, more than reasonable foreseeability is required (Hargrave v Goldman).
+    socratic:
+      - ask: A council fails to fence a cliff and a visitor falls. Was the harm caused by an act or an omission?
+        hint: Did the council do something, or fail to do something?
+        answer: 'An omission: a failure to fence. Omissions need more than reasonable foreseeability to found a duty.'
+      - ask: Who is the defendant, and why does that matter?
+        hint: A private individual, or a public authority with statutory powers?
+        answer: A public authority that occupies the land. Its statutory powers and its relationship with entrants shape the duty.
+      - ask: What kind of harm was suffered?
+        hint: Physical, psychiatric or pure economic loss?
+        answer: Physical injury, the paradigm case, rather than psychiatric harm or pure economic loss, which carry extra limits.
+      - ask: Should careless words be treated the same as careless acts?
+        hint: Recall Hedley Byrne from Topic 5.
+        answer: Not necessarily. Words raise separate concerns, such as reliance and indeterminate liability, that a careless physical act does not.
+      - ask: What does the classification tell you to do next?
+        hint: Which body of rules is now in play?
+        answer: 'Which specific rules apply: here the occupier''s duty, the omission factors and the CLA obvious-risk provisions. Then take duty, breach and causation in turn.'
+    elements:
+      - name: How was the harm caused?
+        test: By an act or an omission? By words or by acts? Omissions and words need more than reasonable foreseeability.
+      - name: Who is the defendant?
+        test: A private individual or a public authority? Is there a special relationship (occupier–entrant, employer–employee, manufacturer–consumer)?
+      - name: What is the nature of the harm?
+        test: Physical injury, psychiatric harm or pure economic loss? Each non-physical kind has its own limits.
+    what-if:
+      - change: Romeo's mother, not present, developed a psychiatric illness on hearing of the fall.
+        effect: The nature of the harm changes to pure mental harm, so CLA Part 3 (ss 27–33) and Tame govern instead of the ordinary physical-injury rules.
+      - change: The reserve was owned by a private landowner rather than a public authority.
+        effect: Statutory powers and limited public resources drop out of the analysis, but the occupier–entrant relationship remains, so an occupier's duty still applies.
+      - change: The harm flowed from a careless statement rather than a physical act or omission.
+        effect: Words raise separate concerns about reliance and indeterminate liability, so, if the loss is purely economic, the Hedley Byrne requirements apply rather than the physical-injury paradigm.
+    transfer:
+      - scenario: A council tree crew forgets to secure a cut branch overnight; it falls and injures a jogger. The jogger's partner, who was not there, later develops a diagnosed anxiety disorder.
+        answer: 'Classify each claim first. Jogger: an omission (failing to secure), by a public authority, causing physical injury, so omission factors (knowledge, control) and public-authority considerations apply. Partner: pure mental harm, so CLA Part 3 governs. Section 31 needs a recognised psychiatric illness, and as a spouse or partner the partner can meet s 30(2)(b) without witnessing it.'
+    sources:
+      - Topic 6 Lecture 1 (slides 4–10)
+  - concept: laws2400-w06-occupiers-liability-and-obvious-risk
+    plain: An occupier must take reasonable care for people on its land, but need not fence off or warn about dangers that are obvious to anyone taking ordinary care.
+    concrete: Fifteen-year-old Nadia Romeo fell from the Dripstone Cliffs near Darwin at night and was seriously injured; she had been drinking. The cliffs were in a reserve controlled by the Conservation Commission. She argued it should have fenced the cliff edge or warned of it. The High Court held the Commission owed entrants a duty, but reasonable steps did not extend to fencing about 2 km of obvious cliff.
+    formal: 'An occupier owes entrants a duty of reasonable care against foreseeable risks, but "the critical question is commonly the measure or scope of that duty" (Kirby J, Romeo). The danger is assessed before the event "according to its obviousness and the care ordinarily exercised by the public" (Toohey and Gummow JJ). CLA: s 5F defines obvious risk; s 5G presumes awareness; s 5H removes the duty to warn, with exceptions.'
+    analogy:
+      text: A thoughtful host warns guests about the loose stair they cannot see, but need not tape a sign to every window saying "glass". The law asks the same of occupiers.
+      maps:
+        - from: The loose stair guests cannot see
+          to: A concealed danger, which may call for a warning or guard
+        - from: The window everyone can see
+          to: 'An obvious risk: no duty to warn (s 5H)'
+        - from: The thoughtful host
+          to: An occupier taking reasonable care for entrants
+      limits:
+        - Obviousness is judged for a reasonable person in the plaintiff's position (s 5F), not by the host's own view.
+        - 'Exceptions exist: if the guest asks about the risk, or a written law requires a warning, s 5H does not apply.'
+    terms:
+      - term: Obvious risk (s 5F)
+        gloss: A risk that would have been obvious to a reasonable person in the plaintiff's position, including patent risks and matters of common knowledge, even if unlikely or not conspicuous.
+      - term: Scope of duty
+        gloss: What the duty actually requires on the facts. Romeo shows this, not existence, is usually the critical question.
+      - term: Presumed awareness (s 5G)
+        gloss: A plaintiff is presumed aware of an obvious risk unless they prove, on the balance of probabilities, that they were not.
+    misconceptions:
+      - claim: Romeo lost because the Commission owed her no duty of care.
+        tempting: The Commission was not liable for her fall.
+        correction: The Commission did owe entrants a duty to take reasonable care against foreseeable risks; that duty did not extend to fencing an obvious cliff. Scope, not existence, decided the case.
+      - claim: A risk cannot be "obvious" if it was unlikely to happen or hard to see.
+        tempting: In ordinary speech, "obvious" means prominent and likely.
+        correction: 'Section 5F(3)–(4): a risk can be obvious even if it has a low probability of occurring, and even if it is not prominent, conspicuous or physically observable.'
+      - claim: Section 5H means a defendant never has to warn of an obvious risk.
+        tempting: Section 5H(1) says plainly there is no duty to warn of an obvious risk.
+        correction: 'Section 5H(2) exceptions: the plaintiff requested advice or information, a written law requires a warning, or a professional''s service carries a risk of death or personal injury.'
+    socratic:
+      - ask: Romeo fell from a cliff in a reserve the Commission controlled. Did the Commission owe her a duty?
+        hint: What is the source of an occupier's duty?
+        answer: Yes. Its control of the reserve founded a duty to take reasonable care to avoid foreseeable risks of injury to entrants.
+      - ask: Did that duty require fencing the cliff edge?
+        hint: How obvious was the cliff?
+        answer: No. Reasonable steps did not extend to fencing off an area of natural beauty where the presence of a cliff was obvious.
+      - ask: How do you judge whether a danger is obvious?
+        hint: Before or after the accident, and by whose standard?
+        answer: Before the event, according to its obviousness and the care ordinarily exercised by the public (Toohey and Gummow JJ, adopting Brennan J in Nagle).
+      - ask: How does the CLA define an obvious risk?
+        hint: 'Section 5F: from whose perspective?'
+        answer: A risk that would have been obvious to a reasonable person in the plaintiff's position, including patent risks and matters of common knowledge.
+      - ask: If the risk was obvious, must the occupier warn of it?
+        hint: Section 5H and its exceptions.
+        answer: No duty to warn (s 5H(1)), unless the plaintiff asked for advice, a written law requires a warning, or it is a professional-service risk of death or personal injury.
+    elements:
+      - name: Occupier's duty
+        test: Does the defendant control the land or premises? If so, it owes entrants a duty to take reasonable care against foreseeable risks of injury.
+        cases:
+          - romeo-v-conservation-commission-nt
+      - name: Scope of the duty
+        test: Does the duty extend to the precaution claimed? Assess the danger before the event by its obviousness and the care ordinarily exercised by the public.
+        cases:
+          - romeo-v-conservation-commission-nt
+      - name: Obvious risk (s 5F)
+        test: Would the risk have been obvious to a reasonable person in the plaintiff's position? Low probability or inconspicuousness does not prevent this.
+        authorities:
+          - civil-liability-act-2002-nsw-s5f
+      - name: Presumed awareness (s 5G)
+        test: The plaintiff is presumed aware of an obvious risk unless they prove, on the balance of probabilities, that they were not.
+        authorities:
+          - civil-liability-act-2002-nsw-s5g
+      - name: No duty to warn (s 5H)
+        test: No duty to warn of an obvious risk, unless advice was requested, a written law requires a warning, or it is a professional-service risk of death or injury.
+        authorities:
+          - civil-liability-act-2002-nsw-s5h
+    what-if:
+      - change: The cliff edge had been hidden by vegetation, with what looked like a path leading to it.
+        effect: The danger would look concealed rather than obvious, so a warning or barrier could fall within the scope of the duty, as with the hidden danger in Nagle, which Romeo distinguished.
+      - change: Romeo had asked a ranger whether the cliff edge was safe to approach at night.
+        effect: 'Section 5H(2)(a): where the plaintiff requested advice or information about the risk, the no-duty-to-warn rule does not apply, though no duty to warn is presumed either (s 5H(3)).'
+      - change: Romeo had been a first-time visitor, unfamiliar with the area.
+        effect: Toohey and Gummow JJ said a sign might warn someone unfamiliar, though it served no purpose for someone familiar like Romeo; the cliff's obviousness would still weigh against fencing.
+    boundary:
+      - text: 'Nagle, as distinguished in Romeo: a failure to warn of a hidden danger.'
+        why: 'Inside the duty: a warning sign would have been an effective deterrent to the plaintiff diving where he did, unlike Romeo''s obvious cliff.'
+      - text: A pothole disguised by discoloured paving that looks like the surrounding concrete.
+        why: 'Likely not an obvious risk: s 5F asks what would be obvious to a reasonable person in the plaintiff''s position, and a disguised defect is a concealed danger.'
+    transfer:
+      - scenario: A busy café has a sheer drop from its outdoor terrace to the river, behind a clearly visible waist-high rail. A customer sits on the rail for a photo, leans back and falls.
+        answer: The café, as occupier, owes customers a duty of reasonable care, but its scope depends on the danger's obviousness and the care ordinarily exercised by the public (Romeo). A visible drop behind a rail is likely an obvious risk to a reasonable person in her position (s 5F). She is presumed aware of it (s 5G), and there is no duty to warn of it (s 5H).
+    sources:
+      - Topic 6 Lecture 1 (slides 11–17)
+      - Casebook, Topic 6 — Romeo v Conservation Commission (NT) (Toohey and Gummow JJ; Kirby J)
+      - Civil Liability Act 2002 (NSW) ss 5F–5H (act-2002-022.pdf)
+  - concept: laws2400-w06-omissions-and-control-of-others
+    plain: The law rarely makes you liable for failing to act, or for what someone else does, unless you knew of the danger and had control over it.
+    concrete: Lightning struck a red gum on Goldman's farm in Western Australia. He had the tree felled but left the fire to burn itself out. The weather turned, the fire revived and spread to the Hargraves' properties. Because the harm came from an omission, foreseeability alone was not enough; the duty question turned on the occupier–neighbour relationship, Goldman's knowledge of the fire and his control over it.
+    formal: 'Where physical harm is caused by an omission, more than reasonable foreseeability is required (Hargrave v Goldman: special relationship, knowledge, control). Generally there is no duty to rescue (Stuart v Kirkland-Veenstra). An occupier''s duty rests on "control over, and knowledge of, the state of the premises" and did not extend to third parties'' crime it could not control (Modbury Triangle v Anzil). CLA ss 55–58 protect good samaritans.'
+    analogy:
+      text: 'Responsibility for an omission follows the steering wheel: whoever holds the wheel (control) and can see the hazard ahead (knowledge) must steer. A passenger who can see but cannot steer is not blamed for the crash.'
+      maps:
+        - from: Holding the steering wheel
+          to: Control over the source of the harm
+        - from: Seeing the hazard ahead
+          to: Knowledge of the danger
+        - from: The passenger who cannot steer
+          to: 'A bystander: generally no duty to rescue'
+      limits:
+        - 'Control and knowledge are not the whole test: Hargrave v Goldman also needed a special relationship (occupier and neighbour).'
+        - 'Holding one wheel is not holding them all: in Modbury, controlling the car park lights was not control over the attackers.'
+    terms:
+      - term: Omission
+        gloss: A failure to act. Where it causes physical harm, more than reasonable foreseeability is needed to found a duty.
+      - term: No duty to rescue
+        gloss: The general rule that a person need not act to save another; police owed no duty to a man apparently preparing to take his own life (Stuart v Kirkland-Veenstra).
+      - term: Control
+        gloss: The defendant's practical power over the source of the harm; central to duty for omissions and for third parties' conduct.
+      - term: Good samaritan (s 56)
+        gloss: A person who, in good faith and without expecting payment or other reward, assists someone apparently injured or at risk of being injured.
+    misconceptions:
+      - claim: An occupier must protect lawful entrants from any criminal attack on its premises.
+        tempting: An occupier's duty does include taking reasonable care to protect entrants from third parties' conduct.
+        correction: 'Modbury Triangle v Anzil: the centre had no control over the attackers, and neither reliance nor assumption of responsibility was made out, so its duty did not extend to their criminal conduct.'
+      - claim: If you see someone in danger and could easily help, the law requires you to.
+        tempting: Most people think, morally, that a bystander should help.
+        correction: 'Generally there is no legal duty to rescue: the High Court held police owed no duty to a person apparently preparing to take his own life (Stuart v Kirkland-Veenstra).'
+      - claim: A good samaritan who makes a careless mistake while helping is liable for it.
+        tempting: Negligence normally attracts liability, whoever commits it.
+        correction: 'Section 57 CLA: no personal liability for acts or omissions in an emergency while assisting, unless s 58 applies (the helper caused the risk, or was significantly impaired by alcohol or drugs).'
+    socratic:
+      - ask: Goldman left a burning tree to burn itself out, and the fire later spread to his neighbours. Why is foreseeability alone not enough?
+        hint: Did Goldman act, or fail to act?
+        answer: The harm flowed from an omission. Where physical harm is caused by an omission, more than reasonable foreseeability is required to establish a duty.
+      - ask: What extra ingredients does Hargrave v Goldman point to?
+        hint: A relationship, awareness, power.
+        answer: A special relationship (occupier and neighbour), the defendant's knowledge of the danger, and his control over it.
+      - ask: Anzil was attacked in a shopping centre car park after the lights went off. The centre controlled the lights. Did it control the danger?
+        hint: Who actually inflicted the injury?
+        answer: No. The centre controlled the lighting but had no control over the criminals who attacked him.
+      - ask: Could reliance or assumption of responsibility found a duty instead?
+        hint: Could the video shop arrange its own security?
+        answer: No. The shop could make its own security arrangements, and responsibility for lighting the car park is not responsibility to protect against criminal attack.
+      - ask: When might an occupier owe a duty against third-party crime?
+        hint: Gleeson CJ's qualification.
+        answer: Where the criminal conduct has a high degree of foreseeability and predictability.
+    elements:
+      - name: Special relationship
+        test: Is there a relationship, such as occupier–neighbour, occupier–entrant or parent–child, that can found a duty for an omission?
+        cases:
+          - hargrave-v-goldman
+      - name: Knowledge
+        test: Did the defendant know of the danger?
+        cases:
+          - hargrave-v-goldman
+          - modbury-triangle-shopping-centre-v-anzil
+      - name: Control
+        test: Did the defendant have practical control over the source of the harm, not merely the premises around it?
+        cases:
+          - hargrave-v-goldman
+          - modbury-triangle-shopping-centre-v-anzil
+          - home-office-v-dorset-yacht-co-ltd
+      - name: Third-party conduct
+        test: 'If a third party caused the harm: did the defendant control them, or was there reliance, assumption of responsibility, or highly foreseeable and predictable crime?'
+        cases:
+          - modbury-triangle-shopping-centre-v-anzil
+      - name: Good samaritan protection
+        test: Did the helper assist in good faith, without expecting reward, in an emergency? Protection is lost if they caused the risk or were significantly impaired.
+        authorities:
+          - civil-liability-act-2002-nsw-ss55-58
+    what-if:
+      - change: In Modbury, there had been repeated attacks in the car park after the lights went off.
+        effect: Gleeson CJ said a duty to take reasonable steps may arise where criminal conduct has a high degree of foreseeability and predictability; past attacks would strengthen that argument.
+      - change: In Hargrave v Goldman, Goldman had not known that lightning had set the tree alight.
+        effect: Knowledge of the danger would be missing, and for an omission foreseeability alone is not enough, so the case for a duty would be much weaker.
+      - change: A helper at a car crash had caused the crash herself, then carelessly worsened the victim's injuries while assisting.
+        effect: 'Section 58(1): good samaritan protection does not apply where the helper''s own intentional or negligent act or omission caused the injury or risk she responded to.'
+    boundary:
+      - text: 'Home Office v Dorset Yacht: detained boys escaped and damaged a yacht.'
+        why: 'Inside a duty for others'' conduct: the Home Office had control of the boys and knowledge of the escape risk, unlike the centre in Modbury, which controlled no attacker.'
+      - text: Parents who fail to control their children.
+        why: 'An exception to the general rule: the parent–child relationship can found liability for failing to control another person''s conduct.'
+    transfer:
+      - scenario: A festival organiser knows from previous years that crowd crushes happen at the main-stage barrier. It controls entry numbers and barrier placement but changes nothing. A patron is crushed by the crowd.
+        answer: 'The harm comes from other patrons and an omission, so foreseeability alone is not enough. Unlike Modbury, the organiser controlled the conditions (numbers, barriers) and knew the danger from past years: the high foreseeability and predictability Gleeson CJ said can ground a duty. As occupier with knowledge and control (Hargrave v Goldman), a duty is likely owed.'
+    sources:
+      - Topic 6 Lecture 1 (slides 10, 18–26)
+      - Civil Liability Act 2002 (NSW) ss 55–58 (act-2002-022.pdf)
+  - concept: laws2400-w06-product-liability-duty-of-care
+    plain: Makers and distributors of goods can owe consumers a duty of care for defective products, but a foreseeable risk does not mean they must eliminate it at any cost.
+    concrete: 'Consumers caught Hepatitis A after eating oysters grown in Wallis Lake, NSW, where faecal contamination had washed in after a storm. The grower''s "depuration" process only reduced the viral load. The High Court held the NSW government owed no duty, and the grower owed a duty but did not breach it: the risk''s probability did not justify the "difficult, expensive and inconvenient alleviating action" the consumers argued for.'
+    formal: Before Donoghue v Stevenson, owners of "dangerous things" had a duty to keep them from third parties; there was none for non-dangerous things. After Donoghue and Grant, ordinary negligence principles can ground liability for defective products, alongside contract, sale of goods law and the Australian Consumer Law. A foreseeable risk does not alone establish breach (Graham Barclay Oysters v Ryan, Gummow and Hayne JJ).
+    terms:
+      - term: '"Dangerous things"'
+        gloss: Before Donoghue, things whose owners had a duty to take reasonable precautions to keep them from third parties; non-dangerous things carried no such duty.
+      - term: Depuration
+        gloss: The cleansing process the oyster grower used, which reduced but could not eliminate the viral load.
+      - term: Australian Consumer Law
+        gloss: Consumer-protection legislation that, with contract and sale of goods law, sits alongside negligence as a basis of product liability.
+    misconceptions:
+      - claim: If a product risk was foreseeable and serious, the maker breached its duty by not eliminating it.
+        tempting: The risk in Graham Barclay Oysters was foreseeable and of significant magnitude.
+        correction: 'Gummow and Hayne JJ: the degree of probability did not justify the difficult, expensive and inconvenient action of eliminating the risk entirely. Graham Barclay owed a duty but did not breach it.'
+      - claim: Since the Australian Consumer Law, defective-product claims cannot be brought in negligence.
+        tempting: Specific consumer legislation seems to replace the general law.
+        correction: Negligence liability sits alongside contract, sale of goods law and consumer-protection legislation such as the Australian Consumer Law.
+      - claim: Before Donoghue v Stevenson, makers owed no duty for any product.
+        tempting: Donoghue is usually presented as the start of product liability.
+        correction: Owners of "dangerous things" already had a duty to take reasonable precautions to keep them from third parties; it was non-dangerous things that carried no duty.
+    socratic:
+      - ask: Before 1932, would the maker of an ordinary, non-dangerous product owe a stranger a duty of care?
+        hint: Dangerous versus non-dangerous things.
+        answer: No. Only owners of "dangerous things" had a duty to keep them from third parties; non-dangerous things carried no such duty.
+      - ask: What changed after Donoghue v Stevenson and Grant?
+        hint: Which principles now apply to defective products?
+        answer: The ordinary principles of negligence can ground liability for defective products, alongside contract, sale of goods law and consumer-protection legislation.
+      - ask: Oyster consumers caught Hepatitis A. Was the risk to them foreseeable?
+        hint: What did Gummow and Hayne JJ accept?
+        answer: Yes. A risk of injury to oyster consumers was reasonably foreseeable, and the magnitude of the harm was significant.
+      - ask: Why, then, was the grower not liable?
+        hint: Could the risk be eliminated, and at what cost?
+        answer: 'The risk could not be eliminated entirely, and its probability did not justify the difficult, expensive and inconvenient alleviating action the consumers contended for: no breach.'
+      - ask: And the NSW government?
+        hint: A different element failed.
+        answer: The High Court, by majority, held the NSW government did not owe the consumers a duty of care at all.
+    elements:
+      - name: 'Duty: maker or distributor to consumer'
+        test: Does the defendant make or distribute goods that reach the consumer? Ordinary negligence principles apply after Donoghue and Grant.
+        cases:
+          - donoghue-v-stevenson
+          - grant-v-australian-knitting-mills
+      - name: Foreseeable risk
+        test: Was a risk of injury to consumers reasonably foreseeable?
+        cases:
+          - graham-barclay-oysters-v-ryan
+      - name: Reasonable response
+        test: Weigh the probability and magnitude of the risk against the difficulty, expense and inconvenience of the precautions the plaintiff says were needed.
+        cases:
+          - graham-barclay-oysters-v-ryan
+    what-if:
+      - change: A cheap, simple process could have removed the virus from the oysters entirely.
+        effect: The "difficult, expensive and inconvenient" burden that defeated breach would disappear, so failing to use the process would far more likely breach the grower's duty.
+      - change: The product was an ordinary, non-dangerous item sold before Donoghue v Stevenson.
+        effect: Under the pre-Donoghue rule no duty existed for non-dangerous things, so a consumer with no contract with the maker would have had no claim in negligence.
+    boundary:
+      - text: The NSW government in Graham Barclay Oysters.
+        why: 'Outside a duty: the High Court majority held it owed the consumers no duty of care, unlike the grower. The lecture returns to it with public authorities.'
+    transfer:
+      - scenario: A small bakery's bread occasionally carries a rare natural mould that survives baking. Eliminating it entirely would need industrial sterilisation costing more than the bakery earns. A customer falls ill.
+        answer: 'The bakery owes consumers a duty under ordinary negligence principles (Donoghue; Grant). But foreseeability does not settle breach: as in Graham Barclay Oysters v Ryan, weigh the low probability of the risk against the difficult, expensive and inconvenient precaution of eliminating it entirely. On these facts breach is unlikely.'
+    sources:
+      - Topic 6 Lecture 1 (slides 27–31)
+  - concept: laws2400-w06-sport-and-recreational-injury
+    plain: Players accept the ordinary risks of their sport, but others can still owe them a duty for risks beyond those. The CLA removes liability for some obvious or warned-of risks.
+    concrete: 'Rootes, an experienced waterskier, was doing a "crossover" on the Macquarie River when he collided with a stationary boat. Spray briefly blinded him, but the towing boat''s observer had also failed to warn the skiers of objects ahead. The High Court held that the boat driver owed Rootes a duty of care and had breached it: a failure to warn was not simply a risk inherent in water-skiing.'
+    formal: 'Participants "may be held to have accepted risks which are inherent in that sport or pastime … but this does not eliminate all duty of care of the one participant to the other" (Barwick CJ, Rootes v Shelton). Agar v Hyde: no duty to change rugby''s rules. CLA s 5L: no liability for obvious risks of dangerous recreational activities; s 5M: no duty once warned.'
+    analogy:
+      text: A rollercoaster ticket means accepting the drops and twists you signed up for, not a loose safety bar the operator should have checked.
+      maps:
+        - from: The drops and twists
+          to: Risks inherent in the sport, which participants accept
+        - from: The loose safety bar
+          to: A separate failure of care, like the observer's failure to warn in Rootes
+        - from: The operator
+          to: A co-participant, coach, organiser or administrator who may owe a duty
+      limits:
+        - A ride has one operator; in sport a duty may be owed to fellow players, spectators, coaches or administrators, each differently.
+        - Under the CLA an obvious risk of a dangerous recreational activity removes liability (s 5L) even for risks the plaintiff never thought about.
+    terms:
+      - term: Inherent risk
+        gloss: A risk that is part of the sport or pastime itself, which participants may be held to have accepted.
+      - term: Recreational activity (s 5K)
+        gloss: Includes any sport, any pursuit for enjoyment, relaxation or leisure, and activities at places such as beaches or parks.
+      - term: Dangerous recreational activity (s 5K)
+        gloss: A recreational activity that involves a significant risk of physical harm.
+      - term: Risk warning (s 5M)
+        gloss: A warning, oral or written, general or specific, given in a way reasonably likely to warn people beforehand; it need not be received or understood.
+    misconceptions:
+      - claim: By taking part in a sport, a participant gives up any claim against fellow participants.
+        tempting: Participants accept the risks inherent in the sport.
+        correction: 'Barwick CJ in Rootes v Shelton: accepting inherent risks "does not eliminate all duty of care of the one participant to the other"; whether a duty arises depends on the circumstances.'
+      - claim: A governing body must change its sport's rules to remove unnecessary risks.
+        tempting: The body controls the rules and knows the game is dangerous.
+        correction: 'Agar v Hyde: no duty was owed to rugby players to change the rules. Rugby is "obviously dangerous", and it is hard to say what an "unnecessary risk" is; the answer is fact-specific.'
+      - claim: Section 5L protects a defendant only if the plaintiff knew of the obvious risk.
+        tempting: Other obvious-risk rules (s 5G) turn on the plaintiff's awareness.
+        correction: 'Section 5L(2): it applies whether or not the plaintiff was aware of the risk.'
+    socratic:
+      - ask: Rootes collided with a stationary boat while waterskiing. Did he accept that risk just by skiing?
+        hint: An inherent risk, or a separate failure of care?
+        answer: Not entirely. Spray was part of skiing, but the observer's failure to warn of objects was a failure of care; the driver owed and breached a duty.
+      - ask: Does accepting a sport's inherent risks remove every duty between participants?
+        hint: Barwick CJ.
+        answer: No. It "does not eliminate all duty of care of the one participant to the other"; whether a duty arises, and its extent, depends on the circumstances.
+      - ask: Injured rugby players say the international board should have changed the scrum rules. Was a duty owed?
+        hint: What did Gleeson CJ ask about "unnecessary risk"?
+        answer: No (Agar v Hyde). Rugby is based on obviously dangerous activities, so it is hard to say what an unnecessary risk is; on those facts no duty was owed.
+      - ask: Under the CLA, what if the harm comes from an obvious risk of a dangerous recreational activity?
+        hint: Section 5L.
+        answer: The defendant is not liable in negligence, whether or not the plaintiff was aware of the risk.
+      - ask: What if the risk was the subject of a risk warning?
+        hint: Section 5M.
+        answer: No duty of care is owed for that risk, even if the warning was general or not understood, provided it was given in a way reasonably likely to warn people beforehand.
+    elements:
+      - name: Who owes and is owed the duty
+        test: 'Identify the relationship: fellow players, spectators, coaches or administrators.'
+      - name: Inherent risk or separate failure?
+        test: Was the harm a risk inherent in the sport, which participants accept, or a separate failure of care such as a failure to warn?
+        cases:
+          - rootes-v-shelton
+          - agar-v-hyde
+      - name: Obvious risk of a dangerous recreational activity (s 5L)
+        test: Did the harm result from an obvious risk of a recreational activity involving a significant risk of physical harm? If so, no liability, aware or not.
+        authorities:
+          - civil-liability-act-2002-nsw-s5l
+      - name: Risk warning (s 5M)
+        test: Was the risk the subject of a risk warning, oral or written, general or specific? If so, no duty for that risk.
+        authorities:
+          - civil-liability-act-2002-nsw-s5m
+    what-if:
+      - change: In Rootes v Shelton, the observer had warned of the stationary boat, and Rootes hit it only because spray blinded him.
+        effect: The collision would look more like a risk inherent in the crossover than a separate failure of care, so the case for breach of the driver's duty would weaken.
+      - change: The water-ski club had posted a sign at the ramp warning of collisions with boats and objects.
+        effect: 'Section 5M: if the risk was the subject of a risk warning given in a way reasonably likely to warn people beforehand, the club owes no duty of care for that risk.'
+      - change: The activity was a gentle stroll in a park, with no significant risk of physical harm.
+        effect: Still a recreational activity, but not a "dangerous" one (s 5K), so s 5L cannot apply; s 5M could still apply if there was a risk warning.
+    boundary:
+      - text: A cricket batter hit by a fast but fair delivery.
+        why: Likely an inherent risk of the sport, which participants accept, unlike Rootes, where there was a separate failure to warn.
+      - text: The international rugby board in Agar v Hyde.
+        why: 'Outside a duty on those facts: the High Court stressed rugby''s obvious dangers, and the lecture stresses the answer is very fact-specific.'
+    transfer:
+      - scenario: On a guided mountain-bike tour, the guide knows a bridge ahead has a rotten plank but says nothing. A rider falls through it. At the start, the company gave a general warning about "falls and collisions".
+        answer: Mountain biking is a recreational activity, likely a dangerous one. A hidden rotten plank is unlikely to be an obvious risk, so s 5L may not apply. Section 5M turns on whether the general warning warned of the general nature of this risk. At common law, as in Rootes, the guide's failure to warn is a separate failure of care, not an inherent risk.
+    sources:
+      - Topic 6 Lecture 2 (slides 4–10)
+      - Civil Liability Act 2002 (NSW) ss 5K–5M (act-2002-022.pdf)
+  - concept: laws2400-w06-psychiatric-harm-common-law-development
+    plain: You can now sue for a recognised psychiatric illness caused by carelessness if a person in your position would foreseeably suffer it. At common law, rigid hurdles like "sudden shock" are gone.
+    concrete: Mr and Mrs Annetts let their 16-year-old son James work as a jackaroo only after the employer assured them he would be constantly supervised. Weeks later he was sent alone to a remote property, went missing, and died of dehydration in the desert. His parents learned of it by telephone over months and developed psychiatric illness. The High Court held the employer owed them a duty, with no sudden shock or direct perception.
+    formal: 'For pure psychiatric harm, the plaintiff must show it was reasonably foreseeable that a person in their position would suffer a recognised psychiatric illness. In Tame v NSW; Annetts v Australian Stations, Gummow and Kirby JJ held that normal fortitude, sudden shock and direct perception are not "a pre-condition to liability for negligently inflicted psychiatric harm". Tame: not foreseeable, no duty. Annetts: relationship plus foreseeability, duty owed.'
+    terms:
+      - term: Nervous shock
+        gloss: The traditional label for psychiatric harm, which was not recoverable.
+      - term: Pure psychiatric harm
+        gloss: Psychiatric harm suffered by a plaintiff who was not physically injured.
+      - term: Control mechanisms
+        gloss: Normal fortitude, sudden shock, and direct perception of the event or its aftermath. Tame/Annetts held none is a pre-condition to liability.
+      - term: Recognised psychiatric illness
+        gloss: A recognised form of psychiatric harm, as opposed to mere distress; required for recovery.
+    misconceptions:
+      - claim: At common law, a psychiatric harm claim fails without a sudden shock or direct perception of the event.
+        tempting: Earlier cases treated these as control mechanisms limiting "nervous shock" claims.
+        correction: 'Tame v NSW; Annetts: Gummow and Kirby JJ held none of normal fortitude, sudden shock or direct perception is "a pre-condition to liability". The Annetts parents succeeded without either.'
+      - claim: Mrs Tame lost because police officers can never be sued for psychiatric harm.
+        tempting: Coherence with the officer's other duties was one reason given.
+        correction: 'The decisive reason was foreseeability: a person in her position would not foreseeably suffer a psychiatric illness from a corrected clerical error. Her reaction was extreme and idiosyncratic.'
+      - claim: Any distress caused by negligence can now be compensated.
+        tempting: Psychiatric harm is now recoverable.
+        correction: The injury must be a recognised form of psychiatric harm, and it must be reasonably foreseeable that a person in the plaintiff's position would suffer it.
+    socratic:
+      - ask: An officer wrongly records Mrs Tame's blood alcohol as 0.14, then corrects it. Over a year later she develops psychotic depression on learning of it. Was that foreseeable?
+        hint: Would a person in her position foreseeably develop a psychiatric illness?
+        answer: No. Her reaction was extreme and idiosyncratic; the risk was far-fetched or fanciful, so no duty was owed.
+      - ask: The Annetts neither saw their son die nor suffered a single sudden shock. Does that defeat their claim?
+        hint: Are sudden shock and direct perception preconditions?
+        answer: No. Tame/Annetts rejected both as pre-conditions to liability for negligently inflicted psychiatric harm.
+      - ask: What made the parents' illness foreseeable and their claim contained?
+        hint: What passed between them and the employer?
+        answer: 'A pre-existing relationship: they sought and obtained assurances that James would be supervised, so the class of plaintiffs was not indeterminate.'
+      - ask: Why have courts historically treated psychiatric harm differently from physical harm?
+        hint: Gummow and Kirby JJ examined four reasons.
+        answer: It is less objectively observable; litigation may discourage rehabilitation; liability may be indeterminate; and it may place an unreasonable or disproportionate burden on defendants.
+      - ask: Does Tame alone still govern a NSW claim?
+        hint: Part 3 of the CLA.
+        answer: No. CLA ss 30–32 now govern; s 32 reflects Tame but expressly requires foreseeability judged against a person of normal fortitude.
+    objections:
+      - position: Psychiatric harm should be treated more restrictively than physical harm.
+        evidence: It is less objectively observable; litigation may discourage rehabilitation; liability may be indeterminate; it may unreasonably burden defendants.
+        objection: 'Feminist critique: claimants have often been women, so privileging physical injury over emotional harm affects women disproportionately, and the reasonable person test itself is problematic.'
+    what-if:
+      - change: In Annetts, the parents had made no inquiries and the employer had given no assurance.
+        effect: The pre-existing relationship that made the harm foreseeable and the class of plaintiffs determinate would be missing, so a duty would be much harder to establish.
+      - change: The Annetts' claim had arisen in NSW under the CLA.
+        effect: Section 32 would govern duty, with foreseeability judged against a person of normal fortitude; s 31 requires a recognised psychiatric illness; s 30(2)(b) is met because they are the victim's parents.
+    boundary:
+      - text: 'Tame: a corrected clerical error followed by psychotic depression.'
+        why: 'Outside a duty: the reaction was extreme and idiosyncratic, and the risk far-fetched or fanciful in the Wyong Shire Council v Shirt sense.'
+    transfer:
+      - scenario: At common law, a school assures a mother that her asthmatic son will never be left unsupervised on camp. He is left alone, has an attack and dies. She learns of it by phone days later and develops a diagnosed depressive illness.
+        answer: 'Apply Tame/Annetts: no sudden shock or direct perception is required. As in Annetts, the mother sought and received an assurance of supervision, a pre-existing relationship that makes her psychiatric illness reasonably foreseeable and keeps the class of plaintiffs determinate. A duty is likely owed. In NSW, also apply CLA ss 30–32.'
+    storyboard:
+      - caption: Parents seek assurances
+        detail: The Annetts let James, 16, work as a jackaroo only after the employer assured them he would be constantly supervised.
+      - caption: The promise is broken
+        detail: Seven weeks later the employer sent him alone to work at a remote property.
+      - caption: News arrives in pieces
+        detail: Over four months his parents learned by telephone of his disappearance, his bloodstained hat, and finally his death.
+      - caption: Both parents fall ill
+        detail: Both developed psychiatric illness and sued; the employer argued it owed them no duty of care.
+      - caption: A duty is owed
+        detail: 'No sudden shock or direct perception was needed: the relationship and assurances made the harm foreseeable and the class determinate.'
+    sources:
+      - Topic 6 Lecture 2 (slides 11–18, 28)
+      - Casebook, Topic 6 — Tame v NSW; Annetts v Australian Stations (Gummow and Kirby JJ)
+  - concept: laws2400-w06-psychiatric-harm-civil-liability-act
+    plain: 'In NSW, a mental harm claim must pass the statute: a person of normal fortitude must foreseeably develop a recognised psychiatric illness, and pure shock claims are limited to witnesses and close family.'
+    concrete: 'In January 2003 a passenger train derailed near Waterfall, killing seven people and injuring many. Police officers Wicks and Sheehan were called to the scene, spent hours helping, and later suffered psychiatric injury. The lower courts held they had not witnessed victims being killed, injured or put in peril. The High Court disagreed: survivors remained in peril until rescued, so the officers could satisfy s 30(2)(a).'
+    formal: 'CLA Part 3: s 27 defines pure and consequential mental harm. Section 32: no duty unless the defendant ought to have foreseen a person of normal fortitude might suffer a recognised psychiatric illness, considering shock, witnessing at the scene, relationship to the victim and any pre-existing relationship. Section 31: pure mental harm must be a recognised psychiatric illness. Section 30: pure shock claims need a scene witness or close family.'
+    analogy:
+      text: 'A NSW mental harm claim passes three checkpoints in order: duty (s 32), the kind of illness (s 31), and, for pure shock cases only, a final gate open to scene witnesses and close family (s 30).'
+      maps:
+        - from: First checkpoint
+          to: 'Section 32: foreseeability to a person of normal fortitude'
+        - from: Second checkpoint
+          to: 'Section 31: a recognised psychiatric illness'
+        - from: Final gate
+          to: 'Section 30(2): witnessed at the scene, or close family'
+        - from: Going through in order
+          to: 'Wicks: s 32 is considered before s 30(2)'
+      limits:
+        - 'The four s 32(2) circumstances are not gates: none is a condition necessary to finding a duty (Wicks).'
+        - The final gate applies only to pure mental harm from shock about another person; consequential mental harm never reaches it.
+    terms:
+      - term: Mental harm (s 27)
+        gloss: Impairment of a person's mental condition.
+      - term: Pure vs consequential mental harm
+        gloss: Consequential mental harm is a consequence of a personal injury of any other kind; pure mental harm is any other mental harm.
+      - term: Normal fortitude
+        gloss: 'The s 32 benchmark: would a person of ordinary mental robustness foreseeably suffer a recognised psychiatric illness?'
+      - term: Close member of the family (s 30(5))
+        gloss: A parent or person with parental responsibility, spouse or partner, child or stepchild, or a sibling, half-sibling or step-sibling of the victim.
+    misconceptions:
+      - claim: 'Apply s 30 first: if the plaintiff was not a witness or close family, stop there.'
+        tempting: Section 30 looks like a simple threshold to check before anything else.
+        correction: 'Wicks: s 32 controls duty and should be looked at first, before the limitation in s 30(2), which matters only once a duty exists.'
+      - claim: Section 30(2)(a) covers only someone who saw the moment of death or injury.
+        tempting: '"Witnessed, at the scene" suggests a single instant.'
+        correction: 'Wicks: not every death, injury or peril begins and ends in an instant. Derailment survivors remained in peril until rescued, so officers who helped for hours could qualify.'
+      - claim: Section 32 simply restates Tame.
+        tempting: Wicks said s 32 reflects the common law identified in Tame.
+        correction: Contrary to Tame, s 32(1) requires foreseeability from the perspective of a person of "normal fortitude"; in Tame, normal fortitude was not a fixed standard.
+    socratic:
+      - ask: Two police officers spend hours at a train derailment and later suffer psychiatric injury. Which section do you apply first?
+        hint: Wicks on the order of analysis.
+        answer: Section 32, the duty provision, before considering the limitation in s 30(2).
+      - ask: What does s 32(1) require?
+        hint: Whose fortitude?
+        answer: That the defendant ought to have foreseen that a person of normal fortitude might, in the circumstances, suffer a recognised psychiatric illness if reasonable care were not taken.
+      - ask: Must all the s 32(2) circumstances, such as sudden shock, be present?
+        hint: How did Wicks read them?
+        answer: No. They are considerations relevant to foreseeability; none is a condition necessary to finding a duty.
+      - ask: The officers' harm is pure mental harm from shock about the victims. What does s 30(2) require?
+        hint: Two alternative routes.
+        answer: That the plaintiff witnessed, at the scene, the victim being killed, injured or put in peril, or is a close member of the victim's family.
+      - ask: The officers arrived after the derailment. Could they have "witnessed" victims being put in peril?
+        hint: When does peril end?
+        answer: Yes. Survivors remained in peril until rescued, and a series of shocking experiences may be relevant, so s 30(2)(a) could be satisfied.
+    elements:
+      - name: Classify the harm (s 27)
+        test: Is it mental harm (impairment of mental condition)? Is it pure, or consequential on another personal injury?
+        authorities:
+          - civil-liability-act-2002-nsw-s27
+      - name: 'Duty: normal fortitude (s 32)'
+        test: Ought the defendant to have foreseen that a person of normal fortitude might suffer a recognised psychiatric illness? Weigh shock, witnessing and relationships; none is essential.
+        cases:
+          - wicks-v-state-rail-authority-nsw
+          - tame-v-new-south-wales
+        authorities:
+          - civil-liability-act-2002-nsw-s32
+      - name: Recognised psychiatric illness (s 31)
+        test: For pure mental harm, does the harm consist of a recognised psychiatric illness?
+        authorities:
+          - civil-liability-act-2002-nsw-s31
+      - name: Shock limitation (s 30)
+        test: 'For pure mental harm from shock about a victim: did the plaintiff witness, at the scene, the victim killed, injured or put in peril, or are they close family?'
+        cases:
+          - wicks-v-state-rail-authority-nsw
+        authorities:
+          - civil-liability-act-2002-nsw-s30
+    what-if:
+      - change: The officers had arrived only after every survivor had been rescued and taken away.
+        effect: 'Section 30(2)(a) would be harder to meet: Wicks turned on survivors remaining in peril while the officers were there. Not being close family, they could fail to recover for pure mental harm from shock.'
+      - change: A victim's sister heard of the derailment on the radio at home and developed a recognised psychiatric illness.
+        effect: She did not witness it at the scene, but a sister is a close member of the family (s 30(5)), so s 30(2)(b) is met if s 32 finds a duty.
+      - change: The plaintiff was physically injured in the derailment and developed depression as a result of that injury.
+        effect: That is consequential mental harm, so ss 30–31, which deal with pure mental harm, do not apply. Section 32 still governs duty, with the personal injury among the circumstances (s 32(3)).
+    boundary:
+      - text: A victim's close friend, told of the death days later.
+        why: 'Outside s 30(2): a friend is not a "close member of the family" and did not witness the victim at the scene, so no damages for pure mental harm from shock.'
+    transfer:
+      - scenario: A ferry capsizes through the operator's negligence. A dock worker spends two hours pulling passengers from the water while some remain trapped, then develops post-traumatic stress disorder. He is related to none of them.
+        answer: 'Apply s 32 first (Wicks): a person of normal fortitude witnessing people in peril at the scene might foreseeably suffer a recognised psychiatric illness. Section 31: the disorder must be a recognised psychiatric illness. Section 30(2)(a): like the officers in Wicks, he witnessed victims being put in peril at the scene while they remained trapped, so recovery is not barred.'
+    sources:
+      - Topic 6 Lecture 2 (slides 19–27)
+      - Casebook, Topic 6 — Wicks v SRA (NSW); Sheehan v SRA (NSW)
+      - Civil Liability Act 2002 (NSW) ss 27–33 (act-2002-022.pdf)
+flows:
+  - slug: mental-harm-cla
+    title: Can the plaintiff recover for mental harm under the CLA?
+    summary: 'Walks CLA Part 3 in the order Wicks requires: classify the harm, s 32 duty, s 31 recognised illness, then the s 30 limits for pure shock claims.'
+    start: m1
+    concepts:
+      - laws2400-w06-psychiatric-harm-civil-liability-act
+      - laws2400-w06-psychiatric-harm-common-law-development
+    sources:
+      - Topic 6 Lecture 2 (slides 19–27)
+      - Civil Liability Act 2002 (NSW) ss 27, 30–33
+      - Casebook, Topic 6 — Wicks v SRA (NSW)
+    nodes:
+      - id: m1
+        kind: ask
+        text: Is the mental harm pure, or a consequence of another personal injury to the plaintiff?
+        note: 'Section 27: mental harm is impairment of a person''s mental condition; consequential mental harm follows a personal injury of any other kind; pure mental harm is everything else.'
+        authorities:
+          - civil-liability-act-2002-nsw-s27
+        branches:
+          - label: Pure mental harm
+            to: m2
+          - label: Consequential mental harm
+            to: m2c
+      - id: m2
+        kind: ask
+        text: 'Section 32: ought the defendant to have foreseen that a person of normal fortitude might suffer a recognised psychiatric illness?'
+        note: Weigh sudden shock, witnessing at the scene, the relationship to the victim, and any pre-existing relationship with the defendant. None is a necessary condition (Wicks).
+        cases:
+          - wicks-v-state-rail-authority-nsw
+          - tame-v-new-south-wales
+        authorities:
+          - civil-liability-act-2002-nsw-s32
+        branches:
+          - label: 'Yes'
+            to: m3
+          - label: 'No'
+            to: e-noduty
+      - id: m2c
+        kind: ask
+        text: 'Section 32: ought the defendant to have foreseen that a person of normal fortitude might suffer a recognised psychiatric illness?'
+        note: For consequential mental harm, the circumstances include the plaintiff's personal injury (s 32(3)).
+        authorities:
+          - civil-liability-act-2002-nsw-s32
+        branches:
+          - label: 'Yes'
+            to: e-consequential
+          - label: 'No'
+            to: e-noduty
+      - id: m3
+        kind: ask
+        text: 'Section 31: does the harm consist of a recognised psychiatric illness?'
+        authorities:
+          - civil-liability-act-2002-nsw-s31
+        branches:
+          - label: 'Yes'
+            to: m4
+          - label: 'No'
+            to: e-noillness
+      - id: m4
+        kind: ask
+        text: Did the harm arise from shock connected with another person (the victim) being killed, injured or put in peril?
+        note: Section 30(1). If not, the s 30 limits do not apply.
+        authorities:
+          - civil-liability-act-2002-nsw-s30
+        branches:
+          - label: 'Yes'
+            to: m5
+          - label: 'No'
+            to: e-met
+      - id: m5
+        kind: ask
+        text: Did the plaintiff witness, at the scene, the victim being killed, injured or put in peril, or are they a close member of the victim's family?
+        note: 'Wicks: peril need not begin and end in an instant; rescue survivors stayed in peril. Close family (s 30(5)): parent, spouse or partner, child or stepchild, sibling or step-sibling.'
+        exception: true
+        cases:
+          - wicks-v-state-rail-authority-nsw
+        authorities:
+          - civil-liability-act-2002-nsw-s30
+        branches:
+          - label: Witnessed at the scene
+            to: e-met
+          - label: Close family member
+            to: e-met
+          - label: Neither
+            to: e-s30
+      - id: e-met
+        kind: end
+        tone: met
+        text: 'Part 3 does not bar the claim: move to breach and causation.'
+      - id: e-consequential
+        kind: end
+        tone: qualified
+        text: Duty owed; damages for economic loss need a recognised psychiatric illness (s 33).
+      - id: e-noduty
+        kind: end
+        tone: not-met
+        text: No duty of care to avoid mental harm (s 32).
+      - id: e-noillness
+        kind: end
+        tone: not-met
+        text: 'No damages: not a recognised psychiatric illness (s 31).'
+      - id: e-s30
+        kind: end
+        tone: not-met
+        text: No damages for pure mental harm from shock (s 30(2)).
+  - slug: obvious-recreational-risk
+    title: Does the CLA remove the duty or liability for this risk?
+    summary: Checks the recreational-activity rules (ss 5L, 5M), then obvious risk (ss 5F–5H), then the common law scope of an occupier's duty (Romeo).
+    start: o1
+    concepts:
+      - laws2400-w06-occupiers-liability-and-obvious-risk
+      - laws2400-w06-sport-and-recreational-injury
+    sources:
+      - Topic 6 Lecture 1 (slides 11–17)
+      - Topic 6 Lecture 2 (slides 9–10)
+      - Civil Liability Act 2002 (NSW) ss 5F–5H, 5K–5M
+    nodes:
+      - id: o1
+        kind: ask
+        text: Was the plaintiff engaged in a recreational activity?
+        note: 'Section 5K: any sport, any pursuit for enjoyment, relaxation or leisure, or activity at a place such as a beach or park where people ordinarily do so.'
+        branches:
+          - label: 'Yes'
+            to: o2
+          - label: 'No'
+            to: o4
+      - id: o2
+        kind: ask
+        text: Was the risk the subject of a risk warning to the plaintiff?
+        note: 'Section 5M: oral or written, general or specific, given in a way reasonably likely to warn people beforehand; it need not be received or understood.'
+        authorities:
+          - civil-liability-act-2002-nsw-s5m
+        branches:
+          - label: 'Yes'
+            to: e-5m
+          - label: 'No'
+            to: o3
+      - id: o3
+        kind: ask
+        text: Did the harm result from an obvious risk of a dangerous recreational activity?
+        note: 'Dangerous: involving a significant risk of physical harm (s 5K). Section 5L applies whether or not the plaintiff was aware of the risk.'
+        authorities:
+          - civil-liability-act-2002-nsw-s5l
+        branches:
+          - label: 'Yes'
+            to: e-5l
+          - label: 'No'
+            to: o4
+      - id: o4
+        kind: ask
+        text: Would the risk have been obvious to a reasonable person in the plaintiff's position?
+        note: 'Section 5F: includes patent risks and matters of common knowledge, even if unlikely or not conspicuous. Section 5G presumes the plaintiff was aware of an obvious risk.'
+        authorities:
+          - civil-liability-act-2002-nsw-s5f
+          - civil-liability-act-2002-nsw-s5g
+        branches:
+          - label: 'Yes'
+            to: o5
+          - label: 'No'
+            to: o7
+      - id: o5
+        kind: ask
+        text: Is the complaint a failure to warn of that obvious risk?
+        branches:
+          - label: 'Yes'
+            to: o6
+          - label: 'No: a failure to guard against it'
+            to: o7
+      - id: o6
+        kind: ask
+        text: Does a s 5H(2) exception apply?
+        note: The plaintiff requested advice or information about the risk; a written law requires a warning; or a professional's service carries a risk of death or personal injury.
+        exception: true
+        authorities:
+          - civil-liability-act-2002-nsw-s5h
+        branches:
+          - label: 'No'
+            to: e-5h
+          - label: 'Yes'
+            to: o7
+      - id: o7
+        kind: ask
+        text: At common law, does the occupier's duty extend to the precaution claimed?
+        note: 'Romeo: the duty is not owed in the abstract; assess the danger before the event by its obviousness and the care ordinarily exercised by the public. No duty to warn of an obvious, as opposed to a concealed, risk.'
+        cases:
+          - romeo-v-conservation-commission-nt
+          - rootes-v-shelton
+        branches:
+          - label: 'Yes'
+            to: e-duty
+          - label: 'No'
+            to: e-scope
+      - id: e-5m
+        kind: end
+        tone: not-met
+        text: No duty of care for a risk that was warned of (s 5M).
+      - id: e-5l
+        kind: end
+        tone: not-met
+        text: 'No liability: obvious risk of a dangerous recreational activity (s 5L).'
+      - id: e-5h
+        kind: end
+        tone: not-met
+        text: No duty to warn of an obvious risk (s 5H).
+      - id: e-scope
+        kind: end
+        tone: not-met
+        text: The duty does not extend that far, as with the fence in Romeo.
+      - id: e-duty
+        kind: end
+        tone: met
+        text: 'The duty covers the precaution: move to breach.'

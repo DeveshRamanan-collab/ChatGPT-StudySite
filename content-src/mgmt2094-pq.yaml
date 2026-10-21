@@ -1,0 +1,1162 @@
+unit: mgmt2094
+week: 0
+source: raw/mgmt2094-sci/week-12
+generator: pq-1
+questions:
+  - key: q001
+    type: long
+    tier: worked
+    template: essay
+    concept: mgmt2094-w07-creativity-precedes-innovation
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w07-invention-vs-innovation-economic-value
+      - mgmt2094-w01-creativity-and-innovation
+      - mgmt2094-w08-what-is-innovation
+    prompt: |
+      Theodore Levitt put the difference in one line: "Creativity is thinking up new things. Innovation is doing new things." The Week 7 charts add that creativity is related to imagination and cannot be measured, while innovation is related to implementation and can be; that creativity precedes innovation; and that an invention — a novel product, device, process or concept — is not yet an innovation until a newer and better solution is introduced to meet requirements or market needs. Week 8 sums it up as invention + commercialisation.
+
+      A board member of a mid-sized company is reviewing a year in which the firm's creative workshops produced hundreds of ideas but only one new product reached the market. She says:
+
+      "Creativity that is never turned into innovation is wasted effort. We should stop funding ideas and fund only implementation."
+
+      Critically evaluate the board member's statement. In your essay, distinguish creativity, invention and innovation precisely, use at least two frameworks from different weeks of the unit, and support your argument with real examples from the unit's materials. Take a clear position, deal with the strongest counterargument to your view, and organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    steps:
+      - State the thesis — the first sentence is half right (for a company, creativity earns value only through innovation) but "wasted" is wrong, and the second sentence does not follow, because creativity precedes innovation and many ideas are needed to find the few worth doing.
+      - Define the three terms precisely — Levitt's thinking up and doing; the Week 7 charts (imagination, cannot be measured, precedes; implementation, can be measured, follows; invention versus an introduction that meets market needs); Week 8's invention + commercialisation.
+      - Concede what the statement gets right — Dow Corning spent 10% of revenue on R&D yet its New Product Market Share fell from about 25% to 13% by 1995, and the jetpack is desirable but not yet possible or viable.
+      - Show why ideas must still be funded — the three steps of creative problem solving and the diverging pattern (lots of ideas, judgement deferred), Pauling's "lots of ideas" in Brown and Wyatt, and Disney funding both the Dish (thought up) and MagicBands (done).
+      - "Counterargument — unconverted ideas have real costs and only innovation can be measured: Disney's interactive division lost more than $1 billion; most of Lego's 200 test materials fell short."
+      - "Evaluate — the firm's problem is conversion, not creativity: convergent thinking and a commercialisation process such as Dow Corning's Design for Six Sigma (the Deck Protector) fix it; conclude that the board should fund implementation more without starving the ideas it depends on."
+    model: |
+      **Thesis**
+
+      The board member is right about where the value lies and wrong about what follows from it. For a company, creativity pays only when it is turned into innovation: the economic value sits in introducing something new or improved, not in imagining it. But creativity that is not commercialised is not simply "wasted effort", and the proposal to fund only implementation misunderstands the order of the process. Creativity precedes innovation; an organisation that stops funding ideas will soon have nothing worth implementing. A year in which hundreds of ideas produced one product points to a conversion problem, not a creativity surplus.
+
+      **Argument**
+
+      *Three terms, kept apart.* Levitt's distinction is the starting point: "Creativity is thinking up new things. Innovation is doing new things." The Week 7 chart adds that creativity is the use of imagination or original ideas, cannot be measured and precedes innovation; innovation is the introduction of new or improved goods, services or processes, is related to implementation, can be measured and follows creativity. Invention sits between them: a novel product, device, process or concept, such as the printing press or the telephone. Only innovation is tied to the market — a newer and better solution that meets new requirements or existing market needs, like the introduction of the iPhone, the tablet or the flat-screen TV. Week 8 compresses this into a formula: innovation = invention + commercialisation. If you cannot commercialise it, it is creativity, not innovation.
+
+      *What the statement gets right.* On these definitions the board member is right that ideas alone create no economic value for the firm. Dow Corning shows the point at scale. It spent 10% of revenue on R&D and had analytical capabilities among the best in the world, yet its New Product Market Share — the percentage of revenue from newly commercialised products — fell from around 25% in the 1970s and 80s to 13% by 1995. The bottleneck was commercialisation. The three circles make the same point: the jetpack has long been desirable, but an idea must also be possible with technology and viable in the marketplace before it is an innovation.
+
+      *Why ideas must still be funded.* The statement's second sentence does not follow, because creativity is the input that innovation selects from. Creative problem solving runs from identifying an interesting problem, through divergent thinking (many solutions), to convergent thinking (the solution). The diverging pattern asks a team to defer judgement and look for lots of ideas, and Brown and Wyatt quote Linus Pauling: "To have a good idea you must first have lots of ideas." Hundreds of ideas for one product is therefore not proof of waste; a funnel is supposed to narrow. Disney shows both columns working together. Imagineering's Dish, a virtual reality chamber for testing future rides, is "blue sky" experimentation whose technology is still too expensive and cumbersome for the parks: thought up, not yet done. MagicBands, RFID wristbands for park entry, hotel rooms and payment, were rolled out at Disney World through a gradual, iterative process, with more than 9 million given out: done. Disney funds both, and the semester's own path — vision, imagination, creativity, innovation — treats them as stages of one process.
+
+      **Counterargument**
+
+      The strongest case for the board member is that unconverted ideas have real costs, and that only innovation can be measured. Disney's interactive division was in the red for five years and lost more than $1 billion. Lego is investing about 1 billion kroner and has tried around 200 alternatives to its plastic, most of which have fallen short, and its chief executive said it was difficult to know the financial implications. A board that can measure innovation but not creativity might reasonably fund only what it can count.
+
+      **Evaluation**
+
+      The counterargument shows that creativity must be managed, not that it should be starved. Iger's verdict on the interactive division was "we learned from that", alongside his rule that "if you're going to win big, you have to get in early". Lego's search serves a clear goal of innovation, reducing environmental damage while keeping the brick the same, and its experiments are the creative stage of that project. What the firm in the scenario lacks is the conversion stage. Convergent thinking — identifying benefits and risks, keeping the best and eliminating wrong answers — has to follow divergence. Dow Corning's answer was a commercialisation process, not less science: Design for Six Sigma, whose pilot, the ArmorAll Deck Protector, produced over 4,500 tonnes and US$40 million of revenue in 12 months.
+
+      So the statement should be qualified. Creativity that never becomes innovation earns a company nothing, and a board that counts ideas is counting the wrong thing. But creativity precedes innovation, and most of it is meant to be discarded on the way. The board should fund implementation more — and keep funding the ideas that implementation depends on.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to both sentences of the statement"
+        marks: 3
+        top-band: Accepts in the first paragraph that a company earns value only through innovation, but rejects "wasted" and the proposal to fund only implementation, and names the real problem (conversion).
+        margin-note: Two sentences in the statement — answer both, and say which one fails.
+        authorities: []
+      - id: r2
+        criterion: Defines creativity, invention and innovation accurately
+        marks: 3
+        top-band: Uses Levitt, both Week 7 charts and Week 8's invention + commercialisation, keeping the three terms apart and citing the charts' own examples.
+        margin-note: "Precise definitions do half the work: the statement trades on blurring them."
+        authorities:
+          - mgmt2094-example-printing-press-electricity-telephone
+          - mgmt2094-example-iphone-tablet-flat-screen-tv
+      - id: r3
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 3
+        top-band: Uses the three steps of creative problem solving and the diverging pattern to show why many ideas precede one innovation, and the three circles to show what conversion requires.
+        margin-note: A framework is evidence only when it is applied to the board's numbers, not just described.
+        authorities:
+          - mgmt2094-brown-and-wyatt-2010-design-thinking-for-social-innovation
+          - mgmt2094-example-jetpack
+      - id: r4
+        criterion: Real examples from the unit's materials
+        marks: 3
+        top-band: Uses Dow Corning's New Product Market Share and Disney's Dish and MagicBands accurately, each tied to a step in the argument.
+        margin-note: Dish versus MagicBands is the unit's cleanest pair for thought up versus done.
+        authorities:
+          - mgmt2094-example-dow-corning
+          - mgmt2094-example-disney-imagineering
+          - mgmt2094-example-disney-magicbands
+      - id: r5
+        criterion: Counter-argument
+        marks: 3
+        top-band: Puts the cost case at its strongest — Disney's interactive division and Lego's materials search — and the point that only innovation can be measured.
+        margin-note: "The board member is not foolish: give her the best version of her case."
+        authorities:
+          - mgmt2094-example-disney-interactive-division
+          - mgmt2094-reed-2018-lego-plastic-free-brick
+      - id: r6
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument by locating the firm's problem in conversion (convergent thinking, a commercialisation process such as Design for Six Sigma) and ends with a qualified recommendation.
+        margin-note: Finish with what the board should do, not just whether it is right.
+        authorities:
+          - mgmt2094-example-armorall-deck-protector
+      - id: r7
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Keep "creativity", "invention" and "innovation" in their exact senses all the way through.
+        authorities: []
+  - key: q002
+    type: long
+    tier: worked
+    template: essay
+    concept: mgmt2094-w03-empathy-and-human-centred-design
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w03-what-is-design-thinking
+      - mgmt2094-w08-design-thinking
+      - mgmt2094-w10-lean-start-up
+    prompt: |
+      Design thinking is now used well beyond design studios: the Week 3 reading describes organisations from Deloitte to IBM and Barclays adopting it to cultivate a more customer-centric or human-centred culture. Tim Brown of IDEO calls it "a system that uses the designer's sensibility and methods to match people's needs with what is technologically feasible and what a viable business can convert into consumer value and market opportunity". Yet the same reading records Steve Jobs's view that you shouldn't ask customers what they want — until you show them, they don't know — and Roberto Verganti's warning against engaging with customers too closely.
+
+      Critically evaluate the following statement:
+
+      "Design thinking is nothing more than asking customers what they want and giving it to them."
+
+      In your essay, explain what design thinking adds to customer research, using frameworks from more than one week of the unit (for example, the design thinking process, the four rules, empathy and its roadblocks, Brown and Wyatt's three spaces, or the lean start-up). Support your argument with real examples from the unit's materials, take a clear position, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    steps:
+      - "State the thesis — the statement is wrong on both halves: design thinking studies what people do, feel and need (often unarticulated) rather than what they say they want, and it reframes, prototypes and tests rather than delivering what was requested."
+      - Define design thinking with Brown — people's needs, technological feasibility and business viability — so desirability is one lens of three (the Week 8 three circles and the jetpack).
+      - Explain empathy and unarticulated needs — the premise of human-centred design, affective and cognitive empathy, Temple Grandin's curved corrals, and the four roadblocks that make asking unreliable (Ford's faster horses).
+      - Show reframing in Brown and Wyatt's inspiration space — Shanti and the Naandi water centre, and Pecknold reframing the Rwandan weavers' website brief.
+      - Show prototyping and testing — the tangibility rule, VisionSpring's children screening each other, and the lean start-up's "facts live outside the building".
+      - "Counterargument — Verganti and Jobs: design proposes new meanings (the candles) that customers cannot imagine, so design thinking is not customer-led at all."
+      - Evaluate — Gemser's two streams agree that customers are a source of insight, not of specifications; conclude that design thinking is human-centred, not customer-directed.
+    model: |
+      **Thesis**
+
+      The statement is wrong on both of its halves. Design thinking does start from people, but it does not simply ask customers what they want: it studies what they do, feel and struggle with, because the needs that matter are often ones customers cannot put into words. Nor does it simply give them what they asked for: it reframes the problem, generates many ideas, and tests rough prototypes with users before anything is delivered, while checking that a solution is feasible and viable as well as desirable. Design thinking is human-centred, not customer-directed, and the difference is where its value lies.
+
+      **Argument**
+
+      *Three lenses, not one.* Tim Brown's definition matches "people's needs" with "what is technologically feasible" and "what a viable business can convert into consumer value". Desirability is one lens of three. The Week 8 version of the same idea is the three circles — desirable, possible, viable — and the jetpack shows why the first circle is not enough: it has long been desirable, but the technology is only now arriving and it is extremely expensive. A process that gave customers what they wanted would stop at the first circle.
+
+      *Unarticulated needs.* Human-centred design works on the premise that a deep understanding of users' unarticulated needs, gained through empathy, inspires creativity and innovation. Empathetic design observes users in their own environments, closer to anthropology than to market science. The reading separates affective empathy (a mirrored emotion) from cognitive empathy (perspective taking: stepping into another person's worldview, beliefs and fears). Temple Grandin noticed that livestock reacted badly to being led in a straight line and designed curved corrals that reduced stress, panic and injury; others had assumed that is just what cows do. The four roadblocks to empathy — idealism, egoism, realism and circumstantialism — explain why asking is unreliable: people see things as they expect or want them to be. Henry Ford's line makes the point: had he asked people what they wanted, they would have said faster horses.
+
+      *Reframing the brief.* Brown and Wyatt describe design thinking as overlapping spaces — inspiration, ideation and implementation — rather than orderly steps. In the inspiration space the team goes into the world to observe what people actually do, because people often cannot say what they need. Shanti, near Hyderabad, fetches free borehole water that periodically makes her family sick rather than buy from the Naandi Foundation's nearby, affordable treatment centre. Habit is not the reason: she cannot carry the 5-gallon jerrican the centre requires, her husband works until after it closes, and the monthly card buys more water than she needs. The centre made clean water very well, but its designers had not considered the needs of everyone in the community. Kara Pecknold, asked to build a website for Rwandan weavers, found they had little access to computers and reframed the brief. In both cases progress came from changing the question, not from taking the order.
+
+      *Prototype, then test.* Meinel and Leifer's tangibility rule says "prototypes are communication media", and the reading's process runs empathy, define, ideate, prototype, test. VisionSpring found that children upset by traditional eye tests were at ease when they screened each other — something learned only by trying. Week 10's lean start-up makes the same move: Blank says entrepreneurs execute on guesses and must test their hypotheses against facts, and "the facts live outside the building".
+
+      **Counterargument**
+
+      The strongest objection comes from the other side. Verganti argues that it is important not to engage with the customer too much, because most customers are not trained to see possibilities in the far future; Jobs said customers don't know what they want until you show them. Verganti's foreword adds that people search for new meanings, not just better solutions — families buy candles that last 30 hours to dim the light and perfume a room, not to illuminate it — and that meaning can be designed and proposed. On this view design thinking is not about customers' wants at all, but about proposing what customers have not imagined.
+
+      **Evaluation**
+
+      The counterargument also defeats the statement, but it overcorrects. Gemser describes two streams of research — IDEO going into the customer's world, Verganti keeping a distance — and her own conclusion is to "get out of the ivory tower", engage stakeholders at all levels and stand in the shoes of the actual customer. The streams agree on the essential point: customers are a source of insight, not of specifications. Grandin observed; Pecknold reframed; Verganti proposes meanings people will value. None of them simply asked and delivered.
+
+      So the statement should be rejected. Design thinking keeps people at the centre, as the human rule requires, but its work is to discover needs customers cannot state, to reframe the brief, and to test proposals until they are desirable, feasible and viable. Asking customers what they want is where poor design thinking stops; good design thinking starts there and keeps going.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Rejects both halves — design thinking neither simply asks nor simply delivers — and names what it adds (unarticulated needs, reframing, testing, three lenses).
+        margin-note: "Two verbs in the statement, \"asking\" and \"giving\": deal with each."
+        authorities:
+          - mgmt2094-reading-marketers-guide-to-design-thinking
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Uses Brown's three lenses (or the three circles), affective and cognitive empathy and the four roadblocks, Brown and Wyatt's three spaces and the tangibility rule, each tied to a step in the argument, across more than one week.
+        margin-note: Name the framework, then show what it adds to "asking".
+        authorities:
+          - mgmt2094-reading-mitchem-empathy
+          - mgmt2094-meinel-leifer-four-rules
+          - mgmt2094-brown-and-wyatt-2010-design-thinking-for-social-innovation
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses Grandin, Shanti and the Naandi centre, Pecknold and VisionSpring accurately, showing in each what asking alone would have missed.
+        margin-note: Each example should prove a different point, not repeat one.
+        authorities:
+          - mgmt2094-example-temple-grandin
+          - mgmt2094-example-naandi-water-centre
+          - mgmt2094-example-pecknold-rwanda-weavers
+          - mgmt2094-example-visionspring
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops Verganti's and Jobs's view that design proposes meanings customers cannot imagine, with the candles example.
+        margin-note: The best counterargument here attacks the statement from the opposite side.
+        authorities:
+          - mgmt2094-reading-verganti-foreword
+          - mgmt2094-example-apple-steve-jobs
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Reconciles the two streams through Gemser's conclusion and reaches the human-centred, not customer-directed, distinction.
+        margin-note: A reasoned verdict, not a list of views.
+        authorities:
+          - mgmt2094-reading-marketers-guide-to-design-thinking
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Quote definitions exactly and attribute them (Brown, Gemser, Verganti).
+        authorities: []
+  - key: q003
+    type: long
+    tier: worked
+    template: essay
+    concept: mgmt2094-w10-conditions-for-agile
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w10-leading-agile
+      - mgmt2094-w09-dmedi-design-process
+      - mgmt2094-w10-lean-strategy
+    prompt: |
+      Agile innovation methods began in software development. Rigby, Sutherland and Takeuchi (2016) report that over 25 to 30 years they greatly increased success rates in software, improved quality and speed to market, and boosted the motivation and productivity of IT teams, and that agile is now spreading across industries and functions and even into the C-suite — at John Deere, Saab, National Public Radio and Mission Bell Winery, among others.
+
+      The new chief executive of an established manufacturer of industrial sealants has read the article. She announces that within a year every department — R&D, marketing, plant operations, purchasing, sales and finance — will be reorganised into self-managing scrum teams working in two-week sprints, because:
+
+      "Every organisation that wants to innovate should become agile."
+
+      Critically evaluate the chief executive's statement. In your essay, use frameworks from more than one week of the unit (for example, the conditions for agile, the six practices for leaders, Collis's lean strategy, Design for Six Sigma, or BCG's innovation models), support your argument with real examples from the unit's materials, take a clear position, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    steps:
+      - "State the thesis — agile can make the firm more innovative, but \"every organisation\" and \"become agile\" overreach: the reading itself says agile is not a panacea, so use it for innovation work that meets its conditions, introduce it small and voluntarily, and keep disciplined processes where mistakes are costly."
+      - Define agile — self-managed scrums, rapid prototyping and testing, open-ended methods, design thinking tools, the team leader and process facilitator — and the four Manifesto values set against waterfall.
+      - "Test the scenario against the five conditions (market environment, customer involvement, innovation type, modularity, impact of interim mistakes): R&D and marketing may pass; plant maintenance, purchasing, sales calls and accounting are the reading's own routine examples; OpenView found selling unsuitable."
+      - Apply the six practices for leaders — start small (John Deere from 2004, cycle times down by more than 75% in some cases) and enlist passionate volunteers rather than coerce resisters — which a one-year mandate breaks.
+      - Counterargument — agile has left software (John Deere, Mission Bell, GE Digital, Systematic); "innovation is what agile is all about"; a sealants maker like Dow Corning took four years to commercialise products and saw its New Product Market Share fall from about 25% to 13%.
+      - Evaluate — Deere's success came from starting small; Dow Corning's cure was a structured process (Design for Six Sigma and the Deck Protector); the app pilot calls for destroying barriers, not universal scrum; Collis's screen and BCG's context; recommend a concrete approach.
+    model: |
+      **Thesis**
+
+      The chief executive is right that agile can make an organisation more innovative, and wrong that every organisation — or every part of one — should become agile. The article she relies on says agile is "not a panacea": it works best where problems are complex, solutions unknown, work can be broken into modules and customers can give rapid feedback, and it is less suited to routine operations. A sealants manufacturer should use agile for the innovation work that meets those conditions, introduce it the way the reading recommends — small and voluntary — and keep disciplined processes where errors are costly. Imposing scrum on every department within a year would break the reading's own rules.
+
+      **Argument**
+
+      *What agile is.* Agile innovation is a series of methods from software development: self-managed, high-intensity teams (scrums); rapid prototyping, testing and learning; methods more open-ended than traditional project management; and creativity tools such as design thinking, with two key roles, the team leader and the process facilitator. Its four values — people over processes and tools, responding to change rather than following a plan, working prototypes over excessive documentation, and customer collaboration over rigid contracts — were written in 2001 as an alternative to waterfall development, which suited stable environments but not rapidly changing markets.
+
+      *The five conditions.* Rigby, Sutherland and Takeuchi set favourable against unfavourable conditions. Agile fits where customer preferences and solution options change frequently, where close collaboration and rapid feedback are feasible, where problems are complex and solutions unknown, where work can be modularised and late changes are manageable, and where interim mistakes provide valuable learning. It fits poorly where conditions are stable, requirements are clear at the outset, similar work has been done before, customers cannot test parts until everything is complete, and interim mistakes "may be catastrophic". Applied to the scenario, new-product development in R&D and campaigns in marketing may well pass the test. Plant maintenance, purchasing, sales calls and accounting are the reading's own examples of routine operations where these conditions are less common, and in a chemical plant an interim mistake may be catastrophic rather than educational. OpenView's founder, Scott Maxwell, found agile worked for strategic planning and marketing but not for selling, because any sales call can change a representative's to-do list on the spot.
+
+      *How agile spreads.* The six practices for leaders cut against a one-year mandate. "Start small and let the word spread": at John Deere, George Tome began applying agile in corporate IT in 2004 and it spread over several years, helped by a coach who could work with people without a software background, until innovation cycle times fell, in some cases by more than 75%. Agile also depends on a cadre of eager participants, and the reading says it is better to enlist passionate volunteers than to coerce resisters; OpenView offered its portfolio companies training and let them decide.
+
+      **Counterargument**
+
+      The strongest case for the chief executive is that agile has already left software. John Deere uses it to develop new machines; Mission Bell Winery uses it for everything from wine production to running its senior leadership group; GE Digital and Systematic run their executive teams as agile teams. The reading says "innovation is what agile is all about". A manufacturer of the same kind, Dow Corning, took an average of four years to commercialise a new product, and its share of revenue from new products fell from about 25% to 13% by 1995. On this view only a wholesale shift will break an industrial firm's slow habits; a pilot would let the old culture smother the new one.
+
+      **Evaluation**
+
+      The examples show that agile can work outside software, not that it fits everything. John Deere's success came from starting small, the opposite of a company-wide mandate. And Dow Corning's cure for slow commercialisation was not agile but Design for Six Sigma: a structured process that front-loaded customer research, a six-factor design of experiment and concurrent process engineering. Its pilot, the ArmorAll Deck Protector, was built to an 18-month deadline and produced US$40 million of revenue in its first 12 months. Disciplined processes can speed innovation too. The financial services app pilot shows the real risk of partial adoption — a praised app held up by annual funding and waterfall testing queues — but the reading's answer is to destroy the barriers between agile teams and the rest of the organisation, not to turn every function into a scrum.
+
+      Two further frameworks support a narrower conclusion. Collis warns that "entrepreneurship without strategy leads to chaos": experiments need a strategy that screens them. BCG finds that companies fall short when they choose the wrong innovation model for their context. The chief executive should therefore identify the innovation work that meets agile's conditions, start there with volunteers, practise agile in her own leadership team, and leave routine operations to the processes that suit them. Every organisation that wants to innovate should use agile where it fits, which is not the same as becoming agile everywhere.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Takes a position on "every organisation" and "become", distinguishing agile for the innovation work that suits it from agile for everything.
+        margin-note: The quantifiers ("every", "become") are where the statement is weakest.
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Defines agile and its values, applies the five conditions to the scenario's departments row by row, and uses the six practices (start small, volunteers, practise at the top, destroy barriers) accurately.
+        margin-note: "Apply the conditions to the scenario: a list of rows is description, not argument."
+        authorities:
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses OpenView and Intronis, John Deere, the financial services app pilot and Dow Corning's Design for Six Sigma pilot accurately, each tied to a step in the argument.
+        margin-note: "Dow Corning is the unit's own industrial manufacturer: use it."
+        authorities:
+          - mgmt2094-example-openview-and-intronis
+          - mgmt2094-example-john-deere
+          - mgmt2094-example-financial-services-app-pilot
+          - mgmt2094-example-armorall-deck-protector
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: "Puts the case for wholesale adoption at its strongest: agile beyond software (Deere, Mission Bell, GE Digital, Systematic) and Dow Corning's slow commercialisation."
+        margin-note: Give the chief executive her best evidence before answering it.
+        authorities:
+          - mgmt2094-example-mission-bell-winery
+          - mgmt2094-example-ge-digital
+          - mgmt2094-example-dow-corning
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument with the start-small evidence, Design for Six Sigma as a disciplined alternative, Collis's screen and BCG's context, and recommends a concrete approach for the firm.
+        margin-note: End with what she should do instead.
+        authorities:
+          - mgmt2094-collis-2016-lean-strategy
+          - mgmt2094-reading-bcg-2017-innovation-models
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Signpost each department as you test it against the conditions.
+        authorities: []
+  - key: q004
+    type: long
+    tier: worked
+    template: essay
+    concept: mgmt2094-w12-innovation-culture
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w12-innovative-leader
+      - mgmt2094-w12-overcoming-barriers
+      - mgmt2094-w01-creative-competencies
+    prompt: |
+      Week 12 asks what an innovative culture looks like and what kind of leader it needs. On the slides, an innovation culture shows organisation-wide commitment to the business and to innovation, experiments proactively, manages risk, can implement ideas quickly, and produces and cultivates innovators. Elsewhere in the unit, Bob Iger gave each of Disney's businesses its own chief technology officer so they could experiment "without a corporate watchdog looking over their shoulder all the time", and Rigby, Sutherland and Takeuchi found that the greatest impediment to agile innovation is the behaviour of executives who overturn team decisions and add layers of review.
+
+      Critically evaluate the following statement:
+
+      "Innovation cannot be managed. The best thing a leader can do is get out of the way."
+
+      In your essay, use frameworks from more than one week of the unit (for example, innovation culture and the innovative leader, the challenges of managing innovation, overcoming the barriers, the creative competencies, leader supportive behaviours, or the six practices for leaders), support your argument with real examples from the unit's materials, take a clear position, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    steps:
+      - "State the thesis — the statement mistakes one part of the job for the whole: managing innovation means building firm-specific routines, and the innovative leader is defined by active traits; leaders should step back from the work, not from building culture, setting direction and removing barriers."
+      - Show that culture has to be built — the five characteristics, the matching leader traits, and the culture that cultivates innovators (ideas heard, space to develop and test, innovation rewarded — Shelley Simpson's "lean in").
+      - Show that managing innovation is managing routines — the challenges (firm-specific routines, continuous learning), the components for overcoming barriers (shared vision, top management commitment, key individuals, learning organisation) and the slides' conclusion on flexible control.
+      - Show that leaders build creative capacity — Carmeli et al.'s leader supportive behaviours and knowledge sharing, and Robert Buckman's online discussions with salespeople.
+      - "Counterargument — intrusive leaders kill innovation: Iger's CTOs without a watchdog, Rigby et al.'s list of executive behaviours, and the need for psychological safety."
+      - Evaluate — each example of stepping back was itself managed (Iger's pillars and CTO council, agile at the top at Mission Bell); Dow Corning shows the cost of unmanaged change; Gilbert + Tobin managed where innovation could live; conclude.
+    model: |
+      **Thesis**
+
+      The statement mistakes one part of the leader's job for the whole of it. The unit's materials treat innovation as something that can, and must, be managed: managing innovation "is all about creating firm-specific routines", and the innovative leader is defined by active traits, not by absence. What leaders should get out of the way of is the work of the people who innovate — their ideas, their experiments and the decisions teams are better placed to make. They cannot get out of the way of building the culture, setting direction and removing barriers, because no one else will do those things.
+
+      **Argument**
+
+      *Culture has to be built.* An innovation culture shows organisation-wide commitment to the business and to innovation, experiments proactively, manages risk, can implement ideas quickly, and produces and cultivates innovators. Each characteristic has a matching trait in the leader: passionate about innovation, willing to experiment, realistic and informed, capable of rapid project execution, and able to attract and nurture innovators. The slides contrast a culture that cultivates innovators — managers allow ideas to be heard, innovators have space to develop and test, innovation is rewarded — with one that does not, where failure is discouraged or punished, employees are reluctant to bring up ideas, and innovation is top-down. Getting out of the way removes the top-down control, but allowing ideas to be heard and rewarding innovation are things managers do. Shelley Simpson expects her team to "lean in", and rewards those who do.
+
+      *Managing innovation is managing routines.* The seven challenges of managing innovation include building an innovation culture — creating firm-specific routines, repeated and reinforced patterns of behaviour — and continuous learning, because firms must keep developing those routines as the environment changes. The components for overcoming barriers begin with shared vision, leadership and the will to innovate: a clearly articulated purpose, stretching strategic intent and top management commitment. They also include key individuals such as champions, effective team working, a creative climate supported by motivation systems, and a learning organisation. The slides' conclusion asks enterprises for "planning and controlling systems with a high degree of flexibility", respect for individual initiative, and tolerance for mistakes. Flexible control is still control.
+
+      *Leaders build creative capacity.* Carmeli, Gelbard and Reiter-Palmon found that leader supportive behaviours — modelling collaboration and knowledge sharing, and encouraging information exchange and openness — were related to employees' creative problem-solving capacity, directly and through knowledge sharing. Robert Buckman, chief executive of Buckman Laboratories, modelled this himself in lengthy online discussions with salespeople about compensation. That is leadership by involvement, not withdrawal.
+
+      **Counterargument**
+
+      The strongest support for the statement is that intrusive leaders kill innovation. Iger shifted decision-making from a central strategic planning division to Disney's business units and gave each its own chief technology officer, so they could "experiment and try even if they fail … without a corporate watchdog looking over their shoulder all the time". Rigby, Sutherland and Takeuchi found that agile stalls when executives launch countless initiatives, become overly involved in the work of teams, talk more than listen, overturn team decisions and add review layers. Week 1's team competencies point the same way: without psychological safety, people hold back their ideas for fear of being seen as stupid or incompetent.
+
+      **Evaluation**
+
+      These examples show leaders stepping back from the work, not from management. Iger also set Disney's three pillars, made big and early bets such as the iTunes deal, and created a CTO council that runs hackathons and a "Best of Disney" symposium — designing the structure within which others could experiment. Rigby's six practices ask leaders to learn how agile works, to practise it in their own teams and to destroy the barriers to it; at Mission Bell Winery the executive agile team ranked an enterprise backlog and protected the organisation from pet projects. Dow Corning shows the cost of under-managing change: a consultant-designed commercialisation process failed because poor change management practices led to poor take-up. And at Gilbert + Tobin, Sam Nickless judged that the incentives and culture for a low-cost offshoot would be very hard to create beside a traditional legal model, so the firm bought a stake in LegalVision instead — a managed decision about where innovation could live.
+
+      So the statement should be rejected, though its second sentence contains a truth. Leaders should get out of the way of ideas and of the teams that develop them. But innovation can be managed, and has to be: through a shared vision, routines that keep learning, a culture that rewards experiment and tolerates failure, and the removal of barriers that only leaders can remove.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Rejects the statement while separating stepping back from the work (right) from stepping back from management (wrong).
+        margin-note: The statement has two sentences; one is false, one is half true.
+        authorities: []
+      - id: r2
+        criterion: Uses the innovation culture and innovative leader frameworks accurately
+        marks: 3
+        top-band: Sets out the five culture characteristics, the matching leader traits and the culture that cultivates innovators, and shows each requires leaders to act.
+        margin-note: Match culture to leader trait, row by row.
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+      - id: r3
+        criterion: Uses the frameworks for managing innovation accurately
+        marks: 3
+        top-band: Uses the challenges of managing innovation (routines, continuous learning), the components for overcoming barriers and the slides' conclusion on flexible planning and control.
+        margin-note: "\"Firm-specific routines\" is the phrase that answers \"cannot be managed\"."
+        authorities: []
+      - id: r4
+        criterion: Real examples from the unit's materials
+        marks: 3
+        top-band: Uses Carmeli et al. and Buckman, Disney's CTOs and council, and Gilbert + Tobin accurately, each tied to a step in the argument.
+        margin-note: Evidence of what leaders actually did.
+        authorities:
+          - mgmt2094-carmeli-gelbard-reiter-palmon-2013-leadership
+          - mgmt2094-example-buckman-laboratories
+          - mgmt2094-example-disney-cto-council
+          - mgmt2094-example-gilbert-tobin-legalvision
+      - id: r5
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops the case for stepping back from Iger's CTOs, Rigby et al.'s list of executive behaviours and psychological safety.
+        margin-note: Disney is the statement's best witness — use it fairly.
+        authorities:
+          - mgmt2094-lev-ram-2015-empire-of-tech
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - id: r6
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Shows that each example of stepping back was itself a managed choice, uses Mission Bell and Dow Corning, and concludes with what leaders should and should not do.
+        margin-note: Turn the counterargument's own examples around.
+        authorities:
+          - mgmt2094-example-mission-bell-winery
+          - mgmt2094-example-dow-corning
+          - mgmt2094-nickless-2017
+      - id: r7
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Keep "leadership" and "management" distinct, or explain why you treat them together.
+        authorities: []
+  - key: q005
+    type: long
+    tier: faded
+    template: essay
+    concept: mgmt2094-w02-problem-identification
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w05-defining-the-problem
+      - mgmt2094-w02-divergent-thinking
+      - mgmt2094-w04-brainwriting-and-brainwalking
+    prompt: |
+      Many creativity techniques in this unit are measured in numbers of ideas. The quota method asks for at least three ideas from every team member; brainwriting with 12 participants over five rounds yields 60 ideas; the Floor Company Exercise asks for 100 new floor covering ideas in 10 minutes; and Brown and Wyatt quote Linus Pauling: "To have a good idea you must first have lots of ideas." Yet the Week 2 slides attribute to Einstein the claim that with one hour to save the world he would spend 59 minutes defining the problem and one minute solving it.
+
+      Critically evaluate the following statement:
+
+      "The most creative teams are simply the ones that produce the most ideas."
+
+      In your essay, use frameworks from more than one week of the unit (for example, the three steps of creative problem solving, Markman on problem definition, the creative problem-solving process, Wallas' model, brainwriting and brainwalking, or Carmeli et al.'s fluency and originality), support your argument with real examples from the unit's materials, take a clear position, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    given:
+      thesis:
+        - The statement is right — quantity drives quality, so the team with the most ideas is the most creative, provided judgement is deferred.
+        - The statement is wrong — creativity starts with identifying an interesting problem and ends with convergence and verification, so the most ideas on the wrong problem, or never selected, is not the most creative output.
+        - The statement is half right — fluency matters in the divergent step, but "simply" ignores problem finding, originality and convergence, which decide whether many ideas become a good one.
+      authorities:
+        - Three steps of creative problem solving (Week 2) — identify an interesting problem, divergent thinking, convergent thinking; prospective and analytical phases; the quota method; Einstein's 59 minutes; relativity, impressionism and Decaux as important questions.
+        - Markman (2017) — the problem statement is the cue to memory; Dyson's "separate the dirt from the air"; find more descriptions of the box.
+        - Creative problem-solving process (Week 5) — objective, fact, problem, idea, solution and acceptance finding; Wallas' Verification and Poincaré's "test of verification" (Sadler-Smith 2015).
+        - Mattimore (2012) — brainwriting (60 ideas) and brainwalking; Brown and Wyatt (2010) — Linus Pauling, deferring judgement, Pecknold's reframed brief.
+        - Carmeli, Gelbard and Reiter-Palmon (2013) — fluency (number of ideas) and originality (ideas mentioned by fewer than 1% of the sample).
+    model: |
+      **Thesis**
+
+      The statement is half right. In the divergent step of creative problem solving the number of ideas does matter: quantity breaks the habit of settling for the first idea, and many of the unit's techniques are built to raise it. But "simply" is wrong. Creativity starts before divergence, with identifying an interesting problem, and finishes after it, with convergence and verification. A team that produces the most ideas about the wrong problem, or cannot choose among them, is busy rather than creative. The most creative teams produce many ideas on a well-defined problem and then select well.
+
+      **Argument**
+
+      *Where quantity belongs.* Week 2's creative problem solving runs in three steps: identify an interesting problem, divergent thinking (find solutions), and convergent thinking (find "the" solution, or a good solution). Divergent thinking is where numbers count. The quota method asks every team member for at least three ideas, because once three good ideas have been found many more generally follow, and because linear thinking tempts us to settle for the first idea. Mattimore's brainwriting turns 12 participants and five rounds into 60 ideas, and gets round the introvert/extrovert problem because everyone "speaks" with their pen. Brown and Wyatt's ideation space defers judgement and quotes Pauling. On this much, the statement is right.
+
+      *Problem first.* But the first step is not about numbers. The Week 2 slide attributes to Einstein the claim that he would spend 59 minutes of an hour defining the problem; identifying meaningful problems and asking the right questions is "a key characteristic of creative people". The slide's examples are questions, not answers: "Why is the speed of light the same everywhere?" led to relativity; "How to use colours differently?" to impressionism; "How to make bus stop shelters viable?" to the worldwide success of Decaux. Markman explains why: the statement of the problem is the cue to memory. Thinking about vacuum cleaner bags reminds you of bags; describing the problem as separating the dirt from the air drops the bag and brings industrial cyclones to mind, which is how Dyson's bagless vacuum came about. A radically new solution requires a new problem statement, and the most consistently creative groups find many descriptions of the problem — not "think outside the box", but find more descriptions of the box. Kara Pecknold, asked to build a website for Rwandan weavers who had little access to computers, made progress by reframing the brief to ask what services could improve their livelihoods, not by producing more website ideas.
+
+      *Selection and verification.* After divergence comes convergence: identifying benefits and risks, keeping the best and eliminating wrong answers. Week 5's creative problem-solving process puts objective, fact and problem finding before idea finding, and solution and acceptance finding after it. Wallas' model ends with Verification, which the lecture stresses for people who generate lots of ideas, because the problem is often matching and fitting the solutions to the problem; Poincaré warned that an inspiration felt with certainty can still fail "the test of verification".
+
+      **Counterargument**
+
+      The strongest defence of the statement is empirical. Carmeli, Gelbard and Reiter-Palmon measure creative performance in two dimensions, fluency (the number of ideas) and originality (highly original ideas, mentioned by fewer than 1% of the sample), and found creative problem solving related to both. Large numbers also raise the chance of an original idea: the Floor Company Exercise demands 100 ideas in 10 minutes precisely so that teams get past adding an adjective like "soft" or "blue". If more ideas tend to bring more original ideas, counting ideas is a fair proxy for creativity.
+
+      **Evaluation**
+
+      The evidence supports quantity as one dimension of creative performance, not as the measure of it. Carmeli et al. treat fluency and originality separately because they are different, and in their second study creative problem solving fully mediated only the link between internal knowledge sharing and originality. The Floor Company Exercise itself ends by asking teams to pick their top three ideas and report one: diverging, then converging. Week 2 adds that there is no standard test for the ability to formulate interesting problems — exactly the ability the statement leaves out.
+
+      So the statement should be qualified. Producing many ideas is a sign of a creative team at one stage of the process. The most creative teams also spend time finding and redescribing the problem, and have the discipline to converge, verify and choose. A count of ideas measures the middle of the process; creativity is the whole of it.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Accepts the role of quantity in divergence but rejects "simply", naming what the statement leaves out (problem finding, originality, convergence).
+        margin-note: The word "simply" is the target.
+        authorities: []
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Places quantity in the divergent step of the three steps, and uses Markman, the creative problem-solving process and Wallas' Verification to show what comes before and after it.
+        margin-note: Locate each framework at a point in the process.
+        authorities:
+          - mgmt2094-markman-2017-how-you-define-the-problem
+          - mgmt2094-sadler-smith-2015-wallas-four-stage-model
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses the slide's important questions (relativity, impressionism, Decaux), Dyson's redescribed problem, brainwriting's 60 ideas and Pecknold's reframed brief accurately.
+        margin-note: The Week 2 examples are all questions — that is the point.
+        authorities:
+          - mgmt2094-example-einstein-relativity
+          - mgmt2094-example-decaux
+          - mgmt2094-example-dyson-bagless-vacuum
+          - mgmt2094-mattimore-2012-brainwalking
+          - mgmt2094-example-pecknold-rwanda-weavers
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops Carmeli et al.'s fluency finding and the Floor Company quota as the best case for counting ideas.
+        margin-note: Use the unit's own evidence for quantity before answering it.
+        authorities:
+          - mgmt2094-carmeli-gelbard-reiter-palmon-2013-leadership
+          - mgmt2094-example-floor-company-exercise
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument with the fluency–originality distinction, the exercise's own convergence step and the absence of a test for problem finding, and reaches a qualified conclusion.
+        margin-note: Weigh the evidence; do not just restate the thesis.
+        authorities:
+          - mgmt2094-carmeli-gelbard-reiter-palmon-2013-leadership
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Use "divergent" and "convergent" in their Week 2 senses.
+        authorities: []
+  - key: q006
+    type: long
+    tier: faded
+    template: essay
+    concept: mgmt2094-w04-six-thinking-hats
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w04-parallel-thinking
+      - mgmt2094-w03-four-rules-of-design-thinking
+      - mgmt2094-w09-dmedi-design-process
+    prompt: |
+      Edward de Bono's six thinking hats divide thinking into six directions — blue for control, white for facts, yellow for benefits, green for new ideas, red for feelings, black for caution — and ask a group to think in parallel, one direction at a time, with a facilitator in the blue hat opening and closing the session. The lecturer conceded that coloured hats can look silly at first glance; Kivunja (2015) quotes de Bono's reply that "simple methods used effectively are more valuable than complicated methods that are difficult to understand and confusing to use". Against such methods stands Meinel and Leifer's ambiguity rule: there is "no chance for 'chance discovery' if the box is closed tightly, the constraints enumerated excessively and the fear of failure is always at hand".
+
+      Critically evaluate the following statement:
+
+      "Structured thinking tools such as the six thinking hats constrain creativity rather than release it."
+
+      In your essay, explain how the six hats are meant to work, and use at least one other framework from a different week of the unit (for example, the linear-thinking trap, brainwriting and brainwalking, the rules of design thinking, the families of creativity techniques, or Design for Six Sigma). Support your argument with real examples from the unit's materials, take a clear position, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    given:
+      thesis:
+        - The statement is right — any imposed structure narrows thinking, and creativity needs ambiguity and freedom.
+        - The statement is wrong — the hats release creativity by separating idea generation from judgement, giving every person a voice and escaping the linear-thinking trap.
+        - The statement depends on use — structure releases creativity when it is light, flexible and owned by the group, and constrains it when it is applied as a fixed procedure.
+      authorities:
+        - De Bono's six thinking hats (Week 4) — parallel thinking as an alternative to argument; the blue-hat facilitator; hats as directions, not categories of people; usage rules (any hat, any sequence, short time); benefits (common language, removal of ego, focus).
+        - Kivunja (2015) — de Bono's three difficulties (emotions, helplessness, confusion); no set sequence; several hats often used at once.
+        - de Langhe, Puntoni and Larrick (2017) — linear thinking in a nonlinear world; the fleet MPG problem.
+        - Mattimore (2012) — brainwriting and brainwalking as structured divergence; brainstorming aloud lets the first idea spoken influence everyone.
+        - Meinel and Leifer (2011) — the ambiguity rule; Week 2's rational ("serious creativity") and irrational technique families.
+        - Dow Corning (Week 9) — Design for Six Sigma; the Explore step uses creative techniques inside a disciplined process.
+    model: |
+      **Thesis**
+
+      The statement is wrong as a general claim, though it identifies a real risk. Structured tools such as the six hats are designed to release creativity, not contain it: they separate the generation of ideas from their judgement, give every member of a group a voice, and stop teams settling into the straight-line habits the unit warns against. Structure constrains creativity only when it is applied rigidly — as a fixed sequence, a label for people, or a closed box. De Bono's own rules forbid that use, so the statement criticises a misuse of the method rather than the method.
+
+      **Argument**
+
+      *What the hats do.* De Bono separates thinking into six directions, and the hats help a group use parallel thinking: each thinker puts thoughts forward in parallel with others' rather than attacking them. The green hat is for new ideas, with no criticism or judgement; the black hat is for risks, at a separate time. In ordinary argument, as the lecturer put it, the most extroverted people argue for their own ideas and fill the room while quieter people hold back; parallel thinking tries to give a voice to every participant, and the benefits slide lists the removal of ego and a focus on one thing at a time. De Bono's three difficulties of practical thinking, quoted by Kivunja, are emotions, helplessness ("I don't know what to do next") and confusion (trying to keep everything in mind at once). The hats answer each, by giving feelings a place, providing definite next steps and taking one direction at a time. A group that cannot be creative because it is arguing, stuck or confused is released by these rules, not constrained.
+
+      *Structure that frees.* The same pattern recurs across the unit. Brainstorming aloud can go wrong because, once an idea is said out loud, it influences everyone else's answers. Mattimore's brainwriting adds structure — written ideas, passed sheets, four or five rounds — and the result is more ideas, faster, with introverts given equal time. Week 2 places de Bono's lateral thinking and six hats in the rational family of "serious creativity" techniques, alongside TRIZ and mind maps. And the Week 4 lecture opens with the linear-thinking trap: de Langhe, Puntoni and Larrick show that minds default to straight lines, so managers prefer the fleet upgrade from 20 to 50 MPG, which saves 300 gallons per 10,000 miles, over the upgrade from 10 to 20 MPG, which saves 500. The lecturer presents tools that make a group look from several directions as one way to avoid that trap.
+
+      *Rules against rigidity.* The hats are deliberately flexible. Any hat can be used as often as needed; the sequence can be preset or evolving; not every hat must be used; time under each hat is generally short. Hats are directions, not categories of people — never "he's a black hat thinker". Kivunja stresses that there is no set sequence and that in normal thinking several hats are often used at once.
+
+      **Counterargument**
+
+      The strongest objection is design thinking's ambiguity rule. Meinel and Leifer say there is no chance for chance discovery "if the box is closed tightly, the constraints enumerated excessively and the fear of failure is always at hand". A facilitator calling "everybody put on the white hat" every few minutes may close the box: thinking is timed, sorted by colour and steered by the blue hat. Week 2 also sets the rational techniques against irrational ones — detour approaches, Synectics, random approaches — which work by distancing people from the problem, something a tidy sequence of hats does not do.
+
+      **Evaluation**
+
+      The objection is right about over-structure, but it does not describe the hats used as intended. The blue hat manages the process, not the content; the green hat's job is precisely to escape old ideas in order to find better ones, and the red hat gives intuition a place without any need to justify it. Kivunja's point that there is no set sequence means the box is not closed. Week 9 supplies stronger evidence that discipline and creativity can coexist. Dow Corning's Design for Six Sigma process is highly structured, yet its Explore step uses creative techniques to develop alternative concepts before selecting the best fit; its pilot, the ArmorAll Deck Protector, ran a six-factor, two-level design of experiment and produced US$40 million of revenue in 12 months.
+
+      So the statement should be rejected, with one condition. Structured tools release creativity when they remove what stops groups thinking — argument, ego, confusion, the pull of the first idea and the straight line — and when they are used flexibly. Applied as a rigid procedure, any tool can close the box; the fault then lies in the use, not in the structure.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Takes a clear position and locates the risk in rigid use rather than in structure itself.
+        margin-note: Say what "structure" means before deciding whether it constrains.
+        authorities: []
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Explains parallel thinking, the hats' directions, de Bono's three difficulties and the usage rules accurately, and links them to at least one framework from another week (linear thinking, brainwriting, the technique families).
+        margin-note: Explain how the hats work, then why that matters for creativity.
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+          - mgmt2094-example-edward-de-bono
+          - mgmt2094-de-langhe-puntoni-larrick-2017-linear-thinking
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses the fleet MPG problem, brainwriting's structure and Dow Corning's Design for Six Sigma Explore step accurately, each supporting a different point.
+        margin-note: Numbers from the fleet problem make the linear trap concrete.
+        authorities:
+          - mgmt2094-example-fleet-mpg-upgrade
+          - mgmt2094-mattimore-2012-brainwalking
+          - mgmt2094-example-armorall-deck-protector
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops the ambiguity rule and the irrational technique family as the best case against structure.
+        margin-note: Design thinking supplies the strongest objection — use it.
+        authorities:
+          - mgmt2094-meinel-leifer-four-rules
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument with the hats' flexibility rules and evidence that disciplined processes can carry creative steps, reaching a conditional conclusion.
+        margin-note: A conditional verdict is fine if the condition is precise.
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+          - mgmt2094-example-dow-corning
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Name each hat by its direction, not just its colour.
+        authorities: []
+  - key: q007
+    type: long
+    tier: faded
+    template: essay
+    concept: mgmt2094-w05-grace-accident-association-and-cognitive-theories
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w01-creativity-gym
+      - mgmt2094-w11-views-of-innovation
+      - mgmt2094-w05-wallas-model-of-creative-thinking
+    prompt: |
+      Popular stories of creativity often feature a lone genius or a lucky accident. The Week 5 slides list theories that support both: creativity by grace sees creative people as endowed with a superhuman potential, a divine gift; creativity by accident sees it arising by chance, as with immunisation arising from an interruption in work and radioactivity from a wrong hypothesis. Week 11's individualistic school holds that innovations are the result of unique individual talents, so innovators are born. Against them stand Sir Ken Robinson ("When people say to me that they aren't creative, I assume they haven't learnt what is involved"), Claman's view that creativity is "not just for the talented few", and the Week 1 creativity gym.
+
+      Critically evaluate the following statement:
+
+      "Creative people are born, not made. An organisation that wants innovation should hire creative talent, not try to train it."
+
+      In your essay, use theories and frameworks from more than one week of the unit, support your argument with real examples from the unit's materials, take a clear position, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    given:
+      thesis:
+        - The statement is right — creativity is a gift or a matter of chance, so hiring talent is the only reliable strategy.
+        - The statement is wrong — creativity is a normal human capacity that can be trained, prepared for and organised, so organisations should develop it.
+        - The statement is half right — people differ in their preferences and starting points, but creative performance depends far more on preparation, practice, team mix and environment, all of which an organisation can shape.
+      authorities:
+        - Theories of creativity (Week 5) — grace, accident, association and cognitive creativity; psychoticism (Eysenck).
+        - Sadler-Smith (2015) — Wallas' stages; Preparation and "chance favours the prepared mind" (Becquerel); Helmholtz and Poincaré; Darwin and Malthus.
+        - Claman (2017) — everyone has creativity; ruts; think new, look for intersections, capitalise on obstacles, share what you know.
+        - The creativity gym and the individual and team competencies (Week 1); the Whole Brain Model and the four creative thinking preferences (Week 5).
+        - Views of innovation (Week 11) — individualistic and social deterministic schools; Covid and online offerings; Mark's furniture business.
+    model: |
+      **Thesis**
+
+      The statement takes a partial truth too far. People do differ: the Whole Brain Model and the four creative thinking preferences show that individuals prefer some modes of thinking and avoid others. But the unit's theories and readings point overwhelmingly to creativity as a normal human capacity that depends on preparation, practice, knowledge and environment — all things an organisation can build. Even the apparent gifts and accidents in the materials turn out to rest on prepared minds. An organisation should hire for a mix of thinking styles, but it should also train, prepare and organise creativity, because that is where most of it comes from.
+
+      **Argument**
+
+      *Grace and accident, examined.* Creativity by grace treats creativity as a divine gift; on this view, as the lecturer put it, you are either super creative or you are not, and nothing can be done about it. Creativity by accident sees it arising by chance. The readings qualify both. Sadler-Smith, citing Cropley, notes that Becquerel could not have discovered radioactivity from the chance coming together of uranium salts and photographic paper in a drawer had he not already been deeply immersed in the relevant research: "chance favours the prepared mind". Wallas' model makes Preparation the first stage, and it depends on domain-specific knowledge. Helmholtz's "happy ideas" came on slow walks up wooded hills only after he had investigated a problem "in all directions"; Poincaré's ideas "arose in crowds" after fifteen days of fruitless work, and still had to pass verification. What looks like grace or luck is the visible end of long, conscious effort.
+
+      *Association and cognition.* Creative association — applying procedures from one area to another — underlies divergent thinking techniques such as lateral thinking and brainstorming, and it can be practised. Darwin, a biologist, drew on Malthus' political economy. Cognitive creativity treats creativity as a normal human activity, about reasoning, recognition and understanding. Claman agrees: everyone has creativity when confronted with new problems or new ideas; it is "not just for the talented few", but it fades when people get bored or discouraged and a groove becomes a rut. Her remedies — think new, look for intersections, capitalise on obstacles, share what you know — are habits, and habits can be built.
+
+      *Creativity can be trained.* Week 1's creativity gym describes three stages: starting off (learning and developing the skills, including knowing the industry you are entering), being proficient (training your mind and getting inspiration) and becoming an expert (going into creative mode by default, then receiving feedback). The individual competencies — exploring problems, building up willpower, self-awareness, openness to failure and feedback — can be developed; the lecturer said some people are naturally curious and others can develop it by exploring problems in a systematic way. Mark built a furniture business on knowledge gained in an earlier clothing business and three years working for the owner of a recycled-timber furniture business: "my university was having worked in the industry".
+
+      **Counterargument**
+
+      The strongest case for the statement is that individual differences are real and stable. The Whole Brain Model profiles each person as preferring, being competent in or avoiding each quadrant; the four preferences — clarifier, ideator, developer, implementer — describe different natural styles. Week 11's individualistic school holds that innovations result from unique individual talents and that innovators are born, and Week 5's psychoticism theory says all creative people have a disposition that forms the basis of creative personalities. If some people are reliably ideators and others are not, hiring ideators looks efficient.
+
+      **Evaluation**
+
+      Individual differences are better evidence for building teams than for giving up on training. The lecturer's advice on the Whole Brain Model is to be aware of a quadrant you avoid and consciously push yourself towards it when the problem needs it, and the four preferences are meant to be combined, so that a team solves a problem more effectively by "taking into account the different paths to the solution". Wallas' model, too, "needs time and a variety of people". Week 11 sets the individualistic school beside the social deterministic school, in which innovation occurs when conditions are right, as when Covid moved teaching, work and services online. And Week 1's team competencies — supporting others' ideas, psychological safety, shared visions — matter only if creativity is something a group produces, not something each hire brings fully formed.
+
+      So the statement should be rejected. Organisations should hire for a mix of preferences, but creativity is mostly made: through preparation and domain knowledge, practised habits, diverse teams and environments in which people feel safe to take risks. An organisation that hires talent and never develops it will find that its talent, too, ends up in a rut.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Separates real individual differences from the claim that creativity cannot be developed, and answers the hiring recommendation directly.
+        margin-note: Two claims — "born, not made" and "hire, not train" — need two answers.
+        authorities: []
+      - id: r2
+        criterion: Explains the theories of creativity accurately
+        marks: 3
+        top-band: Explains grace, accident, association and cognitive creativity, and shows how Sadler-Smith's reading of Wallas qualifies grace and accident (Preparation, the prepared mind).
+        margin-note: Name the theory, then test it against the readings.
+        authorities:
+          - mgmt2094-sadler-smith-2015-wallas-four-stage-model
+          - mgmt2094-example-accidental-discoveries
+      - id: r3
+        criterion: Uses frameworks for developing creativity accurately
+        marks: 3
+        top-band: Uses the creativity gym, the individual competencies and Claman's habits to show how creativity is built.
+        margin-note: Show how creativity is developed, not just assert that it can be.
+        authorities:
+          - mgmt2094-claman-2017-spark-creativity-in-a-rut
+      - id: r4
+        criterion: Real examples from the unit's materials
+        marks: 3
+        top-band: Uses Becquerel, Helmholtz or Poincaré, Darwin and Mark accurately, each tied to preparation or transfer of knowledge.
+        margin-note: The "genius" stories in the readings all have a preparation stage — show it.
+        authorities:
+          - mgmt2094-example-helmholtz-happy-ideas
+          - mgmt2094-example-poincare-mathematical-discovery
+          - mgmt2094-example-darwin-and-wallace-natural-selection
+          - mgmt2094-example-guest-founder-mark
+      - id: r5
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops the individualistic school, psychoticism, the Whole Brain Model and the four preferences as evidence of stable differences.
+        margin-note: Individual differences are real; concede them properly.
+        authorities: []
+      - id: r6
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Turns individual differences into an argument for team composition and development, using the lecturer's advice and the social deterministic school, and concludes.
+        margin-note: "Answer the organisation's question: what should it actually do?"
+        authorities:
+          - mgmt2094-example-covid-online-shift
+      - id: r7
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Attribute each theory to its week and source.
+        authorities: []
+  - key: q008
+    type: long
+    tier: faded
+    template: essay
+    concept: mgmt2094-w08-disruptive-innovation
+    difficulty: 3
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w11-value-innovation
+      - mgmt2094-w12-responding-to-disruption
+      - mgmt2094-w08-innovation-map
+    prompt: |
+      "Disruption" is often used for any new venture that unsettles an industry. The Week 8 class activity is more demanding. In Clayton Christensen's theory, as the activity summarises it, disruptive innovation usually begins by serving an overlooked, low-end or new-market customer segment with a simpler, cheaper or more accessible offering, and then improves enough to challenge established firms. The activity's cases — Netflix, Airbnb, Uber, Canva, Spotify, Tesla and ChatGPT — are posed as questions, not settled answers.
+
+      Critically evaluate the following statement:
+
+      "Any innovation that upends an established industry is a disruptive innovation."
+
+      In your essay, apply the five disruption questions to at least two examples from the unit's materials, and compare disruptive innovation with at least one other framework from a different week (for example, value innovation and the four actions framework, the innovation map, or BCG's innovation models). Take a clear position, support it with reasons, and deal with the strongest counterargument to your view. Organise your answer under the headings Thesis, Argument, Counterargument and Evaluation.
+    given:
+      thesis:
+        - The statement is right — in practice, any innovation that takes an industry's customers from its incumbents is disruptive, whatever path it took.
+        - The statement is wrong — disruption names a particular path (low-end or new-market entry, then moving up), so many industry-changing innovations are value innovations or other strategic innovations, not disruptions.
+        - The statement is half right — upending an industry is the end point of disruption, but the label should be kept for innovations that got there by Christensen's route, because the route tells incumbents how to respond.
+      authorities:
+        - Disruptive innovation (Week 8 class activity) — Christensen's definition; the five questions (incumbent, initial customer, value proposition, market movement, verdict); the open cases.
+        - Nickless (2017) — Gilbert + Tobin and LegalVision; NewLaw disruptors in lower-value, higher-volume work; disruption moving up the market; partnering as a response.
+        - Value innovation and the four actions framework (Weeks 8 and 11) — Yellow Tail; Uber and Airbnb as value innovation.
+        - The innovation map (Week 8) — disruptive innovation within strategic innovation (external, discontinuous).
+        - BCG (2017) — Sears as a defender upended by online players; Allstate acquiring Esurance.
+    model: |
+      **Thesis**
+
+      The statement confuses an outcome with a theory. Upending an established industry is where a disruptive innovation may end up, but Christensen's theory, as the class activity summarises it, describes a particular route there: starting with overlooked, low-end or new-market customers, offering something simpler, cheaper or more accessible, and then improving enough to challenge established firms. Innovations can upend industries by other routes, such as redefining value for non-customers. Calling them all disruptive empties the word of meaning and, more importantly, misleads incumbents about how to respond.
+
+      **Argument**
+
+      *The five questions.* The class activity turns the theory into five questions. Who is the incumbent? Was the initial customer underserved, overlooked or a non-consumer? What made the offering cheaper, simpler, more convenient or more accessible? Did it start outside the mainstream and then move toward mainstream customers? And what is the verdict — disruptive, potentially disruptive, or not disruptive? The statement skips straight to the end of the fourth question.
+
+      *A case that fits.* Nickless's account of Gilbert + Tobin passes every question. The incumbents are prestigious law firms such as G+T, whose expertise was bespoke, high-value work. NewLaw firms such as LegalVision began with lower-value, higher-volume transactional work — wills, loan documents, first-round document reviews — and LegalVision served the underserviced small-to-medium enterprise market. The value proposition was work done faster and cheaper through standard processes and digital automation. And G+T believed disruption would move up the market from the lower-value work towards the higher value, where the bulk of its business lay: simple document review could turn into running the A$5 million bolt-on acquisition. That is Christensen's pattern, and Nickless names Christensen's work as still highly relevant. It also explains G+T's response: by buying a 20 per cent stake in LegalVision it gained exposure to low-value but high-growth work and the ability to learn from the disruption as it arrived.
+
+      *A case that does not.* Yellow Tail changed the US wine market, but on the unit's frameworks it is value innovation, not disruption. Using the four actions framework, it eliminated enological terminology, ageing qualities and above-the-line marketing; reduced wine complexity, range and vineyard prestige; raised its price above budget wine and its retail store involvement; and created easy drinking, ease of selection, and fun and adventure. It did reach non-customers — people who were not generally wine buyers — which resembles a new-market entry. But it priced itself above budget wine rather than below the market, and the materials describe it almost creating a new category, not moving up to displace premium wines. Value innovation seeks radically superior value to capture the mass market by following non-customers; the disruption questions trace a path from the margin to the mainstream. They are different tests.
+
+      *Where it sits.* The innovation map places disruptive innovation inside strategic innovation — external and discontinuous — alongside new markets, new offerings, channels and Blue Ocean Strategy. Disruption is one kind of strategic innovation, not a synonym for it.
+
+      **Counterargument**
+
+      The strongest case for the statement is practical. For an incumbent the route hardly matters: Sears, a defender counting on its brand recognition and its stores, lost its edge when agile online players upended retail, and its shareholders lost either way. The class activity's own cases resist clean verdicts — it asks whether Airbnb is disruptive or simply a new platform business model, and where Spotify's disruption actually occurred — which suggests the theory's boundaries are blurred. On this view "disruptive" is a fair everyday word for any innovation that overturns an industry.
+
+      **Evaluation**
+
+      The blurred cases are a reason to apply the questions carefully, not to abandon them; the activity asks for a defended verdict precisely because the answer is not obvious. And the route matters most to incumbents. It was the route — lower-value work first, then moving up — that told G+T to act while the threat was still in work it could not service economically, and to partner rather than compete. Other threats call for other responses: BCG's defender example, Allstate, monitored the shift to online and app-based insurance and acquired the pioneer, Esurance. An incumbent that calls every new rival disruptive loses the ability to tell which response fits.
+
+      So the statement should be rejected. Many innovations upend industries; only some get there by disruption. Keeping the word for Christensen's route keeps the five questions useful, and the questions tell managers what to watch for and when to move.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Separates the outcome (upending an industry) from the route the theory describes, and takes a clear position on "any".
+        margin-note: Outcome versus route is the whole question.
+        authorities: []
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: States Christensen's definition and walks the five questions accurately, and compares disruption with value innovation (the four actions framework) and the innovation map.
+        margin-note: Walk the questions in order; a verdict without them is an opinion.
+        authorities:
+          - mgmt2094-class-activity-is-it-really-disruptive
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Applies the questions to Gilbert + Tobin and LegalVision and to Yellow Tail, using only facts from the materials, and defends a verdict on each.
+        margin-note: Do not import facts about Uber or Netflix that the materials do not give.
+        authorities:
+          - mgmt2094-nickless-2017
+          - mgmt2094-example-gilbert-tobin-legalvision
+          - mgmt2094-example-yellow-tail
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops the incumbent's-eye view (Sears) and the class activity's open cases as the best case for the broad usage.
+        margin-note: The open cases cut both ways — say how.
+        authorities:
+          - mgmt2094-example-sears-defender
+          - mgmt2094-class-activity-is-it-really-disruptive
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Shows why the route matters for the response (G+T's partnership against Allstate's acquisition) and reaches a reasoned verdict.
+        margin-note: Tie the definition to a management decision.
+        authorities:
+          - mgmt2094-example-allstate-esurance
+          - mgmt2094-reading-bcg-2017-innovation-models
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Use "disruptive" only in Christensen's sense once you have defined it.
+        authorities: []
+  - key: q009
+    type: long
+    tier: full
+    template: essay
+    concept: mgmt2094-w09-new-product-market-share
+    difficulty: 4
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w07-invention-vs-innovation-economic-value
+      - mgmt2094-w08-why-innovate-goals-and-sources
+      - mgmt2094-w09-transformation-and-change-management
+    prompt: |
+      Large companies often point to their research and development budgets as evidence of their commitment to innovation. Dow Corning spent 10% of its revenue on R&D and had analytical capabilities among the best in the world. Lego is investing about 1 billion kroner and hiring about 100 people in its search for a brick made from plant-based or recycled materials. Week 8 lists slack resources — an abundance that lets an organisation afford innovations, bear the cost of instituting them and absorb failures — among the sources of innovation.
+
+      Critically evaluate the following statement:
+
+      "The surest way for a company to become more innovative is to spend more on research and development."
+
+      Draw on material from at least three weeks of the unit, using course models and frameworks and real examples from the unit's materials. Take a clear position, support it with reasons, and deal with the strongest counterargument to your view.
+    model: |
+      **Thesis**
+
+      R&D spending can buy invention; it cannot by itself buy innovation. Innovation, in the unit's definition, is invention plus commercialisation, and the evidence in the materials is that the harder half is the second one. Spending more on R&D is therefore neither sure nor sufficient: Dow Corning spent heavily on world-class science while its share of revenue from new products halved. Money helps — slack resources are a genuine source of innovation — but what turns spending into innovation is a commercialisation process, a strategy and innovation model that direct the spending, and the organisational change to make both stick.
+
+      **Argument**
+
+      *Invention is not innovation.* Week 7 defines invention as a novel product, device, process or concept, requiring knowledge, competence and financial aid; innovation is the introduction of a newer and better solution that meets new requirements or existing market needs, and it also requires knowledge about market needs and trends. Week 8's table adds that invention may not be commercialised, can have a non-economic motive and is usually restricted to the R&D centre, while innovation results in commercialisation, has an economic motive, spreads across the organisation and brings organisational change. R&D budgets fund the first column. The statement assumes the second follows automatically.
+
+      *Dow Corning.* The Week 9 guest lecture shows that it does not. Dow Corning spent 10% of revenue on R&D, and universities used its scanning electron microscope. Yet its New Product Market Share — the percentage of revenue from newly commercialised products — fell from around 25% in the 1970s and 80s to 13% by 1995, and a new product took on average four years to commercialise. Leadership concluded that the way it commercialised products needed to improve. Its first attempt, a consultant-designed process in 1997, failed because poor change management practices led to poor take-up. What worked was Design for Six Sigma: a structured process that researched customers, translated their needs into critical-to-customer requirements, explored alternative concepts and ran experiments alongside economic data. Its pilot, the ArmorAll Deck Protector, produced over 4,500 tonnes and US$40 million of revenue in 12 months. Even then the project stopped when ArmorAll lost a legal battle over its TV commercials: no commercialisation process can control a customer's poor risk management.
+
+      *Spending without a guaranteed return.* Lego's investment shows the limits of money from another side. It wants a brick from plant-based or recycled materials by 2030 that still clicks together, keeps its colours and survives hard use; around 200 alternatives have been tried and most have fallen short, and its chief executive said it was difficult to know the financial implications. The spending serves a clear goal of innovation, reducing environmental damage, but the result depends on the three circles: desirable, possible and viable. Disney's interactive division, which lost more than $1 billion over five years in the red, shows that investment in new technology can run for years without a return.
+
+      **Counterargument**
+
+      The strongest case for the statement is that some innovations need large, patient investment. Week 8 lists slack resources as a source of innovation: abundance lets a firm afford innovations, bear the cost of instituting them and absorb failures. Collis warns that some ideas cannot be evaluated in quick, cheap experiments — Tesla's lithium ion batteries would never have got off the ground had they been expected to demonstrate immediate success. Iger's lesson from the interactive division was not to stop investing but that "if you're going to win big, you have to get in early". On this view, cutting R&D to save money is the surest way to stop innovating.
+
+      **Evaluation**
+
+      The counterargument shows that money is necessary for some innovations, not that it is the surest route. The lecture itself calls slack double-edged: abundant resources let an organisation experiment and fail until it finds the right solution, but they can also make it feel unthreatened, and firms at the top that felt unbeatable did not invest in innovation, and failed. BCG's six innovation models show successful innovators spending in very different ways. Reckitt Benckiser, a fast follower, spends minimal energy up front on consumer insight and ideation and invests downstream in product testing, and its flat structure maximises speed to market. Innovators fall short, BCG says, by pursuing the wrong model for their context or by failing to support a good model with the capabilities it requires — not by underspending. Even Collis's case for patient investment comes with his insistence that strategy act as a screen and a yardstick, so that money goes to the opportunities that fit.
+
+      So the statement should be rejected. More R&D can produce more inventions, and some innovations cannot happen without it. But the surest way to become more innovative is to fix the route from laboratory to market: measure it, as Dow Corning measured New Product Market Share; build a commercialisation process people will actually take up; and direct the spending with a strategy and an innovation model that suit the firm.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Distinguishes buying invention from achieving innovation and rejects "surest" in the opening paragraph.
+        margin-note: "\"Surest\" sets a high bar — one strong counter-example clears it."
+        authorities: []
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Uses the invention–innovation distinctions (Weeks 7 and 8), New Product Market Share, Design for Six Sigma, the sources of innovation and BCG's models accurately, drawing on at least three weeks.
+        margin-note: "Week 7 and Week 8 each give an invention–innovation table: use both."
+        authorities:
+          - mgmt2094-example-printing-press-electricity-telephone
+          - mgmt2094-reading-bcg-2017-innovation-models
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses Dow Corning (R&D share, New Product Market Share, the failed process, Design for Six Sigma, the Deck Protector), Lego and Disney's interactive division accurately.
+        margin-note: Dow Corning is the unit's direct evidence on this exact claim.
+        authorities:
+          - mgmt2094-example-dow-corning
+          - mgmt2094-example-armorall-deck-protector
+          - mgmt2094-reed-2018-lego-plastic-free-brick
+          - mgmt2094-example-disney-interactive-division
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops slack resources, Collis on innovations that need long-term investment, and Iger's "get in early" as the best case for spending.
+        margin-note: Money does matter — concede where it does.
+        authorities:
+          - mgmt2094-collis-2016-lean-strategy
+          - mgmt2094-lev-ram-2015-empire-of-tech
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument with slack's double edge, Reckitt Benckiser's downstream spending and Collis's screen, and concludes with what a firm should do instead.
+        margin-note: Replace the rejected claim with a better one.
+        authorities:
+          - mgmt2094-example-reckitt-benckiser
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Give figures exactly as the materials state them (10%, 25% to 13%, US$40 million).
+        authorities: []
+  - key: q010
+    type: long
+    tier: full
+    template: essay
+    concept: mgmt2094-w11-bcg-six-innovation-models
+    difficulty: 4
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w01-flip-mindset
+      - mgmt2094-w10-lean-strategy
+      - mgmt2094-w08-value-innovation-and-what-if
+    prompt: |
+      Bob Iger's advice to Disney was blunt: "If you're going to win big, you have to get in early." Steve Jobs, quoted on the Week 12 slides, said: "Innovation distinguishes between a leader and a follower."
+
+      The founder of a mid-sized Australian homewares retailer hears both quotations at a conference. Back at the office she tells her board:
+
+      "In innovation, being first is everything. Every company should aim to be a creator, not a follower."
+
+      Critically evaluate the founder's statement. Draw on material from at least three weeks of the unit, using course models and frameworks and real examples from the unit's materials. Take a clear position, support it with reasons, and deal with the strongest counterargument to your view.
+    model: |
+      **Thesis**
+
+      The founder is wrong on both counts. Being first is not everything: the unit's materials include successful companies that won by implementing an idea better than whoever had it first, by improving a business model, or by reacting quickly. And not every company should aim to be a creator. BCG's study of the world's most innovative companies found six distinct innovation models, and its central finding is that the right one depends on the industry's and the company's own context. A mid-sized retailer should choose the model its industry rewards and its capabilities can support — which may well not be the creator.
+
+      **Argument**
+
+      *Six models, not one.* BCG studied more than 100 of the world's most innovative companies and found six models. Creators ("We know best") are typically led by a strong, bold, visionary leader, disrupt their core markets, protect their intellectual property and make a limited number of highly focused big bets, with a closed innovation approach; Apple is the classic example. Solution builders ("We're listening") draw on observation and deep customer insight, as Nike does with shoe-based sensors that give personalised feedback. Leveragers ("We do it best") create a superior business model and keep improving it, as Zara does with processes that shorten the time new items take to reach stores. Expanders ("Seeking share to steal") carry core capabilities into adjacent markets, as Amazon does. Defenders ("Protecting our turf") win in mature or slow-changing industries, as Allstate did by acquiring Esurance. Fast followers ("Ready to react") respond quickly to — and often improve upon — competitors' innovations. Innovators typically fall short, BCG says, because they pursue the wrong model for their business and competitive context, or fail to support a good model with the capabilities it requires.
+
+      *Context decides.* Only a subset of models succeeds in most industries. In consumer retail — the founder's industry — BCG found four models driving shareholder-return premiums: creators, solution builders, leveragers and expanders. Even within retail, companies succeed with different models: Amazon as an expander and Costco as a leverager, with everyday low prices, a lean supplier network and a members-only approach. BCG's questions for choosing a model — is innovation a growth engine or a defensive tool, how strong and durable is the competitive position, how important is brand, how robust are the innovation capabilities, how much can the company invest, and how quickly does the sector change — have different answers for every firm.
+
+      *First is not everything.* Uber, the Week 8 lecture's example of value innovation, was not necessarily the first to think of the idea; it was the most successful implementation. Reckitt Benckiser, BCG's best-in-class fast follower, deliberately spends minimal energy up front on consumer insight and ideation, investing instead in product testing, and its flat structure maximises speed to market. Mark built a furniture business over more than 30 years by "sticking to your knitting" — making the core business successful before branching out — and by making timeless pieces rather than constant new ranges.
+
+      **Counterargument**
+
+      The strongest case for the founder comes from Disney. Iger made big and early bets, some seemingly at odds with the business model: ABC shows on iTunes in 2005, the first deal of its kind, and free full-length TV shows online in 2006. With MagicBands, while many corporations were still waiting to see what the "killer app" for wearables was, Disney invented one. BCG itself warns that the defender model becomes increasingly risky as technology transforms more industries, and Sears, a defender counting on its brand and its stores, lost its edge when agile online players upended retail. On this view, a company that is not leading is waiting to be overtaken.
+
+      **Evaluation**
+
+      Disney's lesson is about the flip mindset — Tim Cook said Iger "understands the tradition of Disney but isn't wedded to it" — more than about being first in every market. Being early also has costs: Disney's interactive division lost more than $1 billion over five years, and Iger's comment was that "we learned from that". Sears shows the danger of the wrong model for an industry, not proof that only creators survive; BCG's other retail successes are solution builders, leveragers and expanders. The creator model also demands what a mid-sized retailer may lack: a visionary leader, protected intellectual property and the capacity to make a few large bets. BCG's advice is to look for a model competitors are not using, or are using poorly, and then align structure and culture, tools and processes, and metrics and incentives behind it. Collis makes a similar point about focus: the single best piece of advice for any company builder is to know what not to do.
+
+      So the statement should be rejected. Innovation may well distinguish leaders from followers, but leadership can be won by understanding customers, perfecting a business model or reacting fast and well, not only by being first. The founder's first question should not be "how do we become a creator?" but "which model fits our industry, our strengths and our ambition?"
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Rejects both "being first is everything" and "every company should be a creator", and says what should decide instead.
+        margin-note: Two claims — answer both, then say what replaces them.
+        authorities: []
+      - id: r2
+        criterion: Uses BCG's six innovation models accurately
+        marks: 3
+        top-band: Sets out the six models with their characteristics and examples, and BCG's two reasons innovators fall short.
+        margin-note: Name each model with its tagline and company.
+        authorities:
+          - mgmt2094-reading-bcg-2017-innovation-models
+      - id: r3
+        criterion: Applies context to the scenario
+        marks: 3
+        top-band: "Applies BCG's industry and company context to the retailer: consumer retail's four rewarded models, Amazon and Costco, and the context questions."
+        margin-note: The scenario is a retailer — BCG has retail-specific evidence.
+        authorities:
+          - mgmt2094-example-amazon-and-costco
+      - id: r4
+        criterion: Real examples from the unit's materials
+        marks: 3
+        top-band: Uses Uber, Reckitt Benckiser, Zara or Nike, and Mark accurately to show success without being first, drawing on at least three weeks.
+        margin-note: Uber "was not necessarily the first" is the lecture's own point.
+        authorities:
+          - mgmt2094-example-uber-and-airbnb
+          - mgmt2094-example-reckitt-benckiser
+          - mgmt2094-example-zara-leverager
+          - mgmt2094-example-guest-founder-mark
+      - id: r5
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops Disney's early bets (iTunes, MagicBands) and Sears' decline as the best case for being first.
+        margin-note: Iger is the founder's best witness.
+        authorities:
+          - mgmt2094-example-disney-itunes-deal
+          - mgmt2094-example-disney-magicbands
+          - mgmt2094-example-sears-defender
+      - id: r6
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument with the costs of being early, the demands of the creator model and BCG's advice on choosing and aligning a model, and ends with a recommendation for the retailer.
+        margin-note: Finish with the question the founder should ask instead.
+        authorities:
+          - mgmt2094-example-disney-interactive-division
+          - mgmt2094-collis-2016-lean-strategy
+      - id: r7
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Use the models' exact names; "follower" in the statement is not the same as BCG's fast follower — say so.
+        authorities: []
+  - key: q011
+    type: long
+    tier: full
+    template: essay
+    concept: mgmt2094-w06-why-reflect
+    difficulty: 4
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w10-build-measure-learn
+      - mgmt2094-w06-purposes-of-reflection
+      - mgmt2094-w12-challenges-managing-innovation
+    prompt: |
+      The Week 6 slides quote a line attributed to John Dewey: "We do not learn from experience… we learn from reflecting on experience." Moon (1999) describes reflection as "a form of mental processing with a purpose". The innovation weeks of the unit, by contrast, prize speed: agile teams build working versions of a product in cycles of less than a month, the lean start-up's build–measure–learn loop comes with one instruction — minimise the total time through the loop — and Brown and Wyatt treat failure as fine as long as it happens early and is a source of learning.
+
+      Critically evaluate the following statement:
+
+      "In a fast-moving market, innovators learn by doing, not by reflecting. Time spent reflecting is time lost."
+
+      Draw on material from at least three weeks of the unit, using course models and frameworks and real examples from the unit's materials. Take a clear position, support it with reasons, and deal with the strongest counterargument to your view.
+    model: |
+      **Thesis**
+
+      The statement sets up a false choice. The fast-moving methods the unit teaches do not replace reflection; they build it into the cycle and shorten it. Build–measure–learn ends in a documented learning step, scrum teams review their progress daily and their process after every cycle, and the Week 8 innovation process includes learning lessons for improvement. What fast markets punish is slow reflection and unexamined experience, not reflection itself. Doing without reflecting produces activity, and sometimes the same mistake twice; reflecting without doing produces nothing to learn from. Innovators need both, in short cycles.
+
+      **Argument**
+
+      *Why reflect.* The Week 6 slides say it is not sufficient merely to have experience in order to learn: without reflecting, an experience may be quickly forgotten or its learning potential lost. Moon calls reflection "a form of mental processing with a purpose", and the slides list five purposes: considering the process of our own learning, critically reviewing behaviour, building theory from observation, personal development, and making decisions or resolving uncertainty. The last is exactly what a fast-moving market demands. The lecture's image is Dumbledore's Pensieve: excess thoughts siphoned into a basin so that it becomes easier to spot patterns and links. The lecturer added that, constantly distracted by phones and social media, we have many experiences but rarely sit down to reflect on them, and so do not really learn from them.
+
+      *Reflection inside the fast methods.* The lean start-up's loop runs build, measure, learn, and the Learn stage is reflective. The innovation accounting report records the background, a falsifiable hypothesis, the build, the measured results, the learning (validated, invalidated or inconclusive) and the next action. Validated learning begins by asking "What do we need to learn?" before anything is built. At Learn the venture decides whether to pivot or persevere — a decision made by reviewing evidence, not by doing more. Scrum teams hold brief daily stand-ups to review progress and identify roadblocks, and after each cycle they brainstorm ways to improve future cycles. Week 8's innovation process includes learning lessons for improvement and developing the organisation, and Week 12 names continuous learning among the challenges of managing innovation and the learning organisation — knowledge capture and dissemination — among the ways to overcome its barriers.
+
+      *Examples.* Instagram's founders did not simply keep building Burbn: they noticed that users posted a lot of pictures and refocused on being really good at one thing. Collis argues that strategy frames how results are read: damage reports on Spitfires pointed to the wrong areas until someone saw that planes hit elsewhere never came back. Dow Corning documented lessons learned from the Deck Protector, including that poor risk management by a customer can sink a successful project, and the project became the basis for all its new commercialisation projects. Mark, after more than 30 years in furniture, advises keeping a diary and records, and making mistakes but not repeating them.
+
+      **Counterargument**
+
+      The strongest case for the statement is that speed is itself the source of learning. The build–measure–learn loop's one instruction is to minimise the total time through it. Agile values working prototypes over excessive documentation and resolves arguments with experiments rather than endless debates or appeals to authority. Brown and Wyatt accept failure as long as it comes early and teaches something, and Blank says the facts live outside the building. On this view, an hour spent writing a reflective paper is an hour not spent testing with customers.
+
+      **Evaluation**
+
+      The counterargument is fair against long, detached reflection, but each of its sources keeps a reflective step. Minimising time through the loop includes learning faster — through customer development and the "five whys" — not skipping the learning. Experiments only resolve arguments if someone states a falsifiable hypothesis in advance and reads the result honestly, which is what the innovation accounting report is for. Early failure is a source of learning only if someone stops to ask what failed: Iger's verdict on the interactive division's losses of more than $1 billion was "we learned from that". Week 5 adds a further reason to protect reflective time: in Wallas' model, Incubation needs time away from conscious work, and more difficult creative problems need mental relaxation, not just distraction.
+
+      So the statement should be rejected. In a fast-moving market reflection should be quicker, more frequent and closer to the evidence — not abandoned. The unit's own definition makes the point: reflection is mental processing with a purpose, and in innovation the purpose is to decide what to build next.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Rejects the either–or and argues that fast methods shorten reflection rather than replace it.
+        margin-note: Attack the dichotomy, not just one side of it.
+        authorities: []
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Uses Moon's definition and the purposes of reflection, build–measure–learn and the innovation accounting report, scrum's reviews and the learning steps of Weeks 8 and 12, drawing on at least three weeks.
+        margin-note: Find the reflective step inside each fast method.
+        authorities:
+          - mgmt2094-moon-1999
+          - mgmt2094-dewey-reflecting-on-experience
+          - mgmt2094-rigby-sutherland-takeuchi-2016-embracing-agile
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses Instagram, Collis's Spitfire point, Dow Corning's lessons learned and Mark's advice accurately, each showing learning that came from reviewing experience.
+        margin-note: Show the moment of reflection in each example.
+        authorities:
+          - mgmt2094-example-instagram-burbn
+          - mgmt2094-collis-2016-lean-strategy
+          - mgmt2094-example-armorall-deck-protector
+          - mgmt2094-example-guest-founder-mark
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops the case for speed from the loop's instruction, agile's values, early failure and "the facts live outside the building".
+        margin-note: The innovation weeks really do prize speed — say so.
+        authorities:
+          - mgmt2094-brown-and-wyatt-2010-design-thinking-for-social-innovation
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Shows that each fast method keeps a reflective step (learn faster, falsifiable hypotheses, Iger's "we learned from that", Incubation) and concludes with how reflection should change in fast markets.
+        margin-note: Conclude on the form reflection should take, not just its existence.
+        authorities:
+          - mgmt2094-example-disney-interactive-division
+          - mgmt2094-sadler-smith-2015-wallas-four-stage-model
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Keep "reflection" in Moon's sense — purposeful processing, not rumination.
+        authorities: []
+  - key: q012
+    type: long
+    tier: full
+    template: essay
+    concept: mgmt2094-w01-flip-mindset
+    difficulty: 4
+    timer: 40
+    contrasts-with:
+      - mgmt2094-w01-creativity-gym
+      - mgmt2094-w05-defining-the-problem
+      - mgmt2094-w05-wallas-model-of-creative-thinking
+    prompt: |
+      The Week 1 lecture explains why the unit matters now. The world of business is fast moving, and with the advance of AI technical knowledge is not enough, because AI can provide any organisation or entrepreneur with technical knowledge and skill. What matters, the lecturer says, is creativity and innovation — the flexible, counter-intuitive "flip" mindset that zigs when everyone else is zagging.
+
+      Critically evaluate the following statement:
+
+      "Now that AI can supply technical knowledge to anyone, creativity matters more than expertise."
+
+      Draw on material from at least three weeks of the unit, using course models and frameworks and real examples from the unit's materials. Take a clear position, support it with reasons, and deal with the strongest counterargument to your view.
+    model: |
+      **Thesis**
+
+      The statement is right that creativity has become a scarcer and more valuable advantage, and wrong to set it against expertise. Almost every account of creativity in the unit depends on domain knowledge: Wallas' Preparation, Markman's collective memory, the first stage of the creativity gym, and the prepared mind behind every "accident". If AI makes technical knowledge cheap, the advantage shifts to people who can combine knowledge with the flip — asking new questions, connecting distant fields and acting on counter-intuitive ideas. Creativity matters more because expertise is more widely available, not because expertise matters less.
+
+      **Argument**
+
+      *The flip.* The unit's aim is a flexible, counter-intuitive mindset: "flip" means repeatedly moving between different perspectives and paradigms, in real time and on demand. The lecture's reasons are that business changes very quickly and that AI can supply technical knowledge and skill to anyone, so what sets people apart is creativity and innovation, including learning to work with AI to boost them. Iger's 2005 deal putting ABC's *Lost* and *Desperate Housewives* on iTunes — the first deal of its kind, seemingly at odds with Disney's business model — is the flip in action; Tim Cook said Iger "understands the tradition of Disney but isn't wedded to it".
+
+      *Creativity needs knowledge.* The Week 2 lecture gives three reasons creativity resists a standardised test, and one of them is that creativity implies domain knowledge. Wallas' first stage, Preparation, focuses on the problem and explores its dimensions, and Sadler-Smith stresses that it depends on domain-specific knowledge: Becquerel could not have discovered radioactivity by chance had he not already been immersed in the research. Markman argues that most creative solutions are found inside the collective memory of the people working on the problem, and that the problem statement is the cue that retrieves it. Dyson's bagless vacuum came from describing the problem as separating dirt from air, which brought industrial cyclones to mind — but only to someone who knew about industrial cyclones. The creativity gym begins with "starting off": learning the skills and understanding the industry you are entering. Mark, who has run a furniture business for more than 30 years, calls his years working in a recycled-timber furniture business his university.
+
+      *Knowledge without creativity.* The reverse is also true, and here the statement has force. Dow Corning had analytical capabilities among the best in the world and spent 10% of revenue on R&D, yet its share of revenue from new products fell from about 25% to 13% by 1995: expertise was abundant, and conversion was the problem. de Langhe, Puntoni and Larrick show that even experts who know about nonlinearity can fail to account for it and rely on their gut. Claman warns that experienced people slide into ruts, saying "That won't work. It's been tried too many times before."
+
+      **Counterargument**
+
+      The strongest case for the statement is that expertise can itself be a barrier. Shelley Simpson built a porcelain business with no training in ceramics, design or business, and her porcelain carries its pigment in the clay itself — something she learned to do because she didn't know she shouldn't. Claman notes that on your first day at work you felt entitled to look at things differently. The Week 8 lecture warns that a 20-year veteran may be stuck in old routines while an intern of two days may have great ideas. If AI supplies the facts, an outsider's fresh perspective may be worth more than an insider's knowledge.
+
+      **Evaluation**
+
+      These examples show the value of different perspectives, not of ignorance. Simpson described every single thing she touched as a point of growth, and as the business grew her own development had to grow with it — logistics, packaging, freight and compliance — because the business could not grow without that knowledge. The Week 8 ideation process asks for a team diverse in age, seniority, experience and customer knowledge, not one without experience. Creative association, and Darwin's use of Malthus' political economy, show that valuable knowledge often comes from another field; AI may make such knowledge easier to reach, but seeing the connection is still the creative act. And the Week 5 lecture stresses Verification: someone must judge logically whether an idea actually fits and solves the problem, which takes expertise.
+
+      So the statement should be qualified. AI may make technical knowledge more widely available, and the flip mindset is what turns that knowledge into an advantage. But creativity works on knowledge, and the people best placed to flip are those who know the paradigm well enough to see what flipping it would mean. The advantage belongs not to creativity instead of expertise, but to expertise used creatively.
+    rubric:
+      - id: r1
+        criterion: "Thesis: a clear, arguable answer to the statement"
+        marks: 3
+        top-band: Accepts that creativity is a scarcer advantage while rejecting the opposition between creativity and expertise.
+        margin-note: "\"More than\" assumes the two compete — test that assumption."
+        authorities: []
+      - id: r2
+        criterion: Argues with course models and frameworks, named and applied accurately
+        marks: 5
+        top-band: Uses the flip mindset, Wallas' Preparation and Verification, Markman's problem statement as a memory cue, the creativity gym and the linear-thinking trap accurately, drawing on at least three weeks.
+        margin-note: Each framework should say something about knowledge.
+        authorities:
+          - mgmt2094-lev-ram-2015-empire-of-tech
+          - mgmt2094-sadler-smith-2015-wallas-four-stage-model
+          - mgmt2094-markman-2017-how-you-define-the-problem
+          - mgmt2094-de-langhe-puntoni-larrick-2017-linear-thinking
+      - id: r3
+        criterion: Real examples from the unit's materials
+        marks: 4
+        top-band: Uses Disney's iTunes deal, Becquerel, Dyson, Mark and Dow Corning accurately, each tied to the role of knowledge or of creativity.
+        margin-note: Use examples on both sides of the argument.
+        authorities:
+          - mgmt2094-example-disney-itunes-deal
+          - mgmt2094-example-accidental-discoveries
+          - mgmt2094-example-dyson-bagless-vacuum
+          - mgmt2094-example-guest-founder-mark
+          - mgmt2094-example-dow-corning
+      - id: r4
+        criterion: Counter-argument
+        marks: 3
+        top-band: Develops the outsider's advantage from Shelley Simpson, Claman's first day at work and the veteran–intern contrast.
+        margin-note: Simpson is the strongest evidence that not knowing can help.
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+          - mgmt2094-claman-2017-spark-creativity-in-a-rut
+      - id: r5
+        criterion: Evaluation and conclusion
+        marks: 3
+        top-band: Answers the counterargument with diversity rather than ignorance, knowledge from distant fields (Darwin) and the need for expert verification, and concludes with a precise restatement.
+        margin-note: End on a sharper version of the claim, not a compromise.
+        authorities:
+          - mgmt2094-example-darwin-and-wallace-natural-selection
+      - id: r6
+        criterion: Expression, structure and Australian English
+        marks: 2
+        top-band: Headings mirror the argument (Thesis, Argument, Counterargument, Evaluation); each paragraph makes one point; terms are used consistently; every example is introduced with its source; Australian English.
+        margin-note: Do not claim more about AI than the Week 1 lecture says.
+        authorities: []

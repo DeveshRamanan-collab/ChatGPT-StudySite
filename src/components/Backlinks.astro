@@ -1,0 +1,42 @@
+---
+// "Referenced in": every place that points at this concept or case (knowledge-map edges, notes, authorities).
+import { getCollection } from 'astro:content';
+import { conceptSlug } from '../lib/content';
+interface Props { kind: 'concept' | 'case'; id: string; name?: string }
+const { kind, id, name } = Astro.props;
+type Row = { href: string; label: string; note: string };
+const rows: Row[] = [];
+const concepts = await getCollection('concepts', (c) => !c.data.seed);
+const href = (c: (typeof concepts)[number]) => `/${c.data.unit}/concept/${conceptSlug(c)}`;
+if (kind === 'concept') {
+  for (const c of concepts) {
+    if (c.id === id) continue;
+    const d = c.data as Record<string, any>;
+    const rel = (d['depends-on'] ?? []).includes(id) ? 'builds on this' : (d['contrasts-with'] ?? []).includes(id) ? 'contrasts with this' : (d.related ?? []).includes(id) ? 'related' : null;
+    if (rel) rows.push({ href: href(c), label: c.data.title, note: rel });
+  }
+} else {
+  for (const c of concepts) if (c.data.cases.includes(id)) rows.push({ href: href(c), label: c.data.title, note: 'concept' });
+  if (name) {
+    const needle = name.toLowerCase();
+    for (const w of await getCollection('weeks', (w) => !w.data.seed && (w.body ?? '').toLowerCase().includes(needle)))
+      rows.push({ href: `/${w.data.unit}/week/${w.data.number}`, label: w.data.topic, note: `${w.data.unit.toUpperCase()} week ${w.data.number} notes` });
+  }
+  for (const a of await getCollection('authorities', (a) => a.data.cases.includes(id))) rows.push({ href: `/authorities/${a.id}`, label: a.data.title, note: 'applies it' });
+}
+---
+
+{rows.length > 0 && (
+  <section class="backlinks" aria-labelledby={`backlinks-${id}`} data-pagefind-ignore>
+    <h2 id={`backlinks-${id}`}>Referenced in</h2>
+    <ul>
+      {rows.map((r) => <li><a href={r.href}>{r.label}</a> <span class="backlinks-note">{r.note}</span></li>)}
+    </ul>
+  </section>
+)}
+
+<style>
+  .backlinks { max-width: var(--measure); margin-top: var(--s-8); }
+  .backlinks ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); }
+  .backlinks-note { color: var(--ink-2); font-size: var(--t-xs); margin-left: var(--s-2); }
+</style>

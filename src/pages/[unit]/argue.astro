@@ -1,0 +1,32 @@
+---
+// Argument adversary (feature 158 stand-in): positions, evidence and objections from the unit's study aids (loaded by
+// the island from /data/<unit>/aids.json); the learner takes a stance, writes, then compares with the sources.
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Adversary from '../../components/legal/Adversary';
+import { units, weeksOf, conceptsOf, conceptSlug } from '../../lib/content';
+
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const weeks = await weeksOf(u.id);
+const byId = new Map((await conceptsOf(u.id)).map((c) => [c.id, c]));
+const weekNo = new Map(weeks.map((w) => [w.id, w.data.number]));
+// Concept order: week by week, as each week lists them.
+const order = weeks.flatMap((w) => w.data.concepts.filter((id) => byId.has(id)));
+for (const id of byId.keys()) if (!order.includes(id)) order.push(id);
+const concepts = Object.fromEntries(
+  [...byId.values()].map((c) => [c.id, { title: c.data.title, week: weekNo.get(c.data.week) ?? Number(c.data.week.match(/w(\d+)$/)?.[1] ?? 0), href: `/${u.id}/concept/${conceptSlug(c)}` }]),
+);
+---
+
+<Layout title={`${u.data.code}: argue it`} description={`Take a stance on a position from ${u.data.code}, meet its strongest objection, and compare with your sources.`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Argue it' }]} />
+  <p class="label">{u.data.code}</p>
+  <h1 data-split>Argue it</h1>
+  <p class="argue-lede">Read a position and its evidence. Decide whether you would defend it or attack it, write your answer to the strongest objection, then compare with what your sources say.</p>
+  <div class="island-stage">
+    <Adversary client:load unit={u.id} code={u.data.code} concepts={concepts} order={order} />
+  </div>
+</Layout>

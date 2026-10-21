@@ -1,0 +1,96 @@
+---
+// Content health (features 123, 126, 127, 130, 160, 196, 200): what needs regenerating because raw/ changed, how
+// each concept is covered, where the content disagrees with itself, and what still needs checking. Data comes from
+// scripts/content-health.mjs (run by `npm run build` and `npm run health`).
+import { existsSync, readFileSync } from 'node:fs';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { units, conceptSlug } from '../lib/content';
+import { getCollection } from 'astro:content';
+
+interface Cov { id: string; unit: string; week: string; title: string; questions: number; cards: number; explainer: boolean; aids: boolean; flows: number }
+interface Report {
+  summary: Record<string, { concepts: number; withAids: number; withExplainer: number; withFlows: number; under20Questions: number }>;
+  stale: { spec: string; kind: string; week: string; source: string; files: number; locked: number }[];
+  conflicts: { kind: string; unit: string; subject: string; detail: string; where: string[] }[];
+  verify: { coll: string; id: string }[];
+  locked: { coll: string; id: string }[];
+  coverage: Cov[];
+}
+const path = 'public/data/content-health.json';
+const r: Report | null = existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null;
+const us = await units();
+const code = Object.fromEntries(us.map((u) => [u.id, u.data.code]));
+const concepts = new Map((await getCollection('concepts')).map((c) => [c.id, c]));
+const hrefOf = (id: string) => { const c = concepts.get(id); return c ? `/${c.data.unit}/concept/${conceptSlug(c)}` : undefined; };
+const verifyBy = r ? Object.entries(r.verify.reduce<Record<string, number>>((m, v) => ((m[v.coll] = (m[v.coll] ?? 0) + 1), m), {})) : [];
+const mark = (b: boolean) => (b ? '✓' : '—');
+---
+
+<Layout title="Content health" wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { label: 'Content health' }]} />
+  <p class="label">For maintenance, not the exam</p>
+  <h1>Content health</h1>
+  {!r ? <p>Run <code>npm run health</code> to build this report.</p> : (
+    <>
+      <section aria-labelledby="h-sum">
+        <h2 id="h-sum">Coverage by unit</h2>
+        <table class="health-table">
+          <thead><tr><th scope="col">Unit</th><th scope="col">Concepts</th><th scope="col">With study aids</th><th scope="col">With an explainer</th><th scope="col">In a decision flow</th><th scope="col">Under 20 questions</th></tr></thead>
+          <tbody>{Object.entries(r.summary).map(([u, s]) => <tr><th scope="row">{code[u] ?? u}</th><td>{s.concepts}</td><td>{s.withAids}</td><td>{s.withExplainer}</td><td>{s.withFlows}</td><td>{s.under20Questions}</td></tr>)}</tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="h-stale">
+        <h2 id="h-stale">Needs regenerating</h2>
+        <p class="health-note">Generated files whose raw folder has changed since they were made. Regenerate with the new-material workflow; locked files are never overwritten.</p>
+        {r.stale.length ? <ul>{r.stale.map((s) => <li><span class="mono">{s.week}</span> ({s.kind}) — {s.files} files from <span class="mono">{s.source}</span>{s.locked ? `, ${s.locked} locked` : ''}</li>)}</ul> : <p>Nothing: every generated file matches its source.</p>}
+      </section>
+
+      <section aria-labelledby="h-conf">
+        <h2 id="h-conf">Worth a look</h2>
+        <p class="health-note">Places the content may disagree with itself. A term can rightly be glossed differently in two contexts; a year mismatch usually means two decisions in the same litigation. Check each against your materials.</p>
+        {r.conflicts.length ? (
+          <ul class="health-conflicts">{r.conflicts.map((c) => (
+            <li><span class="label">{c.kind === 'term' ? 'Term' : 'Citation year'}</span> <b>{c.subject}</b> ({code[c.unit] ?? c.unit}): {c.detail} — {c.where.map((w, i) => <>{i > 0 && ', '}<a href={hrefOf(w)}>{concepts.get(w)?.data.title ?? w}</a></>)}</li>
+          ))}</ul>
+        ) : <p>No disagreements found.</p>}
+      </section>
+
+      <section aria-labelledby="h-verify">
+        <h2 id="h-verify">Still to verify</h2>
+        <p class="health-note">Items marked “not yet checked against your materials” ({r.verify.length} in all): {verifyBy.map(([k, n], i) => <>{i > 0 && ' · '}{n} {k}</>)}. Locked from regeneration: {r.locked.length}.</p>
+        <details><summary>Show every item</summary><ul class="health-verify">{r.verify.map((v) => <li class="mono">{v.coll}/{v.id}</li>)}</ul></details>
+      </section>
+
+      <section aria-labelledby="h-cov">
+        <h2 id="h-cov">Coverage map</h2>
+        <p class="health-note">Each concept and what it has: questions, cards, an explainer, study aids, decision flows.</p>
+        {us.map((u) => {
+          const rows = r.coverage.filter((c) => c.unit === u.id);
+          return rows.length > 0 && (
+            <details class="health-unit">
+              <summary>{u.data.code} — {rows.length} concepts</summary>
+              <table class="health-table">
+                <thead><tr><th scope="col">Concept</th><th scope="col">Questions</th><th scope="col">Cards</th><th scope="col">Explainer</th><th scope="col">Aids</th><th scope="col">Flows</th></tr></thead>
+                <tbody>{rows.map((c) => <tr><th scope="row"><a href={hrefOf(c.id)}>{c.title}</a></th><td>{c.questions}</td><td>{c.cards}</td><td>{mark(c.explainer)}</td><td>{mark(c.aids)}</td><td>{c.flows || '—'}</td></tr>)}</tbody>
+              </table>
+            </details>
+          );
+        })}
+      </section>
+      <p class="health-note">Rolling back a content change: every change is a commit; <code>git revert &lt;commit&gt;</code> undoes one, and setting <code>locked: true</code> on a file protects it from regeneration.</p>
+    </>
+  )}
+</Layout>
+
+<style>
+  .health-table { border-collapse: collapse; font-family: var(--font-ui); font-size: var(--t-sm); margin: var(--s-3) 0 var(--s-5); max-width: var(--measure-wide); }
+  .health-table th, .health-table td { border-bottom: 1px solid var(--line); padding: var(--s-2) var(--s-3); text-align: left; }
+  .health-table td { text-align: right; font-variant-numeric: tabular-nums; }
+  .health-note { color: var(--ink-2); max-width: var(--measure); }
+  .health-conflicts { display: grid; gap: var(--s-2); max-width: var(--measure-wide); }
+  .health-verify { columns: 2 22rem; font-size: var(--t-xs); }
+  .health-unit summary, details summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+  details summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+</style>

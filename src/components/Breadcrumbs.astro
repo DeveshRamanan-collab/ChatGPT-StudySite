@@ -1,0 +1,22 @@
+---
+// Breadcrumbs, identical on every page. The last crumb is the current page (not a link).
+interface Props { items: { href?: string; label: string }[] }
+const { items } = Astro.props;
+---
+
+<nav data-pagefind-ignore class="crumbs" aria-label="Breadcrumb">
+  <ol>
+    {items.map((c, i) => (
+      <li>{c.href && i < items.length - 1 ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}</li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .crumbs ol { display: flex; flex-wrap: wrap; gap: var(--s-2); list-style: none; padding: 0; margin: 0 0 var(--s-4); font-family: var(--font-ui); font-size: var(--t-xs); letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--ink-2); }
+  .crumbs li + li::before { content: '/'; margin-right: var(--s-2); color: var(--ink-3); }
+  .crumbs a { text-decoration-color: transparent; }
+  @media (hover: hover) and (pointer: fine) { .crumbs a:hover { text-decoration-color: currentColor; } }
+  :global(:root[data-block]) .crumbs { opacity: .3; transition: opacity var(--dur-panel) var(--ease-out); }
+  :global(:root[data-focus]) .crumbs { opacity: 0; pointer-events: none; }
+</style>

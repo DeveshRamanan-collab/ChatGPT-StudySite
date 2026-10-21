@@ -1,0 +1,604 @@
+unit: laws2100
+week: 4
+source: raw/laws2100-juris/week-04
+generator: aids-1
+aids:
+  - concept: laws2100-w04-natural-law-and-positivism
+    plain: 'Natural law theorists say law has an essentially moral dimension: law is social facts plus conformity to moral standards. Positivists say law''s existence is simply a matter of social facts.'
+    concrete: 'Augustine asked: ''What are states without justice but robber-bands enlarged?'' It is the gunman situation writ large. A robber band and a state both make demands backed by force. Many natural law thinkers say what separates them is justice: law reflects, or should reflect, justice, and that is what the gunman situation lacks. Hart pushes against this and explains the difference through accepted rules instead.'
+    formal: Hart takes positivism to mean 'the simple contention that it is in no sense a necessary truth that laws reproduce or satisfy certain demands of morality, though in fact they have often done so' (CL 185–186). Natural law contends that between law and morality there is a connection 'in some sense "necessary"', which deserves to be taken as central in analysing law (CL 155).
+    terms:
+      - term: Necessary connection between law and morality (NCLM)
+        gloss: The natural law contention that law and morality are connected in some sense 'necessarily', not just in fact, and that this is central to analysing law (CL 155).
+      - term: Positive law
+        gloss: Human-made law, posited by human authorities. Finnis notes that Aquinas first put the term into wide philosophical circulation.
+      - term: Procedural and substantive natural law
+        gloss: Procedural theories (Fuller) connect law with moral standards of form; substantive theories (Finnis) connect it with moral standards of content, such as basic goods.
+      - term: Conceptual separability
+        gloss: 'What positivists actually claim: law can be identified without moral criteria. ''Separation of law and morals'' is imprecise, since real laws and morals overlap.'
+    misconceptions:
+      - claim: Positivists say laws never reproduce the demands of morality.
+        tempting: '''The separation of law and morals'' sounds absolute.'
+        correction: 'Hart: it is no necessary truth that laws satisfy morality, ''though in fact they have often done so'' (CL 185–186). The claim is conceptual separability; criminal law, for one, overlaps with community morality.'
+      - claim: In the Thomist tradition, principles of justice can be known only through divine revelation.
+        tempting: Aquinas wrote within a religious tradition, and the principles are said to have a divine origin.
+        correction: 'Hart''s statement of the Thomist NCLM: the principles are ''discoverable by human reason without the aid of revelation'' (slide 7).'
+      - claim: Natural lawyers must deny that unjust statutes ever existed or were enforced.
+        tempting: Lex iniusta non est lex sounds like a denial of existence.
+        correction: 'Finnis: natural law theory accepts that law can be spoken of as ''a sheer social fact of power and practice'' and as sound reasons for action. The dispute concerns status, not existence.'
+    socratic:
+      - ask: A robber band and a state both make demands backed by force. For Augustine, what is the difference?
+        hint: His question on slide 6.
+        answer: 'Justice. States without justice are ''robber-bands enlarged'': the gunman situation writ large.'
+      - ask: So for natural law theorists, what is law made of?
+        hint: Social facts, plus what?
+        answer: Social facts plus conformity to certain moral standards of form and/or content. Law has an essentially moral dimension.
+      - ask: What exactly does the positivist deny?
+        hint: 'Hart, CL 185–186: what kind of truth?'
+        answer: That it is a necessary truth that laws reproduce or satisfy demands of morality. Laws often do, but that is contingent.
+      - ask: Hart identifies two versions of the necessary connection. What are they?
+        hint: One about validity; one about whether a legal system exists.
+        answer: 'Thomist: principles of true morality are discoverable by reason, and conflicting man-made laws are not valid. Or: a legal system exists only where a moral obligation to obey is widely recognised.'
+      - ask: Which version fits Finnis, and which Fuller?
+        hint: Substance, or the kind of obligation laws create?
+        answer: The lecture links Finnis's substantive theory with the Thomist tradition, and Fuller's with the claim about the moral obligation that laws create.
+    what-if:
+      - change: A writer accepts that unjust laws can be valid, but says no legal system exists unless most people recognise a moral obligation to obey.
+        effect: She rejects the Thomist NCLM but holds Hart's second reading. Attacking lex iniusta will not touch her; you must address the moral obligation to obey.
+      - change: Hart had kept Austin's imperative theory instead of rejecting it.
+        effect: 'His separation thesis would be unaffected: Hart treats the three utilitarian doctrines (separation, analytical study, imperative theory) as separate claims, not a package.'
+    boundary:
+      - text: Finnis's natural law theory, which shares many 'positivist' theses.
+        why: Finnis says theories of Aquinas's kind reject only the thesis that natural law theories are mistaken, or that a norm is the content of an act of will; they were not conceived in opposition to positivism.
+      - text: A criminal prohibition that matches community morality.
+        why: 'An overlap of law and morality, but positivists treat it as contingent: certain laws in certain situations reproduce moral demands. It is no evidence of a conceptual connection.'
+    transfer:
+      - scenario: 'A debating society motion reads: ''A rule that is properly enacted but deeply unfair is not really law.'' You must explain what the motion commits its supporters to.'
+        answer: 'Ask which necessary connection it asserts. If ''not law'' means not legally valid, it is the Thomist claim, lex iniusta non est lex, which Hart''s positivism denies: no necessary truth ties law to morality (CL 185–186). If it means law, but defective law, it is Finnis''s weaker reading. Name the version before arguing.'
+    objections:
+      - position: Law and morality are conceptually separable; law's existence is a matter of social facts (Hart).
+        evidence: Laws often reproduce morality, but contingently (CL 185–186); that morality influences law is a fact no positivist denies (CL 204).
+        objection: 'Natural law: without justice, states are ''robber-bands enlarged'' (Augustine). Only conformity with moral standards separates law from the gunman situation writ large.'
+        reply: 'Hart explains the difference by accepted rules: officials accept the secondary rules, though acceptance may rest on many considerations other than moral approval (CL 203).'
+      - position: Natural law and positivism are rival theories of the nature of law.
+        evidence: Textbooks present a debate between two camps; Bentham developed positivism in opposition to the natural law tradition (lecture).
+        objection: 'Finnis: natural law theorists did not conceive their theories in opposition to positivism; theories of Aquinas''s kind share virtually all ''positivist'' theses, except that natural law theories are mistaken or that a norm is the content of an act of will.'
+    storyboard:
+      - caption: 'Augustine: states without justice'
+        detail: '''What are states without justice but robber-bands enlarged?'' Justice is what marks off law from the gunman situation writ large.'
+      - caption: 'Aquinas: positive law inside natural law'
+        detail: 'Aquinas first put ''positive law'' into wide circulation, within a natural law theory: principles of justice are discoverable by human reason without revelation.'
+      - caption: 'Bentham and Austin: the utilitarian tradition'
+        detail: 'Positivism is historically younger, developed in opposition to natural law. Hart finds three separate doctrines: separation, analytical study, the imperative theory.'
+      - caption: Hart engages natural law, chapters VIII–IX
+        detail: The Concept of Law (1961) rejects the imperative theory, keeps separation, concedes a minimum content of natural law and two of six NCLM claims.
+      - caption: 'Finnis: Natural Law and Natural Rights'
+        detail: 'Finnis, who wrote his Oxford doctorate under Hart, publishes NLNR in 1980: even a descriptive theory of law requires evaluation.'
+    sources:
+      - Week 04 - Lecture Slides (slides 2–8, 20)
+      - Week 04 - Lecture Transcript (first half)
+  - concept: laws2100-w04-minimum-content-of-natural-law
+    plain: 'Hart says that, given facts about human beings, every legal system must give at least some members basic protection of persons, property and promises: a natural necessity, not a conceptual link.'
+    concrete: 'Picture the cruellest dictatorship. One person cannot run it alone: some members of the community must voluntarily accept its primary and secondary rules. They will do so only if the rules at least protect their own lives and property; otherwise, Hart says, the system would be a suicide pact. The majority may live terribly, but even this regime needs a minimum content to work.'
+    formal: 'The ''simple truisms'' disclose ''the core of good sense in the doctrine of Natural Law''. Given ''the setting of natural facts and aims, which make sanctions both possible and necessary'', minimum protection for persons, property and promises is a ''natural necessity'' and an indispensable feature of municipal law: the reply to ''the positivist thesis that "law may have any content"'' (CL 199).'
+    terms:
+      - term: Natural necessity
+        gloss: A necessity arising from the world we live in, given facts about human beings and their aims; contrasted with a conceptual truth about law.
+      - term: Empirical version of natural law
+        gloss: Hart's version, resting on facts about human beings and their setting, drawn from Hobbes (Leviathan chs 14–15) and Hume (Treatise Book III, part 2).
+      - term: '''Law may have any content'''
+        gloss: The positivist thesis Hart replies to. The lecture identifies Kelsen, for whom the content of individual laws is irrelevant and only the chain of validity matters.
+    misconceptions:
+      - claim: For Hart, a rule that fails to protect persons and property is not law.
+        tempting: Hart speaks of 'necessity' and of natural law.
+        correction: It is a natural necessity for a system to work, not a test of each rule's validity. Hart concedes a core of good sense in natural law, not a conceptual connection (CL 199).
+      - claim: Hart's 'empirical version' of natural law rests on surveys of what people believe is just.
+        tempting: '''Empirical'' suggests opinion data.'
+        correction: It rests on simple truisms about human beings and their setting, drawn from Hobbes and Hume, rather than on a necessary conceptual truth.
+      - claim: Hart's reply to 'law may have any content' is aimed at Austin.
+        tempting: Austin's sovereign is legally unlimited, so his commands could have any content.
+        correction: 'The lecture identifies Kelsen: for him only the chain of validity matters, and the content of individual laws is irrelevant.'
+    socratic:
+      - ask: Could one person run even the cruellest dictatorship alone?
+        hint: Who must accept the rules?
+        answer: No. Some members must voluntarily accept the regime's primary and secondary rules, even if they are a minority.
+      - ask: Why would that group accept the rules?
+        hint: What would make belonging pointless?
+        answer: Only if the rules give them at least basic protection of their lives and property; otherwise, Hart says, it would be a suicide pact.
+      - ask: So can law have any content at all?
+        hint: Whose thesis is 'law may have any content'?
+        answer: 'No: some rules must protect persons, property and promises. Hart is replying to Kelsen, for whom content is irrelevant.'
+      - ask: Does that make morality part of the concept of law?
+        hint: Compare what Hart says about coercion.
+        answer: No. As with coercion, the link is a natural necessity in the world we live in, not a conceptual truth. Hart concedes good sense, not the NCLM.
+      - ask: Why did Finnis object to the label?
+        hint: What kind of law is Hart describing?
+        answer: Hart argues that positive law has this minimum content, so Finnis said he should have called it the minimum content of positive law.
+    what-if:
+      - change: A regime protects its ruling group's lives and property while brutally oppressing the majority.
+        effect: 'Consistent with the minimum content: Hart accepts a system may protect only some members. That is why the minimum content does not guarantee justice.'
+      - change: No rule of the regime protects anyone, not even its officials, from violence.
+        effect: 'No one would voluntarily accept such rules: it would be a suicide pact. On Hart''s argument a legal system could not exist on that footing.'
+    boundary:
+      - text: 'Fuller''s principles of legality: general, public, prospective and so on.'
+        why: 'A different claim: formal conditions for governing by rules (Hart''s claim 5). The minimum content concerns substance: protection for persons, property and promises.'
+      - text: Kelsen's chain of validity.
+        why: 'Kelsen treats any content as legally possible; the minimum content is Hart''s reply. Both remain positivists: Hart still denies a conceptual connection between law and morality.'
+    transfer:
+      - scenario: A new settlement on Mars drafts its first code. One delegate proposes leaving out every rule on violence and property, since 'law may have any content'.
+        answer: 'Hart''s reply: given the setting of natural facts and aims, rules restricting violence and protecting property and promises are a natural necessity for any working system (CL 199). Without them no one would accept the rules voluntarily. Yet this is still not a conceptual claim that each law must be moral.'
+    objections:
+      - position: Hart concedes a core of good sense in natural law without conceding the NCLM.
+        evidence: Minimum protection for persons, property and promises is a natural necessity given natural facts and aims, drawn from Hobbes and Hume, not a conceptual truth (CL 199).
+        objection: 'Finnis: the label misleads. Hart is describing what positive law must contain, so he should have called it the minimum content of positive law (lecture).'
+      - position: Law may have any content (Kelsen).
+        evidence: For Kelsen the content of individual laws is irrelevant; what matters legally is how laws are authorised in the chain of validity (lecture).
+        objection: 'Hart: a system could not exist unless some rules protect at least some members'' persons, property and promises; otherwise it would be a suicide pact (CL 199; lecture).'
+    sources:
+      - Week 04 - Lecture Slides (slide 9)
+      - Week 04 - Lecture Transcript (first half)
+  - concept: laws2100-w04-harts-six-claims
+    plain: Hart splits the vague idea of a 'necessary connection' between law and morality into six separate claims, judges each on its own, and concedes two of them.
+    concrete: 'You accept the rules of chess for the purpose of playing chess, without passing moral judgment on them. Hart says officials accept a legal system''s secondary rules in the same way: allegiance may rest on long-term interest, concern for others, an inherited attitude, or wanting to do as others do. They may even decide that morally they ought not to accept it, yet continue. So claim (1) does not make law moral.'
+    formal: 'Six claims (CL ch IX): (1) power and authority; (2) influence of morality on law; (3) interpretation; (4) criticism of law; (5) principles of legality and justice; (6) legal validity and resistance to law. Of (2) and (5): if this is what the necessary connection means, its existence should be conceded. Legality is ''unfortunately compatible with very great iniquity'' (CL 207).'
+    analogy:
+      text: A chess player accepts the rules of chess for the purpose of playing, without judging them morally good. Hart says officials accept the secondary rules of a legal system in the same way.
+      maps:
+        - from: the chess player
+          to: the official, above all the judge
+        - from: accepting the rules in order to play
+          to: accepting the secondary rules as common public standards of official behaviour
+        - from: no moral verdict on the rules of chess
+          to: acceptance that need not be moral approval (CL 203)
+      limits:
+        - A player chooses to play; for Hart only officials must accept the secondary rules, while citizens need only generally obey the valid rules (CL 109).
+        - The rules of chess bind only those who play; legal rules bind people who never accept them.
+    terms:
+      - term: Accepted authority
+        gloss: 'For Hart, the coercive power of law presupposes it: officials accept the secondary rules from the internal point of view, for any of many reasons.'
+      - term: Principles of legality
+        gloss: 'Conditions for social control by rules: intelligible, within most people''s capacity to obey, not retrospective (CL 207). Fuller calls them the inner morality of law.'
+      - term: Contingent connection
+        gloss: A link between law and morality that holds in fact in some systems, such as moral criteria in the US Constitution, but is not a necessary truth.
+    misconceptions:
+      - claim: For Hart, those who accept a legal system's authority must believe it is morally justified.
+        tempting: '''Acceptance'' and ''authority'' sound like moral endorsement.'
+        correction: Allegiance may rest on long-term interest, disinterested interest in others, an inherited attitude or the wish to do as others do; one may judge the system morally wrong yet continue (CL 203).
+      - claim: Hart rejects all six claims, so there is no connection of any kind between law and morality.
+        tempting: He is a positivist resisting the necessary connection.
+        correction: 'He concedes (2) and (5): morality in fact influences law, and general, public rules realise a minimum of justice. His target is conceptual necessity, not every connection.'
+      - claim: Conceding the principles of legality commits Hart to saying unjust laws are not law.
+        tempting: He accepts a necessary connection there.
+        correction: 'He adds that the inner morality of law ''is unfortunately compatible with very great iniquity'' (CL 207): formal legality neither excludes injustice nor defeats validity.'
+    socratic:
+      - ask: An essay asserts that 'law and morality are necessarily connected'. What should you ask first?
+        hint: Which connection?
+        answer: 'Which specific claim is meant. Hart breaks the idea into six: power and authority, influence, interpretation, criticism, legality and justice, validity and resistance.'
+      - ask: Does law's coercive power presuppose that officials morally approve of the system?
+        hint: 'CL 203: why might officials accept?'
+        answer: It presupposes accepted authority, but acceptance may rest on interest, concern for others, tradition or conformity. It need not be moral approval.
+      - ask: The US Constitution writes moral values into its criteria of validity. Does that prove the NCLM?
+        hint: Is the same true of every system?
+        answer: 'No. It shows morality influences law in fact, which no positivist denies (CL 204). It is contingent: England has no such formal restriction.'
+      - ask: General, public, prospective rules realise a minimum of justice. Is that the necessary connection?
+        hint: What does Hart add at CL 207?
+        answer: If so, Hart accepts it, but it 'is unfortunately compatible with very great iniquity'. A system can follow legality and still be unjust.
+    elements:
+      - name: (1) Power and authority
+        test: Does law's coercive power presuppose accepted authority? Yes, but acceptance may rest on many considerations, not moral approval (CL 203). No necessary moral connection.
+        authorities:
+          - hart-the-concept-of-law
+      - name: (2) Influence of morality on law
+        test: Is law in fact shaped by social morality and moral ideals, sometimes expressly, as in the US? Conceded, but the link is contingent (CL 204).
+        authorities:
+          - hart-the-concept-of-law
+      - name: (5) Principles of legality and justice
+        test: Do general rules publicly announced and judicially applied realise a minimum of justice? Conceded, but 'compatible with very great iniquity' (CL 206–207).
+        authorities:
+          - hart-the-concept-of-law
+    what-if:
+      - change: A judge applies a harsh regime's rules only to keep her job, privately thinking the system morally wrong.
+        effect: 'She still accepts the rules on Hart''s account: allegiance may rest on long-term interest or the wish to do as others do, and one may judge the system wrong yet continue (CL 203).'
+      - change: A statute is general, public, prospective and clear, but authorises expropriating a minority.
+        effect: 'It satisfies legality yet is gravely unjust: Hart''s illustration that legality is ''compatible with very great iniquity'' (CL 207), a counter-example to the NCLM.'
+      - change: A system's constitution, like the US Constitution, expressly makes principles of justice criteria of validity.
+        effect: 'Moral tests then bear on validity in that system, but by the system''s own provision: claim (2), a contingent connection that no positivist denies (CL 204).'
+    boundary:
+      - text: Hart's minimum content of natural law.
+        why: 'Discussed in the same chapter but apart from the six claims: a natural necessity about what a system needs to work, not a claim about each law.'
+      - text: English legislation, with no formal restrictions on Parliament.
+        why: 'Still claim (2): its legislation may ''no less scrupulously conform to justice or morality'' (CL 204), though nothing in the criteria of validity requires it.'
+    transfer:
+      - scenario: A sports governing body publishes clear, general, prospective rules and applies them consistently, yet its rules systematically exclude one group of athletes.
+        answer: 'Hart''s claim (5) applies by analogy: governing by general, public, prospective rules realises a minimum of justice, but it is ''compatible with very great iniquity'' (CL 207). Procedural regularity does not make the rules just. Treat legality and substantive justice as separate questions.'
+    objections:
+      - position: The necessary connection, properly analysed, should be partly conceded (Hart).
+        evidence: Morality in fact influences law (claim 2, CL 204), and governing by general, public rules realises a minimum of justice (claim 5, CL 206).
+        objection: 'Fuller: compliance with legality carries real moral weight; good order, order that follows the principles, is necessarily more just than a system that does not (lecture).'
+        reply: 'Hart: the inner morality of law ''is unfortunately compatible with very great iniquity'' (CL 207).'
+      - position: Law's coercive power presupposes accepted authority, but not moral acceptance (Hart).
+        evidence: Allegiance may rest on interest, concern for others, tradition or conformity; one may judge the system morally wrong yet continue (CL 203).
+        objection: 'Finnis: treating the internal point of view as an amalgam of very different viewpoints is the weakness; theory should focus on its central case, the practically reasonable person.'
+    sources:
+      - Week 04 - Lecture Slides (slides 10–14)
+      - Week 04 - Lecture Transcript (first half)
+  - concept: laws2100-w04-fullers-inner-morality-of-law
+    plain: 'Fuller says law is the enterprise of governing conduct by rules. To work, rules must be general, public, prospective, clear, coherent, practicable, stable and actually followed by officials: law''s inner morality.'
+    concrete: 'Fuller''s ruler, Rex, tries to govern by deciding matters case by case. He fails, not because his decisions are unjust in content, but because his subjects cannot comply: there are no general, stable rules to follow. Imagine laws that are secret, retrospective, unclear, contradictory and constantly changing, with officials who ignore them. We could not say that community has a legal system at all.'
+    formal: Law is 'the enterprise of subjecting human conduct to the governance of rules'. Laws must be general, public, prospective, clear, coherent, practicable and stable, with congruence between official action and the law. Hart should seek 'a definition of law that will make meaningful the obligation to fidelity to law' (Fuller 1958, 635); the issues restate as 'order and good order' (644).
+    analogy:
+      text: Picture a board game whose rulebook is hidden, rewritten after each move, contradicts itself, and is ignored by the referee. Nobody could play it, however fair its rules might be.
+      maps:
+        - from: the hidden rulebook
+          to: a breach of publicity
+        - from: rules rewritten after each move
+          to: retrospective and unstable rules
+        - from: a self-contradicting rulebook
+          to: incoherent rules
+        - from: a referee who ignores the rules
+          to: no congruence between official action and the law
+      limits:
+        - Fuller's further claim, that legality has moral weight because it treats subjects as autonomous rational beings, has no counterpart in the game.
+        - 'Hart''s reply fits the game too: a game played by perfect rules can still be grossly unfair, as legality is ''compatible with very great iniquity''.'
+    terms:
+      - term: Inner morality of law
+        gloss: The morality within law, which law must comply with to be law, expressed in the principles of legality; not an external morality used to evaluate law.
+      - term: Principles of legality
+        gloss: 'Fuller''s eight requirements: general, public, prospective, clear, coherent, practicable, stable, and congruence between official action and the law.'
+      - term: Fidelity to law
+        gloss: Respect for and adherence to law. Fuller says a definition of law should make the obligation of fidelity to law meaningful (1958, 635).
+      - term: Order and good order
+        gloss: 'Fuller''s restatement of the debate (1958, 644): good order follows the principles of legality, and he argues it is necessarily more just than bare order.'
+    misconceptions:
+      - claim: Fuller's inner morality of law is a set of moral standards for judging laws from outside.
+        tempting: Morality is usually an external yardstick for law.
+        correction: The lecture stresses it is the morality within law, which law must comply with to be law, not external moral criteria.
+      - claim: Fuller's principles guarantee that the content of every law is just.
+        tempting: Fuller links legality with good order and justice.
+        correction: The principles are formal and name no content. Fuller argues a system following them is more just; Hart replies that legality is compatible with very great iniquity (CL 207).
+      - claim: Rex fails because his laws are unjust.
+        tempting: Unjust rulers often fail.
+        correction: Rex fails because he governs case by case and nobody could comply, not because of the content of his laws.
+    socratic:
+      - ask: What is Fuller's definition of law, and what does it leave out?
+        hint: Look for any reference to content.
+        answer: Law is the enterprise of subjecting human conduct to the governance of rules. It names no specific content.
+      - ask: Why does Rex fail?
+        hint: Case by case.
+        answer: He tries to govern case by case. Without general, stable rules his subjects cannot comply, however just his decisions are.
+      - ask: What must rules be like for subjects to be able to comply?
+        hint: There are eight principles.
+        answer: General, public, prospective, clear, coherent, practicable, stable, with congruence between official action and the law.
+      - ask: Why call these formal requirements a morality?
+        hint: Who can respond to such rules?
+        answer: Following them treats subjects as autonomous rational beings who can guide their own conduct by rules; that recognition carries a moral dimension.
+      - ask: How does Hart answer?
+        hint: CL 207.
+        answer: If that is what the necessary connection means, we may accept it, but it 'is unfortunately compatible with very great iniquity'.
+    elements:
+      - name: General
+        test: Are there rules at all, rather than decisions made case by case, as Rex tried?
+        authorities:
+          - fuller-the-morality-of-law
+      - name: Public
+        test: Are the rules made known to those bound by them, rather than kept secret?
+      - name: Prospective
+        test: Do the rules govern future conduct, rather than make past conduct unlawful?
+      - name: Clear
+        test: Can those bound understand what the rules require?
+      - name: Coherent
+        test: Are the rules free of contradictions with one another?
+      - name: Practicable
+        test: Is compliance within the capacity of those bound, rather than demanding the impossible?
+      - name: Stable
+        test: Do the rules stay settled long enough for people to comply, rather than constantly changing?
+      - name: Congruence
+        test: Do officials act in line with the declared law, unlike Hitler's officials who acted 'through the party in the streets' (Fuller 1958, 652)?
+        authorities:
+          - fuller-positivism-and-fidelity-to-law
+    what-if:
+      - change: A statute makes conduct that was lawful last year a crime, and applies it to acts done last year.
+        effect: It breaches prospectivity. A rule that reaches back cannot guide conduct, so for Fuller it fails the inner morality of law; enough such failures and there is no legal system to speak of.
+      - change: Police routinely arrest people for conduct that a published regulation expressly permits.
+        effect: 'Congruence between official action and the law fails. Fuller''s Nazi example is this kind of failure: officials acting ''through the party in the streets'' (1958, 652).'
+      - change: Every principle is met, but the laws expropriate a minority.
+        effect: 'Fuller''s formal tests are satisfied, so Hart''s reply bites: legality is compatible with very great iniquity (CL 207). Fuller would answer that good order is more likely to be just.'
+    boundary:
+      - text: The Nazi legal system in the Hart–Fuller debate.
+        why: 'Both used it as an example of an evil legal system. Fuller argued it fell short of legality: judges disregarded validly enacted law and officials acted ''through the party in the streets'' (652).'
+      - text: The rule of law.
+        why: 'A different concept, but with an important overlap: rule of law scholarship refers back to Fuller''s principles, and debates whether complying with them makes a system more just.'
+    transfer:
+      - scenario: A university announces a new plagiarism rule after semester ends, applies it to essays already submitted, and lets each marker decide privately what it means.
+        answer: 'On Fuller''s principles the rule fails prospectivity (it reaches back to work already done), clarity, and arguably publicity and congruence. Students could not have guided their conduct by it: a failure of the enterprise of governing by rules, whatever its aims. Hart would add that a rule passing every test could still be unjust.'
+    objections:
+      - position: Legality is both constitutive of law and morally valuable (Fuller).
+        evidence: A regime that breaches the principles cannot guide conduct and so cannot meaningfully be called law; following them treats subjects as autonomous rational beings (lecture).
+        objection: 'Hart: the inner morality of law is ''unfortunately compatible with very great iniquity'' (CL 207). Constitutive of law, perhaps; a guarantee of justice, no.'
+        reply: 'Fuller: good order, order that follows legality, is more just than bare order; the Nazi regime itself abandoned legality (1958, 644, 652).'
+      - position: Hart should define law so as to make fidelity to law meaningful (Fuller).
+        evidence: 'Fuller 1958, 635: Hart should ''concern himself more closely with a definition of law that will make meaningful the obligation to fidelity to law''.'
+        objection: 'Hart''s ''two simple things'': absent an express provision, a rule''s immorality does not make it not law, nor its moral desirability make it law (1958, 599).'
+    storyboard:
+      - caption: 'Hart''s 1958 lecture: two simple things'
+        detail: 'In the Harvard Law Review, Hart restates Bentham and Austin: immorality does not unmake a rule of law; desirability does not make one.'
+      - caption: 'Fuller replies: fidelity to law'
+        detail: In the same volume Fuller asks for a definition of law that makes fidelity meaningful, and restates the issues as order and good order.
+      - caption: Nazi law as the test case
+        detail: 'Fuller: Hitler''s judges disregarded validly enacted law, and officials acted ''through the party in the streets'' (652).'
+      - caption: Hart concedes, with a sting
+        detail: 'The Concept of Law: general, public rules realise a minimum of justice; the ''inner morality of law'' is accepted, but ''compatible with very great iniquity''.'
+      - caption: The Morality of Law (1964)
+        detail: Fuller sets out the eight principles of legality, opening with Rex, who fails because nobody could comply with his rule case by case.
+    sources:
+      - Week 04 - Lecture Slides (slides 14–19)
+      - Week 04 - Lecture Transcript (second half)
+    verify: true
+  - concept: laws2100-w04-finnis-central-case-method
+    plain: 'Finnis says you cannot even describe law without evaluating it: deciding which cases of law are central, and whose viewpoint counts, requires judging what is really good for people.'
+    concrete: 'Hart treats the legal system of the modern state as the central case of law, and international law, which lacks the union of primary and secondary rules, as a borderline case. But why is the modern state central? Not because it is the commonest instance: 2,000 years ago there was no modern state. Finnis says choosing what is central and significant is already an evaluation.'
+    formal: '''No theorist can give a theoretical description and analysis of social facts without also participating in the work of evaluation'' (NLNR 3). Hart and Raz improved on the ''rather naive'' methods of Bentham, Austin and Kelsen through attention to practical point, selection of central case and focal meaning, and selection of viewpoint (NLNR 6). The central case of the internal point of view is the practically reasonable person.'
+    analogy:
+      text: To describe real friendships you need a picture of a good friend. A disloyal friend is still loosely a 'friend', but measured against the central case, falls short.
+      maps:
+        - from: the picture of a good friend
+          to: the central case of law, understood through what good law is
+        - from: real friendships of varying quality
+          to: actual laws and legal systems
+        - from: describing and comparing friendships
+          to: descriptive legal theory
+        - from: the disloyal friend
+          to: 'an unjust law: a peripheral case'
+      limits:
+        - Most people share a picture of a good friend; what counts as good law depends on a contested account of practical reasonableness and basic goods.
+        - Friendship has no institutions; Finnis's central case of law is the law of a complete community claiming comprehensive, supreme authority (NLNR 260).
+    terms:
+      - term: Central case and focal meaning
+        gloss: Defining a concept by its fullest, most significant instances and treating others as peripheral by degree, instead of listing features every instance must have.
+      - term: Practical reasonableness
+        gloss: For Finnis, reasoning well about what to do in relation to the basic goods of human flourishing; it identifies the central case of the internal point of view.
+      - term: Central case of the internal point of view
+        gloss: 'Finnis''s refinement of Hart: not an amalgam of viewpoints, but the viewpoint of the practically reasonable person.'
+      - term: Basic goods
+        gloss: The goods that underpin genuine human flourishing, in relation to which Finnis works out what practical reasonableness requires.
+    misconceptions:
+      - claim: Finnis says legal theorists should abandon description and write only normative theory.
+        tempting: He stresses evaluation.
+        correction: 'His claim concerns what even a descriptive theory requires: evaluation is needed to describe law (NLNR 3), not instead of describing it.'
+      - claim: Finnis rejects Hart's theory wholesale.
+        tempting: He is a natural law critic of positivism.
+        correction: He credits Hart and Raz with greater explanatory power than the 'rather naive' methods of Bentham, Austin and Kelsen (NLNR 6), keeps the central case method, and applies it to the internal point of view.
+      - claim: For Hart, the internal point of view is moral approval of the legal system.
+        tempting: Finnis's critique of Hart turns on morality.
+        correction: For Hart it is an amalgam of very different viewpoints (CL 203). Finnis's complaint is exactly that Hart does not single out the practically reasonable one.
+    socratic:
+      - ask: Hart says Austin's theory 'failed to fit the facts'. What kind of theory is Hart writing, then?
+        hint: Descriptive or normative?
+        answer: Descriptive, like Austin's. Hart's objection is that Austin's description lacks explanatory power.
+      - ask: Why do descriptive theorists disagree, if they know the same data?
+        hint: Slide 24.
+        answer: They disagree about what is important and significant in data with which they are all equally familiar.
+      - ask: What made Hart pick the modern state as law's central case, and continuity and persistence as salient features?
+        hint: Is that a neutral fact?
+        answer: 'Judgments of importance. Finnis presses: by what criteria is a case central, and from what viewpoint is significance assessed?'
+      - ask: Hart's internal point of view mixes interest, tradition and conformity. What should a theorist do instead?
+        hint: Apply the central case method again.
+        answer: 'Find the central case of the internal point of view: the practically reasonable person, identified by asking what practical reasonableness requires in relation to the basic goods.'
+      - ask: What follows for the central case of law?
+        hint: NLNR 260.
+        answer: Its authority depends on its justice, or at least its ability to secure justice. Unjust systems are peripheral, not central.
+    elements:
+      - name: Attention to practical point
+        test: Does the theory explain law by the point it has for those who live under it? The first feature Finnis credits to Hart and Raz (NLNR 6).
+        authorities:
+          - finnis-natural-law-and-natural-rights
+      - name: Central case and focal meaning
+        test: 'Does it select a central case rather than features every instance must share? Hart: the union of rules as law''s ''essence'', though not always found together (CL 155).'
+        authorities:
+          - hart-the-concept-of-law
+      - name: Selection of viewpoint
+        test: 'From whose viewpoint is importance assessed? Hart: the internal point of view, an amalgam (CL 203). Finnis: its central case, the practically reasonable person.'
+        authorities:
+          - finnis-natural-law-and-natural-rights
+    what-if:
+      - change: 'Hart had chosen law''s central case by frequency alone: the commonest legal form here and now.'
+        effect: 'Finnis''s challenge sharpens: 2,000 years ago there was no modern state, so frequency gives no stable criterion. Choosing what is central still needs a judgment of importance.'
+      - change: A theorist describes law only from the viewpoint of officials who accept the rules to keep their jobs.
+        effect: For Finnis that viewpoint is peripheral. The central case of the internal point of view is the practically reasonable person, so this description would misidentify law's central case.
+    boundary:
+      - text: International law in Hart's theory.
+        why: 'Law, but not a legal system: a set of primary rules without the union with secondary rules. Hart treats it as peripheral to the modern state; Finnis asks what makes that choice right.'
+      - text: Schauer's salient features of law (week 2).
+        why: 'The lecture links them: Schauer also moves from necessary features of law to which features are salient or significant, the same methodological question Finnis presses.'
+    transfer:
+      - scenario: A sociologist plans a 'purely descriptive' account of what a university is, covering everything from research universities to diploma mills, with no value judgments.
+        answer: 'Finnis''s point applies: treating a research university as central and a diploma mill as peripheral, and choosing whose viewpoint counts, already involves judging what a university is for. On his method, description needs an evaluative grasp of the good case (NLNR 3, 6); a positivist would insist description can remain morally neutral.'
+    objections:
+      - position: Descriptive legal theory requires evaluation (Finnis).
+        evidence: Selecting a central case, focal meaning and viewpoint involves judgments of significance; 'failed to fit the facts' already presupposes which facts are salient (NLNR 3, 6).
+        objection: 'Hart: ''My account is descriptive in that it is morally neutral and has no justificatory aims'' (CL 240).'
+        reply: 'Finnis: Hart gives explanatory priority to the internal point of view, yet cannot say which viewpoint within it is central without asking what practical reasonableness requires.'
+      - position: The central case of the internal point of view is the practically reasonable person (Finnis).
+        evidence: Hart's internal point of view is an amalgam of very different viewpoints (CL 203); a theory has to rank them to explain law.
+        objection: 'It makes the description depend on one contested account of basic goods: buy into a different natural law theory, or positivism, and you will disagree with Finnis''s choice (lecture).'
+    sources:
+      - Week 04 - Lecture Slides (slides 20–26)
+      - Week 04 - Lecture Transcript (second half)
+  - concept: laws2100-w04-lex-iniusta-strong-and-weak
+    plain: '''An unjust law is not a law'' can mean two things: strongly, that unjust laws are not legally valid; weakly (Finnis), that they are laws, but defective ones, not law in the full sense.'
+    concrete: 'A fallacious argument is still an argument: we use the word and know what we mean. But it is not properly an argument, because a good argument is logically sound. The lecture uses this, and the disloyal friend, to explain Finnis: an unjust law is a law, but measured against the central case of law it falls short. The more unjust a system, the more peripheral it is.'
+    formal: 'Strong thesis: moral soundness is a necessary element of legal validity, so unjust ''laws'' are not legally valid; for Radbruch, only extremely unjust ones. Weak thesis (Finnis): unjust ''laws'' are not laws in the true sense; they are morally and legally defective. The key question is how injustice affects the obligation to obey the law, which has four senses (slides 27–28).'
+    terms:
+      - term: Lex iniusta non est lex
+        gloss: '''An unjust law is not a law'': the natural law maxim whose reading, strong or weak, decides what injustice does to a law.'
+      - term: Strong natural law thesis
+        gloss: 'Moral soundness is a necessary element of legal validity, so unjust ''laws'' are not legally valid. Radbruch''s version: only extremely unjust ''laws''.'
+      - term: Weak natural law thesis
+        gloss: 'Unjust ''laws'' are not laws in their central case or focal meaning: morally and legally defective, but not thereby invalid (Finnis).'
+      - term: Intra-systemic legal obligation
+        gloss: 'Legal obligation ''in the legal sense'': what the system''s own rules require, as distinct from any moral force. Finnis''s second sense.'
+    misconceptions:
+      - claim: Finnis thinks unjust laws are legally invalid.
+        tempting: He is a natural law theorist who discusses lex iniusta at length.
+        correction: 'He holds the weak thesis: unjust laws are not laws in their central case, and are morally and legally defective, but that is not to say they are invalid.'
+      - claim: Radbruch's claim that only extremely unjust laws are invalid is a version of the weak thesis.
+        tempting: It is narrower than the traditional claim.
+        correction: It is still a claim about legal validity, so it belongs with the strong thesis (slide 28).
+      - claim: Refuting the strong thesis refutes natural law theory.
+        tempting: Lex iniusta is the most famous natural law claim.
+        correction: It does not touch Finnis, who reads the maxim weakly. Always say which thesis a writer holds.
+    socratic:
+      - ask: '''An unjust law is not a law.'' Is that a claim about validity, or something else?'
+        hint: It depends on the theorist.
+        answer: Either. The strong thesis says unjust laws are not legally valid; the weak thesis says they are not laws in the true sense of the word.
+      - ask: Radbruch says only extremely unjust laws are invalid. Strong or weak?
+        hint: What is the claim about?
+        answer: 'Strong: it is still a claim about legal validity, made of each and every extremely unjust law.'
+      - ask: Is a fallacious argument an argument?
+        hint: Do we use the word for it?
+        answer: 'Yes and no: we call it an argument, but it is not properly one, measured against a sound argument. Finnis reads unjust laws the same way.'
+      - ask: So what is the key question about unjust laws?
+        hint: Slide 27.
+        answer: How injustice affects the obligation to obey the law, which Finnis shows can mean four different things.
+      - ask: Which sense of obligation plainly survives a gravely unjust law in an effective regime?
+        hint: What can still happen to you?
+        answer: 'Empirical liability to sanction: the regime can still punish non-compliance. The senses carrying moral force are what injustice puts in question.'
+    elements:
+      - name: Empirical liability
+        test: 'Liability to be subjected to sanction in the event of non-compliance: a matter of fact about enforcement.'
+        authorities:
+          - finnis-natural-law-and-natural-rights
+      - name: Intra-systemic legal obligation
+        test: 'Legal obligation ''in the legal sense'': what the system''s own rules require.'
+      - name: Legal obligation in the moral sense
+        test: The moral obligation to comply that attaches to a law because it is law.
+      - name: Independent moral obligation
+        test: A moral obligation that does not derive from the legality of the stipulation-of-obligation.
+    what-if:
+      - change: A writer says an extremely unjust statute was 'never law at all', so officials acting under it had no legal authority.
+        effect: 'That is the strong thesis in Radbruch''s form: a claim about legal validity. Finnis''s weak reading would call the statute law, but defective: not law in its focal meaning.'
+      - change: The statute is only mildly unjust.
+        effect: Radbruch leaves it valid. The traditional strong thesis makes it invalid; the weak thesis makes it a law, somewhat peripheral to the central case. Which thesis is held decides the answer.
+    boundary:
+      - text: Hart's minimum content of natural law.
+        why: 'Not lex iniusta: it says what a legal system needs to work, and makes no claim that a law lacking that content is invalid or defective.'
+      - text: A gravely unjust legal system that is still effective.
+        why: Finnis accepts it exists as law. It is peripheral to the central case, and the more unjust it is, the more peripheral.
+    transfer:
+      - scenario: A historian says a former regime's race laws 'were not really law'. A colleague replies that people were arrested under them every day.
+        answer: They may be talking past each other. The colleague is right about empirical liability to sanction, Finnis's first sense, and natural law accepts that unjust laws exist as social facts. If the historian means 'not legally valid', that is the strong thesis; if 'not law in its central case', the weak thesis, which concedes the laws existed.
+    objections:
+      - position: Unjust laws are not legally valid (strong thesis; for Radbruch, extremely unjust ones).
+        evidence: 'The Thomist NCLM: man-made laws that conflict with principles of true morality or justice are not valid law (slide 7).'
+        objection: 'Hart''s two simple things: absent an express provision, it does not follow from a rule''s violating morality that it is not a rule of law (1958, 599). Existence and merit are separate questions.'
+      - position: 'Unjust laws are laws, but defective ones: not law in its central case (Finnis''s weak thesis).'
+        evidence: We call a fallacious argument an argument, yet measure it against a sound one; the more unjust a system, the more peripheral (lecture).
+        objection: 'Positivists push against this (lecture): for Hart, a clear understanding of law is a preliminary to moral criticism of it, not something that already contains it (CL 240).'
+    sources:
+      - Week 04 - Lecture Slides (slides 7, 17, 27–29)
+      - Week 04 - Lecture Transcript (second half)
+flows:
+  - slug: which-necessary-connection
+    title: Does this claim assert a necessary connection between law and morality?
+    summary: Sorts a claim about law and morality into the version it really makes (strong or weak lex iniusta, the moral-obligation reading, or one of Hart's concessions) and says whether it asserts a necessary connection.
+    start: n1
+    concepts:
+      - laws2100-w04-natural-law-and-positivism
+      - laws2100-w04-lex-iniusta-strong-and-weak
+      - laws2100-w04-harts-six-claims
+      - laws2100-w04-minimum-content-of-natural-law
+    sources:
+      - Week 04 - Lecture Slides (slides 4, 7, 9–14, 17, 27–28)
+      - Week 04 - Lecture Transcript (first half)
+      - Week 04 - Lecture Transcript (second half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Does the claim say an unjust rule is not legally valid?
+        note: 'Lex iniusta non est lex read as a claim about validity. Hart''s Thomist version: man-made laws conflicting with principles of true morality or justice, discoverable by reason, are not valid law.'
+        concept: laws2100-w04-lex-iniusta-strong-and-weak
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n5
+      - id: n2
+        kind: ask
+        text: Does it say this of every unjust rule, or only of extremely unjust ones?
+        branches:
+          - label: Every unjust rule
+            to: n3
+          - label: Only extremely unjust ones
+            to: n4
+      - id: n3
+        kind: end
+        tone: met
+        text: 'The strong natural law thesis: moral soundness is a necessary element of legal validity. Positivists deny it: it is in no sense a necessary truth that laws satisfy morality (CL 185–186).'
+      - id: n4
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'Still the strong thesis, in Radbruch''s narrower form: a claim about the validity of each extremely unjust law. Lesser injustice leaves validity untouched.'
+      - id: n5
+        kind: ask
+        text: Does it say unjust rules are laws, but not laws in the true sense of the word?
+        note: Measured against the central case of law, as a fallacious argument is measured against a sound one.
+        concept: laws2100-w04-finnis-central-case-method
+        authorities:
+          - finnis-natural-law-and-natural-rights
+        branches:
+          - label: 'Yes'
+            to: n6
+          - label: 'No'
+            to: n7
+      - id: n6
+        kind: end
+        tone: qualified
+        text: 'The weak natural law thesis (Finnis): unjust laws are morally and legally defective and peripheral to the central case, but not thereby invalid. Attacking the strong thesis does not touch it.'
+      - id: n7
+        kind: ask
+        text: Does it say a legal system exists only where people widely recognise a moral obligation to obey the law?
+        note: Hart's second reading of the NCLM, which the lecture links with Fuller. Widely diffused, not necessarily universal, and open to being overridden by a stronger obligation not to obey iniquitous laws.
+        branches:
+          - label: 'Yes'
+            to: n8
+          - label: 'No'
+            to: n9
+      - id: n8
+        kind: end
+        tone: met
+        text: 'The moral-obligation version of the NCLM. Hart resists it: a legal system needs officials'' acceptance of the secondary rules, which may rest on interest, tradition or conformity rather than moral approval (CL 109, 203).'
+      - id: n9
+        kind: ask
+        text: What does the claim tie law to instead?
+        note: 'Hart''s lesson: never argue ''the necessary connection'' in general. Name the specific claim.'
+        concept: laws2100-w04-harts-six-claims
+        authorities:
+          - hart-the-concept-of-law
+        branches:
+          - label: Protection of persons, property and promises
+            to: n10
+          - label: General, public, prospective rules
+            to: n11
+          - label: Morality's influence on actual laws
+            to: n12
+          - label: Nothing moral at all
+            to: n13
+      - id: n10
+        kind: end
+        tone: not-met
+        text: 'Hart''s minimum content of natural law: a natural necessity given natural facts and aims, not a conceptual connection. It answers the thesis that ''law may have any content'' (CL 199).'
+      - id: n11
+        kind: end
+        tone: qualified
+        text: Hart's claim (5), Fuller's inner morality of law. Hart concedes it, but it 'is unfortunately compatible with very great iniquity' (CL 207); Fuller replies that good order is more just.
+      - id: n12
+        kind: end
+        tone: not-met
+        text: 'Hart''s claim (2): morality influences law, sometimes expressly, as in the US. No positivist denies these facts (CL 204), but the link is contingent.'
+      - id: n13
+        kind: end
+        tone: not-met
+        text: 'Legal positivism: absent an express provision, a rule''s immorality does not make it not law, nor its desirability make it law (Hart 1958, 599).'
+        authorities:
+          - hart-positivism-and-the-separation-of-law-and-morals

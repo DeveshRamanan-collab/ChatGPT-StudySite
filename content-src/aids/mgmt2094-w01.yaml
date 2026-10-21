@@ -1,0 +1,585 @@
+unit: mgmt2094
+week: 1
+source: raw/mgmt2094-sci/week-01
+generator: aids-1
+aids:
+  - concept: mgmt2094-w01-flip-mindset
+    plain: 'The unit asks you to zig when everyone else is zagging: to move easily between different perspectives instead of staying stuck in the one everyone else holds.'
+    concrete: 'One of Bob Iger''s first moves as Disney''s CEO in 2005 was to put ABC''s Lost and Desperate Housewives on iTunes, which then sold only music. It was the first deal of its kind, seemingly at odds with the company''s business model, and drew backlash from affiliates, retailers and the guilds. Tim Cook: ''He understands the tradition of Disney but isn''t wedded to it.'''
+    formal: 'Slide 2: the unit is about creating a different mind set — zig when everyone else is zagging. The ''flip'' is repeatedly moving between different perspectives and paradigms, now done in ''real'' time and on demand. It is a flexible mindset that stimulates a way of thinking and approach to life, and a more counter-intuitive approach reflecting the way business is heading: more creative and innovative.'
+    analogy:
+      text: A bilingual speaker who switches language mid-conversation as the listener changes, fluent in both and locked into neither.
+      maps:
+        - from: the two languages
+          to: different perspectives and paradigms
+        - from: switching mid-conversation as needed
+          to: flipping in 'real' time and on demand
+        - from: fluent in both, locked into neither
+          to: understanding the tradition but not being wedded to it (Cook on Iger)
+      limits:
+        - Switching language says the same thing in new words; the flip is meant to produce new, counter-intuitive ideas.
+        - A bilingual speaker has two fixed languages; the flip moves between many perspectives.
+    terms:
+      - term: flip
+        gloss: Repeatedly moving between different perspectives and paradigms, now done in 'real' time and on demand (slide 2).
+        example: Iger putting ABC shows on iTunes in 2005, at odds with Disney's business model.
+      - term: zig when everyone else is zagging
+        gloss: 'Slide 2''s phrase for the different mind set the unit builds: taking a different path from the crowd.'
+      - term: counter-intuitive approach
+        gloss: An approach that goes against what seems obvious; slide 2 says it reflects the way business is heading today, to be more creative and innovative.
+      - term: flexible mindset
+        gloss: A mindset that shifts perspective with ease; slide 2 says it stimulates a way of thinking and approach to life.
+    misconceptions:
+      - claim: The flip means always taking the opposite view to the majority.
+        tempting: '''Zig when everyone else is zagging'' sounds like simply opposing the crowd.'
+        correction: 'Slide 2: the flip is repeatedly moving between perspectives and paradigms on demand. A fixed contrary stance is just another single perspective.'
+      - claim: The flip mindset replaces the need for technical knowledge.
+        tempting: The lecture says technical knowledge is 'absolutely not enough' in an AI world.
+        correction: 'Not enough is not the same as unnecessary: because AI can supply technical knowledge to anyone, creativity and innovation are what set you apart (Week 1 lecture).'
+      - claim: Iger's iTunes deal shows he threw out Disney's tradition.
+        tempting: The reading calls the deal seemingly at odds with the company's business model.
+        correction: 'Tim Cook: ''He understands the tradition of Disney but isn''t wedded to it.'' The flip moves between paradigms; it does not discard one (Lev-Ram 2015).'
+    socratic:
+      - ask: Days into the CEO job in 2005, what did Bob Iger do with ABC hits such as Lost and Desperate Housewives?
+        hint: Think of Apple's online store, which then sold only music.
+        answer: He put them on iTunes, the first deal of its kind, despite backlash from affiliates, retailers and the guilds (Lev-Ram 2015).
+      - ask: Why does the reading treat this as a surprising bet?
+        hint: Compare the move with how Disney made its money.
+        answer: 'It was seemingly at odds with the company''s business model: a counter-intuitive move while the rest of the industry went the other way.'
+      - ask: Tim Cook says Iger 'understands the tradition of Disney but isn't wedded to it'. What is Iger doing with perspectives?
+        hint: He can stand in the old paradigm and in a new one.
+        answer: 'Moving between Disney''s established paradigm and a new one without being locked into either: what slide 2 calls the flip.'
+      - ask: Why does the lecture say this ability matters more now than 20 or 50 years ago?
+        hint: 'Two reasons: the pace of business, and AI.'
+        answer: Business is fast moving and changing very quickly, so you must move between perspectives with ease; and AI can give anyone technical knowledge, so creativity and innovation set you apart.
+    what-if:
+      - change: Iger had waited until online TV was proven before putting Disney shows on iTunes.
+        effect: It would no longer be a counter-intuitive flip but following the crowd. Iger also warns that getting in late means investing in something you've witnessed working just as it is on the cusp of vast change.
+      - change: The business world were slow and stable rather than fast moving.
+        effect: The lecture's first reason for the flip weakens, since it ties moving between perspectives with ease to a world changing very quickly. Its second reason, AI supplying technical knowledge to anyone, would still stand.
+    boundary:
+      - text: A manager who always takes the opposite view to the majority, whatever the facts.
+        why: 'Outside the flip: this is one fixed perspective. Slide 2 describes repeatedly moving between perspectives and paradigms, on demand.'
+    transfer:
+      - scenario: A family bakery has sold the same bread over the counter for 40 years. Rival bakeries are cutting prices. The new manager keeps the shop but adds a weekly bread subscription delivered by bike.
+        answer: 'This is the flip: she understands the bakery''s tradition but isn''t wedded to it, moving between the old paradigm (counter sales) and a new one (subscriptions) and zigging while rivals zag on price. Slide 2 says this counter-intuitive approach reflects where business is heading: more creative and innovative.'
+    objections:
+      - position: In an AI-driven business world, the ability to flip between perspectives matters more than technical knowledge.
+        evidence: 'The lecture: AI can provide any organisation or entrepreneur with technical knowledge and skill, so technical knowledge is absolutely not enough; creativity and innovation, including working with AI, set you apart.'
+        objection: 'Flipping without expertise is guesswork: Iger''s counter-intuitive bets rested on a career at ABC that began in 1974.'
+        reply: 'The unit agrees that skill comes first: the creativity gym starts with learning and developing the skills, including knowing your industry. The flip builds on that base rather than replacing it.'
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slide 2)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (pp 3, 4, 6–7)
+  - concept: mgmt2094-w01-defining-creativity
+    plain: Creativity is noticing something new in what everyone can already see. Creative thinking is simply thinking, imagining or inventing something new, however small, and it can be learnt.
+    concrete: 'The slides'' business example is dropshipping: you don''t physically hold the stock; the manufacturer or wholesaler supplies your customer directly. The lecture calls it a simple idea that someone came up with and was able to implement. On a smaller scale, the lecturer says imagining things while reading a book, or deciding one day to take a different route to campus, is already creative thinking.'
+    formal: 'Einstein (slide 11): ''Creativity is seeing what everyone else has seen, and thinking what no-one else has thought!'' Creative thinking ''is seen simply as the ability to think, imagine or invent something new'' (slide 12). Sir Ken Robinson (2011): ''When people say to me that they aren''t creative, I assume they haven''t learnt what is involved.'' Slide 10: creativity isn''t just about the arts.'
+    analogy:
+      text: Everyone looks up at the same night sky; one person traces a shape in the stars that nobody has named before.
+      maps:
+        - from: the same night sky
+          to: the abundant information everyone has seen
+        - from: the new shape traced in the stars
+          to: the thought no-one else has thought
+      limits:
+        - A shape in the stars is only a new way of seeing; creative thinking also covers inventing something new, such as a way of doing business.
+    terms:
+      - term: creativity (Einstein)
+        gloss: Seeing what everyone else has seen, and thinking what no-one else has thought (slide 11).
+      - term: creative thinking
+        gloss: The ability to think, imagine or invent something new (slide 12); the lecture counts even very small acts.
+        example: Deciding one day to take a different route to campus.
+      - term: dropshipping
+        gloss: 'A creative way of doing business: you don''t physically hold the stock; the manufacturer or wholesaler supplies your customer directly (slide 12).'
+    misconceptions:
+      - claim: Creativity is a talent you are either born with or not.
+        tempting: 'Slide 10 itself concedes: ''Some of us may well be, others aren''t.'''
+        correction: 'Robinson (2011): people who say they aren''t creative ''haven''t learnt what is involved''. The lecturer''s hunch is that the less naturally creative can improve.'
+      - claim: 'Creativity is about the arts: painting, music, literature.'
+        tempting: Creativity is commonly linked with artists.
+        correction: 'Slide 10: ''Creativity isn''t just about the arts.'' The lecture says it is pretty much everywhere, especially in business and building organisations, eg dropshipping.'
+      - claim: Only big ideas or breakthroughs count as creative thinking.
+        tempting: The admired examples are Jeff Bezos and Elon Musk.
+        correction: 'The lecturer keeps creative thinking broad: imagining while reading a book, or taking a different route to campus, already counts. We all have this ability.'
+    socratic:
+      - ask: Can everyone in a lecture theatre access roughly the same information today?
+        hint: Think about how easy information is to find now.
+        answer: Yes. The lecture says we have an abundance of, and easy access to, information, so we can all see a lot.
+      - ask: If everyone sees the same things, where must creativity come from?
+        hint: Einstein's definition has two halves.
+        answer: 'From thinking what no-one else has thought: creativity is ''seeing what everyone else has seen, and thinking what no-one else has thought'' (slide 11).'
+      - ask: Is taking a different route to campus one morning creative thinking?
+        hint: 'Slide 12''s test: think, imagine or invent something new.'
+        answer: 'Yes. The lecturer counts it: creative thinking is simply the ability to think, imagine or invent something new, however small.'
+      - ask: So can someone who says 'I'm not creative' become creative?
+        hint: Recall Robinson's quote on slide 12.
+        answer: Robinson assumes they haven't learnt what is involved; the lecturer's hunch is that they can improve, and even naturally creative people gain structure from study.
+    what-if:
+      - change: The online seller keeps all her stock in her own warehouse and posts it herself.
+        effect: It is no longer the slides' creative method. Dropshipping's new idea is that you don't physically hold the stock and the supplier ships direct; holding stock is the ordinary retail pattern.
+    boundary:
+      - text: Memorising the bus timetable so that you never miss a bus.
+        why: 'Outside: it reproduces what already exists. Creative thinking requires thinking, imagining or inventing something new (slide 12).'
+      - text: Imagining a different ending while reading a novel.
+        why: 'Inside, though tiny: the lecturer says imagining things while reading is already creative thinking, because you are creating something new.'
+    transfer:
+      - scenario: A hospital café has the same long lunchtime queue every day, which everyone complains about. A volunteer suggests that staff order by text message and collect from a side window.
+        answer: 'Creativity in Einstein''s sense: everyone had seen the queue, but she thought what no-one else had. It is creative thinking on slide 12''s definition (thinking or inventing something new), and small, like the lecture''s different route to campus.'
+    objections:
+      - position: Creativity can be learnt.
+        evidence: 'Robinson (2011): those who say they aren''t creative haven''t learnt what is involved. The lecturer''s hunch is that the less naturally creative can improve, and the creativity gym trains it in stages.'
+        objection: Slide 10 concedes that some of us may be naturally creative and others aren't.
+        reply: 'The lecturer: even naturally creative people gain from study, which builds structures around their creativity so they can turn it into something practical and useful, such as a business.'
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slides 10–12)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+  - concept: mgmt2094-w01-methods-for-creativity
+    plain: 'Six tools help you become more creative: mind mapping, brainstorming, sketching, free writing, thinking opposites and seeking inspiration. Using them in a group matters even more.'
+    concrete: 'Seeking inspiration in the reading: the relationship that most shaped Bob Iger''s thinking was his six-year friendship with Steve Jobs. ''Occasionally we would stand in front of a whiteboard and talk about ideas … We''d just muse on business.'' The lecture suggests the same route for students: learn from creative people, whether business people, historical figures, politicians, artists or even generals, for example by reading their biographies.'
+    formal: 'Slide 13: without creativity we would have no progress and would be forever repeating the same experiences/patterns. Methods that can assist us in being creative: 1 mind mapping, 2 brainstorming, 3 sketching, 4 free writing, 5 thinking opposites, 6 seeking inspiration. The lecture calls them an arsenal of tactics or tools, and says even more important is how to unleash creativity in a group or organisation.'
+    analogy:
+      text: The lecture's own image is an arsenal of tools. You don't use one tool for every job; you pick the one that fits, and a crew sharing a toolbox builds more than one worker alone.
+      maps:
+        - from: the tools in the box
+          to: the six methods on slide 13
+        - from: picking the tool that fits the job
+          to: choosing the method that fits the problem
+        - from: a crew sharing the toolbox
+          to: unleashing creativity in a group or organisation
+      limits:
+        - A tool works the same in anyone's hands; the creativity gym says skill with creative methods is built up in stages.
+    terms:
+      - term: seeking inspiration
+        gloss: Learning from creative people (business people, historical figures, politicians, artists, even generals), for example by reading their biographies (Week 1 lecture).
+      - term: arsenal of tactics
+        gloss: 'The lecture''s description of the six methods: a set of tools to choose from, not one method to repeat.'
+      - term: mind mapping
+        gloss: 'The first method on slide 13, and Part 1 of the Creative Project: a mind map centring around a societal issue (10%, Week 4).'
+    misconceptions:
+      - claim: Willpower and becoming an expert are creativity methods too.
+        tempting: All three lists sit on neighbouring Week 1 slides.
+        correction: Only the six on slide 13 are methods. Building up willpower is an individual competency (slide 15); becoming an expert is a creativity-gym stage (slide 14).
+      - claim: The best way to be creative is to work alone with one favourite method.
+        tempting: Methods such as free writing feel personal, and sticking to one seems efficient.
+        correction: 'The lecture calls the methods an arsenal of tools and says unleashing creativity in a group matters even more: relying on a group is much more effective than relying only on yourself.'
+      - claim: Seeking inspiration means waiting for a sudden flash of insight.
+        tempting: Inspiration is often pictured as a flash out of nowhere.
+        correction: The lecture describes deliberate learning from creative people, eg reading their biographies, as Iger learnt from musing on business with Steve Jobs.
+    socratic:
+      - ask: What would happen to a society or business with no creativity at all?
+        hint: Slide 13's first line.
+        answer: 'No progress: we would be forever repeating the same experiences and patterns. Progress requires imagination.'
+      - ask: If we are all somewhat creative already, what is the better question to ask?
+        hint: Add one word to 'how can we become creative?'
+        answer: How can we become more creative? The slides answer with methods that can assist us in being creative.
+      - ask: Name the six methods on slide 13, in order.
+        hint: It starts with your Week 4 assessment and ends with learning from others.
+        answer: Mind mapping, brainstorming, sketching, free writing, thinking opposites and seeking inspiration.
+      - ask: What does the lecture say matters even more than any single method?
+        hint: Who is using the tools?
+        answer: 'How to unleash creativity in a group or an organisation: relying on a group of people is much more effective than relying only on yourself.'
+    what-if:
+      - change: A tutorial group stuck for a project idea lets its most naturally creative member decide alone.
+        effect: 'It gives up what the lecture calls even more important: unleashing creativity in a group. Using the methods together, such as brainstorming as a group and mind mapping the ideas, is the more effective path.'
+    boundary:
+      - text: Iger and Jobs standing at a whiteboard, musing on business.
+        why: 'Inside: seeking inspiration from another creative leader. It is not a formal method session, but the lecture counts learning from creative people as seeking inspiration.'
+      - text: Copying a competitor's product exactly to avoid every risk.
+        why: 'Outside: seeking inspiration learns from creative people; copying repeats someone else''s pattern, which slide 13 links to no progress.'
+    transfer:
+      - scenario: A council team has one week to propose ways to cut litter on a city beach and keeps recycling last year's ideas.
+        answer: 'Repeating last year''s ideas is what slide 13 says happens without creativity. The team should use the arsenal together: brainstorm, mind map the ideas, sketch options, try thinking opposites and seek inspiration from others, because the lecture says unleashing creativity in a group is more effective than relying on yourself.'
+    objections:
+      - position: Creativity is best unleashed in groups rather than by individuals.
+        evidence: 'The lecture: even more important than the methods is unleashing creativity in a group or organisation, because relying on a group is much more effective than relying only on yourself.'
+        objection: In groups people often hold back their ideas for fear of being seen as stupid or incompetent.
+        reply: 'The lecture''s answer is psychological safety: create an environment where everybody feels safe, not to relax, but to share ideas and take risks.'
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slides 4, 13)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (pp 5–6)
+  - concept: mgmt2094-w01-creativity-gym
+    plain: 'Creative skill can be trained like fitness, in three stages: learn the skills, train your mind and find inspiration, then practise until creativity is your default and take feedback.'
+    concrete: 'The lecturer''s base-level example: if you want to create a business, you need to know and understand the industry you are entering and develop the skills to run a business. At the top level, Disney Imagineering''s engineers, software developers and roboticists each year formally present their wildest (and, with any luck, economically viable) innovations to the CEO: practised creative work put in front of someone for feedback.'
+    formal: 'Slide 14, ''Working out at the creativity gym'': 1 Starting off — learning and developing the skills; 2 Being proficient — training your mind and getting inspiration; 3 Becoming an expert — practising your creative thoughts and training your mind to automatically go into default creative mode, and then receiving feedback on those thoughts/actions.'
+    analogy:
+      text: 'Getting fit: first you learn the equipment, then you follow a regular programme, and finally good form is automatic and a coach watches and corrects you.'
+      maps:
+        - from: learning the equipment
+          to: 'starting off: learning and developing the skills'
+        - from: a regular training programme
+          to: 'being proficient: a systematic approach to training the mind and getting inspiration'
+        - from: automatic form, corrected by a coach
+          to: 'becoming an expert: default creative mode, then feedback'
+      limits:
+        - The gym trains the mind; physical fitness plays no part.
+        - One programme can suit many gym-goers; the lecture says every person and organisation is slightly different.
+    terms:
+      - term: creativity gym
+        gloss: 'Slide 14''s metaphor: creative skill is developed in stages, like working out at a gym.'
+      - term: default creative mode
+        gloss: 'The expert stage: the mind automatically goes into creative mode, so creativity becomes part of who you are and comes easily when needed.'
+      - term: systematic approach
+        gloss: 'Stage 2: everyone and every organisation differs, but minds and teams can still be trained deliberately for creativity and inspiration.'
+    elements:
+      - name: 1 Starting off
+        test: 'Learning and developing the skills. The base level: to create a business, know and understand the industry you are entering and develop the skills to run a business.'
+      - name: 2 Being proficient
+        test: Training your mind and getting inspiration, or knowing how to get it, through a systematic approach to training our minds and our teams.
+      - name: 3 Becoming an expert
+        test: Practising creative thoughts until the mind automatically goes into default creative mode, then receiving feedback on those thoughts and actions.
+        authorities:
+          - mgmt2094-example-disney-imagineering
+    misconceptions:
+      - claim: Receiving feedback belongs at the start, while you are still learning.
+        tempting: Beginners obviously benefit from feedback.
+        correction: 'On slide 14, receiving feedback appears only at stage 3, becoming an expert: practise, go into default creative mode, then receive feedback.'
+      - claim: Experts no longer need practice or feedback.
+        tempting: Expertise sounds like a finished state.
+        correction: The expert stage is defined by practising creative thoughts and receiving feedback; at that level creativity becomes part of who you are, so it comes easily when needed.
+      - claim: The gym's stages are the same thing as the six creativity methods.
+        tempting: Both are numbered lists on neighbouring slides.
+        correction: The methods (slide 13) are tools for being creative; the gym (slide 14) is the stages of developing creative skill.
+    socratic:
+      - ask: Mei, a junior designer, is learning design software and how the fashion industry works. What is she doing?
+        hint: Is she learning skills, or using them by default?
+        answer: 'Learning and developing the skills, including understanding the industry: stage 1, starting off.'
+      - ask: Sam visits galleries every week and reads founders' stories to train her mind. Which stage is that?
+        hint: Slide 14 pairs training your mind with something else.
+        answer: 'Being proficient: training your mind and getting inspiration, through a systematic approach.'
+      - ask: What two things mark the expert stage?
+        hint: One happens automatically; one comes from other people.
+        answer: The mind goes automatically into default creative mode, and the person then receives feedback on those thoughts and actions.
+      - ask: So what is the gym metaphor's claim about creativity?
+        hint: What does a gym assume about fitness?
+        answer: 'Creative skill can be trained and built up in stages, like fitness: it is not simply something you are born with.'
+    what-if:
+      - change: Jordan, whose ideas now come automatically, stops asking anyone for feedback.
+        effect: 'He has default creative mode but is missing the last part of the expert stage on slide 14: receiving feedback on those thoughts and actions.'
+      - change: Imagineering's yearly presentation to the CEO is cancelled.
+        effect: Its researchers lose a formal chance for feedback on practised creative work, the element slide 14 places at the expert stage. Their training continues, but the feedback loop weakens.
+    boundary:
+      - text: Imagineering's researchers presenting their wildest innovations to the CEO each year.
+        why: 'Expert stage: practised creative work put in front of someone for feedback. The feedback adds to their earlier training; it does not replace it.'
+      - text: Reading founders' stories for ideas.
+        why: 'Stage 2, training your mind and getting inspiration. Seeking inspiration is also one of the six methods: the method is the tool, the stage describes your level of skill.'
+    transfer:
+      - scenario: A graduate joins a hospital's innovation team. In month one she learns how the wards run; then she keeps a weekly routine of visiting other hospitals for ideas; two years on, ideas come to her automatically and she pitches them to the board.
+        answer: The creativity gym in order. Learning the skills and the industry is starting off; a systematic routine of training her mind and getting inspiration is being proficient; default creative mode plus feedback from the board is becoming an expert (slide 14).
+    objections:
+      - position: Creative skill is built in stages, like fitness at a gym.
+        evidence: Slide 14's three stages, and Robinson's line that people who say they aren't creative haven't learnt what is involved.
+        objection: Slide 10 concedes that some people are naturally creative and others aren't, and the lecture says everyone is slightly different.
+        reply: 'The lecture: that is why stage 2 needs a systematic approach to training minds and teams, and why even naturally creative people gain from structure.'
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slide 14)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (p 2)
+  - concept: mgmt2094-w01-creative-competencies
+    plain: Creativity needs four individual qualities (exploring problems, willpower, self-awareness, openness to failure and feedback) and four team ones (supporting ideas, psychological safety, shared visions, pushing frontiers).
+    concrete: 'Rather than one corporate CTO, Bob Iger gave each Disney business its own: ''It gives the businesses the ability to experiment and try even if they fail on some of the things that they do, without a corporate watchdog looking over their shoulder all the time.'' The CTOs meet every few months as a council to share challenges and information, and have launched hackathons and a ''Best of Disney'' symposium showing 50 new innovations.'
+    formal: 'Slide 15. Individual competencies: exploring problems; building up willpower; self-awareness; being open to failure and feedback from others. Team/group competencies: supporting ideas from team members; practising psychological safety; creating and sharing visions; pushing the frontiers. The lecture defines psychological safety as an environment where everybody feels safe, not to relax but to take risks.'
+    terms:
+      - term: psychological safety
+        gloss: A team climate where everybody feels safe, not to relax but to take risks and share ideas without fear of being seen as stupid or incompetent.
+      - term: self-awareness
+        gloss: Understanding your own strengths and weaknesses, so you can leverage the strengths and minimise the weaknesses.
+      - term: pushing the frontiers
+        gloss: Pushing the boundaries, which a team that feels supported is empowered to do; the lecture calls it the fuel for innovation.
+    elements:
+      - name: 'Individual: exploring problems'
+        test: Becoming good at exploring problems. Some people are naturally curious; others can develop it by exploring problems systematically.
+      - name: 'Individual: building up willpower'
+        test: Without willpower we cannot keep looking for solutions to the problems we find; the lecture calls it 'an absolute must'.
+      - name: 'Individual: self-awareness'
+        test: Understanding our strengths and weaknesses, to leverage the strengths and minimise the weaknesses.
+      - name: 'Individual: open to failure and feedback'
+        test: Learn from failure, see it in a positive light, and use feedback from others, especially when you fail.
+        authorities:
+          - mgmt2094-example-disney-interactive-division
+      - name: 'Team: supporting ideas from team members'
+        test: Consistently championing other people's ideas, together as a group.
+      - name: 'Team: practising psychological safety'
+        test: An environment where everybody feels safe, not to relax but to take risks; otherwise people hold back ideas for fear of being seen as stupid or incompetent.
+        authorities:
+          - mgmt2094-example-disney-cto-council
+      - name: 'Team: creating and sharing visions'
+        test: Relying on each other's different expertise to create shared visions.
+        authorities:
+          - mgmt2094-example-disney-cto-council
+      - name: 'Team: pushing the frontiers'
+        test: 'A team that feels supported is empowered to push the boundaries: the fuel for innovation.'
+    misconceptions:
+      - claim: Psychological safety means a relaxed team where no idea is ever criticised.
+        tempting: '''Safety'' sounds like comfort.'
+        correction: 'The lecture: everybody feels safe ''not to relax but to take risks'', sharing ideas without fear of being seen as stupid or incompetent.'
+      - claim: Building up willpower is a team competency, since teams need determination.
+        tempting: Teams do need persistence.
+        correction: Slide 15 lists willpower as an individual competency. The team list is supporting ideas, psychological safety, creating and sharing visions, and pushing the frontiers.
+      - claim: Good creators make sure they avoid failure.
+        tempting: Failure feels like proof that the ideas were poor.
+        correction: 'Openness to failure and feedback is an individual competency: learn from it and see it positively. Iger on Disney''s interactive losses: ''We lost a fair amount of money … but we learned from that.'''
+    socratic:
+      - ask: In a team meeting Priya's suggestion is mocked, and afterwards no-one else offers an idea. Why did the others go quiet?
+        hint: What does the lecture say people in groups fear most?
+        answer: They are afraid of being seen as stupid or incompetent, so they hold back their ideas.
+      - ask: Which team competency would have prevented this?
+        hint: Safe, yes, but safe to do what?
+        answer: 'Practising psychological safety: an environment where everybody feels safe, not to relax but to take risks and share ideas.'
+      - ask: Who should have backed Priya, and what does that unlock?
+        hint: The first team competency on slide 15.
+        answer: Her teammates, by supporting ideas from team members. A team that feels supported can rely on each other's expertise, create shared visions and push the frontiers.
+      - ask: What does each person need to bring before the team even meets?
+        hint: The four on the left of slide 15.
+        answer: Exploring problems, building up willpower, self-awareness, and being open to failure and feedback from others.
+    what-if:
+      - change: Disney replaces the business-unit CTOs with one corporate CTO who must approve every experiment.
+        effect: It brings back the 'corporate watchdog' Iger wanted removed. Businesses lose some of the ability to experiment and try even if they fail, weakening psychological safety and openness to failure.
+      - change: After her first venture fails, a founder blames bad luck and asks no-one for their views.
+        effect: 'She lacks the fourth individual competency, openness to failure and feedback: learn from failure, see it in a positive light, and use feedback from others, especially when you fail.'
+    boundary:
+      - text: A founder studies why two ventures failed and asks mentors for honest views before starting again.
+        why: 'Individual, not team: openness to failure and feedback. The mentors give feedback; she is not championing their ideas, so it is not ''supporting ideas from team members''.'
+      - text: Disney's CTO council running hackathons and a 'Best of Disney' symposium.
+        why: 'Team competencies: sharing information across the company and putting 50 innovations on show supports others'' ideas and builds shared visions.'
+    transfer:
+      - scenario: Teachers at a high school must redesign homework. At meetings the principal shoots down every new idea, and the younger teachers have stopped speaking.
+        answer: The team competencies are missing. Without psychological safety, people hold back ideas for fear of seeming stupid or incompetent. The principal should support teachers' ideas and let staff rely on each other's expertise to build a shared vision; a team that feels supported is empowered to push the frontiers (slide 15).
+    objections:
+      - position: Creativity depends more on the climate a team creates than on clever individuals.
+        evidence: 'The lecture: relying on a group is much more effective; without psychological safety people hold back ideas; a team that feels supported is empowered to push the frontiers.'
+        objection: Slide 15 lists four individual competencies as well, and the lecture says that without willpower we cannot keep looking for solutions at all.
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slide 15)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (pp 4, 6–7)
+  - concept: mgmt2094-w01-creativity-and-innovation
+    plain: Creativity is thinking up something new; innovation is actually doing it. An idea that stays in your head or the lab is creativity; once it is done, it is innovation.
+    concrete: 'Disney Imagineering''s Dish is a windowless virtual reality chamber for testing future rides: the CEO can walk through a virtual forest. But the technology is still too expensive and cumbersome to work in a park: thought up and tested, not yet done. MagicBands were actually rolled out at Disney World: RFID wristbands for park entry, hotel rooms and payment, with more than 9 million given out.'
+    formal: 'Theodore Levitt (slide 17): ''Creativity is thinking up new things. Innovation is doing new things.'' The semester follows the split: Weeks 1–7 thinking up new things, Weeks 8–13 doing new things. Slide 16''s path runs vision → imagination → creativity → innovation. The lecture says the two are different but support each other: ''one for the other''.'
+    analogy:
+      text: Writing a new recipe versus cooking it and serving it to diners.
+      maps:
+        - from: writing a new recipe
+          to: 'creativity: thinking up a new thing'
+        - from: cooking and serving it
+          to: 'innovation: doing the new thing'
+        - from: diners enjoying the meal
+          to: the value an innovation brings
+      limits:
+        - Cooking a recipe is quick; doing a new thing in business can take huge change, such as MagicBands needing more than 28,000 door locks replaced.
+        - 'Cooking an old family recipe is doing, but nothing new: Levitt needs new things.'
+    terms:
+      - term: creativity (Levitt)
+        gloss: Thinking up new things (slide 17).
+      - term: innovation (Levitt)
+        gloss: 'Doing new things (slide 17): a new idea actually implemented.'
+        example: MagicBands rolled out at Disney World; dropshipping.
+      - term: blue-sky experimentation
+        gloss: 'The reading''s term for Imagineering''s open-ended experiments, such as the Dish: ideas tested long before they can be used in the parks.'
+    elements:
+      - name: Something new is thought up (creativity)
+        test: 'Was a new idea, method or product thought up? If nothing is new, it is neither: just repeating the same experiences and patterns (slide 13).'
+        authorities:
+          - mgmt2094-example-disney-imagineering
+      - name: The new thing is actually done (innovation)
+        test: Has it been implemented, rolled out or used, not just designed or tested? Thought up only is creativity; done is innovation (Levitt, slide 17).
+        authorities:
+          - mgmt2094-example-disney-magicbands
+          - mgmt2094-example-dropshipping
+    misconceptions:
+      - claim: Imagineering is Disney's innovative arm, so everything it produces is innovation.
+        tempting: The reading calls Imagineering 'the company's innovative arm'.
+        correction: 'Levitt classifies by doing, not by department name. The Dish is thought up and tested but too costly for the parks: creativity until it is actually done for guests.'
+      - claim: Creativity and innovation are the same thing.
+        tempting: They are always mentioned together and support each other.
+        correction: 'The lecture studies the differences between the two and how they support each other: creativity is thinking up new things, innovation is doing new things (Levitt).'
+      - claim: Any activity done well counts as innovation, because innovation is 'doing'.
+        tempting: Levitt's line puts the weight on doing.
+        correction: 'Levitt says doing new things. A firm doing exactly what it always has, however efficiently, is neither: it is repeating the same patterns.'
+    socratic:
+      - ask: Imagineering's Dish lets the CEO walk through a virtual forest. Has something new been thought up?
+        hint: Is it an existing ride?
+        answer: 'Yes: a new way to test future rides and experiences, part of Disney''s ''blue sky'' experimentation.'
+      - ask: Is the Dish being done for park guests?
+        hint: What does the reading say about its cost?
+        answer: No. The technology is still too expensive and cumbersome to work in a park, so on Levitt's line it is creativity, not yet innovation.
+      - ask: MagicBands let guests enter the park, open hotel rooms and pay. Only thought up, or done?
+        hint: How many had been given out?
+        answer: 'Done: rolled out at Disney World, more than 9 million given out, and guests who use them spend more. That is innovation.'
+      - ask: So what single question separates creativity from innovation?
+        hint: Levitt's two verbs.
+        answer: Has the new thing actually been done? Thinking up new things is creativity; doing new things is innovation (slide 17).
+    what-if:
+      - change: Disney finds a cheap way to put the Dish's virtual forests into a park ride.
+        effect: Once actually done for guests, it moves from creativity to innovation, because Levitt's line turns on doing. The reading itself says virtual forests 'could be coming to a park near you'.
+      - change: Dropshipping had stayed an idea that nobody implemented.
+        effect: It would be creativity only. The lecture stresses that someone came up with it and 'was able to implement' it, which is what brings value and makes it innovation.
+    boundary:
+      - text: A tutorial group designs a detailed concept for a community app but never builds or launches it.
+        why: 'Creativity, not innovation: a detailed design is still thinking up. Nothing new has been done for users (Levitt).'
+      - text: A firm keeps doing exactly what it has always done, very efficiently.
+        why: 'Neither: it is doing, but nothing new. Slide 13 says without creativity we are forever repeating the same patterns.'
+    transfer:
+      - scenario: At a staff workshop, librarians propose a 'borrow a laptop' vending machine. A year later the library installs one in a single building, and students use it every day.
+        answer: 'The workshop proposal was creativity: a new thing thought up. Installing and running the machine is innovation: a new thing actually done (Levitt, slide 17). It fits the lecture''s key question: can creative thinking be leveraged into something practical and useful that brings value?'
+    objections:
+      - position: Innovation matters more than creativity, because only doing creates value.
+        evidence: Levitt's line puts the weight on doing; the lecture asks whether we can leverage creative thinking to make innovation that brings value, as dropshipping does.
+        objection: 'Slide 16''s path puts vision, imagination and creativity before innovation: without something new thought up, there is nothing new to do.'
+        reply: 'The lecture: the two are different but support each other, ''one for the other''.'
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slides 10, 13, 16–17)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (pp 2, 3, 8)
+  - concept: mgmt2094-w01-innovation-at-disney
+    plain: Disney's CEO Bob Iger also acted as its chief technology officer, making big, early bets on new technology. Some failed and many paid off, while he balanced content and technology.
+    concrete: 'MagicBands debuted at Disney World in 2013, a $1 billion bet: RFID wristbands that let guests enter the park, open their hotel rooms and pay for food and merchandise. More than 9 million were given out, and guests who use them spend more on average. Unlike putting up a new ride, it was gradual and iterative: more than 28,000 door locks changed and hundreds of access points configured.'
+    formal: 'Lev-Ram (2015), ''Empire of Tech'': Iger has spent his near decade as CEO also wearing the hat of CTO. Its lesson: not only do today''s media companies need to start thinking like technology companies, their CEOs also need to start thinking like CTOs. Iger''s strategy had three pillars: investing in creative content, international expansion and technological innovation.'
+    terms:
+      - term: CTO
+        gloss: Chief technology officer. Iger chose not to have a corporate CTO; he is the closest thing to a central head of tech, and each business has its own CTO.
+      - term: CTO council
+        gloss: The business units' CTOs meeting every few months to share challenges and information; it has run hackathons and a 'Best of Disney' symposium.
+      - term: '''beg, borrow, and steal'''
+        gloss: How Disney's brands are encouraged to share technologies with each other.
+        example: ILM advising Pixar on how to animate lifelike tusks.
+      - term: fast follower
+        gloss: A firm that quickly follows others rather than leading; the reading's verdict on Disney's interactive division, which missed buying Mojang.
+    elements:
+      - name: 'Pillar 1: investing in creative content'
+        test: Spending on content, eg buying Pixar ($7.4 billion, 2006), Marvel ($4.3 billion, 2009) and Lucasfilm ($4 billion, 2012).
+        authorities:
+          - mgmt2094-lev-ram-2015-empire-of-tech
+      - name: 'Pillar 2: international expansion'
+        test: Growing beyond the home market, eg Shanghai Disney, a $5.5 billion investment and Disney's first theme park in China.
+        authorities:
+          - mgmt2094-lev-ram-2015-empire-of-tech
+      - name: 'Pillar 3: technological innovation'
+        test: Big, early bets on new technology, eg ABC shows on iTunes (2005), free ad-supported episodes online (2006) and MagicBands ($1 billion, 2013).
+        authorities:
+          - mgmt2094-example-disney-itunes-deal
+          - mgmt2094-example-disney-magicbands
+    misconceptions:
+      - claim: Iger centralised technology under one powerful corporate CTO.
+        tempting: That is the usual model, and the reading calls Iger Disney's head of tech.
+        correction: He shifted decision-making from a central strategic planning division to the business units and gave each its own CTO, so they could experiment and fail without a corporate watchdog.
+      - claim: Every one of Iger's technology bets paid off.
+        tempting: The reading reports record revenue and successful acquisitions.
+        correction: 'The interactive division was in the red for five years, losing more than $1 billion, and missed Mojang. Iger: ''We lost a fair amount of money in the process, but we learned from that.'''
+      - claim: The reading says media companies should leave technology to partners such as Apple.
+        tempting: Disney partnered closely with Apple.
+        correction: 'The lesson is the reverse: media companies need to think like technology companies, and their CEOs like CTOs (Lev-Ram 2015).'
+    socratic:
+      - ask: What extra corporate hat does the reading say Iger wore as Disney's CEO?
+        hint: A C-suite title about technology.
+        answer: 'Chief technology officer: he decided not to appoint a corporate CTO and is the closest thing Disney has to a central head of tech.'
+      - ask: How did he make sure each business could still experiment?
+        hint: Where did decision-making power go?
+        answer: 'He moved it from central strategic planning to the business units and gave each its own CTO: ''the ability to experiment and try even if they fail''.'
+      - ask: Why bet early, even when it costs money?
+        hint: Iger's line about winning big.
+        answer: '''If you''re going to win big, you have to get in early.'' Get in late and you invest in something proven just as it is on the cusp of vast change.'
+      - ask: What balance does the reading end on?
+        hint: John Lasseter's line.
+        answer: '''Art challenges technology, and technology inspires art.'' Sheryl Sandberg says Disney is one of a few companies that do content and technology equally.'
+    what-if:
+      - change: Disney had bought Minecraft owner Mojang before Microsoft did.
+        effect: The reading says it could have been a bold step toward increased relevancy for the interactive division, which had yet to make a name as a leader, not just a fast follower. Microsoft paid $2.5 billion.
+      - change: Iger had waited to see what the 'killer app' for wearables would be.
+        effect: 'Disney would have been one of the many corporations still waiting. Instead, the reading says, ''Disney invented one'': MagicBands, an early bet starting to pay off.'
+    boundary:
+      - text: The interactive division's five years in the red, losing more than $1 billion.
+        why: 'Shows the limit of ''bet early'': not every bet pays. Iger frames it as learning from failure, which ties to openness to failure and feedback (slide 15).'
+      - text: ESPN testing an unbundled subscription service while Iger stresses commitment to the cable bundle.
+        why: 'Even a CTO-minded CEO tempers experiment: the reading says Iger is careful to temper any experimentation with a stated commitment to ''the bundle''.'
+    transfer:
+      - scenario: A newspaper's new CEO must decide between appointing one head of digital for the whole company or giving each section (news, sport, lifestyle) its own technology lead.
+        answer: 'The reading''s Disney model favours a lead for each section: Iger moved decisions to the business units and gave each its own CTO so they could experiment and try even if they fail, while a CTO council shared challenges and information. The CEO should also think like a CTO.'
+    objections:
+      - position: Great innovators are leaders willing to bet early and accept failure.
+        evidence: Iger's first-of-its-kind iTunes deal led to the $7.4 billion Pixar purchase; 'If you're going to win big, you have to get in early.'
+        objection: 'Early bets can be costly: the interactive division lost more than $1 billion over five years in the red and still missed Mojang.'
+        reply: 'Iger: ''We lost a fair amount of money in the process, but we learned from that.'' The division turned its first profit, $116 million, in 2014.'
+      - position: A media company's CEO should think like a CTO.
+        evidence: The reading's lesson, shown by the iTunes deal, MagicBands and a CTO for each business.
+        objection: 'Content still earns the most: the media networks division, including ESPN and ABC, is Disney''s biggest and most profitable business.'
+        reply: 'Sandberg: Disney is one of a few companies that do content and technology equally. Lasseter: ''Art challenges technology, and technology inspires art.'''
+    storyboard:
+      - caption: '2005: a first-of-its-kind iTunes deal'
+        detail: Days into the CEO job, Iger flies to Apple and, with Steve Jobs, agrees in under a week to put ABC shows on iTunes, which then sold only music.
+      - caption: '2006: Disney buys Pixar for $7.4 billion'
+        detail: The iTunes deal changed Iger's relationship with Jobs and led to a much better dialogue on Pixar; Catmull and Lasseter took over Disney's animation.
+      - caption: '2009–2012: Marvel, then Lucasfilm'
+        detail: Marvel for $4.3 billion, Lucasfilm for $4 billion, bringing ILM. The brands are encouraged to 'beg, borrow, and steal' technologies from each other.
+      - caption: '2013: MagicBands debut at Disney World'
+        detail: A $1 billion bet on RFID wristbands for entry, hotel rooms and payment; more than 9 million given out by early 2015.
+      - caption: '2014: interactive finally turns a profit'
+        detail: After five years in the red and over $1 billion lost, the division earns $116 million, though Microsoft, not Disney, bought Mojang.
+    sources:
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (pp 1–8)
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slide 17)
+flows:
+  - slug: creativity-or-innovation
+    title: Creativity, innovation or neither? (Levitt's test)
+    summary: Classifies an example by asking whether something new was thought up and whether it was actually done.
+    start: n1
+    concepts:
+      - mgmt2094-w01-creativity-and-innovation
+      - mgmt2094-w01-defining-creativity
+    sources:
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slides 12–13, 17)
+      - Marketing - Week 01 - Lecture Transcript - Introduction and Overview
+      - Marketing - Week 01 - Reading - Empire of Tech (Lev-Ram 2015) (pp 2, 8)
+    nodes:
+      - id: n1
+        kind: ask
+        text: 'Is anything new involved: a new thought, idea, method or product?'
+        note: Creative thinking is the ability to think, imagine or invent something new (slide 12). The lecture counts even small things, such as a new route to campus.
+        concept: mgmt2094-w01-defining-creativity
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: No, the same as before
+            to: n2
+      - id: n2
+        kind: end
+        tone: not-met
+        text: 'Neither creativity nor innovation: it is repeating the same patterns.'
+        note: 'Slide 13: without creativity we would have no progress and would be forever repeating the same experiences/patterns. Doing the usual thing efficiently is still not innovation.'
+      - id: n3
+        kind: step
+        text: 'Creativity is present: a new thing has been thought up.'
+        note: 'Levitt (slide 17): ''Creativity is thinking up new things.'''
+        concept: mgmt2094-w01-creativity-and-innovation
+        next: n4
+      - id: n4
+        kind: ask
+        text: 'Has the new thing actually been done: implemented, rolled out or used, not just designed or tested?'
+        branches:
+          - label: Yes, it is done
+            to: n6
+          - label: No, only thought up or tested
+            to: n5
+      - id: n5
+        kind: end
+        tone: qualified
+        text: Creativity, not yet innovation.
+        note: Imagineering's Dish is tested in the lab, but its technology is still too expensive and cumbersome to work in a park (Lev-Ram 2015).
+        authorities:
+          - mgmt2094-example-disney-imagineering
+      - id: n6
+        kind: step
+        text: Say what value it brings.
+        note: The lecture asks whether creative thinking can be leveraged into something practical and useful that brings value. Dropshipping 'brings value'; MagicBand users spend more on average.
+        next: n7
+      - id: n7
+        kind: end
+        tone: met
+        text: 'Innovation: a new thing actually done.'
+        note: 'Levitt (slide 17): ''Innovation is doing new things.'' Examples: MagicBands rolled out at Disney World; dropshipping, a simple idea someone was able to implement.'
+        authorities:
+          - mgmt2094-example-disney-magicbands
+          - mgmt2094-example-dropshipping

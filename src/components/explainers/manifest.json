@@ -1,0 +1,1330 @@
+{
+  "laws2400-w06-psychiatric-harm-civil-liability-act": {
+    "module": "laws2400/MentalHarmCla",
+    "base": "simulation"
+  },
+  "laws2400-w05-neighbour-principle-and-duty-evolution": {
+    "module": "laws2400/DutyEvolution",
+    "base": "scroll"
+  },
+  "laws2400-w05-negligence-elements-overview": {
+    "module": "laws2400/NegligenceElementsPalace",
+    "base": "palace"
+  },
+  "laws2400-w06-psychiatric-harm-common-law-development": {
+    "module": "laws2400/PsychiatricHarmTimeline",
+    "base": "timeline"
+  },
+  "laws2400-w01-tort-law-and-other-branches": {
+    "module": "laws2400/TortAndOtherBranches",
+    "base": "diagram"
+  },
+  "laws2000-w01-compliance-and-enforcement": {
+    "module": "laws2000/ComplianceAndEnforcement",
+    "base": "simulation"
+  },
+  "laws2000-w02-customary-international-law-elements": {
+    "module": "laws2000/CustomaryInternationalLawElements",
+    "base": "simulation"
+  },
+  "laws2000-w03-consent-to-be-bound-and-entry-into-force": {
+    "module": "laws2000/ConsentToBeBoundAndEntryIntoForce",
+    "base": "simulation"
+  },
+  "laws2000-w03-reservations-to-treaties": {
+    "module": "laws2000/ReservationsToTreaties",
+    "base": "simulation"
+  },
+  "laws2000-w04-recognition-of-states": {
+    "module": "laws2000/RecognitionOfStates",
+    "base": "simulation"
+  },
+  "laws2000-w06-immunities-of-state-officials": {
+    "module": "laws2000/ImmunitiesOfStateOfficials",
+    "base": "simulation"
+  },
+  "laws2000-w06-restrictive-state-immunity": {
+    "module": "laws2000/RestrictiveStateImmunity",
+    "base": "simulation"
+  },
+  "laws2000-w07-attribution-to-the-state": {
+    "module": "laws2000/AttributionToTheState",
+    "base": "simulation"
+  },
+  "laws2400-w01-trespass-fault-and-onus": {
+    "module": "laws2400/TrespassFaultAndOnus",
+    "base": "simulation"
+  },
+  "laws2400-w04-self-defence-common-law-and-cla": {
+    "module": "laws2400/SelfDefenceCommonLawAndCla",
+    "base": "simulation"
+  },
+  "laws2400-w05-novel-duty-and-salient-features": {
+    "module": "laws2400/NovelDutyAndSalientFeatures",
+    "base": "simulation"
+  },
+  "laws2400-w06-occupiers-liability-and-obvious-risk": {
+    "module": "laws2400/OccupiersLiabilityAndObviousRisk",
+    "base": "simulation"
+  },
+  "laws2400-w06-omissions-and-control-of-others": {
+    "module": "laws2400/OmissionsAndControlOfOthers",
+    "base": "simulation"
+  },
+  "laws2400-w01-defining-tort-law": {
+    "module": "laws2400/DefiningTortLaw",
+    "base": "diagram"
+  },
+  "laws2400-w01-intentional-torts-classification": {
+    "module": "laws2400/IntentionalTortsClassification",
+    "base": "palace"
+  },
+  "laws2400-w01-theories-of-tort-law": {
+    "module": "laws2400/TheoriesOfTortLaw",
+    "base": "palace"
+  },
+  "laws2400-w01-trespass-directness": {
+    "module": "laws2400/TrespassDirectness",
+    "base": "timeline"
+  },
+  "laws2400-w01-trespass-voluntary-act-and-damage": {
+    "module": "laws2400/TrespassVoluntaryActAndDamage",
+    "base": "scroll"
+  },
+  "laws2400-w01-vicarious-liability-intro": {
+    "module": "laws2400/VicariousLiabilityIntro",
+    "base": "diagram"
+  },
+  "laws2400-w02-action-on-the-case-intentional-harm": {
+    "module": "laws2400/ActionOnTheCaseIntentionalHarm",
+    "base": "diagram"
+  },
+  "laws2400-w02-assault": {
+    "module": "laws2400/Assault",
+    "base": "diagram"
+  },
+  "laws2400-w02-battery": {
+    "module": "laws2400/Battery",
+    "base": "palace"
+  },
+  "laws2400-w02-conversion-and-detinue": {
+    "module": "laws2400/ConversionAndDetinue",
+    "base": "diagram"
+  },
+  "laws2400-w02-false-imprisonment": {
+    "module": "laws2400/FalseImprisonment",
+    "base": "palace"
+  },
+  "laws2400-w02-remedies-intentional-torts-to-person": {
+    "module": "laws2400/RemediesIntentionalTortsToPerson",
+    "base": "palace"
+  },
+  "laws2400-w02-trespass-to-goods": {
+    "module": "laws2400/TrespassToGoods",
+    "base": "scroll"
+  },
+  "laws2400-w03-implied-licence": {
+    "module": "laws2400/ImpliedLicence",
+    "base": "scroll"
+  },
+  "laws2400-w03-nuisance-defences-remedies": {
+    "module": "laws2400/NuisanceDefencesRemedies",
+    "base": "palace"
+  },
+  "laws2400-w03-private-nuisance-elements": {
+    "module": "laws2400/PrivateNuisanceElements",
+    "base": "palace"
+  },
+  "laws2400-w03-public-nuisance": {
+    "module": "laws2400/PublicNuisance",
+    "base": "palace"
+  },
+  "laws2400-w03-remedies-trespass-to-land": {
+    "module": "laws2400/RemediesTrespassToLand",
+    "base": "palace"
+  },
+  "laws2400-w03-trespass-to-land-elements": {
+    "module": "laws2400/TrespassToLandElements",
+    "base": "palace"
+  },
+  "laws2400-w03-trespass-to-land-scope": {
+    "module": "laws2400/TrespassToLandScope",
+    "base": "diagram"
+  },
+  "laws2400-w04-consent-capacity-and-minors": {
+    "module": "laws2400/ConsentCapacityAndMinors",
+    "base": "timeline"
+  },
+  "laws2400-w04-consent-defence-nature-and-onus": {
+    "module": "laws2400/ConsentDefenceNatureAndOnus",
+    "base": "diagram"
+  },
+  "laws2400-w04-consent-validity-and-scope": {
+    "module": "laws2400/ConsentValidityAndScope",
+    "base": "diagram"
+  },
+  "laws2400-w04-legal-process-defence": {
+    "module": "laws2400/LegalProcessDefence",
+    "base": "palace"
+  },
+  "laws2400-w04-necessity-defence": {
+    "module": "laws2400/NecessityDefence",
+    "base": "palace"
+  },
+  "laws2400-w04-provocation-and-contributory-negligence": {
+    "module": "laws2400/ProvocationAndContributoryNegligence",
+    "base": "scroll"
+  },
+  "laws2400-w05-duty-of-care-and-pure-economic-loss": {
+    "module": "laws2400/DutyOfCareAndPureEconomicLoss",
+    "base": "diagram"
+  },
+  "laws2400-w05-established-categories-of-duty": {
+    "module": "laws2400/EstablishedCategoriesOfDuty",
+    "base": "palace"
+  },
+  "laws2400-w05-reasonable-foreseeability-meaning": {
+    "module": "laws2400/ReasonableForeseeabilityMeaning",
+    "base": "diagram"
+  },
+  "laws2400-w06-duty-of-care-categories-and-factors": {
+    "module": "laws2400/DutyOfCareCategoriesAndFactors",
+    "base": "palace"
+  },
+  "laws2400-w06-product-liability-duty-of-care": {
+    "module": "laws2400/ProductLiabilityDutyOfCare",
+    "base": "scroll"
+  },
+  "laws2400-w06-sport-and-recreational-injury": {
+    "module": "laws2400/SportAndRecreationalInjury",
+    "base": "diagram"
+  },
+  "laws2000-w06-diplomatic-and-consular-immunities": {
+    "module": "laws2000/DiplomaticAndConsularImmunities",
+    "base": "diagram"
+  },
+  "laws2000-w06-immunities-of-international-organisations": {
+    "module": "laws2000/ImmunitiesOfInternationalOrganisations",
+    "base": "diagram"
+  },
+  "laws2000-w06-immunity-and-serious-international-crimes": {
+    "module": "laws2000/ImmunityAndSeriousInternationalCrimes",
+    "base": "timeline"
+  },
+  "laws2000-w06-state-immunity-foundations": {
+    "module": "laws2000/StateImmunityFoundations",
+    "base": "diagram"
+  },
+  "laws2000-w01-defining-international-law": {
+    "module": "laws2000/DefiningInternationalLaw",
+    "base": "scroll"
+  },
+  "laws2000-w01-general-and-specialized-international-law": {
+    "module": "laws2000/GeneralAndSpecializedInternationalLaw",
+    "base": "palace"
+  },
+  "laws2000-w01-history-ancient-to-westphalia": {
+    "module": "laws2000/HistoryAncientToWestphalia",
+    "base": "timeline"
+  },
+  "laws2000-w01-history-nineteenth-century-to-un": {
+    "module": "laws2000/HistoryNineteenthCenturyToUn",
+    "base": "timeline"
+  },
+  "laws2000-w01-international-law-as-living-process": {
+    "module": "laws2000/InternationalLawAsLivingProcess",
+    "base": "timeline"
+  },
+  "laws2000-w01-sovereign-equality-and-consent": {
+    "module": "laws2000/SovereignEqualityAndConsent",
+    "base": "scroll"
+  },
+  "laws2000-w02-article-38-and-sources-of-international-law": {
+    "module": "laws2000/Article38AndSourcesOfInternationalLaw",
+    "base": "palace"
+  },
+  "laws2000-w02-general-principles-of-law": {
+    "module": "laws2000/GeneralPrinciplesOfLaw",
+    "base": "scroll"
+  },
+  "laws2000-w02-judicial-decisions-and-scholarly-writings": {
+    "module": "laws2000/JudicialDecisionsAndScholarlyWritings",
+    "base": "diagram"
+  },
+  "laws2000-w02-persistent-objector-and-particular-custom": {
+    "module": "laws2000/PersistentObjectorAndParticularCustom",
+    "base": "diagram"
+  },
+  "laws2000-w02-relationship-between-treaties-and-custom": {
+    "module": "laws2000/RelationshipBetweenTreatiesAndCustom",
+    "base": "diagram"
+  },
+  "laws2000-w02-sources-beyond-article-38": {
+    "module": "laws2000/SourcesBeyondArticle38",
+    "base": "palace"
+  },
+  "laws2000-w02-treaties-as-a-source": {
+    "module": "laws2000/TreatiesAsASource",
+    "base": "scroll"
+  },
+  "laws2000-w03-australian-treaty-making-process": {
+    "module": "laws2000/AustralianTreatyMakingProcess",
+    "base": "timeline"
+  },
+  "laws2000-w03-authority-to-conclude-a-treaty": {
+    "module": "laws2000/AuthorityToConcludeATreaty",
+    "base": "palace"
+  },
+  "laws2000-w03-invalidity-of-treaties": {
+    "module": "laws2000/InvalidityOfTreaties",
+    "base": "palace"
+  },
+  "laws2000-w03-treaty-definition-and-form": {
+    "module": "laws2000/TreatyDefinitionAndForm",
+    "base": "diagram"
+  },
+  "laws2000-w03-treaty-interpretation": {
+    "module": "laws2000/TreatyInterpretation",
+    "base": "diagram"
+  },
+  "laws2000-w03-unilateral-statements": {
+    "module": "laws2000/UnilateralStatements",
+    "base": "scroll"
+  },
+  "laws2100-w01-conceptual-analysis": {
+    "module": "laws2100/ConceptualAnalysis",
+    "base": "scroll"
+  },
+  "laws2100-w01-definition-per-genus-et-differentiam": {
+    "module": "laws2100/DefinitionPerGenusEtDifferentiam",
+    "base": "diagram"
+  },
+  "laws2100-w01-general-and-descriptive-theory": {
+    "module": "laws2100/GeneralAndDescriptiveTheory",
+    "base": "diagram"
+  },
+  "laws2100-w01-harts-project": {
+    "module": "laws2100/HartsProject",
+    "base": "scroll"
+  },
+  "laws2100-w01-legal-theory-in-the-real-world": {
+    "module": "laws2100/LegalTheoryInTheRealWorld",
+    "base": "diagram"
+  },
+  "laws2100-w01-meaning-of-jurisprudence": {
+    "module": "laws2100/MeaningOfJurisprudence",
+    "base": "diagram"
+  },
+  "laws2100-w01-six-kinds-of-questions": {
+    "module": "laws2100/SixKindsOfQuestions",
+    "base": "palace"
+  },
+  "laws2100-w02-austins-command-theory": {
+    "module": "laws2100/AustinsCommandTheory",
+    "base": "palace"
+  },
+  "laws2100-w02-austins-sovereign": {
+    "module": "laws2100/AustinsSovereign",
+    "base": "diagram"
+  },
+  "laws2100-w02-gunman-situation": {
+    "module": "laws2100/GunmanSituation",
+    "base": "scroll"
+  },
+  "laws2100-w02-habits-and-rules": {
+    "module": "laws2100/HabitsAndRules",
+    "base": "diagram"
+  },
+  "laws2100-w02-harts-chapter-iii-objections": {
+    "module": "laws2100/HartsChapterIiiObjections",
+    "base": "palace"
+  },
+  "laws2100-w02-law-and-coercion": {
+    "module": "laws2100/LawAndCoercion",
+    "base": "scroll"
+  },
+  "laws2100-w03-kelsen-pure-theory": {
+    "module": "laws2100/KelsenPureTheory",
+    "base": "diagram"
+  },
+  "laws2100-w03-legal-obligation-and-social-rules": {
+    "module": "laws2100/LegalObligationAndSocialRules",
+    "base": "scroll"
+  },
+  "laws2100-w03-primary-and-secondary-rules": {
+    "module": "laws2100/PrimaryAndSecondaryRules",
+    "base": "palace"
+  },
+  "laws2100-w03-recognition-vs-basic-norm": {
+    "module": "laws2100/RecognitionVsBasicNorm",
+    "base": "diagram"
+  },
+  "laws2100-w03-rule-of-recognition-and-validity": {
+    "module": "laws2100/RuleOfRecognitionAndValidity",
+    "base": "diagram"
+  },
+  "laws2100-w03-separation-of-law-and-morals": {
+    "module": "laws2100/SeparationOfLawAndMorals",
+    "base": "scroll"
+  },
+  "laws2100-w03-what-is-legal-positivism": {
+    "module": "laws2100/WhatIsLegalPositivism",
+    "base": "palace"
+  },
+  "laws2000-w04-emerging-actors-beyond-the-state": {
+    "module": "laws2000/EmergingActorsBeyondTheState",
+    "base": "diagram"
+  },
+  "laws2000-w04-international-organisations-definition-and-personality": {
+    "module": "laws2000/InternationalOrganisationsDefinitionAndPersonality",
+    "base": "scroll"
+  },
+  "laws2000-w04-modes-of-territorial-acquisition": {
+    "module": "laws2000/ModesOfTerritorialAcquisition",
+    "base": "palace"
+  },
+  "laws2000-w04-montevideo-criteria-for-statehood": {
+    "module": "laws2000/MontevideoCriteriaForStatehood",
+    "base": "palace"
+  },
+  "laws2000-w04-powers-and-responsibility-of-international-organisations": {
+    "module": "laws2000/PowersAndResponsibilityOfInternationalOrganisations",
+    "base": "diagram"
+  },
+  "laws2000-w04-self-determination-and-secession": {
+    "module": "laws2000/SelfDeterminationAndSecession",
+    "base": "diagram"
+  },
+  "laws2000-w04-subjects-and-international-legal-personality": {
+    "module": "laws2000/SubjectsAndInternationalLegalPersonality",
+    "base": "scroll"
+  },
+  "laws2000-w05-customary-international-law-in-australian-law": {
+    "module": "laws2000/CustomaryInternationalLawInAustralianLaw",
+    "base": "scroll"
+  },
+  "laws2000-w05-forms-of-jurisdiction": {
+    "module": "laws2000/FormsOfJurisdiction",
+    "base": "diagram"
+  },
+  "laws2000-w05-grounds-of-jurisdiction": {
+    "module": "laws2000/GroundsOfJurisdiction",
+    "base": "palace"
+  },
+  "laws2000-w05-il-perspective-on-national-law": {
+    "module": "laws2000/IlPerspectiveOnNationalLaw",
+    "base": "diagram"
+  },
+  "laws2000-w05-international-law-in-australian-interpretation": {
+    "module": "laws2000/InternationalLawInAustralianInterpretation",
+    "base": "scroll"
+  },
+  "laws2000-w05-monism-and-dualism": {
+    "module": "laws2000/MonismAndDualism",
+    "base": "diagram"
+  },
+  "laws2000-w05-treaties-in-australian-law": {
+    "module": "laws2000/TreatiesInAustralianLaw",
+    "base": "palace"
+  },
+  "laws2000-w07-breach-of-an-international-obligation": {
+    "module": "laws2000/BreachOfAnInternationalObligation",
+    "base": "diagram"
+  },
+  "laws2000-w07-cessation-and-reparation": {
+    "module": "laws2000/CessationAndReparation",
+    "base": "diagram"
+  },
+  "laws2000-w07-circumstances-precluding-wrongfulness": {
+    "module": "laws2000/CircumstancesPrecludingWrongfulness",
+    "base": "palace"
+  },
+  "laws2000-w07-effective-control-and-private-conduct": {
+    "module": "laws2000/EffectiveControlAndPrivateConduct",
+    "base": "timeline"
+  },
+  "laws2000-w07-framework-of-state-responsibility": {
+    "module": "laws2000/FrameworkOfStateResponsibility",
+    "base": "palace"
+  },
+  "laws2000-w07-invocation-of-responsibility": {
+    "module": "laws2000/InvocationOfResponsibility",
+    "base": "diagram"
+  },
+  "laws2100-w04-finnis-central-case-method": {
+    "module": "laws2100/FinnisCentralCaseMethod",
+    "base": "diagram"
+  },
+  "laws2100-w04-fullers-inner-morality-of-law": {
+    "module": "laws2100/FullersInnerMoralityOfLaw",
+    "base": "palace"
+  },
+  "laws2100-w04-harts-six-claims": {
+    "module": "laws2100/HartsSixClaims",
+    "base": "palace"
+  },
+  "laws2100-w04-lex-iniusta-strong-and-weak": {
+    "module": "laws2100/LexIniustaStrongAndWeak",
+    "base": "diagram"
+  },
+  "laws2100-w04-minimum-content-of-natural-law": {
+    "module": "laws2100/MinimumContentOfNaturalLaw",
+    "base": "scroll"
+  },
+  "laws2100-w04-natural-law-and-positivism": {
+    "module": "laws2100/NaturalLawAndPositivism",
+    "base": "diagram"
+  },
+  "laws2100-w05-discretion-riggs-and-obligation": {
+    "module": "laws2100/DiscretionRiggsAndObligation",
+    "base": "simulation"
+  },
+  "laws2100-w05-inclusive-and-exclusive-positivism": {
+    "module": "laws2100/InclusiveAndExclusivePositivism",
+    "base": "diagram"
+  },
+  "laws2100-w05-law-as-integrity": {
+    "module": "laws2100/LawAsIntegrity",
+    "base": "timeline"
+  },
+  "laws2100-w05-rules-principles-and-policies": {
+    "module": "laws2100/RulesPrinciplesAndPolicies",
+    "base": "diagram"
+  },
+  "laws2100-w05-ruling-theory-and-three-tenets": {
+    "module": "laws2100/RulingTheoryAndThreeTenets",
+    "base": "palace"
+  },
+  "laws2100-w05-theoretical-disagreement": {
+    "module": "laws2100/TheoreticalDisagreement",
+    "base": "scroll"
+  },
+  "laws2100-w06-conceptual-and-empirical-rule-scepticism": {
+    "module": "laws2100/ConceptualAndEmpiricalRuleScepticism",
+    "base": "diagram"
+  },
+  "laws2100-w06-critical-legal-studies": {
+    "module": "laws2100/CriticalLegalStudies",
+    "base": "diagram"
+  },
+  "laws2100-w06-holmes-prediction-theory": {
+    "module": "laws2100/HolmesPredictionTheory",
+    "base": "scroll"
+  },
+  "laws2100-w06-leiter-realism-as-theory-of-adjudication": {
+    "module": "laws2100/LeiterRealismAsTheoryOfAdjudication",
+    "base": "scroll"
+  },
+  "laws2100-w06-nightmare-and-noble-dream": {
+    "module": "laws2100/NightmareAndNobleDream",
+    "base": "diagram"
+  },
+  "laws2100-w06-open-texture-and-harts-middle-way": {
+    "module": "laws2100/OpenTextureAndHartsMiddleWay",
+    "base": "simulation"
+  },
+  "laws2100-w06-realism-against-formalism": {
+    "module": "laws2100/RealismAgainstFormalism",
+    "base": "diagram"
+  },
+  "laws2100-w07-hart-and-dworkin-on-judicial-discretion": {
+    "module": "laws2100/HartAndDworkinOnJudicialDiscretion",
+    "base": "diagram"
+  },
+  "laws2100-w07-raz-and-finnis-on-legal-reasoning": {
+    "module": "laws2100/RazAndFinnisOnLegalReasoning",
+    "base": "diagram"
+  },
+  "laws2100-w07-rules-standards-and-defeasibility": {
+    "module": "laws2100/RulesStandardsAndDefeasibility",
+    "base": "simulation"
+  },
+  "laws2100-w07-schauer-thinking-like-a-lawyer": {
+    "module": "laws2100/SchauerThinkingLikeALawyer",
+    "base": "scroll"
+  },
+  "laws2100-w07-speluncean-explorers-five-options": {
+    "module": "laws2100/SpelunceanExplorersFiveOptions",
+    "base": "diagram"
+  },
+  "laws2100-w07-types-of-reasoning-and-rules": {
+    "module": "laws2100/TypesOfReasoningAndRules",
+    "base": "palace"
+  },
+  "laws2400-w07-pure-economic-loss-and-policy": {
+    "module": "laws2400/PureEconomicLossAndPolicy",
+    "base": "simulation"
+  },
+  "laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko": {
+    "module": "laws2400/RelianceAndKnowledgeShaddockSanSebastianTepko",
+    "base": "simulation"
+  },
+  "laws2400-w07-pel-caused-by-acts-perre-and-caltex": {
+    "module": "laws2400/PelCausedByActsPerreAndCaltex",
+    "base": "simulation"
+  },
+  "laws2400-w07-esanda-and-misstatement-salient-features": {
+    "module": "laws2400/EsandaAndMisstatementSalientFeatures",
+    "base": "palace"
+  },
+  "laws2400-w07-negligent-words-from-deceit-to-hedley-byrne": {
+    "module": "laws2400/NegligentWordsDeceitToHedleyByrne",
+    "base": "timeline"
+  },
+  "laws2400-w07-defective-structures-and-the-dbpa": {
+    "module": "laws2400/DefectiveStructuresAndDbpa",
+    "base": "timeline"
+  },
+  "laws2400-w07-disclaimers-and-vulnerability": {
+    "module": "laws2400/DisclaimersAndVulnerability",
+    "base": "diagram"
+  },
+  "laws2400-w07-acl-s18-misleading-or-deceptive-conduct": {
+    "module": "laws2400/AclS18MisleadingConduct",
+    "base": "diagram"
+  },
+  "mgmt2094-w07-invention-vs-innovation-economic-value": {
+    "module": "mgmt2094/InventionVsInnovationEconomicValue",
+    "base": "diagram"
+  },
+  "mgmt2094-w07-creativity-precedes-innovation": {
+    "module": "mgmt2094/CreativityPrecedesInnovation",
+    "base": "simulation"
+  },
+  "laws2400-w09-breach-of-duty-flowchart": {
+    "module": "laws2400/BreachOfDutyFlowchart",
+    "base": "diagram"
+  },
+  "laws2400-w09-standard-of-care-reasonableness": {
+    "module": "laws2400/StandardOfCareReasonableness",
+    "base": "simulation"
+  },
+  "laws2400-w09-foreseeable-risk-s5b-1a": {
+    "module": "laws2400/ForeseeableRiskS5b1a",
+    "base": "simulation"
+  },
+  "laws2400-w09-not-insignificant-risk-s5b-1b": {
+    "module": "laws2400/NotInsignificantRiskS5b1b",
+    "base": "simulation"
+  },
+  "laws2400-w09-reasonable-response-s5b-1c-and-2": {
+    "module": "laws2400/ReasonableResponseS5b1cAnd2",
+    "base": "palace"
+  },
+  "laws2100-w08-outsider-jurisprudence": {
+    "module": "laws2100/OutsiderJurisprudence",
+    "base": "simulation"
+  },
+  "laws2100-w08-four-feminisms": {
+    "module": "laws2100/FourFeminisms",
+    "base": "palace"
+  },
+  "laws2100-w08-separate-spheres-and-the-personal-is-political": {
+    "module": "laws2100/SeparateSpheresAndThePersonalIsPolitical",
+    "base": "diagram"
+  },
+  "laws2100-w08-naffine-in-praise-of-legal-feminism": {
+    "module": "laws2100/NaffineInPraiseOfLegalFeminism",
+    "base": "scroll"
+  },
+  "laws2100-w08-lacey-impartiality-and-community": {
+    "module": "laws2100/LaceyImpartialityAndCommunity",
+    "base": "diagram"
+  },
+  "laws2100-w08-critical-race-theory": {
+    "module": "laws2100/CriticalRaceTheory",
+    "base": "diagram"
+  },
+  "mgmt2094-w12-innovation-culture": {
+    "module": "mgmt2094/InnovationCulture",
+    "base": "simulation"
+  },
+  "mgmt2094-w12-innovative-leader": {
+    "module": "mgmt2094/InnovativeLeader",
+    "base": "scroll"
+  },
+  "mgmt2094-w12-challenges-managing-innovation": {
+    "module": "mgmt2094/ChallengesManagingInnovation",
+    "base": "palace"
+  },
+  "mgmt2094-w12-barriers-to-innovation": {
+    "module": "mgmt2094/BarriersToInnovation",
+    "base": "diagram"
+  },
+  "mgmt2094-w12-overcoming-barriers": {
+    "module": "mgmt2094/OvercomingBarriers",
+    "base": "palace"
+  },
+  "mgmt2094-w12-responding-to-disruption": {
+    "module": "mgmt2094/RespondingToDisruption",
+    "base": "simulation"
+  },
+  "laws2100-w09-will-and-interest-theories": {
+    "module": "laws2100/WillAndInterestTheories",
+    "base": "simulation"
+  },
+  "laws2100-w09-hohfeldian-incidents": {
+    "module": "laws2100/HohfeldianIncidents",
+    "base": "palace"
+  },
+  "laws2100-w09-rights-and-utilitarian-reasoning": {
+    "module": "laws2100/RightsAndUtilitarianReasoning",
+    "base": "simulation"
+  },
+  "laws2100-w09-moral-and-legal-rights": {
+    "module": "laws2100/MoralAndLegalRights",
+    "base": "diagram"
+  },
+  "laws2100-w09-generations-and-history-of-human-rights": {
+    "module": "laws2100/GenerationsAndHistoryOfHumanRights",
+    "base": "timeline"
+  },
+  "laws2100-w09-critiques-of-human-rights": {
+    "module": "laws2100/CritiquesOfHumanRights",
+    "base": "diagram"
+  },
+  "laws2100-w09-limitation-clauses-and-proportionality": {
+    "module": "laws2100/LimitationClausesAndProportionality",
+    "base": "simulation"
+  },
+  "laws2400-w10-causation-flowchart": {
+    "module": "laws2400/CausationFlowchart",
+    "base": "diagram"
+  },
+  "laws2400-w10-factual-causation-necessary-condition": {
+    "module": "laws2400/FactualCausationNecessaryCondition",
+    "base": "simulation"
+  },
+  "laws2400-w10-s5d2-exceptional-cases": {
+    "module": "laws2400/ExceptionalCasesS5d2",
+    "base": "palace"
+  },
+  "laws2400-w10-multiple-sufficient-causes-and-material-contribution": {
+    "module": "laws2400/SufficientCausesAndMaterialContribution",
+    "base": "diagram"
+  },
+  "laws2400-w10-scope-of-liability-element": {
+    "module": "laws2400/ScopeOfLiabilityElement",
+    "base": "scroll"
+  },
+  "laws2400-w10-contribution-between-tortfeasors": {
+    "module": "laws2400/ContributionBetweenTortfeasors",
+    "base": "simulation"
+  },
+  "laws2400-w11-scope-of-liability-decision-flow": {
+    "module": "laws2400/ScopeOfLiabilityDecisionFlow",
+    "base": "diagram"
+  },
+  "laws2400-w11-novus-actus-volitional-acts-and-coincidences": {
+    "module": "laws2400/NovusActusVolitionalActsAndCoincidences",
+    "base": "simulation"
+  },
+  "laws2400-w11-subsequent-negligent-acts": {
+    "module": "laws2400/SubsequentNegligentActs",
+    "base": "diagram"
+  },
+  "laws2400-w11-remoteness-kind-of-harm": {
+    "module": "laws2400/RemotenessKindOfHarm",
+    "base": "simulation"
+  },
+  "laws2400-w11-egg-shell-skull-rule": {
+    "module": "laws2400/EggShellSkullRule",
+    "base": "scroll"
+  },
+  "laws2400-w11-client-interviewing-and-trauma-informed-practice": {
+    "module": "laws2400/ClientInterviewingAndTraumaInformedPractice",
+    "base": "palace"
+  },
+  "laws2400-w12-defences-to-negligence-flowchart": {
+    "module": "laws2400/DefencesToNegligenceFlowchart",
+    "base": "diagram"
+  },
+  "laws2400-w12-contributory-negligence-apportionment-and-standard": {
+    "module": "laws2400/ContributoryNegligenceApportionment",
+    "base": "simulation"
+  },
+  "laws2400-w12-contributory-negligence-employees-emergencies-rescuers": {
+    "module": "laws2400/ContributoryNegligenceInContext",
+    "base": "palace"
+  },
+  "laws2400-w12-intoxicated-plaintiff-cla-s50": {
+    "module": "laws2400/IntoxicatedPlaintiffS50",
+    "base": "simulation"
+  },
+  "laws2400-w12-voluntary-assumption-of-risk": {
+    "module": "laws2400/VoluntaryAssumptionOfRisk",
+    "base": "simulation"
+  },
+  "laws2400-w12-volenti-and-legislation": {
+    "module": "laws2400/VolentiAndLegislation",
+    "base": "scroll"
+  },
+  "laws2400-w12-illegality-defence": {
+    "module": "laws2400/IllegalityDefence",
+    "base": "diagram"
+  },
+  "mgmt2094-w01-flip-mindset": {
+    "module": "mgmt2094/FlipMindset",
+    "base": "scroll"
+  },
+  "mgmt2094-w01-defining-creativity": {
+    "module": "mgmt2094/DefiningCreativity",
+    "base": "diagram"
+  },
+  "mgmt2094-w01-methods-for-creativity": {
+    "module": "mgmt2094/MethodsForCreativity",
+    "base": "palace"
+  },
+  "mgmt2094-w01-creativity-gym": {
+    "module": "mgmt2094/CreativityGym",
+    "base": "diagram"
+  },
+  "mgmt2094-w01-creative-competencies": {
+    "module": "mgmt2094/CreativeCompetencies",
+    "base": "simulation"
+  },
+  "mgmt2094-w01-creativity-and-innovation": {
+    "module": "mgmt2094/CreativityAndInnovation",
+    "base": "simulation"
+  },
+  "mgmt2094-w01-innovation-at-disney": {
+    "module": "mgmt2094/InnovationAtDisney",
+    "base": "timeline"
+  },
+  "mgmt2094-w04-parallel-thinking": {
+    "module": "mgmt2094/ParallelThinking",
+    "base": "diagram"
+  },
+  "mgmt2094-w04-six-thinking-hats": {
+    "module": "mgmt2094/SixThinkingHats",
+    "base": "palace"
+  },
+  "mgmt2094-w04-running-a-hats-session": {
+    "module": "mgmt2094/RunningAHatsSession",
+    "base": "scroll"
+  },
+  "mgmt2094-w04-hat-sequences": {
+    "module": "mgmt2094/HatSequences",
+    "base": "simulation"
+  },
+  "mgmt2094-w04-linear-thinking-trap": {
+    "module": "mgmt2094/LinearThinkingTrap",
+    "base": "simulation"
+  },
+  "mgmt2094-w04-brainwriting-and-brainwalking": {
+    "module": "mgmt2094/BrainwritingAndBrainwalking",
+    "base": "diagram"
+  },
+  "mgmt2094-w04-leadership-and-knowledge-sharing": {
+    "module": "mgmt2094/LeadershipAndKnowledgeSharing",
+    "base": "diagram"
+  },
+  "mgmt2094-w05-whole-brain-model": {
+    "module": "mgmt2094/WholeBrainModel",
+    "base": "simulation"
+  },
+  "mgmt2094-w05-wallas-model-of-creative-thinking": {
+    "module": "mgmt2094/WallasModelOfCreativeThinking",
+    "base": "palace"
+  },
+  "mgmt2094-w05-psychological-theories-of-creativity": {
+    "module": "mgmt2094/PsychologicalTheoriesOfCreativity",
+    "base": "diagram"
+  },
+  "mgmt2094-w05-humanistic-theory-and-maslows-types": {
+    "module": "mgmt2094/HumanisticTheoryAndMaslowsTypes",
+    "base": "diagram"
+  },
+  "mgmt2094-w05-grace-accident-association-and-cognitive-theories": {
+    "module": "mgmt2094/GraceAccidentAssociationAndCognitiveTheories",
+    "base": "diagram"
+  },
+  "mgmt2094-w05-creative-problem-solving-process": {
+    "module": "mgmt2094/CreativeProblemSolvingProcess",
+    "base": "scroll"
+  },
+  "mgmt2094-w05-defining-the-problem": {
+    "module": "mgmt2094/DefiningTheProblem",
+    "base": "simulation"
+  },
+  "mgmt2094-w05-four-creative-thinking-preferences": {
+    "module": "mgmt2094/FourCreativeThinkingPreferences",
+    "base": "simulation"
+  },
+  "mgmt2094-w06-why-reflect": {
+    "module": "mgmt2094/WhyReflect",
+    "base": "scroll"
+  },
+  "mgmt2094-w06-purposes-of-reflection": {
+    "module": "mgmt2094/PurposesOfReflection",
+    "base": "palace"
+  },
+  "mgmt2094-w06-revealing-information-wisely": {
+    "module": "mgmt2094/RevealingInformationWisely",
+    "base": "simulation"
+  },
+  "mgmt2094-w06-writing-a-reflective-paper": {
+    "module": "mgmt2094/WritingAReflectivePaper",
+    "base": "diagram"
+  },
+  "mgmt2094-w06-describe-analyse-reflect": {
+    "module": "mgmt2094/DescribeAnalyseReflect",
+    "base": "scroll"
+  },
+  "mgmt2094-w06-diverging-and-converging": {
+    "module": "mgmt2094/DivergingAndConverging",
+    "base": "diagram"
+  },
+  "mgmt2094-w06-creativity-tool": {
+    "module": "mgmt2094/CreativityTool",
+    "base": "simulation"
+  },
+  "mgmt2094-w09-new-product-market-share": {
+    "module": "mgmt2094/NewProductMarketShare",
+    "base": "simulation"
+  },
+  "mgmt2094-w09-transformation-and-change-management": {
+    "module": "mgmt2094/TransformationAndChangeManagement",
+    "base": "timeline"
+  },
+  "mgmt2094-w09-six-sigma-methods": {
+    "module": "mgmt2094/SixSigmaMethods",
+    "base": "diagram"
+  },
+  "mgmt2094-w09-dmedi-design-process": {
+    "module": "mgmt2094/DmediDesignProcess",
+    "base": "palace"
+  },
+  "mgmt2094-w09-deck-protector-case": {
+    "module": "mgmt2094/DeckProtectorCase",
+    "base": "scroll"
+  },
+  "mgmt2094-w09-customer-risk-after-commercialisation": {
+    "module": "mgmt2094/CustomerRiskAfterCommercialisation",
+    "base": "diagram"
+  },
+  "mgmt2094-w09-creativity-within-discipline": {
+    "module": "mgmt2094/CreativityWithinDiscipline",
+    "base": "simulation"
+  },
+  "laws2000-w08-existence-of-a-dispute": {
+    "module": "laws2000/ExistenceOfADispute",
+    "base": "simulation"
+  },
+  "laws2000-w08-obligation-of-peaceful-settlement": {
+    "module": "laws2000/ObligationOfPeacefulSettlement",
+    "base": "diagram"
+  },
+  "laws2000-w08-diplomatic-modes-of-settlement": {
+    "module": "laws2000/DiplomaticModesOfSettlement",
+    "base": "palace"
+  },
+  "laws2000-w08-international-arbitration": {
+    "module": "laws2000/InternationalArbitration",
+    "base": "diagram"
+  },
+  "laws2000-w08-icj-cases-and-effect-of-decisions": {
+    "module": "laws2000/IcjCasesAndEffectOfDecisions",
+    "base": "diagram"
+  },
+  "laws2000-w08-icj-jurisdiction-and-consent": {
+    "module": "laws2000/IcjJurisdictionAndConsent",
+    "base": "simulation"
+  },
+  "laws2000-w08-provisional-measures": {
+    "module": "laws2000/ProvisionalMeasures",
+    "base": "simulation"
+  },
+  "laws2000-w08-regional-and-economic-dispute-settlement": {
+    "module": "laws2000/RegionalAndEconomicDisputeSettlement",
+    "base": "diagram"
+  },
+  "laws2400-w08-public-authorities-as-defendants": {
+    "module": "laws2400/PublicAuthoritiesAsDefendants",
+    "base": "simulation"
+  },
+  "laws2400-w08-crimmins-and-mchugh-six-questions": {
+    "module": "laws2400/CrimminsSixQuestions",
+    "base": "palace"
+  },
+  "laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca": {
+    "module": "laws2400/ControlAndVulnerabilityBarclayAmaca",
+    "base": "simulation"
+  },
+  "laws2400-w08-cla-part-5-public-authorities": {
+    "module": "laws2400/ClaPart5PublicAuthorities",
+    "base": "palace"
+  },
+  "laws2400-w08-third-party-conduct-dorset-yacht-and-modbury": {
+    "module": "laws2400/ThirdPartyConductDorsetYachtModbury",
+    "base": "diagram"
+  },
+  "laws2400-w08-landlords-occupiers-and-trespassers": {
+    "module": "laws2400/LandlordsOccupiersTrespassers",
+    "base": "simulation"
+  },
+  "laws2400-w08-advocates-immunity": {
+    "module": "laws2400/AdvocatesImmunity",
+    "base": "diagram"
+  },
+  "laws2400-w08-children-parents-and-the-unborn": {
+    "module": "laws2400/ChildrenParentsAndUnborn",
+    "base": "palace"
+  },
+  "mgmt2094-w02-creative-problem-solving-steps": {
+    "module": "mgmt2094/CreativeProblemSolvingSteps",
+    "base": "palace"
+  },
+  "mgmt2094-w02-problem-identification": {
+    "module": "mgmt2094/ProblemIdentification",
+    "base": "scroll"
+  },
+  "mgmt2094-w02-divergent-thinking": {
+    "module": "mgmt2094/DivergentThinking",
+    "base": "simulation"
+  },
+  "mgmt2094-w02-measuring-creativity": {
+    "module": "mgmt2094/MeasuringCreativity",
+    "base": "diagram"
+  },
+  "mgmt2094-w02-creativity-technique-families": {
+    "module": "mgmt2094/CreativityTechniqueFamilies",
+    "base": "diagram"
+  },
+  "mgmt2094-w02-idea-gathering-techniques": {
+    "module": "mgmt2094/IdeaGatheringTechniques",
+    "base": "timeline"
+  },
+  "mgmt2094-w02-mind-maps": {
+    "module": "mgmt2094/MindMaps",
+    "base": "simulation"
+  },
+  "mgmt2094-w03-what-is-design-thinking": {
+    "module": "mgmt2094/WhatIsDesignThinking",
+    "base": "diagram"
+  },
+  "mgmt2094-w03-desirability-feasibility-viability": {
+    "module": "mgmt2094/DesirabilityFeasibilityViability",
+    "base": "simulation"
+  },
+  "mgmt2094-w03-design-thinking-process": {
+    "module": "mgmt2094/DesignThinkingProcess",
+    "base": "palace"
+  },
+  "mgmt2094-w03-four-rules-of-design-thinking": {
+    "module": "mgmt2094/FourRulesOfDesignThinking",
+    "base": "palace"
+  },
+  "mgmt2094-w03-empathy-and-human-centred-design": {
+    "module": "mgmt2094/EmpathyAndHumanCentredDesign",
+    "base": "diagram"
+  },
+  "mgmt2094-w03-discovering-needs-and-insights": {
+    "module": "mgmt2094/DiscoveringNeedsAndInsights",
+    "base": "simulation"
+  },
+  "mgmt2094-w03-divergent-thinking-and-idea-generation": {
+    "module": "mgmt2094/DivergentThinkingAndIdeaGeneration",
+    "base": "simulation"
+  },
+  "mgmt2094-w03-prototyping-and-experimentation": {
+    "module": "mgmt2094/PrototypingAndExperimentation",
+    "base": "simulation"
+  },
+  "mgmt2094-w08-what-is-innovation": {
+    "module": "mgmt2094/WhatIsInnovation",
+    "base": "simulation"
+  },
+  "mgmt2094-w08-why-innovate-goals-and-sources": {
+    "module": "mgmt2094/WhyInnovateGoalsAndSources",
+    "base": "palace"
+  },
+  "mgmt2094-w08-innovation-map": {
+    "module": "mgmt2094/InnovationMap",
+    "base": "diagram"
+  },
+  "mgmt2094-w08-disruptive-innovation": {
+    "module": "mgmt2094/DisruptiveInnovation",
+    "base": "simulation"
+  },
+  "mgmt2094-w08-innovation-process-and-management": {
+    "module": "mgmt2094/InnovationProcessAndManagement",
+    "base": "palace"
+  },
+  "mgmt2094-w08-value-innovation-and-what-if": {
+    "module": "mgmt2094/ValueInnovationAndWhatIf",
+    "base": "scroll"
+  },
+  "mgmt2094-w08-ideation-toolkit": {
+    "module": "mgmt2094/IdeationToolkit",
+    "base": "palace"
+  },
+  "mgmt2094-w08-design-thinking": {
+    "module": "mgmt2094/DesignThinking",
+    "base": "diagram"
+  },
+  "mgmt2094-w10-agile-innovation": {
+    "module": "mgmt2094/AgileInnovation",
+    "base": "scroll"
+  },
+  "mgmt2094-w10-scrum-in-practice": {
+    "module": "mgmt2094/ScrumInPractice",
+    "base": "diagram"
+  },
+  "mgmt2094-w10-conditions-for-agile": {
+    "module": "mgmt2094/ConditionsForAgile",
+    "base": "simulation"
+  },
+  "mgmt2094-w10-leading-agile": {
+    "module": "mgmt2094/LeadingAgile",
+    "base": "palace"
+  },
+  "mgmt2094-w10-lean-start-up": {
+    "module": "mgmt2094/LeanStartUp",
+    "base": "timeline"
+  },
+  "mgmt2094-w10-business-model-canvas": {
+    "module": "mgmt2094/BusinessModelCanvas",
+    "base": "diagram"
+  },
+  "mgmt2094-w10-build-measure-learn": {
+    "module": "mgmt2094/BuildMeasureLearn",
+    "base": "simulation"
+  },
+  "mgmt2094-w10-lean-strategy": {
+    "module": "mgmt2094/LeanStrategy",
+    "base": "scroll"
+  },
+  "mgmt2094-w11-types-of-innovation": {
+    "module": "mgmt2094/TypesOfInnovation",
+    "base": "palace"
+  },
+  "mgmt2094-w11-views-of-innovation": {
+    "module": "mgmt2094/ViewsOfInnovation",
+    "base": "diagram"
+  },
+  "mgmt2094-w11-models-of-innovation": {
+    "module": "mgmt2094/ModelsOfInnovation",
+    "base": "simulation"
+  },
+  "mgmt2094-w11-open-and-closed-innovation-models": {
+    "module": "mgmt2094/OpenAndClosedInnovationModels",
+    "base": "simulation"
+  },
+  "mgmt2094-w11-architectural-and-modular-innovation": {
+    "module": "mgmt2094/ArchitecturalAndModularInnovation",
+    "base": "diagram"
+  },
+  "mgmt2094-w11-four-actions-framework": {
+    "module": "mgmt2094/FourActionsFramework",
+    "base": "simulation"
+  },
+  "mgmt2094-w11-value-innovation": {
+    "module": "mgmt2094/ValueInnovation",
+    "base": "diagram"
+  },
+  "mgmt2094-w11-bcg-six-innovation-models": {
+    "module": "mgmt2094/BcgSixInnovationModels",
+    "base": "palace"
+  },
+  "laws2000-w09-jus-ad-bellum-and-jus-in-bello": {
+    "module": "laws2000/JusAdBellumAndJusInBello",
+    "base": "timeline"
+  },
+  "laws2000-w09-prohibition-on-the-use-of-force": {
+    "module": "laws2000/ProhibitionOnTheUseOfForce",
+    "base": "simulation"
+  },
+  "laws2000-w09-exceptions-to-the-prohibition": {
+    "module": "laws2000/ExceptionsToTheProhibition",
+    "base": "diagram"
+  },
+  "laws2000-w09-armed-attack": {
+    "module": "laws2000/ArmedAttack",
+    "base": "simulation"
+  },
+  "laws2000-w09-necessity-proportionality-and-reporting": {
+    "module": "laws2000/NecessityProportionalityAndReporting",
+    "base": "palace"
+  },
+  "laws2000-w09-self-defence-against-non-state-actors": {
+    "module": "laws2000/SelfDefenceAgainstNonStateActors",
+    "base": "diagram"
+  },
+  "laws2000-w09-anticipatory-self-defence": {
+    "module": "laws2000/AnticipatorySelfDefence",
+    "base": "simulation"
+  },
+  "laws2000-w09-humanitarian-intervention-and-r2p": {
+    "module": "laws2000/HumanitarianInterventionAndR2p",
+    "base": "timeline"
+  },
+  "laws2000-w10-collective-security-and-the-un-system": {
+    "module": "laws2000/CollectiveSecurityAndTheUnSystem",
+    "base": "diagram"
+  },
+  "laws2000-w10-security-council-composition-and-powers": {
+    "module": "laws2000/SecurityCouncilCompositionAndPowers",
+    "base": "diagram"
+  },
+  "laws2000-w10-peaceful-settlement-under-chapter-vi": {
+    "module": "laws2000/PeacefulSettlementUnderChapterVi",
+    "base": "palace"
+  },
+  "laws2000-w10-article-39-determination-and-provisional-measures": {
+    "module": "laws2000/Article39DeterminationAndProvisionalMeasures",
+    "base": "simulation"
+  },
+  "laws2000-w10-non-forcible-measures-under-article-41": {
+    "module": "laws2000/NonForcibleMeasuresUnderArticle41",
+    "base": "diagram"
+  },
+  "laws2000-w10-authorisation-of-force-under-article-42": {
+    "module": "laws2000/AuthorisationOfForceUnderArticle42",
+    "base": "timeline"
+  },
+  "laws2000-w10-un-peacekeeping-operations": {
+    "module": "laws2000/UnPeacekeepingOperations",
+    "base": "palace"
+  },
+  "laws2000-w10-general-assembly-and-secretary-general": {
+    "module": "laws2000/GeneralAssemblyAndSecretaryGeneral",
+    "base": "diagram"
+  },
+  "laws2400-w03-trespass-to-land-decision-flow": {
+    "module": "laws2400/TrespassToLandDecisionFlow",
+    "base": "diagram"
+  },
+  "laws2000-w12-history-and-foundations-of-human-rights": {
+    "module": "laws2000/HistoryAndFoundationsOfHumanRights",
+    "base": "timeline"
+  },
+  "laws2000-w12-international-bill-of-rights": {
+    "module": "laws2000/InternationalBillOfRights",
+    "base": "diagram"
+  },
+  "laws2000-w12-core-instruments-and-sources-of-obligation": {
+    "module": "laws2000/CoreInstrumentsAndSourcesOfObligation",
+    "base": "palace"
+  },
+  "laws2000-w12-generations-and-principles-of-rights": {
+    "module": "laws2000/GenerationsAndPrinciplesOfRights",
+    "base": "diagram"
+  },
+  "laws2000-w12-rights-holders-and-duty-bearers": {
+    "module": "laws2000/RightsHoldersAndDutyBearers",
+    "base": "diagram"
+  },
+  "laws2000-w12-scope-and-extraterritoriality": {
+    "module": "laws2000/ScopeAndExtraterritoriality",
+    "base": "simulation"
+  },
+  "laws2000-w12-derogations-and-limitations": {
+    "module": "laws2000/DerogationsAndLimitations",
+    "base": "simulation"
+  },
+  "laws2000-w12-international-human-rights-machinery": {
+    "module": "laws2000/InternationalHumanRightsMachinery",
+    "base": "diagram"
+  },
+  "laws2000-w11-what-is-international-criminal-law": {
+    "module": "laws2000/WhatIsInternationalCriminalLaw",
+    "base": "diagram"
+  },
+  "laws2000-w11-post-wwii-military-tribunals": {
+    "module": "laws2000/PostWwiiMilitaryTribunals",
+    "base": "diagram"
+  },
+  "laws2000-w11-nuremberg-principles": {
+    "module": "laws2000/NurembergPrinciples",
+    "base": "palace"
+  },
+  "laws2000-w11-ad-hoc-tribunals-icty-and-ictr": {
+    "module": "laws2000/AdHocTribunalsIctyAndIctr",
+    "base": "timeline"
+  },
+  "laws2000-w11-hybrid-tribunals-and-the-eccc": {
+    "module": "laws2000/HybridTribunalsAndTheEccc",
+    "base": "diagram"
+  },
+  "laws2000-w11-icc-jurisdiction": {
+    "module": "laws2000/IccJurisdiction",
+    "base": "simulation"
+  },
+  "laws2000-w11-icc-admissibility-and-complementarity": {
+    "module": "laws2000/IccAdmissibilityAndComplementarity",
+    "base": "simulation"
+  },
+  "laws2000-w11-icc-applicable-law-and-cooperation": {
+    "module": "laws2000/IccApplicableLawAndCooperation",
+    "base": "palace"
+  },
+  "mgmt2094-w10-scrum-framework": {
+    "module": "mgmt2094/ScrumFramework",
+    "base": "diagram"
+  },
+  "mgmt2094-w10-agile-lean-start-up-lean-strategy": {
+    "module": "mgmt2094/AgileLeanStartUpLeanStrategy",
+    "base": "diagram"
+  },
+  "laws2000-w10-decisions-and-recommendations": {
+    "module": "laws2000/DecisionsAndRecommendations",
+    "base": "diagram"
+  },
+  "laws2000-w10-article-39-findings-in-practice": {
+    "module": "laws2000/Article39FindingsInPractice",
+    "base": "diagram"
+  },
+  "laws2100-w10-liberty-limiting-principles": {
+    "module": "laws2100/LibertyLimitingPrinciples",
+    "base": "palace"
+  },
+  "laws2100-w10-mills-harm-principle": {
+    "module": "laws2100/MillsHarmPrinciple",
+    "base": "scroll"
+  },
+  "laws2100-w10-feinbergs-offence-principle": {
+    "module": "laws2100/FeinbergsOffencePrinciple",
+    "base": "simulation"
+  },
+  "laws2100-w10-legal-paternalism": {
+    "module": "laws2100/LegalPaternalism",
+    "base": "simulation"
+  },
+  "laws2100-w10-devlins-legal-moralism": {
+    "module": "laws2100/DevlinsLegalMoralism",
+    "base": "diagram"
+  },
+  "laws2100-w10-harts-reply-to-devlin": {
+    "module": "laws2100/HartsReplyToDevlin",
+    "base": "timeline"
+  },
+  "laws2100-w10-rawls-and-raz": {
+    "module": "laws2100/RawlsAndRaz",
+    "base": "diagram"
+  },
+  "laws2100-w10-pornography-and-euthanasia": {
+    "module": "laws2100/PornographyAndEuthanasia",
+    "base": "simulation"
+  },
+  "laws2400-w10-common-sense-causation-and-s5d": {
+    "module": "laws2400/CommonSenseCausationAndS5d",
+    "base": "timeline"
+  },
+  "laws2400-w10-risk-chance-and-material-contribution": {
+    "module": "laws2400/RiskChanceAndMaterialContribution",
+    "base": "simulation"
+  },
+  "laws2400-w09-identifying-the-risk-of-harm": {
+    "module": "laws2400/IdentifyingTheRiskOfHarm",
+    "base": "simulation"
+  },
+  "laws2400-w09-the-reasonable-person": {
+    "module": "laws2400/TheReasonablePerson",
+    "base": "simulation"
+  },
+  "laws2400-w09-professional-standard-s5o": {
+    "module": "laws2400/ProfessionalStandardS5o",
+    "base": "simulation"
+  }
+}

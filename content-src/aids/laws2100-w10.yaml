@@ -1,0 +1,723 @@
+unit: laws2100
+week: 10
+source: raw/laws2100-juris/week-10
+generator: aids-1
+aids:
+  - concept: laws2100-w10-liberty-limiting-principles
+    plain: 'In a liberal democracy, state force needs a justification. Five are commonly used: preventing harm to others, preventing offence, preventing harm to self, preventing immorality, and promoting the general welfare.'
+    concrete: 'Run through the lecture''s examples. Stopping A assaulting B prevents harm to others. Protecting someone from being offended needs the offence principle. Some drug laws aim to protect users from themselves: paternalism. Criminalising bigamy because society thinks it wrong is legal moralism. Compulsory taxation for public projects some citizens may never use rests on the welfare principle. Each limits someone''s freedom; each needs its own justification.'
+    formal: 'Slide 3: state coercion v individual freedom: (1) prevention of harm to others (Mill); (2) prevention of offence (Feinberg); (3) prevention of harm to self (legal paternalism); (4) prevention of immoral conduct, even without harm or offence (legal moralism); (5) general welfare/public interest. Remember popular v critical morality. From a liberal point of view, preventing immorality in the absence of harm is not a legitimate reason to limit freedom.'
+    analogy:
+      text: Think of individual freedom as a room and state force as an entrant who must show a warrant. Five kinds of warrant are offered; a liberal honours harm to others and refuses one that cites immorality alone.
+      maps:
+        - from: the room
+          to: the space for individual liberty that limits on government protect
+        - from: the warrant
+          to: a justification for state coercion
+        - from: the five kinds of warrant
+          to: harm, offence, paternalism, moralism, welfare
+      limits:
+        - A warrant is valid or not; paternalism weighs five factors, and the slides leave open whether the welfare principle is paternalism or a matter of social justice.
+    terms:
+      - term: Popular morality
+        gloss: 'What is conventionally regarded as morally right by society (slide 21): the standard Devlin would enforce.'
+      - term: Critical morality
+        gloss: 'What is objectively right (slide 21): the standard Robert George would enforce.'
+      - term: Welfare principle
+        gloss: Justifies state intervention for the general welfare, eg compulsory taxation for public projects that some citizens may not benefit from (slide 17).
+      - term: Moral limits of the law
+        gloss: Normative limits on what positive law should regulate, as against practical limits on enforcement, which are just facts about the world (lecture).
+    misconceptions:
+      - claim: The practical limits on enforcing morality are a strong normative argument against legal moralism.
+        tempting: Devlin concedes that adultery cannot be enforced.
+        correction: 'The lecture: practical limits are facts about the world, not a normative justification. The week''s question is the moral limits of positive law.'
+      - claim: Legal paternalism and legal moralism both protect the actor from harm.
+        tempting: Both restrict self-regarding conduct.
+        correction: Paternalism protects the actor's own well-being; moralism targets conduct because it is immoral, whether or not anyone, the actor included, is harmed.
+      - claim: Liberals reject every justification except Mill's harm principle.
+        tempting: Mill's state exceeds its limits if it protects people from offence.
+        correction: Feinberg's offence principle is a liberal supplement to the harm principle. What the liberal view rejects is preventing immorality in the absence of harm (slide 3).
+    socratic:
+      - ask: Why does state coercion need a justification at all?
+        hint: What does it limit?
+        answer: Public force limits individual freedom. In a liberal democracy, limits on what government may do protect a space for individual liberty, so each use of force must be justified.
+      - ask: Whose interest does each principle protect?
+        hint: Others, self, morality, the public.
+        answer: Harm and offence protect others; paternalism protects the actor; moralism protects morality itself, even without harm or offence; the welfare principle serves the public interest.
+      - ask: Which principles limit the state, and which push it to act?
+        hint: Negative and positive.
+        answer: Harm and offence are negative in nature, setting limits on public force. Paternalism and moralism look to positive action the state might take to help people live a good life.
+      - ask: Why remember popular and critical morality here?
+        hint: Two moralists.
+        answer: 'Legal moralism splits in two: Devlin enforces popular morality (what society conventionally regards as right); George enforces critical morality (what is objectively right).'
+      - ask: Some moral laws cannot be enforced in practice. Is that the week's question?
+        hint: Facts or norms?
+        answer: 'No. Practical limits are facts about the world. The week asks for normative arguments: what are the moral limits of positive law?'
+    what-if:
+      - change: A law bans a private practice because most citizens think it degrading, though it harms no one.
+        effect: 'This is legal moralism in its popular version (Devlin). From a liberal point of view it is not a legitimate reason: preventing immorality without harm cannot justify limiting freedom.'
+      - change: The same practice is banned because it injures unwilling third parties.
+        effect: 'Now the harm principle applies: the state may limit the actor''s freedom to prevent harm to others, as when it stops A assaulting B.'
+    boundary:
+      - text: Compulsory taxation for a public project some citizens never use.
+        why: The welfare principle. The slides leave open whether it is an example of legal paternalism, or a matter of social justice.
+      - text: A totalitarian regime's claim to regulate every aspect of life.
+        why: 'Outside the frame: the lecture says these arguments make sense in a liberal democracy, where it is widely accepted that there is a limit to government interference.'
+    transfer:
+      - scenario: A city proposes to require every adult to attend a weekly fitness class, to cut public health costs and make residents healthier.
+        answer: Name the principles at work. Protecting residents' own health is legal paternalism (harm to self). Cutting public costs appeals to the general welfare. Neither is harm to others in Mill's sense. A liberal would ask whether either justifies coercion, weighing paternalism's factors and asking whether measures short of public coercion would do.
+    objections:
+      - position: From a liberal point of view, preventing immorality in the absence of harm is not a legitimate reason to limit freedom (slide 3).
+        evidence: 'Mill: our own good, physical or moral, is not enough; only harm to others justifies compulsion (slide 8).'
+        objection: 'Devlin: the criminal law already punishes harmless conduct, eg voluntary euthanasia, to protect a moral principle; without shared morality society breaks down (slides 21–22).'
+        reply: 'Hart: morality is not a seamless web; would tolerating the conduct really jeopardise the whole fabric of society? (slide 25)'
+    sources:
+      - Week 10 - Lecture Slides (slides 2–3, 16–17, 21)
+      - Week 10 - Lecture Transcript (first half)
+      - Week 10 - Lecture Transcript (second half)
+  - concept: laws2100-w10-mills-harm-principle
+    plain: 'Mill: the state may force someone against their will only to stop them harming others. Their own good is not enough; over their own body and mind, the individual is sovereign.'
+    concrete: The state may stop A assaulting B, though this limits A's freedom, because it prevents harm to B and protects B's security. It may stop A stealing B's property, protecting B's freedom to use it. But it exceeds its limits if it stops A destroying her own property, or protects someone from being offended. Conduct that harms only the actor, or others with their consent, should be free, however 'foolish, perverse, or wrong'.
+    formal: 'Mill, On Liberty (1859): ''the only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.'' One''s own good, physical or moral, does not justify ''compulsion and control'', by legal penalties or public opinion. Harm: infringing interests we are under a duty not to infringe. Only for those ''in the maturity of their faculties''.'
+    analogy:
+      text: Each person has a garden fenced off from the state. Inside, they may plant weeds or dig it all up; the state may cross the fence only when something growing there damages a neighbour's garden.
+      maps:
+        - from: the fenced garden
+          to: the sphere of self-regarding conduct, where the individual is sovereign
+        - from: planting weeds or digging it up
+          to: conduct that is 'foolish, perverse, or wrong', or destroying one's own property
+        - from: damage to a neighbour's garden
+          to: 'harm to others: infringing interests we are under a duty not to infringe'
+        - from: crossing the fence
+          to: compulsion and control by legal penalties or public opinion
+      limits:
+        - Gardens have clear boundaries; critics reply that no person's affairs have effects only on that person (slide 12).
+    terms:
+      - term: Harm (Mill's sense)
+        gloss: 'Not merely affecting another''s interests: infringing interests we are under a duty not to infringe, by breaching a specific duty to the public or perceptibly hurting a specific individual.'
+      - term: Presumptive case for liberty
+        gloss: Whatever we seem to think about freedom, we agree it is of intrinsic value for both the individual and society (slide 11).
+      - term: Experiments in living
+        gloss: Trying different kinds of lifestyle benefits the whole society in the long run, even if the majority finds them unsavoury or offensive (slide 11).
+      - term: Maturity of their faculties
+        gloss: 'Mill''s limit on scope: the doctrine applies only to human beings in the maturity of their faculties, not, eg, to children.'
+    misconceptions:
+      - claim: For Mill, any effect on another person's interests counts as harm.
+        tempting: '''Harm to others'' sounds broad.'
+        correction: 'Slide 9: harm ''is not just a matter of affecting another person''s interests''; it means infringing interests we are under a duty not to infringe.'
+      - claim: Mill's justification for the harm principle is purely utilitarian.
+        tempting: Mill was a utilitarian and argues from long-run happiness.
+        correction: 'The lecture: at the foundation is the intrinsic value of liberty (the presumptive case for liberty); the utilitarian argument from long-run happiness is built on top.'
+      - claim: Mill's principle lets the state protect people from serious offence.
+        tempting: Offence can feel like a harm.
+        correction: On the slides the state exceeds its proper limits if it tries to protect a person from being offended. Offence is Feinberg's later supplement.
+    socratic:
+      - ask: What is the only purpose for which power may rightfully be used against a person's will?
+        hint: Slide 8.
+        answer: To prevent harm to others. A person's own good, physical or moral, is not a good enough reason for compulsion and control.
+      - ask: Which kinds of compulsion does that limit cover?
+        hint: Two means.
+        answer: Physical force in the form of legal penalties, and the moral coercion of public opinion.
+      - ask: Is every effect on someone else's interests a harm?
+        hint: 'Slide 9: a duty.'
+        answer: 'No. Harm is infringing interests we are under a duty not to infringe: violating a specific duty to the public, or causing perceptible hurt to a specific individual.'
+      - ask: Why protect conduct the majority finds foolish or perverse?
+        hint: Two justifications.
+        answer: Freedom has intrinsic value (the presumptive case for liberty). And in the long run, experiments in living benefit society; exercising freedom is a principal ingredient of happiness.
+      - ask: What do critics say is wrong with the principle?
+        hint: 'Slide 12: three problems.'
+        answer: Harm is conceived too narrowly; no person's affairs affect only that person; and it ignores indirect harms and kinds of offence that could become harm.
+    what-if:
+      - change: A and B, both adults, agree to a dangerous sport that may injure either of them.
+        effect: On the slides' account of Mill, behaviour that harms people with their consent should not be punished, so the harm principle gives no ground to ban it.
+      - change: A destroys B's property instead of her own.
+        effect: 'Now the harm principle applies: A infringes B''s interest in property, and the state may stop her, protecting B''s freedom to use it as B wishes.'
+      - change: The actor is a child, not an adult.
+        effect: Mill's doctrine applies only to human beings in the maturity of their faculties, so its protection of self-regarding conduct does not extend to her in the same way.
+    boundary:
+      - text: Drinking at home, which affects one's family, employer and the health system.
+        why: 'Presses a listed problem: no person''s affairs have effects only on that person, so the line between self- and other-regarding conduct is unstable.'
+      - text: A display that deeply offends passers-by but hurts no one.
+        why: 'Outside Mill''s principle: the state exceeds its limits if it protects people from offence. Only Feinberg''s offence principle could reach it.'
+    transfer:
+      - scenario: A state proposes to ban extreme fasting diets among adults, which can seriously damage the dieter's health but harm no one else.
+        answer: 'Mill''s harm principle gives no ground: the harm falls on the actor alone, and our own good, physical or moral, is not a good enough reason for compulsion. Over her own body and mind she is sovereign, being in the maturity of her faculties. A ban would need another principle, legal paternalism, which Mill rejects.'
+    objections:
+      - position: The state may coerce only to prevent harm to others (Mill).
+        evidence: Freedom's intrinsic value; long-run happiness from experiments in living; exercising freedom is 'one of the principal ingredients of human happiness' (slide 11).
+        objection: Harm is conceived too narrowly, and no person's affairs affect only that person; indirect harms and offence are ignored (slide 12).
+      - position: Over their own body and mind, the individual is sovereign (slide 8).
+        evidence: 'Mill assumes a private sphere: we answer to society only for conduct that may harm other members of the community.'
+        objection: 'Devlin: contra Mill, there is no principled distinction between the private sphere and the public sphere (slide 21).'
+    storyboard:
+      - caption: Authority against liberty
+        detail: On Liberty (1859) explores the struggle between authority and liberty; limits on government protect a space for individual liberty.
+      - caption: One purpose only
+        detail: Power may be used against a person's will only to prevent harm to others; their own good is not enough.
+      - caption: What counts as harm
+        detail: 'Infringing interests we are under a duty not to infringe: assault and theft, not destroying one''s own property or offence.'
+      - caption: Why liberty
+        detail: Liberty has intrinsic value; and experiments in living bring maximum happiness in the long run.
+      - caption: Stress points
+        detail: Harm too narrow; no affairs purely self-regarding; indirect harms and offence ignored.
+    sources:
+      - Week 10 - Lecture Slides (slides 4, 7–12)
+      - Week 10 - Lecture Transcript (first half)
+  - concept: laws2100-w10-feinbergs-offence-principle
+    plain: 'Feinberg: preventing serious offence to others can justify a criminal prohibition, but only if almost anyone would be offended and the offence cannot reasonably be avoided.'
+    concrete: Mill's state may not protect people from being offended. Feinberg answers critics who say harm alone does not reach far enough. Because offence reaches further than harm, he narrows it with two tests. The reaction must be one almost anyone chosen at random would have, regardless of sex, age or race. And the offended person must be unable to avoid the behaviour reasonably, or only at real inconvenience. Both must be met.
+    formal: 'Feinberg (1926–2004): ''It is always a good reason in support of a proposed criminal prohibition that it would probably be an effective way of preventing serious offense...to persons other than the actor, and that it is probably a necessary means to that end.'' A supplement to the harm principle; two tests must both be met: universality and reasonable avoidability (slide 13).'
+    terms:
+      - term: Offence principle
+        gloss: Preventing serious offence to persons other than the actor is a good reason for a criminal prohibition, if probably effective and necessary (Feinberg); a supplement to the harm principle.
+      - term: Standard of universality
+        gloss: For offensiveness to justify coercion, it must be a reaction expected from almost anyone chosen at random, regardless of sex, age, race, etc.
+      - term: Standard of reasonable avoidability
+        gloss: You can expect a response from the state only if you cannot reasonably avoid the behaviour, or avoiding it would be inconvenient for you.
+    misconceptions:
+      - claim: Meeting either universality or reasonable avoidability is enough to invoke the offence principle.
+        tempting: Each test sounds like a strong reason on its own.
+        correction: 'Slide 13: ''two tests need to be met''. Unavoidable offence felt by only one group fails; universal offence that is easily avoided fails too.'
+      - claim: Feinberg's offence principle replaces Mill's harm principle.
+        tempting: It reaches cases Mill excluded.
+        correction: 'The slides call it a supplement to the harm principle: Feinberg answers the criticism that harm alone does not reach far enough.'
+      - claim: The offence principle lets the state protect people from offending their own conscience.
+        tempting: Offence feels personal.
+        correction: It protects 'persons other than the actor'. Like the harm principle, it rejects paternalism (lecture).
+    socratic:
+      - ask: Mill's state may not protect people from being offended. Why might that seem too narrow?
+        hint: A listed problem with the harm principle.
+        answer: 'Harm does not reach far enough: the harm principle does not address indirect harms, or kinds of offence that could become harm.'
+      - ask: What does Feinberg say is always a good reason for a criminal prohibition?
+        hint: Two conditions in the quotation.
+        answer: That it would probably be an effective way of preventing serious offence to persons other than the actor, and probably a necessary means to that end.
+      - ask: Offence reaches further than harm. How does Feinberg keep the principle workable?
+        hint: Two tests.
+        answer: 'Universality: almost anyone chosen at random would react. Reasonable avoidability: the offended person cannot reasonably avoid it, or only with inconvenience. Both must be met.'
+      - ask: A public practice deeply offends one religious community but few others. What follows?
+        hint: Random people.
+        answer: 'It fails universality: offence that depends on belonging to a particular group is not a reaction expected from almost anyone chosen at random.'
+      - ask: Whom does the principle protect, and what does it share with Mill?
+        hint: Not the actor.
+        answer: Persons other than the actor. Like the harm principle, it rejects paternalism.
+    elements:
+      - name: Serious offence to others
+        test: Would the prohibition probably be an effective, and probably a necessary, means of preventing serious offence to persons other than the actor?
+        authorities:
+          - feinberg-offence-principle
+      - name: Standard of universality
+        test: Is the offence a reaction expected from almost anyone chosen at random, regardless of sex, age, race, etc?
+        authorities:
+          - feinberg-offence-principle
+      - name: Standard of reasonable avoidability
+        test: Is the offended person unable reasonably to avoid the behaviour, or would avoiding it be inconvenient?
+        authorities:
+          - feinberg-offence-principle
+    what-if:
+      - change: The offensive show moves inside a clearly signed private club.
+        effect: 'Reasonable avoidability fails: anyone offended can stay outside. Even if almost anyone would be offended, both tests must be met, so the principle gives no reason to coerce.'
+      - change: The offensive conduct happens daily outside the only entrance to a worker's office.
+        effect: 'Avoiding it would be seriously inconvenient, so reasonable avoidability is met. Universality must still be met: would almost anyone chosen at random be offended?'
+    boundary:
+      - text: An adult shop with blacked-out windows and a plain sign.
+        why: 'A passer-by offended by its mere existence can walk past without meeting the conduct: it is reasonably avoidable, so the offence principle gives no ground to close it.'
+      - text: Offence felt only by members of one religious community.
+        why: 'Fails universality: the reaction must be expected from almost anyone chosen at random, regardless of group, so group-specific offence cannot justify coercion.'
+    transfer:
+      - scenario: A company covers the only pedestrian entrance to a busy railway station with graphic, gory advertising images that commuters must pass each morning.
+        answer: 'Apply both tests. Universality: would almost anyone chosen at random, regardless of sex, age or race, be offended? If so, that test is met. Reasonable avoidability: commuters cannot avoid the only entrance without real inconvenience. If both are met, the offence principle supports a prohibition, provided it is probably effective and necessary.'
+    objections:
+      - position: Preventing serious offence to others is 'properly the state's business' (Feinberg).
+        evidence: Harm alone does not reach far enough; offence can become harm (slide 12). Universality and reasonable avoidability keep the principle workable.
+        objection: 'Mill: the state exceeds its proper limits if it tries to protect another person from being offended (slide 10).'
+    sources:
+      - Week 10 - Lecture Slides (slides 10, 12–13)
+      - Week 10 - Lecture Transcript (first half)
+  - concept: laws2100-w10-legal-paternalism
+    plain: Legal paternalism says the state may coerce people to protect them from harming themselves, or to steer them toward their own good, whether they like it or not.
+    concrete: 'All states employ some soft paternalism. People may not consent to their own disablement or violent killing, and the law of contract forbids selling oneself into slavery. Hard paternalism goes further: the state intervenes for the person''s own good. Drug laws sit on the line: the lecture says the debate about criminalising drug use revolves around paternalism, and the slides say some drug laws may be classed either way.'
+    formal: 'Slide 14: state coercion is justified to protect individuals from self-inflicted harm, or to guide people, whether they like it or not, toward their own good. Slide 15 weighs: (1) probability of harm to oneself; (2) seriousness of the harm; (3) probability the goal will result; (4) value of the goal; (5) necessity of the risk (a less risky way?). Both the harm and offence principles reject paternalism.'
+    analogy:
+      text: A lifeguard who stops a strong swimmer entering calm water is overbearing; one who stops a weak swimmer heading into a rip has a stronger case. How strong depends on the odds, the danger, and whether a safer route exists.
+      maps:
+        - from: the swimmer
+          to: the person taking a risk with their own well-being
+        - from: the odds of getting into trouble
+          to: the degree of probability that harm to oneself will result
+        - from: the danger of the rip
+          to: the seriousness of the harm being risked
+        - from: a safer route
+          to: 'the necessity of the risk: is there a less risky way to the goal?'
+      limits:
+        - A lifeguard acts in the moment; paternalist law coerces in advance, through criminal or contract law, and Mill and Feinberg reject the principle altogether.
+    terms:
+      - term: Legal paternalism
+        gloss: State coercion is justified to protect individuals from self-inflicted harm, or to guide people, whether they like it or not, toward their own good (slide 14).
+      - term: Soft paternalism
+        gloss: Elements all states employ, eg prohibiting consent to one's own disablement or violent killing; the law of contract forbids selling oneself into slavery.
+      - term: Hard paternalism
+        gloss: Cases where the state intervenes for the person's own good. Some drug laws may be classified as either soft or hard examples.
+      - term: Necessity of the risk
+        gloss: 'The fifth factor in the rationale for paternalism: is there a less risky way of achieving the goal?'
+    misconceptions:
+      - claim: Mill's harm principle allows paternalism when the self-harm is serious.
+        tempting: Serious injury is plainly a harm.
+        correction: 'Mill''s principle covers harm to others only; our own good is not enough. The lecture: both the harm and the offence principles reject paternalism.'
+      - claim: On the paternalist rationale, any risk of self-harm justifies intervening.
+        tempting: Paternalism is about protecting people.
+        correction: 'Its more sophisticated versions weigh five factors: probability and seriousness of harm, probability and value of the goal, necessity of the risk. A low risk and a valuable goal cut against intervening.'
+      - claim: Legal paternalism and legal moralism are the same idea.
+        tempting: Both restrict self-regarding choices.
+        correction: Paternalism looks to the individual's own well-being; moralism to the immorality of the conduct, whether or not anyone is harmed.
+    socratic:
+      - ask: Whose good does paternalism appeal to?
+        hint: Not others.
+        answer: 'The individual''s own: protecting them from self-inflicted harm, or guiding them toward their own good, whether they like it or not.'
+      - ask: Do liberal states use it?
+        hint: 'Slide 14: all states.'
+        answer: 'Yes, some soft paternalism: prohibiting consent to one''s own disablement or violent killing; the law of contract forbids selling oneself into slavery.'
+      - ask: What makes a case hard paternalism?
+        hint: The state intervenes for…
+        answer: The person's own good. Some drug laws may be classified as either soft or hard examples.
+      - ask: How would a sophisticated paternalist weigh a risky choice?
+        hint: Five factors.
+        answer: The probability of harm to oneself; its seriousness; the probability the goal will result; how worthwhile the goal is; and whether a less risky way would reach it.
+      - ask: Where do these questions return later in the week?
+        hint: A liberal perfectionist.
+        answer: 'In Raz''s liberal perfectionism: the state may help people live a good life, but only by non-coercive means, not the criminal law.'
+    what-if:
+      - change: A climber's chance of injury on a remote peak is low, and the achievement matters greatly to her.
+        effect: 'The paternalist case weakens: the probability of harm is low and the goal is valuable. The rationale weighs these factors rather than treating any risk as enough.'
+      - change: A drug carries a high probability of serious, lasting harm, and its goal could be reached more safely.
+        effect: 'The paternalist case strengthens: probability, seriousness and necessity of the risk all point toward intervening. A follower of Mill would still reject coercion for the user''s own good.'
+    boundary:
+      - text: Compulsory taxation for public projects.
+        why: The slides ask whether the welfare principle is an example of legal paternalism. It forces support for the public good, not protection from self-harm, so the classification is open.
+      - text: Some drug laws.
+        why: 'The slides say they may be classified as either soft or hard examples of state paternalism: the line between the two is not fixed.'
+    transfer:
+      - scenario: A state proposes to ban solo ocean sailing by adults because of the risk of drowning.
+        answer: 'Hard paternalism: coercion for the sailor''s own good. Weigh the rationale: how probable and how serious is the harm; how likely is the goal, and how worthwhile; is there a less risky way, or a measure short of public coercion? Mill and Feinberg would reject the ban outright: neither harm nor offence to others is involved.'
+    objections:
+      - position: State coercion may protect people from self-inflicted harm (legal paternalism).
+        evidence: 'All states employ some soft paternalism: no consenting to one''s own disablement; no contracts selling oneself into slavery (slide 14).'
+        objection: 'Mill: our own good, physical or moral, is not a good enough reason for compulsion; over their own body and mind, the individual is sovereign (slide 8).'
+      - position: Sophisticated paternalism weighs the interference with freedom against the value of the goal (lecture).
+        evidence: 'Five factors: probability and seriousness of harm, probability and value of the goal, necessity of the risk (slide 15).'
+        objection: 'Raz: even if the state may help people live well, it should not use the criminal law for that end, only non-coercive means (slide 29).'
+    sources:
+      - Week 10 - Lecture Slides (slides 14–15)
+      - Week 10 - Lecture Transcript (first half)
+  - concept: laws2100-w10-devlins-legal-moralism
+    plain: 'Legal moralism: that conduct is immoral is reason enough to criminalise it, even if it harms or offends no one. Devlin enforces the majority''s morality; George, objective morality.'
+    concrete: 'In 1957 the Wolfenden report recommended that homosexual behaviour between consenting adults in private should no longer be a criminal offence. In his 1959 Maccabean Lecture, Devlin attacked the recommendation. Society needs a shared morality or it breaks down, he argued, so it may use the law to protect itself, as it does against treason. To find that morality, imagine the man in the jury box: if he feels intolerance, indignation and disgust, the conduct is immoral.'
+    formal: 'Devlin, ''Morals and the Criminal Law'' (1959): if behaviour is immoral by common standard, the law-maker has a prima facie right to prohibit it. Three questions: may society judge moral matters? Enforce its judgments by law? In all cases or some? Yes to the first two: shared morality is necessary to society; the third is practical (adultery v bigamy). George, Making Men Moral (1993): enforce critical morality.'
+    terms:
+      - term: Legal moralism
+        gloss: The fact that behaviour is immoral is a legitimate reason to criminalise it, even if it causes no harm or offence (slides 16, 19).
+      - term: The man in the jury box
+        gloss: 'Devlin''s test of popular morality (also the man on the Clapham omnibus): his moral judgments are common sense and feelings of intolerance, indignation and disgust.'
+      - term: Popular v critical moralism
+        gloss: 'Devlin: prohibit what the majority considers immoral. George: prohibit what is really, objectively immoral, since majority beliefs may not be sound.'
+      - term: Practical limits
+        gloss: 'Devlin''s third question: enforcing some morality is impractical (adultery), some feasible (bigamy). Such limits are facts, not moral justification (lecture).'
+    misconceptions:
+      - claim: George, like Devlin, would enforce whatever the majority believes is immoral.
+        tempting: Both are legal moralists who would prohibit harmless vice.
+        correction: George agrees the law should prohibit vice even if harmless, but enforces critical (true, objective) morality, since majority beliefs may not be sound (slide 27).
+      - claim: Devlin's adultery-versus-bigamy example marks a limit of principle on enforcing morality.
+        tempting: It seems to mark off what the law should not touch.
+        correction: 'Question (3) is a practical problem: adultery cannot feasibly be enforced; bigamy can, because marriage is regulated. Practical limits leave the moral justification untouched (lecture).'
+      - claim: Devlin accepts Mill's private sphere but says immorality there causes harm.
+        tempting: That would reconcile him with the harm principle.
+        correction: Contra Mill, Devlin denies any principled distinction between private and public spheres, and would criminalise immoral conduct even if it causes no harm or offence.
+    socratic:
+      - ask: What did the Wolfenden report recommend, and how did Devlin respond?
+        hint: 1957; homosexual offences.
+        answer: That homosexual behaviour between consenting adults in private no longer be a criminal offence. Devlin replied that if behaviour is immoral by common standard, the law-maker has a prima facie right to prohibit it.
+      - ask: Why may society judge moral matters and use the law to enforce its judgments?
+        hint: What holds society together?
+        answer: 'Shared moral beliefs are necessary to society: without a shared morality the social order would break down.'
+      - ask: Should the law then enforce morality in every case?
+        hint: Adultery and bigamy.
+        answer: 'Not necessarily: question (3) is a practical problem. Bigamy can be enforced, because marriage is regulated; adultery practically cannot.'
+      - ask: How do we know what society's morality is?
+        hint: Who sits in the jury box?
+        answer: 'Ask the man in the jury box, or on the Clapham omnibus: his moral judgments are a matter of common sense and feelings of intolerance, indignation and disgust.'
+      - ask: Is there any limit to legislating against immorality?
+        hint: Treason.
+        answer: 'For Devlin, none: as there are no limits to legislation against treason and sedition, society may use the law to defend its existence against immorality.'
+    what-if:
+      - change: The majority approves of a practice, but legislators believe it is objectively immoral.
+        effect: Devlin's popular moralism gives no ground to ban it; George's critical moralism might, since it enforces true, objective morality rather than majority beliefs.
+      - change: A seriously immoral act is private and practically impossible to prove.
+        effect: 'Devlin: society has the right to criminalise it, but enforcement may be impractical, as with adultery. The practical limit does not touch the moral justification.'
+    boundary:
+      - text: Voluntary euthanasia.
+        why: 'Devlin''s example that the criminal law already punishes harmless conduct: it is prohibited because it threatens the sanctity of human life, a fundamental moral principle.'
+      - text: Raz's liberal perfectionism.
+        why: 'It shares the moralists'' concern with the good life but rejects their means: the state should promote worthy ways of life only by non-coercive means, not the criminal law.'
+    transfer:
+      - scenario: 'A legislator proposes to ban a harmless private hobby: ''Put it before an ordinary juror. He would feel disgust. That is enough.'''
+        answer: 'That is Devlin''s method: popular morality tested by the man in the jury box and his feelings of intolerance, indignation and disgust. Expect Hart''s reply: is morality really a compound of those feelings? Is the hobby harmful, and would tolerating it jeopardise society? George would ask instead whether the hobby is objectively immoral.'
+    objections:
+      - position: If behaviour is immoral by common standard, the law-maker has a prima facie right to prohibit it (Devlin).
+        evidence: Shared morality is necessary to society; the criminal law already punishes harmless conduct (voluntary euthanasia); no limits, as against treason (slides 21–24).
+        objection: 'Hart: morality is not a seamless web. Is it true that not criminalising an immorality would jeopardise the whole fabric of society? (slide 25)'
+      - position: The law should prohibit vice even if harmless, enforcing critical, objective morality (George).
+        evidence: The majority's moral beliefs may not be sound, so they cannot be the standard (slide 27).
+        objection: From a liberal point of view, preventing immorality in the absence of harm is not a legitimate reason to limit freedom, whichever morality is enforced (slide 3).
+    storyboard:
+      - caption: Wolfenden recommends reform
+        detail: '1957: homosexual behaviour between consenting adults in private should no longer be a criminal offence.'
+      - caption: Devlin answers in 1959
+        detail: 'Maccabean Lecture, ''Morals and the Criminal Law'': immorality by common standard gives a prima facie right to prohibit.'
+      - caption: Three questions
+        detail: Society may judge morals and enforce them by law; whether in all cases is a practical problem (adultery v bigamy).
+      - caption: The man in the jury box
+        detail: 'Popular morality''s content: common sense and feelings of intolerance, indignation and disgust.'
+      - caption: Like treason
+        detail: No limits to legislation against immorality, as none against treason and sedition.
+    sources:
+      - Week 10 - Lecture Slides (slides 16, 19–24, 27)
+      - Week 10 - Lecture Transcript (second half)
+  - concept: laws2100-w10-harts-reply-to-devlin
+    plain: 'Hart first attacks Devlin''s idea of morality: it is not just disgust, nor a seamless web. Then he asks: is the conduct harmful, and would tolerating it really endanger society?'
+    concrete: 'Hart knew Devlin did not argue from liberal premises, so opening with the harm principle would just set one premise against its opposite. Instead he examined the morality Devlin would enforce: ''The most remarkable feature of Sir Patrick''s lecture is his view of the nature of morality.'' Is morality a compound of intolerance, indignation and disgust? And must a society share a rich morality, when Hart''s minimum content of natural law needs only a minimal one?'
+    formal: 'Hart, ''Immorality and Treason'' (1959); Law, Liberty and Morality (1963). Morality is not a seamless web; multiple criteria decide when liberty may be restricted. Two questions: (1) is behaviour that offends moral feelings harmful, independently of its repercussion on the general moral code? (2) if we do not criminalise it, will we jeopardise the whole fabric of morality and society? Deeper criticism: the claim must be rationally assessable.'
+    analogy:
+      text: 'Devlin treats morality like a knitted jumper: pull one thread and the whole thing unravels. Hart treats it more like a brick wall: one loose brick need not bring the wall down.'
+      maps:
+        - from: pulling one thread
+          to: tolerating one immoral practice
+        - from: the jumper unravelling
+          to: the social order breaking down without a shared morality (Devlin)
+        - from: one loose brick in a standing wall
+          to: morality is not a seamless web (Hart)
+      limits:
+        - 'Hart''s point is not only structural: his deeper criticism asks whether the moral belief itself rests on ignorance, superstition or misunderstanding.'
+    terms:
+      - term: Seamless web
+        gloss: 'The picture of morality Hart rejects: every moral rule stands or falls together, so tolerating one breach endangers the whole.'
+      - term: Rational criticism
+        gloss: 'Hart''s deeper criticism: a claim that immoral conduct should be punished must be assessable by reason, sympathetic understanding and critical intelligence (slide 26).'
+      - term: Minimum content of natural law
+        gloss: 'Hart''s week 4 idea, used here: to stay together a group needs only minimal shared rules, eg protecting persons and property, not Devlin''s rich shared morality.'
+    misconceptions:
+      - claim: Hart's first move was to apply the harm principle against Devlin.
+        tempting: Hart was a liberal who sided with Mill.
+        correction: 'The lecture: he began with Devlin''s idea of morality, since starting from harm would just clash a liberal premise with its opposite. Harm enters through his two questions.'
+      - claim: Hart's deeper criticism asks whether the immoral behaviour rests on ignorance or superstition.
+        tempting: The questions seem to be about the behaviour.
+        correction: It asks whether general morality, the belief behind the ban, rests on ignorance, superstition or misunderstanding, and whether the practice is falsely thought dangerous to society.
+      - claim: Hart's two questions are Devlin's three, renumbered.
+        tempting: Both sets ask when the law may enforce morality.
+        correction: Devlin asks about society's right to judge and enforce, then practicality. Hart asks whether the conduct is harmful, and whether not criminalising it would truly jeopardise society.
+    socratic:
+      - ask: Why not open by applying the harm principle to Devlin?
+        hint: Opposite premises.
+        answer: Devlin did not start from liberal premises, so beginning with harm would just clash one premise with its opposite. Hart first attacks the concept of morality Devlin would enforce.
+      - ask: Is morality a compound of intolerance, indignation and disgust?
+        hint: Feelings or reasons?
+        answer: 'Hart doubts it: moral judgments sit between rationality and feelings, and ''a real feeling of reprobation'' does not identify the morality the criminal law may enforce.'
+      - ask: Does a society need a rich shared morality to survive?
+        hint: Week 4.
+        answer: Hart's minimum content of natural law concedes only a minimal shared morality, eg protecting persons and property. And morality is not a seamless web.
+      - ask: What two questions should replace Devlin's three?
+        hint: Harm; the fabric.
+        answer: (1) Is the behaviour that offends moral feelings harmful, independently of its repercussion on the moral code? (2) If we do not criminalise it, will we jeopardise the whole fabric of morality and society?
+      - ask: Even if moral feelings are widely shared, what must still be checked?
+        hint: Reason, sympathy, critical intelligence.
+        answer: Whether general morality rests on ignorance, superstition or misunderstanding; whether the practice is falsely thought dangerous to society; and whether the misery of criminal punishment is understood.
+    what-if:
+      - change: Most citizens want a harmless practice banned because they wrongly believe it spreads disease.
+        effect: 'Hart''s rational criticism bites: general morality here rests on misunderstanding, with a false conception of the practice as dangerous. A belief that fails rational assessment cannot ground punishment.'
+      - change: Parliament criminalises a harmless practice without considering what imprisonment will do to those convicted.
+        effect: 'Hart''s third question exposes it: are the misery and evil consequences of criminal punishment well understood? The costs of punishing must be weighed.'
+    boundary:
+      - text: Treason and sedition.
+        why: 'Devlin''s analogy for unlimited legislation against immorality. Hart criticises it: tolerating a sexual immorality need not threaten society''s existence as subversion might, since morality is not a seamless web.'
+      - text: Behaviour that offends moral feelings and also harms others.
+        why: 'It passes Hart''s first question: harmful independently of its repercussion on the moral code. The case for the criminal law then no longer rests on enforcing morality as such.'
+    transfer:
+      - scenario: A council wants to ban tattoos on adults, saying residents find them disgusting and that tolerating them will erode the community's values.
+        answer: Use Hart's reply. Is morality a compound of disgust? Is tattooing harmful, independently of its effect on the moral code? Would tolerating it really jeopardise the whole fabric of society, if morality is not a seamless web? Does the disgust rest on ignorance, superstition or misunderstanding? And has the council weighed the misery of punishing people?
+    objections:
+      - position: The criminal law may not enforce a morality merely because it is shared and strongly felt (Hart).
+        evidence: Morality is not a seamless web; a minimal shared morality suffices; feelings of disgust may rest on ignorance or superstition (slides 24–26).
+        objection: 'Devlin: without a shared morality the social order would break down, so society may defend itself against immorality as against treason (slides 22, 24).'
+        reply: 'Hart: is it true that not criminalising the conduct would jeopardise the whole fabric of society? He rejects the comparison with treason and subversion (slide 25).'
+      - position: A claim that immoral conduct should be punished must be rationally assessable (Hart).
+        evidence: Reason, sympathetic understanding and critical intelligence; questions about ignorance, false danger and the misery of punishment (slide 26).
+        objection: 'Devlin: the reasonable man''s moral judgments are a matter of common sense and feelings, not of reasoning (slide 23).'
+    storyboard:
+      - caption: Wolfenden report, 1957
+        detail: Recommends decriminalising homosexual behaviour between consenting adults in private.
+      - caption: Devlin's Maccabean Lecture, 1959
+        detail: '''Morals and the Criminal Law'': society may enforce its shared morality.'
+      - caption: '''Immorality and Treason'', 1959'
+        detail: 'Hart''s first reply: the most remarkable feature is Devlin''s view of the nature of morality.'
+      - caption: Law, Liberty and Morality, 1963
+        detail: Hart's book-length answer in the exchange.
+      - caption: The Enforcement of Morals, 1965
+        detail: Devlin defends his position further.
+      - caption: The Morality of the Criminal Law, 1965
+        detail: 'Hart responds again: the last item on the slide''s list.'
+    sources:
+      - Week 10 - Lecture Slides (slides 20, 24–26)
+      - Week 10 - Lecture Transcript (second half)
+  - concept: laws2100-w10-rawls-and-raz
+    plain: 'Rawls: the state should stay neutral about the good life and act only against rights violations. Raz: the state should promote worthy ways of life, but never by the criminal law.'
+    concrete: 'Suppose a state judges a pastime unworthy. Rawls''s neutral state could not make that judgment at all: it interferes only to prevent and punish rights violations. Raz''s state may discourage the pastime, but not by banning it; it might tax it, a non-coercive means. Devlin or George would reach for the criminal law. Raz shares their concern with the good life, but not their means.'
+    formal: 'Rawls (1921–2002): the right (principles of justice, including protecting rights) v the good (the sphere of value); the state should be ''neutral'' on all matters of the good life; interference is justified only to prevent and punish rights violations. Raz (1939–2022) rejects neutrality: the state should promote intrinsically worthy and discourage unworthy ways of life, but not by criminal law; non-coercive means, eg taxation, are fine.'
+    analogy:
+      text: 'Rawls''s state is a referee: it enforces the rules and takes no view on which style of play is best. Raz''s state is a coach: it may encourage good play, but may not send anyone off for playing badly.'
+      maps:
+        - from: the referee enforcing the rules
+          to: 'the right: principles of justice, including the protection of rights'
+        - from: no view on the best style of play
+          to: neutrality on all matters of the good life
+        - from: the coach encouraging good play
+          to: promoting intrinsically worthy ways of life
+        - from: no sending off for playing badly
+          to: no criminal law to pursue perfectionist ideals
+      limits:
+        - A coach's encouragement costs the player nothing; Raz's non-coercive means include taxing activities of which the majority disapproves.
+    terms:
+      - term: The right and the good
+        gloss: 'Rawls: the right is the sphere of principles of justice, including the protection of rights; the good is the sphere of value (slide 28).'
+      - term: State neutrality
+        gloss: 'Rawls: the state should be ''neutral'' on all matters of the good life; it may interfere only to prevent rights violations and punish violators.'
+      - term: Liberal perfectionism
+        gloss: 'Raz: perfectionist, because the state should promote worthy ways of life; liberal, because it should not use the criminal law to do so.'
+      - term: Non-coercive means
+        gloss: Raz's permitted tools for promoting virtue, for instance taxing activities of which the majority disapproves (slide 29).
+    misconceptions:
+      - claim: Raz, like Rawls, wants the state to be neutral about the good life.
+        tempting: Both are liberals.
+        correction: 'Raz rejects Rawls''s neutrality: the state is entitled to, and should, promote intrinsically worthy ways of life and discourage unworthy ones (slide 29).'
+      - claim: As a perfectionist, Raz would use the criminal law against unworthy ways of life.
+        tempting: Perfectionism sounds like moralism.
+        correction: Raz thinks the state should not use the criminal law to pursue perfectionist ideals, only non-coercive means such as taxation. That is what makes him liberal.
+      - claim: For Rawls, 'the good' means the principles of justice.
+        tempting: Justice sounds good.
+        correction: 'The reverse: the right is the sphere of principles of justice, including the protection of rights; the good is the sphere of value (slide 28).'
+    socratic:
+      - ask: What distinction does Rawls draw?
+        hint: Slide 28.
+        answer: The right (principles of justice, including the protection of rights) and the good (the sphere of value).
+      - ask: What may a Rawlsian state do about the good life?
+        hint: Neutral.
+        answer: Stay neutral on all matters of the good life. It may interfere only to prevent rights violations and to punish those who violate others' rights.
+      - ask: Where does Raz part company with Rawls?
+        hint: Worthy ways of life.
+        answer: 'He rejects neutrality: the state is entitled to, and should, promote intrinsically worthy ways of life and discourage intrinsically unworthy ones.'
+      - ask: Then why is Raz still a liberal?
+        hint: Which tool is off-limits?
+        answer: Valuing individual freedom means the state should not use the criminal law to promote worthy ways of life, only non-coercive means, such as taxing disapproved activities.
+      - ask: How does Raz compare with Devlin and George?
+        hint: Ends and means.
+        answer: 'He shares their concern with the good life but rejects their means: they would use the criminal law against vice; Raz would not. Rawls shares neither.'
+    what-if:
+      - change: A government decides a pastime is unworthy and imposes a special tax on it, banning nothing.
+        effect: 'This fits Raz: discouraging an unworthy way of life by non-coercive means. A Rawlsian state could not judge the pastime unworthy in the first place.'
+      - change: A government generously funds theatres and libraries because it judges these ways of life worthy.
+        effect: 'Consistent with Raz''s liberal perfectionism: promoting worthy ways of life without the criminal law. It departs from Rawls''s neutrality on the good.'
+    boundary:
+      - text: Raz and legal paternalism.
+        why: 'The lecture says paternalism''s questions, such as weighing freedom against a goal''s value and measures short of coercion, return in Raz: both give the state a role in helping people live well.'
+      - text: Raz and George.
+        why: Both reject neutrality and care about worthy lives; but George would prohibit vice by law even if harmless, while Raz rules out the criminal law for perfectionist ends.
+    transfer:
+      - scenario: 'A government wants fewer people to gamble online. Options: criminalise online gambling, tax it heavily, or do nothing because it is a private choice.'
+        answer: 'Rawls: neutral on the good life, so act only if rights are violated; otherwise do nothing. Raz: the state may discourage an unworthy way of life, but not by criminal law, so a tax fits. A Devlin-style moralist would criminalise it if the majority finds it immoral; George, if it is objectively immoral.'
+    objections:
+      - position: The state should be neutral on all matters of the good life (Rawls).
+        evidence: The right (justice, rights) is separate from the good (value); interference is justified only to prevent and punish rights violations (slide 28).
+        objection: 'Raz rejects state neutrality: the state is entitled to, and should, promote intrinsically worthy ways of life (slide 29).'
+      - position: The state should promote worthy ways of life, but only by non-coercive means (Raz).
+        evidence: The state has an active role in helping people live a good life; valuing freedom rules out the criminal law (slide 29; lecture).
+        objection: 'Devlin and George would go further: the law should prohibit vice, even if harmless (slides 16, 27).'
+    sources:
+      - Week 10 - Lecture Slides (slides 28–29)
+      - Week 10 - Lecture Transcript (second half)
+  - concept: laws2100-w10-pornography-and-euthanasia
+    plain: Two test cases. Banning adult pornography for offending morals is moralism; MacKinnon and Dworkin recast it as harm to women. Voluntary euthanasia asks whether a competent adult's choice to die harms anyone.
+    concrete: 'A competent patient who asks for her ventilator to be switched off is refusing life-sustaining treatment: voluntary, passive euthanasia, which adults may choose. If she asks her doctor for a lethal injection, that is voluntary, active euthanasia, which she cannot ask for. Devlin cites its prohibition as the criminal law protecting the sanctity of human life, a moral principle, though no one else is harmed.'
+    formal: 'Slide 30: traditional bans rested on offensiveness to community moral standards or a tendency to deprave and corrupt: moralistic, not aimed at harm. MacKinnon and Dworkin: erotica v pornography; pornography harms women and infringes their right to equality. Slide 31: voluntary (request of an adult of sound mind) v non-voluntary (person incapable of understanding the choice); passive (intentionally letting die) v active (a positive act of killing).'
+    terms:
+      - term: Voluntary / non-voluntary euthanasia
+        gloss: 'Voluntary: at the request of an adult person of sound mind. Non-voluntary: on someone not capable of understanding the choice between life and death.'
+      - term: Passive / active euthanasia
+        gloss: 'Passive: intentionally letting someone die. Active: a positive act of killing.'
+      - term: Erotica v pornography
+        gloss: 'MacKinnon and Dworkin''s distinction: the issue is not an allegedly immoral yet harmless action; pornography harms women and infringes their right to equality.'
+    misconceptions:
+      - claim: MacKinnon and Dworkin would ban pornography because it is immoral but harmless.
+        tempting: They favour restricting it, as moralists do.
+        correction: 'They say the issue is not preventing an allegedly immoral yet harmless action: pornography harms women and infringes their right to equality. The argument moves from moralism to harm.'
+      - claim: A competent adult's refusal of life-sustaining treatment is active euthanasia.
+        tempting: Switching off a machine is an act.
+        correction: On the slides, intentionally letting someone die is passive; active euthanasia is a positive act of killing. Adults may refuse treatment but cannot ask to be actively killed.
+      - claim: Non-voluntary euthanasia means euthanasia against the patient's expressed wishes.
+        tempting: '''Non-voluntary'' sounds like ''against her will''.'
+        correction: 'The slides define it by incapacity: euthanasia performed on someone not capable of understanding the choice between life and death.'
+    socratic:
+      - ask: What were the traditional grounds for banning pornography?
+        hint: Slide 30.
+        answer: Its offensiveness to the community's moral standards, or its tendency to deprave and corrupt.
+      - ask: Why does a liberal reject those grounds?
+        hint: Moralism or harm?
+        answer: 'They are obviously moralistic and do not aim to prevent harm: if enjoying sexually explicit material is a private matter, it should not be prohibited by law.'
+      - ask: How do MacKinnon and Dworkin change the argument?
+        hint: Whose rights?
+        answer: 'They distinguish erotica from pornography and argue that pornography harms women and infringes their right to equality: the case moves from moralism to harm.'
+      - ask: Which two distinctions sort cases of euthanasia?
+        hint: Who chooses; how death comes.
+        answer: Voluntary (request of an adult of sound mind) v non-voluntary (someone incapable of understanding the choice); passive (letting die) v active (a positive act of killing).
+      - ask: Is a competent adult's choice of active euthanasia harmful, or a violation of others' rights?
+        hint: Run the principles.
+        answer: That is the slides' open question. Mill would ask about harm to others; Devlin says the prohibition protects the sanctity of human life, a moral principle, without harm to others.
+    what-if:
+      - change: The pornography case involves children rather than adults.
+        effect: 'The lecture: arguments from the harm principle, and almost every other principle, then run much more easily. The adult case is the hard one.'
+      - change: The patient is in a long-term coma, never expressed any wishes, and life support is withdrawn.
+        effect: Now non-voluntary (she cannot understand the choice) and passive (letting die). The competent request that grounds an argument from autonomy is missing.
+      - change: A competent adult asks a friend to end her life by a positive act.
+        effect: 'Voluntary but active: on the slides'' claim she may refuse treatment, yet cannot ask to be actively killed. Is that choice harmful, and does it violate others'' rights?'
+    boundary:
+      - text: The claim that adults may refuse life-sustaining treatment but cannot ask to be actively killed.
+        why: 'It turns on passive v active, not voluntary v non-voluntary: both halves involve a competent adult''s voluntary choice.'
+      - text: A ban on pornography for its offensiveness.
+        why: 'The traditional appeal to the community''s moral standards is moralistic. Feinberg''s offence principle would need universal, unavoidable offence to others: a different argument.'
+    transfer:
+      - scenario: A state debates legalising assisted dying for competent adults with a terminal illness.
+        answer: 'Classify first: voluntary (request of an adult of sound mind) and, if a doctor acts, active. Then run the principles. Mill: does the choice harm others? Paternalism: may the state protect her from herself, weighing probability, seriousness and the value of her goal? Devlin: the prohibition protects the sanctity of life. Finally, does her choice violate others'' rights?'
+    objections:
+      - position: 'Adult pornography should not be prohibited: enjoying it is a private matter that harms no one (the liberal view).'
+        evidence: 'The traditional bans rest on offensiveness and a tendency to deprave and corrupt: moralistic grounds, not aimed at harm (slide 30).'
+        objection: 'MacKinnon and Dworkin: pornography harms women and infringes women''s right to equality, so harm, not morality, is in issue.'
+      - position: Voluntary active euthanasia should stay prohibited to protect the sanctity of human life (Devlin).
+        evidence: The criminal law punishes it though no one else is harmed, enforcing a fundamental moral principle (slide 21).
+        objection: From a liberal point of view, preventing immorality without harm is not a legitimate reason; is the competent adult's choice harmful, or a violation of others' rights? (slides 3, 31)
+    sources:
+      - Week 10 - Lecture Slides (slides 21, 30–31)
+      - Week 10 - Lecture Transcript (second half)
+flows:
+  - slug: which-principle-justifies-coercion
+    title: Which principle could justify coercing this conduct?
+    summary: 'Walks a proposed prohibition or compulsory measure through the week''s five justifications in turn: harm to others, serious offence (Feinberg''s two tests), harm to self, immorality (popular or critical), and the general welfare.'
+    start: n1
+    concepts:
+      - laws2100-w10-liberty-limiting-principles
+      - laws2100-w10-mills-harm-principle
+      - laws2100-w10-feinbergs-offence-principle
+      - laws2100-w10-legal-paternalism
+      - laws2100-w10-devlins-legal-moralism
+    sources:
+      - Week 10 - Lecture Slides (slides 3, 8–17, 19–27)
+      - Week 10 - Lecture Transcript (first half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: 'Does the conduct harm others: infringing interests we are under a duty not to infringe?'
+        note: 'Mill (slide 9): not just affecting another''s interests, but violating a specific duty to the public or causing perceptible hurt to a specific individual. Harm only to the actor, or to others with their consent, does not count.'
+        concept: laws2100-w10-mills-harm-principle
+        authorities:
+          - mill-on-liberty
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n3
+      - id: n2
+        kind: end
+        tone: met
+        text: 'The harm principle supports coercion: the state may limit the actor''s freedom to prevent harm to others, as in stopping A assaulting B or stealing B''s property.'
+      - id: n3
+        kind: ask
+        text: Would it seriously offend almost anyone chosen at random, regardless of sex, age, race, etc (the standard of universality)?
+        note: Mill's state exceeds its limits if it protects people from offence; Feinberg's offence principle is a supplement to the harm principle, protecting persons other than the actor.
+        concept: laws2100-w10-feinbergs-offence-principle
+        authorities:
+          - feinberg-offence-principle
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: No, or only some groups
+            to: n6
+      - id: n4
+        kind: ask
+        text: Is it reasonably unavoidable, or would avoiding it be inconvenient for those offended (the standard of reasonable avoidability)?
+        authorities:
+          - feinberg-offence-principle
+        branches:
+          - label: 'Yes: hard to avoid'
+            to: n5
+          - label: 'No: easily avoided'
+            to: n6
+      - id: n5
+        kind: end
+        tone: met
+        text: 'Both tests are met: the offence principle supports a prohibition, if it would probably be an effective and necessary means of preventing serious offence to others.'
+      - id: n6
+        kind: ask
+        text: Is the reason to protect the actor from harm to themselves, or to guide them toward their own good?
+        note: 'The harm and offence principles both reject paternalism (lecture). If this branch was reached from the offence questions, the offence principle failed: both tests must be met.'
+        concept: laws2100-w10-legal-paternalism
+        branches:
+          - label: 'Yes'
+            to: n7
+          - label: 'No'
+            to: n8
+      - id: n7
+        kind: end
+        tone: qualified
+        text: Legal paternalism, soft or hard. Weigh the probability and seriousness of self-harm, the probability and value of the goal, and the necessity of the risk. Mill and Feinberg reject it.
+      - id: n8
+        kind: ask
+        text: Is the only reason that the conduct is immoral, even though it harms and offends no one?
+        concept: laws2100-w10-devlins-legal-moralism
+        branches:
+          - label: 'Yes'
+            to: n9
+          - label: 'No'
+            to: n12
+      - id: n9
+        kind: ask
+        text: Immoral by whose standard?
+        note: 'Popular morality: what society conventionally regards as right. Critical morality: what is objectively right (slide 21).'
+        branches:
+          - label: The majority condemns it (popular)
+            to: n10
+          - label: It is objectively wrong (critical)
+            to: n11
+      - id: n10
+        kind: end
+        tone: qualified
+        text: 'Devlin''s popular legal moralism: a prima facie right to prohibit. Test it with Hart: is it harmful? Would tolerating it jeopardise society? Does the disgust rest on ignorance or superstition?'
+        authorities:
+          - devlin-morals-and-the-criminal-law
+          - hart-immorality-and-treason
+      - id: n11
+        kind: end
+        tone: qualified
+        text: 'George''s critical legal moralism: prohibit vice even if harmless. Liberals reply that preventing immorality without harm is not a legitimate reason; Raz would allow only non-coercive means.'
+        authorities:
+          - george-making-men-moral
+      - id: n12
+        kind: ask
+        text: Does the measure serve the general welfare or public interest, eg compulsory taxation for public projects?
+        branches:
+          - label: 'Yes'
+            to: n13
+          - label: 'No'
+            to: n14
+      - id: n13
+        kind: end
+        tone: qualified
+        text: The welfare principle. The slides ask whether it is an example of legal paternalism, or a matter of social justice.
+      - id: n14
+        kind: end
+        tone: not-met
+        text: None of the five principles applies. On Mill's view, we should be perfectly free to act, however 'foolish, perverse, or wrong' the conduct.

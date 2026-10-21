@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Compare from '../components/Compare';
+---
+
+<Layout title="Compare" wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { label: 'Compare' }]} />
+  <h1 data-split>Compare</h1>
+  <p class="cmp-lede">Two cases or two concepts side by side. Scrolling one scrolls the other.</p>
+  <Compare client:load />
+</Layout>
+
+<style>
+  .cmp-lede { color: var(--ink-2); max-width: var(--measure); }
+</style>

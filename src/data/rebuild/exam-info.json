@@ -1,0 +1,1914 @@
+{
+  "schemaVersion": 1,
+  "preparedDate": "2026-10-20",
+  "timezone": "Australia/Sydney",
+  "exams": [
+    {
+      "unit": "mgmt2094",
+      "title": "Strategic Creativity and Innovation",
+      "weight": 30,
+      "weightSources": [
+        "supplied-06"
+      ],
+      "start": "2026-11-10T09:00:00+11:00",
+      "end": "2026-11-10T11:40:00+11:00",
+      "mode": "Online Zoom-invigilated exam delivered via iLearn",
+      "venue": "Online; North Ryde in timetable is a system-generated location label and does not require campus attendance for this online exam.",
+      "status": "final",
+      "detailsStatus": "conditions-confirmed; exact-question-count-and-weights-pending",
+      "totalMinutes": 160,
+      "writingMinutes": 120,
+      "readingMinutes": 10,
+      "technicalMinutes": 30,
+      "readingRule": "working-permitted",
+      "technicalRule": "working-permitted",
+      "format": "Answer 2 or 3 questions: one essay-style question and the other question(s) short answers. Exact count, order and question weights are not supplied.",
+      "assessmentName": "Assessment 3: Written report / written exam (individual)",
+      "submissionMethod": "Turnitin / follow exam protocols",
+      "feedback": "Rubric;2 weeks from submission",
+      "unitLearningOutcomes": [
+        "ULO1",
+        "ULO3"
+      ],
+      "estimatedPreparationHours": 10,
+      "materials": {
+        "notes": "Closed book. No materials are permitted.",
+        "notesSheets": 0,
+        "notesSides": 0,
+        "typedOrHandwritten": null,
+        "notesEvidenceStatus": "university-assessment-instructions-confirmed",
+        "universityNotesAllowanceVerified": true,
+        "notesSources": [
+          "supplied-06"
+        ],
+        "listProvided": false,
+        "dictionary": null,
+        "calculator": null,
+        "electronicAids": "Only the equipment and platforms required by the exam protocols; no additional assistance or generative AI.",
+        "closedBook": true,
+        "generativeAIProhibited": true,
+        "collaborationProhibited": true,
+        "sources": [
+          "supplied-06"
+        ]
+      },
+      "questions": [
+        {
+          "number": null,
+          "weight": null,
+          "kind": "essay",
+          "parts": [],
+          "note": "One essay-style question; its position and weight are not specified.",
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "number": null,
+          "weight": null,
+          "kind": "short-answer",
+          "parts": [],
+          "note": "One or two short-answer questions depending on whether the paper has 2 or 3 questions; their weights are not specified.",
+          "sources": [
+            "supplied-06"
+          ]
+        }
+      ],
+      "questionCountOptions": [
+        2,
+        3
+      ],
+      "topics": [
+        {
+          "title": "Creativity and innovation concepts covered across the unit",
+          "weeks": [],
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "title": "Explain, compare and apply innovation approaches to unfamiliar organisational scenarios",
+          "weeks": [],
+          "sources": [
+            "supplied-06"
+          ]
+        }
+      ],
+      "scope": "Revise lecture material, tutorial activities and required readings. Assessment emphasises application to organisational contexts rather than memorised definitions alone.",
+      "referencing": [
+        {
+          "title": "Theory and examples",
+          "rule": "Justify arguments using theory and evidence from examples. Define key terms, identify assumptions, use clear paragraphs and avoid long quotations. No specific citation style is stated in the supplied exam instructions.",
+          "example": "Choose a relevant framework, explain why it fits the scenario, then discuss implementation considerations and risks or limitations.",
+          "sources": [
+            "supplied-06"
+          ]
+        }
+      ],
+      "criteria": [
+        {
+          "band": "HD",
+          "label": "High Distinction",
+          "text": "Knowledge and understanding: Exceptional understanding; precise, integrated grasp of ideas and distinctions; depth without unnecessary detail.\n\nUse of concepts and theory: Sophisticated application; concepts/theory are integrated seamlessly to develop compelling explanations.\n\nAnalysis and judgment: Highly analytical; nuanced judgment; explicitly considers alternatives, boundary conditions, and implications.\n\nCommunication and response to task: Outstandingly clear and persuasive; excellent structure and synthesis; highly focused and concise.",
+          "dimensions": [
+            {
+              "title": "Knowledge and understanding",
+              "text": "Exceptional understanding; precise, integrated grasp of ideas and distinctions; depth without unnecessary detail."
+            },
+            {
+              "title": "Use of concepts and theory",
+              "text": "Sophisticated application; concepts/theory are integrated seamlessly to develop compelling explanations."
+            },
+            {
+              "title": "Analysis and judgment",
+              "text": "Highly analytical; nuanced judgment; explicitly considers alternatives, boundary conditions, and implications."
+            },
+            {
+              "title": "Communication and response to task",
+              "text": "Outstandingly clear and persuasive; excellent structure and synthesis; highly focused and concise."
+            }
+          ],
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "band": "D",
+          "label": "Distinction",
+          "text": "Knowledge and understanding: Strong understanding; accurate and appropriately detailed; clear grasp of key distinctions.\n\nUse of concepts and theory: Strong application; concepts/theory used to support and explain arguments clearly.\n\nAnalysis and judgment: Well-developed analysis; justified judgments; considers trade-offs, fit, or limitations.\n\nCommunication and response to task: Strong, focused response; clear structure and coherent argument; effective synthesis.",
+          "dimensions": [
+            {
+              "title": "Knowledge and understanding",
+              "text": "Strong understanding; accurate and appropriately detailed; clear grasp of key distinctions."
+            },
+            {
+              "title": "Use of concepts and theory",
+              "text": "Strong application; concepts/theory used to support and explain arguments clearly."
+            },
+            {
+              "title": "Analysis and judgment",
+              "text": "Well-developed analysis; justified judgments; considers trade-offs, fit, or limitations."
+            },
+            {
+              "title": "Communication and response to task",
+              "text": "Strong, focused response; clear structure and coherent argument; effective synthesis."
+            }
+          ],
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "band": "C",
+          "label": "Credit",
+          "text": "Knowledge and understanding: Sound understanding; mostly accurate; covers main ideas with some depth.\n\nUse of concepts and theory: Appropriate use; concepts generally applied correctly; links to claims are present.\n\nAnalysis and judgment: Clear reasoning with some evaluation; recognizes basic strengths/limits or conditions.\n\nCommunication and response to task: Addresses task well; mostly clear and organized; some synthesis.",
+          "dimensions": [
+            {
+              "title": "Knowledge and understanding",
+              "text": "Sound understanding; mostly accurate; covers main ideas with some depth."
+            },
+            {
+              "title": "Use of concepts and theory",
+              "text": "Appropriate use; concepts generally applied correctly; links to claims are present."
+            },
+            {
+              "title": "Analysis and judgment",
+              "text": "Clear reasoning with some evaluation; recognizes basic strengths/limits or conditions."
+            },
+            {
+              "title": "Communication and response to task",
+              "text": "Addresses task well; mostly clear and organized; some synthesis."
+            }
+          ],
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "band": "P",
+          "label": "Pass",
+          "text": "Knowledge and understanding: Basic understanding with some accuracy; important gaps or simplifications.\n\nUse of concepts and theory: Limited use; concepts applied loosely or descriptively.\n\nAnalysis and judgment: Some analysis but largely general; limited justification or critical engagement.\n\nCommunication and response to task: Addresses task at a basic level; structure and clarity are adequate but uneven.",
+          "dimensions": [
+            {
+              "title": "Knowledge and understanding",
+              "text": "Basic understanding with some accuracy; important gaps or simplifications."
+            },
+            {
+              "title": "Use of concepts and theory",
+              "text": "Limited use; concepts applied loosely or descriptively."
+            },
+            {
+              "title": "Analysis and judgment",
+              "text": "Some analysis but largely general; limited justification or critical engagement."
+            },
+            {
+              "title": "Communication and response to task",
+              "text": "Addresses task at a basic level; structure and clarity are adequate but uneven."
+            }
+          ],
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "band": "F",
+          "label": "Fail",
+          "text": "Knowledge and understanding: Demonstrates little understanding; major inaccuracies; key ideas missing or confused.\n\nUse of concepts and theory: Concepts/theory absent, incorrect, or used inappropriately.\n\nAnalysis and judgment: Little analysis; unsupported opinion; no evaluation or justification.\n\nCommunication and response to task: Off-task or incomplete; unclear and poorly structured.",
+          "dimensions": [
+            {
+              "title": "Knowledge and understanding",
+              "text": "Demonstrates little understanding; major inaccuracies; key ideas missing or confused."
+            },
+            {
+              "title": "Use of concepts and theory",
+              "text": "Concepts/theory absent, incorrect, or used inappropriately."
+            },
+            {
+              "title": "Analysis and judgment",
+              "text": "Little analysis; unsupported opinion; no evaluation or justification."
+            },
+            {
+              "title": "Communication and response to task",
+              "text": "Off-task or incomplete; unclear and poorly structured."
+            }
+          ],
+          "sources": [
+            "supplied-06"
+          ]
+        }
+      ],
+      "instructions": [
+        "Complete the exam individually. Collaboration, communication with others and receiving assistance during the exam are not permitted.",
+        "Closed book: no materials are permitted.",
+        "GenerativeAI tools, including ChatGPT, are prohibited during the examination.",
+        "Follow the exam protocols and iLearn access/submission instructions.",
+        "Answer concisely: define key terms, identify assumptions and use examples to show understanding.",
+        "Justify arguments with theory and evidence from examples.",
+        "Use subheadings and signposting such as Theoretical justification, Implementation considerations and Risks/limitations.",
+        "Focus on depth: select relevant frameworks and apply them carefully rather than list many concepts.",
+        "Write clear paragraphs and avoid long quotations."
+      ],
+      "instructionSources": {
+        "0": [
+          "supplied-06"
+        ],
+        "1": [
+          "supplied-06"
+        ],
+        "2": [
+          "supplied-06"
+        ],
+        "3": [
+          "supplied-06"
+        ],
+        "4": [
+          "supplied-06"
+        ],
+        "5": [
+          "supplied-06"
+        ],
+        "6": [
+          "supplied-06"
+        ],
+        "7": [
+          "supplied-06"
+        ],
+        "8": [
+          "supplied-06"
+        ]
+      },
+      "commonMistakes": [
+        {
+          "text": "Describing innovation practices without linking them to course concepts or theories.",
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "text": "Offering generic common-sense advice instead of theory-based reasoning.",
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "text": "Listing several approaches without explaining why one is more appropriate for the case.",
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "text": "Poor structure, no clear argument or no conclusion.",
+          "sources": [
+            "supplied-06"
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "title": "Practise transfer",
+          "text": "Apply theories to unfamiliar organisational scenarios before the exam rather than memorising definitions alone.",
+          "source": "supplied-06"
+        },
+        {
+          "title": "Evaluate the choice",
+          "text": "For a strong answer, explain fit, alternatives, trade-offs, boundary conditions and implications.",
+          "source": "supplied-06"
+        }
+      ],
+      "acknowledgement": {
+        "text": "I acknowledge that I have not usedGAITs (e.g., ChatGPT) in drafting and proofreading of this assignment.",
+        "sourceText": "I acknowledge that I have not used GAITs (e. g., ChatGPT) in drafting and proofreading of this assignment.",
+        "source": "supplied-06",
+        "note": "The supplied assessment page asks for this statement at the end of the assignment. It applies to the assessed response; it is not a claim about study preparation using this site. Do not pre-fill a false acknowledgement."
+      },
+      "dates": [
+        {
+          "label": "Zoom/access details release",
+          "at": "2026-11-04T13:00:00+11:00",
+          "sources": [
+            "calendar-snapshot"
+          ],
+          "note": "Calendar records this release time; supplied timetable screenshot itself visibly confirms room/seat release only."
+        },
+        {
+          "label": "Optional practice Zoom sessions",
+          "at": null,
+          "note": "Calendar description says sessions are in Week 13, around 30minutes, with dates/registration emailed in Week 12. Exact dates not supplied.",
+          "sources": [
+            "calendar-snapshot"
+          ]
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "mgmt-question-count",
+          "text": "Instructions specify2 or 3 questions, not a confirmed count. Question weights and ordering are not provided. Do not present a generated mock’s count, ordering or marks as the real exam.",
+          "sources": [
+            "supplied-06"
+          ]
+        },
+        {
+          "id": "mgmt-general-mode",
+          "text": "The assessment page uses generic “in-person or online” wording; the personalised final timetable specifically confirms online Zoom invigilation for this student.",
+          "sources": [
+            "supplied-01",
+            "supplied-06"
+          ]
+        },
+        {
+          "id": "mgmt-acknowledgement",
+          "text": "The page retains assignment-style Turnitin and acknowledgement wording while describing an invigilated final exam. Follow actual exam protocols and preserve the source wording rather than invent a different submission process.",
+          "sources": [
+            "supplied-06"
+          ]
+        }
+      ],
+      "sources": [
+        "supplied-01",
+        "supplied-06",
+        "calendar-snapshot"
+      ],
+      "fieldSources": {
+        "start": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "end": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "mode": [
+          "supplied-01"
+        ],
+        "totalMinutes": [
+          "supplied-01",
+          "supplied-06"
+        ],
+        "writingMinutes": [
+          "supplied-01",
+          "supplied-06"
+        ],
+        "readingMinutes": [
+          "supplied-01",
+          "supplied-06"
+        ],
+        "technicalMinutes": [
+          "supplied-01",
+          "supplied-06"
+        ],
+        "readingRule": [
+          "supplied-01"
+        ],
+        "technicalRule": [
+          "supplied-01"
+        ],
+        "format": [
+          "supplied-06"
+        ],
+        "assessmentName": [
+          "supplied-06"
+        ],
+        "submissionMethod": [
+          "supplied-06"
+        ],
+        "feedback": [
+          "supplied-06"
+        ],
+        "unitLearningOutcomes": [
+          "supplied-06"
+        ],
+        "estimatedPreparationHours": [
+          "supplied-06"
+        ],
+        "scope": [
+          "supplied-06"
+        ]
+      }
+    },
+    {
+      "unit": "laws2400",
+      "title": "Torts",
+      "weight": 50,
+      "weightSources": [
+        "supplied-02"
+      ],
+      "start": "2026-11-11T17:30:00+11:00",
+      "end": "2026-11-11T20:15:00+11:00",
+      "mode": "On-campus invigilated face-to-face exam",
+      "venue": "North Ryde campus; room and seat not yet supplied",
+      "status": "final",
+      "detailsStatus": "format-confirmed; materials partially evidenced",
+      "totalMinutes": 165,
+      "writingMinutes": null,
+      "readingMinutes": null,
+      "technicalMinutes": null,
+      "readingRule": "not-stated",
+      "format": "Two compulsory hypothetical questions, each worth 50% of the examination; each assesses the merits of a negligence claim in NSW. Intentional torts are not tested.",
+      "marksAvailable": 100,
+      "materials": {
+        "notes": "10 A4 sheets, double-sided, is recorded as an earlier student confirmation in the repository; the supplied university screenshot does not state a notes quantity.",
+        "notesSheets": 10,
+        "notesSides": 20,
+        "typedOrHandwritten": null,
+        "notesEvidenceStatus": "repository-recorded-student-confirmation",
+        "universityNotesAllowanceVerified": false,
+        "notesSources": [
+          "repo-torts-allowance"
+        ],
+        "listProvided": true,
+        "listProvidedSources": [
+          "supplied-02",
+          "supplied-08"
+        ],
+        "dictionary": null,
+        "calculator": null,
+        "electronicAids": null,
+        "closedBook": null
+      },
+      "questions": [
+        {
+          "number": 1,
+          "weight": 50,
+          "kind": "hypothetical",
+          "parts": [],
+          "note": "Assess the merits of a negligence claim in NSW; compulsory.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "number": 2,
+          "weight": 50,
+          "kind": "hypothetical",
+          "parts": [],
+          "note": "Assess the merits of a negligence claim in NSW; compulsory.",
+          "sources": [
+            "supplied-02"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "title": "Topic 5",
+          "topicNumber": 5,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 6",
+          "topicNumber": 6,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 7",
+          "topicNumber": 7,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 8",
+          "topicNumber": 8,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 9",
+          "topicNumber": 9,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 10",
+          "topicNumber": 10,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 11",
+          "topicNumber": 11,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        },
+        {
+          "title": "Topic 12",
+          "topicNumber": 12,
+          "weeks": [],
+          "sources": [
+            "supplied-02"
+          ],
+          "mappingNote": "Official topic number; a teaching week is not assumed solely from this number."
+        }
+      ],
+      "excludedContent": [
+        {
+          "title": "Intentional torts",
+          "sources": [
+            "supplied-02"
+          ]
+        }
+      ],
+      "referencing": [
+        {
+          "title": "In-text references",
+          "rule": "All references to cases and legislation should be in-text. Footnotes are not required.",
+          "example": "Use authorities in the body of the answer.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "title": "Case law",
+          "rule": "At first reference give the full case name; the remainder of the citation is unnecessary. An abbreviated name is sufficient thereafter. Case pinpoints are not required.",
+          "example": "Donoghue v Stevenson, then Donoghue.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "title": "Legislation",
+          "rule": "At first reference give the full name of the legislative material; an abbreviated name is sufficient thereafter. Include precise sections and subsections as required.",
+          "example": "Civil Liability Act 2002 (NSW), then CLA; s 5B(1)(a) CLA.",
+          "sources": [
+            "supplied-02"
+          ]
+        }
+      ],
+      "criteria": [
+        {
+          "band": "HD",
+          "label": "High Distinction",
+          "text": "Provides a well-structured response, with no organisational or clarity issues. Demonstrates excellent identification of relevant legal issues and sub-issues, with at most a single minor oversight that does not significantly impact the overall analysis. States applicable law accurately, completely and precisely with citations in accordance with instructions. Does not include irrelevant issues or law, demonstrating excellent discernment and focus. Applies the law to facts thoroughly and logically, addressing all relevant aspects.  Provides a clear, well-reasoned conclusion that follows logically from the analysis.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "band": "D",
+          "label": "Distinction",
+          "text": "Provides a good structured response, with only minor organisational or clarity issues. Demonstrates strong identification of relevant legal issues and sub-issues, with a few minor oversights that do not significantly impact the overall analysis. Mostly states applicable law accurately and in accordance with instructions with only minor omissions or errors in completeness or precision. May include an irrelevant issue or law but it does not undermine the response. Applies law to facts well, with only minor gaps in reasoning or analysis. Provides a sound conclusion that may include slight inconsistencies or lack of clarity.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "band": "C",
+          "label": "Credit",
+          "text": "Provides adequate structure with some organisational or clarity issues present. Demonstrates adequate identification of relevant legal issues and sub-issues, with some notable omissions or inaccuracies. States applicable law generally correctly but lacks some detail or precision. May include some irrelevant issues or laws, but not to the extent that significantly undermines the response. Satisfactorily applies applicable law to facts, but may contain moderate gaps in reasoning or analysis. Provides a reasonable conclusion but lacks some depth.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "band": "P",
+          "label": "Pass",
+          "text": "Some attempt at structure but with organisational or clarity issues that impact the response to a significant extent. Identifies some relevant issues and/or sub-issues but misses key aspects of the problem. States some applicable law but with significant omissions or inaccuracies. Includes irrelevant issues or law to an extent that demonstrates a limited ability to discern importance. Attempts to apply law to facts but with significant logical gaps or misunderstandings. Provides a basic conclusion that doesn't fully align with the analysis.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "band": "F",
+          "label": "Fail",
+          "text": "Lacks clear structure or is difficult to follow due to very poor organisation or writing. Fails to identify most of the relevant legal issues, demonstrating a lack of understanding of the core legal problems presented. Fails to state most of the applicable law or states them with significant inaccuracy. Includes a significant amount of irrelevant issues or law, as if reciting notes indiscriminately, significantly undermining the response. Fails to apply law to facts coherently or misapplies law significantly. Fails to provide a conclusion or provides one that doesn't follow from the analysis.",
+          "sources": [
+            "supplied-02"
+          ]
+        }
+      ],
+      "instructions": [
+        "Answer both questions.",
+        "Support the answer with the facts in the hypothetical and the applicable law.",
+        "Draw the law for the exam from the provided examinable case and legislation list.",
+        "Organise preparation and notes around the law on the supplied list; do not expect exam notes to teach the unit during the paper."
+      ],
+      "instructionSources": {
+        "0": [
+          "supplied-02"
+        ],
+        "1": [
+          "supplied-02"
+        ],
+        "2": [
+          "supplied-02",
+          "supplied-08"
+        ],
+        "3": [
+          "supplied-02"
+        ]
+      },
+      "tips": [
+        {
+          "title": "Make your own notes",
+          "text": "The learning comes from selecting and organising the material yourself; exchanged or bought notes may not make sense under pressure.",
+          "source": "supplied-11",
+          "speaker": "Speaker0"
+        },
+        {
+          "title": "Compress in stages",
+          "text": "Unify lecture, tutorial and reading notes into a long set, then a smaller set, then your final concise exam prompts. The process builds the structure of the subject in memory.",
+          "source": "supplied-11",
+          "speaker": "Speaker1"
+        },
+        {
+          "title": "Keep notes legible",
+          "text": "Use clear headings, spacing and a consistent colour or symbol system. Tiny type and packed margins make retrieval slower. Notes should trigger knowledge, not teach the unit during the exam.",
+          "source": "supplied-11",
+          "speaker": "Speakers0,2,3"
+        },
+        {
+          "title": "Follow the syllabus",
+          "text": "Check coverage week by week in the unit’s order. Use lectures as the starting point and attend to authorities highlighted by the lecturer.",
+          "source": "supplied-11",
+          "speaker": "Speakers3,4"
+        },
+        {
+          "title": "Build authority tables",
+          "text": "A useful three-column structure is issue or element; authority and legal rule; important facts and the principle. Organise it in a way you can actually use.",
+          "source": "supplied-11",
+          "speaker": "Speaker5"
+        },
+        {
+          "title": "Use diagrams and Cornell prompts",
+          "text": "Diagram parties or important facts. A Cornell-style layout can pair a short cue with facts or keywords and end with a single-sentence explanation of the authority.",
+          "source": "supplied-11",
+          "speaker": "Speaker6"
+        },
+        {
+          "title": "Practise using your notes",
+          "text": "Compile notes and use them in practice questions before the exam. Knowing the material well matters more than carrying a dense set of pages.",
+          "source": "supplied-11",
+          "speaker": "Speakers2,5"
+        },
+        {
+          "title": "Budget time by marks",
+          "text": "Know the number, types and weights of questions beforehand; allocate time proportionally and stick to the budget so every required question receives an answer.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,1,3,4,6"
+        },
+        {
+          "title": "Read the actual question",
+          "text": "Answer the precise question and apply the particular facts. A general account of a topic, however accurate, may not answer what was asked.",
+          "source": "supplied-09",
+          "speaker": "Speakers1,2"
+        },
+        {
+          "title": "Plan when writing is permitted",
+          "text": "Make a brief thumbnail plan of issues, elements, crucial facts and provisional conclusions before a handwritten answer. For PIL, do this only after the no-writing reading period ends.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,3,4",
+          "conditionSources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "title": "Make the structure visible",
+          "text": "Use headings and subheadings. Introduce the issue, give the relevant rule, apply it and reach a supported conclusion; avoid irrelevant fact summaries and indiscriminate note dumping.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,1,6"
+        },
+        {
+          "title": "Keep a party map",
+          "text": "For a crowded hypothetical, a small diagram of people, corporations or properties can prevent name confusion and repeated rereading. Draw it only when writing is allowed.",
+          "source": "supplied-09",
+          "speaker": "Speaker4",
+          "conditionSources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "title": "Notice the hidden fact",
+          "text": "Your plan should capture the subtle fact or difficult element the examiner planted, as well as the obvious issues. Use the plan to adjust depth as time passes.",
+          "source": "supplied-09",
+          "speaker": "Speaker4"
+        },
+        {
+          "title": "Use bullets only as a fallback",
+          "text": "If time is running out, brief points, authorities and conclusions can show knowledge that would otherwise be lost. This is a last resort, not a replacement for a reasoned response.",
+          "source": "supplied-09",
+          "speaker": "Speakers4,5"
+        },
+        {
+          "title": "Practise handwriting under time",
+          "text": "Timed handwritten answers reveal your practical writing speed. Practise concise, relevant analysis and completing the whole paper.",
+          "source": "supplied-09",
+          "speaker": "Speaker6"
+        }
+      ],
+      "dates": [
+        {
+          "label": "Room and seat numbers released",
+          "at": "2026-11-04T13:00:00+11:00",
+          "sources": [
+            "supplied-01"
+          ]
+        },
+        {
+          "label": "Supplementary examination period starts",
+          "at": "2026-12-10",
+          "end": "2026-12-22",
+          "note": "Inclusive; weekdays only.",
+          "sources": [
+            "supplied-01"
+          ]
+        }
+      ],
+      "specialConsideration": {
+        "text": "If special consideration is granted for the main exam, a supplementary exam is centrally scheduled in December. The page states there is no second supplementary if illness or misadventure prevents attendance; the remedy is the main invigilated exam in the next offering.",
+        "source": "supplied-02",
+        "sourceDatePhrase": "ie session2 2026",
+        "sourceDateIssue": "The stated example year appears inconsistent with a next offering after the November 2026 main exam; preserve the wording and seek current confirmation rather than assigning a replacement date."
+      },
+      "uncertainties": [
+        {
+          "id": "torts-materials",
+          "text": "The10-sheet allowance is recorded as a prior student confirmation in the repository, not visible in the supplied university screenshot. The exact university cover sheet should establish notes quantity/type, dictionary/calculator rules and collection requirements.",
+          "sources": [
+            "supplied-02",
+            "repo-torts-allowance"
+          ]
+        },
+        {
+          "id": "torts-time-split",
+          "text": "The timetable gives165 minutes total. Neither supplied Torts-specific source states the reading/writing split or whether writing is permitted during reading. Do not assume PIL’s150 + 15 arrangement.",
+          "sources": [
+            "supplied-01",
+            "supplied-02"
+          ]
+        },
+        {
+          "id": "torts-topics-not-weeks",
+          "text": "The official restriction is Topics 5–12. A week filter must use the site’s documented source mapping, not treat topic numbers as week numbers automatically.",
+          "sources": [
+            "supplied-02"
+          ]
+        },
+        {
+          "id": "torts-next-offering-year",
+          "text": "The special-consideration paragraph labels the next offering “session 2 2026”. This appears to be a copied date error; no new offering date has been invented.",
+          "sources": [
+            "supplied-02"
+          ]
+        }
+      ],
+      "lawList": {
+        "source": "supplied-08",
+        "numberedCaseEntries": 77,
+        "provisionEntries": 45,
+        "acts": 3,
+        "note": "Combined-name case entries remain combined as supplied;77 is the numbered-entry count, not a count of every separately named appeal."
+      },
+      "sources": [
+        "supplied-01",
+        "supplied-02",
+        "supplied-07",
+        "supplied-08",
+        "supplied-09",
+        "supplied-11",
+        "repo-torts-allowance",
+        "calendar-snapshot"
+      ],
+      "fieldSources": {
+        "start": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "end": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "mode": [
+          "supplied-01"
+        ],
+        "totalMinutes": [
+          "supplied-01"
+        ],
+        "format": [
+          "supplied-02"
+        ],
+        "marksAvailable": [
+          "supplied-02"
+        ],
+        "writingMinutes": [],
+        "readingMinutes": [],
+        "readingRule": []
+      }
+    },
+    {
+      "unit": "laws2100",
+      "title": "Jurisprudence",
+      "weight": null,
+      "weightSources": [],
+      "start": "2026-11-14T14:00:00+11:00",
+      "end": "2026-11-14T16:45:00+11:00",
+      "mode": "On-campus invigilated face-to-face exam",
+      "venue": "North Ryde campus; room and seat not yet supplied",
+      "status": "final",
+      "detailsStatus": "timetable-only; unit-specific instructions pending",
+      "totalMinutes": 165,
+      "writingMinutes": null,
+      "readingMinutes": null,
+      "technicalMinutes": null,
+      "readingRule": "not-stated",
+      "format": "The supplied materials do not establish the question count, question types, compulsory/optional structure or question weights.",
+      "marksAvailable": null,
+      "materials": {
+        "notes": "Not stated in the supplied Jurisprudence-specific examination materials.",
+        "notesSheets": null,
+        "notesSides": null,
+        "typedOrHandwritten": null,
+        "notesEvidenceStatus": "not-supplied",
+        "universityNotesAllowanceVerified": false,
+        "notesSources": [],
+        "listProvided": null,
+        "dictionary": null,
+        "calculator": null,
+        "electronicAids": null,
+        "closedBook": null
+      },
+      "questions": [],
+      "topics": [],
+      "referencing": [],
+      "criteria": [],
+      "instructions": [
+        "Attend the on-campus exam in the mode stated in the personalised timetable.",
+        "Bring valid photographic proof of identity.",
+        "Check the personalised timetable from 4 November at1 pm AEDT for room and seat details."
+      ],
+      "instructionSources": {
+        "0": [
+          "supplied-01"
+        ],
+        "1": [
+          "supplied-01"
+        ],
+        "2": [
+          "supplied-01"
+        ]
+      },
+      "tips": [
+        {
+          "title": "Make your own notes",
+          "text": "The learning comes from selecting and organising the material yourself; exchanged or bought notes may not make sense under pressure.",
+          "source": "supplied-11",
+          "speaker": "Speaker0",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Compress in stages",
+          "text": "Unify lecture, tutorial and reading notes into a long set, then a smaller set, then your final concise exam prompts. The process builds the structure of the subject in memory.",
+          "source": "supplied-11",
+          "speaker": "Speaker1",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Keep notes legible",
+          "text": "Use clear headings, spacing and a consistent colour or symbol system. Tiny type and packed margins make retrieval slower. Notes should trigger knowledge, not teach the unit during the exam.",
+          "source": "supplied-11",
+          "speaker": "Speakers0,2,3",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Follow the syllabus",
+          "text": "Check coverage week by week in the unit’s order. Use lectures as the starting point and attend to authorities highlighted by the lecturer.",
+          "source": "supplied-11",
+          "speaker": "Speakers3,4",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Build authority tables",
+          "text": "A useful three-column structure is issue or element; authority and legal rule; important facts and the principle. Organise it in a way you can actually use.",
+          "source": "supplied-11",
+          "speaker": "Speaker5",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Use diagrams and Cornell prompts",
+          "text": "Diagram parties or important facts. A Cornell-style layout can pair a short cue with facts or keywords and end with a single-sentence explanation of the authority.",
+          "source": "supplied-11",
+          "speaker": "Speaker6",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Practise using your notes",
+          "text": "Compile notes and use them in practice questions before the exam. Knowing the material well matters more than carrying a dense set of pages.",
+          "source": "supplied-11",
+          "speaker": "Speakers2,5",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Budget time by marks",
+          "text": "Know the number, types and weights of questions beforehand; allocate time proportionally and stick to the budget so every required question receives an answer.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,1,3,4,6",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Read the actual question",
+          "text": "Answer the precise question and apply the particular facts. A general account of a topic, however accurate, may not answer what was asked.",
+          "source": "supplied-09",
+          "speaker": "Speakers1,2",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Plan when writing is permitted",
+          "text": "Make a brief thumbnail plan of issues, elements, crucial facts and provisional conclusions before a handwritten answer. For PIL, do this only after the no-writing reading period ends.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,3,4",
+          "conditionSources": [
+            "supplied-10"
+          ],
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Make the structure visible",
+          "text": "Use headings and subheadings. Introduce the issue, give the relevant rule, apply it and reach a supported conclusion; avoid irrelevant fact summaries and indiscriminate note dumping.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,1,6",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Keep a party map",
+          "text": "For a crowded hypothetical, a small diagram of people, corporations or properties can prevent name confusion and repeated rereading. Draw it only when writing is allowed.",
+          "source": "supplied-09",
+          "speaker": "Speaker4",
+          "conditionSources": [
+            "supplied-10"
+          ],
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Notice the hidden fact",
+          "text": "Your plan should capture the subtle fact or difficult element the examiner planted, as well as the obvious issues. Use the plan to adjust depth as time passes.",
+          "source": "supplied-09",
+          "speaker": "Speaker4",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Use bullets only as a fallback",
+          "text": "If time is running out, brief points, authorities and conclusions can show knowledge that would otherwise be lost. This is a last resort, not a replacement for a reasoned response.",
+          "source": "supplied-09",
+          "speaker": "Speakers4,5",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        },
+        {
+          "title": "Practise handwriting under time",
+          "text": "Timed handwritten answers reveal your practical writing speed. Practise concise, relevant analysis and completing the whole paper.",
+          "source": "supplied-09",
+          "speaker": "Speaker6",
+          "applicability": "General study/exam technique only; not evidence of Jurisprudence-specific exam rules."
+        }
+      ],
+      "dates": [
+        {
+          "label": "Room and seat numbers released",
+          "at": "2026-11-04T13:00:00+11:00",
+          "sources": [
+            "supplied-01"
+          ]
+        },
+        {
+          "label": "Supplementary examination period starts",
+          "at": "2026-12-10",
+          "end": "2026-12-22",
+          "note": "Inclusive; weekdays only.",
+          "sources": [
+            "supplied-01"
+          ]
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "juris-exam-details",
+          "text": "Unit weighting, question count/type/choice, marking rubric, examinable-topic restriction, materials allowance, citation requirements and reading/writing split are not established by the supplied 2026 Jurisprudence-specific exam information.",
+          "sources": [
+            "supplied-01",
+            "repo-unit-metadata"
+          ]
+        },
+        {
+          "id": "juris-prior-year-recordings",
+          "text": "The existing repository labels some week 9–10lecture recordings as2025 recordings; dates spoken in those recordings must not replace the 2026 personalised final timetable.",
+          "sources": [
+            "repo-unit-metadata"
+          ]
+        }
+      ],
+      "sources": [
+        "supplied-01",
+        "supplied-09",
+        "supplied-11",
+        "calendar-snapshot",
+        "repo-unit-metadata"
+      ],
+      "fieldSources": {
+        "start": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "end": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "mode": [
+          "supplied-01"
+        ],
+        "totalMinutes": [
+          "supplied-01"
+        ],
+        "format": [],
+        "writingMinutes": [],
+        "readingMinutes": [],
+        "readingRule": []
+      }
+    },
+    {
+      "unit": "laws2000",
+      "title": "Public International Law",
+      "weight": 50,
+      "weightSources": [
+        "supplied-05",
+        "supplied-10"
+      ],
+      "start": "2026-11-19T13:30:00+11:00",
+      "end": "2026-11-19T16:15:00+11:00",
+      "mode": "On-campus invigilated handwritten examination",
+      "venue": "North Ryde campus; room and seat not yet supplied",
+      "status": "final",
+      "detailsStatus": "format-and-materials-confirmed; citation-conflict-recorded",
+      "totalMinutes": 165,
+      "writingMinutes": 150,
+      "readingMinutes": 15,
+      "technicalMinutes": 0,
+      "readingRule": "no-writing",
+      "format": "Four compulsory questions and every sub-question: 40% hypothetical with three sub-questions; 30% short essay; 15% discursive; 15% discursive.",
+      "marksAvailable": 100,
+      "paperPagesIncludingCover": 3,
+      "materials": {
+        "notes": "10 A4 sheets of handwritten or typed notes, double-sided. No additional resources. Notes are collected at the end with the exam paper.",
+        "notesSheets": 10,
+        "notesSides": 20,
+        "typedOrHandwritten": true,
+        "notesEvidenceStatus": "university-cover-sheet-and-portal-confirmed",
+        "universityNotesAllowanceVerified": true,
+        "notesSources": [
+          "supplied-05",
+          "supplied-10"
+        ],
+        "listProvided": null,
+        "dictionary": false,
+        "calculator": false,
+        "electronicAids": false,
+        "closedBook": true,
+        "closedBookQualification": "Closed book with the specified 10 double-sided A4 sheets permitted.",
+        "collectionRequired": true,
+        "answerBookProvided": true,
+        "sources": [
+          "supplied-05",
+          "supplied-10"
+        ]
+      },
+      "questions": [
+        {
+          "number": 1,
+          "weight": 40,
+          "kind": "hypothetical",
+          "parts": [
+            {
+              "number": 1,
+              "weight": null,
+              "prompt": null,
+              "note": "Sub-question weighting and wording not published in the supplied cover sheet."
+            },
+            {
+              "number": 2,
+              "weight": null,
+              "prompt": null,
+              "note": "Sub-question weighting and wording not published in the supplied cover sheet."
+            },
+            {
+              "number": 3,
+              "weight": null,
+              "prompt": null,
+              "note": "Sub-question weighting and wording not published in the supplied cover sheet."
+            }
+          ],
+          "note": "Three compulsory sub-questions; no individual sub-question weights are supplied.",
+          "sources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "number": 2,
+          "weight": 30,
+          "kind": "short-essay",
+          "parts": [],
+          "note": "Compulsory.",
+          "sources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "number": 3,
+          "weight": 15,
+          "kind": "discursive",
+          "parts": [],
+          "note": "Compulsory.",
+          "sources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "number": 4,
+          "weight": 15,
+          "kind": "discursive",
+          "parts": [],
+          "note": "Compulsory.",
+          "sources": [
+            "supplied-10"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "title": "The sources of international law",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "The law of treaties",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Integration of international law in national law",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "The subjects of international law",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Jurisdiction",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Immunities",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "State responsibility",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "International dispute settlement",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Use of force",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Collective security",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "International criminal law",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Human rights law",
+          "weeks": [],
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        }
+      ],
+      "scope": "All topics covered in the unit are potentially examinable. Any of the listed topics may appear; this does not mean all will appear. Assessable content includes lectures, tutorials and required readings.",
+      "referencing": [
+        {
+          "title": "Treaties and ILC draft articles",
+          "rule": "Use in-text references, not footnotes, and refer only to items covered in the unit. First reference gives the full name; later references may abbreviate. Pinpoint the specific article as required.",
+          "example": "Charter of the United Nations, then UN Charter; art 2(4) UN Charter.",
+          "sources": [
+            "supplied-04",
+            "supplied-05"
+          ]
+        },
+        {
+          "title": "Subsidiary sources",
+          "rule": "Use in-text references, not footnotes, and only sources covered in the unit.",
+          "example": "Place the source alongside the claim it supports.",
+          "sources": [
+            "supplied-04"
+          ]
+        },
+        {
+          "title": "Scholarly writings",
+          "rule": "Use author(date). Secondary-source pinpoints are not required.",
+          "example": "Rawls (2005).",
+          "sources": [
+            "supplied-04"
+          ]
+        },
+        {
+          "title": "Court, tribunal or arbitral decisions—portal instruction",
+          "rule": "At first reference give the court/arbitral body/tribunal plus the abbreviated decision or opinion name. The remainder of the citation and pinpoints are unnecessary. An abbreviated decision name alone is enough thereafter.",
+          "example": "The ICJ’s Right of Passage case, then Right of Passage.",
+          "sources": [
+            "supplied-04"
+          ],
+          "conflictId": "pil-case-citation"
+        },
+        {
+          "title": "Case law—cover-sheet instruction",
+          "rule": "At first reference give the full case name; the rest of the citation is unnecessary. An abbreviated name is sufficient thereafter. Pinpoints are not required.",
+          "example": "Full case name on first reference, abbreviated name later.",
+          "sources": [
+            "supplied-10"
+          ],
+          "conflictId": "pil-case-citation"
+        },
+        {
+          "title": "Legislative material—cover-sheet instruction",
+          "rule": "First reference gives the full name; subsequent references may abbreviate. Provide precise pinpoints as required.",
+          "example": "Full instrument name, then its abbreviation and relevant article or section.",
+          "sources": [
+            "supplied-10"
+          ]
+        }
+      ],
+      "criteria": [
+        {
+          "band": "HD",
+          "label": "High Distinction",
+          "text": "Provides a well-structured response, with no organisational or clarity issues. Demonstrates excellent identification of relevant legal issues and sub-issues, with at most a single minor oversight that does not significantly impact the overall analysis. States applicable law accurately, completely and precisely with citations in accordance with instructions. Does not include irrelevant issues or law, demonstrating excellent discernment and focus. Where applicable, applies the law to facts thoroughly and logically, addressing all relevant aspects.  Provides a clear, well-reasoned conclusion that follows logically from the analysis.",
+          "sources": [
+            "supplied-03"
+          ]
+        },
+        {
+          "band": "D",
+          "label": "Distinction",
+          "text": "Provides a good structured response, with only minor organisational or clarity issues. Demonstrates strong identification of relevant legal issues and sub-issues, with a few minor oversights that do not significantly impact the overall analysis. Mostly states applicable law accurately and in accordance with instructions with only minor omissions or errors in completeness or precision. May include an irrelevant issue or law but it does not undermine the response. Where applicable, applies law to facts well, with only minor gaps in reasoning or analysis. Provides a sound conclusion that may include slight inconsistencies or lack of clarity.",
+          "sources": [
+            "supplied-03"
+          ]
+        },
+        {
+          "band": "C",
+          "label": "Credit",
+          "text": "Provides adequate structure with some organisational or clarity issues present. Demonstrates adequate identification of relevant legal issues and sub-issues, with some notable omissions or inaccuracies. States applicable law generally correctly but lacks some detail or precision. May include some irrelevant issues or laws, but not to the extent that significantly undermines the response. Where applicable, satisfactorily applies applicable law to facts, but may contain moderate gaps in reasoning or analysis. Provides a reasonable conclusion but lacks some depth.",
+          "sources": [
+            "supplied-03"
+          ]
+        },
+        {
+          "band": "P",
+          "label": "Pass",
+          "text": "Some attempt at structure but with organisational or clarity issues that impact the response to a significant extent. Identifies some relevant issues and/or sub-issues but misses key aspects of the problem. States some applicable law but with significant omissions or inaccuracies. Includes irrelevant issues or law to an extent that demonstrates a limited ability to discern importance. Where applicable, attempts to apply law to facts but with significant logical gaps or misunderstandings. Provides a basic conclusion that doesn't fully align with the analysis.",
+          "sources": [
+            "supplied-03"
+          ]
+        },
+        {
+          "band": "F",
+          "label": "Fail",
+          "text": "Lacks clear structure or is difficult to follow due to very poor organisation or writing. Fails to identify most of the relevant legal issues, demonstrating a lack of understanding of the core legal problems presented. Fails to state most of the applicable law or states them with significant inaccuracy. Includes a significant amount of irrelevant issues or law, as if reciting notes indiscriminately, significantly undermining the response. Where applicable, fails to apply law to facts coherently or misapplies law significantly. Fails to provide a conclusion or provides one that doesn't follow from the analysis.",
+          "sources": [
+            "supplied-03"
+          ]
+        }
+      ],
+      "instructions": [
+        "Answer all four questions and all sub-questions.",
+        "Use the supplied answer book.",
+        "Support responses with relevant provisions and cases studied in the unit.",
+        "Follow all directions from the Examination Supervisor. No communication with other students once in the venue.",
+        "Do not write or mark any examination material during reading time.",
+        "Access only the authorised aids and materials listed on the cover sheet.",
+        "Do not access electronic transmitting or recording devices during the examination.",
+        "Place watches at the top of the desk and switch off all alarms, notifications and alerts.",
+        "Do not leave during the first hour, excluding reading time, or during the last 15minutes.",
+        "Alleged breaches may be reported to a University Discipline Committee for determination.",
+        "No dictionary or calculator is permitted.",
+        "Bring at most10 A4 sheets, handwritten or typed and double-sided; no additional resources. Notes are collected at the end."
+      ],
+      "instructionSources": {
+        "0": [
+          "supplied-10"
+        ],
+        "1": [
+          "supplied-10"
+        ],
+        "2": [
+          "supplied-10"
+        ],
+        "3": [
+          "supplied-10"
+        ],
+        "4": [
+          "supplied-10"
+        ],
+        "5": [
+          "supplied-10"
+        ],
+        "6": [
+          "supplied-10"
+        ],
+        "7": [
+          "supplied-10"
+        ],
+        "8": [
+          "supplied-10"
+        ],
+        "9": [
+          "supplied-10"
+        ],
+        "10": [
+          "supplied-10"
+        ],
+        "11": [
+          "supplied-10"
+        ]
+      },
+      "tips": [
+        {
+          "title": "Make your own notes",
+          "text": "The learning comes from selecting and organising the material yourself; exchanged or bought notes may not make sense under pressure.",
+          "source": "supplied-11",
+          "speaker": "Speaker0"
+        },
+        {
+          "title": "Compress in stages",
+          "text": "Unify lecture, tutorial and reading notes into a long set, then a smaller set, then your final concise exam prompts. The process builds the structure of the subject in memory.",
+          "source": "supplied-11",
+          "speaker": "Speaker1"
+        },
+        {
+          "title": "Keep notes legible",
+          "text": "Use clear headings, spacing and a consistent colour or symbol system. Tiny type and packed margins make retrieval slower. Notes should trigger knowledge, not teach the unit during the exam.",
+          "source": "supplied-11",
+          "speaker": "Speakers0,2,3"
+        },
+        {
+          "title": "Follow the syllabus",
+          "text": "Check coverage week by week in the unit’s order. Use lectures as the starting point and attend to authorities highlighted by the lecturer.",
+          "source": "supplied-11",
+          "speaker": "Speakers3,4"
+        },
+        {
+          "title": "Build authority tables",
+          "text": "A useful three-column structure is issue or element; authority and legal rule; important facts and the principle. Organise it in a way you can actually use.",
+          "source": "supplied-11",
+          "speaker": "Speaker5"
+        },
+        {
+          "title": "Use diagrams and Cornell prompts",
+          "text": "Diagram parties or important facts. A Cornell-style layout can pair a short cue with facts or keywords and end with a single-sentence explanation of the authority.",
+          "source": "supplied-11",
+          "speaker": "Speaker6"
+        },
+        {
+          "title": "Practise using your notes",
+          "text": "Compile notes and use them in practice questions before the exam. Knowing the material well matters more than carrying a dense set of pages.",
+          "source": "supplied-11",
+          "speaker": "Speakers2,5"
+        },
+        {
+          "title": "Budget time by marks",
+          "text": "Know the number, types and weights of questions beforehand; allocate time proportionally and stick to the budget so every required question receives an answer.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,1,3,4,6"
+        },
+        {
+          "title": "Read the actual question",
+          "text": "Answer the precise question and apply the particular facts. A general account of a topic, however accurate, may not answer what was asked.",
+          "source": "supplied-09",
+          "speaker": "Speakers1,2"
+        },
+        {
+          "title": "Plan when writing is permitted",
+          "text": "Make a brief thumbnail plan of issues, elements, crucial facts and provisional conclusions before a handwritten answer. For PIL, do this only after the no-writing reading period ends.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,3,4",
+          "conditionSources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "title": "Make the structure visible",
+          "text": "Use headings and subheadings. Introduce the issue, give the relevant rule, apply it and reach a supported conclusion; avoid irrelevant fact summaries and indiscriminate note dumping.",
+          "source": "supplied-09",
+          "speaker": "Speakers0,1,6"
+        },
+        {
+          "title": "Keep a party map",
+          "text": "For a crowded hypothetical, a small diagram of people, corporations or properties can prevent name confusion and repeated rereading. Draw it only when writing is allowed.",
+          "source": "supplied-09",
+          "speaker": "Speaker4",
+          "conditionSources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "title": "Notice the hidden fact",
+          "text": "Your plan should capture the subtle fact or difficult element the examiner planted, as well as the obvious issues. Use the plan to adjust depth as time passes.",
+          "source": "supplied-09",
+          "speaker": "Speaker4"
+        },
+        {
+          "title": "Use bullets only as a fallback",
+          "text": "If time is running out, brief points, authorities and conclusions can show knowledge that would otherwise be lost. This is a last resort, not a replacement for a reasoned response.",
+          "source": "supplied-09",
+          "speaker": "Speakers4,5"
+        },
+        {
+          "title": "Practise handwriting under time",
+          "text": "Timed handwritten answers reveal your practical writing speed. Practise concise, relevant analysis and completing the whole paper.",
+          "source": "supplied-09",
+          "speaker": "Speaker6"
+        }
+      ],
+      "dates": [
+        {
+          "label": "Room and seat numbers released",
+          "at": "2026-11-04T13:00:00+11:00",
+          "sources": [
+            "supplied-01"
+          ]
+        },
+        {
+          "label": "Supplementary examination period starts",
+          "at": "2026-12-10",
+          "end": "2026-12-22",
+          "note": "Inclusive; weekdays only.",
+          "sources": [
+            "supplied-01"
+          ]
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "pil-case-citation",
+          "text": "The specific portal rule asks for the court/body plus abbreviated case name on first reference; the cover sheet asks for the full case name. Both source instructions are retained. This conflict requires clarification and should not be silently resolved by a citation linter.",
+          "sources": [
+            "supplied-04",
+            "supplied-10"
+          ]
+        },
+        {
+          "id": "pil-q1-parts",
+          "text": "Q1 has three sub-questions but their individual marks and wording are not supplied. A practice time allocation within Q1must be editable and labelled an estimate.",
+          "sources": [
+            "supplied-10"
+          ]
+        },
+        {
+          "id": "pil-venue",
+          "text": "Room and seat details are not included in these materials; check the personalised timetable from 4 November at1 pm AEDT.",
+          "sources": [
+            "supplied-01"
+          ]
+        }
+      ],
+      "sources": [
+        "supplied-01",
+        "supplied-03",
+        "supplied-04",
+        "supplied-05",
+        "supplied-09",
+        "supplied-10",
+        "supplied-11",
+        "repo-pil-transcription",
+        "calendar-snapshot"
+      ],
+      "fieldSources": {
+        "start": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "end": [
+          "supplied-01",
+          "calendar-snapshot"
+        ],
+        "mode": [
+          "supplied-01",
+          "supplied-05"
+        ],
+        "totalMinutes": [
+          "supplied-01",
+          "supplied-10"
+        ],
+        "writingMinutes": [
+          "supplied-05",
+          "supplied-10"
+        ],
+        "readingMinutes": [
+          "supplied-05",
+          "supplied-10"
+        ],
+        "readingRule": [
+          "supplied-10"
+        ],
+        "format": [
+          "supplied-10"
+        ],
+        "marksAvailable": [
+          "supplied-10"
+        ],
+        "paperPagesIncludingCover": [
+          "supplied-10"
+        ],
+        "scope": [
+          "supplied-04",
+          "supplied-05"
+        ]
+      }
+    }
+  ],
+  "general": {
+    "timezone": "Australia/Sydney",
+    "timeZoneLabel": "AEDT (UTC+11)",
+    "snapshotDate": "2026-10-20",
+    "examPeriod": {
+      "start": "2026-11-09",
+      "end": "2026-11-27",
+      "days": "Monday–Saturday",
+      "inclusive": true,
+      "sources": [
+        "supplied-01"
+      ]
+    },
+    "identity": {
+      "text": "Valid photographic proof of identity is required for both Zoom and on-campus exams.",
+      "sources": [
+        "supplied-01"
+      ]
+    },
+    "timetableInstructions": [
+      {
+        "text": "The Notes column gives each unit’s primary delivery/attendance mode. Students are expected to sit in that mode; check the unit iLearn site for more specific details.",
+        "sources": [
+          "supplied-01"
+        ]
+      },
+      {
+        "text": "A parenthetical location such as North Ryde is system-generated and relevant to in-person exams; disregard it for online exam types.",
+        "sources": [
+          "supplied-01"
+        ]
+      }
+    ],
+    "release": {
+      "roomSeatAt": "2026-11-04T13:00:00+11:00",
+      "roomSeatSources": [
+        "supplied-01"
+      ],
+      "zoomLinkAt": "2026-11-04T13:00:00+11:00",
+      "zoomLinkSources": [
+        "calendar-snapshot"
+      ],
+      "adjustmentsNote": "Calendar records that approved IEAP/reasonable-adjustment arrangements may not yet be reflected; final personalised details are published from 1 pm 4 November and adjustment details emailed that evening. No individual adjustment is assumed.",
+      "adjustmentsSources": [
+        "calendar-snapshot"
+      ]
+    },
+    "specialConsideration": [
+      {
+        "title": "Serious unavoidable difficulty",
+        "text": "The timetable states that serious and unavoidable difficulties at exam time may make a student eligible to apply for Special Consideration. Check the current application process, documents and timeframes.",
+        "sources": [
+          "supplied-01"
+        ]
+      },
+      {
+        "title": "Unwell before starting",
+        "text": "The timetable says that, in general, attempting an exam makes a student ineligible for Special Consideration for that exam; if unwell before it starts, do not attempt it and consult Special Consideration guidance.",
+        "sources": [
+          "supplied-01"
+        ]
+      },
+      {
+        "title": "Illness during the exam",
+        "text": "If unable to continue, stop immediately and tell the supervisor/invigilator. After leaving, check eligibility and apply. Completing without reporting the issue at the time will generally prevent a later illness-based application from being accepted.",
+        "sources": [
+          "supplied-01"
+        ]
+      },
+      {
+        "title": "Supplementary period",
+        "text": "10–22 December 2026 inclusive, weekdays only.",
+        "sources": [
+          "supplied-01"
+        ]
+      }
+    ],
+    "onlineExamRequest": {
+      "text": "The screenshot says an online exam may be requested only if the unit is offered in both in-person and online/external modes and the prescribed criteria are met. Criterion 1 and both parts of criterion 2 are required.",
+      "sources": [
+        "supplied-01"
+      ],
+      "missing": "The screenshot ends before the criteria/evidence table. Those criteria and the Important notes section are not supplied and have not been invented."
+    },
+    "transcripts": {
+      "duplicate": [
+        "supplied-07",
+        "supplied-11"
+      ],
+      "byteIdentical": true,
+      "uniqueTranscriptCount": 2,
+      "scope": "General preparation/technique guidance. References to10 pages are not standalone proof of a particular unit’s permitted materials.",
+      "sources": [
+        "supplied-07",
+        "supplied-09",
+        "supplied-11"
+      ]
+    },
+    "practiceTiming": {
+      "text": "A suggested time plan is a study aid derived from confirmed working time and question weights. Planning/review reserves are user choices, not official conditions. Unknown time splits and question weights stay unknown.",
+      "sources": [
+        "supplied-09",
+        "supplied-10"
+      ]
+    },
+    "sourceCoverage": {
+      "suppliedFiles": 11,
+      "reviewedSuppliedFiles": 11,
+      "screenshotsVisuallyChecked": 5,
+      "uniqueTranscriptFiles": 2,
+      "lawListCaseEntries": 77,
+      "lawListProvisionEntries": 45,
+      "lawListActs": 3,
+      "knownSourceConflicts": [
+        "PILfirst-referencecaseformat",
+        "Tortsnext-offeringyear",
+        "Tortsnotesallowanceprovenance",
+        "MGMTgenericmodevs personalisedmode",
+        "Juris2025 recordingsvs2026timetable"
+      ]
+    }
+  },
+  "sourceRegistry": [
+    {
+      "id": "supplied-01",
+      "path": "raw/supplied-exam-2026/01-5.webp",
+      "filename": "01-5.webp",
+      "sha256": "407715851c03683000951d1ce6b332ecc5ed7a68fa443a2a7b6e27b289f8ef53",
+      "kind": "webp",
+      "role": "Final timetable screenshot, visually checked",
+      "reviewed": true,
+      "reviewMethod": "visual inspection plus OCR cross-check",
+      "limitations": "Screenshot crops at the lower edge; missing content below crop is not inferred."
+    },
+    {
+      "id": "supplied-02",
+      "path": "raw/supplied-exam-2026/02-4.webp",
+      "filename": "02-4.webp",
+      "sha256": "a7337b3c4fd80407d353e6a80d09fd31e0806a8de8d8eebd4b4b23f0830158df",
+      "kind": "webp",
+      "role": "Torts exam instructions and full assessment standards, visually checked",
+      "reviewed": true,
+      "reviewMethod": "visual inspection plus OCR cross-check",
+      "limitations": null
+    },
+    {
+      "id": "supplied-03",
+      "path": "raw/supplied-exam-2026/03-3.webp",
+      "filename": "03-3.webp",
+      "sha256": "7aaad4aeaa75cab0b0611c3947b863cc3f0b85f34b51a54fb1c95a48f189cb5c",
+      "kind": "webp",
+      "role": "PIL full assessment standards, visually checked",
+      "reviewed": true,
+      "reviewMethod": "visual inspection plus OCR cross-check",
+      "limitations": null
+    },
+    {
+      "id": "supplied-04",
+      "path": "raw/supplied-exam-2026/04-2.webp",
+      "filename": "04-2.webp",
+      "sha256": "53db69bc9c478a1d2b05fe137f5de8bee84751aaefbc2c363e835c459ea74a32",
+      "kind": "webp",
+      "role": "PIL examinable topics and specific referencing rules, visually checked",
+      "reviewed": true,
+      "reviewMethod": "visual inspection plus OCR cross-check",
+      "limitations": "Screenshot crops at the lower edge; missing content below crop is not inferred."
+    },
+    {
+      "id": "supplied-05",
+      "path": "raw/supplied-exam-2026/05-1.webp",
+      "filename": "05-1.webp",
+      "sha256": "c246686bd558aa73aff416543751156e0d8cacd5bc18691890ae51da4d78110f",
+      "kind": "webp",
+      "role": "PIL format, materials and topics, visually checked",
+      "reviewed": true,
+      "reviewMethod": "visual inspection plus OCR cross-check",
+      "limitations": "Screenshot crops at the lower edge; missing content below crop is not inferred."
+    },
+    {
+      "id": "supplied-06",
+      "path": "raw/supplied-exam-2026/06-MGMT-4-Exam-Final-Assessment-.html",
+      "filename": "06-MGMT-4-Exam-Final-Assessment-.html",
+      "sha256": "5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97",
+      "kind": "html",
+      "role": "MGMT final assessment instructions and full four-dimension rubric",
+      "reviewed": true,
+      "reviewMethod": "complete text extraction/read; document order preserved",
+      "limitations": null
+    },
+    {
+      "id": "supplied-07",
+      "path": "raw/supplied-exam-2026/07-Torts.txt",
+      "filename": "07-Torts.txt",
+      "sha256": "33dfd58f8eea95d7d8c242fde8463069d2c07758ca2376b5297617871df6d284",
+      "kind": "txt",
+      "role": "General undergraduate exam-preparation transcript; byte-identical to source 11",
+      "reviewed": true,
+      "reviewMethod": "complete text extraction/read; document order preserved",
+      "limitations": null
+    },
+    {
+      "id": "supplied-08",
+      "path": "raw/supplied-exam-2026/08-Examinable_Law_List.docx",
+      "filename": "08-Examinable_Law_List.docx",
+      "sha256": "10d0a5648625651bdf5c6164624af54939a341418692aa4a377cbf64a07a51ff",
+      "kind": "docx",
+      "role": "Torts exact examinable law list: 77 numbered case entries, 45 provision entries, 3 Acts",
+      "reviewed": true,
+      "reviewMethod": "complete text extraction/read; document order preserved",
+      "limitations": null
+    },
+    {
+      "id": "supplied-09",
+      "path": "raw/supplied-exam-2026/09-UG-JD-Exam-technique-transcript.txt",
+      "filename": "09-UG-JD-Exam-technique-transcript.txt",
+      "sha256": "fd8303efcbbcc702d54792412bce61bc1347e8c8c8863f7b53c25d1ef906c833",
+      "kind": "txt",
+      "role": "UG/JD exam-technique transcript",
+      "reviewed": true,
+      "reviewMethod": "complete text extraction/read; document order preserved",
+      "limitations": null
+    },
+    {
+      "id": "supplied-10",
+      "path": "raw/supplied-exam-2026/10-LAWS2000Pink-Cover-Sheet_Main.docx",
+      "filename": "10-LAWS2000Pink-Cover-Sheet_Main.docx",
+      "sha256": "e1d9dff5189c81f9489c054a0758496f8e7d5c7006aa2f9e962584898aa98810",
+      "kind": "docx",
+      "role": "PIL main exam cover sheet, including materials and question weights",
+      "reviewed": true,
+      "reviewMethod": "complete text extraction/read; document order preserved",
+      "limitations": null
+    },
+    {
+      "id": "supplied-11",
+      "path": "raw/supplied-exam-2026/11-UG-Exam-Prep-transcript.txt",
+      "filename": "11-UG-Exam-Prep-transcript.txt",
+      "sha256": "33dfd58f8eea95d7d8c242fde8463069d2c07758ca2376b5297617871df6d284",
+      "kind": "txt",
+      "role": "General undergraduate exam-preparation transcript; byte-identical to source 07",
+      "reviewed": true,
+      "reviewMethod": "complete text extraction/read; document order preserved",
+      "limitations": null
+    },
+    {
+      "id": "repo-torts-allowance",
+      "path": "raw/laws2400-torts/assessment/Exam - iLearn Exam Information and Study Tips (transcribed 20 Oct 2026).md",
+      "kind": "repository-record",
+      "role": "Existing repository records student confirmation of 10 double-sided A4 notes sheets on 20 October 2026; this sentence is not visible on the supplied iLearn screenshot.",
+      "reviewed": true
+    },
+    {
+      "id": "repo-pil-transcription",
+      "path": "raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (transcribed 20 Oct 2026).md",
+      "kind": "repository-transcription",
+      "role": "Checked against supplied PIL screenshots; useful clean text of full standards",
+      "reviewed": true
+    },
+    {
+      "id": "calendar-snapshot",
+      "path": "preparation/calendar-snapshot.json",
+      "kind": "calendar-snapshot",
+      "role": "Read-only Google Calendar snapshot20 October 2026; dates corroborated by supplied-01. Additional release and adjustment details have calendar provenance.",
+      "reviewed": true
+    },
+    {
+      "id": "repo-unit-metadata",
+      "path": "raw/*/unit.yaml",
+      "kind": "repository-metadata",
+      "role": "Existing final unit metadata; new exam fields remain tied to direct source evidence.",
+      "reviewed": true
+    },
+    {
+      "id": "repo-topic-vocab",
+      "path": "content-src/dossiers/vocab.yaml",
+      "kind": "repository-topic-map",
+      "role": "Existing site teaching-week mapping, separate from official topic numbers.",
+      "reviewed": true
+    }
+  ]
+}

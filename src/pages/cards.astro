@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CardReview from '../components/cards/CardReview';
+import { units } from '../lib/content';
+const us = await units();
+---
+
+<Layout title="Cards — all units">
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { label: 'Cards' }]} />
+  <h1 data-split>Cards</h1>
+  <p class="cards-lede">Every unit’s due cards in one queue, then new cards, interleaved by week. Or open one deck: {us.map((u, i) => <>{i > 0 && ' · '}<a href={`/${u.id}/cards`}>{u.data.code}</a></>)}</p>
+  <div class="island-stage"><CardReview client:load units={us.map((u) => u.id)} /></div>
+</Layout>
+
+<style>
+  .cards-lede { color: var(--ink-2); max-width: var(--measure); }
+</style>

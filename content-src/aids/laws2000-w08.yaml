@@ -1,0 +1,782 @@
+unit: laws2000
+week: 8
+source: raw/laws2000-pil/week-08
+generator: aids-1
+aids:
+  - concept: laws2000-w08-existence-of-a-dispute
+    plain: 'Before the ICJ can hear a case, a real dispute must already exist: one state''s claim is positively opposed by the other, which knows it. A respondent''s denial doesn''t decide that.'
+    concrete: 'The lecturer explains why this matters: the ICJ has jurisdiction only if a dispute exists when proceedings begin, so a respondent expecting to lose may say there is no dispute at all. The Court checks objectively. It looks at the facts — public statements, diplomatic notes, how the parties behaved — for a specific issue on which one state''s view was positively opposed by the other, and communicated. An official''s press statement contradicting the other state can be evidence.'
+    formal: A dispute is "a disagreement on a point of law or fact, a conflict of legal views or interests" (Mavrommatis, PCIJ 1924). Existence is "a matter for objective determination"; mere denial does not prove non-existence (Peace Treaties). A claim must be "positively opposed" by a respondent that "was aware, or could not have been unaware" of it (South West Africa), shown by "an examination of the facts" (Georgia v Russia).
+    terms:
+      - term: legal dispute
+        gloss: A disagreement on a point of law or fact, a conflict of legal views or interests between persons — here, states (Mavrommatis).
+      - term: objective determination
+        gloss: The Court decides for itself whether a dispute exists; a party's denial does not prove there is none (Peace Treaties, 1950).
+      - term: positively opposed
+        gloss: One party's claim is met by the other's clearly opposite view, and the respondent was aware, or could not have been unaware, of it (South West Africa).
+    misconceptions:
+      - claim: If the respondent denies that any dispute exists, the Court lacks jurisdiction.
+        tempting: A dispute needs two sides who disagree.
+        correction: 'Existence is a matter for objective determination: "the mere denial of the existence of a dispute does not prove its non-existence" (Peace Treaties, 1950).'
+      - claim: Any sharp public disagreement between states is a dispute, because the threshold is low.
+        tempting: The slides do call the threshold low.
+        correction: 'Low is not nil. It must be more than mere friction: clearly opposite views on an identifiable issue, communicated so the respondent knew (South West Africa; Marshall Islands v UK).'
+      - claim: A dispute that crystallises while the case is pending is enough.
+        tempting: The opposition does eventually appear.
+        correction: The dispute must exist at the date proceedings are instituted; otherwise the Court has no jurisdiction to deal with the case.
+    socratic:
+      - ask: State X files at the ICJ. State Y says "there is no dispute between us". Why would Y say that?
+        hint: Jurisdiction.
+        answer: If no dispute existed when proceedings were instituted, the Court has no jurisdiction — so a respondent expecting to lose may deny the dispute.
+      - ask: Does Y's denial settle the point?
+        hint: Peace Treaties (1950).
+        answer: No. Whether a dispute exists is a matter for objective determination; mere denial does not prove its non-existence.
+      - ask: What must X show?
+        hint: South West Africa.
+        answer: That its claim was positively opposed by Y, and that Y was aware, or could not have been unaware, of that opposition — clearly opposite views on the issue.
+      - ask: Where would you look for that?
+        hint: Georgia v Russia, para 30.
+        answer: 'At the facts: public statements, diplomatic notes and other exchanges, and the parties'' conduct. Bilateral exchanges showing conflicting claims are usually the strongest evidence of a territorial dispute.'
+      - ask: X's claim was set out only in an internal report it never sent or published. Enough?
+        hint: Communication.
+        answer: No. There must be communication showing the opposed views (Marshall Islands v UK); Y could not have been aware of a claim it never saw.
+    elements:
+      - name: A disagreement on law or fact
+        test: A disagreement on a point of law or fact, a conflict of legal views or interests between the states.
+        cases:
+          - mavrommatis-palestine-concessions-greece-v-great-britain
+      - name: Clearly opposite views
+        test: The applicant's claim is positively opposed by the respondent — more than mere friction, on an identifiable issue.
+        cases:
+          - south-west-africa-ethiopia-v-south-africa-liberia-v-south-africa
+      - name: Awareness through communication
+        test: The respondent was aware, or could not have been unaware, that its views were positively opposed; communication between the parties shows this.
+        cases:
+          - south-west-africa-ethiopia-v-south-africa-liberia-v-south-africa
+          - marshall-islands-v-united-kingdom
+      - name: Existing at filing
+        test: The dispute existed at the date proceedings were instituted.
+      - name: Objectively, from the facts
+        test: The Court decides, examining public statements, diplomatic exchanges and conduct; denial does not prove non-existence.
+        cases:
+          - interpretation-of-peace-treaties-with-bulgaria-hungary-and-romania
+          - application-of-the-international-convention-on-the-elimination-of-all-forms-of-racial-discrimination-georgia-v-russian-federation
+    what-if:
+      - change: X sent a note saying Y's new dam breaches their river treaty; Y replied by note that it complies fully.
+        effect: 'A dispute exists: a specific legal claim, positively opposed, with Y plainly aware. The threshold is low, and diplomatic notes are exactly the evidence the Court examines.'
+      - change: The first opposing notes were exchanged three months after X filed its application.
+        effect: 'No jurisdiction on that application: the dispute must exist at the date proceedings are instituted.'
+      - change: The only exchange was ministers trading sharp remarks about each other's fishing industries at a summit, with no legal claim.
+        effect: 'Probably not yet a dispute: it must be more than mere friction — clearly opposite views on an identifiable issue.'
+    boundary:
+      - text: Marshall Islands v UK (2016).
+        why: 'Cited on the slides for the need for communication: without it, opposition that the respondent knew of cannot be shown.'
+      - text: A respondent's flat denial in its pleadings.
+        why: 'Does not defeat the dispute: existence is objectively determined, and denial does not prove non-existence (Peace Treaties).'
+    transfer:
+      - scenario: Two neighbouring states each publish maps showing a small reef as theirs. State A's foreign minister tells a press conference that State B's fishing near the reef "violates our sovereignty"; B's embassy sends a note rejecting the claim. A files in the ICJ a month later.
+        answer: 'A dispute likely existed at filing. The Court determines it objectively from the facts (Georgia v Russia): A''s public claim was positively opposed by B''s note, and B was plainly aware of it (South West Africa). This is more than friction, and bilateral exchanges are usually the strongest evidence of a territorial dispute.'
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 9–12)
+      - 'Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A) (what is a dispute: jurisdiction, respondents'' denials, Mavrommatis, Peace Treaties, South West Africa, Marshall Islands, examining the facts)'
+    verify: false
+  - concept: laws2000-w08-obligation-of-peaceful-settlement
+    plain: States must try to settle their disputes by peaceful means and never by force. They need not reach a settlement — only keep trying peacefully, by means they choose.
+    concrete: 'Canada and Denmark (for Greenland) disputed Hans Island, a 1.3 square kilometre barren rock between Canada and Greenland, for about 50 years. Each side''s forces planted flags and left bottles behind — Canadian whisky, Danish schnapps — in the so-called Whiskey War. Neither breached international law by failing to settle: they kept the dispute peaceful. In the end they agreed to share the island, with the border following a rift across it.'
+    formal: 'Art 2(3) UN Charter: "All Members shall settle their international disputes by peaceful means in such a manner that international peace and security, and justice, are not endangered." It works with art 2(4). Reiterated in the OAS Charter, Friendly Relations Declaration (1970), Manila Declaration (1982) and AU Constitutive Act; binding in custom (Nicaragua, para 290). An obligation of conduct, not result. Art 33(1) lists the means.'
+    analogy:
+      text: 'A counsellor tells two feuding neighbours: you must keep trying to sort this out, and you must never come to blows — but nobody can force you to agree.'
+      maps:
+        - from: keep trying to sort it out
+          to: the obligation of conduct to seek peaceful settlement (art 2(3))
+        - from: never come to blows
+          to: the prohibition on the threat or use of force (art 2(4))
+        - from: nobody can force you to agree
+          to: no obligation of result; the means rest on consent
+      limits:
+        - A counsellor's advice is not law; this duty binds as a Charter obligation and as custom (Nicaragua), and states can choose binding means, such as arbitration, if they consent.
+    terms:
+      - term: obligation of conduct
+        gloss: 'A duty to act in a certain way, not to achieve an outcome: states must seek a peaceful settlement but need not reach one.'
+      - term: art 33(1) means
+        gloss: Negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, regional agencies or arrangements, or "other peaceful means of their own choice" — an open-ended list.
+      - term: Friendly Relations Declaration (1970)
+        gloss: A General Assembly declaration reiterating the duty; the lecturer notes it adds that states unable to settle remain obliged to keep trying.
+    misconceptions:
+      - claim: Two states that leave a dispute unresolved for decades are in breach of art 2(3).
+        tempting: Art 2(3) says members "shall settle" their disputes.
+        correction: 'It is an obligation of conduct, not result: states are not obliged to reach any particular settlement, which is why some disputes last decades (Hans Island).'
+      - claim: Once peaceful means have failed after long effort, force becomes permissible.
+        tempting: Art 2(3) comes first and art 2(4) seems to follow from it.
+        correction: The duty to keep trying peacefully continues while the dispute lasts, and the obligation not to use force (art 2(4)) always remains.
+      - claim: The obligation binds only through the UN Charter and the General Assembly declarations.
+        tempting: Those are the instruments listed on the slides.
+        correction: It is also binding under customary international law (Nicaragua, 1986, para 290), so it binds whether or not a state accepted the declarations.
+    socratic:
+      - ask: Canada and Denmark disputed Hans Island for about 50 years. Were they in breach of art 2(3)?
+        hint: Conduct or result?
+        answer: 'No. Art 2(3) is an obligation of conduct: they had to pursue settlement peacefully, not reach one. They kept it peaceful and eventually agreed to share the island.'
+      - ask: Why can't international law simply require states to resolve every dispute?
+        hint: Consent.
+        answer: 'Peaceful settlement sits in the realm of state consent: states choose the means and whether to agree. An obligation to resolve every dispute would be impossible.'
+      - ask: After 20 years of failed talks, State K says it may now use force to recover the territory. Assess.
+        hint: Art 2(4).
+        answer: K is wrong. It remains under a continuing obligation to try peaceful means, and the prohibition on the threat or use of force always applies.
+      - ask: Which means may K and its neighbour use?
+        hint: Art 33(1).
+        answer: Negotiation, enquiry, mediation, conciliation, arbitration, judicial settlement, regional agencies or arrangements — or other peaceful means of their own choice.
+      - ask: Does the duty bind a state that never accepted the Manila Declaration?
+        hint: Nicaragua, para 290.
+        answer: Yes. The obligation is binding under customary international law, not merely because of the declarations.
+    elements:
+      - name: Seek settlement peacefully
+        test: Settle international disputes by peaceful means so that international peace and security, and justice, are not endangered — a Charter and customary duty.
+        cases:
+          - nicaragua-v-united-states-of-america
+        authorities:
+          - un-charter-art-2-3
+          - friendly-relations-declaration-1970
+      - name: Conduct, not result
+        test: No duty to reach any particular settlement; while a dispute lasts, the duty to keep trying continues.
+      - name: Never by force
+        test: The obligation to refrain from the threat or use of force always remains.
+        authorities:
+          - un-charter-art-2-4
+      - name: Means chosen by consent
+        test: Any means listed in art 33(1), or other peaceful means of the parties' own choice.
+        authorities:
+          - un-charter-art-33-1
+    what-if:
+      - change: The dispute's continuance is not likely to endanger international peace and security.
+        effect: Art 2(3) still requires peaceful settlement, but art 33(1)'s instruction to "first of all, seek a solution" by the listed means is framed for disputes likely to endanger peace and security.
+      - change: The parties agree on a means not listed in art 33(1).
+        effect: 'Permitted: the list ends with "other peaceful means of their own choice", so it is open-ended and states can be creative.'
+      - change: A state that never supported the Manila Declaration denies that the obligation binds it.
+        effect: 'It is still bound: the obligation is customary international law (Nicaragua, para 290), as well as a Charter obligation for UN members.'
+    boundary:
+      - text: 'Hans Island: about 50 years of dispute between Canada and Denmark.'
+        why: 'Lawful throughout: the obligation is one of conduct, and the parties kept the dispute peaceful until agreeing to share the island.'
+      - text: A territorial dispute that escalates into armed force.
+        why: 'Outside peaceful settlement altogether: force breaches art 2(4) — what happens when settlement fails is next week''s topic.'
+    transfer:
+      - scenario: Two Pacific states have disputed a fishing boundary for 30 years. A new government in one wants to send its navy to enforce its claim, arguing that "peaceful means have been exhausted".
+        answer: 'The argument fails. Art 2(3), also binding as custom (Nicaragua), is an obligation of conduct: the states need not have settled, but must keep seeking a peaceful settlement by means of their choice (art 33(1)). Exhausting peaceful means never unlocks force; the prohibition in art 2(4) always remains.'
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 2, 4, 13–16)
+      - 'Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A) (opening: Hans Island and the Whiskey War; obligation of conduct not result; arts 2(3) and 2(4) together; consent; instruments beyond the Charter; Nicaragua; art 33 open-ended)'
+    verify: false
+  - concept: laws2000-w08-diplomatic-modes-of-settlement
+    plain: Diplomatic modes — negotiation, good offices, mediation, inquiry, conciliation — help states settle disputes themselves. Third parties may help, but nothing they produce binds the states.
+    concrete: Timor-Leste and Australia disagreed over their maritime boundary in the Timor Sea. A Conciliation Commission was set up under the UN Convention on the Law of the Sea. It assessed the context and each party's position and interests, and proposed a resolution. Its recommendations bound neither state, but the parties used them, and the process led to a treaty delimiting the boundary and sharing transboundary resources.
+    formal: 'Negotiation: good faith, a constructive atmosphere, refraining from undermining conduct (GA Res 53/101, 1998); it presupposes "a genuine attempt … to engage in discussions … with a view to resolving the dispute" (North Sea Continental Shelf, para 85). Good offices facilitate direct negotiations; mediation suggests a framework of settlement, not binding; inquiry finds facts; conciliation reports facts and positions and suggests a solution in non-binding recommendations.'
+    analogy:
+      text: 'Neighbours arguing over a fence: a friend arranges a meeting; a friend proposes a deal; a surveyor works out where the line really is; a panel writes up the facts and suggests a fix.'
+      maps:
+        - from: a friend arranges a meeting
+          to: good offices
+        - from: a friend proposes a deal
+          to: mediation
+        - from: a surveyor works out the line
+          to: inquiry or fact-finding
+        - from: a panel writes up facts and suggests a fix
+          to: conciliation
+      limits:
+        - The real third parties can be individuals, groups, states or the UN, and the modes are often combined — e.g. mediation with a fact-finding mission.
+    terms:
+      - term: good offices
+        gloss: A neutral third party trusted by both sides facilitates efforts to enter into direct negotiations (e.g. the UN good offices mission in Lebanon).
+      - term: mediation
+        gloss: A third party takes a more direct role and suggests a framework of settlement or possible solutions — not binding (Richard Holbrooke, Bosnian War).
+      - term: inquiry (fact-finding)
+        gloss: Used when the parties disagree over the facts; usually ends in a non-binding report (UN Commission of Inquiry in Syria).
+      - term: conciliation
+        gloss: A third party, e.g. a group of experts, reports on facts and positions and suggests a solution in non-binding recommendations.
+    misconceptions:
+      - claim: A mediator's proposals bind the parties, whereas good offices do not.
+        tempting: Mediation is the more active role.
+        correction: The solutions offered by a mediator are not binding. Neither mode binds; they differ in how far the third party goes — facilitating talks, or suggesting a framework.
+      - claim: A conciliation report binds once both states have appointed the conciliators.
+        tempting: The parties chose the experts themselves.
+        correction: Conciliation ends in non-binding recommendations; parties may use the report to negotiate but are not bound. A binding result needs arbitration or judicial settlement.
+      - claim: The modes must be used one at a time, in the order art 33(1) lists them.
+        tempting: Art 33(1) starts with negotiation and the lecture follows that order.
+        correction: No sequence is required, and the modes are often combined — e.g. mediation with a fact-finding mission.
+    socratic:
+      - ask: Two states want to settle a dispute without any outsider. Which mode, and what does it require?
+        hint: North Sea, para 85.
+        answer: Negotiation. It requires good faith and a genuine attempt to engage in discussions with a view to resolving the dispute (GA Res 53/101; North Sea).
+      - ask: They won't even sit down together. A trusted neutral state offers to bring them to the table. Which mode?
+        hint: Facilitating only.
+        answer: 'Good offices: the third party facilitates efforts to enter into direct negotiations without proposing solutions.'
+      - ask: The third party now starts proposing a framework for a deal. What has changed?
+        hint: A more direct role.
+        answer: It has become mediation — like Richard Holbrooke in the Bosnian War. Its proposals still do not bind.
+      - ask: The states disagree over what actually happened in a border incident. Which mode helps?
+        hint: Facts.
+        answer: Inquiry or fact-finding, which usually ends in a non-binding report the parties can use.
+      - ask: They want experts to set out the facts and positions and suggest a solution, but no binding result. Which mode?
+        hint: Timor Sea.
+        answer: 'Conciliation: a report with non-binding recommendations, as with the Timor-Leste–Australia Conciliation Commission under UNCLOS.'
+    what-if:
+      - change: The states want the third party's decision to bind them.
+        effect: No diplomatic mode will do, since none binds. They need an adjudicatory mode — arbitration or judicial settlement — which also rests on their consent.
+      - change: A negotiating state walks out without any justification and refuses to consider the other side's points.
+        effect: That falls short of good faith and a genuine attempt to resolve the dispute (GA Res 53/101; North Sea) — though it is not a use of force.
+      - change: A conciliation commission's report favours one side.
+        effect: 'The other side may still reject it: conciliation recommendations are not binding, though the report may frame later negotiations.'
+    boundary:
+      - text: The Joint Investigation Team on the 2014 shooting down of a Malaysian Airlines plane in Ukraine.
+        why: 'Inquiry: it held Russia responsible, but Russia rejected its findings — a fact-finding report does not bind.'
+      - text: Richard Holbrooke in the Bosnian War.
+        why: 'Mediation, not good offices: he went beyond facilitating talks and suggested a framework of settlement.'
+    transfer:
+      - scenario: Two states dispute whether a shared river's lower flow is caused by an upstream dam. They first ask a neutral state to host talks; when talks stall, they ask a panel of hydrologists to establish the facts and propose a water-sharing formula.
+        answer: 'Hosting talks is good offices — facilitating direct negotiation. The panel combines inquiry (finding the facts) and conciliation (setting out positions and suggesting a solution); the modes are often combined. None binds: the states may use the panel''s report to negotiate an agreement, but would need adjudication for a binding result.'
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 17–21)
+      - 'Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A) (diplomatic modes: negotiation and Res 53/101, North Sea; good offices; mediation and Holbrooke; inquiry, Syria and the MH17 Joint Investigation Team; conciliation and the Timor Sea; modes combined)'
+    verify: false
+  - concept: laws2000-w08-international-arbitration
+    plain: In arbitration, states that have consented set up their own temporary tribunal, choose its members and rules, and are bound by its final award.
+    concrete: The UN Convention on the Law of the Sea provides for disputes about the Convention to be settled by arbitration, so its parties consent in advance. Relying on that, the Philippines brought a claim against China over China's activities in the South China Sea. The arbitral tribunal sided with the Philippines, finding that China's conduct violated international law. As an arbitral award, the decision is final and binding upon the parties.
+    formal: Arbitration is founded on consent, given by becoming party to a treaty providing for arbitration of future disputes (e.g. UNCLOS) or by a special agreement (compromis) after a dispute arises. States control composition, the rules to be applied and confidentiality; procedure is flexible and can be faster; tribunals are ad hoc; arbitral awards are final and binding upon the parties.
+    terms:
+      - term: compromis
+        gloss: A special agreement by which the parties submit a particular, existing dispute to arbitration (or to the ICJ).
+      - term: arbitral award
+        gloss: 'The final decision of an arbitral tribunal: final and binding upon the parties.'
+      - term: ad hoc tribunal
+        gloss: A temporary tribunal set up for the dispute, unlike a standing court such as the ICJ.
+    misconceptions:
+      - claim: Consent to arbitration can only be given in a treaty before the dispute arises.
+        tempting: Treaty-based consent is the common route.
+        correction: States can also consent after a dispute has arisen, by a special agreement (compromis) submitting that particular dispute.
+      - claim: An arbitral award is a recommendation the parties may use in further talks.
+        tempting: Arbitration is flexible and controlled by the parties.
+        correction: 'That describes conciliation. Arbitration is adjudicatory: its awards are final and binding upon the parties.'
+      - claim: A compromis is a settlement the parties reach by mutual concessions.
+        tempting: The word looks like "compromise".
+        correction: A compromis is an agreement to submit a particular dispute to a tribunal, not a settlement of the dispute itself.
+    socratic:
+      - ask: The Philippines wanted a binding ruling against China on the South China Sea. Why not mediation?
+        hint: Binding?
+        answer: 'A mediator''s solutions are not binding. Arbitration is adjudicatory: its award is final and binding.'
+      - ask: China signed no special agreement for this dispute. Where did consent come from?
+        hint: Consent in advance.
+        answer: 'From UNCLOS: by becoming party to a treaty providing for arbitration of future disputes, a state consents in advance.'
+      - ask: Who decides who the arbitrators are?
+        hint: Close control.
+        answer: 'The parties — often three arbitrators: one chosen by each party, the third agreed between them.'
+      - ask: What else can states control in arbitration that they cannot at the ICJ?
+        hint: Rules and privacy.
+        answer: The rules to be applied (e.g. a specific treaty or national law), a flexible procedure, and whether the proceedings stay confidential.
+      - ask: Will the same tribunal be there for the next dispute?
+        hint: Ad hoc.
+        answer: No. Arbitral tribunals are ad hoc and temporary, unlike the permanent ICJ.
+    elements:
+      - name: Consent
+        test: By a treaty providing for arbitration of future disputes, or by a compromis after the dispute arises.
+        cases:
+          - south-china-sea-arbitration-philippines-v-china
+      - name: Composition
+        test: The parties choose the number and identity of the arbitrators — often one each and a third agreed.
+      - name: Applicable rules and procedure
+        test: The parties choose the rules to be applied (a treaty, a national law), flexible procedure, and may keep proceedings confidential.
+      - name: Final and binding award
+        test: The ad hoc tribunal's award is final and binding upon the parties.
+    what-if:
+      - change: Two states whose treaty has no dispute clause want to arbitrate after a dispute arises.
+        effect: 'They can: a special agreement (compromis) submitting that particular dispute gives consent after it has arisen.'
+      - change: The parties specify that one state's national law will govern.
+        effect: 'Permissible: states choose the rules to be applied, such as a specific treaty or national law.'
+      - change: The states want the proceedings kept out of public view.
+        effect: 'Arbitration allows that: states may choose to keep proceedings confidential and still get a binding award — unlike confidential mediation, which binds no one.'
+    boundary:
+      - text: A conciliation commission of experts appointed by the parties.
+        why: 'Not arbitration, although the parties pick the third party: conciliation ends in non-binding recommendations, not a binding award.'
+      - text: A treaty clause sending disputes to the ICJ, such as art IX of the Genocide Convention.
+        why: Consent given in advance by treaty, but to judicial settlement before a standing court, not to an ad hoc arbitral tribunal.
+    transfer:
+      - scenario: Two states fall out over profit shares from their joint hydro-electric scheme. Their treaty says nothing about disputes. They want three experts — one each and an agreed chair — applying the treaty and one state's corporate law, in private, with a result they must follow.
+        answer: Arbitration fits. With no treaty clause, they consent by a compromis after the dispute has arisen. They may choose the composition (one arbitrator each and a third agreed), the rules (the treaty and a national law) and confidentiality. The ad hoc tribunal's award will be final and binding upon them.
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 22–24)
+      - 'Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A) (arbitration: consent by treaty or compromis, party choice of arbitrators, rules and procedure, binding award, UNCLOS and the South China Sea arbitration)'
+    verify: false
+  - concept: laws2000-w08-icj-cases-and-effect-of-decisions
+    plain: The ICJ decides disputes between states, binding only those states, and gives advisory opinions to UN bodies, which bind no one but carry great weight. Judgments are final, without appeal.
+    concrete: 'The UN General Assembly asked the ICJ two framed questions: was Mauritius''s decolonisation lawfully completed at independence, and what follows from the UK''s continued administration of the Chagos Archipelago? The Court found decolonisation had not been lawfully completed and that the UK had to end its administration. As an advisory opinion it formally bound no one — yet, coming from the UN''s principal judicial organ, it carried considerable weight in a sensitive political dispute.'
+    formal: 'The ICJ, the UN''s principal judicial organ, has 15 judges elected by the Security Council and General Assembly for nine years. Contentious cases: only states are parties (art 34); judgments bind the parties only (art 59) and are "final and without appeal" (art 60). Advisory opinions: requested by UN organs and specialised agencies (art 96 UN Charter); non-binding. Art 94 UN Charter: comply, or the Security Council may act.'
+    terms:
+      - term: contentious case
+        gloss: A legal dispute between states submitted by them; the judgment binds the parties only.
+      - term: advisory opinion
+        gloss: The Court's answer to a legal question from a UN organ or authorised specialised agency (art 96 UN Charter); non-binding but weighty.
+      - term: ad hoc judge
+        gloss: A judge a disputing party may in principle appoint to sit alongside the 15 regular judges.
+      - term: art 94 UN Charter
+        gloss: Members must comply with ICJ decisions; if a party does not, the other may go to the Security Council, which may recommend or decide on measures.
+    misconceptions:
+      - claim: An ICJ judgment binds every UN member, because the Court is the UN's principal judicial organ.
+        tempting: The Court is so authoritative.
+        correction: A judgment binds only the parties and cannot oblige third parties (arts 59, 60). A judgment between Australia and New Zealand does not bind Indonesia.
+      - claim: Advisory opinions bind the states they concern.
+        tempting: They come from the same Court as judgments.
+        correction: Advisory opinions are non-binding — though, as with Chagos, they carry considerable weight.
+      - claim: ICJ decisions bind later cases, as precedent does in the common law.
+        tempting: Its "case law" is cited constantly.
+        correction: The doctrine of precedent does not exist in international law. Judges and scholars cite ICJ case law as if it were common law, but a decision binds only its parties.
+    socratic:
+      - ask: Who requested the Chagos opinion, and could Mauritius have requested it instead?
+        hint: Art 96 UN Charter.
+        answer: The General Assembly. Advisory opinions are requested by UN organs and authorised specialised agencies; a state brings contentious cases, not advisory requests.
+      - ask: Did the Chagos opinion bind the UK?
+        hint: Advisory.
+        answer: No — advisory opinions are non-binding. But they carry considerable weight, coming from the UN's principal judicial organ.
+      - ask: In a contentious case State X loses. Can it appeal?
+        hint: Art 60.
+        answer: No. The judgment is final and without appeal; if its meaning or scope is disputed, the Court construes it at a party's request.
+      - ask: X refuses to comply. What can the winning state do?
+        hint: Art 94 UN Charter.
+        answer: Bring the matter before the Security Council, which may make recommendations or decide on measures to give effect to the judgment.
+      - ask: Could an NGO ask the Court to find a former minister guilty of war crimes?
+        hint: Art 34.
+        answer: No. Only states may be parties, and the ICJ does not decide individual criminal responsibility.
+    what-if:
+      - change: The proceeding is an advisory request from the General Assembly, not a case between states.
+        effect: 'Nothing binds: the opinion is non-binding, and no state''s consent to jurisdiction is needed because no state is a party.'
+      - change: The parties disagree about what the judgment means.
+        effect: Under art 60 the Court construes the judgment at the request of any party — still no appeal.
+      - change: A third state with a similar dispute wants to rely on the judgment.
+        effect: It does not bind that state (art 59), though the Court's reasoning will be cited as its "case law".
+    boundary:
+      - text: A claim that an individual personally committed war crimes.
+        why: 'Outside the ICJ: only states are parties, and the Court does not decide individual criminal responsibility.'
+      - text: A judgment between Australia and New Zealand.
+        why: Binds those two parties only; it cannot oblige Indonesia or any other third state.
+    transfer:
+      - scenario: State A wins an ICJ judgment requiring State B to withdraw its troops from a border zone. B ignores it. State C, which has a similar border dispute with B, asks whether the judgment helps it.
+        answer: 'The judgment is final and without appeal and binds A and B (art 60); B must comply (art 94 UN Charter). A may take the matter to the Security Council, which may recommend or decide on measures (art 94(2)). C cannot treat it as binding: judgments bind only the parties (art 59), though C may cite the reasoning.'
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 25–28, 35)
+      - 'Week 08 - Lecture Transcript (Live) - International Dispute Settlement (Part A) (ICJ introduction: 15 judges, election, contentious cases between states only, advisory opinions under art 96, binding effect, Chagos)'
+    verify: false
+  - concept: laws2000-w08-icj-jurisdiction-and-consent
+    plain: The ICJ can hear a contentious case only between states, and only if both have consented — by special agreement, treaty clause, matching optional-clause declarations, or acceptance after filing.
+    concrete: In the tutorial, State A, a small West African country, sues State B, a Pacific nation, alleging conduct contrary to the Genocide Convention. The Court has no compulsory jurisdiction, so A must point to B's consent. Art IX of the Convention sends disputes about its interpretation, application or fulfilment to the ICJ at the request of any party. If both are parties, that treaty clause supplies consent — provided a dispute existed when A filed.
+    formal: 'Only states may be parties (art 34 ICJ Statute); international organisations may only seek advisory opinions. Jurisdiction rests on consent, to the specific case or a category of disputes. Art 36: special agreement (compromis); a treaty clause; declarations under art 36(2) accepting jurisdiction over future disputes with states accepting the same obligation (optional clause); forum prorogatum. The Court decides its own jurisdiction (art 36(6)).'
+    terms:
+      - term: compromis
+        gloss: A special agreement by which the parties submit a particular dispute to the Court.
+      - term: optional clause (art 36(2))
+        gloss: A declaration accepting the Court's jurisdiction over future legal disputes with any other state accepting the same obligation.
+      - term: forum prorogatum
+        gloss: Consent given by a state after an application has been filed against it.
+      - term: compétence de la compétence
+        gloss: The Court's power to rule on its own jurisdiction when the parties disagree (art 36(6)).
+    misconceptions:
+      - claim: UN membership gives the ICJ jurisdiction over disputes between any members.
+        tempting: The Court can hear disputes between the 193 members.
+        correction: 'That is access, not jurisdiction. The ICJ has no compulsory jurisdiction: it needs the parties'' consent to the case, or to a category of disputes it falls within.'
+      - claim: One state's optional-clause declaration lets it sue any other state.
+        tempting: The declaration is general.
+        correction: It operates only in relation to another state accepting the same obligation. A state with no declaration, treaty clause or compromis has not consented.
+      - claim: Once both parties have consented, jurisdiction cannot be contested.
+        tempting: Consent is the core of jurisdiction.
+        correction: The case must fall within the consent given, and a dispute must have existed when proceedings were instituted. If the parties disagree, the Court decides (art 36(6)).
+    socratic:
+      - ask: An NGO and the UN each want to bring a case against State X. Can they?
+        hint: Art 34.
+        answer: No. Only states may be parties. The UN may request advisory opinions but cannot be a party; the NGO has no access at all.
+      - ask: State A wants to sue State B. What must A point to?
+        hint: No compulsory jurisdiction.
+        answer: B's consent — to this case, or to a category of disputes that includes it.
+      - ask: What are the ways consent can be given?
+        hint: Art 36.
+        answer: A compromis for the particular dispute; a treaty clause such as art IX of the Genocide Convention; declarations by both states under art 36(2); or forum prorogatum.
+      - ask: B had not consented when A filed, but afterwards accepts the Court's jurisdiction over the case. Effect?
+        hint: Later consent.
+        answer: 'Forum prorogatum: consent given after the application was filed founds jurisdiction.'
+      - ask: A and B disagree whether B's consent covers this dispute. Who decides?
+        hint: Art 36(6).
+        answer: The Court itself — compétence de la compétence.
+    elements:
+      - name: Access
+        test: Both parties are states; international organisations, NGOs and individuals cannot be parties.
+        authorities:
+          - icj-statute-art-34
+      - name: A consent route
+        test: A compromis, a treaty clause, art 36(2) declarations by both states, or forum prorogatum.
+        authorities:
+          - icj-statute-art-36
+          - genocide-convention-art-ix
+      - name: Consent covers this dispute
+        test: The consent extends to this dispute and these parties — e.g. both declarations accept the same obligation; any treaty conditions, such as trying other means first, are met.
+        authorities:
+          - icj-statute-art-36
+      - name: A dispute at filing
+        test: A dispute existed at the date proceedings were instituted.
+        cases:
+          - south-west-africa-ethiopia-v-south-africa-liberia-v-south-africa
+      - name: The Court decides
+        test: If the parties disagree about jurisdiction, the Court rules on it (art 36(6)).
+        authorities:
+          - icj-statute-art-36
+    what-if:
+      - change: Neither A nor B is party to the Genocide Convention or any treaty with an ICJ clause, and B refuses to take part.
+        effect: No jurisdiction unless consent appears another way — matching art 36(2) declarations, a compromis, or later acceptance. The Court has no compulsory jurisdiction.
+      - change: B accepts the Court's jurisdiction over the case after A files.
+        effect: 'Forum prorogatum: consent given after the application is enough to found jurisdiction.'
+      - change: The applicant is an international organisation.
+        effect: 'No contentious case: international organisations, including the UN, cannot be parties (art 34). They may only request advisory opinions.'
+    boundary:
+      - text: Art IX of the Genocide Convention.
+        why: 'A treaty clause: disputes on the Convention''s interpretation, application or fulfilment go to the ICJ at any party''s request — consent given in advance.'
+      - text: State K has an art 36(2) declaration; State L has none and no treaty clause or compromis with K.
+        why: 'No jurisdiction: art 36(2) works only between states accepting the same obligation, and L has not consented.'
+    transfer:
+      - scenario: State P accuses State Q of breaching a bilateral treaty whose dispute clause sends disputes to the ICJ "if they cannot be settled by negotiation". Q's foreign ministry replies that it rejects P's claims and will not negotiate. P files.
+        answer: 'Consent can come from the treaty clause, but it is contingent on the parties being unable to resolve the dispute by other means — Q''s refusal to negotiate helps P show that. A dispute existed at filing: P''s claim was positively opposed by Q, which was plainly aware of it. Both are states (art 34); any disagreement on jurisdiction is for the Court (art 36(6)).'
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 30–32, 36)
+      - Week 08 - Tutorial Tasks - International Dispute Settlement (question 1(a); question 2(a) and art IX of the Genocide Convention)
+    verify: false
+  - concept: laws2000-w08-provisional-measures
+    plain: While a case is pending, the ICJ can order interim steps to prevent irreparable harm to the rights in dispute. Those orders bind the parties.
+    concrete: 'The tutorial''s facts: State A sues State B under the Genocide Convention, alleging B has incarcerated disproportionate numbers of a minority group, forcibly displaced large parts of it, and enabled the destruction of its villages and sacred sites. A final judgment may take years. If the destruction continues meanwhile, the judgment could come too late to matter. Provisional measures fill that gap: interim orders preserving the rights in dispute until the Court decides.'
+    formal: 'Art 41 ICJ Statute: the Court may "indicate, if it considers that circumstances so require, any provisional measures which ought to be taken to preserve the respective rights of either party". Conditions: absence of jurisdiction not manifest; rights at least plausible; a link between those rights and the measures; a real and imminent risk of irreparable harm before the final decision. They bind (LaGrand, 2001, para 102).'
+    analogy:
+      text: 'A court tells two neighbours fighting over a heritage tree: nobody cuts it down until we decide whose it is.'
+      maps:
+        - from: the tree
+          to: the rights in dispute
+        - from: nobody cuts it down until we decide
+          to: provisional measures pending the final decision
+        - from: cutting it down
+          to: irreparable harm that would make the judgment meaningless
+      limits:
+        - 'The Court acts before knowing who is right or even finally whether it has jurisdiction: it needs only that its lack of jurisdiction is not manifest and the rights are plausible.'
+    terms:
+      - term: provisional measures
+        gloss: Interim orders under art 41 preserving the parties' rights pending the final decision, so the judgment is not rendered meaningless.
+      - term: prima facie jurisdiction
+        gloss: At this stage the Court need only be satisfied that the absence of jurisdiction is not manifest.
+      - term: irreparable harm
+        gloss: Harm the final judgment could not undo; there must be a real and imminent risk of it before the decision.
+    misconceptions:
+      - claim: Provisional measures are only recommendations, because art 41 says "indicate".
+        tempting: '"Indicate" sounds weaker than "order".'
+        correction: 'LaGrand (2001, para 102): the power to indicate measures "entails that such measures should be binding"; the contrary would defeat the object and purpose of art 41.'
+      - claim: The Court must first establish its jurisdiction over the merits.
+        tempting: Jurisdiction normally comes first.
+        correction: It need only be satisfied that the absence of jurisdiction is not manifest, and that the rights claimed are at least plausible.
+      - claim: Any risk of financial loss justifies provisional measures.
+        tempting: Loss is harm.
+        correction: There must be a real and imminent risk of irreparable harm before the final decision; ordinary, compensable loss does not suffice.
+    socratic:
+      - ask: State A fears State B will destroy the minority group's villages and sacred sites before judgment. What can A ask for?
+        hint: Art 41.
+        answer: Provisional measures to preserve the rights in dispute pending the final decision.
+      - ask: Must the Court first decide that it has jurisdiction under art IX?
+        hint: Manifest?
+        answer: No — only that the absence of jurisdiction is not manifest. If both are parties to the Convention, art IX gives at least that.
+      - ask: What must A show about its rights?
+        hint: Plausible.
+        answer: That the rights for which protection is sought — here under the Genocide Convention — are at least plausible.
+      - ask: Where is the urgency?
+        hint: Irreparable.
+        answer: 'Destroyed villages and sacred sites, or harm to the group, cannot be undone by a later judgment: a real and imminent risk of irreparable harm.'
+      - ask: A also asks the Court to halt B's unrelated national elections. Likely?
+        hint: Link.
+        answer: No. There must be a link between the rights claimed and the measures; the measures must be appropriate and necessary to protect those rights.
+    elements:
+      - name: Prima facie jurisdiction
+        test: The absence of jurisdiction is not manifest; jurisdiction need not be finally decided.
+        authorities:
+          - icj-statute-art-41
+      - name: Plausible rights
+        test: The rights for which protection is sought are at least plausible.
+        authorities:
+          - icj-statute-art-41
+      - name: Link
+        test: A link between those rights and the measures requested, which must be appropriate and necessary to protect them.
+      - name: Urgency
+        test: A real and imminent risk that irreparable harm will occur before the final decision is given.
+      - name: Binding effect
+        test: Measures indicated under art 41 bind the parties, from the Statute's object and purpose of binding settlement (art 59).
+        cases:
+          - lagrand-case-germany-v-united-states-of-america
+        authorities:
+          - icj-statute-art-41
+          - icj-statute-art-59
+    what-if:
+      - change: Neither party has accepted the Court's jurisdiction in any form, and the respondent rejects the case.
+        effect: 'Measures are unlikely: the absence of jurisdiction would be manifest, failing the first condition.'
+      - change: The harm feared is a financial loss that could be compensated after judgment.
+        effect: 'Urgency fails: measures need a real and imminent risk of irreparable harm before the final decision.'
+      - change: The respondent ignores measures the Court has indicated.
+        effect: It disregards a binding order (LaGrand); as Week 7 noted, failing to comply with an ICJ decision could itself engage the state's responsibility.
+    boundary:
+      - text: A request to halt the demolition of a disputed cultural site scheduled for next week.
+        why: 'Strong on urgency: demolition is irreparable and imminent — suited to measures if jurisdiction is not manifestly absent and the rights are plausible.'
+      - text: A request to stop unrelated national elections.
+        why: 'Fails the link: measures must be appropriate and necessary to protect the rights claimed in the case.'
+    transfer:
+      - scenario: State M sues State N under a treaty protecting shared wetlands, whose dispute clause refers disputes to the ICJ. N plans to drain the wetland next month for a highway; the case will take years. M seeks an order stopping the drainage.
+        answer: 'Provisional measures (art 41) may be indicated: with the treaty clause, the absence of jurisdiction is not manifest; M''s treaty rights are at least plausible; halting drainage is linked and necessary to protect them; draining is a real and imminent risk of irreparable harm. Any measures bind N (LaGrand).'
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 33–34)
+      - Week 08 - Tutorial Tasks - International Dispute Settlement (question 1(b); question 2(b))
+    verify: false
+  - concept: laws2000-w08-regional-and-economic-dispute-settlement
+    plain: Regional organisations and the WTO offer their own peaceful ways to settle disputes. The UN Charter asks states to try regional routes for local disputes before going to the Security Council.
+    concrete: The Arab League, founded in 1945 and headquartered in Cairo, now has 22 members. Its Charter forbids recourse to force to settle disputes between members (art 5). The League's Council mediates disputes that may lead to war, deciding on arbitration and mediation by majority vote. But under art 7, unanimous Council decisions bind all members, while majority decisions bind only the members that accept them.
+    formal: 'Art 33(1) UN Charter includes "resort to regional agencies or arrangements". Art 52: regional arrangements consistent with the UN''s Purposes and Principles are permitted; members "shall make every effort to achieve pacific settlement of local disputes" through them "before referring them to the Security Council", which shall encourage this. WTO disputes go through Annex 2 of the WTO Agreement, the Understanding on Rules and Procedures Governing the Settlement of Disputes.'
+    terms:
+      - term: art 52 UN Charter
+        gloss: Permits regional arrangements consistent with UN Purposes and Principles; members make every effort to settle local disputes regionally before going to the Security Council.
+      - term: Dispute Settlement Understanding
+        gloss: 'Annex 2 of the WTO Agreement: the Understanding on Rules and Procedures Governing the Settlement of Disputes.'
+      - term: non-discrimination (WTO)
+        gloss: Most-favoured-nation treatment and national treatment — alongside tariff ceilings (art II) and the general prohibition on non-tariff barriers (art XI).
+    misconceptions:
+      - claim: A local dispute that may endanger peace must go straight to the Security Council.
+        tempting: The Security Council has primary responsibility for peace and security.
+        correction: 'Art 52(2): members of regional arrangements shall make every effort to settle local disputes regionally before referring them to the Security Council, which shall encourage this (art 52(3)).'
+      - claim: Majority decisions of the Arab League Council bind all members.
+        tempting: That is the rule for unanimous decisions.
+        correction: 'Art 7: unanimous decisions bind all members; majority decisions bind only those that accept them.'
+      - claim: The WTO bans tariffs and caps non-tariff barriers.
+        tempting: Both sound like trade liberalisation.
+        correction: 'Reversed: tariffs have fixed upper limits (art II and the schedules); non-tariff barriers are generally prohibited (art XI).'
+    socratic:
+      - ask: Two ASEAN members have a border dispute that may endanger regional peace. Where should they turn first?
+        hint: Art 52(2).
+        answer: 'To regional settlement: every effort through ASEAN''s arrangements (Treaty of Amity and Cooperation, art 2(d); Chapter IV) before referring it to the Security Council.'
+      - ask: Is relying on a regional arrangement consistent with the Charter?
+        hint: Art 52(1); art 33(1).
+        answer: Yes, if the arrangement and its activities are consistent with the UN's Purposes and Principles; art 33(1) lists resort to regional agencies among the peaceful means.
+      - ask: What does the Security Council do meanwhile?
+        hint: Art 52(3).
+        answer: It shall encourage pacific settlement of local disputes through regional arrangements, on the states' initiative or by its own reference.
+      - ask: Which procedures does the OAS Charter list?
+        hint: Art 25.
+        answer: Direct negotiation, good offices, mediation, investigation and conciliation, judicial settlement, arbitration, and any the parties especially agree upon.
+      - ask: A tariff dispute arises between WTO members. Which mechanism?
+        hint: Annex 2.
+        answer: The WTO's Understanding on Rules and Procedures Governing the Settlement of Disputes (Annex 2 of the WTO Agreement).
+    elements:
+      - name: A permitted regional arrangement
+        test: The arrangement and its activities are consistent with the Purposes and Principles of the UN.
+        authorities:
+          - un-charter-art-52
+      - name: Regional effort first
+        test: Members make every effort to settle local disputes through the regional arrangement before referring them to the Security Council.
+        authorities:
+          - un-charter-art-52
+          - un-charter-art-33-1
+      - name: The organisation's own procedure
+        test: Use the body's listed means — e.g. OAS arts 24–25, AU Peace and Security Council, Arab League arts 5–7, ASEAN art 2(d).
+        authorities:
+          - oas-charter-arts-24-25
+          - african-union-psc-protocol-art-4
+          - charter-of-the-arab-league-arts-5-7
+          - treaty-of-amity-and-cooperation-in-southeast-asia-art-2
+      - name: Trade disputes
+        test: WTO disputes go through the Dispute Settlement Understanding in Annex 2 of the WTO Agreement.
+        authorities:
+          - wto-dispute-settlement-understanding
+    what-if:
+      - change: The dispute is between two OAS members.
+        effect: 'Art 24 OAS Charter: it shall be submitted to the Charter''s peaceful procedures — negotiation, good offices, mediation, investigation and conciliation, judicial settlement, arbitration, or any agreed.'
+      - change: The Arab League Council decides by majority, and State X voted against.
+        effect: 'X is not bound unless it accepts the decision: under art 7 only unanimous decisions bind all members.'
+      - change: The dispute concerns another member's import ban rather than a tariff.
+        effect: 'Still a WTO matter: art XI generally prohibits non-tariff barriers, and the dispute goes through the Dispute Settlement Understanding (Annex 2).'
+    boundary:
+      - text: The OSCE Court of Conciliation and Arbitration in Geneva.
+        why: A regional mechanism established by the 1992 Convention for the peaceful settlement of disputes between states — not the ICJ in The Hague.
+      - text: A local dispute that regional efforts fail to settle.
+        why: 'Art 52 does not close the door: once every effort has been made regionally, the dispute may be referred to the Security Council.'
+    transfer:
+      - scenario: Forces of two African Union members clash near a disputed border town, and both governments fear escalation.
+        answer: Arts 33(1) and 52(2) point first to regional settlement. The AU's Peace and Security Council is guided by peaceful settlement of disputes and early responses to contain crises before they become full-blown conflicts (Protocol art 4). The states should make every effort through it before referring the dispute to the Security Council, which encourages regional settlement (art 52(3)).
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 37–48)
+    verify: false
+flows:
+  - slug: can-the-icj-decide-the-case
+    title: Can the ICJ decide this contentious case?
+    summary: 'Follows the slides'' route from dispute to judgment: access, the existence of a dispute at filing, a consent route under art 36, urgent protection, and what the judgment binds.'
+    start: j1
+    concepts:
+      - laws2000-w08-icj-jurisdiction-and-consent
+      - laws2000-w08-existence-of-a-dispute
+      - laws2000-w08-provisional-measures
+      - laws2000-w08-icj-cases-and-effect-of-decisions
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 9–12, 30–36)
+      - Week 08 - Tutorial Tasks - International Dispute Settlement (questions 1–2)
+    nodes:
+      - id: j1
+        kind: ask
+        text: Are both parties states?
+        note: Only states may be parties (art 34). International organisations, including the UN, may only request advisory opinions; NGOs and individuals have no access.
+        authorities:
+          - icj-statute-art-34
+        branches:
+          - label: 'Yes'
+            to: j2
+          - label: 'No'
+            to: e-no-access
+      - id: j2
+        kind: ask
+        text: Did a legal dispute exist on the date proceedings were instituted?
+        note: The applicant's claim positively opposed by the respondent, which was aware or could not have been unaware of it — judged objectively from the facts.
+        concept: laws2000-w08-existence-of-a-dispute
+        cases:
+          - south-west-africa-ethiopia-v-south-africa-liberia-v-south-africa
+          - interpretation-of-peace-treaties-with-bulgaria-hungary-and-romania
+        branches:
+          - label: 'Yes'
+            to: j3
+          - label: 'No'
+            to: e-no-dispute
+      - id: j3
+        kind: ask
+        text: Which consent route do the facts supply?
+        note: The ICJ has no compulsory jurisdiction; consent may cover the specific case or a category of disputes it falls within.
+        concept: laws2000-w08-icj-jurisdiction-and-consent
+        authorities:
+          - icj-statute-art-36
+        branches:
+          - label: A special agreement (compromis)
+            to: j5
+          - label: A treaty clause referring disputes to the Court
+            to: j4
+          - label: Art 36(2) declarations by both states
+            to: j5
+          - label: The respondent accepted after the application was filed
+            to: j5
+          - label: None of these
+            to: e-no-consent
+      - id: j4
+        kind: ask
+        text: Does the clause cover this dispute, and are its conditions met — for example, that other means have failed?
+        note: 'E.g. art IX of the Genocide Convention: disputes on its interpretation, application or fulfilment go to the ICJ at the request of any party.'
+        authorities:
+          - genocide-convention-art-ix
+        branches:
+          - label: 'Yes'
+            to: j5
+          - label: 'No'
+            to: e-no-consent
+      - id: j5
+        kind: step
+        text: Jurisdiction is established — if the parties disagree, the Court decides (art 36(6)). Written and oral proceedings follow.
+        authorities:
+          - icj-statute-art-36
+        next: j6
+      - id: j6
+        kind: ask
+        text: Is there a real and imminent risk of irreparable harm to the rights in dispute before judgment?
+        concept: laws2000-w08-provisional-measures
+        branches:
+          - label: 'Yes'
+            to: j7
+          - label: 'No'
+            to: e-judgment
+      - id: j7
+        kind: step
+        text: Seek provisional measures under art 41 — binding if indicated (LaGrand).
+        cases:
+          - lagrand-case-germany-v-united-states-of-america
+        authorities:
+          - icj-statute-art-41
+        next: e-judgment
+      - id: e-no-access
+        kind: end
+        tone: not-met
+        text: 'No contentious case: only states may be parties before the ICJ.'
+      - id: e-no-dispute
+        kind: end
+        tone: not-met
+        text: 'No jurisdiction: no dispute existed at the date proceedings were instituted.'
+      - id: e-no-consent
+        kind: end
+        tone: not-met
+        text: 'No jurisdiction: the respondent has not consented to this dispute. The parties remain bound to seek peaceful settlement by other means.'
+      - id: e-judgment
+        kind: end
+        tone: met
+        text: 'Judgment on the merits: final and without appeal (art 60), binding on the parties only (art 59); non-compliance can be taken to the Security Council (art 94).'
+        authorities:
+          - icj-statute-art-60
+          - icj-statute-art-59
+          - un-charter-art-94
+  - slug: will-provisional-measures-be-indicated
+    title: Will the ICJ indicate provisional measures?
+    summary: Runs a request through the four conditions on the slides — prima facie jurisdiction, plausible rights, link, urgency — and ends with their binding force under LaGrand.
+    start: p1
+    concepts:
+      - laws2000-w08-provisional-measures
+    sources:
+      - Week 08 - Lecture Slides - International Dispute Settlement (slides 33–34)
+      - Week 08 - Tutorial Tasks - International Dispute Settlement (questions 1(b), 2(b))
+    nodes:
+      - id: p1
+        kind: ask
+        text: Is the absence of jurisdiction manifest?
+        note: The Court need not finally decide jurisdiction now — e.g. a treaty clause such as art IX of the Genocide Convention is enough at this stage.
+        authorities:
+          - icj-statute-art-41
+        branches:
+          - label: 'No'
+            to: p2
+          - label: 'Yes'
+            to: e-no
+      - id: p2
+        kind: ask
+        text: Are the rights for which protection is sought at least plausible?
+        branches:
+          - label: 'Yes'
+            to: p3
+          - label: 'No'
+            to: e-no
+      - id: p3
+        kind: ask
+        text: Are the measures requested linked to those rights — appropriate and necessary to protect them?
+        branches:
+          - label: 'Yes'
+            to: p4
+          - label: 'No'
+            to: e-reframe
+      - id: p4
+        kind: ask
+        text: Is there a real and imminent risk that irreparable harm will occur before the final decision?
+        note: Ordinary loss that a later judgment could repair is not enough.
+        branches:
+          - label: 'Yes'
+            to: p5
+          - label: 'No'
+            to: e-no
+      - id: p5
+        kind: step
+        text: The Court may indicate measures to preserve the respective rights of either party (art 41).
+        authorities:
+          - icj-statute-art-41
+        next: e-binding
+      - id: e-binding
+        kind: end
+        tone: met
+        text: Measures indicated — and binding on the parties (LaGrand, 2001, para 102).
+        cases:
+          - lagrand-case-germany-v-united-states-of-america
+      - id: e-reframe
+        kind: end
+        tone: not-met
+        text: 'Not these measures: only measures linked to the rights claimed can be indicated.'
+      - id: e-no
+        kind: end
+        tone: not-met
+        text: No provisional measures.

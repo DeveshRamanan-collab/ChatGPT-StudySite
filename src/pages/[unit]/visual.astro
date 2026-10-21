@@ -1,0 +1,26 @@
+---
+// Visual practice (features 92, 97, 98, 99): label a rule's parts, match scenarios to concepts, sort terms into
+// concepts, and draw how a concept's parts fit together. Everything is built client-side from the unit's study aids
+// (/data/<unit>/aids.json); this page only passes week and concept names so the island can label things.
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import VisualPractice from '../../components/visual/VisualPractice';
+import { units, weeksOf, conceptsOf, conceptSlug } from '../../lib/content';
+
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const weeks = (await weeksOf(u.id)).map((w) => ({ id: w.id, number: w.data.number, topic: w.data.topic, concepts: w.data.concepts }));
+const concepts = Object.fromEntries(
+  (await conceptsOf(u.id)).map((c) => [c.id, { title: c.data.title, href: `/${u.id}/concept/${conceptSlug(c)}`, week: c.data.week }]),
+);
+---
+
+<Layout title={`${u.data.code} visual practice`} description={`Visual practice for ${u.data.code}: label, match, sort and sketch the unit's rules.`} wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Visual practice' }]} />
+  <p class="label">{u.data.code}</p>
+  <h1 data-split>Visual practice</h1>
+  <p class="vis-page__lede">Put a rule's parts in order, link scenarios to the ideas they test, sort terms into concepts, or sketch a rule from memory and compare.</p>
+  <div class="island-stage"><VisualPractice client:load unit={u.id} code={u.data.code} weeks={weeks} concepts={concepts} /></div>
+</Layout>

@@ -1,0 +1,661 @@
+unit: mgmt2094
+week: 8
+source: raw/mgmt2094-sci/week-08
+generator: aids-1
+aids:
+  - concept: mgmt2094-w08-what-is-innovation
+    plain: 'An innovation is something its adopters see as new and that is actually commercialised: invention plus commercialisation. It sits where what users want, what technology allows and what the market can sustain overlap.'
+    concrete: 'The lecturer''s jetpack. People have long wanted one, and it would be a really good tool for rescue missions, firefighters and military operations. Jetpacks have been talked about for ten or fifteen years, but only now are they starting to come into fruition, on a very limited basis, and they are extremely expensive. Desirable, but only now becoming possible with technology, and so expensive that it is used only on a very limited basis: not yet squarely in the overlap where innovation sits.'
+    formal: 'Slide 3: an innovation ''is an idea, practice or object that is perceived as new by an individual or other unit of adoption''; ''a use of new knowledge to offer a new product or service that customers want. Thus, it is Invention + Commercialization.'' Shaver (2014) adds discovery, development, improvement, adoption and commercialisation of new processes, products and structures. Slide 5: innovation is where desirable, possible and viable overlap.'
+    terms:
+      - term: unit of adoption
+        gloss: 'Whoever takes the new thing up and judges it new: usually customers, but for an NGO any stakeholder, such as the people it helps, donors or partners.'
+      - term: commercialisation
+        gloss: 'Bringing the new thing to market so that it sells. The lecture: if you can''t commercialise it, it is not innovation.'
+      - term: desirable, possible, viable
+        gloss: 'Slide 5''s three circles: what is desirable to users, possible with technology, viable in the marketplace. Innovation is their overlap.'
+    elements:
+      - name: Perceived as new
+        test: Is it an idea, practice or object perceived as new by an individual or other unit of adoption (customers; for an NGO, any stakeholder)?
+      - name: Desirable to users
+        test: Do users, customers or other stakeholders want it?
+        authorities:
+          - mgmt2094-example-jetpack
+      - name: Possible with technology
+        test: Can current technology deliver it? Lego has tried around 200 alternative materials for a plastic-free brick, and most have fallen short.
+        authorities:
+          - mgmt2094-reed-2018-lego-plastic-free-brick
+      - name: Viable in the marketplace
+        test: Can it be introduced to the market and sold with some success, so the market is maintained?
+      - name: Commercialised
+        test: 'Has the invention been introduced into the marketplace? ''Invention + Commercialization'': without it, the lecture calls it creativity or invention, not innovation.'
+    misconceptions:
+      - claim: A brilliant new idea, artwork or book is an innovation.
+        tempting: It is new and highly creative.
+        correction: 'The lecture: you can be extremely creative, but if you cannot commercialise it, it is creativity, not innovation. Innovation is ''Invention + Commercialization''.'
+      - claim: Only paying customers decide whether something counts as new.
+        tempting: The lecture usually speaks of customers.
+        correction: 'The slide says perceived as new by an individual or other unit of adoption, and the lecturer relaxes the customer focus: for an NGO, any stakeholder, such as the people it helps, donors or partners.'
+      - claim: If users love it and the prototype works, it is an innovation.
+        tempting: It is desirable and technically possible.
+        correction: The third circle is viability in the marketplace. A product no one can sell at a price that sustains it stays outside the overlap; the lecture says it needs to be commercialised.
+    socratic:
+      - ask: What are the two halves of the slide's short definition?
+        hint: Invention plus…
+        answer: '''Invention + Commercialization'': a use of new knowledge to offer a new product or service that customers want.'
+      - ask: Whose perception makes something 'new'?
+        hint: The unit of adoption.
+        answer: 'An individual or other unit of adoption: usually customers, but for an NGO any stakeholder.'
+      - ask: Lego wants a brick made from plant-based or recycled materials that looks and feels exactly the same. Which circle is giving it trouble?
+        hint: Around 200 alternatives tested.
+        answer: 'Possible with technology: most test materials have fallen short, with bricks that broke leaving sharp edges, muddied colours, or misshapen or pockmarked bricks (Reed 2018).'
+      - ask: And is it yet clear that the plan is viable?
+        hint: What did the chief executive tell Bloomberg?
+        answer: No. Niels Christiansen said it was difficult to know the financial implications, and he was 'not even sure' Lego could yet live up to the quality it wants.
+      - ask: So is the plastic-free brick an innovation yet?
+        hint: All three circles, plus commercialisation.
+        answer: 'Not yet: until a material works, the cost is known and the brick is commercialised, it sits outside the overlap. Lego concedes the search could take years.'
+    what-if:
+      - change: Lego finds a plant-based material that clicks together, separates easily, keeps its bright colours and survives a hard pull.
+        effect: The possible circle would be met. The brick would still need to be viable, at a cost the chief executive could not yet state, and commercialised before it counts as an innovation.
+    boundary:
+      - text: A university lab publishes a new biodegradable polymer; later a packaging firm launches compostable mailers made with it.
+        why: 'The polymer is invention. Innovation occurs when the firm introduces the mailers into the marketplace, even though it did not invent the polymer: acquiring technology from outside is part of the innovation process.'
+      - text: A food bank introduces a new way of distributing parcels, adopted by the families it serves.
+        why: 'Can count: newness is judged by a unit of adoption, and for an NGO the lecturer says that can be any stakeholder, such as the people it is trying to help.'
+    transfer:
+      - scenario: A start-up's home robot delights users in trials, and the prototype works, but each unit costs far more to build than any price customers would pay.
+        answer: It is desirable and possible, but not viable in the marketplace, so it sits outside the overlap of the three circles. Without commercialisation it remains invention, not innovation ('Invention + Commercialization'). The start-up must make it viable before it becomes an innovation.
+    objections:
+      - position: Innovation needs commercialisation, so a non-profit's new programme cannot be an innovation.
+        evidence: 'Slide 3: ''Invention + Commercialization''; the lecturer: if you can''t sell it, it''s not innovation.'
+        objection: The same slide defines newness by a unit of adoption, and the lecturer says for an NGO that is any stakeholder. The week's reading, Brown and Wyatt, is about social innovation by non-profits.
+      - position: A breakthrough technology is an innovation in itself.
+        evidence: Shaver's definition includes the discovery and development of new products and processes.
+        objection: 'The same definition runs on to adoption and commercialisation, and technology is only one of the three circles: the jetpack is technically arriving but extremely expensive and used only on a very limited basis.'
+    sources:
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 3, 5, 10)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+      - Marketing - Week 08 - Reading - Inside Lego's Quest to Create the Plastic-Free Block (Reed 2018, scanned page)
+  - concept: mgmt2094-w08-why-innovate-goals-and-sources
+    plain: In a turbulent, fast-changing economy, organisations must keep innovating or their survival is threatened. Innovation aims at goals such as better quality or less waste, and grows from structure, leadership, spare resources and communication.
+    concrete: 'Reed (2018): consumers worldwide have voiced growing alarm about plastic waste, and companies such as Coca-Cola and Unilever are changing their packaging. For Lego the plastics are not the packaging, they are the product, and it emits about 1 million tons of carbon dioxide a year, three-quarters from raw materials. So it aims to keep its packaging out of landfill by 2025, eliminating plastic bags inside its boxes, and make its toys from plant-based or recycled materials by 2030.'
+    formal: 'Slide 6: in a turbulent and rapidly changing economy organisations prepare to innovate on a continuing basis, ''otherwise their survival chances are seriously threatened eg. Apple''. Slide 7 lists ten goals, from improving quality to conformance to regulations. Slide 8''s sources: organic structure; long tenure in management; slack resources; intra-communications (committees, task forces, cross-functional teams).'
+    terms:
+      - term: organic structure
+        gloss: 'A flatter, less formal structure: lower vertical differentiation, formalisation and centralisation. It facilitates flexibility, adaptation and cross-fertilisation.'
+      - term: slack resources
+        gloss: An abundance of resources that lets an organisation afford to purchase innovations, bear the cost of instituting them and absorb failures.
+      - term: managerial tenure
+        gloss: How long managers have been in post. It gives legitimacy and knowledge of how to get things done; the lecturer warns it can also breed complacency.
+      - term: intra-communications
+        gloss: Committees, task forces and cross-functional teams that facilitate interaction across departmental lines.
+    elements:
+      - name: Organisational structure
+        test: Is the structure organic, with lower vertical differentiation, formalisation and centralisation, so that it allows flexibility, adaptation and cross-fertilisation?
+      - name: Long tenure in management
+        test: Do leaders have the legitimacy and know-how that tenure brings, without the complacency the lecturer calls its other edge?
+      - name: Slack resources
+        test: Can it afford to purchase innovations, bear the cost of instituting them and absorb failures, without feeling so safe that it stops innovating?
+        authorities:
+          - mgmt2094-reed-2018-lego-plastic-free-brick
+      - name: Intra-communications
+        test: Does it use committees, task forces and cross-functional teams that work across departmental lines?
+    misconceptions:
+      - claim: Long-serving leaders always block innovation.
+        tempting: A CEO who has been there forever may be content with things as they are.
+        correction: 'The lecturer calls tenure double-edged: it provides legitimacy and knowledge of how to accomplish tasks, but can breed complacency. ''Always blocks'' overstates it.'
+      - claim: Slack resources guarantee innovation.
+        tempting: The slide says abundance lets firms afford innovations and absorb failures.
+        correction: 'The lecturer warns of the other edge: firms at the top of their markets that felt unbeatable did not invest in innovation, and failed.'
+      - claim: Organisations innovate because it is cheap and easy, and saves money straight away.
+        tempting: 'Several goals cut costs: labour, materials, energy.'
+        correction: 'The lecturer: innovation is difficult and organisations usually innovate only when there is pressure. The slide''s reason is survival in a turbulent, rapidly changing economy.'
+    socratic:
+      - ask: Why must organisations innovate on a continuing basis?
+        hint: Slide 6, and its example.
+        answer: In a turbulent, rapidly changing economy their survival chances are otherwise seriously threatened. The slide's example is Apple.
+      - ask: Lego wants its packaging out of landfill by 2025 and its toys made from plant-based or recycled materials by 2030. Which goals?
+        hint: Two of the ten.
+        answer: Reducing environmental damage (the pollution it causes) and reducing materials (eliminating plastic bags inside its cardboard packaging).
+      - ask: Does Lego want a new or better product?
+        hint: Switch the ingredients, but…
+        answer: 'No: it wants to switch the ingredients but keep the product exactly the same, so not replacement of products or creation of new markets.'
+      - ask: Lego is investing about 1 billion kroner and hiring about 100 people for the search. Which source of innovation is at work?
+        hint: An abundance of resources.
+        answer: 'Slack resources: they let Lego afford the search and absorb its failures. Around 200 materials have been tried, and most have fallen short.'
+    what-if:
+      - change: A cash-rich market leader sees no threat, cuts its experimental projects and keeps selling its current range.
+        effect: 'Slack turns against innovation: abundant resources should fund experiments, but a firm that feels unthreatened may stop investing in innovation, as the lecture''s failed market leaders did.'
+      - change: A 40-year-old firm with a tall hierarchy and departments that rarely talk adds approval layers to check every new idea.
+        effect: 'That works against innovation: more layers raise vertical differentiation and formalisation. The slide points the other way: a more organic structure, and committees, task forces and cross-functional teams.'
+    boundary:
+      - text: A firm conforms to a regulation it is not obliged to uphold, and advertises that it does.
+        why: 'Still the goal ''conformance to regulations'': the lecturer says firms sometimes do this to improve their status and be seen as more legitimate, and innovate to do it at least cost.'
+      - text: A brewery redesigns its bottling line to use less glass, less water and less electricity.
+        why: 'Several goals at once: reducing materials, reducing environmental damage and reducing energy consumption. The lecturer says goals can go hand in hand.'
+    transfer:
+      - scenario: A regional hospital faces new telehealth competitors and rising energy bills. Its CEO has served 20 years, it holds healthy reserves, and its departments rarely talk to each other.
+        answer: 'Why: a changing environment threatens it unless it innovates. Goals: reducing energy consumption, improving quality. Sources: reserves are slack to fund experiments and absorb failures; tenure gives legitimacy but risks complacency; it should build intra-communications (cross-functional teams) and move towards an organic structure.'
+    objections:
+      - position: A dominant, wealthy organisation can afford not to innovate.
+        evidence: Slack resources and long tenure give it legitimacy, know-how and room to absorb failure.
+        objection: 'Slide 6: in a turbulent economy survival is seriously threatened without continuing innovation. The lecturer: firms at the top that felt unbeatable did not invest in innovation, and failed.'
+    sources:
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 6–8)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+      - Marketing - Week 08 - Reading - Inside Lego's Quest to Create the Plastic-Free Block (Reed 2018, scanned page)
+  - concept: mgmt2094-w08-innovation-map
+    plain: 'Innovations come in many types and sizes. The innovation map sorts them on two axes: inside or outside the organisation, and continuous change or an occasional break (discontinuous).'
+    concrete: 'The lecturer walks the map. Operational innovation is internal and continuous: you keep improving, and nobody really sees much of it. Management innovation is internal and discontinuous: people get tired of constant change, so change once in a while, then let it sit. Product and service innovation is external and continuous: keep changing your products, how you sell them and how you present your brand. Strategic innovation is external and discontinuous: changing strategy is difficult, so do it when called upon.'
+    formal: 'Slide 9, the innovation map: internal–external against continuous–discontinuous. Operational innovation (internal, continuous): processes, technological innovation. Management innovation (internal, discontinuous): partner interfaces, internal structures and processes, networking, people management. Product & service innovation (external, continuous): brand, technological innovation. Strategic innovation (external, discontinuous): disruptive innovation, supply chain, customer interfaces and experiences, Blue Ocean Strategy, new offerings, channels, new markets.'
+    terms:
+      - term: continuous / discontinuous
+        gloss: 'Continuous: ongoing, incremental change. Discontinuous: a break made once in a while, when called upon, then left to settle.'
+      - term: magnitude
+        gloss: 'Slide 4: innovations vary in extent; the degree to which one deviates from the past, from small incremental change to revolutionary change.'
+      - term: impact
+        gloss: 'Slide 4''s final characteristic: the significance or range of the change''s effects.'
+      - term: object or target
+        gloss: 'Slide 4''s first characteristic: what is being changed, such as a product, a process, a lifestyle, an organisation''s strategy or a society''s culture.'
+    elements:
+      - name: Internal or external?
+        test: Does the change stay inside the organisation (processes, structures, people management) or reach customers and markets (brand, offerings, channels)?
+      - name: Continuous or discontinuous?
+        test: Is it ongoing, incremental improvement, or a break made once in a while when called upon?
+      - name: Name the quadrant
+        test: 'Internal and continuous: operational. Internal and discontinuous: management. External and continuous: product & service. External and discontinuous: strategic.'
+        authorities:
+          - mgmt2094-class-activity-is-it-really-disruptive
+      - name: Describe it
+        test: 'Use slide 4''s characteristics: the object being changed, its magnitude, the problem it solves, and its impact.'
+    misconceptions:
+      - claim: Anything customers can see is product & service innovation.
+        tempting: The map puts brand in that quadrant.
+        correction: That quadrant is continuous. A new-market entry or disruptive move is a discontinuous break, which the map places with strategic innovation.
+      - claim: Management should be innovated continuously, like processes.
+        tempting: Both are internal, unseen by customers.
+        correction: 'The lecturer: people get tired of constant change. Management innovation should be discontinuous, made when appropriate, then left to sit so people adjust and the rewards are reaped.'
+      - claim: The 'Types of Innovation' slide is the complete list.
+        tempting: It lists nineteen types.
+        correction: 'The lecturer calls it just a sample: you can come up with more types, and for the project one type would probably be sufficient.'
+    socratic:
+      - ask: A bank gives staff a new internal tool that speeds loan processing a little each quarter. Customers notice nothing. Internal or external?
+        hint: Who sees it?
+        answer: 'Internal: it changes how loans are processed, not what customers see.'
+      - ask: Continuous or discontinuous?
+        hint: Each quarter.
+        answer: 'Continuous: steady, incremental improvement.'
+      - ask: So which quadrant?
+        hint: Internal and continuous.
+        answer: 'Operational innovation: processes and technology. The lecturer says nobody really sees much of it.'
+      - ask: A hospital restructures into patient-centred units, changes how it manages staff, and leaves it for years. Which quadrant?
+        hint: Internal, and made once.
+        answer: 'Management innovation: internal structures and people management, changed discontinuously, then left to settle.'
+    what-if:
+      - change: The bank turns its loan tool into a new direct-to-customer lending channel aimed at a market it has not served before.
+        effect: 'It moves from operational to strategic innovation: external (channels, new markets) and discontinuous, a break in where and how it competes rather than ongoing improvement.'
+    boundary:
+      - text: A supermarket launches a new eco store brand and refreshes its in-store displays twice a year.
+        why: 'Product & service innovation: customer-facing (brand) and ongoing. Nothing changes its markets, channels or business model.'
+      - text: A streaming start-up offers a cheap, simple service to people who never bought the incumbents' product.
+        why: 'Strategic, not product & service: entering a new market and potentially disrupting incumbents is external and discontinuous, where the map puts disruptive innovation.'
+    transfer:
+      - scenario: A university moves its first-year lectures online for good, restructures its teaching teams, and refreshes its student app every semester.
+        answer: 'Place each change on both axes. Moving delivery online for good changes a channel: strategic (external, discontinuous). Restructuring teaching teams: management (internal, discontinuous). Refreshing the app each semester: product & service (external, continuous).'
+    objections:
+      - position: Organisations should innovate continuously in everything.
+        evidence: 'Slide 6: organisations must prepare to innovate on a continuing basis or their survival is threatened.'
+        objection: 'The map separates the axes: operations and products continuously, but management and strategy discontinuously. The lecturer: people tire of constant change, and strategy should change when called upon.'
+    sources:
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 2, 4, 9)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+  - concept: mgmt2094-w08-disruptive-innovation
+    plain: Disruption isn't just being new or successful. A disruptive innovation usually starts with overlooked, low-end or new customers, offers something simpler or cheaper, then improves until it challenges established firms.
+    concrete: 'The class activity gives each group one case: Netflix vs traditional video rental, Airbnb vs traditional hotels, Uber vs taxis, Canva vs professional design software, Spotify vs CDs and music downloads, Tesla vs traditional car manufacturers, ChatGPT vs traditional search. Each row asks a pointed question. Is Airbnb disruptive, or simply a new platform business model? Did Canva create a new market of non-designers? Groups have 15 minutes to answer five questions and defend a verdict.'
+    formal: 'Class activity: ''Not every successful or radical innovation is disruptive.'' In Clayton Christensen''s theory, disruptive innovation ''usually begins by serving an overlooked, low-end, or new-market customer segment with a simpler, cheaper, or more accessible offering, and then improves enough to challenge established firms.'' Five questions: incumbent, initial customer, value proposition, market movement, verdict.'
+    terms:
+      - term: incumbent
+        gloss: The established company, industry or business model that is potentially being disrupted.
+      - term: non-consumer
+        gloss: Someone who did not buy the incumbents' product at all. Serving them can create a new market, as the Canva question asks.
+      - term: market movement
+        gloss: Whether the innovation started outside the mainstream and then moved toward mainstream customers.
+      - term: potentially disruptive
+        gloss: The middle verdict the activity allows, for cases whose path is not yet clear, such as generative AI.
+    elements:
+      - name: Incumbent
+        test: What established company, industry or business model is potentially being disrupted?
+        authorities:
+          - mgmt2094-class-activity-is-it-really-disruptive
+      - name: Initial customer
+        test: Who did the innovation first appeal to? Was this customer underserved, overlooked or a non-consumer?
+      - name: Value proposition
+        test: What made the innovation cheaper, simpler, more convenient or accessible?
+      - name: Market movement
+        test: Did it start outside the mainstream and subsequently move toward mainstream customers?
+      - name: Verdict
+        test: Disruptive innovation, potentially disruptive, or not disruptive? Defend the decision.
+    misconceptions:
+      - claim: A radical, hugely successful innovation is disruptive by definition.
+        tempting: Disruption sounds like any big change.
+        correction: 'The activity''s first line: not every successful or radical innovation is disruptive. The test is the path: an overlooked, low-end or new-market start, then improving enough to challenge incumbents.'
+      - claim: If it serves non-consumers rather than the incumbents' customers, it is not disruptive.
+        tempting: Disruption sounds like a head-on fight for the same customers.
+        correction: Starting with overlooked customers or non-consumers is exactly how Christensen's theory says disruption usually begins.
+      - claim: A premium product that beats incumbents for their best customers is disruptive.
+        tempting: It is new technology and wins sales.
+        correction: 'It starts at the top of the market and is neither simpler nor cheaper: the reverse of the disruptive path the activity sets out.'
+    socratic:
+      - ask: A firm sells cheap, no-frills hearing aids online to people who found clinic-fitted devices too costly and never bought one. Who is the incumbent?
+        hint: Question 1.
+        answer: 'Clinic-fitted hearing-aid providers: the established business model potentially being disrupted.'
+      - ask: Who is the initial customer?
+        hint: Had they bought before?
+        answer: 'Non-consumers: people who never bought a clinic-fitted device. Overlooked customers fit the usual start of disruption.'
+      - ask: What is the value proposition?
+        hint: Cheaper, simpler, more convenient or accessible?
+        answer: 'Cheaper and more accessible: no-frills devices sold online.'
+      - ask: So far it has stayed in its niche, and incumbents have not lost mainstream customers. Verdict?
+        hint: Market movement.
+        answer: 'Potentially disruptive: the start fits, but movement toward the mainstream is not yet shown. Defend it with the four answers.'
+    what-if:
+      - change: Five years on, the hearing-aid firm adds features mainstream buyers want, and clinics start losing customers to it.
+        effect: 'Market movement is now shown: it began outside the mainstream and moved toward mainstream customers, challenging established firms. The defensible verdict becomes disruptive innovation.'
+    boundary:
+      - text: Airbnb vs traditional hotels.
+        why: 'The activity leaves it open: disruptive innovation, or simply a new platform business model? A new business model is not automatically disruptive; walk the five questions.'
+      - text: ChatGPT vs traditional search and knowledge work.
+        why: 'Not yet settled: the row asks whether generative AI could become disruptive, and to whom. ''Potentially disruptive'' is a verdict the activity allows.'
+    transfer:
+      - scenario: A start-up sells a basic, low-cost accounting app to sole traders who never bought accounting software. Five years on it is adding features medium-sized firms want, and incumbent vendors are losing customers.
+        answer: 'Incumbent: established accounting-software vendors. Initial customer: non-consumers (sole traders). Value proposition: simpler and cheaper. Market movement: from outside the mainstream toward medium-sized firms, with incumbents losing customers. Verdict: disruptive innovation on Christensen''s definition, and on the innovation map strategic innovation.'
+    objections:
+      - position: Uber is obviously a disruptive innovation.
+        evidence: The lecturer says Uber changed the way we do things, and the culture as well.
+        objection: 'Change and success are not the test. The activity asks whether Uber is truly disruptive according to Christensen''s definition: was its first customer overlooked, low-end or new-market, and did it then move toward the mainstream?'
+      - position: Disruptive innovation and value innovation are the same idea.
+        evidence: Both reshape markets, and the lecture uses Uber and Airbnb for value innovation while the activity asks whether they are disruptive.
+        objection: The definitions differ. Disruption is about where you start (overlooked, low-end or new-market segments) and moving in; value innovation is superior buyer value in existing markets, cheap enough for mass buyers.
+    sources:
+      - Marketing - Week 08 - Class Activity (JE) - Is It Really Disruptive Innovation
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 9, 15)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+  - concept: mgmt2094-w08-innovation-process-and-management
+    plain: 'Innovating is a process: scan the environment, align with strategy, buy or build the technology, choose the best response, implement, learn and develop. Managing it means finding fitting solutions, effective routines and managing learning.'
+    concrete: 'Reed (2018): Lego is investing about 1 billion kroner and hiring about 100 people to search for sustainable materials. In its lab, technicians methodically test promising materials: will a brick take a whack without breaking, survive a hard pull, withstand the heat of a Saudi Arabian summer and take on Lego''s bright colour palette? Around 200 alternatives have been tried, and most have fallen short. The search could take years. That is generating technology in-house, then exploring and selecting.'
+    formal: 'Slide 11: recognising or scanning the environment; aligning the overall business strategy and proposed innovation; acquiring technology from outside; generating technology in-house; exploring and selecting the most suitable response; executing and implementing; learning lessons for improvement; developing the organisation. Slide 13: innovation management is learning to find the most appropriate solution, the search for effective routines, and managing the learning process.'
+    terms:
+      - term: effective routines
+        gloss: 'The habitual ways an organisation works. Innovation by definition changes them, which is hard: people at every level get used to their routines.'
+      - term: acquire or generate
+        gloss: 'Steps 3 and 4: acquire technology from outside, generate it in-house, or a hybrid of the two (the lecturer).'
+      - term: three levels of innovation
+        gloss: National (government policies and support), enterprise (enterprise policies, support and initiatives), individual (individual and group innovation activities).
+      - term: organisational process for innovation management
+        gloss: Slide 14's nine bubbles, from market learning, through an open market for ideas, capital and talent, to paying the innovators well.
+    elements:
+      - name: 1 Recognise or scan the environment
+        test: 'What is changing in the external environment: technology, law, competitors, customers?'
+      - name: 2 Align strategy and innovation
+        test: Does the proposed innovation fit who we are and strengthen the strategy, or must the strategy change?
+      - name: 3 Acquire technology from outside
+        test: Buy or license the technology, as an alternative to step 4 or in a hybrid with it.
+      - name: 4 Generate technology in-house
+        test: Develop the technology internally, as Lego's lab does in its search for sustainable materials.
+        authorities:
+          - mgmt2094-reed-2018-lego-plastic-free-brick
+      - name: 5 Explore and select
+        test: Explore what works and select the most suitable response to the environment; Lego has tested around 200 alternatives.
+        authorities:
+          - mgmt2094-reed-2018-lego-plastic-free-brick
+      - name: 6 Execute and implement
+        test: Put the chosen innovation into effect.
+      - name: 7 Learn lessons for improvement
+        test: Review what worked and what did not, as an organisation.
+      - name: 8 Develop the organisation
+        test: Add to its capabilities so that it is more competitive as a result.
+    misconceptions:
+      - claim: Steps 3 and 4 must both be done, in that order.
+        tempting: They appear as two numbered steps.
+        correction: 'The lecturer treats them as a choice: acquire technology from outside, generate it in-house, or some kind of hybrid.'
+      - claim: Design thinking is just the lecture's eight-step process with a new name.
+        tempting: Both run from understanding a problem to implementing a solution.
+        correction: Brown and Wyatt (2010) describe overlapping spaces that projects loop back through, unlike the linear, milestone-based processes organisations typically undertake.
+      - claim: '''Paying the innovators well'' simply means paying them more money.'
+        tempting: The bubble's wording sounds monetary.
+        correction: 'The lecturer: not necessarily just monetary; there must be a good result for the organisation and for the people who take part.'
+    socratic:
+      - ask: A retailer notices rising online competition. Which step is that?
+        hint: Step 1.
+        answer: Recognising or scanning the environment.
+      - ask: It decides an app fits its strategy. Which step?
+        hint: Step 2.
+        answer: 'Aligning the overall business strategy and the proposed innovation: does it fit who we are, or must the strategy change?'
+      - ask: It licenses an app platform rather than building one. Has it skipped a step?
+        hint: Buy or build.
+        answer: 'No: acquiring from outside and generating in-house are alternatives, or a hybrid, so not building in-house is a choice.'
+      - ask: It tests three designs, launches one, reviews what went wrong and retrains staff. Which steps are these?
+        hint: Steps 5 to 8.
+        answer: Exploring and selecting; executing and implementing; learning lessons for improvement; developing the organisation.
+      - ask: Why will retraining staff be the hard part?
+        hint: Routines.
+        answer: Innovation changes routines, and people get used to their routines, personally, in teams and in departments, and ask why they should change.
+    what-if:
+      - change: Lego finds a material that passes every test and begins making bricks from it in its factories.
+        effect: It would move from generating technology in-house and exploring and selecting to executing and implementing, then learning lessons and developing the organisation as the change spreads.
+    boundary:
+      - text: A team's fix for a workflow problem is adopted across the whole company.
+        why: 'The three levels at work: an individual or group innovation rising to the enterprise level, as the lecturer says a team''s solution may.'
+      - text: A bank runs an internal platform where any employee can pitch an idea, propose funding and recruit colleagues.
+        why: 'Part of the organisational process for innovation management: designing an open market for ideas, capital and talent.'
+    transfer:
+      - scenario: A city council wants to cut its paper use. Staff notice neighbouring councils have gone paperless; the council licenses software, pilots it in two departments, then rolls it out.
+        answer: 'Scanning the environment; aligning with strategy; acquiring technology from outside rather than generating it in-house; exploring and selecting through the pilots; executing and implementing; then learning lessons and developing the organisation. Expect resistance: innovation changes the routines people are used to.'
+    objections:
+      - position: Innovation is a tidy, step-by-step process managers can schedule.
+        evidence: Slide 11 lists eight numbered steps, from scanning the environment to developing the organisation.
+        objection: The lecturer calls it difficult and usually a rocky road; managing it means managing learning and changing routines people resist. Brown and Wyatt add that design thinking loops through overlapping spaces, not orderly steps.
+    sources:
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 11–14)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+      - Marketing - Week 08 - Reading - Inside Lego's Quest to Create the Plastic-Free Block (Reed 2018, scanned page)
+      - Marketing - Week 08 - Reading - Design Thinking for Social Innovation (Brown and Wyatt, 2010) (pp 33)
+  - concept: mgmt2094-w08-value-innovation-and-what-if
+    plain: Value innovation gives buyers much better value in markets that already exist, cheaply enough for mass buyers, without needing new technology. 'What if' questions challenge the assumptions that keep us stuck in the status quo.
+    concrete: 'The lecturer''s Uber. The market was already there: people needed to get places. The cars and the drivers were already there, and so was the internet technology. Uber rethought the value, and changed the way we do things, and the culture as well. Uber was not necessarily the very first to think of it, but it was the most successful implementation; the same goes for Airbnb.'
+    formal: 'Slide 15: value innovation is ''one of the most prominent programmatic approaches to innovation currently in use''. It differs from building layers of competitive advantage, and does not mean segmenting the market and accommodating customer needs. Its main focus: superior buyer value in existing markets, enabling a quantum leap to create new markets. New technology is not a value innovation ''unless it is cheap enough for MASS BUYERS''.'
+    terms:
+      - term: value innovation
+        gloss: Offering products and services that create superior buyer value in existing markets and enable a quantum leap to new markets, cheaply enough for mass buyers.
+      - term: mass buyers
+        gloss: 'The test that separates value innovation from technology innovation: new technology is not a value innovation unless it is cheap enough for them.'
+      - term: '''What if'' question'
+        gloss: 'A provocative question put to a conventional assumption. Merely a starting point: the challenge is finding the business model that could make it work.'
+      - term: status quo
+        gloss: The way things are now. The slide says it holds us back and stifles imagination, which 'What if' questions are meant to overcome.
+    elements:
+      - name: An existing market
+        test: Does it create superior value in a market that already exists, from resources that are already there?
+        authorities:
+          - mgmt2094-example-uber-and-airbnb
+      - name: Superior buyer value
+        test: Does it rethink the value buyers get, rather than building layers of competitive advantage or segmenting the market?
+      - name: Cheap enough for mass buyers
+        test: Is it cheap enough for mass buyers? If not, new technology stays technology innovation.
+    misconceptions:
+      - claim: Any valuable new technology is a value innovation.
+        tempting: New technology creates value for someone.
+        correction: 'Slide 15: value innovation differs from technology innovation. New technology is not a value innovation unless it is cheap enough for mass buyers.'
+      - claim: Uber was a value innovation because it invented the technology behind ride-hailing.
+        tempting: Uber runs on an app.
+        correction: 'The lecturer: the market, cars, drivers and internet technology were already there. Uber rethought the value, and was not necessarily the first to think of the idea.'
+      - claim: A 'What if' question that sounds impractical should be dropped.
+        tempting: The slide admits some will be too provocative to answer.
+        correction: 'What-ifs are merely starting points: with the right business model ingredients, what we think of as impossible may just be doable. The challenge is finding that business model.'
+    socratic:
+      - ask: 'The slide asks: what if newspapers stopped printing and went purely digital? What should you do with the question?'
+        hint: Issues, benefits, costs.
+        answer: Think through the issues, the benefits and the costs. A what-if is a starting point for finding a business model, not an answer.
+      - ask: 'Grameenphone asked: what if every Bangladeshi villager had access to a telephone? Why was that provocative?'
+        hint: Teledensity.
+        answer: At its inception Bangladesh had the lowest teledensity. Today Grameenphone is the country's largest taxpayer.
+      - ask: Skype asked what if voice calls over the internet were free. What happened?
+        hint: Five years after 2003.
+        answer: It had acquired 400 million registered users, who made 100 billion free calls.
+      - ask: A firm's water-purifying membrane works perfectly but costs ten times what households can pay. Value innovation?
+        hint: Mass buyers.
+        answer: 'No: new technology is not a value innovation unless it is cheap enough for mass buyers.'
+    what-if:
+      - change: The membrane maker finds a way to sell its filter at a price most households can afford.
+        effect: 'It could now be a value innovation: superior buyer value in an existing market, cheap enough for mass buyers. Until then it was technology innovation.'
+    boundary:
+      - text: IKEA introducing flat packs and DIY furniture assembly in the 1950s.
+        why: 'A ''What if'' question that got answered (Osterwalder and Pigneur, 2010): a conventional assumption was challenged, and a business model made the answer work.'
+      - text: A rival's new self-driving car, priced above what most buyers can pay.
+        why: 'Technology innovation, not value innovation: new technology does not become a value innovation unless it is cheap enough for mass buyers.'
+    transfer:
+      - scenario: 'A council asks: ''What if every library card could also borrow tools and sewing machines?'' Most staff call the idea impractical.'
+        answer: 'Treat it as a starting point: the status quo stifles imagination. Think through the issues, benefits and costs, and look for the business model that could make it work. The slide warns that not every what-if will be answered, but ''impractical'' is where the challenge begins.'
+    objections:
+      - position: Value innovation needs a technological breakthrough.
+        evidence: Skype's free calls depended on the internet, and Shaver's definition of innovation includes discovering new products and processes.
+        objection: 'Slide 15: value innovation differs from technology innovation. The lecturer''s Uber used a market, cars, drivers and internet technology that already existed; it rethought the value.'
+    sources:
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 15–17)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+  - concept: mgmt2094-w08-ideation-toolkit
+    plain: 'Mattimore''s seven ideation tools are structured ways to get unstuck: question assumptions, redefine the opportunity, wish for the impossible, brainwalk, combine key words, use pictures, or start from the worst ideas.'
+    concrete: 'In the Week 8 tutorial, project groups try two tools. Worst ideas: come up with at least 10 worst ideas (the slide''s example is ''Hair in a Can''), then work them into not-so-bad ideas that could work. Questioning assumptions: the initial issue is ''We need to increase the sales of new 4WD utes to women''. What assumptions do we need to make to be successful?'
+    formal: 'Mattimore (2012), seven tools: questioning assumptions (20–30 assumptions as thought starters); opportunity redefinition (three words, 8–10 alternatives each, recombined); wishing (20–30 impossible wishes as stimuli); triggered brainwalking (everyone contributes; combines with other techniques); semantic intuition (key-word categories combined into a name); picture prompts (customised and random pictures); worst idea (terrible ideas turned into good ones).'
+    analogy:
+      text: 'The slide: triggered brainwalking is like vanilla ice cream. Delicious by itself, but add banana, chocolate sauce or sprinkles and it becomes something very different and special, a sundae or even a doughnut milkshake.'
+      maps:
+        - from: vanilla ice cream
+          to: triggered brainwalking on its own
+        - from: banana, chocolate sauce, sprinkles
+          to: other techniques combined with it
+        - from: a sundae or doughnut milkshake
+          to: a richer, combined ideation session
+      limits:
+        - Ice cream is eaten alone; the point of brainwalking itself is that everyone gets the chance to contribute ideas.
+    terms:
+      - term: opportunity redefinition
+        gloss: Pick the three most interesting words of the opportunity statement, generate 8–10 alternatives for each, and combine them into a new statement.
+      - term: semantic intuition
+        gloss: Combine categories of key words to create a name for a new idea, perhaps before knowing what the concept is.
+        example: Improve + teamwork → 'upgrade information exchange' → upgrade information software.
+      - term: wishing
+        gloss: Wish for the impossible (20–30 wishes), then use the most fantastic as stimuli for novel but realistic ideas.
+      - term: worst idea
+        gloss: List really terrible ideas, then turn them into good ones by thinking of the opposite or finding something of value.
+    elements:
+      - name: 1 Questioning assumptions
+        test: Frame the challenge; generate 20–30 assumptions, true or false; use several as thought starters.
+      - name: 2 Opportunity redefinition
+        test: Pick the three most interesting words of the opportunity statement; 8–10 alternatives each (who, what, where, when, how); combine them randomly.
+      - name: 3 Wishing
+        test: Generate 20–30 wishes as if anything were possible; work through the most fantastic for novel but realistic ideas.
+        authorities:
+          - mgmt2094-example-uber-and-airbnb
+      - name: 4 Triggered brainwalking
+        test: Ensures everyone gets the chance to contribute; lends itself to combination with other techniques.
+        authorities:
+          - mgmt2094-mattimore-2012-brainwalking
+      - name: 5 Semantic intuition
+        test: Combine categories of key words to name a new idea; the words are simply stimuli.
+      - name: 6 Picture prompts
+        test: Customised visuals plus some random pictures, to surface intuitions, emotions and feelings; good for personnel and management challenges.
+      - name: 7 Worst idea
+        test: Collectively list terrible ideas, then turn them into good ones; takes the creative pressure off.
+    misconceptions:
+      - claim: Opportunity redefinition and semantic intuition are the same word game.
+        tempting: Both play with words.
+        correction: Redefinition recombines alternatives for three words into a new opportunity statement; semantic intuition combines key-word categories to name a new idea, even before knowing what it is.
+      - claim: Worst idea is a joke exercise with no real output.
+        tempting: The slide calls it a bit of fun.
+        correction: The bad ideas are turned into good ones, by thinking of the opposite or finding something of value. It takes the creative pressure off the team, with positive results.
+      - claim: Wishing is pointless because impossible wishes cannot be built.
+        tempting: Money, energy and time are no object; wishes may even violate the laws of nature.
+        correction: 'The wishes are creative stimuli: the team works through the most fantastic to generate novel but realistic ideas. The slide wonders whether Uber came from wishing for more convenient transport.'
+    socratic:
+      - ask: 'The tutorial''s challenge: increase sales of new 4WD utes to women. Using questioning assumptions, what is the first move?'
+        hint: Frame it, then list.
+        answer: 'Decide how to frame the challenge, then generate 20–30 assumptions, true or false, about it: who buys utes, what for, through which channel.'
+      - ask: What do you then do with the list?
+        hint: Thought starters.
+        answer: 'Pick several and use them as creative triggers, as the slide''s razor example does: what if we targeted teenage girls with an inexpensive razor?'
+      - ask: The group is stuck and anxious about being creative. Which tool takes the pressure off?
+        hint: Hair in a Can.
+        answer: 'Worst idea: list at least 10 terrible ideas, then work them into not-so-bad ideas that could work.'
+      - ask: Which tool would rewrite the statement 'How do we sell more utes to women?' itself?
+        hint: Three words, 8–10 alternatives.
+        answer: 'Opportunity redefinition: pick the three most interesting words, generate 8–10 alternatives for each, and combine them into a new opportunity statement.'
+    what-if:
+      - change: Instead of listing assumptions, the facilitator asks the team for 25 impossible wishes about commuting.
+        effect: 'The tool becomes wishing: anything is possible, and the team then works through the most fantastic wishes as stimuli for novel but realistic ideas.'
+    boundary:
+      - text: A bakery lists 'bread must be fresh that day' among its assumptions, then asks what if it sold day-old bread as toast kits.
+        why: 'Questioning assumptions, not semantic intuition: the idea comes from challenging a listed assumption, like the slide''s teenage-girls razor.'
+      - text: Low morale in a warehouse team.
+        why: 'A natural fit for picture prompts: visuals surface intuitions, emotions and feelings, which the slide says suits personnel and management challenges. Customise the images and add some random ones.'
+    transfer:
+      - scenario: A museum wants more visitors aged 18–25 and asks a staff team for ideas.
+        answer: 'Questioning assumptions: list 20–30 assumptions about these visitors and use several as triggers. Opportunity redefinition: rework three words such as ''museum'', ''visitors'' and ''18–25''. Wishing: 20–30 impossible wishes as stimuli. Worst idea: list terrible ideas and turn them around. Brainwalking ensures everyone contributes.'
+    objections:
+      - position: Structured tools make ideation mechanical and stifle creativity.
+        evidence: 'Each tool fixes numbers: 20–30 assumptions, three words with 8–10 alternatives, 20–30 wishes.'
+        objection: 'The slides present the structure as a way past the status quo: semantic intuition''s words are ''simply stimuli'', random pictures prompt uncanny connections, wishing assumes anything is possible, and worst idea takes the creative pressure off.'
+    sources:
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 18–25)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+      - Marketing - Week 08 - Tutorial Materials - Activity (slides 2–3)
+  - concept: mgmt2094-w08-design-thinking
+    plain: 'Design thinking solves problems by starting from people''s real needs: observe them, generate many ideas with a diverse team, then prototype and refine. Its three spaces overlap and loop rather than running in strict order.'
+    concrete: Brown and Wyatt open with Shanti, near Hyderabad. She fetches free borehole water that periodically makes her family sick, rather than buying safer water from the Naandi Foundation's treatment centre. The centre is close, affordable and well known, and habit isn't the reason. She can't carry the 5-gallon jerrican it requires, her husband gets home after it closes, and she must buy a monthly card for far more water than she needs.
+    formal: 'Brown and Wyatt (2010): design thinking ''incorporates constituent or consumer insights in depth and rapid prototyping, all aimed at getting beyond the assumptions that block effective solutions.'' Its process ''is best thought of as a system of overlapping spaces rather than a sequence of orderly steps'': inspiration, ideation and implementation.'
+    terms:
+      - term: brief
+        gloss: 'The classic start of inspiration: mental constraints giving a framework, benchmarks and objectives (price point, technology, market segment). Not a set of instructions.'
+      - term: T-shaped person
+        gloss: Depth of skill on the vertical; on top, empathy for people and for disciplines beyond one's own, which is where the design thinker is made.
+      - term: positive deviance
+        gloss: Looking for solutions among individuals and families in the community who are already doing well, as the Sternins did in Vietnam.
+      - term: prototyping
+        gloss: 'The core of implementation: turning ideas into actual products and services that are then tested, iterated and refined.'
+    elements:
+      - name: Inspiration
+        test: 'The problem or opportunity that motivates the search: write a brief, then observe what people actually do, through homestays and shadowing, rather than asking them in surveys.'
+        authorities:
+          - mgmt2094-example-pecknold-rwanda-weavers
+          - mgmt2094-example-naandi-water-centre
+      - name: Ideation
+        test: Synthesise what you saw into insights, then think divergently with a diverse, T-shaped team; brainstorm with judgement deferred.
+        authorities:
+          - mgmt2094-brown-and-wyatt-2010-design-thinking-for-social-innovation
+          - mgmt2094-example-positive-deviance-vietnam
+      - name: Implementation
+        test: Turn the best ideas into an action plan; prototype, test, iterate and refine; then a communication strategy. Loop back if needed.
+        authorities:
+          - mgmt2094-example-visionspring
+    misconceptions:
+      - claim: Design thinking is a linear sequence of steps, like the innovation process.
+        tempting: It usually begins with inspiration and ends with implementation.
+        correction: 'Brown and Wyatt: a system of overlapping spaces rather than a sequence of orderly steps; projects may loop back through them more than once.'
+      - claim: The best way to find needs is to ask customers in surveys and focus groups.
+        tempting: Who knows their needs better than they do?
+        correction: 'Brown and Wyatt: such methods rarely yield important insights. People often can''t say what they need (''a faster horse''), but their behaviour gives clues, so observe and shadow them.'
+      - claim: Shanti avoided the treatment centre because of cost or habit.
+        tempting: Her family had drunk the local water for generations.
+        correction: 'The reading says habit isn''t a factor and the water is affordable. Flaws in the system''s design kept her away: the jerrican, the opening hours, the monthly card.'
+    socratic:
+      - ask: The Naandi centre produces clean water very well. Why does Shanti still not use it?
+        hint: Container, hours, card.
+        answer: She can't carry the 5-gallon jerrican, her husband returns after it closes, and the monthly card buys far more water than she needs.
+      - ask: What did the centre's designers miss?
+        hint: Whose needs?
+        answer: They failed to consider the culture and needs of all the people living in the community.
+      - ask: Where should a design thinker start instead?
+        hint: Not with a survey.
+        answer: 'In the inspiration space: a brief, then going out to observe people''s actual experiences, with local partners, through homestays and shadowing.'
+      - ask: VisionSpring's first eye screening made a young girl cry. What did prototyping reveal?
+        hint: Who screened whom?
+        answer: Children screened by adults cried; children who screened each other loved playing doctor and complied. Prototyping uncovers problems that planning misses.
+      - ask: Your team now has 120 ideas. What does the lecture's ideation process say comes next?
+        hint: Criteria.
+        answer: Define criteria specific to the business, such as revenue potential or impact on competitive advantage, and reduce the ideas to a shortlist of three to five.
+    what-if:
+      - change: The Naandi centre lets Shanti buy smaller amounts of water at a time.
+        effect: 'On the reading, she would be more likely to buy: ''Why would I buy more than I need and waste money?'' Grounding the system in its users'' needs is what design thinking would have done.'
+    boundary:
+      - text: Kara Pecknold is asked to build a website for rural Rwandan weavers, who turn out to have little or no access to computers.
+        why: 'Reframing the brief is part of inspiration: a brief is not a set of instructions. She broadened it to ask what services could improve their livelihoods.'
+      - text: A charity designs a programme from focus-group feedback and launches it without any prototype.
+        why: 'Short of design thinking: Brown and Wyatt say initiatives falter when not based on users'' needs and never prototyped, and focus groups rarely yield important insights.'
+    transfer:
+      - scenario: A university's free counselling service is good, but few first-year students use it.
+        answer: 'Inspiration: write a brief, then observe and shadow students rather than surveying them; Shanti''s case shows a technically good system can still fail its users. Ideation: a diverse, T-shaped team generates many ideas, deferring judgement. Implementation: prototype the booking and first visit, test, iterate and refine, looping back as needed.'
+    objections:
+      - position: Design thinking is too chaotic for organisations; a linear, milestone-based process is safer.
+        evidence: Brown and Wyatt admit it can feel chaotic to first-timers, and more choices make budgets and timelines harder to control.
+        objection: 'Restricting choices to the obvious and incremental makes an organisation conservative and inflexible in the long run: divergent thinking is the route, not the obstacle, to innovation.'
+        reply: Over the life of a project, participants come to see that the process makes sense and achieves results.
+    storyboard:
+      - caption: Check the team is diverse
+        detail: 'Age, seniority, experience, customer knowledge. The lecturer: a new intern may have great ideas because they are not stuck with the organisation''s routines.'
+      - caption: Immerse before generating
+        detail: General research, knowing your customer well, scrutinising new technologies.
+      - caption: 'Expand: quantity, not quality'
+        detail: Imagine innovations for each business model building block and generate as many ideas as possible. Brainstorming rules are paramount.
+      - caption: Define criteria for prioritising
+        detail: Specific to the business, such as revenue potential or impact on competitive advantage.
+      - caption: Shortlist three to five
+        detail: Reduce the ideas to three to five potential business innovations, and ask what the complete business model looks like for each.
+    sources:
+      - Marketing - Week 08 - Reading - Design Thinking for Social Innovation (Brown and Wyatt, 2010) (pp 31–35)
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 26–27)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+flows:
+  - slug: is-it-really-disruptive
+    title: Is it really disruptive innovation?
+    summary: 'Walks the class activity''s five questions on Christensen''s definition to a defended verdict: disruptive, potentially disruptive, or not disruptive.'
+    start: n1
+    concepts:
+      - mgmt2094-w08-disruptive-innovation
+      - mgmt2094-w08-innovation-map
+    sources:
+      - Marketing - Week 08 - Class Activity (JE) - Is It Really Disruptive Innovation
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 9)
+    nodes:
+      - id: n1
+        kind: step
+        text: 'Incumbent: name the established company, industry or business model potentially being disrupted.'
+        note: 'Not every successful or radical innovation is disruptive. The Spotify row shows why this comes first: where did the disruption actually occur, CDs or downloads?'
+        authorities:
+          - mgmt2094-class-activity-is-it-really-disruptive
+        next: n2
+      - id: n2
+        kind: ask
+        text: 'Initial customer: did it first appeal to underserved or overlooked customers, the low end, or non-consumers?'
+        note: 'Non-consumers can form a new market: the Canva row asks whether it created a new market of non-designers.'
+        branches:
+          - label: 'Yes'
+            to: n3
+          - label: No, it targeted the incumbents' best customers
+            to: n8
+      - id: n3
+        kind: ask
+        text: 'Value proposition: was it cheaper, simpler, more convenient or more accessible?'
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: No, it was premium and pricier
+            to: n8
+      - id: n4
+        kind: ask
+        text: 'Market movement: did it start outside the mainstream and then move toward mainstream customers?'
+        branches:
+          - label: Yes, and incumbents are losing customers
+            to: n5
+          - label: 'Not yet: it is still in its niche'
+            to: n7
+      - id: n5
+        kind: step
+        text: 'Place it on the innovation map: strategic innovation, external and discontinuous.'
+        note: The map puts disruptive innovation with new markets, new offerings, channels and Blue Ocean Strategy.
+        concept: mgmt2094-w08-innovation-map
+        next: n6
+      - id: n6
+        kind: end
+        tone: met
+        text: 'Verdict: disruptive innovation. Defend it with your four answers.'
+      - id: n7
+        kind: end
+        tone: qualified
+        text: 'Verdict: potentially disruptive. Say what movement toward the mainstream would settle it.'
+        note: 'The ChatGPT row: could generative AI become disruptive, and to whom?'
+      - id: n8
+        kind: end
+        tone: not-met
+        text: 'Verdict: not disruptive on Christensen''s definition, though it may still be a successful or radical innovation.'
+        note: 'The Airbnb row: disruptive innovation, or simply a new platform business model?'

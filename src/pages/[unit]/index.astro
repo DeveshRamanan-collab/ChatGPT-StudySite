@@ -1,0 +1,159 @@
+---
+/*
+ * SCENE: Unit hub — "the semester as a road to the exam" (full brief: docs/scenes/unit-hub.md)
+ * LENGTH: 300vh pinned (≥1100px, motion full); otherwise a vertical list, unpinned
+ * BEATS: 1 cards enter (40ms stagger) · 2 track scrubs on x with a progress hairline · 3 exam card + countdown
+ * INTENT: where each week stands and how far the exam is, so the next click is obvious
+ * SUBJECT: the week card nearest the centre line
+ * CAMERA/LIGHT/SOUND: none (DOM)
+ * REDUCED MOTION: no pin; cards stacked in a grid; fades only
+ * BUDGET: hub islands ≤ 60 KB gz excl. d3-force (lazy, on view); transform-only scrub; 60fps at 4× throttle
+ */
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CriterionRing from '../../components/CriterionRing';
+import WeekStats from '../../components/hub/WeekStats';
+import HubPanel from '../../components/hub/HubPanel';
+import KnowledgeMap from '../../components/hub/KnowledgeMap';
+import { units, weeksOf, conceptsOf, conceptSlug, formatDate, mapShape } from '../../lib/content';
+import { examOf, phases, minutesLabel, examDayLabel, examTimeLabel, daysUntil, daysLabel } from '../../lib/exam';
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+const weeks = await weeksOf(u.id);
+const concepts = await conceptsOf(u.id);
+const shape = [await mapShape(u)];
+const exam = u.data['exam-start'];
+const ex = examOf(u.data);
+// Links to the legal tools only where the unit has their material.
+const hasVerifiedCases = (await getCollection('cases', (k) => !k.data.verify && k.data.units.includes(u.id))).length > 0;
+const hasProvisions = (await getCollection('authorities', (a) => a.data.units.includes(u.id) && ['statute', 'treaty', 'article'].includes(a.data.kind))).length > 0;
+---
+
+<Layout title={`${u.data.code} ${u.data.name}`} wide index="Unit" unit={u.id}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { label: u.data.code }]} />
+  <h1 transition:name={`unit-${u.id}`}>{u.data.name}</h1>
+  <p class="hub-meta">Exam {examDayLabel(ex.start)}, {examTimeLabel(ex.start)} · <span data-exam-days data-exam-start={ex.start}>{daysLabel(daysUntil(ex.start, Date.now()))}</span> · {u.data['answer-style'] === 'problem' ? 'Problem questions (ILAC)' : 'Essay questions'} · {weeks.length} of {u.data['weeks-expected']} weeks</p>
+
+  <section class="hub-weeks" data-hscroll="3" aria-labelledby="hub-weeks-h">
+    <h2 id="hub-weeks-h" class="hub-weeks__h">Weeks</h2>
+    <div class="hub-weeks__viewport">
+      <ol class="hub-weeks__track" data-hscroll-track data-reveal="children">
+        {weeks.map((w) => (
+          <li>
+            <a class="card hub-week" href={`/${u.id}/week/${w.data.number}`}>
+              <p class="card__label">Week {w.data.number}</p>
+              <p class="card__title" transition:name={`week-${w.id}`}>{w.data.topic}</p>
+              <p class="hub-week__meta">{w.data.concepts.length} {w.data.concepts.length === 1 ? 'concept' : 'concepts'}</p>
+              <WeekStats client:idle week={w.id} concepts={w.data.concepts} />
+            </a>
+          </li>
+        ))}
+        <li>
+          <div class="hub-exam" data-exam={exam.getTime()}>
+            <p class="card__label">Exam</p>
+            <p class="hub-exam__date">{formatDate(exam)}</p>
+            <p class="hub-exam__time">{examTimeLabel(ex.start)} · {minutesLabel(ex.duration)}</p>
+            <p class="hub-exam__count mono" data-countdown aria-live="off">—</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="hub-weeks__bar" aria-hidden="true"><span data-hscroll-bar></span></div>
+  </section>
+
+  <HubPanel client:load unit={u.id} code={u.data.code} />
+
+  <section class="hub-examinfo" id="exam" aria-labelledby="hub-examinfo-h">
+    <h2 id="hub-examinfo-h">Your exam</h2>
+    {ex.status === 'draft' && <p class="hub-examinfo__draft">Draft timetable: the final exam timetable is due at 1 pm on Wednesday 14 October 2026. Check it then.</p>}
+    <dl class="hub-examinfo__list">
+      <dt>Date</dt><dd>{formatDate(exam)} ({examDayLabel(ex.start).split(' ')[0]})</dd>
+      <dt>Start</dt><dd>{examTimeLabel(ex.start)} Sydney time</dd>
+      <dt>Duration</dt><dd>{minutesLabel(ex.duration)}{ex.working != null && ` = ${phases(ex).map((p) => `${minutesLabel(p.minutes)} ${p.label.toLowerCase()}`).join(' + ')}`}</dd>
+      <dt>Mode</dt><dd>{ex.mode}</dd>
+      {ex.venue && <><dt>Venue</dt><dd>{ex.venue}</dd></>}
+      {ex.notes && <><dt>Conditions</dt><dd>{ex.notes}</dd></>}
+      <dt>Answer style</dt><dd>{u.data['answer-style'] === 'problem' ? 'Problem questions (ILAC)' : 'Essays (thesis, argument, counter-argument, evaluation)'}</dd>
+    </dl>
+    <p class="hub-examinfo__go"><a class="btn btn--secondary" href={`/${u.id}/quiz?mode=paper`}>Sit a full-length paper</a></p>
+  </section>
+
+  <div class="hub-actions">
+    <a class="btn btn--secondary" href={`/${u.id}/cards`}>Cards</a>
+    <a class="btn btn--ghost" href={`/${u.id}/questions`}>Question bank</a>
+    <a class="btn btn--ghost" href={`/${u.id}/errors`}>Error log</a>
+    <a class="btn btn--ghost" href={`/${u.id}/problems`}>Work the facts</a>
+    <a class="btn btn--ghost" href={`/${u.id}/flows`}>Decision flows</a>
+    <a class="btn btn--ghost" href={`/${u.id}/visual`}>Visual practice</a>
+    <a class="btn btn--ghost" href={`/${u.id}/listen`}>Listen and viva</a>
+    <a class="btn btn--ghost" href={`/${u.id}/argue`}>Argue it</a>
+    {hasVerifiedCases && <a class="btn btn--ghost" href={`/${u.id}/case-anatomy`}>Case anatomy</a>}
+    {hasProvisions && <a class="btn btn--ghost" href={`/statutes?unit=${u.id}`}>Statutes</a>}
+    <a class="btn btn--ghost" href={`/${u.id}/sheet`}>Unit on one page</a>
+  </div>
+
+  <h2>Knowledge map</h2>
+  <KnowledgeMap client:visible unit={u.id} shape={shape} />
+
+  <h2>Concepts</h2>
+  {concepts.length ? (
+    <ul class="concept-list">
+      {concepts.map((c) => <li><CriterionRing client:visible conceptId={c.id} title={c.data.title} size={18} /><a href={`/${u.id}/concept/${conceptSlug(c)}`}>{c.data.title}</a></li>)}
+    </ul>
+  ) : <p class="empty">No concepts yet. They appear when this unit's weeks are ingested.</p>}
+</Layout>
+
+<script>
+  import { daysUntil, refreshCountdowns } from '../../lib/exam';
+  function countdown() {
+    const el = document.querySelector<HTMLElement>('[data-countdown]');
+    const at = Number(el?.closest<HTMLElement>('[data-exam]')?.dataset.exam);
+    if (!el || !at) return;
+    const tick = () => {
+      // Sydney calendar days (changes at Sydney midnight), then hours on exam day.
+      const ms = at - Date.now(), d = daysUntil(at, Date.now());
+      el.textContent = ms <= 0 ? 'Started' : d === 0 ? `Today · ${Math.ceil(ms / 3_600_000)} h to go` : `${d} ${d === 1 ? 'day' : 'days'} to go`;
+      refreshCountdowns();
+    };
+    tick();
+    const t = setInterval(tick, 60_000);
+    document.addEventListener('astro:before-swap', () => clearInterval(t), { once: true });
+  }
+  document.addEventListener('astro:page-load', countdown);
+</script>
+
+<style>
+  .hub-meta { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+  .hub-weeks { margin-top: var(--s-6); }
+  .hub-weeks__h { margin-top: 0; }
+  .hub-weeks__track { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: var(--s-4); max-width: none; }
+  .hub-weeks__bar { display: none; }
+  .hub-week { height: 100%; display: flex; flex-direction: column; }
+  .hub-week__meta { font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); margin: 0 0 var(--s-3); }
+  .hub-exam { height: 100%; padding: var(--s-5); border-radius: var(--r-lg); border: 1px dashed var(--ink-3); display: flex; flex-direction: column; gap: var(--s-2); }
+  .hub-exam p { margin: 0; }
+  .hub-exam__date { font-family: var(--font-display); font-size: var(--t-lg); font-weight: 600; }
+  .hub-exam__count { font-size: var(--t-sm); color: var(--ink-2); }
+  .hub-exam__time { font-size: var(--t-sm); color: var(--ink-2); }
+  .hub-examinfo { margin-top: var(--s-8); max-width: var(--measure); }
+  .hub-examinfo__draft { color: var(--ink-2); }
+  .hub-examinfo__list { display: grid; grid-template-columns: max-content 1fr; gap: var(--s-2) var(--s-5); margin: 0 0 var(--s-5); }
+  .hub-examinfo__list dt { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); padding-top: .15em; }
+  .hub-examinfo__list dd { margin: 0; }
+  @media (max-width: 479px) { .hub-examinfo__list { grid-template-columns: 1fr; } .hub-examinfo__list dd { margin-bottom: var(--s-2); } }
+  /* Pinned horizontal timeline: full motion, wide screens, from first paint (no layout shift); motion.ts pins it. */
+  @media (min-width: 1100px) {
+    :global(:root[data-motion='full']) .hub-weeks { height: 100vh; display: flex; flex-direction: column; justify-content: center; margin-top: 0; }
+    :global(:root[data-motion='full']) .hub-weeks__track { display: flex; width: max-content; will-change: transform; }
+    :global(:root[data-motion='full']) .hub-weeks__track > li { width: 18rem; }
+    :global(:root[data-motion='full']) .hub-weeks__bar { display: block; height: 1px; margin-top: var(--s-6); background: var(--line); max-width: 100%; }
+  }
+  .hub-weeks__bar span { display: block; height: 1px; background: var(--ink-2); transform-origin: left; transform: scaleX(0); }
+  .hub-actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-5); }
+  .concept-list { columns: 3 16rem; column-gap: var(--s-6); list-style: none; padding: 0; }
+  .concept-list li { display: flex; align-items: center; gap: var(--s-2); break-inside: avoid; margin-bottom: var(--s-1); }
+  .empty { color: var(--ink-2); }
+</style>

@@ -1,0 +1,541 @@
+unit: laws2100
+week: 8
+source: raw/laws2100-juris/week-08
+generator: aids-1
+aids:
+  - concept: laws2100-w08-outsider-jurisprudence
+    plain: Outsider jurisprudence is an umbrella term for theories, here feminist legal theory and critical race theory, that study law from the standpoint of those it marginalises, and aim to change it.
+    concrete: 'Picture a dictatorship. A small group of officials accepts the system''s rules and its ideology; most citizens comply only out of fear. On Hart''s two conditions a legal system exists: officials accept the secondary rules, and citizens generally obey the primary rules. Yet the fearful majority are subjects, even victims, of the law: inside the jurisdiction, outside the practice. That is the ''outside'' outsider jurisprudence studies.'
+    formal: 'Slide 2: outsider jurisprudence holds that the law reflects and perpetuates a dominant perspective (remember CLS); takes a critical approach to law and legal institutions (remember legal realism); attends to gender, race, culture and sexuality, to disadvantage in marginalised groups, to equality, justice and legal reform, and to language and power. It can help us rethink ''what is law?'' and ''what is legal theory?''.'
+    analogy:
+      text: A game looks different to the team that always wins, the team that always loses, and a spectator from abroad. Seeing every perspective, and how they connect, gives a deeper understanding of the game.
+      maps:
+        - from: the team that always wins
+          to: those whose perspective the law reflects and perpetuates
+        - from: the team that always loses
+          to: groups oppressed or marginalised by their own legal system
+        - from: the spectator from abroad
+          to: the trivial outsider to a foreign legal system
+      limits:
+        - Players choose to play; many of law's subjects never chose, and comply only out of fear.
+    terms:
+      - term: Outsider jurisprudence
+        gloss: An umbrella term for theories that study law from the standpoint of those it oppresses or marginalises; this week, feminist legal theory and critical race theory.
+      - term: Internal point of view
+        gloss: 'Hart: the view of those who voluntarily participate in a rule-governed practice and accept its rules. For a legal system it is required of officials, not of all citizens.'
+      - term: The canon of legal theory
+        gloss: The body of theory, chiefly analytical jurisprudence in the English-speaking world, that held special status; outsider theories challenge how it framed its problems (lecture).
+      - term: Language and power
+        gloss: 'The claim that language is an exercise of power: naming things with certain terms has real consequences in the world (slide 2; lecture).'
+    misconceptions:
+      - claim: Hart's legal system exists only if citizens accept its rules from the internal point of view.
+        tempting: Hart stresses the internal point of view.
+        correction: Officials must accept the secondary rules; citizens need only generally comply with the primary rules, perhaps only out of fear. That gap is where the outsider stands (lecture).
+      - claim: The outsider of outsider jurisprudence is someone looking at a foreign legal system.
+        tempting: That person is plainly outside the system.
+        correction: The lecture calls that the trivial sense. Outsider jurisprudence focuses on people oppressed or marginalised by their own legal system.
+      - claim: Outsider theories should be judged like Hart's, as general descriptive accounts of law.
+        tempting: They also make claims about the nature of law.
+        correction: 'They combine description with political engagement, so their success also turns on practical achievements: did the theory bring about the change it aimed at? (lecture).'
+    socratic:
+      - ask: Whose point of view is Hart's internal point of view?
+        hint: Voluntary participants.
+        answer: Those who voluntarily participate in a rule-governed practice and accept its rules as standards, as officials must accept the secondary rules.
+      - ask: What does Hart require of ordinary citizens for a legal system to exist?
+        hint: His second condition.
+        answer: Only general compliance with the primary rules, which in a dictatorship may come from fear. Many people are subjects, even victims, of the law.
+      - ask: So who is 'outside', in the sense that matters here?
+        hint: Not the tourist.
+        answer: Those oppressed or marginalised by their own legal system, some suffering more in particular areas such as family, employment or contract law. The visitor to a foreign system is the trivial outsider.
+      - ask: Can the inside/outside distinction apply to legal theory too?
+        hint: A canon.
+        answer: 'Yes. Analytical jurisprudence formed a canon with special status, and other investigations challenge how it framed its problems: so ''what is legal theory?'' is reopened as well as ''what is law?''.'
+      - ask: How, then, should we assess such a theory?
+        hint: Thought and action.
+        answer: 'Not only as description: since it aims to change the status quo, we also ask what it has achieved in practice.'
+    what-if:
+      - change: In Hart's dictatorship, the frightened majority come to accept the rules and the regime's ideology.
+        effect: 'They move from mere compliance towards the internal point of view. The legal system existed either way: Hart''s conditions never required citizens'' acceptance, which is why outsiders can be inside a system.'
+      - change: A theorist offers only a general, descriptive account of law, with no aim of reform.
+        effect: 'It is judged by the criteria for descriptive theories, as Hart''s is. Comparing it with outsider theories, which join analysis to political commitment, needs care: their practical achievements also count.'
+    boundary:
+      - text: A lawyer thinking about the legal system of a country she has never visited.
+        why: 'Outside only in a trivial sense: its laws do not apply to her. Outsider jurisprudence focuses on those subject to, and marginalised by, a legal system.'
+      - text: Hart's move from Austin's external view to the internal point of view.
+        why: A change of perspective inside the canon, from the bad man to the puzzled man, that generated new insights. Outsider theories also reframe problems, but from the margins (lecture).
+    transfer:
+      - scenario: A university's rules are made by senior staff and applied to casual tutors, most of whom comply because they must. A researcher studies the rules from the tutors' standpoint and campaigns to change them.
+        answer: 'Outsider jurisprudence''s moves: officials accept the rules, while others merely comply and may bear their costs. Studying the system from the standpoint of those it marginalises exposes the dominant perspective it reflects. Because the research aims at change, its success includes practical achievements, not only accurate description.'
+    objections:
+      - position: Law reflects and perpetuates a dominant perspective, best seen from the standpoint of those it marginalises (outsider jurisprudence).
+        evidence: Hart's conditions let a legal system exist while most citizens comply out of fear; some groups suffer more in particular areas of law (lecture).
+        objection: 'Hart offers a theory that is general and descriptive: morally neutral, with no justificatory aims, and built to explain even morally unsound regimes (week 7 slide 32; lecture).'
+    sources:
+      - Week 08 - Lecture Slides (slide 2)
+      - Week 08 - Lecture Transcript (first half)
+  - concept: laws2100-w08-four-feminisms
+    plain: 'Feminists share political commitments but not one theory. Four approaches, each replying to the last: liberal (equal treatment), difference (women''s values), radical (women dominated as a class), postmodern (no single female essence).'
+    concrete: 'Liberal feminism sought equal treatment, and won anti-discrimination laws such as the Sex Discrimination Act 1984 (Cth), which prohibits direct sex discrimination. But formal equality struggled with discrimination on grounds unique to women, such as pregnancy: treating women exactly like men assumes the male norm. Difference feminism answers by asking law to recognise women''s own perspective; radical feminism by naming the domination of women as a class; postmodern feminism by asking which women, of which race, culture and class.'
+    formal: 'Liberal feminism: equal treatment, removing formal barriers and assessing individuals on merit; but formal equality did not become substantive, and it assumes the male norm (slides 7–8). Difference feminism: Gilligan''s ethics of care beside ethics of justice (slide 9). Radical feminism (MacKinnon): women ''have no voice at all''; women as a class are dominated by men as a class (slide 10). Postmodern feminism: against essentialism, for intersectionality (slide 11).'
+    terms:
+      - term: Formal and substantive equality
+        gloss: Equal treatment in law's rules versus equality in fact. Liberal feminism won the first; the slide says it 'did not translate' into the second.
+      - term: Male norm
+        gloss: The criticism that liberal feminism implicitly takes male experiences and perspectives as the benchmark for equal treatment (slide 8).
+      - term: Ethics of care
+        gloss: 'Carol Gilligan''s contrast with an ethics of justice: a different way of framing questions, valued rather than ranked below the other. Central to difference feminism.'
+      - term: Essentialism
+        gloss: In postmodern feminism, the flaw of generalising about women or assuming they have an 'essence' and common interests (slide 11).
+    misconceptions:
+      - claim: '''Feminism'' is one theory, so a criticism of it hits every feminist.'
+        tempting: Feminists share interests and political commitments.
+        correction: 'Slide 4: they do not share the same theoretical approach. Name the approach (liberal, difference, radical, postmodern) before criticising it.'
+      - claim: Difference feminism's weak point is that it assumes the male norm.
+        tempting: It, too, compares women with men.
+        correction: 'That is the criticism of liberal feminism. Difference feminism''s ''contra'': it can reinforce the stereotyped views of women that were the main cause of their subordination (slide 9).'
+      - claim: Radical feminism says women speak with a different voice that law should hear.
+        tempting: It also reacts against liberal equal treatment.
+        correction: 'That is difference feminism. MacKinnon: women ''do not so much speak with a different voice – they have no voice at all''; women as a class are dominated by men as a class.'
+    socratic:
+      - ask: What did liberal feminism want, and what did it win?
+        hint: Slide 7.
+        answer: 'Equal treatment: remove formal barriers so individuals are assessed on merit. Most legal gains of the 60s and 70s used it, eg the Sex Discrimination Act 1984 (Cth).'
+      - ask: Why was formal equality not enough?
+        hint: 'Slide 8: the male norm.'
+        answer: It did not become substantive equality; it struggled with grounds unique to women, such as pregnancy, and with indirect and private discrimination; and it took male experience as the benchmark.
+      - ask: If equal treatment means acting like men, what is the alternative?
+        hint: Gilligan.
+        answer: 'Difference feminism: embrace the differences, with an ethics of care beside the ethics of justice, and have law recognise women''s perspective and values. Contra: it can reinforce stereotypes.'
+      - ask: What if the problem is not a different voice, but no voice?
+        hint: Classes, not individuals.
+        answer: 'Radical feminism (MacKinnon): women as a class are dominated by men as a class; sex oppression is the most fundamental domination. Worry: does it see women only as victims?'
+      - ask: Can we speak of 'women' as one group at all?
+        hint: Essence; intersecting axes.
+        answer: 'Postmodern feminism rejects essentialism and stresses intersectionality. Naffine''s worries: when do we know enough, and who will speak for women?'
+    what-if:
+      - change: An employer treats pregnant and non-pregnant employees 'the same', dismissing anyone who takes months off work.
+        effect: 'Formally equal treatment, yet women bear the cost: the slide''s point that formal equality struggled to class pregnancy discrimination as discrimination, and assumed a male norm. Indirect discrimination (impact, not treatment) is the gap.'
+      - change: A reform campaign speaks only for middle-class women of one culture.
+        effect: 'Postmodern feminism would charge essentialism: women differ by race, culture, religion and class. Naffine''s counter-worry: if no one may speak for women, how is legal reform achieved?'
+    boundary:
+      - text: Moreton-Robinson's critique of white Australian feminism.
+        why: 'At the edge of feminism and critical race theory: white feminism positioned and silenced Indigenous women. It shows intersectionality at work, and why essentialism fails.'
+      - text: MacKinnon and Andrea Dworkin's model civil rights ordinance on pornography.
+        why: 'Radical feminism in practice: pornography reframed as ''an institution of gender inequality'', a political issue rather than a private preference, with civil recourse for harms (slides 10, 18).'
+    transfer:
+      - scenario: A sports body admits women to all competitions on equal terms, but keeps rules, kit and schedules designed around men's bodies and careers. Critics respond in four different ways.
+        answer: 'Liberal: formal barriers removed, so equality achieved; critique: formal is not substantive equality, and the male norm sets the benchmark. Difference: recognise women''s own values and needs, at the risk of stereotyping. Radical: ask who holds power as a class. Postmodern: which women? Race, culture and class change the picture.'
+    objections:
+      - position: Equal treatment, by removing formal barriers, is the route to women's equality (liberal feminism).
+        evidence: Most legal gains of the 1960s and 1970s, eg the Sex Discrimination Act 1984 (Cth), prohibiting direct sex discrimination (slide 7).
+        objection: Formal equality did not translate into substantive equality, and it implicitly assumes male experiences and perspectives as the norm (slide 8).
+      - position: Law should acknowledge women's perspective and values (difference feminism).
+        evidence: Gilligan's ethics of care beside the ethics of justice; formal equality forces women to assimilate to patriarchal structures (slide 9).
+        objection: It can reinforce stereotyped views about women, which have been the main cause of their subordination and inequality (slide 9).
+      - position: Women as a class are dominated by men as a class (radical feminism, MacKinnon).
+        evidence: Women have no voice at all; sex oppression is the most fundamental form of domination; pornography is a political issue (slide 10).
+        objection: Does it see women only as victims, and harm the cause by insisting women's autonomy and agency are overridden? (slide 10).
+    storyboard:
+      - caption: Separate spheres in law
+        detail: Until relatively recently, law held that men and women occupy separate spheres and should be treated differently (Bradwell v Illinois, 1873).
+      - caption: 'Liberal feminism: equal treatment'
+        detail: Remove formal barriers; assess individuals on merit. Most legal gains of the 1960s and 1970s.
+      - caption: Difference feminism replies
+        detail: Formal equality forces women to assimilate to patriarchal structures; recognise an ethics of care beside the ethics of justice (Gilligan).
+      - caption: Radical feminism replies
+        detail: 'Not a different voice but no voice: women as a class are dominated by men as a class (MacKinnon).'
+      - caption: Postmodern feminism replies
+        detail: 'No female essence: race, culture, religion and class intersect. Naffine asks who, then, will speak for women.'
+    sources:
+      - Week 08 - Lecture Slides (slides 3–12, 18)
+      - Week 08 - Lecture Transcript (first half)
+  - concept: laws2100-w08-separate-spheres-and-the-personal-is-political
+    plain: 'Law long assigned men the public sphere and women the private one. Feminists reply that ''the personal is the political'': power and injustice in private life are systemic and cause public disadvantage.'
+    concrete: In Bradwell v Illinois (1873), Justice Bradley wrote that the civil law, 'as well as nature herself', had always recognised 'a wide difference in the respective spheres and destinies of man and woman'. Women's supposed 'timidity and delicacy' unfitted them for many occupations of civil life, and the family, 'founded in the divine ordinance', marked 'the domestic sphere' as belonging to 'the domain and functions of womanhood'.
+    formal: 'Slide 17: ''separate spheres'' ideology gives a public sphere to men and a private sphere to women (and children); the law has incorporated the public–private distinction. The challenge, ''the personal is the political'': private inequality is the source of public disadvantage; the politics of power permeates the private sphere; women''s private problems are a matter of systemic injustice; the family is a political institution.'
+    analogy:
+      text: Two rooms in one house. You can tell the study from the kitchen, but the wiring, the heating and who holds the keys run through both.
+      maps:
+        - from: the two rooms
+          to: the public and private spheres
+        - from: telling the rooms apart
+          to: the spheres can be distinguished
+        - from: wiring and keys running through both
+          to: power permeating the private sphere; the family as a political institution
+      limits:
+        - A house's walls are fixed; where the private sphere ends is itself drawn by law, as Bradwell shows.
+    terms:
+      - term: Separate spheres
+        gloss: The ideology, entrenched in law until relatively recently, that men belong to the public sphere and women (and children) to the private sphere, so should be treated differently.
+      - term: Public–private distinction
+        gloss: The line between public life and private life. The law has incorporated it; the lecture says it is not negative in itself, since we value privacy.
+      - term: '''The personal is the political'''
+        gloss: 'The feminist slogan challenging the distinction: private inequality, power and injustice are political and systemic, and the family is a political institution.'
+    misconceptions:
+      - claim: Feminists who say 'the personal is the political' want to abolish privacy.
+        tempting: They challenge the public–private distinction.
+        correction: 'The lecture: the distinction is not negative per se, and we value our privacy. The point is that the spheres can be distinguished without being separate.'
+      - claim: Liberal feminism's equal treatment fully answered the separate spheres.
+        tempting: It removed formal barriers to public life.
+        correction: Its limits include public versus private discrimination (slide 8). Inequality in the private sphere, the source of public disadvantage, lay beyond formal equality in public life.
+      - claim: Bradley J grounded the separate spheres in legislation.
+        tempting: He was a judge applying law.
+        correction: He appealed to 'the civil law, as well as nature herself', and to a family 'founded in the divine ordinance, as well as in the nature of things' (slide 6).
+    socratic:
+      - ask: What does Bradley J say about the spheres of men and women?
+        hint: Bradwell v Illinois (1873).
+        answer: Civil law and nature recognise 'a wide difference in the respective spheres and destinies of man and woman'; the domestic sphere 'properly belongs to the domain and functions of womanhood'.
+      - ask: Which distinction does this mirror?
+        hint: Public and ...
+        answer: 'The public–private distinction: a public sphere for men, a private sphere for women and children. The law incorporated it.'
+      - ask: Why was equal treatment in public life not enough?
+        hint: Where does disadvantage start?
+        answer: Private inequality is the source of public disadvantage, and power permeates the private sphere. Yet claims about justice were traditionally confined to the public sphere.
+      - ask: So must the spheres be merged?
+        hint: We value privacy.
+        answer: 'No: they can be distinguished without being separate. Women''s problems in the private sphere are a matter of systemic injustice, and the family is a political institution.'
+      - ask: What has this challenge changed in law?
+        hint: Slide 23.
+        answer: 'Provocation tightened in various jurisdictions; the marital rape exception removed; the NSW 2021 reforms: consent is a free and voluntary agreement, not presumed, involving ongoing and mutual communication.'
+    what-if:
+      - change: A legislature treats violence within a marriage as a private family matter beyond the criminal law.
+        effect: 'That restores the separate spheres: the historical reluctance to intervene in domestic violence is one of Naffine''s examples of law''s partiality. ''The personal is the political'' answers that such harm is systemic injustice.'
+      - change: Consent law presumes consent between spouses unless it is expressly withdrawn.
+        effect: It would revive the logic of the marital rape exception, now removed. The NSW 2021 reforms say consent should not be presumed and involves ongoing and mutual communication.
+      - change: A privacy law protects personal correspondence from state surveillance.
+        effect: 'Not the target of the slogan: the lecture says the public–private distinction is not negative per se. The question is whether a line is used to shield systemic injustice.'
+    boundary:
+      - text: Privacy in the later weeks on rights and liberalism.
+        why: 'The lecture says the distinction returns there: a private sphere can protect individual autonomy. That is why the feminist challenge targets separation, not the distinction itself.'
+      - text: Anti-discrimination law covering employment, housing and goods and services.
+        why: Liberal feminism's public-sphere gain, prohibiting direct sex discrimination. The slides list direct versus indirect, and public versus private, discrimination among its limits (slides 7–8).
+    transfer:
+      - scenario: A firm promises equal pay and promotion for all staff. Women still advance more slowly, and surveys show they carry most of the unpaid care at home.
+        answer: '''The personal is the political'': private inequality (unpaid care) is the source of public disadvantage, so formal equality at work does not produce substantive equality. The spheres can be distinguished, but the family is a political institution, and its arrangements are a matter of systemic justice, not merely private choice.'
+    objections:
+      - position: Men and women occupy separate spheres, and law should treat them differently (Bradley J, Bradwell v Illinois).
+        evidence: Civil law and 'nature herself' recognise different spheres; the family, founded in divine ordinance, marks the domestic sphere as women's (slide 6).
+        objection: Feminism contests the idea that patriarchy is good, natural and inevitable (slide 5); 'the personal is the political' denies that the spheres are separate (slide 17).
+      - position: 'The personal is the political: injustice in private life is systemic (feminist legal theory).'
+        evidence: Private inequality causes public disadvantage; power permeates private life; the family is a political institution (slide 17).
+        objection: We value privacy, and the public–private distinction is not negative per se (lecture).
+        reply: The spheres can be distinguished without being separate (lecture).
+    storyboard:
+      - caption: Bradwell v Illinois (1873)
+        detail: 'Bradley J: nature and the civil law assign separate spheres; the domestic sphere belongs to ''the domain and functions of womanhood''.'
+      - caption: Equal treatment in public life
+        detail: Liberal feminism removes formal barriers in employment, housing and services; private discrimination remains a limit.
+      - caption: '''The personal is the political'''
+        detail: Private inequality, power and injustice are systemic; the family is a political institution.
+      - caption: Law reformed
+        detail: 'Provocation tightened; the marital rape exception removed; NSW consent reforms (2021): a free and voluntary agreement, not presumed.'
+    sources:
+      - Week 08 - Lecture Slides (slides 5–8, 17, 23)
+      - Week 08 - Lecture Transcript (first half)
+      - Week 08 - Lecture Transcript (second half)
+  - concept: laws2100-w08-naffine-in-praise-of-legal-feminism
+    plain: Naffine says legal feminism exposes how law fails to be impartial, using methods like naming injuries, and that its theorists see law's flaws as 'outsiders within', open to revision.
+    concrete: 'Many injuries done to women once had no name in law. Through consciousness raising, feminists named and re-named those injuries and pressed for their legal recognition. Expressions and legal categories that now seem natural followed: ''sexual harassment'', ''date rape'', ''domestic violence''. Naffine counts this among the aims and methods of the feminist undertaking in law, where theory and practice are joined.'
+    formal: 'Naffine, ''In Praise of Legal Feminism'' (2002): feminist legal theorists challenge how law is not impartial and objective (and, appearing impartial, is not applied equally), upholding patriarchal institutions. Methods: consciousness raising; naming and re-naming injuries; their legal recognition. They are ''neither stranger nor native'' but the ''outsider within'' (p 77), with an epistemology of largess, not ''the jurisprudence of orthodoxy'' (p 81).'
+    analogy:
+      text: 'The outsider within is like an interpreter fluent in the courtroom''s language who grew up speaking another: she follows every word, and also hears what the translation leaves out.'
+      maps:
+        - from: fluency in the courtroom's language
+          to: training in law and in the canon of legal theory
+        - from: growing up speaking another language
+          to: belonging to a group excluded from making the law
+        - from: hearing what the translation leaves out
+          to: 'the epistemic privilege of marginality: a perspective on law''s deficiencies'
+      limits:
+        - An interpreter aims at a neutral rendering; legal feminism joins analysis to a political commitment to change the law.
+    terms:
+      - term: Outsider within
+        gloss: 'Naffine: feminist legal theorists are ''neither stranger nor native'' (p 77): inside law and the legal academy, yet from a group excluded from shaping them.'
+      - term: Epistemic privilege of marginality
+        gloss: The particular perspective on the deficiencies of law available to those at its margins (slide 15).
+      - term: Consciousness raising
+        gloss: The first of the feminist methods on slide 14, joined to naming and re-naming the injuries done to women and their legal recognition.
+      - term: Epistemology of largess
+        gloss: Naffine's generous methodology, receptive of other bodies of knowledge and open to revision, set against 'the jurisprudence of orthodoxy' (p 81).
+    misconceptions:
+      - claim: The epistemic privilege of marginality means those at the margins are always right about the law.
+        tempting: '''Privilege'' sounds like authority.'
+        correction: It is a particular perspective on law's deficiencies (slide 15), joined to the view that 'one's view is necessarily limited, partial' and in need of revision (p 81).
+      - claim: Naffine praises the jurisprudence of orthodoxy for its strict limits on acceptable knowledge.
+        tempting: Strict method sounds rigorous.
+        correction: 'She contrasts it unfavourably with the epistemology of largess: ''a willingness to concede that new points of view might be better than well-used ones'' (p 81).'
+      - claim: For an exam, it is enough to list legal feminism's methods.
+        tempting: They are on the slide.
+        correction: 'The lecture warns against simply memorising them: ask why these methods are used, and why others, such as Kelsen''s pure theory, do not use consciousness raising.'
+    socratic:
+      - ask: Law presents itself as impartial and objective. What does legal feminism investigate?
+        hint: Slide 14.
+        answer: 'How law is not impartial, or, appearing impartial, is not applied equally: sexual assault law, provocation, the marital rape exception, the reluctance to intervene in domestic violence.'
+      - ask: How did once-unnamed injuries become legal wrongs?
+        hint: Three methods.
+        answer: 'Consciousness raising, naming and re-naming the injuries done to women, and pressing for their legal recognition: hence ''sexual harassment'', ''date rape'', ''domestic violence''.'
+      - ask: Why would Kelsen never use consciousness raising?
+        hint: Purity.
+        answer: 'His pure theory studies law as autonomous, uncontaminated by other disciplines. Naffine''s generous methodology is receptive to other bodies of knowledge: a different view of what legal theory is.'
+      - ask: Where do feminist legal theorists stand?
+        hint: p 77.
+        answer: 'Neither stranger nor native: the outsider within. From there they have a particular perspective on law''s deficiencies, the epistemic privilege of marginality.'
+      - ask: What attitude to one's own view does largess require?
+        hint: p 81.
+        answer: A willingness to concede that new points of view might be better than well-used ones; one's view is 'necessarily limited, partial, and so consistently in need of revision'.
+    what-if:
+      - change: A theory admits only evidence drawn from legal materials.
+        effect: That is closer to Kelsen's pure theory and Naffine's 'jurisprudence of orthodoxy'. Consciousness raising and other bodies of knowledge are excluded, and with them a route to naming new injuries.
+      - change: A feminist theorist moves from the margins into a senior post in the legal academy.
+        effect: 'She becomes an outsider within: part of the community that made the canon, yet keeping the margin''s perspective on law''s deficiencies. Naffine treats that double position as a strength.'
+    boundary:
+      - text: Nicola Lacey as an outsider within (the lecture).
+        why: 'She has mastered analytical jurisprudence and taught law for a long time, and is now Professor of Law, Gender and Social Policy at LSE: law plus insights from other disciplines (slide 20).'
+      - text: Finnis's point that we grasp a thing's deficiencies through its good, central case.
+        why: 'The lecture sets it beside Naffine: a perspective on law''s deficiencies presupposes some vision of a good legal system, though Naffine is not making Finnis''s argument.'
+    transfer:
+      - scenario: A wheelchair user who trained as a lawyer argues that building codes, neutral on their face, shut people like her out of public life, and campaigns for a new legal term for the harm.
+        answer: Naffine's account carries over. As an outsider within she has a perspective on the law's deficiencies; she exposes a law that appears impartial but is not applied equally; naming the injury and seeking its legal recognition follows the feminist method; and a generous methodology lets her draw on other bodies of knowledge, open to revision.
+    objections:
+      - position: Law, though presented as impartial, upholds patriarchal institutions (Naffine).
+        evidence: Sexual assault law, provocation, the marital rape exception, the reluctance to intervene in domestic violence (slide 14).
+        objection: 'The conventional view: equality before the law is achieved by the impartiality of laws and judicial reasoning (slide 19).'
+      - position: Legal theory gains from the margins and from a generous, revisable methodology (Naffine).
+        evidence: The outsider within; the epistemic privilege of marginality; the epistemology of largess (pp 77, 81).
+        objection: 'Kelsen''s pure theory: legal theory should study law as autonomous, free of insights from other disciplines (lecture; week 3).'
+    storyboard:
+      - caption: Law claims impartiality
+        detail: Yet sexual assault law, provocation, the marital rape exception and non-intervention in domestic violence uphold patriarchal institutions.
+      - caption: Consciousness raising
+        detail: The first feminist method Naffine names, joining theory and practice.
+      - caption: Naming and re-naming injuries
+        detail: Injuries done to women, once without a name, are named and re-named.
+      - caption: Legal recognition
+        detail: 'The injuries are recognised in law: new categories such as ''sexual harassment'', ''date rape'', ''domestic violence''.'
+    sources:
+      - Week 08 - Lecture Slides (slides 13–15)
+      - Week 08 - Lecture Transcript (first half)
+  - concept: laws2100-w08-lacey-impartiality-and-community
+    plain: Law claims to reason impartially so that all are equal before it. The feminist challenge, as Lacey frames it, questions that claim, and asks what 'community', assumed by every theory of law, really does.
+    concrete: 'Run back through the theories of law. Austin finds the sovereign through the habit of obedience in an independent political society. Hart''s legal system has officials and citizens, with the modern state as central case. Finnis''s central case of law promotes the common good of a community. Dworkin''s integrity rests on a community''s political morality. Each assumes a community: law is the law of a community, for a community. Lacey asks what that appeal does.'
+    formal: 'Slide 19: law favours ''objective, impartial and disinterested thought over emotion or personal opinion'', justified by equality before the law. The feminist challenge (Lacey, Unspeakable Subjects, 1998) targets the neutral framework of legal reasoning; law''s autonomy, neutrality, centrality, unity and rationality; law as enacted rules. Chapter 5: community is ''one particular discursive figure in contemporary Anglo-American legal theory'' (p 128).'
+    terms:
+      - term: Liberal–communitarian debate
+        gloss: Should individuals be understood primarily as autonomous agents (liberals) or as socially embedded beings shaped by communal ties (communitarians)? (slide 22)
+      - term: Discursive figure
+        gloss: 'Lacey''s description of ''community'' in legal theory: a figure in its arguments, whose rhetorical function in different appeals she assesses (p 128).'
+      - term: Impartiality
+        gloss: The claim that laws and judicial reasoning treat everyone equally, favouring disinterested thought over emotion. Terms like 'rational' and 'objective' are often defined by their opposites (slide 19).
+    misconceptions:
+      - claim: Only Dworkin's theory assumes a community.
+        tempting: Integrity openly rests on a community's political morality.
+        correction: 'The lecture: they all do. Austin needs an independent political society to find the sovereign; Hart has a community''s officials and citizens; Finnis''s central case serves a community''s common good.'
+      - claim: Law's dependence on morality is one of the conventional assumptions the feminist challenge targets.
+        tempting: Feminists criticise law's values.
+        correction: Slide 20 lists the neutral framework of legal reasoning, law's autonomy, neutrality, centrality, enacted rules, unity and rationality. Dependence on morality is not on it.
+      - claim: Liberals in the debate prioritise particular cultures and histories.
+        tempting: Liberalism values diversity.
+        correction: 'Slide 22: liberals prioritise universal norms and abstract principles over particular cultural or historical contexts; communitarians stress identities formed through shared practices and narratives.'
+    socratic:
+      - ask: Why does law claim to reason impartially?
+        hint: Slide 19.
+        answer: 'So that everyone is treated equally before the law, regardless of race, sex or religion: equality through the impartiality of laws and judicial reasoning.'
+      - ask: How are 'rational', 'impartial' and 'objective' usually defined?
+        hint: By what they are not.
+        answer: In terms of their opposites, such as emotion and personal opinion. Our understanding of law reflects this divided view of the world.
+      - ask: Which conventional assumptions does the feminist challenge question?
+        hint: Slide 20 lists seven.
+        answer: The neutral framework of legal reasoning; law's autonomy and discreteness; its neutrality and objectivity; its centrality; law as enacted rules or norms; its unity and coherence; its rationality.
+      - ask: What do Austin, Hart, Finnis and Dworkin all assume?
+        hint: Whose law?
+        answer: 'A community: Austin''s independent political society, Hart''s officials and citizens of the modern state, Finnis''s common good, Dworkin''s community and its political morality.'
+      - ask: What does Lacey do with 'community'?
+        hint: Three tasks.
+        answer: Relates the liberal–communitarian debate to law; assesses the rhetorical function of appeals to 'community'; draws implications for CLS, socio-legal studies, postmodernism and critical theory.
+    what-if:
+      - change: 'A theorist writes: ''A legal system is the law of the community that accepts it.'''
+        effect: 'Lacey''s chapter prompts the question: which community, and what rhetorical work is the appeal to ''community'' doing? The answer may decide whose practices and narratives count.'
+      - change: Judgments openly gave weight to emotion and personal experience.
+        effect: That would cut against the received view that law favours disinterested thought over emotion; the lecture notes a body of literature on emotions in law, legal reasoning and legal theory.
+    boundary:
+      - text: Dworkin's law as integrity.
+        why: 'The lecture says Lacey''s chapter engages closely with Dworkin: integrity identifies law through the political morality of the community, so its appeal to community is the clearest case.'
+      - text: Liberal feminism's individual, assessed on her merits.
+        why: 'It echoes the liberal side of the debate that communitarians criticise: individuals as autonomous agents rather than socially embedded beings (lecture).'
+    transfer:
+      - scenario: A national curriculum says schools will teach 'our community's values'. Teachers from minority backgrounds ask whose values these are.
+        answer: 'Lacey''s question: ''community'' is a discursive figure doing rhetorical work. The liberal–communitarian debate offers two pictures of the self; an appeal to one community''s shared practices and narratives can present a dominant perspective as neutral, which the feminist challenge to law''s neutrality is built to expose.'
+    objections:
+      - position: Equality before the law is achieved by the impartiality of laws and judicial reasoning (conventional view).
+        evidence: Law favours objective, impartial and disinterested thought, so all are treated equally regardless of race, sex or religion (slide 19).
+        objection: 'The feminist challenge (Lacey): law''s neutral framework, neutrality and objectivity are assumptions to be tested; law that appears impartial may not be applied equally (slides 14, 20).'
+      - position: Individuals are autonomous agents; individual rights and the primacy of justice come first (liberal theorists).
+        evidence: Liberals prioritise universal norms and abstract principles over particular cultural or historical contexts (slide 22).
+        objection: 'Communitarians: individuals are shaped by their communities, traditions and social roles; liberalism overlooks how identities form through shared practices and narratives (slide 22).'
+    sources:
+      - Week 08 - Lecture Slides (slides 19–22)
+      - Week 08 - Lecture Transcript (second half)
+  - concept: laws2100-w08-critical-race-theory
+    plain: Critical race theory argues that race is a category law and society made, and that 'neutral' legal rules can sustain racial hierarchy. It analyses law and aims to change it.
+    concrete: 'Aileen Moreton-Robinson, a Goenpul woman of the Quandamooka people, shows in Talkin'' Up to the White Woman (2000) how white Australian feminism represented and positioned Indigenous women. Indigenous women''s voices were silenced, and their demands for maternity allowances, voting rights and labour rights were left out of white feminists'' demands. A movement for equality took part in colonial oppression: CRT''s insight, and intersectionality, at work in Australia.'
+    formal: 'CRT emerged in the US in the 1970s, gaining momentum in the 1990s (scholars include Derrick Bell, Kimberlé Crenshaw, Richard Delgado, Cheryl Harris, Mari Matsuda). Themes (slides 25–26): race as socially, culturally and legally constructed; racism coexisting with formal ''objectivity'' and ''neutrality''; storytelling; rights; intersectionality; whiteness as property. ''CRT is not just descriptive, but normative.'''
+    analogy:
+      text: A running track with identical rules for everyone, where some lanes were laid uphill long ago. Treating every runner the same keeps the gap.
+      maps:
+        - from: identical rules for every runner
+          to: formal equal treatment, neutrality and colourblindness
+        - from: lanes laid uphill long ago
+          to: structural racism with a history (slavery, civil rights)
+        - from: the downhill lanes
+          to: whiteness as property, conferring legal and social advantages
+      limits:
+        - A track's slope is a fact of terrain; CRT says race itself exists because we decided to make certain characteristics relevant.
+    terms:
+      - term: Intersectionality
+        gloss: Race intersects with other identities (gender, class, sexuality, disability) to produce complex forms of discrimination and exclusion (slide 26). Shared with postmodern feminism.
+      - term: Whiteness as property
+        gloss: The CRT claim that whiteness operates as a form of property conferring legal and social advantages, which CRT seeks to dismantle (slide 26).
+      - term: Colourblindness
+        gloss: The liberal ideal of treating race as irrelevant. CRT questions it, with meritocracy and equal opportunity, as obscuring the realities of structural racism (slide 26).
+      - term: Storytelling
+        gloss: Using personal narratives and experiential knowledge, especially from communities of colour, as valid and essential sources of legal insight (slides 25–26).
+    misconceptions:
+      - claim: Racial equality simply means extending equal treatment to members of every race.
+        tempting: Treating race as irrelevant looks fair.
+        correction: 'CRT: racism can coexist with formal ''objectivity'' and ''neutrality'' (slide 25), and colourblindness can obscure structural racism. The lecture draws the parallel with the critique of liberal feminism.'
+      - claim: CRT is a US theory with nothing to say about Australian law.
+        tempting: It grew out of US slavery and civil rights history.
+        correction: 'Slide 24: many of its criticisms apply to other legal systems, including Australia. Moreton-Robinson''s work on white Australian feminism is an Australian example.'
+      - claim: 'CRT is purely descriptive: it reports how law perpetuates racism.'
+        tempting: It analyses legal doctrines and structures.
+        correction: 'Slide 26: ''CRT is not just descriptive, but normative'': it aims to transform law and society to achieve racial justice, through activism, policy reform and community-based legal strategies.'
+    socratic:
+      - ask: Why does race exist as a category?
+        hint: Slide 25.
+        answer: Because we have decided to make certain characteristics, like skin colour, relevant. Race is socially, culturally and legally constructed, which raises whose criteria make features relevant.
+      - ask: Why is equal treatment not enough for racial equality?
+        hint: Neutral rules.
+        answer: 'Racism can coexist with formal objectivity and neutrality: laws and institutions can perpetuate racial hierarchies even when they appear neutral.'
+      - ask: Which liberal ideals does CRT question?
+        hint: Three on slide 26.
+        answer: Meritocracy, equal opportunity and colourblindness, which can obscure structural racism and hinder reform. More broadly, CRT critiques liberalism as the hegemonic ideology of the West.
+      - ask: Whose knowledge counts as legal insight?
+        hint: Method.
+        answer: CRT prioritises storytelling, personal narratives and experiential knowledge, especially from communities of colour, challenging legal paradigms that exclude these voices.
+      - ask: Is CRT a description of law or a programme for change?
+        hint: Can it be both?
+        answer: 'Both: it uncovers how law sustains systemic racism and aims to transform law and society. That raises whether legal theory can separate description from evaluation.'
+    what-if:
+      - change: A university admissions rule ignores race entirely and ranks applicants only on past school results.
+        effect: 'CRT would question its meritocracy and colourblindness: results may carry structural disadvantage, so a rule that appears neutral can sustain a hierarchy. Rights on paper may not be rights in action.'
+      - change: A feminist campaign speaks for 'women' but takes up only the demands of white women.
+        effect: 'Moreton-Robinson''s critique: Indigenous women''s voices silenced and their demands left out. Intersectionality shows race and gender combining to produce distinct forms of exclusion.'
+    boundary:
+      - text: Dworkin's view that legal theory must combine description and evaluation.
+        why: 'Dworkin is clearly liberal, not a critical theorist, yet the lecture notes he too denies that legal theory can be purely descriptive: a point of contact with CRT''s normative character.'
+      - text: Critical Legal Studies.
+        why: A related critical approach to law (slide 24). CRT adds a focus on race and whiteness, and stresses the importance of rights for historically disadvantaged minorities.
+    transfer:
+      - scenario: A city's zoning rule, applied identically to everyone, keeps housing in historically wealthy suburbs expensive; those suburbs remain overwhelmingly of one background.
+        answer: 'CRT: laws can perpetuate racial hierarchies even when they appear neutral; equal treatment and equal opportunity can obscure structural racism; inherited advantage works like whiteness as property. CRT would also hear residents'' stories as legal insight and press for reform, since it is normative as well as descriptive.'
+    objections:
+      - position: Racial equality requires more than equal treatment (CRT).
+        evidence: Race is socially and legally constructed; racism coexists with formal neutrality; whiteness confers advantages like property (slides 25–26).
+        objection: 'The liberal ideals CRT questions: meritocracy, equal opportunity and colourblindness assess people as individuals, not as members of groups, as liberal feminism assessed individuals on merit (slides 7, 26).'
+      - position: Storytelling and experiential knowledge are valid sources of legal insight (CRT).
+        evidence: They give voice to unheard perspectives and challenge paradigms that exclude them (slides 25–26).
+        objection: 'The lecture: ask what the method can achieve, and what it may skew; storytelling raises methodological questions of strength and weakness.'
+    sources:
+      - Week 08 - Lecture Slides (slides 24–27)
+      - Week 08 - Lecture Transcript (second half)
+flows:
+  - slug: which-outsider-approach
+    title: Which feminist or critical race approach does this argument take?
+    summary: Sorts an argument about law and inequality into liberal, difference, radical or postmodern feminism, or critical race theory, in the order each replied to the one before, and names each approach's weak point.
+    start: n1
+    concepts:
+      - laws2100-w08-four-feminisms
+      - laws2100-w08-critical-race-theory
+      - laws2100-w08-separate-spheres-and-the-personal-is-political
+    sources:
+      - Week 08 - Lecture Slides (slides 3, 6–12, 17, 24–27)
+      - Week 08 - Lecture Transcript (first half)
+      - Week 08 - Lecture Transcript (second half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Does the argument seek equal treatment, removing formal barriers so each person is assessed on her merits?
+        note: Liberal feminism answered the 'separate spheres' view, entrenched in law until relatively recently, that men and women should be treated differently.
+        concept: laws2100-w08-four-feminisms
+        cases:
+          - bradwell-v-illinois
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n3
+      - id: n2
+        kind: end
+        tone: met
+        text: 'Liberal feminism: most legal gains of the 1960s and 1970s. Weak point: formal equality did not become substantive equality, and it assumes the male norm.'
+        authorities:
+          - sex-discrimination-act-1984-cth
+      - id: n3
+        kind: ask
+        text: Does it ask law to recognise women's different perspective and values, such as an ethics of care?
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: 'No'
+            to: n5
+      - id: n4
+        kind: end
+        tone: met
+        text: 'Difference feminism (Gilligan: ethics of care beside ethics of justice). Contra: it can reinforce the stereotyped views behind women''s subordination.'
+      - id: n5
+        kind: ask
+        text: Does it treat women as a class dominated by men as a class, with sex oppression the most fundamental domination?
+        branches:
+          - label: 'Yes'
+            to: n6
+          - label: 'No'
+            to: n7
+      - id: n6
+        kind: end
+        tone: met
+        text: 'Radical feminism (MacKinnon): women ''have no voice at all''; pornography a political issue. Worry: does it see women only as victims?'
+      - id: n7
+        kind: ask
+        text: Does it refuse to generalise about 'women', stressing intersecting axes of race, culture, religion and class?
+        note: 'Essentialism: the flaw of assuming women share an essence and common interests. Intersectionality: multiple axes of identity create different kinds of subordination.'
+        branches:
+          - label: 'Yes'
+            to: n8
+          - label: 'No'
+            to: n9
+      - id: n8
+        kind: end
+        tone: met
+        text: 'Postmodern feminism: distrust of grand narratives; binaries deconstructed. Naffine''s worries: when do we know enough, and who will speak for women?'
+        authorities:
+          - naffine-in-praise-of-legal-feminism
+      - id: n9
+        kind: ask
+        text: 'Is race its central category: constructed, made relevant, with whiteness working as property?'
+        concept: laws2100-w08-critical-race-theory
+        branches:
+          - label: 'Yes'
+            to: n10
+          - label: 'No'
+            to: n11
+      - id: n10
+        kind: end
+        tone: qualified
+        text: 'Critical race theory: a parallel critique of equal treatment and colourblindness, normative as well as descriptive. With gender it meets feminism through intersectionality, as in Moreton-Robinson''s critique of white feminism.'
+        authorities:
+          - moreton-robinson-talkin-up-to-the-white-woman
+      - id: n11
+        kind: end
+        tone: not-met
+        text: 'None of these approaches. Check whether it is a broader claim: that law''s impartiality or its appeal to ''community'' hides a dominant perspective (Lacey), or about feminist method (Naffine).'
+        concept: laws2100-w08-lacey-impartiality-and-community

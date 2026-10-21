@@ -1,0 +1,838 @@
+unit: laws2400
+week: 3
+source: raw/laws2400-torts/week-03
+generator: aids-1
+aids:
+  - concept: laws2400-w03-trespass-to-land-elements
+    plain: Trespass to land is directly entering or interfering with land someone else possesses, deliberately or carelessly, without their consent or other lawful excuse. No damage is needed.
+    concrete: 'The lecture''s everyday examples: parking a car on another person''s land, spraying graffiti on a building, gatecrashing a private party, and dumping old furniture on someone else''s property. Each is a direct, positive act on land in another''s possession. None needs damage, because trespass to land is actionable per se — and a person who honestly but wrongly thinks the land is theirs still trespasses.'
+    formal: 'Trespass to land entails direct interference with land in the possession of the plaintiff. Elements: a direct and positive act interfering with land; intentional or negligent; land in the plaintiff''s possession; without consent or other lawful justification. It is actionable per se; except in highway cases the defendant must disprove fault; mistake is no defence where there was an intentional or negligent trespassory act.'
+    terms:
+      - term: Trespassory conduct
+        gloss: Entry without consent, and also driving onto land, remaining after permission is withdrawn, throwing an object or animal onto land, and encroaching scaffolding, cranes or structures.
+      - term: Actionable per se
+        gloss: No proof of damage is needed for trespass to land; the interference itself founds the claim.
+      - term: Lawful justification
+        gloss: A legal excuse for the entry other than consent, such as the exercise of a lawful duty.
+    misconceptions:
+      - claim: Honestly believing the land is mine is a defence.
+        tempting: Trespass sounds like knowingly going where you should not.
+        correction: Mistake is no defence as long as there was an intentional or negligent trespassory act (Lecture 1, slide 6); the defendant need not intend to trespass (flowchart p 142).
+      - claim: You must set foot on the land to commit trespass.
+        tempting: Trespass is usually pictured as walking onto land.
+        correction: Driving onto land, remaining after permission is withdrawn, throwing an object or animal onto it, and encroaching scaffolding or cranes are all trespassory conduct (slide 12).
+      - claim: The plaintiff must prove the defendant was at fault.
+        tempting: In most claims the plaintiff proves every element.
+        correction: Except in highway cases, the plaintiff is not required to prove fault; the onus is on the defendant to disprove it (slide 6).
+    socratic:
+      - ask: A stranger parks on your driveway without asking. What act did she do?
+        hint: Was it direct and positive?
+        answer: 'She drove onto and parked on the land: a direct and positive act interfering with land in your possession.'
+      - ask: Must you prove the car caused any damage?
+        hint: Actionable per se.
+        answer: No. Trespass to land is actionable per se; no damage need be proved.
+      - ask: She says she thought it was visitor parking for her friend's unit. Does that help her?
+        hint: Mistake and the act.
+        answer: No. She intended to drive and park there; mistake is no defence where the act itself was intentional or negligent.
+      - ask: Who has to prove her state of mind?
+        hint: Except in highway cases…
+        answer: She must disprove fault. Outside highway cases the plaintiff need not prove it.
+      - ask: What could still answer the claim?
+        hint: The last element.
+        answer: Consent, express or implied (such as an implied licence), or another lawful justification, such as the exercise of a lawful duty.
+    elements:
+      - name: Direct and positive act
+        test: 'A direct, positive act interfering with land: entering, driving on, throwing things onto it, encroaching structures, or remaining after permission is withdrawn.'
+      - name: Intentional or negligent
+        test: The act must be intentional or negligent. Mistake is no defence; outside highway cases the defendant must disprove fault.
+      - name: In the plaintiff's possession
+        test: The land must be in the plaintiff's exclusive possession at the time of the trespass — ownership is not required.
+        cases:
+          - newington-v-windeyer
+      - name: Without consent or lawful justification
+        test: No express or implied consent (such as an implied licence), and no other lawful excuse, such as the exercise of a lawful duty.
+        cases:
+          - halliday-v-nevill
+    what-if:
+      - change: The defendant throws a rock over the fence instead of climbing it.
+        effect: 'Still trespass: throwing an object onto the land is trespassory conduct, and personal entry is not required.'
+      - change: A guest stays after the host withdraws permission and asks them to leave.
+        effect: Remaining on the land after permission to remain has been withdrawn is itself trespassory conduct.
+      - change: A cyclist is forced onto a lawn, utterly without fault.
+        effect: 'No trespass: the act must be intentional or negligent, and involuntary conduct utterly without fault is not actionable (flowchart p 142).'
+    boundary:
+      - text: Noise or smoke drifting from next door.
+        why: 'Outside trespass: there is no direct entry. Interference with use or enjoyment that need not be direct or physical is the territory of nuisance.'
+      - text: A crane jib swinging over the boundary.
+        why: 'Inside trespass: encroachment by cranes, scaffolding or structures is listed trespassory conduct, provided it enters airspace protected as part of the land.'
+    transfer:
+      - scenario: A hobbyist carelessly lands his drone in a neighbour's backyard while practising, then walks in through the side gate to fetch it without asking.
+        answer: Landing the drone and walking in are direct, positive acts on land in the neighbour's possession. The landing was careless and the walking intentional; mistake is no defence, and the hobbyist bears the onus of disproving fault. No damage is needed. Unless there was consent or other lawful justification, it is trespass to land.
+    sources:
+      - Torts Topic 3 Lecture 1 (slides 5–7, 12)
+      - Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142)
+  - concept: laws2400-w03-trespass-to-land-scope
+    plain: '"Land" covers the soil, things fixed to it, and the airspace up to the height needed for ordinary use. To sue for trespass you need exclusive possession of the land, not ownership.'
+    concrete: 'In Newington v Windeyer (1985) 3 NSWLR 555 the plaintiff had occupied a vacant area of land next to their property, The Grove, for 50 years without being its registered owner. They hosted parties there, maintained the garden and trees, and paid rates. The court held they could sue someone trying to use the land: their conduct showed exclusive possession, which — not ownership — is what trespass requires.'
+    formal: Land includes the soil, fixtures such as a house, factory or crops before harvest, and airspace — but only to the height necessary for the ordinary use and enjoyment of the land (Bernstein v Skyviews). Exclusive possession at the time of the trespass, not ownership, is needed to sue; possession is factual control plus an intention to exclude all others (Newington v Windeyer).
+    analogy:
+      text: 'Your airspace is like the headroom in your house: you control the space you could reasonably use, not the sky up to the stars.'
+      maps:
+        - from: the headroom you use
+          to: airspace up to the height needed for ordinary use and enjoyment
+        - from: the sky beyond
+          to: airspace where the owner has no greater rights than the public (Bernstein v Skyviews)
+        - from: a neighbour's sign poking into your headroom
+          to: 'Kelsen''s sign projecting 24 cm into the airspace: trespass'
+      limits:
+        - 'There is no fixed ceiling height: it depends on what ordinary use and enjoyment of that land and its structures requires.'
+        - The lecture leaves drones and minerals as open questions, which a ceiling picture cannot settle.
+    terms:
+      - term: Airspace
+        gloss: Protected as land only up to the height necessary for the ordinary use and enjoyment of the land and its structures (Bernstein v Skyviews).
+      - term: Usque ad coelum
+        gloss: The maxim that land runs up to the heavens; Griffiths J in Bernstein called its literal application a fanciful notion and rejected it.
+      - term: Exclusive possession
+        gloss: Factual control plus an intention to exclude all others, at the time of the trespass. Needed to sue; ownership is not.
+      - term: Fixtures
+        gloss: Things forming part of the land, such as a house, a factory or crops before harvesting.
+    misconceptions:
+      - claim: Only the registered owner can sue for trespass to land.
+        tempting: Land feels like the owner's to protect.
+        correction: 'Exclusive possession, not ownership, is required: a tenant can sue, and in Newington v Windeyer a non-owner who had occupied the land for 50 years could (Lecture 1, slides 9–11).'
+      - claim: A landowner owns the airspace all the way up.
+        tempting: The old maxim usque ad coelum says so.
+        correction: 'Bernstein v Skyviews: rights extend only to the height needed for ordinary use and enjoyment, so an aircraft photographing the estate from several hundred feet was no trespass.'
+      - claim: A tiny intrusion into airspace is too trivial to be trespass.
+        tempting: Twenty-four centimetres sounds like nothing.
+        correction: 'Kelsen v Imperial Tobacco: an advertising sign projecting 24 cm into the plaintiff''s airspace was a trespass; so was encroaching scaffolding in LJP Investments.'
+    socratic:
+      - ask: In Bernstein v Skyviews, what did the aircraft do, and how high was it?
+        hint: Several hundred feet; a photograph.
+        answer: It flew several hundred feet above Lord Bernstein's estate and took a photograph of his house.
+      - ask: Did it interfere with any use of the land?
+        hint: Griffiths J's balance.
+        answer: No. Above the height needed for ordinary use and enjoyment the owner has no greater rights than the public, so there was no trespass.
+      - ask: Why, then, was a 24 cm sign a trespass in Kelsen?
+        hint: Where was the intrusion?
+        answer: It was low, inside the airspace needed for ordinary use of the land, so it invaded protected airspace.
+      - ask: Who may sue for trespass to land?
+        hint: Ownership or possession?
+        answer: Whoever has exclusive possession at the time — a tenant, or a non-owner occupier like the plaintiff in Newington v Windeyer.
+      - ask: How did that plaintiff prove possession?
+        hint: Two elements, shown by conduct.
+        answer: Factual control and an intention to exclude others, shown by hosting parties, maintaining the garden and trees, and paying rates.
+    elements:
+      - name: Of land
+        test: Soil, fixtures (house, factory, crops before harvest), subsoil, and airspace up to the height needed for ordinary use and enjoyment.
+        cases:
+          - bernstein-v-skyviews
+          - kelsen-v-imperial-tobacco-co
+          - ljp-investments-v-howard-chia-investments
+      - name: Exclusive possession
+        test: Factual control plus an intention to exclude all others, at the time of the trespass. Ownership helps only if conduct shows control.
+        cases:
+          - newington-v-windeyer
+    what-if:
+      - change: Bernstein's aircraft had hovered a few metres above the roof.
+        effect: 'Likely trespass: at that height it would be inside the airspace needed for ordinary use and enjoyment of the land, like the low sign in Kelsen.'
+      - change: The occupier in Newington v Windeyer had only crossed The Grove now and then.
+        effect: 'Exclusive possession would be hard to show: occasional use lacks the factual control and intention to exclude that the parties, gardening and rates established.'
+      - change: The owner's tenant stays on after the lease ends.
+        effect: The owner, out of possession, will need to retake possession to have title to sue in trespass (flowchart p 142).
+    boundary:
+      - text: A drone over a backyard, or minerals beneath it.
+        why: Open questions in the lecture. Test the drone by Bernstein's height for ordinary use; the flowchart extends land to subsoil.
+      - text: A licensee, such as a house guest.
+        why: Licences typically do not confer exclusive possession, so a licensee usually lacks title to sue in trespass (flowchart p 142).
+    transfer:
+      - scenario: A restaurant's new sign juts half a metre over the boundary into the airspace above a neighbouring café's courtyard. The café leases its premises.
+        answer: The sign intrudes into low airspace within the height needed for ordinary use of the courtyard, like the 24 cm sign in Kelsen, so it interferes with land. The café, as tenant, has exclusive possession and can sue in trespass; ownership is not required.
+    sources:
+      - Torts Topic 3 Lecture 1 (slides 8–11)
+      - 'Casebook (unit-wide), Topic 3: Bernstein v Skyviews'
+      - Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142)
+  - concept: laws2400-w03-implied-licence
+    plain: Anyone on lawful business may walk up an open path to the front door and knock, unless a locked gate or sign says no. Entering only for some other purpose makes you a trespasser.
+    concrete: 'In Roy v O''Neill [2020] HCA 45 a police officer went to Ms Roy''s unit to check compliance with a domestic violence order protecting Mr Johnson, and approached the front door. There he required Ms Roy to give a breath sample. The High Court held he was not a trespasser: his purposes included checking on the protected person''s welfare, which was within the implied licence, even though he had another purpose too.'
+    formal: A path or driveway to the front door carries an implied licence for any member of the public on lawful business to approach and knock, unless negated by a locked gate or sign (Halliday v Nevill). It does not extend to entry to breath-test the occupier (Munnings v Barrett) or serve a summons (Plenty v Dillon). An additional alien purpose does not negate it (Roy v O'Neill).
+    analogy:
+      text: A shop's open door invites people in to shop — not to film an exposé or to steal. A "closed" sign withdraws the invitation.
+      maps:
+        - from: the open door
+          to: an unobstructed path or driveway to the front door
+        - from: the invitation to shop
+          to: the licence for lawful communication with the occupier
+        - from: the "closed" sign
+          to: a locked gate or notice negating the licence
+        - from: filming or stealing
+          to: a purpose outside the licence (Lincoln Hunt; Barker v The Queen)
+      limits:
+        - 'A shopper who also hopes to bump into a friend is still a shopper: an extra purpose does not cancel the licence (Roy v O''Neill).'
+        - The licence to a house goes only as far as the front door, narrower than a shop's invitation to roam the aisles.
+    terms:
+      - term: Implied licence
+        gloss: Permission the law implies for any member of the public on lawful business to go up an unobstructed path or driveway to the door.
+      - term: Lawful communication
+        gloss: 'The licensed purpose: lawful communication with, or delivery to, a person in the house (Halliday v Nevill, quoted in Roy v O''Neill).'
+      - term: Negation
+        gloss: An occupier negates the implied licence by locking the gate or by a notice indicating that entry is not permitted.
+      - term: Revocation
+        gloss: The occupier may revoke the licence at any time, e.g. by asking the visitor to leave; a visitor who remains becomes a trespasser.
+    misconceptions:
+      - claim: Any purpose beyond knocking makes the visitor a trespasser.
+        tempting: Munnings v Barrett and Plenty v Dillon show the licence is narrow and purpose-specific.
+        correction: 'Roy v O''Neill: entry for a licensed purpose is not unlawful because of another, alien purpose. Trespass needs a sole purpose outside the licence, revocation, or conduct inconsistent with it.'
+      - claim: The implied licence covers only friends or invited guests.
+        tempting: Permission to come onto someone's land feels personal.
+        correction: It extends to any member of the public, police included, on lawful business, unless negated by a locked gate or a sign (Halliday v Nevill; Roy v O'Neill).
+      - claim: Someone given a key and permission to enter cannot be a trespasser.
+        tempting: Express permission seems complete.
+        correction: 'Barker v The Queen: a man authorised to keep an eye on the house, and told where the key was, was a trespasser when he entered to steal.'
+    socratic:
+      - ask: An officer walks up an open driveway to arrest a disqualified driver. Is he a trespasser?
+        hint: Halliday v Nevill.
+        answer: No. The open driveway carried an implied licence the officer could rely on.
+      - ask: Another officer walks up solely to breath-test the occupier. Same answer?
+        hint: Munnings v Barrett.
+        answer: No. The implied licence does not extend to entry to administer a breath test to the occupier.
+      - ask: What about a process server delivering a summons?
+        hint: Plenty v Dillon.
+        answer: Also outside the implied licence, which does not extend to entry to serve a summons.
+      - ask: In Roy v O'Neill the officer also checked DVO compliance and breath-tested Ms Roy. Why no trespass?
+        hint: Did any of his purposes sit inside the licence?
+        answer: His purposes included checking on the protected person's welfare, which is within the licence; an additional alien purpose did not negate it.
+      - ask: When does someone who entered under the licence become a trespasser?
+        hint: Three routes (Roy v O'Neill [79]).
+        answer: When the sole purpose of entry is outside the licence, when they remain after it is revoked, or when they act inconsistently with it.
+    elements:
+      - name: Unobstructed access
+        test: An open path or driveway to the door, with no locked gate or notice negating entry.
+        cases:
+          - halliday-v-nevill
+      - name: Licensed purpose
+        test: Lawful communication with, or delivery to, someone in the house. Breath-testing the occupier (Munnings) or serving a summons (Plenty) is outside it.
+        cases:
+          - munnings-v-barrett
+          - plenty-v-dillon
+      - name: Not solely an alien purpose
+        test: An additional purpose outside the licence does not negate it; only a sole purpose outside the licence makes the entry trespass.
+        cases:
+          - roy-v-oneill
+      - name: Not revoked or exceeded
+        test: Remaining after the occupier revokes the licence, or acting inconsistently with it, makes the entrant a trespasser.
+        cases:
+          - roy-v-oneill
+          - barker-v-the-queen
+    what-if:
+      - change: The front gate is locked and a sign reads "No entry".
+        effect: The implied licence is negated, so a visitor who goes up the path is a trespasser unless they have some other lawful authority.
+      - change: In Roy v O'Neill, the officer's only purpose had been to breath-test Ms Roy.
+        effect: As in Munnings v Barrett, the sole purpose would be outside the implied licence, so the officer would have been a trespasser.
+      - change: The occupier tells the visitor to leave, and the visitor stays to argue.
+        effect: The licence is revoked; a visitor who remains becomes a trespasser (Kiefel CJ in Roy v O'Neill).
+    boundary:
+      - text: 'Lincoln Hunt v Willesee: a TV crew enters commercial premises with cameras.'
+        why: 'Outside the licence: entry not for bona fide seeking information or business with the occupier, or as a client, is trespass. Commercial premises'' licences are purpose-bound too.'
+      - text: A council officer delivering a rates notice glances through a window out of curiosity.
+        why: 'Likely within the licence: delivery is a licensed purpose, and a passing additional purpose does not negate it unless acted on inconsistently with the licence.'
+    transfer:
+      - scenario: A campaigner walks up an unlocked driveway to hand a flyer to the occupant and, while there, photographs the house's security cameras for a neighbourhood report. The occupant asks her to leave; she keeps talking for five minutes.
+        answer: Handing over a flyer is lawful communication within the implied licence (Halliday v Nevill). The photography is an additional purpose that does not by itself negate the licence (Roy v O'Neill), unless acting on it is inconsistent with the licence. Once she is asked to leave, the licence is revoked; by staying, she becomes a trespasser.
+    storyboard:
+      - caption: Officer approaches the front door
+        detail: Constable Elliott went to Ms Roy's unit to check compliance with a domestic violence order protecting Mr Johnson, entering the curtilage and approaching the front door.
+      - caption: Breath test at the door
+        detail: While there, he required Ms Roy to give a breath sample. It was positive and she was charged.
+      - caption: 'Ms Roy: you were trespassing'
+        detail: She argued his coercive purpose fell outside any implied licence, or that the licence ended when he demanded the breath sample.
+      - caption: 'High Court: no trespass'
+        detail: His purposes included checking on the protected person's wellbeing, within the implied licence. An additional, alien purpose did not make his entry unlawful.
+      - caption: When entrants become trespassers
+        detail: Only where the sole purpose is outside the licence, the licence is revoked and they remain, or they act inconsistently with it.
+    sources:
+      - Torts Topic 3 Lecture 1 (slides 13–16)
+      - 'Casebook (unit-wide), Topic 3: Roy v O''Neill'
+  - concept: laws2400-w03-remedies-trespass-to-land
+    plain: Remedies for trespass to land are damages, an injunction, or self-help using reasonable force. Because no damage need be proved, at least nominal damages are always available once trespass is shown.
+    formal: 'Remedies: damages (nominal, compensatory, aggravated, exemplary), injunctions (prohibitory or mandatory), and self-help (e.g. removing a trespasser with reasonable force). Damages put the plaintiff where she would be had no wrong been committed: generally the diminution in the property''s value, in suitable cases the higher cost of reinstatement, plus consequential injury such as psychiatric injury. The flowchart also notes a "user fee" basis.'
+    terms:
+      - term: Diminution in value
+        gloss: 'The general measure of damages for trespass to land: the reduction in the property''s value caused by the trespass.'
+      - term: Reinstatement
+        gloss: The cost of restoring the land; in suitable cases ordered even though it is higher than the diminution in value.
+      - term: Prohibitory and mandatory injunctions
+        gloss: A prohibitory injunction restrains conduct, such as further entry; a mandatory injunction requires positive action.
+      - term: Self-help
+        gloss: Acting without a court order, e.g. physically removing a trespasser using reasonable force; the nuisance counterpart is abatement.
+    misconceptions:
+      - claim: Damages for trespass to land are always the cost of repairing the land.
+        tempting: Fixing the harm seems the natural measure.
+        correction: Damages are generally assessed as the diminution in the property's value; the higher cost of reinstatement is ordered only in suitable cases (Lecture 1, slide 18).
+      - claim: A trespass that caused no loss earns nothing.
+        tempting: With no loss there is nothing to compensate.
+        correction: Trespass to land is actionable per se, so nominal damages are available without proof of loss (Lecture 1, slides 6, 17).
+      - claim: An occupier may use any force needed to eject a trespasser.
+        tempting: It is their land, and the trespasser is in the wrong.
+        correction: Self-help allows physical removal of a trespasser using reasonable force only (Lecture 1, slide 17).
+    socratic:
+      - ask: A trespasser walked across the lawn and left no mark. What can the occupier recover?
+        hint: Actionable per se.
+        answer: 'Nominal damages: no loss needs to be proved.'
+      - ask: Now rubble is dumped and the block's value falls. What is the usual measure?
+        hint: Slide 18.
+        answer: The diminution in the value of the property, putting her in the position she would have been in had no wrong been committed.
+      - ask: Clearing the rubble would cost more than the fall in value. Can she get that cost?
+        hint: In suitable cases…
+        answer: 'Possibly: in suitable cases the higher cost of reinstatement may be ordered.'
+      - ask: The trespass caused her a psychiatric injury. Is that recoverable?
+        hint: Consequential injury.
+        answer: Yes. Consequential injury or damage, such as a psychiatric injury resulting from the trespass, can be recovered.
+      - ask: The neighbour's scaffolding still encroaches. What remedy stops it?
+        hint: Prohibitory or mandatory.
+        answer: An injunction — prohibitory or mandatory — which may restrain a continuing or threatened trespass where damages would be inadequate.
+    what-if:
+      - change: The trespass was a one-off walk across the lawn causing no loss.
+        effect: Nominal damages; an injunction is unlikely to be needed, since there is no continuing or threatened trespass to restrain.
+      - change: The trespass is continuing, such as scaffolding left over the boundary.
+        effect: 'An injunction becomes attractive: it may restrain a continuing or threatened trespass where damages would be inadequate (flowchart p 142).'
+      - change: The occupier drags a trespasser out violently, injuring him.
+        effect: Self-help permits only reasonable force; violence beyond that is outside the remedy.
+    boundary:
+      - text: The cost of reinstatement far exceeds the drop in market value.
+        why: 'At the edge: diminution in value is the general measure, and reinstatement is ordered only in suitable cases, so the court decides which fits the facts.'
+    transfer:
+      - scenario: A developer's crane repeatedly swings its load over a family's backyard during a year-long build. Nothing has been damaged, but the family wants it stopped.
+        answer: Encroachment by a crane is trespassory conduct and actionable per se, so at least nominal damages are available. Because the trespass is continuing and will recur, a prohibitory injunction restraining it suits better than damages alone. Any consequential injury, such as a psychiatric injury, could also be compensated.
+    sources:
+      - Torts Topic 3 Lecture 1 (slides 17–18)
+      - Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142)
+  - concept: laws2400-w03-trespass-to-land-decision-flow
+    plain: 'To decide trespass to land, pass five gates in order: exclusive possession, of land, direct invasion, fault, and no lawful authority. Stop at the first gate the facts fail.'
+    concrete: 'In Barker v The Queen (1983) 153 CLR 338, a man authorised by the occupier to keep an eye on the house while they were away, and told where the key was, entered to steal. He was a trespasser: his entry was for a purpose outside the authority he had been given, so it was without lawful authority, justification or excuse — the last gate in the flowchart''s definition.'
+    formal: 'Trespass to land involves the direct, intentional or negligent invasion or interference with land in possession of the plaintiff without lawful authority, justification or excuse (Barker v The Queen; Roy v O''Neill). General principles, in order: exclusive possession; of land; direct invasion or interference; fault; without lawful authority, justification or excuse. Then remedies.'
+    terms:
+      - term: Title to sue
+        gloss: In the flowchart, possession of the land at the time of the interference — by title with actual possession, by consent under a lease, or by adverse possession.
+      - term: Adverse possession
+        gloss: Possession without title or consent; one of the ways the flowchart says exclusive possession can arise.
+      - term: Exceeding a licence
+        gloss: Going beyond a licence's terms, or staying after it expires or is revoked; the flowchart treats this as a direct invasion.
+    misconceptions:
+      - claim: An owner always has title to sue in trespass.
+        tempting: Ownership usually comes with possession.
+        correction: Title to sue means possession at the time of the interference. Where a tenant stays on after the lease ends, the owner may need to retake possession to sue (flowchart p 142).
+      - claim: An indirect interference with land, like noise, is trespass.
+        tempting: It still interferes with the land.
+        correction: Trespass needs a direct invasion or interference; indirect interference may be another tort, such as private nuisance (flowchart p 142).
+      - claim: Trespass to land requires an intention to trespass.
+        tempting: It is grouped with the intentional torts.
+        correction: The act must be intentional or negligent, but the defendant need not intend to trespass and mistake is generally no defence; only involuntary conduct utterly without fault is not actionable (flowchart p 142).
+    socratic:
+      - ask: Sam, a guest staying a fortnight, wants to sue a builder who crossed the back lawn. Which gate is the problem?
+        hint: Gate 1.
+        answer: 'Exclusive possession: licences typically do not confer it, so Sam probably has no title to sue.'
+      - ask: Lena's lease ended a month ago but she has not moved out. Can the owner, Omar, sue her in trespass straight away?
+        hint: What does the flowchart say about tenants who stay on?
+        answer: 'Not yet: he will need to retake possession to have title to sue in trespass.'
+      - ask: Is a neighbour's party noise a direct invasion?
+        hint: Gate 3.
+        answer: No. It is indirect and affects enjoyment of the land — the territory of private nuisance, not trespass.
+      - ask: The builder thought the lawn was a public path. Does gate 4 fail?
+        hint: Must he intend to trespass?
+        answer: No. His walking was intentional; he need not intend to trespass, and mistake is generally no defence.
+      - ask: Priya tells Tom to leave her shop's back office; he stays twenty minutes. Which gate does that engage?
+        hint: Licences and revocation.
+        answer: 'Direct invasion: staying beyond the revocation of a licence is a direct invasion, without lawful authority from then on.'
+    elements:
+      - name: Exclusive possession
+        test: 'Title to sue: possession at the time of the interference — by title with actual possession, by lease, or by adverse possession. Licences typically do not confer it.'
+        cases:
+          - newington-v-windeyer
+      - name: Of land
+        test: Extends to invasion of or direct interference with airspace, fixtures and subsoil.
+        cases:
+          - bernstein-v-skyviews
+          - kelsen-v-imperial-tobacco-co
+      - name: Direct invasion or interference
+        test: Includes exceeding a licence's terms, or staying beyond its expiry or revocation. Indirect interference may be private nuisance.
+      - name: Fault
+        test: An intentional or negligent act. No need to intend to trespass; mistake is generally no defence; involuntary conduct utterly without fault is not actionable.
+      - name: Without lawful authority, justification or excuse
+        test: No consent, licence or other lawful authority covers the entry or the purpose for which it was made.
+        cases:
+          - barker-v-the-queen
+          - roy-v-oneill
+    what-if:
+      - change: Sam holds a lease rather than staying as a guest.
+        effect: 'Gate 1 is passed: possession under a lease is possession by consent, so Sam has title to sue the builder.'
+      - change: The interference is smoke drifting from a neighbour's incinerator, not a builder walking across.
+        effect: 'Gate 3 fails: indirect interference is not trespass, though it may be private nuisance.'
+    boundary:
+      - text: A licence that has expired or been revoked.
+        why: 'At gate 3: going beyond a licence''s expiry or revocation counts as direct invasion, so someone lawfully present at first can become a trespasser.'
+      - text: 'Roy v O''Neill: an officer at the front door with mixed purposes.'
+        why: 'At gate 5: entry for a purpose within the implied licence has lawful authority, even if an additional purpose lies outside it.'
+    transfer:
+      - scenario: A short-term rental guest's booking ends at 10 am; at noon she is still inside packing. Meanwhile a neighbour's gardener deliberately drops a cut branch onto the rental's roof.
+        answer: 'The guest is a licensee, so the host keeps possession (gate 1). Staying beyond the licence''s expiry is a direct invasion (gate 3) by an intentional act (gate 4) without lawful authority (gate 5). Deliberately dropping a branch onto the roof directly interferes with a fixture, which is land (gate 2): trespass, actionable without proof of damage.'
+    sources:
+      - Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142)
+      - Torts Topic 3 Lecture 1 (slides 5–15)
+      - 'Casebook (unit-wide), Topic 3: Roy v O''Neill'
+  - concept: laws2400-w03-public-nuisance
+    plain: Public nuisance is an unlawful act or omission that endangers the public or blocks a right everyone shares. It is a crime, but an individual can sue if she suffered special damage.
+    concrete: 'In Walsh v Ervin [1952] VLR 361 a farmer ploughed and planted crops on a public highway and put up gates that stopped the plaintiff driving onto his own land. Obstructing a highway is a classic public nuisance. The court held the plaintiff''s special damage need not be money: delay and inconvenience of a substantial kind, different from what the rest of the public suffered, could be enough.'
+    formal: 'Public nuisance is an unlawful act or omission which (i) endangers the lives, safety, property or comfort of the public or (ii) obstructs the enjoyment of a right common to all. It is a common law crime; a tort action requires title to sue (special or particular damage, not limited to pecuniary loss: Walsh v Ervin), interference with a public right, and substantial and unreasonable interference.'
+    analogy:
+      text: A broken lift in an apartment block inconveniences everyone, and fixing it is the building manager's job. But a resident whose own access is cut off for days suffers something different in kind.
+      maps:
+        - from: everyone inconvenienced
+          to: interference with a right common to all
+        - from: the building manager's job
+          to: public nuisance as the community's and the state's responsibility
+        - from: the resident cut off for days
+          to: special or particular damage, giving title to sue
+      limits:
+        - A lift can break with no one to blame; public nuisance needs an unlawful act or omission.
+        - 'The resident''s harm need not be financial or physical: substantial delay and inconvenience can be special damage (Walsh v Ervin).'
+    terms:
+      - term: Special or particular damage
+        gloss: Damage to the plaintiff different from the public's generally; not limited to pecuniary loss — substantial delay and inconvenience can qualify (Walsh v Ervin).
+      - term: Public right
+        gloss: A right common to all, such as using a highway. The general public must be affected by the alleged nuisance.
+      - term: Substantial and unreasonable
+        gloss: Not every annoyance, discomfort or inconvenience is public nuisance; a temporary obstruction of a highway may fall short.
+    misconceptions:
+      - claim: Anyone inconvenienced by a public nuisance can sue.
+        tempting: Everyone affected seems to be a victim.
+        correction: Public nuisance is a common law crime; an individual's tort action needs special or particular damage, different from the public's generally (Lecture 1, slides 21–22).
+      - claim: Special damage means financial loss.
+        tempting: '"Damage" sounds like money.'
+        correction: 'Walsh v Ervin: special damage is not limited to pecuniary loss; substantial delay and inconvenience, dissimilar to the public''s, may be enough (slide 24).'
+      - claim: Any obstruction of a road is a public nuisance.
+        tempting: Obstructing a highway is the classic example.
+        correction: The interference must be substantial and unreasonable; not every annoyance or inconvenience counts, and a temporary obstruction of a highway may not (slide 26).
+    socratic:
+      - ask: In Walsh v Ervin, whose right did the crops and gates interfere with?
+        hint: Who uses a highway?
+        answer: The public's right to use the highway — a right common to all, so a classic public nuisance.
+      - ask: Who should ordinarily deal with that?
+        hint: Public nuisance is a crime.
+        answer: 'The community, through the state: addressing public nuisance is generally the state''s responsibility.'
+      - ask: What let this plaintiff sue privately?
+        hint: Title to sue.
+        answer: 'Special or particular damage: the obstruction stopped his own vehicle access to his land.'
+      - ask: Did it matter that he may have lost no money?
+        hint: What did the court say about pecuniary loss?
+        answer: No. Special damage is not limited to pecuniary loss; substantial delay and inconvenience dissimilar to the public's may suffice.
+      - ask: Would a road blocked for ten minutes by a delivery truck be enough?
+        hint: Substantial and unreasonable.
+        answer: Probably not. Not every inconvenience is public nuisance, and a temporary obstruction of a highway may fall short.
+    elements:
+      - name: Title to sue
+        test: Special or particular damage, different from that suffered by the public generally; not limited to pecuniary loss (Walsh v Ervin).
+        cases:
+          - walsh-v-ervin
+      - name: Interference with a public right
+        test: Endangering the public's lives, safety, property or comfort, or obstructing a right common to all. The general public must be affected.
+      - name: Substantial and unreasonable
+        test: Not every annoyance, discomfort or inconvenience; a temporary obstruction of a highway may not be enough.
+    what-if:
+      - change: The gates delayed the plaintiff no differently from other road users.
+        effect: 'No title to sue: his damage would be the same as the public''s, so the matter would be for the state, not a private tort action.'
+      - change: The obstruction lasted only a few minutes while a tractor crossed.
+        effect: 'Probably not substantial and unreasonable: a temporary obstruction of a highway may fall short of public nuisance.'
+      - change: The plaintiff also lost a sale because buyers could not reach his farm.
+        effect: His special damage is even clearer, as financial loss beyond the public's inconvenience — though Walsh v Ervin shows money loss is not essential.
+    boundary:
+      - text: Could public nuisance happen inside a cricket stadium?
+        why: 'The lecture leaves this open. Test it against the elements: is a right common to all interfered with, and is the general public affected?'
+      - text: A factory pollutes water used by a whole town; one resident also loses the use of her own jetty.
+        why: Endangering the public's comfort or property can be public nuisance; the resident's lost jetty may be special damage, unlike the town's shared harm.
+    transfer:
+      - scenario: Every Saturday night a nightclub's queue blocks the footpath, forcing pedestrians onto the road. The florist next door says customers cannot reach her shop on Saturday evenings and she loses sales.
+        answer: Regularly blocking a footpath obstructs a right common to all, so it may be public nuisance if substantial and unreasonable rather than a temporary obstruction. Ordinary pedestrians cannot sue in tort; the florist may, because her lost access and sales are special damage different from the public's (Walsh v Ervin).
+    sources:
+      - Torts Topic 3 Lecture 1 (slides 19–26)
+  - concept: laws2400-w03-private-nuisance-elements
+    plain: Private nuisance is a substantial, unreasonable interference with someone's use and enjoyment of their land — by noise, smell, dust and the like. Only someone with a proprietary interest can sue.
+    concrete: 'In Victoria Park Racing v Taylor (1937) 58 CLR 479 a neighbour across the road built a platform about sixteen feet high, from which a broadcaster described each race live on radio. Patrons stayed home to listen. The High Court majority held there was no nuisance: the racecourse was as usable as ever, the loss was diverted custom from lawful competition, and freedom from being overlooked is not a protected right.'
+    formal: 'Private nuisance, an action on the case, protects against tangible and intangible interferences with use and enjoyment of land. The plaintiff must have title to sue (a proprietary interest: Oldham v Lawson (No 1); Hunter v Canary Wharf); the interference must be substantial and unreasonable (an ordinary person''s standard: Munro v Southern Dairies); and the defendant must have created, authorised or continued it.'
+    analogy:
+      text: 'Neighbours share a see-saw: each side must put up with some movement from the other. The court decides when one side is pushing too hard.'
+      maps:
+        - from: the shared see-saw
+          to: balancing the competing rights of neighbouring occupiers
+        - from: movement each side tolerates
+          to: the reasonable actions of neighbours
+        - from: pushing too hard
+          to: substantial and unreasonable interference
+        - from: how hard, how often, when
+          to: frequency, duration, time, locality and distance
+      limits:
+        - A see-saw reacts to whoever sits on it; nuisance is judged by an ordinary person, not an abnormally sensitive one (Munro v Southern Dairies).
+        - A see-saw ignores motive, but malice can make an interference unreasonable (Hollywood Silver Fox Farm v Emmett).
+    terms:
+      - term: Title to sue (nuisance)
+        gloss: 'A proprietary interest: an owner or tenant in actual possession. A licensee — a tenant''s daughter, a guest, a short-term Airbnb occupant — cannot sue.'
+      - term: Substantial and unreasonable
+        gloss: Judged objectively, by an ordinary person in the plaintiff's position, weighing frequency, duration, time, locality and distance.
+      - term: Continuing a nuisance
+        gloss: Not creating it, but neglecting to remedy it after becoming, or when one should have become, aware of it (Lord Wright).
+      - term: Tangible and intangible interference
+        gloss: 'Private nuisance covers both: fire, water and dust, as well as noise and smell.'
+    misconceptions:
+      - claim: Anyone living in the house can sue for nuisance.
+        tempting: Khorasandjian v Bush let a licensee daughter sue, and Deasy Investments v Monreast followed it.
+        correction: 'Hunter v Canary Wharf overruled Bush: title to sue requires a proprietary interest. In Oldham v Lawson (No 1) the husband, a licensee only, could not sue (Lecture 2, slides 4–5).'
+      - claim: Being overlooked by a neighbour is a nuisance.
+        tempting: It feels like an invasion of one's enjoyment of the land.
+        correction: 'Victoria Park Racing v Taylor: freedom from view is not a legally protected interest, and loss from lawful competition is not interference with enjoyment — though hostility might change things (slide 8).'
+      - claim: Only the person who created the nuisance can be sued.
+        tempting: The creator is the obvious wrongdoer.
+        correction: An occupier who authorises it, or who continues it by neglecting to remedy it once aware of it, can also be liable (Lecture 2, slides 10–12).
+    socratic:
+      - ask: In Victoria Park Racing, could the racecourse still be used as a racecourse?
+        hint: 'Latham CJ: "as suitable as ever".'
+        answer: Yes. The defendants had not interfered with the use and enjoyment of the land itself.
+      - ask: Then what was the plaintiff really complaining about?
+        hint: Where did its patrons go?
+        answer: 'Lost profits: patrons stayed home to listen. Diverted custom, Dixon J said, can be a head of damage for a wrong, but it is not the wrong itself.'
+      - ask: Isn't being overlooked a wrong?
+        hint: Dixon J on freedom from view.
+        answer: No. Freedom from view is not a legally protected interest; the occupier's remedy was to build a higher fence.
+      - ask: When was the noise, smell and flies from horses a nuisance in Munro v Southern Dairies?
+        hint: Whose standard of comfort?
+        answer: When, considering all the factors, it was substantial and unreasonable to an ordinary person in the plaintiff's position — not someone abnormally sensitive.
+      - ask: Can firing guns on your own land be a nuisance?
+        hint: Hollywood Silver Fox Farm v Emmett.
+        answer: 'Yes, where it is done deliberately to disturb a neighbour''s foxes in the breeding season: motive or malice can make an interference unreasonable.'
+    elements:
+      - name: Title to sue
+        test: A proprietary interest — owner or tenant in actual possession; a licensee cannot sue (Oldham v Lawson; Hunter v Canary Wharf, overruling Khorasandjian v Bush).
+        cases:
+          - oldham-v-lawson-no-1
+          - hunter-v-canary-wharf
+          - khorasandjian-v-bush
+      - name: Substantial and unreasonable interference
+        test: Weigh frequency, duration, time, locality and distance against an ordinary person's standard (Munro). Malice may tip the balance; being overlooked or lawful competition is not enough (Victoria Park).
+        cases:
+          - munro-v-southern-dairies
+          - hollywood-silver-fox-farm-v-emmett
+          - victoria-park-racing-and-recreation-grounds-co-v-taylor
+      - name: Created, authorised or continued
+        test: The creator (strictly liable, even if not the occupier); an occupier who authorises the activity; or one who continues it by neglecting to remedy it once aware.
+    what-if:
+      - change: In Oldham v Lawson, the husband had also held a legal interest in the house.
+        effect: He would then have a proprietary interest, and so title to sue, like his wife.
+      - change: The Victoria Park broadcaster's overlooking had been hostile, akin to harassment.
+        effect: 'The lecture leaves this open: motive or malice can make an interference unreasonable (Hollywood Silver Fox Farm), so hostile overlooking might be treated differently.'
+      - change: A new occupier learns of a nuisance created by a previous occupier and does nothing.
+        effect: 'The new occupier may be liable for continuing it: neglecting to remedy a nuisance once aware of it is continuing it (Lord Wright).'
+    boundary:
+      - text: Khorasandjian v Bush and Deasy Investments v Monreast.
+        why: Both let licensees sue, but Hunter v Canary Wharf (UK, 1997) overruled Bush and restored the proprietary-interest requirement.
+      - text: Rich and Evatt JJ's dissent in Victoria Park Racing.
+        why: They thought the categories of nuisance are not closed and that systematic overlooking for profit could be actionable; the majority disagreed.
+    transfer:
+      - scenario: A tenant's neighbour installs a commercial-grade air conditioner that runs loudly all night beside the tenant's bedroom window. The tenant's adult son, staying with her for a month, also wants to sue.
+        answer: The tenant has title to sue as a tenant in possession; her son, a licensee, does not (Oldham; Hunter v Canary Wharf). Loud, all-night noise beside a bedroom is likely substantial and unreasonable to an ordinary person, given time, duration and distance (Munro). The neighbour created the state of affairs, so is the right defendant.
+    sources:
+      - Topic 3 Lecture 2 (slides 2–12)
+      - 'Casebook (unit-wide), Topic 3: Victoria Park Racing v Taylor'
+  - concept: laws2400-w03-nuisance-defences-remedies
+    plain: 'Nuisance defences include a 20-year prescriptive right, the plaintiff''s conduct or consent, statutory authorisation and contributory negligence — but not "coming to the nuisance". Remedies: damages, injunction, or careful self-help.'
+    formal: 'Defences: prescriptive right (interference continued for more than 20 years); plaintiff''s conduct or consent (the most pleaded), though coming to the nuisance is no defence; statutory authorisation, if the authorised activity could not be performed without the nuisance; contributory negligence. Remedies: damages (reasonably foreseeable harm), injunction (damages inadequate; recurrence), abatement (cautiously, reasonable methods).'
+    terms:
+      - term: Prescriptive right
+        gloss: A right to continue an interference that has continued for more than 20 years; a defence to nuisance.
+      - term: Coming to the nuisance
+        gloss: Moving in next to an existing nuisance. It is no defence that the plaintiff came to the nuisance.
+      - term: Statutory authorisation
+        gloss: A defence only where the authorised activity could not have been performed without committing the nuisance.
+      - term: Abatement
+        gloss: 'Self-help for nuisance: an alternative to legal proceedings, used cautiously and only by reasonable methods.'
+    misconceptions:
+      - claim: Someone who moves in next to an existing factory cannot complain about its noise.
+        tempting: They chose to live there knowing about it.
+        correction: It is no defence that the plaintiff "came to the nuisance" (Lecture 2, slide 13).
+      - claim: Holding a government permit is a complete defence to nuisance.
+        tempting: The activity looks officially approved.
+        correction: Statutory authorisation applies only if the authorised activity could not have been performed without committing the nuisance (Lecture 2, slide 13).
+      - claim: Any harm flowing from a nuisance is recoverable.
+        tempting: The defendant caused it, so should pay for all of it.
+        correction: To claim damages for a type of harm, the plaintiff must show that type of harm was reasonably foreseeable (Lecture 2, slide 15).
+    socratic:
+      - ask: A quarry's dust has drifted next door for 25 years. What defence might it raise?
+        hint: Time.
+        answer: 'A prescriptive right: the interference has continued for more than 20 years.'
+      - ask: The neighbour bought the house knowing about the dust. Is that a defence?
+        hint: Coming to the nuisance.
+        answer: No. It is no defence that the plaintiff came to the nuisance.
+      - ask: The quarry holds a government permit. Is that enough?
+        hint: When does statutory authorisation work?
+        answer: Only if the authorised quarrying could not have been carried out without committing the nuisance.
+      - ask: What damages could the neighbour claim?
+        hint: Three kinds of loss; one limit.
+        answer: Damage to the land, financial loss (lost trade, lower property value) and loss of subjective enjoyment — for types of harm that were reasonably foreseeable.
+      - ask: The dust will keep coming. Which remedy fits best?
+        hint: Adequacy of damages; recurrence.
+        answer: An injunction, normally granted where damages are not an adequate remedy, with the chance of recurrence a key factor.
+    elements:
+      - name: Prescriptive right
+        test: The interference complained of has continued for more than 20 years.
+      - name: Plaintiff's conduct or consent
+        test: The most pleaded defence. But it is no defence that the plaintiff came to the nuisance.
+      - name: Statutory authorisation
+        test: Only if the authorised activity could not have been performed without committing the nuisance.
+      - name: Contributory negligence
+        test: Another possible defence to nuisance.
+      - name: Remedy
+        test: Damages for reasonably foreseeable types of harm; an injunction where damages are inadequate (consider recurrence); or abatement, cautiously and by reasonable methods.
+    what-if:
+      - change: The interference has continued for 15 years, not 25.
+        effect: 'No prescriptive right: the interference must have continued for more than 20 years.'
+      - change: The nuisance was a one-off event unlikely to recur.
+        effect: An injunction is less likely, since recurrence is a key factor and damages may be adequate; damages would be the natural remedy.
+      - change: To stop overhanging branches, the plaintiff cuts down the neighbour's whole tree.
+        effect: Abatement must be cautious and use only reasonable methods; going beyond what is needed to abate the nuisance falls outside the remedy.
+    boundary:
+      - text: A quarrying permit that says nothing about dust.
+        why: 'Statutory authorisation is not automatic: the question is whether the authorised quarrying could be carried out without the dust nuisance.'
+      - text: A fall in the plaintiff's property value caused by the nuisance.
+        why: Recoverable as financial loss (decline in property value), provided that type of harm was reasonably foreseeable.
+    transfer:
+      - scenario: A couple buy a house beside a long-established late-night music venue, then sue over the noise. The venue says it holds a liquor licence and that the couple "knew what they were buying".
+        answer: Coming to the nuisance is no defence. The licence helps only if it amounts to statutory authorisation — the authorised activity could not be carried out without the nuisance. If the noise has continued for more than 20 years, a prescriptive right may be argued. Because the noise recurs, an injunction may suit better than damages.
+    sources:
+      - Topic 3 Lecture 2 (slides 13–16)
+flows:
+  - slug: trespass-to-land
+    title: Is a trespass to land made out, and what remedy follows?
+    summary: Walks the flowchart's general principles in order — possession, land, direct invasion, fault, lawful authority — then chooses a remedy.
+    start: t1
+    concepts:
+      - laws2400-w03-trespass-to-land-decision-flow
+      - laws2400-w03-trespass-to-land-elements
+      - laws2400-w03-trespass-to-land-scope
+      - laws2400-w03-implied-licence
+      - laws2400-w03-remedies-trespass-to-land
+    sources:
+      - Topic 3 Flowcharts - Trespass to Land (Tort Law Principles 3e, p 142)
+      - Torts Topic 3 Lecture 1 (slides 5–18)
+    nodes:
+      - id: t1
+        kind: ask
+        text: Did the plaintiff have exclusive possession when the interference happened?
+        note: By title with actual possession, by lease, or by adverse possession. Licences typically do not confer it. Ownership is not needed (Newington v Windeyer).
+        concept: laws2400-w03-trespass-to-land-scope
+        cases:
+          - newington-v-windeyer
+        branches:
+          - label: 'Yes'
+            to: t2
+          - label: 'No'
+            to: tx
+      - id: t2
+        kind: ask
+        text: Was it land — soil, fixtures, subsoil, or airspace within the height needed for ordinary use?
+        note: An aircraft several hundred feet up is no trespass (Bernstein v Skyviews); a sign 24 cm into the airspace is (Kelsen); so is encroaching scaffolding (LJP Investments).
+        cases:
+          - bernstein-v-skyviews
+          - kelsen-v-imperial-tobacco-co
+          - ljp-investments-v-howard-chia-investments
+        branches:
+          - label: 'Yes'
+            to: t3
+          - label: 'No'
+            to: tx
+      - id: t3
+        kind: ask
+        text: Was the invasion or interference direct?
+        note: Entering, driving on, throwing objects or animals onto land, encroaching structures, exceeding a licence or staying after its revocation. Indirect interference (noise, smell) is not trespass.
+        concept: laws2400-w03-trespass-to-land-elements
+        branches:
+          - label: 'Yes'
+            to: t4
+          - label: No, it was indirect
+            to: tn
+      - id: tn
+        kind: end
+        tone: qualified
+        text: Not trespass. An indirect interference may be private nuisance.
+        concept: laws2400-w03-private-nuisance-elements
+      - id: t4
+        kind: ask
+        text: Was the act intentional or negligent?
+        note: The defendant need not intend to trespass; mistake is generally no defence. Outside highway cases the defendant must disprove fault. Involuntary conduct utterly without fault is not actionable.
+        branches:
+          - label: 'Yes'
+            to: t5
+          - label: No, utterly without fault
+            to: tx
+      - id: t5
+        kind: ask
+        text: Did the defendant have consent, an implied licence or other lawful authority to be there?
+        note: An open path to the front door carries an implied licence for lawful communication unless a locked gate or sign negates it (Halliday v Nevill).
+        concept: laws2400-w03-implied-licence
+        cases:
+          - halliday-v-nevill
+        branches:
+          - label: 'Yes'
+            to: t6
+          - label: 'No'
+            to: tm
+      - id: t6
+        kind: ask
+        text: Did the defendant stay within it — a licensed purpose, not revoked, not exceeded?
+        note: 'Outside: a sole purpose of breath-testing (Munnings) or serving a summons (Plenty); entering to steal (Barker). An extra alien purpose does not defeat the licence (Roy v O''Neill).'
+        exception: true
+        cases:
+          - munnings-v-barrett
+          - plenty-v-dillon
+          - barker-v-the-queen
+          - roy-v-oneill
+        branches:
+          - label: Yes, within it
+            to: tx
+          - label: 'No: outside, revoked or exceeded'
+            to: tm
+      - id: tm
+        kind: step
+        text: Trespass to land is made out. It is actionable per se, so no damage need be proved.
+        next: tr
+      - id: tr
+        kind: ask
+        text: Is the trespass continuing or threatened, so that damages would be inadequate?
+        concept: laws2400-w03-remedies-trespass-to-land
+        branches:
+          - label: 'Yes'
+            to: ti
+          - label: 'No'
+            to: td
+      - id: ti
+        kind: end
+        tone: met
+        text: 'Seek an injunction (prohibitory or mandatory), with damages for any loss so far. Self-help: reasonable force only.'
+      - id: td
+        kind: end
+        tone: met
+        text: 'Damages: nominal if no loss; otherwise diminution in value or, in suitable cases, reinstatement, plus consequential injury. A "user fee" basis is an alternative.'
+      - id: tx
+        kind: end
+        tone: not-met
+        text: Trespass to land is not made out on these facts.
+  - slug: nuisance
+    title: Is there an actionable nuisance — public or private?
+    summary: Separates nuisance from trespass, then takes the elements of public or private nuisance, the defences and the remedy.
+    start: n1
+    concepts:
+      - laws2400-w03-public-nuisance
+      - laws2400-w03-private-nuisance-elements
+      - laws2400-w03-nuisance-defences-remedies
+    sources:
+      - Torts Topic 3 Lecture 1 (slides 19–26)
+      - Topic 3 Lecture 2 (slides 2–16)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Is the complaint an interference with the use or enjoyment of land, rather than a direct entry onto it?
+        note: 'Nuisance need not be direct or physical: smell, noise, polluted water or air, water overflow, loud music, tree roots. A direct entry points to trespass to land.'
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: No, a direct entry
+            to: nt
+      - id: nt
+        kind: end
+        tone: qualified
+        text: Consider trespass to land instead.
+        concept: laws2400-w03-trespass-to-land-decision-flow
+      - id: n2
+        kind: ask
+        text: Does it affect the public at large, or a particular occupier's land?
+        branches:
+          - label: 'The public: a right common to all'
+            to: p1
+          - label: A particular occupier
+            to: v1
+      - id: p1
+        kind: ask
+        text: Did the plaintiff suffer special or particular damage, different from the public generally?
+        note: 'Not limited to money: substantial delay and inconvenience, dissimilar to the public''s, may suffice (Walsh v Ervin). Otherwise public nuisance is for the state.'
+        concept: laws2400-w03-public-nuisance
+        cases:
+          - walsh-v-ervin
+        branches:
+          - label: 'Yes'
+            to: p2
+          - label: 'No'
+            to: nx
+      - id: p2
+        kind: ask
+        text: Was the interference with the public right substantial and unreasonable?
+        note: Not every annoyance, discomfort or inconvenience counts; a temporary obstruction of a highway may fall short.
+        branches:
+          - label: 'Yes'
+            to: d1
+          - label: 'No'
+            to: nx
+      - id: v1
+        kind: ask
+        text: Does the plaintiff have a proprietary interest — owner, or tenant in actual possession?
+        note: A licensee cannot sue (Oldham v Lawson (No 1)); Hunter v Canary Wharf overruled Khorasandjian v Bush.
+        concept: laws2400-w03-private-nuisance-elements
+        cases:
+          - oldham-v-lawson-no-1
+          - hunter-v-canary-wharf
+        branches:
+          - label: 'Yes'
+            to: v2
+          - label: 'No'
+            to: nx
+      - id: v2
+        kind: ask
+        text: Is the interference substantial and unreasonable to an ordinary person in the plaintiff's position?
+        note: Weigh frequency, duration, time, locality, distance (Munro v Southern Dairies). Malice may count (Hollywood Silver Fox Farm); being overlooked or lawful competition does not (Victoria Park Racing).
+        cases:
+          - munro-v-southern-dairies
+          - hollywood-silver-fox-farm-v-emmett
+          - victoria-park-racing-and-recreation-grounds-co-v-taylor
+        branches:
+          - label: 'Yes'
+            to: v3
+          - label: 'No'
+            to: nx
+      - id: v3
+        kind: ask
+        text: Did the defendant create, authorise or continue the state of affairs?
+        note: The creator is liable even if not the occupier; an occupier who authorises it; or one who neglects to remedy it after becoming, or when they should have become, aware of it.
+        branches:
+          - label: 'Yes'
+            to: d1
+          - label: 'No'
+            to: nx
+      - id: d1
+        kind: ask
+        text: Does a defence apply — prescription, the plaintiff's conduct or consent, statutory authorisation, or contributory negligence?
+        note: Prescription needs more than 20 years. Statutory authorisation needs the activity to be impossible without the nuisance. Coming to the nuisance is no defence.
+        concept: laws2400-w03-nuisance-defences-remedies
+        exception: true
+        branches:
+          - label: 'Yes'
+            to: dq
+          - label: 'No'
+            to: nm
+      - id: dq
+        kind: end
+        tone: qualified
+        text: 'A defence is in play: the claim turns on whether it is made out on the facts.'
+      - id: nm
+        kind: end
+        tone: met
+        text: 'Nuisance is actionable. Remedies: damages for foreseeable harm, an injunction where damages are inadequate or recurrence is likely, or cautious abatement.'
+      - id: nx
+        kind: end
+        tone: not-met
+        text: No actionable nuisance on these facts.

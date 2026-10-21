@@ -1,0 +1,16 @@
+code: LAWS2000
+name: Public International Law
+exam-date: 2026-11-19
+weeks-expected: 12
+answer-style: problem   # ILAC problem questions
+# Exam (final timetable, 20 Oct 2026): single source for every exam-dependent feature (scripts/units.mjs writes src/content/units/ from this).
+exam:
+  start: 2026-11-19T13:30:00+11:00   # Australia/Sydney (AEDT, UTC+11)
+  duration-min: 165
+  reading-min: 15
+  working-min: 150
+  mode: On-campus invigilated face-to-face exam
+  venue: North Ryde campus
+  notes: "Hand-written, closed book with 10 A4 sheets of typed or handwritten notes (double-sided), collected with the paper; no dictionary or calculator. Four questions, all answered: Q1 hypothetical 40% (three sub-questions), Q2 short essay 30%, Q3 discursive 15%, Q4 discursive 15%. No writing during reading time. Room and seat numbers released 1 pm Wed 4 Nov 2026; bring photo ID."
+  status: final
+  source: "Macquarie University Session 2 2026 Final Exam Timetable (student 48883824), screenshot supplied by the student 20 Oct 2026 — raw/laws2000-pil/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp."

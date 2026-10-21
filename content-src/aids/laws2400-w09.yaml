@@ -1,0 +1,703 @@
+unit: laws2400
+week: 9
+source: raw/laws2400-torts/week-09
+generator: aids-1
+aids:
+  - concept: laws2400-w09-breach-of-duty-flowchart
+    plain: 'Breach asks two questions: was there a real, foreseeable risk of injury, and did the defendant respond to it as a reasonable person in its position would have?'
+    concrete: 'Third parties dropped concrete from an overpass onto the F5 freeway, killing a truck driver. Campbell JA accepted it was always predictable that someone might drop an object from a bridge: not far-fetched or fanciful. But the RTA was already screening bridges systematically, and before a roads authority is negligent for not screening a bridge, it must have failed to take a step a reasonable roads authority would have taken. No breach.'
+    formal: 'Wyong Shire Council v Shirt (1980): two limbs: reasonable foreseeability of a real risk of injury, and the reasonableness of the response. CLA s 5B(1): not negligent in failing to take precautions against a risk of harm unless (a) the risk was foreseeable, and (b) not insignificant, and (c) a reasonable person in the person''s position would have taken those precautions. Benic: each element separately addressed.'
+    analogy:
+      text: A lifeguard first spots the real hazards on a beach (a rip, not an imagined shark in the shallows), then chooses a sensible response (flags and a warning), not closing the ocean.
+      maps:
+        - from: Spotting the real hazards
+          to: 'Question 1: the degree of foreseeable risk (s 5B(1)(a) and (b))'
+        - from: Choosing a sensible response
+          to: 'Question 2: the reasonableness of the response (s 5B(1)(c) and (2))'
+        - from: Not closing the ocean
+          to: Reasonable care, not elimination of risk
+      limits:
+        - 'In law the hurdles are cumulative: if the risk fails (a) or (b), the response is never judged.'
+        - A lifeguard is judged in hindsight by the crowd; the law judges prospectively, at the time of the conduct.
+    terms:
+      - term: Breach of duty
+        gloss: 'The second element of negligence: the defendant''s conduct fell short of the standard of care, whether far short or just short.'
+      - term: Standard of care
+        gloss: What a reasonable person in the defendant's position would have done about the risk; implicit in s 5B(1)(c).
+      - term: Real risk
+        gloss: At common law (Wyong), a risk that is not far-fetched or fanciful, and therefore foreseeable.
+    misconceptions:
+      - claim: Section 5B decides whether a duty of care exists, because it sits under the heading "Duty of care".
+        tempting: The Division heading says "Duty of care".
+        correction: 'The lecturer calls this a trap: s 5B is the test for breach, not for establishing a duty. Duty was settled over earlier topics.'
+      - claim: The three criteria in s 5B(1) are weighed together, so a strong (a) can make up for a weak (b).
+        tempting: Breach involves a lot of weighing.
+        correction: 'They are joined by "and": a person is not negligent unless all three are satisfied, and each must be separately addressed (Benic). The weighing happens inside (c), under s 5B(2).'
+      - claim: Once the CLA applies, the common law cases on breach are irrelevant.
+        tempting: The statute now governs breach.
+        correction: The CLA presupposes the common law and operates against its background (Refrigerated Roadways). The only real tweak is the "not insignificant" threshold; the cases still show how the test applies.
+    socratic:
+      - ask: A duty of care is established. Does that make the defendant negligent?
+        hint: Which element comes next?
+        answer: No. Breach must still be shown by measuring the defendant's conduct against the standard of care.
+      - ask: Before applying s 5B, what must you name?
+        hint: '"Precautions against a risk of harm".'
+        answer: The risk of harm (Benic step 1), described as a class of injury and specific enough to match the precautions.
+      - ask: What is the first breach question, and which parts of s 5B answer it?
+        hint: The degree of foreseeable risk.
+        answer: Was the risk of injury reasonably foreseeable? Section 5B(1)(a) (foreseeable) and (b) (not insignificant). The higher the risk, the less reasonable it is to do nothing.
+      - ask: What is the second question, and which parts of s 5B answer it?
+        hint: Has the standard been met?
+        answer: 'Was the defendant''s response reasonable? Section 5B(1)(c), guided by s 5B(2)(a)–(d): probability, seriousness, burden, social utility.'
+      - ask: In Refrigerated Roadways the risk was foreseeable. Why no breach?
+        hint: What was the RTA already doing?
+        answer: It was screening bridges systematically; it had not failed to take a step a reasonable roads authority would have taken.
+    elements:
+      - name: Identify the risk of harm
+        test: 'Benic step 1: name the risk as a class of injury, specific enough to correspond to the precautions that should have been taken.'
+        cases:
+          - benic-v-nsw
+          - rta-v-dederer
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: Foreseeable (s 5B(1)(a))
+        test: Was it a risk of which the defendant knew or ought to have known, at the time? Not far-fetched or fanciful.
+        cases:
+          - wyong-shire-council-v-shirt
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: Not insignificant (s 5B(1)(b))
+        test: Was the probability higher than "not far-fetched or fanciful", though not necessarily substantial? Weigh obviousness, likelihood and seriousness.
+        cases:
+          - rail-corporation-nsw-v-donald
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: Reasonable precautions (s 5B(1)(c))
+        test: Would a reasonable person in the defendant's position have taken the precautions? Weigh s 5B(2)(a)–(d), with s 5C.
+        cases:
+          - rta-v-refrigerated-roadways
+          - romeo-v-conservation-commission-nt
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+          - civil-liability-act-2002-nsw-s5c
+    what-if:
+      - change: The claim is excluded from the CLA by s 3B, for example an intentional act done with intent to injure.
+        effect: 'The common law test applies: Wyong''s two limbs, with the "not far-fetched or fanciful" threshold rather than "not insignificant".'
+      - change: In Refrigerated Roadways, the RTA had known of repeated drops from that bridge and had no plan to screen any bridges.
+        effect: 'The response question would look very different: a reasonable roads authority might be expected to act, so breach becomes arguable.'
+    boundary:
+      - text: Industry standards in force at the time of the accident.
+        why: 'The lecturer: they are information a court can consider, but they are not the legal test of what a reasonable person would have done. Standards published after the accident are irrelevant.'
+    transfer:
+      - scenario: At an aquatic centre, a staff member's job is to let riders onto an enclosed waterslide only once the previous rider has left the exit pool. She is not watching, tells a 9-year-old "it is safe to go now", and the child collides with another rider, losing teeth.
+        answer: 'Identify the risk: collision injury when a rider enters before the previous rider has left. It was foreseeable (the centre knew of it: industry standards and its own sign) and not insignificant (obvious, serious, likely if no one watches). Under s 5B(2), watching costs little, so a reasonable centre would ensure staff watch. Industry standards inform, but do not decide, that question.'
+    sources:
+      - Topic 9 Lecture 1 (slides 4–11, 29–30)
+      - Topic 9 Flowcharts - Breach of Duty (pp 381–382)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Topic 9 Tutorial Preparation - Breach of Duty of Care
+      - Civil Liability Act 2002 (NSW) ss 3B, 5B (act-2002-022.pdf)
+  - concept: laws2400-w09-foreseeable-risk-s5b-1a
+    plain: A risk is foreseeable if the defendant knew, or should have known, about it at the time. Even an unlikely risk counts, as long as it is not far-fetched.
+    concrete: 'Shirt was water skiing on a lake when he fell and struck his head on the bottom, where the water was only about 3.5–4 feet deep; he became quadriplegic. He said he was misled by a council "deep water" sign, put up to warn swimmers of deeper channels by a jetty. Mason J: a reasonable council might see the sign was ambiguous and could induce a skier to ski there believing the water deep.'
+    formal: 'Section 5B(1)(a): the risk must be foreseeable, "a risk of which the person knew or ought to have known". Wyong: a risk which is not far-fetched or fanciful is real and therefore foreseeable; foreseeability and likelihood are two different things. At breach the test is more specific than at duty: the actual conduct and actual risk. Even extremely foolhardy plaintiff conduct must be foreseen (Nagle).'
+    terms:
+      - term: Constructive knowledge
+        gloss: What a reasonable person in the defendant's position ought to have known, even if the defendant did not actually know it.
+      - term: Not far-fetched or fanciful
+        gloss: 'Mason J''s test in Wyong: such a risk is real and therefore foreseeable, however unlikely.'
+      - term: Fact-value complex
+        gloss: 'McHugh J in Swain: reasonable foreseeability carries inherent questions of fairness, policy, practicality, proportion, expense and justice.'
+    misconceptions:
+      - claim: A risk that was very unlikely to happen cannot be foreseeable.
+        tempting: Foreseeing something sounds like expecting it to happen.
+        correction: 'Mason J in Wyong: foreseeability and likelihood are two different things. A risk quite unlikely to occur may nevertheless be plainly foreseeable; likelihood is weighed later, in (b) and (c).'
+      - claim: The plaintiff must show the exact way the accident happened was foreseeable.
+        tempting: Breach-stage foreseeability is described as more specific.
+        correction: Neither the precise manner nor the particular injury need be foreseeable, only a reasonably foreseeable risk of injury of some kind to someone such as the plaintiff (as in Chapman v Hearse).
+      - claim: A defendant need not foresee a plaintiff behaving foolishly.
+        tempting: It seems unfair to make defendants guard against recklessness.
+        correction: The defendant must foresee and guard against inadvertent, negligent or even extremely foolhardy conduct by the plaintiff, even though it is unlikely (Nagle v Rottnest Island Board; McLean v Tedman).
+    socratic:
+      - ask: Foreseeability was already decided at the duty stage. Why ask it again?
+        hint: What becomes more specific at breach?
+        answer: 'At breach the test is more specific: it examines the defendant''s actual conduct and the actual risk in the circumstances, not just some harm from some carelessness.'
+      - ask: The council never actually thought about water skiers. Does that matter?
+        hint: '"Knew or ought to have known".'
+        answer: 'No. Constructive knowledge is enough: what a reasonable person in the council''s position ought to have known at the time.'
+      - ask: Was a skier hitting the bottom near the sign likely?
+        hint: Mason J separated two ideas.
+        answer: Perhaps not, but it was not far-fetched or fanciful. An unlikely risk can still be plainly foreseeable; its likelihood matters later.
+      - ask: Do we judge what the council knew with today's hindsight?
+        hint: When is foreseeability tested?
+        answer: No. It is what the defendant knew or ought to have known at the time of the conduct, not with hindsight.
+    what-if:
+      - change: 'In Wyong, the sign had clearly read "Shallow water: no skiing" with an arrow to the shallow zone.'
+        effect: 'The risk would still be foreseeable, but the case against the council would weaken: Mason J''s reasoning turned on the sign being ambiguous and inducing skiers to ski where it was shallow.'
+      - change: A manager never noticed a visibly bent shelf bracket that had been bent for weeks.
+        effect: 'The risk is still foreseeable under s 5B(1)(a): it is enough that she ought to have known of it.'
+      - change: An injury could only occur through an extraordinary chain of events the court calls far-fetched.
+        effect: 'Section 5B(1)(a) fails: a far-fetched or fanciful risk is not foreseeable, so the inquiry ends and there is no breach.'
+    boundary:
+      - text: 'Chapman v Hearse: a sequence of events so unusual the defendant argued it could not have been foreseen.'
+        why: The precise sequence of events need not be foreseen; it is enough that injury of some kind to someone like the plaintiff was foreseeable.
+    transfer:
+      - scenario: A gym leaves a heavy kettlebell on a high shelf above a stretching mat. Members are told not to touch it, but one jumps up to grab it and it falls on another member.
+        answer: Under s 5B(1)(a), the gym ought to have known that a heavy weight on a high shelf above a mat could fall. That a member would ignore instructions and jump for it may be foolhardy, but defendants must foresee even extremely foolhardy conduct (Nagle). The precise way it fell need not be foreseen. The risk is foreseeable; (b) and (c) come next.
+    sources:
+      - Topic 9 Lecture 1 (slides 7, 15–19)
+      - Topic 9 Flowcharts - Breach of Duty (pp 381–382)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Civil Liability Act 2002 (NSW) s 5B (act-2002-022.pdf)
+  - concept: laws2400-w09-identifying-the-risk-of-harm
+    plain: Before asking what precautions were needed, name the risk. Describe it as a kind of injury from its real source, not too broadly and not as the exact injury suffered.
+    concrete: 'A 14-year-old dived off a bridge into an estuary and suffered partial paraplegia. People had jumped from the bridge for years without injury, but a shifting sandbar changed the depth, and "no diving" pictographs were displayed. The Court of Appeal described the risk as serious spinal injury from diving off the bridge. Gummow J said that obscured the true source: impact on jumping into potentially shallow water over shifting sands.'
+    formal: 'Benic v NSW (Garling J): first identify a risk of harm; it is sufficient "if the risk of harm is described as a class of injury, as distinct from the particular injury actually suffered by the plaintiff". Then consider the s 5B(1) elements. RTA v Dederer: the risk must correspond to the precautions that should have been taken, not cover fundamentally different scenarios.'
+    analogy:
+      text: A doctor diagnoses before prescribing. "Chest pain" is too vague to treat; "a blocked artery" points to the treatment. Naming the risk of harm works the same way for precautions.
+      maps:
+        - from: The diagnosis
+          to: The risk of harm (Benic step 1)
+        - from: The treatment
+          to: The precautions a reasonable person would have taken
+        - from: '"Chest pain": too vague'
+          to: A risk framed so broadly it covers different scenarios (the Court of Appeal in Dederer)
+      limits:
+        - A diagnosis aims at the exact cause in this patient; Benic is satisfied by a class of injury, not the particular injury suffered.
+    terms:
+      - term: Risk of harm
+        gloss: The danger the precautions should have addressed, stated by its source on the facts; the starting point of s 5B(1).
+      - term: Class of injury
+        gloss: A type of harm, such as collision injury on a waterslide, rather than the particular injury suffered; enough for Benic step 1.
+    misconceptions:
+      - claim: Step 1 means describing the plaintiff's exact injury, such as "a C5 fracture".
+        tempting: Precision seems safest.
+        correction: 'Benic: it is sufficient to describe a class of injury, as distinct from the particular injury actually suffered.'
+      - claim: Describing the risk as broadly as possible is safest, because broad risks are easy to foresee.
+        tempting: A broad risk is plainly foreseeable.
+        correction: 'Too broad a risk loses the link to precautions. In Dederer, "spinal injury from diving off the bridge" obscured the true source: shallow water over shifting sands.'
+    socratic:
+      - ask: Which words of s 5B(1) tell you to identify the risk first?
+        hint: Precautions against what?
+        answer: '"Failing to take precautions against a risk of harm": you cannot judge precautions until you know the risk.'
+      - ask: In Dederer, what risk did the Court of Appeal identify?
+        hint: Diving off the bridge.
+        answer: Serious spinal injury flowing from the act of diving off the bridge, tied to the RTA erecting the bridge.
+      - ask: Why was that wrong?
+        hint: What actually made the dive dangerous?
+        answer: 'It obscured the true source: impact on jumping into potentially shallow water over the estuary''s shifting sands. The bridge alone did not cause the risk.'
+      - ask: Why does the framing matter for the rest of the test?
+        hint: Look at s 5B(1)(c).
+        answer: Section 5B(1)(c) asks about precautions against that risk, so the framing shapes what a reasonable response would have been.
+    elements:
+      - name: 'Step 1: identify the risk'
+        test: Name the risk of harm by its source on the facts, as a class of injury, specific enough to correspond to the precautions.
+        cases:
+          - benic-v-nsw
+          - rta-v-dederer
+      - name: 'Step 2: the three elements'
+        test: Then address s 5B(1)(a) foreseeability, (b) probability (not insignificant) and (c) reasonableness of precautions, each separately.
+        cases:
+          - benic-v-nsw
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+    what-if:
+      - change: The Dederer risk is framed as "any injury to anyone using the bridge".
+        effect: 'Far too broad: it sweeps in different scenarios, such as falling from the footpath, needing different responses, so it cannot tell you whether signs were enough.'
+      - change: A swimmer is hurt diving into a hotel pool whose depth markers have worn off.
+        effect: 'A good step 1 risk is striking the bottom when diving into water of unmarked depth: a class of injury from its source, matched to precautions such as depth markers.'
+    boundary:
+      - text: Ariel's waterslide collision (tutorial hypothetical).
+        why: The right risk is collision injury when a rider enters before the previous rider has left the exit pool, not "losing several teeth" (too particular) or "any injury at the centre" (too broad).
+    transfer:
+      - scenario: An office worker is burnt when a faulty kettle in the staff kitchen sparks. Her lawyer describes the risk as "a second-degree burn to her left hand".
+        answer: 'That is the particular injury. Under Benic a class of injury is enough and better: for example, burns from a faulty electrical appliance in the staff kitchen. That links to precautions such as inspecting and replacing faulty appliances, which s 5B(1)(c) will then test.'
+    sources:
+      - Topic 9 Lecture 1 (slides 11–13)
+      - Topic 9 Lecture 2 (slides 5–8)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty
+      - Topic 9 Tutorial Preparation - Breach of Duty of Care
+  - concept: laws2400-w09-not-insignificant-risk-s5b-1b
+    plain: 'The risk must also be likely enough to matter: more than far-fetched, though it need not be a big risk. Obviousness, likelihood and seriousness are weighed together.'
+    concrete: 'The lecturer''s example: you are far more likely to be injured driving to the airport than on the flight. But if something goes wrong with a plane, the consequences are far more serious. Weighing likelihood against seriousness, a low-probability aviation risk can still be not insignificant, which is why the burden of precautions on aircraft operators is so high.'
+    formal: 'Section 5B(1)(b): the risk was not insignificant, reflecting the probability of it materialising. Ipp Report: a risk "of a higher probability than is indicated by the phrase ''not far fetched and fanciful'', but not so high as might be indicated by a phrase such as ''a substantial risk''". Rail Corporation NSW v Donald: significance depends on obviousness, likelihood and seriousness of consequence.'
+    terms:
+      - term: Not insignificant
+        gloss: 'The s 5B(1)(b) threshold: deliberately a double negative, a little above "not far-fetched or fanciful" and below "a substantial risk".'
+      - term: Donald factors
+        gloss: Obviousness, likelihood of occurrence and seriousness of consequence, weighed together to decide how significant a risk is.
+    misconceptions:
+      - claim: A risk that is foreseeable (not far-fetched) is automatically not insignificant.
+        tempting: The flowchart cites Wyong's "not far-fetched or fanciful" under (b).
+        correction: The Act deliberately raised the probability threshold from "not far-fetched and fanciful" to "not insignificant". Paragraph (b) needs its own argument.
+      - claim: '"Not insignificant" means more likely than not to happen.'
+        tempting: The Act tightened the common law test.
+        correction: The Ipp Report places it below even "a substantial risk". It is only slightly more demanding than "not far-fetched or fanciful".
+      - claim: A rare risk is always insignificant.
+        tempting: Paragraph (b) is about probability.
+        correction: Donald weighs obviousness and seriousness alongside likelihood. A rare but obvious and fatal risk can still be not insignificant.
+    socratic:
+      - ask: Why did Parliament use a double negative, "not insignificant", instead of "significant"?
+        hint: Think of a scale from insignificant to substantial.
+        answer: 'To set the bar low on the scale: above "not far-fetched or fanciful" but well below "substantial" or "significant".'
+      - ask: What did the CLA change from Wyong?
+        hint: The common law probability threshold.
+        answer: 'It modified the probability of harm from "not far-fetched and fanciful" to "not insignificant": a slightly more demanding test, the Act''s main tweak.'
+      - ask: How do you decide whether a particular risk is not insignificant?
+        hint: Rail Corporation NSW v Donald.
+        answer: Weigh obviousness, likelihood of occurrence and seriousness of consequence. You do not need all three; they are balanced.
+      - ask: An answer jumps from "foreseeable" straight to "a reasonable person would have acted". What is missing?
+        hint: The paragraphs are joined by "and".
+        answer: 'Section 5B(1)(b): a separate sentence placing the risk on the scale and weighing the Donald factors.'
+    what-if:
+      - change: A cliff path railing has a gap. Falls are rare, but the drop is obvious and a fall would be fatal.
+        effect: 'Arguably not insignificant: obviousness and seriousness can outweigh a low likelihood under Donald.'
+      - change: Harm could occur only through a chain of events the court calls far-fetched.
+        effect: 'Both (a) and (b) fail: a far-fetched risk is not foreseeable and falls below the higher (b) threshold too.'
+    boundary:
+      - text: The textbook flowchart offers "a real risk" (Bolton v Stone) that is "not far-fetched or fanciful" (Wyong) as arguable markers for (b).
+        why: The flowchart admits the meaning is not yet completely clear; the slides treat those words as the common law threshold the Act raised. Use them only as a starting point.
+    transfer:
+      - scenario: A council playground has a low wall beside a 3-metre drop to a car park. In ten years no child has fallen, but the drop is plainly visible and a fall would cause serious head injury.
+        answer: Address (b) separately. The risk is foreseeable, but is it not insignificant? Under Donald, the likelihood is low, but the risk is obvious and the consequences serious, so it is arguably above the low "not insignificant" threshold, which the Ipp Report places below a substantial risk. Then move to (c).
+    sources:
+      - Topic 9 Lecture 1 (slides 8, 20–22)
+      - Topic 9 Flowcharts - Breach of Duty (pp 381–382)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Civil Liability Act 2002 (NSW) s 5B (act-2002-022.pdf)
+  - concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+    plain: Once a risk matters, ask what a reasonable person would have done about it, weighing how likely and how serious the harm was against the cost and value of preventing it.
+    concrete: 'Paris worked in a garage and had only one good eye. His employer knew this but did not give him safety goggles, which was not ordinary industry practice at the time. A piece of metal struck his good eye. The House of Lords held the employer in breach: the known chance that a particular worker would suffer a graver injury than his fellows had to be considered in setting the employer''s obligation.'
+    formal: 'Section 5B(2): deciding whether a reasonable person would have taken precautions, the court considers, amongst other relevant things, (a) the probability of harm if care were not taken, (b) its likely seriousness, (c) the burden of precautions, and (d) the social utility of the activity. Section 5C: the burden includes similar risks; avoidability by other means, or later action, does not of itself affect liability.'
+    terms:
+      - term: Calculus of negligence
+        gloss: The weighing of probability, seriousness, burden and social utility to decide what a reasonable person would have done; not a checklist or algorithm.
+      - term: Burden of taking precautions
+        gloss: 'Not only cost: also practical matters such as the availability of suitable equipment, convenience and safety (Woods).'
+      - term: Social utility
+        gloss: The public value of the activity creating the risk, such as an emergency vehicle's run or the blood supply (E v Red Cross).
+      - term: Inherent risk
+        gloss: A risk that cannot be avoided by reasonable care and skill; no liability for its materialisation (s 5I), though a duty to warn remains.
+    misconceptions:
+      - claim: A low probability of harm settles s 5B(1)(c) for the defendant.
+        tempting: In Dederer, low probability helped the RTA.
+        correction: Probability is only s 5B(2)(a). The court weighs seriousness, burden, social utility and other relevant things together; no single factor decides it.
+      - claim: Taking a precaution after the accident admits the defendant was negligent.
+        tempting: Fixing the hazard looks like conceding it was a hazard.
+        correction: 'Section 5C(c): later action that would have avoided the risk does not of itself give rise to or affect liability, and is not of itself an admission.'
+      - claim: The burden of precautions is just their financial cost.
+        tempting: '"Burden" sounds like money.'
+        correction: 'Woods v Multi-Sport Holdings: it extends to practical considerations such as the availability of suitable equipment, convenience and safety.'
+    socratic:
+      - ask: In Dederer the harm was grave. Why was there no breach?
+        hint: Judge probability prospectively.
+        answer: 'Judged at the time, the probability was low: years of jumping, no injuries. Given the expense and difficulty of the plaintiff''s measures, the existing signs were a reasonable response.'
+      - ask: Why was Paris's employer in breach when goggles were not usual practice?
+        hint: What did the employer know about Paris?
+        answer: It knew he had only one good eye, so an injury would be graver for him. Seriousness raises the standard, especially with known vulnerability.
+      - ask: Woods lost an eye at indoor cricket. Why was no helmet required?
+        hint: Is cost the only burden?
+        answer: No suitable helmet existed for indoor cricket, none were worn or required by the rules, and they raised their own convenience and safety concerns; serious eye injuries were rare.
+      - ask: Why was the Red Cross not in breach for not testing earlier?
+        hint: What would testing have cost the community?
+        answer: 'Testing would likely have lost about 5% of all blood donations, and might not have reduced the risk: the social utility of the blood supply weighed against it.'
+      - ask: How do you put the factors together?
+        hint: Kirby J in Romeo.
+        answer: They are a framework, weighed as a whole on the facts, to decide which risks to guard against and which can safely be ignored.
+    elements:
+      - name: Name the precaution
+        test: State the precaution the plaintiff says a reasonable person would have taken against the identified risk.
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: (a) Probability
+        test: How probable was the harm if care were not taken, judged prospectively at the time, not with hindsight?
+        cases:
+          - rta-v-dederer
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: (b) Seriousness
+        test: How serious was the likely harm? The standard rises with seriousness and known vulnerability; intoxication does not affect it (s 49(1)).
+        cases:
+          - paris-v-stepney-borough-council
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+          - civil-liability-act-2002-nsw-s49
+      - name: (c) Burden
+        test: What would the precaution cost, including availability, convenience and safety, and including similar risks (s 5C(a))?
+        cases:
+          - woods-v-multi-sport-holdings
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+          - civil-liability-act-2002-nsw-s5c
+      - name: (d) Social utility
+        test: What public value does the risk-creating activity have?
+        cases:
+          - e-v-australian-red-cross-society
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: Weigh and conclude
+        test: 'Weigh the factors together (not a checklist) and conclude on s 5B(1)(c): would a reasonable person in the defendant''s position have taken the precaution?'
+        cases:
+          - romeo-v-conservation-commission-nt
+          - rta-v-refrigerated-roadways
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+    what-if:
+      - change: Paris's employer did not know he had only one good eye.
+        effect: The known vulnerability that raised the standard disappears. The question becomes whether goggles were needed for workers generally, which was not ordinary practice then.
+      - change: In Woods, purpose-made indoor cricket helmets had been cheap, available and worn elsewhere.
+        effect: The burden of the precaution falls sharply, so a reasonable provider might be expected to supply them, and breach becomes more arguable.
+      - change: A patron injured at a venue was heavily intoxicated.
+        effect: 'Section 49(1)(c): intoxication does not of itself increase or otherwise affect the standard of care owed to him.'
+    boundary:
+      - text: An ambulance speeding to hospital with a critically ill patient clips a cyclist.
+        why: 'Social utility (s 5B(2)(d)) supports the driver: the emergency run has public value. It is weighed with the other factors; it does not automatically excuse the driving.'
+      - text: A surgical infection that reasonable care and skill could not avoid.
+        why: 'An inherent risk: no liability for its materialisation (s 5I), but liability in connection with a duty to warn of it remains (s 5I(3)).'
+    transfer:
+      - scenario: A council runs a free cliff-top lookout. Thousands visit yearly; few go near the unfenced edge. A fall would likely be fatal, and a fence would be expensive and take months to build.
+        answer: 'Weigh s 5B(2): probability is low (few go near the edge); seriousness is grave; the burden is heavy (cost and time, and s 5C(a) adds similar sites); the lookout has social utility. As in Romeo, where Kirby J weighed magnitude, remote possibility, expense and other priorities, a reasonable council may not need to fence; consider warning signs.'
+    sources:
+      - Topic 9 Lecture 1 (slides 24–30)
+      - Topic 9 Lecture 2 (slides 3–21)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty
+      - Civil Liability Act 2002 (NSW) ss 5B, 5C, 5F–5I, 49 (act-2002-022.pdf)
+  - concept: laws2400-w09-standard-of-care-reasonableness
+    plain: The law asks for reasonable care, not perfect safety. Conduct is compared with what a reasonable person would have done, not with the defendant's own best effort.
+    concrete: 'In Romeo, a young woman fell from an unfenced cliff in a reserve managed by the Conservation Commission and was seriously injured. A fence would have prevented this fall, but the claim effectively demanded fencing a long natural coastline. Kirby J found no breach: the perceived magnitude of risk, the remote possibility of an accident, the expense, difficulty and inconvenience of fencing, and the Commission''s other priorities.'
+    formal: 'Conduct is measured against a standard of care, on the balance of probabilities; falling far short or just short is equally a breach. The duty is to take reasonable care, not to avoid all injury: reasonableness, not elimination of risk (Swain). Blyth v Birmingham Waterworks Co (1856), Alderson B: negligence is omitting what a reasonable man would do, or doing what a prudent and reasonable man would not.'
+    terms:
+      - term: Objective standard
+        gloss: Conduct is judged against a reasonable person's response to a foreseeable risk, not the defendant's own beliefs or personal best.
+      - term: No degrees of carelessness
+        gloss: Marginally careless or completely reckless conduct is equally a breach; breach is not graded.
+      - term: Balance of probabilities
+        gloss: The civil standard of proof on which breach must be established.
+    misconceptions:
+      - claim: A defendant who genuinely did their personal best cannot be in breach.
+        tempting: It seems unfair to blame someone who tried hard.
+        correction: 'The standard is objective: a defendant may be in breach despite doing their personal best, if that was not reasonable.'
+      - claim: If some risk remained after the defendant's precautions, the duty was breached.
+        tempting: The plaintiff was still injured.
+        correction: 'The duty is to take reasonable care, not to eliminate risk (Swain). Gummow J in Dederer: reasonable care contrasts with an obligation to prevent harm.'
+      - claim: Conduct only just below the standard is a lesser breach, or no breach.
+        tempting: '"Only just" sounds trivial.'
+        correction: 'There are no degrees of carelessness: falling just short is as much a breach as falling far short.'
+    socratic:
+      - ask: Romeo fell from an unfenced cliff. A fence would have stopped her. Is that enough for breach?
+        hint: Prevent harm, or take reasonable care?
+        answer: No. The duty is reasonable care, not elimination of risk. The question is whether a reasonable authority would have fenced, not whether a fence would have helped.
+      - ask: How did Alderson B define negligence in Blyth?
+        hint: 'Two limbs: doing and not doing.'
+        answer: Omitting what a reasonable man would do, or doing what a prudent and reasonable man would not do; negligence can lie in an act or an omission.
+      - ask: If Blyth defined negligence in 1856, what did Donoghue v Stevenson add in 1932?
+        hint: Think about causes of action.
+        answer: It established negligence as a separate, standalone cause of action.
+      - ask: A first-time organiser did her best but fell short of a reasonable organiser. In breach?
+        hint: Objective or subjective?
+        answer: 'Yes, she may be: the test is objective, so personal best is no answer if it was not reasonable.'
+    what-if:
+      - change: In Romeo, the danger was a single hidden drop beside a popular path, which a cheap fence could have guarded.
+        effect: 'The weighing changes: a concealed risk at one spot, with a small burden, makes a reasonable authority more likely to act, so breach becomes arguable.'
+      - change: The defendant's conduct was only marginally careless rather than reckless.
+        effect: 'It makes no difference to breach: any shortfall from the standard of care is a breach.'
+    boundary:
+      - text: A water company knows a pipe is failing and does nothing.
+        why: 'Inside Blyth''s first limb: the omission to do something a reasonable person would do. Negligence is not confined to positive acts.'
+    transfer:
+      - scenario: A volunteer at a school fete sets up a bouncy castle as carefully as she can, but does not anchor it as a reasonable operator would. A gust lifts it and a child is hurt. She says she did her best.
+        answer: 'Her best is no answer: the standard is objective, a reasonable person''s response to a foreseeable risk. The question is what a reasonable person in her position would have done (s 5B(1)(c)). If a reasonable operator would have anchored it, she fell short; whether far short or just short does not matter.'
+    storyboard:
+      - caption: '1837: the man of ordinary prudence'
+        detail: Vaughan v Menlove first describes the reasonable person, a legal fiction for an objective test.
+      - caption: '1856: Blyth defines negligence'
+        detail: 'Alderson B: omitting what a reasonable man would do, or doing what a prudent and reasonable man would not.'
+      - caption: '1932: a cause of action'
+        detail: Donoghue v Stevenson establishes negligence as a separate, standalone cause of action.
+      - caption: '1980: Wyong''s two limbs'
+        detail: Foreseeability of a real (not far-fetched or fanciful) risk, and the reasonableness of the response.
+      - caption: '2002: CLA s 5B'
+        detail: Three separate elements, with "not insignificant" replacing "not far-fetched"; the Act presupposes the common law.
+    sources:
+      - Topic 9 Lecture 1 (slides 5–8, 27–28)
+      - Topic 9 Flowcharts - Breach of Duty (pp 381–382)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty
+  - concept: laws2400-w09-the-reasonable-person
+    plain: The reasonable person is an imaginary, ordinary careful person. Children are compared with children of their age; other personal traits, such as illness or inexperience, do not lower the bar.
+    concrete: 'Watson, a 12-year-old, threw a sharpened piece of scrap metal at a tree; it bounced off and injured McHale''s eye. The High Court held by majority that a child''s standard of care is that of a normal child of comparable age. Kitto J: being abnormally slow-witted or quick-tempered is no answer, but a child may rely on the limited foresight characteristic of humanity at his stage of development.'
+    formal: 'Section 5B(1)(c) uses "a reasonable person in the person''s position", a legal fiction for the objective test (Vaughan v Menlove (1837): "the man of ordinary prudence"). McHale v Watson: a child, by a normal child of comparable age. Carrier v Bonham: mental illness does not affect the standard. Imbree v McNeilly: learner drivers owe the licensed standard. Professional skill raises it (Rogers v Whitaker; s 5O).'
+    analogy:
+      text: 'A tailor''s mannequins: one standard adult form, plus a child form for each age. There is no custom form for a short temper, an illness or inexperience. A professional is measured on a form cut to the skill they profess.'
+      maps:
+        - from: The standard adult form
+          to: 'The reasonable person: objective and impersonal'
+        - from: Child forms by age
+          to: A normal child of comparable age (McHale v Watson)
+        - from: No custom forms
+          to: Temperament (Kitto J), mental illness (Carrier v Bonham) and inexperience (Imbree) do not change the standard
+        - from: A form cut to professed skill
+          to: The ordinary skilled person professing that skill (Rogers v Whitaker)
+      limits:
+        - The child form reflects limits all humanity passes through, not a particular child's maturity.
+    terms:
+      - term: Reasonable person
+        gloss: A legal fiction created by judges to apply the objective test, because there are too many subjective variables.
+      - term: Comparable-age standard
+        gloss: 'For a child defendant: what a normal child of the same age would have done (McHale v Watson).'
+    misconceptions:
+      - claim: A child's particular temperament, such as being unusually impulsive, is built into the standard.
+        tempting: The child is judged as a child, so why not as this child?
+        correction: 'Kitto J: being abnormally slow-witted, quick-tempered, absent-minded or inexperienced is no answer. Only limits characteristic of the child''s stage of development count.'
+      - claim: A defendant with a mental illness is judged by the standard of a reasonable person with that illness.
+        tempting: By analogy with the child standard.
+        correction: 'Carrier v Bonham: mental condition has no effect. Unsoundness of mind is not a stage all humanity passes through, so there is no "normal" class standard.'
+      - claim: A learner driver owes a lower standard because of inexperience.
+        tempting: Learners are, by definition, still learning.
+        correction: 'Imbree v McNeilly: a learner owes the same standard as a licensed driver. The standard is objective and impersonal; varying it with experience would be unworkable.'
+    socratic:
+      - ask: Why do judges use an imaginary reasonable person instead of asking what the defendant could manage?
+        hint: How many personal variables are there?
+        answer: There are too many subjective variables; the legal fiction lets the court apply an objective test.
+      - ask: Watson was 12. Whose conduct is he compared with?
+        hint: McHale v Watson.
+        answer: 'A normal child of comparable age: age is a characteristic the courts take into account.'
+      - ask: Why does age count but mental illness not?
+        hint: Which is a stage all humanity passes through?
+        answer: Childhood is a stage everyone passes through, with a normal standard for each age. Unsoundness of mind is not, so no class standard can be devised (Carrier v Bonham).
+      - ask: Is the reasonable person truly neutral?
+        hint: Who historically did the imagining?
+        answer: Feminist scholars say judges had a man in mind, the judiciary was mostly male, and male attributes were picked, such as ignoring emotions.
+    what-if:
+      - change: Watson had been an adult who threw the metal while distracted.
+        effect: The ordinary adult standard applies; absent-mindedness is no answer (Kitto J).
+      - change: The driver who causes a collision is on her first lesson with L-plates.
+        effect: She owes the same standard as a licensed driver (Imbree v McNeilly); her inexperience does not lower it.
+    boundary:
+      - text: 'Carrier v Bonham: a psychiatric patient escaped and jumped in front of a bus; the driver suffered nervous shock.'
+        why: 'The patient''s mental condition did not lower the standard: McPherson JA said it would be impossible to devise a standard for such persons as a class.'
+    transfer:
+      - scenario: A 10-year-old swings a cricket bat wildly near other children at a park and hits one. His parents say he is unusually excitable for his age.
+        answer: 'Under McHale v Watson, ask what a normal 10-year-old would have done; age is taken into account. His unusual excitability is not: Kitto J said a child cannot rely on being abnormally quick-tempered, only on limits characteristic of children his age.'
+    objections:
+      - position: The reasonable person is an objective legal fiction, avoiding the many subjective variables of individual defendants.
+        evidence: Vaughan v Menlove's "man of ordinary prudence"; s 5B(1)(c)'s "reasonable person in the person's position".
+        objection: 'Feminist scholars: judges invariably had a man in mind, the judiciary was predominantly male, and male attributes were picked (emotions ignored), so the test is not truly objective.'
+    sources:
+      - Topic 9 Lecture 2 (slides 22–31)
+      - Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty
+      - Civil Liability Act 2002 (NSW) s 5B (act-2002-022.pdf)
+  - concept: laws2400-w09-professional-standard-s5o
+    plain: Professionals are judged by the skill they profess. In NSW a professional has a defence if respected peers widely accepted what they did as competent practice.
+    concrete: 'In Rogers v Whitaker, an eye surgeon failed to warn of a complication arising in about one in 14,000 cases. The High Court held the standard of care is that of the ordinary skilled person exercising and professing to have that special skill, and rejected the Bolam principle: the standard is not simply set by what the profession itself accepts as practice.'
+    formal: 'Section 5O(1): a professional is not liable for a professional service done as, at the time, was widely accepted in Australia by peer professional opinion as competent practice; not if the court finds that opinion irrational (s 5O(2)); acceptance need not be universal (s 5O(4)). Peterkin v Tadros [2026] NSWSC 1185: a defence; defendant''s onus; if made out, it supplants s 5B.'
+    terms:
+      - term: Bolam principle
+        gloss: The standard of care is set by accepted professional (medical) practice. Rejected in Rogers v Whitaker; a modified version is now in s 5O.
+      - term: Peer professional opinion
+        gloss: What other practitioners in Australia widely accept as competent practice; it may be one of several differing views (s 5O(3)).
+      - term: Defence
+        gloss: Something the defendant must establish, as opposed to an element the plaintiff proves; Peterkin treats s 5O this way.
+    misconceptions:
+      - claim: The plaintiff must disprove s 5O before s 5B is reached.
+        tempting: The plaintiff usually proves breach, and s 5O comes first.
+        correction: 'Peterkin v Tadros: s 5O is a defence. The defendant bears the onus of its preconditions: practising a profession, in a manner widely accepted in Australia by peers as competent practice.'
+      - claim: If the parties' experts disagree, the s 5O defence must fail.
+        tempting: Disagreement seems to show the practice was not accepted.
+        correction: Peer opinion need only be widely, not universally, accepted (s 5O(4)); differing widely accepted opinions may each be relied on (s 5O(3)).
+      - claim: If the s 5O defence fails, the professional is liable.
+        tempting: The defence was the professional's protection.
+        correction: If s 5O fails, the plaintiff must still satisfy ss 5B and 5C to establish breach.
+    socratic:
+      - ask: An eye surgeon is sued. Against whom is the surgeon's conduct measured?
+        hint: Rogers v Whitaker.
+        answer: 'The ordinary skilled person exercising and professing to have that special skill: an ordinary eye surgeon, not a layperson or the best surgeon.'
+      - ask: What did s 5O bring back?
+        hint: The principle Rogers rejected.
+        answer: 'A modified Bolam principle: no liability if the practice was widely accepted in Australia by peer professional opinion as competent, unless that opinion is irrational.'
+      - ask: The defendant pleads s 5O. Which do you apply first, s 5O or s 5B?
+        hint: Peterkin v Tadros.
+        answer: Section 5O first. If made out, it supplants s 5B and there is no breach; there is no reason to judge the conduct against two standards.
+      - ask: The court finds the peer opinion relied on irrational. What next?
+        hint: Section 5O(2), then where?
+        answer: The opinion cannot be relied on, so s 5O fails, and the plaintiff must establish breach under ss 5B and 5C.
+    elements:
+      - name: Practising a profession
+        test: The defendant must establish it was practising a profession and the claim arises from a professional service (onus on the defendant).
+        cases:
+          - peterkin-v-tadros
+        authorities:
+          - civil-liability-act-2002-nsw-s5o
+      - name: Widely accepted peer practice
+        test: Did it act, at the time, as was widely (not necessarily universally) accepted in Australia by peer professional opinion as competent practice?
+        cases:
+          - peterkin-v-tadros
+        authorities:
+          - civil-liability-act-2002-nsw-s5o
+      - name: Not irrational
+        test: Peer opinion cannot be relied on if the court considers it irrational (s 5O(2)). Competing experts disagreeing is not a problem.
+        cases:
+          - peterkin-v-tadros
+        authorities:
+          - civil-liability-act-2002-nsw-s5o
+      - name: Result
+        test: 'If s 5O is made out, it supplants s 5B: no breach. If it fails, the plaintiff must satisfy ss 5B and 5C.'
+        cases:
+          - peterkin-v-tadros
+        authorities:
+          - civil-liability-act-2002-nsw-s5o
+          - civil-liability-act-2002-nsw-s5b
+          - civil-liability-act-2002-nsw-s5c
+    what-if:
+      - change: A dentist pleads s 5O but cannot show the practice was widely accepted by peer professional opinion.
+        effect: 'The defence fails, but the plaintiff does not win automatically: the plaintiff must still satisfy ss 5B and 5C.'
+      - change: The defendant is a learner driver rather than a surgeon.
+        effect: 'Section 5O does not apply: the learner owes the ordinary licensed driver''s standard (Imbree). Professed special skill raises the standard; inexperience does not lower it.'
+    boundary:
+      - text: A claim that a professional failed to warn a patient of a risk of injury, as in Rogers v Whitaker.
+        why: 'Section 5P: Division 6, which contains s 5O, does not apply to liability for giving or failing to give a warning about the risk of death or injury from a professional service.'
+    transfer:
+      - scenario: A physiotherapist manipulates a patient's neck using a technique some colleagues criticise. The patient is injured and sues; the physiotherapist pleads s 5O, with expert evidence that many Australian physiotherapists accept the technique.
+        answer: 'Apply s 5O first (Peterkin). The physiotherapist must show she was practising a profession and acted as widely accepted in Australia by peer opinion as competent practice. Criticism by some colleagues does not defeat this: acceptance need only be wide, not universal (s 5O(4)), unless the court finds the opinion irrational. If made out, no breach; if not, apply ss 5B and 5C.'
+    storyboard:
+      - caption: 'Bolam: practice sets the standard'
+        detail: The standard of care is determined in line with accepted medical practice.
+      - caption: '1992: Rogers v Whitaker rejects Bolam'
+        detail: The standard is the ordinary skilled person exercising and professing to have that special skill.
+      - caption: '2002: CLA s 5O'
+        detail: 'A modified Bolam: widely accepted peer professional opinion in Australia, unless irrational.'
+      - caption: '2026: Peterkin v Tadros'
+        detail: 'Section 5O is a defence: defendant''s onus; apply it first; if it fails, apply ss 5B and 5C.'
+    sources:
+      - Topic 9 Lecture 2 (slides 30–34)
+      - Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty
+      - Civil Liability Act 2002 (NSW) ss 5O, 5P (act-2002-022.pdf)
+flows:
+  - slug: breach-of-duty
+    title: Did the defendant breach its duty of care?
+    summary: Follows the lecturer's breach flowchart (risk, then response) through CLA s 5B, with Benic step 1 first and the s 5O defence for professionals ahead of s 5B (Peterkin v Tadros).
+    start: b1
+    concepts:
+      - laws2400-w09-breach-of-duty-flowchart
+      - laws2400-w09-identifying-the-risk-of-harm
+      - laws2400-w09-foreseeable-risk-s5b-1a
+      - laws2400-w09-not-insignificant-risk-s5b-1b
+      - laws2400-w09-reasonable-response-s5b-1c-and-2
+      - laws2400-w09-professional-standard-s5o
+    sources:
+      - Topic 9 Flowcharts - Breach of Duty (pp 381–382)
+      - Topic 9 Lecture 1 (slides 7–30)
+      - Topic 9 Lecture 2 (slides 3–34)
+      - Topic 9 Lecture 1 Transcript - Standard of Care and Breach of Duty
+      - Topic 9 Lecture 2 Transcript - Standard of Care and Breach of Duty
+      - Civil Liability Act 2002 (NSW) ss 5B, 5C, 5O, 5P (act-2002-022.pdf)
+    nodes:
+      - id: b1
+        kind: ask
+        text: Is the defendant a professional who pleads s 5O for a professional service?
+        note: Section 5O does not apply to liability for warnings about the risk of death or injury from a professional service (s 5P).
+        concept: laws2400-w09-professional-standard-s5o
+        authorities:
+          - civil-liability-act-2002-nsw-s5o
+        branches:
+          - label: 'Yes'
+            to: b2
+          - label: 'No'
+            to: b3
+      - id: b2
+        kind: ask
+        text: Has the defendant shown it acted as was widely accepted in Australia by peer professional opinion as competent practice, and is that opinion rational?
+        note: 'Peterkin v Tadros: s 5O is a defence; the defendant bears the onus; acceptance need be wide, not universal (s 5O(4)).'
+        exception: true
+        cases:
+          - peterkin-v-tadros
+        authorities:
+          - civil-liability-act-2002-nsw-s5o
+        branches:
+          - label: 'Yes'
+            to: e-5o
+          - label: 'No'
+            to: b3
+      - id: b3
+        kind: step
+        text: 'Identify the risk of harm (Benic step 1): a class of injury, named by its source, specific enough to match the precautions.'
+        note: 'Dederer: "spinal injury from diving off the bridge" obscured the true source, shallow water over shifting sands.'
+        concept: laws2400-w09-identifying-the-risk-of-harm
+        cases:
+          - benic-v-nsw
+          - rta-v-dederer
+        next: b4
+      - id: b4
+        kind: ask
+        text: 'Question 1, s 5B(1)(a): was it a risk the defendant knew or ought to have known of, at the time?'
+        note: Not far-fetched or fanciful (Wyong); an unlikely risk can still be foreseeable. The precise manner of injury need not be foreseen.
+        concept: laws2400-w09-foreseeable-risk-s5b-1a
+        cases:
+          - wyong-shire-council-v-shirt
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+        branches:
+          - label: 'Yes'
+            to: b5
+          - label: 'No'
+            to: e-nobreach
+      - id: b5
+        kind: ask
+        text: 'Question 1, s 5B(1)(b): was the risk not insignificant?'
+        note: Higher than "not far-fetched", below "substantial" (Ipp Report). Weigh obviousness, likelihood and seriousness (Rail Corporation NSW v Donald).
+        concept: laws2400-w09-not-insignificant-risk-s5b-1b
+        cases:
+          - rail-corporation-nsw-v-donald
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+        branches:
+          - label: 'Yes'
+            to: b6
+          - label: 'No'
+            to: e-nobreach
+      - id: b6
+        kind: step
+        text: 'Question 2: weigh s 5B(2) for the precaution claimed: probability, seriousness, burden and social utility, with s 5C.'
+        note: 'Judge prospectively, against a reasonable person in the defendant''s position (a child: a normal child of that age). Not a checklist.'
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+        cases:
+          - rta-v-dederer
+          - paris-v-stepney-borough-council
+          - woods-v-multi-sport-holdings
+          - e-v-australian-red-cross-society
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+          - civil-liability-act-2002-nsw-s5c
+        next: b7
+      - id: b7
+        kind: ask
+        text: 'Question 2, s 5B(1)(c): would a reasonable person in the defendant''s position have taken that precaution, and did the defendant fail to?'
+        note: 'Refrigerated Roadways: no breach unless the defendant failed to take a step a reasonable defendant would have taken. Falling just short is still breach.'
+        cases:
+          - rta-v-refrigerated-roadways
+          - romeo-v-conservation-commission-nt
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+        branches:
+          - label: 'Yes'
+            to: e-breach
+          - label: 'No: the response was reasonable'
+            to: e-reasonable
+      - id: e-5o
+        kind: end
+        tone: not-met
+        text: 'No breach: the s 5O defence is made out and supplants s 5B.'
+      - id: e-nobreach
+        kind: end
+        tone: not-met
+        text: 'No breach: the risk fails s 5B(1)(a) or (b).'
+      - id: e-reasonable
+        kind: end
+        tone: not-met
+        text: 'No breach: the response was reasonable, as in Dederer and Refrigerated Roadways.'
+      - id: e-breach
+        kind: end
+        tone: met
+        text: 'Breach established: move to causation.'

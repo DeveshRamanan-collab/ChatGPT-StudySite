@@ -1,0 +1,35 @@
+---
+import {getEntry,getCollection,render} from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ExplainerHost from '../../../components/explainers/ExplainerHost';
+import AudioRecap from '../../../components/AudioRecap';
+import {units,weeksOf,conceptSlug} from '../../../lib/content';
+export async function getStaticPaths(){const paths=[];for(const u of await units())for(const w of await weeksOf(u.id))paths.push({params:{unit:u.id,n:String(w.data.number)},props:{u,w}});return paths;}
+const {u,w}=Astro.props;
+const {Content}=await render(w);
+const concepts=(await Promise.all(w.data.concepts.map((id)=>getEntry('concepts',id)))).filter(c=>c!==undefined);
+const aids=await getCollection('aids',a=>a.data.week===w.id);
+const audio=(await getCollection('audio',a=>a.data.week===w.id))[0];
+const weeks=await weeksOf(u.id);const at=weeks.findIndex(x=>x.id===w.id);
+---
+<Layout title={`${u.data.code} week ${w.data.number}`} progress index="Week" unit={u.id} centre wide>
+ <Breadcrumbs items={[{href:'/',label:'Home'},{href:`/${u.id}/`,label:u.data.code},{label:`Week ${w.data.number}`}]}/>
+ <p class="label">{u.data.code} · Week {w.data.number}</p><h1 transition:name={`week-${w.id}`}>{w.data.topic}</h1><p class="rb-lede">{w.data.summary}</p>
+ <nav class="rb-actions" aria-label="Week tools"><a href={`/${u.id}/week/${w.data.number}/sheet/`}>Revision sheet</a><a href={`/${u.id}/exam/`}>Exam notes</a><a href={`/${u.id}/quiz?mode=week&week=${w.id}`}>Test this week</a><a href={`/cases/?unit=${u.id}`}>Cases</a><a href={`/statutes/?unit=${u.id}`}>Legislation</a></nav>
+ {w.data.thin&&<p class="rb-callout">{w.data['thin-reason']} Source gaps remain visible; no missing material has been invented.</p>}
+ {w.data['source-note']&&<details class="rb-note"><summary>How this week was prepared</summary><p>{w.data['source-note']}</p></details>}
+ <div class="rb-tabs" role="tablist" aria-label="Week reading view" data-week-tabs>{[['visual','Visual · continuous'],['text','Text · continuous'],['topics','By topic']].map(([id,label])=><button role="tab" type="button" id={`week-tab-${id}`} aria-selected={id==='visual'} aria-controls={`week-${id}`} data-view={id}>{label}</button>)}</div>
+ <div class="rb-week-visual" id="week-visual" role="tabpanel" aria-labelledby="week-tab-visual" data-week-panel="visual">
+  <p class="rb-muted">Scroll through the whole week. Each explanation is interactive; nothing advances the page for you.</p>
+  {concepts.map(c=>{const a=aids.find(a=>a.data.concept===c.id)?.data;return <section class="rb-week-concept" id={`visual-${c.id}`}><p class="label">{u.data.code} · {c.data.title}</p><h2>{c.data.title}</h2>{a&&<p class="rb-lede">{a.plain}</p>}<ExplainerHost client:visible conceptId={c.id} unit={u.id} title={c.data.title} continuous/>{a&&<div class="rb-week-explanations"><h3>See it in an example</h3><p>{a.concrete}</p><h3>The legal or theoretical rule</h3><p>{a.formal}</p>{a.elements.length>0&&<><h3>What to check</h3><ul>{a.elements.map(e=><li><strong>{e.name}</strong> — {e.test}</li>)}</ul></>}{a.misconceptions.length>0&&<details><summary>Common misunderstandings</summary>{a.misconceptions.map(m=><p><strong>{m.claim}</strong><br/>{m.correction}</p>)}</details>}{a['what-if'].length>0&&<details><summary>Change the facts</summary>{a['what-if'].map(x=><p><strong>{x.change}</strong><br/>{x.effect}</p>)}</details>}</div>}<p class="rb-actions"><a href={`/${u.id}/concept/${conceptSlug(c)}/`}>Full topic and source trail</a><a href={`/${u.id}/quiz?concept=${c.id}`}>Recall practice</a></p></section>;})}
+ </div>
+ <div id="week-text" role="tabpanel" aria-labelledby="week-tab-text" data-week-panel="text" hidden><article class="prose rb-week-text" id="notes" tabindex="-1"><Content/></article>{audio?.body&&<AudioRecap client:visible title={audio.data.title} minutes={audio.data.minutes} script={audio.body}/>}</div>
+ <div id="week-topics" role="tabpanel" aria-labelledby="week-tab-topics" data-week-panel="topics" hidden><h2>Choose a topic</h2><ul class="rb-link-grid">{concepts.map(c=><li><a href={`/${u.id}/concept/${conceptSlug(c)}/`}>{c.data.title}<span>Visual, text, examples and practice</span></a></li>)}</ul><p><a href={`/${u.id}/flows#${w.id}`}>Decision flows for this week</a></p></div>
+ <nav class="rb-actions rb-week-next" aria-label="Previous and next week">{at>0&&<a href={`/${u.id}/week/${weeks[at-1].data.number}/`}>← Week {weeks[at-1].data.number}</a>}<a href="/everything/">Everything index</a>{at < weeks.length - 1&&<a href={`/${u.id}/week/${weeks[at+1].data.number}/`}>Week {weeks[at+1].data.number} →</a>}</nav>
+</Layout>
+<script>
+function wireWeek(){const tabs=[...document.querySelectorAll<HTMLButtonElement>('[data-week-tabs] button')];if(!tabs.length)return;const apply=(view:string)=>{tabs.forEach(t=>t.setAttribute('aria-selected',String(t.dataset.view===view)));document.querySelectorAll<HTMLElement>('[data-week-panel]').forEach(p=>p.hidden=p.dataset.weekPanel!==view);};apply('visual');tabs.forEach((t,i)=>{t.addEventListener('click',()=>apply(t.dataset.view!));t.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const n=(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tabs[n].focus();apply(tabs[n].dataset.view!);}});});}
+document.addEventListener('astro:page-load',wireWeek);
+</script>
+<style>.rb-week-concept{padding-block:48px;border-bottom:1px solid var(--line)}.rb-week-concept>h2{margin-top:12px}.rb-week-explanations,.rb-week-text{max-width:66ch;margin-inline:auto}.rb-week-explanations{margin-top:32px}.rb-week-concept .explainer{margin-inline:auto}.rb-week-next{justify-content:space-between;margin-top:48px}</style>

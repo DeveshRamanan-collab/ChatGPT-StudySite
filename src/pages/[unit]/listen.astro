@@ -1,0 +1,22 @@
+---
+// Listening practice and a mock viva for one unit (features 186, 181/182 stand-in, 102). Speech is the browser's own
+// voice (speechSynthesis); there is no speech recognition, so nothing the student says leaves the device.
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ListenPage from '../../components/audio/ListenPage';
+import { units } from '../../lib/content';
+import '../../styles/audio.css';
+
+export async function getStaticPaths() {
+  return (await units()).map((u) => ({ params: { unit: u.id }, props: { u } }));
+}
+const { u } = Astro.props;
+---
+
+<Layout title={`${u.data.code} listen and viva`} description={`Listening practice and a mock viva for ${u.data.code}: questions read aloud, time to think, then the answer.`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { label: 'Listen' }]} />
+  <p class="label">{u.data.code}</p>
+  <h1 data-split>Listen and answer</h1>
+  <p class="listen-page__lede">Revise by ear. Listen reads a question, gives you time to think, then reads the answer. Viva asks you a concept’s questions out loud and presses you with a follow-up.</p>
+  <ListenPage client:load unit={u.id} />
+</Layout>

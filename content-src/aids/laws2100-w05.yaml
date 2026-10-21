@@ -1,0 +1,586 @@
+unit: laws2100
+week: 5
+source: raw/laws2100-juris/week-05
+generator: aids-1
+aids:
+  - concept: laws2100-w05-ruling-theory-and-three-tenets
+    plain: 'Dworkin attacks Hart''s positivism by naming its three key tenets: law is identified by pedigree, judges must sometimes use discretion, and legal obligation exists only where a valid rule applies.'
+    concrete: 'Dworkin turns Hart''s own strategy against him. Hart showed that Austin''s theory could not explain the continuity and persistence of law: it ''failed to fit the facts''. Dworkin points to a feature of our law, principles such as ''no one may profit by his own wrong'' in Riggs v Palmer, and argues that a theory built on a master rule of pedigree cannot explain it.'
+    formal: 'Taking Rights Seriously attacks ''the ruling theory of law'', derived from Bentham: legal positivism (what law is), utilitarianism (what it ought to be), and the assumption that they are independent. Positivism holds that rights exist ''only insofar as these have been created by explicit political decisions or explicit social practice'' (TRS xii). Its tenets: pedigree; discretion; obligation if and only if a valid rule applies.'
+    terms:
+      - term: Ruling theory of law
+        gloss: 'Dworkin''s name for the liberal theory he attacks: legal positivism plus utilitarianism, both derived from Bentham and assumed to be independent of one another.'
+      - term: Pedigree
+        gloss: 'Identifying a rule as law by how it was made or adopted: the test Hart''s rule of recognition supplies, and Dworkin''s first tenet.'
+      - term: Hard case
+        gloss: A case where no established rule can be found, such as a gap in the law. Positivists say judges must then exercise discretion.
+    misconceptions:
+      - claim: Dworkin criticises only the positivist half of the ruling theory.
+        tempting: He is best known as Hart's critic.
+        correction: 'He criticises both parts, positivism and utilitarianism, and the assumption that they are independent: a general theory of law must be normative as well as conceptual (slide 3).'
+      - claim: Dworkin misdescribes positivism, since common law rights are not legislated.
+        tempting: He says positivism 'rejects the idea that legal rights can pre-exist any form of legislation' (TRS xi).
+        correction: 'His point is broader: rights created by ''explicit political decisions or explicit social practice'' (TRS xii), which covers judicial practice too.'
+      - claim: Dworkin targets Hart's version because it is the weakest form of positivism.
+        tempting: Critics often pick an easy target.
+        correction: Hart's is 'the most powerful contemporary version' (TRS ix); constructive thought in legal philosophy 'must start with a consideration of his views' (TRS 16).
+    socratic:
+      - ask: How did Hart attack Austin?
+        hint: Continuity and persistence.
+        answer: 'He found features of law, such as its continuity and persistence, that Austin''s descriptive theory could not explain: it ''failed to fit the facts''.'
+      - ask: What is the organising concept of Hart's theory, as the habit of obedience was of Austin's?
+        hint: Which secondary rule?
+        answer: The rule of recognition, which identifies valid rules by their pedigree. That is Dworkin's first target.
+      - ask: What do positivists say happens when no rule covers a case?
+        hint: Tenets two and three.
+        answer: Judges must exercise discretion; and since obligation exists only where a valid rule applies, there is no legal obligation until the judge makes a new rule.
+      - ask: Which feature of law does Dworkin say Hart's theory cannot explain?
+        hint: Riggs v Palmer.
+        answer: Principles, such as 'no one may profit by his own wrong', which judges treat as binding though no test of pedigree captures them.
+      - ask: Why does Dworkin also reject separating 'what law is' from 'what law ought to be'?
+        hint: Compare Finnis in week 4.
+        answer: A general theory of law must be normative as well as conceptual. Like Finnis he denies the two questions can be neatly separated, though with different arguments.
+    elements:
+      - name: Pedigree
+        test: 'Can legal rules be identified by their pedigree, through a master rule (Hart''s rule of recognition)? Dworkin: principles cannot be.'
+        authorities:
+          - dworkin-taking-rights-seriously
+      - name: Discretion
+        test: 'Must judges exercise discretion where the rules run out? Dworkin: only weak discretion, because principles still bind.'
+      - name: Obligation
+        test: 'Is there legal obligation if and only if the case falls under a valid rule? Dworkin: a constellation of principles can impose one (TRS 44).'
+    what-if:
+      - change: A positivist adds a list of principles to the rule of recognition's criteria.
+        effect: 'Dworkin says this cannot work: no test of pedigree captures principles, and he opposes the idea that ''the law'' is ''a fixed set of standards of any sort'' (TRS 76).'
+      - change: Dworkin's target had been Austin rather than Hart.
+        effect: 'The tenets would not fit: Austin''s organising concept is the habit of obedience, not a rule of recognition. Dworkin targets Hart''s version because it is the most powerful (TRS ix).'
+    boundary:
+      - text: Finnis's rejection of the is/ought separation (week 4).
+        why: 'The same idea with different arguments: Finnis puts the ''why'' question first; Dworkin treats the two questions as interconnected.'
+      - text: A court applying a regulation made by a minister under a valid Act.
+        why: 'A textbook pedigree case: the rule is identified by how it was made. Dworkin accepts that rules exist; his point is that law also contains principles.'
+    transfer:
+      - scenario: A theorist says a sports league's rulebook explains everything its officials do. Yet officials regularly settle disputes by appealing to 'the spirit of the game', which appears nowhere in the rulebook.
+        answer: 'This is Dworkin''s strategy against Hart: find a feature of the practice that the model cannot describe. If officials treat ''the spirit of the game'' as binding, a model of rules identified by pedigree misses it, as Hart''s rule of recognition misses principles like the one applied in Riggs.'
+    objections:
+      - position: A general theory of law must be normative as well as conceptual (Dworkin).
+        evidence: The ruling theory wrongly assumes its positivist and utilitarian parts are independent; understanding law requires understanding its point (slide 3; lecture).
+        objection: 'Hart''s Postscript restates his aim: ''a theory of what law is which is both general and descriptive'' (CL 239), describing law before criticising it.'
+      - position: Positivism cannot explain principles, so it fails as a descriptive theory (Dworkin).
+        evidence: In Riggs, judges treat 'no one may profit by his own wrong', a maxim of the common law, as binding; no pedigree test captures it.
+        objection: 'Raz: when the law runs out, judges reach beyond it for extra-legal principles and make new law; principles need not be law to be used (lecture).'
+    sources:
+      - Week 05 - Lecture Slides (slides 2–5)
+      - Week 05 - Lecture Transcript (first half)
+  - concept: laws2100-w05-rules-principles-and-policies
+    plain: Lawyers argue with more than rules. Rules apply all-or-nothing; principles give reasons with weight, grounded in justice or fairness; policies set goals for the community.
+    concrete: 'Dworkin''s pair: ''the standard that automobile accidents are to be decreased is a policy, and the standard that no man may profit by his own wrong a principle''. The second is observed not because it makes society better off but because justice requires it. In Riggs v Palmer it weighed against the will statutes, which read literally gave Elmer his murdered grandfather''s estate.'
+    formal: 'Principle: a standard observed ''not because it will advance or secure an economic, political, or social situation deemed desirable, but because it is a requirement of justice or fairness or some other dimension of morality''. Policy: a standard ''that sets out a goal to be reached'' (TRS 22). Rules and principles differ by ''a logical distinction'' in ''the character of the direction they give'' (TRS 24).'
+    analogy:
+      text: 'A rule is like a switch: once its conditions are met it is on, and settles the outcome. A principle is like a weight on a set of scales: it tips the balance without settling it alone.'
+      maps:
+        - from: the switch turning on
+          to: 'a rule applying all-or-nothing: if A then B'
+        - from: two switches wired to opposite results
+          to: 'conflicting rules: one must give way'
+        - from: weights on the scales
+          to: principles with the dimension of weight
+        - from: a lighter weight still on the scales
+          to: an outweighed principle that remains valid law
+      limits:
+        - Switches and weights look different; Dworkin says it is not always clear from a standard's form whether it is a rule or a principle.
+        - A weight is fixed in advance; a principle's weight is assessed in the particular case.
+    terms:
+      - term: Principle
+        gloss: A standard observed because it is a requirement of justice, fairness or another dimension of morality, not because it secures a desirable social state (TRS 22).
+      - term: Policy
+        gloss: A standard setting a goal, generally an improvement in an economic, political or social feature of the community; some protect a present feature from adverse change.
+      - term: All-or-nothing
+        gloss: 'How rules apply: if A then B. If the facts meet the rule, it settles the outcome; if not, it contributes nothing.'
+      - term: Dimension of weight
+        gloss: 'The importance principles have and rules lack: conflicting principles are weighed; with conflicting rules, one must give way.'
+    misconceptions:
+      - claim: Whether a standard is a rule or a principle can be read off its wording.
+        tempting: Rules often say 'must'; principles sound general.
+        correction: 'Dworkin: it is not always clear from the form of a standard. Look at how legal actors and judges reason with it (slide 8).'
+      - claim: When two principles conflict, the outweighed one becomes invalid.
+        tempting: That is what happens when rules conflict.
+        correction: 'Principles have weight: the court balances them for the case, and the outweighed principle remains a valid principle of the law. Only conflicting rules force one to give way.'
+      - claim: Dworkin treats principles as extra-legal moral standards.
+        tempting: Principles have a moral dimension.
+        correction: 'He argues they are part of the law: in Riggs they were found as maxims of the common law, though also described as principles of natural law and justice.'
+    socratic:
+      - ask: Take 'no one may profit by his own wrong' and 'automobile accidents are to be decreased'. Why is each observed?
+        hint: A goal, or a requirement of justice?
+        answer: 'The first because justice requires it, whatever its effects: a principle. The second because it improves the community: a policy, setting a goal.'
+      - ask: A statute says a testator's property passes under a valid will. How does it apply?
+        hint: If A then B.
+        answer: 'All-or-nothing: if its conditions are met, it settles the outcome. Read literally, it gave Elmer the estate.'
+      - ask: How does the principle about profiting from one's own wrong apply differently?
+        hint: Does it settle the case on its own?
+        answer: It states a reason that argues in one direction, with weight. It is weighed against other considerations rather than mechanically dictating the result.
+      - ask: What happens when two rules conflict, and when two principles conflict?
+        hint: Weight.
+        answer: 'Conflicting rules: one must give way. Conflicting principles: they are weighed for the case, and the lighter one remains valid.'
+      - ask: So why are principles a problem for Hart?
+        hint: Pedigree.
+        answer: They cannot be identified by a test of pedigree, so no master rule of recognition captures them; yet judges treat them as binding.
+    elements:
+      - name: How it applies
+        test: All-or-nothing once its conditions are met (a rule), or as a reason arguing in one direction (a principle or policy)?
+        authorities:
+          - dworkin-taking-rights-seriously
+      - name: Weight
+        test: When it conflicts with another standard, is it weighed (a principle), or must one of the two give way (a rule)?
+      - name: Why it is observed
+        test: Because justice, fairness or another dimension of morality requires it (a principle), or because it secures a goal for the community (a policy)?
+      - name: How actors reason with it
+        test: 'Form may not tell you: check how lawyers and judges actually use the standard in argument (slide 8).'
+    what-if:
+      - change: The will statute had expressly said that an heir who murders the testator takes nothing.
+        effect: A rule would settle Riggs all-or-nothing, and the case would be easy. Dworkin's point depends on the statute being silent, so that a principle had to do the work.
+      - change: A court faces two constitutional principles, equality and free speech, pointing opposite ways.
+        effect: It weighs them for this case, and the outweighed principle remains a valid principle of the law. Neither is struck out, as one of two conflicting rules would be.
+    boundary:
+      - text: A standard that existing local manufacturing jobs are to be protected from decline.
+        why: 'A policy, though a negative one: Dworkin allows goals stipulating that a present feature is to be protected from adverse change (TRS 22).'
+      - text: 'A maxim stated in one crisp sentence: ''no one shall acquire property by his own crime''.'
+        why: 'Still a principle on Dworkin''s test: its form looks rule-like, but in Riggs it was weighed against the will statutes rather than applied all-or-nothing.'
+    transfer:
+      - scenario: A school code says 'phones must be handed in at the start of exams' and also 'students are to be treated fairly'. A student's phone is confiscated mid-call during a family emergency.
+        answer: 'The first works all-or-nothing: a rule. The second states a reason of fairness with weight: a principle. On Dworkin''s model the fairness principle is part of the code and is weighed in applying the rule, as ''no one may profit by his own wrong'' controlled the will statutes in Riggs.'
+    objections:
+      - position: Law contains principles as well as rules, and positivism's single test for law misses them (Dworkin).
+        evidence: Lawyers argue with standards that function as principles and policies; positivism is 'a model of and for a system of rules' (TRS 22).
+        objection: 'Hart''s inclusive positivism: a system''s social sources may incorporate moral criteria, so principles in a constitution are still identified through sources (CL 269).'
+        reply: 'Dworkin: no test of pedigree can capture principles, and the law is not ''a fixed set of standards of any sort'' (TRS 76).'
+      - position: The difference between rules and principles is a logical one (Dworkin).
+        evidence: Rules apply all-or-nothing; principles have weight; conflicting rules force one out, while conflicting principles are balanced (TRS 24).
+        objection: Dworkin concedes that form does not always reveal which a standard is; classification depends on how actors reason with it, so the line may be harder to draw than 'logical' suggests.
+    sources:
+      - Week 05 - Lecture Slides (slides 6–8, 13)
+      - Week 05 - Lecture Transcript (first half)
+  - concept: laws2100-w05-discretion-riggs-and-obligation
+    plain: Dworkin accepts that judges use judgment, but denies that in hard cases they are free of legal standards. In Riggs v Palmer, principles of the law decided that the murderer could not inherit.
+    concrete: 'Francis Palmer left most of his estate to his grandson Elmer, aged 16. Knowing his grandfather might revoke the will, Elmer poisoned him. The will was valid, and the will statutes, read literally, gave Elmer the property. The majority refused: all laws ''may be controlled in their operation and effect by general, fundamental maxims of the common law'', including that no one may profit by his own wrong.'
+    formal: '''Discretion, like the hole in a doughnut, does not exist except as an area left open by a surrounding belt of restriction'' (TRS 31). Weak discretion: standards demand judgment, or a decision is final. Strong: the official ''is simply not bound by standards set by the authority in question'' (TRS 32). Treat principles as law, and ''a legal obligation might be imposed by a constellation of principles'' (TRS 44).'
+    analogy:
+      text: 'Discretion is like the hole in a doughnut: it exists only as the space left open by the ring around it. Take away the ring and there is no hole, just nothing.'
+      maps:
+        - from: the ring of the doughnut
+          to: the belt of standards set by an authority
+        - from: the hole
+          to: 'discretion: the area those standards leave open'
+        - from: a hole with no ring at all
+          to: 'strong discretion: not bound by standards on the issue'
+      limits:
+        - The image fits a sergeant bound by orders; whether judges' principles form part of the ring is exactly what positivists dispute.
+    terms:
+      - term: Weak discretion
+        gloss: Either the standards cannot be applied mechanically and demand judgment (TRS 31), or an official has final authority and cannot be reviewed (TRS 32). Dworkin accepts both.
+      - term: Strong discretion
+        gloss: 'On some issue the official ''is simply not bound by standards set by the authority in question'' (TRS 32): what Dworkin says positivists must accept in hard cases.'
+      - term: Constellation of principles
+        gloss: 'Dworkin''s alternative source of legal obligation: it exists whenever the case for it, in terms of binding legal principles, is stronger than the case against (TRS 44).'
+    misconceptions:
+      - claim: Dworkin denies that judges have any discretion.
+        tempting: He attacks the positivist doctrine of discretion.
+        correction: He accepts both weak senses, judgment and finality. It is strong discretion, being unbound by standards, that he says cases like Riggs do not show.
+      - claim: In Riggs the judges set the law aside and decided on morality.
+        tempting: The maxims are described as principles of natural law and justice.
+        correction: 'They found the principles within positive law, as maxims of the common law. For Dworkin that is the point: principles with a moral dimension are part of the law.'
+      - claim: For positivists, a hard case is decided by an obligation that existed all along.
+        tempting: Courts speak as though parties had obligations before judgment.
+        correction: 'Dworkin''s reading of the third tenet: where no established rule applies, ''there is no legal obligation until the judge creates a new rule for the future'' (TRS 44).'
+    socratic:
+      - ask: Elmer's grandfather's will was valid and made in due form. What did the will statutes, read literally, require?
+        hint: Did they mention murder?
+        answer: 'That Elmer take the property: the statutes were silent about an heir who murders the testator.'
+      - ask: On what basis did the majority refuse him?
+        hint: Slides 12–13.
+        answer: A thing within a statute's letter is not within it unless within its makers' intention; and all laws may be controlled by fundamental maxims of the common law, such as no one may profit by his own wrong.
+      - ask: What did the minority say?
+        hint: Rigid rules, and punishment.
+        answer: The court is bound by the rigid rules the legislature established, the laws are silent, and refusing Elmer would add a punishment to his criminal one.
+      - ask: Were the majority judges free of standards, exercising strong discretion?
+        hint: Like a sergeant bound by orders?
+        answer: 'Dworkin says no: they were controlled by principles of the law, as a sergeant''s orders control him. At most, weak discretion: judgment.'
+      - ask: Then where did the obligation that defeated Elmer's claim come from?
+        hint: TRS 44.
+        answer: 'From a constellation of principles: the case for it, in terms of binding legal principles, was stronger than the case against.'
+    elements:
+      - name: 'Weak discretion: judgment'
+        test: Do the standards demand judgment because they cannot be applied mechanically (TRS 31)? Dworkin accepts this.
+        authorities:
+          - dworkin-taking-rights-seriously
+      - name: 'Weak discretion: finality'
+        test: Does the official have final authority, unreviewable by any other official (TRS 32)? Dworkin accepts this too.
+      - name: Strong discretion
+        test: Is the official simply not bound by standards set by the authority on the issue (TRS 32)? Dworkin denies this of judges in cases like Riggs.
+        cases:
+          - riggs-v-palmer
+    what-if:
+      - change: The will statutes had expressly barred an heir who murders the testator.
+        effect: 'A rule would decide the case all-or-nothing: an easy case. No principle would be needed, and neither weak nor strong discretion would be in issue.'
+      - change: No principle of the law bore on the case at all.
+        effect: Then nothing would limit the judge's choice, and the positivist account of strong discretion would fit. Dworkin's argument depends on principles being found within the law, as the common law maxims were in Riggs.
+    boundary:
+      - text: A tribunal whose decisions cannot be appealed refuses a licence because the applicant is 'not a fit and proper person'.
+        why: 'Both weak senses at once: the standard demands judgment and the decision is final. Not strong discretion: the tribunal is still bound by the standard.'
+      - text: The Riggs minority's point about added punishment.
+        why: 'It lost, but matters to Dworkin: for a liberal, law''s point is to justify coercion, and a judge inventing an extra punishment on the fly would be illiberal.'
+    transfer:
+      - scenario: A will leaves a house to a carer, who forged a document to stop the owner changing the will. The succession statute says nothing about forgery, and the carer claims the house.
+        answer: On Dworkin's account the court is not free to do as it likes. Read literally, the statute favours the carer; but principles of the law, such as that no one may profit by his own fraud (Riggs), weigh against. If the case against the claim is stronger, the carer cannot take the house (TRS 44).
+    objections:
+      - position: In hard cases judges are bound by legal principles; their discretion is weak only (Dworkin).
+        evidence: In Riggs the majority applied maxims of the common law; judges cite principles as binding, as a sergeant's orders control him (TRS 34).
+        objection: 'Raz and the realists: when the law runs out, judges reach beyond it for extra-legal principles and make new law. Some commentators add that Dworkin cherry-picked cases like Riggs (lecture).'
+      - position: In a hard case there is no legal obligation until the judge creates a new rule (the positivist third tenet).
+        evidence: Obligation exists when and only when an established rule imposes it, and no legal system can regulate every case (TRS 44; lecture).
+        objection: 'Dworkin: the parties would then come to court under no obligation, one created only in that moment; a constellation of binding principles can impose the obligation instead (TRS 44).'
+    storyboard:
+      - caption: The will, 1880
+        detail: Francis Palmer leaves small legacies to his daughters, Mrs Riggs and Mrs Preston, and the rest of his estate to his grandson Elmer.
+      - caption: The murder
+        detail: Elmer, aged 16, knowing his grandfather may revoke the will, wilfully poisons him to secure the estate and enjoy it sooner.
+      - caption: The claim under a valid will
+        detail: The will was made in due form and admitted to probate; read literally, the will statutes give the murderer the property.
+      - caption: 'The majority: principles control statutes'
+        detail: 'A statute''s letter is read with its makers'' intention, and all laws may be controlled by fundamental common law maxims: no one may profit by his own wrong.'
+      - caption: 'The minority: rigid rules'
+        detail: The court is bound by the legislature's rules, the laws are silent, and refusing Elmer would impose an additional punishment.
+      - caption: Dworkin's use of the case
+        detail: 'Principles found within positive law decided the case: a feature of law that Hart''s rule of recognition cannot capture.'
+    sources:
+      - Week 05 - Lecture Slides (slides 9–16)
+      - Week 05 - Lecture Transcript (first half)
+  - concept: laws2100-w05-inclusive-and-exclusive-positivism
+    plain: Positivists split over Dworkin's challenge. Inclusive positivists (Hart) say a legal system may make morality a test of validity; exclusive positivists (Raz) say morality can never be such a test.
+    concrete: A constitution, enacted by a constituent assembly, protects equality. Parliament passes a statute by the correct procedure, but its content discriminates, and a court with the power to do so strikes it down. The statute had formal but not substantive validity. Hart says morality entered through a social source, the constitution, in that system only. Raz says the equality principle, once incorporated, is a legal criterion.
+    formal: '''The existence and content of the law can be identified by reference to the social sources of law (e.g. legislation, judicial decisions, social customs) without reference to morality except where the law thus identified has itself incorporated moral criteria for the identification of the law'' (CL 269). Inclusive: particular systems may make moral criteria necessary or sufficient for validity. Exclusive (Raz): moral criteria can be neither.'
+    terms:
+      - term: Social sources thesis
+        gloss: Law's existence and content can be identified by its social sources, such as legislation, judicial decisions and customs, without reference to morality, unless the law incorporates moral criteria (CL 269).
+      - term: Inclusive (soft) positivism
+        gloss: 'Particular legal systems may make moral criteria necessary or sufficient for legal validity, in that system only: a contingent connection (Hart).'
+      - term: Exclusive (hard) positivism
+        gloss: Moral criteria can be neither sufficient nor necessary conditions for legal validity; once incorporated into law, they become legal criteria (Raz).
+      - term: Substantive validity
+        gloss: Validity depending on a law's content, as against formal validity from correct procedure. A constitutional equality principle can make a statute substantively invalid.
+    misconceptions:
+      - claim: Inclusive positivism concedes a necessary connection between law and morality.
+        tempting: It lets morality decide legal validity.
+        correction: 'Only where a system''s sources incorporate moral criteria, and only in that system: something some systems have and others do not. The connection is contingent (lecture).'
+      - claim: As an exclusive positivist, Raz thinks judges must ignore morality.
+        tempting: '''Exclusive'' sounds like shutting morality out of judging.'
+        correction: Morality is not a condition of validity, but when the law runs out judges may reach beyond it for extra-legal principles and make new law (lecture).
+      - claim: The social sources thesis says morality plays no part in identifying law.
+        tempting: It says law is identified 'without reference to morality'.
+        correction: 'CL 269 continues: ''except where the law thus identified has itself incorporated moral criteria for the identification of the law''.'
+    socratic:
+      - ask: How do we identify law, according to Hart's Postscript?
+        hint: CL 269.
+        answer: 'By its social sources: legislation, judicial decisions, social customs, without reference to morality, except where the law has incorporated moral criteria.'
+      - ask: A procedurally valid statute is struck down for breaching a constitutional equality principle. Did morality decide its validity?
+        hint: Where did the equality test come from?
+        answer: 'Through a social source: the constitution incorporated a moral criterion. The statute was formally valid but substantively invalid.'
+      - ask: Does that make law and morality necessarily connected?
+        hint: Does every system have such a constitution?
+        answer: 'No. For Hart it is contingent: some systems incorporate moral criteria and others do not. That is inclusive positivism.'
+      - ask: How would Raz describe the same case?
+        hint: What happens to a moral criterion once it is in the law?
+        answer: 'It becomes a legal criterion. Moral criteria can be neither necessary nor sufficient for validity: exclusive positivism.'
+      - ask: Why did this debate start at all?
+        hint: Whose criticisms?
+        answer: The positivist camp recognised that Dworkin's criticisms had merit; Hart's Postscript reads as a reply to Dworkin.
+    what-if:
+      - change: The constitution in the equality example is repealed, leaving Parliament unrestricted.
+        effect: 'The discriminatory statute is valid on both positivist views, since no source incorporates the moral criterion. Its injustice alone does not affect validity: the contingency inclusive positivists stress.'
+      - change: A statute tells courts to refuse to enforce any contract term that is 'unconscionable'.
+        effect: 'Inclusive: the system has incorporated a moral criterion through a social source. Exclusive: ''unconscionable'' is now a legal criterion, or judges reach beyond the law to apply it. Both remain positivists.'
+    boundary:
+      - text: Dworkin's principles in Riggs.
+        why: 'Not inclusive positivism: Dworkin says principles are law without any test of pedigree, whereas Hart counts morality only where social sources incorporate it.'
+      - text: The strong lex iniusta thesis (week 4).
+        why: 'Outside both: it makes every unjust law invalid, a necessary connection. Inclusive positivism allows moral tests only where a system adopts them.'
+    transfer:
+      - scenario: A sports association's charter lets officials disqualify a result 'contrary to fair play'. A winning team's tactic followed the written rules but exploited a loophole.
+        answer: An inclusive positivist says the charter, a social source, has made a moral standard a criterion of valid results in this association only. An exclusive positivist says 'fair play' is now one of the association's own criteria, or officials reach beyond the rules. Neither says fair play governs every association by necessity.
+    objections:
+      - position: Law is identified by social sources; morality counts only where those sources incorporate it (Hart's inclusive positivism).
+        evidence: CL 269; a constitutional equality principle can invalidate a discriminatory statute, a contingent feature of some systems (lecture).
+        objection: 'Raz (exclusive positivism): moral criteria can be neither necessary nor sufficient conditions for validity; once incorporated, they are legal criteria.'
+      - position: The inclusive/exclusive debate is the positivist answer to Dworkin.
+        evidence: It started because positivists recognised Dworkin's criticisms had merit; Hart's Postscript, his unfinished reply to critics, follows Dworkin's lines (lecture).
+        objection: Critics say the debate turned legal philosophy into a very intramural discussion (lecture; Bix 46–49).
+    sources:
+      - Week 05 - Lecture Slides (slides 18–19)
+      - Week 05 - Lecture Transcript (second half)
+  - concept: laws2100-w05-theoretical-disagreement
+    plain: Judges sometimes agree on all the facts and on which sources count, yet disagree about what the law is. Dworkin says Hart's theory cannot explain this.
+    concrete: 'In Riggs v Palmer nobody disputed the facts: Elmer poisoned his grandfather, and the will was valid. Nobody disputed that the will statutes were valid law. Yet the judges disagreed about whether Elmer was legally entitled to the estate. That is not empirical disagreement about what happened, nor moral disagreement about whether the law is just, but disagreement about what the law is.'
+    formal: '''Lawsuits always raise, at least in principle, three different kinds of issues: issues of fact, issues of law, and the twinned issues of political morality and fidelity'' (LE 3). Disagreement about the pertinent law is ''theoretical''. Law''s Empire ''takes up the internal, participants'' point of view'', studying formal legal argument ''from the judge''s viewpoint'' (LE 14).'
+    analogy:
+      text: Two referees watch the replay together, agree on exactly what happened, and both accept the same rulebook. They still disagree about whether the tackle was lawful.
+      maps:
+        - from: agreeing on the replay
+          to: no empirical disagreement about the facts
+        - from: accepting the same rulebook
+          to: agreement on the criteria of validity
+        - from: disputing whether the tackle was lawful
+          to: theoretical disagreement about what the law requires
+      limits:
+        - Sports are rule-governed but, Dworkin says, not argumentative in the way legal practice is.
+        - A referee's dispute may be one referee's plain mistake, the easy-case pattern; theoretical disagreement is reasonable disagreement among experts.
+    terms:
+      - term: Empirical disagreement
+        gloss: 'Disagreement about what happened: the facts of the case.'
+      - term: Theoretical disagreement
+        gloss: Disagreement about what the pertinent law is, among participants who agree on the facts and on the validity of the sources.
+      - term: Moral disagreement
+        gloss: 'Disagreement about whether the law, once identified, is just: for example, if it denies compensation.'
+      - term: Argumentative practice
+        gloss: 'Dworkin''s distinctive feature of law: unlike many rule-governed social practices, legal practice consists in arguing about what the law requires.'
+    misconceptions:
+      - claim: Theoretical disagreement is really moral disagreement about whether the law is just.
+        tempting: Principles of justice are in play, as in Riggs.
+        correction: 'Dworkin separates them: the Riggs judges disputed what the law required, not whether a law they agreed on was just. Moral disagreement is a third kind (LE 3).'
+      - claim: Any disagreement about the law shows that someone has simply made a mistake.
+        tempting: In an easy case an expert corrects a layperson.
+        correction: That is the easy-case pattern. Theoretical disagreement is reasonable disagreement among judges and lawyers who know the law.
+      - claim: The theoretical disagreement argument conclusively refutes Hart.
+        tempting: If officials agree on criteria, the content of the law should follow.
+        correction: 'The lecturer: he is not saying Dworkin is right, but ''you must be able to see the argument''. Test it against the positivist account of hard cases and discretion.'
+    socratic:
+      - ask: In Riggs, did the judges disagree about what happened?
+        hint: Was the poisoning disputed?
+        answer: 'No. The facts and the will''s validity were accepted: no empirical disagreement.'
+      - ask: Did they disagree about whether a law they all accepted was just?
+        hint: That would be the third kind.
+        answer: 'No. They disagreed about what the law required, whether Elmer was legally entitled: theoretical disagreement.'
+      - ask: On Hart's theory, how do we know what the rule of recognition is?
+        hint: Whose behaviour?
+        answer: 'From practice: it exists because officials, especially judges, converge in accepting it.'
+      - ask: If officials agree on the criteria of validity, what should follow about the content of the law?
+        hint: Criteria, then valid rules, then content.
+        answer: They should be able to identify the valid rules, and so the content. On this reconstruction, if Hart is right we should never see theoretical disagreement.
+      - ask: How did the Riggs majority justify reading the statute with principles of justice?
+        hint: Two reasons, slide 21.
+        answer: Legislators have a general and diffuse intention to respect traditional principles of justice; and the statute should be read so that the system as a whole is coherent in principle.
+    elements:
+      - name: Issues of fact
+        test: What happened? Disagreement here is empirical.
+        authorities:
+          - dworkin-laws-empire
+      - name: Issues of law
+        test: What is the pertinent law? Disagreement here, among those who agree on facts and sources, is theoretical.
+      - name: Political morality and fidelity
+        test: If the law denies, say, compensation, is that unjust? Disagreement here is moral.
+    what-if:
+      - change: The Riggs judges had disputed whether Elmer actually poisoned his grandfather.
+        effect: That would be empirical disagreement about the facts, which any theory of law can accommodate. It would not support Dworkin's argument against Hart.
+      - change: After a coup, officials split over which constitution is valid.
+        effect: 'That is disagreement about the rule of recognition itself, Hart''s ''pathology'', settled by waiting to see which side prevails. Dworkin''s point is different: agreement on sources, disagreement on content.'
+    boundary:
+      - text: A layperson thinks the law requires one thing and a lawyer corrects them.
+        why: 'Not theoretical disagreement: in an easy case one side is simply wrong. Dworkin means reasonable disagreement among competent participants.'
+      - text: Parties in a negligence trial disputing whether a driver was travelling at 60 or 80 km/h.
+        why: Empirical disagreement about what happened, not about what the pertinent law is.
+    transfer:
+      - scenario: Two tribunal members accept that a regulation is valid and agree on every fact. One says its words cover the applicant; the other says that, read with the scheme's principles, they do not.
+        answer: 'Theoretical disagreement: they agree on the facts and on the regulation''s validity but disagree about what the law requires. Dworkin would say such disputes show law is an argumentative practice, which a theory resting on official agreement about criteria of validity struggles to explain (LE 3, 14).'
+    objections:
+      - position: Theoretical disagreement shows Hart's rule of recognition cannot explain law (Dworkin).
+        evidence: The rule of recognition exists through official convergence; judges who agree on criteria should agree on content, yet in Riggs they did not (LE 3; lecture).
+        objection: 'Positivists reply that the legal system is incomplete: in hard cases the law runs out and judges exercise discretion, so disagreement about content is to be expected (lecture).'
+      - position: Legal theory must take the participants' point of view (Dworkin).
+        evidence: Legal practice is argumentative; Law's Empire takes up 'the internal, participants' point of view', studying argument 'from the judge's viewpoint' (LE 14).
+        objection: 'Hart also gives priority to the internal point of view, yet keeps his theory ''general and descriptive'' (CL 239): understanding a practice need not mean joining its arguments.'
+    sources:
+      - Week 05 - Lecture Slides (slides 20–22)
+      - Week 05 - Lecture Transcript (second half)
+  - concept: laws2100-w05-law-as-integrity
+    plain: 'Dworkin says law is an interpretive practice: judges should read the legal record in the way that best fits it and best justifies it, treating the law as consistent in principle.'
+    concrete: 'Take courtesy. First (pre-interpretive), list what we associate with it: letting people go first, removing a hat. Then (interpretive), ask what the point of the practice is. Finally (post-interpretive), revisit the examples in light of that point and decide which really count. Dworkin says law is interpreted the same way, and for him the point of law is to justify the exercise of state coercion.'
+    formal: 'Integrity means consistency in principle. Interpretation in law is compared to a chain novel (LE 228). Judge Hercules is ''an imaginary judge of superhuman intellectual power and patience who accepts law as integrity'' (LE 239), testing interpretations on the dimensions of fit and justification (LE 255). The one-right-answer thesis: even in hard cases there is one correct legal answer.'
+    analogy:
+      text: 'A chain novel: each novelist writes the next chapter of a story begun by others. To write well, each must read the chapters so far as one story and continue it in a way that fits them and makes sense of them.'
+      maps:
+        - from: the chapters already written
+          to: past legal decisions, statutes and practice
+        - from: the novelist writing the next chapter
+          to: the judge deciding today's case
+        - from: continuing what has been written
+          to: the dimension of fit
+        - from: making sense of the story as a whole
+          to: the dimension of justification
+      limits:
+        - A novel aims at artistic value; for Dworkin law's point is to justify state coercion, so the best reading of law is a matter of political morality.
+        - Novelists may reasonably disagree about the best next chapter; Dworkin's one-right-answer thesis says law has one correct answer, which Finnis disputes.
+    terms:
+      - term: Constructive interpretation
+        gloss: 'Interpreting a practice in three stages: pre-interpretive (identify examples), interpretive (ask its point), post-interpretive (revisit the examples in light of that point).'
+      - term: Law as integrity
+        gloss: 'Dworkin''s theory of law: integrity means consistency in principle, and the principles of a system''s political morality, not its structure, give it unity.'
+      - term: Fit and justification
+        gloss: The two dimensions on which Hercules tests interpretations of the legal record (LE 255).
+      - term: One-right-answer thesis
+        gloss: Even in hard cases there is one correct legal answer, because of principles. Positivists, realists and Finnis reject it.
+    misconceptions:
+      - claim: At the interpretive stage we list the familiar examples of the practice.
+        tempting: Listing examples looks like interpreting them.
+        correction: Listing examples is the pre-interpretive stage. The interpretive stage asks what the point of the practice is; the post-interpretive stage revisits the examples.
+      - claim: Judge Hercules is a real judge whose opinions Dworkin studied.
+        tempting: Dworkin builds his theory from real cases such as Riggs.
+        correction: 'LE 239: Hercules is ''an imaginary judge of superhuman intellectual power and patience who accepts law as integrity''.'
+      - claim: Finnis accepts the one-right-answer thesis because he too rejects positivism.
+        tempting: Finnis shares some of Dworkin's criticisms of positivism.
+        correction: 'Finnis pushes against it (''On reason and authority in Law''s Empire'', 1987): the dimensions of fit and justification are incommensurable.'
+    socratic:
+      - ask: How would you work out what courtesy really is?
+        hint: Start with the examples.
+        answer: Identify the actions we associate with it, ask what the point of the practice is, then revisit the examples in light of that point.
+      - ask: Which moment of that circle is crucial for law?
+        hint: The interpretive stage.
+        answer: The question about the point. For Dworkin, a liberal, the point of the legal system is to justify the exercise of state coercion.
+      - ask: Why does Hart never need to ask that question?
+        hint: His two minimum conditions.
+        answer: His conditions for a legal system, obedience to primary rules and officials' acceptance of secondary rules, concern its structure and say nothing about its point.
+      - ask: What, then, gives a legal system its unity for Dworkin?
+        hint: Not its structure.
+        answer: 'Principles: the political morality underpinning the system, with integrity, consistency in principle, as the value that embraces them.'
+      - ask: Does law as integrity fit an evil system such as apartheid South Africa?
+        hint: Which principles would unify it?
+        answer: That is the test. If it does not, integrity may be particular jurisprudence, suited to systems like the US, rather than a general theory of law.
+    elements:
+      - name: Pre-interpretive stage
+        test: 'Identify the actions associated with the practice: for courtesy, letting people go first or removing a hat.'
+        authorities:
+          - dworkin-laws-empire
+      - name: Interpretive stage
+        test: 'Ask what the point of the practice is. For law, on Dworkin''s liberal view: to justify the exercise of state coercion.'
+      - name: Post-interpretive stage
+        test: Revisit the examples in light of that point and decide which really belong to the practice.
+      - name: Fit
+        test: How well does the interpretation fit the existing legal record (LE 255)?
+        authorities:
+          - dworkin-laws-empire
+      - name: Justification
+        test: 'How well does it justify that record in principle (LE 255)? Finnis: fit and justification are incommensurable.'
+        authorities:
+          - finnis-on-reason-and-authority-in-laws-empire
+    what-if:
+      - change: A judge treats each case as a fresh choice, ignoring past decisions.
+        effect: 'No integrity: the decision is not consistent in principle with the legal record and fails the dimension of fit. For Dworkin the judge has misunderstood law as an interpretive practice.'
+      - change: Two readings of a statute fit past decisions equally well.
+        effect: 'Justification must decide between them. Finnis''s objection bites here: if fit and justification are incommensurable, there may be no single right answer.'
+    boundary:
+      - text: Apartheid South Africa.
+        why: 'The lecture''s test case: integrity may work for a liberal constitutional democracy, but which principles unify an evil system? It asks whether integrity is general or particular jurisprudence.'
+      - text: Hart's union of primary and secondary rules.
+        why: 'The contrast: for Kelsen and Hart a system''s unity comes from its structure; for Dworkin, from principles and integrity.'
+    transfer:
+      - scenario: A long-running TV series gets a new head writer halfway through. Fans argue over whether a twist she plans is 'true to the show'.
+        answer: 'On Dworkin''s model the writer must interpret the series so far, ask what its point is, and continue it in a way that fits what has been made and is justified by that point. Law as integrity asks judges the same of the legal record: fit and justification (LE 255).'
+    objections:
+      - position: Even in hard cases the law has one right answer, found through fit and justification (Dworkin).
+        evidence: Principles bind judges where rules run out; Hercules tests interpretations on fit and justification (LE 239, 255).
+        objection: 'Finnis: fit and justification are incommensurable, so they cannot jointly yield one right answer. Positivists and, more strongly, realists also reject the thesis (lecture).'
+      - position: A legal system's unity comes from principle and integrity, not structure (Dworkin).
+        evidence: Hart's conditions describe structure and say nothing of law's point; for Dworkin the point is to justify state coercion (lecture).
+        objection: Integrity may suit a liberal constitutional democracy but not an evil system such as apartheid South Africa, so it may be particular, not general, jurisprudence, perhaps shaped by Dworkin's American setting (lecture).
+    sources:
+      - Week 05 - Lecture Slides (slides 23–24)
+      - Week 05 - Lecture Transcript (second half)
+    verify: true
+flows:
+  - slug: legal-obligation-hard-case
+    title: Is there a legal obligation in this case, and where does it come from?
+    summary: 'Walks Dworkin''s challenge to the positivist theory of legal obligation: easy cases under a valid rule, then hard cases decided either by judicial law-making (the positivist tenets) or by weighing binding legal principles (Dworkin).'
+    start: n1
+    concepts:
+      - laws2100-w05-ruling-theory-and-three-tenets
+      - laws2100-w05-discretion-riggs-and-obligation
+      - laws2100-w05-rules-principles-and-policies
+    sources:
+      - Week 05 - Lecture Slides (slides 5, 8–16)
+      - Week 05 - Lecture Transcript (first half)
+    nodes:
+      - id: n1
+        kind: ask
+        text: Does an established, valid rule cover the case?
+        note: 'A rule identified by its pedigree through the rule of recognition: the positivists'' first tenet.'
+        concept: laws2100-w05-ruling-theory-and-three-tenets
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: n4
+      - id: n2
+        kind: ask
+        text: Does a principle of the law bear against applying that rule as literally read?
+        note: In Riggs the will statutes, literally construed, gave Elmer the estate; but all laws 'may be controlled in their operation and effect by general, fundamental maxims of the common law'.
+        cases:
+          - riggs-v-palmer
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: 'No'
+            to: n3
+      - id: n3
+        kind: end
+        tone: met
+        text: 'An easy case: the rule applies all-or-nothing and imposes the obligation. Positivists and Dworkin agree here.'
+      - id: n4
+        kind: ask
+        text: Do you treat the principles in play as binding law, or as standards beyond the law?
+        note: Dworkin's key move (slide 14). Treat principles as law and the master-rule tenet must go, and discretion is abandoned 'or clarified into triviality' (TRS 44).
+        authorities:
+          - dworkin-taking-rights-seriously
+        branches:
+          - label: Beyond the law (the positivist tenets)
+            to: n5
+          - label: Binding law (Dworkin)
+            to: n6
+      - id: n5
+        kind: end
+        tone: not-met
+        text: 'Strong discretion: the principle is extra-legal, so any result it supports is new law the judge makes for the future, as Raz says. Until then there is no legal obligation to that effect (TRS 44).'
+      - id: n6
+        kind: ask
+        text: Are there principles of the law, such as maxims of the common law, that bear on the case?
+        note: Principles are observed because justice or fairness requires them; policies set goals. 'No man may profit by his own wrong' is Dworkin's example of a principle (TRS 22).
+        concept: laws2100-w05-rules-principles-and-policies
+        branches:
+          - label: 'Yes'
+            to: n7
+          - label: 'No'
+            to: n11
+      - id: n7
+        kind: step
+        text: Weigh the principles for and against the obligation.
+        note: 'Principles have the dimension of weight, and an outweighed principle stays valid. Weighing is judgment: weak discretion, not strong.'
+        concept: laws2100-w05-discretion-riggs-and-obligation
+        next: n8
+      - id: n8
+        kind: ask
+        text: Is the case supporting the obligation, in terms of binding legal principles, stronger than the case against it?
+        branches:
+          - label: 'Yes'
+            to: n9
+          - label: 'No'
+            to: n10
+      - id: n9
+        kind: end
+        tone: met
+        text: A legal obligation exists, imposed by a constellation of principles as well as by rules (TRS 44). In Riggs, Elmer could not take the estate.
+      - id: n10
+        kind: end
+        tone: not-met
+        text: 'No legal obligation: the case against it is stronger. On Dworkin''s view this is still the law''s answer, reached by weighing, not the judge''s free choice.'
+      - id: n11
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'With no rule or principle bearing on the case, the judge would be unbound: strong discretion. Dworkin denies this happens: because of principles, even hard cases have one right answer.'

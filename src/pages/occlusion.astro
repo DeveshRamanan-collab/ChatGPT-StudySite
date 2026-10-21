@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import OcclusionEditor from '../components/OcclusionEditor';
+import { readdirSync } from 'node:fs';
+// Diagrams shipped in public/diagrams/<unit>-wNN-<name>.png (copied from the week's study aids).
+const images = readdirSync('public/diagrams').filter((f) => /\.(png|jpe?g|svg|webp)$/i.test(f)).map((f) => ({
+  src: `/diagrams/${f}`, unit: f.split('-')[0], label: f.replace(/\.[a-z]+$/i, '').replace(/^([a-z]+\d{4})-w(\d+)-/, (_, u, w) => `${u.toUpperCase()} week ${Number(w)}: `).replace(/-/g, ' '),
+}));
+---
+
+<Layout title="Image occlusion" wide>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { label: 'Image occlusion' }]} />
+  <h1 data-split>Make a diagram card</h1>
+  <p class="occ-lede">Hide labels on a diagram and recall them later. Cards join that unit’s daily queue.</p>
+  <OcclusionEditor client:load images={images} />
+</Layout>
+
+<style>
+  .occ-lede { color: var(--ink-2); max-width: var(--measure); }
+</style>

@@ -1,0 +1,129 @@
+---
+// One-page topic sheet (features 41, 49): the week on a single printable page — each concept's one-line statement,
+// its requirements as a checklist, its cases with one-line ratios, the mistake to avoid, and the week's decision
+// flows as indented outlines. Built from the concepts, cases and the `aids` / `flows` collections.
+import { getCollection, getEntry } from 'astro:content';
+import Layout from '../../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import { units, weeksOf, conceptSlug } from '../../../../lib/content';
+import { firstSentence } from '../../../../lib/courts';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const u of await units())
+    for (const w of await weeksOf(u.id)) paths.push({ params: { unit: u.id, n: String(w.data.number) }, props: { u, w } });
+  return paths;
+}
+const { u, w } = Astro.props;
+const concepts = (await Promise.all(w.data.concepts.map((id) => getEntry('concepts', id)))).filter((c) => c !== undefined);
+const aids = new Map((await getCollection('aids', (a) => a.data.week === w.id)).map((a) => [a.data.concept, a.data]));
+const flows = await getCollection('flows', (f) => f.data.week === w.id);
+const caseIds = [...new Set(concepts.flatMap((c) => c.data.cases))];
+const cases = new Map((await Promise.all(caseIds.map((id) => getEntry('cases', id)))).filter((k) => k !== undefined).map((k) => [k.id, k]));
+const plainOf = (c: (typeof concepts)[number]) => aids.get(c.id)?.plain ?? firstSentence((c.body ?? '').replace(/[*_#>`]/g, ''));
+
+// Flow outline: depth-first from the start; a node reached again is shown as a pointer, not repeated.
+type Line = { depth: number; label?: string; text: string; kind: string; tone?: string; repeat?: boolean };
+function outline(f: (typeof flows)[number]) {
+  const byId = new Map(f.data.nodes.map((n) => [n.id, n]));
+  const seen = new Set<string>();
+  const out: Line[] = [];
+  const walk = (id: string, depth: number, label?: string) => {
+    const n = byId.get(id);
+    if (!n) return;
+    if (seen.has(id)) { out.push({ depth, label, text: n.text, kind: n.kind, repeat: true }); return; }
+    seen.add(id);
+    out.push({ depth, label, text: n.text, kind: n.kind, tone: n.tone });
+    if (n.kind === 'step' && n.next) walk(n.next, depth, undefined);
+    for (const b of n.branches) walk(b.to, depth + 1, b.label);
+  };
+  walk(f.data.start, 0);
+  return out;
+}
+const toneMark = { met: '✓', 'not-met': '✕', qualified: '~' } as Record<string, string>;
+---
+
+<Layout title={`${u.data.code} week ${w.data.number} sheet`}>
+  <Breadcrumbs items={[{ href: '/', label: 'Units' }, { href: `/${u.id}`, label: u.data.code }, { href: `/${u.id}/week/${w.data.number}`, label: `Week ${w.data.number}` }, { label: 'Sheet' }]} />
+  <header class="sheet-head">
+    <p class="label">{u.data.code} · week {w.data.number} · one-page sheet</p>
+    <h1>{w.data.topic}</h1>
+    <p class="sheet-summary">{w.data.summary}</p>
+    <p class="sheet-actions"><button type="button" class="btn btn--secondary btn--sm" onclick="window.print()">Print or save as PDF</button> <a class="sheet-back" href={`/${u.id}/week/${w.data.number}`}>Back to the notes</a></p>
+  </header>
+
+  <ol class="sheet-concepts">
+    {concepts.map((c) => {
+      const a = aids.get(c.id);
+      const ks = c.data.cases.map((id) => cases.get(id)).filter((k) => k !== undefined).slice(0, 4);
+      return (
+        <li class="sheet-concept">
+          <h2 class="sheet-concept__title"><a href={`/${u.id}/concept/${conceptSlug(c)}`}>{c.data.title}</a></h2>
+          <p class="sheet-concept__plain">{plainOf(c)}</p>
+          {a && a.elements.length > 0 && (
+            <ol class="sheet-checklist" aria-label="Requirements">
+              {a.elements.map((e) => <li><b>{e.name}</b> — {e.test}</li>)}
+            </ol>
+          )}
+          {ks.length > 0 && (
+            <ul class="sheet-cases" aria-label="Cases">
+              {ks.map((k) => <li><i>{k!.data.name}</i>: {firstSentence(k!.data.ratio || k!.data.held)}</li>)}
+            </ul>
+          )}
+          {a && a.misconceptions[0] && (
+            <p class="sheet-watch"><span class="sheet-watch__label">Watch out</span> Not “{a.misconceptions[0].claim}” — {a.misconceptions[0].correction}</p>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+
+  {flows.length > 0 && (
+    <section class="sheet-flows" aria-labelledby="sheet-flows-h">
+      <h2 id="sheet-flows-h">Decision flows</h2>
+      {flows.map((f) => (
+        <div class="sheet-flow">
+          <h3 class="sheet-flow__title">{f.data.title}</h3>
+          <ol class="sheet-flow__lines">
+            {outline(f).map((l) => (
+              <li style={`--depth:${l.depth}`} data-kind={l.kind}>
+                {l.label && <span class="sheet-flow__label">{l.label}:</span>} {l.tone && <span class="sheet-flow__tone" aria-hidden="true">{toneMark[l.tone]}</span>} {l.text}{l.repeat && <span class="sheet-flow__repeat"> (as above)</span>}
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </section>
+  )}
+  {aids.size === 0 && <p class="sheet-note">Study aids for this week are still being generated; the sheet fills in as they arrive.</p>}
+</Layout>
+
+<style>
+  .sheet-head h1 { margin-bottom: var(--s-2); }
+  .sheet-summary { color: var(--ink-2); max-width: var(--measure); }
+  .sheet-actions { display: flex; gap: var(--s-3); align-items: center; font-family: var(--font-ui); font-size: var(--t-sm); }
+  .sheet-concepts { list-style: none; padding: 0; margin: var(--s-6) 0 0; display: grid; gap: var(--s-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr)); }
+  .sheet-concept { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--s-4); break-inside: avoid; font-size: var(--t-sm); line-height: 1.5; }
+  .sheet-concept__title { font-size: var(--t-body); margin: 0 0 var(--s-2); }
+  .sheet-concept__plain { margin-bottom: var(--s-2); }
+  .sheet-checklist, .sheet-cases { margin: 0 0 var(--s-2); padding-left: 1.2em; display: grid; gap: 2px; }
+  .sheet-cases { color: var(--ink-2); }
+  .sheet-watch { margin: 0; border-left: 2px solid var(--line); padding-left: var(--s-3); }
+  .sheet-watch__label { font-family: var(--font-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: var(--track-caps); color: var(--ink-2); margin-right: var(--s-1); }
+  .sheet-flows { margin-top: var(--s-7); }
+  .sheet-flow { break-inside: avoid; margin-bottom: var(--s-5); }
+  .sheet-flow__title { font-size: var(--t-body); }
+  .sheet-flow__lines { list-style: none; padding: 0; margin: 0; font-size: var(--t-sm); line-height: 1.45; }
+  .sheet-flow__lines li { padding-left: calc(var(--depth) * 1.25rem); border-left: 1px solid transparent; }
+  .sheet-flow__lines li[data-kind='end'] { font-weight: 600; }
+  .sheet-flow__label { font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+  .sheet-flow__repeat { color: var(--ink-2); }
+  .sheet-note { color: var(--ink-2); }
+  .sheet-back { min-height: 24px; display: inline-block; }
+  @media print {
+    .sheet-actions { display: none !important; }
+    .sheet-concepts { grid-template-columns: 1fr 1fr; gap: 8pt; }
+    .sheet-concept { padding: 6pt; border-color: #999; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>

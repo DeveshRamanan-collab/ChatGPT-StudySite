@@ -1,0 +1,887 @@
+unit: laws2000
+week: 9
+source: raw/laws2000-pil/week-09
+generator: aids-1
+aids:
+  - concept: laws2000-w09-jus-ad-bellum-and-jus-in-bello
+    plain: Jus ad bellum asks whether a state may resort to force at all; jus in bello governs how force is used once fighting has begun. This unit studies the first.
+    concrete: 'The lecturer''s way to remember it: "ad bellum" is the law before war — when a state is allowed to go to war and use force. "In bello" is the law in war — what is permitted once hostilities have started, the territory of the Geneva Conventions, also called international humanitarian law or the law of armed conflict. So whether State A may strike State B at all is an ad bellum question; whether A''s pilots must spare civilians is in bello.'
+    formal: 'Jus ad bellum: the law relating to the resort to force and war. Jus in bello: the laws regulating behaviour during hostilities (international humanitarian law). Earlier limits on war: Aquinas''s just war conditions; the Hague Conventions (1899, 1907); the League of Nations (1920–1945); the Kellogg-Briand Pact (1928). The UN Charter (1945) aims "to save succeeding generations from the scourge of war".'
+    terms:
+      - term: jus ad bellum
+        gloss: 'The law on the resort to force: whether a state may use force at all — today arts 2(4), 42 and 51 of the UN Charter.'
+      - term: jus in bello
+        gloss: The law regulating behaviour during hostilities — international humanitarian law, or the law of armed conflict.
+      - term: just war doctrine
+        gloss: 'Aquinas (13th century): a war is just with the right authority (auctoritas), a just purpose (causa justa) and the right intent (recta intentio).'
+      - term: Kellogg-Briand Pact (1928)
+        gloss: Outlawed war as a means of national policy, except for self-defence — and the Second World War followed.
+    misconceptions:
+      - claim: Jus ad bellum governs how hostilities are conducted.
+        tempting: Both are Latin phrases about war.
+        correction: That is jus in bello (international humanitarian law). Jus ad bellum asks whether force may be resorted to at all.
+      - claim: A state acting in lawful self-defence may fight however it likes.
+        tempting: Its resort to force was lawful.
+        correction: Whether it could resort to force (jus ad bellum) and how it conducts hostilities (jus in bello) are separate questions; conduct is judged by international humanitarian law.
+      - claim: The Kellogg-Briand Pact prohibited the threat or use of force.
+        tempting: It outlawed war.
+        correction: It outlawed war as a means of national policy, except for self-defence. The "threat or use of force" formula is art 2(4) of the UN Charter (1945).
+    socratic:
+      - ask: State A asks its lawyers whether it may launch strikes against a neighbour. Which body of law answers?
+        hint: Before war.
+        answer: 'Jus ad bellum — the law relating to the resort to force: today, art 2(4) and its exceptions.'
+      - ask: During the strikes a critic objects to the shelling of a town. Which body of law governs that objection?
+        hint: In war.
+        answer: Jus in bello — international humanitarian law, which regulates behaviour during hostilities.
+      - ask: Aquinas would ask three things before calling a war just. What are they?
+        hint: Who, why, aiming at what?
+        answer: The right authority (auctoritas), a just purpose rather than wealth or power (causa justa), and the right intent — a just peace (recta intentio).
+      - ask: Why do the Hague Conventions, the League and the Kellogg-Briand Pact count as only partial successes?
+        hint: What followed each?
+        answer: 'Each failed to prevent the next war: the Hague Conventions were followed by the First World War, the Kellogg-Briand Pact by the Second.'
+      - ask: What does the UN Charter's Preamble say the peoples are determined to do?
+        hint: Succeeding generations.
+        answer: '"To save succeeding generations from the scourge of war" — reflecting the experience of the Second World War.'
+    what-if:
+      - change: The question is whether soldiers may target a building full of civilians during a campaign.
+        effect: That is jus in bello — conduct during hostilities — answered by international humanitarian law, outside this unit's jus ad bellum focus.
+      - change: A state argues its war is lawful because its cause is righteous.
+        effect: 'Today''s test is not Aquinas''s just war but the Charter: force is prohibited (art 2(4)) unless the Security Council authorises it (art 42) or self-defence applies (art 51).'
+    boundary:
+      - text: Whether State A may lawfully begin strikes against State B.
+        why: 'Jus ad bellum: the resort to force.'
+      - text: Whether prisoners captured by State A are treated as the rules of war require.
+        why: 'Jus in bello: behaviour during hostilities, governed by international humanitarian law.'
+    storyboard:
+      - caption: Just war (13th century)
+        detail: 'Aquinas: right authority, a just purpose, the right intent.'
+      - caption: Hague Conventions (1899, 1907)
+        detail: Mostly about conduct in war, touching the resort to war only lightly; the First World War followed.
+      - caption: League of Nations (1920–1945)
+        detail: The first international organisation created to limit the recourse to war.
+      - caption: Kellogg-Briand Pact (1928)
+        detail: War outlawed as national policy, except for self-defence; the Second World War followed.
+      - caption: UN Charter (1945)
+        detail: '"To save succeeding generations from the scourge of war": peaceful settlement (art 2(3)) and no force (art 2(4)).'
+    transfer:
+      - scenario: 'A state sends drones against an armed group abroad. A newspaper asks two questions: was the state allowed to strike at all, and was it allowed to strike a building where civilians were sheltering?'
+        answer: 'The first is jus ad bellum, answered by art 2(4) and its exceptions (arts 42 and 51). The second is jus in bello — international humanitarian law, which regulates behaviour during hostilities. They are separate questions: a lawful resort to force does not make every method lawful.'
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 4–6)
+      - 'Week 09 - Lecture Transcript (Live) - The Use of Force (Part A) (opening: just war doctrine, Hague Conventions, League of Nations, Kellogg-Briand Pact; jus ad bellum and jus in bello; the Charter''s Preamble)'
+      - Week 09 - Tutorial Task - The Use of Force (question 1)
+    verify: false
+  - concept: laws2000-w09-prohibition-on-the-use-of-force
+    plain: States must not threaten or use force against other states. The rule binds every state, as treaty and as custom, and is a peremptory norm.
+    concrete: 'After two British warships hit mines in the Corfu Channel, the UK wanted to sweep the channel to gather evidence for the ICJ. It was not trying to take Albanian territory or change Albania''s government. Yet, the lecturer explains, the Court treated the operation as a use of force. Force need not aim at territory or a government to breach the prohibition: the restrictive reading of art 2(4) is generally rejected.'
+    formal: 'Art 2(4) UN Charter: "All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the Purposes of the United Nations." It is also customary (Nicaragua, para 34) and jus cogens. A threat is unlawful if the force threatened would be (Nuclear Weapons, para 47).'
+    terms:
+      - term: '"in their international relations"'
+        gloss: Force between states. Force a state uses internally, against its population or rebels, is in principle for human rights and humanitarian law instead.
+      - term: threat of force
+        gloss: Explicit or implicit, state to state, reasonably specific and credible; unlawful if the force threatened would itself be unlawful (Nuclear Weapons).
+      - term: force
+        gloss: Traditionally military or armed force; states are divided on economic coercion. Cyber operations may count if their scale and effects resemble kinetic force (ILA 2018).
+      - term: jus cogens
+        gloss: A peremptory norm of international law; the prohibition on the use of force is a leading example.
+    misconceptions:
+      - claim: Brief force that takes no territory and leaves the government in place does not breach art 2(4).
+        tempting: The words "territorial integrity or political independence" seem to limit the ban.
+        correction: That restrictive reading is generally rejected (Corfu Channel; Nicaragua; ILA 2018). Without the state's consent, limited and temporary force is still prohibited.
+      - claim: Art 2(4) binds only UN members.
+        tempting: It says "All Members".
+        correction: The prohibition is also customary international law (Nicaragua, para 34), so non-members are bound too — and it is jus cogens.
+      - claim: Every threat of force breaches art 2(4).
+        tempting: Art 2(4) names threats expressly.
+        correction: A threat is unlawful only if the force threatened would be unlawful (Nuclear Weapons, para 47), and mere political rhetoric is not a threat. A state entitled to self-defence may threaten that force.
+    socratic:
+      - ask: State A's army fires on protesters in A's own capital. Is that a breach of art 2(4)?
+        hint: '"In their international relations".'
+        answer: 'In principle no: art 2(4) covers force between states. Force used internally is governed by human rights law and possibly humanitarian law.'
+      - ask: A's leader says State B "will pay" for its policies. Is that a threat under art 2(4)?
+        hint: Specific and credible.
+        answer: 'Probably not on its own: not all political rhetoric counts. A threat must be reasonably specific — force if certain events occur — and credible.'
+      - ask: A imposes a sweeping trade embargo on B. Use of force?
+        hint: The traditional meaning.
+        answer: Traditionally force means military or armed force; states are divided on economic coercion, so an embargo is at best a contested case.
+      - ask: A cyber operation shuts down B's power grid, causing deaths. Force?
+        hint: ILA 2018.
+        answer: 'It may be: cyber operations can be a use of force if their scale and effects are similar to kinetic force, such as destroying infrastructure or loss of life.'
+      - ask: A sends troops briefly into B to destroy a militant camp, then leaves. A says art 2(4) is not engaged. Reply?
+        hint: The restrictive reading.
+        answer: That reading is generally rejected (Corfu Channel; Nicaragua; ILA 2018). Without B's consent the incursion is a use of force, so A must justify it under an exception.
+    elements:
+      - name: In international relations
+        test: Force by one state against another; force used internally is in principle outside art 2(4).
+        authorities:
+          - un-charter-art-2-4
+      - name: Threat or use
+        test: A use of force, or a specific, credible threat — unlawful if the force threatened would be unlawful.
+        cases:
+          - legality-of-the-threat-or-use-of-nuclear-weapons
+      - name: Force
+        test: Armed or physical force; economic coercion contested; cyber operations if their scale and effects resemble kinetic force.
+        authorities:
+          - ila-2018-report
+      - name: Against territorial integrity, political independence or UN Purposes
+        test: 'Read broadly: limited or temporary force without the state''s consent is still prohibited.'
+        cases:
+          - corfu-channel-case-united-kingdom-v-albania
+          - nicaragua-v-united-states-of-america
+        authorities:
+          - ila-2018-report
+      - name: Binding on all
+        test: Treaty, customary international law and jus cogens; turn next to consent and the exceptions.
+        cases:
+          - nicaragua-v-united-states-of-america
+        authorities:
+          - un-charter-art-2-4
+          - friendly-relations-declaration-1970
+    what-if:
+      - change: The fighting is inside one state, but some states recognise the breakaway region as a state.
+        effect: 'The line blurs: whether force is "international" may be genuinely unclear, as with Korea, Vietnam and the violent break-up of the former Yugoslavia.'
+      - change: State A, just hit by an armed attack from State B, declares it will strike B's missile bases unless the attacks stop.
+        effect: 'Not an unlawful threat if the force threatened would be lawful self-defence: threat and use stand together (Nuclear Weapons, para 47).'
+      - change: State A sends commandos into State B to rescue A's nationals held hostage.
+        effect: 'Contested: rescuing nationals is frequently practised by powerful states (US, UK, France, Israel) and was invoked by Russia in Georgia and Ukraine, but whether art 2(4) allows it is debated.'
+    boundary:
+      - text: Force used to promote democracy or further self-determination.
+        why: 'More contentious than rescuing nationals: it targets the state''s political independence, and without Security Council authorisation it is very controversial.'
+      - text: A government's violent crackdown on protesters, as in the Arab Spring.
+        why: Outside art 2(4) in principle — internal force; it breaches human rights law and possibly humanitarian law instead.
+    transfer:
+      - scenario: State A's military hackers take over the control system of a dam in State B and open it, flooding villages and killing 20 people. A says no soldier crossed the border and it seeks no territory.
+        answer: 'Likely a use of force contrary to art 2(4). Force traditionally means armed force, but cyber operations may qualify where their scale and effects resemble kinetic force — here physical destruction and loss of life (ILA 2018). A''s lack of territorial aims does not help: the restrictive reading of art 2(4) is generally rejected (Corfu Channel; Nicaragua).'
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 6–13)
+      - Week 09 - Lecture Transcript (Live) - The Use of Force (Part A) (the Charter's two pillars; custom and Nicaragua; jus cogens; GA declarations; "in their international relations" and the Arab Spring; threats and Nuclear Weapons; meaning of force, economic coercion, cyber and the ILA; restrictive reading and Corfu Channel; rescue of nationals)
+    verify: false
+  - concept: laws2000-w09-exceptions-to-the-prohibition
+    plain: Force against another state is lawful only if the Security Council authorises it or the state acts in self-defence against an armed attack. A government's invitation means there is no prohibited force at all.
+    concrete: 'The lecturer''s example: Australia uses force in New Zealand because New Zealand, under attack, asks for help. That is not even an exception to art 2(4) — New Zealand consented, so there is no violation. Cold War UK guidelines doubted a government could still consent once it had lost control of part of its territory to rebels; today states intervene at a government''s request regardless, as with Iraq''s request to the US against ISIS, or France in Mali.'
+    formal: 'Art 42: if art 41 measures "would be inadequate or have proved to be inadequate", the Council "may take such action by air, sea, or land forces as may be necessary to maintain or restore international peace and security". Art 51: "the inherent right of individual or collective self-defence if an armed attack occurs", "until the Security Council has taken measures necessary". Invitation: government consent, not an opposition request (Nicaragua).'
+    terms:
+      - term: Security Council authorisation (art 42)
+        gloss: Force decided by the Council where measures not involving armed force (art 41) would be or have proved inadequate.
+      - term: self-defence (art 51)
+        gloss: The inherent right of individual or collective self-defence if an armed attack occurs, until the Security Council has taken the measures necessary.
+      - term: intervention by invitation
+        gloss: Force used in a state at its government's request; the consent means art 2(4) is not breached.
+      - term: status quo ante bellum
+        gloss: The position before the attack. Self-defence aims to fend off current or further attacks and restore it.
+    misconceptions:
+      - claim: Intervention by invitation is a third exception to art 2(4).
+        tempting: It is another way force becomes lawful.
+        correction: Consent means there is no violation of art 2(4) at all, so nothing needs excusing. The Charter's exceptions are only arts 42 and 51.
+      - claim: An opposition group's request can justify intervention just as a government's can.
+        tempting: The opposition may speak for the people.
+        correction: 'Nicaragua: non-intervention would lose its effectiveness if intervention could be justified "by a mere request for assistance made by an opposition group".'
+      - claim: Self-defence lasts as long as the victim state chooses.
+        tempting: Art 51 calls it an "inherent" right.
+        correction: Only "until the Security Council has taken measures necessary to maintain international peace and security"; the Council's authority to act is unaffected.
+    socratic:
+      - ask: State A's government asks State B to help repel rebels, and B's troops fight inside A. How do you analyse B's force?
+        hint: Consent.
+        answer: 'As intervention by invitation: A''s government consented, so B''s force does not violate art 2(4) and no exception is needed.'
+      - ask: What if the request had come from A's opposition instead of its government?
+        hint: Nicaragua.
+        answer: 'It would not do: non-intervention would lose its effectiveness if an opposition group''s request could justify intervention.'
+      - ask: With no invitation, what are the Charter's two exceptions?
+        hint: Arts 42 and 51.
+        answer: Security Council authorisation of force (art 42), and individual or collective self-defence if an armed attack occurs (art 51).
+      - ask: When may the Council act under art 42?
+        hint: Art 41 first.
+        answer: When measures not involving armed force under art 41 would be inadequate or have proved inadequate; it may then take action by air, sea or land forces.
+      - ask: What is self-defence for, and when must it stop?
+        hint: Purpose; the end of art 51.
+        answer: To fend off current attacks or prevent further ones and restore the status quo ante bellum — and only until the Security Council has taken the measures necessary.
+    elements:
+      - name: Consent (invitation)
+        test: If the territorial state's government invited the force, art 2(4) is not breached; an opposition group cannot invite.
+        cases:
+          - nicaragua-v-united-states-of-america
+      - name: Security Council authorisation (art 42)
+        test: Council action by air, sea or land forces where art 41 measures would be or have proved inadequate.
+        authorities:
+          - un-charter-art-42
+          - un-charter-art-24
+      - name: Self-defence (art 51)
+        test: An armed attack has occurred; the response is necessary, proportionate and reported; it lasts until the Council acts.
+        authorities:
+          - un-charter-art-51
+      - name: Otherwise a breach
+        test: Force fitting none of these breaches art 2(4).
+        authorities:
+          - un-charter-art-2-4
+    what-if:
+      - change: The inviting government has lost control of much of its territory to rebels.
+        effect: Cold War UK guidelines doubted its consent; but today states commonly intervene at an existing government's request regardless (e.g. the US in Iraq against ISIS, France in Mali).
+      - change: The Security Council has already taken the measures necessary to restore peace.
+        effect: The right of self-defence lasts only until then; continuing unilateral force would need another basis.
+      - change: A coalition uses force without Council authorisation and claims no armed attack, as NATO did in Kosovo (1999).
+        effect: Neither exception fits. The UK relied instead on overwhelming humanitarian necessity — an argument with no Charter basis.
+    boundary:
+      - text: Libya (2011).
+        why: Force authorised by the Security Council — the art 42 route — though NATO's pursuit of regime change drew criticism.
+      - text: NATO in Kosovo (1999).
+        why: 'Outside both exceptions: no Council authorisation and no armed attack; the Independent International Commission called it "illegal, yet legitimate".'
+    transfer:
+      - scenario: Rebels seize half of State R. R's government asks State S for air support; meanwhile the rebels' political wing asks State T to bomb government positions.
+        answer: 'S''s strikes rest on the government''s invitation: consent means no breach of art 2(4), and current practice does not follow the old UK guidelines doubting consent after loss of territory. T''s strikes are not saved: an opposition group''s request cannot justify intervention (Nicaragua). Without art 42 authorisation or an armed attack on T (art 51), T breaches art 2(4).'
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 14–17, 28)
+      - Week 09 - Lecture Transcript (Live) - The Use of Force (Part A) (invitation, consent and Nicaragua, Cold War UK guidelines, current practice; the two exceptions; art 51 and its purposes; wide or narrow right)
+      - Week 09 - Lecture Transcript (Online) - The Use of Force (Part B) (art 51's final words; art 24 and Chapter VII)
+    verify: false
+  - concept: laws2000-w09-armed-attack
+    plain: Self-defence needs an "armed attack" — one of the gravest forms of force, judged by scale and effects. Every armed attack is a use of force, but not every use of force is one.
+    concrete: In Nicaragua (1986) the ICJ found the United States had used force unlawfully, including by mining Nicaragua's territorial waters and attacking naval and port facilities. But it separated the most grave forms of force — armed attacks — from less grave forms. Arming, funding and supplying the contras, and certain frontier incidents, stayed below the gravity threshold. So force can breach art 2(4) without giving the victim a right of self-defence.
+    formal: Art 51 permits self-defence only "if an armed attack occurs" — not synonymous with "use of force" in art 2(4). With no clear benchmark, the threshold depends on scale and effects (casualties, property damage). Nicaragua distinguished "the most grave forms of the use of force (those constituting an armed attack) from other less grave forms". Attacks on territory or military vessels may qualify; private ships do not (Oil Platforms).
+    analogy:
+      text: Every square is a rectangle, but most rectangles are not squares. Every armed attack is a use of force, but most uses of force are not armed attacks.
+      maps:
+        - from: rectangle
+          to: use of force, prohibited by art 2(4)
+        - from: square
+          to: armed attack, which triggers self-defence under art 51
+      limits:
+        - A square has a crisp definition; an armed attack has no clear benchmark — it turns on scale and effects, and the lecturer notes the ICJ is not always consistent.
+    terms:
+      - term: armed attack
+        gloss: 'The trigger for self-defence under art 51: one of the gravest forms of the use of force, judged by scale and effects.'
+      - term: scale and effects
+        gloss: Casualties, damage to property and similar consequences that measure whether force reaches the armed attack threshold.
+      - term: frontier incident
+        gloss: A low-intensity border clash. In Nicaragua, certain frontier incidents fell below the armed attack threshold.
+      - term: cumulative effect
+        gloss: Whether a series of small attacks can together amount to an armed attack — a door the ICJ has left open.
+    misconceptions:
+      - claim: Any unlawful use of force against a state gives it a right of self-defence.
+        tempting: Force is force.
+        correction: 'Armed attack is not synonymous with use of force: only the gravest forms, judged by scale and effects, trigger art 51 (Nicaragua).'
+      - claim: Supplying arms, funds and logistics to rebels is an armed attack by the supplier.
+        tempting: The support makes the rebels' attacks possible.
+        correction: 'Nicaragua: such support stays below the gravity threshold; significant government involvement — effective control over the operations — is required.'
+      - claim: An attack on a privately owned ship flying a state's flag is an armed attack on that state.
+        tempting: The ship carries the state's flag.
+        correction: Attacks on a state's military vessels can be armed attacks, but not attacks on private ships (Oil Platforms).
+    socratic:
+      - ask: State A's troops fire a few shots at a State B border patrol, hurting no one. Is that a use of force?
+        hint: Art 2(4).
+        answer: Yes — firing on another state's patrol is force between states, prohibited by art 2(4).
+      - ask: Can B now act in self-defence?
+        hint: Gravity.
+        answer: Unlikely. A minor frontier incident falls below the armed attack threshold; its scale and effects are slight (Nicaragua).
+      - ask: What would push an attack over the threshold?
+        hint: Scale and effects.
+        answer: Greater casualties and damage to property. There is no clear benchmark, so argue scale and effects from the facts.
+      - ask: 'The raids continue for months: none serious alone, but together they kill dozens. Armed attack?'
+        hint: Cumulative effect.
+        answer: Possibly. The ICJ has left open whether a series of small attacks can amount to an armed attack by their cumulative effect.
+      - ask: A's forces sink a B navy frigate. Different from sinking a privately owned tanker flying B's flag?
+        hint: Oil Platforms.
+        answer: 'Yes: an attack on a state''s military vessel can be an armed attack; an attack on a private ship is not.'
+    elements:
+      - name: A use of force
+        test: First show force against the state contrary to art 2(4).
+        authorities:
+          - un-charter-art-2-4
+      - name: 'Gravity: scale and effects'
+        test: One of the most grave forms of force — casualties, damage to property; minor frontier incidents and supplying arms fall short.
+        cases:
+          - nicaragua-v-united-states-of-america
+        authorities:
+          - un-charter-art-51
+      - name: Against the state
+        test: Its territory or its military vessels — not private ships.
+        cases:
+          - oil-platforms-islamic-republic-of-iran-v-united-states-of-america
+      - name: By or through the attacking state
+        test: If armed groups carry it out, significant government involvement (effective control over the operations) is needed.
+        cases:
+          - nicaragua-v-united-states-of-america
+    what-if:
+      - change: The drone strike on Country C's oil plant (tutorial) killed no one but damaged key towers and cut exports.
+        effect: 'C must argue scale and effects: serious damage to property at critical infrastructure. With no casualties, whether it reaches the gravity of an armed attack is arguable either way.'
+      - change: The attackers sink a privately owned oil tanker instead of a navy ship.
+        effect: Not an armed attack on the flag state (Oil Platforms), though it may still be an unlawful use of force.
+      - change: The rebels attacking State B were only armed and funded by State A, not directed by it.
+        effect: A's support stays below the armed attack threshold (Nicaragua); B cannot treat it as A's armed attack without effective control over the operations.
+    boundary:
+      - text: The US mining of Nicaragua's territorial waters and attacks on port facilities.
+        why: An unlawful use of force (Nicaragua) — the case that separates the gravest forms of force, armed attacks, from less grave ones.
+      - text: A series of small raids that together kill dozens.
+        why: 'Unsettled: the ICJ has left open whether their cumulative effect can make an armed attack.'
+    transfer:
+      - scenario: Drones strike a giant petroleum plant in Country C, damaging towers essential to refining and cutting exports. Rebel group XV in Country A claims responsibility; evidence suggests Country B supplied the drones.
+        answer: 'C must first show an armed attack: argue scale and effects — serious damage to critical infrastructure. Then whose attack? XV is a non-state actor; B''s supply of drones resembles supplying arms, below the threshold without effective control over the operation (Nicaragua). Even if an armed attack is shown, any response must be necessary, proportionate and reported.'
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 17–19)
+      - Week 09 - Lecture Transcript (Live) - The Use of Force (Part A) (armed attack not synonymous with use of force; Nicaragua on scale and effects, arms and training, frontier incidents; Oil Platforms and inconsistency; cumulative effect)
+      - Week 09 - Tutorial Task - The Use of Force (question 2(a))
+    verify: false
+  - concept: laws2000-w09-necessity-proportionality-and-reporting
+    plain: Even after an armed attack, defensive force must be a last resort, kept in proportion, and reported to the Security Council at once.
+    concrete: Uganda claimed self-defence for its operations in the Democratic Republic of the Congo, pointing to earlier serious cross-border incidents. But its forces had taken airports and towns many hundreds of kilometres from Uganda's border. The ICJ said that would not seem proportionate to the series of transborder attacks Uganda relied on, nor necessary to end them (Armed Activities, para 147). Geographical scope is a proportionality indicator.
+    formal: 'Necessity and proportionality are not stated in art 51 but are customary (Nicaragua). Necessity: no other means of halting the attack — a last resort; measures taking effect months later were not necessary (Nicaragua [237]). Proportionality: commensurate with the attack, or balanced against halting or preventing further attack; the Court "cannot close its eyes to the scale of the whole operation" (Oil Platforms [77]). Art 51: report immediately.'
+    terms:
+      - term: necessity
+        gloss: 'No other means of halting the armed attack than force; self-defence is a last resort. Indicator: the temporal link.'
+      - term: proportionality
+        gloss: 'Two approaches: commensurate with the attack, or measured against its broader effects and the aim of halting or preventing further attack.'
+      - term: temporal link
+        gloss: The time between attack and response. Measures that took effect months later were not necessary (Nicaragua [237]).
+      - term: reporting (art 51)
+        gloss: Measures taken in self-defence "shall be immediately reported to the Security Council".
+    misconceptions:
+      - claim: A proportionate response must use the same weapon and number of strikes as the attack.
+        tempting: The first approach says "commensurate".
+        correction: 'Commensurate means proportionate in scale, not identical in means: a missile strike need not be answered by a missile.'
+      - claim: Once an armed attack has occurred, any defensive response is lawful.
+        tempting: The attack opens the right of self-defence.
+        correction: Necessity and proportionality are separate customary conditions (Nicaragua) that limit every response.
+      - claim: Failing to report to the Security Council automatically makes self-defence unlawful.
+        tempting: Art 51 says measures "shall be" reported, and the slides list reporting among the conditions.
+        correction: 'The lecturer: reporting is not in itself a condition like necessity and proportionality, but in Nicaragua a failure to report suggested the state did not believe it was acting in self-defence.'
+    socratic:
+      - ask: State A's oil terminal is struck once; the attacker offers talks the next day and no more attacks follow. A bombs the attacker's ports a month later. Which condition is weakest?
+        hint: Last resort; timing.
+        answer: 'Necessity: talks were on offer and the attack had stopped. A long delay suggests other means existed (Nicaragua [237]).'
+      - ask: What does necessity require in general?
+        hint: Last resort.
+        answer: 'That the state had no other means of halting the armed attack than force: if it could achieve the same result without force, self-defence is not justified.'
+      - ask: After repeated missile attacks, A destroys B's launch sites, causing more damage than the attacks did. Proportionate?
+        hint: Two approaches.
+        answer: On the first approach it may look excessive; on the second it is balanced against the aim of halting or preventing further attacks. It depends on the facts.
+      - ask: Which indicators would you cite?
+        hint: Oil Platforms [77]; Armed Activities [147].
+        answer: Destructive scope — the scale of the whole operation (Oil Platforms); geographical scope — taking towns hundreds of kilometres away was not proportionate (Armed Activities).
+      - ask: What must A do with its defensive measures, and until when may it act?
+        hint: Art 51's last sentence.
+        answer: Report them immediately to the Security Council; and act only until the Council has taken the measures necessary to maintain international peace and security.
+    elements:
+      - name: Necessity
+        test: 'No other means of halting the armed attack; a last resort. Indicator: the temporal link.'
+        cases:
+          - nicaragua-v-united-states-of-america
+        authorities:
+          - un-charter-art-51
+      - name: Proportionality
+        test: Commensurate with the attack, or measured against its broader effects and the aim of halting or preventing further attack; depends on the facts.
+        cases:
+          - oil-platforms-islamic-republic-of-iran-v-united-states-of-america
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+      - name: Reporting
+        test: Measures immediately reported to the Security Council; a failure suggests the state did not believe it acted in self-defence.
+        cases:
+          - nicaragua-v-united-states-of-america
+        authorities:
+          - un-charter-art-51
+      - name: Until the Council acts
+        test: The right lasts until the Security Council has taken the measures necessary; its authority is unaffected.
+        authorities:
+          - un-charter-art-51
+    what-if:
+      - change: A responds the same day, while the attacks are still under way.
+        effect: 'The temporal link supports necessity: there was no time for other means to halt an ongoing attack.'
+      - change: A answers border raids by seizing airports and towns hundreds of kilometres inside the attacker's territory.
+        effect: Likely disproportionate, and arguably unnecessary, on geographical scope (Armed Activities [147]).
+      - change: A never reports its defensive strikes to the Security Council.
+        effect: On the lecturer's account not automatically unlawful, but the failure suggests A did not itself believe it was acting in self-defence (Nicaragua).
+    boundary:
+      - text: 'Nicaragua [237]: defensive measures that took effect several months after the alleged attack.'
+        why: 'Not necessary: the main danger could be eliminated without force.'
+      - text: Oil Platforms [77].
+        why: Proportionality is judged against the scale of the whole operation, not the response in isolation.
+    transfer:
+      - scenario: After a rocket barrage from State B kills 12 soldiers at a border base, State A's jets destroy the launch sites the next morning. A then keeps bombing B's cities for six weeks.
+        answer: 'Destroying the launch sites next morning looks necessary (a close temporal link, halting further attacks) and arguably proportionate. Six weeks of bombing cities fails: its destructive and geographical scope go far beyond halting the attacks (Oil Platforms [77]; Armed Activities [147]). A must also report its measures immediately to the Security Council (art 51).'
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 17, 20–21, 27)
+      - Week 09 - Lecture Transcript (Live) - The Use of Force (Part A) (necessity and proportionality as custom; last resort; two approaches to proportionality; temporal link; geographical and destructive scope; Oil Platforms and Armed Activities; exam approach)
+      - Week 09 - Lecture Transcript (Online) - The Use of Force (Part B) (reporting under art 51 and Nicaragua; subordination to the Security Council)
+    verify: true
+  - concept: laws2000-w09-self-defence-against-non-state-actors
+    plain: Can a state defend itself against an armed group operating from another state's territory? Art 51 doesn't say who must attack; the ICJ stresses attribution to the host state, and practice is shifting.
+    concrete: After Al Qaida's attacks on the United States in September 2001, the US struck Al Qaida in Afghanistan, claiming self-defence. In a letter to the Security Council it argued that the Taliban regime had let Al Qaida operate from its territory and refused to change course. Resolution 1373 (2001) reaffirmed the inherent right of self-defence and called international terrorism a threat to peace — but, the lecturer notes, it did not call the attacks armed attacks.
+    formal: 'Art 51 does not say an armed attack must come from a state. Nicaragua: armed bands, groups, irregulars or mercenaries sent by or on behalf of a state can carry out an armed attack. Resolution 1373 (2001) affirmed the right of self-defence after 9/11. The ICJ treats attribution to the host state as important (Wall, 2004; Armed Activities, 2005). "Unwilling or unable" remains controversial; invited action is less contentious.'
+    terms:
+      - term: non-state actor
+        gloss: An armed group that is not part of any state — e.g. Al Qaida or Islamic State.
+      - term: '"unwilling or unable"'
+        gloss: The contested argument that a victim state may act against a non-state actor in a host state that is unwilling or unable to deal with the threat.
+      - term: host state
+        gloss: The state from whose territory a non-state actor operates; force against the group there engages that state's territorial integrity.
+    misconceptions:
+      - claim: Art 51 expressly limits armed attacks to attacks by states.
+        tempting: The Charter was drafted with interstate wars in mind.
+        correction: Art 51 does not say who must carry out the attack. The ICJ, though, treats attribution to the host state as important (Wall; Armed Activities).
+      - claim: '"Unwilling or unable" is an accepted rule permitting strikes on armed groups in another state.'
+        tempting: More and more states invoke it.
+        correction: The doctrine remains controversial (e.g. Turkey v PKK in Iraq); the ICJ has emphasised attribution to the host state.
+      - claim: Resolution 1373 declared the 9/11 attacks armed attacks.
+        tempting: It affirmed the right of self-defence in response to them.
+        correction: It reaffirmed the inherent right of self-defence and called international terrorism a threat to peace, but did not call the attacks armed attacks (lecture).
+    socratic:
+      - ask: A militia based in State H, acting entirely on its own, fires rockets into State V. Does art 51 require the attack to come from a state?
+        hint: Read art 51.
+        answer: No — its words do not say who must carry out the armed attack.
+      - ask: What has the ICJ said, though?
+        hint: Wall (2004); Armed Activities (2005).
+        answer: It treats attribution to the host state as important. In the Wall opinion, art 51 did not apply because the attacks did not come from another state.
+      - ask: Can V attribute the militia's attacks to H?
+        hint: Nicaragua's threshold.
+        answer: Only if H sent the group or had effective control of its operations; supplying arms or funds is not enough. Here the militia acts on its own.
+      - ask: H is trying, and failing, to stop the militia. What is V's argument for striking without H's consent, and its weakness?
+        hint: Unwilling or unable.
+        answer: That H is unable to deal with the threat, so V may act itself — but the doctrine remains controversial and cuts across H's territorial integrity.
+      - ask: What would make V's action far less contentious?
+        hint: Invitation.
+        answer: 'H''s consent: action against non-state actors invited by the host state is less contentious.'
+    elements:
+      - name: An armed attack by the group
+        test: The group's attack reaches the armed attack threshold in scale and effects.
+        authorities:
+          - un-charter-art-51
+      - name: Attribution to the host state
+        test: The group was sent by or on behalf of the host state, or under its effective control — the ICJ's emphasis.
+        cases:
+          - nicaragua-v-united-states-of-america
+          - construction-of-a-wall-advisory-opinion
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+      - name: If not attributable
+        test: Seek the host state's consent; otherwise only the contested "unwilling or unable" argument remains.
+      - name: Limits still apply
+        test: Any force must be necessary, proportionate and reported to the Security Council.
+        authorities:
+          - un-charter-art-51
+    what-if:
+      - change: The host state invites the victim state to strike the group on its territory.
+        effect: 'Far less contentious: with the host''s consent there is no breach of its territorial integrity — the invitation route.'
+      - change: The group is shown to operate under the host state's effective control.
+        effect: Its attacks can be treated as the host state's armed attack (Nicaragua), so self-defence against the host is available, subject to necessity and proportionality.
+      - change: The attacks come from territory the victim state itself occupies.
+        effect: 'As in the Wall opinion, art 51 does not apply: the attacks did not originate from another state.'
+    boundary:
+      - text: Western states' strikes against Islamic State.
+        why: Part of the increasing state practice of invoking self-defence against non-state actors — still contested in law.
+      - text: Turkey's actions against the PKK in Iraq.
+        why: The slides' example of the controversial "unwilling or unable" argument.
+    transfer:
+      - scenario: A cartel's armed wing, based in State M, launches cross-border attacks that kill police in State N. M's army is fighting the cartel but losing ground. N wants to bomb the cartel's camps in M.
+        answer: Art 51 does not require a state attacker, but the ICJ stresses attribution to the host state (Wall; Armed Activities), and the cartel is not M's agent. N's safest route is M's consent. Without it, N must argue M is "unable" to deal with the threat — a controversial doctrine. Any force must also be necessary, proportionate and reported.
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 23–24)
+      - 'Week 09 - Lecture Transcript (Online) - The Use of Force (Part B) (non-state actors: Nicaragua, 9/11 and the US letter, Resolution 1373, Wall and Armed Activities, "unwilling or unable", examples, invitation)'
+    verify: false
+  - concept: laws2000-w09-anticipatory-self-defence
+    plain: May a state strike when an attack is coming but hasn't happened? Art 51 says "if an armed attack occurs"; acting against a manifestly imminent attack has more support, but it remains a grey area.
+    concrete: After 9/11, the US National Security Strategy of 2002 claimed the option of acting pre-emptively "to counter a sufficient threat to our national security … even if uncertainty remains as to the time and place of the enemy's attack". This Bush doctrine, the lecturer says, underpinned the 2003 invasion of Iraq but won very limited support. States are readier to accept a strike against a manifestly imminent attack — such as intercepting a missile already on its way.
+    formal: Art 51 is triggered "if an armed attack occurs". There is serious controversy between those arguing anticipatory, unilateral self-defence is customary international law and those rejecting it as incompatible with art 51's strict wording. The US National Security Strategy 2002's expanded definition had little support; there is more support if a specific attack is manifestly imminent, and all other restrictions apply. Modern high-speed weapons keep the debate open.
+    terms:
+      - term: anticipatory (pre-emptive) self-defence
+        gloss: Force used before an armed attack has occurred, against an attack said to be imminent.
+      - term: manifestly imminent
+        gloss: A specific attack that is clearly about to happen — where support for anticipatory self-defence is strongest.
+      - term: Bush doctrine
+        gloss: The US National Security Strategy 2002 claim to act pre-emptively against a sufficient threat, even if the time and place of attack are uncertain.
+    misconceptions:
+      - claim: The 2002 US doctrine of pre-emption is now accepted customary law.
+        tempting: A superpower claimed it and acted on it.
+        correction: It attracted little support beyond the Bush administration; anticipatory self-defence remains seriously contested.
+      - claim: Art 51 plainly forbids any defensive force before an attack lands.
+        tempting: Its words are "if an armed attack occurs".
+        correction: That is one side of the debate. There is more support for acting against a specific, manifestly imminent attack, such as intercepting an incoming missile.
+      - claim: If an attack is imminent, necessity and proportionality no longer matter.
+        tempting: The danger seems to justify striking first.
+        correction: 'All the other restrictions still apply: any response must be necessary, proportionate and reported.'
+    socratic:
+      - ask: State T's satellites show State U massing troops and short-range missiles at their border. U says nothing. Can T strike now?
+        hint: Art 51's words.
+        answer: 'Not on the strict wording: art 51 is triggered "if an armed attack occurs", and none has occurred yet.'
+      - ask: Is there any support for striking before an attack?
+        hint: Manifestly imminent.
+        answer: More support exists if a specific attack is manifestly imminent — but this is a grey area, not settled law.
+      - ask: Is a build-up alone manifestly imminent?
+        hint: How specific, how close, how certain?
+        answer: 'Doubtful: there is no specific, certain attack yet. T needs facts showing a particular attack is about to be launched, not merely that U could attack.'
+      - ask: What danger does striking too early carry?
+        hint: Roles reverse.
+        answer: A pre-emptive strike taken too early can itself amount to an act of aggression rather than self-defence.
+      - ask: Suppose T's radar shows a missile already launched towards its capital. Different?
+        hint: Specific and imminent.
+        answer: 'Yes: that attack is specific and manifestly imminent, so acting against it is far more defensible — subject to necessity and proportionality.'
+    elements:
+      - name: Start from the text
+        test: Art 51 applies "if an armed attack occurs"; on the strict reading the attack must already have occurred.
+        authorities:
+          - un-charter-art-51
+      - name: Imminence on the facts
+        test: How specific, close and certain is the attack? Support is greatest where it is manifestly imminent.
+      - name: Not a mere sufficient threat
+        test: A threat of uncertain time and place, as claimed in the 2002 US strategy, attracts little support.
+        authorities:
+          - us-national-security-strategy-2002
+      - name: All other conditions
+        test: Necessity, proportionality and reporting apply in any case.
+        authorities:
+          - un-charter-art-51
+    objections:
+      - position: Anticipatory self-defence against an imminent attack should be lawful.
+        evidence: States including the US, the UK and Israel have claimed it, and modern weapons can launch attacks with high speed and great destructive potential.
+        objection: It is hard to square with art 51's strict wording, a strike taken too early can itself be aggression, and the expanded 2002 US version found little support.
+    what-if:
+      - change: Instead of a quiet build-up, State U's leader announces a date and target for an attack, and missiles are being fuelled.
+        effect: Closer to a specific, manifestly imminent attack, where support for anticipatory self-defence is greatest — still contested, and necessity and proportionality still apply.
+      - change: The threat is only that a hostile state might one day develop new weapons.
+        effect: That is a "sufficient threat" of uncertain time and place, as in the 2002 US strategy — an expanded claim with little support.
+      - change: T strikes first, and the expected attack never comes.
+        effect: 'T risks having committed an act of aggression itself: a pre-emptive strike taken too early is not self-defence.'
+    boundary:
+      - text: Intercepting a missile already launched towards one's territory.
+        why: 'Within the more widely supported zone: a specific, manifestly imminent attack.'
+      - text: The 2003 invasion of Iraq, underpinned by the Bush doctrine.
+        why: 'Outside it: pre-emption against a threat of uncertain time and place enjoyed very limited support (lecture).'
+    transfer:
+      - scenario: Satellite images show Country B deploying many troops and short-range ballistic missiles at its border with Country C, shortly after drones allegedly supplied by B damaged C's oil plant. C wants to strike the missile batteries now.
+        answer: The deployment is not itself an armed attack that "occurs" (art 51). C's claim is anticipatory self-defence — contested, with more support only for a specific, manifestly imminent attack. C must show B is about to attack, not merely able to. Even then necessity and proportionality apply, and striking too early risks being aggression.
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 25–26)
+      - 'Week 09 - Lecture Transcript (Online) - The Use of Force (Part B) (pre-emptive self-defence: the build-up example, the risk of aggression, the Bush doctrine and Iraq, more support for manifestly imminent attacks, modern technologies, grey area)'
+      - Week 09 - Tutorial Task - The Use of Force (question 2(b))
+    verify: false
+  - concept: laws2000-w09-humanitarian-intervention-and-r2p
+    plain: Using force to stop mass atrocities in another state has no basis in the UN Charter. R2P recasts it as a responsibility — but force still runs through the Security Council.
+    concrete: In 1999, with ethnic cleansing of Albanians in Kosovo and Russia threatening a veto, NATO bombed Yugoslavia without Security Council authorisation. The UK argued the action was legal "as an exceptional measure on grounds of overwhelming humanitarian necessity". A draft resolution calling it a flagrant violation of the Charter's arts 2(4), 24 and 53 did not pass. The Independent International Commission on Kosovo called the intervention "illegal, yet legitimate".
+    formal: 'Humanitarian intervention is not addressed in the UN Charter and appears to conflict with art 2(4). The ICISS (2001) shifted from a right to intervene to a responsibility to protect: sovereignty implies responsibility to protect one''s people from genocide, war crimes, ethnic cleansing and crimes against humanity; if the state is unwilling or unable, an international responsibility arises. 2005 World Summit Outcome: three pillars. ILA (2018): a "legal grey area".'
+    terms:
+      - term: humanitarian intervention
+        gloss: Force to protect people in another state from gross and systematic human rights violations; not addressed in the UN Charter.
+      - term: responsibility to protect (R2P)
+        gloss: Sovereignty implies responsibility to protect one's population from four crimes; if the state is unwilling or unable, the international community responds through the UN.
+      - term: three pillars
+        gloss: (1) the state's primary duty to its population, citizens or not; (2) international assistance and capacity-building; (3) response through UN mechanisms.
+      - term: prevent, react, rebuild
+        gloss: The international responsibility in the ICISS report; within "react", military force is a last resort.
+    misconceptions:
+      - claim: Humanitarian intervention is a third Charter exception alongside arts 42 and 51.
+        tempting: Some states argued for it after Kosovo.
+        correction: 'The Charter has only two exceptions; humanitarian intervention is not addressed and appears to conflict with art 2(4). ILA (2018): a legal grey area.'
+      - claim: R2P lets any state use force wherever one of the four crimes is occurring.
+        tempting: R2P is tied to the four crimes.
+        correction: 'R2P works within the Charter: its third pillar is response through UN mechanisms, with force as a last resort. It is no licence for unilateral force.'
+      - claim: R2P solves Security Council paralysis.
+        tempting: It was a response to failures to protect.
+        correction: 'It does not: the World Summit Outcome only asks the P5 to "refrain" from vetoing in cases of the four crimes.'
+    socratic:
+      - ask: Where does the UN Charter address force to stop atrocities in another state?
+        hint: Arts 2(4), 42, 51.
+        answer: Nowhere. Humanitarian intervention is not addressed in the Charter and appears to conflict with the general prohibition in art 2(4).
+      - ask: NATO bombed Yugoslavia in 1999 without Council authorisation. How did the UK justify it?
+        hint: An exceptional measure.
+        answer: As legal "as an exceptional measure on grounds of overwhelming humanitarian necessity", every means short of force having been tried.
+      - ask: What did the Independent International Commission on Kosovo conclude?
+        hint: Two words in tension.
+        answer: '"Illegal, yet legitimate": it did not comply with the Charter, yet answered a real need to act. Many non-participating states contested it.'
+      - ask: How did R2P reframe the question?
+        hint: ICISS, 2001.
+        answer: 'From a right to intervene to a responsibility to protect: the state protects its people from four crimes; if it is unwilling or unable, the international responsibility — prevent, react, rebuild — arises.'
+      - ask: Why did Libya (2011) make R2P controversial?
+        hint: Mandate versus outcome.
+        answer: NATO's use of force, meant to protect civilians, led to the fall of Gaddafi — criticised as forcible regime change.
+    elements:
+      - name: First pillar
+        test: The state's primary duty to protect its population, citizens or not, from genocide, war crimes, ethnic cleansing and crimes against humanity.
+        authorities:
+          - world-summit-outcome-2005
+          - iciss-report-2001
+      - name: Second pillar
+        test: The international community assists states to meet these obligations, e.g. through capacity-building.
+        authorities:
+          - world-summit-outcome-2005
+      - name: Third pillar
+        test: Responsibility to respond through UN mechanisms; military force only as a last resort.
+        authorities:
+          - world-summit-outcome-2005
+          - un-charter-art-24
+    objections:
+      - position: R2P reconciles protecting people with the collective security system.
+        evidence: It treats sovereignty as responsibility, ties action to four crimes, and keeps force within UN mechanisms as a last resort (ICISS 2001; World Summit 2005).
+        objection: It does not solve Security Council paralysis, is applied selectively (why not Syria or Myanmar?), raises unrealistic expectations, and is open to abuse — Libya ended in regime change.
+      - position: Kosovo shows that unilateral humanitarian intervention can be justified.
+        evidence: The UK called it an exceptional measure on grounds of overwhelming humanitarian necessity; the Independent International Commission found it "illegal, yet legitimate".
+        objection: It had no Charter basis, many non-participating states contested it, and it risks a return to just war reasoning that erodes the legal limits on force.
+    storyboard:
+      - caption: Rwanda (1994)
+        detail: Genocide, and a prominent failure to protect.
+      - caption: Srebrenica (1995)
+        detail: The UN unable to halt the massacre in Bosnia.
+      - caption: Kosovo (1999)
+        detail: 'NATO intervenes without Council authorisation: "illegal, yet legitimate".'
+      - caption: ICISS report (2001)
+        detail: From a right to intervene to a responsibility to protect; initiated by Canada, co-chaired by Gareth Evans.
+      - caption: World Summit Outcome (2005)
+        detail: 'R2P endorsed: three pillars, four crimes.'
+      - caption: Libya (2011)
+        detail: NATO's use of force leads to Gaddafi's fall; criticism of forcible regime change.
+    what-if:
+      - change: The Security Council authorises force to protect civilians.
+        effect: Lawful under the Charter (art 42) — R2P's third pillar working through UN mechanisms, as in Libya; but the force should stay within the mandate.
+      - change: A permanent member's veto blocks any Council action while atrocities continue.
+        effect: R2P offers no lawful way around the paralysis; unilateral humanitarian intervention remains a legal grey area (ILA 2018), as Kosovo showed.
+      - change: The victims are people the state refuses to recognise as citizens.
+        effect: 'The first pillar still applies: governments must protect their populations whether citizens or not, so denying citizenship is no excuse.'
+    boundary:
+      - text: NATO in Kosovo (1999).
+        why: 'Outside the Charter''s exceptions — no authorisation, no armed attack: "illegal, yet legitimate".'
+      - text: Libya (2011).
+        why: Within the Charter through Council authorisation and R2P's third pillar, but criticised for going beyond protection to regime change.
+    transfer:
+      - scenario: Government forces in State Z are massacring a minority. A regional alliance proposes air strikes, but one permanent member says it will veto any Security Council resolution.
+        answer: 'Without Council authorisation (art 42) or an armed attack on the alliance (art 51), strikes would have no Charter basis and appear to breach art 2(4). R2P does not change that: its third pillar runs through UN mechanisms, and the World Summit Outcome only asks the P5 to refrain from vetoing. Unilateral humanitarian intervention remains a legal grey area (ILA 2018).'
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 28–36)
+      - Week 09 - Lecture Transcript (Online) - The Use of Force (Part B) (humanitarian intervention and the Charter; Security Council deadlock and the veto; Rwanda; Kosovo, the UK argument, the draft resolution and the Commission; ICISS and R2P; the three pillars; Libya; critiques; ILA 2018)
+    verify: false
+flows:
+  - slug: is-the-use-of-force-lawful
+    title: Is this use of force lawful under the UN Charter?
+    summary: Tests the facts against art 2(4), then consent and the two Charter exceptions, and sorts the contested justifications — humanitarian necessity and rescue of nationals — from plain breaches.
+    start: f1
+    concepts:
+      - laws2000-w09-prohibition-on-the-use-of-force
+      - laws2000-w09-exceptions-to-the-prohibition
+      - laws2000-w09-humanitarian-intervention-and-r2p
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 6–17, 29–36)
+      - Week 09 - Lecture Transcript (Live) - The Use of Force (Part A)
+      - Week 09 - Lecture Transcript (Online) - The Use of Force (Part B)
+    nodes:
+      - id: f1
+        kind: ask
+        text: Is it force by one state in its international relations, rather than force used inside its own territory?
+        note: Force against one's own population or rebels is, in principle, for human rights and humanitarian law — though the line can blur (Korea, Vietnam, the former Yugoslavia).
+        authorities:
+          - un-charter-art-2-4
+        branches:
+          - label: 'Yes'
+            to: f2
+          - label: 'No'
+            to: e-not-engaged
+      - id: f2
+        kind: ask
+        text: Is it a threat or use of force — armed force, or a cyber operation of comparable scale and effects?
+        note: Economic coercion is contested. A threat must be specific and credible, and is unlawful only if the force threatened would be (Nuclear Weapons).
+        concept: laws2000-w09-prohibition-on-the-use-of-force
+        cases:
+          - legality-of-the-threat-or-use-of-nuclear-weapons
+        authorities:
+          - ila-2018-report
+        branches:
+          - label: 'Yes'
+            to: f3
+          - label: 'No'
+            to: e-not-engaged
+      - id: f3
+        kind: ask
+        text: Did the territorial state's government invite or consent to the force?
+        note: A request from an opposition group does not count (Nicaragua).
+        cases:
+          - nicaragua-v-united-states-of-america
+        branches:
+          - label: 'Yes'
+            to: e-consent
+          - label: 'No'
+            to: f4
+      - id: f4
+        kind: ask
+        text: Has the Security Council authorised the force (art 42)?
+        authorities:
+          - un-charter-art-42
+          - un-charter-art-24
+        branches:
+          - label: 'Yes'
+            to: e-authorised
+          - label: 'No'
+            to: f5
+      - id: f5
+        kind: ask
+        text: What justification does the state claim?
+        branches:
+          - label: Self-defence
+            to: f6
+          - label: Overwhelming humanitarian necessity
+            to: e-humanitarian
+          - label: Rescuing its own nationals
+            to: e-rescue
+          - label: The force was limited and took no territory
+            to: e-breach
+          - label: None of these
+            to: e-breach
+      - id: f6
+        kind: step
+        text: 'Test self-defence: an armed attack, necessity and proportionality, and reporting to the Security Council (art 51).'
+        concept: laws2000-w09-armed-attack
+        authorities:
+          - un-charter-art-51
+        next: e-self-defence
+      - id: e-not-engaged
+        kind: end
+        tone: qualified
+        text: Art 2(4) is not engaged — internal force, or pressure not counted as force. Other law, such as human rights law, may still apply.
+      - id: e-consent
+        kind: end
+        tone: met
+        text: 'Lawful: with the government''s consent there is no violation of art 2(4) at all.'
+      - id: e-authorised
+        kind: end
+        tone: met
+        text: 'Lawful: force authorised by the Security Council under art 42, within the terms of the authorisation.'
+      - id: e-self-defence
+        kind: end
+        tone: qualified
+        text: Lawful only if every condition of self-defence is met — use the self-defence flow.
+      - id: e-humanitarian
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'No Charter basis: unilateral humanitarian intervention appears to breach art 2(4) and remains a legal grey area (Kosovo; ILA 2018).'
+        authorities:
+          - ila-2018-report
+      - id: e-rescue
+        kind: end
+        tone: qualified
+        exception: true
+        text: 'Contested: rescue of nationals is frequently practised by powerful states, but whether art 2(4) permits it is debated.'
+      - id: e-breach
+        kind: end
+        tone: not-met
+        text: 'A breach of art 2(4): the restrictive reading is rejected, and no exception applies (Corfu Channel; Nicaragua).'
+        cases:
+          - corfu-channel-case-united-kingdom-v-albania
+          - nicaragua-v-united-states-of-america
+  - slug: can-the-state-rely-on-self-defence
+    title: Can the state rely on self-defence under art 51?
+    summary: Runs a claim of self-defence through armed attack, imminence, attribution and non-state actors, then necessity, proportionality and reporting.
+    start: s1
+    concepts:
+      - laws2000-w09-armed-attack
+      - laws2000-w09-anticipatory-self-defence
+      - laws2000-w09-self-defence-against-non-state-actors
+      - laws2000-w09-necessity-proportionality-and-reporting
+    sources:
+      - Week 09 - Lecture Slides - The Use of Force (slides 17–27)
+      - Week 09 - Lecture Transcript (Live) - The Use of Force (Part A)
+      - Week 09 - Lecture Transcript (Online) - The Use of Force (Part B)
+      - Week 09 - Tutorial Task - The Use of Force (question 2)
+    nodes:
+      - id: s1
+        kind: ask
+        text: Has an armed attack occurred against the state?
+        note: The gravest forms of force, by scale and effects; against territory or military vessels, not private ships. Frontier incidents and supplying arms fall short (Nicaragua; Oil Platforms).
+        concept: laws2000-w09-armed-attack
+        cases:
+          - nicaragua-v-united-states-of-america
+          - oil-platforms-islamic-republic-of-iran-v-united-states-of-america
+        authorities:
+          - un-charter-art-51
+        branches:
+          - label: 'Yes'
+            to: s3
+          - label: Not yet — an attack is said to be coming
+            to: s2
+          - label: No — only lesser force, or support to rebels
+            to: e-no-attack
+      - id: s2
+        kind: ask
+        text: Is a specific attack manifestly imminent?
+        note: A "sufficient threat" of uncertain time and place (US National Security Strategy 2002) has little support; striking too early can itself be aggression.
+        concept: laws2000-w09-anticipatory-self-defence
+        authorities:
+          - us-national-security-strategy-2002
+        branches:
+          - label: 'Yes'
+            to: e-anticipatory
+          - label: 'No'
+            to: e-no-attack
+      - id: s3
+        kind: ask
+        text: Who carried out the attack?
+        concept: laws2000-w09-self-defence-against-non-state-actors
+        branches:
+          - label: The state against which force will be used
+            to: s5
+          - label: A group sent by, or under the effective control of, that state
+            to: s5
+          - label: A non-state group acting on its own from another state
+            to: s4
+      - id: s4
+        kind: ask
+        text: Has the host state consented to action on its territory?
+        note: The ICJ treats attribution to the host state as important (Wall; Armed Activities).
+        cases:
+          - construction-of-a-wall-advisory-opinion
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+        branches:
+          - label: 'Yes'
+            to: s5
+          - label: No — and it is unwilling or unable to act
+            to: e-unwilling
+          - label: No — and it is acting against the group itself
+            to: e-no-basis
+      - id: s5
+        kind: ask
+        text: Is force the only means of halting the attack (necessity)?
+        note: 'Indicator: the temporal link — measures taking effect months later were not necessary (Nicaragua [237]).'
+        concept: laws2000-w09-necessity-proportionality-and-reporting
+        cases:
+          - nicaragua-v-united-states-of-america
+        branches:
+          - label: 'Yes'
+            to: s6
+          - label: 'No'
+            to: e-unlawful
+      - id: s6
+        kind: ask
+        text: Is the response proportionate in its destructive and geographical scope?
+        note: Judge the scale of the whole operation (Oil Platforms [77]); taking airports and towns hundreds of kilometres away was not proportionate (Armed Activities [147]).
+        cases:
+          - oil-platforms-islamic-republic-of-iran-v-united-states-of-america
+          - armed-activities-on-the-territory-of-the-congo-democratic-republic-of-the-congo-v-uganda
+        branches:
+          - label: 'Yes'
+            to: s7
+          - label: 'No'
+            to: e-unlawful
+      - id: s7
+        kind: step
+        text: Report the measures immediately to the Security Council; the right lasts only until the Council has taken the measures necessary.
+        authorities:
+          - un-charter-art-51
+        next: e-lawful
+      - id: e-no-attack
+        kind: end
+        tone: not-met
+        text: No armed attack, so no right of self-defence. Lesser force may still breach art 2(4), and striking early risks being aggression.
+      - id: e-anticipatory
+        kind: end
+        tone: qualified
+        exception: true
+        text: Arguable anticipatory self-defence — a contested grey area. Necessity, proportionality and reporting still apply.
+      - id: e-unwilling
+        kind: end
+        tone: qualified
+        exception: true
+        text: Only the controversial "unwilling or unable" argument (e.g. Turkey v PKK in Iraq); the ICJ stresses attribution to the host state.
+      - id: e-no-basis
+        kind: end
+        tone: not-met
+        text: No clear basis for force on the host state's territory without its consent; cooperation with the host is the lawful route.
+      - id: e-unlawful
+        kind: end
+        tone: not-met
+        text: 'Not lawful self-defence: the response fails necessity or proportionality.'
+      - id: e-lawful
+        kind: end
+        tone: met
+        text: Lawful self-defence under art 51 and customary law.

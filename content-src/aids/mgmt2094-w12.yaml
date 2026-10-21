@@ -1,0 +1,534 @@
+unit: mgmt2094
+week: 12
+source: raw/mgmt2094-sci/week-12
+generator: aids-1
+aids:
+  - concept: mgmt2094-w12-innovation-culture
+    plain: 'An innovation culture is one where the whole organisation is committed to innovation: it experiments proactively, manages risk, implements ideas quickly, and produces and cultivates innovators.'
+    concrete: 'Asked for a parting piece of advice, Shelley Simpson said her company talks a lot about ''leaning in'': the team is expected to lean in, and those who do are rewarded. People who ask questions and really want to put themselves out there and be involved, she said, stand out. She also described her team bonding into a cohesive, strong unit through Covid''s daily ''whack-a-mole'' problems across stores in New York, London, Los Angeles and Australia.'
+    formal: 'Slides 2–5: an innovation culture shows organisation-wide commitment to the business and to innovation; experiments proactively; manages risk; can implement ideas quickly; produces and cultivates innovators. Commitment: people care about work, co-workers and company. Resistance: lack of follow-through and lack of engagement. A culture that cultivates innovators lets ideas be heard, gives innovators space to develop and test, and rewards innovation.'
+    terms:
+      - term: innovation culture
+        gloss: 'Where innovation and culture overlap: an organisation with the five characteristics on slide 2, from organisation-wide commitment to producing and cultivating innovators.'
+      - term: resistance to innovation
+        gloss: 'Slide 3: shown by lack of follow-through and lack of engagement.'
+      - term: experimenting proactively
+        gloss: 'Slide 4: challenging the status quo, thinking outside the box, and taking risks and trying new things.'
+      - term: top-down innovation
+        gloss: Innovation that comes only from the top. Slide 5 lists it, with punished failure and staff reluctant to raise ideas, as a culture that doesn't produce innovators.
+    elements:
+      - name: Organisation-wide commitment
+        test: Do people care about their work, co-workers and company, or is there lack of follow-through and lack of engagement?
+      - name: Experiments proactively
+        test: Does it challenge the status quo, think outside the box and try new things, or say 'If it ain't broke, don't fix it'?
+      - name: Manages risk
+        test: Are the risks of experimenting managed rather than avoided? The leader's matching trait is 'realistic and informed'.
+      - name: Can implement ideas quickly
+        test: Are good ideas put into practice fast? The leader's matching trait is 'capable of rapid project execution'.
+      - name: Produces and cultivates innovators
+        test: Are ideas heard, is there space to develop and test, and is innovation rewarded? Or is failure punished, are staff reluctant to raise ideas, and is innovation top-down?
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+    misconceptions:
+      - claim: An innovation culture means a protected creative team, sheltered from the rest of the business.
+        tempting: Many firms run separate innovation units.
+        correction: Slide 2's first characteristic is organisation-wide commitment to the business and to innovation, not innovation fenced off in one place.
+      - claim: '''Customers like it this way'' shows healthy respect for customers.'
+        tempting: It mentions customers.
+        correction: Slide 4 quotes it, with 'If it ain't broke, don't fix it' and 'We've always done it this way', as the talk of companies that do not experiment proactively.
+      - claim: Recording failures so they can be discouraged builds an innovation culture.
+        tempting: Learning from mistakes sounds sensible.
+        correction: 'Slide 5: where failure is discouraged or punished, the culture does not produce innovators. The conclusion asks for tolerance for mistakes, allowing room for failure.'
+    socratic:
+      - ask: Store staff suggest ways to cut queues, but nothing happens after the meetings and staff stop coming. What does the slide call this?
+        hint: Two signs.
+        answer: 'Resistance to innovation: lack of follow-through, then lack of engagement.'
+      - ask: A manager says, 'We've always done it this way.' Which characteristic is missing?
+        hint: Slide 4.
+        answer: 'Experimenting proactively: such companies challenge the status quo, think outside the box, and take risks and try new things.'
+      - ask: What does a culture that cultivates innovators look like?
+        hint: Heard, space, reward.
+        answer: Managers allow ideas to be heard, innovators have space to develop and test, and innovation is rewarded.
+      - ask: How does Shelley Simpson's 'lean in' expectation fit?
+        hint: Rewarded.
+        answer: 'It cultivates innovators: people who ask questions and put themselves forward are rewarded, the opposite of staff reluctant to bring up ideas.'
+    what-if:
+      - change: Shelley Simpson's company punished staff whose new designs failed, and only she could propose new products.
+        effect: 'Slide 5 would place it among cultures that do not produce innovators: failure punished, employees reluctant to raise ideas, innovation top-down. That is the opposite of rewarding those who lean in.'
+    boundary:
+      - text: Gilbert + Tobin judging that the right incentives and culture for its own low-cost offshoot would be very hard to create beside its traditional legal model.
+        why: 'Culture as a constraint: an established culture can make some innovations hard to grow in-house, so G+T partnered with LegalVision instead.'
+      - text: A hospital approves nurses' handover-checklist trial but never resources it, and fewer nurses offer ideas next time.
+        why: 'Looks like commitment but is resistance: approval without action is lack of follow-through, and the fall in ideas is lack of engagement.'
+    transfer:
+      - scenario: A council's IT team is told to 'be innovative', but every new idea must come from the director, and a failed pilot last year led to a formal reprimand.
+        answer: 'Slide 5 diagnoses a culture that doesn''t produce innovators: innovation is top-down and failure is punished, so staff will be reluctant to raise ideas. To build an innovation culture, let ideas be heard, give people space to develop and test, reward innovation, and manage the risks of experiments rather than punish failure.'
+    objections:
+      - position: The key to Shelley Simpson's success was her company's innovation culture.
+        evidence: She expects staff to lean in and rewards them; her team became a cohesive unit through Covid; she stays connected with the studio team and keeps creating new designs.
+        objection: 'Other factors mattered too: years of experimenting, controlling distribution through her own stores, word-of-mouth (viral) marketing, hard lessons in compliance and cash flow, and growth of about 30% a year. Culture is one component among several.'
+    sources:
+      - Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture (slides 2–5)
+      - Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson
+      - Marketing - Week 12 - Tutorial Materials - Final Exam Preparation (slide 2)
+  - concept: mgmt2094-w12-innovative-leader
+    plain: An innovative leader is passionate, obsessed with restoring innovation, willing to take risks yet able to manage them, and quick to start projects. Each trait mirrors a trait of an innovation culture.
+    concrete: Sam Nickless joined Gilbert + Tobin as chief operating officer in 2015 with a mission to future-proof the firm by tackling disruption head on. His first task was a strategic review of the legal industry. Before G+T bought into LegalVision, he spent time getting to know how it worked, arranged mystery shoppers to test its service, and asked G+T's top lawyers to review its work; only then did the partners get excited about taking a stake.
+    formal: 'Slide 6: an innovative leader is passionate about the company, obsessed with restoring innovation, willing to take risks, can manage risks, and can start projects quickly. Slide 7 pairs culture with leader: commitment / passionate about innovation; experiments proactively / willing to experiment; manages risk / realistic and informed; implements quickly / rapid project execution; cultivates innovators / attracts and nurtures them. Slide 8 quotes Steve Jobs.'
+    terms:
+      - term: realistic and informed
+        gloss: 'The leader trait that slide 7 pairs with the culture''s ''manages risk'': taking risks with eyes open.'
+      - term: capable of rapid project execution
+        gloss: The leader trait paired with the culture's 'can implement ideas quickly'.
+      - term: able to attract and nurture innovators
+        gloss: The leader trait paired with the culture's 'produces and cultivates innovators'.
+    elements:
+      - name: Passionate about innovation
+        test: Does the leader show passion for the company and its innovation, matching the culture's organisation-wide commitment?
+      - name: Willing to experiment
+        test: Does the leader try new things, matching a culture that experiments proactively?
+      - name: Realistic and informed
+        test: Does the leader take risks on good information, matching a culture that manages risk? Nickless's due diligence on LegalVision.
+        authorities:
+          - mgmt2094-example-gilbert-tobin-legalvision
+      - name: Capable of rapid project execution
+        test: Can the leader start projects quickly, matching a culture that can implement ideas quickly?
+      - name: Able to attract and nurture innovators
+        test: Does the leader draw in and grow innovators, matching a culture that produces and cultivates them?
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+    misconceptions:
+      - claim: '''Willing to experiment'' is the leader trait that matches ''manages risk''.'
+        tempting: Experimenting involves risk.
+        correction: Slide 7 pairs 'manages risk' with 'realistic and informed'; 'willing to experiment' matches 'experiments proactively'.
+      - claim: An innovative leader is above all a risk-taker.
+        tempting: Slide 6 says 'willing to take risks'.
+        correction: 'The same slide adds ''can manage risks'', and the matching culture trait is ''manages risk'': risk-taking sits beside realism and information.'
+      - claim: The 'How to lead innovation' slide quotes Elon Musk beside a Tesla.
+        tempting: A Tesla is pictured.
+        correction: The quote, 'Innovation distinguishes between a leader and a follower', is attributed to Steve Jobs.
+    socratic:
+      - ask: Nickless's first task at G+T was a strategic review of the legal industry. Which leader trait does that serve?
+        hint: Risk with eyes open.
+        answer: 'Realistic and informed: understanding the challenges and opportunities before acting.'
+      - ask: Was buying a stake in LegalVision a risk?
+        hint: A start-up.
+        answer: 'Yes: about A$4 million for 20 per cent of a start-up whose business model more closely resembled a software start-up. He was willing to take risks.'
+      - ask: How did he manage that risk?
+        hint: Two checks.
+        answer: He got to know how LegalVision worked, sent mystery shoppers to test its service and had G+T's top lawyers review its work.
+      - ask: 'Shelley Simpson ''didn''t say no'' early on: mugs, personalised dog bowls, painted planters. Which trait?'
+        hint: Experiment.
+        answer: 'Willing to experiment: trying many directions to find something of her own.'
+      - ask: Yet she warns students about outside investors and says her company must not expand too quickly. Which trait is that?
+        hint: Risk again.
+        answer: 'Can manage risks, realistic and informed: know your exit clauses, and grow carefully.'
+    what-if:
+      - change: Nickless had bought into the first NewLaw start-up he found, without mystery shoppers or a review by G+T's lawyers.
+        effect: He would show a willingness to take risks without managing them. Slide 7 pairs managing risk with being realistic and informed, and G+T had rejected marketplace start-ups for their lack of quality control.
+    boundary:
+      - text: A manager passionate about innovation and willing to experiment, whose projects stall for a year before launch.
+        why: 'Short on one trait: capable of rapid project execution (''can start projects quickly''), the leader''s match for implementing ideas quickly.'
+      - text: A founder who launches projects fast but takes over every project herself, so staff with ideas leave.
+        why: Short on being able to attract and nurture innovators, the match for a culture that produces and cultivates innovators.
+    transfer:
+      - scenario: A newly appointed hospital chief executive wants to lead innovation in outpatient services.
+        answer: Show passion for innovation; be willing to experiment while realistic and informed about the risks, perhaps beginning with a review of the sector, as Nickless did; start projects quickly; and attract and nurture innovators among staff. Each trait should be visible in a matching culture trait, from organisation-wide commitment to cultivating innovators.
+    objections:
+      - position: Innovative leaders are risk-takers above all.
+        evidence: Slide 6 lists 'willing to take risks'; Shelley Simpson tried everything early on.
+        objection: The slide also says 'can manage risks', and slide 7's leader is realistic and informed. Simpson warns about outside investors and expanding too quickly; Nickless ran due diligence before investing.
+    sources:
+      - Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture (slides 6–8)
+      - Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017) (scanned, pp 27–29)
+      - Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson
+  - concept: mgmt2094-w12-challenges-managing-innovation
+    plain: 'Managing innovation means facing seven challenges: why change, what to change, understanding innovation, building a culture of routines, continuous learning, high involvement, and managing connections with others.'
+    concrete: Shelley Simpson had never done a course in ceramics, design or business, so every step was a point of growth for her. As her business went overseas she had to learn logistics and packaging, how to get pieces around the world and how to negotiate with freight companies. With the business growing about 30% a year, her personal development had to grow too, until she realised she could not do it alone and her husband joined the business.
+    formal: 'Slides 9–10: (1) Why change? Only innovation matters. (2) What to change? From product and service to the ways things are done (process innovation). (3) Understanding innovation: the problems of partial views. (4) Building an innovation culture: firm-specific routines, ''repeated, reinforced patterns of behavior''. (5) Continuous learning: developing routines for environmental challenges. (6) High involvement innovation. (7) Managing connections: relationships, not splendid isolation.'
+    terms:
+      - term: routines
+        gloss: 'Slide 9: ''repeated, reinforced patterns of behavior'' that define a firm''s particular approach to innovation.'
+      - term: high involvement innovation
+        gloss: A higher level of participation in innovation, which slide 10 says represents a competitive advantage.
+      - term: managing connections
+        gloss: Operating in relationship with other organisations rather than in splendid isolation (challenge 7).
+      - term: partial views of innovation
+        gloss: Incomplete understandings of what innovation is; challenge 3 is understanding the common problems they cause.
+    elements:
+      - name: 1 Why change?
+        test: Only innovation matters.
+      - name: 2 What to change?
+        test: Anything from changes in product and service to the ways things are done (process innovation).
+      - name: 3 Understanding innovation
+        test: Understanding the common problems associated with partial views of innovation.
+      - name: 4 Building an innovation culture
+        test: Creating firm-specific routines, repeated and reinforced patterns of behaviour that define the firm's particular approach to the problem.
+      - name: 5 Continuous learning
+        test: Constantly developing those routines to deal with environmental challenges.
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+      - name: 6 High involvement innovation
+        test: A higher level of participation in innovation represents a competitive advantage.
+      - name: 7 Managing connections
+        test: Operating in relationship with others rather than in splendid isolation.
+        authorities:
+          - mgmt2094-example-gilbert-tobin-legalvision
+    misconceptions:
+      - claim: '''What to change?'' covers only the physical product.'
+        tempting: Products are the most visible change.
+        correction: 'Slide 9: it ranges from changes in product and service to the ways things are done, that is, process innovation.'
+      - claim: High involvement innovation means senior managers getting closely involved.
+        tempting: '''Involvement'' suggests leaders'' attention.'
+        correction: 'Slide 10: it is a higher level of participation in innovation, which represents a competitive advantage, not innovation concentrated at the top.'
+      - claim: Government policies and market barriers are among the seven challenges.
+        tempting: They are certainly challenging.
+        correction: 'The slides list barriers separately: external (market, government, others) and internal (people, structure, strategy). The seven challenges run from why change to managing connections.'
+    socratic:
+      - ask: Why did Gilbert + Tobin need to change at all?
+        hint: NewLaw.
+        answer: Disruptors were doing lower-value work faster and cheaper, and disruption tends to move up the market. 'Why change?' Only innovation matters.
+      - ask: G+T partnered with LegalVision rather than going it alone. Which challenge does that address?
+        hint: Splendid isolation.
+        answer: 'Managing connections: operating in relationship with others rather than in splendid isolation.'
+      - ask: Shelley Simpson had to learn logistics, packaging and freight as her business grew. Which challenge?
+        hint: The environment keeps changing.
+        answer: 'Continuous learning: constantly developing routines to deal with new environmental challenges.'
+      - ask: What links challenges 4 and 5?
+        hint: Patterns of behaviour.
+        answer: 'Routines: challenge 4 creates firm-specific routines; challenge 5 keeps developing them as the environment changes.'
+    what-if:
+      - change: G+T had decided to stand alone and ignore the NewLaw firms entirely.
+        effect: It would fail challenge 7, operating in splendid isolation rather than in relationship with others. On Nickless's view that disruption moves up the market, its higher-value core would be exposed, with no way to learn from the disruption.
+    boundary:
+      - text: A manufacturer full of good ideas, where every department solves problems in its own ad hoc way and nothing is repeated.
+        why: 'Challenge 4 unmet: innovation is not being managed, because there are no firm-specific routines, no repeated and reinforced patterns of behaviour.'
+      - text: A winery sharing fermentation data with a university and two growers so they can test new methods together.
+        why: 'Challenge 7, managing connections: innovating in relationship with others rather than in splendid isolation.'
+    transfer:
+      - scenario: A family bakery chain has grown from two shops to twenty. The owner still decides every new product herself, and each shop does things its own way.
+        answer: 'Building an innovation culture: create firm-specific routines, repeated and reinforced patterns, across the shops. High involvement innovation: wider participation in ideas is a competitive advantage. Continuous learning: keep developing the routines as the environment changes. What to change: processes as well as products.'
+    objections:
+      - position: For a creative business, innovation is a product question.
+        evidence: Shelley Simpson keeps creating new designs, and design-led handmade porcelain is the heart of her business.
+        objection: 'Her hardest lessons were outside the product: logistics, freight, compliance and cash flow, and she grew through collaborations and her own stores. The slides'' second challenge spans product, service and process; the seventh is managing connections.'
+    sources:
+      - Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture (slides 9–10)
+      - Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson
+      - Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017) (scanned, pp 27–29)
+  - concept: mgmt2094-w12-barriers-to-innovation
+    plain: Barriers to innovation are either external (markets, government policies, and technical, societal or inter-organisational factors) or internal (people, structure and strategy). First ask where the obstacle sits.
+    concrete: 'Shelley Simpson calls compliance one of her biggest hurdles: the dry tasks were always the hardest in a creative business. Selling into many markets meant lodging everything required in each one and understanding the duties and taxes, for example when going into Italy, so her product sat in the right category. Once the tax office said she owed a huge sum; three days later she realised the calculation had left out import duties she had prepaid.'
+    formal: 'Slide 11: external barriers are market-related barriers; government and its policies; and others (technical, societal and inter-organisational barriers). Internal barriers are people-related, structural and strategy-related. The slides list them apart from the seven challenges, and follow them with how to overcome these barriers: learning to manage innovation.'
+    terms:
+      - term: external barrier
+        gloss: 'An obstacle outside the organisation: market-related, government and its policies, or technical, societal or inter-organisational.'
+      - term: internal barrier
+        gloss: 'An obstacle inside the organisation: people-related, structural or strategy-related.'
+      - term: inter-organisational barrier
+        gloss: An external obstacle that arises between organisations, listed with technical and societal barriers under 'others'.
+    elements:
+      - name: Where does it sit?
+        test: Outside the organisation (a market, a government, technology, society, another organisation) or inside it? G+T's own incentives and culture were an obstacle inside the firm.
+        authorities:
+          - mgmt2094-example-gilbert-tobin-legalvision
+      - name: 'External: market-related'
+        test: Is the obstacle in the market the firm wants to sell into?
+      - name: 'External: government and its policies'
+        test: Do rules, duties or taxes set by governments stand in the way? Shelley Simpson's compliance hurdle.
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+      - name: 'External: others'
+        test: Is it technical, societal or inter-organisational?
+      - name: 'Internal: people-related'
+        test: Does it lie with the organisation's own people?
+      - name: 'Internal: structural'
+        test: Does it lie in how the organisation is set up?
+      - name: 'Internal: strategy-related'
+        test: Does it lie in the organisation's own strategy?
+    misconceptions:
+      - claim: Compliance with each market's duties and taxes is an internal, structural barrier.
+        tempting: The compliance work happens inside the firm.
+        correction: 'The rules come from outside: slide 11 lists government and its policies among the external barriers, even if the paperwork is done in-house.'
+      - claim: People-related barriers are external, because customers and society are people.
+        tempting: Society is made of people.
+        correction: People-related barriers are internal, about the organisation's own people; societal barriers sit with the external 'others'.
+      - claim: Continuous learning is an internal barrier.
+        tempting: It sounds like something a firm can fail at.
+        correction: It is one of the seven challenges of managing innovation; the slides list barriers separately, as external and internal.
+    socratic:
+      - ask: Shelley Simpson's hurdle was knowing the duties and taxes in each market. Where does that obstacle sit?
+        hint: Who sets the rules?
+        answer: 'Outside the firm, since governments set them: an external barrier, government and its policies.'
+      - ask: G+T judged it very hard to create the right incentives and culture for its own low-cost firm. Where does that obstacle sit?
+        hint: Inside or outside G+T?
+        answer: 'Inside: G+T''s own incentives and culture beside a traditional legal model. An internal barrier.'
+      - ask: Which internal barrier types does the slide name?
+        hint: Three.
+        answer: People-related, structural and strategy-related.
+      - ask: Once a barrier is classified, what comes next on the slides?
+        hint: Learning to manage innovation.
+        answer: 'How to overcome it: the components of learning to manage innovation, from shared vision to the learning organisation.'
+    what-if:
+      - change: G+T had been held back not by its own incentives and culture but by a rule barring law firms from owning stakes in other practices.
+        effect: The barrier would move from internal to external (government and its policies), and partnering through a stake, the response G+T chose, would no longer be open to it.
+    boundary:
+      - text: A retailer whose new ideas must pass six layers of approval, so most expire before a decision.
+        why: 'Internal and structural: the obstacle is how the firm is organised, not its strategy or anything outside it.'
+      - text: A supplier's refusal to share the data needed to co-develop a product.
+        why: 'External and inter-organisational: the people refusing work for another organisation, so the barrier sits outside the firm.'
+    transfer:
+      - scenario: A drone-delivery start-up has a working product, but aviation rules restrict flights over homes, and its own engineers resist switching to a cheaper battery supplier.
+        answer: 'Two barriers. The aviation rules are external: government and its policies. The engineers'' resistance is internal and people-related. Classify each by where it sits, then pair it with a way of overcoming barriers from the slides, such as extensive communication or effective team working for the internal one.'
+    objections:
+      - position: A successful innovator's story can simply be copied.
+        evidence: 'Shelley Simpson''s path is visible: experimenting, trade shows, a US agent, her own stores, collaborations.'
+        objection: Barriers differ from firm to firm. External ones, such as each market's duties and taxes, and internal ones (people, structure, strategy) vary; G+T found a route open to start-ups, its own low-cost firm, blocked by its own incentives and culture.
+    sources:
+      - Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture (slides 11)
+      - Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson
+      - Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017) (scanned, pp 29)
+      - Marketing - Week 12 - Tutorial Materials - Final Exam Preparation (slide 2)
+  - concept: mgmt2094-w12-overcoming-barriers
+    plain: 'Barriers are overcome by learning to manage innovation: shared vision and leadership, the right culture, key individuals, good teams, staff development, wide communication, a creative climate and a learning organisation.'
+    concrete: Gilbert + Tobin wanted a strategy giving it exposure to the higher-growth market and 'the ability to learn from that disruption as it comes into our part of the market'. Through its stake in LegalVision it has expanded client relationships, solving parts of in-house legal teams' problems it would not normally be brought into because of its cost structure, and has crafted combined G+T and LegalVision solutions, sometimes taking a smaller share of the work.
+    formal: 'Slides 12–14, ''Learning to manage innovation'': shared vision, leadership and the will to innovate; appropriate culture; key individuals; effective team working; continuing and stretching individual development; extensive communication; creative climate; learning organisation. Conclusion (slide 15): emphasise planning and controlling systems with a high degree of flexibility, respect for individual initiative and personal growth, and tolerance for mistakes, allowing room for failure.'
+    terms:
+      - term: key individuals
+        gloss: Promoters, champions and other roles which facilitate innovation.
+      - term: creative climate
+        gloss: A positive approach to creative ideas, supported by relevant motivation systems.
+      - term: learning organisation
+        gloss: High involvement, inside and outside the firm, in proactive experimentation, with knowledge captured and disseminated.
+      - term: room for failure
+        gloss: 'The conclusion''s tolerance for mistakes: the answer to cultures where failure is discouraged or punished.'
+    elements:
+      - name: Shared vision, leadership and the will to innovate
+        test: A clearly articulated and shared sense of purpose; stretching strategic intent; top management commitment.
+      - name: Appropriate culture
+        test: Encouraging creativity; enabling learning and interaction; balancing between 'organic and mechanistic'.
+      - name: Key individuals
+        test: Promoters, champions and other roles which facilitate innovation.
+      - name: Effective team working
+        test: Teams at cross-functional and inter-organisational level; investment in team selection and building.
+      - name: Continuing and stretching individual development
+        test: Education and training of employees to ensure a high level of skills and competence.
+      - name: Extensive communication
+        test: Within and between the organisation, and outside it.
+      - name: Creative climate
+        test: A positive approach to creative ideas, supported by relevant motivation systems.
+        authorities:
+          - mgmt2094-example-guest-shelley-simpson
+      - name: Learning organisation
+        test: High involvement within and outside the firm in proactive experimentation; knowledge capture and dissemination.
+        authorities:
+          - mgmt2094-example-gilbert-tobin-legalvision
+    misconceptions:
+      - claim: Appropriate culture means removing rules so teams can do whatever they like.
+        tempting: Its first bullet is encouraging creativity.
+        correction: Slide 12 also asks for a balance between 'organic and mechanistic', and the conclusion keeps planning and controlling systems, with a high degree of flexibility.
+      - claim: Knowledge capture and dissemination belong to extensive communication.
+        tempting: Dissemination is a kind of communication.
+        correction: The slides put knowledge capture and dissemination under the learning organisation; extensive communication is within and between the organisation and outside.
+      - claim: Extensive communication means communication inside the firm.
+        tempting: Internal communication is the usual concern.
+        correction: 'Slide 14: within and between the organisation and outside, so it reaches beyond the firm''s walls.'
+    socratic:
+      - ask: A council has good ideas, but no one owns them, and each dies when the meeting ends. Which component is missing?
+        hint: Promoters, champions…
+        answer: 'Key individuals: promoters, champions and other roles which facilitate innovation.'
+      - ask: Trials at one mine site never reach the company's other sites. Which component would help most directly?
+        hint: Within and between.
+        answer: Extensive communication, within and between the organisation and outside it.
+      - ask: Shelley Simpson rewards staff who 'lean in'. Which component does that show?
+        hint: Motivation systems.
+        answer: 'Creative climate: a positive approach to creative ideas, supported by relevant motivation systems.'
+      - ask: G+T wanted the ability to learn from disruption through its LegalVision stake. Which component?
+        hint: Outside the firm.
+        answer: 'Learning organisation: involvement within and outside the firm in proactive experimentation, with knowledge captured and disseminated.'
+      - ask: What three things does the conclusion say enterprises should emphasise?
+        hint: Flexible, individual, mistakes.
+        answer: Planning and controlling systems with a high degree of flexibility; respect for individual initiative and personal growth; tolerance for mistakes, allowing room for failure.
+    what-if:
+      - change: A law firm's partners say they want innovation but state no purpose, appoint no senior sponsor and set targets that repeat last year's.
+        effect: 'The first component is missing: shared vision, leadership and the will to innovate, meaning a clearly articulated, shared purpose, stretching strategic intent and top management commitment.'
+    boundary:
+      - text: A bank that punishes branch staff whose process trials fail.
+        why: Cuts against the conclusion's tolerance for mistakes and room for failure, and against a creative climate's positive approach to creative ideas.
+      - text: A company that sends staff on courses to build new skills.
+        why: 'Continuing and stretching individual development: education and training to ensure a high level of skills and competence, not a creative climate or a learning organisation.'
+    transfer:
+      - scenario: A regional hospital network wants staff to innovate, but its sites rarely talk to each other, failed pilots are blamed on individuals, and no executive owns innovation.
+        answer: 'Shared vision, leadership and the will to innovate: top management commitment and a clear purpose. Extensive communication between sites. A creative climate, and tolerance for mistakes instead of blame. Key individuals to champion ideas, and a learning organisation that captures and disseminates what the pilots teach.'
+    objections:
+      - position: Innovation is the job of the organisation, not of the individual employee.
+        evidence: 'Most components are organisational: shared vision, appropriate culture, team working, communication, a learning organisation.'
+        objection: Key individuals and continuing and stretching individual development are components too, and the conclusion asks for respect for individual initiative and personal growth. Shelley Simpson rewards staff who lean in.
+    sources:
+      - Marketing - Week 12 - Lecture Materials - Leading an Innovative Culture (slides 12–15)
+      - Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017) (scanned, pp 28–29)
+      - Marketing - Week 12 - Lecture Transcript - Guest Lecture, Shelley Simpson
+  - concept: mgmt2094-w12-responding-to-disruption
+    plain: 'Faced with cheaper, faster disruptors, Gilbert + Tobin neither fought nor copied them: it bought a stake in one, gaining a foothold in a growing market and a way to learn as disruption moved up.'
+    concrete: 'NewLaw disruptors, including the local start-up LegalVision, focused on lower-value, higher-volume transactional work that standard processes and digital automation could do faster and cheaper: preparing wills, reviewing loan documents, first-round document reviews in due diligence. LegalVision offered a lower-cost solution, better service and a better marketing machine. G+T''s expertise lay in bespoke work such as major acquisitions, disputes and regulatory issues, but Nickless expected disruption to move up the market.'
+    formal: 'Nickless (2017): disruption ''would tend to move up the market from the lower value types of work — then up towards the higher value, where the bulk of our business lay''. Possible responses: change the business model, retreat into a specialist niche, build online platforms to automate simple activities, outsource, or partner with a disruptor. G+T bought a 20 per cent stake in LegalVision for about A$4 million.'
+    terms:
+      - term: NewLaw
+        gloss: Disruptors in law, such as LegalVision, doing lower-value, higher-volume transactional work faster and cheaper through standard processes and digital automation.
+      - term: moving up the market
+        gloss: Disruption that starts with lower-value work, then builds the capability to take on more complex, higher-value work.
+      - term: due diligence
+        gloss: 'The checks before an investment: Nickless used mystery shoppers and a review of LegalVision''s work by G+T''s top lawyers.'
+    misconceptions:
+      - claim: G+T launched its own low-cost online law firm.
+        tempting: It did consider launching its own version.
+        correction: 'Nickless: getting the incentives right to motivate people and create the right culture would be very hard beside a traditional legal model, so G+T bought a 20 per cent stake in LegalVision instead.'
+      - claim: Low-value transactional work was no threat to a top-tier firm.
+        tempting: It fell outside G+T's main focus.
+        correction: Nickless expected disruption to move up the market from lower-value work towards the higher value, where the bulk of G+T's business lay.
+      - claim: G+T chose LegalVision because it did bespoke, high-value work like G+T.
+        tempting: A similar firm sounds like an easy partner.
+        correction: Its appeal was cost-effective legal support for the underserviced small-to-medium enterprise market, strong growth, and being a law firm that owns its customer experience end to end.
+    socratic:
+      - ask: Why should a top-tier firm worry about disruptors doing simple wills and document reviews?
+        hint: Which way does disruption move?
+        answer: 'Up the market: a provider competent at simple document review might later ask to try something more complex, perhaps ''running the A$5 million bolt-on acquisition''.'
+      - ask: What responses did G+T consider?
+        hint: Five, plus its own version.
+        answer: Changing its business model, retreating into a specialist niche, building online platforms, outsourcing, partnering with a disruptor, and launching its own version.
+      - ask: Why not launch its own version?
+        hint: Incentives…
+        answer: Getting the incentives right to motivate people and create the right culture would be very hard alongside a traditional legal model.
+      - ask: Why LegalVision rather than the other start-ups G+T looked at?
+        hint: Momentum and quality control.
+        answer: None had its momentum, and some were marketplaces referring customers to independent practitioners with no quality control; LegalVision is a law firm that owns its customer experience end to end.
+      - ask: What has the partnership given G+T?
+        hint: A market it could not serve.
+        answer: Economic access to the small-to-medium enterprise market, wider client relationships and combined solutions, even when G+T takes a smaller share of the work.
+    what-if:
+      - change: LegalVision had been a marketplace that referred customers to independent lawyers.
+        effect: 'G+T would likely have passed it over: Nickless rejected such start-ups because there was no quality control on the practitioners they referred to, unlike a law firm that owns its customer experience end to end.'
+    boundary:
+      - text: A university watching online providers sell short, cheap certificates it once dismissed as low-value.
+        why: 'The same pattern as law: on Nickless''s logic disruption can move up from low-value work, so the threat deserves a response, such as exposure to and learning from the growing market.'
+      - text: G+T taking a smaller share of some combined G+T and LegalVision work.
+        why: 'Part of the response, not a loss: Nickless says holding it all would be uneconomic and leave the client without a solution.'
+    transfer:
+      - scenario: A large accounting firm sees a start-up winning simple tax returns with automated software. Its partners say the work is beneath them.
+        answer: 'Nickless''s logic: disruption tends to move up the market, so the start-up may later take more complex work. Review the industry; list the options (change the model, a niche, platforms, outsourcing, partnering); weigh whether an in-house version could get incentives and culture right; and, if partnering, check the partner''s quality before investing.'
+    objections:
+      - position: Established firms should fight disruptors, not partner with them.
+        evidence: Cost-conscious clients and new competitors are eroding law firms' margins; LegalVision offered lower cost, better service and a better marketing machine.
+        objection: G+T's stake gave it exposure to a market growing around 5 or 6 per cent a month, the ability to learn from disruption, and combined client solutions it could not have offered before.
+      - position: Top-tier firms are different; disruption will not reach them.
+        evidence: Nickless recalls that quite a few people argued a top-tier law firm is different and 'it won't happen to us'.
+        objection: 'He says nobody makes that argument any more: the same forces will apply to law, and disruption is only just getting started.'
+    storyboard:
+      - caption: A strategic review, 2015
+        detail: Nickless joins G+T as chief operating officer to future-proof the firm; his first task is a strategic review of the legal industry.
+      - caption: The threat is spotted
+        detail: NewLaw firms such as LegalVision do lower-value, higher-volume work faster and cheaper, and disruption tends to move up the market.
+      - caption: Options weighed
+        detail: Change the business model, retreat to a niche, build online platforms, outsource, or partner. Its own version? Incentives and culture would be very hard.
+      - caption: The right partner
+        detail: Marketplace start-ups lack quality control; LegalVision is a law firm that owns its customer experience, growing around 5 or 6 per cent a month.
+      - caption: Due diligence
+        detail: Mystery shoppers test LegalVision's service and G+T's top lawyers review its work; the partners get excited.
+      - caption: The stake, and after
+        detail: 'About A$4 million for 20 per cent: access to the small-to-medium enterprise market, wider client relationships and combined solutions.'
+    sources:
+      - Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017) (scanned, pp 27–29)
+flows:
+  - slug: responding-to-a-disruptor
+    title: How should an established firm respond to a disruptor?
+    summary: 'Walks Gilbert + Tobin''s response to NewLaw (Nickless, 2017): from the industry review and the threat moving up the market, through the options, to choosing and checking a disruptor to partner with.'
+    start: n1
+    concepts:
+      - mgmt2094-w12-responding-to-disruption
+      - mgmt2094-w12-innovative-leader
+      - mgmt2094-w12-challenges-managing-innovation
+    sources:
+      - Marketing - Week 12 - Reading - Tackling Disruption (Nickless, 2017) (scanned, pp 27–29)
+    nodes:
+      - id: n1
+        kind: step
+        text: 'Review the industry: what is going on, and what are the challenges and opportunities?'
+        note: Nickless's first task as G+T's chief operating officer in 2015 was a strategic review of the legal industry.
+        concept: mgmt2094-w12-innovative-leader
+        authorities:
+          - mgmt2094-nickless-2017
+        next: n2
+      - id: n2
+        kind: step
+        text: 'Identify the threat: new players doing lower-value, higher-volume work faster and cheaper, with standard processes and digital automation.'
+        note: NewLaw firms such as LegalVision prepared wills, reviewed loan documents and ran first-round document reviews, with lower cost, better service and a better marketing machine.
+        next: n3
+      - id: n3
+        kind: ask
+        text: Could the disruption move up the market, towards the higher-value work where the bulk of your business lies?
+        note: 'Nickless: a provider competent at simple document review might later ask to run ''the A$5 million bolt-on acquisition''.'
+        branches:
+          - label: 'Yes'
+            to: n4
+          - label: 'No: ''it won''t happen to us'''
+            to: n13
+      - id: n4
+        kind: step
+        text: 'List the possible responses: change the business model, retreat into a specialist niche, build online platforms to automate simple work, outsource, or partner with a disruptor.'
+        concept: mgmt2094-w12-responding-to-disruption
+        next: n5
+      - id: n5
+        kind: ask
+        text: Could you launch your own version, with the incentives and culture it needs, beside your traditional model?
+        note: G+T judged that getting the incentives right to motivate people and create the right culture would be very hard alongside a traditional legal model.
+        branches:
+          - label: 'Yes'
+            to: n6
+          - label: No, it would be very hard
+            to: n7
+      - id: n6
+        kind: end
+        tone: qualified
+        text: 'Launch your own version: the option G+T considered first and set aside.'
+      - id: n7
+        kind: step
+        text: 'Look for a disruptor to partner with: aim for exposure to the higher-growth market and the ability to learn from the disruption as it arrives.'
+        note: 'Managing connections: operating in relationship with others rather than in splendid isolation.'
+        concept: mgmt2094-w12-challenges-managing-innovation
+        next: n8
+      - id: n8
+        kind: ask
+        text: Is the candidate a firm that owns its customer experience end to end, with real momentum?
+        branches:
+          - label: 'Yes'
+            to: n10
+          - label: 'No: a marketplace that refers customers out'
+            to: n9
+      - id: n9
+        kind: end
+        tone: not-met
+        text: 'Pass it over: G+T rejected marketplace start-ups because there was no quality control on the practitioners they referred customers to.'
+      - id: n10
+        kind: ask
+        text: 'Does it pass due diligence: mystery shoppers testing its service, and a review of its work by your top lawyers?'
+        note: 'Realistic and informed: taking the risk only after checking quality.'
+        branches:
+          - label: 'Yes'
+            to: n11
+          - label: 'No'
+            to: n12
+      - id: n11
+        kind: end
+        tone: met
+        text: 'Take a stake and work with it: G+T bought 20 per cent of LegalVision for about A$4 million, opening the small-to-medium enterprise market and combined solutions.'
+        authorities:
+          - mgmt2094-example-gilbert-tobin-legalvision
+      - id: n12
+        kind: end
+        tone: not-met
+        text: 'Do not invest: the partner has not shown the quality your clients need.'
+        exception: true
+      - id: n13
+        kind: end
+        tone: not-met
+        text: 'Reconsider: Nickless says nobody argues any more that top-tier law is different; the same forces will apply, and disruption has only just begun.'

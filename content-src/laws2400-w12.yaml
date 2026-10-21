@@ -1,0 +1,3459 @@
+unit: laws2400
+week: 12
+source: raw/laws2400-torts/week-12
+generator: ingest-1
+week_file:
+  topic: "Defences to negligence: contributory negligence and voluntary assumption of risk"
+  summary: >-
+    This week covers the two defences to negligence that turn on the plaintiff's own conduct, as set out in the
+    textbook's flowcharts. Contributory negligence results in a partial reduction in damages on what is just and
+    equitable (with the CLA s 5R standard, a causal requirement and the s 50 intoxication presumption), while voluntary
+    assumption of risk is a complete defence confined to a specific risk the plaintiff fully appreciated and accepted,
+    reshaped by statute (CLA s 5L) and joined by illegality. For the exam, pick the right branch for the facts and apply
+    its rule with the authority the flowchart names.
+  thin: true
+  thin-reason: >-
+    The only Topic 12 source is the textbook's two flowcharts, "Defences to Negligence 2 – Contributory Negligence" and
+    "Defences to Negligence 3 – Voluntary Assumption of Risk" (Tort Law Principles 3e, pp 478–479), read with the Civil
+    Liability Act 2002 (NSW) sections they name (ss 5L, 5R, 50, 56). Missing: the Topic 12 lecture slides, lecture
+    recordings and transcripts, tutorial preparation pages, the Topic 12 casebook extract (the casebook PDF covers
+    topics 1–6 only) and the first flowchart in the series ("Defences to Negligence 1"). The 14 cases are named without
+    facts or holdings, and Law Reform (Miscellaneous Provisions) Act 1965 (NSW) s 9(1) and Motor Accidents Act 1988
+    (NSW) s 76 are cited but their text is not supplied.
+  source-note: >-
+    Built from the textbook flowchart (Tort Law Principles 3e, pp 478–479) and the Civil Liability Act 2002 (NSW) only;
+    no lecture slides, recording, transcript or casebook extract was available for this week.
+  notes: >
+    ## 1. Two defences built on the plaintiff's own conduct
+
+
+    This week's only source is the textbook's pair of flowcharts on defences to negligence (Tort Law Principles 3e,
+
+    pp 478–479): "Defences to Negligence 2 – Contributory Negligence" and "Defences to Negligence 3 – Voluntary
+
+    Assumption of Risk". The first flowchart in that series is not among this week's materials. Both defences look at
+
+    what the plaintiff did, but they work very differently.
+
+
+    :::examtip
+
+    Contributory negligence results in a *partial reduction* in damages. Voluntary assumption of risk operates as a
+
+    *complete defence*. When the plaintiff's own conduct is in issue, consider both branches.
+
+    :::
+
+
+    ## 2. Contributory negligence
+
+
+    :::rule
+
+    A finding of contributory negligence on behalf of the plaintiff results in a *partial reduction* in the damages
+
+    otherwise recoverable by a plaintiff based on what is "just and equitable having regard to [their] share in the
+
+    responsibility for the damage" — see Law Reform (Miscellaneous Provisions) Act 1965 (NSW) s 9(1) and the
+
+    equivalents in other Australian states and territories.
+
+    :::
+
+
+    As to the meaning of contributory negligence, the flowchart refers to *Davies v Swan Motor Co (Swansea) Ltd* and
+
+    *Jones v Livox Quarries Ltd*. The materials do not give the facts or holdings of these or any other case named this
+
+    week; each case card records only the proposition the flowchart cites it for.
+
+
+    ### General principles: the core inquiry
+
+
+    The flowchart lists seven boxes under "General principles". The first three frame the core inquiry:
+
+
+    - **What is "just and equitable"?** Need to examine the whole conduct of each of the negligent parties and consider
+      the relative blameworthiness of each — see *Pennington v Norris*.
+    - **Relevant standard of care.** The same principles that apply when determining whether a person has been negligent
+      apply to considering whether a person has been contributorily negligent — see CLA s 5R and equivalents.
+    - **Causal requirement.** A causal link between the plaintiff's lack of care for their own safety and their injury
+      must be established — see *Caswell v Powell Duffryn Associated Collieries*. Ordinary principles of causation apply
+      in this context.
+
+    :::statute
+
+    Civil Liability Act 2002 (NSW) s 5R: "(1) The principles that are applicable in determining whether a person has
+
+    been negligent also apply in determining whether the person who suffered harm has been contributorily negligent in
+
+    failing to take precautions against the risk of that harm. (2) For that purpose— (a) the standard of care required
+
+    of the person who suffered harm is that of a reasonable person in the position of that person, and (b) the matter
+
+    is to be determined on the basis of what that person knew or ought to have known at the time."
+
+    :::
+
+
+    ### General principles: particular situations
+
+
+    The other four boxes deal with particular situations:
+
+
+    - **Momentary thoughtlessness by employees.** In the employment context, inattention bred of familiarity and
+      repetition, the urgency of the task, the plaintiff's preoccupation with the matter in hand, and other prevailing
+      conditions may be taken into account when determining whether the plaintiff was contributorily negligent — see
+      *McLean v Tedman*; *Staveley Iron and Chemical Co v Jones*.
+    - **Agony of the moment.** Action on the part of the plaintiff that may be considered to demonstrate a lack of
+      reasonable care for the plaintiff's own safety may not amount to contributory negligence where the plaintiff's
+      actions can be justified in a situation of perceived emergency — see *Avram v Gusakoski*; *Caterson v Commissioner
+      for Railways*.
+    - **Rescuers.** Law in most jurisdictions now offers protection to those who act in good faith and without
+      recklessness — see, eg, Civil Law (Wrongs) Act 2002 (ACT) s 5; Civil Liability Act 2002 (NSW) s 56.
+    - **Intoxication.** There is now a legislative presumption of contributory negligence where the plaintiff is
+      intoxicated — see, eg, CLA s 50; Civil Law (Wrongs) Act 2002 (ACT) ss 95, 96.
+
+    :::statute
+
+    CLA s 56: "a good samaritan is a person who, in good faith and without expectation of payment or other reward, comes
+
+    to the assistance of a person who is apparently injured or at risk of being injured." Section 57(1): a good
+
+    samaritan "does not incur any personal civil liability in respect of any act or omission done or made by the good
+
+    samaritan in an emergency when assisting a person who is apparently injured or at risk of being injured."
+
+    :::
+
+
+    The flowchart files rescuers under contributory negligence, but the NSW sections it cites protect the good
+
+    samaritan from personal civil liability; the materials say nothing more about how a rescuer's own carelessness is
+
+    weighed. Note too that the flowchart's phrase "without recklessness" is not the wording of NSW s 56, which speaks of
+
+    acting in good faith and "without expectation of payment or other reward".
+
+
+    ### Intoxication: CLA s 50 step by step
+
+
+    :::statute
+
+    CLA s 50 applies when the person whose death, injury or damage is the subject of the proceedings was, at the time of
+
+    the act or omission that caused it, "intoxicated to the extent that the person's capacity to exercise reasonable
+    care
+
+    and skill was impaired" (s 50(1)). A court is not to award damages unless satisfied that the death, injury or damage
+
+    (or some other injury or damage) "is likely to have occurred even if the person had not been intoxicated" (s 50(2)).
+
+    If so satisfied, "it is to be presumed that the person was contributorily negligent unless the court is satisfied
+
+    that the person's intoxication did not contribute in any way to the cause" (s 50(3)). Where the presumption applies,
+
+    damages are reduced "by 25% or a greater percentage determined by the court to be appropriate" (s 50(4)). The
+    section
+
+    does not apply where the court is satisfied that the intoxication was not self-induced (s 50(5)).
+
+    :::
+
+
+    ## 3. Voluntary assumption of risk
+
+
+    :::rule
+
+    *Volenti non fit injuria* (voluntary assumption of risk) operates as a *complete defence* to negligence. The essence
+
+    of the defence lies in a plaintiff's willingness to assume a risk which the plaintiff knew existed in a particular
+
+    activity.
+
+    :::
+
+
+    The defendant must show that the plaintiff not only perceived the existence of the risk but that he or she fully
+
+    appreciated the nature and extent of that risk and voluntarily accepted that specific risk. The defence is narrowly
+
+    confined to the specific risk and does not extend to an awareness of the general nature of the risk.
+
+
+    ### Knowledge of risk
+
+
+    The plaintiff must fully appreciate the nature and likely manifestation of the risk — *Banovic v Perkovic*; *Carey v
+
+    Lake Macquarie City Council*. Effective knowledge extends beyond the mere existence of a risk to an acceptance of
+
+    materialisation of that risk — see *Carey v Lake Macquarie City Council*; *ICI v Shatwell*.
+
+
+    ### Intoxicated drivers and passengers
+
+
+    The courts are generally reluctant to allow the *volenti* defence against passengers who rely on an intoxicated
+
+    driver. Legislative intervention in some Australian jurisdictions specifically excludes the *volenti* defence in
+
+    these circumstances — see, eg, Motor Accidents Act 1988 (NSW) s 76 (cited in the flowchart; its text is not in this
+
+    week's materials).
+
+
+    ### Legislative reform: CLA s 5L
+
+
+    Some Australian jurisdictions have enacted legislation which expands the voluntary assumption of risk defence
+
+    available to defendants — see, eg, CLA s 5L. For guidance as to the application of these provisions, see *Tapp v
+
+    Australian Bushmen's Campdraft & Rodeo Association Ltd* (2022) 273 CLR 454.
+
+
+    :::statute
+
+    CLA s 5L: "(1) A person (the defendant) is not liable in negligence for harm suffered by another person (the
+
+    plaintiff) as a result of the materialisation of an obvious risk of a dangerous recreational activity engaged in by
+
+    the plaintiff. (2) This section applies whether or not the plaintiff was aware of the risk."
+
+    :::
+
+
+    Set s 5L(2) beside the common law: *volenti* needs the plaintiff to have perceived, fully appreciated and
+    voluntarily
+
+    accepted the specific risk, while s 5L applies whether or not the plaintiff was aware of the risk at all. (Section
+
+    5L was met in Topic 6, sport and recreational injury.)
+
+
+    ### Illegality
+
+
+    Where the plaintiff has been injured and the plaintiff and defendant were involved in the criminal enterprise, the
+
+    courts have often found that it would not be possible or feasible to determine an appropriate standard of care. In
+
+    such cases, the courts have found that a defence of illegality is available to the defendant — see, eg, *Gala v
+
+    Preston*. However, the defence of illegality will not be available to a defendant where, on the facts, the court is
+
+    able to determine the relevant standard of care — see, eg, *Progress & Properties Ltd v Craft*.
+
+
+    :::examtip
+
+    For each defence, name the flowchart box that fits the facts, state its rule with the authority the flowchart gives,
+
+    then apply it. Contributory negligence: standard (s 5R), causation, then what is just and equitable. *Volenti*: the
+
+    specific risk, then perceived, fully appreciated and voluntarily accepted.
+
+    :::
+concepts:
+  - slug: defences-to-negligence-flowchart
+    title: "Defences to negligence: the flowchart decision path"
+    visual: diagram
+    visual-brief: >-
+      An interactive decision flow drawn from the textbook flowcharts: the plaintiff's own conduct splits into two
+      branches — contributory negligence (partial reduction; its seven principle boxes) and voluntary assumption of risk
+      (complete defence; its four principle boxes) — and choosing a box opens its rule and the authority cited.
+    related:
+      - contributory-negligence-apportionment-and-standard
+      - contributory-negligence-employees-emergencies-rescuers
+      - intoxicated-plaintiff-cla-s50
+      - voluntary-assumption-of-risk
+      - volenti-and-legislation
+      - illegality-defence
+    depends-on:
+      - laws2400-w05-negligence-elements-overview
+    contrasts-with: []
+    cases: []
+    authorities:
+      - law-reform-miscellaneous-provisions-act-1965-nsw-s9
+      - civil-liability-act-2002-nsw-s5r
+      - civil-liability-act-2002-nsw-s50
+      - civil-liability-act-2002-nsw-s5l
+    verify: false
+    body: >-
+      The textbook gives two flowcharts for defences to negligence (Tort Law Principles 3e, pp 478–479):
+
+      "Defences to Negligence 2 – Contributory Negligence" and "Defences to Negligence 3 – Voluntary Assumption of
+      Risk".
+
+      Both turn on the plaintiff's own conduct, but they end in different places.
+
+
+      **Contributory negligence** results in a *partial reduction* in the damages otherwise recoverable, based on what
+      is
+
+      "just and equitable having regard to [their] share in the responsibility for the damage" (Law Reform
+      (Miscellaneous
+
+      Provisions) Act 1965 (NSW) s 9(1)). Its boxes: what is just and equitable; the relevant standard of care (CLA s
+      5R);
+
+      the causal requirement; momentary thoughtlessness by employees; agony of the moment; rescuers; and intoxication
+
+      (CLA s 50).
+
+
+      **Voluntary assumption of risk** (*volenti non fit injuria*) operates as a *complete defence*. The defendant must
+
+      show that the plaintiff perceived the risk, fully appreciated its nature and extent, and voluntarily accepted that
+
+      specific risk. Its boxes: knowledge of risk; intoxicated drivers and passengers; legislative reform (CLA s 5L);
+      and
+
+      illegality.
+
+
+      Exam use: when the facts show the plaintiff's own carelessness or risk-taking, walk both branches — contributory
+
+      negligence reduces the damages; *volenti*, if proved, defeats the claim.
+  - slug: contributory-negligence-apportionment-and-standard
+    title: "Contributory negligence: the just and equitable reduction, the standard and causation"
+    visual: simulation
+    visual-brief: >-
+      A damages bar with three controls — did the plaintiff fall below a reasonable person in their position (s 5R)? did
+      that lack of care cause the injury (Caswell)? how blameworthy was each party (Pennington)? — and the recoverable
+      damages shrink only when the first two are met.
+    related:
+      - defences-to-negligence-flowchart
+      - contributory-negligence-employees-emergencies-rescuers
+      - intoxicated-plaintiff-cla-s50
+    depends-on:
+      - laws2400-w05-negligence-elements-overview
+    contrasts-with:
+      - voluntary-assumption-of-risk
+      - laws2400-w04-provocation-and-contributory-negligence
+    cases:
+      - davies-v-swan-motor-co-swansea-ltd
+      - jones-v-livox-quarries-ltd
+      - pennington-v-norris
+      - caswell-v-powell-duffryn-associated-collieries
+    authorities:
+      - law-reform-miscellaneous-provisions-act-1965-nsw-s9
+      - civil-liability-act-2002-nsw-s5r
+    verify: false
+    body: >-
+      Contributory negligence is a finding about the plaintiff's own lack of care. It results in a *partial
+
+      reduction* in the damages otherwise recoverable, based on what is "just and equitable having regard to [their]
+      share
+
+      in the responsibility for the damage" — Law Reform (Miscellaneous Provisions) Act 1965 (NSW) s 9(1) and its
+
+      equivalents in other states and territories. On its meaning, the flowchart refers to *Davies v Swan Motor Co
+
+      (Swansea) Ltd* and *Jones v Livox Quarries Ltd*.
+
+
+      Three of the flowchart's general principles frame the core inquiry:
+
+
+      - **Relevant standard of care.** The principles for deciding whether a person has been negligent also decide
+      whether
+        the person who suffered harm was contributorily negligent in failing to take precautions against the risk of that
+        harm (CLA s 5R(1)): the standard of a reasonable person in the position of that person, judged on what that person
+        knew or ought to have known at the time (s 5R(2)).
+      - **Causal requirement.** A causal link between the plaintiff's lack of care for their own safety and their injury
+        must be established (*Caswell v Powell Duffryn Associated Collieries*); ordinary principles of causation apply.
+      - **What is just and equitable?** Examine the whole conduct of each of the negligent parties and consider the
+        relative blameworthiness of each (*Pennington v Norris*).
+
+      Exam use: ask whether the plaintiff fell below the s 5R standard, whether that failure caused the injury, and then
+
+      argue the just and equitable reduction from the whole conduct of both parties.
+  - slug: contributory-negligence-employees-emergencies-rescuers
+    title: "Contributory negligence in context: employees, the agony of the moment and rescuers"
+    visual: palace
+    visual-brief: >-
+      Three rooms on the corridor — the employee at a familiar, repetitive task; the person acting in a perceived
+      emergency; the rescuer — each showing the circumstance the flowchart says tempers a finding of contributory
+      negligence, with its authority.
+    related:
+      - defences-to-negligence-flowchart
+      - contributory-negligence-apportionment-and-standard
+    depends-on:
+      - contributory-negligence-apportionment-and-standard
+    contrasts-with: []
+    cases:
+      - mclean-v-tedman
+      - staveley-iron-and-chemical-co-v-jones
+      - avram-v-gusakoski
+      - caterson-v-commissioner-for-railways
+    authorities:
+      - civil-liability-act-2002-nsw-ss55-58
+    verify: true
+    body: >-
+      The flowchart picks out situations that bear on whether careless-looking conduct is contributory
+
+      negligence.
+
+
+      - **Momentary thoughtlessness by employees.** In the employment context, inattention bred of familiarity and
+        repetition, the urgency of the task, the plaintiff's preoccupation with the matter in hand, and other prevailing
+        conditions may be taken into account (*McLean v Tedman*; *Staveley Iron and Chemical Co v Jones*).
+      - **Agony of the moment.** Action that may be considered to demonstrate a lack of reasonable care for the
+        plaintiff's own safety may not amount to contributory negligence where the plaintiff's actions can be justified in
+        a situation of perceived emergency (*Avram v Gusakoski*; *Caterson v Commissioner for Railways*).
+      - **Rescuers.** Law in most jurisdictions now offers protection to those who act in good faith and without
+        recklessness (eg Civil Law (Wrongs) Act 2002 (ACT) s 5; CLA s 56). In NSW, s 56 defines a good samaritan as one
+        who, in good faith and without expectation of payment or other reward, assists a person apparently injured or at
+        risk of being injured; s 57 protects a good samaritan from personal civil liability in that emergency.
+
+      The materials do not say how a rescuer's own carelessness is weighed: the NSW sections protect the good samaritan
+
+      from liability, and their wording differs from the flowchart's "without recklessness".
+
+
+      Exam use: when the plaintiff's carelessness happened at work, in a perceived emergency or during a rescue, name
+      the
+
+      circumstance and its authority before arguing any reduction.
+  - slug: intoxicated-plaintiff-cla-s50
+    title: "Intoxication: the CLA s 50 presumption of contributory negligence"
+    visual: simulation
+    visual-brief: >-
+      Four switches — intoxicated so that capacity was impaired? intoxication self-induced? would the harm likely have
+      happened anyway? did the intoxication contribute in any way? — drive the s 50 verdict: section does not apply, no
+      damages, presumed contributory negligence with at least a 25% reduction, or no presumption.
+    related:
+      - defences-to-negligence-flowchart
+      - contributory-negligence-apportionment-and-standard
+    depends-on:
+      - contributory-negligence-apportionment-and-standard
+    contrasts-with:
+      - volenti-and-legislation
+    cases: []
+    authorities:
+      - civil-liability-act-2002-nsw-s50
+    verify: false
+    body: >-
+      The flowchart's intoxication box: there is now a legislative presumption of contributory negligence where
+
+      the plaintiff is intoxicated (CLA s 50; see also Civil Law (Wrongs) Act 2002 (ACT) ss 95, 96). Section 50 works as
+      a
+
+      sequence.
+
+
+      1. **Trigger (s 50(1)).** The person whose death, injury or damage is the subject of the proceedings was, at the
+      time
+         of the act or omission that caused it, intoxicated to the extent that their capacity to exercise reasonable care
+         and skill was impaired.
+      2. **No damages unless (s 50(2)).** A court is not to award damages unless satisfied that the death, injury or
+      damage
+         (or some other injury or damage) is likely to have occurred even if the person had not been intoxicated.
+      3. **Presumption (s 50(3)).** If so satisfied, the person is presumed to have been contributorily negligent unless
+         the court is satisfied that the intoxication did not contribute in any way to the cause.
+      4. **Minimum reduction (s 50(4)).** Where the presumption applies, damages are reduced by 25% or a greater
+      percentage
+         the court determines to be appropriate.
+      5. **Exception (s 50(5)).** The section does not apply where the court is satisfied that the intoxication was not
+         self-induced.
+
+      Exam use: take s 50 in order — impaired capacity, self-induced, likely to have happened anyway, any contribution —
+
+      and state the 25% floor. Keep it apart from the *volenti* box on passengers of intoxicated drivers: there the
+      driver
+
+      is intoxicated, not the plaintiff.
+  - slug: voluntary-assumption-of-risk
+    title: "Voluntary assumption of risk (volenti): knowing and accepting the specific risk"
+    visual: simulation
+    visual-brief: >-
+      Three gates the defendant must prove — the plaintiff perceived the risk, fully appreciated its nature and extent,
+      and voluntarily accepted it — plus a switch between "the specific risk that materialised" and "the general nature
+      of the risk": only all three gates, on the specific risk, give the complete defence.
+    related:
+      - defences-to-negligence-flowchart
+      - volenti-and-legislation
+      - illegality-defence
+    depends-on:
+      - laws2400-w05-negligence-elements-overview
+    contrasts-with:
+      - contributory-negligence-apportionment-and-standard
+      - laws2400-w04-consent-validity-and-scope
+    cases:
+      - banovic-v-perkovic
+      - carey-v-lake-macquarie-city-council
+      - ici-v-shatwell
+    authorities: []
+    verify: false
+    body: >-
+      *Volenti non fit injuria* (voluntary assumption of risk) operates as a *complete defence* to negligence.
+
+      The essence of the defence lies in a plaintiff's willingness to assume a risk which the plaintiff knew existed in
+      a
+
+      particular activity.
+
+
+      The defendant must show that the plaintiff not only perceived the existence of the risk, but fully appreciated the
+
+      nature and extent of that risk and voluntarily accepted that specific risk. The defence is narrowly confined to
+      the
+
+      specific risk and does not extend to an awareness of the general nature of the risk.
+
+
+      **Knowledge of risk.** The plaintiff must fully appreciate the nature and likely manifestation of the risk
+      (*Banovic
+
+      v Perkovic*; *Carey v Lake Macquarie City Council*). Effective knowledge extends beyond the mere existence of a
+      risk
+
+      to an acceptance of materialisation of that risk (*Carey*; *ICI v Shatwell*).
+
+
+      Set it beside contributory negligence: that defence reduces damages in part, on what is just and equitable;
+      *volenti*,
+
+      if proved, defeats the claim entirely.
+
+
+      Exam use: identify the specific risk that materialised, then ask whether the plaintiff perceived it, fully
+
+      appreciated its nature and extent, and voluntarily accepted it. Knowing only that an activity is dangerous in
+
+      general is not enough.
+  - slug: volenti-and-legislation
+    title: "Volenti and legislation: intoxicated drivers and CLA s 5L"
+    visual: explainer
+    visual-brief: >-
+      The common law volenti gate, turned two ways by statute: for passengers who rely on an intoxicated driver,
+      legislation such as Motor Accidents Act 1988 (NSW) s 76 closes it; for obvious risks of dangerous recreational
+      activities, CLA s 5L opens a wider gate that applies whether or not the plaintiff was aware of the risk.
+    related:
+      - defences-to-negligence-flowchart
+      - voluntary-assumption-of-risk
+      - laws2400-w06-sport-and-recreational-injury
+    depends-on:
+      - voluntary-assumption-of-risk
+      - laws2400-w06-sport-and-recreational-injury
+    contrasts-with:
+      - intoxicated-plaintiff-cla-s50
+    cases:
+      - tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd
+    authorities:
+      - motor-accidents-act-1988-nsw-s76
+      - civil-liability-act-2002-nsw-s5l
+    verify: false
+    body: >-
+      Two boxes on the *volenti* flowchart show legislation reshaping the common law defence in opposite
+
+      directions.
+
+
+      **Intoxicated drivers and passengers — narrowed.** The courts are generally reluctant to allow the *volenti*
+
+      defence against passengers who rely on an intoxicated driver. Legislative intervention in some Australian
+
+      jurisdictions specifically excludes the *volenti* defence in these circumstances — see, eg, Motor Accidents Act
+      1988
+
+      (NSW) s 76 (its text is not in the materials).
+
+
+      **Legislative reform — expanded.** Some jurisdictions have enacted legislation which expands the voluntary
+
+      assumption of risk defence available to defendants — see, eg, CLA s 5L. Under s 5L(1), a defendant is not liable
+      in
+
+      negligence for harm suffered by the plaintiff as a result of the materialisation of an obvious risk of a dangerous
+
+      recreational activity engaged in by the plaintiff; s 5L(2) says this applies whether or not the plaintiff was
+      aware
+
+      of the risk. For guidance on applying these provisions, the flowchart cites *Tapp v Australian Bushmen's Campdraft
+      &
+
+      Rodeo Association Ltd* (2022) 273 CLR 454.
+
+
+      The contrast is the point: common law *volenti* requires the plaintiff to have perceived, fully appreciated and
+
+      voluntarily accepted the specific risk; s 5L does not depend on the plaintiff's awareness at all.
+
+
+      Exam use: for a recreational injury, consider s 5L alongside common law *volenti*; for a passenger hurt by a drunk
+
+      driver, note the courts' reluctance and the statutory exclusion before relying on *volenti*.
+  - slug: illegality-defence
+    title: "Illegality: the joint criminal enterprise"
+    visual: diagram
+    visual-brief: >-
+      A fork after "plaintiff and defendant involved in a criminal enterprise": can the court determine an appropriate
+      standard of care on the facts? No → the illegality defence is available (Gala v Preston); Yes → it is not
+      (Progress & Properties Ltd v Craft).
+    related:
+      - defences-to-negligence-flowchart
+      - voluntary-assumption-of-risk
+    depends-on: []
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    cases:
+      - gala-v-preston
+      - progress-and-properties-ltd-v-craft
+    authorities: []
+    verify: false
+    body: >-
+      The last box under the *volenti* flowchart's general principles is illegality.
+
+
+      Where the plaintiff has been injured and the plaintiff and defendant were involved in the criminal enterprise, the
+
+      courts have often found that it would not be possible or feasible to determine an appropriate standard of care. In
+
+      such cases, the courts have found that a defence of illegality is available to the defendant — see, eg, *Gala v
+
+      Preston*.
+
+
+      However, the defence of illegality will not be available to a defendant where, on the facts, the court is able to
+
+      determine the relevant standard of care — see, eg, *Progress & Properties Ltd v Craft*.
+
+
+      So the illegality alone does not decide the matter. Two questions do:
+
+
+      1. Were the plaintiff and the defendant involved in the criminal enterprise when the plaintiff was injured?
+
+      2. On the facts, is the court able to determine the relevant standard of care?
+
+
+      The flowchart's illegality defence is available only where the first answer is yes and the second is no.
+
+
+      Exam use: in a joint-crime fact pattern, argue whether a standard of care can be set on these facts, citing *Gala
+      v
+
+      Preston* for the defence and *Progress & Properties Ltd v Craft* for its limit.
+cases:
+  - slug: davies-v-swan-motor-co-swansea-ltd
+    name: Davies v Swan Motor Co (Swansea) Ltd
+    citation: Not given in the materials
+    aglc: Davies v Swan Motor Co (Swansea) Ltd
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the meaning of contributory negligence.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: the meaning of contributory negligence
+      (cited with Jones v Livox Quarries Ltd).
+    significance: One of the two authorities the flowchart gives for what contributory negligence means.
+    why-here: Cite with Jones v Livox Quarries Ltd when defining contributory negligence.
+    verify: true
+  - slug: jones-v-livox-quarries-ltd
+    name: Jones v Livox Quarries Ltd
+    citation: Not given in the materials
+    aglc: Jones v Livox Quarries Ltd
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the meaning of contributory negligence.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: the meaning of contributory negligence
+      (cited with Davies v Swan Motor Co (Swansea) Ltd).
+    significance: One of the two authorities the flowchart gives for what contributory negligence means.
+    why-here: Cite with Davies v Swan Motor Co (Swansea) Ltd when defining contributory negligence.
+    verify: true
+  - slug: pennington-v-norris
+    name: Pennington v Norris
+    citation: Not given in the materials
+    aglc: Pennington v Norris
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on what is "just and equitable" in apportionment.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: deciding what is "just and equitable"
+      requires examining the whole conduct of each of the negligent parties and considering the relative blameworthiness
+      of each.
+    significance: The flowchart's authority for how the reduction for contributory negligence is assessed.
+    why-here: "Use it when arguing the size of the reduction: whole conduct of each party, relative blameworthiness."
+    verify: true
+  - slug: caswell-v-powell-duffryn-associated-collieries
+    name: Caswell v Powell Duffryn Associated Collieries
+    citation: Not given in the materials
+    aglc: Caswell v Powell Duffryn Associated Collieries
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the causal requirement in contributory negligence.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: a causal link between the plaintiff's
+      lack of care for their own safety and their injury must be established; ordinary principles of causation apply.
+    significance: The flowchart's authority that contributory negligence needs causation, not just carelessness.
+    why-here: Use it to show the plaintiff's carelessness must have caused the injury before damages are reduced.
+    verify: true
+  - slug: staveley-iron-and-chemical-co-v-jones
+    name: Staveley Iron and Chemical Co v Jones
+    citation: Not given in the materials
+    aglc: Staveley Iron and Chemical Co v Jones
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on momentary thoughtlessness by employees.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: in the employment context, inattention
+      bred of familiarity and repetition, the urgency of the task, the plaintiff's preoccupation with the matter in hand
+      and other prevailing conditions may be taken into account when determining whether the plaintiff was
+      contributorily negligent.
+    significance: One of the flowchart's two authorities for treating an employee's momentary thoughtlessness with allowance.
+    why-here: Cite with McLean v Tedman when an injured worker was inattentive at a familiar task.
+    verify: true
+  - slug: avram-v-gusakoski
+    name: Avram v Gusakoski
+    citation: Not given in the materials
+    aglc: Avram v Gusakoski
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the "agony of the moment".
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: action by the plaintiff that may seem to
+      show a lack of reasonable care for their own safety may not amount to contributory negligence where it can be
+      justified in a situation of perceived emergency.
+    significance: One of the flowchart's two authorities for the agony of the moment.
+    why-here: Cite with Caterson v Commissioner for Railways when the plaintiff acted in a perceived emergency.
+    verify: true
+  - slug: caterson-v-commissioner-for-railways
+    name: Caterson v Commissioner for Railways
+    citation: Not given in the materials
+    aglc: Caterson v Commissioner for Railways
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 478) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the "agony of the moment".
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: action by the plaintiff that may seem to
+      show a lack of reasonable care for their own safety may not amount to contributory negligence where it can be
+      justified in a situation of perceived emergency.
+    significance: One of the flowchart's two authorities for the agony of the moment.
+    why-here: Cite with Avram v Gusakoski when the plaintiff acted in a perceived emergency.
+    verify: true
+  - slug: banovic-v-perkovic
+    name: Banovic v Perkovic
+    citation: Not given in the materials
+    aglc: Banovic v Perkovic
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on knowledge of risk for volenti.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: the plaintiff must fully appreciate the
+      nature and likely manifestation of the risk.
+    significance: One of the flowchart's authorities for the knowledge the volenti defence requires.
+    why-here: Cite with Carey v Lake Macquarie City Council for the full-appreciation requirement of volenti.
+    verify: true
+  - slug: carey-v-lake-macquarie-city-council
+    name: Carey v Lake Macquarie City Council
+    citation: Not given in the materials
+    aglc: Carey v Lake Macquarie City Council
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on knowledge of risk for volenti.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: the plaintiff must fully appreciate the
+      nature and likely manifestation of the risk; effective knowledge extends beyond the mere existence of a risk to an
+      acceptance of materialisation of that risk.
+    significance: "Cited twice in the flowchart: for full appreciation of the risk and for acceptance of its materialisation."
+    why-here: The fullest single authority the flowchart gives for the knowledge limb of volenti.
+    verify: true
+  - slug: ici-v-shatwell
+    name: ICI v Shatwell
+    citation: Not given in the materials
+    aglc: ICI v Shatwell
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on knowledge of risk for volenti.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: effective knowledge extends beyond the
+      mere existence of a risk to an acceptance of materialisation of that risk.
+    significance: Cited with Carey for the point that volenti needs acceptance of the risk materialising, not mere awareness.
+    why-here: Use it with Carey to show awareness that a risk exists is not enough for volenti.
+    verify: true
+  - slug: tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd
+    name: Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd
+    citation: (2022) 273 CLR 454
+    aglc: Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it for guidance on applying CLA s 5L and like provisions.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: guidance as to the application of
+      legislation (such as CLA s 5L) that expands the voluntary assumption of risk defence.
+    significance: The flowchart's pointer for how courts apply the statutory obvious-risk defence in s 5L.
+    why-here: Name it when applying CLA s 5L; the materials give no more than the citation and that it offers guidance.
+    verify: true
+  - slug: gala-v-preston
+    name: Gala v Preston
+    citation: Not given in the materials
+    aglc: Gala v Preston
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the illegality defence.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: where the plaintiff and defendant were
+      involved in the criminal enterprise and it would not be possible or feasible to determine an appropriate standard
+      of care, a defence of illegality is available to the defendant.
+    significance: The flowchart's example of the illegality defence succeeding.
+    why-here: Cite it for the availability of the illegality defence in a joint criminal enterprise.
+    verify: true
+  - slug: progress-and-properties-ltd-v-craft
+    name: Progress & Properties Ltd v Craft
+    citation: Not given in the materials
+    aglc: Progress & Properties Ltd v Craft
+    facts: >-
+      The materials do not give the facts of this case; the textbook flowchart (Tort Law Principles 3e, p 479) names it
+      only as authority for the proposition recorded below.
+    issue: Not stated in the materials; the flowchart cites it on the limit of the illegality defence.
+    held: Not stated in the materials.
+    ratio: >-
+      Not stated in the materials. The flowchart cites it for this proposition: the defence of illegality will not be
+      available to a defendant where, on the facts, the court is able to determine the relevant standard of care.
+    significance: The flowchart's example of the limit on the illegality defence.
+    why-here: Cite it to resist the illegality defence where a standard of care can be determined on the facts.
+    verify: true
+authorities:
+  - slug: civil-liability-act-2002-nsw-s5r
+    title: Civil Liability Act 2002 (NSW) s 5R
+    kind: statute
+    text: >-
+      (1) The principles that are applicable in determining whether a person has been negligent also apply in
+      determining whether the person who suffered harm has been contributorily negligent in failing to take precautions
+      against the risk of that harm. (2) For that purpose— (a) the standard of care required of the person who suffered
+      harm is that of a reasonable person in the position of that person, and (b) the matter is to be determined on the
+      basis of what that person knew or ought to have known at the time.
+    gloss: >-
+      The plaintiff's contributory negligence is judged by the same principles as negligence: the standard of a
+      reasonable person in the plaintiff's position, on what the plaintiff knew or ought to have known at the time.
+    cases: []
+    verify: false
+  - slug: civil-liability-act-2002-nsw-s50
+    title: Civil Liability Act 2002 (NSW) s 50
+    kind: statute
+    text: >-
+      (1) This section applies when it is established that the person whose death, injury or damage is the subject of
+      proceedings for the recovery of damages was at the time of the act or omission that caused the death, injury or
+      damage intoxicated to the extent that the person's capacity to exercise reasonable care and skill was impaired.
+      (2) A court is not to award damages in respect of liability to which this Part applies unless satisfied that the
+      death, injury or damage to property (or some other injury or damage to property) is likely to have occurred even
+      if the person had not been intoxicated. (3) If the court is satisfied that the death, injury or damage to property
+      (or some other injury or damage to property) is likely to have occurred even if the person had not been
+      intoxicated, it is to be presumed that the person was contributorily negligent unless the court is satisfied that
+      the person's intoxication did not contribute in any way to the cause of the death, injury or damage. (4) When
+      there is a presumption of contributory negligence, the court must assess damages on the basis that the damages to
+      which the person would be entitled in the absence of contributory negligence are to be reduced on account of
+      contributory negligence by 25% or a greater percentage determined by the court to be appropriate in the
+      circumstances of the case. (5) This section does not apply in a case where the court is satisfied that the
+      intoxication was not self-induced.
+    gloss: >-
+      Where the plaintiff was intoxicated so that their capacity for care was impaired, no damages unless the harm was
+      likely anyway; then contributory negligence is presumed (unless the intoxication did not contribute at all) and
+      damages fall by at least 25%; not where the intoxication was not self-induced.
+    cases: []
+    verify: false
+  - slug: law-reform-miscellaneous-provisions-act-1965-nsw-s9
+    title: Law Reform (Miscellaneous Provisions) Act 1965 (NSW) s 9(1)
+    kind: statute
+    text: >-
+      Not reproduced in the materials. The textbook flowchart (Tort Law Principles 3e, p 478) cites s 9(1) for the rule
+      that a finding of contributory negligence results in a partial reduction in the damages otherwise recoverable,
+      based on what is "just and equitable having regard to [their] share in the responsibility for the damage".
+    gloss: >-
+      The NSW apportionment provision: the plaintiff's damages are reduced to the extent that is just and equitable
+      having regard to their share in the responsibility for the damage.
+    cases:
+      - pennington-v-norris
+    verify: true
+  - slug: motor-accidents-act-1988-nsw-s76
+    title: Motor Accidents Act 1988 (NSW) s 76
+    kind: statute
+    text: >-
+      Not reproduced in the materials. The textbook flowchart (Tort Law Principles 3e, p 479) cites it as an example of
+      legislative intervention that specifically excludes the volenti defence against passengers who rely on an
+      intoxicated driver.
+    gloss: Cited as legislation that takes the volenti defence away where a passenger relied on an intoxicated driver.
+    cases: []
+    verify: true
+questions:
+  - key: q001
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    set: pretest
+    contrasts-with:
+      - contributory-negligence-apportionment-and-standard
+      - voluntary-assumption-of-risk
+    stem: >-
+      According to the textbook flowcharts, how do contributory negligence and voluntary assumption of risk differ in
+      their effect on the claim?
+    options:
+      - text: Contributory negligence partially reduces the damages; voluntary assumption of risk is a complete defence.
+        correct: true
+        why: >-
+          Right — the contributory negligence flowchart opens with a 'partial reduction' in the damages otherwise
+          recoverable, and the volenti flowchart says volenti 'operates as a complete defence to negligence'.
+      - text: Both are complete defences, but contributory negligence needs proof that the plaintiff was careless.
+        why: >-
+          Tempting because both defences turn on the plaintiff's own conduct, but the flowchart says contributory
+          negligence results only in a partial reduction in damages, not a defeated claim.
+      - text: Both only reduce damages, by whatever share is just and equitable having regard to responsibility.
+        why: >-
+          Tempting because 'just and equitable' is the apportionment test, but it belongs to contributory negligence
+          alone; volenti, if proved, is a complete defence that defeats the claim.
+      - text: Voluntary assumption of risk reduces damages, while contributory negligence defeats the claim.
+        why: >-
+          This reverses the two. The flowcharts make contributory negligence the partial defence (a reduction in
+          damages) and volenti the complete defence to negligence.
+  - key: q002
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    stem: Which of these is NOT one of the boxes under 'General principles' on the contributory negligence flowchart?
+    options:
+      - text: Agony of the moment
+        why: >-
+          Tempting to rule out because it sounds informal, but it is a contributory negligence box: careless-looking
+          action justified in a perceived emergency may not be contributory negligence.
+      - text: Knowledge of risk
+        correct: true
+        why: >-
+          Correct — knowledge of risk is a box on the voluntary assumption of risk flowchart (full appreciation of the
+          risk: Banovic v Perkovic; Carey), not on the contributory negligence chart.
+      - text: Momentary thoughtlessness by employees
+        why: >-
+          This is on the contributory negligence chart: in the employment context, inattention bred of familiarity and
+          repetition may be taken into account (McLean v Tedman).
+      - text: Relevant standard of care
+        why: >-
+          This is on the contributory negligence chart: the same principles that decide negligence decide contributory
+          negligence (CLA s 5R). It is easy to forget it is a separate box.
+  - key: q003
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    stem: Where do the textbook flowcharts place illegality?
+    options:
+      - text: Under contributory negligence, as a ground for a larger reduction in damages
+        why: >-
+          Tempting because illegality is about the plaintiff's own wrongdoing, but it is not on the contributory
+          negligence chart, and the flowchart describes it as a defence, not a reduction.
+      - text: Under voluntary assumption of risk, as the last of its general principles
+        correct: true
+        why: >-
+          Right — the volenti flowchart lists knowledge of risk, intoxicated drivers and passengers, legislative reform
+          and illegality as its general principles.
+      - text: "On neither chart: the textbook treats it as a separate, third flowchart"
+        why: >-
+          Tempting because illegality is a distinct defence, but in the materials supplied it sits as a box under the
+          volenti flowchart's general principles (Gala v Preston).
+      - text: Under contributory negligence, alongside the intoxication and rescuer boxes
+        why: >-
+          Intoxication and rescuers are contributory negligence boxes, which makes this tempting, but illegality appears
+          on the voluntary assumption of risk flowchart instead.
+  - key: q004
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 2
+    contrasts-with:
+      - intoxicated-plaintiff-cla-s50
+      - volenti-and-legislation
+    stem: Intoxication appears on both flowcharts. Which pairing is correct?
+    options:
+      - text: >-
+          Contributory negligence: passengers of an intoxicated driver; volenti: a presumption where the plaintiff is
+          drunk.
+        why: >-
+          This swaps the two boxes. The presumption (CLA s 50) is on the contributory negligence chart; reluctance to
+          apply volenti to passengers is on the volenti chart.
+      - text: >-
+          Contributory negligence: a presumption where the plaintiff is intoxicated; volenti: passengers of intoxicated
+          drivers.
+        correct: true
+        why: >-
+          Right — the contributory negligence chart's 'Intoxication' box gives the s 50 presumption; the volenti chart's
+          'Intoxicated drivers and passengers' box deals with passengers who rely on a drunk driver.
+      - text: Both boxes deal with the plaintiff's own intoxication, one under CLA s 50 and the other under CLA s 5L.
+        why: >-
+          Tempting because both mention intoxication, but s 5L is about obvious risks of dangerous recreational
+          activities; the volenti box concerns the driver's intoxication, not the plaintiff's.
+      - text: Both boxes deal with passengers who rely on an intoxicated driver, under the Motor Accidents Act 1988.
+        why: >-
+          Only the volenti box concerns passengers and cites the Motor Accidents Act 1988 (NSW) s 76; the contributory
+          negligence box is about the plaintiff being intoxicated (CLA s 50).
+  - key: q005
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 2
+    stem: On the volenti flowchart, who must show what?
+    options:
+      - text: The plaintiff must show they did not know of the risk before the defendant can be held liable.
+        why: >-
+          Tempting because knowledge is central to volenti, but the flowchart puts the burden on the defendant:
+          "Defendant must show that the plaintiff … fully appreciated … and voluntarily accepted".
+      - text: The court presumes acceptance of risk whenever the plaintiff chose to join a dangerous activity.
+        why: >-
+          Tempting because CLA s 5L works without the plaintiff's awareness, but common law volenti is not presumed; it
+          must be proved and is narrowly confined to the specific risk.
+      - text: The defendant must show the plaintiff perceived, fully appreciated and voluntarily accepted the specific risk.
+        correct: true
+        why: >-
+          Right — the flowchart says the defendant must show the plaintiff not only perceived the risk but fully
+          appreciated its nature and extent and voluntarily accepted that specific risk.
+      - text: The defendant need only show that the plaintiff was aware of the general nature of the risks of the activity.
+        why: >-
+          Tempting as a lower bar, but the flowchart says the defence "does not extend to an awareness of the general
+          nature of the risk" — it is confined to the specific risk.
+  - key: q006
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 2
+    stem: >-
+      Mira rides her bicycle at night without lights and is hit by a negligent driver. Which defence does the flowchart
+      most directly point the driver to, and with what effect?
+    options:
+      - text: Voluntary assumption of risk, because riding without lights shows she accepted the risk of a collision.
+        why: >-
+          Tempting because she took a risk, but volenti needs proof that she fully appreciated and voluntarily accepted
+          the specific risk; carelessness for her own safety is contributory negligence territory.
+      - text: Illegality, because riding without lights may be unlawful, which would defeat her claim entirely.
+        why: >-
+          Tempting because of the possible offence, but the flowchart's illegality box concerns a plaintiff and
+          defendant involved in a criminal enterprise together where no standard of care can be set.
+      - text: Contributory negligence, which may reduce her damages on what is just and equitable.
+        correct: true
+        why: >-
+          Right — her lack of care for her own safety is the subject of contributory negligence, which results in a
+          partial reduction based on what is just and equitable (LRMPA s 9(1)), if it is causally linked.
+      - text: No defence, because a negligent defendant cannot rely on anything the plaintiff did or failed to do.
+        why: >-
+          Wrong — both flowcharts are defences built on the plaintiff's own conduct. A defendant found negligent can
+          still argue contributory negligence or volenti.
+  - key: q007
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 2
+    stem: Which Civil Liability Act 2002 (NSW) sections appear on the contributory negligence flowchart?
+    options:
+      - text: ss 5L, 5R and 50
+        why: >-
+          Tempting because 5R and 50 are right, but s 5L appears on the voluntary assumption of risk flowchart
+          (legislative reform), not the contributory negligence chart.
+      - text: ss 5R, 50 and 56
+        correct: true
+        why: >-
+          Right — s 5R (relevant standard of care), s 50 (intoxication presumption) and s 56 (rescuers / good
+          samaritans) are the NSW sections cited on the contributory negligence chart.
+      - text: ss 5L and 56 only
+        why: >-
+          Only s 56 is on the contributory negligence chart; s 5L belongs to the volenti chart, and this option leaves
+          out s 5R and s 50, both of which are cited there.
+      - text: ss 5R and 5L only
+        why: >-
+          s 5R is on the contributory negligence chart, but s 5L is on the volenti chart, and this option misses s 50
+          (intoxication) and s 56 (rescuers).
+  - key: q008
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 2
+    variant-of: q006
+    stem: >-
+      Dev, a warehouse worker, slips on oil his employer negligently left on the floor. He was hurrying to finish an
+      urgent order and not watching the floor. Which branch fits best?
+    options:
+      - text: >-
+          Contributory negligence: his inattention may reduce damages, though the employment context may be taken into
+          account.
+        correct: true
+        why: >-
+          Right — his lack of care is a contributory negligence question, and the flowchart says inattention, the
+          urgency of the task and preoccupation with the work may be taken into account (McLean v Tedman).
+      - text: "Volenti: by hurrying past the oil he voluntarily accepted the specific risk of slipping on it."
+        why: >-
+          Tempting because he chose to hurry, but nothing shows he perceived the oil, let alone fully appreciated and
+          voluntarily accepted that specific risk, as volenti requires.
+      - text: "Illegality: breaching a workplace safety rule is a criminal enterprise shared with the employer."
+        why: >-
+          Wrong — the illegality box concerns a plaintiff and defendant involved in a criminal enterprise together;
+          hurrying at work is nothing of the kind.
+      - text: "Neither: an employee's inattention at work can never be considered against the employer."
+        why: >-
+          Tempting as a pro-worker reading of the employees box, but the flowchart says those conditions 'may be taken
+          into account' in deciding contributory negligence — not that it is excluded.
+  - key: q009
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    stem: Where does CLA s 5L appear on the textbook flowcharts?
+    options:
+      - text: Under 'Relevant standard of care' on the contributory negligence flowchart
+        why: >-
+          Tempting because it is a CLA section, but the standard of care box cites s 5R. Section 5L is cited on the
+          volenti flowchart.
+      - text: Under 'Rescuers' on the contributory negligence flowchart
+        why: >-
+          The rescuers box cites CLA s 56 (and the ACT Act s 5), not s 5L. Section 5L deals with obvious risks of
+          dangerous recreational activities.
+      - text: Under 'Legislative reform' on the voluntary assumption of risk flowchart
+        correct: true
+        why: >-
+          Right — the legislative reform box says some jurisdictions have legislation which expands the voluntary
+          assumption of risk defence, eg CLA s 5L, with Tapp for guidance.
+      - text: Under 'Illegality' on the voluntary assumption of risk flowchart
+        why: >-
+          Right flowchart, wrong box: the illegality box cites Gala v Preston and Progress & Properties Ltd v Craft, not
+          any section of the CLA.
+  - key: q010
+    type: mcq
+    concept: defences-to-negligence-flowchart
+    difficulty: 3
+    contrasts-with:
+      - contributory-negligence-apportionment-and-standard
+    stem: >-
+      A plaintiff fully appreciated and voluntarily accepted the specific risk that injured her. Which outcome do the
+      flowcharts point to?
+    options:
+      - text: Damages are reduced by her share in the responsibility, as for contributory negligence.
+        why: >-
+          Tempting because she contributed to her own harm, but these facts satisfy volenti, which is a complete defence
+          — not the partial, just and equitable reduction of contributory negligence.
+      - text: "The claim fails entirely: volenti is a complete defence."
+        correct: true
+        why: >-
+          Right — the defendant has shown what the flowchart requires (perception, full appreciation, voluntary
+          acceptance of the specific risk), and volenti operates as a complete defence to negligence.
+      - text: Damages are reduced by at least 25%, the statutory floor that applies to accepted risks.
+        why: >-
+          Tempting because 25% is a real figure this week, but it is the s 50(4) floor for the intoxication presumption,
+          not a rule about accepted risks.
+      - text: The claim succeeds in full, because knowledge of a risk is relevant only to breach of duty.
+        why: >-
+          Wrong — the plaintiff's knowledge and acceptance of the specific risk is exactly what the volenti defence
+          turns on, so it can defeat the claim.
+  - key: q011
+    type: truefalse
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      The contributory negligence flowchart says a finding of contributory negligence results in a partial reduction in
+      the damages otherwise recoverable.
+    answer: true
+    why: >-
+      True — the flowchart's opening box says exactly this, citing Law Reform (Miscellaneous Provisions) Act 1965 (NSW)
+      s 9(1). The reduction is what is just and equitable.
+  - key: q012
+    type: truefalse
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    set: quickfire
+    statement: On the textbook flowcharts, illegality is listed as one of the general principles of contributory negligence.
+    answer: false
+    why: >-
+      False — illegality is the last general principle on the voluntary assumption of risk flowchart (Gala v Preston;
+      Progress & Properties Ltd v Craft), not the contributory negligence chart.
+  - key: q013
+    type: truefalse
+    concept: defences-to-negligence-flowchart
+    difficulty: 1
+    set: quickfire
+    statement: Voluntary assumption of risk, if established, operates as a complete defence to negligence.
+    answer: true
+    why: >-
+      True — the volenti flowchart says volenti non fit injuria 'operates as a complete defence to negligence', unlike
+      contributory negligence, which only reduces damages.
+  - key: q014
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 1
+    set: pretest
+    stem: >-
+      On what basis is the reduction for contributory negligence made, according to the flowchart (citing Law Reform
+      (Miscellaneous Provisions) Act 1965 (NSW) s 9(1))?
+    options:
+      - text: What is just and equitable having regard to the plaintiff's share in the responsibility for the damage
+        correct: true
+        why: >-
+          Right — the flowchart quotes this phrase: the reduction is what is 'just and equitable having regard to
+          [their] share in the responsibility for the damage'.
+      - text: A fixed reduction of 25%, increased only if the court finds a greater percentage appropriate
+        why: >-
+          Tempting because these words are in the CLA, but the 25% floor belongs to the s 50(4) intoxication
+          presumption, not to the general apportionment rule.
+      - text: The percentage by which the plaintiff's lack of care increased the chance of the harm occurring
+        why: >-
+          Tempting because it sounds like causation, but causation is a separate requirement (Caswell); the size of the
+          reduction is what is just and equitable having regard to responsibility.
+      - text: Equal shares between plaintiff and defendant whenever both of them have been negligent
+        why: >-
+          Tempting as a simple default, but the flowchart requires the court to examine the whole conduct of each party
+          and their relative blameworthiness (Pennington v Norris), not split evenly.
+  - key: q015
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 1
+    stem: >-
+      Which case does the flowchart cite for examining the whole conduct of each negligent party and considering their
+      relative blameworthiness?
+    options:
+      - text: Caswell v Powell Duffryn Associated Collieries
+        why: >-
+          Tempting because it is also on the contributory negligence chart, but the flowchart cites Caswell for the
+          causal requirement, not for what is just and equitable.
+      - text: Jones v Livox Quarries Ltd
+        why: >-
+          Jones v Livox Quarries is cited, with Davies v Swan Motor Co, on the meaning of contributory negligence — not
+          on assessing what is just and equitable.
+      - text: Pennington v Norris
+        correct: true
+        why: >-
+          Right — under 'What is just and equitable?', the flowchart says the court needs to examine the whole conduct
+          of each of the negligent parties and their relative blameworthiness, citing Pennington v Norris.
+      - text: McLean v Tedman
+        why: >-
+          McLean v Tedman is cited for momentary thoughtlessness by employees. It is on the same chart, which is why it
+          can look familiar here.
+  - key: q016
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 2
+    stem: Under CLA s 5R(2), against what standard is a plaintiff's contributory negligence measured?
+    options:
+      - text: The plaintiff's own best efforts, judged on what the plaintiff actually knew at that time
+        why: >-
+          Tempting because it is the plaintiff's own care in issue, but s 5R(2) is objective — a reasonable person in
+          the plaintiff's position — and covers what they knew or ought to have known.
+      - text: A lower standard than the defendant's, because a plaintiff owes no duty of care to anyone else at all
+        why: >-
+          Tempting, since the plaintiff owes no duty to the defendant, but s 5R(1) says the principles that decide
+          negligence also decide contributory negligence.
+      - text: A reasonable person in the plaintiff's position, on what the plaintiff knew or ought to have known
+        correct: true
+        why: >-
+          Right — s 5R(2)(a) sets the standard of a reasonable person in the position of the person who suffered harm,
+          and s 5R(2)(b) judges it on what that person knew or ought to have known at the time.
+      - text: A reasonable person in the defendant's position, on what the defendant knew at the time
+        why: >-
+          Wrong person: s 5R is about the person who suffered harm. The question is whether that person failed to take
+          precautions against the risk of their own harm.
+  - key: q017
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 3
+    variant-of: q016
+    stem: >-
+      Lena is hurt by a negligent defendant. She did not know of a hazard, but a reasonable person in her position ought
+      to have known of it. Under CLA s 5R(2)(b), can her failure to guard against it count as contributory negligence?
+    options:
+      - text: No — only what she actually knew at the time can be taken into account under s 5R.
+        why: >-
+          Tempting because it seems unfair to blame her for what she did not know, but s 5R(2)(b) expressly includes
+          what the person "ought to have known at the time".
+      - text: Yes — the matter is determined on what she knew or ought to have known at the time.
+        correct: true
+        why: >-
+          Right — s 5R(2)(b) says contributory negligence is determined on what the person knew or ought to have known
+          at the time, so constructive knowledge counts.
+      - text: No — a plaintiff's knowledge is irrelevant once the defendant has been proved negligent.
+        why: >-
+          Wrong — the defendant's negligence does not end the inquiry; s 5R(1) applies the principles of negligence to
+          the plaintiff's own failure to take precautions.
+      - text: Yes — but only if the defendant also knew that she ought to have known of the hazard.
+        why: >-
+          Tempting as a fairness condition, but s 5R(2)(b) looks to what the plaintiff knew or ought to have known; it
+          adds no requirement about the defendant's knowledge.
+  - key: q018
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 2
+    cases:
+      - caswell-v-powell-duffryn-associated-collieries
+    stem: >-
+      A plaintiff failed to wear a safety helmet, but the only injury was to her foot. Applying the flowchart's causal
+      requirement, what follows?
+    options:
+      - text: Damages are reduced, because any lack of care for her own safety counts toward her share of responsibility.
+        why: >-
+          Tempting because she was careless, but the flowchart requires a causal link between the plaintiff's lack of
+          care for their own safety and their injury (Caswell).
+      - text: Damages are reduced only if her failure was deliberate rather than merely careless.
+        why: >-
+          Tempting as a limiting rule, but the flowchart draws no line between deliberate and careless omissions; the
+          requirement is a causal link to the injury.
+      - text: Her failure to wear a helmet cannot reduce damages for the foot injury without a causal link to it.
+        correct: true
+        why: >-
+          Right — a causal link between the plaintiff's lack of care and her injury must be established (Caswell v
+          Powell Duffryn Associated Collieries); ordinary causation principles apply.
+      - text: Her claim fails entirely, because she did not take every precaution for her own safety.
+        why: >-
+          Wrong twice: contributory negligence only partially reduces damages, and even that needs a causal link between
+          her lack of care and the injury.
+  - key: q019
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 3
+    variant-of: q018
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    cases:
+      - caswell-v-powell-duffryn-associated-collieries
+    stem: >-
+      Raj, a passenger, was not wearing a seatbelt when the negligent driver crashed; medical evidence shows a belt
+      would have prevented his head injury. On the flowchart, which principle do these facts satisfy, and what remains?
+    options:
+      - text: >-
+          Causal requirement; the court must still apply the s 5R standard and decide what reduction is just and
+          equitable.
+        correct: true
+        why: >-
+          Right — the medical evidence links his lack of care to the injury (Caswell). The court still asks whether he
+          fell below the s 5R standard and then sets a just and equitable reduction.
+      - text: Causal requirement; his damages are then automatically reduced by 25% under the CLA.
+        why: >-
+          Tempting because 25% appears in the CLA, but that floor applies only to the s 50 intoxication presumption. The
+          general reduction is what is just and equitable.
+      - text: Volenti, because by leaving off the belt he voluntarily accepted the risk of a head injury.
+        why: >-
+          Tempting because he chose not to wear it, but volenti needs proof he fully appreciated and voluntarily
+          accepted the specific risk; at most this is a contributory negligence argument.
+      - text: "None: a passenger cannot be contributorily negligent towards the driver of the vehicle."
+        why: >-
+          Wrong — the flowchart applies contributory negligence to any plaintiff whose lack of care for their own safety
+          caused their injury; nothing in it exempts passengers.
+  - key: q020
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 1
+    stem: Which two cases does the flowchart give on the meaning of contributory negligence?
+    options:
+      - text: Pennington v Norris and Caswell v Powell Duffryn Associated Collieries
+        why: >-
+          Both are on the contributory negligence chart, but Pennington is cited for what is just and equitable and
+          Caswell for the causal requirement.
+      - text: Davies v Swan Motor Co (Swansea) Ltd and Jones v Livox Quarries Ltd
+        correct: true
+        why: >-
+          Right — the opening box says: 'As to the meaning of contributory negligence, see Davies v Swan Motor Co
+          (Swansea) Ltd and Jones v Livox Quarries Ltd'.
+      - text: McLean v Tedman and Staveley Iron and Chemical Co v Jones
+        why: >-
+          These are on the contributory negligence chart too, but for momentary thoughtlessness by employees, not the
+          meaning of contributory negligence.
+      - text: Banovic v Perkovic and Carey v Lake Macquarie City Council
+        why: >-
+          These are volenti cases, cited for the requirement that the plaintiff fully appreciate the nature and likely
+          manifestation of the risk.
+  - key: q021
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 1
+    stem: >-
+      According to the flowchart, what principles of causation apply to the causal requirement in contributory
+      negligence?
+    options:
+      - text: A special, stricter test of causation that applies only to plaintiffs
+        why: >-
+          Tempting because the plaintiff is the one being judged, but the flowchart says ordinary principles of
+          causation apply in this context — there is no special test.
+      - text: "None: carelessness alone is enough to reduce the damages"
+        why: >-
+          Wrong — the flowchart says a causal link between the plaintiff's lack of care for their own safety and their
+          injury must be established (Caswell).
+      - text: Ordinary principles of causation
+        correct: true
+        why: >-
+          Right — after requiring a causal link between the plaintiff's lack of care and their injury, the flowchart
+          adds: 'Ordinary principles of causation apply in this context'.
+      - text: The just and equitable test in the Law Reform Act s 9(1)
+        why: >-
+          Tempting because it is the other test on the chart, but "just and equitable" sets the size of the reduction;
+          causation is a separate requirement with ordinary principles.
+  - key: q022
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 3
+    cases:
+      - pennington-v-norris
+    stem: >-
+      A driver was speeding heavily; the pedestrian he hit had stepped out without looking. In arguing the size of the
+      reduction, what does the flowchart (citing Pennington v Norris) direct the court to do?
+    options:
+      - text: Split the damages equally, since each party was negligent
+        why: >-
+          Tempting as a neat default, but the flowchart requires the court to examine the whole conduct of each party
+          and consider relative blameworthiness — not to split evenly.
+      - text: Look only at the plaintiff's conduct, since it is the plaintiff's damages that are being reduced
+        why: >-
+          Tempting because the reduction falls on the plaintiff, but Pennington v Norris, as cited, requires examining
+          the whole conduct of each of the negligent parties.
+      - text: Examine the whole conduct of each negligent party and weigh their relative blameworthiness
+        correct: true
+        why: >-
+          Right — that is the flowchart's answer to "What is just and equitable?": the whole conduct of each negligent
+          party and their relative blameworthiness (Pennington v Norris).
+      - text: Look only at whichever party's carelessness came last in time before the collision
+        why: >-
+          Tempting because the last careless act can seem decisive, but the flowchart directs attention to the whole
+          conduct of each party, not just the final act.
+  - key: q023
+    type: mcq
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 4
+    stem: >-
+      A plaintiff's damages are assessed at $200,000. The court finds her contributorily negligent and decides a 30%
+      reduction is just and equitable. Leaving aside any other statute, what does she recover?
+    options:
+      - text: $140,000
+        correct: true
+        why: >-
+          Right — contributory negligence makes a partial reduction in the damages otherwise recoverable: $200,000 less
+          the 30% the court found just and equitable leaves $140,000.
+      - text: $60,000
+        why: >-
+          Tempting because $60,000 appears in the working, but that is the amount of the reduction, not what she
+          recovers. She keeps the other 70% of her damages.
+      - text: $200,000, because the finding affects liability only
+        why: >-
+          Wrong — the whole point of a finding of contributory negligence is a partial reduction in the damages
+          otherwise recoverable by the plaintiff.
+      - text: $100,000, because responsibility is shared equally
+        why: >-
+          Tempting as a default, but the court has already decided 30% is just and equitable; there is no rule of equal
+          shares, only relative blameworthiness.
+  - key: q024
+    type: truefalse
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      Under CLA s 5R, the standard of care required of the person who suffered harm is that of a reasonable person in
+      the position of that person.
+    answer: true
+    why: >-
+      True — this is s 5R(2)(a). Section 5R(1) applies the ordinary principles of negligence to the question whether the
+      person who suffered harm was contributorily negligent.
+  - key: q025
+    type: truefalse
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 2
+    set: quickfire
+    statement: >-
+      Under CLA s 5R, contributory negligence is determined only on the basis of what the plaintiff actually knew at the
+      time.
+    answer: false
+    why: >-
+      False — s 5R(2)(b) says the matter is determined on the basis of what the person knew or ought to have known at
+      the time, so constructive knowledge counts too.
+  - key: q026
+    type: truefalse
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 2
+    set: quickfire
+    statement: >-
+      According to the flowchart, a plaintiff's lack of care for their own safety reduces damages even if it did not
+      cause the injury.
+    answer: false
+    why: >-
+      False — a causal link between the plaintiff's lack of care for their own safety and their injury must be
+      established (Caswell v Powell Duffryn Associated Collieries).
+  - key: q027
+    type: truefalse
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      The flowchart says deciding what is just and equitable requires examining the whole conduct of each of the
+      negligent parties.
+    answer: true
+    why: >-
+      True — under 'What is just and equitable?', the court examines the whole conduct of each negligent party and
+      considers the relative blameworthiness of each (Pennington v Norris).
+  - key: q028
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 1
+    cases:
+      - mclean-v-tedman
+      - staveley-iron-and-chemical-co-v-jones
+    stem: >-
+      In the employment context, which factors does the flowchart say may be taken into account when deciding whether an
+      injured employee was contributorily negligent?
+    options:
+      - text: Only whether the employer gave the employee written safety instructions for the task
+        why: >-
+          Tempting because it focuses on the employer's conduct, but the flowchart lists conditions on the employee's
+          side: familiarity, repetition, urgency and preoccupation with the work.
+      - text: Whether the employee was intoxicated at work, which raises a statutory presumption of contributory negligence
+        why: >-
+          Tempting because intoxication is on the same chart, but that is the separate intoxication box (CLA s 50), not
+          the momentary thoughtlessness by employees box.
+      - text: Inattention bred of familiarity and repetition, the urgency of the task and preoccupation with the work
+        correct: true
+        why: >-
+          Right — the flowchart lists these, plus other prevailing conditions, citing McLean v Tedman and Staveley Iron
+          and Chemical Co v Jones.
+      - text: Whether the employee perceived and fully appreciated the specific risk of the task
+        why: >-
+          Tempting because it sounds like a knowledge test, but that is the volenti knowledge requirement (Banovic v
+          Perkovic; Carey), not the employment box for contributory negligence.
+  - key: q029
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 1
+    stem: Which pair of cases does the flowchart cite for momentary thoughtlessness by employees?
+    options:
+      - text: Avram v Gusakoski; Caterson v Commissioner for Railways
+        why: >-
+          These are on the same chart but cited for the agony of the moment — action justified in a perceived emergency
+          — not for employees.
+      - text: Davies v Swan Motor Co (Swansea) Ltd; Jones v Livox Quarries Ltd
+        why: >-
+          These are cited in the opening box on the meaning of contributory negligence, which makes them familiar, but
+          not for the employment context.
+      - text: McLean v Tedman; Staveley Iron and Chemical Co v Jones
+        correct: true
+        why: >-
+          Right — the momentary thoughtlessness by employees box cites McLean v Tedman and Staveley Iron and Chemical Co
+          v Jones.
+      - text: Banovic v Perkovic; ICI v Shatwell
+        why: >-
+          These are volenti cases on knowledge of risk. ICI v Shatwell sounds like an industrial case, which is why it
+          can tempt here, but it is cited on the volenti chart.
+  - key: q030
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 2
+    variant-of: q028
+    cases:
+      - mclean-v-tedman
+      - staveley-iron-and-chemical-co-v-jones
+    stem: >-
+      Priya has done the same press operation thousands of times. Rushing an urgent order, she reaches into the press,
+      which her employer negligently failed to guard. On contributory negligence, what does the flowchart support?
+    options:
+      - text: Her familiarity with the press means she accepted its specific risk, so the employer has a complete defence.
+        why: >-
+          Tempting because familiarity suggests knowledge, but volenti needs full appreciation and voluntary acceptance
+          of the specific risk; the flowchart treats familiarity as a factor softening contributory negligence.
+      - text: >-
+          Her inattention bred of repetition and the urgency of the task may be taken into account in deciding whether
+          she was contributorily negligent.
+        correct: true
+        why: >-
+          Right — the flowchart says, in the employment context, inattention bred of familiarity and repetition and the
+          urgency of the task may be taken into account (McLean v Tedman; Staveley Iron and Chemical Co v Jones).
+      - text: Her rushing must count as contributory negligence, because the urgency of a task is never an excuse at work.
+        why: >-
+          Wrong — the flowchart names the urgency of the task as something that may be taken into account in the
+          employee's favour, not something that is disregarded.
+      - text: Her damages must be reduced by at least 25%, the statutory floor that applies to carelessness at work.
+        why: >-
+          Tempting because 25% is a figure from this week, but it is the s 50(4) floor for the intoxication presumption;
+          nothing makes it apply to employees generally.
+  - key: q031
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 1
+    stem: What does the flowchart mean by the 'agony of the moment'?
+    options:
+      - text: A plaintiff in pain after an accident cannot be contributorily negligent for anything done afterwards.
+        why: >-
+          Tempting because of the word 'agony', but the box is about action taken in a perceived emergency that might
+          otherwise look like a lack of reasonable care for one's own safety.
+      - text: >-
+          Conduct that seems to lack care for one's own safety may not be contributory negligence if justified in a
+          perceived emergency.
+        correct: true
+        why: >-
+          Right — the flowchart says such action may not amount to contributory negligence where it can be justified in
+          a situation of perceived emergency (Avram v Gusakoski; Caterson).
+      - text: A defendant who acts in an emergency is excused from negligence towards the plaintiff.
+        why: >-
+          Tempting because it echoes emergency-based defences, but the agony of the moment box is about the plaintiff's
+          conduct and whether it is contributory negligence, not the defendant's.
+      - text: A plaintiff who panics is treated as having voluntarily accepted the risks of the emergency.
+        why: >-
+          Wrong — panic in a perceived emergency points away from a finding against the plaintiff; volenti needs full
+          appreciation and voluntary acceptance of a specific risk.
+  - key: q032
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 2
+    cases:
+      - avram-v-gusakoski
+      - caterson-v-commissioner-for-railways
+    stem: >-
+      A bus passenger sees the negligently driven bus about to crash and jumps from it, breaking her leg; had she stayed
+      seated she would have been unhurt. Which argument does the flowchart give her against a finding of contributory
+      negligence?
+    options:
+      - text: "Agony of the moment: her action may be justified in a situation of perceived emergency."
+        correct: true
+        why: >-
+          Right — action that may seem to show a lack of care for her own safety may not amount to contributory
+          negligence where it can be justified in a perceived emergency (Avram v Gusakoski; Caterson).
+      - text: "Rescuers: she acted in good faith to save herself, so she counts as a good samaritan."
+        why: >-
+          Tempting because she acted in good faith, but CLA s 56 defines a good samaritan as one who comes to the
+          assistance of another person who is apparently injured or at risk.
+      - text: "Causal requirement: jumping cannot be a cause, because the driver was negligent first."
+        why: >-
+          Tempting because the driver created the danger, but on these facts her jump is causally linked to the broken
+          leg; the stronger argument is that the jump was justified.
+      - text: "Volenti: the bus company cannot rely on contributory negligence unless volenti also fails."
+        why: >-
+          Wrong — the two defences are independent. Contributory negligence does not depend on volenti, and volenti is
+          not in issue on these facts.
+  - key: q033
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 2
+    stem: What does the rescuers box on the flowchart say, and which NSW section does it cite?
+    options:
+      - text: Rescuers are presumed contributorily negligent, with damages reduced by at least 25% — CLA s 50.
+        why: >-
+          Tempting because s 50 is the other statutory box on this chart, but s 50 concerns intoxication. The rescuers
+          box speaks of protection, citing s 56.
+      - text: Most jurisdictions now protect those who act in good faith and without recklessness — CLA s 56.
+        correct: true
+        why: >-
+          Right — the box says 'Law in most jurisdictions now offers protection to those who act in good faith and
+          without recklessness', citing ACT s 5 and NSW CLA s 56.
+      - text: Rescuers voluntarily accept the risks of a rescue, giving a complete defence — CLA s 5L.
+        why: >-
+          Wrong — s 5L is about obvious risks of dangerous recreational activities, on the volenti chart. The rescuers
+          box is about protection for those acting in good faith.
+      - text: Rescuers are held to a higher standard of care than other plaintiffs — CLA s 5R.
+        why: >-
+          Tempting because s 5R sets the standard for contributory negligence, but it sets the same standard as for
+          negligence (a reasonable person in the position of that person); no higher one.
+  - key: q034
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 3
+    verify: true
+    stem: Under CLA s 56, who is a 'good samaritan'?
+    options:
+      - text: Any person who, without recklessness, assists another in an emergency, whether or not they expect to be paid
+        why: >-
+          Tempting because the flowchart speaks of acting 'without recklessness', but NSW s 56 requires good faith and
+          no expectation of payment or other reward.
+      - text: >-
+          A person who, in good faith and expecting no payment or reward, comes to the aid of someone apparently injured
+          or at risk
+        correct: true
+        why: >-
+          Right — s 56: a person who, in good faith and without expectation of payment or other reward, comes to the
+          assistance of a person who is apparently injured or at risk of being injured.
+      - text: A health care or emergency services worker who assists an injured person while on duty
+        why: >-
+          Tempting because such workers often help at accidents, but s 56 is not limited to professionals; it turns on
+          good faith and no expectation of payment or reward.
+      - text: A person who assists another in good faith, provided their help does not make the injury worse
+        why: >-
+          Tempting as a common-sense limit, but s 56's definition contains no such proviso: it turns on good faith, no
+          expected reward, and assisting someone apparently injured or at risk.
+  - key: q035
+    type: mcq
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 3
+    verify: true
+    stem: Under CLA s 57(1), what protection does a good samaritan receive?
+    options:
+      - text: A reduction of their own damages if they are injured while carrying out the rescue
+        why: >-
+          Tempting because the flowchart lists rescuers under contributory negligence, but s 57(1) is about the good
+          samaritan's own liability, not a reduction of their damages.
+      - text: No personal civil liability for acts or omissions in an emergency while assisting
+        correct: true
+        why: >-
+          Right — s 57(1): a good samaritan does not incur any personal civil liability for any act or omission done in
+          an emergency when assisting a person apparently injured or at risk.
+      - text: Protection only if they hold a first-aid qualification and act without any recklessness
+        why: >-
+          Wrong — s 57(1) has no qualification requirement. The protection attaches to a good samaritan as defined in s
+          56: good faith and no expectation of payment or other reward.
+      - text: Protection from criminal liability only, leaving them open to civil claims for their acts
+        why: >-
+          This reverses the section: s 57(1) gives protection from personal civil liability. It says nothing about
+          criminal liability, which is why the option can seem plausible.
+  - key: q036
+    type: truefalse
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      The flowchart says an employee's inattention bred of familiarity and repetition may be taken into account when
+      determining whether they were contributorily negligent.
+    answer: true
+    why: >-
+      True — this is the momentary thoughtlessness by employees box, citing McLean v Tedman and Staveley Iron and
+      Chemical Co v Jones, with the urgency of the task and preoccupation with the work.
+  - key: q037
+    type: truefalse
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      According to the flowchart, any action that shows a lack of reasonable care for one's own safety is contributory
+      negligence, even in a perceived emergency.
+    answer: false
+    why: >-
+      False — the agony of the moment box says such action may not amount to contributory negligence where it can be
+      justified in a situation of perceived emergency (Avram v Gusakoski).
+  - key: q038
+    type: truefalse
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 2
+    set: quickfire
+    statement: >-
+      CLA s 56 defines a good samaritan as a person who acts in good faith and without expectation of payment or other
+      reward.
+    answer: true
+    why: >-
+      True — s 56 adds that the person comes to the assistance of someone apparently injured or at risk of being
+      injured. Note the flowchart's own phrase is 'without recklessness'.
+  - key: q039
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 1
+    contrasts-with:
+      - volenti-and-legislation
+    stem: What does the contributory negligence flowchart say about a plaintiff who is intoxicated?
+    options:
+      - text: Intoxication is a complete defence, because the plaintiff voluntarily accepted the risk of harm.
+        why: >-
+          Tempting because getting drunk is a choice, but the flowchart treats the plaintiff's intoxication under
+          contributory negligence, as a presumption — not as volenti.
+      - text: There is now a legislative presumption of contributory negligence — see, eg, CLA s 50.
+        correct: true
+        why: >-
+          Right — the intoxication box says there is now a legislative presumption of contributory negligence where the
+          plaintiff is intoxicated, citing CLA s 50 and ACT ss 95, 96.
+      - text: Intoxication matters only if the defendant supplied the alcohol or drug that was taken.
+        why: >-
+          Wrong — nothing in the flowchart or s 50 turns on who supplied the alcohol or drug. Section 50 turns on
+          impaired capacity and whether the intoxication was self-induced.
+      - text: Courts are reluctant to reduce damages, because the plaintiff was relying on other people.
+        why: >-
+          Tempting because it echoes the volenti box on passengers of intoxicated drivers, but that box is about the
+          driver's intoxication and the volenti defence, not the plaintiff's.
+  - key: q040
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 2
+    stem: When does CLA s 50 apply?
+    options:
+      - text: Whenever the person had drunk any alcohol at all in the hours before the act or omission
+        why: >-
+          Tempting as a bright-line rule, but s 50(1) requires intoxication to the extent that the person's capacity to
+          exercise reasonable care and skill was impaired.
+      - text: When the person was intoxicated so that their capacity to exercise reasonable care and skill was impaired
+        correct: true
+        why: >-
+          Right — s 50(1): it applies when the person whose death, injury or damage is in issue was, at the time of the
+          act or omission that caused it, intoxicated to the extent that this capacity was impaired.
+      - text: >-
+          When the defendant, rather than the plaintiff, was intoxicated at the time of the act or omission that caused
+          the harm
+        why: >-
+          Wrong person: s 50(1) concerns the person whose death, injury or damage is the subject of the proceedings —
+          the plaintiff's side, not the defendant.
+      - text: Only when the intoxication came from an illegal drug rather than from alcohol
+        why: >-
+          Tempting because illegality is another box this week, but s 50(1) turns on impaired capacity, not on the kind
+          of substance; nothing in s 50 limits it to illegal drugs.
+  - key: q041
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 2
+    stem: Under CLA s 50(2), when may a court award damages to a person to whom s 50 applies?
+    options:
+      - text: >-
+          Only if satisfied the harm, or some other harm, is likely to have occurred even if the person had not been
+          intoxicated
+        correct: true
+        why: >-
+          Right — s 50(2): a court is not to award damages unless satisfied the death, injury or damage (or some other
+          injury or damage) is likely to have occurred even without the intoxication.
+      - text: Only if the defendant knew, or ought to have known, that the person was intoxicated at the time
+        why: >-
+          Tempting because knowledge matters elsewhere (s 5R(2)(b)), but s 50(2) turns on whether the harm was likely
+          anyway, not on the defendant's knowledge.
+      - text: In every case, with the damages then reduced by 25% or any greater percentage that is appropriate
+        why: >-
+          Tempting because the 25% reduction is in s 50(4), but that comes only after the s 50(2) gate: without the
+          "likely anyway" finding, no damages are awarded at all.
+      - text: Only if the defendant was more than half responsible for the harm, judged on relative blameworthiness
+        why: >-
+          Tempting because relative blameworthiness is the just and equitable test (Pennington v Norris), but s 50(2)
+          sets a different gate: was the harm likely even without intoxication?
+  - key: q042
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 3
+    set: pretest
+    stem: >-
+      Leo, drunk by his own choice so that his capacity for care was impaired, trips on a negligently unlit council
+      step. The court finds he would likely have tripped even if sober, and is not satisfied his intoxication made no
+      contribution. What follows under s 50?
+    options:
+      - text: He recovers nothing, because an intoxicated plaintiff cannot be awarded damages.
+        why: >-
+          Tempting because s 50(2) can bar damages, but here the court found the harm likely even without intoxication,
+          so the bar is passed and the presumption applies instead.
+      - text: He is presumed contributorily negligent and his damages are reduced by at least 25%.
+        correct: true
+        why: >-
+          Right — the s 50(2) gate is passed; under s 50(3) contributory negligence is presumed (he has not shown his
+          intoxication did not contribute in any way); s 50(4) sets a reduction of 25% or more.
+      - text: He recovers in full, because he would likely have tripped even if he had been sober.
+        why: >-
+          Tempting because the harm was likely anyway, but that finding is what triggers the s 50(3) presumption; it
+          does not cancel it.
+      - text: He is presumed negligent, with the reduction left wholly to what is just and equitable.
+        why: >-
+          Close, but s 50(4) fixes a floor: damages are reduced by 25% or a greater percentage the court finds
+          appropriate, not by any amount at all.
+  - key: q043
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 3
+    variant-of: q042
+    stem: >-
+      Same facts as Leo's case, except the court finds he would NOT have tripped had he been sober. What follows under s
+      50?
+    options:
+      - text: His damages are reduced by 25%, the statutory floor for intoxication
+        why: >-
+          Tempting because 25% is the s 50(4) figure, but the presumption and floor only arise once the court is
+          satisfied the harm was likely anyway; here it is not.
+      - text: His damages are reduced by whatever share is just and equitable
+        why: >-
+          Tempting because that is the general contributory negligence rule, but s 50(2) stops the court before
+          apportionment: no damages are to be awarded.
+      - text: No damages may be awarded, because s 50(2) is not satisfied
+        correct: true
+        why: >-
+          Right — under s 50(2), a court is not to award damages unless satisfied the harm is likely to have occurred
+          even if the person had not been intoxicated.
+      - text: He recovers in full, because the council was negligent
+        why: >-
+          Wrong — the council's negligence does not displace s 50. Once s 50 applies, the s 50(2) finding controls
+          whether any damages can be awarded.
+  - key: q044
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 3
+    variant-of: q042
+    stem: >-
+      Same facts as Leo's case, except his drink was spiked without his knowledge and the court is satisfied the
+      intoxication was not self-induced. What follows?
+    options:
+      - text: No damages unless the harm was likely anyway, because s 50(2) still applies.
+        why: >-
+          Tempting because s 50(2) is the first gate, but s 50(5) takes the whole section away when the court is
+          satisfied the intoxication was not self-induced.
+      - text: The presumption applies, but the reduction is capped at exactly 25%.
+        why: >-
+          Wrong twice: s 50 does not apply at all here (s 50(5)), and in any case s 50(4) sets a floor of 25%, not a
+          cap.
+      - text: Section 50 does not apply, because the intoxication was not self-induced.
+        correct: true
+        why: >-
+          Right — s 50(5): the section does not apply in a case where the court is satisfied that the intoxication was
+          not self-induced.
+      - text: Volenti applies, because he chose to accept a drink from someone else.
+        why: >-
+          Tempting because he accepted the drink, but volenti needs full appreciation and voluntary acceptance of the
+          specific risk; he did not know the drink was spiked.
+  - key: q045
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 2
+    stem: Where the s 50 presumption of contributory negligence applies, what is the minimum reduction in damages?
+    options:
+      - text: 10%
+        why: >-
+          Tempting as a modest figure, but s 50(4) sets the reduction at 25% or a greater percentage determined by the
+          court to be appropriate.
+      - text: 25%
+        correct: true
+        why: >-
+          Right — s 50(4): damages are reduced on account of contributory negligence by 25% or a greater percentage
+          determined by the court to be appropriate.
+      - text: 50%
+        why: >-
+          Tempting as an equal-shares figure, but s 50(4) fixes the minimum at 25%; the court may go higher if
+          appropriate in the circumstances.
+      - text: 100%
+        why: >-
+          Wrong — a 100% reduction would defeat the claim; s 50(4) sets a minimum of 25%, leaving any higher figure to
+          what is appropriate in the case.
+  - key: q046
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 3
+    stem: >-
+      Once the court is satisfied the harm was likely to occur anyway, how can the intoxicated plaintiff avoid the s
+      50(3) presumption?
+    options:
+      - text: By showing that the defendant was also intoxicated at the time of the act or omission that caused the harm
+        why: >-
+          Tempting because it seems to even things up, but s 50(3) is rebutted only by showing the plaintiff's own
+          intoxication did not contribute in any way to the cause.
+      - text: By satisfying the court that the intoxication did not contribute in any way to the cause
+        correct: true
+        why: >-
+          Right — s 50(3): contributory negligence is presumed unless the court is satisfied that the person's
+          intoxication did not contribute in any way to the cause of the death, injury or damage.
+      - text: By showing that they drank less than the legal limit for driving a motor vehicle
+        why: >-
+          Tempting as an objective test, but s 50 does not use a legal limit; it turns on impaired capacity and then on
+          whether the intoxication contributed in any way.
+      - text: By showing they did not expect to be harmed when they chose to become intoxicated
+        why: >-
+          Wrong — the plaintiff's expectations are irrelevant to s 50(3), which asks only whether the intoxication
+          contributed in any way to the cause of the harm.
+  - key: q047
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 3
+    contrasts-with:
+      - volenti-and-legislation
+    stem: >-
+      Sana, who is sober, accepts a lift from a driver she knows is drunk, and he crashes. Which flowchart box is most
+      directly engaged?
+    options:
+      - text: "Intoxication (contributory negligence): CLA s 50 presumes her contributorily negligent."
+        why: >-
+          Tempting because intoxication is involved, but s 50 concerns the intoxication of the person whose injury is in
+          issue. Sana was sober; the driver was drunk.
+      - text: "Intoxicated drivers and passengers (volenti): courts are reluctant to allow it, and statute may exclude it."
+        correct: true
+        why: >-
+          Right — this box covers passengers who rely on an intoxicated driver: courts are generally reluctant to allow
+          volenti, and some legislation excludes it (eg Motor Accidents Act 1988 (NSW) s 76).
+      - text: "Illegality: travelling with a drunk driver makes them partners in a criminal enterprise."
+        why: >-
+          Tempting because drink-driving may be an offence, but the flowchart's illegality box concerns a joint criminal
+          enterprise where no standard of care can be set; that is not this.
+      - text: "Legislative reform: CLA s 5L, because riding with a drunk driver is a dangerous recreational activity."
+        why: >-
+          Wrong — s 5L is about obvious risks of dangerous recreational activities. Getting a lift home is not presented
+          in the materials as a recreational activity.
+  - key: q048
+    type: mcq
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 4
+    stem: Which statement about CLA s 50(4) is accurate?
+    options:
+      - text: The reduction is always exactly 25%, whatever the circumstances of the case.
+        why: >-
+          Tempting because 25% is the only figure named, but s 50(4) allows "a greater percentage determined by the
+          court to be appropriate in the circumstances of the case".
+      - text: The court may reduce by less than 25% if the defendant was very blameworthy.
+        why: >-
+          Tempting because relative blameworthiness drives the general test, but where the presumption applies s 50(4)
+          makes 25% the minimum; the court can only go higher.
+      - text: The 25% figure replaces any need to consider whether there was contributory negligence.
+        why: >-
+          Wrong — the 25% floor applies only "when there is a presumption of contributory negligence" under s 50(3),
+          which itself depends on the s 50(2) finding.
+      - text: The court may set a reduction greater than 25% where that is appropriate in the case.
+        correct: true
+        why: >-
+          Right — s 50(4) reduces damages by 25% or a greater percentage determined by the court to be appropriate in
+          the circumstances of the case.
+  - key: q049
+    type: truefalse
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      Under CLA s 50(4), where contributory negligence is presumed, damages are reduced by 25% or a greater percentage
+      the court determines to be appropriate.
+    answer: true
+    why: >-
+      True — this is the minimum reduction once the s 50(3) presumption applies; the court may go higher where
+      appropriate in the circumstances of the case.
+  - key: q050
+    type: truefalse
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 2
+    set: quickfire
+    statement: CLA s 50 applies even where the court is satisfied the intoxication was not self-induced.
+    answer: false
+    why: >-
+      False — s 50(5) says the section does not apply in a case where the court is satisfied that the intoxication was
+      not self-induced, such as a spiked drink.
+  - key: q051
+    type: truefalse
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 2
+    set: quickfire
+    statement: >-
+      Under CLA s 50(2), a court is not to award damages unless satisfied the harm is likely to have occurred even if
+      the person had not been intoxicated.
+    answer: true
+    why: >-
+      True — this is the first gate in s 50. Only if it is passed does the s 50(3) presumption of contributory
+      negligence, with its 25% floor, come into play.
+  - key: q052
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 1
+    stem: What is the 'essence' of the volenti defence, according to the flowchart?
+    options:
+      - text: A plaintiff's failure to take reasonable care for their own safety in the course of a particular activity
+        why: >-
+          Tempting because it is also about the plaintiff's conduct, but that describes contributory negligence. Volenti
+          rests on willingness to assume a known risk.
+      - text: A plaintiff's willingness to assume a risk which the plaintiff knew existed in a particular activity
+        correct: true
+        why: >-
+          Right — the flowchart says 'The essence of the defence lies in a plaintiff's willingness to assume a risk
+          which the plaintiff knew existed in a particular activity.'
+      - text: The defendant's reasonable belief that the plaintiff would accept any risks of the activity
+        why: >-
+          Wrong focus: volenti looks at the plaintiff's actual knowledge and willingness, not at what the defendant
+          believed the plaintiff would accept.
+      - text: Taking part in an activity that a reasonable person would see as obviously dangerous
+        why: >-
+          Tempting because it echoes obvious risk under CLA s 5L, but common law volenti needs the plaintiff's own
+          knowledge and willingness, not an objective view of the danger.
+  - key: q053
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 2
+    set: pretest
+    stem: What must the defendant show to establish volenti?
+    options:
+      - text: >-
+          That the plaintiff perceived the risk, fully appreciated its nature and extent, and voluntarily accepted that
+          specific risk
+        correct: true
+        why: >-
+          Right — the flowchart: the plaintiff not only perceived the existence of the risk but fully appreciated its
+          nature and extent and voluntarily accepted that specific risk.
+      - text: That the plaintiff perceived that the risk existed and chose to continue with the activity regardless
+        why: >-
+          Tempting because perceiving the risk is the first step, but the flowchart says the plaintiff must "not only"
+          perceive it — full appreciation and voluntary acceptance are also needed.
+      - text: That the plaintiff was aware of the general nature of the risks involved in the activity
+        why: >-
+          Wrong — the defence "does not extend to an awareness of the general nature of the risk"; it is narrowly
+          confined to the specific risk.
+      - text: That a reasonable person in the plaintiff's position would have appreciated the risk
+        why: >-
+          Tempting because s 5R uses a reasonable person test, but that is for contributory negligence. Volenti needs
+          the plaintiff's own full appreciation of the specific risk.
+  - key: q054
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 2
+    stem: Which statement about the scope of volenti is accurate?
+    options:
+      - text: It extends to every risk of an activity once the plaintiff knew the activity was dangerous.
+        why: >-
+          Tempting because knowledge of danger seems to imply acceptance, but the flowchart says the defence does not
+          extend to an awareness of the general nature of the risk.
+      - text: It covers risks the plaintiff ought to have known of, even if they did not actually know.
+        why: >-
+          Tempting because 'ought to have known' appears in s 5R(2)(b), but that is for contributory negligence. Volenti
+          requires the plaintiff to fully appreciate the risk.
+      - text: It applies to a specific risk only if the defendant warned the plaintiff of it in writing.
+        why: >-
+          Wrong — the flowchart sets no writing requirement; the question is whether the plaintiff perceived, fully
+          appreciated and voluntarily accepted the specific risk.
+      - text: It is confined to the specific risk and does not extend to the general nature of the risk.
+        correct: true
+        why: >-
+          Right — the flowchart: the defence is narrowly confined to the specific risk and does not extend to an
+          awareness of the general nature of the risk.
+  - key: q055
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 1
+    stem: >-
+      Which cases does the flowchart cite for the rule that the plaintiff must fully appreciate the nature and likely
+      manifestation of the risk?
+    options:
+      - text: Gala v Preston; Progress & Properties Ltd v Craft
+        why: >-
+          These are on the volenti chart, but under illegality: whether a standard of care can be set in a joint
+          criminal enterprise.
+      - text: Banovic v Perkovic; Carey v Lake Macquarie City Council
+        correct: true
+        why: >-
+          Right — the knowledge of risk box: 'The plaintiff must fully appreciate the nature and likely manifestation of
+          the risk – Banovic v Perkovic; Carey v Lake Macquarie City Council'.
+      - text: Pennington v Norris; Caswell v Powell Duffryn Associated Collieries
+        why: >-
+          These are contributory negligence cases — on what is just and equitable and on the causal requirement — not on
+          knowledge of risk.
+      - text: Avram v Gusakoski; Caterson v Commissioner for Railways
+        why: >-
+          These are contributory negligence cases on the agony of the moment; they concern perceived emergencies, not
+          knowledge of risk for volenti.
+  - key: q056
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 3
+    cases:
+      - carey-v-lake-macquarie-city-council
+      - ici-v-shatwell
+    stem: What does 'effective knowledge' of a risk require, as the flowchart puts it (citing Carey and ICI v Shatwell)?
+    options:
+      - text: Knowing that the risk exists, whether or not the plaintiff accepted it materialising
+        why: >-
+          Tempting because knowledge of the risk is the starting point, but the flowchart says effective knowledge
+          extends beyond the mere existence of a risk.
+      - text: "More than knowing a risk exists: an acceptance of that risk materialising"
+        correct: true
+        why: >-
+          Right — effective knowledge extends beyond the mere existence of a risk to an acceptance of materialisation of
+          that risk (Carey v Lake Macquarie City Council; ICI v Shatwell).
+      - text: Being told of the risk in a warning given before the activity began
+        why: >-
+          Tempting because a warning can supply knowledge, but the flowchart does not make a warning the test; it
+          requires acceptance of the risk materialising.
+      - text: The knowledge a reasonable person would have had in the plaintiff's position
+        why: >-
+          Wrong — that objective test is s 5R's for contributory negligence. Volenti looks at the plaintiff's own full
+          appreciation and acceptance.
+  - key: q057
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 3
+    stem: >-
+      Jai joins a quad-bike tour. He knows quad bikes can roll over. His bike's brakes, negligently maintained, fail on
+      a hill and he is injured. The operator pleads volenti. What is the best response?
+    options:
+      - text: "Volenti succeeds: he knew quad biking was dangerous and chose to take part."
+        why: >-
+          Tempting because he knew of danger, but the flowchart confines volenti to the specific risk; awareness of the
+          general nature of the risk is not enough.
+      - text: "Volenti likely fails: knowing bikes can roll is not accepting the specific risk of brake failure."
+        correct: true
+        why: >-
+          Right — the operator must show Jai perceived, fully appreciated and voluntarily accepted the specific risk
+          that materialised (brake failure); general awareness of rollovers does not do that.
+      - text: Volenti succeeds if a reasonable person would have foreseen brake failure on a quad bike.
+        why: >-
+          Tempting because foreseeability is familiar, but volenti asks what the plaintiff himself perceived,
+          appreciated and accepted, not what a reasonable person would foresee.
+      - text: Volenti reduces his damages by his share of responsibility for joining the tour.
+        why: >-
+          Wrong — volenti is a complete defence, not a partial one. A reduction by share of responsibility is
+          contributory negligence.
+  - key: q058
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 3
+    variant-of: q057
+    stem: >-
+      Same tour, but before setting off the guide shows Jai the worn brakes, explains they may fail on the hill, and Jai
+      says he understands and rides anyway. The brakes fail. What about volenti now?
+    options:
+      - text: Volenti fails, because volenti no longer applies to any recreational activities in NSW after CLA s 5L.
+        why: >-
+          Tempting because s 5L concerns recreational activities, but the flowchart says s 5L expands the defence
+          available to defendants; it does not abolish common law volenti.
+      - text: Volenti fails, because the operator's own negligence is what caused the brakes to wear.
+        why: >-
+          Wrong — volenti is a defence to negligence, so it presupposes the defendant's negligence. The question is the
+          plaintiff's knowledge and acceptance.
+      - text: "Volenti may succeed: he perceived, fully appreciated and voluntarily accepted the specific risk."
+        correct: true
+        why: >-
+          Right — the specific risk (brake failure on the hill) was shown and explained, and he chose to ride, so the
+          defendant can point to perception, full appreciation and voluntary acceptance.
+      - text: Volenti only reduces his damages, by at least 25%, as the risk was explained to him.
+        why: >-
+          Wrong — volenti operates as a complete defence, and 25% is the s 50(4) floor for the intoxication presumption,
+          not a volenti figure.
+  - key: q059
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 3
+    contrasts-with:
+      - contributory-negligence-apportionment-and-standard
+    stem: Which statement correctly contrasts volenti with contributory negligence?
+    options:
+      - text: Both require full appreciation of the specific risk; they differ only in their effect.
+        why: >-
+          Tempting because both concern the plaintiff's conduct, but contributory negligence is judged by the s 5R
+          reasonable person standard, not full appreciation of a specific risk.
+      - text: Volenti is judged by the s 5R reasonable person test; contributory negligence by actual knowledge.
+        why: >-
+          This swaps them: s 5R sets the reasonable person standard for contributory negligence, while volenti requires
+          the plaintiff's actual full appreciation.
+      - text: >-
+          Volenti needs acceptance of a specific risk and defeats the claim; contributory negligence asks about a lack
+          of care and reduces damages.
+        correct: true
+        why: >-
+          Right — volenti is a complete defence confined to a specific risk the plaintiff fully appreciated and
+          accepted; contributory negligence is a partial reduction for lack of care.
+      - text: Both are complete defences, but volenti needs more proof than contributory negligence.
+        why: >-
+          Wrong — only volenti is a complete defence. A finding of contributory negligence results in a partial
+          reduction in the damages otherwise recoverable.
+  - key: q060
+    type: mcq
+    concept: voluntary-assumption-of-risk
+    difficulty: 2
+    stem: Who bears the burden of establishing volenti, according to the flowchart?
+    options:
+      - text: The plaintiff
+        why: >-
+          Tempting because the defence concerns the plaintiff's knowledge, but the flowchart says 'Defendant must show
+          that the plaintiff … fully appreciated … and voluntarily accepted'.
+      - text: The defendant
+        correct: true
+        why: >-
+          Right — the flowchart puts the burden on the defendant to show perception, full appreciation and voluntary
+          acceptance of the specific risk.
+      - text: The court, of its own motion
+        why: >-
+          Wrong — the flowchart frames volenti as something the defendant must show; it is not raised and proved by the
+          court on its own initiative.
+      - text: "Neither: it is presumed from participation"
+        why: >-
+          Tempting because CLA s 5L works regardless of awareness, but common law volenti is not presumed; the defendant
+          must prove the specific risk was accepted.
+  - key: q061
+    type: truefalse
+    concept: voluntary-assumption-of-risk
+    difficulty: 1
+    set: quickfire
+    statement: According to the flowchart, the volenti defence extends to an awareness of the general nature of the risk.
+    answer: false
+    why: >-
+      False — the flowchart says the defence is narrowly confined to the specific risk and does not extend to an
+      awareness of the general nature of the risk.
+  - key: q062
+    type: truefalse
+    concept: voluntary-assumption-of-risk
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      For volenti, the defendant must show that the plaintiff fully appreciated the nature and extent of the risk and
+      voluntarily accepted that specific risk.
+    answer: true
+    why: >-
+      True — and that the plaintiff perceived the risk existed. All three are needed, and they must relate to the
+      specific risk that materialised.
+  - key: q063
+    type: truefalse
+    concept: voluntary-assumption-of-risk
+    difficulty: 2
+    set: quickfire
+    statement: >-
+      Effective knowledge for volenti extends beyond the mere existence of a risk to an acceptance of materialisation of
+      that risk.
+    answer: true
+    why: >-
+      True — this is the flowchart's knowledge of risk box, citing Carey v Lake Macquarie City Council and ICI v
+      Shatwell.
+  - key: q064
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 1
+    stem: What does the flowchart say about volenti and passengers who rely on an intoxicated driver?
+    options:
+      - text: Courts readily allow it, since the passenger chose to travel with that driver.
+        why: >-
+          Tempting because the passenger made a choice, but the flowchart says courts are generally reluctant to allow
+          volenti against such passengers.
+      - text: Courts are generally reluctant to allow it, and some legislation excludes it.
+        correct: true
+        why: >-
+          Right — courts are generally reluctant, and legislative intervention in some Australian jurisdictions
+          specifically excludes volenti here (eg Motor Accidents Act 1988 (NSW) s 76).
+      - text: It is replaced by a presumption that the passenger was contributorily negligent.
+        why: >-
+          Tempting because of the s 50 presumption, but s 50 concerns the injured person's own intoxication, not a sober
+          passenger of a drunk driver.
+      - text: It is available only if the passenger was also intoxicated at the time of the crash.
+        why: >-
+          Wrong — the flowchart's box concerns passengers who rely on an intoxicated driver; it does not make the
+          defence depend on the passenger also being intoxicated.
+  - key: q065
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 1
+    verify: true
+    stem: Which NSW provision does the flowchart cite as excluding volenti for passengers who rely on an intoxicated driver?
+    options:
+      - text: Civil Liability Act 2002 (NSW) s 50
+        why: >-
+          Tempting because s 50 is the CLA's intoxication section, but it presumes contributory negligence by an
+          intoxicated plaintiff; it does not exclude volenti.
+      - text: Civil Liability Act 2002 (NSW) s 5L
+        why: >-
+          Wrong direction: the flowchart says s 5L expands the voluntary assumption of risk defence available to
+          defendants; it does not exclude volenti.
+      - text: Motor Accidents Act 1988 (NSW) s 76
+        correct: true
+        why: >-
+          Right — the intoxicated drivers and passengers box cites Motor Accidents Act 1988 (NSW) s 76 as legislation
+          specifically excluding volenti here (its text is not in the materials).
+      - text: Civil Liability Act 2002 (NSW) s 5R
+        why: >-
+          Wrong — s 5R sets the standard for contributory negligence (a reasonable person in the plaintiff's position);
+          it says nothing about volenti or passengers.
+  - key: q066
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 2
+    stem: How does the flowchart describe the effect of CLA s 5L on voluntary assumption of risk?
+    options:
+      - text: It is legislation which abolishes volenti for recreational activities in NSW.
+        why: >-
+          Tempting because s 5L concerns recreational activities, but the flowchart says it expands the defence
+          available to defendants, not that it abolishes volenti.
+      - text: It is legislation which excludes volenti for passengers of intoxicated drivers.
+        why: >-
+          This mixes up the two legislation boxes: exclusion for passengers is the Motor Accidents Act 1988 (NSW) s 76
+          point; s 5L is the expansion.
+      - text: It is legislation which converts volenti into a partial defence that reduces the damages awarded.
+        why: >-
+          Wrong — s 5L says the defendant "is not liable", which is not a partial reduction. Partial reductions belong
+          to contributory negligence.
+      - text: It is legislation which expands the voluntary assumption of risk defence for defendants.
+        correct: true
+        why: >-
+          Right — the legislative reform box: some jurisdictions have enacted legislation which expands the voluntary
+          assumption of risk defence available to defendants — eg CLA s 5L.
+  - key: q067
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 2
+    stem: Under CLA s 5L(1), when is a defendant not liable in negligence?
+    options:
+      - text: For harm from any risk of a recreational activity that was the subject of a risk warning
+        why: >-
+          Tempting because risk warnings are another CLA recreational rule, but that is not s 5L. Section 5L turns on an
+          obvious risk of a dangerous recreational activity.
+      - text: >-
+          For harm from the materialisation of an obvious risk of a dangerous recreational activity engaged in by the
+          plaintiff
+        correct: true
+        why: >-
+          Right — s 5L(1): a defendant is not liable in negligence for harm suffered as a result of the materialisation
+          of an obvious risk of a dangerous recreational activity engaged in by the plaintiff.
+      - text: For harm from any risk in a sport that the plaintiff fully appreciated and voluntarily accepted
+        why: >-
+          Tempting because it describes common law volenti, but s 5L does not require full appreciation; s 5L(2) applies
+          whether or not the plaintiff was aware of the risk.
+      - text: For harm from an obvious risk of any activity, recreational or not, that the plaintiff knew of
+        why: >-
+          Wrong twice: s 5L is limited to dangerous recreational activities, and it does not depend on the plaintiff
+          knowing of the risk (s 5L(2)).
+  - key: q068
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 3
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    stem: >-
+      A plaintiff is hurt by the materialisation of an obvious risk of a dangerous recreational activity she was engaged
+      in, but she did not know of the risk. Which is right?
+    options:
+      - text: Neither s 5L nor volenti can apply, because both depend on what the plaintiff knew.
+        why: >-
+          Tempting because common law volenti does require knowledge, but s 5L(2) says the section applies whether or
+          not the plaintiff was aware of the risk.
+      - text: Section 5L can still apply, because it applies whether or not the plaintiff was aware of the risk.
+        correct: true
+        why: >-
+          Right — s 5L(2). This is why the flowchart treats s 5L as expanding the defence: common law volenti would fail
+          for want of knowledge, but s 5L does not need it.
+      - text: Section 5L applies only if the defendant proves she fully appreciated the specific risk that materialised.
+        why: >-
+          Tempting because that is the common law volenti test, but s 5L does not import it; s 5L(2) makes the
+          plaintiff's awareness irrelevant.
+      - text: Common law volenti applies instead, since an obvious risk is one she must have accepted.
+        why: >-
+          Wrong — volenti requires the plaintiff to have perceived, fully appreciated and voluntarily accepted the
+          specific risk; an unknown risk cannot be accepted in that way.
+  - key: q069
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 2
+    cases:
+      - tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd
+    stem: What does the flowchart cite Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454 for?
+    options:
+      - text: Guidance on applying provisions such as CLA s 5L
+        correct: true
+        why: >-
+          Right — the legislative reform box says: 'For guidance as to the application of these provisions, see Tapp v
+          Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454'.
+      - text: The rule that volenti does not extend to the general nature of a risk
+        why: >-
+          Tempting because it is on the volenti chart, but the flowchart states that rule without a case; Tapp is cited
+          only for guidance on applying the legislation.
+      - text: The exclusion of volenti for passengers who rely on intoxicated drivers
+        why: "Wrong box: the intoxicated drivers and passengers box cites Motor Accidents Act 1988 (NSW) s 76, not Tapp."
+      - text: The availability of illegality where no standard of care can be determined
+        why: "Wrong box: the illegality box cites Gala v Preston and Progress & Properties Ltd v Craft, not Tapp."
+  - key: q070
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 3
+    variant-of: q004
+    contrasts-with:
+      - intoxicated-plaintiff-cla-s50
+    stem: >-
+      Two plaintiffs: Amy, drunk by her own choice, falls on a negligently maintained stair; Ben, sober, is hurt as the
+      passenger of a drunk driver. Which pairing of flowchart boxes is right?
+    options:
+      - text: >-
+          Amy: intoxication (the s 50 presumption); Ben: intoxicated drivers and passengers (volenti reluctance and
+          exclusion).
+        correct: true
+        why: >-
+          Right — s 50 concerns the injured person's own intoxication (Amy); the volenti box concerns a passenger
+          relying on an intoxicated driver (Ben).
+      - text: "Amy: intoxicated drivers and passengers (volenti); Ben: intoxication (the s 50 presumption)."
+        why: >-
+          This swaps them. Ben was sober, so s 50 (which looks at the injured person's intoxication) does not fit him;
+          Amy was not a passenger.
+      - text: "Both: intoxication (the s 50 presumption), since alcohol played a part in each injury."
+        why: >-
+          Tempting because alcohol links them, but s 50 asks whether the person whose injury is in issue was
+          intoxicated; Ben was sober.
+      - text: "Both: intoxicated drivers and passengers (volenti), because each chose to be around alcohol."
+        why: >-
+          Wrong — the volenti box is about passengers relying on an intoxicated driver; Amy was not a passenger, and her
+          own intoxication engages s 50.
+  - key: q071
+    type: mcq
+    concept: volenti-and-legislation
+    difficulty: 2
+    variant-of: q064
+    stem: >-
+      A passenger sues a drunk driver who pleads volenti, arguing she knew he was drunk. On the flowchart, what is her
+      best answer?
+    options:
+      - text: Volenti cannot apply, because she did not fully appreciate that he was drunk.
+        why: >-
+          Tempting because full appreciation is needed, but the facts say she knew he was drunk; her better answer is
+          the courts' reluctance and the statutory exclusion.
+      - text: >-
+          Courts are generally reluctant to allow volenti against such passengers, and legislation in some jurisdictions
+          excludes it.
+        correct: true
+        why: >-
+          Right — this is the intoxicated drivers and passengers box, citing as an example Motor Accidents Act 1988
+          (NSW) s 76.
+      - text: Volenti cannot apply, because s 50 presumes the driver was negligent instead.
+        why: >-
+          Wrong — s 50 is about the injured person's own intoxication and presumes contributory negligence; it says
+          nothing about the driver's negligence.
+      - text: Volenti applies, but it only reduces her damages by her share of responsibility.
+        why: >-
+          Wrong — volenti is a complete defence when it applies; reductions by share of responsibility are contributory
+          negligence.
+  - key: q072
+    type: truefalse
+    concept: volenti-and-legislation
+    difficulty: 1
+    set: quickfire
+    statement: CLA s 5L applies whether or not the plaintiff was aware of the risk.
+    answer: true
+    why: >-
+      True — s 5L(2). This is how s 5L expands the defence: common law volenti needs full appreciation of the specific
+      risk, but s 5L does not depend on awareness.
+  - key: q073
+    type: truefalse
+    concept: volenti-and-legislation
+    difficulty: 1
+    set: quickfire
+    statement: The flowchart says courts readily allow the volenti defence against passengers who rely on an intoxicated driver.
+    answer: false
+    why: >-
+      False — the courts are generally reluctant to allow it, and legislation in some jurisdictions specifically
+      excludes it (eg Motor Accidents Act 1988 (NSW) s 76).
+  - key: q074
+    type: mcq
+    concept: illegality-defence
+    difficulty: 1
+    set: pretest
+    cases:
+      - gala-v-preston
+    stem: When does the flowchart say the defence of illegality is available?
+    options:
+      - text: Whenever the plaintiff was breaking some law at the time they were injured
+        why: >-
+          Tempting because the defence is called illegality, but the flowchart ties it to a joint criminal enterprise in
+          which no appropriate standard of care can be determined.
+      - text: Where plaintiff and defendant were in the criminal enterprise and no appropriate standard of care can be set
+        correct: true
+        why: >-
+          Right — where both were involved in the criminal enterprise and it would not be possible or feasible to
+          determine an appropriate standard of care, the defence is available (Gala v Preston).
+      - text: Where the plaintiff was hurt while committing a crime alone, whatever the standard of care
+        why: >-
+          Wrong — the flowchart speaks of the plaintiff and defendant being involved in the criminal enterprise
+          together, and the standard of care question is decisive.
+      - text: Where the plaintiff fully appreciated and accepted the risks of a criminal activity
+        why: >-
+          Tempting because illegality sits on the volenti chart, but full appreciation and acceptance is the volenti
+          test; illegality turns on the standard of care.
+  - key: q075
+    type: mcq
+    concept: illegality-defence
+    difficulty: 1
+    stem: Which case does the flowchart cite as an example of the illegality defence being available?
+    options:
+      - text: Progress & Properties Ltd v Craft
+        why: >-
+          Tempting because it is in the same box, but it is cited for the limit: illegality is not available where the
+          court can determine the relevant standard of care.
+      - text: ICI v Shatwell
+        why: >-
+          ICI v Shatwell is on the volenti chart, but under knowledge of risk (acceptance of materialisation), not
+          illegality.
+      - text: Gala v Preston
+        correct: true
+        why: >-
+          Right — the illegality box: 'In such cases, the courts have found that a defence of illegality is available to
+          the defendant – see, eg, Gala v Preston'.
+      - text: Pennington v Norris
+        why: >-
+          Pennington v Norris is a contributory negligence case on what is just and equitable — relative blameworthiness
+          — not illegality.
+  - key: q076
+    type: mcq
+    concept: illegality-defence
+    difficulty: 2
+    cases:
+      - progress-and-properties-ltd-v-craft
+    stem: When will the illegality defence NOT be available, according to the flowchart?
+    options:
+      - text: Where the criminal enterprise involved only a minor offence, such as a traffic offence
+        why: >-
+          Tempting as a seriousness threshold, but the flowchart draws the line at whether the court can determine the
+          relevant standard of care, not at the seriousness of the offence.
+      - text: Where the defendant, not the plaintiff, planned the criminal enterprise
+        why: >-
+          Tempting because it seems fairer to the plaintiff, but the flowchart does not turn on who planned the
+          enterprise; the standard of care question decides it.
+      - text: Where, on the facts, the court is able to determine the relevant standard of care
+        correct: true
+        why: >-
+          Right — the defence of illegality will not be available where, on the facts, the court is able to determine
+          the relevant standard of care (Progress & Properties Ltd v Craft).
+      - text: Where the plaintiff was never convicted of an offence arising from the enterprise
+        why: >-
+          Wrong — a conviction is not mentioned in the flowchart. The question is whether it is possible or feasible to
+          determine an appropriate standard of care.
+  - key: q077
+    type: mcq
+    concept: illegality-defence
+    difficulty: 3
+    stem: >-
+      Two friends steal a car together; one drives dangerously and crashes, injuring the other. On the flowchart, what
+      decides whether the driver can rely on illegality?
+    options:
+      - text: Whether the passenger fully appreciated and accepted the risk of a crash in a stolen car
+        why: >-
+          Tempting because illegality sits on the volenti chart, but full appreciation and acceptance is the volenti
+          test; illegality turns on the standard of care.
+      - text: Whether, on these facts, the court can determine an appropriate standard of care
+        correct: true
+        why: >-
+          Right — Gala v Preston (defence available where no appropriate standard can be set) and Progress & Properties
+          Ltd v Craft (not available where the standard can be determined).
+      - text: Whether the passenger was intoxicated when the two of them took the car
+        why: >-
+          Wrong box: the passenger's intoxication would engage s 50 (contributory negligence), not the illegality
+          defence.
+      - text: Whether car theft is a serious enough crime to bar any claim
+        why: >-
+          Tempting as a policy line, but the flowchart's test is not seriousness; it is whether it is possible or
+          feasible to determine an appropriate standard of care.
+  - key: q078
+    type: mcq
+    concept: illegality-defence
+    difficulty: 3
+    variant-of: q077
+    cases:
+      - progress-and-properties-ltd-v-craft
+    stem: >-
+      Same car theft, but the court finds it can determine the standard of care the driver owed on these facts. What
+      follows?
+    options:
+      - text: Illegality is still available, because they were in a criminal enterprise (Gala v Preston).
+        why: >-
+          Tempting because the joint enterprise is still there, but where the court can determine the relevant standard
+          of care, illegality is not available.
+      - text: Illegality is not available (Progress & Properties Ltd v Craft).
+        correct: true
+        why: >-
+          Right — the flowchart: the defence of illegality will not be available where, on the facts, the court is able
+          to determine the relevant standard of care.
+      - text: Illegality reduces the passenger's damages by a just and equitable share.
+        why: >-
+          Wrong — illegality is described as a defence that is either available or not; just and equitable reductions
+          belong to contributory negligence.
+      - text: Volenti automatically applies instead, because the passenger joined the crime.
+        why: >-
+          Wrong — volenti is never automatic. The defendant must show perception, full appreciation and voluntary
+          acceptance of the specific risk.
+  - key: q079
+    type: mcq
+    concept: illegality-defence
+    difficulty: 3
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    stem: Which statement correctly distinguishes illegality from volenti on the flowchart?
+    options:
+      - text: Both turn on full appreciation of a specific risk; illegality simply adds a crime.
+        why: >-
+          Tempting because both sit on the same chart, but illegality does not ask about appreciation of risk; it asks
+          whether a standard of care can be determined.
+      - text: >-
+          Illegality turns on whether a standard of care can be set in a joint criminal enterprise; volenti on
+          acceptance of a specific risk.
+        correct: true
+        why: >-
+          Right — illegality: no feasible standard of care between participants in the criminal enterprise (Gala v
+          Preston). Volenti: perceived, fully appreciated and voluntarily accepted specific risk.
+      - text: Illegality reduces the damages, while volenti defeats the claim completely.
+        why: >-
+          Wrong — the flowchart describes illegality as a defence available to the defendant, not as a reduction;
+          reductions are contributory negligence.
+      - text: Illegality is the statutory defence in CLA s 5L; volenti is the common law defence.
+        why: >-
+          Wrong — s 5L is the legislative reform box (obvious risks of dangerous recreational activities). The
+          illegality box cites cases, not a statute.
+  - key: q080
+    type: mcq
+    concept: illegality-defence
+    difficulty: 2
+    stem: >-
+      On the flowchart's account, why have courts allowed the illegality defence in some joint criminal enterprise
+      cases?
+    options:
+      - text: Because it would not be possible or feasible to determine an appropriate standard of care
+        correct: true
+        why: >-
+          Right — that is the reason the flowchart gives: in such cases the courts have often found it would not be
+          possible or feasible to determine an appropriate standard of care.
+      - text: Because the plaintiff is taken to have consented to every risk of the joint crime they took part in
+        why: >-
+          Tempting because illegality sits under volenti, but the flowchart gives the standard of care reason, and
+          volenti needs acceptance of a specific risk.
+      - text: Because public policy bars anyone who has committed a crime from suing
+        why: >-
+          Too broad: the flowchart says the defence is not available where the court can determine the relevant standard
+          of care (Progress & Properties Ltd v Craft).
+      - text: Because negligence cannot be proved where the parties were acting criminally
+        why: >-
+          Wrong — the flowchart does not say negligence is unprovable; it says courts may be unable to determine an
+          appropriate standard of care in a joint criminal enterprise.
+  - key: q081
+    type: truefalse
+    concept: illegality-defence
+    difficulty: 1
+    set: quickfire
+    statement: >-
+      According to the flowchart, the defence of illegality will not be available where, on the facts, the court is able
+      to determine the relevant standard of care.
+    answer: true
+    why: >-
+      True — this is the limit the flowchart states, citing Progress & Properties Ltd v Craft, after giving Gala v
+      Preston as an example of the defence being available.
+  - key: q082
+    type: truefalse
+    concept: illegality-defence
+    difficulty: 2
+    set: quickfire
+    statement: >-
+      The flowchart says illegality is available whenever the plaintiff was involved in any criminal activity at the
+      time of injury.
+    answer: false
+    why: >-
+      False — it concerns a plaintiff and defendant involved in the criminal enterprise together, and only where an
+      appropriate standard of care cannot be determined.
+  - key: q083
+    type: short
+    concept: contributory-negligence-apportionment-and-standard
+    difficulty: 3
+    cases:
+      - pennington-v-norris
+      - caswell-v-powell-duffryn-associated-collieries
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    prompt: >-
+      Hana crosses a busy road while looking at her phone and without checking for traffic. Ollie, driving well
+
+      over the speed limit, hits her. The evidence is that had Hana looked before stepping out she would have seen
+      Ollie's
+
+      car and waited. Ollie's negligence is admitted. Advise Ollie whether Hana's damages can be reduced.
+    model: >-
+      The issue is whether Hana was contributorily negligent, so that her damages are reduced. A finding of
+
+      contributory negligence results in a partial reduction in the damages otherwise recoverable, based on what is just
+      and
+
+      equitable having regard to her share in the responsibility for the damage (Law Reform (Miscellaneous Provisions)
+      Act
+
+      1965 (NSW) s 9(1)). Under CLA s 5R the principles of negligence apply to her own failure to take precautions: the
+
+      standard is a reasonable person in her position, judged on what she knew or ought to have known at the time. A
+
+      reasonable person crossing a busy road would check for traffic; Hana did not, and she ought to have known of the
+
+      risk. The causal requirement is met: had she looked she would have waited, so her lack of care is causally linked
+      to
+
+      her injury (Caswell v Powell Duffryn Associated Collieries). On what is just and equitable, the court examines the
+
+      whole conduct of each party and their relative blameworthiness (Pennington v Norris): Hana's inattention against
+
+      Ollie's heavy speeding. Conclusion: Hana is likely to be found contributorily negligent and her damages partially
+
+      reduced; the size of the reduction is for the court on that weighing. Volenti does not arise: nothing shows she
+
+      accepted a specific risk.
+    rubric:
+      - id: r1
+        criterion: "Identifies the issue: contributory negligence and its effect"
+        marks: 2
+        top-band: >-
+          States that contributory negligence results in a partial reduction on what is just and equitable (LRMPA s
+          9(1)), not a defeated claim.
+        margin-note: Good — you named the effect before the test.
+        authorities:
+          - law-reform-miscellaneous-provisions-act-1965-nsw-s9
+      - id: r2
+        criterion: States the s 5R standard and the causal requirement
+        marks: 3
+        top-band: >-
+          Quotes s 5R: reasonable person in her position, on what she knew or ought to have known; adds the causal link
+          (Caswell) with ordinary causation principles.
+        margin-note: "Both halves needed: standard and causation."
+        authorities:
+          - civil-liability-act-2002-nsw-s5r
+      - id: r3
+        criterion: Applies the standard, causation and relative blameworthiness
+        marks: 3
+        top-band: >-
+          Ties the phone and failure to look to the standard, uses the "would have waited" evidence for causation, and
+          weighs her inattention against his speeding (Pennington v Norris).
+        margin-note: This is where the marks are — weigh both parties' whole conduct.
+        authorities: []
+      - id: r4
+        criterion: Concludes and keeps volenti separate
+        marks: 2
+        top-band: >-
+          Concludes a partial reduction is likely without inventing a percentage, and notes volenti does not arise on
+          these facts.
+        margin-note: Sensible not to guess a figure the materials do not give.
+        authorities: []
+  - key: q084
+    type: short
+    concept: contributory-negligence-employees-emergencies-rescuers
+    difficulty: 3
+    cases:
+      - avram-v-gusakoski
+      - caterson-v-commissioner-for-railways
+      - mclean-v-tedman
+    prompt: >-
+      Fixit Pty Ltd negligently installs a gas line in a café kitchen. During a busy lunch service the line
+
+      ruptures and the kitchen fills with gas. Zara, a cook, believes an explosion is about to happen and jumps out
+      through
+
+      a closed window, cutting herself badly. The gas never ignites, and the door two metres away was clear. Fixit
+      argues
+
+      Zara was contributorily negligent in choosing the window. Advise Zara.
+    model: >-
+      The issue is whether Zara's leap through the window is contributory negligence reducing her damages. A
+
+      finding of contributory negligence results in a partial reduction on what is just and equitable, and under CLA s
+      5R
+
+      her conduct is measured against a reasonable person in her position, on what she knew or ought to have known at
+      the
+
+      time. The flowchart's agony of the moment principle answers Fixit: action that may be considered to demonstrate a
+      lack
+
+      of reasonable care for the plaintiff's own safety may not amount to contributory negligence where it can be
+      justified
+
+      in a situation of perceived emergency (Avram v Gusakoski; Caterson v Commissioner for Railways). The emergency
+      here
+
+      was perceived and real enough: a ruptured gas line filling the kitchen, created by Fixit's negligence. That the
+      gas
+
+      did not ignite and the door was clear are hindsight; the question is whether her action can be justified in the
+
+      emergency as she perceived it. The employment context may also be taken into account — the urgency and
+      preoccupation
+
+      of a busy service (McLean v Tedman). Conclusion: Zara has a strong argument that choosing the window was not
+
+      contributory negligence, so her damages should not be reduced, though the court will decide whether her action was
+
+      justified.
+    rubric:
+      - id: r1
+        criterion: Identifies the contributory negligence issue and its effect
+        marks: 2
+        top-band: >-
+          Frames the question as whether the leap is contributory negligence, with its partial reduction on what is just
+          and equitable.
+        margin-note: Clear issue statement.
+        authorities:
+          - law-reform-miscellaneous-provisions-act-1965-nsw-s9
+      - id: r2
+        criterion: States the agony of the moment principle with authority
+        marks: 3
+        top-band: >-
+          Uses the flowchart wording — may not amount to contributory negligence where justified in a situation of
+          perceived emergency — citing Avram v Gusakoski and Caterson.
+        margin-note: Right box, right cases.
+        authorities:
+          - civil-liability-act-2002-nsw-s5r
+      - id: r3
+        criterion: Applies the principle to the perceived emergency
+        marks: 3
+        top-band: >-
+          Explains why the emergency was perceived (rupture, gas filling the room) and why the clear door and lack of
+          ignition are hindsight; adds the employment context.
+        margin-note: Good use of "perceived" — the test is not hindsight.
+        authorities: []
+      - id: r4
+        criterion: Concludes
+        marks: 2
+        top-band: >-
+          Concludes Zara has a strong argument against any reduction while recognising the court decides whether the
+          action was justified.
+        margin-note: Measured conclusion.
+        authorities: []
+  - key: q085
+    type: short
+    concept: intoxicated-plaintiff-cla-s50
+    difficulty: 4
+    prompt: >-
+      Ravi drinks six beers at a club (his own choice) and his capacity to take care is impaired. Walking to the
+
+      exit he falls down a stairwell whose lights the club negligently left broken. Two sober patrons also fell on the
+      same
+
+      stairs that night. Ravi was unsteady on his feet when he fell. Advise the club on the effect of CLA s 50.
+    model: >-
+      The issue is how CLA s 50 affects Ravi's damages. Section 50 applies because, at the time of the fall, he was
+
+      intoxicated to the extent that his capacity to exercise reasonable care and skill was impaired (s 50(1)). It is
+      not
+
+      displaced by s 50(5): he drank by his own choice, so the intoxication was self-induced. Under s 50(2) the court
+      may
+
+      award damages only if satisfied the injury (or some other injury) is likely to have occurred even if Ravi had not
+      been
+
+      intoxicated. The two sober patrons who fell on the same unlit stairs are strong evidence that it would have, so
+      the
+
+      gate is likely passed. Then s 50(3) presumes Ravi was contributorily negligent unless the court is satisfied his
+
+      intoxication did not contribute in any way to the cause. His unsteadiness makes that hard to show. The presumption
+
+      therefore likely applies, and under s 50(4) his damages must be reduced by 25% or a greater percentage the court
+
+      determines to be appropriate. Conclusion: the club should argue for the s 50 presumption and a reduction of at
+      least
+
+      25%; it cannot use s 50(2) to defeat the claim, because the harm was likely anyway.
+    rubric:
+      - id: r1
+        criterion: Identifies the trigger and the self-induced exception
+        marks: 2
+        top-band: Applies s 50(1) (impaired capacity) and checks s 50(5) (self-induced) before going further.
+        margin-note: "Good order: trigger, then exception."
+        authorities:
+          - civil-liability-act-2002-nsw-s50
+      - id: r2
+        criterion: Applies the s 50(2) gate
+        marks: 3
+        top-band: >-
+          States the "likely to have occurred even if not intoxicated" test and uses the sober patrons as evidence that
+          it is met.
+        margin-note: The sober patrons are the key fact — well used.
+        authorities:
+          - civil-liability-act-2002-nsw-s50
+      - id: r3
+        criterion: Applies the s 50(3) presumption and its rebuttal
+        marks: 3
+        top-band: >-
+          Explains the presumption and why Ravi cannot easily show his intoxication did not contribute in any way
+          (unsteadiness).
+        margin-note: Note the rebuttal is "in any way" — a high bar.
+        authorities:
+          - civil-liability-act-2002-nsw-s50
+      - id: r4
+        criterion: States the s 50(4) reduction and concludes
+        marks: 2
+        top-band: Gives the 25%-or-greater floor and advises the club accordingly, noting s 50(2) will not defeat the claim.
+        margin-note: Clear advice to the client.
+        authorities:
+          - civil-liability-act-2002-nsw-s50
+  - key: q086
+    type: short
+    concept: voluntary-assumption-of-risk
+    difficulty: 3
+    cases:
+      - banovic-v-perkovic
+      - carey-v-lake-macquarie-city-council
+      - ici-v-shatwell
+    contrasts-with:
+      - contributory-negligence-apportionment-and-standard
+    prompt: >-
+      Mel, an experienced indoor climber, uses an automatic belay device at Summit Gym. Staff negligently failed
+
+      to carry out the scheduled inspection, and the device fails, dropping her three metres. Mel had often said
+      "climbing
+
+      always carries a risk of falling". Summit pleads voluntary assumption of risk. Ignoring the Civil Liability Act,
+
+      advise Mel.
+    model: >-
+      The issue is whether Summit can establish volenti non fit injuria, which operates as a complete defence to
+
+      negligence. The essence of the defence is the plaintiff's willingness to assume a risk she knew existed in a
+      particular
+
+      activity. Summit must show that Mel not only perceived the existence of the risk, but fully appreciated its nature
+      and
+
+      extent and voluntarily accepted that specific risk. The defence is narrowly confined to the specific risk and does
+      not
+
+      extend to an awareness of the general nature of the risk. Mel must have fully appreciated the nature and likely
+
+      manifestation of the risk (Banovic v Perkovic; Carey v Lake Macquarie City Council), and effective knowledge
+      extends
+
+      beyond the mere existence of a risk to an acceptance of its materialisation (Carey; ICI v Shatwell). The specific
+      risk
+
+      that materialised was failure of an uninspected belay device. Mel's statement shows only awareness of the general
+
+      nature of the risk of falling in climbing; nothing shows she knew the inspection had been missed, let alone
+      accepted
+
+      that the device might fail. Conclusion: the volenti defence is likely to fail. Summit's better argument, if any
+      facts
+
+      support it, would be contributory negligence, which only reduces damages.
+    rubric:
+      - id: r1
+        criterion: Identifies volenti and its effect
+        marks: 2
+        top-band: Names volenti as a complete defence and states its essence (willingness to assume a known risk).
+        margin-note: Good — effect stated up front.
+        authorities: []
+      - id: r2
+        criterion: States the three-part test and the specific-risk limit
+        marks: 3
+        top-band: >-
+          Perceived, fully appreciated nature and extent, voluntarily accepted the specific risk; not the general nature
+          of the risk.
+        margin-note: Exactly the flowchart test.
+        authorities: []
+      - id: r3
+        criterion: Applies the knowledge cases to the specific risk
+        marks: 3
+        top-band: >-
+          Identifies the specific risk (uninspected device failing) and uses Banovic, Carey and ICI v Shatwell to show
+          general awareness of falling is not enough.
+        margin-note: Separating the general from the specific risk is the key move.
+        authorities: []
+      - id: r4
+        criterion: Concludes and distinguishes contributory negligence
+        marks: 2
+        top-band: Concludes volenti is likely to fail and notes contributory negligence as the partial alternative.
+        margin-note: Neat contrast with the partial defence.
+        authorities: []
+  - key: q087
+    type: short
+    concept: volenti-and-legislation
+    difficulty: 4
+    cases:
+      - tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    prompt: >-
+      Ivy goes on her first trail-bike ride at a commercial park in NSW. The park negligently fails to mark a ditch
+
+      across the track; her bike hits it and she is thrown. Ivy had no idea such ditches existed. Assume a court would
+      find
+
+      that trail-bike riding here was a dangerous recreational activity and that the ditch was an obvious risk of it.
+      Advise
+
+      the park on (a) common law voluntary assumption of risk and (b) CLA s 5L.
+    model: >-
+      (a) Volenti non fit injuria is a complete defence, but the park must show Ivy perceived the risk, fully
+
+      appreciated its nature and extent and voluntarily accepted that specific risk; the defence does not extend to an
+
+      awareness of the general nature of the risk. Effective knowledge requires more than the risk's existence — an
+
+      acceptance of its materialisation. Ivy had no idea ditches existed, so she could not have perceived, appreciated
+      or
+
+      accepted the specific risk. Volenti fails.
+
+
+      (b) The textbook flowchart notes that some jurisdictions have legislation that expands the voluntary assumption of
+
+      risk defence, eg CLA s 5L. Under s 5L(1) a defendant is not liable in negligence for harm suffered as a result of
+      the
+
+      materialisation of an obvious risk of a dangerous recreational activity engaged in by the plaintiff, and under s
+      5L(2)
+
+      this applies whether or not the plaintiff was aware of the risk. On the assumed findings, Ivy's harm resulted from
+      the
+
+      materialisation of an obvious risk of a dangerous recreational activity she was engaged in, and her ignorance of
+      the
+
+      risk does not matter. For guidance on applying the provision, see Tapp v Australian Bushmen's Campdraft & Rodeo
+
+      Association Ltd (2022) 273 CLR 454. Conclusion: the park is not liable under s 5L, although common law volenti
+      would
+
+      fail.
+    rubric:
+      - id: r1
+        criterion: Applies common law volenti
+        marks: 3
+        top-band: States the three-part test and specific-risk limit and shows Ivy's ignorance defeats it.
+        margin-note: Correctly fails volenti on knowledge.
+        authorities: []
+      - id: r2
+        criterion: States s 5L(1) and s 5L(2) accurately
+        marks: 3
+        top-band: >-
+          Quotes the obvious risk of a dangerous recreational activity and the "whether or not the plaintiff was aware"
+          limb.
+        margin-note: Precise statutory wording earns these marks.
+        authorities:
+          - civil-liability-act-2002-nsw-s5l
+      - id: r3
+        criterion: Explains how s 5L expands the defence
+        marks: 2
+        top-band: Contrasts s 5L(2) with the common law knowledge requirement and cites Tapp for guidance on application.
+        margin-note: Good — this is the point of the legislative reform box.
+        authorities:
+          - civil-liability-act-2002-nsw-s5l
+      - id: r4
+        criterion: Concludes on both limbs
+        marks: 2
+        top-band: Concludes volenti fails but s 5L removes liability on the assumed findings.
+        margin-note: Two answers, two conclusions — well organised.
+        authorities: []
+  - key: q088
+    type: short
+    concept: illegality-defence
+    difficulty: 4
+    cases:
+      - gala-v-preston
+      - progress-and-properties-ltd-v-craft
+    contrasts-with:
+      - voluntary-assumption-of-risk
+    prompt: |-
+      Ash and Bo break into a closed factory at night to steal copper cable. As they run from a security patrol,
+      Bo, carrying a heavy reel, drops it on Ash's foot, breaking it. Ash sues Bo in negligence. Bo pleads illegality.
+      Advise on the illegality defence as the textbook flowchart frames it.
+    model: >-
+      The issue is whether Bo can rely on the defence of illegality. The flowchart says that where the plaintiff
+
+      has been injured and the plaintiff and defendant were involved in the criminal enterprise, the courts have often
+      found
+
+      that it would not be possible or feasible to determine an appropriate standard of care, and in such cases a
+      defence of
+
+      illegality is available to the defendant (Gala v Preston). However, the defence will not be available where, on
+      the
+
+      facts, the court is able to determine the relevant standard of care (Progress & Properties Ltd v Craft). Ash and
+      Bo
+
+      were jointly engaged in a theft, and the injury happened as they fled — both within the criminal enterprise. Bo
+      will
+
+      argue that no appropriate standard of care can be set for two thieves running from security in the dark. Ash will
+
+      argue that dropping a reel is ordinary carelessness, and the court can set the standard of care a person carrying
+      a
+
+      heavy load owes to the person beside them. Conclusion: the answer turns on whether the court can determine a
+      standard
+
+      of care on these facts; if it cannot, Bo has the defence, and if it can, the defence is not available. Volenti is
+      a
+
+      separate question: it needs acceptance of a specific risk.
+    rubric:
+      - id: r1
+        criterion: Identifies illegality and the joint criminal enterprise
+        marks: 2
+        top-band: Recognises both parties were involved in the criminal enterprise when Ash was hurt.
+        margin-note: Right starting point.
+        authorities: []
+      - id: r2
+        criterion: States the rule and its limit with authority
+        marks: 3
+        top-band: >-
+          Gala v Preston for availability where no appropriate standard can be set; Progress & Properties Ltd v Craft
+          for the limit.
+        margin-note: Both cases, both directions.
+        authorities: []
+      - id: r3
+        criterion: Argues the standard of care question both ways
+        marks: 3
+        top-band: Builds Bo's argument (flight, dark, joint crime) and Ash's (ordinary carelessness, standard can be set).
+        margin-note: Good balance — this is the hinge.
+        authorities: []
+      - id: r4
+        criterion: Concludes and keeps volenti distinct
+        marks: 2
+        top-band: States that the outcome turns on the standard of care finding and distinguishes volenti.
+        margin-note: "Honest conclusion: the test, not the crime, decides it."
+        authorities: []
+pretest:
+  - q001
+  - q014
+  - q042
+  - q053
+  - q074
+cards:
+  - type: basic
+    concept: defences-to-negligence-flowchart
+    front: What is the effect of a finding of contributory negligence?
+    back: >-
+      A partial reduction in the damages otherwise recoverable, based on what is just and equitable having regard to the
+      plaintiff's share in the responsibility for the damage.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: basic
+    concept: defences-to-negligence-flowchart
+    front: What is the effect of voluntary assumption of risk (volenti non fit injuria), if established?
+    back: It operates as a complete defence to negligence.
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: cloze
+    concept: defences-to-negligence-flowchart
+    text: >-
+      The contributory negligence flowchart's general principles: what is {{c1::just and equitable}}; relevant
+      {{c2::standard of care}}; {{c3::causal requirement}}; momentary thoughtlessness by employees; agony of the moment;
+      rescuers; intoxication.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: cloze
+    concept: defences-to-negligence-flowchart
+    text: >-
+      The volenti flowchart's general principles: {{c1::knowledge of risk}}; {{c2::intoxicated drivers and passengers}};
+      {{c3::legislative reform}}; {{c4::illegality}}.
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: basic
+    concept: contributory-negligence-apportionment-and-standard
+    front: Which statute does the flowchart cite for the just and equitable reduction for contributory negligence?
+    back: >-
+      Law Reform (Miscellaneous Provisions) Act 1965 (NSW) s 9(1), and its equivalents in other Australian states and
+      territories.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: basic
+    concept: contributory-negligence-apportionment-and-standard
+    front: Which cases does the flowchart cite on the meaning of contributory negligence?
+    back: Davies v Swan Motor Co (Swansea) Ltd and Jones v Livox Quarries Ltd.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: cloze
+    concept: contributory-negligence-apportionment-and-standard
+    text: >-
+      CLA s 5R(2): the standard of care required of the person who suffered harm is that of a {{c1::reasonable person in
+      the position of that person}}, determined on the basis of what that person {{c2::knew or ought to have known}} at
+      the time.
+    source: Civil Liability Act 2002 (NSW) s 5R(2)
+  - type: basic
+    concept: contributory-negligence-apportionment-and-standard
+    front: What does the flowchart (citing Pennington v Norris) say decides what is 'just and equitable'?
+    back: Examining the whole conduct of each of the negligent parties and considering the relative blameworthiness of each.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: basic
+    concept: contributory-negligence-apportionment-and-standard
+    front: What causal requirement applies to contributory negligence?
+    back: >-
+      A causal link between the plaintiff's lack of care for their own safety and their injury must be established
+      (Caswell v Powell Duffryn Associated Collieries); ordinary principles of causation apply.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: apply
+    concept: contributory-negligence-apportionment-and-standard
+    scenario: >-
+      A pedestrian steps onto a road without looking and is hit by a speeding driver. Looking would have avoided the
+      collision.
+    answer: >-
+      Contributory negligence: she fell below the s 5R standard; her lack of care caused the injury (Caswell); the
+      reduction is what is just and equitable, weighing both parties' whole conduct (Pennington v Norris).
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: basic
+    concept: contributory-negligence-employees-emergencies-rescuers
+    front: >-
+      In the employment context, what may be taken into account in deciding whether an employee was contributorily
+      negligent?
+    back: >-
+      Inattention bred of familiarity and repetition, the urgency of the task, the plaintiff's preoccupation with the
+      matter in hand, and other prevailing conditions (McLean v Tedman; Staveley Iron and Chemical Co v Jones).
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: cloze
+    concept: contributory-negligence-employees-emergencies-rescuers
+    text: >-
+      Action that may seem to show a lack of reasonable care for the plaintiff's own safety may not amount to
+      contributory negligence where it can be justified in a situation of {{c1::perceived emergency}} — the {{c2::agony
+      of the moment}}.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: basic
+    concept: contributory-negligence-employees-emergencies-rescuers
+    front: Which cases does the flowchart cite for the agony of the moment?
+    back: Avram v Gusakoski; Caterson v Commissioner for Railways.
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: basic
+    concept: contributory-negligence-employees-emergencies-rescuers
+    front: Who is a 'good samaritan' under CLA s 56?
+    back: >-
+      A person who, in good faith and without expectation of payment or other reward, comes to the assistance of a
+      person who is apparently injured or at risk of being injured.
+    source: Civil Liability Act 2002 (NSW) s 56
+  - type: apply
+    concept: contributory-negligence-employees-emergencies-rescuers
+    scenario: >-
+      A process worker who has done the same task thousands of times reaches into an unguarded press while rushing an
+      urgent order.
+    answer: >-
+      Contributory negligence is in issue, but inattention bred of familiarity and repetition and the urgency of the
+      task may be taken into account (McLean v Tedman; Staveley Iron and Chemical Co v Jones).
+    source: Tort Law Principles 3e, p 478 (flowchart)
+  - type: cloze
+    concept: intoxicated-plaintiff-cla-s50
+    text: >-
+      CLA s 50 applies where the person was intoxicated to the extent that the person's {{c1::capacity to exercise
+      reasonable care and skill}} was impaired.
+    source: Civil Liability Act 2002 (NSW) s 50(1)
+  - type: basic
+    concept: intoxicated-plaintiff-cla-s50
+    front: Under CLA s 50(2), when may a court award damages to an intoxicated person?
+    back: >-
+      Only if satisfied that the death, injury or damage (or some other injury or damage) is likely to have occurred
+      even if the person had not been intoxicated.
+    source: Civil Liability Act 2002 (NSW) s 50(2)
+  - type: basic
+    concept: intoxicated-plaintiff-cla-s50
+    front: What does CLA s 50(3) presume, and how is the presumption displaced?
+    back: >-
+      That the person was contributorily negligent — unless the court is satisfied that the person's intoxication did
+      not contribute in any way to the cause of the death, injury or damage.
+    source: Civil Liability Act 2002 (NSW) s 50(3)
+  - type: cloze
+    concept: intoxicated-plaintiff-cla-s50
+    text: >-
+      Under CLA s 50(4), where contributory negligence is presumed, damages are reduced by {{c1::25%}} or a
+      {{c2::greater percentage}} determined by the court to be appropriate.
+    source: Civil Liability Act 2002 (NSW) s 50(4)
+  - type: basic
+    concept: intoxicated-plaintiff-cla-s50
+    front: When does CLA s 50 not apply at all?
+    back: Where the court is satisfied that the intoxication was not self-induced (s 50(5)).
+    source: Civil Liability Act 2002 (NSW) s 50(5)
+  - type: apply
+    concept: intoxicated-plaintiff-cla-s50
+    scenario: >-
+      A self-intoxicated plaintiff with impaired capacity trips on a negligently unlit step; the court finds he would
+      likely have tripped even sober, and cannot say his intoxication made no contribution.
+    answer: >-
+      Section 50 applies; s 50(2) is passed; contributory negligence is presumed (s 50(3)); damages are reduced by 25%
+      or more (s 50(4)).
+    source: Civil Liability Act 2002 (NSW) s 50
+  - type: basic
+    concept: voluntary-assumption-of-risk
+    front: What must the defendant show to establish volenti?
+    back: >-
+      That the plaintiff not only perceived the existence of the risk, but fully appreciated the nature and extent of
+      that risk and voluntarily accepted that specific risk.
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: cloze
+    concept: voluntary-assumption-of-risk
+    text: >-
+      The volenti defence is narrowly confined to the {{c1::specific risk}} and does not extend to an awareness of the
+      {{c2::general nature}} of the risk.
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: basic
+    concept: voluntary-assumption-of-risk
+    front: What does 'effective knowledge' of a risk require for volenti?
+    back: >-
+      More than the mere existence of a risk: an acceptance of materialisation of that risk (Carey v Lake Macquarie City
+      Council; ICI v Shatwell).
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: apply
+    concept: voluntary-assumption-of-risk
+    scenario: >-
+      A quad-bike tourist knows quad bikes can roll. His bike's negligently maintained brakes fail on a hill. The
+      operator pleads volenti.
+    answer: >-
+      Likely fails: awareness of the general nature of the risk (rollovers) is not perception, full appreciation and
+      acceptance of the specific risk that materialised (brake failure).
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: basic
+    concept: volenti-and-legislation
+    front: What does the flowchart say about volenti against passengers who rely on an intoxicated driver?
+    back: >-
+      Courts are generally reluctant to allow it, and legislation in some jurisdictions specifically excludes it — eg
+      Motor Accidents Act 1988 (NSW) s 76.
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: cloze
+    concept: volenti-and-legislation
+    text: >-
+      CLA s 5L(2): the section applies {{c1::whether or not the plaintiff was aware of the risk}} — which is how it
+      expands the voluntary assumption of risk defence.
+    source: Civil Liability Act 2002 (NSW) s 5L(2)
+  - type: basic
+    concept: volenti-and-legislation
+    front: What does the flowchart cite Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454 for?
+    back: >-
+      Guidance as to the application of legislation, such as CLA s 5L, that expands the voluntary assumption of risk
+      defence.
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: basic
+    concept: illegality-defence
+    front: When does the flowchart say the defence of illegality is available?
+    back: >-
+      Where the plaintiff and defendant were involved in the criminal enterprise and it would not be possible or
+      feasible to determine an appropriate standard of care (Gala v Preston).
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: basic
+    concept: illegality-defence
+    front: When is the illegality defence not available?
+    back: >-
+      Where, on the facts, the court is able to determine the relevant standard of care (Progress & Properties Ltd v
+      Craft).
+    source: Tort Law Principles 3e, p 479 (flowchart)
+  - type: apply
+    concept: illegality-defence
+    scenario: >-
+      Two people steal a car together; the driver crashes and injures the passenger, who sues. The driver pleads
+      illegality.
+    answer: >-
+      Turns on whether the court can determine an appropriate standard of care on these facts: if not, the defence is
+      available (Gala v Preston); if it can, it is not (Progress & Properties Ltd v Craft).
+    source: Tort Law Principles 3e, p 479 (flowchart)
+audio:
+  title: Week 12 recap — defences to negligence
+  minutes: 3
+  script: >-
+    This week is defences to negligence, and our only source is the textbook's two flowcharts, read with the
+
+    Civil Liability Act. Contributory
+
+    negligence reduces the damages. Voluntary assumption of risk defeats the claim.
+
+
+    Start with contributory negligence. A finding of contributory negligence results in a partial reduction in the
+    damages
+
+    otherwise recoverable, based on what is just and equitable having regard to the plaintiff's share in the
+
+    responsibility for the damage. That is the Law Reform (Miscellaneous Provisions) Act, section 9(1). On what it
+    means,
+
+    the flowchart points to Davies v Swan Motor Co and Jones v Livox Quarries. Three questions do the work. First, the
+
+    standard: section 5R of the Civil Liability Act applies the ordinary principles of negligence, so we ask what a
+
+    reasonable person in the plaintiff's position would have done, on what they knew or ought to have known at the time.
+
+    Second, causation: the plaintiff's lack of care must be causally linked to the injury, Caswell v Powell Duffryn, on
+
+    ordinary principles. Third, the size of the reduction: look at the whole conduct of each party and their relative
+
+    blameworthiness, Pennington v Norris.
+
+
+    Some situations soften the picture. For employees, inattention bred of familiarity and repetition, the urgency of
+    the
+
+    task and preoccupation with the work may be taken into account, McLean v Tedman and Staveley Iron v Jones. In the
+
+    agony of the moment, action justified in a perceived emergency may not be contributory negligence, Avram v
+    Gusakoski.
+
+    Rescuers get statutory protection: in New South Wales, section 56 defines a good samaritan.
+
+
+    Intoxication has its own rule in section 50. If the plaintiff's capacity for care was impaired by self-induced
+
+    intoxication, there are no damages unless the harm was likely anyway. If it was, contributory negligence is presumed
+
+    unless the intoxication did not contribute in any way, and damages fall by at least twenty-five per cent.
+
+
+    Now voluntary assumption of risk. It is a complete defence, and a narrow one. The defendant must show the plaintiff
+
+    perceived the risk, fully appreciated its nature and extent, and voluntarily accepted that specific risk. Knowing
+    the
+
+    general nature of the risk is not enough: Banovic v Perkovic, Carey v Lake Macquarie, ICI v Shatwell. Courts are
+
+    reluctant to apply it to passengers of drunk drivers, and some legislation excludes it. Section 5L goes the other
+    way:
+
+    no liability for an obvious risk of a dangerous recreational activity, whether or not the plaintiff knew of it, with
+
+    Tapp for guidance. Finally, illegality: in a joint criminal enterprise where no standard of care can be set, the
+
+    defence is available, Gala v Preston; where one can be set, it is not, Progress and Properties v Craft.

@@ -1,0 +1,20 @@
+---
+// Served by Cloudflare for any unknown path (wrangler.jsonc: assets.not_found_handling = "404-page").
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Page not found">
+  <p class="label">Not found</p>
+  <h1>This page isn’t here</h1>
+  <p class="nf-lede">The address may be mistyped, or that week may not be in yet. The ≡ menu lists every unit and week.</p>
+  <p class="nf-actions">
+    <a class="btn btn--primary" href="/">Go to your units</a>
+    <a class="btn btn--ghost" href="/map">Knowledge map</a>
+    <a class="btn btn--ghost" href="/search" data-palette-open>Search</a>
+  </p>
+</Layout>
+
+<style>
+  .nf-lede { color: var(--ink-2); }
+  .nf-actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-6); }
+</style>

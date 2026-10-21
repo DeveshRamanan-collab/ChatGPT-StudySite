@@ -1,0 +1,14 @@
+code: LAWS2100
+name: Jurisprudence
+exam-date: 2026-11-14
+weeks-expected: 12
+answer-style: essay   # thesis–argument–counterargument–evaluation
+# Exam (final timetable, 20 Oct 2026): single source for every exam-dependent feature (scripts/units.mjs writes src/content/units/ from this).
+exam:
+  start: 2026-11-14T14:00:00+11:00   # Australia/Sydney (AEDT, UTC+11)
+  duration-min: 165
+  mode: On-campus invigilated face-to-face exam
+  venue: North Ryde campus
+  notes: "Exam format not yet published on iLearn. Room and seat numbers released 1 pm Wed 4 Nov 2026; bring photo ID."
+  status: final
+  source: "Macquarie University Session 2 2026 Final Exam Timetable (student 48883824), screenshot supplied by the student 20 Oct 2026 — raw/laws2100-juris/assessment/Exam - Final Exam Timetable S2 2026 (screenshot 20 Oct 2026).webp."

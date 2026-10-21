@@ -1,0 +1,247 @@
+/* Decision flows: src/components/flows/*, src/pages/[unit]/flows.astro, src/pages/[unit]/flow/[slug].astro.
+   Ink on paper. The primary action is the one accent; sage / clay mark outcomes and ordering feedback, always beside
+   a glyph and a word. Motion: transform / opacity only, ≤ 240ms; Calm fades only; Off fades ≤ 120ms. */
+
+/* ---------- Page chrome ---------- */
+.flow-page__summary, .flows-index__lede { color: var(--ink-2); max-width: var(--measure); }
+.flow-page__verify { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); max-width: var(--measure); }
+.flow-page__more { margin-top: var(--s-8); max-width: var(--measure); }
+.flow-page__more h2 { font-size: var(--t-lg); margin: var(--s-6) 0 var(--s-3); }
+.flow-page__chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin: 0; }
+.flow-page__sources { margin-top: var(--s-6); font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.flow-page__sources summary {
+  display: inline-flex; align-items: center; min-height: 44px; cursor: pointer; color: var(--ink); border-radius: var(--r-sm);
+  transition: transform var(--dur-press) var(--ease-out);
+}
+.flow-page__sources summary:active { transform: scale(.97); }
+.flow-page__sources summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.flow-page__sources ul { margin: var(--s-2) 0 0; }
+.flow-page__all { margin-top: var(--s-5); font-family: var(--font-ui); font-size: var(--t-sm); }
+
+/* ---------- Index ---------- */
+.flows-index__week { margin-top: var(--s-7); max-width: var(--measure); }
+.flows-index__week h2 { font-size: var(--t-xl); margin: 0 0 var(--s-3); }
+.flows-index__list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.flows-index__item { border-bottom: 1px solid var(--line); }
+.flows-index__link {
+  display: grid; gap: var(--s-1); padding: var(--s-4) var(--s-3); margin-inline: calc(-1 * var(--s-3)); border-radius: var(--r-md);
+  text-decoration: none; color: var(--ink);
+  transition: background-color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) { .flows-index__link:hover { background: var(--paper-2); } .flows-index__link:hover .flows-index__title { text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: 1px; } }
+.flows-index__link:active { transform: scale(.97); }
+.flows-index__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.flows-index__title { font-size: var(--t-lg); font-weight: 600; line-height: 1.3; }
+.flows-index__summary { color: var(--ink-2); line-height: var(--lh-body); }
+.flows-index__meta { font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+.flows-index__empty { color: var(--ink-2); }
+
+/* ---------- Island ---------- */
+.flow { margin-top: var(--s-6); }
+.flow__tabs { max-width: var(--measure); }
+.flow__panel { padding-top: var(--s-5); }
+
+/* Shared: outcome tone (glyph + word), exception marker, a node's note */
+.flow-tone { display: inline-flex; align-items: center; gap: var(--s-1); font-family: var(--font-ui); font-size: var(--t-sm); font-weight: 600; color: var(--ink); }
+.flow-tone[data-tone='met'] > [aria-hidden] { color: var(--sage); }
+.flow-tone[data-tone='not-met'] > [aria-hidden] { color: var(--clay); }
+.flow-tone[data-tone='qualified'] > [aria-hidden] { color: var(--ink-2); }
+.flow-exception {
+  display: inline-flex; align-items: center; padding: 1px var(--s-2); border: 1px dashed var(--ink-2); border-radius: var(--r-pill);
+  font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 500; letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--ink);
+}
+.flow-note__text { margin: 0 0 var(--s-3); }
+.flow-note__chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin: 0 0 var(--s-3); }
+.flow-note__ref { font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); align-self: center; }
+.flow-note__concept { margin: 0; font-family: var(--font-ui); font-size: var(--t-sm); display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: baseline; }
+.flow-note__concept a { display: inline-block; padding-block: 4px; }
+.flow-note > :last-child { margin-bottom: 0; }
+
+/* ---------- Walk ---------- */
+.flow-walk { display: grid; gap: var(--s-7); }
+.flow-walk__main { min-width: 0; max-width: var(--measure); }
+.flow-walk__aside { display: none; }
+@media (min-width: 1100px) {
+  .flow-walk { grid-template-columns: minmax(0, var(--measure)) minmax(220px, 300px); align-items: start; justify-content: space-between; }
+  .flow-walk__aside { display: block; position: sticky; top: calc(var(--nav-h) + var(--s-5)); }
+}
+.flow-walk__aside .label { margin: 0 0 var(--s-2); }
+
+/* The reasoning path: answered questions, oldest first, joined by a hairline. */
+.flow-walk__trail ol { position: relative; list-style: none; margin: 0 0 var(--s-4); padding: 0; display: grid; gap: 2px; }
+.flow-walk__trail ol::before { content: ''; position: absolute; left: 11.5px; top: 22px; bottom: 22px; border-left: 1px solid var(--line); }
+.flow-walk__crumb {
+  display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; align-items: center; gap: var(--s-3); width: 100%; min-height: 44px;
+  padding: var(--s-1) var(--s-2) var(--s-1) 0; border: 0; border-radius: var(--r-sm); background: none; color: var(--ink-2); cursor: pointer;
+  font-family: var(--font-ui); font-size: var(--t-sm); line-height: var(--lh-ui); text-align: left;
+  transition: background-color var(--dur-micro) var(--ease-hover), color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) { .flow-walk__crumb:hover { background: var(--paper-2); color: var(--ink); } }
+.flow-walk__crumb:active { transform: scale(.97); }
+.flow-walk__crumb:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.flow-walk__crumb-n {
+  position: relative; display: grid; place-items: center; width: 24px; height: 24px; border: 1px solid var(--line); border-radius: 50%;
+  background: var(--paper); font-size: var(--t-xs); color: var(--ink-2);
+}
+.flow-walk__crumb-text { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; }
+.flow-walk__crumb-ans {
+  max-width: 12em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 2px var(--s-2);
+  border: 1px solid var(--line); border-radius: var(--r-pill); background: var(--paper-2); color: var(--ink); font-weight: 600;
+}
+
+/* The current node */
+.flow-walk__card {
+  padding: var(--s-5); border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper-2); box-shadow: var(--shadow);
+  animation: flow-in-fwd var(--dur-ui) var(--ease-out) both;
+}
+.flow-walk__card:not([data-dir]) { animation: none; }
+.flow-walk__card[data-dir='back'] { animation-name: flow-in-back; }
+@keyframes flow-in-fwd { from { opacity: 0; transform: translateY(10px); } }
+@keyframes flow-in-back { from { opacity: 0; transform: translateY(-10px); } }
+@keyframes flow-fade { from { opacity: 0; } }
+:root[data-motion='calm'] .flow-walk__card[data-dir] { animation-name: flow-fade; }
+:root[data-motion='off'] .flow-walk__card[data-dir] { animation: flow-fade 120ms linear both; }
+@media (max-width: 479px) { .flow-walk__card { padding: var(--s-4); } }
+.flow-walk__meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); margin: 0; }
+.flow-walk__q { font-size: var(--t-xl); line-height: 1.25; margin: var(--s-2) 0 var(--s-3); text-wrap: pretty; overflow-wrap: break-word; }
+.flow-walk__q:focus { outline: none; }
+.flow-walk__tone { margin: var(--s-3) 0 0; gap: var(--s-2); font-size: var(--t-body); }
+.flow-walk__glyph { display: inline-grid; place-items: center; width: 32px; height: 32px; border: 2px solid currentColor; font-size: 18px; line-height: 1; }
+.flow-walk__tone[data-tone='met'] .flow-walk__glyph { border-radius: 50%; }
+.flow-walk__tone[data-tone='not-met'] .flow-walk__glyph { border-radius: 4px; }
+.flow-walk__tone[data-tone='qualified'] .flow-walk__glyph { border-radius: 10px; border-style: dashed; }
+.flow-walk__tone:not([data-tone]) .flow-walk__glyph { border-radius: 50%; color: var(--ink-2); }
+.flow-walk__why { margin-top: var(--s-1); }
+.flow-walk__why-btn { margin-left: calc(-1 * var(--s-3)); padding-inline: var(--s-3); }
+.flow-walk__note {
+  margin-top: var(--s-2); padding: var(--s-4); border-left: 2px solid var(--ink-3); border-radius: 0 var(--r-md) var(--r-md) 0; background: var(--paper);
+  animation: flow-fade var(--dur-micro) var(--ease-out) both;
+}
+.flow-walk__choices { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-2); }
+.flow-walk__actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); margin-top: var(--s-5); }
+.flow-walk__actions:empty { display: none; }
+.flow-walk__stuck { margin: 0; color: var(--ink-2); }
+
+/* ---------- Map ---------- */
+.flow-map__legend {
+  list-style: none; padding: 0; margin: 0 0 var(--s-3); display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4);
+  font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2);
+}
+.flow-map__legend li { display: inline-flex; align-items: center; gap: var(--s-2); }
+.flow-map__legend svg { flex: none; }
+.flow-map__key { fill: var(--paper); stroke: var(--ink-2); stroke-width: 1.25; }
+.flow-map__key--exception { stroke-dasharray: 4 3; }
+.flow-map__key-line { stroke: var(--ink); stroke-width: 2.5; }
+
+/* The diagram scrolls inside its own box; the page never scrolls sideways. */
+.flow-map__scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper-2); overscroll-behavior-x: contain; }
+.flow-map__canvas { position: relative; margin-inline: auto; }
+.flow-map__svg { display: block; overflow: visible; }
+
+.flow-map__edge { fill: none; stroke: var(--ink-3); stroke-width: 1.25; transition: opacity var(--dur-ui) var(--ease-out); }
+.flow-map__arrow { fill: var(--ink-3); }
+.flow-map__arrow--on { fill: var(--ink); }
+.flow-map__edge-on { fill: none; stroke: var(--ink); stroke-width: 2.5; opacity: 0; transition: opacity var(--dur-ui) var(--ease-out); }
+.flow-map__edge-on[data-on] { opacity: 1; }
+.flow-map__svg[data-trace] .flow-map__edge:not([data-on]) { opacity: .4; }
+.flow-map__label { font-family: var(--font-ui); font-size: 12px; fill: var(--ink-2); text-anchor: middle; transition: opacity var(--dur-ui) var(--ease-out); }
+.flow-map__label[data-on] { fill: var(--ink); font-weight: 600; }
+.flow-map__svg[data-trace] .flow-map__label:not([data-on]) { opacity: .45; }
+
+.flow-map__node { transition: opacity var(--dur-ui) var(--ease-out); }
+.flow-map__shape { fill: var(--paper); stroke: var(--ink-2); stroke-width: 1.25; stroke-linejoin: round; transition: fill var(--dur-micro) var(--ease-hover); }
+.flow-map__node[data-kind='end'] .flow-map__shape { fill: var(--paper-3); }
+.flow-map__node[data-tone='met'] .flow-map__shape { stroke: var(--sage); }
+.flow-map__node[data-tone='not-met'] .flow-map__shape { stroke: var(--clay); }
+.flow-map__node[data-exception] .flow-map__shape { stroke-dasharray: 5 4; }
+.flow-map__node[data-on] .flow-map__shape { stroke-width: 2.25; }
+.flow-map__node[data-on]:not([data-tone]) .flow-map__shape { stroke: var(--ink); }
+.flow-map__node[data-selected] .flow-map__shape { stroke: var(--accent); stroke-width: 2.5; }
+.flow-map__svg[data-trace] .flow-map__node:not([data-on]) { opacity: .45; }
+.flow-map__text { font-family: var(--font-ui); font-size: 13px; fill: var(--ink); text-anchor: middle; pointer-events: none; }
+.flow-map__tag { font-size: 10.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; fill: var(--ink-2); }
+.flow-map__node[role='button'] { cursor: pointer; outline: none; transform-box: fill-box; transform-origin: center; }
+.flow-map__node[role='button']:active { transform: scale(.97); transition: transform var(--dur-press) var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .flow-map__node[role='button']:hover .flow-map__shape { fill: var(--paper-2); } }
+.flow-map__focus { fill: none; stroke: var(--accent); stroke-width: 2; opacity: 0; }
+.flow-map__node:focus-visible .flow-map__focus { opacity: 1; }
+
+/* "You are here": a quiet frame that moves to the current node as the walk advances. */
+.flow-map__here { transition: transform var(--dur-ui) var(--ease-inout); }
+.flow-map__here rect { fill: var(--paper-3); stroke: var(--ink); stroke-width: 1.25; stroke-dasharray: 3 3; }
+:root[data-motion='calm'] .flow-map__here, :root[data-motion='off'] .flow-map__here { transition: none; }
+:root[data-motion='off'] :is(.flow-map__edge, .flow-map__edge-on, .flow-map__label, .flow-map__node) { transition-duration: 120ms; }
+
+/* Mini map beside the walk: shapes and path only. */
+.flow-mini svg { display: block; width: 100%; height: auto; max-height: calc(100vh - var(--nav-h) - 96px); }
+.flow-mini :is(.flow-map__edge, .flow-map__edge-on, .flow-map__shape, .flow-map__here rect) { vector-effect: non-scaling-stroke; }
+.flow-mini .flow-map__edge { stroke-width: 1; }
+.flow-mini .flow-map__edge-on { stroke-width: 2.5; }
+.flow-mini .flow-map__shape { stroke-width: 1; }
+.flow-mini .flow-map__node[data-on] .flow-map__shape { stroke-width: 2; }
+.flow-mini .flow-map__node[data-current] .flow-map__shape { fill: var(--ink); stroke: var(--ink); }
+
+/* A node's note, opened inside the diagram under its node. */
+.flow-map__note {
+  position: absolute; z-index: 1; padding: var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper);
+  box-shadow: var(--shadow); font-size: 1rem; line-height: 1.5; transform-origin: 50% 0;
+  animation: flow-note-in 200ms var(--ease-out) both;
+}
+@keyframes flow-note-in { from { opacity: 0; transform: scale(var(--enter-scale)); } }
+:root[data-motion='calm'] .flow-map__note { animation-name: flow-fade; }
+:root[data-motion='off'] .flow-map__note { animation: flow-fade 120ms linear both; }
+.flow-map__note-kind { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); margin: 0 0 var(--s-1); }
+.flow-map__note-title { margin: 0 0 var(--s-3); font-weight: 600; }
+.flow-map__note-title:focus { outline: none; }
+.flow-map__note-hint { margin: var(--s-3) 0 0; font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.flow-map__close { margin: var(--s-2) 0 0 calc(-1 * var(--s-3)); padding-inline: var(--s-3); }
+
+/* Trace back: the answers each route to the chosen outcome needs. */
+.flow-trace { margin-top: var(--s-5); max-width: var(--measure); padding: var(--s-5); border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper-2); }
+.flow-trace__h { font-size: var(--t-lg); line-height: 1.3; margin: 0 0 var(--s-3); }
+.flow-trace__h .flow-tone { margin-right: var(--s-2); vertical-align: .1em; }
+.flow-trace__needs, .flow-trace__lede { margin: 0 0 var(--s-2); font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.flow-trace__list { margin: 0 0 var(--s-4); padding-left: 1.4em; display: grid; gap: var(--s-2); }
+.flow-trace__answer { font-family: var(--font-ui); }
+.flow-trace__routes { list-style: none; padding: 0; margin: 0 0 var(--s-4); display: grid; gap: var(--s-4); }
+.flow-trace__routes > li { padding-top: var(--s-3); border-top: 1px solid var(--line); }
+.flow-trace__routes .label { display: block; margin-bottom: var(--s-1); }
+
+/* ---------- Order the steps ---------- */
+.flow-order__goal { max-width: var(--measure); color: var(--ink-2); }
+.flow-order__end { color: var(--ink); }
+.flow-order__list { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-2); max-width: var(--measure); }
+.flow-order__row {
+  display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto auto; grid-template-areas: 'handle n text mark moves';
+  align-items: center; gap: var(--s-3); padding: var(--s-2) var(--s-3); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--paper);
+  transition: box-shadow var(--dur-micro) var(--ease-hover);
+}
+.flow-order__row[data-dragging] { position: relative; z-index: 1; box-shadow: var(--shadow); transition: none; }
+.flow-order__row[data-mark='right'] { border-color: var(--sage); }
+.flow-order__row[data-mark='wrong'] { border-color: var(--clay); }
+.flow-order__handle {
+  grid-area: handle; display: grid; place-items: center; min-width: 32px; min-height: 44px; padding: 0; border: 0; border-radius: var(--r-sm);
+  background: none; color: var(--ink-3); cursor: grab; touch-action: none;
+  transition: color var(--dur-micro) var(--ease-hover), transform var(--dur-press) var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) { .flow-order__handle:hover { color: var(--ink-2); } }
+.flow-order__handle:active { transform: scale(.97); cursor: grabbing; }
+.flow-order__handle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.flow-order__n { grid-area: n; color: var(--ink-2); font-size: var(--t-sm); }
+.flow-order__text { grid-area: text; display: grid; gap: 2px; min-width: 0; }
+.flow-order__text .label { font-size: .6875rem; }
+.flow-order__q { line-height: 1.4; overflow-wrap: break-word; }
+.flow-order__ans { font-family: var(--font-ui); font-size: var(--t-xs); color: var(--ink-2); }
+.flow-order__mark { grid-area: mark; display: inline-flex; align-items: center; gap: var(--s-1); font-family: var(--font-ui); font-size: var(--t-xs); font-weight: 600; white-space: nowrap; }
+.flow-order__mark[data-mark='right'] > [aria-hidden] { color: var(--sage); }
+.flow-order__mark[data-mark='wrong'] > [aria-hidden] { color: var(--clay); }
+.flow-order__moves { grid-area: moves; display: flex; flex-direction: column; gap: 2px; }
+@media (pointer: fine) { .flow-order__moves .btn--icon { width: 36px; min-height: 30px; } }
+@media (max-width: 479px) {
+  .flow-order__row { grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: 'handle text moves' 'handle mark moves'; gap: var(--s-1) var(--s-2); padding: var(--s-2); }
+  .flow-order__n { display: none; }
+  .flow-order__mark { justify-self: start; }
+}
+.flow-order__status { min-height: 1.6em; margin: var(--s-3) 0 0; font-family: var(--font-ui); font-size: var(--t-sm); color: var(--ink-2); }
+.flow-order__actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-3); }
+.flow-order__empty { color: var(--ink-2); }

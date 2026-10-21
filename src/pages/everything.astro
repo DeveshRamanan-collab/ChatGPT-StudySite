@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EverythingIndex from '../components/rebuild/EverythingIndex';
+import { getJumpIndex } from '../lib/rebuild';
+const pages=await getJumpIndex();
+---
+<Layout title="Everything index" wide centre><p class="label">Direct navigation</p><h1>Every page. One place.</h1><EverythingIndex client:load/><noscript><ul>{pages.map(p=><li><a href={p.href}>{p.title}</a></li>)}</ul></noscript></Layout>

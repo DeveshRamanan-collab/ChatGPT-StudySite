@@ -1,0 +1,708 @@
+unit: laws2400
+week: 5
+source: raw/laws2400-torts/week-05
+generator: aids-1
+aids:
+  - concept: laws2400-w05-negligence-elements-overview
+    plain: 'To win in negligence, the plaintiff must prove three things: the defendant owed them a duty of care, breached it, and the breach caused them compensable harm.'
+    concrete: 'Mrs Donoghue drank ginger beer from an opaque bottle; a decomposed snail floated out, and she sued the manufacturer, Stevenson, for shock and severe gastro-enteritis. Her claim needed all three elements: a duty owed to her as a consumer, a failure to take reasonable care, and harm caused by that failure. Without her illness there would be no claim, because negligence is an action on the case.'
+    formal: 'Negligence is an action on the case, so damage is vital. The plaintiff must prove (1) a duty of care: reasonable foreseeability (the neighbour principle) is always required but not always sufficient; (2) breach; (3) that the breach caused compensable harm (factual causation and scope of liability). CLA Part 1A applies to any claim for damages for harm resulting from negligence (s 5A), except liability excluded by s 3B.'
+    analogy:
+      text: 'Three gates in a row: the plaintiff must open duty, then breach, then causation of harm. Failing any one gate ends the claim, however wide the others stand open.'
+      maps:
+        - from: Gate one
+          to: Duty of care
+        - from: Gate two
+          to: Breach of that duty
+        - from: Gate three
+          to: Breach caused compensable harm (factual causation, scope of liability)
+        - from: Who must open them
+          to: The plaintiff bears the burden of proof on all issues, on the balance of probabilities
+      limits:
+        - 'The gates are not identical: reasonable foreseeability is asked at each, but it asks a different question each time.'
+        - 'Passing all three gates is not the end: defences (e.g. contributory negligence, obvious risk) can still reduce or defeat the claim.'
+    terms:
+      - term: Action on the case
+        gloss: A claim in which damage is an essential element, unlike trespass, which is actionable per se.
+      - term: Compensable harm
+        gloss: Physical, psychiatric or economic harm the law compensates. CLA s 5 defines harm to include personal injury or death, property damage and economic loss.
+      - term: Scope of liability
+        gloss: Whether it is appropriate for liability to extend to the harm caused (remoteness of harm).
+      - term: Section 3B exclusions
+        gloss: 'Liability outside the CLA: intentional acts with intent to cause injury or death, sexual assault or misconduct, workers'' compensation and dust diseases claims.'
+    misconceptions:
+      - claim: Proving that the defendant caused the harm is enough to win in negligence.
+        tempting: Causation feels like the heart of "you hurt me, so you pay".
+        correction: 'Negligence has three elements: duty, breach, and causation of compensable harm. Duty and breach must be established before causation matters.'
+      - claim: Like battery, negligence is actionable without proof of damage.
+        tempting: Both are torts arising from the defendant's conduct towards the plaintiff.
+        correction: Negligence is an action on the case, so damage is vital to initiate an action. Battery is actionable per se.
+      - claim: The Civil Liability Act has replaced the common law of duty of care.
+        tempting: The CLA codified breach (ss 5B–5C) and causation (ss 5D–5E).
+        correction: 'Duty remains common law, modified only in specific contexts: public authorities, mental harm, recreational activities, professional negligence, intoxication and criminal enterprise.'
+    socratic:
+      - ask: Someone carelessly bumps into you, but you are not hurt at all. Can you sue in negligence?
+        hint: Is negligence actionable per se?
+        answer: 'No. Negligence is an action on the case: damage is vital to initiate an action.'
+      - ask: Now suppose you are hurt. What must you prove?
+        hint: A relationship, some conduct, a consequence.
+        answer: That the defendant owed you a duty of care, breached that duty, and that the breach caused you compensable harm.
+      - ask: Which element is usually uncontroversial in practice?
+        hint: Think of drivers and other road users.
+        answer: Duty of care. Reasonable foreseeability is always required, but most cases fall within an established category.
+      - ask: Does the Civil Liability Act govern your claim?
+        hint: Check s 5A, then s 3B.
+        answer: Part 1A applies to any claim for damages for harm resulting from negligence (s 5A), unless s 3B excludes it, e.g. an intentional act with intent to injure, or dust diseases.
+      - ask: Which elements has the CLA codified?
+        hint: Look at ss 5B–5E.
+        answer: Breach (ss 5B, 5C) and causation (ss 5D, 5E). Duty stays largely common law, and common law principles still help interpret those sections.
+    elements:
+      - name: Duty of care
+        test: Did the defendant owe the plaintiff a duty? Reasonable foreseeability is always required, not always sufficient; then established category or salient features.
+        cases:
+          - donoghue-v-stevenson
+      - name: Breach
+        test: Did the defendant's conduct fall below that of a reasonable person, given the degree of foreseeable risk and the reasonableness of the response?
+        authorities:
+          - civil-liability-act-2002-nsw-s5b
+      - name: Causation of compensable harm
+        test: Did the breach cause physical, psychiatric or economic harm (factual causation), and is it appropriate for liability to extend to that harm (scope of liability)?
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+          - civil-liability-act-2002-nsw-s5
+    what-if:
+      - change: The defendant's careless act caused no damage at all.
+        effect: 'There is no action in negligence: as an action on the case it requires damage. Contrast trespass, which is actionable per se.'
+      - change: The defendant acted with intent to injure the plaintiff.
+        effect: Section 3B excludes civil liability for an intentional act done with intent to cause injury or death from most of the CLA, so the common law and intentional torts govern instead.
+      - change: The harm is a dust disease contracted at work.
+        effect: Section 3B excludes dust diseases claims from most of the CLA; they are covered by the common law and/or other legislative regimes.
+    boundary:
+      - text: A motor vehicle accident claim in NSW.
+        why: The CLA applies only in part to motor accidents; for this unit, assume the CLA applies to them.
+    transfer:
+      - scenario: A drone operator loses control in a public park and the drone strikes a picnicker, breaking her wrist.
+        answer: 'State all three elements, then take each in turn. Duty: injury to people in the park from careless flying is reasonably foreseeable. Breach: did the operator fall below the reasonable person standard (CLA ss 5B–5C)? Causation: did the breach cause the broken wrist (ss 5D–5E)? Part 1A applies (s 5A), and nothing in s 3B excludes the claim.'
+    sources:
+      - Topic 5 Lecture 1 (slides 4–7)
+      - Topic 5 Flowcharts (p 195)
+      - Civil Liability Act 2002 (NSW) ss 3B, 5, 5A (act-2002-022.pdf)
+  - concept: laws2400-w05-neighbour-principle-and-duty-evolution
+    plain: 'Since 1932, the starting point for duty is: take reasonable care not to harm people you can foresee your actions might affect. Courts later added limits for harder cases.'
+    concrete: 'In August 1928, Mrs Donoghue''s friend bought her a ginger beer at a café in Scotland. It came in an opaque bottle bearing the manufacturer''s name, David Stevenson. As it was poured, a decomposed snail floated out. Donoghue, who had no contract with Stevenson, sued him for shock and severe gastro-enteritis. The House of Lords, by 3:2, allowed her appeal: a manufacturer can owe the consumer a duty of care.'
+    formal: 'Lord Atkin in Donoghue v Stevenson: "You must take reasonable care to avoid acts or omissions which you can reasonably foresee would be likely to injure your neighbour": persons so closely and directly affected by your act that you ought reasonably to have them in contemplation. Australia rejected Anns (Sutherland Shire Council v Heyman) and never incorporated Caparo; since the late 1990s the High Court uses salient factors.'
+    terms:
+      - term: Neighbour principle
+        gloss: 'Lord Atkin''s test: take reasonable care to avoid acts or omissions you can reasonably foresee would be likely to injure your neighbour.'
+      - term: '"Neighbour"'
+        gloss: Persons so closely and directly affected by your act that you ought reasonably to have them in contemplation.
+      - term: Proximity (as touchstone)
+        gloss: 'Deane J in Heyman: the parties'' relationship as a "touchstone and control" of when a duty is owed; indicators include reliance, assumption of responsibility and control.'
+      - term: Salient factors approach
+        gloss: 'The High Court''s contextual method since the late 1990s: begin with reasonable foreseeability, then weigh factors about the parties'' relationship.'
+    misconceptions:
+      - claim: Australian courts decide duty using the Caparo three-stage test.
+        tempting: Caparo is a well-known House of Lords test, and English cases have shaped Australian tort law.
+        correction: Caparo has never been incorporated into Australian law, and Anns was rejected in Sutherland Shire Council v Heyman. Australia uses established categories and the salient factors approach.
+      - claim: If harm was reasonably foreseeable, the neighbour principle settles that a duty is owed.
+        tempting: Lord Atkin's test is framed around foreseeability.
+        correction: The neighbour principle is a starting position only. Omissions, non-physical initial harm and special parties usually need more than reasonable foreseeability.
+      - claim: Mrs Donoghue could not sue because her friend, not she, bought the drink.
+        tempting: Only the purchaser had a contract with the seller.
+        correction: A duty of care exists independently of contract. The House of Lords (3:2) allowed Donoghue's appeal against the manufacturer.
+    socratic:
+      - ask: Mrs Donoghue had no contract with the manufacturer. Why could she still sue him?
+        hint: Does negligence depend on contract?
+        answer: 'Negligence is a tort in itself: the manufacturer could owe the consumer a duty of care independently of any contract.'
+      - ask: Who, in law, is my neighbour?
+        hint: Lord Atkin's answer.
+        answer: Persons so closely and directly affected by my act that I ought reasonably to have them in contemplation when directing my mind to the acts or omissions in question.
+      - ask: Dr Grant's underpants contained free sulphites. Why did Donoghue v Stevenson apply?
+        hint: Could anyone have found the defect before he wore them?
+        answer: The defect was hidden and unknown to the consumer, and the garments reached him with no reasonable possibility of intermediate examination.
+      - ask: What did English courts do with negligence from the 1960s?
+        hint: Hedley Byrne, Dorset Yacht, Anns, Caparo.
+        answer: 'They expanded it into pure economic loss and public authority liability, and proposed general tests: Anns (two stages), then Caparo (three stages).'
+      - ask: Did Australia follow those general tests?
+        hint: Heyman, then the late 1990s.
+        answer: No. Anns was rejected in Sutherland Shire Council v Heyman and Caparo never adopted. Australia used proximity as a touchstone in the 1980s, then the contextual salient factors approach.
+    what-if:
+      - change: In Grant, a reasonable inspection before wearing would have revealed the sulphites.
+        effect: The Donoghue principle applies only where the defect is "hidden and unknown to the consumer, otherwise the directness of cause and effect is absent", so the duty would not follow in the same way.
+      - change: Mrs Donoghue had bought the ginger beer herself.
+        effect: 'She would then also have a contract claim against the seller, but nothing changes against the manufacturer: the duty arises independently of contract, just as Dr Grant''s contract with the retailer did not matter.'
+    boundary:
+      - text: An act causing physical injury or property damage, with nothing special about the parties.
+        why: 'The paradigm case: generally, reasonable foreseeability under the neighbour principle is all that is required.'
+      - text: Omissions, initial harm that is not physical, or special parties.
+        why: 'Outside the paradigm: more than reasonable foreseeability is usually required, drawn from decided cases.'
+    transfer:
+      - scenario: A cosmetics company sells a sealed face cream that contains a hidden irritant. A shopper buys it from a pharmacy and develops a severe rash.
+        answer: As in Donoghue v Stevenson and Grant v Australian Knitting Mills, the manufacturer sold a product meant to reach the consumer in the form it left the factory, with a hidden defect and no reasonable possibility of intermediate examination. The shopper is a "neighbour", so a duty is owed even though her contract was with the pharmacy.
+    storyboard:
+      - caption: '1932: a snail in the bottle'
+        detail: 'Donoghue v Stevenson: Lord Atkin''s neighbour principle; a manufacturer owes the consumer a duty of care, independently of contract.'
+      - caption: '1936: Grant''s underpants'
+        detail: Grant v Australian Knitting Mills applies Donoghue to a hidden sulphite defect with no reasonable possibility of intermediate examination.
+      - caption: '1964: careless words, lost money'
+        detail: 'Hedley Byrne v Heller: pure economic loss caused by negligent words may be recoverable.'
+      - caption: '1970: escaped detainees, damaged yacht'
+        detail: 'Home Office v Dorset Yacht: a duty arose from control of the boys and knowledge of the escape risk.'
+      - caption: English general tests rejected here
+        detail: Anns (1978) and Caparo (1990) proposed general tests; Australia rejected Anns in Heyman and never incorporated Caparo.
+      - caption: 'Australia: proximity, then salient factors'
+        detail: Proximity as "touchstone" in the 1980s (Deane J); since the late 1990s, a contextual salient factors approach.
+    sources:
+      - Topic 5 Lecture 1 (slides 8–28)
+      - Casebook, Topic 5 — Grant v Australian Knitting Mills (Lord Wright)
+  - concept: laws2400-w05-reasonable-foreseeability-meaning
+    plain: At the duty stage, the defendant need only have been able to foresee harm to someone like the plaintiff, not exactly how it would happen.
+    concrete: 'Chapman''s careless driving caused a collision on a dark, wet night near Adelaide, and he was thrown onto the road unconscious. Dr Cherry stopped to help him and was struck and killed by Hearse''s car. Chapman argued he owed Cherry no duty because he could not foresee that chain of events. The High Court disagreed: injury to people coming to render aid at the scene was reasonably foreseeable.'
+    formal: At the duty stage it is "not necessary for the plaintiff to show that the precise manner in which his injuries were sustained was reasonably foreseeable; it is sufficient if it appears that injury to a class of persons of which he was one might reasonably have been foreseen" (Chapman v Hearse). The duty, breach and remoteness inquiries "progressively decline from the general to the particular" (Glass JA, San Sebastian).
+    analogy:
+      text: 'A camera zooming in: duty is the wide shot (could someone like the plaintiff be hurt?), breach the medium shot (could this kind of carelessness cause harm?), remoteness the close-up (was this kind of damage foreseeable?).'
+      maps:
+        - from: Wide shot
+          to: 'Duty: injury to a class of persons including the plaintiff'
+        - from: Medium shot
+          to: 'Breach: the kind of carelessness charged might cause damage of some kind'
+        - from: Close-up
+          to: 'Remoteness: the kind of damage actually suffered'
+      limits:
+        - A zoom shows the same scene in more detail; each stage actually asks a different question with a different focus.
+        - Even the close-up never requires foresight of the precise sequence of events, only of the kind of damage.
+    terms:
+      - term: Class of persons
+        gloss: A group the plaintiff belongs to, such as people who stop to render aid at an accident, to whom injury was foreseeable.
+      - term: '"From the general to the particular"'
+        gloss: 'Glass JA: foreseeability narrows from duty (class of persons) to breach (kind of carelessness) to remoteness (kind of damage).'
+      - term: Remoteness
+        gloss: Whether the kind of damage the plaintiff suffered was foreseeable as a possible outcome of the kind of carelessness charged.
+    misconceptions:
+      - claim: No duty is owed unless the defendant could foresee exactly how the plaintiff would be hurt.
+        tempting: 'Chapman argued just that: he could not have foreseen such a drastic chain of events.'
+        correction: 'Chapman v Hearse rejected it: it is enough that injury to a class of persons of which the plaintiff was one might reasonably have been foreseen.'
+      - claim: Reasonable foreseeability is one test, asked once, at the duty stage.
+        tempting: The neighbour principle makes foreseeability look like a duty-only idea.
+        correction: 'It is asked three times: duty (class of persons), breach (kind of carelessness), remoteness (kind of damage), moving "from the general to the particular" (Glass JA).'
+      - claim: Dr Cherry's being a doctor is what made his injury foreseeable.
+        tempting: Doctors are exactly the people you expect to stop at an accident.
+        correction: The High Court said it was without significance that Cherry was a medical practitioner. The class was persons fulfilling a moral and social duty to render aid.
+    socratic:
+      - ask: Chapman crashes on a dark, wet highway and lies unconscious on the road. Who might foreseeably come to be on that road at risk?
+        hint: Think about people who stop at accidents.
+        answer: Persons fulfilling a moral and social duty to render aid to those injured, at some risk to themselves.
+      - ask: Chapman says he could not have foreseen a helper being hit by another car. Does that defeat the duty?
+        hint: Must the precise manner of injury be foreseeable?
+        answer: No. The precise manner need not be foreseeable; foreseeable injury to a class of persons including the plaintiff is enough.
+      - ask: At the breach stage, what must be foreseeable instead?
+        hint: Shift the focus to the defendant's conduct.
+        answer: That the kind of carelessness charged against the defendant might cause damage of some kind to the plaintiff.
+      - ask: And at the remoteness stage?
+        hint: Shift the focus to the damage itself.
+        answer: That the kind of damage the plaintiff suffered was foreseeable as a possible outcome of that kind of carelessness.
+      - ask: Can what is reasonably foreseeable change over time?
+        hint: Think about asbestos.
+        answer: Yes. It depends on the state of scientific knowledge about the risk, as with asbestos exposure or the impact of climate change.
+    elements:
+      - name: 'Duty: class of persons'
+        test: Was injury to the plaintiff, or a class of persons to which they belonged, reasonably foreseeable as a possibility? The precise manner need not be.
+        cases:
+          - chapman-v-hearse
+          - caterson-v-commissioner-for-railways
+      - name: 'Breach: kind of carelessness'
+        test: Was it reasonably foreseeable that the kind of carelessness charged might cause damage of some kind to the plaintiff?
+        cases:
+          - wyong-shire-council-v-shirt
+          - overseas-tankship-v-miller-steamship-the-wagon-mound-no-2
+      - name: 'Remoteness: kind of damage'
+        test: Was the kind of damage the plaintiff suffered foreseeable as a possible outcome of that kind of carelessness?
+        cases:
+          - mount-isa-mines-ltd-v-pusey
+    what-if:
+      - change: Instead of a helper, the person struck was another driver passing the crash.
+        effect: 'Still a foreseeable class: other road users are at risk from a collision on a busy highway, and driver–road user is an established category, so a duty is owed.'
+      - change: Chapman argued instead that his driving was not careless enough to fall below reasonable care.
+        effect: That disputes the breach-stage question (the kind of carelessness), not the duty-stage class of persons. Answer only the question actually disputed.
+      - change: The harm came from a risk that science did not recognise at the time.
+        effect: What is reasonably foreseeable depends on the scientific knowledge of the time, so harm unforeseeable then may not ground a duty, even if foreseeable now.
+    boundary:
+      - text: Dr Cherry's profession, and Chapman lying on the roadway.
+        why: 'Irrelevant to the class: the High Court said both were "without significance"; what mattered was whether helpers at the scene were foreseeable.'
+    transfer:
+      - scenario: A ferry is carelessly steered into a jetty. A kayaker paddles over to help a passenger who fell in, and is hurt when the damaged jetty partly collapses onto her.
+        answer: Applying Chapman v Hearse, the ferry operator need not have foreseen that exact sequence. It is enough that injury to a class of persons including the kayaker (people who come to render aid after an accident, at some risk to themselves) might reasonably have been foreseen. A duty is likely owed.
+    sources:
+      - Topic 5 Lecture 2 (slides 3–10)
+      - Casebook, Topic 5 — Chapman v Hearse (the Court)
+      - Topic 5 Flowcharts (p 290)
+  - concept: laws2400-w05-established-categories-of-duty
+    plain: Some relationships, like doctor and patient, are already recognised as carrying a duty of care, so you name the category and cite the case.
+    concrete: 'Dr Grant bought woollen underpants from a retailer, who had bought them from the manufacturer, Australian Knitting Mills. Free sulphites left in during manufacture gave him dermatitis so severe that he spent seventeen weeks in hospital. He had no contract with the manufacturer, but the Privy Council held the case came squarely within Donoghue v Stevenson: manufacturer and consumer is an established duty relationship.'
+    formal: 'Where the relationship has come before the courts and been recognised as giving rise to a duty, it is an established category: driver–other road users; employer–employees; doctor–patients; manufacturer–consumers (Donoghue v Stevenson; Grant v Australian Knitting Mills); solicitor–clients; school–pupil. Point to the case law; no salient features analysis is needed. Unusual facts can still put duty in issue (Chapman v Hearse).'
+    analogy:
+      text: 'Established categories are like marked routes on a map: if your journey matches one, you simply follow it. Only off-map journeys need navigating from scratch.'
+      maps:
+        - from: A marked route
+          to: An established category of duty
+        - from: Following the route
+          to: Citing the case law that recognised the category
+        - from: An off-map journey
+          to: A novel case
+        - from: Navigating from scratch
+          to: The salient features approach
+      limits:
+        - 'Even on a marked route, an odd detour can force you to check your bearings: Chapman v Hearse put duty in issue in a road accident.'
+        - The map is drawn by courts case by case, so routes are added over time rather than fixed in advance.
+    terms:
+      - term: Established category
+        gloss: A relationship the courts have already recognised as giving rise to a duty of care, so duty is generally uncontroversial.
+      - term: Paradigm case
+        gloss: An act causing physical injury or property damage, with nothing special about the parties; generally only reasonable foreseeability is required.
+      - term: Novel case
+        gloss: A relationship outside the established categories; more than reasonable foreseeability is needed.
+    misconceptions:
+      - claim: Every duty question needs a full salient features analysis.
+        tempting: The list in Caltex Refineries v Stavar looks like the general Australian test.
+        correction: The salient factors test is not the general test. If the relationship is an established category, cite the authority (e.g. Donoghue v Stevenson) and move on.
+      - claim: A car accident case can never raise a real question about duty.
+        tempting: Driver and other road users is an established category.
+        correction: 'Unusual facts can draw a case away from the paradigm: Chapman v Hearse was a car accident, but a bystander doctor killed while rendering aid put duty in issue.'
+      - claim: The established categories are listed in the Civil Liability Act.
+        tempting: The CLA governs much of negligence in NSW.
+        correction: 'They are a common law creation: relationships that have come before the courts and been recognised in case law as giving rise to a duty.'
+    socratic:
+      - ask: A surgeon operates carelessly on a patient. Must you argue at length about whether a duty existed?
+        hint: Has this relationship been before the courts?
+        answer: No. Doctor and patient is an established category, so the duty is uncontroversial.
+      - ask: How do you establish duty in an exam answer for such a case?
+        hint: One sentence and an authority.
+        answer: Point to the case law recognising the category, e.g. "this is a manufacturer/consumer case, an established category per Donoghue v Stevenson".
+      - ask: Which categories does the lecture list?
+        hint: Roads, work, medicine, products, law.
+        answer: Driver–other road users; employer–employees; doctor–patients; manufacturer–consumers or users; solicitor–clients. The flowchart adds school–pupil.
+      - ask: Chapman v Hearse was a road accident. Why was duty argued at all?
+        hint: Who was hurt, and how?
+        answer: Its unusual facts, a bystander doctor killed while rendering aid, drew the case away from the accepted paradigm.
+      - ask: When must you leave the established categories behind?
+        hint: What if the plaintiff sits outside the recognised relationship?
+        answer: 'When the relationship falls outside them, the case is novel: more than reasonable foreseeability is required, through the salient features approach.'
+    what-if:
+      - change: In Caltex Refineries v Stavar, the person exposed to asbestos had been the employee himself.
+        effect: Employer and employee is an established category, so duty would be uncontroversial. It was the wife's claim that made the case novel.
+      - change: Dr Grant could have detected the sulphites by reasonable examination before wearing the garments.
+        effect: The Donoghue principle covers defects "hidden and unknown to the consumer", so the manufacturer–consumer category would not carry the duty in the same way.
+    boundary:
+      - text: 'Chapman v Hearse: a road accident in which a helper was killed.'
+        why: 'On the edge: driver–road user is established, but the unusual chain of events made duty a live issue; foreseeability to a class of persons resolved it.'
+      - text: 'Caltex Refineries v Stavar: an employer and its employee''s wife.'
+        why: 'Just outside: employer–employee is established, but the wife was not an employee, so the case was novel and needed the salient features.'
+    transfer:
+      - scenario: A learner driver practising on a suburban street carelessly mounts the footpath and injures a pedestrian.
+        answer: Driver and other road users is an established category, so a duty of care is owed. In an answer, name the category and cite authority rather than running the salient features approach, then move on to breach.
+    sources:
+      - Topic 5 Lecture 2 (slides 10–12)
+      - Topic 5 Flowcharts (pp 195, 290)
+      - Casebook, Topic 5 — Grant v Australian Knitting Mills
+  - concept: laws2400-w05-novel-duty-and-salient-features
+    plain: 'When a relationship is new to the law, foreseeability alone is not enough: courts weigh features of the relationship, step by step, to decide whether a duty exists.'
+    concrete: Mr Stavar was exposed to asbestos while working at an oil refinery. His wife washed his contaminated work clothes and, exposed to the dust, developed cancer. An employer's duty to its employee was established, but a duty to the employee's wife was not, so the case was novel. Weighing the salient features, the NSW Court of Appeal in Caltex Refineries v Stavar held that a duty of care could be found.
+    formal: 'In novel cases more than reasonable foreseeability is required; Australian courts take an incremental approach and weigh the salient features (Caltex Refineries v Stavar): foreseeability, control, vulnerability, reliance, assumption of responsibility, proximity, knowledge, indeterminacy of liability, coherence with statute and the common law, among others. The list is non-exhaustive and need not all be met. Policy can negate a duty (Sullivan v Moody).'
+    analogy:
+      text: 'The salient features work like a set of scales: each factor is a weight on the "duty" or "no duty" side, and the court judges which way they tip, rather than ticking every box.'
+      maps:
+        - from: Weights on the "duty" side
+          to: Control, vulnerability, reliance, assumption of responsibility, knowledge
+        - from: Weights on the "no duty" side
+          to: Indeterminate liability, conflict with other duties or statute
+        - from: Judging the tip of the scales
+          to: An incremental, contextual judgement about duty
+      limits:
+        - 'Factors have no fixed weight: how much each counts depends on the context.'
+        - 'Some policy factors act more like a veto than a weight: in Sullivan v Moody, coherence and indeterminacy defeated a foreseeable claim.'
+    terms:
+      - term: Novel case
+        gloss: 'A case outside the established categories: reasonable foreseeability is necessary but not enough.'
+      - term: Salient features
+        gloss: Non-exhaustive factors about the parties' relationship (control, vulnerability, reliance, coherence and more) weighed to decide a duty in novel cases.
+      - term: Incremental approach
+        gloss: Extending duty cautiously, by analogy with decided cases, rather than by one general test.
+      - term: Coherence
+        gloss: Whether a duty would fit with statutes and other legal principles rather than conflict with them (Sullivan v Moody).
+    misconceptions:
+      - claim: The plaintiff must satisfy every salient feature to establish a duty.
+        tempting: Caltex Refineries v Stavar sets out a long list that looks like a checklist.
+        correction: The list is not exhaustive and the plaintiff is not required to meet all the factors; they are weighed together.
+      - claim: If harm to the plaintiff was obviously foreseeable, a duty must be owed.
+        tempting: Foreseeability is the heart of the neighbour principle.
+        correction: 'Sullivan v Moody: if mere foreseeability entailed liability, it would impose an intolerable burden and subvert other legal principles. Coherence and indeterminacy defeated the father''s claim.'
+      - claim: Salient features are the general Australian test for every duty question.
+        tempting: The High Court has followed the salient factors approach since the late 1990s.
+        correction: 'It is a tool for specific circumstances: novel cases and non-paradigm situations such as omissions, pure mental harm, pure economic loss and public authorities. Most cases are established categories.'
+    socratic:
+      - ask: Mrs Stavar was never employed by Caltex. Does the employer–employee category cover her?
+        hint: Who exactly is the plaintiff?
+        answer: No. The duty to the employee was established, but a duty to his wife fell outside that category, so the case was novel.
+      - ask: Is the foreseeability of her illness enough?
+        hint: What do novel cases need?
+        answer: No. In novel cases more than reasonable foreseeability is required; courts take an incremental approach and weigh the salient features.
+      - ask: Which features might favour a duty to Mrs Stavar?
+        hint: Who controlled the asbestos risk? Could she protect herself?
+        answer: The employer's control over the risk and her vulnerability, among others. The Court of Appeal held a duty could be found.
+      - ask: In Sullivan v Moody, doctors and social workers investigated suspected abuse by a father. Why might a duty to him be refused?
+        hint: Whose interests must the investigators put first?
+        answer: 'Coherence: their duty to protect the child''s interests is paramount, and a duty to the father would conflict with it and subvert statutory provisions.'
+      - ask: What other factor troubled the High Court?
+        hint: If the father could sue, who else could?
+        answer: 'Indeterminacy of liability: a duty might extend to friends, teachers or anyone else suspected of abusing the child.'
+    elements:
+      - name: 'Step 1: compensable harm'
+        test: Is the plaintiff's harm compensable? Physical injury ordinarily yes; psychiatric injury and economic loss only within further limits.
+      - name: 'Step 2: reasonable foreseeability'
+        test: Was injury to the plaintiff or their class reasonably foreseeable, and the type of injury suffered too?
+        cases:
+          - chapman-v-hearse
+          - mount-isa-mines-ltd-v-pusey
+      - name: 'Step 3: salient features'
+        test: Weigh control of the risk, vulnerability, reliance, assumption of responsibility, proximity, category of relationship and the defendant's knowledge of harm.
+        cases:
+          - caltex-refineries-pty-ltd-v-stavar
+      - name: 'Step 4: policy negating a duty'
+        test: Would a duty create indeterminate liability, impose on autonomy, conflict with other duties or statute, or threaten the structure of the common law?
+        cases:
+          - sullivan-v-moody
+          - tame-v-new-south-wales
+    what-if:
+      - change: In Caltex Refineries v Stavar, the refinery had neither knowledge nor control of the asbestos risk.
+        effect: Two salient features favouring a duty, control of the risk and knowledge of harm, would fall away, weakening the case for recognising a novel duty.
+      - change: In Sullivan v Moody, the investigators owed no competing duty to protect the child.
+        effect: The coherence objection would lose force, though indeterminacy of liability (others suspected of abuse) would still weigh against a duty.
+      - change: The plaintiff was injured by a hidden defect in an ordinary manufactured product.
+        effect: 'Manufacturer–consumer is an established category, so the salient features analysis is unnecessary: cite Donoghue v Stevenson.'
+    boundary:
+      - text: Harm from climate change.
+        why: 'The lecture''s example of a novel case: outside the established categories, so the salient features approach would be needed.'
+      - text: Sullivan v Moody and Caltex Refineries v Stavar side by side.
+        why: The same incremental method gave opposite results, no duty to the father and a duty to the wife, because the factors weighed differently on the facts.
+    transfer:
+      - scenario: A gym employee carries a contagious skin infection home on her work towels; her flatmate, who never visits the gym, catches it. The gym knew of an outbreak and controlled cleaning. The flatmate sues the gym.
+        answer: 'The flatmate is outside any established category, so the case is novel and needs more than foreseeability. As in Caltex Refineries v Stavar, weigh the salient features: the gym''s knowledge and control of the risk, the flatmate''s vulnerability and inability to protect herself, against any indeterminacy of liability. Like Mrs Stavar, she may be owed a duty.'
+    sources:
+      - Topic 5 Lecture 2 (slides 13–18)
+      - Topic 5 Lecture 1 (slides 26–28)
+      - Topic 5 Flowcharts (p 290)
+  - concept: laws2400-w05-duty-of-care-and-pure-economic-loss
+    plain: 'Careless words or acts that cost someone only money can ground a duty, but only within extra limits: the speaker took on responsibility, the plaintiff reasonably relied, and could not protect themselves.'
+    concrete: 'Hedley Byrne asked its bank to check the credit status of Easipower Ltd with Easipower''s bank, Heller. Heller gave a reference "without responsibility". The House of Lords held that a duty of care can arise for pure economic loss caused by negligent words, but Hedley Byrne itself lost: by disclaiming responsibility for the reference, Heller had not assumed responsibility for it.'
+    formal: Pure economic loss is economic loss not consequent upon physical injury to person or property; CLA s 5 includes economic loss in "harm". Foreseeability is necessary but not sufficient (Perre v Apand), given indeterminate liability and disproportion. Hedley Byrne requires a special relationship, voluntary assumption of responsibility, reliance and reasonable reliance. Vulnerability is also required (Woolcock Street Investments v CDG).
+    analogy:
+      text: Careless advice spreads like ripples on a pond, reaching people the speaker never imagined. The law draws a tight ring around those the speaker knew would rely and who could not protect themselves.
+      maps:
+        - from: Ripples spreading without end
+          to: Fear of liability in an indeterminate amount (Ultramares)
+        - from: The tight ring
+          to: The Hedley Byrne factors and vulnerability
+        - from: People inside the ring
+          to: Plaintiffs known to rely, reasonably relying and unable to self-protect
+      limits:
+        - 'The ring is not fixed: whether reliance is reasonable depends on the subject matter, occasion and the parties'' relative positions.'
+        - Ripples suggest only distance matters, but a disclaimer can keep even a close plaintiff outside (Hedley Byrne).
+    terms:
+      - term: Pure economic loss
+        gloss: Economic loss not consequent upon any physical injury to person or property.
+      - term: Known reliance
+        gloss: The speaker knows, or should know, that the other person will rely on the information.
+      - term: Assumption of responsibility
+        gloss: The speaker takes it upon themselves to provide information or advice to another.
+      - term: Vulnerability
+        gloss: The plaintiff's inability to protect themselves from the defendant's lack of reasonable care (Woolcock Street Investments).
+    misconceptions:
+      - claim: If economic loss to the plaintiff was foreseeable, a duty of care is owed for it.
+        tempting: Foreseeability is enough for physical injury in established categories.
+        correction: 'Perre v Apand: foreseeability of economic loss is necessary but not sufficient, because of indeterminate liability (Ultramares) and disproportion between blameworthiness and liability (San Sebastian).'
+      - claim: Hedley Byrne won its case against Heller.
+        tempting: The House of Lords recognised a duty for negligent words causing economic loss.
+        correction: 'Hedley Byrne lost: Heller gave its reference "without responsibility", so there was no assumption of responsibility.'
+      - claim: Once the Hedley Byrne factors are met, nothing more is needed.
+        tempting: Hedley Byrne looks like a complete test for negligent misstatement.
+        correction: 'Woolcock Street Investments also requires vulnerability: the plaintiff must have been unable to protect themselves from the defendant''s want of care.'
+    socratic:
+      - ask: A careless credit reference causes a trader to lose money, with no physical injury or property damage. What kind of loss is this?
+        hint: Was it consequent on injury to person or property?
+        answer: 'Pure economic loss: economic loss not consequent upon any physical injury to person or property. CLA s 5 includes economic loss in "harm".'
+      - ask: Why is foreseeability of that loss not enough?
+        hint: How far can careless words travel?
+        answer: 'Perre v Apand: there is a fear of liability in an indeterminate amount, and a disproportion between the defendant''s blameworthiness and the potential extent of liability.'
+      - ask: What does Hedley Byrne add?
+        hint: Four things.
+        answer: A special relationship, a voluntary assumption of responsibility by the adviser, the other party's reliance, and the reasonableness of that reliance.
+      - ask: Heller gave its reference "without responsibility". What follows?
+        hint: Which factor fails?
+        answer: There is no assumption of responsibility, so no duty. That is why Hedley Byrne lost.
+      - ask: Suppose all four factors are met. What else must the plaintiff show?
+        hint: Woolcock Street Investments.
+        answer: 'Vulnerability: that they could not protect themselves from the defendant''s lack of reasonable care.'
+    elements:
+      - name: Pure economic loss
+        test: Is the loss economic and not consequent upon physical injury to person or property?
+        authorities:
+          - civil-liability-act-2002-nsw-s5
+      - name: Reasonable foreseeability
+        test: Was loss to the plaintiff reasonably foreseeable, not far-fetched or fanciful? Necessary, but not sufficient.
+        cases:
+          - perre-v-apand-pty-ltd
+          - overseas-tankship-v-miller-steamship-the-wagon-mound-no-2
+      - name: Known reliance
+        test: Did the speaker know, or ought they to have realised, that the recipient would rely and act on the information?
+        cases:
+          - hedley-byrne-v-heller
+          - tepko-pty-ltd-v-water-board
+      - name: Assumption of responsibility
+        test: Did the speaker take it upon themselves to give the information or advice, in a matter of business or serious consequence, without disclaiming responsibility?
+        cases:
+          - hedley-byrne-v-heller
+          - tepko-pty-ltd-v-water-board
+      - name: Reasonable reliance
+        test: Was reliance reasonable, given the subject matter, the occasion, the parties' relative knowledge and their capacity to judge?
+        cases:
+          - hedley-byrne-v-heller
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+          - mutual-life-and-citizens-assurance-co-v-evatt
+      - name: Vulnerability
+        test: Was the plaintiff unable to protect themselves from the defendant's lack of reasonable care?
+        cases:
+          - woolcock-street-investments-pty-ltd-v-cdg-pty-ltd
+    what-if:
+      - change: Heller had given its reference without any disclaimer.
+        effect: The disclaimer is why Hedley Byrne lost. Without it, a voluntary assumption of responsibility could be found, and the claim would turn on reliance, its reasonableness and vulnerability.
+      - change: The plaintiff could easily have commissioned its own independent check instead of relying on the defendant.
+        effect: 'Vulnerability is doubtful: a plaintiff able to protect itself from the defendant''s want of care fails the Woolcock requirement, so no duty for the pure economic loss.'
+      - change: The careless act damaged the plaintiff's property, and the financial loss flowed from that damage.
+        effect: The loss is no longer pure economic loss, since it is consequent upon property damage, so the extra limits for pure economic loss are not engaged in the same way.
+    boundary:
+      - text: Advice given casually on a social occasion.
+        why: 'Likely outside: reliance must be reasonable given the occasion of the exchange, and the matter one of business or serious consequence (Chew v Amanatidis, cited in the flowchart).'
+      - text: Wages lost while recovering from a physical injury.
+        why: 'Not pure economic loss: it is consequent upon physical injury, so the ordinary duty analysis applies.'
+    transfer:
+      - scenario: A wine auction house, asked by a bidder about a bottle's provenance, emails a confident but carelessly checked answer. The bidder, who had no way to test the bottle, pays $40,000 for a fake.
+        answer: 'This is pure economic loss, so foreseeability is not enough (Perre v Apand). Hedley Byrne: the auction house knew the answer would be relied on, took it upon itself to give it in a serious business matter without disclaimer, and reliance on its expertise was reasonable. The bidder could not protect itself, so vulnerability (Woolcock) is likely met: a duty is likely owed.'
+    sources:
+      - Topic 5 Lecture 1 (slides 17–20)
+      - Topic 5 Flowcharts (p 291)
+      - Civil Liability Act 2002 (NSW) s 5 (act-2002-022.pdf)
+flows:
+  - slug: duty-of-care
+    title: Is a duty of care owed?
+    summary: 'Follows the lecturer''s duty roadmap and the novel-duty flowchart: compensable harm, foreseeability, established category, then salient features and policy.'
+    start: d1
+    concepts:
+      - laws2400-w05-negligence-elements-overview
+      - laws2400-w05-reasonable-foreseeability-meaning
+      - laws2400-w05-established-categories-of-duty
+      - laws2400-w05-novel-duty-and-salient-features
+    sources:
+      - Topic 5 Flowcharts (pp 195, 290)
+      - Topic 5 Lecture 2 (slides 10, 19)
+    nodes:
+      - id: d1
+        kind: ask
+        text: 'Step 1: what kind of harm did the plaintiff suffer?'
+        note: 'Physical injury: a duty will ordinarily be found. Psychiatric injury is compensable within further limits; economic loss only in specific circumstances.'
+        branches:
+          - label: Physical injury or property damage
+            to: d2
+          - label: Psychiatric injury
+            to: e-mental
+          - label: Pure economic loss
+            to: e-pel
+      - id: d2
+        kind: ask
+        text: 'Step 2: was injury to the plaintiff, or a class of persons to which they belonged, reasonably foreseeable?'
+        note: The neighbour principle is the starting point. The precise manner of injury need not be foreseeable (Chapman v Hearse).
+        concept: laws2400-w05-reasonable-foreseeability-meaning
+        cases:
+          - donoghue-v-stevenson
+          - chapman-v-hearse
+          - caterson-v-commissioner-for-railways
+        branches:
+          - label: 'Yes'
+            to: d3
+          - label: 'No'
+            to: e-none
+      - id: d3
+        kind: ask
+        text: Was the type of injury the plaintiff suffered also reasonably foreseeable?
+        note: A risk that is extremely unlikely may still be foreseeable if it is not far-fetched or fanciful (Wyong Shire Council v Shirt).
+        cases:
+          - mount-isa-mines-ltd-v-pusey
+          - wyong-shire-council-v-shirt
+        branches:
+          - label: 'Yes'
+            to: d4
+          - label: 'No'
+            to: e-none
+      - id: d4
+        kind: ask
+        text: Does the relationship fall within an established category?
+        note: Manufacturer–consumer, road users, employer–employee, school–pupil, doctor–patient, solicitor–client. Unusual facts can still put duty in issue (Chapman v Hearse).
+        concept: laws2400-w05-established-categories-of-duty
+        cases:
+          - donoghue-v-stevenson
+          - grant-v-australian-knitting-mills
+        branches:
+          - label: 'Yes'
+            to: e-established
+          - label: 'No: the case is novel'
+            to: d5
+      - id: d5
+        kind: step
+        text: 'Step 3: weigh the salient features of the relationship.'
+        note: Control of the risk, the plaintiff's vulnerability, reliance, assumption of responsibility, proximity, category of relationship, the defendant's knowledge of harm. Non-exhaustive; not all need be met.
+        concept: laws2400-w05-novel-duty-and-salient-features
+        cases:
+          - caltex-refineries-pty-ltd-v-stavar
+        next: d6
+      - id: d6
+        kind: ask
+        text: Weighed together, do the salient features support a duty?
+        branches:
+          - label: 'Yes'
+            to: d7
+          - label: 'No'
+            to: e-none
+      - id: d7
+        kind: ask
+        text: 'Step 4: would reasons of policy negate the duty?'
+        note: Indeterminate liability (Ultramares); imposing on autonomy (Tame v NSW); conflict with other duties in law or statute, or threat to the structure of the common law (Sullivan v Moody).
+        exception: true
+        cases:
+          - sullivan-v-moody
+          - tame-v-new-south-wales
+        branches:
+          - label: 'No'
+            to: e-novel
+          - label: 'Yes'
+            to: e-negated
+      - id: e-established
+        kind: end
+        tone: met
+        text: 'Duty owed: cite the established category and move to breach.'
+      - id: e-novel
+        kind: end
+        tone: met
+        text: 'Duty owed in a novel case: move to breach.'
+      - id: e-negated
+        kind: end
+        tone: not-met
+        text: 'No duty: policy negates it despite foreseeability.'
+      - id: e-none
+        kind: end
+        tone: not-met
+        text: No duty of care is owed.
+      - id: e-mental
+        kind: end
+        tone: qualified
+        text: Compensable, but apply the further limits for psychiatric injury (Tame v NSW; CLA s 5S) — Topic 6.
+      - id: e-pel
+        kind: end
+        tone: qualified
+        text: 'Compensable only in specific circumstances: walk the pure economic loss flow.'
+  - slug: pure-economic-loss
+    title: Is a duty owed for pure economic loss from a negligent misstatement?
+    summary: 'Follows the lecturer''s pure economic loss flowchart: foreseeability, why it is not enough, the Hedley Byrne factors and vulnerability.'
+    start: p1
+    concepts:
+      - laws2400-w05-duty-of-care-and-pure-economic-loss
+    sources:
+      - Topic 5 Flowcharts (p 291)
+      - Topic 5 Lecture 1 (slides 17–20)
+    nodes:
+      - id: p1
+        kind: step
+        text: Identify the loss as pure economic loss.
+        note: Economic loss not consequent upon any physical injury to person or property. CLA s 5 includes economic loss in the definition of "harm".
+        authorities:
+          - civil-liability-act-2002-nsw-s5
+        next: p2
+      - id: p2
+        kind: ask
+        text: Was loss to the plaintiff reasonably foreseeable, not far-fetched or fanciful?
+        note: Apply the neighbour principle (Donoghue v Stevenson) and The Wagon Mound (No 2).
+        cases:
+          - donoghue-v-stevenson
+          - overseas-tankship-v-miller-steamship-the-wagon-mound-no-2
+        branches:
+          - label: 'Yes'
+            to: p3
+          - label: 'No'
+            to: e-no
+      - id: p3
+        kind: step
+        text: 'Foreseeability is necessary but not sufficient: more must be shown.'
+        note: Perre v Apand. The limits respond to fear of liability in an indeterminate amount (Ultramares) and disproportion between blameworthiness and potential liability (San Sebastian).
+        cases:
+          - perre-v-apand-pty-ltd
+          - san-sebastian-pty-ltd-v-minister
+        next: p4
+      - id: p4
+        kind: ask
+        text: 'Known reliance: did the speaker know, or ought they to have realised, that the recipient would act on the information?'
+        cases:
+          - hedley-byrne-v-heller
+          - tepko-pty-ltd-v-water-board
+        branches:
+          - label: 'Yes'
+            to: p5
+          - label: 'No'
+            to: e-no
+      - id: p5
+        kind: ask
+        text: 'Assumption of responsibility: did the speaker take it upon themselves to give the advice, in a matter of business or serious consequence?'
+        note: 'A matter of business or serious consequence: Chew v Amanatidis. In Hedley Byrne, a reference given "without responsibility" defeated the claim.'
+        cases:
+          - hedley-byrne-v-heller
+          - tepko-pty-ltd-v-water-board
+        branches:
+          - label: 'Yes'
+            to: p6
+          - label: Responsibility was disclaimed
+            to: e-disclaimed
+          - label: 'No'
+            to: e-no
+      - id: p6
+        kind: ask
+        text: 'Reasonable reliance: was it reasonable for the recipient to seek, accept and rely on the statement?'
+        note: Consider the subject matter, the occasion of the interchange, the parties' relative knowledge and position, and their capacity to form or exercise judgement.
+        cases:
+          - shaddock-and-associates-pty-ltd-v-parramatta-city-council
+          - mutual-life-and-citizens-assurance-co-v-evatt
+        branches:
+          - label: 'Yes'
+            to: p7
+          - label: 'No'
+            to: e-no
+      - id: p7
+        kind: ask
+        text: 'Vulnerability: was the plaintiff unable to protect themselves from the defendant''s lack of reasonable care?'
+        note: Woolcock Street Investments v CDG; established by considering the Hedley Byrne factors above.
+        cases:
+          - woolcock-street-investments-pty-ltd-v-cdg-pty-ltd
+        branches:
+          - label: 'Yes'
+            to: e-duty
+          - label: 'No'
+            to: e-no
+      - id: e-duty
+        kind: end
+        tone: met
+        text: 'Duty of care owed for the pure economic loss: move to breach.'
+      - id: e-disclaimed
+        kind: end
+        tone: not-met
+        text: 'No duty: responsibility was disclaimed, as in Hedley Byrne.'
+        exception: true
+      - id: e-no
+        kind: end
+        tone: not-met
+        text: No duty of care for the pure economic loss.

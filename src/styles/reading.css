@@ -1,0 +1,46 @@
+/* Reading customisation + low stimulation (features 8, 9, 106). Attributes on <html> are set before paint by
+   Layout.astro and kept in step by src/lib/chrome.ts applyHtmlPrefs; values come from the prefs store. Defaults
+   (md / normal / normal / normal / comfortable / off) leave every token as tokens.css sets it. */
+
+/* Text size scales reading text only (body inherits; UI text is rem-based and stays put). */
+:root[data-text="sm"] { --read-scale: .92; }
+:root[data-text="lg"] { --read-scale: 1.1; }
+:root[data-text="xl"] { --read-scale: 1.22; }
+:root[data-text] body { font-size: calc(var(--t-body) * var(--read-scale, 1)); }
+
+/* Line spacing. */
+:root[data-leading="relaxed"] { --lh-body: 1.75; }
+:root[data-leading="airy"] { --lh-body: 1.9; }
+
+/* Line width (the measure). Tables keep their own wider measure. */
+:root[data-measure="narrow"] { --measure: 58ch; }
+:root[data-measure="wide"] { --measure: 76ch; --measure-wide: 88ch; }
+
+/* Higher contrast: secondary text and hairlines move toward the ink of whichever theme is active. The extra
+   [data-theme] keeps this above the theme rules in tokens.css. */
+:root[data-contrast="high"][data-theme] {
+  --ink-2: color-mix(in oklab, var(--ink) 88%, var(--paper));
+  --ink-3: color-mix(in oklab, var(--ink) 68%, var(--paper));
+  --line: color-mix(in oklab, var(--ink) 30%, transparent);
+}
+
+/* Compact density: less air between paragraphs and sections, same type. */
+:root[data-density="compact"] p,
+:root[data-density="compact"] ul,
+:root[data-density="compact"] ol,
+:root[data-density="compact"] dl,
+:root[data-density="compact"] blockquote { margin-bottom: .8em; }
+:root[data-density="compact"] :is(h2, h3) { margin-top: 2rem; }
+
+/* Low stimulation: no ambient glow, no resting shadows, no backdrop blur; decorative marks hidden. Motion, glass,
+   cursor, companion and noise are switched off through the prefs themselves (src/lib/lowstim.ts). */
+:root[data-lowstim="on"] .ambient,
+:root[data-lowstim="on"] [data-decorative] { display: none !important; }
+:root[data-lowstim="on"] { --shadow: none; }
+:root[data-lowstim="on"] * { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+
+/* Printing any page (topic sheets especially): no chrome, ink on white. */
+@media print {
+  .site-header, .site-footer, .rail, .crumbs, .focus-block, .toaster, .cursor, .ambient, .skip { display: none !important; }
+  body { background: #fff; color: #000; }
+}

@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Dashboard from '../components/Dashboard';
+import { InstallPrompt } from '../components/OfflineTools';
+---
+
+<Layout title="Dashboard">
+  <p class="label">Progress</p>
+  <h1 data-split>Dashboard</h1>
+  <InstallPrompt client:idle />
+  <div class="island-stage"><Dashboard client:load /></div>
+  <p class="dash-exam"><a class="btn btn--secondary" href="/exam">Exam paper across all units</a></p>
+</Layout>
+
+<style>
+  .dash-exam { margin-top: var(--s-8); }
+</style>

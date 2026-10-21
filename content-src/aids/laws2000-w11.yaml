@@ -1,0 +1,819 @@
+unit: laws2000
+week: 11
+source: raw/laws2000-pil/week-11
+generator: aids-1
+aids:
+  - concept: laws2000-w11-what-is-international-criminal-law
+    plain: International criminal law makes individual people — not only states — criminally liable for the gravest breaches of international rules, and sets the procedures for trying them.
+    concrete: 'At Nuremberg, the IMT Charter provided for the individual criminal responsibility of leaders, organisers, instigators and accomplices: the defendants answered personally for crimes against peace, war crimes and crimes against humanity. That is ICL''s hallmark — a breach of international rules entailing the personal criminal liability of the individual — and a different question from whether Germany, as a state, was responsible for internationally wrongful acts.'
+    formal: 'International crimes are "breaches of international rules entailing the personal criminal liability of the individual(s) concerned". ICL, a branch of public international law, has two limbs: substantive law, which governs the four core international crimes and demands that states prosecute them; and procedural law, regulating the stages of international criminal proceedings, found in the statutes and rules of the international(ised) tribunals.'
+    terms:
+      - term: international crime
+        gloss: A breach of international rules entailing the personal criminal liability of the individual(s) concerned.
+      - term: substantive limb
+        gloss: The crimes' acts and subjective elements, when an accused may nevertheless not be liable, and when states may prosecute or bring accused persons to trial.
+      - term: procedural limb
+        gloss: Rules for pre-trial, trial and appeals, rights of the accused, evidence, sentencing and victims' rights, found in each tribunal's statute and rules.
+      - term: hybrid branch
+        gloss: ICL draws unique characteristics from international humanitarian law, international human rights law and national criminal laws.
+    misconceptions:
+      - claim: An international crime is just an internationally wrongful act of a state.
+        tempting: Week 7's state responsibility also concerns breaches of international obligations.
+        correction: International crimes entail the personal criminal liability of individuals. Whether the state is responsible for an internationally wrongful act is a separate question.
+      - claim: Calling ICL "hybrid" means its courts mix national and international judges.
+        tempting: Hybrid tribunals such as the ECCC do exactly that.
+        correction: On the slides, ICL is a hybrid branch of law because it draws on IHL, international human rights law and national criminal laws. Hybrid courts are a separate idea.
+      - claim: ICL is fully codified, with precise crimes and penalties.
+        tempting: The Rome Statute and tribunal statutes look comprehensive.
+        correction: 'The slides call ICL relatively new and rudimentary: the actus reus and mens rea of its crimes have not always been clear, and penalties are not laid down precisely.'
+    socratic:
+      - ask: A massacre is committed by a state's soldiers. Who might answer for it under international law?
+        hint: Two different regimes.
+        answer: The state, under the law of state responsibility, and the individuals, under international criminal law — separate questions.
+      - ask: What makes a breach an international crime?
+        hint: The slides' definition.
+        answer: It breaches international rules and entails the personal criminal liability of the individual(s) concerned.
+      - ask: What does ICL's substantive limb cover?
+        hint: Four core crimes.
+        answer: The acts and subjective elements of the core crimes, when an accused may nevertheless not be liable, and when states may prosecute — and it demands that states prosecute.
+      - ask: Where would you find the rules on evidence or victims' participation?
+        hint: The procedural limb.
+        answer: In the statutes and rules of the various international(ised) criminal tribunals.
+    what-if:
+      - change: The question is whether a state must pay reparation for its army's massacre of civilians.
+        effect: 'That is state responsibility (Week 7), not ICL: it asks about the state''s internationally wrongful act, not any individual''s criminal liability.'
+      - change: The question is whether the general who ordered the massacre can be tried.
+        effect: 'That is ICL: an international crime entails the general''s personal criminal liability, whatever the state''s own responsibility.'
+    boundary:
+      - text: A state's breach of a trade treaty.
+        why: 'Outside ICL: a breach of an international obligation by a state, with no personal criminal liability of any individual.'
+      - text: Rules on victims' participation at an international tribunal.
+        why: 'Inside ICL, as procedural law: victims have a prominent part in international criminal proceedings.'
+    transfer:
+      - scenario: A militia leader's forces destroy a village. Her state is sued at the ICJ, and an international prosecutor separately charges her personally. A student says the two cases are duplicates.
+        answer: They are not. The ICJ case concerns the state's responsibility for an internationally wrongful act. The prosecution concerns an international crime — a breach of international rules entailing the leader's personal criminal liability — governed by ICL's substantive and procedural law.
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 4–7)
+    verify: false
+  - concept: laws2000-w11-post-wwii-military-tribunals
+    plain: After World War II the Allies tried Axis leaders before two international military tribunals — Nuremberg and Tokyo — and held thousands of further trials in occupied zones and across the Asia-Pacific.
+    concrete: The Tokyo tribunal (IMTFE) was set up by proclamation of US General Douglas MacArthur, implementing the Potsdam Declaration, to try Japanese officials. Twenty-eight defendants faced 55 counts of crimes against peace, conventional war crimes and crimes against humanity. All were found guilty, though not on every count; seven were sentenced to death and the rest to imprisonment. It largely agreed with Nuremberg on the law.
+    formal: The London Agreement, with the IMT Charter annexed, created the Nuremberg IMT; art 6 listed crimes against peace, war crimes and crimes against humanity "for which there shall be individual responsibility" of leaders, organisers, instigators and accomplices. The IMTFE rested on MacArthur's proclamation (IMTFE Charter art 5(a)–(c)). Control Council Law No 10 allowed domestic prosecutions in the Allied zones of occupation.
+    terms:
+      - term: crimes against peace
+        gloss: Planning, preparing, initiating or waging a war of aggression or a war in violation of treaties, or conspiring to do so (IMT Charter art 6(A)).
+      - term: war crimes
+        gloss: Violations of the laws or customs of war — e.g. ill-treatment of civilians or prisoners of war, killing hostages, plunder, wanton destruction (art 6(B)).
+      - term: crimes against humanity
+        gloss: Murder, extermination, enslavement, deportation and other inhumane acts against any civilian population, or persecutions on political, racial or religious grounds (art 6(C)).
+      - term: Control Council Law No 10
+        gloss: The basis for domestic prosecutions in the Allied zones of occupation — best known for twelve US trials by the Nuremberg Military Tribunals.
+    misconceptions:
+      - claim: General MacArthur's proclamation created the Nuremberg tribunal.
+        tempting: A proclamation did create one post-war tribunal.
+        correction: That was the IMTFE in Tokyo. Nuremberg's IMT was created by the London Agreement, with the IMT Charter annexed.
+      - claim: Genocide was one of the three crimes in art 6 of the IMT Charter.
+        tempting: Genocide is the crime most associated with the Holocaust.
+        correction: Art 6 listed crimes against peace, war crimes and crimes against humanity. Genocide appears in later instruments — the 1948 Genocide Convention, the ICTR Statute, the Rome Statute.
+      - claim: Crimes against humanity at Nuremberg required the act to break the domestic law where it was done.
+        tempting: Criminal law usually follows the law of the place.
+        correction: Art 6(C) covered such acts "whether or not in violation of the domestic law of the country where perpetrated".
+    socratic:
+      - ask: The Allies agreed Axis war criminals should be punished. What did they disagree about?
+        hint: How, not whether.
+        answer: Purpose and procedure — how to punish them.
+      - ask: What instrument created the Nuremberg IMT, and whom did it make responsible?
+        hint: London, 1945.
+        answer: The London Agreement with the IMT Charter annexed; it provided for individual responsibility of leaders, organisers, instigators and accomplices.
+      - ask: Which three crimes could the IMT try?
+        hint: Art 6(A)–(C).
+        answer: Crimes against peace, war crimes and crimes against humanity.
+      - ask: How was the Tokyo tribunal set up, and how did it end?
+        hint: A general's proclamation.
+        answer: By MacArthur's proclamation implementing the Potsdam Declaration; all 28 defendants were convicted on some counts, seven sentenced to death.
+      - ask: Who tried the many lower-level accused?
+        hint: Occupation law; the Asia-Pacific.
+        answer: Domestic courts under Control Council Law No 10 (e.g. twelve US trials at Nuremberg) and thousands of Allied trials, Australia's among them.
+    elements:
+      - name: Crimes against peace
+        test: Planning, preparation, initiation or waging of a war of aggression or in violation of treaties, or a common plan or conspiracy to do so.
+        authorities:
+          - imt-charter-art-6
+      - name: War crimes
+        test: Violations of the laws or customs of war, e.g. murder or ill-treatment of civilians or prisoners of war, killing hostages, plunder.
+        authorities:
+          - imt-charter-art-6
+      - name: Crimes against humanity
+        test: Inhumane acts against any civilian population, before or during the war, or persecutions on political, racial or religious grounds, whatever domestic law said.
+        authorities:
+          - imt-charter-art-6
+    what-if:
+      - change: The persecution was fully lawful under the perpetrators' own national law.
+        effect: 'No answer to a charge of crimes against humanity: art 6(C) applied "whether or not in violation of the domestic law of the country where perpetrated".'
+      - change: The accused is a Japanese minister rather than a German one.
+        effect: The forum is the IMTFE in Tokyo, created by proclamation rather than agreement, charging crimes against peace, conventional war crimes and crimes against humanity under art 5(a)–(c).
+      - change: The accused is a German industrialist arrested in the US zone of occupation.
+        effect: Likely a domestic occupation trial under Control Council Law No 10 — such as the twelve US trials before the Nuremberg Military Tribunals — not the IMT.
+    boundary:
+      - text: Killing prisoners of war.
+        why: 'A war crime under art 6(B), not a crime against humanity: art 6(C) concerned acts against civilian populations.'
+      - text: Australia's post-war trials in the Asia-Pacific.
+        why: 'Part of the post-WWII trials, but national, not international: the Allies held thousands of such trials beyond Nuremberg and Tokyo.'
+    transfer:
+      - scenario: 'A museum label says: "The Tokyo Trial was created by the London Agreement and tried genocide." Correct it.'
+        answer: The IMTFE was established by General MacArthur's proclamation implementing the Potsdam Declaration; the London Agreement created Nuremberg's IMT. Its charges were crimes against peace, conventional war crimes and crimes against humanity (art 5(a)–(c)), not genocide.
+    storyboard:
+      - caption: Allies agree to punish, disagree how
+        detail: A shared intention to punish Axis war criminals, but differences over purpose and procedure.
+      - caption: London Agreement creates the IMT
+        detail: The IMT Charter's art 6 lists crimes against peace, war crimes and crimes against humanity.
+      - caption: MacArthur proclaims the IMTFE
+        detail: 'Implementing the Potsdam Declaration: 28 defendants, 55 counts, seven death sentences.'
+      - caption: Occupation and national trials
+        detail: Control Council Law No 10 trials in the zones; thousands of Allied trials in the Asia-Pacific, including Australia's.
+      - caption: '1946: the principles affirmed'
+        detail: UN General Assembly Resolution 95(I) affirms the principles of the Nuremberg Charter and Judgment.
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 9–14)
+    verify: false
+  - concept: laws2000-w11-nuremberg-principles
+    plain: Anyone who commits a crime under international law answers for it personally. Their own country's law, their high office, or orders from above do not get them off.
+    concrete: 'In 1999 the ICTY indicted Slobodan Milošević while he was still President of the Federal Republic of Yugoslavia. Later, the Special Court for Sierra Leone became, in the slides'' words, the first modern international tribunal to indict, try and convict a sitting head of state (the Taylor trial). Both reflect Principle III: acting as Head of State does not relieve a person of responsibility under international law.'
+    formal: 'GA Res 95(I) (11 December 1946) affirmed the Nuremberg principles. I: "Any person who commits an act which constitutes a crime under international law is responsible therefor and liable to punishment." II: no penalty in internal law is no relief. III: acting "as Head of State or responsible Government official" is no relief. IV: superior orders are no relief, "provided a moral choice was in fact possible".'
+    analogy:
+      text: A courtroom with three exits labelled "my country allowed it", "I was in charge" and "I was ordered". The Nuremberg Principles lock each door, leaving the accused facing personal responsibility.
+      maps:
+        - from: the accused facing the court
+          to: 'Principle I: any person who commits an international crime is responsible'
+        - from: '"my country allowed it"'
+          to: 'Principle II: internal law is no relief'
+        - from: '"I was in charge"'
+          to: 'Principle III: head of state or official is no relief'
+        - from: '"I was ordered"'
+          to: 'Principle IV: superior orders are no relief'
+      limits:
+        - 'The orders door is not fully locked: Principle IV removes the plea only where a moral choice was in fact possible.'
+        - Locking the responsibility doors does not remove procedural immunity before a particular foreign court (Week 6).
+    terms:
+      - term: individual responsibility
+        gloss: 'Principle I: any person who commits a crime under international law is personally responsible and liable to punishment.'
+      - term: official capacity
+        gloss: 'Principle III: acting as Head of State or responsible Government official does not relieve a person of responsibility.'
+      - term: moral choice
+        gloss: 'The Principle IV qualifier: superior orders are no relief provided a moral choice was in fact possible to the person.'
+    misconceptions:
+      - claim: Under Principle IV, superior orders are never relevant, whatever the circumstances.
+        tempting: The principle is often summarised as "orders are no defence".
+        correction: 'Principle IV is qualified: orders do not relieve responsibility "provided a moral choice was in fact possible to him". The question is whether such a choice existed.'
+      - claim: Principle III means a serving foreign minister can be tried in any foreign national court.
+        tempting: Principle III denies officials a shield.
+        correction: 'Principle III concerns substantive responsibility. Immunity is procedural: personal immunity may still bar a foreign national court while she is in office (Arrest Warrant). Immunity does not mean impunity.'
+      - claim: Only officials and soldiers can commit crimes under international law.
+        tempting: The famous defendants were leaders and commanders.
+        correction: Principle I speaks of "any person". Official status is neither required for responsibility nor a shield against it (Principle III).
+    socratic:
+      - ask: An accused says, "Nothing I did was illegal at home." Which principle answers him?
+        hint: Internal law.
+        answer: 'Principle II: that internal law imposes no penalty does not relieve him of responsibility under international law.'
+      - ask: She says, "I was head of state." Which principle?
+        hint: Official position.
+        answer: 'Principle III: acting as Head of State or responsible Government official does not relieve her of responsibility.'
+      - ask: He says, "I was following orders." Does that end the matter?
+        hint: Read the proviso.
+        answer: No. Under Principle IV orders are no relief "provided a moral choice was in fact possible to him" — so ask whether one was.
+      - ask: Does Principle III mean any court can try a serving head of state?
+        hint: Substance v procedure.
+        answer: No. It removes a substantive defence; procedural immunity before foreign national courts (Week 6) is a separate question.
+    elements:
+      - name: Principle I — individual responsibility
+        test: Any person who commits an act constituting a crime under international law is responsible and liable to punishment.
+        authorities:
+          - unga-resolution-95-i
+      - name: Principle II — internal law no shield
+        test: That internal law imposes no penalty does not relieve the person of responsibility under international law.
+        authorities:
+          - unga-resolution-95-i
+      - name: Principle III — official position no shield
+        test: Acting as Head of State or responsible Government official does not relieve the person of responsibility.
+        authorities:
+          - unga-resolution-95-i
+      - name: Principle IV — orders no shield
+        test: Acting under orders of a Government or superior does not relieve responsibility, provided a moral choice was in fact possible.
+        authorities:
+          - unga-resolution-95-i
+    what-if:
+      - change: A conscript took part in a killing at gunpoint, with no realistic alternative.
+        effect: 'Principle IV''s proviso is engaged: orders are no relief only where a moral choice was in fact possible. Whether one existed is the key question.'
+      - change: The accused is a serving foreign minister before another state's national court.
+        effect: Principle III removes the substantive defence, but personal immunity may still bar that court while she holds office (Arrest Warrant). An international court with jurisdiction is a different matter.
+    boundary:
+      - text: A conscript ordered at gunpoint.
+        why: 'At the edge of Principle IV: superior orders give no relief only if a moral choice was in fact possible to him.'
+      - text: A serving foreign minister charged before a foreign national court.
+        why: 'Principle III answers responsibility, not immunity: procedural personal immunity can still stop that court, without meaning impunity.'
+    transfer:
+      - scenario: 'A former interior minister charged with crimes against humanity argues: the deportations were authorised by statute, she acted as a minister, and her president ordered them anyway.'
+        answer: 'Each plea fails as a shield. Statutory authority: Principle II. Ministerial office: Principle III. The president''s orders: Principle IV, unless no moral choice was in fact possible — unlikely for a minister directing policy. She is responsible as "any person" under Principle I.'
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 12, 19)
+      - 'Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slide 28: SCSL milestones — the Taylor trial)'
+    verify: false
+  - concept: laws2000-w11-ad-hoc-tribunals-icty-and-ictr
+    plain: In the 1990s the Security Council itself created two temporary criminal courts — for the former Yugoslavia and for Rwanda — using its Chapter VII powers, so every state had to co-operate with them.
+    concrete: At the ICTR, Jean Kambanda pleaded guilty to genocide in May 1998, and in September 1998 Jean-Paul Akayesu was convicted of genocide, the Tribunal finding that sexual violence could constitute its actus reus. The slides credit the ICTR with establishing that genocide had occurred and with developing ICL on sexual offences and incitement — while noting criticisms of delays, treatment of victims, selective prosecutions and distance from affected communities.
+    formal: 'ICTY: Resolution 827 (25 May 1993), under Chapter VII; "all States shall cooperate fully"; Statute art 1 — serious violations of IHL in the former Yugoslavia since 1991. ICTR: created under Chapter VII on 8 November 1994, seated in Arusha; art 1 — serious IHL violations in Rwanda, and by Rwandans in neighbouring states, in 1994; arts 2–4 — genocide, crimes against humanity, Common Article 3 and Protocol II.'
+    terms:
+      - term: ad hoc tribunal
+        gloss: A temporary international criminal tribunal created for one conflict — here by the Security Council under Chapter VII, not by treaty.
+      - term: Residual Mechanism (MICT)
+        gloss: The International Residual Mechanism for Criminal Tribunals, established in 2010 to carry on the ICTY's and ICTR's remaining functions.
+      - term: Chapter VII
+        gloss: '"Action with respect to Threats to the Peace, Breaches of the Peace, and Acts of Aggression" — the Charter chapter used to create both tribunals.'
+    misconceptions:
+      - claim: The ICTY was set up by a treaty among the successor states of the former Yugoslavia.
+        tempting: Many international courts rest on treaties.
+        correction: It was established by Security Council Resolution 827 (25 May 1993), acting under Chapter VII; no ratification was involved.
+      - claim: Only the states of the former Yugoslavia had to co-operate with the ICTY.
+        tempting: The crimes happened there.
+        correction: Resolution 827 decided that "all States shall cooperate fully" — binding on every UN member under art 25 of the Charter.
+      - claim: The ICTY could prosecute genocide or war crimes committed anywhere after 1991.
+        tempting: It tried very grave international crimes.
+        correction: Art 1 of its Statute limits it to serious violations of IHL committed in the territory of the former Yugoslavia since 1991.
+    socratic:
+      - ask: Who created the ICTY, and with what power?
+        hint: Resolution 827.
+        answer: The Security Council, acting under Chapter VII of the Charter, in Resolution 827 (25 May 1993).
+      - ask: Which states had to co-operate with it, and why?
+        hint: Art 25 of the Charter.
+        answer: 'All states: the resolution decided that all States shall cooperate fully, and members agree to carry out the Council''s decisions (art 25).'
+      - ask: What could each tribunal try?
+        hint: Place and time.
+        answer: 'ICTY: serious IHL violations in the former Yugoslavia since 1991. ICTR: serious IHL violations in Rwanda, and by Rwandans in neighbouring states, during 1994.'
+      - ask: What did the ICTR add to ICL?
+        hint: Akayesu.
+        answer: It established that genocide had occurred, and developed the law on sexual offences — sexual violence as genocide's actus reus — and incitement.
+      - ask: What are the main criticisms?
+        hint: Money, time, distance.
+        answer: Cost, delays, lack of victim participation or poor treatment of victims, selective prosecutions, and distance from affected communities.
+    elements:
+      - name: Created by the Security Council
+        test: 'A Chapter VII decision, not a treaty: Resolution 827 for the ICTY; the ICTR likewise under Chapter VII (8 November 1994).'
+        authorities:
+          - unsc-resolution-827
+      - name: All states must co-operate
+        test: '"All States shall cooperate fully"; Council decisions bind every member under art 25.'
+        authorities:
+          - unsc-resolution-827
+          - un-charter-art-25
+      - name: Limited jurisdiction
+        test: 'ICTY: serious IHL violations in the former Yugoslavia since 1991. ICTR: in Rwanda, or by Rwandans in neighbouring states, in 1994.'
+        authorities:
+          - icty-statute-art-1
+          - ictr-statute-arts-1-4
+    what-if:
+      - change: A state that had no part in the Yugoslav conflict refuses to arrest an ICTY fugitive on its territory, saying it never consented to the Tribunal.
+        effect: 'Consent is irrelevant: Resolution 827 decided that all States shall cooperate fully, and art 25 binds every UN member to carry out that Chapter VII decision.'
+      - change: A Rwandan citizen committed the killings in a neighbouring state in 1994.
+        effect: 'Within the ICTR: art 1 covers Rwandan citizens responsible for serious IHL violations in the territory of neighbouring states between 1 January and 31 December 1994.'
+      - change: The massacre in Rwanda happened in 1995.
+        effect: Outside the ICTR's temporal jurisdiction, which ran only from 1 January to 31 December 1994.
+    boundary:
+      - text: Killings in Rwanda by a Rwandan in March 1994.
+        why: 'Inside the ICTR: territory of Rwanda, within 1994, and genocide, crimes against humanity or Common Article 3 violations (arts 2–4).'
+      - text: A war crime in the former Yugoslavia in 1990.
+        why: 'Outside the ICTY: art 1 reaches serious IHL violations committed "since 1991".'
+    transfer:
+      - scenario: 'Exam: "Why was Australia obliged to co-operate with the ICTY, though there was no ICTY treaty for it to sign?"'
+        answer: 'Because the ICTY was not a treaty body: the Security Council created it under Chapter VII, and Resolution 827 decided that "all States shall cooperate fully". Under art 25 of the Charter that decision binds every UN member, Australia included; no consent was needed.'
+    objections:
+      - position: The ad hoc tribunals were a success for international justice.
+        evidence: The ICTY charged 161 people (90 convictions, 19 acquittals); both tribunals contributed to ICL, the historical record and combating denial; the ICTR established that genocide had occurred.
+        objection: Critics point to cost, delays, lack of victim participation, selective prosecutions, and distance from affected communities.
+        reply: Partly in response, treaty-based hybrid courts were proposed as more efficient, locally based courts (slide 25).
+    storyboard:
+      - caption: '1993: Resolution 827 creates the ICTY'
+        detail: Chapter VII; all States must co-operate; serious IHL violations in the former Yugoslavia since 1991.
+      - caption: '1994: the ICTR follows'
+        detail: Created under Chapter VII on 8 November 1994, seated in Arusha, for crimes in 1994.
+      - caption: '1995: Tadić on the ICTY''s creation'
+        detail: The Interlocutory Appeal Decision addresses the legality of creating the ICTY.
+      - caption: '1998–99: landmark cases'
+        detail: Kambanda pleads guilty; Akayesu convicted of genocide; Milošević indicted while President.
+      - caption: '2010–17: wind-down'
+        detail: MICT established 2010; ICTR closes December 2015; ICTY closes 31 December 2017.
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 16–23)
+      - 'Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slide 25: why hybrid courts were proposed)'
+      - 'Week 11 - Tutorial Tasks - International Criminal Law (Q1–2: instruments establishing the tribunals; which states had to co-operate)'
+    verify: false
+  - concept: laws2000-w11-hybrid-tribunals-and-the-eccc
+    plain: 'Hybrid tribunals are part national, part international: usually set up by agreement between a state and the UN, they try both international and national crimes with a mix of national and international judges and staff.'
+    concrete: Cambodia asked the UN for help to try the Khmer Rouge's crimes of 1975–79. After lengthy negotiations, an international agreement in 2004 created the Extraordinary Chambers in the Courts of Cambodia. They sat inside Cambodia's own courts, with UN assistance (UNAKRT), a majority of national judges in every Chamber, one national and one international Co-Prosecutor, Co-Investigating Judges in civil-law style, and civil parties entitled to take part.
+    formal: 'Hybrid tribunals are part national, part international in establishment (e.g. host state–UN agreement), subject-matter jurisdiction and staff. The ECCC tried senior leaders of Democratic Kampuchea and those most responsible for crimes from 17 April 1975 to 6 January 1979: genocide under the 1948 Genocide Convention, crimes against humanity as per the Rome Statute, grave breaches of the Geneva Conventions, and Cambodian crimes.'
+    analogy:
+      text: 'A joint venture: two partners — a state and the UN — sign a contract to run one business, pooling staff and rules from both.'
+      maps:
+        - from: the two partners
+          to: the host state and the UN
+        - from: the contract
+          to: the establishing agreement (e.g. the 2004 UN–Cambodia agreement)
+        - from: pooled staff
+          to: national and international judges and prosecutors
+        - from: rules from both partners
+          to: jurisdiction over international and national crimes
+      limits:
+        - 'Joint ventures vary: the SCSL sat outside Sierra Leone''s legal system with a majority of international judges, while the ECCC sat inside Cambodia''s courts with a national majority.'
+    terms:
+      - term: hybrid (internationalised) tribunal
+        gloss: A court part national and part international in its establishment, subject-matter jurisdiction and staff.
+      - term: Co-Investigating Judges
+        gloss: At the ECCC, judges — not the Prosecutors — ran investigations, reflecting Cambodia's civil-law system.
+      - term: civil parties
+        gloss: Victims entitled to participate in ECCC proceedings.
+    misconceptions:
+      - claim: The ECCC were created by a Security Council resolution under Chapter VII, like the ICTY and ICTR.
+        tempting: The UN was involved in all three.
+        correction: The ECCC came from an international agreement in 2004, after Cambodia's request to the UN, and sat within Cambodia's court structure.
+      - claim: ECCC prosecutors investigated the cases, as the ICC Prosecutor does.
+        tempting: Prosecutors investigate at the ICC and in common-law systems.
+        correction: 'The ECCC''s structure was closer to civil law, reflecting Cambodia''s system: Co-Investigating Judges, not Prosecutors, were responsible for investigations.'
+      - claim: The Special Court for Sierra Leone was a UN body, like the ICTY and ICTR.
+        tempting: The UN helped establish it.
+        correction: 'The slides say the SCSL was "not a UN body (unlike the ICTY and ICTR)": the UN and Sierra Leone''s government established it jointly in 2002.'
+    socratic:
+      - ask: Why were hybrid courts proposed after the ad hoc tribunals?
+        hint: Where did the ICTY and ICTR sit?
+        answer: The ad hoc tribunals were far from the countries they served; hybrid, treaty-based courts were meant to be efficient and more locally based.
+      - ask: What three features mark a court as hybrid?
+        hint: How made, what law, who staffs it.
+        answer: Its establishment (e.g. host state–UN agreement), its jurisdiction over both international and national crimes, and its mix of international and national judges and practitioners.
+      - ask: How was the ECCC created, and where did it sit?
+        hint: '2004.'
+        answer: By international agreement in 2004 after Cambodia's request to the UN; within the Cambodian court structure, with UN assistance through UNAKRT.
+      - ask: Whom and what could it try?
+        hint: 1975–79.
+        answer: Senior leaders of Democratic Kampuchea and those most responsible, for genocide, crimes against humanity, grave breaches and Cambodian crimes from 17 April 1975 to 6 January 1979.
+      - ask: What made its procedure distinctive?
+        hint: Civil law.
+        answer: Two Co-Prosecutors (national and international), a national majority of judges, Co-Investigating Judges, and civil parties' right to participate.
+    elements:
+      - name: Mixed establishment
+        test: Created by agreement between the host state and the UN rather than by Security Council resolution alone or by multilateral treaty.
+      - name: Mixed jurisdiction
+        test: Both international crimes (e.g. genocide, crimes against humanity) and crimes under national law.
+        authorities:
+          - genocide-convention-arts-i-iii
+      - name: Mixed staff
+        test: International and national judges and practitioners; at the ECCC a national majority and national and international Co-Prosecutors.
+    what-if:
+      - change: The alleged crime was committed in Cambodia in 1980.
+        effect: 'Outside the ECCC: its jurisdiction covered only 17 April 1975 to 6 January 1979.'
+      - change: The accused was a low-ranking guard, not a senior leader.
+        effect: Likely outside the ECCC's personal jurisdiction, limited to senior leaders of Democratic Kampuchea and those most responsible — unless the guard was among those most responsible.
+    boundary:
+      - text: The Special Tribunal for Lebanon.
+        why: 'Hybrid: requested by Lebanon, its Statute annexed to Security Council Resolution 1757; mixed Lebanese and international judges and an international prosecutor; applied the Lebanese Criminal Code on terrorism.'
+      - text: The Special Court for Sierra Leone.
+        why: 'Hybrid but outside the national system: jointly established by the UN and Sierra Leone, seated in Freetown, with Sierra Leonean staff but a majority of international judges.'
+    transfer:
+      - scenario: After a civil war, State K asks the UN to help try its former rulers. Negotiators propose a court inside K's judiciary, with mixed national and international judges, applying both K's criminal code and international crimes.
+        answer: 'That would be a hybrid court on the ECCC model: established by agreement between the host state and the UN, with mixed jurisdiction and mixed staff. Unlike the ICTY and ICTR, it would rest on K''s consent rather than a Chapter VII decision binding all states.'
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 7, 30–31)
+      - 'Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slides 25, 27–28, 33: classification, the SCSL, the STL)'
+    verify: false
+  - concept: laws2000-w11-icc-jurisdiction
+    plain: The ICC can act only on one of four crimes, committed after the Statute applied, brought by a recognised trigger and — unless the Security Council referred it — linked to a party.
+    concrete: In May 2021 the ICC Prosecutor, using the proprio motu power, asked to investigate crimes committed in the Philippines' "war on drugs" campaign; Pre-Trial Chamber I authorised the investigation in September 2021. After a deferral request and a decision to resume in 2023, a warrant for crimes against humanity was issued against Mr Duterte in March 2025, and Philippine authorities arrested and surrendered him to the Court.
+    formal: 'Art 5: genocide, crimes against humanity, war crimes, aggression. Art 11: crimes after entry into force (for a later Party, after entry into force for it, absent an art 12(3) declaration). Art 13: State Party referral, Security Council referral under Chapter VII, or the Prosecutor proprio motu. Art 12(2): for (a) and (c), the territorial (or flag) or nationality state must be a Party or have accepted jurisdiction.'
+    terms:
+      - term: ratione temporis
+        gloss: 'Jurisdiction in time (art 11): only crimes after the Statute''s entry into force, or after it entered into force for a later Party.'
+      - term: proprio motu
+        gloss: The Prosecutor opening an investigation on her or his own initiative (art 15), which Pre-Trial Chamber judges must authorise.
+      - term: art 12(3) declaration
+        gloss: A non-party's declaration, lodged with the Registrar, accepting the Court's jurisdiction over a crime; the state must then co-operate without delay or exception.
+        example: Ukraine's 2014 declaration for 21 November 2013 – 22 February 2014.
+      - term: trigger
+        gloss: 'How a situation reaches the Court: State Party referral, Security Council Chapter VII referral, or the Prosecutor proprio motu (art 13).'
+    misconceptions:
+      - claim: When the Security Council refers a situation, the territorial or nationality state must still be a Party.
+        tempting: The ICC is a treaty court built on state consent.
+        correction: Art 12(2) applies only to art 13(a) and (c). A Chapter VII referral under art 13(b) needs no territorial or nationality link — as with Libya (Res 1970, 2011).
+      - claim: A national of a State Party who commits piracy on that state's ship is within the ICC's jurisdiction.
+        tempting: Both art 12(2) links — flag state and nationality — are satisfied.
+        correction: Preconditions matter only for an art 5 crime. Piracy is not one of the four, so the Court lacks subject-matter jurisdiction.
+      - claim: Any soldier who takes part in an act of aggression commits the crime of aggression.
+        tempting: Taking part in an unlawful war seems enough.
+        correction: Art 8 bis requires a person "in a position effectively to exercise control over or to direct the political or military action of a State" — a leadership crime.
+    socratic:
+      - ask: What is the first question for any ICC case?
+        hint: Art 5.
+        answer: Is the conduct genocide, a crime against humanity, a war crime or the crime of aggression? Nothing else is within the Court's jurisdiction.
+      - ask: What if the crimes happened before the state joined the Statute?
+        hint: Art 11(2).
+        answer: Only crimes after the Statute entered into force for that state are covered, unless it lodged an art 12(3) declaration.
+      - ask: How can a situation reach the Court?
+        hint: Three triggers in art 13.
+        answer: A State Party referral, a Security Council referral under Chapter VII, or the Prosecutor acting proprio motu with Pre-Trial Chamber authorisation.
+      - ask: For a State Party referral, which state must be a Party?
+        hint: Art 12(2).
+        answer: The state where the conduct occurred (or the flag state of the vessel or aircraft), or the accused's state of nationality — or one that has accepted jurisdiction under art 12(3).
+      - ask: Why did the Libya referral need no such link?
+        hint: Art 13(b).
+        answer: Art 12(2) applies only to referrals by States Parties and proprio motu investigations; a Chapter VII referral by the Security Council bypasses it.
+    elements:
+      - name: Subject matter (art 5)
+        test: Genocide (art 6), crimes against humanity (art 7), war crimes (art 8) or the crime of aggression (art 8 bis).
+        authorities:
+          - rome-statute-art-5
+      - name: Time (art 11)
+        test: Committed after the Statute's entry into force — for a later Party, after entry into force for that state, unless it lodged an art 12(3) declaration.
+        authorities:
+          - rome-statute-art-11
+      - name: Trigger (art 13)
+        test: Referral by a State Party, referral by the Security Council acting under Chapter VII, or a proprio motu investigation by the Prosecutor.
+        authorities:
+          - rome-statute-art-13
+          - rome-statute-art-13-b
+      - name: Preconditions (art 12)
+        test: 'For a State Party referral or proprio motu: the territorial (or flag) state or the accused''s nationality state is a Party or has accepted jurisdiction. Not needed for a Council referral.'
+        authorities:
+          - rome-statute-art-12
+    what-if:
+      - change: The war crimes were committed in Ibbin before Ibbin became a State Party.
+        effect: 'Art 11(2): the Court has jurisdiction only over crimes after the Statute entered into force for Ibbin — unless Ibbin lodged an art 12(3) declaration accepting jurisdiction over the earlier crimes.'
+      - change: Crimes against humanity in non-party Giskar, by a Giskar national, referred by the Security Council under Chapter VII.
+        effect: 'Jurisdiction can be exercised: crimes against humanity are an art 5 crime, and an art 13(b) referral needs no art 12(2) link.'
+      - change: The same Giskar situation, but the Prosecutor acts proprio motu instead.
+        effect: 'No jurisdiction unless Giskar lodges an art 12(3) declaration: art 12(2) requires the territorial or nationality state to be a Party or to have accepted jurisdiction.'
+    boundary:
+      - text: Ukraine's 2014 art 12(3) declaration, made as a non-party.
+        why: 'Inside: a non-party may accept jurisdiction by declaration lodged with the Registrar, and must then co-operate without delay or exception.'
+      - text: Piracy on a State Party's vessel by its national.
+        why: 'Outside: piracy is not an art 5 crime, so the art 12(2) links never come into play.'
+    transfer:
+      - scenario: A national of non-party State M orders war crimes on the territory of State Party N. N refers the situation to the Prosecutor. M objects that it never joined the Statute.
+        answer: The objection fails. War crimes are an art 5 crime; if committed after the Statute entered into force for N, art 11 is met; a State Party referral is an art 13(a) trigger; and art 12(2)(a) is satisfied because N, the territorial state, is a Party. M's consent is unnecessary.
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 39, 42, 45)
+      - 'Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slides 38, 40–41, 43–44, 46–47: the jurisdiction flowchart; genocide and aggression; Libya referral; Philippines timeline; Ukraine declaration and referral; preconditions diagram)'
+      - 'Week 11 - Tutorial Tasks - International Criminal Law (Q4: Strong, Valeron, Megor)'
+      - 'Week 12 - Tutorial Revision Quiz Questions (Q18: which crime is not within art 5)'
+    verify: false
+  - concept: laws2000-w11-icc-admissibility-and-complementarity
+    plain: Even with jurisdiction, the ICC steps back if a state with jurisdiction is genuinely handling the case. It acts only where states are unwilling or unable, and only for cases grave enough.
+    concrete: 'After the Prosecutor''s investigation into the Philippines'' "war on drugs" was authorised in 2021, the Philippines asked the Court to defer, saying national proceedings were under way. In January 2023 the Pre-Trial Chamber let the investigation resume, finding the national proceedings insufficient in scope — complementarity in action: the state''s claim to be acting did not displace the Court once its proceedings did not genuinely cover the case.'
+    formal: 'The ICC is "complementary to national criminal jurisdictions" (art 1). Art 17(1): inadmissible where (a) a state with jurisdiction is investigating or prosecuting, or (b) investigated and decided not to prosecute — unless unwilling or unable genuinely to do so; (c) the person was already tried (art 20(3)); (d) insufficient gravity. Unwillingness: shielding, unjustified delay, lack of independence. Inability: collapse or unavailability of the judicial system.'
+    analogy:
+      text: 'A back-up generator: the national courts are the mains supply. The generator stays off while the mains genuinely work, and starts only when they fail or are switched off on purpose — and not for trivial loads.'
+      maps:
+        - from: the mains supply
+          to: national criminal proceedings
+        - from: the back-up generator
+          to: the ICC
+        - from: mains failing / switched off on purpose
+          to: inability / unwillingness
+        - from: not for trivial loads
+          to: the gravity threshold (art 17(1)(d))
+      limits:
+        - A generator switches on automatically; the ICC must decide, case by case, whether national proceedings are genuine, applying the criteria in art 17.
+    terms:
+      - term: complementarity
+        gloss: 'The ICC complements national criminal jurisdictions: national courts come first, and the Court acts where states are unwilling or unable genuinely to proceed.'
+      - term: unwillingness
+        gloss: Proceedings to shield the person, unjustified delay inconsistent with intent to bring them to justice, or proceedings not independent or impartial.
+      - term: inability
+        gloss: A total or substantial collapse or unavailability of the national judicial system leaves the state unable to obtain the accused or evidence, or to proceed.
+      - term: gravity
+        gloss: A case not of sufficient gravity to justify further action by the Court is inadmissible (art 17(1)(d)).
+    misconceptions:
+      - claim: '"Complementary" means the ICC hears appeals from national courts.'
+        tempting: '"Complementary" sounds like a higher, supervising court.'
+        correction: 'Complementarity gives national courts priority: under art 17 a case is inadmissible while a state with jurisdiction genuinely investigates or prosecutes. The ICC is not an appeal court.'
+      - claim: Years of unexplained adjournments in functioning courts show inability.
+        tempting: Nothing is happening, so the state seems unable.
+        correction: Unjustified delay inconsistent with an intent to bring the person to justice is a sign of unwillingness. Inability requires a total or substantial collapse or unavailability of the judicial system.
+      - claim: A case is admissible whenever a state with jurisdiction exists.
+        tempting: Jurisdiction and admissibility sound like the same test.
+        correction: 'The reverse: a case being genuinely investigated or prosecuted by such a state is inadmissible. Admissibility is a separate test after jurisdiction.'
+    socratic:
+      - ask: The ICC has jurisdiction. Can it simply proceed?
+        hint: Art 17.
+        answer: No. It must also find the case admissible — national courts come first under complementarity.
+      - ask: A state with jurisdiction is prosecuting the accused. What now?
+        hint: Genuinely?
+        answer: The case is inadmissible unless the state is unwilling or unable genuinely to carry out the investigation or prosecution.
+      - ask: What signs point to unwillingness?
+        hint: Three in art 17(2).
+        answer: Proceedings to shield the person, unjustified delay inconsistent with intent to bring them to justice, or proceedings not conducted independently or impartially.
+      - ask: And to inability?
+        hint: The courts themselves.
+        answer: A total or substantial collapse or unavailability of the national judicial system, so the state cannot obtain the accused or the evidence, or otherwise proceed.
+      - ask: Nothing at national level — is the case then admissible?
+        hint: One more filter.
+        answer: Only if it is of sufficient gravity to justify further action by the Court (art 17(1)(d)).
+    elements:
+      - name: National investigation or prosecution
+        test: Inadmissible if a state with jurisdiction is investigating or prosecuting, unless it is unwilling or unable genuinely to do so (art 17(1)(a)).
+        authorities:
+          - rome-statute-art-17
+      - name: Decision not to prosecute
+        test: Inadmissible if such a state investigated and decided not to prosecute, unless that decision resulted from unwillingness or inability (art 17(1)(b)).
+        authorities:
+          - rome-statute-art-17
+      - name: Already tried
+        test: Inadmissible if the person has been tried for the conduct and a trial by the Court is not permitted under art 20(3) (art 17(1)(c)).
+        authorities:
+          - rome-statute-art-17
+      - name: Sufficient gravity
+        test: Inadmissible if not of sufficient gravity to justify further action by the Court (art 17(1)(d)).
+        authorities:
+          - rome-statute-art-17
+    what-if:
+      - change: State Z's courts open proceedings against a general but adjourn them for years without explanation while he stays free.
+        effect: 'Points to unwillingness: unjustified delay inconsistent with an intent to bring him to justice. The case may be admissible despite the national proceedings.'
+      - change: After a civil war, State Q's courts have stopped functioning; it cannot obtain the accused or evidence but says it is "investigating".
+        effect: 'Inability: a total or substantial collapse of the judicial system. The claimed investigation is not genuine, so the case may be admissible.'
+      - change: State R genuinely investigated and, on the evidence, decided not to prosecute.
+        effect: 'Inadmissible under art 17(1)(b): a genuine decision not to prosecute bars the Court, unless it resulted from unwillingness or inability.'
+    boundary:
+      - text: The Philippines' 2021 deferral request.
+        why: 'Not enough to bar the Court: the Pre-Trial Chamber found the national proceedings insufficient in scope and let the investigation resume.'
+      - text: An isolated, minor incident within a wider situation.
+        why: 'May be inadmissible for insufficient gravity (art 17(1)(d)) even if no state is acting: the Court is limited to the most serious crimes.'
+    transfer:
+      - scenario: State T, a Party, announces a "truth commission" for a former army chief accused of crimes against humanity. It has no power to prosecute, and the chief keeps his post.
+        answer: Not a bar to admissibility. Art 17 defers to genuine investigation or prosecution. A body that cannot prosecute, alongside signs the process shields the chief from criminal responsibility, points to unwillingness. If the case is grave enough, the ICC may proceed.
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 48–49)
+      - 'Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slides 37, 44: preliminary examination asks whether there are genuine national proceedings; the Philippines timeline)'
+      - 'Week 12 - Tutorial Revision Quiz Questions (Q19: complementarity)'
+    verify: false
+  - concept: laws2000-w11-icc-applicable-law-and-cooperation
+    plain: The ICC applies its own Statute first, then international law, then general principles drawn from national laws. It has no police, so it depends on states that are bound to co-operate.
+    concrete: In Resolution 1970 (2011) the Security Council referred Libya to the ICC Prosecutor. It decided that the Libyan authorities "shall cooperate fully" with the Court; but, recognising that states not party to the Rome Statute have no obligation under it, it only "urges" all states and concerned organisations. It also recognised that the UN would bear none of the referral's expenses.
+    formal: 'Art 21: the Court applies first the Statute, Elements of Crimes and Rules; second, applicable treaties and principles and rules of international law; failing that, general principles derived from national laws — consistently with internationally recognised human rights. Art 86: States Parties "cooperate fully"; art 88: national procedures. Art 12(3) declarants co-operate "without any delay or exception". UN Charter art 25 binds members to Council decisions.'
+    terms:
+      - term: Elements of Crimes
+        gloss: One of the Court's own instruments, applied "in the first place" with the Statute and the Rules of Procedure and Evidence (art 21).
+      - term: general principles of law
+        gloss: Principles the Court derives from national laws of the world's legal systems; the last, gap-filling source in art 21.
+      - term: duty to co-operate
+        gloss: States Parties must co-operate fully (art 86); declarants under art 12(3) and states bound by a Chapter VII decision must also co-operate.
+    misconceptions:
+      - claim: Every UN member must co-operate with the ICC under art 86.
+        tempting: All states had to co-operate with the ICTY.
+        correction: Art 86 binds States Parties. A non-party is bound only by an art 12(3) declaration or by a Chapter VII Security Council decision (art 25 UN Charter) — Res 1970 merely urged other states.
+      - claim: General principles of law rank above the Rome Statute.
+        tempting: They are a primary source under art 38(1) of the ICJ Statute.
+        correction: 'Art 21 ranks its sources: the Statute, Elements and Rules first; treaties and international law second; general principles from national laws only "failing that".'
+      - claim: The ICC is strictly bound by its previous decisions, as in common-law precedent.
+        tempting: Australian courts follow precedent.
+        correction: Art 21(2) says the Court "may apply" principles and rules as interpreted in its previous decisions — permissive, not binding.
+    socratic:
+      - ask: The Statute and Elements are silent on a question. Where does the Court look next?
+        hint: Art 21(1)(b).
+        answer: To applicable treaties and the principles and rules of international law, including the established principles of the law of armed conflict.
+      - ask: And if those are silent too?
+        hint: '"Failing that".'
+        answer: To general principles of law derived from national laws, including those of states that would normally exercise jurisdiction, if consistent with the Statute and international law.
+      - ask: What limit governs every interpretation?
+        hint: Art 21(3).
+        answer: It must be consistent with internationally recognised human rights and without adverse distinction on grounds such as gender, age, race or religion.
+      - ask: Who must arrest suspects for the Court?
+        hint: The ICC has no police.
+        answer: 'States: States Parties must co-operate fully (art 86) and have national procedures (art 88); the Court relies on countries to arrest and transfer suspects.'
+      - ask: Can a non-party ever be obliged to co-operate?
+        hint: Two routes.
+        answer: Yes — by lodging an art 12(3) declaration, or through a Chapter VII Security Council decision, binding under art 25 of the Charter.
+    elements:
+      - name: 'First: the Court''s own instruments'
+        test: The Statute, Elements of Crimes and Rules of Procedure and Evidence.
+        authorities:
+          - rome-statute-art-21
+      - name: 'Second: international law'
+        test: Where appropriate, applicable treaties and principles and rules of international law, including the law of armed conflict.
+        authorities:
+          - rome-statute-art-21
+      - name: 'Failing that: general principles'
+        test: General principles from national laws of the world's legal systems, if not inconsistent with the Statute and international law.
+        authorities:
+          - rome-statute-art-21
+      - name: Human rights consistency
+        test: All application and interpretation must be consistent with internationally recognised human rights, without adverse distinction.
+        authorities:
+          - rome-statute-art-21
+    what-if:
+      - change: A suspect travels to a non-party that has made no declaration and is under no Council decision.
+        effect: That state has no obligation under the Statute to arrest him; the Court, relying on states for arrests, may be unable to act — a practical consequence for the ICC.
+      - change: The Council, acting under Chapter VII, decides that the territorial non-party "shall cooperate fully".
+        effect: That state is bound to co-operate through art 25 of the UN Charter, though it is not a Party — as Res 1970 did for the Libyan authorities.
+    boundary:
+      - text: Res 1970's call on states other than Libya.
+        why: 'Not binding: the Council recognised non-parties have no obligation under the Statute and only "urges" all states, whereas it "decides" that the Libyan authorities shall co-operate.'
+      - text: Ukraine's art 12(3) declaration.
+        why: 'A non-party that is nonetheless bound: an accepting state must co-operate "without any delay or exception" under Part 9.'
+    transfer:
+      - scenario: The ICC issues an arrest warrant. The suspect is in State V, which is not a Party, has made no declaration and faces no Council decision. A commentator says V must arrest him because "everyone must co-operate with international courts".
+        answer: Wrong for the ICC. Art 86 binds States Parties; a non-party is bound only by an art 12(3) declaration or a Chapter VII decision (art 25 UN Charter). V has neither, so it has no obligation under the Statute — showing the Court's dependence on state co-operation.
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 45, 50–51)
+      - 'Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slides 37, 43, 46: the Court relies on countries to arrest; Res 1970 paras 4–8; Ukraine''s declaration)'
+      - 'Week 11 - Tutorial Tasks - International Criminal Law (Q3: when non-parties must co-operate, and the consequences for the ICC)'
+    verify: false
+flows:
+  - slug: can-the-icc-hear-this-case
+    title: Can the ICC hear this case?
+    summary: 'Follows the slides'' flowchart: subject matter (art 5), time (art 11), trigger (art 13), preconditions (art 12, skipped for a Security Council referral), then admissibility (art 17).'
+    start: j1
+    concepts:
+      - laws2000-w11-icc-jurisdiction
+      - laws2000-w11-icc-admissibility-and-complementarity
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slides 38, 47)
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 39, 42, 45, 48–49)
+      - Week 11 - Tutorial Tasks - International Criminal Law (Q4)
+    nodes:
+      - id: j1
+        kind: ask
+        text: Is the conduct genocide, a crime against humanity, a war crime or the crime of aggression?
+        note: 'Art 5: only "the most serious crimes of concern to the international community as a whole". Piracy is not on the list. Aggression is a leadership crime (art 8 bis).'
+        authorities:
+          - rome-statute-art-5
+        branches:
+          - label: 'Yes'
+            to: j2
+          - label: 'No'
+            to: e-crime
+      - id: j2
+        kind: ask
+        text: Was it committed after the Statute entered into force — for that state, if it joined later?
+        note: Art 11. A state that joins later can reach back to earlier crimes only by an art 12(3) declaration.
+        authorities:
+          - rome-statute-art-11
+        branches:
+          - label: 'Yes'
+            to: j3
+          - label: No — but the state lodged an art 12(3) declaration
+            to: j3
+          - label: 'No'
+            to: e-time
+      - id: j3
+        kind: ask
+        text: How did the situation reach the Court?
+        authorities:
+          - rome-statute-art-13
+        branches:
+          - label: A State Party referred it
+            to: j5
+          - label: The Prosecutor acted proprio motu
+            to: j4
+          - label: The Security Council referred it under Chapter VII
+            to: j6
+      - id: j4
+        kind: step
+        text: The Pre-Trial Chamber must authorise the Prosecutor's investigation (art 15).
+        note: 'E.g. the Philippines: requested May 2021, authorised by Pre-Trial Chamber I in September 2021.'
+        next: j5
+      - id: j5
+        kind: ask
+        text: Is the territorial state (or the flag state of the vessel or aircraft), or the accused's state of nationality, a Party — or has it accepted jurisdiction by declaration?
+        note: Art 12(2)–(3). A declaring non-party must co-operate without delay or exception (e.g. Ukraine, 2014).
+        authorities:
+          - rome-statute-art-12
+        branches:
+          - label: 'Yes'
+            to: j6
+          - label: 'No'
+            to: e-precond
+      - id: j6
+        kind: ask
+        text: Is a state with jurisdiction investigating or prosecuting the case, or has it decided not to prosecute, or tried the person already?
+        note: 'Complementarity: the ICC is "complementary to national criminal jurisdictions" (art 1). A Security Council referral (art 13(b)) needs no art 12(2) link but is still subject to admissibility.'
+        concept: laws2000-w11-icc-admissibility-and-complementarity
+        authorities:
+          - rome-statute-art-17
+        branches:
+          - label: 'Yes'
+            to: j7
+          - label: 'No'
+            to: j8
+      - id: j7
+        kind: ask
+        text: Is that state unwilling or unable genuinely to carry out the proceedings?
+        note: 'Unwilling: shielding, unjustified delay, lack of independence or impartiality. Unable: total or substantial collapse or unavailability of the judicial system. For a prior trial, art 20(3) governs.'
+        branches:
+          - label: 'Yes'
+            to: j8
+          - label: No — the proceedings are genuine
+            to: e-inadmissible
+      - id: j8
+        kind: ask
+        text: Is the case of sufficient gravity to justify further action by the Court?
+        authorities:
+          - rome-statute-art-17
+        branches:
+          - label: 'Yes'
+            to: e-proceed
+          - label: 'No'
+            to: e-gravity
+      - id: e-crime
+        kind: end
+        tone: not-met
+        text: 'No subject-matter jurisdiction: not an art 5 crime (e.g. piracy), whatever the links to Parties.'
+      - id: e-time
+        kind: end
+        tone: not-met
+        text: No temporal jurisdiction (art 11).
+      - id: e-precond
+        kind: end
+        tone: not-met
+        text: 'Preconditions not met: neither the territorial nor the nationality state is a Party or has accepted jurisdiction (art 12). Only a Security Council referral could open the case.'
+      - id: e-inadmissible
+        kind: end
+        tone: not-met
+        text: 'Inadmissible: genuine national proceedings take priority (art 17).'
+      - id: e-gravity
+        kind: end
+        tone: not-met
+        text: 'Inadmissible: not of sufficient gravity (art 17(1)(d)).'
+      - id: e-proceed
+        kind: end
+        tone: met
+        text: Jurisdiction and admissibility established — proceed to the ICC.
+  - slug: must-this-state-cooperate
+    title: Must this state co-operate with the international criminal court?
+    summary: 'Sorts the sources of a state''s duty to co-operate: the Chapter VII basis of the ad hoc tribunals, Rome Statute party status, an art 12(3) declaration, or a Security Council decision.'
+    start: k1
+    concepts:
+      - laws2000-w11-icc-applicable-law-and-cooperation
+      - laws2000-w11-ad-hoc-tribunals-icty-and-ictr
+    sources:
+      - Week 11 - Lecture Slides - International Criminal Law (text extract) (slides 17, 45, 51)
+      - Week 11 - Lecture Slides - International Criminal Law (image slides transcribed) (slides 43, 46)
+      - Week 11 - Tutorial Tasks - International Criminal Law (Q2–3)
+    nodes:
+      - id: k1
+        kind: ask
+        text: Which court is asking for co-operation?
+        branches:
+          - label: The ICTY or ICTR
+            to: e-adhoc
+          - label: The ICC
+            to: k2
+      - id: k2
+        kind: ask
+        text: Is the state a Party to the Rome Statute?
+        branches:
+          - label: 'Yes'
+            to: e-party
+          - label: 'No'
+            to: k3
+      - id: k3
+        kind: ask
+        text: Has it accepted the Court's jurisdiction by an art 12(3) declaration?
+        authorities:
+          - rome-statute-art-12
+        branches:
+          - label: 'Yes'
+            to: e-declarant
+          - label: 'No'
+            to: k4
+      - id: k4
+        kind: ask
+        text: Has the Security Council, acting under Chapter VII, decided that this state shall co-operate?
+        note: 'Check the verb: Res 1970 "decides" that the Libyan authorities shall co-operate, but only "urges" other states, recognising non-parties have no obligation under the Statute.'
+        branches:
+          - label: Yes — it decides
+            to: e-sc
+          - label: No — at most it urges
+            to: e-none
+      - id: e-adhoc
+        kind: end
+        tone: met
+        text: 'Yes — every state: the tribunals were created under Chapter VII, Res 827 decided "all States shall cooperate fully", and art 25 binds all members.'
+        authorities:
+          - unsc-resolution-827
+          - un-charter-art-25
+      - id: e-party
+        kind: end
+        tone: met
+        text: 'Yes: States Parties must co-operate fully (art 86) and have procedures under national law for all forms of co-operation (art 88).'
+        authorities:
+          - rome-statute-arts-86-88
+      - id: e-declarant
+        kind: end
+        tone: met
+        text: 'Yes: an accepting state must co-operate "without any delay or exception" under Part 9 (e.g. Ukraine, 2014).'
+      - id: e-sc
+        kind: end
+        tone: met
+        exception: true
+        text: 'Yes, though not a Party: Chapter VII decisions bind UN members under art 25 of the Charter.'
+        authorities:
+          - un-charter-art-25
+      - id: e-none
+        kind: end
+        tone: not-met
+        text: No obligation under the Statute — and the Court, which relies on states to arrest suspects, may be unable to act.

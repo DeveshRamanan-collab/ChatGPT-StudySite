@@ -1,0 +1,634 @@
+unit: laws2400
+week: 1
+source: raw/laws2400-torts/week-01
+generator: aids-1
+aids:
+  - concept: laws2400-w01-defining-tort-law
+    plain: 'Tort law is the law of civil wrongs: it tells people to avoid causing harm to others and, if they do cause harm, to remedy it, usually by compensation.'
+    concrete: 'The Civil Liability Act 2002 (NSW) is the lecture''s "case in point". Tort law is mostly judge-made, but this statute was passed in response to a societal challenge about the price and availability of insurance. It did not replace the common law: it modified or abolished some rules and created new causes of action, so a NSW problem question needs the cases and the Act read together.'
+    formal: '"Tort" comes from the Latin tortum, "something twisted, wrong or crooked". Tort law deals with civil wrongs. In common law countries it is mostly judge-made, but statutes such as the Civil Liability Act 2002 (NSW) have modified or abolished some of the common law and created new causes of action without codifying it: cases and statutes co-exist.'
+    analogy:
+      text: The common law of tort is an old house; statutes are renovations. Some walls have been removed, some altered, and new rooms added, but the house still stands and most of it is original.
+      maps:
+        - from: the original house
+          to: judge-made (common law) tort rules
+        - from: walls removed or altered
+          to: common law rules a statute abolished or modified
+        - from: new rooms added
+          to: new causes of action created by statute
+        - from: the house still standing
+          to: 'no complete codification: cases and statutes co-exist'
+      limits:
+        - A renovated house shows you which rooms are new; in tort you must actively check whether a statute such as the CLA has changed the rule.
+        - Renovations are usually planned together; tort statutes respond piecemeal to particular societal problems, such as insurance costs.
+    terms:
+      - term: Tort
+        gloss: 'From the Latin tortum, "something twisted, wrong or crooked": a civil wrong, for which tort law requires the harm to be avoided or remedied.'
+      - term: Law of tort / law of torts
+        gloss: The debate over whether tort rests on fundamental unifying principles (Pollock and Winfield) or is merely a collection of miscellaneous causes of action (Salmond).
+      - term: Judge-made law
+        gloss: Law developed by courts deciding cases. In common law countries most tort law is judge-made, so cases are critical.
+      - term: Civil Liability Act 2002 (NSW)
+        gloss: The lecture's example of a tort statute, responding to a societal challenge about the price and availability of insurance; it modifies the common law.
+    misconceptions:
+      - claim: Tort law exists to punish people who do wrong.
+        tempting: Breaking rules sounds like something to be punished, and some torts, such as assault, are also crimes.
+        correction: Tort law tells people to avoid harming others or otherwise remedy the harm, e.g. by compensation. Punishment of public wrongs is criminal law's purpose (Lecture 1, slides 11 and 19).
+      - claim: The Civil Liability Act 2002 (NSW) codified tort law, so the old cases no longer matter.
+        tempting: A large statute about civil liability looks like a code that replaces case law.
+        correction: Statutes have not completely replaced or codified the common law; they modify or abolish some of it and create new causes of action. Cases and statutes co-exist (Lecture 1, slide 16).
+      - claim: Because tort is mostly judge-made, statutes can be ignored in a problem question.
+        tempting: The lecture stresses that in common law countries cases are critical.
+        correction: 'Statutes have become increasingly important: a NSW common law rule may have been modified or abolished by the CLA, which can change the answer (Lecture 1, slides 15–16).'
+    socratic:
+      - ask: If someone might harm you, what does the law expect of them before and after the harm?
+        hint: One duty looks forward, one looks back.
+        answer: Avoid causing harm to others; if harm is caused, remedy it, for example by compensation. That is tort law's basic demand as the law of civil wrongs.
+      - ask: In a common law country like Australia, who mainly made those rules?
+        hint: Parliament or the law reports?
+        answer: Judges. Tort law is mostly judge-made, so cases are critical.
+      - ask: Why would Parliament step into a judge-made area?
+        hint: The lecture names a problem involving insurance.
+        answer: To respond to a societal challenge, such as the price and availability of insurance. The Civil Liability Act 2002 (NSW) is the lecture's example.
+      - ask: Did that statute wipe out the cases?
+        hint: Did it codify the whole common law?
+        answer: No. It modified or abolished some common law rules and created new causes of action. Cases and statutes co-exist, so you check both.
+      - ask: Is there one principle behind all the torts, or only a list?
+        hint: Salmond on one side; Pollock and Winfield on the other.
+        answer: 'Salmond: a miscellaneous collection of causes of action (law of torts). Pollock and Winfield: fundamental principles, such as duties imposed by law owed to all (law of tort).'
+    what-if:
+      - change: The problem is set in NSW and the issue is one the Civil Liability Act deals with.
+        effect: 'You cannot stop at the common law rule: the CLA may have modified or abolished it, so apply the statute alongside the cases.'
+      - change: You take Pollock and Winfield's view rather than Salmond's.
+        effect: You look for fundamental principles running through the facts, such as duties owed by everyone, rather than treating each named tort as an unconnected cause of action.
+    boundary:
+      - text: A statute creates a cause of action that never existed at common law.
+        why: 'Still tort law: the lecture says statutes have created new causes of action as well as modifying the common law, so tort is not purely judge-made.'
+    transfer:
+      - scenario: A friend in NSW is injured at a gym. She finds a website quoting an old case on her kind of injury and says, "Tort law is just whatever the judges decided, so this case settles it."
+        answer: Tort law is mostly judge-made, so the case matters, but statutes have become increasingly important. In NSW the Civil Liability Act 2002 has modified or abolished some common law rules and created new ones, so she must check whether the Act changes the old case's rule before relying on it.
+    objections:
+      - position: 'Tort is a "law of torts": a miscellaneous collection of separate causes of action (Salmond).'
+        evidence: There are several prominent, separately named torts, each with its own elements; trespass and action on the case even require different elements to be proved.
+        objection: Pollock and Winfield argue a set of fundamental principles underpins tort, for example duties imposed by law owed to all.
+    sources:
+      - Torts Topic 1 Lecture 1 (slides 11–16)
+      - Topic 1 Lecture 2 (slide 18)
+  - concept: laws2400-w01-tort-law-and-other-branches
+    plain: Tort deals with private civil wrongs and compensation; criminal law with public wrongs and punishment; contract with duties the parties agreed. The same conduct can fall into more than one.
+    concrete: Assault is the lecture's example of one wrong that is both a tort and a crime. If A punches B, the State may prosecute A for the offence, aiming at punishment and needing proof beyond reasonable doubt. B can also sue A in tort herself, seeking compensation and proving her case on the balance of probabilities.
+    formal: 'Tort v crime: private v public wrong; compensation v punishment; redress/correction v retribution/deterrence; started by the individual v the State; balance of probabilities v beyond reasonable doubt. Tort v contract: duties from law v from parties and law; general (neighbour principle) v specific parties; motive relevant in some torts v never; unliquidated v liquidated damages; privity irrelevant v generally required.'
+    terms:
+      - term: Balance of probabilities
+        gloss: The standard of proof in a tort action, lower than the criminal standard of proof beyond reasonable doubt.
+      - term: Unliquidated damages
+        gloss: Damages that are not a fixed sum; the lecture's table marks tort damages unliquidated and contract damages liquidated.
+      - term: Privity
+        gloss: Being a party to the contract. Generally required to sue in contract; not relevant in tort, where duties come from the general law.
+      - term: Neighbour principle
+        gloss: 'The lecture''s label for the general scope of tort duties: owed broadly to others, not only to specific contracting parties.'
+    misconceptions:
+      - claim: A wrong is either a tort or a crime, never both.
+        tempting: 'The comparison table sets them up as opposites: private v public, compensation v punishment.'
+        correction: 'The distinction is not always sharp: a wrong such as assault may be both a tort and a crime, and compensation may be obtained for injuries from crimes (Lecture 1, slide 18).'
+      - claim: A tort claim must be proved beyond reasonable doubt.
+        tempting: It is the best-known standard of proof, and the same conduct may also be a crime.
+        correction: Tort uses the balance of probabilities; beyond reasonable doubt is the criminal standard (Lecture 1, slide 19).
+      - claim: You can only sue in tort if you had a contract with the defendant.
+        tempting: Both branches deal with civil wrongs, and many disputes, such as product liability, involve a contract.
+        correction: 'Privity is not relevant in tort: tort duties arise from the law and are general (neighbour principle); privity is generally required only in contract (Lecture 1, slide 21).'
+    socratic:
+      - ask: A punches B. Is that a private wrong, a public wrong, or both?
+        hint: Could B sue and the State also prosecute?
+        answer: Both. Assault is the lecture's example of a wrong that may amount to both a tort (private) and a crime (public).
+      - ask: In the tort claim, who starts the case and what is it mainly for?
+        hint: Look at the "action initiated by" and "main purpose" rows.
+        answer: B, the individual, starts it and seeks compensation. In the criminal case the State prosecutes and the main purpose is punishment.
+      - ask: What standard must B meet to win in tort?
+        hint: Civil or criminal standard?
+        answer: The balance of probabilities, not proof beyond reasonable doubt.
+      - ask: Now suppose A and B had a contract. Where would A's duties come from in each branch?
+        hint: Agreement versus general law.
+        answer: In contract, from the parties (and law), binding only them; in tort, from the law, owed generally (neighbour principle), with privity irrelevant.
+      - ask: Why is tort's role in protecting human rights limited in Australia?
+        hint: Is there a federal Bill of Rights?
+        answer: There is no comprehensive federal human rights law (only the ACT, Victoria and Queensland have one), so there has been limited use of tort to protect human rights.
+    what-if:
+      - change: The State, not B, brings proceedings over the punch.
+        effect: 'That is a criminal prosecution of a public wrong: punishment is the aim and proof must be beyond reasonable doubt. B''s own tort action, for compensation, is separate.'
+      - change: The harm comes from a defective product the injured buyer bought under a contract.
+        effect: The same wrong may create a cause of action in both contract and tort; product liability is the lecture's example of the overlap.
+      - change: Australia enacts a comprehensive federal Bill of Rights.
+        effect: The lecture says a Bill of Rights may influence the interpretation of existing tort law or contribute to new tortious actions, so tort's limited human-rights role could grow.
+    boundary:
+      - text: A crime victim obtains compensation for her injuries.
+        why: 'Shows the blurred border: compensation is tort''s main purpose, yet the lecture notes compensation may be obtained for injuries from crimes.'
+      - text: The defendant's motive.
+        why: 'A dividing line, but only partly: the table marks motive relevant in some tort cases and never in contract.'
+    transfer:
+      - scenario: A personal trainer carelessly injures a client during a paid session. The client asks whether she must sue for breach of contract or can sue in tort.
+        answer: Certain wrongs may create a cause of action under both, and contracts for services are the lecture's example. In contract the duty comes from the parties' agreement and binds only them; in tort it comes from the general law, privity is irrelevant and damages are unliquidated. She may have both options.
+    sources:
+      - Torts Topic 1 Lecture 1 (slides 17–23)
+  - concept: laws2400-w01-theories-of-tort-law
+    plain: 'Theories of tort law say what tort does or should do: compensate victims, deter harm, correct wrongs between individuals, spread losses through society, or (feminist critique) fairly reflect women''s experiences.'
+    concrete: 'The lecture tests the deterrence theory with drink driving: what is most likely to deter it — licence cancellation, a fine and imprisonment, paying compensation, or loss of human life? The question shows why it is far from certain that tort law deters in practice, especially for individuals, even though employers made to pay for workplace accidents may try to avoid them.'
+    formal: 'Compensation: damages put the victim, so far as money can, where she would have been had the accident not happened. Deterrence: liability makes defendants and others avoid the conduct (Calabresi; Posner: efficient allocation of accident costs). Corrective justice (Weinrib): whoever breaches another''s moral rights must correct the wrong. Distributive justice: tort spreads risks and losses. Feminist theory: does tort reflect women''s experiences?'
+    terms:
+      - term: Corrective justice
+        gloss: 'Weinrib''s view: tort allocates responsibility for harm; whoever breaches another''s moral rights must correct the wrong by paying compensation, resting on free human agency.'
+      - term: Distributive justice
+        gloss: Tort as a system to distribute risks and losses in society, through insurance or by allocating losses to a public authority and so to taxpayers.
+      - term: No-fault liability
+        gloss: A mechanism (e.g. for road accidents) requiring proof of causation rather than fault, spreading losses through insurance.
+      - term: Law and economics
+        gloss: 'Calabresi and Posner: tort aims at the most efficient outcome by allocating the costs of accidents; Posner sees a cost–benefit structure underpinning it.'
+    misconceptions:
+      - claim: Corrective and distributive justice are the same theory, since both end with someone paying.
+        tempting: Both are compatible with the victim receiving compensation.
+        correction: Corrective justice (Weinrib) ties payment to the individual wrongdoer's responsibility; distributive justice spreads losses across society, e.g. no-fault schemes needing causation, not fault (Lecture 2, slides 9–11).
+      - claim: Under a no-fault scheme, nothing has to be proved.
+        tempting: '"No-fault" sounds like "no proof".'
+        correction: A no-fault mechanism still requires proof of causation; it drops only the need to prove fault (Lecture 2, slide 11).
+      - claim: The drink-driving example shows compensation is the strongest deterrent.
+        tempting: Payment of compensation is one of the listed options.
+        correction: 'The lecture uses the list to raise doubt: it is far from certain tort law achieves deterrence in practice, especially for individuals (Lecture 2, slide 6).'
+    socratic:
+      - ask: An injured worker receives damages. On the compensatory view, what is the money for?
+        hint: Think "as if the accident had not happened".
+        answer: To put her back, so far as money can, into the position she would have been in had the accident not happened.
+      - ask: Why is that hard to achieve in practice?
+        hint: The lecture lists three problems.
+        answer: Miscalculating loss of future earnings, high legal fees, and problems with lump-sum payment. Hence other purposes are proposed.
+      - ask: Will making the employer pay change what happens next time?
+        hint: This is the deterrence theory.
+        answer: Deterrence says the employer will try to avoid such accidents; Calabresi and Posner apply this systemically to allocate accident costs efficiently. Insurance may blunt the effect.
+      - ask: Is it enough to look only at the wrongdoer and the victim?
+        hint: Think of a medical negligence case.
+        answer: Corrective justice (Weinrib) focuses on individual responsibility, but critics say it ignores the other people, systems, collective responsibility and risk sharing involved.
+      - ask: Which theories question who carries the loss, and whose experience the law reflects?
+        hint: One spreads losses; one examines the "reasonable person".
+        answer: 'Distributive justice spreads losses (no-fault schemes, taxpayers). Feminist theory asks whether tort reflects women''s experiences: the reasonable person, valuing women''s work, recognised harms.'
+    what-if:
+      - change: Road-accident victims are covered by a no-fault scheme instead of suing the driver.
+        effect: 'Proof of causation replaces proof of fault and losses spread through insurance: distributive justice and risk allocation, not corrective justice''s focus on the individual wrongdoer.'
+      - change: The negligent employer is fully insured.
+        effect: 'The insurer pays, so the lecture''s question bites: does insurance reduce the deterrent value of tort law for that employer?'
+    boundary:
+      - text: 'Pabai v Commonwealth of Australia (No 2) [2025] FCA 796: Torres Strait Islanders sued the government over inadequate climate policies.'
+        why: 'Tests the edge of tort as a response to societal challenges: the claim failed at first instance and an appeal is before the Full Court.'
+    transfer:
+      - scenario: A council considers replacing negligence claims for playground injuries with a council-funded scheme paying any child who shows the injury happened on council equipment.
+        answer: 'That is distributive justice and risk allocation: like a no-fault scheme it requires proof of causation rather than fault, and allocates losses to a public authority and so to taxpayers. A corrective-justice critic would say payment is detached from individual responsibility; a deterrence critic would ask whether the council still has an incentive to avoid accidents.'
+    objections:
+      - position: 'Tort law''s purpose is compensation: damages restore the victim, so far as money can.'
+        evidence: The object of damages is to put the victim in the position she would have been in had the accident not happened (Lecture 2, slide 3).
+        objection: 'In practice it struggles: loss of future earnings is miscalculated, legal fees are high, and lump-sum payment causes problems (slide 4).'
+      - position: Tort law deters harmful conduct and, on Posner's view, allocates accident costs efficiently.
+        evidence: Employers made to pay for workplace accidents will try to avoid them; the same logic applies to negligent manufacturing (slides 5, 7).
+        objection: It is far from certain tort deters in practice, especially individuals (the drink-driving example), and insurance may reduce its deterrent value (slides 6, 8).
+      - position: 'Corrective justice (Weinrib): whoever breaches another''s moral rights must correct the wrong by paying compensation.'
+        evidence: Free human agency underlies responsibility (slide 9).
+        objection: Its individual focus ignores other factors — a medical negligence case involves many people and systems — and may overlook collective responsibility and risk sharing (slide 10).
+    sources:
+      - Topic 1 Lecture 2 (slides 2–13)
+      - 'Torts Topic 1 Lecture 1 (slide 5: Pabai)'
+  - concept: laws2400-w01-vicarious-liability-intro
+    plain: Vicarious liability makes one person liable for someone else's tort — typically an employer for a tort its employee commits in the course of employment.
+    concrete: 'Fleming''s "man of straw": an employee who commits a tort at work is apt to have no insurance and little money, so as a rule is not worth suing. The employer is a more promising source of recompense, and can pass the loss on through liability insurance and higher prices. Holding it liable also gives it an incentive to supervise and discipline staff.'
+    formal: 'Vicarious liability is one person or entity''s liability for the conduct of others; the typical case is an employer''s liability for a tort committed by an employee within the course of employment (tests in Topic 12). Fleming''s policy reasons (Sappideen, Vines and Eldridge [13.45]): fairness to those harmed by the enterprise, a better source of recompense, wide distribution of losses, and admonitory value.'
+    terms:
+      - term: Vicarious liability
+        gloss: Liability of one person or entity for the conduct of another; typically an employer for a tort by an employee in the course of employment.
+      - term: Course of employment
+        gloss: The scope within which the employee's tort must fall in the typical case; the detailed legal tests come in Topic 12.
+      - term: '"Man of straw"'
+        gloss: Fleming's phrase for an employee who usually lacks insurance and money, making the employer the more promising source of recompense.
+      - term: Admonitory value
+        gloss: 'Fleming''s accident-prevention point: deterrent pressure works best on employers, who can organise and supervise staff and discipline wrongdoers.'
+    misconceptions:
+      - claim: An employer can be vicariously liable even if the employee committed no tort.
+        tempting: The focus is on the employer paying, so the employee's wrong seems beside the point.
+        correction: 'Vicarious liability is about who pays, not whether a tort was committed: the typical case is liability for a tort committed by an employee (Lecture 2, slide 14).'
+      - claim: Vicarious liability means the employer was itself at fault.
+        tempting: Normally people pay for their own wrongs.
+        correction: It is liability for the conduct of others. Fleming's reasons are fairness, recompense, loss-spreading and deterrence, not the employer's own fault (Lecture 2, slides 14–15).
+      - claim: Once the employer is liable, the employee cannot be sued.
+        tempting: Fleming says employees are not worth suing.
+        correction: Fleming says employees are, as a rule, not worth suing because they are rarely financially responsible — a practical point, not a legal bar. The employee who committed the tort remains a wrongdoer.
+    socratic:
+      - ask: A shop employee injures a customer while serving her. Who committed the tort?
+        hint: Start with the person who acted.
+        answer: The employee. Vicarious liability only arises once someone else has committed a tort.
+      - ask: Why might the customer prefer to sue the shop's owner?
+        hint: Fleming's "man of straw".
+        answer: The employer is a more promising source of recompense; the employee is apt to be a man of straw without insurance.
+      - ask: Is it fair to make the owner pay for someone else's act?
+        hint: Whose economic interest was the employee advancing?
+        answer: 'Fleming: someone who employs others to advance their own economic interest should, in fairness, bear a corresponding liability for losses in the course of the enterprise.'
+      - ask: Where does the loss finally land?
+        hint: Insurance and prices.
+        answer: The employer passes it on through liability insurance and higher prices, spreading the loss widely — the link to distributive justice.
+      - ask: Does this help prevent future accidents?
+        hint: Who can organise and supervise staff?
+        answer: 'Yes, says Fleming: deterrent pressure works best on employers, who can supervise staff, and liability gives them an incentive to discipline wrongdoers.'
+    what-if:
+      - change: The employee was on a purely personal errand, outside working hours, when the tort happened.
+        effect: The typical case requires the tort to be within the course of employment; on these facts that seems unlikely, so the employer is probably not vicariously liable (tests in Topic 12).
+      - change: The employee committed no tort at all.
+        effect: 'There is nothing to be vicariously liable for: the doctrine makes the employer answer for a tort committed by another.'
+    boundary:
+      - text: An employee who is wealthy and well insured.
+        why: Fleming's "man of straw" reason is weaker, but his reasons justify the rule as a whole; they are not tests applied case by case (the tests come in Topic 12).
+    transfer:
+      - scenario: A sports club's paid groundskeeper, mowing the oval as part of his job, flicks a stone that injures a spectator.
+        answer: 'This fits the typical case: an employer''s liability for a tort committed by an employee within the course of employment. If the groundskeeper committed a tort, the club may be liable for it too. Fleming''s reasons apply: the club benefits from his work, is a better source of recompense, can insure and raise prices, and can supervise staff. The detailed tests come in Topic 12.'
+    sources:
+      - Topic 1 Lecture 2 (slides 14–15)
+  - concept: laws2400-w01-intentional-torts-classification
+    plain: 'Wrongs fall into two historical families: trespass, for direct interference with a person, land or goods, and action on the case, for indirect or consequential harm. Each family needs different elements.'
+    concrete: 'In Williams v Milotin (1957) 97 CLR 465 a boy riding his bicycle was hit by a truck. He sued more than three years later. Trespass to the person then had a three-year limitation period; negligence, an action on the case, had six years. The High Court let him sue in negligence: the same facts gave rise to two causes of action, and he could choose.'
+    formal: 'Intentional torts developed as two sets of causes of action: trespass (a direct interference with the person, property or goods) and action on the case (indirect and consequential damage). The distinction remains critical in Australia because different elements must be proved. All forms of trespass share four elements: voluntary act, directness, actionable per se (no proof of damage) and fault.'
+    analogy:
+      text: Sorting mail into two pigeonholes, "direct" and "indirect", before reading it. The pigeonhole decides which checklist you then work through.
+      maps:
+        - from: the two pigeonholes
+          to: trespass and action on the case
+        - from: the checklist for each pigeonhole
+          to: the elements that must be proved for that category
+        - from: a letter
+          to: the facts of the plaintiff's claim
+      limits:
+        - A letter goes in one pigeonhole; the same facts can fit both categories, and the plaintiff may choose (Williams v Milotin).
+        - Sorting is mechanical; directness is judged on each case's own facts.
+    terms:
+      - term: Trespass
+        gloss: 'A direct interference with the person, property or goods: trespass to the person (assault, battery, false imprisonment), to land, and to chattels/goods.'
+      - term: Action on the case
+        gloss: Actions for indirect and consequential damage, e.g. Wilkinson v Downton, malicious prosecution, conversion and detinue; beyond intentional torts, negligence and nuisance.
+      - term: Cause of action
+        gloss: The essential ingredients of the right the plaintiff seeks to enforce (Williams v Milotin); one set of facts can found two.
+      - term: Limitation period
+        gloss: The deadline to start proceedings. In Williams v Milotin, three years for trespass to the person and six for negligence under the law then in force.
+    misconceptions:
+      - claim: Conversion is a trespass tort because it concerns goods.
+        tempting: Trespass to goods and conversion both protect goods.
+        correction: The lecture's table lists conversion, with detinue, under action on the case, not trespass (Lecture 2, slide 17).
+      - claim: The trespass/case distinction is only of historical interest now.
+        tempting: Its original job — choosing the court and the form of pleading — has gone.
+        correction: It remains critical in Australia because different elements must be proved for each category; Williams v Milotin shows it can even decide the limitation period (Lecture 2, slide 18).
+      - claim: If the contact was direct, the plaintiff must sue in trespass.
+        tempting: Directness is what defines trespass.
+        correction: 'In Williams v Milotin the boy was hit directly, yet he could sue in negligence: the same facts gave two causes of action, and the plaintiff may choose.'
+    socratic:
+      - ask: Someone is hurt. Before any elements, what is the first question about how the harm happened?
+        hint: Did it follow immediately from the defendant's act?
+        answer: Was the interference direct (trespass) or indirect and consequential (action on the case)? That decides which elements apply.
+      - ask: Why did this classification matter historically?
+        hint: Think about procedure.
+        answer: It determined which court to approach and what form of pleading to follow.
+      - ask: Why does it still matter in Australia?
+        hint: What has to be proved?
+        answer: 'Different elements must be proved: for example, trespass is actionable per se, while an action on the case requires proof of damage.'
+      - ask: Can one set of facts fit both families?
+        hint: 'Williams v Milotin: a boy, a bicycle, a truck.'
+        answer: Yes. Being hit directly could found trespass, but he sued in negligence (case), with its six-year limitation period.
+      - ask: Once the wrong is classified as trespass, which four things do you check?
+        hint: The act, how it caused harm, damage, state of mind.
+        answer: Voluntary act, directness, actionable per se (no damage needed), and fault.
+    elements:
+      - name: Voluntary act
+        test: The defendant's conduct must be a positive act. An act during an epileptic fit, one caused by a third party's force, or an omission does not count.
+      - name: Directness
+        test: The interference must follow immediately from the act, not consequentially after an intervening event. Directness is often an issue of time.
+        cases:
+          - hutchins-v-maughan
+      - name: Actionable per se
+        test: No proof of damage is required, to protect bodily integrity, liberty and property. (An action on the case requires proof of damage.)
+      - name: Fault
+        test: Intention, recklessness or negligence. The plaintiff proves the direct interference; the defendant must then disprove fault, except where the harm arose from use of the highway.
+    what-if:
+      - change: In Williams v Milotin the boy had relied on trespass to the person instead of negligence.
+        effect: The High Court said that in that case "something might be said" for the defendant's reliance on the three-year limitation period, and he sued over three years after the accident.
+      - change: The harm happened only after the plaintiff herself intervened, as in Hutchins v Maughan.
+        effect: 'The harm is consequential, so the claim lies in case, not trespass: the plaintiff must then prove damage and fault.'
+      - change: The plaintiff suffered no damage at all.
+        effect: Trespass can still lie because it is actionable per se; an action on the case would fail, because damage must be established.
+    boundary:
+      - text: Intentional interference with the person (Wilkinson v Downton).
+        why: 'It concerns harm to the person, like trespass to the person, but the table places it under action on the case: harm to the person is not automatically trespass.'
+      - text: A careless driver directly hits a boy on a bicycle (Williams v Milotin).
+        why: 'Sits in both families: direct, so trespass is possible, yet framed in negligence because the plaintiff relied on want of care and damage.'
+    transfer:
+      - scenario: Store security holds a shopper in a back room without lawful authority. Separately, a neighbour keeps the shopper's bicycle and refuses to give it back.
+        answer: Classify each wrong first. The detention is trespass to the person (false imprisonment), so the four trespass elements apply and no damage need be proved. Keeping the bicycle points to detinue or conversion, which the lecture's table places under action on the case, with different elements.
+    sources:
+      - Topic 1 Lecture 2 (slides 16–19)
+      - 'Week 1.pdf (casebook): Williams v Milotin'
+  - concept: laws2400-w01-trespass-directness
+    plain: 'Trespass needs direct interference: the harm must follow immediately from the defendant''s act. If something else must happen first, the claim lies in action on the case instead.'
+    concrete: 'In Hutchins v Maughan [1947] VLR 131 the defendant laid poisonous baits on unfenced land. Later the complainant brought his dogs onto the land; they took the baits and died. Herring CJ held trespass did not lie: the baits were laid before the dogs arrived, and the complainant himself had to intervene by bringing them there. The injury was consequential, so the remedy lay in case.'
+    formal: Where the injury is immediate on the act done, trespass lies; where it is only consequential, the remedy is in case (Reynolds v Clarke (1725); Scott v Shepherd (1773); Leame v Bray (1803), applied in Hutchins v Maughan [1947] VLR 131). A log that hits someone as it is thrown into the highway is trespass; someone later tripping over it is case.
+    analogy:
+      text: A row of dominoes. If your push topples them straight onto someone, the harm is direct. If they only reach that person because someone else later moves into their path, it is consequential.
+      maps:
+        - from: your push
+          to: the defendant's act (e.g. laying the baits)
+        - from: dominoes falling straight onto someone
+          to: 'injury immediate on the act done: trespass'
+        - from: someone moving into their path later
+          to: 'an intervening act, such as bringing the dogs to the baits: case'
+      limits:
+        - 'Directness turns on time and intervention, not on how many physical steps occur: a crate shoved so it falls straight onto a foot is still direct.'
+        - Dominoes suggest a mechanical test, but each case is determined on its own facts (Herring CJ).
+    terms:
+      - term: Direct (immediate) injury
+        gloss: Injury that follows so immediately on the defendant's act that it can be called part of the act; trespass lies.
+      - term: Consequential injury
+        gloss: Injury that results only after an intervening event, e.g. the complainant bringing his dogs to the baits; the remedy is in case.
+      - term: Trespass vi et armis
+        gloss: The historical form of trespass named in Reynolds v Clarke (1725), available where the immediate act itself injures the plaintiff.
+      - term: Intervening event
+        gloss: A step by the plaintiff or someone else needed before the act causes harm; its presence makes the injury consequential.
+        example: In Hutchins, the complainant coming to the land with his dogs.
+    misconceptions:
+      - claim: If the defendant's object physically touches the plaintiff, the harm is direct.
+        tempting: Contact feels like the essence of directness.
+        correction: Timing is the test. A person who trips over a log already lying in the road has touched it, yet that is case, not trespass (Leame v Bray, quoted in Hutchins v Maughan).
+      - claim: Directness depends on whether the defendant meant to cause harm.
+        tempting: Deliberate conduct feels more "direct" than carelessness.
+        correction: Directness asks whether the injury followed immediately from the act — causal sequence and time. Intention belongs to the separate fault element; Hutchins' baits were deliberately laid yet the injury was not direct.
+      - claim: Because the boy in Williams v Milotin was hit directly, only trespass could be pleaded.
+        tempting: Direct contact is the hallmark of trespass.
+        correction: The High Court held two causes of action arose on the same facts, and the plaintiff could choose negligence with its six-year limitation period.
+    socratic:
+      - ask: In Hutchins, were the baits laid before or after the dogs came onto the land?
+        hint: Read Herring CJ on the order of events.
+        answer: Before — perhaps even before the complainant arrived in the vicinity.
+      - ask: Could laying the baits, by itself, have harmed the complainant?
+        hint: What did he have to do first?
+        answer: No. He had to intervene himself by coming to the land and bringing his dogs; the act of itself did him no mischief.
+      - ask: So was the injury immediate or consequential?
+        hint: Did it follow so closely as to be "part of the act"?
+        answer: Consequential. It did not follow so immediately on the act as to be part of it, so trespass did not lie and the remedy was in case.
+      - ask: What one change would have made it trespass?
+        hint: Think of the log thrown into the highway.
+        answer: If the defendant had thrown the baits to the dogs, the injury would be directly occasioned and trespass would lie. That is why directness is "an issue of time".
+    what-if:
+      - change: The defendant throws the baits straight to the dogs.
+        effect: The injury is directly occasioned by the act, so trespass lies — Herring CJ said so expressly.
+      - change: The log hits a passer-by at the moment it is thrown into the highway.
+        effect: 'Trespass: the injury is immediate on the act done. If the passer-by instead trips over it later as it lies there, the remedy is in case (Leame v Bray).'
+      - change: A colleague deliberately shoves a heavy crate that immediately falls on a worker's foot.
+        effect: 'Likely trespass: the injury follows immediately from the colleague''s own act. Directness does not require body-to-body contact.'
+    boundary:
+      - text: A gardener leaves a rake on a public path; an hour later a jogger trips over it in the dark.
+        why: 'Outside trespass: like the log left lying in the road, harm needed an intervening event (the jogger later walking into it), so it is consequential — case.'
+      - text: 'Williams v Milotin: a boy on a bicycle hit directly by a truck.'
+        why: 'Direct, so trespass could lie, but directness does not force a trespass-only claim: the plaintiff could sue in negligence on the same facts.'
+    transfer:
+      - scenario: A farmer paints a gate and leaves. Next morning a hiker leans on it and ruins her jacket. Later the farmer flicks his brush and splatters a second hiker walking past.
+        answer: 'Apply Hutchins v Maughan. The first hiker''s damage needed her own intervening act (leaning on the gate later), so it is consequential: case, not trespass, like the log lying in the road. The splatter hits the second hiker as the act is done, so it is immediate and can found trespass to goods, subject to the other elements.'
+    storyboard:
+      - caption: Baits laid on unfenced land
+        detail: The defendant laid poisonous baits on unfenced land before the complainant took his dogs there — perhaps before he was even in the vicinity.
+      - caption: Complainant brings his dogs
+        detail: The complainant chose to come to the land with his dogs. Without that step, Herring CJ said, he would have suffered no injury.
+      - caption: Dogs take the baits and die
+        detail: The dogs picked up the baits and died. The police magistrate gave judgment for the complainant in trespass.
+      - caption: 'Appeal: consequential, not direct'
+        detail: Herring CJ held the injury did not follow so immediately on the act as to be part of it. Trespass did not lie; the remedy was in case.
+      - caption: 'Counterfactual: baits thrown to dogs'
+        detail: Had the baits been thrown to the dogs, the injury would have been directly occasioned and trespass would lie. Directness is often an issue of time.
+    sources:
+      - Topic 1 Lecture 2 (slide 21)
+      - 'Week 1.pdf (casebook): Hutchins v Maughan; Williams v Milotin'
+  - concept: laws2400-w01-trespass-fault-and-onus
+    plain: 'Trespass needs fault: intention, recklessness or negligence. The plaintiff proves only the direct interference; the defendant must then disprove fault — except where the harm arose from use of the highway.'
+    concrete: 'The lecture''s example: a defendant touches someone, mistakenly thinking it is their partner. They intended the act — the touch — so intention is present, and the mistake is no defence. Because the onus shifts in trespass, the person touched need only prove the direct interference; the defendant would then have to disprove fault, for example by proving an inevitable accident.'
+    formal: 'Trespass requires fault: intention or recklessness (subjective) or negligence (objective: a reasonable person in the defendant''s position). Intention need only go to the act. The plaintiff proves the direct interference; the defendant must then disprove fault, e.g. by proving inevitable accident. Exception: harm from use of the highway, where the plaintiff proves fault — as in any action on the case.'
+    analogy:
+      text: A tennis serve. The plaintiff serves by proving the direct interference; the ball is then in the defendant's court to disprove fault. On the highway, the plaintiff must serve and win the point herself.
+      maps:
+        - from: the serve
+          to: proving the direct interference
+        - from: ball in the defendant's court
+          to: onus shifts to the defendant to disprove fault
+        - from: serving and winning the point herself
+          to: 'highway exception: the plaintiff proves fault'
+      limits:
+        - In tennis the ball goes back and forth; once the onus shifts, it is for the defendant alone to disprove fault (e.g. inevitable accident).
+        - 'Only fault moves: the plaintiff''s burden of proving the direct interference never shifts.'
+    terms:
+      - term: Intention
+        gloss: A subjective state of mind. For trespass it need only go to performing the act (the interference), not its consequences.
+        example: Touching someone mistakenly believed to be your partner.
+      - term: Recklessness
+        gloss: Where the consequences are so likely that the defendant is taken to have foreseen them; subjective, and generally rare in trespass.
+      - term: Negligent trespass
+        gloss: Direct interference through failure to exercise reasonable care, judged objectively; rare, as such cases are now mostly brought in negligence.
+      - term: Inevitable accident
+        gloss: 'How a defendant disproves fault once the onus shifts: by proving the interference was a so-called inevitable accident.'
+    misconceptions:
+      - claim: In trespass the plaintiff must prove the defendant intended to cause harm.
+        tempting: These are called "intentional" torts.
+        correction: The plaintiff proves only the direct interference; the defendant must then disprove fault. And intention need only go to the act itself, not its consequences (Lecture 2, slides 23–24).
+      - claim: Touching a stranger you mistook for your partner is not intentional.
+        tempting: You never meant to touch a stranger.
+        correction: You intended the act, which is enough; the mistake is not a defence (Lecture 2, slide 23; text p 46).
+      - claim: A pedestrian hit on a public road gets the usual trespass onus shift.
+        tempting: In trespass the onus of disproving fault normally falls on the defendant.
+        correction: 'Highway harm is the exception: the plaintiff must prove fault, because highway users and adjoining owners accept a risk in exercising the public''s right to use the highway (slide 24; text p 43).'
+    socratic:
+      - ask: The plaintiff shows the defendant directly struck her. Must she now prove the defendant's state of mind?
+        hint: Who carries the onus on fault in trespass?
+        answer: No. In trespass she proves only the direct interference; the onus then shifts to the defendant to disprove fault.
+      - ask: How can the defendant discharge that onus?
+        hint: The lecture names one way.
+        answer: By proving the interference was a so-called inevitable accident.
+      - ask: Does it matter that the collision happened on a public road?
+        hint: Is there an exception?
+        answer: Yes. Where harm arises out of use of the highway, the plaintiff must prove the defendant's fault, because the public's right to use the highway carries accepted risk.
+      - ask: Which states of mind count as fault, and how is each judged?
+        hint: Two subjective, one objective.
+        answer: Intention and recklessness are subjective (the defendant's own mind); negligence is objective (a reasonable person in the defendant's position).
+      - ask: Would the onus differ if she sued in an action on the case?
+        hint: Compare the last line of slide 24.
+        answer: Yes. In an action on the case the plaintiff must always prove fault.
+    elements:
+      - name: Fault state
+        test: 'Was the direct act done with intention or recklessness (subjective), or negligence (objective: a reasonable person in the defendant''s position)? Intention need only go to the act.'
+      - name: Plaintiff's onus
+        test: The plaintiff proves only that the direct interference occurred.
+      - name: Onus shifts
+        test: The defendant must then disprove fault, typically by proving the interference was an inevitable accident.
+      - name: Highway exception
+        test: If the harm arose out of use of the highway (injury on it, or damage to adjoining property), the plaintiff must prove the defendant's fault.
+    what-if:
+      - change: The collision happens on a private driveway instead of a public road.
+        effect: 'The highway exception does not apply: the plaintiff proves the direct interference, and the onus shifts to the defendant to disprove fault.'
+      - change: The defendant did not intend the contact but carelessly brushed the plaintiff.
+        effect: Negligence is still fault for trespass, judged objectively, though such claims are now mostly brought in the tort of negligence instead.
+      - change: The plaintiff sues in negligence (an action on the case) rather than trespass.
+        effect: 'No onus shift: the plaintiff must prove fault herself, and must also prove damage.'
+    boundary:
+      - text: Damage to property adjoining the highway.
+        why: 'Within the highway exception: the lecture extends it to damage to property adjoining the highway, so the plaintiff must prove fault.'
+      - text: A violation in the course of traffic in a thoroughfare (Williams v Milotin).
+        why: The High Court noted that without intention or want of due care such a violation is not actionable as trespass — consistent with the highway exception.
+    transfer:
+      - scenario: On a private campus path (not a public highway), a cyclist clips a student. Elsewhere, a courier's van on a public street sideswipes a scooter parked at the kerb.
+        answer: 'Campus path: outside the highway exception, the student proves the direct interference and the cyclist must disprove fault, e.g. by proving inevitable accident. Street: the harm arose out of use of the highway, so the scooter owner must prove the courier''s intention, recklessness or negligence.'
+    sources:
+      - Topic 1 Lecture 2 (slides 23–24)
+      - 'Week 1.pdf (casebook): Williams v Milotin'
+  - concept: laws2400-w01-trespass-voluntary-act-and-damage
+    plain: For trespass the defendant must have done a positive, willed act — not a fit, a push by someone else, or an omission. But the plaintiff need not prove any damage.
+    concrete: 'The text (p 45) gives three things that are not positive acts: an act during an epileptic fit, an act caused by the force of a third party, and a mere omission to act. So a person shoved into someone else by a third party has not committed trespass, however directly the contact happened. Where there is a positive act, though, no damage need be proved.'
+    formal: 'In trespass the act must be a "positive act"; a mere passive act will not suffice (an epileptic fit, the force of a third party and an omission are not positive acts: text p 45). Trespass is actionable per se: no proof of damage is required, to protect bodily integrity, liberty and property. In an action on the case the plaintiff must establish damage.'
+    terms:
+      - term: Positive act
+        gloss: Conduct the defendant actually performs; a merely passive act, an act during an epileptic fit, or one caused by a third party's force does not qualify.
+      - term: Omission
+        gloss: A failure to act. Not a positive act, so it cannot satisfy the voluntary act element of trespass (text p 45).
+      - term: Actionable per se
+        gloss: 'Actionable without proof of damage: the interference itself founds the claim. True of trespass, not of an action on the case.'
+    misconceptions:
+      - claim: If the plaintiff was hit directly, the voluntary act element is met.
+        tempting: Directness and a physical act seem to go together.
+        correction: They are separate elements. An act during a seizure or one caused by a third party's push is not a positive act, however direct the contact (Lecture 2, slide 20; text p 45).
+      - claim: No damage, no trespass claim.
+        tempting: Most claims need a loss before there is anything to compensate.
+        correction: 'Trespass is actionable per se: no proof of damage is required, to protect bodily integrity, liberty and property. Only an action on the case needs damage (Lecture 2, slide 22).'
+      - claim: '"I didn''t mean any harm" defeats the voluntary act element.'
+        tempting: Not intending harm sounds like not acting voluntarily.
+        correction: The voluntary act element asks only whether the act itself was positively performed. The defendant's state of mind belongs to the separate fault element, where intention need only go to the act.
+    socratic:
+      - ask: A is shoved by C into B. Did A do a positive act?
+        hint: Whose force moved A?
+        answer: No. An act caused by the force of a third party is not a positive act, so this element fails against A.
+      - ask: What other conduct is not a positive act?
+        hint: The text (p 45) gives three examples.
+        answer: An act during an epileptic fit, an act caused by a third party's force, and an omission to act.
+      - ask: D deliberately taps B on the shoulder; B suffers no injury or loss. Is anything missing for trespass?
+        hint: Does trespass need damage?
+        answer: No. The tap is a positive act, and trespass is actionable per se, so B need not prove any harm.
+      - ask: Why does the law let B sue without a loss?
+        hint: What does trespass protect?
+        answer: Its rationale is protecting bodily integrity, liberty and property from direct interference, whether or not measurable loss follows.
+      - ask: Would that change in an action on the case?
+        hint: Compare slide 22.
+        answer: Yes. In an action on the case the plaintiff must establish that she suffered damage.
+    what-if:
+      - change: The driver has a sudden epileptic fit and the car mounts the footpath, hitting a pedestrian.
+        effect: No positive act, so trespass fails on the voluntary act element, even though the contact was direct and no damage need be proved.
+      - change: A trespasser walks across a lawn but causes no visible damage.
+        effect: Trespass to land can still succeed because it is actionable per se. In an action on the case the absence of damage would be fatal.
+      - change: The defendant does nothing — he simply fails to act.
+        effect: An omission to act is not a positive act, so the voluntary act element of trespass is not met.
+    boundary:
+      - text: A sleeper's arm knocks over and breaks a vase.
+        why: 'Probably not a positive act: an unconscious movement is like the epileptic-fit example, so trespass to goods would likely fail on this element.'
+      - text: A light, deliberate tap on the shoulder to get someone's attention.
+        why: A positive act, and trespass needs no injury because it is actionable per se; how trivial it was goes to damages, not to whether trespass lies.
+    transfer:
+      - scenario: In a museum, one visitor is knocked off balance by another visitor's shove and topples a sculpture. A second visitor deliberately touches a painting, leaving no mark.
+        answer: 'The first visitor did not do a positive act: the movement was caused by the force of a third party, so trespass to goods fails against her at the first element. The second visitor''s deliberate touch is a positive act, and because trespass is actionable per se the gallery need not prove any damage to the painting.'
+    sources:
+      - Topic 1 Lecture 2 (slides 19–20, 22)
+flows:
+  - slug: trespass-common-elements
+    title: Is a trespass made out on the common elements?
+    summary: Walks the four elements every trespass shares — voluntary act, directness, actionable per se and fault — including who must prove fault.
+    start: n1
+    concepts:
+      - laws2400-w01-intentional-torts-classification
+      - laws2400-w01-trespass-voluntary-act-and-damage
+      - laws2400-w01-trespass-directness
+      - laws2400-w01-trespass-fault-and-onus
+    sources:
+      - Topic 1 Lecture 2 (slides 16–24)
+      - 'Week 1.pdf (casebook): Hutchins v Maughan'
+    nodes:
+      - id: n1
+        kind: ask
+        text: Was the defendant's conduct a positive, voluntary act?
+        note: 'Not positive acts (text p 45): an act during an epileptic fit, an act caused by the force of a third party, and a mere omission to act.'
+        concept: laws2400-w01-trespass-voluntary-act-and-damage
+        branches:
+          - label: 'Yes'
+            to: n2
+          - label: 'No'
+            to: e1
+      - id: e1
+        kind: end
+        tone: not-met
+        text: 'No trespass: the voluntary act element fails.'
+      - id: n2
+        kind: ask
+        text: Did the interference follow immediately from that act?
+        note: Directness is often an issue of time. If the plaintiff or someone else had to intervene before harm resulted — the dogs brought to the baits in Hutchins v Maughan — the injury is consequential.
+        concept: laws2400-w01-trespass-directness
+        cases:
+          - hutchins-v-maughan
+        branches:
+          - label: Yes, immediately
+            to: n3
+          - label: No, only after an intervening event
+            to: e2
+      - id: e2
+        kind: end
+        tone: not-met
+        text: Not trespass. Consider an action on the case (e.g. negligence), where the plaintiff must prove damage and fault.
+      - id: n3
+        kind: step
+        text: 'No proof of damage is needed: trespass is actionable per se.'
+        note: The rationale is protecting bodily integrity, liberty and property. An action on the case, by contrast, requires proof of damage.
+        concept: laws2400-w01-trespass-voluntary-act-and-damage
+        next: n4
+      - id: n4
+        kind: ask
+        text: Did the harm arise out of use of the highway (injury on it, or damage to property adjoining it)?
+        note: The public has a right to use the highway, so road users and adjoining owners accept a risk and bear the onus of proof (text p 43).
+        concept: laws2400-w01-trespass-fault-and-onus
+        exception: true
+        branches:
+          - label: 'Yes'
+            to: n5
+          - label: 'No'
+            to: n6
+      - id: n5
+        kind: step
+        exception: true
+        text: 'Highway exception: the plaintiff must prove the defendant''s fault.'
+        next: n7
+      - id: n6
+        kind: step
+        text: The plaintiff has proved the direct interference; the onus shifts to the defendant to disprove fault.
+        next: n8
+      - id: n7
+        kind: ask
+        text: Can the plaintiff prove intention, recklessness or negligence?
+        note: Intention and recklessness are subjective; negligence is objective — a reasonable person in the defendant's position. Intention need only go to the act itself.
+        branches:
+          - label: 'Yes'
+            to: e3
+          - label: 'No'
+            to: e4
+      - id: n8
+        kind: ask
+        text: Can the defendant prove the interference was an inevitable accident?
+        note: 'Intention need only go to the act: touching someone mistakenly thought to be your partner is still intentional, and the mistake is no defence (text p 46).'
+        branches:
+          - label: 'Yes'
+            to: e4
+          - label: 'No'
+            to: e3
+      - id: e3
+        kind: end
+        tone: met
+        text: The common elements of trespass are made out. Now apply the particular trespass (person, land or goods) and any defences.
+      - id: e4
+        kind: end
+        tone: not-met
+        text: Fault is not established, so the trespass claim fails.

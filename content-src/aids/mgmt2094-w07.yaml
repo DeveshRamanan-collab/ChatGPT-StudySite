@@ -1,0 +1,212 @@
+unit: mgmt2094
+week: 7
+source: raw/mgmt2094-sci/week-07
+generator: aids-1
+aids:
+  - concept: mgmt2094-w07-invention-vs-innovation-economic-value
+    plain: 'An invention is something novel: a product, device, process or concept. An innovation is a newer, better solution introduced to meet requirements or market needs. Only innovation is tied to the market.'
+    concrete: 'The tutorial chart pairs its examples. Invention: the invention of the printing press, electricity and the telephone. Innovation: the introduction of the iPhone, the tablet and the flat-screen TV. In Week 8 the lecturer draws the same line: you can invent something the market has no need for and never commercialise it, and that is fine, it is just an invention. For innovation you must be able to commercialise the results of the invention.'
+    formal: 'Week 7 chart: invention is ''a novel product, device, process, or concept''; it requires knowledge, competence, and financial aid. Innovation is ''the introduction of a newer and better solution that meet new requirements or existing market needs''; it requires technical knowledge, competence, knowledge about market needs, trends, and financial support. The slide: ''Pay attention to the economic value.'''
+    terms:
+      - term: invention (Week 7 chart)
+        gloss: A novel product, device, process, or concept. Requires knowledge, competence, and financial aid.
+        example: The invention of the printing press, electricity, the telephone.
+      - term: innovation (Week 7 chart)
+        gloss: The introduction of a newer and better solution that meets new requirements or existing market needs.
+        example: The introduction of the iPhone, the tablet, the flat-screen TV.
+      - term: economic value (the slide's cue)
+        gloss: What the slide tells you to watch when telling the two apart. It does not explain it; on the chart, only innovation is tied to market needs.
+      - term: commercialisation (Week 8)
+        gloss: 'Bringing the new thing to market and selling it. Week 8: innovation is ''Invention + Commercialization''; an invention may not be commercialised.'
+    elements:
+      - name: A newer and better solution
+        test: 'Is it a newer and better solution, new or improved? Novelty alone fits invention: a novel product, device, process, or concept.'
+        authorities:
+          - mgmt2094-example-printing-press-electricity-telephone
+      - name: Introduced
+        test: Has it been introduced to customers or users? A prototype in a garage or a process kept in the lab is not yet an introduction.
+      - name: Meets requirements or market needs
+        test: Does it meet new requirements or existing market needs, drawing on knowledge about market needs and trends? This is the economic value the slide points to.
+        authorities:
+          - mgmt2094-example-iphone-tablet-flat-screen-tv
+    misconceptions:
+      - claim: The newer, more famous examples are innovations; the older breakthroughs are inventions.
+        tempting: The chart's invention examples (printing press, telephone) are older than its innovation examples (iPhone, tablet).
+        correction: 'The chart says nothing about dates or which is more valuable. Its columns differ on the market: innovation is an introduction that meets requirements or market needs.'
+      - claim: 'Money is what separates them: invention needs funding and innovation needs a market.'
+        tempting: The chart lists financial aid under invention.
+        correction: Both columns need money (financial aid; financial support), knowledge and competence. The one requirement only innovation lists is knowledge about market needs and trends.
+      - claim: A working prototype of a better product is already an innovation.
+        tempting: It is newer and may well be better.
+        correction: 'Innovation is the introduction of the solution. Until it is offered to anyone it is a novel device: an invention. Week 8: once introduced into the marketplace it becomes innovation.'
+    socratic:
+      - ask: An engineer builds a working prototype of a new water filter in her garage. Nobody has been offered it. What is it on the chart?
+        hint: A novel device?
+        answer: 'An invention: a novel product, device, process, or concept. Nothing has been introduced yet.'
+      - ask: What did she need to make it?
+        hint: Invention's requirements row.
+        answer: Knowledge, competence, and financial aid.
+      - ask: What would she also need before the chart calls it innovation?
+        hint: The one item only the innovation column lists.
+        answer: Knowledge about market needs and trends, so she can introduce it as a newer, better solution that meets requirements or existing market needs.
+      - ask: So what is the 'economic value' the slide tells you to watch?
+        hint: Which column mentions the market?
+        answer: 'Only innovation is tied to the market. Week 8 says it outright: innovation is ''Invention + Commercialization'' and has an economic motive; an invention may not be commercialised.'
+    what-if:
+      - change: The engineer's filter goes on sale, meeting households' existing need for cleaner water.
+        effect: 'Now it is innovation: a newer, better solution introduced to meet an existing market need. Week 8: once a new product is introduced into the marketplace it becomes innovation, and it results in commercialisation.'
+      - change: A hobbyist devises a new painting technique purely for pleasure, with no plan to sell it.
+        effect: 'Still an invention, and a perfectly good one. Week 8: invention can be for an economic or non-economic motive; innovation always has an economic motive.'
+    boundary:
+      - text: A phone maker introduces a newer model with a larger battery, meeting an existing need for a phone that lasts all day.
+        why: 'Innovation, though nothing wholly new was invented: the chart counts a newer and better solution that meets existing market needs.'
+      - text: A university laboratory devises a new glass-recycling process that no business has adopted.
+        why: 'Invention: the chart expressly includes a novel process. It has not been introduced, so it is not yet innovation.'
+    transfer:
+      - scenario: A hospital's engineers design and patent a novel bed sensor. Two years later a medical-supplies firm introduces an improved version to hospitals, which had asked for help reducing patient falls.
+        answer: 'The patented sensor is an invention: a novel device, needing knowledge, competence and financial aid. The firm''s version is innovation: a newer, better solution introduced to meet a requirement hospitals raised, using knowledge of their needs. Week 8: invention precedes innovation, and innovation results in commercialisation.'
+    objections:
+      - position: The invention is where the real value lies; innovation only packages it.
+        evidence: Invention needs knowledge, competence and financial aid, and the chart's invention examples are the printing press, electricity and the telephone.
+        objection: 'The slide''s cue is economic value, and only innovation is tied to it, by meeting requirements or market needs. Week 8: an invention may never be commercialised; innovation results in commercialisation, has an economic motive and spreads across the organisation.'
+    sources:
+      - Marketing - Week 07 - Tutorial Materials - Invention, Innovation, Creativity (slide 2, chart image)
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 3, 10)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+  - concept: mgmt2094-w07-creativity-precedes-innovation
+    plain: 'Creativity comes first: imagining original ideas. Innovation follows: introducing new or improved goods, services or processes. Creativity is about imagination and can''t be measured; innovation is about implementation and can.'
+    concrete: 'In Week 8 the lecturer maps the semester onto the pair. The first half was about creativity: the mind map assignment, where you could draw a map however you wanted about any topic, was the creative part. The second half is about innovation: come up with an idea and make a video about an innovation. And you can be extremely creative, with a product, a piece of art or a book, but if you cannot commercialise it, that is not innovation, just an act of creativity.'
+    formal: 'Week 7 chart: creativity is ''the use of imagination or original ideas to create something''; related to imagination; cannot be measured; precedes innovation. Innovation is ''the introduction of new or improved goods, services, processes, etc.''; related to implementation; can be measured; follows creativity. Levitt (Week 1): ''Creativity is thinking up new things. Innovation is doing new things.'''
+    analogy:
+      text: 'An architect''s sketches and the finished building: the sketches come first and are pure imagination; the building comes after, is actually constructed, and can be measured.'
+      maps:
+        - from: sketching
+          to: 'creativity: imagination and original ideas'
+        - from: constructing the building
+          to: 'innovation: implementation'
+        - from: measuring the finished floor area
+          to: innovation can be measured
+        - from: sketches before the building
+          to: creativity precedes innovation
+      limits:
+        - A building is brand new; innovation also covers improved goods, services and processes, such as a better permit process.
+        - Many sketches are never built. The chart says creativity precedes innovation, not that every creative idea becomes one.
+    terms:
+      - term: creativity (Week 7 chart)
+        gloss: The use of imagination or original ideas to create something. Related to imagination; cannot be measured; precedes innovation.
+      - term: innovation (Week 7 chart)
+        gloss: The introduction of new or improved goods, services, processes, etc. Related to implementation; can be measured; follows creativity.
+        example: The introduction of the iPhone, the tablet, the flat-screen TV (first chart).
+      - term: implementation
+        gloss: Putting an idea into practice. The chart's 'related to' row pairs it with innovation, as it pairs imagination with creativity.
+    misconceptions:
+      - claim: Innovation comes first, and creativity follows from it.
+        tempting: A new product can spark a wave of new ideas.
+        correction: 'The chart fixes the order: creativity precedes innovation, and innovation follows creativity. The slide: ''Remember which one follows the other.'''
+      - claim: Creativity can be measured by counting the ideas a team produces.
+        tempting: Twenty ideas is a number.
+        correction: The chart says creativity cannot be measured; it is innovation that can be measured. A count of ideas is not a measure of creativity on the chart.
+      - claim: Only brand-new products count as innovation, not improved services or processes.
+        tempting: Innovation sounds like invention, and the famous examples are new devices.
+        correction: The chart's innovation is the introduction of new or improved goods, services, processes, etc. A council's improved permit process counts.
+    socratic:
+      - ask: At a workshop, a hotel's staff imagine twenty original ideas for a new guest service. None is in use. Which column fits?
+        hint: Has anything been put into practice?
+        answer: 'Creativity: the use of imagination or original ideas. Nothing has been implemented.'
+      - ask: Can the manager put a number on that creativity?
+        hint: The chart's measurement row.
+        answer: 'Not on the chart: creativity cannot be measured. Counting ideas does not change that.'
+      - ask: The hotel then introduces one of the ideas to its guests. What now?
+        hint: The introduction of a new service.
+        answer: 'Innovation: the introduction of a new service. It is related to implementation, and it can be measured.'
+      - ask: Which came first here, and could it have run the other way?
+        hint: Remember which one follows the other.
+        answer: Creativity came first. The chart says creativity precedes innovation and innovation follows creativity.
+      - ask: In which ways are the two useful in organisations?
+        hint: Read the rows together.
+        answer: On the chart, creativity supplies imagination and original ideas, and innovation implements them as new or improved goods, services or processes. The tutorial leaves the question open for discussion.
+    what-if:
+      - change: A café's staff imagine an improved ordering process, but the café never introduces it.
+        effect: 'It stays creativity: original ideas, related to imagination and not measurable. Innovation needs the introduction, which the chart relates to implementation.'
+    boundary:
+      - text: A local council introduces an improved process for approving building permits, replacing its old one.
+        why: 'Innovation, though nothing is brand new: the chart covers new or improved goods, services and processes, introduced and implemented.'
+      - text: A writer produces a highly original novel that never finds a publisher or a buyer.
+        why: 'Creativity, not innovation: Week 8''s lecturer says you can be extremely creative, with a piece of art or a book, but if you cannot commercialise it, it is just an act of creativity.'
+    transfer:
+      - scenario: A school's teachers hold a workshop imagining new ways to run parent–teacher nights. Next term the school introduces online booking for the nights and tracks how many parents attend.
+        answer: 'The workshop is creativity: imagination and original ideas, which the chart says cannot be measured. Introducing online booking is innovation: a new or improved service or process, related to implementation and measurable, as the attendance count shows. The order fits the chart: creativity precedes innovation.'
+    objections:
+      - position: Only innovation can be measured, so managers should manage innovation and leave creativity alone.
+        evidence: 'The chart: innovation can be measured; creativity cannot.'
+        objection: 'The chart puts creativity first: innovation follows creativity, so without imagination and original ideas there is nothing new to introduce. Levitt (Week 1): creativity is thinking up new things; innovation is doing them.'
+      - position: Creativity cannot be measured at all.
+        evidence: 'The Week 7 chart says so in its own row: ''Cannot be measured''.'
+        objection: 'Week 2 is more careful: it asks why we cannot create a standardised test measuring individual creativity. Divergent thinking tests produce mixed results, IQ tests reach convergent thinking, and there is no standard test for formulating interesting problems.'
+    sources:
+      - Marketing - Week 07 - Tutorial Materials - Invention, Innovation, Creativity (slide 3, chart image)
+      - Marketing - Week 08 - Lecture Transcript - Innovation
+      - Marketing - Week 01 - Introduction Lecture Slides (MGMT2094) (slide 17)
+      - Marketing - Week 02 - Lecture Materials - Exploring the Creativity Problem (slide 8)
+flows:
+  - slug: creativity-invention-or-innovation
+    title: Creativity, invention or innovation? (the Week 7 charts)
+    summary: Places a scenario in one column of the two Week 7 charts, and names the economic value when it is innovation.
+    start: n1
+    concepts:
+      - mgmt2094-w07-invention-vs-innovation-economic-value
+      - mgmt2094-w07-creativity-precedes-innovation
+    sources:
+      - Marketing - Week 07 - Tutorial Materials - Invention, Innovation, Creativity (slide 2–3, chart image)
+      - Marketing - Week 08 - Lecture Materials - Innovation (slides 3, 10)
+    nodes:
+      - id: n1
+        kind: ask
+        text: What is there so far?
+        note: 'The charts use different words. Creativity: the use of imagination or original ideas. Invention: a novel product, device, process, or concept. Innovation: an introduction.'
+        branches:
+          - label: Original ideas being imagined
+            to: n2
+          - label: A novel product, device, process or concept, not yet offered to anyone
+            to: n3
+          - label: Something introduced to customers or users
+            to: n4
+      - id: n2
+        kind: end
+        tone: qualified
+        text: 'Creativity: it precedes innovation.'
+        note: 'Related to imagination; cannot be measured. Example: hotel staff imagining ideas for a new guest service.'
+        concept: mgmt2094-w07-creativity-precedes-innovation
+      - id: n3
+        kind: end
+        tone: qualified
+        text: 'Invention: not yet innovation.'
+        note: 'Requires knowledge, competence, and financial aid. Examples: the printing press, electricity, the telephone. Week 8: it may not be commercialised and is usually restricted to the R&D centre.'
+        concept: mgmt2094-w07-invention-vs-innovation-economic-value
+        authorities:
+          - mgmt2094-example-printing-press-electricity-telephone
+      - id: n4
+        kind: ask
+        text: Is it a newer, better (new or improved) solution that meets new requirements or existing market needs?
+        branches:
+          - label: 'Yes'
+            to: n6
+          - label: No, it meets no requirement or need
+            to: n5
+      - id: n5
+        kind: end
+        tone: not-met
+        text: 'Not innovation on the chart: the introduction must meet requirements or market needs.'
+        note: 'Week 8: if you cannot commercialise it, it is not innovation.'
+      - id: n6
+        kind: step
+        text: 'Name the economic value: the need it meets, and the knowledge of market needs and trends behind it.'
+        note: Slide 2's cue. Week 8 adds that innovation results in commercialisation, has an economic motive, and brings organisational change.
+        next: n7
+      - id: n7
+        kind: end
+        tone: met
+        text: 'Innovation: it follows creativity and succeeds invention.'
+        note: 'Related to implementation; can be measured. Examples: the introduction of the iPhone, the tablet, the flat-screen TV.'
+        authorities:
+          - mgmt2094-example-iphone-tablet-flat-screen-tv

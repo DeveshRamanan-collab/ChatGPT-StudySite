@@ -1,0 +1,517 @@
+{
+  "generated-at": "2026-10-20T03:30:00Z",
+  "source": "Google Calendar Preparation, read 20 Oct 2026. Preferred blocks only; no elapsed-time completion inferred. Protected reserve blocks are shown separately in /plan/.",
+  "timezone": "Australia/Sydney",
+  "blocks": [
+    {
+      "start": "2026-10-20T16:00:00+11:00",
+      "end": "2026-10-20T18:00:00+11:00",
+      "title": "Torts — Week 5 (remaining 50%)",
+      "unit": "laws2400",
+      "week": 5,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-20T18:30:00+11:00",
+      "end": "2026-10-20T20:00:00+11:00",
+      "title": "Torts — Week 6 (first hour) + consolidation",
+      "unit": "laws2400",
+      "week": 6,
+      "kind": "learn"
+    },
+    {
+      "start": "2026-10-21T14:15:00+11:00",
+      "end": "2026-10-21T15:45:00+11:00",
+      "title": "Torts — Week 6 (remaining hour; no repeat)",
+      "unit": "laws2400",
+      "week": 6,
+      "kind": "learn"
+    },
+    {
+      "start": "2026-10-21T17:15:00+11:00",
+      "end": "2026-10-21T19:15:00+11:00",
+      "title": "Torts — Week 7 — Wednesday attempt",
+      "unit": "laws2400",
+      "week": 7,
+      "kind": "attempt",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-22T11:00:00+11:00",
+      "end": "2026-10-22T13:00:00+11:00",
+      "title": "Torts — Week 7 — full repeat",
+      "unit": "laws2400",
+      "week": 7,
+      "kind": "repeat",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-22T14:00:00+11:00",
+      "end": "2026-10-22T16:00:00+11:00",
+      "title": "Torts — Week 8",
+      "unit": "laws2400",
+      "week": 8,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-22T20:30:00+11:00",
+      "end": "2026-10-22T21:30:00+11:00",
+      "title": "MGMT2094 — Week 1",
+      "unit": "mgmt2094",
+      "week": 1,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-23T11:00:00+11:00",
+      "end": "2026-10-23T13:00:00+11:00",
+      "title": "Torts — Week 9",
+      "unit": "laws2400",
+      "week": 9,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-10-23T14:00:00+11:00",
+      "end": "2026-10-23T16:00:00+11:00",
+      "title": "Torts — Week 10",
+      "unit": "laws2400",
+      "week": 10,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-10-23T20:30:00+11:00",
+      "end": "2026-10-23T21:30:00+11:00",
+      "title": "MGMT2094 — Week 2",
+      "unit": "mgmt2094",
+      "week": 2,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-10-26T10:30:00+11:00",
+      "end": "2026-10-26T12:30:00+11:00",
+      "title": "Torts — Week 11",
+      "unit": "laws2400",
+      "week": 11,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-26T13:30:00+11:00",
+      "end": "2026-10-26T15:30:00+11:00",
+      "title": "Torts — Week 12",
+      "unit": "laws2400",
+      "week": 12,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-26T16:00:00+11:00",
+      "end": "2026-10-26T18:00:00+11:00",
+      "title": "Public International Law — Week 1",
+      "unit": "laws2000",
+      "week": 1,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-26T18:30:00+11:00",
+      "end": "2026-10-26T20:30:00+11:00",
+      "title": "Public International Law — Week 2",
+      "unit": "laws2000",
+      "week": 2,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-27T14:30:00+11:00",
+      "end": "2026-10-27T16:30:00+11:00",
+      "title": "Public International Law — Week 3",
+      "unit": "laws2000",
+      "week": 3,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-27T17:00:00+11:00",
+      "end": "2026-10-27T19:00:00+11:00",
+      "title": "Public International Law — Week 4",
+      "unit": "laws2000",
+      "week": 4,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-27T19:30:00+11:00",
+      "end": "2026-10-27T21:30:00+11:00",
+      "title": "Public International Law — Week 5",
+      "unit": "laws2000",
+      "week": 5,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-28T16:30:00+11:00",
+      "end": "2026-10-28T18:30:00+11:00",
+      "title": "Public International Law — Week 6 — Wednesday attempt",
+      "unit": "laws2000",
+      "week": 6,
+      "kind": "attempt",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-29T11:00:00+11:00",
+      "end": "2026-10-29T13:00:00+11:00",
+      "title": "Public International Law — Week 6 — full repeat",
+      "unit": "laws2000",
+      "week": 6,
+      "kind": "repeat",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-29T14:00:00+11:00",
+      "end": "2026-10-29T16:00:00+11:00",
+      "title": "Public International Law — Week 7",
+      "unit": "laws2000",
+      "week": 7,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-29T20:30:00+11:00",
+      "end": "2026-10-29T21:30:00+11:00",
+      "title": "MGMT2094 — Week 3",
+      "unit": "mgmt2094",
+      "week": 3,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-10-30T11:00:00+11:00",
+      "end": "2026-10-30T13:00:00+11:00",
+      "title": "Public International Law — Week 8",
+      "unit": "laws2000",
+      "week": 8,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-10-30T13:30:00+11:00",
+      "end": "2026-10-30T15:30:00+11:00",
+      "title": "Public International Law — Week 9",
+      "unit": "laws2000",
+      "week": 9,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-11-02T10:30:00+11:00",
+      "end": "2026-11-02T12:30:00+11:00",
+      "title": "Public International Law — Week 10",
+      "unit": "laws2000",
+      "week": 10,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-02T13:30:00+11:00",
+      "end": "2026-11-02T15:30:00+11:00",
+      "title": "Public International Law — Week 11",
+      "unit": "laws2000",
+      "week": 11,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-02T16:00:00+11:00",
+      "end": "2026-11-02T18:00:00+11:00",
+      "title": "Public International Law — Week 12",
+      "unit": "laws2000",
+      "week": 12,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-02T18:30:00+11:00",
+      "end": "2026-11-02T20:30:00+11:00",
+      "title": "Jurisprudence — Week 1",
+      "unit": "laws2100",
+      "week": 1,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-03T11:00:00+11:00",
+      "end": "2026-11-03T12:00:00+11:00",
+      "title": "MGMT2094 — Week 4",
+      "unit": "mgmt2094",
+      "week": 4,
+      "kind": "learn"
+    },
+    {
+      "start": "2026-11-03T13:30:00+11:00",
+      "end": "2026-11-03T14:30:00+11:00",
+      "title": "MGMT2094 — Week 5",
+      "unit": "mgmt2094",
+      "week": 5,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-03T14:30:00+11:00",
+      "end": "2026-11-03T16:30:00+11:00",
+      "title": "Jurisprudence — Week 2",
+      "unit": "laws2100",
+      "week": 2,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-03T17:00:00+11:00",
+      "end": "2026-11-03T19:00:00+11:00",
+      "title": "Jurisprudence — Week 3",
+      "unit": "laws2100",
+      "week": 3,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-03T19:30:00+11:00",
+      "end": "2026-11-03T21:30:00+11:00",
+      "title": "Jurisprudence — Week 4",
+      "unit": "laws2100",
+      "week": 4,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-04T13:30:00+11:00",
+      "end": "2026-11-04T14:30:00+11:00",
+      "title": "MGMT2094 — Week 6",
+      "unit": "mgmt2094",
+      "week": 6,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-04T14:30:00+11:00",
+      "end": "2026-11-04T16:30:00+11:00",
+      "title": "Jurisprudence — Week 5",
+      "unit": "laws2100",
+      "week": 5,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-04T17:00:00+11:00",
+      "end": "2026-11-04T19:00:00+11:00",
+      "title": "Jurisprudence — Week 6",
+      "unit": "laws2100",
+      "week": 6,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-04T19:30:00+11:00",
+      "end": "2026-11-04T21:30:00+11:00",
+      "title": "Jurisprudence — Week 7",
+      "unit": "laws2100",
+      "week": 7,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-05T11:45:00+11:00",
+      "end": "2026-11-05T13:45:00+11:00",
+      "title": "Jurisprudence — Week 8",
+      "unit": "laws2100",
+      "week": 8,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-05T14:15:00+11:00",
+      "end": "2026-11-05T16:15:00+11:00",
+      "title": "Jurisprudence — Week 9",
+      "unit": "laws2100",
+      "week": 9,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-05T20:30:00+11:00",
+      "end": "2026-11-05T21:30:00+11:00",
+      "title": "MGMT2094 — Week 7",
+      "unit": "mgmt2094",
+      "week": 7,
+      "kind": "learn"
+    },
+    {
+      "start": "2026-11-06T11:00:00+11:00",
+      "end": "2026-11-06T13:00:00+11:00",
+      "title": "Jurisprudence — Week 10",
+      "unit": "laws2100",
+      "week": 10,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-11-06T13:30:00+11:00",
+      "end": "2026-11-06T15:30:00+11:00",
+      "title": "Jurisprudence — Week 11",
+      "unit": "laws2100",
+      "week": 11,
+      "kind": "learn",
+      "where": "Home"
+    },
+    {
+      "start": "2026-11-07T17:00:00+11:00",
+      "end": "2026-11-07T19:00:00+11:00",
+      "title": "Jurisprudence — Week 12",
+      "unit": "laws2100",
+      "week": 12,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-07T19:30:00+11:00",
+      "end": "2026-11-07T20:30:00+11:00",
+      "title": "MGMT2094 — Week 8",
+      "unit": "mgmt2094",
+      "week": 8,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-07T20:30:00+11:00",
+      "end": "2026-11-07T21:30:00+11:00",
+      "title": "MGMT2094 — Week 9",
+      "unit": "mgmt2094",
+      "week": 9,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-08T17:00:00+11:00",
+      "end": "2026-11-08T18:00:00+11:00",
+      "title": "MGMT2094 — Week 10",
+      "unit": "mgmt2094",
+      "week": 10,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-08T18:00:00+11:00",
+      "end": "2026-11-08T19:00:00+11:00",
+      "title": "MGMT2094 — Week 11",
+      "unit": "mgmt2094",
+      "week": 11,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-08T19:30:00+11:00",
+      "end": "2026-11-08T20:30:00+11:00",
+      "title": "MGMT2094 — Week 12",
+      "unit": "mgmt2094",
+      "week": 12,
+      "kind": "learn",
+      "where": "Macquarie University"
+    },
+    {
+      "start": "2026-11-08T20:30:00+11:00",
+      "end": "2026-11-08T21:30:00+11:00",
+      "title": "MGMT2094 — exam practice and error review",
+      "unit": "mgmt2094",
+      "kind": "practice"
+    }
+  ],
+  "classes": [
+    {
+      "start": "2026-10-20T09:00:00+11:00",
+      "end": "2026-10-20T11:00:00+11:00",
+      "title": "MGMT2094 tutorial",
+      "unit": "mgmt2094",
+      "kind": "class"
+    },
+    {
+      "start": "2026-10-20T12:00:00+11:00",
+      "end": "2026-10-20T13:00:00+11:00",
+      "title": "Jurisprudence tutorial",
+      "unit": "laws2100",
+      "kind": "class"
+    },
+    {
+      "start": "2026-10-21T12:00:00+11:00",
+      "end": "2026-10-21T13:00:00+11:00",
+      "title": "Public International Law tutorial",
+      "unit": "laws2000",
+      "kind": "class"
+    },
+    {
+      "start": "2026-10-26T09:00:00+11:00",
+      "end": "2026-10-26T10:00:00+11:00",
+      "title": "Torts tutorial",
+      "unit": "laws2400",
+      "kind": "class"
+    },
+    {
+      "start": "2026-10-27T09:00:00+11:00",
+      "end": "2026-10-27T11:00:00+11:00",
+      "title": "MGMT2094 tutorial",
+      "unit": "mgmt2094",
+      "kind": "class"
+    },
+    {
+      "start": "2026-10-27T12:00:00+11:00",
+      "end": "2026-10-27T13:00:00+11:00",
+      "title": "Jurisprudence tutorial",
+      "unit": "laws2100",
+      "kind": "class"
+    },
+    {
+      "start": "2026-10-28T12:00:00+11:00",
+      "end": "2026-10-28T13:00:00+11:00",
+      "title": "Public International Law tutorial",
+      "unit": "laws2000",
+      "kind": "class"
+    },
+    {
+      "start": "2026-11-02T09:00:00+11:00",
+      "end": "2026-11-02T10:00:00+11:00",
+      "title": "Torts tutorial",
+      "unit": "laws2400",
+      "kind": "class"
+    },
+    {
+      "start": "2026-11-03T09:00:00+11:00",
+      "end": "2026-11-03T11:00:00+11:00",
+      "title": "MGMT2094 tutorial",
+      "unit": "mgmt2094",
+      "kind": "class"
+    },
+    {
+      "start": "2026-11-03T12:00:00+11:00",
+      "end": "2026-11-03T13:00:00+11:00",
+      "title": "Jurisprudence tutorial",
+      "unit": "laws2100",
+      "kind": "class"
+    },
+    {
+      "start": "2026-11-04T12:00:00+11:00",
+      "end": "2026-11-04T13:00:00+11:00",
+      "title": "Public International Law tutorial",
+      "unit": "laws2000",
+      "kind": "class"
+    }
+  ],
+  "notes": [
+    "Lectures are not attended (marked non-blocking in the calendar).",
+    "Jurisprudence weeks 11–12 are scheduled but their materials are not in the site yet.",
+    "No study blocks are scheduled for 9–19 Nov (the exam period)."
+  ]
+}

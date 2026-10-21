@@ -1,0 +1,29 @@
+node_modules
+dist
+.astro
+reports/gate.json
+exports/
+.env
+.DS_Store
+test-results
+playwright-report
+reports/screens
+reports/traces
+reports/lighthouse
+.lighthouseci
+reports/review
+.cache
+scripts/_*tmp*
+.wrangler/
+# raw/: never commit video; files over 95 MB stay local (a committed "(text extract).md" sits beside each)
+raw/**/*.mp4
+raw/**/*.mov
+raw/**/*.m4a
+raw/laws2000-pil/week-11/Week 11 - Lecture Slides - International Criminal Law.pptx
+
+# Personal Claude Code overrides
+.claude/settings.local.json
+public/data/content-health.json
+
+# Transient rebuild command logs
+reports/rebuild-*.log

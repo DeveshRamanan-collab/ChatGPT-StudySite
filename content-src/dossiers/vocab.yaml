@@ -1,0 +1,257 @@
+# Controlled vocabulary for dossiers (scripts/emit-dossiers.mjs rejects anything not listed here).
+# topics: per unit, slug → label and the weeks that teach it. courts: code → name and rank (higher = more senior;
+# used to sort and to lane the timeline). lists: examinable lists, in the order the source document gives them.
+
+topics:
+  laws2400:
+    intentional-torts: { label: Intentional torts — principles, weeks: [1] }
+    trespass-to-the-person: { label: Trespass to the person, weeks: [2] }
+    interference-with-goods: { label: Interference with goods, weeks: [2] }
+    trespass-to-land: { label: Trespass to land, weeks: [3] }
+    nuisance: { label: Nuisance, weeks: [3] }
+    defences-intentional: { label: Defences to intentional torts, weeks: [4] }
+    negligence-overview: { label: Negligence overview and the CLA, weeks: [5] }
+    duty-of-care: { label: Duty of care — general principles, weeks: [5] }
+    novel-duty: { label: Novel duties and salient features, weeks: [5, 7, 8] }
+    mental-harm: { label: Mental harm, weeks: [6] }
+    unborn-and-wrongful-life: { label: Unborn children, wrongful birth and wrongful life, weeks: [6, 8] }
+    pure-economic-loss: { label: Pure economic loss, weeks: [7] }
+    negligent-misstatement: { label: Negligent misstatement, weeks: [7] }
+    public-authorities: { label: Public and other authorities (CLA Part 5), weeks: [8] }
+    special-parties: { label: Special parties — occupiers, landlords, advocates, police, children, weeks: [8] }
+    third-party-conduct: { label: Duty to control or protect from third parties, weeks: [8] }
+    vicarious-liability: { label: Vicarious liability, weeks: [8] }
+    non-delegable-duty: { label: Non-delegable duties, weeks: [8] }
+    breach: { label: Breach — standard of care and foreseeable risk, weeks: [9] }
+    professional-negligence: { label: Professional negligence and duty to warn, weeks: [9] }
+    obvious-and-inherent-risk: { label: Obvious, inherent and recreational risks, weeks: [9, 12] }
+    causation: { label: Causation — factual causation, weeks: [10] }
+    scope-of-liability: { label: Scope of liability and remoteness, weeks: [11] }
+    intervening-acts: { label: Intervening acts (novus actus), weeks: [11] }
+    contributory-negligence: { label: Contributory negligence and apportionment, weeks: [12] }
+    voluntary-assumption-of-risk: { label: Voluntary assumption of risk, weeks: [12] }
+    illegality-and-intoxication: { label: Illegality, criminals and intoxication, weeks: [12] }
+    good-samaritans: { label: Good samaritans, weeks: [12] }
+    proportionate-liability: { label: Proportionate liability and contribution, weeks: [12] }
+  laws2000:
+    nature-and-history: { label: What international law is, weeks: [1] }
+    sources: { label: Sources of international law, weeks: [2] }
+    treaties: { label: The law of treaties, weeks: [3] }
+    subjects: { label: Subjects, statehood and recognition, weeks: [4] }
+    territory-and-self-determination: { label: Territory and self-determination, weeks: [4] }
+    international-organisations: { label: International organisations, weeks: [4, 6] }
+    international-and-national-law: { label: Integration of international law in national law, weeks: [5] }
+    jurisdiction: { label: Jurisdiction, weeks: [5] }
+    immunities: { label: Immunities, weeks: [6] }
+    state-responsibility: { label: State responsibility, weeks: [7] }
+    dispute-settlement: { label: International dispute settlement, weeks: [8] }
+    use-of-force: { label: Use of force, weeks: [9] }
+    collective-security: { label: Collective security, weeks: [10] }
+    international-criminal-law: { label: International criminal law, weeks: [11] }
+    human-rights: { label: Human rights law, weeks: [12] }
+  laws2100:
+    nature-of-law: { label: The nature of law, weeks: [1, 7] }
+    coercion: { label: Law and coercion, weeks: [2] }
+    positivism: { label: Legal positivism, weeks: [3] }
+    natural-law: { label: Natural law, weeks: [4] }
+    interpretivism: { label: Dworkin and interpretivism, weeks: [5] }
+    realism-and-cls: { label: Legal realism and critical legal studies, weeks: [6] }
+    legal-reasoning: { label: Legal reasoning, weeks: [7] }
+    outsider-jurisprudence: { label: Feminist and critical race theory, weeks: [8] }
+    rights: { label: Rights and human rights, weeks: [9] }
+    moral-limits: { label: The moral limits of the law, weeks: [10] }
+  mgmt2094:
+    creativity: { label: Creativity, weeks: [1, 2, 5] }
+    design-thinking: { label: Design thinking, weeks: [3] }
+    thinking-tools: { label: Thinking tools, weeks: [2, 4, 6] }
+    innovation: { label: Innovation, weeks: [7, 8, 11] }
+    product-development: { label: Product development, weeks: [9] }
+    agile-and-lean: { label: Agile and lean start-up, weeks: [10] }
+    innovative-culture: { label: Leading an innovative culture, weeks: [12] }
+
+courts:
+  ICJ: { name: International Court of Justice, rank: 100 }
+  PCIJ: { name: Permanent Court of International Justice, rank: 99 }
+  Arbitral: { name: International arbitral tribunal, rank: 95 }
+  ITLOS: { name: International Tribunal for the Law of the Sea, rank: 95 }
+  ICC: { name: International Criminal Court, rank: 94 }
+  ICTY: { name: International Criminal Tribunal for the former Yugoslavia, rank: 93 }
+  ICTR: { name: International Criminal Tribunal for Rwanda, rank: 93 }
+  IMT: { name: International Military Tribunal (Nuremberg), rank: 93 }
+  SCSL: { name: Special Court for Sierra Leone, rank: 92 }
+  ECtHR: { name: European Court of Human Rights, rank: 91 }
+  IACtHR: { name: Inter-American Court of Human Rights, rank: 91 }
+  CJEU: { name: Court of Justice of the European Union, rank: 91 }
+  HRC: { name: UN Human Rights Committee, rank: 90 }
+  WTO: { name: WTO dispute settlement, rank: 90 }
+  HCA: { name: High Court of Australia, rank: 80 }
+  PC: { name: Privy Council, rank: 79 }
+  UKSC: { name: UK Supreme Court, rank: 78 }
+  UKHL: { name: House of Lords, rank: 78 }
+  USSC: { name: Supreme Court of the United States, rank: 78 }
+  SCC: { name: Supreme Court of Canada, rank: 78 }
+  ZACC: { name: Constitutional Court of South Africa, rank: 78 }
+  NZSC: { name: Supreme Court of New Zealand, rank: 78 }
+  FCAFC: { name: Full Court of the Federal Court of Australia, rank: 70 }
+  NSWCA: { name: NSW Court of Appeal, rank: 70 }
+  VSCA: { name: Victorian Court of Appeal, rank: 70 }
+  QCA: { name: Queensland Court of Appeal, rank: 70 }
+  WASCA: { name: WA Court of Appeal, rank: 70 }
+  SASCFC: { name: Full Court of the Supreme Court of South Australia, rank: 70 }
+  NTCA: { name: NT Court of Appeal, rank: 70 }
+  TASFC: { name: Full Court of the Supreme Court of Tasmania, rank: 70 }
+  VSCFC: { name: Full Court of the Supreme Court of Victoria, rank: 70 }
+  NSWCCA: { name: NSW Court of Criminal Appeal, rank: 70 }
+  NZCA: { name: New Zealand Court of Appeal, rank: 68 }
+  EWCA: { name: Court of Appeal of England and Wales, rank: 68 }
+  UKCA: { name: English Court of Appeal (historic), rank: 68 }
+  FCA: { name: Federal Court of Australia, rank: 60 }
+  NSWSC: { name: Supreme Court of NSW, rank: 60 }
+  VSC: { name: Supreme Court of Victoria, rank: 60 }
+  QSC: { name: Supreme Court of Queensland, rank: 60 }
+  WASC: { name: Supreme Court of WA, rank: 60 }
+  SASC: { name: Supreme Court of South Australia, rank: 60 }
+  TASSC: { name: Supreme Court of Tasmania, rank: 60 }
+  NTSC: { name: Supreme Court of the NT, rank: 60 }
+  ACTSC: { name: ACT Supreme Court, rank: 60 }
+  EWHC: { name: High Court of England and Wales, rank: 58 }
+  KB: { name: King's/Queen's Bench (historic), rank: 58 }
+  NSWDC: { name: District Court of NSW, rank: 50 }
+  Other: { name: Other court or tribunal, rank: 40 }
+
+lists:
+  laws2400-examinable:
+    unit: laws2400
+    title: Torts examinable law list
+    source: raw/laws2400-torts/assessment/Exam - Examinable Law List.docx
+    note: Provided with the exam paper. The law for the exam is to be drawn from these cases and this legislation.
+    cases:
+      - { n: 1, ref: adeels-palace-v-moubarak, as: "Adeels Palace Pty Ltd v Moubarak (2009) 239 CLR 420" }
+      - { n: 2, ref: amaca-v-booth, as: "Amaca Pty Ltd v Booth (2011) 246 CLR 36" }
+      - { n: 3, ref: amaca-pty-ltd-v-ellis, as: "Amaca Pty Ltd v Ellis (2010) 240 CLR 111" }
+      - { n: 4, ref: benic-v-nsw, as: "Benic v New South Wales [2010] NSWSC 1039" }
+      - { n: 5, ref: bird-v-dp, as: "Bird v DP (A Pseudonym) (2024) 98 ALJR 1349; [2024] HCA 41" }
+      - { n: 6, ref: bonnington-castings-v-wardlaw, as: "Bonnington Castings Ltd v Wardlaw [1956] AC 613" }
+      - { n: 7, ref: brodie-v-singleton-shire-council, as: "Brodie v Singleton Shire Council (2001) 206 CLR 512" }
+      - { n: 8, ref: bryan-v-maloney, as: "Bryan v Maloney (1995) 182 CLR 608" }
+      - { n: 9, ref: burnie-port-authority-v-general-jones, as: "Burnie Port Authority v General Jones Pty Ltd (1994) 179 CLR 520" }
+      - { n: 10, ref: caltex-oil-v-dredge-willemstad, as: "Caltex Oil v Dredge 'Willemstad' (1976) 136 CLR 529" }
+      - { n: 11, ref: caltex-refineries-pty-ltd-v-stavar, as: "Caltex Refineries (Qld) Pty Ltd v Stavar (2009) 75 NSWLR 649" }
+      - { n: 12, ref: carey-v-lake-macquarie-city-council, as: "Carey v Lake Macquarie City Council [2007] NSWCA 4" }
+      - { n: 13, ref: ccig-investments-v-schokman, as: "CCIG Investments Pty Ltd v Schokman (2023) 97 ALJR 551" }
+      - { n: 14, ref: cfmmeu-v-personnel-contracting, as: "CFMMEU v Personnel Contracting Pty Ltd (2022) 275 CLR 165" }
+      - { n: 15, ref: chapman-v-hearse, as: "Chapman v Hearse (1961) 106 CLR 112" }
+      - { n: 16, ref: commonwealth-v-introvigne, as: "Commonwealth v Introvigne (1982) 150 CLR 258" }
+      - { n: 17, ref: crimmins-v-stevedoring-industry-finance-committee, as: "Crimmins v Stevedoring Industry Finance Committee (1999) 200 CLR 1" }
+      - { n: 18, ref: donoghue-v-stevenson, as: "Donoghue v Stevenson [1932] AC 562" }
+      - { n: 19, ref: doubleday-v-kelly, as: "Doubleday v Kelly [2005] NSWCA 151" }
+      - { n: 20, ref: e-v-australian-red-cross-society, as: "E v Australian Red Cross Society (1991) 27 FCR 310" }
+      - { n: 21, ref: esanda-finance-corp-v-pmh, as: "Esanda Finance Corporation Ltd v Peat Marwick Hungerfords (1997) 188 CLR 241" }
+      - { n: 22, ref: froom-v-butcher, as: "Froom v Butcher [1976] QB 286" }
+      - { n: 23, ref: giannarelli-v-wraith, as: "Giannarelli v Wraith (1988) 165 CLR 543" }
+      - { n: 24, ref: graham-barclay-oysters-v-ryan, as: "Graham Barclay Oysters Pty Ltd v Ryan (2002) 211 CLR 540" }
+      - { n: 25, ref: grant-v-australian-knitting-mills, as: "Grant v Australian Knitting Mills [1936] AC 85" }
+      - { n: 26, ref: haber-v-walker, as: "Haber v Walker [1963] VR 339" }
+      - { n: 27, ref: hargrave-v-goldman, as: "Hargrave v Goldman (1963) 110 CLR 40" }
+      - { n: 28, ref: haris-v-bulldogs-rugby-league-club, as: "Haris v Bulldogs Rugby League Club Ltd [2006] Aust Torts Reports 81-838" }
+      - { n: 29, ref: harvey-v-pd, as: "Harvey v PD (2004) 59 NSWLR 639" }
+      - { n: 30, ref: hedley-byrne-v-heller, as: "Hedley Byrne & Co Ltd v Heller & Partners Ltd [1964] AC 465" }
+      - { n: 31, ref: hill-v-chief-constable-of-west-yorkshire, as: "Hill v Chief Constable of West Yorkshire [1989] AC 53" }
+      - { n: 32, ref: hollis-v-vabu, as: "Hollis v Vabu Pty Ltd (2001) 207 CLR 21" }
+      - { n: 33, ref: home-office-v-dorset-yacht-co-ltd, as: "Home Office v Dorset Yacht Co Ltd [1970] AC 1004" }
+      - { n: 34, ref: hughes-v-lord-advocate, as: "Hughes v Lord Advocate [1963] AC 837" }
+      - { n: 35, ref: imbree-v-mcneilly, as: "Imbree v McNeilly [2008] HCA 40" }
+      - { n: 36, ref: jones-v-bartlett, as: "Jones v Bartlett (2000) 205 CLR 166" }
+      - { n: 37, ref: joslyn-v-berryman, as: "Joslyn v Berryman (2003) 214 CLR 552" }
+      - { n: 38, ref: kondis-v-state-transport-authority, as: "Kondis v State Transport Authority (1984) 154 CLR 672" }
+      - { n: 39, ref: mahony-v-j-kruschich-demolitions-pty-ltd, as: "Mahony v J Kruschich (Demolitions) Pty Ltd (1985) 156 CLR 522" }
+      - { n: 40, ref: march-v-stramare, as: "March v E & MH Stramare Pty Ltd (1991) 171 CLR 506" }
+      - { n: 41, ref: mchale-v-watson, as: "McHale v Watson (1966) 115 CLR 199" }
+      - { n: 42, ref: mckew-v-holland-hannen-and-cubitts-ltd, as: "McKew v Holland & Hannen & Cubitts [1969] 3 All ER 1621" }
+      - { n: 43, ref: miller-v-miller, as: "Miller v Miller (2011) 242 CLR 446" }
+      - { n: 44, ref: modbury-triangle-shopping-centre-v-anzil, as: "Modbury Triangle Shopping Centre Pty Ltd v Anzil (2000) 205 CLR 254" }
+      - { n: 45, ref: mutual-life-and-citizens-assurance-co-v-evatt, as: "Mutual Life & Citizens' Assurance Co v Evatt (1968) 122 CLR 556" }
+      - { n: 46, ref: nsw-v-godfrey, as: "New South Wales v Godfrey [2004] NSWCA 113" }
+      - { n: 47, ref: overseas-tankship-v-morts-dock-the-wagon-mound-no-1, as: "Overseas Tankship (UK) Ltd v Morts Dock & Engineering Co Ltd (The Wagon Mound No 1) [1961] 1 AC 388" }
+      - { n: 48, ref: overseas-tankship-v-miller-steamship-the-wagon-mound-no-2, as: "Overseas Tankship (UK) Ltd v The Miller Steamship Co Pty Ltd (The Wagon Mound No 2) [1967] 1 AC 617" }
+      - { n: 49, ref: paris-v-stepney-borough-council, as: "Paris v Stepney Borough Council [1951] AC 367" }
+      - { n: 50, ref: pennington-v-norris, as: "Pennington v Norris (1956) 96 CLR 10" }
+      - { n: 51, ref: perre-v-apand-pty-ltd, as: "Perre v Apand Pty Ltd (1999) 198 CLR 180" }
+      - { n: 52, ref: peterkin-v-tadros, as: "Peterkin v Tadros [2026] NSWSC 1185" }
+      - { n: 53, ref: prince-alfred-college-v-adc, as: "Prince Alfred College Inc v ADC [2016] HCA 37" }
+      - { n: 54, ref: rail-corporation-nsw-v-donald, as: "Rail Corporation NSW v Donald [2018] NSWCA 82" }
+      - { n: 55, ref: rta-v-dederer, as: "Roads and Traffic Authority of NSW v Dederer (2007) 234 CLR 330" }
+      - { n: 56, ref: rta-v-refrigerated-roadways, as: "Roads and Traffic Authority of NSW v Refrigerated Roadways Pty Ltd [2009] NSWCA 263" }
+      - { n: 57, ref: rogers-v-whitaker, as: "Rogers v Whitaker (1992) 175 CLR 479" }
+      - { n: 58, ref: romeo-v-conservation-commission-nt, as: "Romeo v Conservation Commission (NT) (1998) 192 CLR 431" }
+      - { n: 59, ref: rootes-v-shelton, as: "Rootes v Shelton (1967) 116 CLR 383" }
+      - { n: 60, ref: shaddock-and-associates-pty-ltd-v-parramatta-city-council, as: "Shaddock & Associates Pty Ltd v Parramatta City Council (1981) 150 CLR 225" }
+      - { n: 61, ref: smith-v-leech-brain, as: "Smith v Leech Brain & Co Ltd [1962] 2 QB 405; [1961] 3 All ER 1159" }
+      - { n: 62, ref: smith-v-leurs, as: "Smith v Leurs (1945) 70 CLR 256" }
+      - { n: 63, ref: state-rail-authority-nsw-v-chu, as: "State Rail Authority of NSW v Chu [2008] Aust Torts Reports 81-940" }
+      - { n: 64, ref: state-rail-authority-nsw-v-wiegold, as: "State Rail Authority of NSW v Wiegold (1991) 25 NSWLR 500" }
+      - { n: 65, ref: stephenson-v-waite-tileman, as: "Stephenson v Waite Tileman [1973] 1 NZLR 152" }
+      - { n: 66, ref: strong-v-woolworths-ltd-tas-big-w, as: "Strong v Woolworths Ltd (2012) 246 CLR 182" }
+      - { n: 67, ref: sullivan-v-moody, as: "Sullivan v Moody (2001) 207 CLR 562" }
+      - { n: 68, ref: sutherland-shire-council-v-heyman, as: "Sutherland Shire Council v Heyman (1985) 157 CLR 424" }
+      - { n: 69, ref: sweeney-v-boylan-nominees, as: "Sweeney v Boylan Nominees Pty Ltd (2006) 226 CLR 161" }
+      - { n: 70, ref: tabet-v-gett, as: "Tabet v Gett (2010) 240 CLR 537" }
+      - { n: 71, ref: tame-v-new-south-wales, also: [annetts-v-australian-stations-pty-ltd], as: "Tame v New South Wales; Annetts v Australian Stations Pty Ltd (2002) 211 CLR 317" }
+      - { n: 72, ref: tapp-v-australian-bushmens-campdraft-and-rodeo-association-ltd, as: "Tapp v Australian Bushmen's Campdraft & Rodeo Association Ltd (2022) 273 CLR 454" }
+      - { n: 73, ref: wallace-v-kam, as: "Wallace v Kam (2013) 250 CLR 375" }
+      - { n: 74, ref: wicks-v-state-rail-authority-nsw, as: "Wicks v State Rail Authority (NSW); Sheehan v State Rail Authority (NSW) (2010) 241 CLR 60" }
+      - { n: 75, ref: woods-v-multi-sport-holdings, as: "Woods v Multi-Sport Holdings (2002) 208 CLR 460" }
+      - { n: 76, ref: woolcock-street-investments-pty-ltd-v-cdg-pty-ltd, as: "Woolcock Street Investments Pty Ltd v CDG Pty Ltd (2004) 216 CLR 515" }
+      - { n: 77, ref: wyong-shire-council-v-shirt, as: "Wyong Shire Council v Shirt (1980) 146 CLR 40" }
+    provisions:
+      - { group: "Civil Liability Act 2002 (NSW) — Part 1 Preliminary", ref: civil-liability-act-2002-nsw-s3b, as: "s 3B(1)(a), (b), (f)-(g); s 3B(2)(a) Civil liability excluded from Act" }
+      - { group: "Civil Liability Act 2002 (NSW) — Part 1 Preliminary", ref: civil-liability-act-2002-nsw-s3c, as: "s 3C Act operates to exclude or limit vicarious liability" }
+      - { group: "Part 1A Negligence — Division 1 Preliminary", ref: civil-liability-act-2002-nsw-s5, as: "s 5 Definitions" }
+      - { group: "Part 1A Negligence — Division 1 Preliminary", ref: civil-liability-act-2002-nsw-s5a, as: "s 5A Application of Part" }
+      - { group: "Part 1A Negligence — Division 2 Duty of care", ref: civil-liability-act-2002-nsw-s5b, as: "s 5B General principles" }
+      - { group: "Part 1A Negligence — Division 2 Duty of care", ref: civil-liability-act-2002-nsw-s5c, as: "s 5C Other principles" }
+      - { group: "Part 1A Negligence — Division 3 Causation", ref: civil-liability-act-2002-nsw-s5d, as: "s 5D General principles" }
+      - { group: "Part 1A Negligence — Division 3 Causation", ref: civil-liability-act-2002-nsw-s5e, as: "s 5E Onus of proof" }
+      - { group: "Part 1A Negligence — Division 4 Assumption of risk", ref: civil-liability-act-2002-nsw-s5f, as: "s 5F Meaning of “obvious risk”" }
+      - { group: "Part 1A Negligence — Division 4 Assumption of risk", ref: civil-liability-act-2002-nsw-s5g, as: "s 5G Injured persons presumed to be aware of obvious risks" }
+      - { group: "Part 1A Negligence — Division 4 Assumption of risk", ref: civil-liability-act-2002-nsw-s5h, as: "s 5H No proactive duty to warn of obvious risk" }
+      - { group: "Part 1A Negligence — Division 4 Assumption of risk", ref: civil-liability-act-2002-nsw-s5i, as: "s 5I No liability for materialisation of inherent risk" }
+      - { group: "Part 1A Negligence — Division 5 Recreational activities", ref: civil-liability-act-2002-nsw-s5k, as: "s 5K Definitions" }
+      - { group: "Part 1A Negligence — Division 5 Recreational activities", ref: civil-liability-act-2002-nsw-s5l, as: "s 5L No liability for harm suffered from obvious risks of dangerous recreational activities" }
+      - { group: "Part 1A Negligence — Division 5 Recreational activities", ref: civil-liability-act-2002-nsw-s5m, as: "s 5M No duty of care for recreational activity where risk warning" }
+      - { group: "Part 1A Negligence — Division 6 Professional negligence", ref: civil-liability-act-2002-nsw-s5o, as: "s 5O Standard of care for professionals" }
+      - { group: "Part 1A Negligence — Division 6 Professional negligence", ref: civil-liability-act-2002-nsw-s5p, as: "s 5P Division does not apply to duty to warn of risk" }
+      - { group: "Part 1A Negligence — Division 7 Non-delegable duties and vicarious liability", ref: civil-liability-act-2002-nsw-s5q, as: "s 5Q Liability based on non-delegable duty" }
+      - { group: "Part 1A Negligence — Division 8 Contributory negligence", ref: civil-liability-act-2002-nsw-s5r, as: "s 5R Standard of contributory negligence" }
+      - { group: "Part 1A Negligence — Division 8 Contributory negligence", ref: civil-liability-act-2002-nsw-s5s, as: "s 5S Contributory negligence can defeat claim" }
+      - { group: "Part 1B Child abuse—liability of organisations — Division 3 Vicarious liability of organisations", ref: civil-liability-act-2002-nsw-s6g, as: "s 6G Employees include persons exercising functions akin to employees" }
+      - { group: "Part 1B Child abuse—liability of organisations — Division 3 Vicarious liability of organisations", ref: civil-liability-act-2002-nsw-s6h, as: "s 6H Organisations vicariously liable for child abuse perpetrated by employees" }
+      - { group: "Part 3 Mental harm", ref: civil-liability-act-2002-nsw-s27, as: "s 27 Definitions" }
+      - { group: "Part 3 Mental harm", ref: civil-liability-act-2002-nsw-s29, as: "s 29 Personal injury arising from mental or nervous shock" }
+      - { group: "Part 3 Mental harm", ref: civil-liability-act-2002-nsw-s30, as: "s 30 Limitation on recovery for pure mental harm arising from shock" }
+      - { group: "Part 3 Mental harm", ref: civil-liability-act-2002-nsw-s31, as: "s 31 Pure mental harm—liability only for recognised psychiatric illness" }
+      - { group: "Part 3 Mental harm", ref: civil-liability-act-2002-nsw-s32, as: "s 32 Mental harm—duty of care" }
+      - { group: "Part 4 Proportionate liability", ref: civil-liability-act-2002-nsw-s34, as: "s 34 Application of Part" }
+      - { group: "Part 4 Proportionate liability", ref: civil-liability-act-2002-nsw-s35, as: "s 35 Proportionate liability for apportionable claims" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s41, as: "s 41 Definitions" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s42, as: "s 42 Principles concerning resources, responsibilities etc of public or other authorities" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s43, as: "s 43 Proceedings against public or other authorities based on breach of statutory duty" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s43a, as: "s 43A Proceedings against public or other authorities for the exercise of special statutory powers" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s44, as: "s 44 When public or other authority not liable for failure to exercise regulatory functions" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s45, as: "s 45 Special non-feasance protection for roads authorities" }
+      - { group: "Part 5 Liability of public and other authorities", ref: civil-liability-act-2002-nsw-s46, as: "s 46 Exercise of function or decision to exercise does not create duty" }
+      - { group: "Part 6 Intoxication", ref: civil-liability-act-2002-nsw-s50, as: "s 50 No recovery where person intoxicated" }
+      - { group: "Part 7 Self-defence and recovery by criminals — Division 1 Limitations on damages", ref: civil-liability-act-2002-nsw-s54, as: "s 54 Criminals not to be awarded damages" }
+      - { group: "Part 8 Good samaritans", ref: civil-liability-act-2002-nsw-s55, as: "s 55 Application of Part" }
+      - { group: "Part 8 Good samaritans", ref: civil-liability-act-2002-nsw-s56, as: "s 56 Who is a good samaritan" }
+      - { group: "Part 8 Good samaritans", ref: civil-liability-act-2002-nsw-s57, as: "s 57 Protection of good samaritans" }
+      - { group: "Part 8 Good samaritans", ref: civil-liability-act-2002-nsw-s58, as: "s 58 Exclusion from protection" }
+      - { group: "Law Reform (Miscellaneous Provisions) Act 1946 (NSW) — Part 3 Contribution between tort-feasors", ref: law-reform-miscellaneous-provisions-act-1946-nsw-s5, as: "s 5 Proceedings against and contribution between joint and several tort-feasors" }
+      - { group: "Law Reform (Miscellaneous Provisions) Act 1965 (NSW) — Part 3 Amendment of doctrine of contributory negligence", ref: law-reform-miscellaneous-provisions-act-1965-nsw-s8, as: "s 8 Definitions" }
+      - { group: "Law Reform (Miscellaneous Provisions) Act 1965 (NSW) — Part 3 Amendment of doctrine of contributory negligence", ref: law-reform-miscellaneous-provisions-act-1965-nsw-s9, as: "s 9 Apportionment of liability in cases of contributory negligence" }
+  laws2000-examinable:
+    unit: laws2000
+    title: PIL examinable topics
+    source: raw/laws2000-pil/assessment/Exam - iLearn Final Invigilated Exam (transcribed 20 Oct 2026).md
+    note: All topics covered in the unit are potentially examinable; assessable content includes lectures, tutorials and required readings.
+    topics: [sources, treaties, international-and-national-law, subjects, jurisdiction, immunities, state-responsibility, dispute-settlement, use-of-force, collective-security, international-criminal-law, human-rights]

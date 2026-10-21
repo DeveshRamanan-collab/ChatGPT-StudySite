@@ -1,0 +1,624 @@
+unit: mgmt2094
+week: 4
+source: raw/mgmt2094-sci/week-04
+generator: aids-1
+aids:
+  - concept: mgmt2094-w04-parallel-thinking
+    plain: Parallel thinking means everyone in a group thinks in the same direction at the same time, adding their thoughts alongside each other's instead of attacking them.
+    concrete: 'The lecturer: argument is how we usually think, even inside our own heads; we put a point, wait for the counter-argument and go back and forth. In a brainstorm, extroverted people push their ideas and fill the room while quieter people hold back. Under parallel thinking the whole group puts on the same hat, say the black hat for five or ten minutes, and adds thoughts in that direction, so every participant has a voice.'
+    formal: 'The slides: ''Parallel Thinking is an alternative to Argument. In Parallel Thinking each thinker puts forward his or her thoughts in parallel with the thoughts of others, rather than attacking the thoughts of others.'' It guides thought processes in one direction at a time, so we can effectively analyse issues, generate new ideas and make better decisions. Hats help a group use it: they are directions of thinking.'
+    analogy:
+      text: A tug-of-war against a rowing crew. In a tug-of-war two teams pull against each other; in a crew everyone pulls the same way, changing stroke together when the cox calls it.
+      maps:
+        - from: the tug-of-war, pulling against each other
+          to: 'argument: attack and counter-attack'
+        - from: the crew pulling the same way
+          to: 'parallel thinking: thoughts put forward alongside each other'
+        - from: the cox calling a change of stroke
+          to: the blue-hat facilitator calling the switch to the next hat
+      limits:
+        - A crew always pulls forward; a hats session changes direction often, and some directions are feelings (red) or caution (black), not progress.
+    terms:
+      - term: parallel thinking
+        gloss: Each thinker puts thoughts forward alongside others' rather than attacking them; the group thinks in one direction at a time.
+      - term: argument (argument mode)
+        gloss: Putting a point, waiting for the counter-argument and going back and forth; the lecturer says we even do it in our own heads.
+      - term: removal of ego
+        gloss: 'A benefit on the slides: thinking in parallel rather than arguing reduces confrontation.'
+      - term: de Bono's three difficulties
+        gloss: 'Obstacles to practical thinking, quoted by Kivunja (2015): emotions (gut feeling, prejudice), helplessness (not knowing what to do next) and confusion (everything at once).'
+    misconceptions:
+      - claim: Parallel thinking means each person works on a different problem at the same time.
+        tempting: '''Parallel'' suggests side-by-side tasks.'
+        correction: Everyone thinks about the same issue in the same direction at once; thoughts run parallel to each other's rather than against them (slides).
+      - claim: Parallel thinking shows argument is bad and should be abandoned.
+        tempting: The slides offer it as the alternative to argument.
+        correction: The lecturer says argumentative thinking has its own pros and is important to master; parallel thinking moves away from it, it does not condemn it.
+      - claim: Parallel thinking keeps feelings out so that only logic is left.
+        tempting: Argument prizes logic, and emotions are one of de Bono's three difficulties.
+        correction: 'De Bono (quoted by Kivunja 2015): the hats let us use emotions and feelings at the right place. Feelings get their own direction, the red hat.'
+    socratic:
+      - ask: How do most meetings, and even our own private decisions, usually run?
+        hint: A point, then a counterpoint.
+        answer: 'As argument: we put a point, wait for a counter-argument and go back and forth (lecturer).'
+      - ask: In a brainstorm run as argument, whose ideas tend to fill the room?
+        hint: Extroverts and introverts.
+        answer: The extroverted voices; quieter or less secure people hold their ideas back.
+      - ask: What if everyone put thoughts forward alongside each other's, all looking the same way?
+        hint: The slide's definition.
+        answer: 'That is parallel thinking: each thinker''s thoughts run in parallel with others'', rather than attacking them, one direction at a time.'
+      - ask: What tool lets a whole group look in one direction and then switch together?
+        hint: You can put one on and take it off.
+        answer: 'The hats: they are directions of thinking, so the group puts on the same hat, then takes it off and switches.'
+      - ask: Which of de Bono's three difficulties does 'one direction at a time' answer?
+        hint: Keeping everything in mind at once.
+        answer: Confusion. The hats also answer emotions (feelings at the right place) and helplessness (definite next steps).
+    what-if:
+      - change: Instead of the whole team wearing the black hat together, one sceptic is named the team's permanent critic.
+        effect: 'Argument returns: one person attacks while others defend. The slides say hats are not categories of people; parallel thinking needs everyone looking the same way, so all wear black together, then switch.'
+      - change: 'There is no group: one manager decides alone and goes round in circles weighing every factor at once.'
+        effect: 'Parallel thinking still helps: the hats can be used by individuals, and taking one direction at a time answers de Bono''s confusion difficulty.'
+    boundary:
+      - text: A board meeting where each director presents a prepared position and the others rebut it.
+        why: 'Outside: positions meet head-on in attack and counter-attack. That is argument, the mode parallel thinking is offered as an alternative to.'
+      - text: Brainwriting, where people write ideas silently and pass the sheets on.
+        why: Shares the aim of giving every voice a turn, but it organises who writes, not the direction of thinking. It is Mattimore's technique, not de Bono's.
+    transfer:
+      - scenario: 'A residential college committee keeps fighting over a party ban: two loud members dominate, the others stay silent, and meetings end without a decision.'
+        answer: Replace argument with parallel thinking. A facilitator in the blue hat sets the focus; everyone then wears the same hat together (white for facts about complaints, red for feelings, yellow for benefits, black for risks, green for alternatives), so every voice is heard and confrontation drops (removal of ego). Close in blue with next steps.
+    objections:
+      - position: Parallel thinking gives better group decisions than argument.
+        evidence: 'The slides: it guides thinking one direction at a time so we analyse issues, generate ideas and make better decisions; benefits include removal of ego, diversity of thought and focus.'
+        objection: The lecturer concedes argumentative thinking has its own pros and should be mastered too; testing a claim against its rival has value.
+        reply: 'The method keeps critical testing inside it: the black hat looks for risks and fatal flaws and makes plans tougher and more resilient (slides).'
+    sources:
+      - Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono (slides 3, 35)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+      - Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving (Kivunja 2015, pp 382, 389)
+  - concept: mgmt2094-w04-six-thinking-hats
+    plain: 'De Bono splits thinking into six modes, each a coloured hat: blue manages the process, white brings facts, yellow benefits, green new ideas, red feelings, and black risks.'
+    concrete: 'In the lecture, the facilitator opens in the blue hat: what is our focus? Under white, the team asks what information it has and needs, and stops to gather data if it is missing. Under yellow, it finds reasons a new product will work, such as past launches and experienced engineers. Green asks ''what would happen if…?'', red asks for gut reactions, and black asks what might go wrong.'
+    formal: 'In Six Thinking Hats, Edward de Bono ''separates thinking into six distinct modes, identified with six coloured thinking hats'' (slides): blue, control (process, overview); white, information and facts (neutral, objective); yellow, benefits and harmony (sunny, optimistic); green, growth and creativity (no criticism); red, emotion and intuition (no justification); black, problems and caution (risks, why a solution will fail).'
+    terms:
+      - term: thinking hat
+        gloss: One of six directions of thinking that you 'put on' and 'take off'; a mode of thinking, not a personality type.
+      - term: metacognition (blue hat)
+        gloss: 'Thinking about thinking. Kivunja: blue differs from all the other hats because it organises the thinking rather than tackling the problem itself.'
+      - term: gut reaction (red hat)
+        gloss: A view based on intuition and instinct, given without explanation or justification.
+        example: How do you feel about this right now?
+      - term: fatal flaw (black hat)
+        gloss: A weakness that would make a plan fail; black hat thinking helps spot it and makes plans tougher.
+    elements:
+      - name: 'Blue: control thinking'
+        test: 'Process, control, overview: the blue sky above us, a wider, higher view. Asks: What is our focus? What thinking is needed? What have we done so far? What do we do next?'
+        authorities:
+          - mgmt2094-example-edward-de-bono
+          - mgmt2094-kivunja-2015-six-thinking-hats
+      - name: 'White: information, facts'
+        test: 'Neutral, objective, non-emotional; white is effectively colourless. Facts, figures, trends, gaps in knowledge. Asks: What information do we have? What information do we need?'
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+      - name: 'Yellow: benefits, harmony'
+        test: 'Sunny and optimistic: see the benefits and value in the decision. Asks: What are the good things? What are the strengths and pluses? How will it help us? Why will it work?'
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+      - name: 'Green: growth, creativity'
+        test: 'A tree branching out: ideas, concepts, escaping old ideas; no criticism or judgement. Asks: What is possible? Can we combine these ideas? What would happen if?'
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+      - name: 'Red: emotion, intuition'
+        test: 'Views from intuition and instinct, without explanation or justification. Asks: What is your gut reaction? How do you feel about this right now? What is your intuition telling you?'
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+      - name: 'Black: problems, caution'
+        test: 'Risks and why a proposed solution will fail; makes plans tougher and spots fatal flaws, but can be over-used. Asks: What might go wrong? What are the weaknesses?'
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+    misconceptions:
+      - claim: The black hat is pure negativity, the 'bad' hat to keep to a minimum.
+        tempting: The slide calls it gloomy and negative, and says it can be over-used.
+        correction: 'Kivunja (2015): it is not a bad hat; it checks evidence and feasibility, and judges wear black. It makes plans tougher and spots fatal flaws (slides).'
+      - claim: A gut feeling stated firmly ('customers hate our queue, I just know it') is white-hat information.
+        tempting: It is phrased as a statement of fact.
+        correction: With no data behind it, it is red-hat intuition. White is neutral facts and figures, and asks what information we have and need.
+      - claim: Yellow-hat optimism is just the red hat's positive feelings.
+        tempting: Both can sound enthusiastic about an idea.
+        correction: 'Kivunja (2015): yellow optimism rests on supporting evidence and good reasons why the benefits will come; red needs no justification. He calls the difference a big one.'
+    socratic:
+      - ask: A team must decide whether to launch a product. What happens if everyone weighs facts, feelings, risks and ideas all at once?
+        hint: De Bono's third difficulty.
+        answer: 'Confusion: keeping everything in mind at once makes a mess. Separating thinking into distinct modes lets the group take one at a time.'
+      - ask: Which mode do you need first, to know what you are deciding and how?
+        hint: The sky above us.
+        answer: 'Blue: control thinking, a wider, higher view. What is our focus, and what thinking is needed?'
+      - ask: Which two hats look at the same idea from opposite sides?
+        hint: Sunshine, and the judge.
+        answer: Yellow (benefits, why it will work) and black (risks, why it may fail).
+      - ask: Where do new options come from, and where do hunches go?
+        hint: A growing tree; the redness of fire.
+        answer: Green creates new ideas with no criticism; red airs gut reactions without justification.
+      - ask: So in an exam scenario, how do you identify the hat?
+        hint: Its topic, or the kind of thinking?
+        answer: From the kind of thinking the question asks for (facts, feelings, benefits, risks, ideas or process), not from its topic.
+    what-if:
+      - change: A café owner deciding whether to open on Sundays has no figures at all for Sunday foot traffic.
+        effect: 'White-hat thinking names the gap: what information do we need? The lecturer says pause, collect and analyse the data, then come back, rather than letting red-hat guesses fill the gap.'
+    boundary:
+      - text: A colleague says a plan 'feels wrong' and then lists three costed risks.
+        why: 'Two hats in one remark: ''feels wrong'' is red (no justification needed); the costed risks are black (reasoned problems). Separate them so each is heard in its place.'
+      - text: 'Kivunja pairs a SWOT with the hats: Strengths blue, Weaknesses black, Opportunities yellow, Threats black.'
+        why: The hats can be combined with other tools; the lecturer gives a similar pairing (opportunities green or yellow). It is a suggestion, not part of the model.
+    transfer:
+      - scenario: A hospital emergency department is considering a text message that tells patients their expected wait.
+        answer: 'Take the six modes in turn: blue sets the focus; white asks what wait-time data exist and what is missing; yellow lists benefits and why it will work; black asks what might go wrong, such as inaccurate times; green looks for alternatives or fixes; red asks gut reactions. Close in blue with next steps.'
+    objections:
+      - position: The six hats are too simple to help with hard decisions.
+        evidence: 'The lecturer concedes they can look silly and overly simplistic at first glance: coloured hats for serious thinking.'
+        objection: 'De Bono: simple methods used effectively are more valuable than complicated ones that are confusing to use (Kivunja 2015); the hats have been used with six-year-olds and with senior executives in the largest businesses.'
+      - position: Some hats matter more than others; the black hat matters most in business.
+        evidence: Black hat thinking spots fatal flaws and makes plans resilient; students in the lecture each named a different "most important" hat.
+        objection: 'Kivunja: no hat is more important than another. The lecturer: there is no best hat, though a problem may need more of some, such as yellow optimism for a new product.'
+    sources:
+      - Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono (slides 4–29, 37)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+      - Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving (Kivunja 2015, pp 382–385, 389–390)
+  - concept: mgmt2094-w04-running-a-hats-session
+    plain: 'A session opens and closes with the blue hat: the facilitator in blue sets the focus, calls each switch of hat, keeps time short, and sums up what was achieved and the next steps.'
+    concrete: The lecturer suggests one person keeps the blue hat on all session; it need not be the team's manager. They open by asking what problem the group is solving, then call the switches ('everybody put on the yellow hat'). Each hat runs briefly, perhaps three, five or ten minutes, so nobody tires. They close by summing up what was achieved and whether to meet again. He even suggests giving a gloomy member the yellow hat.
+    formal: 'The slides: the blue hat manages the thinking process: control of thinking and the process, instructions for thinking, organisation of thinking, control of the other hats, ''Begin & end session with blue hat'', discipline and focus, the facilitator''s role. Using the hats: any hat as often as needed; sequence preset or evolving; not necessary to use every hat; time under each generally short; stay in the idiom.'
+    terms:
+      - term: facilitator (session leader)
+        gloss: The person wearing the blue hat throughout the session; the lecturer says it need not be the team's manager.
+      - term: direction, not description
+        gloss: A hat names a way to think now ('Let's have some black hat thinking…'), not a description or a label.
+      - term: stay in the idiom
+        gloss: 'Discipline required of each person: while wearing a hat, keep thinking in that hat''s way.'
+      - term: constructive showing off
+        gloss: Show off by being a better thinker within each hat, not by winning a destructive right-versus-wrong argument.
+    elements:
+      - name: Open with the blue hat
+        test: 'Set the focus and the thinking needed. Kivunja: the blue hat defines the problem and the purpose of the thinking; if we are going somewhere, it is useful to know where.'
+        authorities:
+          - mgmt2094-kivunja-2015-six-thinking-hats
+      - name: Choose the hats and the sequence
+        test: Any hat, as often as needed; not every hat is necessary; the sequence can be preset or evolving, chosen for the problem.
+      - name: Steer the switches
+        test: 'The facilitator calls each switch and keeps everyone in their hat (''stay in the idiom''), asking: what have we done so far? Kivunja: blue is used in the middle too.'
+      - name: Keep each hat short
+        test: Time under each hat is generally short; the lecturer suggests three, five or ten minutes, so everyone stays involved and nobody tires.
+      - name: Close with the blue hat
+        test: What we have achieved, outcome, conclusion, design, solution, next steps.
+    misconceptions:
+      - claim: The team's manager must wear the blue hat.
+        tempting: Managers usually run meetings.
+        correction: 'The lecturer: the facilitator can be anybody; you do not necessarily give the blue hat to the manager of the team.'
+      - claim: Every session must use all six hats, each exactly once.
+        tempting: Covering every hat feels thorough.
+        correction: 'The slides: use any hat as often as needed; it is not necessary to use every hat. Only blue has a fixed place, opening and closing the session.'
+      - claim: '''He''s a black hat thinker'': give each person the hat that suits their personality.'
+        tempting: People do have natural thinking styles.
+        correction: 'General hat issues: not categories of people; everyone can and should use all the hats. The lecturer even suggests giving an optimist the black hat, to work against type.'
+    socratic:
+      - ask: Before anyone tackles the problem, what does the group need to agree on?
+        hint: Where are we going?
+        answer: 'The focus and the thinking needed, set in the blue hat (Kivunja: blue defines the problem and the purpose of the thinking).'
+      - ask: Who keeps everyone in the same hat and calls the switches?
+        hint: Not necessarily the boss.
+        answer: The facilitator, who wears the blue hat throughout; the lecturer says it can be anybody.
+      - ask: How long should the group spend under each hat, and why?
+        hint: Think about energy and involvement.
+        answer: Generally short, perhaps three to ten minutes, so everyone stays involved and the group gets through the hats it needs without tiring.
+      - ask: How should the session end?
+        hint: The 'close with the blue hat' slide.
+        answer: 'In the blue hat: what we have achieved, the outcome, conclusion, design or solution, and the next steps.'
+    what-if:
+      - change: The session runs out of time halfway through the black-hat round.
+        effect: 'Close with the blue hat anyway: sum up what was achieved and set the next step. The lecturer says the group can come back the next day or week and push forward.'
+    boundary:
+      - text: Each team member wears a different hat, and they take turns presenting.
+        why: 'Within the method: the lecturer offers it as an alternative to everyone wearing the same hat together. The blue-hat facilitator still opens, steers and closes.'
+      - text: A student uses the hats alone to choose a career.
+        why: 'Within: the slides say the hats can be used by individuals and groups, and the lecturer includes personal decisions. Alone, you still open and close in blue.'
+    transfer:
+      - scenario: A community sports club has 45 minutes to decide whether to move training to a cheaper ground further from town.
+        answer: 'Appoint a facilitator in blue (not necessarily the president) to open with the focus and thinking needed. Choose hats for the problem, such as white (costs, travel), yellow then black, green (alternatives) and red (members’ feelings), a few minutes each, everyone staying in the idiom. Close in blue: outcome, conclusion, next steps.'
+    objections:
+      - position: A six hats session is only as good as its blue-hat facilitator.
+        evidence: The blue hat controls the other hats, gives instructions for thinking and brings discipline and focus; it opens, steers and closes the session (slides).
+        objection: The slides also say the method requires discipline from each person, staying in the idiom; a good facilitator cannot rescue participants who step out of their hat.
+    sources:
+      - Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono (slides 8–9, 30–32)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+      - Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving (Kivunja 2015, pp 383–386)
+  - concept: mgmt2094-w04-hat-sequences
+    plain: Hats are mostly used one at a time, but two or three can be run in a chosen order for a purpose, such as yellow then black to weigh an idea's pluses and minuses.
+    concrete: 'The lecturer''s red-then-white example: a business ships goods by air, and staff fear the plan will fail because planes crash. Under the red hat those fears are aired without justification. Then, under the white hat, the team brings the data: planes hardly ever crash nowadays, so a disruption is very unlikely. Feelings are checked against facts, which is what the slides say red then white is for.'
+    formal: 'Slides: the hats can be used singly at any point in thinking; this is the major use. Simple sequences of two or three hats may be used together for a particular purpose: yellow before black to assess an idea (then green, then red); black then green to improve a design; blue, green, red for design; red then white compares fact with opinion; black, yellow, green synthesises; white then blue plans.'
+    analogy:
+      text: 'A recipe: the same ingredients, cooked in a different order, give a different dish.'
+      maps:
+        - from: the ingredients
+          to: the hats
+        - from: the order of the steps
+          to: the sequence
+        - from: the dish
+          to: 'the purpose: assessing an idea, improving a design, checking opinion against fact'
+      limits:
+        - A recipe is fixed; Kivunja and the lecturer say no sequence is set in stone, and a group can rerun the same problem with a different order.
+    terms:
+      - term: evaluation sequence
+        gloss: Yellow before black to find an idea's positive and negative aspects; optionally followed by green (new ideas) and red (feelings).
+      - term: design sequence
+        gloss: 'Blue, green and red: encourages new ideas, products or improvements to existing designs.'
+      - term: single hat use
+        gloss: Using one hat at any point to direct or switch thinking; the slides call it the major use.
+      - term: preset or evolving
+        gloss: 'A sequence can be designed ahead for the problem, or built as the session goes (the lecturer: start with blue, then yellow, and see).'
+    misconceptions:
+      - claim: To weigh an idea, attack it first with the black hat, then look for its good points.
+        tempting: Many people test an idea by attacking it first.
+        correction: 'The slide: to discover the positive and negative aspects of an idea, use the yellow hat before the black hat.'
+      - claim: De Bono fixes one correct order of the six hats for every problem.
+        tempting: A fixed routine is easy to follow.
+        correction: 'Kivunja (2015): there is no set sequence; it depends on the problem. The lecturer: sequences are not set in stone; rerun the problem with a different one.'
+      - claim: Black then green is the slides' 'design sequence'.
+        tempting: Black then green does improve a design (the All Weather bike).
+        correction: The named design sequence is blue, green and red. Black then green is the two-hat example for improving a design.
+    socratic:
+      - ask: A team has a new loyalty-program idea. What two things does it need to know about it?
+        hint: Good and bad.
+        answer: Its positive aspects and its negative aspects.
+      - ask: Which hats give those, and in which order?
+        hint: The slide says which comes first.
+        answer: 'Yellow, then black: benefits before risks.'
+      - ask: Black has found risks. What could follow to deal with them?
+        hint: The slide's suggested follow-up.
+        answer: 'Green, for new ideas to avoid the risks, then red: how does the group feel about it now?'
+      - ask: If the first sequence gives too few ideas, what does the lecturer suggest?
+        hint: Is it set in stone?
+        answer: Come back to the same problem with a different sequence; sequences depend on the group and the problem.
+    what-if:
+      - change: The team's concern is not the idea's merits but staff fears that seem out of proportion.
+        effect: 'Switch to red then white: air the fears without justification, then check them against the facts, as in the lecturer''s air-freight example. Yellow then black would weigh the idea but leave the fear untested.'
+      - change: The product already exists, and testers have listed its faults.
+        effect: 'Black then green fits: black names the design''s weaknesses, then green generates ways to improve it (the slide''s All Weather bike).'
+    boundary:
+      - text: Black, then yellow, then green.
+        why: 'It contains the evaluation hats in reverse order, and the slides give it a different purpose: comparing and synthesising, coming up with new ideas from the known.'
+      - text: Wearing yellow, black and white at the same time.
+        why: 'Not a sequence at all, but still allowed: the lecturer suggests trying compositions of hats at once, and Kivunja notes several hats are often used together in normal thinking.'
+    transfer:
+      - scenario: A council has survey data on cycling and must decide where to take its bike-lane program next year.
+        answer: 'White then blue: what do we know in facts (the survey, usage figures), then where do we plan to go with this information. If councillors fear a backlash, add red then white to test those feelings against the data.'
+    objections:
+      - position: The order in which the hats are worn does not matter.
+        evidence: 'Kivunja: there is no set sequence, it depends on the problem; the lecturer: there is no one best preset sequence.'
+        objection: 'Order changes the purpose: yellow before black assesses an idea, black-yellow-green synthesises, red then white tests opinion against fact.'
+        reply: 'The lecturer reconciles them: sequence can matter for a given problem, but no single preset sequence suits every problem.'
+    sources:
+      - Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono (slides 33–34)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+      - Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving (Kivunja 2015, p 389)
+  - concept: mgmt2094-w04-linear-thinking-trap
+    plain: People assume relationships are straight lines, so they misjudge business decisions where results actually curve, such as fuel savings, price discounts and customer retention.
+    concrete: A fleet has equal numbers of 10 MPG SUVs and 20 MPG sedans, each driving 10,000 miles a year. Upgrading the SUVs to 20 MPG cuts fuel per vehicle from 1,000 to 500 gallons, saving 500. Upgrading the sedans to 50 MPG cuts it from 500 to 200, saving only 300, although +30 MPG looks bigger. Even 20 to 100 MPG would not save as much as 10 to 20.
+    formal: 'de Langhe, Puntoni and Larrick (2017): decades of research show the human mind struggles to understand nonlinear relationships; our brain wants to make simple straight lines. Business is full of nonlinear relationships, and even experts default to their gut. Four types: increasing gradually, then rising more steeply; decreasing gradually, then dropping quickly; climbing quickly, then tapering off; falling sharply, then gradually.'
+    analogy:
+      text: 'Wringing out a wet towel: the first twist releases most of the water, and each later twist releases less.'
+      maps:
+        - from: the first twist
+          to: 'upgrading 10 MPG cars to 20 MPG: the big saving'
+        - from: the later twists
+          to: 'upgrading 20 MPG cars to 50 MPG: a smaller saving'
+        - from: expecting the same water from every twist
+          to: linear bias
+      limits:
+        - The towel shows only one shape; the article names four, including curves that speed up, such as customer lifetime value against retention.
+    terms:
+      - term: linear bias
+        gloss: The tendency to assume a relationship is a straight line, so equal changes in one thing must give equal changes in another.
+      - term: nonlinear relationship
+        gloss: One where equal steps in a cause give unequal changes in the outcome, such as fuel used against MPG.
+      - term: medium maximisation
+        gloss: When an intermediate metric, such as search ranking, becomes the end rather than the means (Step 2).
+      - term: attributes and benefits
+        gloss: An attribute is a product specification ('5GB'); a benefit is what it does for the customer ('1,000 songs in your pocket').
+    elements:
+      - name: 'Step 1: Increase awareness of linear bias'
+        test: MBA programs and firms should explicitly warn about it, for example with puzzles involving nonlinear relationships, like the lecture's pizza and survey quiz.
+        authorities:
+          - mgmt2094-de-langhe-puntoni-larrick-2017-linear-thinking
+          - mgmt2094-example-nonlinear-quiz
+      - name: 'Step 2: Focus on outcomes, not indicators'
+        test: Intermediate metrics such as search ranking can become the end rather than the means ('medium maximisation'); keep the real outcome, such as sales, in view.
+      - name: 'Step 3: Discover the type of nonlinearity you''re dealing with'
+        test: Do not generalise across contexts; understand cause and effect in your situation, for example with field experiments testing at least three price levels, not two.
+      - name: 'Step 4: Map nonlinearity whenever you can'
+        test: Plot relationships in charts, dashboards and 'what if' scenarios, so managers see threshold points and check for nonlinearity before deciding.
+    misconceptions:
+      - claim: Upgrading 20 MPG cars to 50 MPG saves more fuel than upgrading 10 MPG cars to 20 MPG.
+        tempting: +30 MPG and +150% look bigger than +10 MPG.
+        correction: Fuel per 10,000 miles falls by 500 gallons (10 to 20) but only 300 (20 to 50); gas consumption is not a linear function of MPG (de Langhe et al. 2017).
+      - claim: A deeper discount that lifts sales by 80% must earn more profit.
+        tempting: Volume increases after a price cut are exciting.
+        correction: 'Paper towels: 40% off sold 1,800 rolls but earned $270 against the usual $350; matching $350 needs over 2,300 units. Managers overvalue volume and undervalue price.'
+      - claim: The article tells marketers to promote benefits, never attributes, and leave it there.
+        tempting: Apple's '1,000 songs in your pocket' beat '5GB'.
+        correction: It adds that many firms profit from promoting attributes that consumers read linearly, and says wilfully exploiting such flawed perceptions is widely regarded as unethical.
+    socratic:
+      - ask: 'Over 10,000 miles, which saves more fuel: 10 to 20 MPG, or 20 to 50 MPG?'
+        hint: Work out gallons, not MPG.
+        answer: '10 to 20 MPG: 1,000 down to 500 gallons (500 saved), against 500 down to 200 (300 saved).'
+      - ask: Why does the bigger MPG gain save less?
+        hint: Gallons used are miles divided by MPG.
+        answer: Fuel used falls sharply at low MPG and then only gradually; the relationship is a curve, not a straight line.
+      - ask: Why do most people guess wrong?
+        hint: Books on a shelf.
+        answer: Our brain wants simple straight lines, which serve us for books on shelves or coffees, but business is full of nonlinear relationships, and even experts default to their gut.
+      - ask: What can a manager do about it?
+        hint: The article's four steps.
+        answer: Increase awareness of linear bias; focus on outcomes, not indicators; discover the type of nonlinearity; map nonlinearity whenever you can.
+      - ask: How does the lecturer connect this to the six hats?
+        hint: Why open the hats lecture with it?
+        answer: Critical-thinking tools such as the hats bring in different perspectives to help avoid traps like linear thinking.
+    what-if:
+      - change: In the fleet problem, the manager is judged on the fleet's average MPG instead of fuel saved.
+        effect: 'The 20-to-50 upgrade now wins on the indicator (average 30 MPG against 20) while losing on the outcome (300 gallons saved against 500). This is Step 2: focus on outcomes, not indicators.'
+      - change: The paper-towel brand cuts its price by 20% instead of 40%.
+        effect: Profit still falls, to $300 from the usual $350 (1,200 rolls at 25 cents), but less than at 40% off ($270). Both promotions cut profit; the deeper cut hurts more.
+    boundary:
+      - text: One traveller increases miles flown from 20,000 to 40,000 a year; another from 50,000 to 60,000.
+        why: 'Outside the trap: travel time is a linear function of distance, so the straight-line answer is right here. Not every relationship curves (the article''s quiz).'
+      - text: Customer lifetime value as retention rises from 20% to 40%, and from 60% to 80%.
+        why: 'Inside: CLV rises about $35 in the first case but about $147 in the second. It increases gradually, then shoots up, so managers underestimate small increases to high retention rates.'
+    transfer:
+      - scenario: An office supplier urges a small accounting firm to replace its 30-pages-per-minute printer with a 60-pages-per-minute model, 'twice as fast'.
+        answer: Time savings do not rise in linear fashion with pages per minute; they taper off at the high end (de Langhe et al. 2017). The firm should focus on the outcome, minutes saved on its real print volume, not the indicator, and map it before paying for the upgrade.
+    objections:
+      - position: Linear bias can be trained out of managers.
+        evidence: 'Step 1: MBA programs and firms can teach it with puzzles involving nonlinear relationships, which people find engaging and eye-opening.'
+        objection: 'The authors: biases hardwired into the brain will affect business decisions as long as people are managers; the lower-mileage upgrade stays counterintuitive even with the visual evidence.'
+        reply: 'So they add support: focus on outcomes, discover the type of nonlinearity, and map it in dashboards and "what if" scenarios.'
+      - position: Marketers should always communicate benefits rather than attributes.
+        evidence: Apple realised people would find '1,000 songs in your pocket' more attractive than 'internal storage capacity of 5GB'.
+        objection: The article finds many companies profit from promoting attributes, such as internet speeds priced linearly, by exploiting consumers’ linear assumptions.
+        reply: Wilfully exploiting consumers’ flawed perceptions is widely regarded as unethical; showing customers the actual benefits helps them decide well.
+    sources:
+      - Marketing - Week 04 - Reading - Linear Thinking in a Non-Linear World (de Langhe, Puntoni and Larrick 2017, scanned pp 1–23)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+  - concept: mgmt2094-w04-brainwriting-and-brainwalking
+    plain: Brainwriting has people write ideas on sheets and pass them round to build on; brainwalking moves the people between sheets on the walls instead. Both beat calling ideas out.
+    concrete: Mattimore began a Trident gum ideation session with brainwriting, and it worked even better than he expected. A week later several of the same people came to his Dentyne session, so he wanted something new to keep them engaged. He taped flip-chart sheets on the walls as 'ideation stations', gave everyone a marker, and had them write an idea, rotate to a neighbour's sheet and add one, then return and circle favourites.
+    formal: 'Mattimore (2012): in brainwriting each participant writes an idea and passes the sheet on; the next person builds on it or uses it as a stimulus. Four or five rounds: 12 people and five rounds give 60 ideas; owners circle one or two favourites. It gets ideas out early, solves the introvert/extrovert problem and models idea building. Brainwalking moves the people instead of the papers.'
+    terms:
+      - term: brainwriting
+        gloss: 'A written idea exercise: write an idea, pass the sheet, build on or react to what is there; four or five rounds, then owners circle favourites.'
+      - term: brainwalking
+        gloss: 'Mattimore''s variant: move the people instead of the papers, between flip-chart ''ideation stations'' on the walls.'
+      - term: piggybacking
+        gloss: Building on other participants' ideas to create better ones, through mutually stimulated creativity.
+      - term: creative democracy
+        gloss: 'Mattimore: in brainwriting everyone gets equal time to ''speak'', in a nonthreatening way, with their pen.'
+    misconceptions:
+      - claim: In brainwalking the sheets are passed around the table.
+        tempting: That is how brainwriting works, and the two are close cousins.
+        correction: Brainwalking moves the people instead of the papers, between flip-chart stations on the walls (Mattimore 2012).
+      - claim: Classic brainstorming aloud gets the most ideas, because everyone hears and reacts.
+        tempting: Hearing ideas seems to spark more ideas.
+        correction: 'Mattimore: one person talks and everyone else listens, which is not an efficient way to get many ideas. The lecturer: the first idea said aloud influences everyone else’s.'
+      - claim: Working in pairs at a station doubles the number of ideas.
+        tempting: Two heads seem more productive than one.
+        correction: 'Mattimore: mini-teams give half the number of ideas, but what they lack in quantity is more than made up in quality, fun and energy.'
+    socratic:
+      - ask: In a typical brainstorm, how many people are actually contributing at any moment?
+        hint: Mattimore's description.
+        answer: 'One: one person talks and everyone else listens, so it is not an efficient way to get many ideas.'
+      - ask: What happens to everyone else's thinking once the first idea is said aloud?
+        hint: The lecturer's warning.
+        answer: 'It is influenced: the idea already out there shapes the other answers.'
+      - ask: How could everyone contribute at once, without hearing each other first?
+        hint: Use a pen.
+        answer: 'Brainwriting: everyone writes an idea and passes the sheet on; 12 people over five rounds give 60 ideas, and introverts get an equal voice.'
+      - ask: Mattimore’s repeat participants needed something new. What did he change?
+        hint: The people or the papers?
+        answer: 'He moved the people instead of the papers: flip-chart stations on the walls, rotating with markers. That is brainwalking.'
+      - ask: What does walking add over writing at a table?
+        hint: Mattimore lists five gains.
+        answer: Energy, public ideas, shared purpose and group identity, mini-teams of two, and bigger ideas written in marker.
+    what-if:
+      - change: The group has just finished a night shift and energy in the room is low.
+        effect: 'Brainwalking rather than brainwriting: getting people up and moving increased the energy in the room significantly (Mattimore), while everyone still gets an equal written voice.'
+    boundary:
+      - text: The six thinking hats run aloud with the whole group.
+        why: 'The lecturer calls the hats a type of brainstorm: one direction at a time limits anchoring, but ideas are still spoken. He suggests writing under each hat to avoid being influenced.'
+      - text: Owners circling one or two favourites at the end of the rounds.
+        why: 'The turn from diverging to converging: these tools help you diverge once you have a problem; choosing comes later (lecturer).'
+    transfer:
+      - scenario: A school wants ideas from 24 teachers for cutting student phone use, but staff meetings are always dominated by the same three senior teachers.
+        answer: 'Use brainwriting or brainwalking rather than calling ideas out: everyone writes, so the dominant voices cannot anchor the rest (creative democracy). With 24 people and five rounds, brainwriting yields 120 ideas; brainwalking adds energy, public ideas and pairs. Owners then circle favourites to converge.'
+    objections:
+      - position: Brainwalking is better than brainwriting.
+        evidence: Mattimore reports more energy, public ideas, shared purpose and group identity, higher-quality mini-teams, and bigger ideas.
+        objection: The advantages are his own observations from his sessions; pairs halve the number of ideas; and brainwriting had already worked even better than he expected at Trident.
+      - position: Groups should stop calling ideas out and write them instead.
+        evidence: 'The lecturer: once an idea is said aloud it influences everyone else’s; writing avoids that. Mattimore: brainwriting gives introverts an equal voice.'
+        objection: The lecturer concedes writing is a bit less dynamic and maybe less fun than talking.
+        reply: 'Brainwalking answers that: people get up, move and talk in pairs, while ideas are still written.'
+    storyboard:
+      - caption: Tape flip charts on the walls
+        detail: Large flip-chart sheets become 'ideation stations'; everyone gets a marker.
+      - caption: Write one idea at a station
+        detail: Each person goes to a station and writes an idea at the top of the sheet.
+      - caption: Rotate and add
+        detail: Move to the neighbour's sheet and add an idea, building on what is there, alone or in a mini-team of two.
+      - caption: Five rotations
+        detail: After about five rotations, dozens of ideas are public on the walls within minutes.
+      - caption: Return and circle favourites
+        detail: Everyone returns to their original sheet and circles one or two favourite ideas for the group.
+    sources:
+      - Marketing - Week 04 - Reading - Brainwalking Article (Mattimore 2012, scanned pp 1–2)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+  - concept: mgmt2094-w04-leadership-and-knowledge-sharing
+    plain: Leaders who model and encourage knowledge sharing help employees share more inside and outside the firm, which builds their capacity to solve problems creatively and, in turn, their creative output.
+    concrete: Robert Buckman, CEO of Buckman Laboratories, held lengthy online discussions with his salespeople about compensation policy and packages. By sharing his own views, knowledge and experiences, he encouraged staff to get involved and voice their opinions. Carmeli, Gelbard and Reiter-Palmon (2013) use him to show a leader modelling knowledge sharing, the supportive behaviour their two studies link to employees’ creative problem-solving capacity.
+    formal: 'Carmeli, Gelbard and Reiter-Palmon (2013): leader supportive behaviours (modelling collaboration and knowledge sharing; encouraging information exchange, openness and idea sharing) relate to employee creative problem-solving capacity directly, and indirectly through internal and external knowledge sharing. Creative problem solving relates to fluency and originality, but it mediated only the link between internal knowledge sharing and originality.'
+    terms:
+      - term: creative problem-solving capacity
+        gloss: The capability, which can be cultivated, to identify and construct problems, search for information, generate ideas, and evaluate, select and implement them.
+      - term: knowledge sharing
+        gloss: 'Activities aimed at transferring or disseminating knowledge from one person or group to another: internal with colleagues inside, external with people outside the organisation.'
+      - term: fluency
+        gloss: The number of ideas each participant generated in Study 2’s task.
+      - term: originality
+        gloss: 'The number of highly original ideas: those mentioned by fewer than 1 percent of the sample.'
+    elements:
+      - name: Leader supportive behaviours
+        test: Modelling collaboration and knowledge sharing; encouraging information exchange, openness and idea sharing (rated by employees).
+        authorities:
+          - mgmt2094-carmeli-gelbard-reiter-palmon-2013-leadership
+          - mgmt2094-example-buckman-laboratories
+      - name: Internal and external knowledge sharing
+        test: Exchanging knowledge with colleagues inside the organisation and with people outside it; leader behaviours related to both in both studies.
+      - name: Creative problem-solving capacity
+        test: 'Generation phase: problem identification and construction, information search and acquisition, ideation. Implementation phase: idea evaluation, idea selection, implementation planning.'
+      - name: Creative performance
+        test: Fluency (number of ideas) and originality (ideas given by fewer than 1% of the sample); in Study 2, capacity related to both.
+    misconceptions:
+      - claim: Once knowledge sharing is counted, leaders have no direct link to creative capacity.
+        tempting: Knowledge sharing carries part of the effect.
+        correction: Leader supportive behaviours related to creative problem-solving capacity both directly and indirectly, through knowledge sharing (Carmeli et al. 2013).
+      - claim: Sharing knowledge outside the firm was the strongest route to original ideas.
+        tempting: Outside information seems the most diverse and fresh.
+        correction: In Study 2, external knowledge sharing was not significantly related to creative problem solving; mediation held only from internal sharing to originality.
+      - claim: Fluency means how clearly or quickly an employee expresses ideas.
+        tempting: '''Fluent'' suggests articulate speech.'
+        correction: Fluency was simply the number of uses each participant listed for a familiar work device; originality counted ideas given by fewer than 1% of the sample.
+    socratic:
+      - ask: Why does creativity need knowledge at all?
+        hint: Can a novel and useful idea come from a vacuum?
+        answer: To develop an idea that is both novel and useful, people need some knowledge of their field; without new information, new ideas resemble old ones.
+      - ask: Where can employees get knowledge beyond what they already hold?
+        hint: Inside and outside.
+        answer: By sharing with colleagues inside the organisation (internal) and with people outside it (external).
+      - ask: What can a leader do to make that sharing happen?
+        hint: Behave a certain way, and encourage.
+        answer: Model collaboration and knowledge sharing, and encourage information exchange, openness and idea sharing, as Robert Buckman did online with his salespeople.
+      - ask: What does sharing build, and how did Study 2 measure the creative result?
+        hint: A capacity, then two measures.
+        answer: Creative problem-solving capacity, which related to fluency (number of ideas) and originality (ideas given by under 1% of the sample).
+      - ask: Why be cautious about these findings?
+        hint: How were the data collected?
+        answer: Self-report surveys from a single source and convenience samples; causation is limited, since able problem-solvers may simply share more knowledge.
+    what-if:
+      - change: The leader is supportive, but staff fear sharing proprietary information outside the company.
+        effect: External sharing may stall. The authors suggest training staff on what can and cannot be shared; and since Study 2 linked creativity mainly to internal sharing, internal exchange should still be encouraged.
+    boundary:
+      - text: A manager who personally comes up with most of the team's ideas.
+        why: 'Not leader supportive behaviour as measured: that is about modelling and encouraging others'' knowledge exchange, not the leader''s own creativity.'
+      - text: A firm investing mainly in knowledge-sharing software.
+        why: 'Only partly in: technology can facilitate sharing, but the authors say HRM factors, such as performance evaluation, training and leader selection, may be important facilitators or inhibitors.'
+    transfer:
+      - scenario: A hospital's IT team rarely proposes new solutions, and its manager keeps information within the senior team.
+        answer: 'Carmeli et al. suggest the manager model and encourage knowledge sharing: openness, information exchange and idea sharing. Internal sharing was linked to creative problem-solving capacity and to originality. HR can add knowledge sharing to performance evaluation, train staff on what can be shared, and select leaders who model it.'
+    objections:
+      - position: Leaders cultivate employee creativity by facilitating knowledge sharing.
+        evidence: 'Two studies (274 and 130 employees): leader supportive behaviours relate to creative problem-solving capacity directly and through knowledge sharing; capacity relates to fluency and originality.'
+        objection: 'The authors admit causal inference is limited: able problem-solvers may share more, and sharers may see their leaders as more supportive; self-reports and a convenience sample risk bias.'
+        reply: Study 2 used a more objective measure of creative performance, coded by two creativity scholars; the authors call for longitudinal designs to settle causation.
+    sources:
+      - Marketing - Week 04 - Reading - Leadership and Creative Problem-Solving (Carmeli, Gelbard and Reiter-Palmon 2013, pp 95–97, 100–101, 106–108, 114–116)
+flows:
+  - slug: choose-hats-for-the-purpose
+    title: Which hats, in which order, for this purpose?
+    summary: Runs a six hats session from the blue-hat opening, through the single hat or slide sequence that fits what the group needs, to the blue-hat close.
+    start: n1
+    concepts:
+      - mgmt2094-w04-hat-sequences
+      - mgmt2094-w04-running-a-hats-session
+      - mgmt2094-w04-six-thinking-hats
+    sources:
+      - Marketing - Week 04 - Lecture Materials - The Six Thinking Hats of Edward de Bono (slides 30–34)
+      - Marketing - Week 04 - Lecture Transcript - Six Thinking Hats
+      - Marketing - Week 04 - Reading - Using De Bono's Six Thinking Hats in Critical Thinking and Problem Solving (Kivunja 2015, p 389)
+    nodes:
+      - id: n1
+        kind: step
+        text: 'Open in the blue hat: what is our focus, and what thinking is needed?'
+        note: The facilitator wears blue throughout; it need not be the team’s manager (lecturer).
+        concept: mgmt2094-w04-running-a-hats-session
+        next: n2
+      - id: n2
+        kind: ask
+        text: What does the group need from this round of thinking?
+        branches:
+          - label: Just one kind of thinking
+            to: n3
+          - label: Weigh an idea's pluses and minuses
+            to: n4
+          - label: Fix a design that has faults
+            to: n5
+          - label: New ideas, products or design improvements
+            to: n6
+          - label: Check feelings against the facts
+            to: n7
+          - label: New ideas from what we already know
+            to: n8
+          - label: Move from the facts to a plan
+            to: n9
+      - id: n3
+        kind: step
+        text: Use that single hat.
+        note: 'The slides: the hats can be used singly at any point in thinking, and in general this is the major use.'
+        concept: mgmt2094-w04-six-thinking-hats
+        next: n10
+      - id: n4
+        kind: step
+        text: Yellow, then black; follow with green, then red, if needed.
+        note: Benefits before risks. Green then finds ways round the risks; red checks how the group feels about it now.
+        next: n10
+      - id: n5
+        kind: step
+        text: Black, then green.
+        note: Black finds the design's weaknesses; green generates ways to improve it. The slide's example is an All Weather bike.
+        authorities:
+          - mgmt2094-example-all-weather-bike
+        next: n10
+      - id: n6
+        kind: step
+        text: 'Blue, green and red: the design sequence.'
+        note: Encourages new ideas, products or improvements to existing designs (slide 34).
+        next: n10
+      - id: n7
+        kind: step
+        text: 'Red, then white: compare opinion with fact.'
+        note: 'The lecturer''s example: staff fear air freight because planes crash (red); the data show crashes are very rare (white).'
+        next: n10
+      - id: n8
+        kind: step
+        text: 'Black, then yellow, then green: compare and synthesise.'
+        note: Assess the situation critically, find what is still good, then come up with new ideas from the known.
+        next: n10
+      - id: n9
+        kind: step
+        text: White, then blue.
+        note: What do we know in facts, and where do we plan to go with that information?
+        next: n10
+      - id: n10
+        kind: ask
+        text: Did the round give the group what it needed?
+        branches:
+          - label: 'Yes'
+            to: n11
+          - label: Not yet
+            to: n12
+      - id: n11
+        kind: end
+        tone: met
+        text: 'Close in the blue hat: what we achieved, outcome, conclusion, next steps.'
+      - id: n12
+        kind: end
+        tone: qualified
+        text: Close in blue for now, and rerun the problem with a different sequence next time.
+        note: 'The lecturer: sequences are not set in stone; come back next week with a different sequence and see if it works better.'
+        exception: true

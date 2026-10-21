@@ -1,0 +1,4327 @@
+unit: laws2400
+week: 0
+source: content-src/laws2400-pq.yaml
+generator: aids-1
+facts:
+  - question: laws2400-w00-q001
+    parties:
+      - name: Levi
+        role: patron who grabbed and threatened Marco; would-be plaintiff
+      - name: Marco
+        role: patron who punched Levi, then struck him with a bar stool; defendant
+    issues:
+      - id: battery
+        label: 'Battery: elements for each of the two acts'
+        concept: laws2400-w02-battery
+      - id: punch
+        label: 'Self-defence at common law (Zecevic): the punch'
+        concept: laws2400-w04-self-defence-common-law-and-cla
+      - id: stool
+        label: 'The stool strike: proportionality (Fontin v Katapodis)'
+        concept: laws2400-w04-self-defence-common-law-and-cla
+      - id: s52
+        label: 'CLA s 52: unlawful conduct, belief and reasonable response'
+        concept: laws2400-w04-self-defence-common-law-and-cla
+      - id: s53-54
+        label: CLA ss 53 and 54
+        concept: laws2400-w04-self-defence-common-law-and-cla
+      - id: remedies
+        label: Liability and damages, including aggravated damages
+        concept: laws2400-w02-remedies-intentional-torts-to-person
+    facts:
+      - text: Marco and Levi were both regulars at the Anchor Hotel.
+        weight: background
+        kind: party
+      - text: One evening, Levi wrongly convinced himself that Marco had been badmouthing his sister to other patrons.
+        weight: background
+        kind: mental
+      - text: Without warning, Levi strode over, grabbed Marco by the collar with both hands and slammed him back against the bar
+        weight: essential
+        kind: conduct
+        issues:
+          - punch
+          - s52
+          - s53-54
+        why: 'Levi''s unprovoked force is itself unlawful: grounds Marco''s apprehension and satisfies s 52(1)(a).'
+      - text: shouting that he was "going to smash his face in."
+        weight: essential
+        kind: statement
+        issues:
+          - punch
+          - s52
+        why: An explicit threat of further violence supports a reasonable apprehension of imminent force.
+      - text: Marco, genuinely frightened
+        weight: essential
+        kind: mental
+        issues:
+          - punch
+          - s52
+        why: 'Actual fear: the apprehension limb of Zecevic and the belief limb of s 52.'
+      - text: with nowhere to retreat
+        weight: essential
+        kind: context
+        issues:
+          - punch
+        why: No escape route, so a forceful response to break free is reasonable.
+      - text: threw a single hard punch that connected with Levi's jaw.
+        weight: essential
+        kind: conduct
+        issues:
+          - battery
+          - punch
+          - s52
+        why: 'First battery: direct, intentional contact. A single blow against an ongoing attack is proportionate.'
+      - text: The blow stunned Levi, who immediately released his grip on Marco's collar
+        weight: essential
+        kind: conduct
+        issues:
+          - stool
+        why: 'Levi lets go: the threat that justified force ends here.'
+      - text: and staggered backwards two or three steps, dazed and clutching the bar for support.
+        weight: essential
+        kind: conduct
+        issues:
+          - stool
+          - s52
+        why: Levi is dazed and retreating, so further force is hard to justify as necessary.
+      - text: At that point Marco could have walked away
+        weight: essential
+        kind: context
+        issues:
+          - stool
+          - s52
+        why: 'Retreat was open to Marco: no need for any further force.'
+      - text: the bar staff were already moving in to separate the two men, and several patrons had stepped between them.
+        weight: essential
+        kind: context
+        issues:
+          - stool
+          - s52
+        why: Others were already separating the men, so the danger had passed before the second act.
+      - text: Instead, still furious
+        weight: essential
+        kind: mental
+        issues:
+          - stool
+          - s52
+          - remedies
+        why: Anger rather than fear drives the second act; supports aggravated damages.
+      - text: Marco picked up a heavy glass bar stool from beside him and swung it into the side of Levi's head
+        weight: essential
+        kind: conduct
+        issues:
+          - battery
+          - stool
+          - s52
+          - s53-54
+        why: 'A separate battery: escalation to a weapon against the head, like the glass in Fontin v Katapodis.'
+      - text: as Levi stood swaying against the bar.
+        weight: essential
+        kind: context
+        issues:
+          - stool
+        why: Levi was defenceless when struck, confirming the response was out of proportion.
+      - text: Levi collapsed, suffering a fractured cheekbone, a concussion and a deep laceration requiring twelve stitches.
+        weight: essential
+        kind: harm
+        issues:
+          - remedies
+        why: 'Serious injuries caused by the stool strike alone: the measure of compensatory damages.'
+      - text: Levi has since discovered that Marco never actually said anything about his sister — the rumour was false
+        weight: background
+        kind: context
+      - text: but this was not known to either man at the time of the incident.
+        weight: background
+        kind: mental
+      - text: Levi wants to sue Marco for the injuries he suffered.
+        weight: background
+        kind: context
+      - text: Marco says the whole incident was self-defence from start to finish
+        weight: essential
+        kind: statement
+        issues:
+          - punch
+          - stool
+        why: 'Marco''s framing: the answer must split the incident into two acts and test each separately.'
+      - text: and that he was still frightened of Levi when he swung the stool.
+        weight: essential
+        kind: mental
+        issues:
+          - s52
+          - stool
+        why: Honest fear may meet the belief limb of s 52, but the response must still be reasonable.
+      - text: Advise Levi whether he can succeed in an action against Marco, and advise Marco on the extent to which he can rely on self-defence, both at common law and under the Civil Liability Act 2002 (NSW).
+        weight: background
+        kind: context
+        issues:
+          - battery
+          - punch
+          - s52
+  - question: laws2400-w00-q002
+    parties:
+      - name: Owen
+        role: occupier of the yard, away on a trip; plaintiff
+      - name: Priya
+        role: next-door neighbour who entered to fight the fire; defendant
+    issues:
+      - id: trespass
+        label: 'Trespass to land: Priya''s entry'
+        concept: laws2400-w03-trespass-to-land-elements
+      - id: necessity
+        label: 'Necessity: the candidate lawful excuse and its test'
+        concept: laws2400-w04-necessity-defence
+      - id: emergency
+        label: A genuine emergency? (Southwark v Williams)
+        concept: laws2400-w04-necessity-defence
+      - id: proudman
+        label: Protecting another's property (Proudman v Allen)
+        concept: laws2400-w04-necessity-defence
+      - id: proportion
+        label: 'Proportionality: the lock, the hose and the fence'
+        concept: laws2400-w04-necessity-defence
+      - id: garden
+        label: 'The vegetable bed: reasonably necessary?'
+        concept: laws2400-w04-necessity-defence
+      - id: remedies
+        label: Liability and remedies
+        concept: laws2400-w03-remedies-trespass-to-land
+    facts:
+      - text: Owen lives next door to Priya.
+        weight: background
+        kind: relationship
+      - text: Owen owns a small backyard shed and a timber paling fence that separates his yard from the reserve behind both properties.
+        weight: essential
+        kind: context
+        issues:
+          - trespass
+        why: Owen is in possession of the yard and fence, so he can sue in trespass.
+      - text: He left on Friday afternoon for a four-day trip
+        weight: essential
+        kind: timing
+        issues:
+          - necessity
+        why: Owen was away, so his consent could not be sought before the fire reached the fence.
+      - text: locking his side gate with a padlock and leaving nobody with a key.
+        weight: essential
+        kind: conduct
+        issues:
+          - trespass
+        why: 'The yard was deliberately secured: no consent or implied licence to enter.'
+      - text: On Saturday afternoon, a fast-moving grass fire broke out in the reserve during total fire ban conditions.
+        weight: essential
+        kind: context
+        issues:
+          - emergency
+        why: 'A sudden, dangerous fire: a genuine emergency, unlike Southwark''s ongoing housing problem.'
+      - text: Priya was in her own backyard when she saw embers blowing directly onto Owen's dry timber fence, which was already smouldering in two places
+        weight: essential
+        kind: context
+        issues:
+          - emergency
+        why: 'The fence was already smouldering: the danger was real, present and immediate.'
+      - text: and onto the edge of his overgrown vegetable garden bed.
+        weight: essential
+        kind: context
+        issues:
+          - garden
+        why: 'Embers reached only the edge of the bed: tests whether crossing all of it was needed.'
+      - text: Because the fence runs along the boundary shared with her own house
+        weight: essential
+        kind: context
+        issues:
+          - necessity
+          - proudman
+        why: Priya was protecting her own home as well as Owen's property.
+      - text: Priya believed that if the fence caught properly alight, the fire would reach her own back wall within minutes
+        weight: essential
+        kind: mental
+        issues:
+          - necessity
+          - emergency
+        why: Priya's belief that action was needed to prevent serious harm to property.
+      - text: well before any fire truck could arrive on her narrow street.
+        weight: essential
+        kind: context
+        issues:
+          - emergency
+        why: 'No time to wait for the fire service: the need to act was immediate.'
+      - text: Priya could not reach Owen's yard through her own, because a solid dividing wall separated the two properties at that point.
+        weight: essential
+        kind: context
+        issues:
+          - proportion
+        why: No less intrusive route existed, so forcing the gate was the only way in.
+      - text: She ran to Owen's locked side gate, used a garden fork to snap the padlock
+        weight: essential
+        kind: conduct
+        issues:
+          - proportion
+          - remedies
+        why: 'Damage to the padlock: proportionate to a fire threatening two houses?'
+      - text: and let herself into his yard.
+        weight: essential
+        kind: conduct
+        issues:
+          - trespass
+        why: 'Direct, intentional entry onto land in Owen''s possession without consent: the trespass, unless excused.'
+      - text: She connected Owen's own garden hose to his outdoor tap and spent almost twenty minutes dousing the smouldering fence and the surrounding grass
+        weight: essential
+        kind: conduct
+        issues:
+          - proportion
+        why: 'Using the hose aimed squarely at the danger: proportionate to the fire risk.'
+      - text: including running back and forth across his vegetable garden bed to reach every hot spot.
+        weight: essential
+        kind: conduct
+        issues:
+          - garden
+        why: 'The trampling needs separate scrutiny: reasonably incidental to firefighting, or excessive?'
+      - text: The fire was contained to the fence line and never reached either house.
+        weight: essential
+        kind: context
+        issues:
+          - proportion
+        why: The response was effective and confined to the fire risk.
+      - text: When Owen returned on Tuesday
+        weight: background
+        kind: timing
+      - text: he found his padlock destroyed, his gate hanging loose
+        weight: essential
+        kind: harm
+        issues:
+          - proportion
+          - remedies
+        why: 'Damage done to get in: likely excused if the entry was necessary.'
+      - text: the hose nozzle cracked from being dropped on the concrete path
+        weight: essential
+        kind: harm
+        issues:
+          - proportion
+          - remedies
+        why: 'Accidental damage while fighting the fire: likely reasonably incidental to it.'
+      - text: and his entire vegetable bed — about $600 worth of tomatoes, beans and herbs — flattened by repeated trampling.
+        weight: essential
+        kind: harm
+        issues:
+          - garden
+          - remedies
+        why: 'The loss most exposed: damages if the trampling went beyond what was reasonably necessary.'
+      - text: Owen says Priya had no right whatsoever to enter his property or touch his belongings, no matter what her reasons were.
+        weight: essential
+        kind: statement
+        issues:
+          - necessity
+        why: 'Owen''s position ignores lawful excuse: necessity can justify entry without consent.'
+      - text: Advise Owen whether he can sue Priya in trespass to land, and advise Priya on whether she can rely on the defence of necessity.
+        weight: background
+        kind: context
+        issues:
+          - trespass
+          - necessity
+  - question: laws2400-w00-q003
+    parties:
+      - name: Aisha
+        role: shopper detained by security, then arrested; plaintiff
+      - name: Danny
+        role: BrightMart security guard; defendant
+      - name: BrightMart
+        role: Danny's employer; vicariously liable
+      - name: Constable Reyes
+        role: police officer who arrested Aisha
+    issues:
+      - id: elements
+        label: 'False imprisonment: Danny''s conduct'
+        concept: laws2400-w02-false-imprisonment
+      - id: restraint
+        label: 'Total restraint: no reasonable means of escape'
+        concept: laws2400-w02-false-imprisonment
+      - id: balmain
+        label: 'No lawful excuse: distinguishing Balmain New Ferry v Robertson'
+        concept: laws2400-w02-false-imprisonment
+      - id: s99
+        label: 'Lawful arrest: both limbs of LEPRA s 99(1)'
+        concept: laws2400-w04-legal-process-defence
+      - id: suspicion
+        label: Did reasonable suspicion survive the receipt?
+        concept: laws2400-w04-legal-process-defence
+      - id: force
+        label: 'Force: LEPRA ss 230–231 (handcuffing)'
+        concept: laws2400-w04-legal-process-defence
+      - id: remedies
+        label: Liability of both defendants and remedies
+        concept: laws2400-w02-remedies-intentional-torts-to-person
+    facts:
+      - text: Aisha was shopping at BrightMart, a large department store.
+        weight: background
+        kind: party
+      - text: As she approached the exit with a shopping bag containing a jacket she had purchased minutes earlier
+        weight: essential
+        kind: context
+        issues:
+          - balmain
+          - suspicion
+        why: 'Aisha had paid: there was never a real basis for detaining her.'
+      - text: Danny, a BrightMart security guard
+        weight: essential
+        kind: relationship
+        issues:
+          - remedies
+        why: 'Danny acts in his role as BrightMart''s guard: the basis for BrightMart''s vicarious liability.'
+      - text: gripped her firmly by the upper arm
+        weight: essential
+        kind: conduct
+        issues:
+          - elements
+        why: 'A positive, direct, intentional act restraining her body: the imprisonment begins here.'
+      - text: and told her she was "not going anywhere" until she proved she had paid for everything in her bag.
+        weight: essential
+        kind: statement
+        issues:
+          - elements
+          - balmain
+        why: Words asserting control over her movement until she proves an innocence she need not prove.
+      - text: Aisha protested that she had a receipt
+        weight: essential
+        kind: statement
+        issues:
+          - balmain
+          - suspicion
+        why: Danny was told she had paid, yet detained her anyway.
+      - text: but Danny walked her to a small back office used for staff breaks, sat her down, and locked the door from the outside
+        weight: essential
+        kind: conduct
+        issues:
+          - elements
+          - restraint
+        why: 'A locked door leaves no reasonable means of escape: total restraint.'
+      - text: saying store policy required him to hold "suspects" until police arrived.
+        weight: essential
+        kind: statement
+        issues:
+          - balmain
+        why: Store policy is not lawful justification; Aisha never accepted detention as a condition of entry.
+      - text: Aisha remained locked in the room for forty minutes.
+        weight: essential
+        kind: timing
+        issues:
+          - restraint
+          - remedies
+        why: 'Forty minutes of total restraint: relevant to damages.'
+      - text: She later learned that BrightMart's written policy actually only authorised guards to ask a customer to voluntarily wait near customer service, not to physically restrain or lock anyone in a room.
+        weight: essential
+        kind: context
+        issues:
+          - balmain
+        why: 'Even the store''s own policy gave no authority to restrain: no lawful excuse existed.'
+      - text: When Constable Reyes arrived, Aisha immediately produced her receipt, which clearly matched the jacket in her bag.
+        weight: essential
+        kind: conduct
+        issues:
+          - s99
+          - suspicion
+        why: Exculpatory evidence before the arrest undermines any reasonable suspicion of theft.
+      - text: Reyes examined it, acknowledged it appeared genuine
+        weight: essential
+        kind: statement
+        issues:
+          - suspicion
+        why: 'Reyes himself accepted the receipt looked genuine: little left to ground a reasonable suspicion.'
+      - text: but told Aisha he would "take her in anyway just to check things out properly at the station."
+        weight: essential
+        kind: statement
+        issues:
+          - s99
+        why: 'Arresting ''just to check'' does not show arrest was reasonably necessary: fails the second limb.'
+      - text: He handcuffed her
+        weight: essential
+        kind: conduct
+        issues:
+          - force
+        why: 'Force used on Aisha: must be no more than reasonably necessary under ss 230–231.'
+      - text: although she had not resisted, argued, or shown any sign of trying to leave
+        weight: essential
+        kind: conduct
+        issues:
+          - force
+          - s99
+        why: 'No resistance or flight risk: neither the arrest nor handcuffing was necessary.'
+      - text: and drove her to the police station, where she was placed in a holding room for a further hour
+        weight: essential
+        kind: conduct
+        issues:
+          - s99
+          - remedies
+        why: A further hour of detention by police following an unlawful arrest.
+      - text: before being released without any charge and without further explanation.
+        weight: essential
+        kind: context
+        issues:
+          - s99
+        why: 'Released uncharged and unexplained: supports that the detention was not reasonably necessary.'
+      - text: Aisha found the entire experience humiliating, particularly being handcuffed and walked through the store car park in front of other shoppers.
+        weight: essential
+        kind: harm
+        issues:
+          - remedies
+        why: Humiliation and public exposure support aggravated damages.
+      - text: She has come to you for advice.
+        weight: background
+        kind: context
+      - text: Advise Aisha on any claim she may have in false imprisonment against Danny (and BrightMart), and separately on whether Constable Reyes's arrest and continued detention of her were lawful.
+        weight: background
+        kind: context
+        issues:
+          - elements
+          - s99
+  - question: laws2400-w00-q004
+    parties:
+      - name: Meridian Facilities Pty Ltd
+        role: building manager of Parkview Apartments; defendant
+      - name: Farah
+        role: tenant assaulted in the car park; plaintiff
+      - name: The stranger
+        role: unidentified attacker; third party
+    issues:
+      - id: novel
+        label: 'A novel duty: omission plus third-party crime'
+        concept: laws2400-w06-omissions-and-control-of-others
+      - id: salient
+        label: Salient features (Caltex Refineries v Stavar)
+        concept: laws2400-w05-novel-duty-and-salient-features
+      - id: knowledge
+        label: Foreseeability and knowledge of the risk
+        concept: laws2400-w05-reasonable-foreseeability-meaning
+      - id: control
+        label: Control plus knowledge (Hargrave v Goldman)
+        concept: laws2400-w06-omissions-and-control-of-others
+      - id: modbury
+        label: Distinguishing Modbury Triangle v Anzil
+        concept: laws2400-w08-third-party-conduct-dorset-yacht-and-modbury
+      - id: vulnerability
+        label: Vulnerability, reliance and assumption of responsibility
+        concept: laws2400-w05-novel-duty-and-salient-features
+      - id: coherence
+        label: Coherence and indeterminacy (Sullivan v Moody)
+        concept: laws2400-w05-novel-duty-and-salient-features
+    facts:
+      - text: Meridian Facilities Pty Ltd manages "Parkview Apartments," a residential building of forty units.
+        weight: essential
+        kind: relationship
+        issues:
+          - control
+          - coherence
+          - salient
+        why: 'Meridian manages the building: control over its security, owed to a limited, known class of tenants.'
+      - text: The building's only vehicle and pedestrian access to the underground car park is through a heavy steel security gate operated by an electronic lock.
+        weight: essential
+        kind: context
+        issues:
+          - control
+          - modbury
+        why: 'The gate is the only way in: Meridian controls the physical means of entry, unlike Modbury''s lighting.'
+      - text: Three weeks before the incident below, the lock mechanism failed, leaving the gate able to be pushed open by hand from outside.
+        weight: essential
+        kind: context
+        issues:
+          - knowledge
+          - control
+        why: The defect that created the risk, left unrepaired for three weeks.
+      - text: At least six tenants emailed Meridian's building manager about the broken lock over those three weeks
+        weight: essential
+        kind: statement
+        issues:
+          - knowledge
+          - vulnerability
+        why: Repeated actual notice of the defect; tenants were relying on Meridian to fix it.
+      - text: and one email specifically warned that "anyone could just walk in off the street"
+        weight: essential
+        kind: statement
+        issues:
+          - knowledge
+          - modbury
+        why: A specific warning of the very risk that materialised, not a general possibility of crime as in Modbury.
+      - text: and that there had been two break-ins to storage cages in the car park in the previous two months.
+        weight: essential
+        kind: context
+        issues:
+          - knowledge
+        why: Recent crime in the car park makes criminal intrusion reasonably foreseeable.
+      - text: Meridian's manager replied to the first email promising a technician "within the week"
+        weight: essential
+        kind: statement
+        issues:
+          - vulnerability
+        why: 'A promise to repair: points to an assumption of responsibility that tenants relied on.'
+      - text: but never engaged one
+        weight: essential
+        kind: conduct
+        issues:
+          - novel
+        why: 'A failure to act: the claim rests on an omission, so a duty is not automatic.'
+      - text: and did not warn tenants, install any temporary barrier, or post any signage about the broken gate.
+        weight: essential
+        kind: conduct
+        issues:
+          - novel
+          - control
+        why: Simple steps within Meridian's control (warning, barrier, signs) were available and none was taken.
+      - text: One night, a stranger pushed the broken gate open and entered the car park.
+        weight: essential
+        kind: conduct
+        issues:
+          - novel
+          - modbury
+        why: The attacker came in through the very defect Meridian knew of and controlled.
+      - text: Rather than going to the storage cages
+        weight: essential
+        kind: context
+        issues:
+          - knowledge
+        why: Meridian may say it knew only of property crime; the open-gate risk covered intruders generally.
+      - text: he walked to where Farah, a tenant, was locking her car after arriving home late
+        weight: essential
+        kind: relationship
+        issues:
+          - vulnerability
+          - coherence
+        why: 'Farah is a tenant: one of a limited, known class who depend on the building''s security.'
+      - text: and physically assaulted her, taking her handbag and phone before fleeing.
+        weight: essential
+        kind: conduct
+        issues:
+          - novel
+          - modbury
+        why: 'A third party''s independent criminal act: the main reason courts hesitate to find a duty.'
+      - text: Farah suffered a broken wrist and ongoing anxiety about entering the car park alone.
+        weight: background
+        kind: harm
+      - text: Farah has separately obtained a default judgment against the (unidentified but since-charged) attacker, but he has no assets and she has recovered nothing.
+        weight: background
+        kind: context
+      - text: She now wants to sue Meridian for negligence
+        weight: background
+        kind: context
+      - text: arguing that had the gate been fixed, or had tenants at least been warned, the attacker could not have entered, or she would have taken a friend down to the car park with her.
+        weight: background
+        kind: statement
+      - text: Meridian says it owed Farah no duty at all
+        weight: essential
+        kind: statement
+        issues:
+          - novel
+          - salient
+        why: 'Frames the question as duty, not breach: answered by weighing the salient features.'
+      - text: it did not commit the assault, had no relationship with or control over the attacker
+        weight: essential
+        kind: statement
+        issues:
+          - modbury
+          - control
+        why: Meridian's Modbury argument; the reply is its control of the gate, not of the attacker.
+      - text: and cannot be expected to guarantee against the criminal acts of third parties.
+        weight: essential
+        kind: statement
+        issues:
+          - coherence
+        why: 'The indeterminacy concern: a duty of reasonable care to known tenants is not a guarantee.'
+      - text: Advise Farah whether Meridian owed her a duty of care.
+        weight: background
+        kind: context
+        issues:
+          - novel
+          - salient
+  - question: laws2400-w00-q005
+    parties:
+      - name: Callum
+        role: driver who swung a tyre iron, later had a seizure; defendant
+      - name: Priya
+        role: cyclist threatened with the tyre iron; plaintiff
+      - name: Noor
+        role: pedestrian struck during the seizure; plaintiff
+    issues:
+      - id: assault
+        label: 'Assault: the tyre iron incident'
+        concept: laws2400-w02-assault
+      - id: intent
+        label: Intending apprehension, not the battery (Rixon v Star City)
+        concept: laws2400-w02-assault
+      - id: apprehension
+        label: 'Reasonable apprehension: Priya''s position'
+        concept: laws2400-w02-assault
+      - id: imminence
+        label: Imminence (Zanker v Vartzokas)
+        concept: laws2400-w02-assault
+      - id: voluntary
+        label: 'Noor: trespass needs a voluntary positive act'
+        concept: laws2400-w01-trespass-voluntary-act-and-damage
+      - id: seizure
+        label: The epileptic-fit exception
+        concept: laws2400-w01-trespass-voluntary-act-and-damage
+      - id: remedies
+        label: Conclusions and remedies for Priya
+        concept: laws2400-w02-remedies-intentional-torts-to-person
+    facts:
+      - text: Callum was driving home from work
+        weight: background
+        kind: context
+      - text: when a cyclist, Priya, swerved in front of his car without signalling
+        weight: essential
+        kind: conduct
+        issues:
+          - remedies
+        why: 'Provocation at most: no defence to assault and cannot reduce compensatory damages (Fontin v Katapodis).'
+      - text: forcing him to brake hard and causing his coffee to spill across the passenger seat.
+        weight: background
+        kind: context
+      - text: Enraged
+        weight: essential
+        kind: mental
+        issues:
+          - intent
+        why: 'Anger shows the swing was deliberate: Callum meant Priya to fear being hit.'
+      - text: Callum wound down his window as he came alongside her
+        weight: essential
+        kind: conduct
+        issues:
+          - imminence
+        why: 'Callum is right beside Priya: the threatened force could be applied at once.'
+      - text: reached across to the passenger seat for a tyre iron he kept there
+        weight: essential
+        kind: conduct
+        issues:
+          - assault
+        why: 'Arming himself with a weapon: a positive act that conveys a threat of force.'
+      - text: and swung it in a wide arc towards Priya as she rode past his door
+        weight: essential
+        kind: conduct
+        issues:
+          - assault
+          - intent
+          - imminence
+        why: The threatening act. Intending apprehension is enough, even if Callum did not mean to hit her.
+      - text: shouting that he would "smash her head in."
+        weight: essential
+        kind: statement
+        issues:
+          - intent
+          - apprehension
+        why: The words reinforce the threat and show an intention to make Priya fear violence.
+      - text: The iron missed her by centimetres.
+        weight: essential
+        kind: context
+        issues:
+          - assault
+          - imminence
+        why: No contact, so no battery; a near miss shows contact was immediately possible.
+      - text: Startled and frightened
+        weight: essential
+        kind: mental
+        issues:
+          - apprehension
+        why: Priya actually feared imminent contact; the test asks whether that fear was reasonable.
+      - text: Priya lost control of her bike and fell, grazing her knee and bruising her hip.
+        weight: essential
+        kind: harm
+        issues:
+          - remedies
+        why: 'Physical injury flowing from the assault: compensatory damages.'
+      - text: Callum did not stop, and drove off still shouting out the window.
+        weight: essential
+        kind: conduct
+        issues:
+          - remedies
+        why: 'Continuing aggression and indifference to Priya: relevant to aggravated or exemplary damages.'
+      - text: Three hours later
+        weight: background
+        kind: timing
+      - text: having calmed down
+        weight: background
+        kind: mental
+      - text: Callum collected his younger brother from the local swimming pool.
+        weight: background
+        kind: context
+      - text: He sat in the front passenger seat of his brother's car in the car park while his brother went back inside to retrieve a forgotten bag, leaving the passenger window down.
+        weight: background
+        kind: context
+      - text: While alone in the car, Callum suffered a sudden and completely unexpected epileptic seizure
+        weight: essential
+        kind: context
+        issues:
+          - voluntary
+          - seizure
+        why: Movement during a seizure is not a voluntary act, so there is no trespass.
+      - text: his first episode in over a decade, which his neurologist had recently told him was very unlikely to recur while he remained on his current medication.
+        weight: essential
+        kind: mental
+        issues:
+          - seizure
+        why: Callum had no reason to expect a seizure, so nothing he did beforehand was at fault.
+      - text: During the seizure, his right arm flailed uncontrollably out through the open window and struck Noor
+        weight: essential
+        kind: conduct
+        issues:
+          - voluntary
+          - seizure
+        why: Direct contact, but the uncontrolled flailing is not a positive voluntary act.
+      - text: a pedestrian who happened to be walking closely past the car at that moment
+        weight: background
+        kind: party
+      - text: bruising her forearm.
+        weight: background
+        kind: harm
+      - text: Callum has no memory of the seizure
+        weight: background
+        kind: mental
+      - text: and had no warning that it was about to occur.
+        weight: essential
+        kind: mental
+        issues:
+          - seizure
+        why: 'No warning and no chance to avoid it: the act was wholly involuntary.'
+      - text: Both Priya and Noor have contacted the same community legal centre.
+        weight: background
+        kind: context
+      - text: Priya wants to know whether she can sue Callum over the incident with the tyre iron.
+        weight: background
+        kind: context
+        issues:
+          - assault
+      - text: Noor wants to know whether she can sue Callum in trespass to the person for the injury to her arm.
+        weight: background
+        kind: context
+        issues:
+          - voluntary
+      - text: Advise Priya and Noor.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q006
+    parties:
+      - name: Kwame
+        role: footballer injured twice, then treated without consent; plaintiff
+      - name: Deng
+        role: opposing player who tackled, then elbowed Kwame; defendant
+      - name: Sam
+        role: club's contracted physiotherapist; defendant
+    issues:
+      - id: tackle
+        label: 'The first tackle: scope of consent'
+        concept: laws2400-w04-consent-validity-and-scope
+      - id: elbow
+        label: The elbow strike (McNamara v Duncan)
+        concept: laws2400-w04-consent-validity-and-scope
+      - id: distinction
+        label: Contact within the rules v deliberately inflicted injury
+        concept: laws2400-w04-consent-validity-and-scope
+      - id: needling
+        label: 'The dry-needling: scope of consent'
+        concept: laws2400-w04-consent-validity-and-scope
+      - id: dean
+        label: Dean v Phung applied to the dry-needling
+        concept: laws2400-w04-consent-validity-and-scope
+      - id: touching
+        label: 'Rixon v Star City: any unlawful touching'
+        concept: laws2400-w02-battery
+      - id: remedies
+        label: Conclusions and remedies against Deng and Sam
+        concept: laws2400-w02-remedies-intentional-torts-to-person
+    facts:
+      - text: Kwame and Deng played on opposing teams in a social Sunday football league.
+        weight: essential
+        kind: relationship
+        issues:
+          - tackle
+        why: 'Both chose to play a contact sport: consent to contact within its rules and usages.'
+      - text: Midway through the second half
+        weight: background
+        kind: timing
+      - text: Deng slid in late on a tackle for the ball
+        weight: essential
+        kind: conduct
+        issues:
+          - tackle
+          - distinction
+        why: 'Contact while going for the ball: the kind of risk players consent to.'
+      - text: catching Kwame's ankle and bruising it
+        weight: background
+        kind: harm
+      - text: a hard but unremarkable challenge of the kind that happens regularly in the competition, and one the referee did not even penalise.
+        weight: essential
+        kind: context
+        issues:
+          - tackle
+          - distinction
+        why: 'Ordinary, unpenalised play: squarely within the scope of consent.'
+      - text: Kwame accepted this as part of the game.
+        weight: essential
+        kind: mental
+        issues:
+          - tackle
+        why: 'Kwame''s own acceptance confirms consent to this contact: no claim.'
+      - text: Ten minutes later, well after the ball had moved to the other end of the field and with no play near either of them
+        weight: essential
+        kind: timing
+        issues:
+          - elbow
+          - distinction
+        why: 'Far from the play: the strike had no connection with the game, so falls outside consent.'
+      - text: Deng — still angry about an earlier foul Kwame had committed on him
+        weight: essential
+        kind: mental
+        issues:
+          - elbow
+          - remedies
+        why: A retaliatory motive, as in McNamara v Duncan; supports aggravated damages.
+      - text: jogged up behind Kwame and deliberately drove his elbow into the side of Kwame's jaw.
+        weight: essential
+        kind: conduct
+        issues:
+          - elbow
+          - distinction
+          - touching
+        why: 'A deliberate blow outside the play: battery not covered by consent to the sport.'
+      - text: Kwame went down immediately; he was later diagnosed with a fractured jaw requiring surgical wiring.
+        weight: essential
+        kind: harm
+        issues:
+          - remedies
+        why: 'Serious injury deliberately inflicted: compensatory and aggravated damages.'
+      - text: After being stretchered off, Kwame was seen by Sam
+        weight: background
+        kind: context
+      - text: the club's contracted physiotherapist, who had treated players from both teams for years.
+        weight: essential
+        kind: relationship
+        issues:
+          - needling
+        why: A long treating relationship does not supply consent to new, unrequested treatment.
+      - text: Sam examined Kwame's jaw, arranged an ambulance
+        weight: essential
+        kind: conduct
+        issues:
+          - needling
+        why: 'Care Kwame needed and accepted: within the scope of his consent.'
+      - text: noticing Kwame was already lying on the treatment table waiting for the ambulance
+        weight: background
+        kind: context
+      - text: decided to also perform a course of dry-needling on Kwame's shoulder, a treatment technique involving inserting needles into muscle tissue.
+        weight: essential
+        kind: conduct
+        issues:
+          - needling
+          - dean
+          - touching
+        why: 'An invasive touching of a different body part: outside any consent to care for the jaw.'
+      - text: Sam had noticed some tightness in Kwame's shoulder during the examination
+        weight: background
+        kind: mental
+      - text: and thought Kwame would appreciate having it addressed "while he was already there."
+        weight: essential
+        kind: mental
+        issues:
+          - dean
+          - needling
+        why: 'Sam''s good intentions are no answer: assuming the patient would welcome it is not consent.'
+      - text: Kwame had never mentioned any shoulder problem, had not asked for treatment of it
+        weight: essential
+        kind: statement
+        issues:
+          - needling
+        why: 'No request and no express consent: the shoulder was outside anything Kwame agreed to.'
+      - text: was not told the dry-needling was going to happen or asked whether he wanted it
+        weight: essential
+        kind: conduct
+        issues:
+          - needling
+          - dean
+        why: Kwame was never told or asked, so he had no chance to consent to this procedure.
+      - text: and later said that had he been asked, he would have refused
+        weight: essential
+        kind: statement
+        issues:
+          - needling
+        why: 'Confirms the touching was against his wishes: consent cannot be presumed.'
+      - text: since he dislikes needles and had a bad reaction to acupuncture two years earlier.
+        weight: background
+        kind: context
+      - text: Advise Kwame on any claims he may have against Deng and against Sam.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q007
+    parties:
+      - name: BuildRight Pty Ltd
+        role: builder renovating the heritage building; defendant
+      - name: Deacon
+        role: BuildRight's site foreperson (employee)
+      - name: Mariana
+        role: fruit shop owner on Anzac Lane; plaintiff
+    issues:
+      - id: elements
+        label: 'Public nuisance: the elements'
+        concept: laws2400-w03-public-nuisance
+      - id: obstruction
+        label: 'Obstruction: substantial and unreasonable?'
+        concept: laws2400-w03-public-nuisance
+      - id: special-damage
+        label: 'Title to sue: special damage (Walsh v Ervin)'
+        concept: laws2400-w03-public-nuisance
+      - id: others
+        label: The other shopkeepers
+        concept: laws2400-w03-public-nuisance
+      - id: vicarious
+        label: 'Vicarious liability: course of employment'
+        concept: laws2400-w01-vicarious-liability-intro
+      - id: fleming
+        label: 'Disobeyed instructions: Fleming''s policy rationale'
+        concept: laws2400-w01-vicarious-liability-intro
+      - id: remedies
+        label: Conclusion and remedies
+        concept: laws2400-w03-nuisance-defences-remedies
+    facts:
+      - text: BuildRight Pty Ltd is renovating a heritage building fronting Anzac Lane
+        weight: background
+        kind: party
+      - text: a narrow public laneway that is the only vehicle access to a row of six small shops
+        weight: essential
+        kind: context
+        issues:
+          - elements
+          - obstruction
+        why: 'A public way: blocking it interferes with a right shared by the public, the core of public nuisance.'
+      - text: including a fruit shop run by Mariana.
+        weight: background
+        kind: party
+      - text: For three weeks
+        weight: essential
+        kind: timing
+        issues:
+          - obstruction
+        why: 'Sustained over three weeks: a substantial obstruction, not a fleeting one.'
+      - text: BuildRight's site foreperson, Deacon — an employee responsible for day-to-day management of the site
+        weight: essential
+        kind: relationship
+        issues:
+          - vicarious
+        why: 'An employee managing the site day to day: the obstruction arose in doing BuildRight''s work.'
+      - text: stored scaffolding materials and parked the company's delivery truck across the full width of the laneway every day during trading hours
+        weight: essential
+        kind: conduct
+        issues:
+          - elements
+          - obstruction
+          - vicarious
+        why: 'Blocking the whole lane in trading hours with site materials and the company truck: a substantial, unreasonable obstruction.'
+      - text: without seeking any permit or approval from the local council.
+        weight: essential
+        kind: context
+        issues:
+          - obstruction
+        why: 'No council permission: nothing makes the obstruction lawful or reasonable.'
+      - text: Deacon did this despite an explicit written instruction from BuildRight's project manager, sent to all site staff before work began, that the laneway "must remain clear for through traffic during business hours at all times."
+        weight: essential
+        kind: statement
+        issues:
+          - vicarious
+          - fleming
+        why: 'An express prohibition: does disobedience take Deacon outside his employment? Fleming''s rationale says BuildRight should still bear the loss.'
+      - text: The other shopkeepers on the lane experienced only minor inconvenience
+        weight: essential
+        kind: harm
+        issues:
+          - others
+        why: 'Inconvenience shared with the public at large: no special damage, so no title to sue.'
+      - text: their suppliers could still reach the shops on foot around the truck, and none suffered any financial loss.
+        weight: essential
+        kind: context
+        issues:
+          - others
+        why: No particular loss beyond that of the general public.
+      - text: Mariana's shop is different.
+        weight: background
+        kind: context
+      - text: Her fruit shop depends on twice-daily deliveries of refrigerated produce by a small van that cannot fit past the blockage.
+        weight: essential
+        kind: context
+        issues:
+          - special-damage
+        why: Her business depends on vehicle access, so she is affected differently from the public.
+      - text: For the full three weeks, she was forced to pay a subcontractor $180 a day to hand-cart produce from the nearest legal parking spot, a full block away.
+        weight: essential
+        kind: harm
+        issues:
+          - special-damage
+          - remedies
+        why: 'Particular financial loss: special damage giving title to sue (Walsh v Ervin), recoverable as damages.'
+      - text: On four occasions during hot afternoons, deliveries left waiting too long in the heat while the workaround was arranged had to be discarded, at a cost of roughly $950 in total spoiled stock.
+        weight: essential
+        kind: harm
+        issues:
+          - special-damage
+          - remedies
+        why: 'Further particular loss caused by the obstruction: recoverable special damage.'
+      - text: Mariana complained to BuildRight's head office twice during the three weeks
+        weight: essential
+        kind: statement
+        issues:
+          - fleming
+          - obstruction
+        why: 'BuildRight itself was told twice and did nothing: it was best placed to stop the harm.'
+      - text: but nothing changed until the scaffolding was finally removed.
+        weight: background
+        kind: timing
+      - text: She now wants to recover the cost of the hand-cart workaround and her spoiled stock from BuildRight
+        weight: background
+        kind: context
+        issues:
+          - remedies
+      - text: which denies responsibility, pointing out that Deacon was expressly told to keep the laneway clear and that blocking it was entirely his own doing.
+        weight: essential
+        kind: statement
+        issues:
+          - vicarious
+          - fleming
+        why: BuildRight's answer is the express instruction; the employee must still have committed the tort, which Deacon did.
+      - text: Advise Mariana.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q008
+    parties:
+      - name: Coastal Shire Council
+        role: manager of the Sundown Point reserve; defendant
+      - name: Tegan
+        role: tourist who fell at the cliff edge; plaintiff
+    issues:
+      - id: elements
+        label: 'Negligence: duty, breach and damage'
+        concept: laws2400-w05-negligence-elements-overview
+      - id: scope
+        label: 'The occupier''s duty: scope, not existence'
+        concept: laws2400-w06-occupiers-liability-and-obvious-risk
+      - id: romeo
+        label: Romeo v Conservation Commission (NT) applied
+        concept: laws2400-w06-occupiers-liability-and-obvious-risk
+      - id: s5f
+        label: 'Obvious risk: the s 5F objective test'
+        concept: laws2400-w06-occupiers-liability-and-obvious-risk
+      - id: s5g
+        label: 'Presumed awareness under s 5G: can Tegan rebut it?'
+        concept: laws2400-w06-occupiers-liability-and-obvious-risk
+      - id: s5h
+        label: No duty to warn of an obvious risk (s 5H) and its exceptions
+        concept: laws2400-w06-occupiers-liability-and-obvious-risk
+    facts:
+      - text: Coastal Shire Council manages "Sundown Point," a popular lookout reserve.
+        weight: essential
+        kind: relationship
+        issues:
+          - scope
+        why: The council controls the reserve, so a duty is owed to visitors; the question is its scope.
+      - text: A formed walking track leads visitors to a viewing area set back from the edge of a forty-metre limestone cliff.
+        weight: essential
+        kind: context
+        issues:
+          - romeo
+          - scope
+        why: 'A safe, set-back viewing area is provided, as in Romeo: visitors need not go to the edge.'
+      - text: Beyond the viewing area, the cliff edge itself is unfenced
+        weight: essential
+        kind: context
+        issues:
+          - romeo
+        why: 'No fence at the edge: the precaution Tegan says was required.'
+      - text: loose gravel and crumbling limestone are visible along the last few metres before the drop.
+        weight: essential
+        kind: context
+        issues:
+          - s5f
+          - s5g
+        why: 'The hazard is visible: points to a risk obvious to a reasonable person in her position.'
+      - text: 'A small sign at the start of the track reads: "Cliffs ahead — stay on the marked path."'
+        weight: essential
+        kind: statement
+        issues:
+          - s5h
+          - romeo
+        why: A warning was given anyway; under s 5H no warning of an obvious risk is required.
+      - text: The council has never fenced the cliff edge
+        weight: essential
+        kind: conduct
+        issues:
+          - romeo
+        why: A deliberate choice not to fence a natural cliff along the whole reserve.
+      - text: reasoning (in internal correspondence obtained by Tegan's lawyers) that fencing the entire clifftop across the reserve would be extremely costly and would also block the very views that make the reserve popular.
+        weight: essential
+        kind: mental
+        issues:
+          - romeo
+        why: Cost and loss of the views weigh against fencing, echoing Romeo on natural landscapes.
+      - text: Tegan, a tourist visiting the area for the first time
+        weight: essential
+        kind: party
+        issues:
+          - s5g
+        why: 'A first-time visitor: her best argument for rebutting the presumption of awareness.'
+      - text: walked past the viewing area and along the cliff edge itself to get a better angle for a photograph.
+        weight: essential
+        kind: conduct
+        issues:
+          - romeo
+          - s5f
+        why: 'She left the safe area for the very edge: a choice Romeo says occupiers need not guard against.'
+      - text: As she stepped closer to the drop, the loose gravel gave way beneath her
+        weight: essential
+        kind: context
+        issues:
+          - s5f
+        why: The risk that materialised was the visible loose ground at the edge.
+      - text: and she slipped, falling several metres down a steep but non-vertical section of the slope before a ledge stopped her fall.
+        weight: background
+        kind: harm
+      - text: She suffered a badly broken leg requiring surgery.
+        weight: essential
+        kind: harm
+        issues:
+          - elements
+        why: 'Physical injury: the damage element is satisfied.'
+      - text: Tegan says that anyone looking at the sign would think it referred to a general safety reminder rather than to the specific danger of loose, crumbling ground right at the cliff edge
+        weight: essential
+        kind: statement
+        issues:
+          - s5h
+        why: An attack on the adequacy of the warning; s 5H removes any duty to warn of an obvious risk.
+      - text: and that the council should either have fenced the edge or put up a far more specific sign describing the risk of the ground itself giving way.
+        weight: essential
+        kind: statement
+        issues:
+          - romeo
+          - s5h
+        why: 'The precautions alleged: fencing or a specific warning sign.'
+      - text: She has never visited a cliff-top lookout before
+        weight: essential
+        kind: context
+        issues:
+          - s5g
+        why: Inexperience may help rebut s 5G, but the s 5F test stays objective.
+      - text: and says she did not appreciate how unstable the very edge of the cliff could be.
+        weight: essential
+        kind: mental
+        issues:
+          - s5g
+          - s5f
+        why: 'Lack of actual awareness: she must prove this to rebut s 5G.'
+      - text: Tegan is suing Coastal Shire Council in negligence.
+        weight: background
+        kind: context
+        issues:
+          - elements
+      - text: Advise the council.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q009
+    parties:
+      - name: DenRail
+        role: rail operator that admitted the scheduling error; defendant
+      - name: James
+        role: off-duty emergency nurse who helped at the crash; plaintiff
+      - name: Mel
+        role: James's sister, who arrived after the rescue; plaintiff
+    issues:
+      - id: part3
+        label: 'CLA Part 3: pure mental harm (s 27)'
+        concept: laws2400-w06-psychiatric-harm-civil-liability-act
+      - id: s32
+        label: The s 32 duty test and its circumstances
+        concept: laws2400-w06-psychiatric-harm-civil-liability-act
+      - id: james-s32
+        label: 'James: s 32 applied'
+        concept: laws2400-w06-psychiatric-harm-civil-liability-act
+      - id: s31
+        label: A recognised psychiatric illness (s 31)
+        concept: laws2400-w06-psychiatric-harm-civil-liability-act
+      - id: s30
+        label: 'Witnessing at the scene: s 30(2)(a) and Wicks'
+        concept: laws2400-w06-psychiatric-harm-civil-liability-act
+      - id: mel
+        label: 'Mel: fitting her claim within s 30 and s 32'
+        concept: laws2400-w06-psychiatric-harm-civil-liability-act
+      - id: common-law
+        label: 'Common law backdrop: Tame and Annetts; normal fortitude'
+        concept: laws2400-w06-psychiatric-harm-common-law-development
+    facts:
+      - text: DenRail operates the interstate freight and passenger line running through the rural town of Denholm.
+        weight: background
+        kind: party
+      - text: On a foggy morning, a scheduling error — later admitted by DenRail
+        weight: essential
+        kind: conduct
+        issues:
+          - s32
+        why: Breach is admitted, so the analysis turns on duty and the CLA limits on mental harm.
+      - text: caused a loaded passenger service to collide with a stationary freight wagon that had been left on the same line, derailing two carriages a few hundred metres from the Denholm level crossing.
+        weight: essential
+        kind: context
+        issues:
+          - s30
+          - s32
+        why: 'A sudden, violent event putting passengers in peril: the occurrence James witnessed.'
+      - text: Emergency services were more than forty minutes away on the nearest sealed road.
+        weight: essential
+        kind: context
+        issues:
+          - james-s32
+        why: Help was far off, which is why James's exposure to the scene was so long.
+      - text: James, an off-duty emergency nurse who lived nearby
+        weight: essential
+        kind: party
+        issues:
+          - james-s32
+          - s30
+        why: 'Not a passenger or relative: his claim rests on what he witnessed at the scene.'
+      - text: heard the collision and ran to the crash site.
+        weight: essential
+        kind: conduct
+        issues:
+          - s30
+        why: He arrived during the event itself, while victims were still in peril.
+      - text: For almost three hours
+        weight: essential
+        kind: timing
+        issues:
+          - s30
+          - james-s32
+          - common-law
+        why: 'Sustained exposure: Wicks reads witnessing victims ''put in peril'' broadly enough to cover it.'
+      - text: he worked alongside a handful of local volunteers, climbing into the wreckage to apply pressure to wounds
+        weight: essential
+        kind: conduct
+        issues:
+          - james-s32
+        why: 'Hands-on involvement in the wreckage: strong on sudden shock and witnessing at the scene.'
+      - text: comfort passengers who were trapped and in some cases dying
+        weight: essential
+        kind: context
+        issues:
+          - s30
+          - james-s32
+        why: 'He saw victims injured and dying: s 30(2)(a) is satisfied.'
+      - text: and help extract survivors before paramedics finally reached the scene.
+        weight: background
+        kind: conduct
+      - text: He has since been diagnosed with post-traumatic stress disorder
+        weight: essential
+        kind: harm
+        issues:
+          - s31
+        why: 'PTSD is a recognised psychiatric illness: s 31 is satisfied.'
+      - text: and has been unable to return to nursing work.
+        weight: essential
+        kind: harm
+        issues:
+          - part3
+        why: 'Loss flowing from mental harm with no physical injury: pure mental harm under s 27.'
+      - text: James's sister, Mel
+        weight: essential
+        kind: relationship
+        issues:
+          - mel
+          - s30
+        why: A close family member, but s 30(2)(b) needs James to be a victim killed, injured or put in peril.
+      - text: heard about the derailment on the radio while at home, twenty-five minutes' drive away.
+        weight: essential
+        kind: context
+        issues:
+          - mel
+        why: 'Learned of it second-hand, far from the scene: no direct perception of the event.'
+      - text: She rushed to the scene but arrived only after the last patient had been taken to hospital and the wrecked carriages made safe
+        weight: essential
+        kind: timing
+        issues:
+          - mel
+          - s30
+        why: 'She did not witness anyone in peril at the scene: s 30(2)(a) is not met.'
+      - text: by the time she got there she saw only twisted, empty wreckage, police tape and emergency vehicles.
+        weight: essential
+        kind: context
+        issues:
+          - mel
+        why: 'Only the aftermath, with no victims present: a weak basis for sudden shock under s 32.'
+      - text: In the weeks that followed
+        weight: essential
+        kind: timing
+        issues:
+          - mel
+        why: 'A gradual onset rather than a sudden shock: weighs against her under s 32(2)(a).'
+      - text: tormented by imagining what her brother had witnessed and by graphic photographs of the crash circulating online
+        weight: essential
+        kind: mental
+        issues:
+          - mel
+          - common-law
+        why: 'Harm from imagination and media images, not direct perception: Annetts relaxed this at common law, but s 30 still limits recovery.'
+      - text: Mel was diagnosed with an adjustment disorder with anxiety by her general practitioner.
+        weight: essential
+        kind: harm
+        issues:
+          - s31
+          - mel
+        why: Mel too must show a recognised psychiatric illness (s 31) before duty arises.
+      - text: Before the derailment, Mel and James had an ordinary, close sibling relationship
+        weight: essential
+        kind: relationship
+        issues:
+          - mel
+          - s30
+        why: 'A close sibling bond: relevant to s 32(2)(c) and the close family member category in s 30.'
+      - text: but neither of them had any prior connection to DenRail.
+        weight: essential
+        kind: relationship
+        issues:
+          - s32
+          - james-s32
+          - mel
+        why: 'No pre-existing relationship with DenRail: s 32(2)(d) helps neither claimant.'
+      - text: Both James and Mel wish to sue DenRail in negligence for their psychiatric injuries
+        weight: essential
+        kind: context
+        issues:
+          - part3
+        why: 'Psychiatric injury without physical injury: Part 3 of the CLA governs both claims.'
+      - text: which they say were caused by DenRail's admitted scheduling error.
+        weight: background
+        kind: context
+      - text: Advise James and Mel.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q010
+    parties:
+      - name: Roast & River
+        role: manufacturer of bottled cold-brew coffee; defendant
+      - name: Farid
+        role: consumer who drank a contaminated bottle; plaintiff
+    issues:
+      - id: category
+        label: 'Duty: manufacturer and consumer, an established category'
+        concept: laws2400-w06-product-liability-duty-of-care
+      - id: grant
+        label: No reasonable possibility of intermediate examination (Grant)
+        concept: laws2400-w06-product-liability-duty-of-care
+      - id: calculus
+        label: 'Breach (duty is not breach): probability, magnitude and burden'
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+      - id: distinguish
+        label: Distinguishing Graham Barclay Oysters v Ryan
+        concept: laws2400-w06-product-liability-duty-of-care
+      - id: causation
+        label: Causation, briefly
+        concept: laws2400-w10-factual-causation-necessary-condition
+    facts:
+      - text: Roast & River is a boutique manufacturer of bottled cold-brew coffee
+        weight: essential
+        kind: relationship
+        issues:
+          - category
+        why: 'A manufacturer of a consumable product: the Donoghue v Stevenson category of duty.'
+      - text: sold sealed in glass bottles through supermarkets.
+        weight: essential
+        kind: context
+        issues:
+          - grant
+        why: 'Sealed bottles reach consumers unopened: no reasonable possibility of intermediate examination.'
+      - text: Eighteen months ago it switched to a new, cheaper eco-friendly bottle cap supplied by a new manufacturer.
+        weight: essential
+        kind: conduct
+        issues:
+          - calculus
+        why: 'A cost-driven change that brought in the risk: relevant to what precautions were reasonable.'
+      - text: Internal quality records show that, during trial runs before the switch, random batch testing occasionally detected a small proportion of caps that failed to seal properly
+        weight: essential
+        kind: context
+        issues:
+          - calculus
+          - distinguish
+        why: The defect was known and detectable before the switch; in Graham Barclay the risk could not practically be eliminated.
+      - text: allowing air in and creating a risk that mould could develop inside an affected bottle well before its printed use-by date.
+        weight: essential
+        kind: context
+        issues:
+          - calculus
+        why: 'The harm risked is contamination of a drink consumed by the public: a serious magnitude.'
+      - text: Roast & River's operations manager decided that testing every bottle would be too slow and expensive for a small company
+        weight: essential
+        kind: conduct
+        issues:
+          - calculus
+        why: 'The burden side: the cost and speed of testing every bottle.'
+      - text: and instead set quality control to test only one bottle in every two hundred from each production run.
+        weight: essential
+        kind: conduct
+        issues:
+          - calculus
+          - distinguish
+        why: 'The precaution actually taken: a minimal sampling rate, tested against the risk it left.'
+      - text: Internal emails show the manager was aware this sampling rate meant "a few dodgy seals could get through and sit on a shelf for a couple of weeks before anyone noticed a pattern,"
+        weight: essential
+        kind: mental
+        issues:
+          - calculus
+          - distinguish
+        why: 'Actual knowledge that defective bottles would reach shelves: a conscious acceptance of the risk.'
+      - text: but concluded the residual risk was "acceptable" given how much continuous testing of every bottle would cost and slow down production.
+        weight: essential
+        kind: mental
+        issues:
+          - calculus
+        why: The manager weighed burden against risk; the court asks whether that balance was reasonable.
+      - text: Farid bought a bottle of Roast & River cold-brew from his local supermarket
+        weight: essential
+        kind: relationship
+        issues:
+          - category
+        why: 'Farid is the ultimate consumer: within the class to whom the duty is owed.'
+      - text: well within the printed use-by date.
+        weight: essential
+        kind: timing
+        issues:
+          - causation
+        why: 'He used the product as intended and in time: no misuse to explain the illness.'
+      - text: The cap seal on his bottle had in fact failed.
+        weight: essential
+        kind: context
+        issues:
+          - causation
+          - calculus
+        why: The very defect the sampling rate was known to miss.
+      - text: He did not notice anything unusual about the taste until he had drunk most of the bottle.
+        weight: background
+        kind: context
+      - text: He became seriously unwell that night with vomiting and severe abdominal pain, and was hospitalised for four days.
+        weight: essential
+        kind: harm
+        issues:
+          - causation
+        why: 'Physical injury: the damage that must be linked to the defect.'
+      - text: Testing confirmed the bottle contained mould toxins consistent with a compromised seal that had allowed contamination to develop over roughly ten days on the shelf.
+        weight: essential
+        kind: context
+        issues:
+          - causation
+          - calculus
+        why: Links the illness to the failed seal; ten days on the shelf matches the risk the manager foresaw.
+      - text: Farid had no way of inspecting the seal's integrity before opening the bottle
+        weight: essential
+        kind: context
+        issues:
+          - grant
+        why: 'No reasonable possibility of intermediate examination: the Grant v Australian Knitting Mills test is met.'
+      - text: the defect was not visible from the outside, and the bottle looked completely normal.
+        weight: essential
+        kind: context
+        issues:
+          - grant
+        why: A hidden defect that neither retailer nor consumer could detect.
+      - text: Advise Farid on a claim in negligence against Roast & River.
+        weight: background
+        kind: context
+        issues:
+          - category
+          - calculus
+  - question: laws2400-w00-q011
+    parties:
+      - name: Theo
+        role: marina dockhand who moved the boat and took the rope; defendant
+      - name: Priya
+        role: owner of the motorboat Wandering Star; plaintiff
+      - name: Klaus
+        role: owner of the mooring line; plaintiff
+    issues:
+      - id: conversion
+        label: 'Conversion: strict liability and a serious dealing amounting to dominion'
+        concept: laws2400-w02-conversion-and-detinue
+      - id: boat
+        label: 'The boat: Penfolds Wines and Bunnings v CHEP'
+        concept: laws2400-w02-conversion-and-detinue
+      - id: rope
+        label: 'The rope: a clearer conversion'
+        concept: laws2400-w02-conversion-and-detinue
+      - id: motive
+        label: Good motive does not answer conversion
+        concept: laws2400-w02-conversion-and-detinue
+      - id: necessity
+        label: 'Necessity: the test and Proudman v Allen'
+        concept: laws2400-w04-necessity-defence
+      - id: proportion
+        label: 'Proportionality: the boat and the rope separately'
+        concept: laws2400-w04-necessity-defence
+    facts:
+      - text: Theo works at Bayview Marina as a dockhand.
+        weight: essential
+        kind: party
+        issues:
+          - necessity
+        why: 'Theo has no rights over either boat: like the defendant in Proudman v Allen, he protects another''s property.'
+      - text: Priya keeps her small motorboat, "Wandering Star," in a berth there
+        weight: essential
+        kind: relationship
+        issues:
+          - conversion
+        why: Priya owns and possesses the boat, so she can sue for a dealing with it.
+      - text: and Klaus keeps his own boat two berths along.
+        weight: background
+        kind: party
+      - text: Priya was away interstate the week a sudden, unforecast storm warning was issued for the harbour, with damaging swell expected within the hour.
+        weight: essential
+        kind: context
+        issues:
+          - necessity
+        why: 'A sudden emergency while the owner was away: the setting in which necessity operates.'
+      - text: Theo, doing his evening rounds, saw that Wandering Star's mooring lines had come loose in the rising chop and that the boat was swinging dangerously close to a concrete piling
+        weight: essential
+        kind: context
+        issues:
+          - necessity
+          - motive
+        why: A real, immediate danger to the boat; Theo acts to save it, but motive does not answer conversion.
+      - text: if it stayed there, the hull would almost certainly be holed within minutes.
+        weight: essential
+        kind: context
+        issues:
+          - necessity
+          - proportion
+        why: 'Imminent serious damage to property: necessity is available if the response is reasonable.'
+      - text: Theo found a spare ignition key in the boat's unlocked dock box, started the motor
+        weight: essential
+        kind: conduct
+        issues:
+          - conversion
+          - boat
+        why: 'Taking control of the boat and running it: serious enough to be dominion? Contestable, as Bunnings v CHEP shows.'
+      - text: and carefully moved Wandering Star to an empty, more sheltered berth on the other side of the marina.
+        weight: essential
+        kind: conduct
+        issues:
+          - boat
+          - proportion
+        why: 'Moved only to a safer berth in the same marina: a limited dealing aimed at the danger.'
+      - text: In doing so, in the swell and poor light, he scraped the hull against a piling and bent the propeller shaft, causing $2,400 damage
+        weight: essential
+        kind: harm
+        issues:
+          - boat
+          - proportion
+        why: 'Damage caused in the rescue: excused only if reasonably incidental to it.'
+      - text: though he could not have completed the manoeuvre at all without some risk of contact given the sea conditions.
+        weight: essential
+        kind: context
+        issues:
+          - proportion
+        why: 'Some contact was unavoidable: supports the damage being a proportionate incident of the rescue.'
+      - text: Once Wandering Star was moved, Theo needed additional rope to properly double-secure it against the still-worsening swell.
+        weight: essential
+        kind: context
+        issues:
+          - proportion
+          - motive
+        why: 'The boat was already sheltered: the need for more rope was real but less pressing.'
+      - text: He went to Klaus's boat, opened an unlocked storage locker on its deck, and took a 15-metre coil of mooring line stored there
+        weight: essential
+        kind: conduct
+        issues:
+          - conversion
+          - rope
+        why: 'Taking a third party''s goods from his locker: a deliberate appropriation.'
+      - text: cutting it in half to create two extra lines.
+        weight: essential
+        kind: conduct
+        issues:
+          - rope
+          - conversion
+        why: 'Destroying the rope''s use for Klaus: a dealing plainly inconsistent with his ownership.'
+      - text: He used both lengths to secure Wandering Star and left the remaining rope, now cut and unusable for its original purpose, on the dock.
+        weight: essential
+        kind: conduct
+        issues:
+          - rope
+          - proportion
+        why: 'Klaus''s property was used up for Priya''s benefit and left ruined: hard to justify as proportionate.'
+      - text: The rope was worth $95.
+        weight: essential
+        kind: harm
+        issues:
+          - rope
+        why: 'The measure of Klaus''s loss: the value of the converted rope.'
+      - text: When Priya returned, she was furious that anyone had touched her boat at all
+        weight: background
+        kind: mental
+      - text: and denies giving Theo any permission.
+        weight: essential
+        kind: statement
+        issues:
+          - conversion
+          - necessity
+        why: No consent, so Theo must rely on necessity to excuse the dealing.
+      - text: Klaus separately wants compensation for his ruined rope.
+        weight: background
+        kind: context
+        issues:
+          - rope
+      - text: Advise Theo on any liability to Priya and to Klaus, and whether necessity provides a defence.
+        weight: background
+        kind: context
+        issues:
+          - conversion
+          - necessity
+  - question: laws2400-w00-q012
+    parties:
+      - name: Ridge Line Trails
+        role: commercial mountain-bike park; defendant
+      - name: Tomas
+        role: experienced rider injured on a jump; plaintiff
+      - name: Yusuf
+        role: rider who shoulder-barged Elena; defendant
+      - name: Elena
+        role: slower rider barged off her bike; plaintiff
+    issues:
+      - id: classify
+        label: 'Tomas: negligence in a dangerous recreational activity'
+        concept: laws2400-w06-sport-and-recreational-injury
+      - id: inherent
+        label: 'Inherent risk: Rootes v Shelton and Agar v Hyde'
+        concept: laws2400-w06-sport-and-recreational-injury
+      - id: s5l
+        label: 's 5L: obvious risk of a dangerous recreational activity'
+        concept: laws2400-w06-sport-and-recreational-injury
+      - id: s5m
+        label: 's 5M: the entrance sign as a risk warning'
+        concept: laws2400-w06-sport-and-recreational-injury
+      - id: battery
+        label: 'Elena''s claim against Yusuf: battery, not negligence'
+        concept: laws2400-w02-battery
+      - id: mcnamara
+        label: McNamara v Duncan by analogy
+        concept: laws2400-w04-consent-validity-and-scope
+      - id: park
+        label: Ss 5L and 5M and Yusuf; Ridge Line Trails' own liability
+        concept: laws2400-w08-third-party-conduct-dorset-yacht-and-modbury
+    facts:
+      - text: Ridge Line Trails is a commercial mountain-bike park that charges an entry fee to riders using its network of downhill jump trails.
+        weight: essential
+        kind: relationship
+        issues:
+          - classify
+          - park
+        why: 'A commercial operator of a recreational activity: owes riders a duty, subject to the CLA recreation provisions.'
+      - text: 'A large sign at the entrance gate reads: "WARNING: Mountain biking is a dangerous activity. Falls, collisions and serious injury, including paralysis and death, can occur even on trails you have ridden before. Ride at your own risk."'
+        weight: essential
+        kind: statement
+        issues:
+          - s5m
+          - s5l
+        why: 'A general risk warning given before riding: under s 5M no duty is owed for risks it warns of.'
+      - text: Every rider must walk past this sign to reach the trailhead.
+        weight: essential
+        kind: context
+        issues:
+          - s5m
+        why: The warning is conspicuous and unavoidable, so riders are likely to be warned of the risk.
+      - text: Tomas, an experienced rider who had ridden the park's "Big Drop" trail many times before
+        weight: essential
+        kind: party
+        issues:
+          - inherent
+          - s5l
+        why: His experience makes the risk of falling obvious to a reasonable person in his position.
+      - text: attempted a jump he had successfully completed on at least a dozen previous visits.
+        weight: essential
+        kind: conduct
+        issues:
+          - s5l
+          - classify
+        why: 'A voluntary jump in a dangerous recreational activity: the setting for s 5L.'
+      - text: This time he misjudged his landing, came off his bike
+        weight: essential
+        kind: conduct
+        issues:
+          - inherent
+          - s5l
+        why: 'His own misjudgement: the risk inherent in jumping, which materialised.'
+      - text: and broke his collarbone.
+        weight: background
+        kind: harm
+      - text: Nothing about the trail or the jump had changed since his previous visits
+        weight: essential
+        kind: context
+        issues:
+          - inherent
+          - s5l
+        why: 'No hidden hazard: the injury came from the activity itself, not the operator''s conduct.'
+      - text: and the accident occurred in the ordinary course of riding the jump as designed.
+        weight: essential
+        kind: context
+        issues:
+          - inherent
+          - s5l
+        why: 'An obvious risk of a dangerous recreational activity materialised: s 5L defeats the claim.'
+      - text: Later that same afternoon, a different incident occurred on an easier trail.
+        weight: background
+        kind: timing
+      - text: Yusuf, another rider, had been annoyed all day at Elena
+        weight: essential
+        kind: mental
+        issues:
+          - mcnamara
+        why: 'Simmering anger: the motive for a deliberate act, not a riding mishap.'
+      - text: a slower rider, after she had "cut his line" earlier by moving into his path during an overtaking manoeuvre.
+        weight: background
+        kind: context
+      - text: Riding behind her again on a straight section of track
+        weight: background
+        kind: context
+      - text: Yusuf deliberately accelerated, rode up directly alongside Elena, and shoulder-barged her off her bike
+        weight: essential
+        kind: conduct
+        issues:
+          - battery
+          - mcnamara
+        why: 'A deliberate, direct application of force: battery, outside anything riders consent to.'
+      - text: out of anger
+        weight: essential
+        kind: mental
+        issues:
+          - battery
+          - mcnamara
+        why: Intentional, retaliatory contact, like the deliberate blow in McNamara v Duncan.
+      - text: causing her to crash into a trailside barrier.
+        weight: background
+        kind: harm
+      - text: Elena suffered a broken wrist.
+        weight: essential
+        kind: harm
+        issues:
+          - battery
+        why: 'Injury flowing directly from the barge: compensatory damages for the battery.'
+      - text: Yusuf later admitted to another rider that he "wanted to teach her a lesson"
+        weight: essential
+        kind: statement
+        issues:
+          - battery
+          - mcnamara
+        why: 'An admission of intent to hurt her: removes any suggestion the contact was part of riding.'
+      - text: and that the contact had nothing to do with overtaking or riding technique.
+        weight: essential
+        kind: statement
+        issues:
+          - mcnamara
+          - park
+        why: Not a risk of mountain biking at all, so ss 5L and 5M do not reach it.
+      - text: Both Tomas and Elena want to know whether they can recover compensation.
+        weight: background
+        kind: context
+      - text: Elena also wants to know whether Ridge Line Trails, rather than just Yusuf personally, might be liable for what Yusuf did.
+        weight: essential
+        kind: context
+        issues:
+          - park
+        why: 'Raises the park''s liability for a third party''s deliberate act: Modbury makes such a duty unlikely.'
+      - text: Advise Tomas and Elena.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q013
+    parties:
+      - name: Mei
+        role: nurse buying her first home; plaintiff
+      - name: Riverbend Shire Council
+        role: gave the road-widening information; defendant
+      - name: Grant
+        role: retired surveyor met at a barbecue; defendant
+      - name: Coastline Realty Pty Ltd
+        role: selling agent whose brochure was false; defendant
+    issues:
+      - id: pel
+        label: 'Pure economic loss: why more than foreseeability is needed'
+        concept: laws2400-w07-pure-economic-loss-and-policy
+      - id: council-duty
+        label: 'The Council: Hedley Byrne, salient features and Shaddock'
+        concept: laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko
+      - id: distinguish
+        label: Distinguishing Tepko, San Sebastian and Esanda
+        concept: laws2400-w07-reliance-and-knowledge-shaddock-san-sebastian-tepko
+      - id: part5
+        label: 'CLA Part 5: does it displace the duty?'
+        concept: laws2400-w08-cla-part-5-public-authorities
+      - id: breach
+        label: 'Breach: s 5B and the unchecked register'
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: causation
+        label: 'Causation: s 5D, including s 5D(3)'
+        concept: laws2400-w10-common-sense-causation-and-s5d
+      - id: grant
+        label: 'Grant: an opinion on a social occasion'
+        concept: laws2400-w07-negligent-words-from-deceit-to-hedley-byrne
+      - id: acl
+        label: 'Coastline Realty: ACL s 18'
+        concept: laws2400-w07-acl-s18-misleading-or-deceptive-conduct
+    facts:
+      - text: Mei, a nurse, has saved for six years to buy land on which to build her first home.
+        weight: essential
+        kind: party
+        issues:
+          - council-duty
+          - distinguish
+        why: One identified individual buyer, not a class (contrast Esanda), and vulnerable if misinformed.
+      - text: In March she found a vacant lot in Riverbend, a growing regional town in NSW, listed for sale by Coastline Realty Pty Ltd.
+        weight: essential
+        kind: relationship
+        issues:
+          - acl
+        why: 'An agency marketing land for sale acts in trade or commerce: the gateway to ACL s 18.'
+      - text: 'The agency''s printed brochure said: "No road-widening or planning proposals affect this lot — ready to build."'
+        weight: essential
+        kind: statement
+        issues:
+          - acl
+        why: 'A false statement of present fact: misleading, whatever the agency believed.'
+      - text: Before signing the contract, Mei telephoned Riverbend Shire Council's planning counter.
+        weight: essential
+        kind: conduct
+        issues:
+          - council-duty
+        why: She asked the Council, the only source of the information, before committing herself, as in Shaddock.
+      - text: She explained that she was about to buy the lot to build a house and asked whether any road-widening proposal affected it.
+        weight: essential
+        kind: statement
+        issues:
+          - council-duty
+          - distinguish
+        why: The Council knew her purpose and that she would rely on the answer (contrast Tepko).
+      - text: The officer looked at a screen and said, "No, nothing on that lot."
+        weight: essential
+        kind: statement
+        issues:
+          - council-duty
+          - distinguish
+        why: A statement of present fact, not a prediction (contrast San Sebastian).
+      - text: Mei asked for confirmation in writing
+        weight: essential
+        kind: conduct
+        issues:
+          - council-duty
+          - causation
+        why: Shows real reliance before buying, and answers any doubt about relying on a phone call alone.
+      - text: and two days later received a signed letter on Council letterhead stating that no road-widening proposal affected the land.
+        weight: essential
+        kind: statement
+        issues:
+          - council-duty
+        why: 'A considered written statement on letterhead: the Council assumed responsibility for its accuracy, as in Shaddock.'
+      - text: In fact, four months earlier the Council had resolved to widen the adjoining road, taking a six-metre strip from the front of the lot.
+        weight: essential
+        kind: context
+        issues:
+          - council-duty
+          - breach
+        why: The statement was false, and the true position sat in the Council's own records.
+      - text: The resolution had been entered in the Council's road register
+        weight: essential
+        kind: context
+        issues:
+          - breach
+          - distinguish
+        why: The Council could find the answer easily; Mei could not check the register herself.
+      - text: but the officer answered from a different database and did not check the register
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+        why: 'The careless act: a reasonable council would have checked its own register.'
+      - text: although the Council's own procedure manual told staff to do so.
+        weight: essential
+        kind: context
+        issues:
+          - breach
+          - part5
+        why: Its own procedure was not followed, so s 42 offers no shelter.
+      - text: At a neighbour's barbecue the weekend before she signed
+        weight: essential
+        kind: context
+        issues:
+          - grant
+        why: 'A social occasion: Lord Reid in Hedley Byrne excludes casual advice given on such occasions.'
+      - text: Mei mentioned the lot to Grant, a retired surveyor she had just met.
+        weight: essential
+        kind: relationship
+        issues:
+          - grant
+        why: A new acquaintance, retired, with no undertaking to apply his skill and not in trade or commerce.
+      - text: 'Between sausages, Grant said: "Riverbend''s a good spot — I''d buy it if I were you.'
+        weight: essential
+        kind: statement
+        issues:
+          - grant
+        why: 'An offhand opinion, not considered advice: no assumption of responsibility.'
+      - text: I can't see the council touching that road for years."
+        weight: essential
+        kind: statement
+        issues:
+          - grant
+          - distinguish
+        why: A prediction about the future, not a statement of present fact (compare San Sebastian).
+      - text: Mei paid $410,000.
+        weight: essential
+        kind: context
+        issues:
+          - pel
+          - causation
+        why: 'The price paid on the strength of the information: the starting point for her loss.'
+      - text: Two months after settlement the road-widening was publicly notified.
+        weight: background
+        kind: timing
+      - text: A valuer says the lot is now worth $290,000 and is too shallow for the house Mei planned.
+        weight: essential
+        kind: harm
+        issues:
+          - pel
+        why: 'A fall in value with no physical damage: pure economic loss, so foreseeability alone is not enough.'
+      - text: Mei says she would never have bought the lot had she known.
+        weight: essential
+        kind: statement
+        issues:
+          - causation
+        why: Her after-the-event statement is inadmissible under s 5D(3)(b); her earlier conduct must prove what she would have done.
+      - text: Coastline Realty says it honestly repeated what the vendor had told it and checked nothing itself.
+        weight: essential
+        kind: statement
+        issues:
+          - acl
+        why: 'Honesty is no answer to s 18: misleading conduct needs no intention or negligence.'
+      - text: Advise Mei whether she can recover her $120,000 loss from the Council, from Grant, or from Coastline Realty.
+        weight: background
+        kind: context
+        issues:
+          - pel
+  - question: laws2400-w00-q014
+    parties:
+      - name: Greenvale Shire Council
+        role: owner and manager of Wattle Park; defendant
+      - name: Leo
+        role: six-year-old injured on the climbing frame; plaintiff
+      - name: Rosa
+        role: Leo's mother; target of the Council's contribution claim
+    issues:
+      - id: authority
+        label: 'Public authority and occupier: an operational complaint'
+        concept: laws2400-w08-public-authorities-as-defendants
+      - id: common-law
+        label: 'Common law duty: control and knowledge'
+        concept: laws2400-w08-control-and-vulnerability-graham-barclay-and-amaca
+      - id: s42
+        label: 'CLA s 42: resources and the replacement plan'
+        concept: laws2400-w08-cla-part-5-public-authorities
+      - id: s43-46
+        label: CLA ss 43, 43A, 44 and 46
+        concept: laws2400-w08-cla-part-5-public-authorities
+      - id: breach
+        label: 'Breach: s 5B(1) and (2)'
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: causation
+        label: 'Causation and scope of liability: s 5D'
+        concept: laws2400-w10-common-sense-causation-and-s5d
+      - id: contribution
+        label: 'Contribution: is Rosa liable for the same damage?'
+        concept: laws2400-w10-contribution-between-tortfeasors
+      - id: hahn
+        label: Rosa's duty to Leo (Hahn v Conley) and causation
+        concept: laws2400-w08-children-parents-and-the-unborn
+    facts:
+      - text: Greenvale Shire Council owns and manages Wattle Park, a public park with a children's playground.
+        weight: essential
+        kind: relationship
+        issues:
+          - authority
+          - common-law
+        why: 'A council that owns and controls the park: a public authority and also its occupier.'
+      - text: The playground's steel climbing frame, installed in 1998, has a platform two metres above rubber matting.
+        weight: essential
+        kind: context
+        issues:
+          - breach
+          - s42
+        why: 'A two-metre platform used by children: a fall risks serious harm. Built before 2000, so within the plan.'
+      - text: The Council's written playground policy requires a safety inspection of every playground each quarter.
+        weight: essential
+        kind: context
+        issues:
+          - s42
+          - common-law
+        why: The Council's own procedure (s 42(d)), and the source of its knowledge of defects.
+      - text: 'In June, the Council''s inspector wrote on the Wattle Park inspection sheet: "Top platform bolt badly corroded — platform moves under load — URGENT repair."'
+        weight: essential
+        kind: statement
+        issues:
+          - common-law
+          - breach
+        why: 'Actual knowledge of a specific, serious defect: the risk was foreseeable and not insignificant.'
+      - text: The sheet went to the Council's works depot, where repairs were scheduled in the order requests arrived.
+        weight: essential
+        kind: conduct
+        issues:
+          - authority
+          - s42
+        why: 'An urgent report put in the ordinary queue: an operational failure, not a policy choice.'
+      - text: The depot manager says the year's playground maintenance budget had been spent by May.
+        weight: essential
+        kind: statement
+        issues:
+          - s42
+        why: 'The resources argument under s 42(a): it cannot explain failing to take cheap interim steps.'
+      - text: No warning sign was put up and no barrier tape was placed around the frame
+        weight: essential
+        kind: conduct
+        issues:
+          - authority
+          - breach
+        why: 'The real complaint: no interim steps once the danger was known.'
+      - text: although either would have taken a worker a few minutes and cost very little.
+        weight: essential
+        kind: context
+        issues:
+          - breach
+          - s42
+        why: 'A trivial burden of precautions under s 5B(2)(c): the budget does not explain the omission.'
+      - text: Two years earlier, the Council had adopted a ten-year plan to replace all 46 of its playgrounds built before 2000, starting with the busiest parks.
+        weight: essential
+        kind: context
+        issues:
+          - s42
+          - authority
+        why: 'A policy-level allocation of resources (s 42(b)): cannot be attacked, but it is not the complaint.'
+      - text: Wattle Park was scheduled for year seven.
+        weight: background
+        kind: timing
+        issues:
+          - s42
+      - text: In August
+        weight: essential
+        kind: timing
+        issues:
+          - breach
+        why: Two months after the urgent report, still with nothing done.
+      - text: Rosa took her six-year-old son, Leo, to Wattle Park.
+        weight: essential
+        kind: relationship
+        issues:
+          - hahn
+        why: 'A parent supervising her child: whether she owed Leo a duty is the Hahn v Conley question.'
+      - text: She sat on a bench about fifteen metres from the frame, answering work emails on her phone.
+        weight: essential
+        kind: conduct
+        issues:
+          - hahn
+          - contribution
+        why: Inattentive, but she did not lead Leo into danger and could not have seen the defect.
+      - text: Leo climbed to the top platform.
+        weight: essential
+        kind: conduct
+        issues:
+          - causation
+        why: 'Ordinary use of the frame by a child: the use the Council should have stopped by closing it.'
+      - text: As he stepped onto it, the corroded bolt sheared, the platform tipped
+        weight: essential
+        kind: context
+        issues:
+          - causation
+        why: 'The very defect the inspector reported caused the fall: within scope of liability.'
+      - text: and Leo fell onto the matting, fracturing his wrist and elbow.
+        weight: essential
+        kind: harm
+        issues:
+          - causation
+        why: Physical injury of the kind the inspector foresaw.
+      - text: Nothing about the bolt was visible from the ground.
+        weight: essential
+        kind: context
+        issues:
+          - hahn
+          - contribution
+          - common-law
+        why: Rosa could not have seen the danger, so watching Leo would not have prevented the fall.
+      - text: Leo sues the Council in negligence.
+        weight: background
+        kind: context
+      - text: The Council says that it owed Leo no duty
+        weight: essential
+        kind: statement
+        issues:
+          - common-law
+        why: A denial of duty; control, knowledge and children's inability to protect themselves point the other way.
+      - text: that the Civil Liability Act 2002 (NSW) protects it because it had no money left for repairs and a sensible replacement plan
+        weight: essential
+        kind: statement
+        issues:
+          - s42
+          - s43-46
+        why: 'The Part 5 argument: resources and the plan do not answer the failure to tape off the frame.'
+      - text: and that in any event Rosa, who was "glued to her phone", should contribute to any damages it has to pay.
+        weight: essential
+        kind: statement
+        issues:
+          - contribution
+          - hahn
+        why: 'Contribution needs Rosa to be a tortfeasor liable for the same damage: duty, breach and causation.'
+      - text: Advise Leo on his claim against the Council, and advise the Council on its claim against Rosa.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q015
+    parties:
+      - name: Swift Parcels Pty Ltd
+        role: Daniel's employer; accepts liability; defendant
+      - name: Daniel
+        role: courier employed by Swift Parcels
+      - name: Ines
+        role: cyclist and professional cellist; plaintiff
+      - name: Dr Hale
+        role: hospital registrar who missed a fracture; possible contributor
+    issues:
+      - id: causation
+        label: 'Causation: s 5D(1)(a) met for every harm; scope under s 5D(1)(b) and (4)'
+        concept: laws2400-w11-scope-of-liability-decision-flow
+      - id: eggshell
+        label: 'The hip fracture and lost earnings: remoteness and the egg-shell skull rule'
+        concept: laws2400-w11-egg-shell-skull-rule
+      - id: hale
+        label: 'Dr Hale''s missed fracture: a subsequent negligent act'
+        concept: laws2400-w11-subsequent-negligent-acts
+      - id: wedding
+        label: 'The wedding fall: volitional act or contributory negligence (s 5R)?'
+        concept: laws2400-w11-novus-actus-volitional-acts-and-coincidences
+      - id: collarbone
+        label: 'The collarbone: coincidence (Haber v Walker)'
+        concept: laws2400-w11-novus-actus-volitional-acts-and-coincidences
+      - id: contribution
+        label: Contribution from Dr Hale and its effect on Ines
+        concept: laws2400-w10-contribution-between-tortfeasors
+    facts:
+      - text: Daniel, a courier employed by Swift Parcels Pty Ltd
+        weight: background
+        kind: relationship
+      - text: reversed his van out of a loading dock onto a busy city street without checking his mirrors or his reversing camera.
+        weight: essential
+        kind: conduct
+        issues:
+          - causation
+        why: Careless conduct; breach is conceded, so this only sets up causation.
+      - text: He struck Ines, who was riding past in the marked bicycle lane.
+        weight: essential
+        kind: conduct
+        issues:
+          - causation
+          - eggshell
+        why: 'Impact with a cyclist: personal injury is the foreseeable kind of harm (The Wagon Mound (No 1)).'
+      - text: Swift Parcels accepts that Daniel was negligent and that it is liable for his negligence.
+        weight: essential
+        kind: statement
+        issues:
+          - causation
+        why: 'Duty, breach and vicarious liability conceded: the dispute is only which harms Swift answers for.'
+      - text: Ines fell heavily onto her left side.
+        weight: background
+        kind: conduct
+      - text: Unknown to anyone, she has an inherited condition that makes her bones more brittle than average
+        weight: essential
+        kind: context
+        issues:
+          - eggshell
+        why: 'A hidden pre-existing vulnerability: the egg-shell skull rule makes Swift take Ines as it finds her.'
+      - text: where most cyclists would have been bruised, she fractured her hip.
+        weight: essential
+        kind: harm
+        issues:
+          - eggshell
+        why: Worse than expected, but the kind was foreseeable, so the extent need not be (Hughes v Lord Advocate).
+      - text: Ines is a professional cellist with a long-term orchestra contract
+        weight: essential
+        kind: party
+        issues:
+          - eggshell
+        why: 'A high earning capacity: Swift takes her earnings as it finds them, like her brittle bones.'
+      - text: so her lost earnings are far higher than an average worker's would be.
+        weight: essential
+        kind: harm
+        issues:
+          - eggshell
+        why: The full income loss is recoverable, not an average worker's.
+      - text: At hospital, Dr Hale, a registrar finishing a double shift
+        weight: essential
+        kind: context
+        issues:
+          - hale
+        why: 'An error by a tired doctor treating the injury Swift caused: not an extraordinary intervention.'
+      - text: failed to notice a second, smaller fracture of the pelvis on Ines's X-rays.
+        weight: essential
+        kind: conduct
+        issues:
+          - hale
+        why: 'Negligent treatment of the original injury: does not necessarily break the chain (Mahony; Burns v Pearce).'
+      - text: Dr Hale accepts that a competent registrar would have seen it.
+        weight: essential
+        kind: statement
+        issues:
+          - hale
+          - contribution
+        why: 'Dr Hale is also negligent, so both are liable for the displacement: contribution is available.'
+      - text: Ines was sent home on crutches.
+        weight: background
+        kind: context
+      - text: A week later, the undiagnosed fracture displaced as she walked to her bathroom
+        weight: essential
+        kind: harm
+        issues:
+          - hale
+        why: Follows in the ordinary course from the original injury and the missed diagnosis (March v Stramare).
+      - text: requiring a second operation and adding four months to her recovery.
+        weight: essential
+        kind: harm
+        issues:
+          - hale
+          - contribution
+        why: 'The extra harm for which Swift and Dr Hale are both liable: the subject of contribution.'
+      - text: Six weeks after that, Ines went to a friend's wedding.
+        weight: background
+        kind: timing
+      - text: Her surgeon had told her clearly, in person and in writing, not to walk without crutches for another month.
+        weight: essential
+        kind: statement
+        issues:
+          - wedding
+        why: 'Clear, informed instructions: her later choice was made knowing the risk.'
+      - text: She left the crutches at home
+        weight: essential
+        kind: conduct
+        issues:
+          - wedding
+        why: 'A deliberate, informed decision to defy medical advice: a voluntary act that may break the chain.'
+      - text: because they "ruined the photos"
+        weight: essential
+        kind: mental
+        issues:
+          - wedding
+        why: 'A trivial reason for running a known risk: a break in the chain, or a heavy reduction under s 5R.'
+      - text: slipped on the reception venue's stairs, and re-fractured her hip.
+        weight: essential
+        kind: harm
+        issues:
+          - wedding
+        why: 'The re-fracture: inside or outside the scope of Swift''s liability?'
+      - text: Finally, while Ines was in hospital after a third operation
+        weight: background
+        kind: timing
+      - text: a freak storm brought down a large tree onto the ward roof
+        weight: essential
+        kind: context
+        issues:
+          - collarbone
+        why: 'A causally independent, extremely unlikely coincidence: breaks the chain (Haber v Walker).'
+      - text: and falling debris broke her collarbone.
+        weight: essential
+        kind: harm
+        issues:
+          - collarbone
+        why: But-for causation is met, yet coincidence puts this harm outside the scope of liability.
+      - text: Ines sues Swift Parcels for all of her injuries and losses.
+        weight: essential
+        kind: context
+        issues:
+          - causation
+        why: Each harm must be tested separately for scope of liability.
+      - text: Advise Swift Parcels on the extent of its liability, and on whether it can recover any part of what it pays from Dr Hale.
+        weight: background
+        kind: context
+        issues:
+          - causation
+          - contribution
+  - question: laws2400-w00-q016
+    parties:
+      - name: Apex Civil Pty Ltd
+        role: building company that broke the water main and built the Penrith house; defendant
+      - name: Crumb & Co
+        role: bakery in Unit 3; plaintiff
+      - name: FreshPak
+        role: food-packing business in Unit 7; plaintiff
+      - name: Linehaul Freight
+        role: trucking firm; one of FreshPak's carriers; plaintiff
+      - name: Hannah
+        role: subsequent owner of the Penrith house; plaintiff
+    issues:
+      - id: classify
+        label: 'Classifying each loss: property damage, consequential or pure economic loss'
+        concept: laws2400-w07-pure-economic-loss-and-policy
+      - id: perre
+        label: 'McHugh J''s Perre questions: Crumb & Co and FreshPak'
+        concept: laws2400-w07-pel-caused-by-acts-perre-and-caltex
+      - id: caltex
+        label: Caltex Oil as supporting precedent
+        concept: laws2400-w07-pel-caused-by-acts-perre-and-caltex
+      - id: linehaul
+        label: Linehaul Freight's claim
+        concept: laws2400-w07-pel-caused-by-acts-perre-and-caltex
+      - id: breach
+        label: Breach and causation, briefly (ss 5B and 5D)
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: dbpa
+        label: 'Hannah: DBPA ss 36, 37, 39 and 40'
+        concept: laws2400-w07-defective-structures-and-the-dbpa
+      - id: common-law
+        label: Hannah at common law (Bryan v Maloney; Woolcock)
+        concept: laws2400-w07-defective-structures-and-the-dbpa
+    facts:
+      - text: Apex Civil Pty Ltd, a building company, was excavating foundations on a vacant block inside the Kestrel Business Park
+        weight: background
+        kind: party
+      - text: a small estate of twelve units on a private road in western Sydney.
+        weight: essential
+        kind: context
+        issues:
+          - perre
+          - caltex
+        why: 'A small, identifiable group of twelve units: no indeterminacy, as in Perre and Caltex.'
+      - text: Its excavator operator ignored the service plans he had been given and drove the bucket through the estate's only water main.
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+          - perre
+        why: 'Careless despite having the plans: clear breach, and Apex knew where the main ran and whom it served.'
+      - text: All twelve units lost their water supply for six days while the pipe was replaced.
+        weight: essential
+        kind: harm
+        issues:
+          - perre
+          - classify
+        why: 'Loss confined to a known, ascertainable class: the units on the main.'
+      - text: Three businesses affected now want compensation from Apex
+        weight: background
+        kind: context
+      - text: Crumb & Co runs a bakery in Unit 3.
+        weight: background
+        kind: party
+      - text: It could not operate without water and closed for six days, losing $18,000 in profits.
+        weight: essential
+        kind: harm
+        issues:
+          - classify
+          - perre
+        why: 'Lost profits with no damage to its property: pure economic loss, so the Perre questions decide duty.'
+      - text: Nothing it owned was damaged.
+        weight: essential
+        kind: context
+        issues:
+          - classify
+        why: Confirms the loss is purely economic.
+      - text: FreshPak runs a food-packing business in Unit 7.
+        weight: background
+        kind: party
+      - text: When the main was struck, FreshPak's water-cooled refrigeration plant shut down overnight and $9,000 of chilled stock spoiled.
+        weight: essential
+        kind: harm
+        issues:
+          - classify
+        why: 'Physical damage to its property: recoverable on ordinary principles without any special duty analysis.'
+      - text: FreshPak also closed for six days, losing $25,000 in profits.
+        weight: essential
+        kind: harm
+        issues:
+          - classify
+          - perre
+          - caltex
+        why: 'Profits lost through the closure, not the spoiled stock: pure economic loss needing the Perre analysis.'
+      - text: Linehaul Freight operates a trucking depot ten kilometres away.
+        weight: essential
+        kind: context
+        issues:
+          - linehaul
+        why: Remote from the estate and outside the class served by the main.
+      - text: FreshPak is one of its forty customers.
+        weight: essential
+        kind: relationship
+        issues:
+          - linehaul
+        why: 'A customer of a customer: liability for such ripple losses would be indeterminate.'
+      - text: Linehaul's trucks assigned to FreshPak sat idle for six days because FreshPak had nothing to ship, and Linehaul lost $14,000.
+        weight: essential
+        kind: harm
+        issues:
+          - linehaul
+          - classify
+        why: 'Economic loss one step removed: no known class or vulnerability, so no duty.'
+      - text: Separately, three years ago Apex built a house in Penrith for the Lo family.
+        weight: essential
+        kind: relationship
+        issues:
+          - dbpa
+          - common-law
+        why: 'Construction work on a dwelling: within the DBPA s 37 duty, and the Bryan v Maloney setting.'
+      - text: Apex's site supervisor allowed the footings to be poured without the soil compaction that the engineer's design required.
+        weight: essential
+        kind: conduct
+        issues:
+          - dbpa
+          - breach
+        why: Supervision is construction work (s 36); departing from the design is a failure of reasonable care, and non-delegable (s 39).
+      - text: Last year the Los sold the house to Hannah, a schoolteacher.
+        weight: essential
+        kind: relationship
+        issues:
+          - dbpa
+          - common-law
+        why: 'A subsequent owner: the s 37 duty is owed to her despite no contract.'
+      - text: The defect could not be seen, and Hannah's pre-purchase inspection did not reveal it.
+        weight: essential
+        kind: context
+        issues:
+          - common-law
+          - dbpa
+        why: 'A latent defect she could not guard against: the homeowner vulnerability stressed in Bryan v Maloney.'
+      - text: Six months after she moved in, cracks opened across the internal walls.
+        weight: essential
+        kind: harm
+        issues:
+          - dbpa
+        why: The defect shows itself, as in Bryan v Maloney.
+      - text: An engineer estimates that underpinning the footings will cost $85,000.
+        weight: essential
+        kind: harm
+        issues:
+          - classify
+          - dbpa
+        why: 'The cost of fixing a defect: pure economic loss, recoverable under s 37.'
+      - text: Hannah has no contract with Apex.
+        weight: essential
+        kind: relationship
+        issues:
+          - common-law
+          - dbpa
+        why: 'She needs a duty in tort: start with DBPA s 37, then Bryan v Maloney at common law.'
+      - text: Apex says that it never dealt with any of these people
+        weight: essential
+        kind: statement
+        issues:
+          - perre
+          - dbpa
+        why: 'No dealings are needed: the Perre duty and s 37 do not depend on contract.'
+      - text: and that it owes nothing for "mere financial losses".
+        weight: essential
+        kind: statement
+        issues:
+          - classify
+          - perre
+        why: Pure economic loss is recoverable where the salient features support a duty.
+      - text: Advise Crumb & Co, FreshPak, Linehaul Freight and Hannah.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q017
+    parties:
+      - name: Jordan
+        role: passenger injured when the boat flipped; plaintiff
+      - name: Tariq
+        role: drunk driver of the speedboat; defendant
+    issues:
+      - id: volenti
+        label: 'Voluntary assumption of risk: the specific risk that materialised'
+        concept: laws2400-w12-voluntary-assumption-of-risk
+      - id: volenti-limits
+        label: Courts' reluctance, and the statutory exclusion for passengers of intoxicated drivers
+        concept: laws2400-w12-volenti-and-legislation
+      - id: s5r
+        label: 'Contributory negligence (s 5R): boarding and the life jacket'
+        concept: laws2400-w12-contributory-negligence-apportionment-and-standard
+      - id: s50
+        label: 'Intoxication: CLA s 50 in order'
+        concept: laws2400-w12-intoxicated-plaintiff-cla-s50
+      - id: apportion
+        label: Apportionment under s 9(1) (Pennington v Norris)
+        concept: laws2400-w12-contributory-negligence-apportionment-and-standard
+      - id: illegality
+        label: 'Illegality: Gala v Preston and Progress & Properties v Craft'
+        concept: laws2400-w12-illegality-defence
+    facts:
+      - text: Tariq and his friend Jordan, both 22, spent a Saturday afternoon drinking at a lakeside party.
+        weight: essential
+        kind: relationship
+        issues:
+          - s50
+        why: 'Two adults drinking for hours: Jordan''s own intoxication brings in s 50.'
+      - text: By 9 pm Tariq had drunk about eight beers and Jordan about six.
+        weight: essential
+        kind: context
+        issues:
+          - s50
+          - s5r
+          - apportion
+        why: 'Both intoxicated, Tariq more so: relevant to s 50 and to comparing their responsibility.'
+      - text: Tariq suggested that they take his father's speedboat across the lake to a commercial fish farm on the far shore and "help ourselves" to fish from the farm's holding pens to cook at the party.
+        weight: essential
+        kind: statement
+        issues:
+          - illegality
+        why: 'A plan to steal fish: the illegal purpose of the trip.'
+      - text: Jordan agreed.
+        weight: essential
+        kind: conduct
+        issues:
+          - illegality
+        why: Jordan joins a joint illegal enterprise.
+      - text: On the jetty, Jordan watched Tariq drop the ignition key twice and stumble climbing aboard.
+        weight: essential
+        kind: context
+        issues:
+          - volenti
+          - s5r
+        why: 'Jordan saw plain signs of Tariq''s drunkenness: knowledge relevant to volenti and his own care.'
+      - text: He said, "You're wasted, mate — just go slow,"
+        weight: essential
+        kind: statement
+        issues:
+          - volenti
+        why: 'Jordan knew Tariq was drunk but asked him to go slow: no acceptance of a high-speed risk.'
+      - text: and got in.
+        weight: essential
+        kind: conduct
+        issues:
+          - s5r
+          - volenti-limits
+        why: 'Boarding with a driver he knew was drunk: careless for his own safety, the argument courts rarely treat as volenti.'
+      - text: Tariq offered him a life jacket; Jordan refused it, saying he was "not a kid".
+        weight: essential
+        kind: conduct
+        issues:
+          - s5r
+        why: Careless, but only relevant if it contributed to the injuries.
+      - text: Once they were out on the water, Tariq switched off the navigation lights
+        weight: essential
+        kind: conduct
+        issues:
+          - volenti
+          - illegality
+        why: 'A new risk Jordan never accepted on the jetty: driving dark across the lake.'
+      - text: so that the farm's caretaker would not see them coming
+        weight: essential
+        kind: mental
+        issues:
+          - illegality
+        why: 'The lights were off to further the theft: the negligence is bound up with the illegal plan.'
+      - text: and drove across the dark lake at high speed.
+        weight: essential
+        kind: conduct
+        issues:
+          - volenti
+          - apportion
+        why: 'High speed, against Jordan''s ''go slow'': not the risk he accepted, and Tariq''s share of fault grows.'
+      - text: Halfway across he struck a marker buoy that he would ordinarily have seen and steered around.
+        weight: essential
+        kind: conduct
+        issues:
+          - volenti
+        why: 'The precise risk that materialised: volenti requires full knowledge and acceptance of it.'
+      - text: The boat flipped.
+        weight: background
+        kind: context
+      - text: Jordan was thrown against the hull and into the water, breaking his leg and fracturing his skull.
+        weight: essential
+        kind: harm
+        issues:
+          - s50
+        why: Jordan would likely have suffered these injuries even if sober, so s 50(2) does not bar damages.
+      - text: Tariq pulled him to the shore.
+        weight: background
+        kind: conduct
+      - text: The medical evidence is that a life jacket would not have prevented either injury.
+        weight: essential
+        kind: context
+        issues:
+          - s5r
+        why: 'No causal link: the refusal cannot reduce damages for these injuries.'
+      - text: They never reached the fish farm.
+        weight: essential
+        kind: context
+        issues:
+          - illegality
+        why: 'Not decisive: the question is whether the joint illegality makes a standard of care inappropriate.'
+      - text: Jordan sues Tariq in negligence.
+        weight: background
+        kind: context
+      - text: Tariq accepts that he owed Jordan a duty of care and that he drove carelessly
+        weight: essential
+        kind: statement
+        issues:
+          - volenti
+          - s5r
+          - illegality
+        why: 'Duty and breach conceded: the answer turns on the three defences.'
+      - text: but he argues
+        weight: background
+        kind: context
+      - text: (a) that Jordan voluntarily accepted the risk of being hurt when he got into the boat knowing Tariq was drunk
+        weight: essential
+        kind: statement
+        issues:
+          - volenti
+          - volenti-limits
+        why: 'Volenti: Jordan must have known and accepted the specific risk that materialised.'
+      - text: (b) that Jordan's damages should be reduced because of his own conduct, including his drinking and his refusal to wear a life jacket
+        weight: essential
+        kind: statement
+        issues:
+          - s5r
+          - s50
+          - apportion
+        why: 'Contributory negligence and s 50: each reduction needs a causal link to the injuries.'
+      - text: (c) that Jordan cannot recover at all because they were on their way to steal fish together.
+        weight: essential
+        kind: statement
+        issues:
+          - illegality
+        why: 'Illegality: is it inappropriate to set a standard of care between joint offenders (Gala v Preston)?'
+      - text: Advise Jordan.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q018
+    parties:
+      - name: Bianca
+        role: landlord of the terrace house
+      - name: The Okafors
+        role: tenants and occupiers; parents of Chidi
+      - name: Sam
+        role: Mr Okafor's friend injured when the balustrade gave way; plaintiff
+      - name: Chidi
+        role: the Okafors' thirteen-year-old son
+      - name: Mr Patel
+        role: neighbour hit in the eye by a stone; plaintiff
+      - name: Kyle
+        role: uninvited sixteen-year-old who climbed the fence; plaintiff
+    issues:
+      - id: landlord-duty
+        label: Bianca's duty to Sam (Cavalier v Pope, Northern Sandblasting, Jones v Bartlett)
+        concept: laws2400-w08-landlords-occupiers-and-trespassers
+      - id: landlord-breach
+        label: 'Bianca''s breach: s 5B, distinguishing Jones v Bartlett'
+        concept: laws2400-w08-landlords-occupiers-and-trespassers
+      - id: okafors-sam
+        label: The Okafors as occupiers, and two defendants
+        concept: laws2400-w08-landlords-occupiers-and-trespassers
+      - id: patel
+        label: 'Mr Patel''s claim: Smith v Leurs'
+        concept: laws2400-w08-children-parents-and-the-unborn
+      - id: kyle
+        label: 'Kyle: the trespasser position (Cardy)'
+        concept: laws2400-w08-landlords-occupiers-and-trespassers
+      - id: s5r
+        label: 'Contributory negligence: Sam and Kyle (s 5R)'
+        concept: laws2400-w12-contributory-negligence-apportionment-and-standard
+    facts:
+      - text: Bianca owns a two-storey terrace house in Newtown, which she leases to the Okafor family.
+        weight: essential
+        kind: relationship
+        issues:
+          - landlord-duty
+        why: 'A residential landlord: owes entrants a duty (Northern Sandblasting; Jones v Bartlett), despite Cavalier v Pope.'
+      - text: 'In the condition report the Okafors returned at the start of the lease, they wrote: "Rear balcony balustrade loose — moves when leaned on."'
+        weight: essential
+        kind: statement
+        issues:
+          - landlord-breach
+        why: Written notice of a specific, dangerous defect from the start of the lease.
+      - text: Bianca read the report.
+        weight: essential
+        kind: mental
+        issues:
+          - landlord-breach
+        why: Actual knowledge of the defect, unlike Jones v Bartlett where no defect was apparent.
+      - text: When Mrs Okafor emailed reminders in April and again in June
+        weight: essential
+        kind: statement
+        issues:
+          - landlord-breach
+        why: 'Repeated reminders: the risk was known and continuing.'
+      - text: Bianca replied that she would "get someone to look at it after winter".
+        weight: essential
+        kind: statement
+        issues:
+          - landlord-breach
+        why: 'Putting off repair of a known hazard: a reasonable landlord would have fixed or secured it.'
+      - text: The Okafors told their own family to keep off the balcony
+        weight: essential
+        kind: conduct
+        issues:
+          - okafors-sam
+        why: 'The Okafors knew of the danger too: they owe entrants a duty as occupiers.'
+      - text: but put up no sign and left the balcony door unlocked.
+        weight: essential
+        kind: conduct
+        issues:
+          - okafors-sam
+        why: 'No warning to guests and open access: an arguable breach by the Okafors.'
+      - text: In July the Okafors held a party for their son Chidi's thirteenth birthday.
+        weight: background
+        kind: context
+      - text: Sam, a friend of Mr Okafor visiting the house for the first time
+        weight: essential
+        kind: party
+        issues:
+          - okafors-sam
+          - s5r
+        why: A lawful entrant with no reason to suspect the balustrade was unsafe.
+      - text: stepped out onto the balcony and leaned against the balustrade while talking.
+        weight: essential
+        kind: conduct
+        issues:
+          - s5r
+        why: 'Ordinary use of a balustrade: hard to call this careless for his own safety.'
+      - text: It gave way and he fell three metres onto the paving below, breaking his pelvis.
+        weight: essential
+        kind: harm
+        issues:
+          - landlord-breach
+          - okafors-sam
+        why: The very risk the condition report described.
+      - text: For his birthday the Okafors had given Chidi a sling shot.
+        weight: essential
+        kind: conduct
+        issues:
+          - patel
+        why: The parents supplied the dangerous object, as in Smith v Leurs.
+      - text: Twice in the previous week they had watched him fire stones over the back fence towards the neighbour's yard
+        weight: essential
+        kind: context
+        issues:
+          - patel
+        why: 'They knew he was firing stones towards the neighbour''s yard: the risk was foreseeable.'
+      - text: each time they laughed and said nothing.
+        weight: essential
+        kind: conduct
+        issues:
+          - patel
+        why: 'No step at all to control Chidi: unlike Smith v Leurs, where the parents had forbidden such use.'
+      - text: During the party Chidi fired another stone over the fence.
+        weight: essential
+        kind: conduct
+        issues:
+          - patel
+        why: The very conduct they had seen and failed to stop.
+      - text: It struck the neighbour, Mr Patel, in the eye as he hung out his washing, permanently damaging his sight.
+        weight: essential
+        kind: harm
+        issues:
+          - patel
+        why: Serious injury of the kind the misuse threatened.
+      - text: Late that night Kyle, a sixteen-year-old who had not been invited
+        weight: essential
+        kind: party
+        issues:
+          - kyle
+        why: 'An uninvited entrant: a trespasser, which affects but does not remove the duty (Cardy).'
+      - text: climbed over the Okafors' side fence in the dark to get into the party.
+        weight: essential
+        kind: conduct
+        issues:
+          - kyle
+          - s5r
+        why: 'Climbing a fence in the dark: a trespass, and arguably careless for his own safety.'
+      - text: He dropped onto a stack of loose pavers the Okafors had left against the inside of the fence after a garden project.
+        weight: essential
+        kind: context
+        issues:
+          - kyle
+        why: 'A hazard the Okafors created: was an entrant over that fence foreseeable?'
+      - text: The stack toppled and Kyle broke his ankle.
+        weight: essential
+        kind: harm
+        issues:
+          - kyle
+        why: Physical injury from the hazard the Okafors left.
+      - text: Advise Sam, Mr Patel and Kyle whom they can sue in negligence, and with what prospects.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q019
+    parties:
+      - name: Harlow & Finch
+        role: Solace's auditors; defendant
+      - name: Northpoint Capital
+        role: investment fund that lent to Solace; plaintiff
+      - name: Ken
+        role: Harlow & Finch audit partner who emailed Walter
+      - name: Ruby
+        role: Solace's founder; Walter's niece
+      - name: Walter
+        role: retired bus driver who bought Solace shares; plaintiff
+    issues:
+      - id: framework
+        label: 'Pure economic loss: Hedley Byrne and the Esanda framework'
+        concept: laws2400-w07-esanda-and-misstatement-salient-features
+      - id: northpoint
+        label: 'Northpoint: Esanda and McHugh J''s policy reasons'
+        concept: laws2400-w07-esanda-and-misstatement-salient-features
+      - id: anchorage
+        label: Was Northpoint vulnerable? (Anchorage)
+        concept: laws2400-w07-disclaimers-and-vulnerability
+      - id: walter
+        label: 'Walter: weighing the salient features'
+        concept: laws2400-w07-esanda-and-misstatement-salient-features
+      - id: disclaimer
+        label: The email footer as a disclaimer
+        concept: laws2400-w07-disclaimers-and-vulnerability
+      - id: warning
+        label: 'The summary-pages remark: a warning going to reasonable reliance'
+        concept: laws2400-w07-disclaimers-and-vulnerability
+      - id: breach-causation
+        label: Breach and causation, including s 5D(3)
+        concept: laws2400-w10-common-sense-causation-and-s5d
+      - id: acl
+        label: ACL s 18
+        concept: laws2400-w07-acl-s18-misleading-or-deceptive-conduct
+    facts:
+      - text: Harlow & Finch, a firm of chartered accountants, audits the annual accounts of Solace Wellness Pty Ltd, which runs a chain of day spas.
+        weight: essential
+        kind: relationship
+        issues:
+          - framework
+          - northpoint
+        why: 'Auditors with special skill, but their audit is for the company and its shareholders: Esanda''s starting point.'
+      - text: Its audit report on last year's accounts was addressed, as usual, to Solace's shareholders.
+        weight: essential
+        kind: context
+        issues:
+          - northpoint
+        why: 'Addressed to shareholders, not lenders: the report was not made for Northpoint.'
+      - text: Harlow & Finch negligently failed to detect that Solace's managers had recorded $2 million of unused gift-card sales as earned income
+        weight: essential
+        kind: conduct
+        issues:
+          - breach-causation
+        why: 'A negligent audit: breach is given, so the real question is duty to each plaintiff.'
+      - text: turning a loss into an apparent profit.
+        weight: essential
+        kind: context
+        issues:
+          - framework
+        why: 'The audited accounts were materially false: the misstatement both plaintiffs relied on.'
+      - text: In February, Solace's chief executive gave a copy of the audited accounts to Northpoint Capital, an investment fund considering a $3 million loan to Solace.
+        weight: essential
+        kind: conduct
+        issues:
+          - northpoint
+        why: The client, not the auditor, passed the accounts on, as in Esanda.
+      - text: Northpoint employs a team of credit analysts
+        weight: essential
+        kind: context
+        issues:
+          - anchorage
+        why: A sophisticated lender with its own expertise, able to protect itself, like the investor in Anchorage.
+      - text: and normally insists on detailed warranties from borrowers about their accounts
+        weight: essential
+        kind: context
+        issues:
+          - anchorage
+        why: 'It could have protected itself by contract: not vulnerable (Anchorage).'
+      - text: to close this deal quickly, it did not ask for any.
+        weight: essential
+        kind: conduct
+        issues:
+          - anchorage
+        why: 'It chose to forgo its usual protection: a commercial choice, not vulnerability.'
+      - text: Northpoint never contacted Harlow & Finch
+        weight: essential
+        kind: context
+        issues:
+          - northpoint
+        why: 'No direct dealing: nothing suggests the auditors assumed responsibility to Northpoint.'
+      - text: which did not know the accounts had been given to a lender.
+        weight: essential
+        kind: mental
+        issues:
+          - northpoint
+        why: 'No knowledge of the lender or its reliance: McHugh J''s concern about indeterminate liability applies.'
+      - text: Northpoint lent the money in reliance on the accounts.
+        weight: essential
+        kind: conduct
+        issues:
+          - northpoint
+          - breach-causation
+        why: Actual reliance, but reliance alone does not create a duty (Esanda).
+      - text: In March, Solace's founder, Ruby, emailed Ken, the Harlow & Finch audit partner
+        weight: essential
+        kind: relationship
+        issues:
+          - walter
+        why: A direct request to the audit partner about the very accounts the firm audited.
+      - text: saying that her uncle Walter, a retired bus driver, was thinking of putting his $150,000 of savings into Solace shares
+        weight: essential
+        kind: context
+        issues:
+          - walter
+        why: 'Ken is told the person, the purpose and the amount: knowledge of reliance by one identified person.'
+      - text: and asking whether the accounts were "sound".
+        weight: essential
+        kind: statement
+        issues:
+          - walter
+        why: A serious question about present financial fact, inviting a considered answer.
+      - text: Walter was copied in.
+        weight: essential
+        kind: relationship
+        issues:
+          - walter
+        why: 'Walter receives the answer directly: not one of an indeterminate class.'
+      - text: 'Ken replied to both of them: "Happy to help, Walter.'
+        weight: essential
+        kind: statement
+        issues:
+          - walter
+        why: 'A personal reply addressed to Walter: points to an assumption of responsibility.'
+      - text: Our audit gives Solace a clean bill of health — the accounts fairly show a profitable business.
+        weight: essential
+        kind: statement
+        issues:
+          - walter
+          - acl
+        why: 'A positive statement about the accounts by the audit partner: false, and misleading.'
+      - text: I've only had time to look at the summary pages again today
+        weight: essential
+        kind: statement
+        issues:
+          - warning
+        why: A qualification that may make reliance less reasonable, though it does not withdraw the clean bill of health.
+      - text: but I'd be comfortable investing."
+        weight: essential
+        kind: statement
+        issues:
+          - walter
+          - acl
+        why: 'A personal recommendation to invest: strengthens reliance and assumption of responsibility.'
+      - text: The email ended with Harlow & Finch's standard footer, in small grey type
+        weight: essential
+        kind: context
+        issues:
+          - disclaimer
+        why: 'Standard, inconspicuous small print: its effect on a specific personal reply is arguable.'
+      - text: '"This email contains general information only. Harlow & Finch accepts no responsibility to any person for reliance on it."'
+        weight: essential
+        kind: statement
+        issues:
+          - disclaimer
+        why: A disclaimer of responsibility, as in Hedley Byrne; but the reply was hardly general information.
+      - text: Walter bought the shares the next day.
+        weight: essential
+        kind: conduct
+        issues:
+          - walter
+          - breach-causation
+        why: 'Prompt action on the email: reliance shown by conduct, not by hindsight evidence (s 5D(3)).'
+      - text: Six months later Solace collapsed.
+        weight: background
+        kind: timing
+      - text: Northpoint has lost $2.4 million and Walter has lost all of his $150,000.
+        weight: essential
+        kind: harm
+        issues:
+          - framework
+        why: 'Purely financial losses: a duty needs more than foreseeability.'
+      - text: Advise Northpoint Capital and Walter whether they can recover their losses from Harlow & Finch.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q020
+    parties:
+      - name: Marlee
+        role: barramundi farmer whose fish died; plaintiff
+      - name: Ridgeway Tannery Pty Ltd
+        role: upstream discharger with a faulty filter; defendant
+      - name: Hollis Dairy
+        role: upstream dairy whose pond overflowed; defendant
+    issues:
+      - id: breach
+        label: Breach by each defendant (s 5B)
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: necessary
+        label: Necessary condition cannot be established
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: categories
+        label: Matching the facts to the s 5D(2) categories
+        concept: laws2400-w10-multiple-sufficient-causes-and-material-contribution
+      - id: s5d2
+        label: 's 5D(2): clear breach, evidentiary gap and responsibility'
+        concept: laws2400-w10-s5d2-exceptional-cases
+      - id: scope
+        label: 'Scope of liability: the rain and the lost contract'
+        concept: laws2400-w10-scope-of-liability-element
+      - id: contrib-neg
+        label: 'Contributory negligence: the aerators'
+        concept: laws2400-w12-contributory-negligence-apportionment-and-standard
+      - id: joint
+        label: Joint and several liability, contribution and proportionate liability
+        concept: laws2400-w10-contribution-between-tortfeasors
+    facts:
+      - text: Marlee runs a barramundi farm on Kestrel Creek in northern NSW.
+        weight: background
+        kind: party
+      - text: Her fish live in ponds filled from the creek.
+        weight: essential
+        kind: context
+        issues:
+          - scope
+        why: 'Her stock depends on the creek: harm from polluting it is the foreseeable kind.'
+      - text: Two businesses discharge wastewater into the creek upstream of her farm.
+        weight: essential
+        kind: context
+        issues:
+          - categories
+          - joint
+        why: 'Two separate tortious sources upstream: the setting for an evidentiary gap between defendants.'
+      - text: Ridgeway Tannery Pty Ltd treats its wastewater through a filtration unit before discharging it.
+        weight: background
+        kind: context
+      - text: Its maintenance log shows that the unit had been faulty for three weeks, letting through untreated, nutrient-rich water
+        weight: essential
+        kind: context
+        issues:
+          - breach
+        why: 'A known, continuing fault releasing pollutants: Ridgeway knew of the risk.'
+      - text: the repair had been "deferred to next month" to save money.
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+          - s5d2
+        why: 'Repair put off to save money despite a known fault: a clear breach, as s 5D(2) requires.'
+      - text: Hollis Dairy runs its washdown water into a holding pond.
+        weight: background
+        kind: context
+      - text: One night a worker left a hose running, and the pond overflowed into the creek for several hours.
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+          - s5d2
+        why: 'A worker''s careless overflow: a clear breach for which Hollis is responsible.'
+      - text: That same night, heavy summer rain washed fertiliser run-off from farms throughout the catchment into the creek.
+        weight: essential
+        kind: context
+        issues:
+          - categories
+          - scope
+        why: 'A non-tortious contributor acting at the same time: complicates causation but is not a defence.'
+      - text: By the next morning the creek's oxygen levels had collapsed, and eight tonnes of Marlee's fish were dead.
+        weight: essential
+        kind: harm
+        issues:
+          - scope
+        why: 'Property damage from the pollution: the kind of harm nutrient discharge risks.'
+      - text: Marlee's expert says the fish died because the combined nutrient load stripped the water of oxygen.
+        weight: essential
+        kind: statement
+        issues:
+          - categories
+        why: 'A cumulative mechanism: each source added to one combined load.'
+      - text: Ridgeway's discharge, Hollis's overflow and the rain run-off each added to that load
+        weight: essential
+        kind: statement
+        issues:
+          - categories
+          - joint
+        why: Each defendant added to the load, like the dust in Bonnington Castings.
+      - text: but on the present state of scientific knowledge it is impossible to say how much each contributed, or whether the fish would have died without either business's discharge.
+        weight: essential
+        kind: statement
+        issues:
+          - necessary
+          - s5d2
+        why: 'An evidentiary gap: necessary condition cannot be proved, which is what s 5D(2) addresses.'
+      - text: Nobody suggests that the farms' run-off involved any negligence.
+        weight: essential
+        kind: context
+        issues:
+          - s5d2
+          - joint
+        why: 'The rain run-off is non-negligent: relevant to whether responsibility should fall on the two defendants.'
+      - text: Marlee's ponds have electric aerators, which she normally runs overnight in summer.
+        weight: essential
+        kind: context
+        issues:
+          - contrib-neg
+        why: A known, routine precaution for her own stock.
+      - text: That night she switched them off to save power while she was away at a wedding
+        weight: essential
+        kind: conduct
+        issues:
+          - contrib-neg
+        why: 'Failing to take her usual precaution: careless for her own property (s 5R).'
+      - text: and arranged for no one to check the ponds.
+        weight: essential
+        kind: conduct
+        issues:
+          - contrib-neg
+        why: 'No one could respond to the oxygen collapse: adds to her own fault.'
+      - text: Her expert says that running the aerators "would probably have saved some fish, perhaps up to a third".
+        weight: essential
+        kind: statement
+        issues:
+          - contrib-neg
+        why: 'Her carelessness contributed to part of the loss: damages reduced under s 9 by her share of responsibility.'
+      - text: As well as the value of the fish, Marlee lost a supply contract with a restaurant group because she could not deliver for three months, losing $60,000 in profit.
+        weight: essential
+        kind: harm
+        issues:
+          - scope
+        why: 'Lost profit flowing from the dead fish: consequential loss, tested for scope of liability.'
+      - text: Advise Marlee on her claims in negligence against Ridgeway and Hollis.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q021
+    parties:
+      - name: The State of NSW
+        role: runs the youth centre (the Department) and the police; defendant
+      - name: Riley
+        role: seventeen-year-old detainee who escaped
+      - name: Jace
+        role: seventeen-year-old detainee who escaped
+      - name: Ellie
+        role: owner of the hardware store near the centre; plaintiff
+      - name: Nikhil
+        role: Dubbo resident burgled four days later; plaintiff
+    issues:
+      - id: triangle
+        label: 'Third-party harm: Dorset Yacht and Modbury (Ellie)'
+        concept: laws2400-w08-third-party-conduct-dorset-yacht-and-modbury
+      - id: crimmins
+        label: Public authority principles (Crimmins)
+        concept: laws2400-w08-crimmins-and-mchugh-six-questions
+      - id: nikhil
+        label: 'Dorset Yacht''s limit: Nikhil'
+        concept: laws2400-w08-third-party-conduct-dorset-yacht-and-modbury
+      - id: part5
+        label: CLA Part 5, including the s 43A argument both ways
+        concept: laws2400-w08-cla-part-5-public-authorities
+      - id: breach
+        label: Breach (s 5B)
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: intervening
+        label: 'The escapees'' deliberate acts: a new intervening act? (s 5D(4))'
+        concept: laws2400-w11-novus-actus-volitional-acts-and-coincidences
+      - id: losses
+        label: Classifying Ellie's losses
+        concept: laws2400-w07-pure-economic-loss-and-policy
+      - id: police
+        label: 'The police response: Hill, Zalewski and Stuart v Kirkland-Veenstra'
+        concept: laws2400-w08-public-authorities-as-defendants
+    facts:
+      - text: The NSW Government, through its youth justice department ("the Department"), runs Ironbark Youth Centre, a secure residential facility for young offenders
+        weight: essential
+        kind: relationship
+        issues:
+          - triangle
+          - crimmins
+          - part5
+        why: 'The State controls the detainees: the special relationship Dorset Yacht turns on. Also a public authority (s 41).'
+      - text: on the edge of the country town of Corran.
+        weight: essential
+        kind: context
+        issues:
+          - triangle
+        why: People living and trading nearby are an identifiable group at special risk from escapees.
+      - text: Three weeks before the events below, a maintenance report recorded that the electronic lock on the exercise-yard gate "fails to engage about one time in five".
+        weight: essential
+        kind: statement
+        issues:
+          - breach
+          - crimmins
+        why: 'Actual knowledge of a frequent lock failure: the risk of escape was foreseeable and not insignificant.'
+      - text: A repair was booked for the following month.
+        weight: essential
+        kind: conduct
+        issues:
+          - part5
+          - breach
+        why: 'Repair scheduled within resources: the State''s s 42 argument, though interim steps were cheap.'
+      - text: No padlock was fitted and no extra staff were rostered to watch the gate.
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+          - part5
+        why: 'Cheap interim precautions not taken: breach under s 5B, and arguably unreasonable enough to meet s 43A.'
+      - text: One evening Riley and Jace, both 17 and detained for burglary offences
+        weight: essential
+        kind: party
+        issues:
+          - triangle
+          - intervening
+        why: 'Detainees held for property crime: offending after escape was foreseeable.'
+      - text: noticed that the gate had not locked and walked out.
+        weight: essential
+        kind: conduct
+        issues:
+          - triangle
+          - breach
+        why: They escaped through the very defect the report described.
+      - text: Staff noticed within twenty minutes and rang Corran police.
+        weight: essential
+        kind: conduct
+        issues:
+          - police
+        why: 'Police were told promptly: the start of the police-response limb.'
+      - text: The sergeant on duty had two officers on shift and a serious road crash to attend.
+        weight: essential
+        kind: context
+        issues:
+          - police
+          - part5
+        why: 'Limited resources and competing priorities: s 42, and the concerns behind Hill.'
+      - text: She logged the escape and decided to send a car to the area once the crash had been dealt with, rather than search the town immediately.
+        weight: essential
+        kind: conduct
+        issues:
+          - police
+        why: How to deploy two officers is close to core policing policy (Hill); a power to act is not a duty (Stuart).
+      - text: Within an hour of escaping
+        weight: essential
+        kind: timing
+        issues:
+          - triangle
+          - intervening
+        why: 'Close in time to the escape: the harm the Dorset Yacht duty covers.'
+      - text: Riley and Jace smashed the front window of Ellie's hardware store
+        weight: essential
+        kind: conduct
+        issues:
+          - intervening
+          - losses
+        why: A deliberate crime, but the very kind of harm the duty to keep detainees secure guards against.
+      - text: 400 metres from the centre
+        weight: essential
+        kind: context
+        issues:
+          - triangle
+        why: 'Close in space: Ellie is within the neighbourhood class Dorset Yacht protects.'
+      - text: took tools and the keys to Ellie's ute, and drove the ute away.
+        weight: essential
+        kind: conduct
+        issues:
+          - losses
+        why: 'Theft of her property: property loss, not pure economic loss.'
+      - text: They abandoned it, badly damaged, on the highway an hour later.
+        weight: essential
+        kind: harm
+        issues:
+          - losses
+        why: Physical damage to the ute, caused in the immediate aftermath of the escape.
+      - text: Ellie's store was closed for five days while the window was replaced, and she lost $7,000 in trade.
+        weight: essential
+        kind: harm
+        issues:
+          - losses
+        why: 'Lost trade flowing from the damaged window: consequential loss, recoverable with the property damage.'
+      - text: Four days later and 300 kilometres away
+        weight: essential
+        kind: timing
+        issues:
+          - nikhil
+        why: 'Remote in time and place: beyond the limit Dorset Yacht places on the duty.'
+      - text: Jace — still at large — broke into Nikhil's home in Dubbo and stole his laptop and car.
+        weight: essential
+        kind: conduct
+        issues:
+          - nikhil
+          - intervening
+        why: 'A fresh, deliberate crime far from the escape: no duty, and outside scope in any event.'
+      - text: Ellie and Nikhil each sue the State of NSW in negligence, both for the Department's conduct and for the police response.
+        weight: background
+        kind: context
+        issues:
+          - triangle
+          - police
+      - text: The State says that Riley and Jace, not the State, are responsible for what they chose to do.
+        weight: essential
+        kind: statement
+        issues:
+          - intervening
+        why: The intervening-act argument; a deliberate act that is the very risk guarded against may not break the chain.
+      - text: Advise Ellie and Nikhil.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q022
+    parties:
+      - name: Bayside Trade & Garden
+        role: hardware store occupier; defendant
+      - name: Jett
+        role: new forklift operator employed by Bayside
+      - name: Mrs Nguyen
+        role: customer, aged 78, struck by a falling bag; plaintiff
+    issues:
+      - id: risk
+        label: Identifying the risk of harm (Benic step 1)
+        concept: laws2400-w09-identifying-the-risk-of-harm
+      - id: s5b1a
+        label: 's 5B(1)(a): what Bayside knew or ought to have known'
+        concept: laws2400-w09-foreseeable-risk-s5b-1a
+      - id: s5b1b
+        label: 's 5B(1)(b): not insignificant, and the injury-free record'
+        concept: laws2400-w09-not-insignificant-risk-s5b-1b
+      - id: s5b2
+        label: 's 5B(1)(c) and (2): weighing the precautions'
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+      - id: s5c
+        label: 'Arguments (c), (d) and (e): s 5C'
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+      - id: objective
+        label: 'Jett''s inexperience: the objective standard'
+        concept: laws2400-w09-the-reasonable-person
+    facts:
+      - text: Bayside Trade & Garden is a large warehouse-style hardware store in Sydney.
+        weight: background
+        kind: party
+      - text: Its aisles are lined with steel racking four metres high.
+        weight: essential
+        kind: context
+        issues:
+          - risk
+          - s5b2
+        why: 'Racking four metres high: anything falling from the top can cause serious injury.'
+      - text: Twenty-kilogram bags of cement and tile adhesive are stored on the top level, well above head height
+        weight: essential
+        kind: context
+        issues:
+          - risk
+          - s5b2
+        why: 'Heavy goods stored overhead: the source of the risk and its seriousness.'
+      - text: and are restocked by forklift.
+        weight: essential
+        kind: context
+        issues:
+          - risk
+        why: 'Forklift restocking: the activity the risk is tied to.'
+      - text: The company's safety manual says that top-level restocking "must take place before opening, or with both ends of the aisle closed by barrier gates".
+        weight: essential
+        kind: statement
+        issues:
+          - s5b1a
+          - s5b2
+        why: 'Bayside''s own manual names the risk and the precaution: knowledge, and a low burden.'
+      - text: Six months ago, to cut overtime, the store manager told staff to restock during trading hours
+        weight: essential
+        kind: conduct
+        issues:
+          - s5b2
+        why: Departing from its own safety rule to save money weighs heavily towards breach.
+      - text: placing a single orange cone at one end of the aisle.
+        weight: essential
+        kind: conduct
+        issues:
+          - s5b2
+        why: A token precaution that left one end of the aisle open.
+      - text: The store's incident log records two occasions in those six months when a bag slipped off a forklift pallet during restocking and burst on the floor.
+        weight: essential
+        kind: context
+        issues:
+          - s5b1a
+          - s5b1b
+        why: 'Two recent slips: the risk was known and not insignificant, whatever the injury record.'
+      - text: No one was hurt.
+        weight: essential
+        kind: context
+        issues:
+          - s5b1b
+        why: 'Luck rather than safety: probability is judged prospectively (RTA v Dederer).'
+      - text: On a busy Saturday morning
+        weight: essential
+        kind: timing
+        issues:
+          - s5b1b
+          - s5b2
+        why: 'Peak trading: more customers in the aisles makes harm more likely.'
+      - text: Jett, in his second week as a forklift operator
+        weight: essential
+        kind: party
+        issues:
+          - objective
+        why: 'A new operator: inexperience does not lower the standard (Imbree v McNeilly).'
+      - text: was lifting a pallet of cement to the top rack.
+        weight: background
+        kind: conduct
+      - text: Mrs Nguyen, aged 78, who walks with a frame
+        weight: essential
+        kind: party
+        issues:
+          - s5b2
+        why: 'A visibly vulnerable customer: raises the seriousness of the harm (Paris v Stepney Borough Council).'
+      - text: entered the aisle from the end without a cone.
+        weight: essential
+        kind: conduct
+        issues:
+          - s5b2
+        why: 'The open end let customers into the danger zone: the gap in the precaution materialised.'
+      - text: Jett saw her come in
+        weight: essential
+        kind: mental
+        issues:
+          - objective
+          - s5b2
+        why: 'Jett knew she was in the aisle: a reasonable operator would have stopped lifting.'
+      - text: but kept lifting
+        weight: essential
+        kind: conduct
+        issues:
+          - objective
+        why: Lifting over a customer falls below the standard of a reasonable forklift operator.
+      - text: thinking she would be clear in time.
+        weight: essential
+        kind: mental
+        issues:
+          - objective
+        why: 'His honest belief does not matter: the standard is objective.'
+      - text: A bag slid off the tilted pallet and struck Mrs Nguyen on the head and shoulder as she moved slowly along the aisle.
+        weight: essential
+        kind: context
+        issues:
+          - risk
+        why: 'The class of harm identified: being struck by goods falling during restocking.'
+      - text: She suffered a fractured shoulder and a head injury.
+        weight: background
+        kind: harm
+      - text: Bayside accepts that it owed Mrs Nguyen a duty of care as an occupier and that it is responsible for Jett's conduct.
+        weight: essential
+        kind: statement
+        issues:
+          - risk
+        why: 'Duty and responsibility for Jett admitted: breach is the only question.'
+      - text: It denies breach. It says
+        weight: background
+        kind: context
+      - text: (a) nobody had been injured in five years of trading, so the risk was remote
+        weight: essential
+        kind: statement
+        issues:
+          - s5b1b
+        why: Probability is judged prospectively (Dederer), and the two recent slips show a real risk.
+      - text: (b) Jett is a new operator who was doing his best
+        weight: essential
+        kind: statement
+        issues:
+          - objective
+        why: 'Inexperience is no answer: the objective standard applies (Imbree v McNeilly).'
+      - text: (c) Mrs Nguyen's lawyers say the bags could simply have been stored on lower shelves, but how the store lays out its goods is its own business
+        weight: essential
+        kind: statement
+        issues:
+          - s5c
+        why: 'Under s 5C(b) an alternative way of avoiding the risk is not of itself liability: rely on the manual instead.'
+      - text: (d) barrier gates for every aisle in its 30 stores would cost $250,000
+        weight: essential
+        kind: statement
+        issues:
+          - s5c
+          - s5b2
+        why: Under s 5C(a) the burden counts across similar risks, but restocking before opening is cheap.
+      - text: (e) since the accident it has bought barrier gates for all its aisles, but that is not an admission of anything.
+        weight: essential
+        kind: statement
+        issues:
+          - s5c
+        why: 'Under s 5C(c) a later precaution is not of itself an admission: leave it out of account.'
+      - text: Advise Mrs Nguyen whether Bayside breached its duty of care. Do not consider causation, damages or defences.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q023
+    parties:
+      - name: Tom
+        role: electrician and knee-surgery patient; plaintiff
+      - name: Dr Okafor
+        role: orthopaedic surgeon who did not warn of the nerve risk; defendant
+      - name: Harbourview Private Hospital
+        role: hospital responsible for the registrar and the ward bathrooms; defendant
+    issues:
+      - id: framework
+        label: 'Three harms: the s 5D(1) framework and the onus (s 5E)'
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: warning
+        label: 'Failure to warn: what Tom would have done (s 5D(3))'
+        concept: laws2400-w10-common-sense-causation-and-s5d
+      - id: delay
+        label: 'The registrar''s delay: necessary condition'
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: chance
+        label: Why loss of a chance is not recoverable (Tabet v Gett)
+        concept: laws2400-w10-risk-chance-and-material-contribution
+      - id: bathroom
+        label: 'The wrist: unknown timing (Strong v Woolworths)'
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: adeels
+        label: Distinguishing Adeels Palace; scope of liability
+        concept: laws2400-w10-causation-flowchart
+    facts:
+      - text: Tom, a 46-year-old electrician, had years of severe knee pain.
+        weight: essential
+        kind: party
+        issues:
+          - warning
+        why: 'Years of severe pain: a circumstance pointing to him having the operation anyway.'
+      - text: His orthopaedic surgeon, Dr Okafor, recommended a knee reconstruction at Harbourview Private Hospital.
+        weight: background
+        kind: relationship
+      - text: Dr Okafor did not tell Tom that the operation carries a 1-in-200 risk of damage to a nerve in the lower leg.
+        weight: essential
+        kind: conduct
+        issues:
+          - warning
+        why: 'The assumed breach: causation turns on what Tom would have done if warned.'
+      - text: The risk materialised, and Tom now has a permanent foot drop.
+        weight: essential
+        kind: harm
+        issues:
+          - framework
+          - warning
+        why: 'Harm one: the foot drop, tested against the failure to warn.'
+      - text: Before the operation, Tom had told his GP that the pain was "unbearable"
+        weight: essential
+        kind: statement
+        issues:
+          - warning
+        why: 'Said before the harm, not hindsight: strong evidence he would have gone ahead.'
+      - text: and that he would "do whatever it takes" to get back on the tools.
+        weight: essential
+        kind: statement
+        issues:
+          - warning
+        why: Shows how determined he was to have the surgery.
+      - text: Two years earlier he had had the same operation on his other knee after being warned of the same nerve risk in writing.
+        weight: essential
+        kind: context
+        issues:
+          - warning
+        why: 'He went ahead before despite the same written warning: probably he would again.'
+      - text: Tom now says that if he had been warned this time, he "would never have gone ahead".
+        weight: essential
+        kind: statement
+        issues:
+          - warning
+        why: 'A self-serving statement made after the harm: inadmissible under s 5D(3)(b).'
+      - text: After the operation Tom developed a wound infection.
+        weight: background
+        kind: harm
+      - text: Pathology results showing the infection were sent to the ward, but the registrar did not read them for two days.
+        weight: essential
+        kind: conduct
+        issues:
+          - delay
+        why: 'The assumed breach: would timely antibiotics probably have avoided the damage?'
+      - text: By the time antibiotics were started, the infection had damaged the joint, and Tom needs a further operation.
+        weight: essential
+        kind: harm
+        issues:
+          - framework
+          - delay
+        why: 'Harm two: the joint damage.'
+      - text: The experts agree that if antibiotics had been started on time, there was about a 40% chance that the joint damage would have been avoided.
+        weight: essential
+        kind: statement
+        issues:
+          - delay
+          - chance
+        why: 'Under 50%: the damage probably would have happened anyway (Barnett), and a lost chance is not recoverable (Tabet v Gett).'
+      - text: Ten days after the operation, Tom slipped on a pool of soapy water on the floor of the ward bathroom and broke his wrist.
+        weight: essential
+        kind: harm
+        issues:
+          - framework
+          - bathroom
+        why: 'Harm three: the wrist, tested against the lack of an inspection system.'
+      - text: Harbourview had no system for inspecting or cleaning ward bathrooms during the day
+        weight: essential
+        kind: conduct
+        issues:
+          - bathroom
+        why: 'The assumed breach: no daytime inspections at all.'
+      - text: they were cleaned once each morning at 7 am.
+        weight: background
+        kind: context
+      - text: Tom fell at 4 pm.
+        weight: essential
+        kind: timing
+        issues:
+          - bathroom
+        why: 'Nine hours after cleaning: a long window in which hourly checks would have found the water.'
+      - text: Nobody knows when the water got there
+        weight: essential
+        kind: context
+        issues:
+          - bathroom
+          - adeels
+        why: 'Unknown timing, as in Strong v Woolworths: decided on the balance of probabilities.'
+      - text: but a cleaner's trolley with a leaking bucket had been parked outside that bathroom from about 9 am until noon.
+        weight: essential
+        kind: context
+        issues:
+          - bathroom
+        why: 'The likely source, hours before the fall: probably there long enough for an inspection to find it.'
+      - text: The experts agree that a reasonable system would have inspected ward bathrooms at least every hour.
+        weight: essential
+        kind: statement
+        issues:
+          - bathroom
+          - adeels
+        why: 'Hourly checks would probably, not merely possibly, have found the water: unlike Adeels Palace''s ''might have''.'
+      - text: For the purposes of this question, assume that Dr Okafor breached his duty by failing to warn Tom, and that Harbourview breached its duty both through the registrar's delay and by having no inspection system.
+        weight: essential
+        kind: context
+        issues:
+          - framework
+        why: 'Breach is assumed for all three harms: only causation is in issue.'
+      - text: Advise Tom whether each breach caused the harm he complains of.
+        weight: background
+        kind: context
+        issues:
+          - framework
+  - question: laws2400-w00-q024
+    parties:
+      - name: Dr Mehta
+        role: dentist who used the rapid extraction technique; defendant
+      - name: Aisha
+        role: Dr Mehta's patient whose jaw fractured; plaintiff
+      - name: Dr Hughes
+        role: dentist who did not prescribe antibiotics; defendant
+      - name: Ben
+        role: Dr Hughes's patient who developed an infection; plaintiff
+    issues:
+      - id: s5o-first
+        label: s 5O first, with the onus on the professional (Peterkin v Tadros)
+        concept: laws2400-w09-professional-standard-s5o
+      - id: mehta-s5o
+        label: Dr Mehta and s 5O
+        concept: laws2400-w09-professional-standard-s5o
+      - id: mehta-s5b
+        label: 'Aisha: s 5B and the common law professional standard'
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: s5c
+        label: s 5C(b) and (c)
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+      - id: hughes-s5o
+        label: 'Dr Hughes: s 5O(1), (3) and (4) and divided opinion'
+        concept: laws2400-w09-professional-standard-s5o
+      - id: irrational
+        label: Irrationality under s 5O(2)
+        concept: laws2400-w09-professional-standard-s5o
+    facts:
+      - text: Dr Mehta and Dr Hughes are dentists in practice together in Parramatta.
+        weight: essential
+        kind: party
+        issues:
+          - s5o-first
+        why: 'Professionals providing a professional service: s 5O is the first question for each.'
+      - text: Aisha, 24, saw Dr Mehta to have an impacted wisdom tooth removed.
+        weight: background
+        kind: relationship
+      - text: Instead of the standard surgical technique, which involves cutting the tooth into sections and takes about 40 minutes
+        weight: essential
+        kind: context
+        issues:
+          - mehta-s5b
+          - s5c
+        why: The standard technique was the obvious precaution; under s 5C(b) another way existing is not of itself enough.
+      - text: Dr Mehta used a "rapid extraction" technique he had learned at a short course in Europe.
+        weight: essential
+        kind: conduct
+        issues:
+          - mehta-s5o
+        why: 'Learned abroad: s 5O asks about practice widely accepted in Australia.'
+      - text: It removes the tooth whole with a specially designed lever in about 15 minutes
+        weight: background
+        kind: context
+      - text: and Dr Mehta likes it because it lets him see more patients.
+        weight: essential
+        kind: mental
+        issues:
+          - mehta-s5b
+        why: 'His reason is convenience and throughput, not patient benefit: little utility to weigh against the risk.'
+      - text: The technique applies considerably more force to the jaw.
+        weight: essential
+        kind: context
+        issues:
+          - mehta-s5b
+        why: A higher, foreseeable risk of fracturing the jaw than the standard technique.
+      - text: Aisha's jaw fractured during the procedure; she needed surgery and spent six weeks on a liquid diet.
+        weight: essential
+        kind: harm
+        issues:
+          - mehta-s5b
+        why: The serious harm the extra force risked.
+      - text: Dr Mehta's expert says the technique is "promising" and is used by some dentists in Germany and Italy.
+        weight: essential
+        kind: statement
+        issues:
+          - mehta-s5o
+        why: Use in Germany and Italy is not practice widely accepted in Australia.
+      - text: Both experts agree that, apart from Dr Mehta and one colleague in Brisbane, no dentist in Australia uses it.
+        weight: essential
+        kind: statement
+        issues:
+          - mehta-s5o
+        why: 'Two practitioners are not wide acceptance by peer professional opinion: s 5O fails.'
+      - text: After Aisha's injury, Dr Mehta stopped using it.
+        weight: essential
+        kind: conduct
+        issues:
+          - s5c
+        why: Under s 5C(c) a later change of practice is not of itself an admission of liability.
+      - text: Ben, 31 and in good health
+        weight: essential
+        kind: party
+        issues:
+          - hughes-s5o
+        why: 'A healthy patient: the group the guideline against routine antibiotics covers.'
+      - text: had root canal treatment performed by Dr Hughes.
+        weight: background
+        kind: relationship
+      - text: Dr Hughes did not prescribe antibiotics afterwards.
+        weight: essential
+        kind: conduct
+        issues:
+          - hughes-s5o
+        why: 'The conduct to test: was it widely accepted in Australia as competent practice?'
+      - text: Ben developed a serious infection and spent three days in hospital.
+        weight: essential
+        kind: harm
+        issues:
+          - irrational
+        why: The very risk Ben's expert says makes withholding antibiotics irrational.
+      - text: The expert evidence shows that Australian dentists are divided.
+        weight: essential
+        kind: statement
+        issues:
+          - hughes-s5o
+        why: 'Divided opinion: under s 5O(3) differing widely accepted opinions do not prevent reliance on one.'
+      - text: A substantial body of practitioners, supported by a national clinical guideline, does not prescribe antibiotics after routine root canal treatment in healthy patients
+        weight: essential
+        kind: statement
+        issues:
+          - hughes-s5o
+        why: 'Practice widely accepted by peer professional opinion and backed by a guideline: s 5O(1) likely met.'
+      - text: because of concern about antibiotic resistance.
+        weight: essential
+        kind: context
+        issues:
+          - irrational
+        why: 'A reasoned basis for the practice: hard to call it irrational under s 5O(2).'
+      - text: Another substantial body routinely prescribes them.
+        weight: essential
+        kind: statement
+        issues:
+          - hughes-s5o
+        why: A competing body does not defeat s 5O (s 5O(3)), and acceptance need not be universal (s 5O(4)).
+      - text: Ben's expert, who belongs to the second group, says that withholding antibiotics is "irrational", because infections like Ben's are well known.
+        weight: essential
+        kind: statement
+        issues:
+          - irrational
+        why: 'The s 5O(2) attack: a well-known risk does not make a reasoned contrary practice irrational.'
+      - text: Both dentists say they acted as competent professionals and cannot be liable.
+        weight: essential
+        kind: statement
+        issues:
+          - s5o-first
+        why: 'Each must prove the s 5O defence: the onus is on the professional (Peterkin v Tadros).'
+      - text: Assume that each dentist owed the patient a duty of care and that, if breach is established, it caused the patient's harm.
+        weight: background
+        kind: context
+      - text: Advise Aisha and Ben whether Dr Mehta and Dr Hughes breached their duties.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q025
+    parties:
+      - name: Zara
+        role: cyclist injured twice; plaintiff
+      - name: FreshCo Produce Pty Ltd
+        role: Kai's employer; defendant
+      - name: Kai
+        role: FreshCo delivery driver who blocked the bicycle lane
+      - name: Dev
+        role: speeding driver who hit Zara; defendant, now bankrupt
+    issues:
+      - id: framework
+        label: 'The s 5D(1) framework: factual causation separate from scope'
+        concept: laws2400-w10-causation-flowchart
+      - id: dev
+        label: 'Necessary condition: Dev'
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: freshco
+        label: 'Necessary condition: FreshCo, and multiple causes'
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: chain
+        label: Is the chain from FreshCo broken? (March v Stramare)
+        concept: laws2400-w10-common-sense-causation-and-s5d
+      - id: wrist
+        label: 'The wrist fracture: a new intervening act? (McKew)'
+        concept: laws2400-w11-novus-actus-volitional-acts-and-coincidences
+      - id: joint
+        label: Joint and several liability, contribution and Dev's bankruptcy
+        concept: laws2400-w10-contribution-between-tortfeasors
+    facts:
+      - text: At 6 am on a dark winter morning
+        weight: essential
+        kind: timing
+        issues:
+          - chain
+        why: Darkness made an unlit truck in the bicycle lane especially hazardous.
+      - text: Kai, a driver for FreshCo Produce Pty Ltd
+        weight: background
+        kind: relationship
+      - text: stopped his delivery truck across the marked bicycle lane of a busy inner-city road, in a no-stopping zone, so he could unload outside a café.
+        weight: essential
+        kind: conduct
+        issues:
+          - freshco
+          - chain
+        why: 'The obstruction forced cyclists into traffic: the hazard that set the accident going, as in March v Stramare.'
+      - text: He did not turn on the truck's hazard lights.
+        weight: essential
+        kind: conduct
+        issues:
+          - freshco
+        why: Made the obstruction harder to see in the dark.
+      - text: He had done this most mornings for a year.
+        weight: background
+        kind: context
+      - text: Zara was riding to work along the bicycle lane
+        weight: background
+        kind: context
+      - text: faster than usual because she was late, and glancing down at the map on her phone.
+        weight: essential
+        kind: conduct
+        issues:
+          - chain
+        why: Zara's inattention is a concurrent cause, not one that breaks the chain; contributory negligence is excluded.
+      - text: She looked up late, saw the truck, and swerved out of the bicycle lane into the traffic lane.
+        weight: essential
+        kind: conduct
+        issues:
+          - freshco
+          - chain
+        why: 'Swerving to avoid the truck: the very response the obstruction invited.'
+      - text: She was hit by a car driven by Dev, who was travelling at 75 km/h in a 50 km/h zone.
+        weight: essential
+        kind: conduct
+        issues:
+          - dev
+        why: 'Dev''s speeding: the breach to test for necessary condition.'
+      - text: A collision expert says that at 50 km/h Dev would have been able to stop before reaching her.
+        weight: essential
+        kind: statement
+        issues:
+          - dev
+        why: 'But for the speeding there would have been no collision: a necessary condition.'
+      - text: Zara suffered a fractured pelvis.
+        weight: essential
+        kind: harm
+        issues:
+          - framework
+          - joint
+        why: 'Harm one: the pelvis, to which both defendants contributed.'
+      - text: FreshCo says that Zara's own inattention and Dev's speeding caused the accident, not its truck.
+        weight: essential
+        kind: statement
+        issues:
+          - freshco
+          - chain
+        why: A necessary condition need not be the only cause; Dev's negligence does not break the chain.
+      - text: Dev says that Zara swerved into his path without warning and that the truck had nothing to do with him.
+        weight: essential
+        kind: statement
+        issues:
+          - dev
+        why: 'Beside the point: at the legal speed he would have stopped in time.'
+      - text: Six weeks later, Zara was walking on crutches.
+        weight: background
+        kind: timing
+      - text: Her physiotherapist had told her clearly not to use stairs without a handrail.
+        weight: essential
+        kind: statement
+        issues:
+          - wrist
+        why: 'Clear advice: her later choice was informed, as in McKew.'
+      - text: Running late for a medical appointment and not wanting to wait for the lift
+        weight: essential
+        kind: mental
+        issues:
+          - wrist
+        why: 'A minor reason for running a known risk: points towards a voluntary act breaking the chain.'
+      - text: she went down a steep, unlit fire stair without a handrail in her office building.
+        weight: essential
+        kind: conduct
+        issues:
+          - wrist
+        why: Unreasonable conduct in the face of known danger, as in McKew v Holland and Hannen and Cubitts.
+      - text: Her weak leg gave way and she fractured her wrist.
+        weight: essential
+        kind: harm
+        issues:
+          - wrist
+          - framework
+        why: 'Harm two: the weak leg links it to the accident, but it may fall outside scope of liability.'
+      - text: Dev has since been declared bankrupt.
+        weight: essential
+        kind: context
+        issues:
+          - joint
+        why: 'Joint and several liability: Zara can recover in full from FreshCo, which bears the risk of Dev''s insolvency.'
+      - text: Assume that FreshCo (which is responsible for Kai's conduct) and Dev each owed Zara a duty of care and breached it.
+        weight: background
+        kind: context
+      - text: Do not consider contributory negligence, which is covered in a later topic.
+        weight: background
+        kind: context
+      - text: Advise Zara whether FreshCo and Dev caused her injuries, and from whom she can recover.
+        weight: background
+        kind: context
+        issues:
+          - framework
+          - joint
+  - question: laws2400-w00-q026
+    parties:
+      - name: Hana
+        role: 70-year-old shopper injured twice; plaintiff
+      - name: Theo
+        role: 13-year-old who threw the bottle; defendant
+      - name: Liam
+        role: Parkview cleaner driving the floor scrubber; defendant
+      - name: Parkview Centre Pty Ltd
+        role: centre operator; vicariously liable for Liam; defendant
+    issues:
+      - id: objective
+        label: The objective standard of care and its limits
+        concept: laws2400-w09-the-reasonable-person
+      - id: theo
+        label: 'Theo: the child standard'
+        concept: laws2400-w09-the-reasonable-person
+      - id: liam
+        label: 'Liam: the objective standard despite inexperience'
+        concept: laws2400-w09-the-reasonable-person
+      - id: risk
+        label: 'Parkview: identifying the risk of harm'
+        concept: laws2400-w09-identifying-the-risk-of-harm
+      - id: s5b1
+        label: 's 5B(1)(a) and (b): the visitor-numbers argument'
+        concept: laws2400-w09-not-insignificant-risk-s5b-1b
+      - id: s5b2
+        label: Weighing the s 5B(2) considerations
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+      - id: arguments
+        label: 'Parkview''s other arguments: Dederer and s 5C(b)'
+        concept: laws2400-w09-reasonable-response-s5b-1c-and-2
+    facts:
+      - text: Parkview Shopping Centre has a mezzanine food court that overlooks the main ground-floor walkway.
+        weight: essential
+        kind: context
+        issues:
+          - risk
+        why: 'People walk beneath a raised edge: things falling or thrown from the mezzanine is the risk.'
+      - text: During renovations, Parkview Centre Pty Ltd removed a six-metre section of the glass balustrade along the mezzanine edge so that it could be replaced.
+        weight: essential
+        kind: conduct
+        issues:
+          - risk
+          - s5b2
+        why: 'Parkview created the gap: the source of the risk.'
+      - text: For nine days during the school holidays
+        weight: essential
+        kind: timing
+        issues:
+          - s5b1
+          - s5b2
+        why: 'School holidays: more teenagers about, so misuse of the gap is more likely.'
+      - text: the gap was closed off only by plastic tape and a sign reading "Keep clear — renovation".
+        weight: essential
+        kind: conduct
+        issues:
+          - arguments
+          - s5b2
+        why: 'A minimal precaution: tape and a sign do not stop things being thrown through the gap.'
+      - text: Parkview's builder had offered to put up a temporary timber hoarding across the gap for $900
+        weight: essential
+        kind: context
+        issues:
+          - s5b2
+        why: 'A cheap, effective precaution was on offer: a low burden under s 5B(2)(c).'
+      - text: Parkview declined, saying the new glass would be in "within a few days".
+        weight: essential
+        kind: conduct
+        issues:
+          - s5b2
+        why: Rejecting a $900 precaution for convenience weighs towards breach.
+      - text: Security reports logged two incidents in the first week of teenagers dropping drink cups through the gap onto the walkway below
+        weight: essential
+        kind: context
+        issues:
+          - s5b1
+          - risk
+        why: 'Actual knowledge of the very misuse: the risk was foreseeable and not insignificant.'
+      - text: one cup landed in a pram, but no one was hurt.
+        weight: essential
+        kind: context
+        issues:
+          - s5b1
+          - arguments
+        why: A near miss; no injury so far does not make the risk insignificant (RTA v Dederer).
+      - text: On day nine, Theo, aged 13, was standing at the gap with friends.
+        weight: essential
+        kind: party
+        issues:
+          - theo
+        why: A 13-year-old is judged against an ordinary child of his age (McHale v Watson).
+      - text: To show off
+        weight: essential
+        kind: mental
+        issues:
+          - theo
+        why: Motive does not matter; the question is what an ordinary 13-year-old would foresee.
+      - text: he threw a full one-litre frozen drink bottle towards a bin on the ground floor "to see if he could get it in".
+        weight: essential
+        kind: conduct
+        issues:
+          - theo
+        why: 'A heavy frozen bottle thrown over a crowded walkway: an ordinary 13-year-old would see the danger.'
+      - text: He missed, and the bottle struck Hana, aged 70, on the head.
+        weight: essential
+        kind: harm
+        issues:
+          - theo
+          - risk
+        why: 'The very risk Parkview faced: something thrown through the gap striking a person below.'
+      - text: Theo's mother says he has always been impulsive and immature for his age.
+        weight: essential
+        kind: statement
+        issues:
+          - theo
+          - objective
+        why: 'Theo''s own immaturity is irrelevant: the standard is an ordinary child of 13.'
+      - text: Dazed, Hana stumbled sideways into the path of a ride-on floor scrubber
+        weight: background
+        kind: context
+      - text: driven by Liam, a Parkview cleaner in his first week
+        weight: essential
+        kind: party
+        issues:
+          - liam
+          - objective
+        why: 'A new employee: inexperience does not lower the standard (Imbree v McNeilly).'
+      - text: who was driving it at full speed through the crowded walkway while looking down at its control screen.
+        weight: essential
+        kind: conduct
+        issues:
+          - liam
+        why: 'Full speed through a crowd while looking down: below the standard of a reasonable operator.'
+      - text: Parkview's written procedure requires scrubbers in crowded areas to be driven at walking pace with a spotter.
+        weight: essential
+        kind: statement
+        issues:
+          - liam
+        why: The procedure shows what reasonable care required.
+      - text: Liam says no one showed him the procedure and he was doing his best.
+        weight: essential
+        kind: statement
+        issues:
+          - liam
+          - objective
+        why: Doing his best is no answer to an objective standard.
+      - text: The scrubber ran over Hana's foot, crushing it.
+        weight: background
+        kind: harm
+      - text: 'Parkview says: the centre has 20,000 visitors a day, so two dropped cups showed the risk was tiny'
+        weight: essential
+        kind: statement
+        issues:
+          - s5b1
+        why: Two incidents in one week show a real risk; probability is judged prospectively (Dederer; Wyong v Shirt).
+      - text: it cannot be expected to stop teenagers misbehaving
+        weight: essential
+        kind: statement
+        issues:
+          - arguments
+          - risk
+        why: Parkview need not control teenagers, only close the gap it created against foreseeable misuse.
+      - text: the sign and tape were a reasonable warning
+        weight: essential
+        kind: statement
+        issues:
+          - arguments
+        why: A warning cannot stop objects being thrown through an open gap.
+      - text: keeping the food court open during the holidays benefited shoppers and tenants
+        weight: essential
+        kind: statement
+        issues:
+          - s5b2
+        why: 'Social utility: a hoarding would have kept the food court open anyway.'
+      - text: and Hana's lawyers' suggestion that the glass could have been replaced at night, one panel at a time, is beside the point.
+        weight: essential
+        kind: statement
+        issues:
+          - arguments
+        why: 'Under s 5C(b) another method is not of itself liability: rely on the rejected hoarding instead.'
+      - text: Assume that Theo, Liam and Parkview each owed Hana a duty of care, that Parkview is vicariously liable for Liam, and that causation is established.
+        weight: background
+        kind: context
+      - text: Do not consider defences.
+        weight: background
+        kind: context
+      - text: Advise Hana whether Theo, Liam and Parkview each breached their duty of care.
+        weight: background
+        kind: context
+  - question: laws2400-w00-q027
+    parties:
+      - name: Sam
+        role: groundsman struck in the eye; plaintiff
+      - name: Priya
+        role: golfer who teed off at the same time as Mark; defendant
+      - name: Mark
+        role: golfer who teed off at the same time as Priya; defendant
+      - name: Ridgeline Golf Club
+        role: course owner with the broken warning bell; defendant
+      - name: GreenEdge Turf Pty Ltd
+        role: Sam's employer; course maintenance contractor
+    issues:
+      - id: breach
+        label: Breach by Priya and Mark (s 5B)
+        concept: laws2400-w09-breach-of-duty-flowchart
+      - id: necessary
+        label: Necessary condition against each player
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: for-s5d2
+        label: 'For s 5D(2): Cook v Lewis and the flowchart requirements'
+        concept: laws2400-w10-s5d2-exceptional-cases
+      - id: against-s5d2
+        label: 'Against s 5D(2): material contribution v increased risk'
+        concept: laws2400-w10-multiple-sufficient-causes-and-material-contribution
+      - id: club
+        label: 'The club''s broken bell: Adeels Palace and Barnett'
+        concept: laws2400-w10-factual-causation-necessary-condition
+      - id: recovery
+        label: Recovery and contribution if both players are liable
+        concept: laws2400-w10-contribution-between-tortfeasors
+    facts:
+      - text: Ridgeline Golf Club hosted a corporate golf day.
+        weight: background
+        kind: context
+      - text: Sam, a groundsman employed by GreenEdge Turf Pty Ltd, a contractor that maintains the course
+        weight: background
+        kind: party
+      - text: was mowing the approach to the 7th green, which lies beyond a blind crest about 220 metres from the 6th tee.
+        weight: essential
+        kind: context
+        issues:
+          - breach
+        why: 'Within range but out of sight behind a crest: an obvious risk of being struck.'
+      - text: Priya and Mark were playing together.
+        weight: background
+        kind: party
+      - text: Standing on the 6th tee, both could see the top of Sam's mower over the crest
+        weight: essential
+        kind: mental
+        issues:
+          - breach
+        why: 'Each knew someone was in the line of play: the risk was foreseeable.'
+      - text: and Mark joked that they should "give the mower a fright".
+        weight: essential
+        kind: statement
+        issues:
+          - breach
+        why: Shows awareness of the mower, and a casual attitude to the risk.
+      - text: They had a $50 bet on the longer drive.
+        weight: essential
+        kind: context
+        issues:
+          - breach
+        why: Both were trying to hit as far as possible, towards the crest.
+      - text: Rather than waiting for Sam to move on, they agreed to tee off at the same time "to keep things moving".
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+          - for-s5d2
+          - recovery
+        why: 'A joint decision to hit together: both in breach, and the cause of the uncertainty over whose ball it was.'
+      - text: Neither called "fore".
+        weight: essential
+        kind: conduct
+        issues:
+          - breach
+        why: 'No warning: a simple, costless precaution not taken.'
+      - text: Both hit identical balls of the same brand and model, supplied in the club's corporate gift pack, in the same direction.
+        weight: essential
+        kind: context
+        issues:
+          - necessary
+          - for-s5d2
+        why: 'Identical balls in the same direction: no way to prove whose ball it was, the Cook v Lewis problem.'
+      - text: One ball came over the crest and struck Sam in the left eye
+        weight: essential
+        kind: harm
+        issues:
+          - necessary
+        why: Only one ball caused the injury.
+      - text: the other landed nearby.
+        weight: essential
+        kind: context
+        issues:
+          - against-s5d2
+        why: 'The other ball caused nothing: that player only increased the risk rather than materially contributing.'
+      - text: Nobody saw which ball hit Sam, and there is no way to tell.
+        weight: essential
+        kind: context
+        issues:
+          - necessary
+          - for-s5d2
+        why: 'An evidentiary gap: necessary condition cannot be proved against either player.'
+      - text: Sam has permanently lost the sight in that eye.
+        weight: background
+        kind: harm
+      - text: A sign on the 6th tee tells players to wait for a bell, rung by a member of staff on the crest, before driving.
+        weight: essential
+        kind: context
+        issues:
+          - club
+        why: The club's own safety system for the blind crest.
+      - text: The bell had been broken for a month, and the club had not repaired it
+        weight: essential
+        kind: conduct
+        issues:
+          - club
+        why: 'The club''s assumed breach: causation is the question.'
+      - text: although a repair would have cost $150.
+        weight: background
+        kind: context
+      - text: Sam's lawyers have an expert who says that a working bell "might have" made the players wait.
+        weight: essential
+        kind: statement
+        issues:
+          - club
+        why: '''Might have'' is not ''probably would have'': as in Adeels Palace, necessary condition is not proved.'
+      - text: Priya and Mark both admit they knew the mower was there.
+        weight: essential
+        kind: statement
+        issues:
+          - breach
+          - club
+        why: They knew and hit anyway, so a bell probably would have made no difference (Barnett).
+      - text: Sam's claim is not a dust disease or tobacco claim.
+        weight: essential
+        kind: context
+        issues:
+          - necessary
+          - for-s5d2
+        why: 'So s 3B(1) does not exclude the CLA: s 5D governs causation.'
+      - text: Assume that Priya, Mark and the club each owed Sam a duty of care, and that the club breached its duty by failing to repair the bell.
+        weight: background
+        kind: context
+      - text: Do not consider defences.
+        weight: background
+        kind: context
+      - text: Advise Sam on his claims in negligence against Priya, Mark and the club, including whether Priya and Mark breached their duties, whether each defendant's negligence caused his injury, and from whom he could recover.
+        weight: background
+        kind: context
+        issues:
+          - breach
+          - necessary
+          - recovery

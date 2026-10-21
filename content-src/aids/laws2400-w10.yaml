@@ -1,0 +1,813 @@
+unit: laws2400
+week: 10
+source: raw/laws2400-torts/week-10
+generator: aids-1
+aids:
+  - concept: laws2400-w10-causation-flowchart
+    plain: 'Causation has two parts, and the plaintiff must prove both: the breach in fact caused the harm (factual causation), and liability ought to extend to that harm (scope of liability).'
+    concrete: 'On New Year''s Eve, after a fight at Adeels Palace, a patron left, re-entered with a gun and shot Moubarak. The club, an occupier, had no security: duty and breach were there. The claim still failed at the first branch of causation. The evidence did not show that security staff would have deterred or prevented the gunman''s re-entry, so factual causation was not proved and scope of liability was never reached.'
+    formal: 'CLA s 5D(1): a determination that negligence caused particular harm comprises (a) factual causation — the negligence was a necessary condition of the harm — and (b) scope of liability. The plaintiff always bears the onus on causation, on the balance of probabilities (s 5E). The flowchart joins the branches with AND, and scope of liability covers new intervening acts AND remoteness.'
+    analogy:
+      text: 'A door with two locks. The plaintiff needs both keys: the first is cut from evidence (did the breach in fact cause the harm?), the second from policy (ought the defendant to answer for it?).'
+      maps:
+        - from: First lock
+          to: 'Factual causation: necessary condition, s 5D(1)(a)'
+        - from: Key cut from evidence
+          to: Proof on the balance of probabilities (s 5E)
+        - from: Second lock
+          to: 'Scope of liability, s 5D(1)(b): new intervening acts and remoteness'
+        - from: Key cut from policy
+          to: 's 5D(4): whether and why responsibility should be imposed'
+      limits:
+        - A real lock has no exception, but s 5D(2) can accept factual causation without the first key in an exceptional case.
+        - The second lock is really two (new intervening acts and remoteness), and both must open.
+    terms:
+      - term: Damage
+        gloss: 'Harm suffered by the plaintiff: the gist of the negligence action (no damage, no action). Not "damages", the money awarded as compensation.'
+      - term: Factual causation
+        gloss: Whether the act or omission in fact caused the harm. Decided on the evidence, on the balance of probabilities; s 5D(1)(a).
+      - term: Scope of liability
+        gloss: 'Whether it is appropriate for liability to extend to the harm so caused: a legal question involving policy (s 5D(1)(b)). Also called remoteness or legal causation.'
+      - term: Onus of proof (s 5E)
+        gloss: The plaintiff always bears the onus of proving, on the balance of probabilities, any fact relevant to causation.
+    misconceptions:
+      - claim: Once the breach is shown to be a necessary condition of the harm, causation is established.
+        tempting: Necessary condition is usually the hard part, and "causation" sounds like a single question.
+        correction: Section 5D(1) makes causation two elements. Scope of liability (s 5D(1)(b)) — new intervening acts and remoteness — must also be satisfied.
+      - claim: Like battery, negligence succeeds without damage; damage only affects how much is awarded.
+        tempting: The intentional torts in Topics 1–4 are actionable per se.
+        correction: 'Negligence is an action on the case: damage is the gist of the action. No damage, no action.'
+      - claim: The CLA replaced the common law on causation, so cases decided before 2002 no longer matter.
+        tempting: Section 5D states the elements in statutory words.
+        correction: The CLA restructured and codified the common law; its principles still apply and the cases are still important.
+    socratic:
+      - ask: A duty doctor carelessly refuses to see a patient, who later dies. Duty and breach are clear. What else must the estate prove?
+        hint: Is breach the end of a negligence claim?
+        answer: Damage causally connected to the breach and not too remote, proved on the balance of probabilities (s 5E).
+      - ask: What are the two elements of causation under s 5D(1)?
+        hint: One rests on evidence, one on policy.
+        answer: '(a) Factual causation: the negligence was a necessary condition of the harm. (b) Scope of liability: it is appropriate for liability to extend to the harm so caused.'
+      - ask: Which element is a question of fact, and which a legal question?
+        hint: What can be proved, versus what ought to follow.
+        answer: 'Factual causation asks whether the act in fact caused the harm. Scope of liability (remoteness) is a legal question involving policy: should the defendant be held responsible?'
+      - ask: If the factual causation test gives an unsatisfactory result, where does the flowchart send you?
+        hint: Two kinds of case, then one subsection.
+        answer: Multiple sufficient causes or material contribution to harm, and then s 5D(2), which can establish factual causation in an appropriate (in NSW, exceptional) case.
+      - ask: Factual causation is satisfied. What does scope of liability then ask about?
+        hint: The flowchart joins two boxes with AND.
+        answer: 'New intervening acts and remoteness: both, taken in Topic 11.'
+    elements:
+      - name: Damage
+        test: 'Has the plaintiff suffered damage? Damage is the gist of the action: no damage, no action.'
+      - name: Factual causation
+        test: Was the negligence a necessary condition of the harm (s 5D(1)(a); 'but for' at common law)? There must be a connection between breach and injury, proved on the balance of probabilities.
+        cases:
+          - adeels-palace-v-moubarak
+          - strong-v-woolworths-ltd-tas-big-w
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+          - civil-liability-act-2002-nsw-s5e
+      - name: Gap route, only if needed
+        test: If necessary condition cannot be established (multiple sufficient causes, material contribution to harm), consider s 5D(2) in an exceptional case.
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: Scope of liability
+        test: Is it appropriate for liability to extend to the harm so caused (s 5D(1)(b), s 5D(4))? Deal with new intervening acts and remoteness.
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+    what-if:
+      - change: In Adeels Palace, the evidence had shown that door staff would probably have kept the gunman out.
+        effect: The necessary condition question would be answered "yes" on the balance of probabilities, so factual causation would be satisfied and the analysis would move on to scope of liability.
+      - change: The plaintiff suffered no harm at all from the careless conduct.
+        effect: 'The claim fails before causation is reached: negligence is an action on the case, and damage is the gist of the action.'
+      - change: The harm followed a later unreasonable act by the injured plaintiff, as in McKew.
+        effect: 'Factual causation may still be met, but the other branch is engaged: whether a new intervening act takes the later harm outside the scope of liability.'
+    boundary:
+      - text: A breach that only 'might have' made a difference to the harm.
+        why: 'Outside: in Adeels Palace that was not proof of factual causation, and there was no reason to treat the case as exceptional under s 5D(2).'
+      - text: A dust disease claim, such as Amaca v Booth.
+        why: 'Outside the statutory column: s 3B(1) excludes dust disease proceedings from the CLA, so the common law cases decide causation.'
+    transfer:
+      - scenario: A gym negligently fails to service a treadmill. A member collapses on it from a heart condition unrelated to the machine and is hurt in the fall.
+        answer: 'Ask s 5D(1)(a): was the failure to service a necessary condition of the harm? If the evidence shows the collapse and the fall would have happened on a well-serviced machine, the answer is no: breach without causation, as in Barnett. The member bears the onus on the balance of probabilities (s 5E). Only if factual causation is met does scope of liability arise.'
+    sources:
+      - Topic 10 Flowcharts (pp 433–434)
+      - Topic 10 Lecture 1 (slides 4–5, 13, 16–18, 23–24)
+      - Topic 10 Lecture 1 Transcript - Causation
+      - Civil Liability Act 2002 (NSW) ss 5D, 5E (act-2002-022.pdf)
+  - concept: laws2400-w10-factual-causation-necessary-condition
+    plain: Factual causation asks whether the harm would have happened without the defendant's negligence. If it would have happened anyway, the negligence did not cause it.
+    concrete: 'Mr Barnett drank tea at work that had been poisoned with arsenic, and went to hospital. The duty doctor, feeling unwell himself, refused to see him; another doctor attended later, but it was too late, and he died. The duty doctor was negligent, yet the claim failed: even timely treatment would not have saved him. He would have died anyway, so the negligence was not a cause of his death.'
+    formal: 'Common law: would the plaintiff have suffered the damage but for the defendant''s negligence? CLA s 5D(1)(a): was the negligence a necessary condition of the occurrence of the harm? Section 5D(1)(a) ''is a statutory statement of the "but for" test of causation'' (Strong v Woolworths). The plaintiff proves it on the balance of probabilities (s 5E).'
+    analogy:
+      text: Rewind the story, take out the defendant's careless act, and replay it. If the harm still happens, the act was not a necessary condition. If the harm disappears, it was.
+      maps:
+        - from: Rewinding the story
+          to: 'The counterfactual: ''but for'' the negligence'
+        - from: Taking out the careless act
+          to: Assuming the defendant had taken reasonable care
+        - from: Harm still happens
+          to: Not satisfied, as in Barnett
+        - from: Watching the replay
+          to: Proof on the evidence, on the balance of probabilities
+      limits:
+        - 'The replay is never certain: the court decides on the probabilities, and ''might have'' prevented the harm is not enough (Adeels Palace).'
+        - With two sufficient causes, removing either one still leaves the harm, so the replay gives an unsatisfactory answer.
+    terms:
+      - term: '''But for'' test'
+        gloss: 'Common law: would the plaintiff have suffered the damage but for the defendant''s negligence? ''No'' means factual causation is satisfied.'
+      - term: Necessary condition
+        gloss: 'Section 5D(1)(a): was the negligence a necessary condition of the occurrence of the harm? ''Yes'' means satisfied. The same test as ''but for''.'
+      - term: Balance of probabilities
+        gloss: 'The civil standard: more likely than not. On causation the plaintiff always bears the onus (s 5E).'
+      - term: Subjective test (s 5D(3))
+        gloss: What the injured person would have done is decided subjectively; their later statement about it is inadmissible unless against their interest.
+    misconceptions:
+      - claim: Under the common law 'but for' question, answering 'Yes' means factual causation is satisfied.
+        tempting: '''Yes'' does satisfy the statutory necessary condition question.'
+        correction: The questions are mirror images. 'Would the injuries have been suffered but for the negligence?' — 'No' is satisfied. 'Was the fault a necessary condition?' — 'Yes' is satisfied.
+      - claim: Section 5D(1)(a) replaced 'but for' with a different, looser statutory test.
+        tempting: Statutes often change common law tests, and the wording is different.
+        correction: Strong v Woolworths called s 5D(1)(a) 'a statutory statement of the "but for" test'. Courts still use 'but for' language when applying it.
+      - claim: Factual causation asks whether the harm was a reasonably foreseeable result of the breach.
+        tempting: Foreseeability runs through duty, breach and remoteness.
+        correction: 'Factual causation is not about reasonableness: it is what the evidence proves happened. Foreseeability returns at scope of liability (remoteness).'
+    socratic:
+      - ask: In Barnett, the duty doctor negligently refused to see the patient. Why did the claim fail?
+        hint: What would timely treatment have achieved?
+        answer: Even timely treatment would not have saved him. He would have died anyway, so the negligence was not a 'but for' cause of the death.
+      - ask: How does the CLA put the same question?
+        hint: s 5D(1)(a).
+        answer: Was the negligence a necessary condition of the occurrence of the harm? 'But for' and necessary condition are two ways of saying the same thing.
+      - ask: In Strong v Woolworths, why did it matter when the chip was dropped?
+        hint: A reasonable system inspected at intervals of not more than 20 minutes.
+        answer: If it fell in the last 20 minutes, a reasonable inspection would not have removed it, so the missing system would not be a necessary condition of the fall.
+      - ask: How did the High Court decide when the chip fell?
+        hint: Which standard, and which period was longer?
+        answer: 'On the balance of probabilities (s 5E): it was more probably deposited in the longer period, 8.00am to 12.10pm, so causation was established.'
+      - ask: Suppose causation turns on whether the plaintiff would have heeded a warning. How is that decided?
+        hint: s 5D(3).
+        answer: Subjectively, in the light of all relevant circumstances. Her own statement after the harm about what she would have done is inadmissible unless it is against her interest.
+    elements:
+      - name: Name the test
+        test: Common law 'but for', or the necessary condition test in s 5D(1)(a) if the CLA applies; cite both, since they are the same test.
+        cases:
+          - strong-v-woolworths-ltd-tas-big-w
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: Ask the counterfactual
+        test: Would the harm have occurred if the defendant had not been negligent? Read the answer the right way round for the test used.
+        cases:
+          - barnett-v-chelsea-and-kensington-hospital
+      - name: Prove it
+        test: On the evidence, on the balance of probabilities; the plaintiff bears the onus (s 5E). That precautions 'might have' made a difference is not enough.
+        cases:
+          - adeels-palace-v-moubarak
+        authorities:
+          - civil-liability-act-2002-nsw-s5e
+      - name: The plaintiff's own choices
+        test: Where it matters what the injured person would have done, decide it subjectively; their later self-serving statement is inadmissible (s 5D(3)).
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+    what-if:
+      - change: In Barnett, the evidence showed prompt treatment would probably have saved the deceased.
+        effect: 'The ''but for'' question would be answered ''No'': he would not have died but for the negligence. Factual causation would be satisfied, and the claim would move to scope of liability.'
+      - change: In Strong v Woolworths, the probabilities favoured the chip being dropped within 20 minutes before the fall.
+        effect: A reasonable inspection system would not have found it, so the lack of a system would not be a necessary condition of the fall; factual causation would fail.
+      - change: After her injury, the plaintiff tells the court she would certainly have obeyed a warning sign.
+        effect: Under s 5D(3)(b) the statement is inadmissible unless against her interest. What she would have done is decided subjectively, in the light of all relevant circumstances.
+    boundary:
+      - text: Two independent hunters each fire a shot that alone would have killed the walker.
+        why: 'At the edge: ''but for'' clears each hunter, because the death would have happened anyway. This is multiple sufficient causes, where the test yields unsatisfactory results.'
+      - text: The evidence shows only that precautions might have prevented the harm.
+        why: 'Outside: a possibility is not proof on the balance of probabilities that the negligence was a necessary condition (Adeels Palace).'
+    transfer:
+      - scenario: A swimming pool negligently has no lifeguard on duty. A swimmer has a sudden, fatal heart attack in the water; medical evidence says he would have died within seconds wherever he was.
+        answer: 'Ask s 5D(1)(a): was the missing lifeguard a necessary condition of the death? On this evidence, no: he would have died anyway, just as in Barnett even timely treatment would not have saved the deceased. The plaintiff bears the onus on the balance of probabilities (s 5E). Breach without factual causation means the claim fails.'
+    sources:
+      - Topic 10 Lecture 1 (slides 6–7, 13–14, 19–21)
+      - Topic 10 Flowcharts (p 434)
+      - Topic 10 Lecture 1 Transcript - Causation
+      - Civil Liability Act 2002 (NSW) s 5D(1)(a), (3), s 5E (act-2002-022.pdf)
+  - concept: laws2400-w10-common-sense-causation-and-s5d
+    plain: Courts once settled hard causation cases by 'common sense'. The CLA now separates the factual question (did the negligence cause the harm?) from the policy question (should the defendant answer for it?).
+    concrete: Early one morning, the defendant's truck was parked in the middle of a six-lane road to unload fruit and vegetables, as had long been the practice. The plaintiff, drunk and speeding, drove into it and was injured. The trial judge held the defendant liable, with 70% contributory negligence; the Full Court of South Australia put all responsibility on the plaintiff. The High Court held the defendant's negligence was a cause, though the judges reasoned differently.
+    formal: 'March v Stramare: Mason CJ — ''but for'' was never the exclusive test; causation ''must be determined by applying common sense to the facts of each particular case''. McHugh J — ''but for'' should be exclusive, with a ''scope of the risk'' test bringing policy in as part of remoteness. Adeels Palace: s 5D(1) ''treats factual causation and scope of liability as separate and distinct issues''.'
+    terms:
+      - term: Common sense test
+        gloss: 'Mason CJ''s approach in March v Stramare: causation is a question of fact determined by applying common sense to the facts of each case.'
+      - term: '''Scope of the risk'' test'
+        gloss: 'McHugh J''s proposal in March: keep ''but for'' as the exclusive factual test and deal with policy factors as part of remoteness.'
+      - term: Ipp Report
+        gloss: The Negligence Review Panel's report behind the CLA. It criticised 'common sense' causation for hiding policy choices inside a factual question.
+    misconceptions:
+      - claim: Section 5D(1) codified Mason CJ's common sense test.
+        tempting: March v Stramare is the leading common law case, and the CLA codified the common law.
+        correction: The Ipp Report criticised 'common sense' for hiding policy choices. Section 5D(1) treats factual causation and scope of liability as separate and distinct issues (Adeels Palace).
+      - claim: In March v Stramare, McHugh J held that causation is a matter of common sense.
+        tempting: March is famous for common sense, and McHugh J sat in the case.
+        correction: That was Mason CJ. McHugh J said 'but for' should be the exclusive test, with a 'scope of the risk' test bringing policy in as part of remoteness.
+      - claim: If security might have prevented the harm, factual causation is established.
+        tempting: The occupier had no security at all, so excusing it seems unfair.
+        correction: 'Adeels Palace: that changing any of the circumstances ''might have made a difference does not prove factual causation''.'
+    socratic:
+      - ask: In March v Stramare, would the plaintiff have been injured without the truck parked mid-road?
+        hint: Was the truck needed for this collision?
+        answer: 'No: without the truck there was nothing to hit. The truck and the plaintiff''s own drunk, speeding driving were both necessary conditions of the injury.'
+      - ask: Why did Mason CJ say 'but for' could not be the only test?
+        hint: Two events, or an intervening one.
+        answer: It does not work where two or more acts or events are involved, or where an intervening event breaks the chain. Causation must be determined by common sense.
+      - ask: What did the Ipp Report find wrong with 'common sense'?
+        hint: What hides beneath a simple factual question?
+        answer: It hid value judgments about who should be responsible and how far liability should extend, making the law less transparent and less predictable.
+      - ask: How does s 5D(1) deal with that?
+        hint: Count its paragraphs.
+        answer: It splits causation into (a) factual causation, a necessary condition, and (b) scope of liability, so policy is dealt with openly at (b).
+      - ask: Why did Moubarak lose in Adeels Palace?
+        hint: What did the evidence show about security staff?
+        answer: It did not show security staff would have deterred or prevented the gunman's re-entry. That a change 'might have made a difference' does not prove factual causation.
+    what-if:
+      - change: In Adeels Palace, the plaintiff had proved that a guard at the door would probably have kept the gunman out.
+        effect: Factual causation would be established under s 5D(1)(a). Whether liability should extend to the harm would then be asked separately, as scope of liability.
+      - change: A judge decides causation by asking what feels fair, without first asking the necessary condition question.
+        effect: 'That repeats what the Ipp Report criticised: policy hidden inside the factual question. Under s 5D(1), apply necessary condition first, on the evidence, and keep policy for scope of liability.'
+    boundary:
+      - text: 'March v Stramare: a parked truck and a drunk, speeding driver.'
+        why: 'Necessary condition copes here: the lecturer noted both were necessary conditions of the collision. The harder question was whether the driver''s own negligence broke the chain.'
+    transfer:
+      - scenario: A council leaves a damaged roadside barrier unrepaired, and a drunk, speeding motorist crashes through it. The council's barrister says that, as a matter of common sense, the driver and not the barrier caused the harm.
+        answer: Under s 5D(1) the court does not pick 'the' cause by common sense. It asks whether the council's negligence was a necessary condition of the harm, on the evidence (s 5E); the driver's negligence can be one too, as in March v Stramare. Whether liability should extend to the harm is a separate scope of liability question (Adeels Palace).
+    storyboard:
+      - caption: '1991: March v Stramare'
+        detail: 'Mason CJ: ''but for'' was never exclusive; apply common sense to the facts. McHugh J: ''but for'' should be exclusive, with policy dealt with in remoteness.'
+      - caption: The Ipp Report's critique
+        detail: '''Common sense'' hides policy choices about responsibility inside a factual question, making the law less transparent and less predictable.'
+      - caption: '2002: CLA s 5D(1)'
+        detail: 'Restructures and codifies the common law: (a) factual causation, a necessary condition; (b) scope of liability. The cases are still important.'
+      - caption: '2009: Adeels Palace v Moubarak'
+        detail: Section 5D(1) treats the two issues as separate and distinct; a 'might have' does not prove factual causation.
+      - caption: '2012: Strong v Woolworths'
+        detail: Section 5D(1)(a) is 'a statutory statement of the "but for" test', applied on the balance of probabilities (s 5E).
+    sources:
+      - Topic 10 Lecture 1 (slides 9–21)
+      - Topic 10 Lecture 1 Transcript - Causation
+      - Civil Liability Act 2002 (NSW) s 5D(1) (act-2002-022.pdf)
+  - concept: laws2400-w10-multiple-sufficient-causes-and-material-contribution
+    plain: 'Sometimes ''but for'' fails unfairly: two causes are each enough on their own, or science cannot say which exposure caused the harm. The flowchart calls these the gap cases.'
+    concrete: In Cook v Lewis (1961), hunters were shooting and a single bullet struck the plaintiff. The jury could not decide which of the two negligent hunters had fired it. Asked of each hunter separately, the 'but for' question cannot be answered against either, so both would escape. The Supreme Court of Canada refused that result and held both negligent defendants liable.
+    formal: 'In March v Stramare Mason CJ noted three limits of ''but for'': it cannot distinguish causes from necessary preconditions, it struggles with intervening events, and it fails with multiple sufficient causes. The Negligence Review Panel made no recommendation on these, so the common law applies. The flowchart''s appropriate cases for s 5D(2): multiple sufficient causes (Bonnington; March) and material contribution to harm (Fairchild; McGee; Amaca v Ellis; Henville).'
+    terms:
+      - term: Multiple sufficient causes
+        gloss: Two or more events, each of which is sufficient on its own to cause the harm.
+      - term: Market share liability
+        gloss: 'One solution courts have used where several defendants were potentially negligent: each pays a portion of the compensation in line with its market share.'
+      - term: Material contribution to harm (flowchart)
+        gloss: Negligent conduct that materially increases the risk of harm where the state of scientific or medical knowledge makes it impossible to prove the cause.
+    misconceptions:
+      - claim: Multiple sufficient causes means two events that were both needed for the harm, like the parked truck and the drunk driver.
+        tempting: March v Stramare involved two negligent actors.
+        correction: In March both acts were necessary. Multiple sufficient causes means two or more events, each of which is sufficient on its own to cause the harm.
+      - claim: Section 5D(2) expressly leaves multiple sufficient causes to the common law.
+        tempting: Section 5D(2) refers to 'established principles'.
+        correction: Common law principles continue to apply because the Negligence Review Panel made no recommendations on how to deal with multiple sufficient causes.
+      - claim: Material contribution to harm and increased risk of harm are the same thing.
+        tempting: The flowchart describes material contribution as conduct that 'materially increases the risk of harm'.
+        correction: 'The lectures keep them apart: increased risk is not enough (Amaca v Ellis); material contribution is causal and must be more than negligible (Bonnington). Use the lecture''s terms.'
+    socratic:
+      - ask: Two independent hunters both fire carelessly; either shot alone would have killed the walker. Apply 'but for' to the first hunter.
+        hint: Would the walker have died anyway?
+        answer: 'Yes: the other shot would have killed him. So ''but for'' clears the first hunter and, by the same reasoning, the second.'
+      - ask: Is that an acceptable result?
+        hint: Two negligent hunters, one dead walker, nobody liable?
+        answer: No. It does not make sense; in Cook v Lewis the court held both negligent hunters liable when it could not tell whose bullet struck.
+      - ask: Several makers produced the same defective device, and the plaintiff cannot say whose device injured her. What have courts done?
+        hint: Think of each maker's share of sales.
+        answer: 'Market share liability: each defendant pays a portion of the compensation in line with its market share.'
+      - ask: Why does the common law, not the CLA, govern multiple sufficient causes?
+        hint: What did the Negligence Review Panel recommend?
+        answer: 'Nothing: the Panel made no recommendations on how to deal with them, so common law principles continue to apply.'
+      - ask: On the flowchart, where do the two kinds of gap case lead?
+        hint: One subsection of s 5D.
+        answer: To s 5D(2), which can establish factual causation in an appropriate (in NSW, exceptional) case, where there is also a clear breach and an evidentiary gap.
+    what-if:
+      - change: In Cook v Lewis, ballistics evidence showed which hunter's bullet struck the plaintiff.
+        effect: 'There would be no gap. ''But for'' could be applied to each hunter on the evidence: the one whose bullet struck would be a necessary condition of the injury, and the other would not.'
+      - change: Experts say the employer's negligent dust and other dust combined to cause the disease, but not how much each contributed.
+        effect: 'The flowchart calls this multiple sufficient causes (Bonnington). The lectures treat Bonnington as material contribution: a more than negligible negligent contribution is enough, without proving it was the sole or main cause.'
+    boundary:
+      - text: March v Stramare, which the flowchart lists under multiple sufficient causes.
+        why: 'At the edge: the lecturer noted that both the truck and the drunk driving were necessary there, so it is not a true sufficient-causes case. The lectures use it for Mason CJ''s limits of ''but for''.'
+      - text: A plaintiff who shows only that the defendant increased the risk of the harm.
+        why: 'Outside material contribution as the lectures use it: increased risk is forward-looking and, in Australia, not enough (Amaca v Ellis).'
+    transfer:
+      - scenario: Three companies made the same contaminated baby formula. A child is harmed, but her family cannot prove which company made the tin she drank from. Each company says it has not been shown to be the one.
+        answer: '''But for'' cannot be applied to any one company, because the evidence does not show whose product caused the harm. The slides give market share liability as one solution courts have used: each potentially negligent defendant pays a portion of the compensation in line with its market share. The Negligence Review Panel made no recommendation here, so common law approaches apply.'
+    sources:
+      - Topic 10 Lecture 2 (slides 3–5, 8)
+      - Topic 10 Flowcharts (pp 434–435)
+      - Topic 10 Lecture 1 Transcript - Causation
+      - Topic 10 Lecture 2 Transcript - Causation
+  - concept: laws2400-w10-risk-chance-and-material-contribution
+    plain: The plaintiff must show the negligence probably contributed to the harm. Showing that it only cost them a chance, or increased a risk, is not enough.
+    concrete: 'A six-year-old girl, Tabet, suffered permanent brain damage after a delay in performing a CT scan during hospital treatment. She claimed the doctor''s negligence cost her a chance of a better medical outcome. But that chance was under 50%: a possibility, not a probability. The High Court refused recovery. In personal injury cases, Australian common law does not compensate the loss of a chance of a better outcome.'
+    formal: 'Tabet v Gett (Gummow ACJ): in personal injury cases the common law of Australia does not entertain an action where the damage is characterised as the loss of a chance of a better outcome. Increased risk is not enough (Amaca v Ellis). A negligent contribution that is more than negligible is enough (Bonnington Castings v Wardlaw), and may be inferred from the evidence (Amaca v Booth).'
+    analogy:
+      text: A weather forecast and a rain gauge. A forecast that rain is more likely says nothing about whether this garden got wet. The gauge, read afterwards, shows rain actually fell here, even if only a little.
+      maps:
+        - from: The forecast
+          to: 'Increased risk: probabilistic and forward-looking (not enough, Amaca v Ellis)'
+        - from: The rain gauge
+          to: 'Material contribution: causal, looking back at how the harm came about'
+        - from: A little rain in the gauge
+          to: A contribution more than de minimis is enough (Bonnington)
+      limits:
+        - A gauge measures directly; courts usually infer contribution from expert evidence, such as the Bradford Hill criteria in Amaca v Booth.
+        - However confident the forecast, risk evidence still fails if it says nothing about what happened to this claimant.
+    terms:
+      - term: Loss of a chance
+        gloss: A claim that negligence destroyed a possibility, not a probability, of a better outcome. Not actionable in Australian personal injury cases (Tabet v Gett).
+      - term: Increased risk of harm
+        gloss: 'Conduct that made harm more likely: probabilistic, forward-looking, and saying nothing about what actually happened to this claimant.'
+      - term: Material contribution to harm
+        gloss: 'Conduct that was part of how the harm came about: causal, looking back after the harm, and more than negligible.'
+      - term: De minimis
+        gloss: Negligible or trivial. A negligent contribution must be more than de minimis (Bonnington Castings v Wardlaw).
+    misconceptions:
+      - claim: A lost chance of a better medical outcome is compensated in proportion to its size.
+        tempting: Paying 30% of the damages for a 30% chance seems fair.
+        correction: Tabet v Gett refused recovery for the loss of a chance of a better outcome in personal injury cases. A less than even chance is a possibility, not a probability.
+      - claim: Proof that asbestos exposure increased the risk of the plaintiff's cancer establishes causation.
+        tempting: Fairchild (UK) treated materially increased risk as enough, where science could not identify the cause.
+        correction: 'Amaca v Ellis: increased risk is not sufficient. The plaintiff must prove on the balance of probabilities that the exposure actually contributed. Australia has not adopted Fairchild.'
+      - claim: A negligent exposure must be the main cause of the disease.
+        tempting: The dust also came from other sources or other employers.
+        correction: 'Bonnington Castings v Wardlaw: a negligent contribution that is more than de minimis is enough. It need not be the sole or main cause.'
+    socratic:
+      - ask: Tabet's chance of a better outcome with an earlier scan was under 50%. Has she proved the delay caused her brain damage?
+        hint: What is the civil standard of proof?
+        answer: No. On the balance of probabilities she would have suffered the damage anyway; she lost a possibility, not a probability, of a better outcome.
+      - ask: Can she sue for the lost chance itself?
+        hint: Gummow ACJ at [46].
+        answer: 'Not in personal injury: Australian common law does not entertain such an action, although Gummow ACJ did not rule out lost chances in absolute terms.'
+      - ask: In dust disease cases, how does increased risk differ from material contribution?
+        hint: Forward-looking or backward-looking?
+        answer: Increased risk is probabilistic and looks forward; it says nothing about this claimant. Material contribution is causal, looks back, and must be more than negligible.
+      - ask: Ellis smoked and was exposed to asbestos; his evidence showed only that exposure increased his lung cancer risk. Result?
+        hint: Is risk alone enough?
+        answer: Causation failed. Showing the exposure increased the risk was not sufficient; the evidence could not show it actually contributed to the cancer.
+      - ask: Why could contribution be inferred for Booth?
+        hint: His disease, his exposure, the mechanism.
+        answer: Asbestos is effectively the only known cause of mesothelioma; he had about 27 years of heavy brake-lining exposure, other exposures trivial; and experts accepted that cumulative exposure contributes to the disease.
+    what-if:
+      - change: In Tabet v Gett, the evidence had shown an earlier scan would probably have prevented the brain damage.
+        effect: The injury itself would then be causally related to the negligence on the balance of probabilities, so the claim would not depend on a lost chance at all.
+      - change: Booth had developed lung cancer rather than mesothelioma, and had also smoked.
+        effect: 'His case would look like Amaca v Ellis: a competing cause and a disease not effectively unique to asbestos make contribution hard to infer, leaving only increased risk, which is not enough.'
+      - change: The negligent dust in Bonnington had been a trivial fraction of the total.
+        effect: 'The claim would fail: the negligent exposure must make a contribution that is more than de minimis. A negligible contribution does not establish causation.'
+    boundary:
+      - text: A lost commercial opportunity, rather than a lost chance of a better medical outcome.
+        why: 'At the edge: Gummow ACJ spoke of personal injury and did not reject lost chances absolutely; the lecturer noted commercial cases can be treated differently.'
+      - text: Fairchild v Glenhaven (UK).
+        why: 'Outside Australian law: a policy-based exception treating materially increased risk as enough. Australian common law has not adopted a risk-based test in that form.'
+    transfer:
+      - scenario: A quarry worker develops a silica dust disease after 20 years in his employer's negligently ventilated sheds and one brief earlier job. Experts say the disease builds with cumulative exposure but cannot say which exposure triggered it.
+        answer: 'As in Bonnington, he need not show the employer''s dust was the sole or main cause: a negligent contribution more than de minimis is enough. As in Amaca v Booth, long heavy exposure, trivial other exposure and cumulative-mechanism evidence can support an inference of contribution, not mere increased risk (contrast Amaca v Ellis). Section 3B(1) keeps dust disease claims outside the CLA.'
+    sources:
+      - Topic 10 Lecture 2 (slides 6–13)
+      - Topic 10 Lecture 2 Transcript - Causation
+      - Civil Liability Act 2002 (NSW) s 3B(1) (act-2002-022.pdf)
+  - concept: laws2400-w10-s5d2-exceptional-cases
+    plain: If negligence cannot be shown to be a necessary condition of the harm, s 5D(2) lets a court, in an exceptional case, still accept factual causation, after asking whether and why responsibility should be imposed.
+    concrete: 'In Adeels Palace, the club''s lack of security was a breach, but the evidence could not show that security staff would have stopped the gunman re-entering. The High Court found no reason to treat it as an exceptional case under s 5D(2): it ''would be contrary to established principles'' to hold the club responsible when its negligence was not a necessary condition of the harm but only ''might have'' prevented it.'
+    formal: 'CLA s 5D(2): ''In determining in an exceptional case, in accordance with established principles, whether negligence that cannot be established as a necessary condition of the occurrence of harm should be accepted as establishing factual causation, the court is to consider (amongst other relevant things) whether or not and why responsibility for the harm should be imposed on the negligent party.'' It is rarely applied.'
+    terms:
+      - term: Exceptional case
+        gloss: The NSW wording in s 5D(2) for when negligence not shown to be a necessary condition may still establish factual causation. The textbook flowchart says 'an appropriate case'.
+      - term: Evidentiary gap
+        gloss: Where the evidence cannot establish the cause, eg because scientific evidence cannot identify which exposure caused the disease. The flowchart requires one for s 5D(2).
+      - term: Section 3B(1) exclusion
+        gloss: The CLA does not apply to dust disease and tobacco claims, which go under special statutes such as the Dust Diseases Tribunal Act 1989 (NSW).
+    misconceptions:
+      - claim: Section 5D(2) applies whenever the breach is clear and the evidence leaves a gap.
+        tempting: The flowchart lists a clear breach and an evidentiary gap as requirements.
+        correction: 'They are needed but not enough: s 5D(2) is for exceptional cases, and the court still weighs whether and why responsibility should be imposed. Adeels Palace refused it.'
+      - claim: Amaca v Booth used s 5D(2) to establish causation for mesothelioma.
+        tempting: s 5D(2) was modelled on the dust disease cases.
+        correction: 'Booth never mentions the CLA: s 3B(1) excludes dust disease claims, which go under the Dust Diseases Tribunal Act 1989 (NSW). It was decided on the evidence.'
+      - claim: Because s 5D(2) and s 5D(4) use the same words, scope of liability can fill a factual causation gap.
+        tempting: Both direct the court to consider whether and why responsibility should be imposed on the negligent party.
+        correction: Same question, different stage. Section 5D(2) concerns factual causation in an exceptional case; s 5D(4) concerns scope of liability, which assumes the harm was caused.
+    socratic:
+      - ask: Science cannot identify which of several exposures caused a worker's illness. Can s 5D(1)(a) be satisfied?
+        hint: Can necessary condition be proved on the evidence?
+        answer: 'Not on the evidence: the negligence cannot be established as a necessary condition. This is the gap s 5D(2) addresses.'
+      - ask: Where did s 5D(2) come from?
+        hint: A report, and a line of cases.
+        answer: The Ipp Report recommended an exceptional case provision, based on the dust disease cases.
+      - ask: What must the court consider under s 5D(2)?
+        hint: Amongst other relevant things...
+        answer: Whether or not and why responsibility for the harm should be imposed on the negligent party, deciding in accordance with established principles.
+      - ask: How often has s 5D(2) been applied?
+        hint: Which case do we have?
+        answer: Rarely considered, so how it operates is uncertain. Adeels Palace held it did not apply where negligence only 'might have' prevented the harm.
+      - ask: Why have the dust disease cases not tested s 5D(2)?
+        hint: s 3B(1).
+        answer: Section 3B(1) excludes the CLA from dust disease and tobacco claims, which go under special statutes such as the Dust Diseases Tribunal Act 1989 (NSW).
+    elements:
+      - name: The CLA applies
+        test: 'Check s 3B(1) first: dust disease and tobacco claims are outside the CLA, so s 5D(2) cannot apply to them.'
+        authorities:
+          - civil-liability-act-2002-nsw-s3b
+      - name: Necessary condition cannot be established
+        test: Negligence cannot be established as a necessary condition of the occurrence of the harm under s 5D(1)(a).
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: An appropriate (exceptional) case
+        test: 'The flowchart: multiple sufficient causes or material contribution to harm. The NSW text: ''an exceptional case'', decided in accordance with established principles.'
+        cases:
+          - bonnington-castings-v-wardlaw
+          - fairchild-v-glenhaven-funeral-services-ltd
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: Clear breach and evidentiary gap
+        test: 'The flowchart requires both: the breach itself must be clear, and the gap must be in the evidence of causation.'
+      - name: The responsibility question
+        test: Whether or not and why responsibility should be imposed on the negligent party. The flowchart adds whether the harm should be left to lie where it fell; the NSW text does not.
+        cases:
+          - adeels-palace-v-moubarak
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+    what-if:
+      - change: The claim is for mesothelioma caused by asbestos exposure in NSW.
+        effect: 'The CLA, including s 5D(2), does not apply: s 3B(1) excludes dust disease proceedings, which go under the Dust Diseases Tribunal Act 1989 (NSW).'
+      - change: The breach itself is disputed and unclear.
+        effect: 'On the flowchart, the s 5D(2) route is not open: as well as an evidentiary gap, there must be a clear breach.'
+      - change: The evidence shows the harm would have happened anyway.
+        effect: 'There is no gap: factual causation simply fails, as in Barnett. Section 5D(2) is for negligence that cannot be established as a necessary condition, not negligence shown not to be one.'
+    boundary:
+      - text: A nightclub with no security, where a gunman re-enters (Adeels Palace).
+        why: 'Outside: ''might have'' prevented the harm did not make it exceptional. Holding the club responsible would be contrary to established principles.'
+      - text: Dust disease cases such as Amaca v Booth.
+        why: 'Outside the provision altogether: s 3B(1) excludes them from the CLA, even though s 5D(2) was modelled on them.'
+    transfer:
+      - scenario: A factory negligently releases a chemical into a river. Years later, several residents develop a rare illness, and medical science cannot yet say whether the chemical causes it. The breach is clear.
+        answer: 'Necessary condition cannot be established on the evidence (s 5D(1)(a)). The residents would need s 5D(2): an exceptional case, decided in accordance with established principles, the court considering whether and why responsibility should be imposed. The flowchart treats material contribution to harm, where science cannot prove the cause, as an appropriate case. But s 5D(2) is rarely applied and uncertain.'
+    sources:
+      - Topic 10 Lecture 1 (slides 15, 18)
+      - Topic 10 Lecture 2 (slides 14–15)
+      - Topic 10 Flowcharts (p 435)
+      - Topic 10 Lecture 2 Transcript - Causation
+      - Civil Liability Act 2002 (NSW) ss 3B(1), 5D(2) (act-2002-022.pdf)
+  - concept: laws2400-w10-scope-of-liability-element
+    plain: Even if the negligence caused the harm, the court still asks whether the defendant ought to answer for it. A later event can put the harm outside the defendant's liability.
+    concrete: 'McKew''s leg, injured through the defendant''s negligence, was prone to give way. He went down a steep staircase without a handrail, unaided; the leg gave way and he suffered a severe ankle fracture. The first injury set up the fall, yet his own unreasonable conduct was a novus actus interveniens: the chain was broken, and the defendant was not liable for the second injury.'
+    formal: 'CLA s 5D(1)(b): ''that it is appropriate for the scope of the negligent person''s liability to extend to the harm so caused''. Section 5D(4): the court is to consider (amongst other relevant things) whether or not and why responsibility for the harm should be imposed on the negligent party. The test comes from the common law: new intervening acts and remoteness (Topic 11).'
+    terms:
+      - term: Normative question
+        gloss: 'A question about what ought to be: is it appropriate for liability to extend to this harm? Scope of liability is normative; factual causation is not.'
+      - term: Novus actus interveniens
+        gloss: 'A later event that exacerbates the original harm or causes new harm: the plaintiff''s own act, a third party''s act, or a natural event.'
+      - term: Breaking the chain
+        gloss: If an intervening act breaks the chain of causation, the original wrongdoer is not liable for harm after the break.
+    misconceptions:
+      - claim: Scope of liability is another way to prove causation when factual causation fails.
+        tempting: The flowchart does have a fallback route for gap cases.
+        correction: That fallback is s 5D(2), inside factual causation. Scope of liability is a second element, needed as well as factual causation, not instead of it.
+      - claim: Any careless act by the plaintiff after the breach breaks the chain of causation.
+        tempting: McKew's own conduct broke the chain.
+        correction: Not every later careless act severs the chain. In March v Stramare the defendant's conduct generated the very risk that materialised, so the drunk driver's negligence did not break it.
+      - claim: If the chain is broken, the original wrongdoer escapes liability for all the harm.
+        tempting: '''Breaking the chain'' sounds total.'
+        correction: The original wrongdoer is not liable for harm after the break. In McKew the defendant was not liable for the second injury, the ankle fracture.
+    socratic:
+      - ask: McKew would not have fallen if his leg had not been weakened. Is that the end of causation for the ankle fracture?
+        hint: Necessary condition is only element (a).
+        answer: No. Even if the first injury was a necessary condition of the fall, s 5D(1)(b) still asks whether liability should extend to the fracture.
+      - ask: What kind of question is s 5D(1)(b)?
+        hint: Is or ought?
+        answer: 'A normative question: is it appropriate for the scope of the negligent person''s liability to extend to the harm so caused? Section 5D(4) asks whether and why responsibility should be imposed.'
+      - ask: What kinds of later event can be a novus actus?
+        hint: The slides list three sources.
+        answer: The plaintiff's own act, a third party's act, or a natural event.
+      - ask: Why did the drunk driver's own negligence not break the chain in March v Stramare?
+        hint: What risk did the parked truck create?
+        answer: The defendant's wrongful conduct generated the very risk of injury that materialised (Mason CJ).
+      - ask: Why did McKew's conduct break the chain?
+        hint: How reasonable was it?
+        answer: 'Going down a steep staircase without a handrail, unaided, on a leg prone to give way was unreasonable conduct: a novus actus.'
+    elements:
+      - name: Harm so caused
+        test: 'Section 5D(1)(b) assumes factual causation: the negligence was a necessary condition of the harm.'
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+      - name: New intervening acts
+        test: Did a later event — the plaintiff's act, a third party's, or a natural event — break the chain? Not every later careless act does.
+        cases:
+          - march-v-stramare
+          - mckew-v-holland-hannen-and-cubitts-ltd
+      - name: Remoteness
+        test: 'Joined to intervening acts by AND on the flowchart: is the harm too remote? The test comes from the common law (Topic 11).'
+      - name: Responsibility (s 5D(4))
+        test: 'Frame the conclusion: whether or not and why responsibility for the harm should be imposed on the negligent party.'
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+    what-if:
+      - change: McKew had gone down the stairs slowly, holding a companion's arm, when the leg gave way.
+        effect: His conduct would look far less unreasonable, so it is less likely to be a novus actus, and the fracture is more likely to fall within the scope of the defendant's liability.
+      - change: A storm causes the plaintiff further harm after the defendant's negligence.
+        effect: A natural event can be a novus actus. If it breaks the chain, the original wrongdoer is not liable for harm after the break, though still liable for the original harm.
+    boundary:
+      - text: 'March v Stramare: the plaintiff''s own drunk, speeding driving.'
+        why: 'Inside the chain: the defendant''s wrongful conduct generated the very risk of injury that materialised, so the plaintiff''s negligence did not break it.'
+      - text: 'McKew: an injured plaintiff''s unreasonable choice on a steep staircase.'
+        why: 'Outside: his unreasonable conduct was a novus actus, so the second injury fell outside the defendant''s liability.'
+    transfer:
+      - scenario: A gym's negligence injures Ada's shoulder. Her surgeon tells her not to lift weights for six weeks. In week two she attempts a heavy bench press alone and tears the shoulder completely.
+        answer: Factual causation for the first injury is not in doubt; the tear raises scope of liability (s 5D(1)(b)). Ada's own later act may be a novus actus. As in McKew, an injured plaintiff's unreasonable conduct can break the chain, so the gym would not be liable for harm after the break, though still liable for the original injury. Frame the conclusion with s 5D(4).
+    sources:
+      - Topic 10 Lecture 1 (slides 23–26)
+      - Topic 10 Flowcharts (p 433)
+      - Topic 10 Lecture 1 Transcript - Causation
+      - Civil Liability Act 2002 (NSW) s 5D(1)(b), (4) (act-2002-022.pdf)
+  - concept: laws2400-w10-contribution-between-tortfeasors
+    plain: When two wrongdoers are liable for the same damage, the plaintiff can recover everything from either one. The one who pays can then claim a share from the other.
+    concrete: Chapman's car collided with another vehicle near Adelaide, and he was thrown onto the road, unconscious. Dr Cherry stopped to help him and was struck and killed by Hearse's car. Dr Cherry's executor sued Hearse, who joined Chapman as a third party, claiming a contribution from him. The trial judge found Hearse negligent and held Chapman liable to contribute one-fourth of the damages; the High Court dismissed Chapman's appeal.
+    formal: 'Where multiple tortfeasors are jointly and severally liable for damage, the plaintiff may recover the whole amount against only one of them, except where proportionate liability applies to property damage and economic loss claims (Tort Law Principles [12.170]). A tortfeasor liable for the full amount may seek contribution from another: in NSW, Law Reform (Miscellaneous Provisions) Act 1946 s 5(1)(c), (2).'
+    analogy:
+      text: 'A group dinner: the restaurant can charge the whole bill to any one diner''s card. Who repays whom is for the diners to settle, and if one diner cannot pay, the other diners carry it, not the restaurant.'
+      maps:
+        - from: The restaurant
+          to: The plaintiff
+        - from: Charging one diner's card
+          to: Recovering the whole amount from one tortfeasor
+        - from: Diners settling up afterwards
+          to: Contribution between tortfeasors
+        - from: A diner who cannot pay
+          to: An insolvent tortfeasor, whose share the others carry
+      limits:
+        - Diners often split evenly; contribution need not be equal (in Chapman v Hearse, Chapman contributed one-fourth).
+        - Where proportionate liability applies (property damage, economic loss), the plaintiff may not be able to charge the whole bill to one tortfeasor.
+    terms:
+      - term: Joint and several liability
+        gloss: Each tortfeasor liable for the same damage can be made to pay the whole amount; the plaintiff may choose whom to recover from, eg the one with "deeper pockets".
+      - term: Contribution
+        gloss: The statutory mechanism by which a tortfeasor held liable for the full amount seeks a contribution from another tortfeasor. It in no way affects the plaintiff.
+      - term: Concurrent tortfeasors
+        gloss: Joint or separate wrongdoers whose torts contribute to the same damage. The risk of one being unable to pay lies with the others, not the plaintiff.
+      - term: Proportionate liability
+        gloss: The textbook's footnoted qualification for property damage and economic loss claims; the provisions themselves are not in these materials.
+    misconceptions:
+      - claim: Contribution reduces what the plaintiff recovers by the other tortfeasor's share.
+        tempting: Contribution divides the burden of the damages between the wrongdoers.
+        correction: 'Contribution in no way affects the plaintiff: it is a matter between the tortfeasors themselves. The plaintiff may recover the whole amount from one.'
+      - claim: If one tortfeasor is insolvent, the plaintiff loses that share of the damages.
+        tempting: That tortfeasor's share simply goes unpaid.
+        correction: Where there are joint or separate concurrent tortfeasors, the risk that one cannot pay lies with the other tortfeasors, not the plaintiff.
+      - claim: Contribution is the same thing as contributory negligence.
+        tempting: Both come from 'contribute', and both shift who bears the loss.
+        correction: Contributory negligence reduces the plaintiff's damages for their own share of fault (the 70% finding at trial in March v Stramare). Contribution is a claim between tortfeasors.
+    socratic:
+      - ask: Two drivers' concurrent negligence injures a cyclist, and they are jointly and severally liable. Must she sue both?
+        hint: What does joint and several liability allow?
+        answer: No. She may choose to recover the whole amount against only one of them, for example the one with the 'deeper pockets'.
+      - ask: The driver she sued pays everything. Is that the end of it for him?
+        hint: A statutory mechanism.
+        answer: No. He may seek a contribution from the other tortfeasor; in NSW under the Law Reform (Miscellaneous Provisions) Act 1946 s 5(1)(c) and s 5(2).
+      - ask: Does that contribution claim change what the cyclist keeps?
+        hint: Whose matter is it?
+        answer: No. Contribution in no way affects the plaintiff; it is a matter between the tortfeasors themselves.
+      - ask: The other driver turns out to be insolvent. Who carries that risk?
+        hint: Not the plaintiff.
+        answer: The driver who paid. The risk that a concurrent tortfeasor cannot pay lies with the other tortfeasors, not the plaintiff.
+      - ask: Would your advice change if her only claim were for damage to her bike?
+        hint: The textbook's footnote.
+        answer: 'Check first whether the proportionate liability provisions apply: the whole-amount rule is qualified for property damage and economic loss claims.'
+    what-if:
+      - change: The plaintiff's claim is only for property damage, not personal injury.
+        effect: 'Before advising that the plaintiff can recover the whole amount from one tortfeasor, check whether the proportionate liability provisions apply: the textbook qualifies the rule for property damage and economic loss claims.'
+      - change: Two tortfeasors are jointly and severally liable for a personal injury, and one is insolvent.
+        effect: The plaintiff can recover the whole amount from the solvent tortfeasor. The insolvency risk lies with the other tortfeasors, not the plaintiff.
+    boundary:
+      - text: Market share liability among makers of the same defective device.
+        why: 'A different mechanism: each defendant pays the plaintiff a portion matching its market share, because no one can say whose device caused the harm. Contribution assumes each is liable for the same damage.'
+    transfer:
+      - scenario: A ride operator and the company that serviced the ride are both negligent, and a rider is injured. The rider sues only the operator, which is insured, and recovers in full. The servicing company has since gone out of business.
+        answer: If they are jointly and severally liable for the same damage, the rider may recover the whole amount from the operator alone. The operator can seek contribution from the servicing company under the Law Reform (Miscellaneous Provisions) Act 1946 (NSW) s 5(1)(c), (2); if that company cannot pay, the risk lies with the operator, not the rider. Contribution in no way affects the rider.
+    sources:
+      - Topic 10 Flowcharts (p 433, [12.170] and nn 229–230)
+      - Casebook, Topic 5 — Chapman v Hearse (facts and decision)
+      - Topic 10 Lecture 1 Transcript - Causation
+flows:
+  - slug: factual-causation
+    title: Is factual causation established?
+    summary: 'Follows the textbook causation flowcharts (Causation 1–3): damage, the common law and statutory columns, the gap cases and the s 5D(2) route, ending at scope of liability.'
+    start: c1
+    concepts:
+      - laws2400-w10-causation-flowchart
+      - laws2400-w10-factual-causation-necessary-condition
+      - laws2400-w10-multiple-sufficient-causes-and-material-contribution
+      - laws2400-w10-s5d2-exceptional-cases
+    sources:
+      - Topic 10 Flowcharts (pp 433–435)
+      - Topic 10 Lecture 1 (slides 4, 13–21)
+      - Topic 10 Lecture 2 (slides 14–15)
+    nodes:
+      - id: c1
+        kind: ask
+        text: Has the plaintiff suffered damage?
+        note: 'Damage, not damages: some harm to the plaintiff. Damage is the gist of the negligence action: no damage, no action.'
+        branches:
+          - label: 'Yes'
+            to: c2
+          - label: 'No'
+            to: e-nodamage
+      - id: c2
+        kind: ask
+        text: Does the Civil Liability Act govern the claim?
+        note: Usually yes for negligence. Section 3B(1) excludes some claims, eg dust disease and tobacco claims, which go under special statutes such as the Dust Diseases Tribunal Act 1989 (NSW).
+        authorities:
+          - civil-liability-act-2002-nsw-s3b
+        branches:
+          - label: 'Yes: legislation column'
+            to: c3
+          - label: 'No: common law column'
+            to: c4
+      - id: c3
+        kind: ask
+        text: Was the defendant's fault a necessary condition of the occurrence of the plaintiff's harm (s 5D(1)(a))?
+        note: A statutory statement of the 'but for' test (Strong v Woolworths). The plaintiff proves it on the balance of probabilities (s 5E); 'might have' made a difference is not enough (Adeels Palace).
+        concept: laws2400-w10-factual-causation-necessary-condition
+        cases:
+          - strong-v-woolworths-ltd-tas-big-w
+          - adeels-palace-v-moubarak
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+          - civil-liability-act-2002-nsw-s5e
+        branches:
+          - label: 'Yes'
+            to: e-sat
+          - label: 'No'
+            to: e-not
+          - label: It cannot be established either way
+            to: c5
+      - id: c4
+        kind: ask
+        text: Would the plaintiff's injuries have been suffered but for the defendant's negligence?
+        note: 'Mind the mirror image: here ''No'' means satisfied. In Barnett the deceased would have died even with timely treatment, so the answer was ''Yes'' and causation failed.'
+        concept: laws2400-w10-factual-causation-necessary-condition
+        cases:
+          - barnett-v-chelsea-and-kensington-hospital
+        branches:
+          - label: 'No'
+            to: e-sat
+          - label: 'Yes'
+            to: e-not
+          - label: The test gives an unsatisfactory result
+            to: e-common
+      - id: c5
+        kind: ask
+        text: 'Is it an appropriate kind of case: multiple sufficient causes, or material contribution to harm?'
+        note: 'Multiple sufficient causes: cumulative factors whose individual contributions are unascertainable (Bonnington; March). Material contribution: negligence materially increasing the risk where science cannot prove the cause (Fairchild; McGee; Amaca v Ellis; Henville).'
+        concept: laws2400-w10-multiple-sufficient-causes-and-material-contribution
+        cases:
+          - bonnington-castings-v-wardlaw
+          - fairchild-v-glenhaven-funeral-services-ltd
+          - mcgee-v-national-coal-board
+        branches:
+          - label: 'Yes'
+            to: c6
+          - label: 'No'
+            to: e-not
+      - id: c6
+        kind: ask
+        text: Is there both a clear breach and an evidentiary gap?
+        note: The flowchart requires both for the s 5D(2) route. The gap must be in the evidence of causation; s 5D(2) does not help prove breach.
+        branches:
+          - label: Yes, both
+            to: c7
+          - label: Not both
+            to: e-not
+      - id: c7
+        kind: step
+        text: Consider whether and why responsibility for the harm should be imposed on the negligent party (s 5D(2)).
+        note: Amongst other relevant things, and in accordance with established principles. The flowchart also asks whether the harm should be left to lie where it fell; that limb is not in the NSW text.
+        concept: laws2400-w10-s5d2-exceptional-cases
+        authorities:
+          - civil-liability-act-2002-nsw-s5d
+        next: c8
+      - id: c8
+        kind: ask
+        text: Is this an exceptional case in which factual causation should be accepted?
+        note: Rarely applied, so its operation is uncertain. In Adeels Palace it would have been 'contrary to established principles' to hold the club responsible where security only 'might have' prevented the harm.
+        exception: true
+        cases:
+          - adeels-palace-v-moubarak
+        branches:
+          - label: 'Yes'
+            to: e-5d2
+          - label: 'No'
+            to: e-not
+      - id: e-nodamage
+        kind: end
+        tone: not-met
+        text: 'No action in negligence: there is no damage.'
+      - id: e-sat
+        kind: end
+        tone: met
+        text: 'Factual causation satisfied: move to scope of liability (s 5D(1)(b)), new intervening acts and remoteness.'
+      - id: e-not
+        kind: end
+        tone: not-met
+        text: 'Factual causation not satisfied: the claim fails on causation.'
+      - id: e-5d2
+        kind: end
+        tone: qualified
+        exception: true
+        text: Factual causation accepted under s 5D(2) as an exceptional case; scope of liability must still be satisfied.
+      - id: e-common
+        kind: end
+        tone: qualified
+        text: 'A common law gap case: use the cases (Cook v Lewis, market share liability; Bonnington, Amaca v Booth). Walk the risk-or-contribution flow for dust disease claims.'
+  - slug: risk-chance-or-contribution
+    title: Has the plaintiff proved contribution, or only a lost chance or an increased risk?
+    summary: 'Follows the Lecture 2 slides on loss of a chance and the dust disease cases: a lost chance is not enough, increased risk is not enough, and a more than negligible contribution, proved or inferred, is.'
+    start: r1
+    concepts:
+      - laws2400-w10-risk-chance-and-material-contribution
+      - laws2400-w10-multiple-sufficient-causes-and-material-contribution
+    sources:
+      - Topic 10 Lecture 2 (slides 6–13, 15)
+      - Topic 10 Lecture 2 Transcript - Causation
+    nodes:
+      - id: r1
+        kind: ask
+        text: Is the damage claimed the loss of a chance of a better medical outcome?
+        note: 'In Tabet v Gett the chance of a better outcome was under 50%: possible, not probable.'
+        cases:
+          - tabet-v-gett
+        branches:
+          - label: 'Yes: a less than even chance'
+            to: e-chance
+          - label: 'No: the injury or disease itself'
+            to: r2
+      - id: r2
+        kind: ask
+        text: Is the difficulty that science cannot say which exposure caused the disease?
+        note: 'The unifying feature of the dust disease cases: the plaintiff can show the exposure and the disease, but not that this exposure caused it.'
+        branches:
+          - label: 'Yes'
+            to: r3
+          - label: 'No'
+            to: e-ordinary
+      - id: r3
+        kind: step
+        text: 'Check s 3B(1): dust disease claims are outside the CLA, so the common law cases decide causation.'
+        note: Which is why Amaca v Booth never mentions the CLA; such claims go under the Dust Diseases Tribunal Act 1989 (NSW).
+        authorities:
+          - civil-liability-act-2002-nsw-s3b
+        next: r4
+      - id: r4
+        kind: ask
+        text: Does the evidence show, or allow the court to infer, that the exposure actually contributed to the disease?
+        note: 'Booth: effectively the only known cause, long heavy exposure, trivial other exposures, cumulative-mechanism evidence; Bradford Hill criteria. Ellis: limited exposure, mainly epidemiological risk evidence, and a competing cause (smoking).'
+        cases:
+          - amaca-v-booth
+          - amaca-pty-ltd-v-ellis
+        branches:
+          - label: Yes, as in Amaca v Booth
+            to: r5
+          - label: Only that it increased the risk
+            to: e-risk
+      - id: r5
+        kind: ask
+        text: Was the negligent contribution more than negligible (more than de minimis)?
+        note: 'Bonnington Castings v Wardlaw: enough that the negligent dust made a more than de minimis contribution; it need not be the sole or main cause.'
+        cases:
+          - bonnington-castings-v-wardlaw
+        branches:
+          - label: 'Yes'
+            to: e-contrib
+          - label: 'No: trivial'
+            to: e-trivial
+      - id: e-chance
+        kind: end
+        tone: not-met
+        text: No recovery in personal injury for the loss of a chance of a better outcome (Tabet v Gett).
+      - id: e-ordinary
+        kind: end
+        tone: qualified
+        text: 'Apply the ordinary test: necessary condition (s 5D(1)(a)) or ''but for'', on the balance of probabilities.'
+      - id: e-risk
+        kind: end
+        tone: not-met
+        exception: true
+        text: 'Causation not proved: increased risk alone is not enough (Amaca v Ellis). Australia has not adopted Fairchild''s risk-based exception.'
+      - id: e-contrib
+        kind: end
+        tone: met
+        text: 'Causation established: a material, more than negligible, contribution to the disease (Bonnington; Amaca v Booth).'
+      - id: e-trivial
+        kind: end
+        tone: not-met
+        text: 'Causation not established: a negligible contribution is not enough.'
