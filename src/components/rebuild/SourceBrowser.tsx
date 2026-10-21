@@ -1,4 +1,5 @@
 import {useEffect,useRef,useState} from 'react';
+import {sourceMatchesQuery} from '../../lib/source-search';
 interface Source {
  id?:string;title?:string;name?:string;path?:string;paths?:string[];unit?:string|null;week?:number|string|null;
  kind?:string;format?:string;bytes?:number;sha256?:string|null;href?:string;url?:string;dataUrl?:string;supplied?:boolean;
@@ -8,7 +9,7 @@ const paths=(s:Source)=>(s.paths||[s.path||'']).join('\n');
 const name=(s:Source)=>s.title||s.name||s.path||'Source file';
 const unitOf=(s:Source)=>s.unit||'shared';
 const href=(s:Source)=>s.id?`/sources/${s.id}/`:s.supplied?'/exam-sources/'+encodeURIComponent(s.name||''):s.href||s.url||s.originals?.[0]?.url||'/sources/';
-const includes=(text:string,query:string)=>query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean).every(w=>text.toLocaleLowerCase().includes(w));
+const includes=sourceMatchesQuery;
 export default function SourceBrowser({catalog,missing=[]}:{catalog:Source[];missing?:Source[]}) {
  const [query,setQuery]=useState(''),[unit,setUnit]=useState('all'),[week,setWeek]=useState('all'),[scope,setScope]=useState('path'),[supplied,setSupplied]=useState(false),[limit,setLimit]=useState(40);
  const [matches,setMatches]=useState<Set<string>|null>(null),[progress,setProgress]=useState({done:0,total:0,loading:false,errors:0});
