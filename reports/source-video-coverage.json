@@ -1,0 +1,479 @@
+{
+  "summary": {
+    "videos": 21,
+    "byStatus": {
+      "filename-based-candidate": 13,
+      "no-compatible-transcript-found": 3,
+      "topic-title-discrepancy": 5
+    },
+    "audiovisuallyVerified": 0
+  },
+  "videos": [
+    {
+      "id": "1e2LSpXK5pYVp5OELL_BvPB3-B3amLPdf",
+      "title": "International - Week 06 - Lecture Recording (Online) - Immunities (Part B Diplomatic Immunities) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 06/International - Week 06 - Lecture Recording (Online) - Immunities (Part B Diplomatic Immunities) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1e2LSpXK5pYVp5OELL_BvPB3-B3amLPdf/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "55861817",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1IGOV_YOQrDu3Z6CFedSDhT-Yzc3rR0a9",
+          "title": "International - Week 06 - Lecture Transcript (Live) - Immunities.md",
+          "path": "International/Week 06/International - Week 06 - Lecture Transcript (Live) - Immunities.md",
+          "url": "https://drive.google.com/file/d/1IGOV_YOQrDu3Z6CFedSDhT-Yzc3rR0a9/view?usp=drivesdk"
+        },
+        {
+          "id": "1EGMT_lJZaNv_EhjM68_XQlXrqqXwWRJL",
+          "title": "International - Week 06 - Lecture Transcript (Online) - Immunities.md",
+          "path": "International/Week 06/International - Week 06 - Lecture Transcript (Online) - Immunities.md",
+          "url": "https://drive.google.com/file/d/1EGMT_lJZaNv_EhjM68_XQlXrqqXwWRJL/view?usp=drivesdk"
+        },
+        {
+          "id": "1_XFsW50-jnaJ1tiMkIAK6hGcijXbQ4OH",
+          "title": "International - Week 06 - Lecture Transcript for Code (Online) - Immunities (Part B Diplomatic Immunities).txt",
+          "path": "International/Week 06/International - Week 06 - Lecture Transcript for Code (Online) - Immunities (Part B Diplomatic Immunities).txt",
+          "url": "https://drive.google.com/file/d/1_XFsW50-jnaJ1tiMkIAK6hGcijXbQ4OH/view?usp=drivesdk"
+        },
+        {
+          "id": "1l_hkLVmI3_QVwkNKh70MmfSnR1Fts9Ud",
+          "title": "International - Week 06 - Supplemental Lecture Transcript - Functional Immunity and Pinochet.md",
+          "path": "International/Week 06/International - Week 06 - Supplemental Lecture Transcript - Functional Immunity and Pinochet.md",
+          "url": "https://drive.google.com/file/d/1l_hkLVmI3_QVwkNKh70MmfSnR1Fts9Ud/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1QoPtOM9lhn-XE27Ef5nmWfC0kHFvFcow",
+      "title": "International - Week 06 - Supplemental Lecture - Functional Immunity and Pinochet.mp4",
+      "path": "International/Week 06/International - Week 06 - Supplemental Lecture - Functional Immunity and Pinochet.mp4",
+      "url": "https://drive.google.com/file/d/1QoPtOM9lhn-XE27Ef5nmWfC0kHFvFcow/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "12788632",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1IGOV_YOQrDu3Z6CFedSDhT-Yzc3rR0a9",
+          "title": "International - Week 06 - Lecture Transcript (Live) - Immunities.md",
+          "path": "International/Week 06/International - Week 06 - Lecture Transcript (Live) - Immunities.md",
+          "url": "https://drive.google.com/file/d/1IGOV_YOQrDu3Z6CFedSDhT-Yzc3rR0a9/view?usp=drivesdk"
+        },
+        {
+          "id": "1EGMT_lJZaNv_EhjM68_XQlXrqqXwWRJL",
+          "title": "International - Week 06 - Lecture Transcript (Online) - Immunities.md",
+          "path": "International/Week 06/International - Week 06 - Lecture Transcript (Online) - Immunities.md",
+          "url": "https://drive.google.com/file/d/1EGMT_lJZaNv_EhjM68_XQlXrqqXwWRJL/view?usp=drivesdk"
+        },
+        {
+          "id": "1_XFsW50-jnaJ1tiMkIAK6hGcijXbQ4OH",
+          "title": "International - Week 06 - Lecture Transcript for Code (Online) - Immunities (Part B Diplomatic Immunities).txt",
+          "path": "International/Week 06/International - Week 06 - Lecture Transcript for Code (Online) - Immunities (Part B Diplomatic Immunities).txt",
+          "url": "https://drive.google.com/file/d/1_XFsW50-jnaJ1tiMkIAK6hGcijXbQ4OH/view?usp=drivesdk"
+        },
+        {
+          "id": "1l_hkLVmI3_QVwkNKh70MmfSnR1Fts9Ud",
+          "title": "International - Week 06 - Supplemental Lecture Transcript - Functional Immunity and Pinochet.md",
+          "path": "International/Week 06/International - Week 06 - Supplemental Lecture Transcript - Functional Immunity and Pinochet.md",
+          "url": "https://drive.google.com/file/d/1l_hkLVmI3_QVwkNKh70MmfSnR1Fts9Ud/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "104Wtsvy_q60kjzU8bucvcNRxACguJPIw",
+      "title": "International - Week 08 - Lecture Recording (Live) - International Dispute Settlement (Part A, higher quality) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 08/International - Week 08 - Lecture Recording (Live) - International Dispute Settlement (Part A, higher quality) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/104Wtsvy_q60kjzU8bucvcNRxACguJPIw/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "129571739",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1HW3U8pm2OEd_Z3l01RoIvaDLXblAVaTb",
+          "title": "International - Week 08 - Lecture Transcript for Code (Live) - International Dispute Settlement (Part A).txt",
+          "path": "International/Week 08/International - Week 08 - Lecture Transcript for Code (Live) - International Dispute Settlement (Part A).txt",
+          "url": "https://drive.google.com/file/d/1HW3U8pm2OEd_Z3l01RoIvaDLXblAVaTb/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1pkvKSMkTagdzlpPTU-n6ioJKw8UnVU13",
+      "title": "International - Week 08 - Lecture Recording (Online) - International Dispute Settlement (Parts B and C) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 08/International - Week 08 - Lecture Recording (Online) - International Dispute Settlement (Parts B and C) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1pkvKSMkTagdzlpPTU-n6ioJKw8UnVU13/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "96878728",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "no-compatible-transcript-found",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1HW3U8pm2OEd_Z3l01RoIvaDLXblAVaTb",
+          "title": "International - Week 08 - Lecture Transcript for Code (Live) - International Dispute Settlement (Part A).txt",
+          "path": "International/Week 08/International - Week 08 - Lecture Transcript for Code (Live) - International Dispute Settlement (Part A).txt",
+          "url": "https://drive.google.com/file/d/1HW3U8pm2OEd_Z3l01RoIvaDLXblAVaTb/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Only Live Part A transcript found; no compatible transcript for Online Parts B and C. Recording not reviewed."
+    },
+    {
+      "id": "1wwgvnjZ33fLNNr2I4OApLPWIF0Sil5ga",
+      "title": "International - Week 09 - Lecture Recording (Live) - The Use of Force (Part A) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 09/International - Week 09 - Lecture Recording (Live) - The Use of Force (Part A) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1wwgvnjZ33fLNNr2I4OApLPWIF0Sil5ga/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "122537135",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1wy_iAsaq3vIXgGKQnHvFuLHFmaHgS_7V",
+          "title": "International - Week 09 - Lecture Transcript for Code (Live) - The Use of Force (Part A).txt",
+          "path": "International/Week 09/International - Week 09 - Lecture Transcript for Code (Live) - The Use of Force (Part A).txt",
+          "url": "https://drive.google.com/file/d/1wy_iAsaq3vIXgGKQnHvFuLHFmaHgS_7V/view?usp=drivesdk"
+        },
+        {
+          "id": "1VrkofXs6BxH10WMqyxa8C-g3dkYnUo6l",
+          "title": "International - Week 09 - Lecture Transcript for Code (Online) - The Use of Force (Part B).txt",
+          "path": "International/Week 09/International - Week 09 - Lecture Transcript for Code (Online) - The Use of Force (Part B).txt",
+          "url": "https://drive.google.com/file/d/1VrkofXs6BxH10WMqyxa8C-g3dkYnUo6l/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1oyrYz6b6u0iPO_2QSwHxoa8rE5TboIz6",
+      "title": "International - Week 09 - Lecture Recording (Online) - The Use of Force (Part B) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 09/International - Week 09 - Lecture Recording (Online) - The Use of Force (Part B) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1oyrYz6b6u0iPO_2QSwHxoa8rE5TboIz6/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "55729917",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1wy_iAsaq3vIXgGKQnHvFuLHFmaHgS_7V",
+          "title": "International - Week 09 - Lecture Transcript for Code (Live) - The Use of Force (Part A).txt",
+          "path": "International/Week 09/International - Week 09 - Lecture Transcript for Code (Live) - The Use of Force (Part A).txt",
+          "url": "https://drive.google.com/file/d/1wy_iAsaq3vIXgGKQnHvFuLHFmaHgS_7V/view?usp=drivesdk"
+        },
+        {
+          "id": "1VrkofXs6BxH10WMqyxa8C-g3dkYnUo6l",
+          "title": "International - Week 09 - Lecture Transcript for Code (Online) - The Use of Force (Part B).txt",
+          "path": "International/Week 09/International - Week 09 - Lecture Transcript for Code (Online) - The Use of Force (Part B).txt",
+          "url": "https://drive.google.com/file/d/1VrkofXs6BxH10WMqyxa8C-g3dkYnUo6l/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "13dPw9zRw4tWISdN-pVWMHxJVGW9THmxC",
+      "title": "Jurisprudence - Week 08 - Lecture Recording - Outsider Jurisprudence [NOT YET IN STUDY SITE].mp4",
+      "path": "Jurisprudence/Week 08/Jurisprudence - Week 08 - Lecture Recording - Outsider Jurisprudence [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/13dPw9zRw4tWISdN-pVWMHxJVGW9THmxC/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "261212746",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1NzRrcVFLYPpQpMqJgKvIQuP_fwOtdeUL",
+          "title": "Jurisprudence - Week 08 - Lecture Transcript for Code - Outsider Jurisprudence.txt",
+          "path": "Jurisprudence/Week 08/Jurisprudence - Week 08 - Lecture Transcript for Code - Outsider Jurisprudence.txt",
+          "url": "https://drive.google.com/file/d/1NzRrcVFLYPpQpMqJgKvIQuP_fwOtdeUL/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1wHJHFDwhTBsdb3PGk5CJQIkaCv5Kl8-Y",
+      "title": "Jurisprudence - Week 09 - Lecture Recording - Rights (Pre-Recorded) [NOT YET IN STUDY SITE].mp4",
+      "path": "Jurisprudence/Week 09/Jurisprudence - Week 09 - Lecture Recording - Rights (Pre-Recorded) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1wHJHFDwhTBsdb3PGk5CJQIkaCv5Kl8-Y/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "259250688",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "181gC5fUHZwGVrxSgodXu4s4plweSY6-t",
+          "title": "Jurisprudence - Week 09 - Lecture Transcript for Code - Rights (Pre-Recorded, 2025 recording).txt",
+          "path": "Jurisprudence/Week 09/Jurisprudence - Week 09 - Lecture Transcript for Code - Rights (Pre-Recorded, 2025 recording).txt",
+          "url": "https://drive.google.com/file/d/181gC5fUHZwGVrxSgodXu4s4plweSY6-t/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1Iv6TOjpwYnzP36hT1QG2PmKgynwoIBXP",
+      "title": "Marketing - Week 01 - Lecture Recording - Introduction and Overview [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 01/Marketing - Week 01 - Lecture Recording - Introduction and Overview [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1Iv6TOjpwYnzP36hT1QG2PmKgynwoIBXP/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "135831750",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1z1wA0_Pm0DDUlO7n6zQxfSytRzVtCLgM",
+          "title": "Marketing - Week 01 - Lecture Transcript for Code - Introduction and Overview.txt",
+          "path": "Marketing/Week 01/Marketing - Week 01 - Lecture Transcript for Code - Introduction and Overview.txt",
+          "url": "https://drive.google.com/file/d/1z1wA0_Pm0DDUlO7n6zQxfSytRzVtCLgM/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1dyPS5e1R9XS5YR6rPHOm4lFss_OJC4Uw",
+      "title": "Marketing - Week 02 - Lecture Recording - Exploring the Creativity Problem [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 02/Marketing - Week 02 - Lecture Recording - Exploring the Creativity Problem [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1dyPS5e1R9XS5YR6rPHOm4lFss_OJC4Uw/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "233608423",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "no-compatible-transcript-found",
+      "sameFolderTranscriptCandidates": [],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1rui9Y4-aVhmMrH6olP4xA3pmBdDoxetp",
+      "title": "Marketing - Week 03 - Lecture Recording - Design Thinking (Guest Lecture) [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 03/Marketing - Week 03 - Lecture Recording - Design Thinking (Guest Lecture) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1rui9Y4-aVhmMrH6olP4xA3pmBdDoxetp/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "192291428",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1yspqC3EEFui0E7ad8jfaMNXFQnnMOWaV",
+          "title": "Marketing - Week 03 - Lecture Transcript for Code - Design Thinking (Guest Lecture, Nathan Baird).txt",
+          "path": "Marketing/Week 03/Marketing - Week 03 - Lecture Transcript for Code - Design Thinking (Guest Lecture, Nathan Baird).txt",
+          "url": "https://drive.google.com/file/d/1yspqC3EEFui0E7ad8jfaMNXFQnnMOWaV/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1efQWv5PqP4RnDE_gkJZH7pkCxd53HMY3",
+      "title": "Marketing - Week 04 - Lecture Recording - Creative Thinking [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 04/Marketing - Week 04 - Lecture Recording - Creative Thinking [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1efQWv5PqP4RnDE_gkJZH7pkCxd53HMY3/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "305844198",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1j4lc2XyLOITJvqUMmH0hro9C3EgnFHyB",
+          "title": "Marketing - Week 04 - Lecture Transcript for Code - Six Thinking Hats.txt",
+          "path": "Marketing/Week 04/Marketing - Week 04 - Lecture Transcript for Code - Six Thinking Hats.txt",
+          "url": "https://drive.google.com/file/d/1j4lc2XyLOITJvqUMmH0hro9C3EgnFHyB/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1y8k-sUWYWHh4wiJhLT1Kk4thINzYujO8",
+      "title": "Marketing - Week 05 - Lecture Recording - Creativity Theories and Thinking [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 05/Marketing - Week 05 - Lecture Recording - Creativity Theories and Thinking [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1y8k-sUWYWHh4wiJhLT1Kk4thINzYujO8/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "202689494",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "19eczAJtn3rTKgz4gQyS65rndUSuqzqC0",
+          "title": "Marketing - Week 05 - Lecture Transcript for Code - Creativity Theories.txt",
+          "path": "Marketing/Week 05/Marketing - Week 05 - Lecture Transcript for Code - Creativity Theories.txt",
+          "url": "https://drive.google.com/file/d/19eczAJtn3rTKgz4gQyS65rndUSuqzqC0/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1e1ZuDzj2PqmJSsGe0_k4nRgOBzwauTYV",
+      "title": "Marketing - Week 08 - Lecture Recording - Innovation and Innovation Management [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 08/Marketing - Week 08 - Lecture Recording - Innovation and Innovation Management [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1e1ZuDzj2PqmJSsGe0_k4nRgOBzwauTYV/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "176718058",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1N_1IdqFBvUy0GyuLCJvyGmlgd4C5zH21",
+          "title": "Marketing - Week 08 - Lecture Transcript for Code - Innovation.txt",
+          "path": "Marketing/Week 08/Marketing - Week 08 - Lecture Transcript for Code - Innovation.txt",
+          "url": "https://drive.google.com/file/d/1N_1IdqFBvUy0GyuLCJvyGmlgd4C5zH21/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1fCBxX8Q5eq3es9Dr9eplrSw4ljOMPUgW",
+      "title": "Marketing - Week 09 - Lecture Recording - New Product Development [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 09/Marketing - Week 09 - Lecture Recording - New Product Development [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1fCBxX8Q5eq3es9Dr9eplrSw4ljOMPUgW/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "149667798",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1bTrxzY65-A6Vx5NwfERa2XsbdKYHUj_h",
+          "title": "Marketing - Week 09 - Lecture Transcript for Code - Types and Models of Innovation, Reflective Writing.txt",
+          "path": "Marketing/Week 09/Marketing - Week 09 - Lecture Transcript for Code - Types and Models of Innovation, Reflective Writing.txt",
+          "url": "https://drive.google.com/file/d/1bTrxzY65-A6Vx5NwfERa2XsbdKYHUj_h/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1AIy1kdlI4jOha95Qqdz67uMOg3fFtaf6",
+      "title": "Marketing - Week 10 - Lecture Recording - Agile Innovation [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 10/Marketing - Week 10 - Lecture Recording - Agile Innovation [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1AIy1kdlI4jOha95Qqdz67uMOg3fFtaf6/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "354375672",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "17gup7d_yzndRg6T_Nn8tAM1hBXdHNf5h",
+          "title": "Marketing - Week 10 - Lecture Transcript for Code - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+          "path": "Marketing/Week 10/Marketing - Week 10 - Lecture Transcript for Code - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+          "url": "https://drive.google.com/file/d/17gup7d_yzndRg6T_Nn8tAM1hBXdHNf5h/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "11BNK3NPteqbUP6-wNylWmvv7PExexaSu",
+      "title": "Marketing - Week 11 - Lecture Recording - Innovation Models [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 11/Marketing - Week 11 - Lecture Recording - Innovation Models [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/11BNK3NPteqbUP6-wNylWmvv7PExexaSu/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "142263589",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1Ur2csPd45nqU_lm2bDaRcOqt2rp0rSKx",
+          "title": "Marketing - Week 11 - Lecture Transcript for Code - Guest Lecture, Business Founder (Mark).txt",
+          "path": "Marketing/Week 11/Marketing - Week 11 - Lecture Transcript for Code - Guest Lecture, Business Founder (Mark).txt",
+          "url": "https://drive.google.com/file/d/1Ur2csPd45nqU_lm2bDaRcOqt2rp0rSKx/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1ekgE9UTKD-lXbeZBXNmYuzqeqEo1KS4Q",
+      "title": "Marketing - Week 12 - Lecture Recording - Leading an Innovation Culture [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 12/Marketing - Week 12 - Lecture Recording - Leading an Innovation Culture [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1ekgE9UTKD-lXbeZBXNmYuzqeqEo1KS4Q/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "642992114",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1TSNCOYIpEHSdzdXMV_f-v5kAH4VzVflN",
+          "title": "Marketing - Week 12 - Lecture Transcript for Code - Guest Lecture, Shelley Simpson.txt",
+          "path": "Marketing/Week 12/Marketing - Week 12 - Lecture Transcript for Code - Guest Lecture, Shelley Simpson.txt",
+          "url": "https://drive.google.com/file/d/1TSNCOYIpEHSdzdXMV_f-v5kAH4VzVflN/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1sdVD9Gw0Dcf4z7FVtCYbPBMEK1VId3tm",
+      "title": "Torts - Week 05 - Video Clip - Donoghue v Stevenson [NOT YET IN STUDY SITE].mp4",
+      "path": "Torts/Week 05/Torts - Week 05 - Video Clip - Donoghue v Stevenson [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1sdVD9Gw0Dcf4z7FVtCYbPBMEK1VId3tm/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "10235905",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "no-compatible-transcript-found",
+      "sameFolderTranscriptCandidates": [],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1E_nXD6uvLvtjOc5mqzLiQWxeWTkm_OAg",
+      "title": "Torts - Week 08 - Lecture 1 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "path": "Torts/Week 08/Torts - Week 08 - Lecture 1 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1E_nXD6uvLvtjOc5mqzLiQWxeWTkm_OAg/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "120270921",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1K08MpimnAWuadgrfVsO-LLkndZO8NJME",
+          "title": "Torts - Week 08 - Lecture 1 Transcript for Code - Special Parties (Public Authorities).txt",
+          "path": "Torts/Week 08/Torts - Week 08 - Lecture 1 Transcript for Code - Special Parties (Public Authorities).txt",
+          "url": "https://drive.google.com/file/d/1K08MpimnAWuadgrfVsO-LLkndZO8NJME/view?usp=drivesdk"
+        },
+        {
+          "id": "1jCQG4Awqu9gkn1IcaEE8R_oJzKExI0Qt",
+          "title": "Torts - Week 08 - Lecture 2 Transcript for Code - Special Parties (Other Categories).txt",
+          "path": "Torts/Week 08/Torts - Week 08 - Lecture 2 Transcript for Code - Special Parties (Other Categories).txt",
+          "url": "https://drive.google.com/file/d/1jCQG4Awqu9gkn1IcaEE8R_oJzKExI0Qt/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    },
+    {
+      "id": "1PicZHah4WNJ00Q8i-sK5xlX024C2qbAM",
+      "title": "Torts - Week 08 - Lecture 2 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "path": "Torts/Week 08/Torts - Week 08 - Lecture 2 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1PicZHah4WNJ00Q8i-sK5xlX024C2qbAM/view?usp=drivesdk",
+      "mime_type": "video/mp4",
+      "size": "118572015",
+      "byteAuditStatus": "video-not-downloaded",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "sameFolderTranscriptCandidates": [
+        {
+          "id": "1K08MpimnAWuadgrfVsO-LLkndZO8NJME",
+          "title": "Torts - Week 08 - Lecture 1 Transcript for Code - Special Parties (Public Authorities).txt",
+          "path": "Torts/Week 08/Torts - Week 08 - Lecture 1 Transcript for Code - Special Parties (Public Authorities).txt",
+          "url": "https://drive.google.com/file/d/1K08MpimnAWuadgrfVsO-LLkndZO8NJME/view?usp=drivesdk"
+        },
+        {
+          "id": "1jCQG4Awqu9gkn1IcaEE8R_oJzKExI0Qt",
+          "title": "Torts - Week 08 - Lecture 2 Transcript for Code - Special Parties (Other Categories).txt",
+          "path": "Torts/Week 08/Torts - Week 08 - Lecture 2 Transcript for Code - Special Parties (Other Categories).txt",
+          "url": "https://drive.google.com/file/d/1jCQG4Awqu9gkn1IcaEE8R_oJzKExI0Qt/view?usp=drivesdk"
+        }
+      ],
+      "audiovisualReviewed": false,
+      "note": "Filename/week candidates do not prove that the complete recording is transcribed. No audiovisual content has been independently checked."
+    }
+  ]
+}

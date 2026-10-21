@@ -27,3 +27,8 @@ public/data/content-health.json
 
 # Transient rebuild command logs
 reports/rebuild-*.log
+
+# Generated, verified source corpus is restored from release-assets during install.
+public/source-corpus/
+public/source-originals/
+scripts/__pycache__/

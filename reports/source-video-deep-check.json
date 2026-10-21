@@ -1,0 +1,783 @@
+{
+  "summary": {
+    "videoRecords": 21,
+    "priorReadableFetchAttempted": 21,
+    "readableFetchReturnedText": 0,
+    "completedEmbeddedStreamProbes": 1,
+    "embeddedSubtitleStreamsDetected": 0,
+    "audiovisualContentVerified": 0
+  },
+  "videos": [
+    {
+      "id": "1e2LSpXK5pYVp5OELL_BvPB3-B3amLPdf",
+      "title": "International - Week 06 - Lecture Recording (Online) - Immunities (Part B Diplomatic Immunities) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 06/International - Week 06 - Lecture Recording (Online) - Immunities (Part B Diplomatic Immunities) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1e2LSpXK5pYVp5OELL_BvPB3-B3amLPdf/view?usp=drivesdk",
+      "size": "55861817",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1QoPtOM9lhn-XE27Ef5nmWfC0kHFvFcow",
+      "title": "International - Week 06 - Supplemental Lecture - Functional Immunity and Pinochet.mp4",
+      "path": "International/Week 06/International - Week 06 - Supplemental Lecture - Functional Immunity and Pinochet.mp4",
+      "url": "https://drive.google.com/file/d/1QoPtOM9lhn-XE27Ef5nmWfC0kHFvFcow/view?usp=drivesdk",
+      "size": "12788632",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "104Wtsvy_q60kjzU8bucvcNRxACguJPIw",
+      "title": "International - Week 08 - Lecture Recording (Live) - International Dispute Settlement (Part A, higher quality) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 08/International - Week 08 - Lecture Recording (Live) - International Dispute Settlement (Part A, higher quality) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/104Wtsvy_q60kjzU8bucvcNRxACguJPIw/view?usp=drivesdk",
+      "size": "129571739",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1pkvKSMkTagdzlpPTU-n6ioJKw8UnVU13",
+      "title": "International - Week 08 - Lecture Recording (Online) - International Dispute Settlement (Parts B and C) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 08/International - Week 08 - Lecture Recording (Online) - International Dispute Settlement (Parts B and C) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1pkvKSMkTagdzlpPTU-n6ioJKw8UnVU13/view?usp=drivesdk",
+      "size": "96878728",
+      "transcriptCoverageStatus": "no-compatible-transcript-found",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      },
+      "embeddedStreamProbe": {
+        "status": "not-completed",
+        "reason": "Raw-reference requests were pending when the previous session was interrupted; no stream metadata result was established."
+      }
+    },
+    {
+      "id": "1wwgvnjZ33fLNNr2I4OApLPWIF0Sil5ga",
+      "title": "International - Week 09 - Lecture Recording (Live) - The Use of Force (Part A) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 09/International - Week 09 - Lecture Recording (Live) - The Use of Force (Part A) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1wwgvnjZ33fLNNr2I4OApLPWIF0Sil5ga/view?usp=drivesdk",
+      "size": "122537135",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1oyrYz6b6u0iPO_2QSwHxoa8rE5TboIz6",
+      "title": "International - Week 09 - Lecture Recording (Online) - The Use of Force (Part B) [NOT YET IN STUDY SITE].mp4",
+      "path": "International/Week 09/International - Week 09 - Lecture Recording (Online) - The Use of Force (Part B) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1oyrYz6b6u0iPO_2QSwHxoa8rE5TboIz6/view?usp=drivesdk",
+      "size": "55729917",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "13dPw9zRw4tWISdN-pVWMHxJVGW9THmxC",
+      "title": "Jurisprudence - Week 08 - Lecture Recording - Outsider Jurisprudence [NOT YET IN STUDY SITE].mp4",
+      "path": "Jurisprudence/Week 08/Jurisprudence - Week 08 - Lecture Recording - Outsider Jurisprudence [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/13dPw9zRw4tWISdN-pVWMHxJVGW9THmxC/view?usp=drivesdk",
+      "size": "261212746",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1wHJHFDwhTBsdb3PGk5CJQIkaCv5Kl8-Y",
+      "title": "Jurisprudence - Week 09 - Lecture Recording - Rights (Pre-Recorded) [NOT YET IN STUDY SITE].mp4",
+      "path": "Jurisprudence/Week 09/Jurisprudence - Week 09 - Lecture Recording - Rights (Pre-Recorded) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1wHJHFDwhTBsdb3PGk5CJQIkaCv5Kl8-Y/view?usp=drivesdk",
+      "size": "259250688",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1Iv6TOjpwYnzP36hT1QG2PmKgynwoIBXP",
+      "title": "Marketing - Week 01 - Lecture Recording - Introduction and Overview [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 01/Marketing - Week 01 - Lecture Recording - Introduction and Overview [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1Iv6TOjpwYnzP36hT1QG2PmKgynwoIBXP/view?usp=drivesdk",
+      "size": "135831750",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1dyPS5e1R9XS5YR6rPHOm4lFss_OJC4Uw",
+      "title": "Marketing - Week 02 - Lecture Recording - Exploring the Creativity Problem [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 02/Marketing - Week 02 - Lecture Recording - Exploring the Creativity Problem [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1dyPS5e1R9XS5YR6rPHOm4lFss_OJC4Uw/view?usp=drivesdk",
+      "size": "233608423",
+      "transcriptCoverageStatus": "no-compatible-transcript-found",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      },
+      "embeddedStreamProbe": {
+        "status": "not-completed",
+        "reason": "Raw-reference requests were pending when the previous session was interrupted; no stream metadata result was established."
+      }
+    },
+    {
+      "id": "1rui9Y4-aVhmMrH6olP4xA3pmBdDoxetp",
+      "title": "Marketing - Week 03 - Lecture Recording - Design Thinking (Guest Lecture) [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 03/Marketing - Week 03 - Lecture Recording - Design Thinking (Guest Lecture) [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1rui9Y4-aVhmMrH6olP4xA3pmBdDoxetp/view?usp=drivesdk",
+      "size": "192291428",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1efQWv5PqP4RnDE_gkJZH7pkCxd53HMY3",
+      "title": "Marketing - Week 04 - Lecture Recording - Creative Thinking [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 04/Marketing - Week 04 - Lecture Recording - Creative Thinking [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1efQWv5PqP4RnDE_gkJZH7pkCxd53HMY3/view?usp=drivesdk",
+      "size": "305844198",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1y8k-sUWYWHh4wiJhLT1Kk4thINzYujO8",
+      "title": "Marketing - Week 05 - Lecture Recording - Creativity Theories and Thinking [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 05/Marketing - Week 05 - Lecture Recording - Creativity Theories and Thinking [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1y8k-sUWYWHh4wiJhLT1Kk4thINzYujO8/view?usp=drivesdk",
+      "size": "202689494",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1e1ZuDzj2PqmJSsGe0_k4nRgOBzwauTYV",
+      "title": "Marketing - Week 08 - Lecture Recording - Innovation and Innovation Management [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 08/Marketing - Week 08 - Lecture Recording - Innovation and Innovation Management [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1e1ZuDzj2PqmJSsGe0_k4nRgOBzwauTYV/view?usp=drivesdk",
+      "size": "176718058",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1fCBxX8Q5eq3es9Dr9eplrSw4ljOMPUgW",
+      "title": "Marketing - Week 09 - Lecture Recording - New Product Development [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 09/Marketing - Week 09 - Lecture Recording - New Product Development [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1fCBxX8Q5eq3es9Dr9eplrSw4ljOMPUgW/view?usp=drivesdk",
+      "size": "149667798",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1AIy1kdlI4jOha95Qqdz67uMOg3fFtaf6",
+      "title": "Marketing - Week 10 - Lecture Recording - Agile Innovation [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 10/Marketing - Week 10 - Lecture Recording - Agile Innovation [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1AIy1kdlI4jOha95Qqdz67uMOg3fFtaf6/view?usp=drivesdk",
+      "size": "354375672",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "11BNK3NPteqbUP6-wNylWmvv7PExexaSu",
+      "title": "Marketing - Week 11 - Lecture Recording - Innovation Models [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 11/Marketing - Week 11 - Lecture Recording - Innovation Models [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/11BNK3NPteqbUP6-wNylWmvv7PExexaSu/view?usp=drivesdk",
+      "size": "142263589",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1ekgE9UTKD-lXbeZBXNmYuzqeqEo1KS4Q",
+      "title": "Marketing - Week 12 - Lecture Recording - Leading an Innovation Culture [NOT YET IN STUDY SITE].mp4",
+      "path": "Marketing/Week 12/Marketing - Week 12 - Lecture Recording - Leading an Innovation Culture [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1ekgE9UTKD-lXbeZBXNmYuzqeqEo1KS4Q/view?usp=drivesdk",
+      "size": "642992114",
+      "transcriptCoverageStatus": "topic-title-discrepancy",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1sdVD9Gw0Dcf4z7FVtCYbPBMEK1VId3tm",
+      "title": "Torts - Week 05 - Video Clip - Donoghue v Stevenson [NOT YET IN STUDY SITE].mp4",
+      "path": "Torts/Week 05/Torts - Week 05 - Video Clip - Donoghue v Stevenson [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1sdVD9Gw0Dcf4z7FVtCYbPBMEK1VId3tm/view?usp=drivesdk",
+      "size": "10235905",
+      "transcriptCoverageStatus": "no-compatible-transcript-found",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      },
+      "embeddedStreamProbe": {
+        "status": "metadata-read",
+        "evidenceSource": "Prior completed full-byte download and ffprobe tool output; not repeated after pruning.",
+        "downloadedBytes": 10235905,
+        "sha256": "26f0c3d87341fb811fabffad66357619b4e9aa68f28f7f8053d69c8c6a67e034",
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "100.333534",
+          "size": "10235905",
+          "bit_rate": "816150"
+        },
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "codec_name": "h264",
+            "duration": "100.333534",
+            "width": 640,
+            "height": 480
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "duration": "100.266646",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "subtitleStreams": 0,
+        "conclusion": "No embedded subtitle stream was detected in this recording. Its spoken or visual content was not verified."
+      }
+    },
+    {
+      "id": "1E_nXD6uvLvtjOc5mqzLiQWxeWTkm_OAg",
+      "title": "Torts - Week 08 - Lecture 1 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "path": "Torts/Week 08/Torts - Week 08 - Lecture 1 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1E_nXD6uvLvtjOc5mqzLiQWxeWTkm_OAg/view?usp=drivesdk",
+      "size": "120270921",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    },
+    {
+      "id": "1PicZHah4WNJ00Q8i-sK5xlX024C2qbAM",
+      "title": "Torts - Week 08 - Lecture 2 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "path": "Torts/Week 08/Torts - Week 08 - Lecture 2 Recording - Duty of Care regarding Special Parties [NOT YET IN STUDY SITE].mp4",
+      "url": "https://drive.google.com/file/d/1PicZHah4WNJ00Q8i-sK5xlX024C2qbAM/view?usp=drivesdk",
+      "size": "118572015",
+      "transcriptCoverageStatus": "filename-based-candidate",
+      "defaultReadableFetch": {
+        "attempted": true,
+        "isError": true,
+        "characters": 0,
+        "providerError": "Transport closed",
+        "evidenceSource": "Observed tool outputs in the previous active session, 21 October 2026; restored after temporary workspace pruning.",
+        "conclusion": "The provider read failed. This does not establish that captions or a transcript do not exist."
+      }
+    }
+  ],
+  "crossFolderTranscriptSearch": [
+    {
+      "videoId": "1pkvKSMkTagdzlpPTU-n6ioJKw8UnVU13",
+      "scope": "All downloaded transcript/script/podcast text files for the same unit, across every folder/week; duplicate bytes searched once.",
+      "distinctFilesSearched": 227,
+      "matchingCandidateCount": 25,
+      "candidates": [
+        {
+          "id": "1HW3U8pm2OEd_Z3l01RoIvaDLXblAVaTb",
+          "title": "International - Week 08 - Lecture Transcript for Code (Live) - International Dispute Settlement (Part A).txt",
+          "path": "International/Week 08/International - Week 08 - Lecture Transcript for Code (Live) - International Dispute Settlement (Part A).txt",
+          "url": "https://drive.google.com/file/d/1HW3U8pm2OEd_Z3l01RoIvaDLXblAVaTb/view?usp=drivesdk",
+          "sha256": "31b23b31d7ff1b073f0e90fbb976c196b2038e59615e1fc96f57fc603e94eea1",
+          "matchedPhrases": [
+            "international dispute settlement",
+            "dispute settlement"
+          ],
+          "filenameMatches": [
+            "international dispute settlement",
+            "dispute settlement"
+          ],
+          "evidenceExcerpt": "OK. OK, hi everyone. How are you today? OK. Uh, so today we are going to look at the peaceful settlement of disputes. So, um, as in any other legal system, there will be times where parties were to In groups, two people, two parties arrive at some form of tension. They don't they don't agree on the meaning of a legal term or the facts that relates ",
+          "score": 61
+        },
+        {
+          "id": "10DT5uMZWIWD-siMPR0I9udDeozCQ_YE0",
+          "title": "Podcast Weeks 1–6 - Complete Script.txt",
+          "path": "Semester Audio Scripts/International/Podcast Weeks 1–6/Podcast Weeks 1–6 - Complete Script.txt",
+          "url": "https://drive.google.com/file/d/10DT5uMZWIWD-siMPR0I9udDeozCQ_YE0/view?usp=drivesdk",
+          "sha256": "03fa3214793e03f8ab7b0e1373e44207ae9323553470eec3e211db107e09d8f4",
+          "matchedPhrases": [
+            "international dispute settlement",
+            "dispute settlement",
+            "part c"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "The ancient Greek polis illustration distinguishes an urban area commonly protected by walls from dependent farming territory outside them. The acropolis is the elevated urban part containing important buildings. It supports the historical discussion of organised communities and political authority; it should not be treated as a modern definition o",
+          "score": 24
+        },
+        {
+          "id": "1eIs2dLDyO_txKPA2OZXPTwAyhnFscLXB",
+          "title": "International - Week 01 - Lecture Transcript (Live) - What Is Public International Law.md",
+          "path": "International/Week 01/International - Week 01 - Lecture Transcript (Live) - What Is Public International Law.md",
+          "url": "https://drive.google.com/file/d/1eIs2dLDyO_txKPA2OZXPTwAyhnFscLXB/view?usp=drivesdk",
+          "sha256": "f6b50d9fe1c50838607e571acfd9b1168d04ce15bedb1275cedf6825064d800b",
+          "matchedPhrases": [
+            "international dispute settlement",
+            "dispute settlement"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "**[00:08:37 - 00:08:40]** And then international dispute settlements,",
+          "score": 21
+        },
+        {
+          "id": "1fXORsTu2EwQCXlx9crDtsdleQnRl5Mce",
+          "title": "Podcast Weeks 1–6 Part 012.txt",
+          "path": "Semester Audio Scripts/International/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 012.txt",
+          "url": "https://drive.google.com/file/d/1fXORsTu2EwQCXlx9crDtsdleQnRl5Mce/view?usp=drivesdk",
+          "sha256": "964f9663b2f7ac893c36c9e450de6db36fd084a7f154f841ee21fbecd1c85536",
+          "matchedPhrases": [
+            "international dispute settlement",
+            "dispute settlement"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "SOURCES “JUDICIAL DECISIONS” As a matter of doctrine, judicial decisions are not-in-and-of themselves binding international law. Article 59 ICJ Statute: “The decision of the Court has no binding force except between the parties and in respect of that particular case.” However: judicial decisions carry substantial interpretative weight; Internationa",
+          "score": 21
+        },
+        {
+          "id": "12IoPFDMQudWsOuusC6SpkvNWDpIhfo25",
+          "title": "Week 2 - Complete Script.txt",
+          "path": "Semester Audio Scripts/International/Weekly/Week 2 - Complete Script.txt",
+          "url": "https://drive.google.com/file/d/12IoPFDMQudWsOuusC6SpkvNWDpIhfo25/view?usp=drivesdk",
+          "sha256": "ae3ec59f4ab0affdde12c52ac6cb3e58639b611be272649ec05fb09757366e40",
+          "matchedPhrases": [
+            "international dispute settlement",
+            "dispute settlement"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "SOURCES “JUDICIAL DECISIONS” As a matter of doctrine, judicial decisions are not-in-and-of themselves binding international law. Article 59 ICJ Statute: “The decision of the Court has no binding force except between the parties and in respect of that particular case.” However: judicial decisions carry substantial interpretative weight; Internationa",
+          "score": 21
+        },
+        {
+          "id": "162MkRSmd3ZCU_cmZL54iPh2UoqDXuFa-",
+          "title": "Week 2 Part 002.txt",
+          "path": "Semester Audio Scripts/International/Weekly/Week 2 Part 002.txt",
+          "url": "https://drive.google.com/file/d/162MkRSmd3ZCU_cmZL54iPh2UoqDXuFa-/view?usp=drivesdk",
+          "sha256": "d029da21387c23099df72c125eec928da832c769ca45bea24b66cb5c3b436653",
+          "matchedPhrases": [
+            "international dispute settlement",
+            "dispute settlement"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "SOURCES “JUDICIAL DECISIONS” As a matter of doctrine, judicial decisions are not-in-and-of themselves binding international law. Article 59 ICJ Statute: “The decision of the Court has no binding force except between the parties and in respect of that particular case.” However: judicial decisions carry substantial interpretative weight; Internationa",
+          "score": 21
+        },
+        {
+          "id": "1ILzArvz5_MwzQYzN-AR-ITs6-oOlQb-g",
+          "title": "International - Week 02 - Lecture Transcript (Online) - Sources of International Law.md",
+          "path": "International/Week 02/International - Week 02 - Lecture Transcript (Online) - Sources of International Law.md",
+          "url": "https://drive.google.com/file/d/1ILzArvz5_MwzQYzN-AR-ITs6-oOlQb-g/view?usp=drivesdk",
+          "sha256": "e8d9e4f7237491aa55e165ab1e12d825810bae9b1f2f585220d746083b685252",
+          "matchedPhrases": [
+            "dispute settlement"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "**[00:05:32 - 00:05:40]** For instance, when states negotiate dispute settlements, they invoke cases from the International Court of Justice.",
+          "score": 9
+        },
+        {
+          "id": "1MsYFCAmnpA4Tj4qsZSDo35EwQvJYR_KM",
+          "title": "Podcast Weeks 1–6 Part 019.txt",
+          "path": "Semester Audio Scripts/International/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 019.txt",
+          "url": "https://drive.google.com/file/d/1MsYFCAmnpA4Tj4qsZSDo35EwQvJYR_KM/view?usp=drivesdk",
+          "sha256": "fb42a13de83f074676452ae7c92769c9a3c2863d763689ab035d0e04a4344ed3",
+          "matchedPhrases": [
+            "dispute settlement"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Court rulings, because of that, court rulings will create binding principles for subsequent cases. In international law, that's not the case. in turn, according to Article 51 of the ICJ statute that, again, you see here on your slide, court's decisions or the decisions of that court have no binding force except between the parties to the case in re",
+          "score": 9
+        }
+      ],
+      "conclusion": "Related wording is a candidate for human comparison, not proof that the recording has a complete transcript."
+    },
+    {
+      "videoId": "1dyPS5e1R9XS5YR6rPHOm4lFss_OJC4Uw",
+      "scope": "All downloaded transcript/script/podcast text files for the same unit, across every folder/week; duplicate bytes searched once.",
+      "distinctFilesSearched": 23,
+      "matchingCandidateCount": 23,
+      "candidates": [
+        {
+          "id": "19eczAJtn3rTKgz4gQyS65rndUSuqzqC0",
+          "title": "Marketing - Week 05 - Lecture Transcript for Code - Creativity Theories.txt",
+          "path": "Marketing/Week 05/Marketing - Week 05 - Lecture Transcript for Code - Creativity Theories.txt",
+          "url": "https://drive.google.com/file/d/19eczAJtn3rTKgz4gQyS65rndUSuqzqC0/view?usp=drivesdk",
+          "sha256": "775db509e1e3a2f53f5997d628bf3571f120ca9f279474a8ae629057cf708edb",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [
+            "creativity"
+          ],
+          "evidenceExcerpt": "Okay Hello Hello. Welcome to week five lecture. Today we're going to talk about different creativity theories. The reason for this lecture is just to give you an overview of different theories that that are out there it's not writing ins exhaustive. But it will give you a sense of of what's out there, I suggest that. You go ahead and you know find ",
+          "score": 29
+        },
+        {
+          "id": "1z1wA0_Pm0DDUlO7n6zQxfSytRzVtCLgM",
+          "title": "Marketing - Week 01 - Lecture Transcript for Code - Introduction and Overview.txt",
+          "path": "Marketing/Week 01/Marketing - Week 01 - Lecture Transcript for Code - Introduction and Overview.txt",
+          "url": "https://drive.google.com/file/d/1z1wA0_Pm0DDUlO7n6zQxfSytRzVtCLgM/view?usp=drivesdk",
+          "sha256": "64a0222a514d307281f3e320ed100cfaff02d8e44ff48430643966cc72acec90",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "force. This is our first lecture. And, for this lecture, we are going to talk about this unit, what to expect? What are some of the things that you can I look forward to. We are going to talk… we're going to talk about The assessments for this course. And then we are going to talk about creativity, innovation more generally. What it is… How are we ",
+          "score": 9
+        },
+        {
+          "id": "1yspqC3EEFui0E7ad8jfaMNXFQnnMOWaV",
+          "title": "Marketing - Week 03 - Lecture Transcript for Code - Design Thinking (Guest Lecture, Nathan Baird).txt",
+          "path": "Marketing/Week 03/Marketing - Week 03 - Lecture Transcript for Code - Design Thinking (Guest Lecture, Nathan Baird).txt",
+          "url": "https://drive.google.com/file/d/1yspqC3EEFui0E7ad8jfaMNXFQnnMOWaV/view?usp=drivesdk",
+          "sha256": "3a7eeb2ad6c5824cbd6dd43786b6bdefc4885bd29d693bf4cb886cd9ccb8f465",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Okay, so i'm just a little bit on what we do so Look, we saw it look i've written a book on design thinking, but we also do a lot of work with. With businesses and government and even a little bit of not for profit sector, and what we do is we have teams build their innovation mastery but also we work alongside them. to innovate on their most impor",
+          "score": 9
+        },
+        {
+          "id": "1j4lc2XyLOITJvqUMmH0hro9C3EgnFHyB",
+          "title": "Marketing - Week 04 - Lecture Transcript for Code - Six Thinking Hats.txt",
+          "path": "Marketing/Week 04/Marketing - Week 04 - Lecture Transcript for Code - Six Thinking Hats.txt",
+          "url": "https://drive.google.com/file/d/1j4lc2XyLOITJvqUMmH0hro9C3EgnFHyB/view?usp=drivesdk",
+          "sha256": "367bcb77f9d3aeab262c91ab913fdd3c4d78782f6ac511a8ac1d9cdd5d98b078",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Hello. Welcome to our lecture today so today we're going to be talking about. The the heads of creativity, the six types of creativity. Again, this is the lecture for week four. We were supposed to have a. guest speaker today, but he couldn't do it, you know, to make it today. So what we'll have him percent next week, so I will read the lecture for",
+          "score": 9
+        },
+        {
+          "id": "1N_1IdqFBvUy0GyuLCJvyGmlgd4C5zH21",
+          "title": "Marketing - Week 08 - Lecture Transcript for Code - Innovation.txt",
+          "path": "Marketing/Week 08/Marketing - Week 08 - Lecture Transcript for Code - Innovation.txt",
+          "url": "https://drive.google.com/file/d/1N_1IdqFBvUy0GyuLCJvyGmlgd4C5zH21/view?usp=drivesdk",
+          "sha256": "0489e728410ffa9737363ab32ee2c501fd0dea36bcafdd063a4fce66112da5ab",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Okay let's start. How are you today. Well, good. How was your break mid semester break good. Before we start any questions about the teams, because this is the next thing, this is the next assignment that you know you'll need to work with your teams. And you need to create a video, which is you know, a sizable task. No questions that's that's good,",
+          "score": 9
+        },
+        {
+          "id": "17gup7d_yzndRg6T_Nn8tAM1hBXdHNf5h",
+          "title": "Marketing - Week 10 - Lecture Transcript for Code - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+          "path": "Marketing/Week 10/Marketing - Week 10 - Lecture Transcript for Code - Product Development, Dow Corning Case (Guest Lecture, Viken Kortian).txt",
+          "url": "https://drive.google.com/file/d/17gup7d_yzndRg6T_Nn8tAM1hBXdHNf5h/view?usp=drivesdk",
+          "sha256": "fc12afbe9a8924c6ce173adab1f8bc42df39949a33b02903a529c493600def9a",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "The automotive, you know, construction, you name it there are silicone everywhere so. So you know what what happened, what happened to a very, very successful US multinational well in the early 1990s Dow corning got embroiled in in a product. That eventually took it to Chapter 11 bankruptcy protection, and these were the silicon breast implants. Yo",
+          "score": 9
+        },
+        {
+          "id": "1Ur2csPd45nqU_lm2bDaRcOqt2rp0rSKx",
+          "title": "Marketing - Week 11 - Lecture Transcript for Code - Guest Lecture, Business Founder (Mark).txt",
+          "path": "Marketing/Week 11/Marketing - Week 11 - Lecture Transcript for Code - Guest Lecture, Business Founder (Mark).txt",
+          "url": "https://drive.google.com/file/d/1Ur2csPd45nqU_lm2bDaRcOqt2rp0rSKx/view?usp=drivesdk",
+          "sha256": "7f2fb6489810c39572db3954c25cdab361efa5012c206aa666dea82fe86e3055",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "I think I think the competition from imports was already very much alive and kicking when I started my business. I think really the it's just it's all it's all really simple and basic you got to understand what is what is, what do people want to buy. And how much will they pay for it i've sort of discovered that I haven't found that people have tak",
+          "score": 9
+        },
+        {
+          "id": "1TSNCOYIpEHSdzdXMV_f-v5kAH4VzVflN",
+          "title": "Marketing - Week 12 - Lecture Transcript for Code - Guest Lecture, Shelley Simpson.txt",
+          "path": "Marketing/Week 12/Marketing - Week 12 - Lecture Transcript for Code - Guest Lecture, Shelley Simpson.txt",
+          "url": "https://drive.google.com/file/d/1TSNCOYIpEHSdzdXMV_f-v5kAH4VzVflN/view?usp=drivesdk",
+          "sha256": "2a7d8196fabad34f80cf47bdf8c01eb81a35afbc8842a900687f55f5982ae617",
+          "matchedPhrases": [
+            "creativity",
+            "problem"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "yeah yeah critical a bit of a viral company. yeah so shelley's a wealth of knowledge, so please prepare your questions, you know ask about anything asked about creativity, innovation, but also maybe ask about. Anything you want to know about management review and career advice. So without further ado shelley now to you.",
+          "score": 9
+        }
+      ],
+      "conclusion": "Related wording is a candidate for human comparison, not proof that the recording has a complete transcript."
+    },
+    {
+      "videoId": "1sdVD9Gw0Dcf4z7FVtCYbPBMEK1VId3tm",
+      "scope": "All downloaded transcript/script/podcast text files for the same unit, across every folder/week; duplicate bytes searched once.",
+      "distinctFilesSearched": 144,
+      "matchingCandidateCount": 30,
+      "candidates": [
+        {
+          "id": "1ARsIRdxFW7GMC1bnHjTHRDVP_VwKnzuD",
+          "title": "Podcast Weeks 1–6 - Complete Script.txt",
+          "path": "Semester Audio Scripts/Torts/Podcast Weeks 1–6/Podcast Weeks 1–6 - Complete Script.txt",
+          "url": "https://drive.google.com/file/d/1ARsIRdxFW7GMC1bnHjTHRDVP_VwKnzuD/view?usp=drivesdk",
+          "sha256": "bfab0d64798c0abe75ab32638fb831d624456cf97c14545fb31f95861b034595",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "The historical section follows Donoghue, Grant, Hedley Byrne, Dorset Yacht, Anns, Heyman and Caparo. Their tests don't all represent current Australian law. Established categories and novel relationships require different starting points.",
+          "score": 9
+        },
+        {
+          "id": "1wh0jXKfdAEtkYt2ADFHF8QKnE4qWTZ-X",
+          "title": "Podcast Weeks 1–6 Part 033.txt",
+          "path": "Semester Audio Scripts/Torts/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 033.txt",
+          "url": "https://drive.google.com/file/d/1wh0jXKfdAEtkYt2ADFHF8QKnE4qWTZ-X/view?usp=drivesdk",
+          "sha256": "0568635eac4a645dc8d1c12758a3a271642b369c93fb4f713d610e66178382af",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "[thoughtful] The next passage is from the supplied casebook. To p i c 5 : D u t y o f C a r e Grant versus Australian Knitting Mills (1936) AC 85 (Privy Council) Facts: Dr Grant, the appellant, bought woollen underpants from a retailer who had purchased them from the manufacturer, Australian Knitting Mills. He wore them for a day and began to itch;",
+          "score": 9
+        },
+        {
+          "id": "1WMGN7r0ESmo56aXgnBTUQp-Cz4LlmTdk",
+          "title": "Podcast Weeks 1–6 Part 034.txt",
+          "path": "Semester Audio Scripts/Torts/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 034.txt",
+          "url": "https://drive.google.com/file/d/1WMGN7r0ESmo56aXgnBTUQp-Cz4LlmTdk/view?usp=drivesdk",
+          "sha256": "109a0f90bff7df180baffd751e25df4e52df57941b1eb471702b503f5916cb99",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Reasonable foreseeability (neighbour principle from Donoghue versus Stevenson) is always required, [thoughtful] but not always sufficient;",
+          "score": 9
+        },
+        {
+          "id": "1FIw2PSQ9-kFiNhm3MhNmD7bbU7q6UP9D",
+          "title": "Podcast Weeks 1–6 Part 035.txt",
+          "path": "Semester Audio Scripts/Torts/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 035.txt",
+          "url": "https://drive.google.com/file/d/1FIw2PSQ9-kFiNhm3MhNmD7bbU7q6UP9D/view?usp=drivesdk",
+          "sha256": "576286f02225167e9ff4b9c180937443590edd15e0bd7f9383abe61677ec3ba0",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Starting position for whether a duty of care owed is the ‘neighbour principle’ from Donoghue versus Stevenson - if you can reasonably foresee that your careless actions could put your neighbour at risk of harm then a duty of care owed.",
+          "score": 9
+        },
+        {
+          "id": "196726k7n3RdI6aY1JQNcrev4BKz8vHf-",
+          "title": "Podcast Weeks 1–6 Part 036.txt",
+          "path": "Semester Audio Scripts/Torts/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 036.txt",
+          "url": "https://drive.google.com/file/d/196726k7n3RdI6aY1JQNcrev4BKz8vHf-/view?usp=drivesdk",
+          "sha256": "d20d1921c18a937594368a3f05ec09d361caf018ff20ca59ba10c800b57ed795",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "The proximity upon which a Donoghue type duty rests depends upon proof that the defendant and plaintiff are so placed in relation to each other that it is reasonably foreseeable as a possibility that careless conduct of any kind on the part of the former may result in damage of some kind to the person or property of the latter: Chapman versus Hears",
+          "score": 9
+        },
+        {
+          "id": "17hUTj_-la38C1U2ePlJ6l6H2xl8n6zj9",
+          "title": "Podcast Weeks 1–6 Part 037.txt",
+          "path": "Semester Audio Scripts/Torts/Podcast Weeks 1–6/Podcast Weeks 1–6 Part 037.txt",
+          "url": "https://drive.google.com/file/d/17hUTj_-la38C1U2ePlJ6l6H2xl8n6zj9/view?usp=drivesdk",
+          "sha256": "14e9340932b80255946d6a57d484b41caad7f906adf1febb297a672061283f89",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "Overview of Negligence Plaintiff to prove elements of negligence: 1. They were owed duty of care by the defendant 2. Defendant breached duty of care 3. Breach of duty caused the plaintiff compensable harm Duty of Care Neighbourhood test of reasonable foreseeability Donoghue versus Stevenson Established Categories Eg Driver – passengers/ road uses D",
+          "score": 9
+        },
+        {
+          "id": "1a3pl3zo0nFeGyLeGasHSruZwZDfezxYV",
+          "title": "Week 5 - Complete Script.txt",
+          "path": "Semester Audio Scripts/Torts/Weekly/Week 5 - Complete Script.txt",
+          "url": "https://drive.google.com/file/d/1a3pl3zo0nFeGyLeGasHSruZwZDfezxYV/view?usp=drivesdk",
+          "sha256": "165b73317fa349466582ecb10762baea8c6968fb50f7697bb771b33028a8023b",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "The historical section follows Donoghue, Grant, Hedley Byrne, Dorset Yacht, Anns, Heyman and Caparo. Their tests don't all represent current Australian law. Established categories and novel relationships require different starting points.",
+          "score": 9
+        },
+        {
+          "id": "1J3Ordnwsm_EogbLui0NMg8zyfVMF6AI8",
+          "title": "Week 5 Part 002.txt",
+          "path": "Semester Audio Scripts/Torts/Weekly/Week 5 Part 002.txt",
+          "url": "https://drive.google.com/file/d/1J3Ordnwsm_EogbLui0NMg8zyfVMF6AI8/view?usp=drivesdk",
+          "sha256": "05893b75651dfd3126e62de4807fa5272f5927759b58c8c1ab4e702ff7a5f2b6",
+          "matchedPhrases": [
+            "donoghue",
+            "stevenson"
+          ],
+          "filenameMatches": [],
+          "evidenceExcerpt": "[thoughtful] The next passage is from the supplied casebook. To p i c 5 : D u t y o f C a r e Grant versus Australian Knitting Mills (1936) AC 85 (Privy Council) Facts: Dr Grant, the appellant, bought woollen underpants from a retailer who had purchased them from the manufacturer, Australian Knitting Mills. He wore them for a day and began to itch;",
+          "score": 9
+        }
+      ],
+      "conclusion": "Related wording is a candidate for human comparison, not proof that the recording has a complete transcript."
+    }
+  ],
+  "asrAvailability": {
+    "checkedInCurrentRuntime": true,
+    "pythonPackagesPresent": {
+      "whisper": false,
+      "faster_whisper": false,
+      "transformers": false,
+      "torch": false,
+      "torchaudio": false,
+      "speech_recognition": false,
+      "vosk": false
+    },
+    "ffmpegAsrFilterCompiled": true,
+    "defaultPocketSphinxModelDirectoryPresent": false,
+    "ffmpegAsrInitialisationTest": {
+      "input": "0.1 seconds generated silence, 16 kHz mono",
+      "exitCode": 244,
+      "error": "Error initializing filters; Cannot allocate memory"
+    },
+    "conclusion": "No usable local transcription workflow was established. No paid speech service or external model download was used."
+  },
+  "limits": [
+    "Readable-file failures do not prove transcript absence.",
+    "Stream metadata does not verify spoken content, slides, embedded graphics or subtitle accuracy.",
+    "Prior probe evidence is explicitly labelled; interrupted probes have no inferred results.",
+    "No recording is certified as fully covered by its filename-based transcript candidate."
+  ]
+}

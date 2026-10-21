@@ -67,9 +67,22 @@ def xml_text(root, word=False):
 
 def add_section(out,label,text,method,origin,**extra):
     if text=='' and not extra.get('imageUrl'):return
-    ident='s-'+sha((origin+'\0'+label).encode())[:20]
+    base='s-'+sha((origin+'\0'+label).encode())[:20];ident=base;number=1
+    existing={section['id'] for section in out}
+    while ident in existing:
+        number+=1;ident=base+'-'+str(number)
     out.append({'id':ident,'label':label,'text':text,'characters':len(text),
       'textSha256':sha(text.encode()),'method':method,'origin':origin,**extra})
+
+def unique_section_ids(record):
+    """Retain repeated source occurrences while making each anchor unambiguous."""
+    existing=set()
+    for section in record.get('sections',[]):
+        base=section['id'];ident=base;number=1
+        while ident in existing:
+            number+=1;ident=base+'-'+str(number)
+        section['id']=ident;existing.add(ident)
+    return record
 
 def store_visual(data, asset_root):
     from PIL import Image
@@ -78,7 +91,8 @@ def store_visual(data, asset_root):
         try:
             im=Image.open(io.BytesIO(data));im.load()
             if im.mode not in ('RGB','RGBA'):im=im.convert('RGBA')
-            buf=io.BytesIO();im.save(buf,format='WEBP',lossless=True)
+            # Fast lossless encoding preserves the same pixels as method 4.
+            buf=io.BytesIO();im.save(buf,format='WEBP',lossless=True,method=0)
             tmp=dest.with_name(dest.name+'.'+str(os.getpid())+'.tmp');tmp.write_bytes(buf.getvalue());tmp.replace(dest)
         except Exception:
             ext='svg' if b'<svg' in data[:500] else 'bin';dest=asset_root/(ident+'.'+ext)
@@ -243,7 +257,7 @@ def extract_file(job,outdir,cache,render_office):
         try:
             previous=json.loads(dest.read_text())
             if previous.get('extractorVersion')==VERSION:
-                previous=repair_vector_ocr(previous,path,outdir,cache)
+                previous=unique_section_ids(repair_vector_ocr(previous,path,outdir,cache))
                 previous['originalDownload']=retain_original(path,digest);atomic_json(dest,previous);return previous
         except (ValueError,OSError):pass
     sections=[];warnings=[];details={};ext=path.suffix.lower();assets=outdir/'images'
@@ -279,7 +293,7 @@ def extract_file(job,outdir,cache,render_office):
       'bytes':len(data),'characters':sum(s['characters'] for s in sections),'sections':sections,'warnings':warnings,'details':details,
       'extractionStatus':'error' if any(w.startswith('EXTRACTION ERROR') for w in warnings) else ('text-extracted' if sections else 'original-only'),
       'literalTextPreserved':ext in TEXT_EXT,'originalDownload':retain_original(path,digest)}
-    record=repair_vector_ocr(record,path,outdir,cache)
+    record=unique_section_ids(repair_vector_ocr(record,path,outdir,cache))
     atomic_json(dest,record);return record
 
 def unit_week(path):

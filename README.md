@@ -41,12 +41,48 @@ concept, answer-length balance, concepts without an explainer, and every item ma
 citation or holding that is not fully supported by your materials). Check those against your readings; correct the
 file and set `locked: true`.
 
-## Deployment is deliberately not connected
+## Deploy the separate ChatGPT copy
 
 The source is a copy of `DeveshRamanan-collab/study-site` at commit
 `5737bd193c1d44b396a61c3e11a8eb3bac0aa21b`. That repository and the live site are read-only.
-This repository has a separate Worker name (`chatgpt-study-site`) and no deployment workflow.
-The included GitHub Actions run checks only. Build output goes to `dist/`; publication is intentionally a separate step.
+This repository targets the separate Worker `chatgpt-studysite`. The original repository and live
+deployment remain outside its write scope. The included GitHub Actions run checks only.
+
+A completed release is stored in `release-assets/` as a deterministic tar.gz split into parts of at
+most 4 MiB, with checksums for the archive, every part and every built file. This keeps the originals,
+source visuals and the tested site together without thousands of separate binary uploads.
+
+During normal `npm ci` or `npm install`, `postinstall` runs `scripts/restore-release.mjs`. It verifies
+the complete local release before restoring `dist/`, then seeds missing `public/source-corpus/` and
+`public/source-originals/` directories for future source builds. Existing public source directories
+are preserved. Corrupt or missing committed parts stop installation before an incomplete build is used.
+An already restored build is checked against the file manifest and reused.
+
+The existing Cloudflare settings can remain:
+
+| Setting | Value |
+| --- | --- |
+| Root directory | `/` |
+| Build command | None |
+| Deploy command | `npx wrangler deploy` |
+| Node version | `22` |
+
+Automatic dependency installation and npm lifecycle scripts must be enabled. Do not set
+`SKIP_DEPENDENCY_INSTALL=1` or `ignore-scripts` for this prebuilt route. Cloudflare's normal install
+step restores the tested static files before Wrangler looks for `dist/`.
+
+For a normal source build, use Build command `npm run build`, Deploy command `npx wrangler deploy`.
+Alternatively Deploy command `npm run deploy` builds first. Run `npm run deploy:check` for a build and
+Wrangler dry-run without publication. Wrangler custom-build settings alone do not replace a Workers
+Builds dashboard build command.
+
+After changing source, build and complete the audit checks, then run `npm run release:pack` to freeze
+that verified output. Commit the manifest and all release parts together. Do not package a partial
+build. `npm run release:restore` requires a committed snapshot and performs the same local verification
+as the installation hook. No release helper downloads files or uses a paid service.
+
+References: [Cloudflare build configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/)
+and [automatic dependency installation](https://developers.cloudflare.com/workers/ci-cd/builds/build-image/).
 
 ## October 2026 exam rebuild
 

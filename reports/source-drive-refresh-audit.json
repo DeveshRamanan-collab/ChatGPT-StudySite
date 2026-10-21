@@ -1,0 +1,13 @@
+{
+  "previousFileCount": 823,
+  "refreshedFileCount": 823,
+  "added": [],
+  "removed": [],
+  "modified": [],
+  "listingCompleteness": {
+    "allQueuesEmpty": true,
+    "largestDirectListing": 115,
+    "requestedTopK": 1000,
+    "errors": []
+  }
+}
