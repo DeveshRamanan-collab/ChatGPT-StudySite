@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/units.mjs --check && node scripts/validate.mjs && node scripts/content-health.mjs --quiet && astro build && pagefind --site dist --silent",
+    "deploy": "npm run build && npx wrangler deploy",
+    "deploy:check": "npm run build && npx wrangler deploy --dry-run",
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest run",

@@ -2,8 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AuthorityDetail from '../../components/rebuild/AuthorityDetail';
+import SourceEvidence from '../../components/rebuild/SourceEvidence.astro';
 import {getLibrary} from '../../lib/rebuild';
 export async function getStaticPaths(){return(await getLibrary()).filter(r=>r.kind==='provision').map(r=>({params:{slug:r.id},props:{r}}));}
 const {r}=Astro.props;
 ---
-<Layout title={r.title} index="Authority" unit={r.units[0]} centre><Breadcrumbs items={[{href:'/',label:'Home'},{href:'/statutes/',label:'Legislation and treaties'},{label:r.title}]}/><h1>{r.title}</h1><p class="rb-lede">{r.oneLine}</p><AuthorityDetail client:load item={r}/></Layout>
+<Layout title={r.title} index="Authority" unit={r.units[0]} centre><Breadcrumbs items={[{href:'/',label:'Home'},{href:'/statutes/',label:'Legislation and treaties'},{label:r.title}]}/><h1>{r.title}</h1><p class="rb-lede">{r.oneLine}</p><AuthorityDetail client:load item={r}/><SourceEvidence unit={r.units[0]} query={r.title}/></Layout>

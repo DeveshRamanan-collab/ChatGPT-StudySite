@@ -4,6 +4,7 @@ import Layout from '../../../layouts/Layout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import ExplainerHost from '../../../components/explainers/ExplainerHost';
 import AudioRecap from '../../../components/AudioRecap';
+import SourceEvidence from '../../../components/rebuild/SourceEvidence.astro';
 import {units,weeksOf,conceptSlug} from '../../../lib/content';
 export async function getStaticPaths(){const paths=[];for(const u of await units())for(const w of await weeksOf(u.id))paths.push({params:{unit:u.id,n:String(w.data.number)},props:{u,w}});return paths;}
 const {u,w}=Astro.props;
@@ -19,6 +20,7 @@ const weeks=await weeksOf(u.id);const at=weeks.findIndex(x=>x.id===w.id);
  <nav class="rb-actions" aria-label="Week tools"><a href={`/${u.id}/week/${w.data.number}/sheet/`}>Revision sheet</a><a href={`/${u.id}/exam/`}>Exam notes</a><a href={`/${u.id}/quiz?mode=week&week=${w.id}`}>Test this week</a><a href={`/cases/?unit=${u.id}`}>Cases</a><a href={`/statutes/?unit=${u.id}`}>Legislation</a></nav>
  {w.data.thin&&<p class="rb-callout">{w.data['thin-reason']} Source gaps remain visible; no missing material has been invented.</p>}
  {w.data['source-note']&&<details class="rb-note"><summary>How this week was prepared</summary><p>{w.data['source-note']}</p></details>}
+ <SourceEvidence unit={u.id} week={w.data.number}/>
  <div class="rb-tabs" role="tablist" aria-label="Week reading view" data-week-tabs>{[['visual','Visual · continuous'],['text','Text · continuous'],['topics','By topic']].map(([id,label])=><button role="tab" type="button" id={`week-tab-${id}`} aria-selected={id==='visual'} aria-controls={`week-${id}`} data-view={id}>{label}</button>)}</div>
  <div class="rb-week-visual" id="week-visual" role="tabpanel" aria-labelledby="week-tab-visual" data-week-panel="visual">
   <p class="rb-muted">Scroll through the whole week. Each explanation is interactive; nothing advances the page for you.</p>

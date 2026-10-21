@@ -962,27 +962,31 @@
       "keyFacts": [
         "An eye surgeon failed to give a warning about a complication that arose in one in 14,000 cases."
       ],
-      "issue": "What standard of care applies to a professional — and whether it is set by professional practice (the Bolam principle).",
+      "issue": "What reasonable care requires when a medical practitioner advises a patient about treatment risks, and whether professional practice conclusively sets that standard.",
       "reasoning": [
-        "A professional is judged against the ordinary skilled person exercising and professing to have that special skill, not simply against what the profession does."
+        "A professional is judged against the ordinary skilled person exercising and professing to have that special skill, not simply against what the profession does.",
+        "Wallace v Kam [2013] HCA 19 [8], citing Rogers at 490, explains the material-risk test. Consider whether a reasonable person in the patient’s position would likely regard the risk as significant, or whether the practitioner knows or reasonably ought to know that this particular patient would likely regard it as significant when deciding about treatment."
       ],
       "outcome": "The High Court held that the standard of care \"is that of ordinary skilled person exercising and professing to have that special skill\", and rejected the Bolam principle (that the standard of care is determined in line with medical practice).",
-      "ratio": "A professional is judged against the ordinary skilled person exercising and professing to have that special skill, not simply against what the profession does.",
+      "ratio": "Professional custom does not conclusively determine reasonable care. For risk disclosure, apply both the reasonable-patient and particular-patient limbs of materiality described in Wallace v Kam [2013] HCA 19 [8], citing Rogers at 490.",
       "limits": [
-        "Read the complete judgment before attributing a precise material-risk formulation to every passage.",
-        "In NSW, warning/advice liability is excluded from s 5O by s 5P; distinguish treatment skill from disclosure."
+        "The material-risk formulation is verified through the later High Court explanation in Wallace v Kam [2013] HCA 19 [8]; the complete original Rogers judgment and factual record have not been independently audited here.",
+        "In NSW, s 5P excludes this Division’s application to warning, advice or information about death or personal-injury risks associated with a professional service. Keep disclosure distinct from technical treatment practice under s 5O.",
+        "Materiality alone does not establish causation or the scope of liability."
       ],
-      "examUse": "Analyse disclosure separately from technical professional treatment and connect the risk to the patient’s decision.",
+      "examUse": "Identify the treatment risk and apply both limbs of materiality. Distinguish disclosure from technical treatment; address s 5P before relying on s 5O for a NSW warning claim. Analyse causation and scope separately.",
       "pitfalls": [
         "Using Bolam-style professional practice as a complete answer to a warning claim.",
         "Assuming rarity makes warning unnecessary."
       ],
       "sources": [
         "content-src/laws2400-w09.yaml",
-        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx"
+        "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+        "https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/19.pdf",
+        "raw/laws2400-torts/unit-wide/act-2002-022.pdf"
       ],
       "verification": "teaching-source",
-      "verificationNote": "All original teaching fields are retained in teachingRecords. Primary judgment not independently checked for this record.",
+      "verificationNote": "All original teaching fields remain in teachingRecords. The disclosure test was checked against the official later High Court explanation in Wallace v Kam [2013] HCA 19 [8], citing Rogers v Whitaker (1992) 175 CLR 479 at 490. The s 5P qualification matches the supplied official statute extract. The complete original Rogers judgment and factual record have not been independently audited.",
       "topics": [
         "Breach of duty: the standard of care and foreseeable risk"
       ],

@@ -1,0 +1,1712 @@
+{
+  "checkedAt": "2026-10-21",
+  "sourceList": {
+    "path": "raw/laws2400-torts/assessment/Exam - Examinable Law List.docx",
+    "sha256": "10d0a5648625651bdf5c6164624af54939a341418692aa4a377cbf64a07a51ff"
+  },
+  "caseList": {
+    "expected": 77,
+    "actual": 77,
+    "method": "Exact Unicode equality of numbered DOCX paragraph citation and dossier listNumber/citation, in order",
+    "differences": []
+  },
+  "provisionList": {
+    "expected": 45,
+    "actual": 45,
+    "method": "Exact Unicode equality of DOCX provision paragraphs and sourceLine, in order",
+    "differences": []
+  },
+  "claIncludedText": {
+    "source": "raw/laws2400-torts/unit-wide/act-2002-022.pdf",
+    "sourceSha256": "a2b917bcb7a02a2e2be8582427f4fd668887a2ad50bddbfb0d748242133c301b",
+    "method": "Every nonempty blank-line-delimited text block must occur in pdftotext -layout output, after removing whitespace only",
+    "provisionEntries": 42,
+    "matchedBlocks": 237,
+    "unmatchedBlocks": [],
+    "blockChecks": [
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 1,
+        "characters": 140,
+        "sha256": "dfc80ac8ec4c6dad3affcbe3be4c3f0ede95d1351ce318ebb249f44b8ad719eb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 2,
+        "characters": 245,
+        "sha256": "ca815ef7332caf36261698338c02f6a89c9461df0be4b1b4e752d0ce6ab9d8e5",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 3,
+        "characters": 68,
+        "sha256": "cd8e4507b3c71d3e6a9046375e8c2345341c4262774ea98070284921d31ddb7a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 4,
+        "characters": 151,
+        "sha256": "3ac1464661ea3c1e8014870eb68f89a7b73118f65918a286e675805fbfd74225",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 5,
+        "characters": 210,
+        "sha256": "659e33c3bd3a7ed5cd15150e82b773fbd897677764a2506bd7ae57242c361c83",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 6,
+        "characters": 70,
+        "sha256": "e8ba0365fd803cd67f499d627fd62cc2e83041ee1129463dda840480dfabc4e7",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 7,
+        "characters": 369,
+        "sha256": "3648b71b44bde3efc64eb3a89fd8b2b493e294aaf54de7b0073b91f947077051",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 8,
+        "characters": 160,
+        "sha256": "a0136af371b695329a0fdc6c547d0e608eeabeaee30f89f704a8e529f91e57c3",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 9,
+        "characters": 361,
+        "sha256": "f3381a680b18a03ca4e969376b299bfad7d9457283b56b215654397b1ef94552",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 10,
+        "characters": 54,
+        "sha256": "25823da7d1df0b4fe467e2a7b12271d31469275c86c3d09ef5680994b1c76942",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3b",
+        "block": 11,
+        "characters": 48,
+        "sha256": "293e8e8caea024c7ffe7412969f07e36e9325da2b85c0b4d4737e5f1495322b1",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s3c",
+        "block": 1,
+        "characters": 183,
+        "sha256": "ebc6240a02c899b04cd061294f3f1d18e7a2b92c2a90786e78498f6688de3e74",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 1,
+        "characters": 13,
+        "sha256": "1a11f85f423614ccfb775e0aa32c0b4b1d79f94aa1b4a51b2ca4251dae44dc5b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 2,
+        "characters": 53,
+        "sha256": "0537fae6923c4169b1cf96e511271668a55fa2b411097d127b1e8b5c51e69daa",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 3,
+        "characters": 29,
+        "sha256": "86116495b1ea942c1323be43597110f8d2830bf00ea1545933800f4d28e654f1",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 4,
+        "characters": 23,
+        "sha256": "fbe090ed26c17dda65f3898b5d183c9953f2486645ddc25d37d8faa61feee9f4",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 5,
+        "characters": 18,
+        "sha256": "05b117a461daf55722ebbbdb18c29c9aa1c324ef6a535e6d9837ed40a1cc527c",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 6,
+        "characters": 63,
+        "sha256": "ad30e98c22c337cd365e5eb2877de225a1ee446e25ce6eafa7f8dd8caaf8d611",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 7,
+        "characters": 25,
+        "sha256": "339ba0a6cb9b185066bfa71877368cf64bd3af6e569a574e9aea72cc0e96456e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 8,
+        "characters": 25,
+        "sha256": "86dcde0b668a89a327e9eb7c77cbe832abf100c3c5f644e3e8b423004cc432fa",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 9,
+        "characters": 62,
+        "sha256": "12e468c2287eacd9c3a1e4bbb6a0428e71d0685d47d144e1952f916823f9a444",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5",
+        "block": 10,
+        "characters": 12,
+        "sha256": "8f9aa7d09879bc71ad230b3e9f08569ff7e7958709d8cd9f080641ac7d6f4654",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5a",
+        "block": 1,
+        "characters": 183,
+        "sha256": "f300b38eace18d399c8df981b6911d717952c33a6f4b26ca51790f5c863865cb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5a",
+        "block": 2,
+        "characters": 115,
+        "sha256": "23172ec4e454e354f75b49e65b69f53f489f6e80232621d23407ae1fddff3a0b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 1,
+        "characters": 91,
+        "sha256": "34ead8b0f86e94875f38b4a4946aad19bf4736c82aa9e2d2abc2368e76bf6620",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 2,
+        "characters": 119,
+        "sha256": "0b314900eeb2a60e4b8a8142162621af45e79282e02fd4c066ac2839125722b8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 3,
+        "characters": 44,
+        "sha256": "cbb88d33aac60b636efd9f637ab939b654d3a474f158876c2d44b00ce7da5f6a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 4,
+        "characters": 120,
+        "sha256": "af069a293cb98a4a9ebd42fd78ac9596a1d478a240d14470e4d89ef5640ed4a7",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 5,
+        "characters": 175,
+        "sha256": "d0ed51f91daeee33070e5a7a9d519da92155e9fc2a949786d9ba6691e884cdf7",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 6,
+        "characters": 74,
+        "sha256": "819ab1a4bfe2a75c84b1b3556e2df769132b9c064ea469631efde49d7ca2976c",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 7,
+        "characters": 44,
+        "sha256": "fa75494a12c0b47038bc8349b9e33f986744eb11339056515f9761b1641fe571",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 8,
+        "characters": 68,
+        "sha256": "dce07717fe8cdd2cd7231c4e8aa17bfb683dd20173887da524ea4f46450e88eb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5b",
+        "block": 9,
+        "characters": 74,
+        "sha256": "187357fa18785dca4b259128bb786a748e4e862933f0a642bef2e2c3a77e01e1",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5c",
+        "block": 1,
+        "characters": 52,
+        "sha256": "e9020c49e78e13758a1ba4742e987fbddb571ff78130f9f316f35f7aa0fc784c",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5c",
+        "block": 2,
+        "characters": 186,
+        "sha256": "8b40466eb267af3e6f350cac4d4daf970cd42f4083fa6418dabd81b752dc442b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5c",
+        "block": 3,
+        "characters": 199,
+        "sha256": "c77ed60832668e626fc4c913587077510c3504454fd450a1754fc194cd118e76",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5c",
+        "block": 4,
+        "characters": 286,
+        "sha256": "dcb8a7319d098c69ee148ed8b81991aec6e986fb934c26eaa2db3d3a42103b4e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 1,
+        "characters": 96,
+        "sha256": "69264c17aaf0af9e14026667f22c8b54a09b5b59ffe43457010cbf6afaa36e75",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 2,
+        "characters": 118,
+        "sha256": "1993077e06e6b58ccf2ebe310a1fc1d7eb8517dfadf2a4be8a0435c1cd65caf3",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 3,
+        "characters": 144,
+        "sha256": "a59c82b26cfcb7d9b96147b6b48a57b110eae023cdac64ef7aac3279af67264b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 4,
+        "characters": 402,
+        "sha256": "94c9cfb53b7e89a014687aa5d52b2a53818447d6df1695ee9c263609388763ee",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 5,
+        "characters": 178,
+        "sha256": "860ab3638d7832b493c5983cb5d05426dcb552bb8a500e61e7707fe181fcdcaa",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 6,
+        "characters": 135,
+        "sha256": "2ea8591c07a2731fcc06849e25df0682a0ea1ba813cd8ead0e9b18e90df8659a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 7,
+        "characters": 87,
+        "sha256": "d059f2d2d39f962f539c692501450dfa8e786e7fbe3d577ca57c9b44d0dc9939",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 8,
+        "characters": 132,
+        "sha256": "ce8aa35f7b2866bc97e198c5db6831271ab44f33f589eadaec637e4df4ede4e0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5d",
+        "block": 9,
+        "characters": 216,
+        "sha256": "239a25cc8f90d32ff5089a18642d9e13951d3b4dd5a57bbc3e36f3fec46e3aae",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5e",
+        "block": 1,
+        "characters": 178,
+        "sha256": "c1243faa9a38d89548b5e5771dea73b282ae62bc42d0b57a93a290cf2e8c67dd",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5f",
+        "block": 1,
+        "characters": 208,
+        "sha256": "4b1d4b62b0e26937793fb5bb76b90d73fee67eacaa693465aa7aa07bfd1079d3",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5f",
+        "block": 2,
+        "characters": 80,
+        "sha256": "6e9a440f6c8a6ee9d12cf8bab7a617bb384e5477ffebc3a4632f416aef220e20",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5f",
+        "block": 3,
+        "characters": 111,
+        "sha256": "7f91aeb2768e831a225eeb4433345ba38b24debce9ed6e604c720cad50700eb0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5f",
+        "block": 4,
+        "characters": 171,
+        "sha256": "1a177c6ccb13b843c84e065336c20111b689003bd4d36c49ea13872d5b5ac8cd",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5g",
+        "block": 1,
+        "characters": 267,
+        "sha256": "6723d3c840f7d62911aed6e836b2f7ca5e7787be41776f958b6b92759084543b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5g",
+        "block": 2,
+        "characters": 224,
+        "sha256": "d91a867793fa18bafbd91ec635b32659fbdde11928103a8d141e9d46f89bb446",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5h",
+        "block": 1,
+        "characters": 139,
+        "sha256": "e295513d4d24c3f1e5d23d85372408dc2758b3d4d0f97c820907b73824a8ebfb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5h",
+        "block": 2,
+        "characters": 35,
+        "sha256": "7912e053ab0e41c3c5f55fd22d701e7c4e160a3b6ea7f0bdf18d2e3902d65578",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5h",
+        "block": 3,
+        "characters": 105,
+        "sha256": "7cf4ff7cc07a77d233899e78e2044cae808a02090711e7af518f49277a73c4d9",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5h",
+        "block": 4,
+        "characters": 89,
+        "sha256": "812358d2d69d98d49be8361d0978460c520a425a5c99160ad9a4b14056b938f8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5h",
+        "block": 5,
+        "characters": 187,
+        "sha256": "872fd2c7e260803be07c2c9b3f837605b7beb6753507f48f0780abaab93033bb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5h",
+        "block": 6,
+        "characters": 139,
+        "sha256": "41b8b82cff53456a1ebefea21dff9fb2c9a5b371f9f600b85932aa8f165aa344",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5i",
+        "block": 1,
+        "characters": 136,
+        "sha256": "1e8ac79261243b7fb9dca87ab3f639ae9fe3e226b0848b0336aaf378d3c2002f",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5i",
+        "block": 2,
+        "characters": 126,
+        "sha256": "58f3f00583dc6bc365b660e3aaffd4cb3bc3afd462c6e672794919d60f98ded6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5i",
+        "block": 3,
+        "characters": 103,
+        "sha256": "3ea09328a71f9e383e58eb10b1bf0a043043db150dc05178d6934692180a79b4",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 1,
+        "characters": 17,
+        "sha256": "eb35c53105f569932c510104b0fed6223dadb2a2675e8cbc4122fab15a68fdb9",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 2,
+        "characters": 112,
+        "sha256": "7defa2bd6f5fee1d92bd1386f8002b871549e5be49aed996635f4f5e118c515f",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 3,
+        "characters": 58,
+        "sha256": "2821170e961d759deef5560a66d97518b555579fb39b34c80e70c02e2fb482ba",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 4,
+        "characters": 31,
+        "sha256": "2d4b4b75d85ce49d442f4722acad8ea1318882bd841de3a88094188fc3b5d834",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 5,
+        "characters": 70,
+        "sha256": "186e408c11d29c266efa119760eae0d8f323151696a5910a97cc3ad0b56e5bd6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 6,
+        "characters": 80,
+        "sha256": "71dd04aad5c68ab9e4b977f862d85aa5683bb7d89a0c7e863f019508beefb04b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5k",
+        "block": 7,
+        "characters": 216,
+        "sha256": "373d339120816ad5fa8cd1ea3145fbb33cd137dc8b803ee3272c7d9b1d611ad5",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5l",
+        "block": 1,
+        "characters": 171,
+        "sha256": "11ecc002737961dfb5741ec7c252c8588628cd8788aa6f8422eb3ada56a60b42",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5l",
+        "block": 2,
+        "characters": 65,
+        "sha256": "513edb2e50ee8ffd1c1fffc8fc0658c5bcbdb78ccfccf89cacace48b0d815319",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5l",
+        "block": 3,
+        "characters": 76,
+        "sha256": "42cb89d6ed51e0b66d3a8b31a0ef3ff7908987862f834314241d9201fd2b6dc2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 1,
+        "characters": 251,
+        "sha256": "8c4594ca972fcc953cbe2ed6ae9757d7f414a48b6006bf2782605dc2d6e15329",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 2,
+        "characters": 112,
+        "sha256": "d77a44da2f6eb6a96ba5ca0e67285323e2c9cb5b3bbd0cd7ec36a093827a2ea6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 3,
+        "characters": 232,
+        "sha256": "2b50b7b845c5d8a499781969cd4cd1ed32c7de334a59f674467e5715d2e8e4f7",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 4,
+        "characters": 198,
+        "sha256": "e5b2e47f6376381a2791625b166f37d050f8fa5e105709ee610198317ba70e69",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 5,
+        "characters": 438,
+        "sha256": "c85d7a464bb848ed1fe8b6218976916b0013f101cf748edc943de87e5ac428a2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 6,
+        "characters": 101,
+        "sha256": "8ea5f075377ddbb56ce5ace4b755d0639350578ad3c95e16c66c5546a2b5436a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 7,
+        "characters": 233,
+        "sha256": "00d173509744c2535448d0a20129724689c346e71326a84aa29a687878ce9715",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 8,
+        "characters": 212,
+        "sha256": "0692ef2a5004abb287138eb53aecda63677ab38a330daa74bd094bcf436f6c5f",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 9,
+        "characters": 328,
+        "sha256": "d5ddff25e915fc153a74ee0479d4deea5add000866bce583dc0443786392d774",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 10,
+        "characters": 211,
+        "sha256": "e4f1c2a00f7a4bc62248d5502f942447162ecf3858f76b21dd37b1d1d4e9f117",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 11,
+        "characters": 90,
+        "sha256": "7d8995eeab9f5d92ee9abccb101638b1faeaa7e6509f88d49a444b2ddf16e2fd",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 12,
+        "characters": 58,
+        "sha256": "b1a5032079f0c8c0d185052d21bcd31da68a83762720d73caa6acb1592368907",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 13,
+        "characters": 83,
+        "sha256": "552f27f6fe12c493be3bb7e8052ade7968894cc07f539190d3aa78413c3efff8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 14,
+        "characters": 76,
+        "sha256": "90aae0e7bc7f3f27b62c23493ff5f484d369f2034c18ebaad3e1f85c3d314d24",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 15,
+        "characters": 191,
+        "sha256": "3487eb29b7d2e7f95d8384325229bb5ca1f6972626b3586170605a8110eb0092",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 16,
+        "characters": 158,
+        "sha256": "1c91e3016be1599ba164a3d279017eacf38dcd5d3d2542dab0ad7d1c9d158297",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 17,
+        "characters": 21,
+        "sha256": "ff684e5e370ea6663d9b42487c719be9c0cd67d86b5d3e555db94f3fe3165218",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 18,
+        "characters": 167,
+        "sha256": "5145e7dedc025fee6a085f2cd125cab1a928a13ca6cf321375de690f4549d57d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5m",
+        "block": 19,
+        "characters": 145,
+        "sha256": "6bc24f8866704f197ef974b7c4a25a26820b9e7d72971f8da29365a201cc0ec9",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5o",
+        "block": 1,
+        "characters": 366,
+        "sha256": "027b8b613c62cda39c76dda8145840fd4a5e17b7d5259e18031fe6ce375a18e1",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5o",
+        "block": 2,
+        "characters": 150,
+        "sha256": "1e4768fe7ded1f3189c0635a0ffa9b2cc61921da0afde43198a21c39e41aaed6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5o",
+        "block": 3,
+        "characters": 231,
+        "sha256": "85a4f12b31e8b95abdf4d7281e63a00ad32af0b13cbf0190d8629d3e5f63f735",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5o",
+        "block": 4,
+        "characters": 108,
+        "sha256": "5021ccdfb216a9901115928ad1f56dc0751eae547e185bccb5a05c408a9489e1",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5p",
+        "block": 1,
+        "characters": 278,
+        "sha256": "2527c9893953aa50a6014a7435eb2158197e2f624f98b7f28893fa96e3ee5969",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5q",
+        "block": 1,
+        "characters": 446,
+        "sha256": "46a01fada8b4fc1b35887c9672d1771ad8652e253ab8c8fdcc4256c88d84cc5a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5q",
+        "block": 2,
+        "characters": 143,
+        "sha256": "456c478839345a0fbf9100ce8b808e5055b6c758be41909b0148d028e5b72f81",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5r",
+        "block": 1,
+        "characters": 165,
+        "sha256": "c160ef8f3b4fa1ab3dae36e12c1ab3a6fdfdba9b606437547dc2631752184a01",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5r",
+        "block": 2,
+        "characters": 91,
+        "sha256": "c72c5632258c6d6dc43b83c8d05e44dfd3a162d173ba7898d6138a9ad00a88c2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5r",
+        "block": 3,
+        "characters": 21,
+        "sha256": "ce8f83ecd1dcf5c53a069e9de14ae697732165870e2fcd9954117f4f32dc5541",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5r",
+        "block": 4,
+        "characters": 146,
+        "sha256": "13c1ca48e92864e9a4d869ddfee2d189f548b7cdcfc9c0cffe6c32d9343fefdf",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5r",
+        "block": 5,
+        "characters": 122,
+        "sha256": "9636251b74407c1eef464e5203e3706323d096014190c7f799f3d8edb5f25ade",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s5s",
+        "block": 1,
+        "characters": 239,
+        "sha256": "4799bdc9066db543949b6932b3a5935d25ff461081c03242be0ecc2c1750c411",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 1,
+        "characters": 21,
+        "sha256": "a4e8c25a822907c7563e68d218a324f588f8ea0a56e92e1af1e699242d55c066",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 2,
+        "characters": 108,
+        "sha256": "19cd0c2d0685c0eb439b0fb76f05080bbd64499eb74122aea9e803770ea6988c",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 3,
+        "characters": 226,
+        "sha256": "a5a1e112b35ede4e97c74a0c82ac98641106b35f083c3f7c2bfa7c57d6575c07",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 4,
+        "characters": 57,
+        "sha256": "2fd18e68fd5e48234d06d10547ff1af1839c3f3739242511a047203532e3c94a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 5,
+        "characters": 147,
+        "sha256": "5617d5b9b84b568d2ce80676d0ea4f6445c58e3df6eb18dd1ddb14c1d092edd8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 6,
+        "characters": 167,
+        "sha256": "44ad5898691fa85b9521004d699aa3b9ed02c5f8dbe261b72376d95d538e34d3",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 7,
+        "characters": 164,
+        "sha256": "1f73c5febbf1b41f79ab8213e49854679270cee82f05cd040be1438b6cb6e2d7",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 8,
+        "characters": 20,
+        "sha256": "c6e2979b71152436e1bea5ae33a55bccfa503aee031bf8d9500727d01985cfd2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6g",
+        "block": 9,
+        "characters": 282,
+        "sha256": "3db67fb83bfc7ef4ed92c93acda72d8c841e8c3e5d58b81991b153759faa8dec",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 1,
+        "characters": 128,
+        "sha256": "05bb3216e8903c9b4eb864014113ca6c515a038c363b5016e9d2e3cc8f456bc0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 2,
+        "characters": 206,
+        "sha256": "1d49c9315c5ee7fd556bfc4e2d89acf5098f39f64bc913e78cbf35e360c66e79",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 3,
+        "characters": 107,
+        "sha256": "b266b53a25b05a59953375b7cf37e1338502e27fcd7502a25c141ca8c6a8f1b6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 4,
+        "characters": 347,
+        "sha256": "5dfe35b621d0c261f8e5476a4a51bb4974392519cfd687ced59e4a55c68c8f36",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 5,
+        "characters": 52,
+        "sha256": "3e12b1329041e1f9917c909ab313d99f6504cf6b0829d9e455907d5ef71c878a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 6,
+        "characters": 32,
+        "sha256": "977c28432bf4b0624f12e1f1284070e5ec54327028d0cef5586e0bb99da172a2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 7,
+        "characters": 56,
+        "sha256": "51a156ea0f45e8b4701f70e9ade5c2a04d7585e4eee29f6690c7ab5014438f30",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 8,
+        "characters": 126,
+        "sha256": "1c908d57144e080e256fcc78f51c4f333acd12b4f426ba3de5ff4849b4856e0d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 9,
+        "characters": 20,
+        "sha256": "5800e4536cfcfae67a7b90fa332e4acdd8a39fdb4cb17ca9e9ec4256549e4020",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s6h",
+        "block": 10,
+        "characters": 163,
+        "sha256": "8143a69b6b26ce01f16a2c0bcde27d0465033a524e88f5e498cab7985f7f8651",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 1,
+        "characters": 13,
+        "sha256": "1a11f85f423614ccfb775e0aa32c0b4b1d79f94aa1b4a51b2ca4251dae44dc5b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 2,
+        "characters": 105,
+        "sha256": "f3630028acc115748afd6afd2c971d7ecddebf76e7a08c94ceba4f68b5cb5ecb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 3,
+        "characters": 60,
+        "sha256": "1a8b154f981e90fc17106e6a592cfb69e626e980d335aa30a3b75b84720bd9dc",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 4,
+        "characters": 63,
+        "sha256": "ad30e98c22c337cd365e5eb2877de225a1ee446e25ce6eafa7f8dd8caaf8d611",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 5,
+        "characters": 25,
+        "sha256": "339ba0a6cb9b185066bfa71877368cf64bd3af6e569a574e9aea72cc0e96456e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 6,
+        "characters": 25,
+        "sha256": "86dcde0b668a89a327e9eb7c77cbe832abf100c3c5f644e3e8b423004cc432fa",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 7,
+        "characters": 62,
+        "sha256": "12e468c2287eacd9c3a1e4bbb6a0428e71d0685d47d144e1952f916823f9a444",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 8,
+        "characters": 12,
+        "sha256": "8f9aa7d09879bc71ad230b3e9f08569ff7e7958709d8cd9f080641ac7d6f4654",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s27",
+        "block": 9,
+        "characters": 72,
+        "sha256": "580ae3ebbf4d0b9a275c2882394841a1d7eeaf8776d9f3b54e4b319199954d48",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s29",
+        "block": 1,
+        "characters": 178,
+        "sha256": "aa4f9892e92a4c25ac43964edd4ab47214881cb172573de8f7a3187858eaa9d6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 1,
+        "characters": 310,
+        "sha256": "79baecec8d3900ff66c0bd9518987b146e16dd7891da3246c46b517c94c4da46",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 2,
+        "characters": 81,
+        "sha256": "96191944dd443b0d8dcef7166c352dce3b3ebb16493e9eccba33bb8f1918f614",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 3,
+        "characters": 109,
+        "sha256": "f40371b57038d12202c6152a28ebb61cd225c3bfad8fd8a775ec329593fced64",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 4,
+        "characters": 69,
+        "sha256": "61bd85547deeb0647861021c308ff1e330da0bf446acdcdcef82443023a6aad5",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 5,
+        "characters": 277,
+        "sha256": "af68b5633d95c0607d703572ce4e66d99b123dc1bf5cbd422097461d9c516ca6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 6,
+        "characters": 270,
+        "sha256": "a27741c1e9b24b21980fd19f4562b0b6c53527acd682fe74ac737e258cd45b09",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 7,
+        "characters": 20,
+        "sha256": "c6e2979b71152436e1bea5ae33a55bccfa503aee031bf8d9500727d01985cfd2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 8,
+        "characters": 50,
+        "sha256": "8a71417e796f7d6d6c64fb9bf6234d026da0bc09bbbbe574fcc4e421c4ca83f9",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 9,
+        "characters": 95,
+        "sha256": "da8928ec7ab453cb58fb4e7187a44e13e829a68a29d25ecef87ad6867d56b3b8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 10,
+        "characters": 48,
+        "sha256": "38b937bb1dd1d5520d8e4655565626615ad7ef5aa19a457e0f1ef557838eae3d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 11,
+        "characters": 124,
+        "sha256": "aeeef33d92b198885eaaceb3959e429cf461558a2fbec75a1a735266a2f5b434",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 12,
+        "characters": 109,
+        "sha256": "e7de344621fcf5b56a5559fb4a407a5e6568a4b41f884af9bc580f627f67c15b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 13,
+        "characters": 29,
+        "sha256": "7b10cd9aba751edeb83758c8166b8553ad424de4294c25d3cb5272590175a8c0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 14,
+        "characters": 116,
+        "sha256": "afe352edced4b99df8737205ed5d5c5c170eb07381cc6c4052e8b857ec0a08eb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 15,
+        "characters": 28,
+        "sha256": "cddf0a2790cb9f0558a83d0c1c70311e913cedfe0da9c6244cd558198445d5b0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s30",
+        "block": 16,
+        "characters": 123,
+        "sha256": "31ebee8608a657a72068b4d13cba5bbdef78d7fa933873b2bb0c49483ae163e3",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s31",
+        "block": 1,
+        "characters": 145,
+        "sha256": "cb0f81c6dd15ef807622c45cde2d1ba311bce3778cb3b7946cfa2b7ec6f8f326",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 1,
+        "characters": 348,
+        "sha256": "69d6321d89fdf7eafa35ff42832adfff6e9d59d13b9faa2eb533555c45cc526a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 2,
+        "characters": 144,
+        "sha256": "b02ba518a8d32d33f3ab48f10cc3f51188b7bec91e1425cbe659f34755921343",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 3,
+        "characters": 85,
+        "sha256": "ae94a879cb1d6520e6953596917d05d258eb3c57c71cfe508895ed5fa0ea6e11",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 4,
+        "characters": 112,
+        "sha256": "6b95b0f2846984093454e5c244da49bbe09b253ad7ebc46fada973976d31593b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 5,
+        "characters": 118,
+        "sha256": "03942097cdda4b80f8171ce8a8dd48a24e66c0a8ee12618e877d3b5522a1cde2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 6,
+        "characters": 111,
+        "sha256": "2ee1e9bc8326c4c3abcdd716e94c525ab454d10924d4b14cf26f32c75c0dfaf6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 7,
+        "characters": 189,
+        "sha256": "fbd2962315b8f984d403057a3ba4e00a30ff9a9fc1dd347a48490ed5d79b3c49",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s32",
+        "block": 8,
+        "characters": 145,
+        "sha256": "aad66cc1a7d4b927dd5120fa19c754ca08c647375bfac0737c30e02ff473ec25",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 1,
+        "characters": 69,
+        "sha256": "a1902368b89c06c9961f9629b13473364583249d7188709eaafe910aae03cc5b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 2,
+        "characters": 251,
+        "sha256": "d58af7eae363b72806f540a02b4073ebc77ca1fc69a3ec7f9dd4b67e50a23e89",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 3,
+        "characters": 387,
+        "sha256": "c51dbf12ed0e8fe28078e6ca37581de5d721cfcc4c0299c556a0e7f5b0d84094",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 4,
+        "characters": 267,
+        "sha256": "677233bf72dfaf90a525dfaf19123e0c5757b2aab06e45918d0a1a357a6281b2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 5,
+        "characters": 269,
+        "sha256": "0101500527e71e20ae5ff602623a58a838eff607b7eca2eea8f69f956fd7f14e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 6,
+        "characters": 116,
+        "sha256": "0d164ef5825b9145ac9379c80cd493d56fd76372f58035f50bd2bceacc558a9e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 7,
+        "characters": 231,
+        "sha256": "338c9075d00a644220b00c39c2d759b23a88d9f4e0560d80f25da5171ac6ce16",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 8,
+        "characters": 148,
+        "sha256": "ff3da559982d8e5334e583642d2c7eb3e381de5d0447c4aee0d3119ccd04296f",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s34",
+        "block": 9,
+        "characters": 17,
+        "sha256": "f248e093f7965e84a3abbb443b5d7b27869f9c2e3c4eefa43e14e389c8539594",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 1,
+        "characters": 56,
+        "sha256": "3e817789d81bebfbb1fe68a60e6742c31dbad9a7e23c2fa2b51be27e160dff2e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 2,
+        "characters": 321,
+        "sha256": "4d8f53413e9a50d625c7ef036320f1116e32dd1673f2e1433c78a5caef0c2ff0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 3,
+        "characters": 98,
+        "sha256": "35eb287b447a284f14eb0b2f55730d3fcc37f65f91fec73f364b2fc5bb7717f6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 4,
+        "characters": 110,
+        "sha256": "6534bb541fd0c1c3b668dc588b0d0d646c2d30067fa354415914cf0edfcf01db",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 5,
+        "characters": 127,
+        "sha256": "f664b44527e7a4c66e259bb35436342905d1469c720cff3f3dbf5a08a54b3d8b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 6,
+        "characters": 153,
+        "sha256": "95c18b80a996443636dfe96837eb52135fc356f39ae911e31c014fe2dfa888b6",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 7,
+        "characters": 73,
+        "sha256": "c4cfe07cdf7a83e46e11470ecd4bf34c5998e697feaa29cbda87cf89c61e700d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 8,
+        "characters": 170,
+        "sha256": "c8084ac5650e0b35a34ae8b6f1d211a4eca4fb58b6b6a1862d05663f01f79bbe",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 9,
+        "characters": 144,
+        "sha256": "5ac89fdf2f9f8ec5bbfc8071081fa97a4a722a2e9a08cc40735062a2c2ec3c3b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 10,
+        "characters": 149,
+        "sha256": "bb085b282077ce5b3289028b98b0caa2e88eb9bb7d8d2a6d0b15330a15e3e85d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s35",
+        "block": 11,
+        "characters": 233,
+        "sha256": "67eb9cb7ddad8aaa237a08ff8e53f6ac44853afe917f4f45b40766e3c13b77a0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 1,
+        "characters": 13,
+        "sha256": "1a11f85f423614ccfb775e0aa32c0b4b1d79f94aa1b4a51b2ca4251dae44dc5b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 2,
+        "characters": 44,
+        "sha256": "488d0414de323accddff05164a7bb5b989a9dfbe1e3f254789c8d6d6326ce5b5",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 3,
+        "characters": 45,
+        "sha256": "1d1455df86e0b91080efd771f2d28343a88a311a6b7259f19c6f971fe92bef50",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 4,
+        "characters": 32,
+        "sha256": "367375bbf6097de6bd1b7b84c56c45d58aa667e6bee01816224ab6b6b0326417",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 5,
+        "characters": 72,
+        "sha256": "6565b214dbae0cb524e6d782ca97b6333413eaf2dfba38a6c1c2e9a79dbfc66d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 6,
+        "characters": 31,
+        "sha256": "3cb5883766146e39e2618ee0dd0dbee9e40591a34a07b076d0344fc88919ec34",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 7,
+        "characters": 87,
+        "sha256": "33246b605c7654524359cc08986dbaa9c94100efb5a0e69fa27fa1824a868a01",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 8,
+        "characters": 23,
+        "sha256": "c10bcb0aa99f427cf617eb398a213ff8c18138a98b0fbba10ce44a89152a85eb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 9,
+        "characters": 68,
+        "sha256": "dfca6c1e033a240dca6baa60f344c908b410a4263c7aa338c04f542aac901615",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 10,
+        "characters": 227,
+        "sha256": "c91a12bce96f2381880405df48da9dbc879dfa6a730389e0281f01d89fed1f6e",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 11,
+        "characters": 171,
+        "sha256": "3cf6c3c793d92f84a63a0ed4fb72afd5713bdb8b04692a19d2f8d962a501a316",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s41",
+        "block": 12,
+        "characters": 154,
+        "sha256": "47464150863fdf90557a9ac51f95b0f2ac0694e274f9a08f3ac7162ed0e655f4",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s42",
+        "block": 1,
+        "characters": 194,
+        "sha256": "4cf910b01408bd761cd3befbb1fc00126b91561a5a5685f321150c57e369f6f2",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s42",
+        "block": 2,
+        "characters": 210,
+        "sha256": "f3ddd9cd36c3f8d5f655e8eaf97ca4a8dbf3842011b409c2af0393c97e558ea5",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s42",
+        "block": 3,
+        "characters": 88,
+        "sha256": "e462bc419a246022e1ae761b57be64bd985d28884bfd5bd5383173d66fc2517b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s42",
+        "block": 4,
+        "characters": 215,
+        "sha256": "383023795f80641c5b0267c0f50466382ec046a0bc65b11a403bb5d484362b7c",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s42",
+        "block": 5,
+        "characters": 250,
+        "sha256": "b10b9dd9054c75aa8a14262202572cea6a9479804578f14748fa22a5f92cebaa",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43",
+        "block": 1,
+        "characters": 292,
+        "sha256": "ad7f68e6ba52e2120a9a21f69c03cbfd7bec8e807f109e7d602fccced4271eea",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43",
+        "block": 2,
+        "characters": 370,
+        "sha256": "4ff449580761d2b05ab647e8816f3772de03442e4741359cbd9f6d0a7b81e685",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43",
+        "block": 3,
+        "characters": 149,
+        "sha256": "b6586ada1d3af32d27673cebd11c42f304b343f61a16911d86649d602a9cee9a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43a",
+        "block": 1,
+        "characters": 260,
+        "sha256": "f00a5745ecab6cc1b436581b58e4443582b302ac14b8a2dfa79bac84e946d0ee",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43a",
+        "block": 2,
+        "characters": 41,
+        "sha256": "761f79ef6b689160740db65a2340070051e8d37f5535bbc86729e42f75c19602",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43a",
+        "block": 3,
+        "characters": 53,
+        "sha256": "e0c2094d7bc1f04c88cbb6ebbde10f1a8cef319fbf1bebec1987c735b94fc269",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43a",
+        "block": 4,
+        "characters": 127,
+        "sha256": "f3829fa3c4d42f6698ef02f9541069a42204e4c7d6f49c051d1437dab037f82b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43a",
+        "block": 5,
+        "characters": 439,
+        "sha256": "0daf686e0b443754ba68d0a9a76baa3307784228da457d5fa2397f2e40d1ceab",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s43a",
+        "block": 6,
+        "characters": 164,
+        "sha256": "3aafa40eb55e966d2840019d63494ba4c6c4c0dd770cd74d578136965c5a8a78",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s44",
+        "block": 1,
+        "characters": 416,
+        "sha256": "9858f15fed7d5cae8907ec6e6f934b26f543fe069a1bf0c64af26aa7990b7c45",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s44",
+        "block": 2,
+        "characters": 330,
+        "sha256": "0c8a50ad01c4d98be4912b617c3c6cd03189dca69723e8a2e2e646802c820fe9",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 1,
+        "characters": 97,
+        "sha256": "d66bdb91c497e8e238f1d07d33ab932e58f43aa7817c9118b51db031d1bd0889",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 2,
+        "characters": 282,
+        "sha256": "ea4bd39bcc2885a74a2940ee83a284c5ca22ae3e9ab0a150461c08c142c4b1b8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 3,
+        "characters": 34,
+        "sha256": "58a1ca472f25bf4cd3492c2adf21e3d7f1e6065f5cc7cbbe9efad4a2c70e0b45",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 4,
+        "characters": 133,
+        "sha256": "b1efc9857033d50fe02d93349e60ee8f138d55bd1dcd74164d3387383de6e389",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 5,
+        "characters": 105,
+        "sha256": "6d2f16e4198fb56623c5ac74b67e9c4671d3b3137234d560ad50af1e7fd45335",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 6,
+        "characters": 20,
+        "sha256": "16eef2f69dd737fb88f1b739f7f151048e19b96f7fe91474773661eea57bcaee",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 7,
+        "characters": 237,
+        "sha256": "c61448fb5ee20e74ef2c77aae34fc5ea74678fde1801d87cd0ac636f99616352",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s45",
+        "block": 8,
+        "characters": 67,
+        "sha256": "da197096ffc44e09b6961b4ac4174f5eda4f4d720c3028fd7f927181de587fe8",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s46",
+        "block": 1,
+        "characters": 309,
+        "sha256": "c2ccf6c329ad252afb586f55ec1f1bb2feec30f2416017a4820d478f05611984",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s50",
+        "block": 1,
+        "characters": 347,
+        "sha256": "57d3eadf1f23e35cee63862ed8f6157cd31f8fc03805d7cb83870486d0c69d8c",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s50",
+        "block": 2,
+        "characters": 273,
+        "sha256": "66569fa5faf3becc6808335c5e7be52d9846976c1ac50e2953e00b95a11b560f",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s50",
+        "block": 3,
+        "characters": 409,
+        "sha256": "b443a0c87257fa721d76a9904f08e7c2d4e3fd1dd7f1810a662795aaccc29f66",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s50",
+        "block": 4,
+        "characters": 378,
+        "sha256": "747a7b8cb22530c666d82c7ad16dcbc4c0b82e5b3549a616af261207e5b5ecf9",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s50",
+        "block": 5,
+        "characters": 118,
+        "sha256": "690e502cf4d0424f38c4ccb280e09fec1cd3ea654a8220f570a844a06c8bc3d4",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 1,
+        "characters": 122,
+        "sha256": "dee32857cb682437fde51681a4d46487bd1eb19bb6d68226522aad865aa37c83",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 2,
+        "characters": 254,
+        "sha256": "98af2ec0fe455aca30391ebf23d39dfcdef5ecddcbd3121f8fbda1e0d16e806f",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 3,
+        "characters": 127,
+        "sha256": "30c2d17ae65e66cc0a6ef0abfdffd213f3a0f9647136d999a9f5c7c8e8e55577",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 4,
+        "characters": 223,
+        "sha256": "fca8e9a29fdf8a1b27204a6075adec84b5732dc4a91b3be05ecf981b7db57f1d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 5,
+        "characters": 84,
+        "sha256": "5511299d261c75736b4247cf27f29b73930da24b9aeadb590a101b68fdd53d4b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 6,
+        "characters": 90,
+        "sha256": "05734d3727d0d43d43221176cf790240ae75644826db8d1d6ae9d9512845d76a",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s54",
+        "block": 7,
+        "characters": 205,
+        "sha256": "82ab54e8b1db3f679ae17a881001578dd4edd7b39a851221ac5b1bda980c3626",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s55",
+        "block": 1,
+        "characters": 53,
+        "sha256": "81866ec0804b5e33066854ef0c7bac0387ac3895eebdffad48de8b791861a7fe",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s55",
+        "block": 2,
+        "characters": 115,
+        "sha256": "23172ec4e454e354f75b49e65b69f53f489f6e80232621d23407ae1fddff3a0b",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s56",
+        "block": 1,
+        "characters": 221,
+        "sha256": "450555bd0cbb9dd652a7541134634c73135805c4e92571ab7a95e393a78711ed",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s57",
+        "block": 1,
+        "characters": 236,
+        "sha256": "f13069d13a86d975ee25df0093f3e9210a2e82c59d1b48d16f21faaa06c707af",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s57",
+        "block": 2,
+        "characters": 129,
+        "sha256": "89d2bdf15dc2c39a39aed52ff5eafc13695ce488d2062f5c8528e0d311c38f60",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s58",
+        "block": 1,
+        "characters": 288,
+        "sha256": "c553a87467e8220202d6b68f62101c58ffe34909ca56cb9d4d07dac1bece0ba0",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s58",
+        "block": 2,
+        "characters": 121,
+        "sha256": "edf7b814508246aad7f32c575fe48da75afe92925d161dd0910744619e20368d",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s58",
+        "block": 3,
+        "characters": 287,
+        "sha256": "ea957ada585bbf1d7be66342edf006d0148f340057a0f9de9a30e994c1154e77",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s58",
+        "block": 4,
+        "characters": 121,
+        "sha256": "72f076c202b794ffe3c1a4342a8f29debac4e848a38f42dded6c9f9ce1db50bb",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      },
+      {
+        "ref": "civil-liability-act-2002-nsw-s58",
+        "block": 5,
+        "characters": 371,
+        "sha256": "1646d59b4ee43a03151dfae9965a8c11f7f567a88a2d670b78f9c16507a16ddf",
+        "matchesSuppliedPdfIgnoringWhitespace": true
+      }
+    ]
+  },
+  "teachingRecords": {
+    "caseEntriesChecked": 77,
+    "changedRefs": []
+  },
+  "rogersCorrection": {
+    "ref": "rogers-v-whitaker",
+    "source": "https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/19.pdf",
+    "pinpoint": "Wallace v Kam [2013] HCA 19 [8], citing Rogers v Whitaker (1992) 175 CLR 479 at 490",
+    "change": "Added both material-risk limbs, the s 5P/s 5O distinction and a separate causation/scope reminder; retained teaching-source status and original teachingRecords.",
+    "s5PTextChecked": true
+  },
+  "caseVerificationCounts": {
+    "primary-verified": 41,
+    "teaching-source": 35,
+    "unresolved": 1
+  },
+  "knownLimits": [
+    "This audit checks inclusion and fidelity of the supplied list and included statutory text, not every legal proposition in every study explanation.",
+    "Matching included text blocks does not prove every required statutory block was included.",
+    "The supplied statute compilation is a course-source version, not a claim that later amendments were checked.",
+    "Rogers original complete factual record was not independently audited; correction uses an official later High Court explanation.",
+    "Stephenson remains unresolved, and Peterkin complete facts and outcome remain unverified."
+  ],
+  "failures": []
+}

@@ -1,0 +1,14 @@
+---
+import {sourceIndex,sourceHref,sourceWeek} from '../../lib/source-corpus';
+interface Props {unit?:string;week?:number;query?:string;heading?:string}
+const {unit,week,query,heading='Full teaching sources'}=Astro.props;
+const sources=sourceIndex().files.filter(s=>(!unit||s.unit===unit)&&(week===undefined||sourceWeek(s)===week));
+const search=new URLSearchParams();if(unit)search.set('unit',unit);if(week!==undefined)search.set('week',String(week));if(query){search.set('q',query);search.set('scope','text');}
+---
+<section class="source-evidence" aria-label={heading}>
+ <h2>{heading}</h2>
+ {query?<p>Search retained teaching text for <i>{query}</i>. A matching reference does not independently verify a case summary.</p>:<p>Open the full slides, speaker notes, readings and transcripts associated with this week. Extraction qualifications remain separate from the study explanations.</p>}
+ <p><a href={`/sources/?${search.toString()}`}>{query?'Find mentions in original sources':'Browse all sources for this week'}</a></p>
+ {!query&&sources.length>0&&<details><summary>{sources.length} source files for this week</summary><ul>{sources.map(s=><li><a href={sourceHref(s.id)}>{s.title}</a>{s.warnings.length>0&&<span class="source-evidence__flag"> · extraction qualifications</span>}</li>)}</ul></details>}
+</section>
+<style>.source-evidence{margin-block:48px;padding-block:24px;border-top:1px solid var(--line)}.source-evidence h2{margin-top:0}.source-evidence ul{padding-left:24px}.source-evidence li{padding-block:8px;overflow-wrap:anywhere}.source-evidence__flag{font:var(--t-sm)/1.4 var(--font-ui);color:var(--ink-2)}</style>

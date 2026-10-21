@@ -1,7 +1,7 @@
 // Cloudflare Worker (Workers Builds) serving the static build. Build command: npm run build (outputs ./dist).
 // No Worker script: every request is answered from the assets in ./dist; unknown paths get dist/404.html.
 {
-  "name": "chatgpt-study-site",
+  "name": "chatgpt-studysite",
   "compatibility_date": "2026-09-20",
   "assets": {
     "directory": "./dist",
