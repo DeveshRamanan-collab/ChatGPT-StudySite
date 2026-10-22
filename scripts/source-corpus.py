@@ -19,7 +19,7 @@ import time
 import zipfile
 import xml.etree.ElementTree as ET
 
-VERSION = '2026-10-21-restored-v1'
+VERSION = '2026-10-22-checked-ocr-v2'
 NS = {'a':'http://schemas.openxmlformats.org/drawingml/2006/main',
       'p':'http://schemas.openxmlformats.org/presentationml/2006/main',
       'r':'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
@@ -105,7 +105,7 @@ def ocr_bytes(data,cache):
     if dest.exists():
         try:
             previous=json.loads(dest.read_text())
-            if previous.get('status')!='ocr-error':return previous
+            if previous.get('status')!='ocr-error' and previous.get('processExitCode')==0:return previous
         except (ValueError,OSError):pass
     try:
         if b'<svg' in data[:1000]:
@@ -118,6 +118,8 @@ def ocr_bytes(data,cache):
         with tempfile.TemporaryDirectory(prefix='source-ocr-') as td:
             p=Path(td)/'input.png';im.save(p)
             run=subprocess.run(['tesseract',str(p),'stdout','-l','eng','--psm','11','tsv'],capture_output=True,text=True,timeout=60,env={**os.environ,'OMP_THREAD_LIMIT':'1'})
+            if run.returncode!=0:
+                raise RuntimeError(f'Tesseract exited with code {run.returncode}: {run.stderr[-1000:].strip()}')
             words=[];conf=[];text=[];previous=None
             for row in run.stdout.splitlines()[1:]:
                 values=row.split('\t',11)
@@ -130,7 +132,7 @@ def ocr_bytes(data,cache):
                     if n>=0:conf.append(n)
                 except ValueError:pass
             result={'text':''.join(text),'meanConfidence':round(sum(conf)/len(conf),2) if conf else None,
-              'words':len(words),'status':'machine-ocr-unverified','engine':'tesseract eng psm11'}
+              'words':len(words),'status':'machine-ocr-unverified','engine':'tesseract eng psm11','processExitCode':0}
     except Exception as exc:result={'text':'','status':'ocr-error','error':str(exc),'words':0}
     atomic_json(dest,result);return result
 
@@ -318,7 +320,7 @@ def main():
     for p in [out/'files',out/'images',cache]:p.mkdir(parents=True,exist_ok=True)
     jobs=[]
     for path in (root/'raw').rglob('*'):
-        if path.is_file() and path.suffix.lower() not in MEDIA_EXT:
+        if path.is_file() and path.suffix.lower() not in MEDIA_EXT and not any(part.startswith('.') for part in path.relative_to(root/'raw').parts):
             relative=path.relative_to(root).as_posix();jobs.append({'localPath':str(path),'title':path.name,'path':relative,'url':'https://github.com/DeveshRamanan-collab/ChatGPT-StudySite/blob/main/'+relative,'origin':'repository'})
     inventory=json.loads(Path(args.inventory).read_text()) if args.inventory and Path(args.inventory).exists() else {'files':[]}
     mapping={}

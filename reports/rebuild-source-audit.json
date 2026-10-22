@@ -17,7 +17,11 @@
   "intentionallyModifiedOriginalCode": [
     ".gitignore",
     "README.md",
+    "STATE.md",
     "astro.config.mjs",
+    "package-lock.json",
+    "package.json",
+    "scripts/extract.mjs",
     "src/components/NavSheet.tsx",
     "src/components/SettingsPanel.tsx",
     "src/components/explainers/ExplainerHost.tsx",

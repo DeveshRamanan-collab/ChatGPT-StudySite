@@ -70,6 +70,8 @@ The existing Cloudflare settings can remain:
 Automatic dependency installation and npm lifecycle scripts must be enabled. Do not set
 `SKIP_DEPENDENCY_INSTALL=1` or `ignore-scripts` for this prebuilt route. Cloudflare's normal install
 step restores the tested static files before Wrangler looks for `dist/`.
+Wrangler is pinned in `devDependencies` and the lockfile, so `npx wrangler deploy` uses the checked
+local version after installation.
 
 For a normal source build, use Build command `npm run build`, Deploy command `npx wrangler deploy`.
 Alternatively Deploy command `npm run deploy` builds first. Run `npm run deploy:check` for a build and

@@ -86,6 +86,7 @@ async function* tarStream(root, files) {
   yield Buffer.alloc(BLOCK * 2);
 }
 
+/** @param {{root?:string, output?:string, sourceCommit?:string|null, partBytes?:number}} [options] */
 export async function packRelease({root = ROOT, output = join(root, 'release-assets'), sourceCommit, partBytes = PART_BYTES} = {}) {
   root = resolve(root); output = resolve(output);
   if(!Number.isSafeInteger(partBytes) || partBytes < 512 || partBytes > PART_BYTES) throw new Error('Release part size must be between 512 bytes and 4 MiB');

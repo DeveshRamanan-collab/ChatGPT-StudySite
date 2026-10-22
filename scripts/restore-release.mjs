@@ -2,7 +2,7 @@
 // Uses local files only; archive checks complete before replacing generated dist/.
 import {createHash} from 'node:crypto';
 import {createReadStream, createWriteStream} from 'node:fs';
-import {access, cp, lstat, mkdir, mkdtemp, open, readFile, rename, rm, writeFile} from 'node:fs/promises';
+import {access, cp, lstat, mkdir, mkdtemp, open, readFile, readdir, rename, rm, writeFile} from 'node:fs/promises';
 import {dirname, join, resolve} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {fileURLToPath, pathToFileURL} from 'node:url';
@@ -41,16 +41,27 @@ function validateManifest(m) {
 }
 
 async function validExisting(root, files) {
-  for(const f of files.values()) {
-    const path = join(root, f.path);
-    try {
+  const remaining = new Set(files.keys());
+  async function verifyDirectory(directory, prefix) {
+    const stat = await lstat(directory);
+    if(!stat.isDirectory() || stat.isSymbolicLink()) return false;
+    for(const name of await readdir(directory)) {
+      const path = join(directory, name), key = `${prefix}/${name}`;
       const stat = await lstat(path);
-      if(!stat.isFile() || stat.isSymbolicLink() || stat.size !== f.bytes) return false;
+      if(stat.isSymbolicLink()) return false;
+      if(stat.isDirectory()) {
+        if(!await verifyDirectory(path, key)) return false;
+        continue;
+      }
+      const f = files.get(key);
+      if(!stat.isFile() || !f || stat.size !== f.bytes) return false;
       const hash = createHash('sha256'); for await(const bytes of createReadStream(path)) hash.update(bytes);
       if(hash.digest('hex') !== f.sha256) return false;
-    } catch {return false;}
+      remaining.delete(key);
+    }
+    return true;
   }
-  return true;
+  try {return await verifyDirectory(join(root, 'dist'), 'dist') && remaining.size === 0;} catch {return false;}
 }
 
 class Bytes {

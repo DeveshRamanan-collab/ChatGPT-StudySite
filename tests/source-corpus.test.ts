@@ -43,10 +43,47 @@ describe('PowerPoint source fidelity',()=>{
       'import importlib.util,json,sys,xml.etree.ElementTree as ET',
       'spec=importlib.util.spec_from_file_location("source_corpus_fixture",sys.argv[1])',
       'module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)',
-      'print(json.dumps(module.xml_text(ET.fromstring(sys.argv[2]))))',
+      'sections=[]',
+      'module.add_section(sections,"Repeated hyperlink","s 5B(1)","literal-text","same-target")',
+      'module.add_section(sections,"Repeated hyperlink","s 5B(1)","literal-text","same-target")',
+      'print(json.dumps({"text":module.xml_text(ET.fromstring(sys.argv[2])),"sections":sections}))',
     ].join('\n');
     const xml='<a:root xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:p><a:r><a:t>  s 5B</a:t></a:r><a:tab/><a:r><a:t>(1)</a:t></a:r><a:br/><a:r><a:t>&#x2019; &amp; &lt;x&gt;  </a:t></a:r></a:p><a:p><a:r><a:t>7</a:t></a:r></a:p><a:p/><a:p><a:r><a:t>final.</a:t></a:r></a:p></a:root>';
     const output=execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON || 'python3',['-c',code,join(process.cwd(),'scripts/source-corpus.py'),xml],{encoding:'utf8'});
-    expect(JSON.parse(output)).toBe('  s 5B\t(1)\n’ & <x>  \n7\n\nfinal.');
+    const result=JSON.parse(output);
+    expect(result.text).toBe('  s 5B\t(1)\n’ & <x>  \n7\n\nfinal.');
+    expect(result.sections.map((section:{text:string})=>section.text)).toEqual(['s 5B(1)','s 5B(1)']);
+    expect(new Set(result.sections.map((section:{id:string})=>section.id)).size).toBe(2);
+  });
+  it('rejects failed OCR processes and unchecked old cache entries before reusing verified successful results',()=>{
+    const code=[
+      'import importlib.util,io,json,sys,tempfile',
+      'from pathlib import Path',
+      'from types import SimpleNamespace',
+      'from unittest.mock import patch',
+      'from PIL import Image',
+      'spec=importlib.util.spec_from_file_location("source_corpus_fixture",sys.argv[1])',
+      'module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)',
+      'buffer=io.BytesIO();Image.new("RGB",(100,40),"white").save(buffer,format="PNG");data=buffer.getvalue()',
+      'with tempfile.TemporaryDirectory() as directory:',
+      ' cache=Path(directory);entry=cache/(module.sha(data)+".json")',
+      ' entry.write_text(json.dumps({"status":"machine-ocr-unverified","text":"unchecked old result"}))',
+      ' with patch.object(module.subprocess,"run",return_value=SimpleNamespace(returncode=1,stdout="",stderr="fixture failure")):',
+      '  failed=module.ocr_bytes(data,cache)',
+      ' header="level\\tpage_num\\tblock_num\\tpar_num\\tline_num\\tword_num\\tleft\\ttop\\twidth\\theight\\tconf\\ttext\\n"',
+      ' row="5\\t1\\t1\\t1\\t1\\t1\\t0\\t0\\t10\\t10\\t99\\ts\\n"',
+      ' with patch.object(module.subprocess,"run",return_value=SimpleNamespace(returncode=0,stdout=header+row,stderr="")):',
+      '  successful=module.ocr_bytes(data,cache)',
+      ' with patch.object(module.subprocess,"run",side_effect=RuntimeError("cache should avoid execution")):',
+      '  cached=module.ocr_bytes(data,cache)',
+      ' print(json.dumps({"failed":failed,"successful":successful,"cached":cached}))',
+    ].join('\n');
+    const output=execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON || 'python3',['-c',code,join(process.cwd(),'scripts/source-corpus.py')],{encoding:'utf8'});
+    const result=JSON.parse(output);
+    expect(result.failed.status).toBe('ocr-error');
+    expect(result.failed.error).toContain('Tesseract exited with code 1: fixture failure');
+    expect(result.successful.text).toBe('s');
+    expect(result.successful.processExitCode).toBe(0);
+    expect(result.cached).toEqual(result.successful);
   });
 });

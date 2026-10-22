@@ -1,5 +1,5 @@
 import {describe, expect, it} from 'vitest';
-import {mkdtemp, mkdir, writeFile, readFile, rm, cp} from 'node:fs/promises';
+import {mkdtemp, mkdir, writeFile, readFile, rm, cp, symlink, lstat} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {createHash} from 'node:crypto';
@@ -50,6 +50,34 @@ describe('checked prebuilt release', () => {
       await expect(readFile(join(fresh, 'dist/index.html'))).rejects.toMatchObject({code:'ENOENT'});
     } finally {await rm(root, {recursive:true, force:true});}
   });
+
+  it.each(['stale-file', 'extra-symlink', 'expected-directory-symlink'])(
+    'replaces an otherwise matching build containing %s without changing files outside dist', async kind => {
+      const root = await mkdtemp(join(tmpdir(), 'study-release-stale-'));
+      try {
+        await mkdir(join(root, 'dist/nested'), {recursive:true});
+        await writeFile(join(root, 'dist/index.html'), '<h1>Verified release</h1>');
+        await writeFile(join(root, 'dist/nested/page.txt'), 'exact contents');
+        await packRelease({root, sourceCommit:'fixture'});
+        expect((await restoreRelease({root, log:() => {}})).reason).toBe('already-verified');
+        await mkdir(join(root, 'outside'), {recursive:true});
+        await writeFile(join(root, 'outside/page.txt'), 'exact contents');
+        await mkdir(join(root, 'public/source-corpus'), {recursive:true});
+        await writeFile(join(root, 'public/source-corpus/index.json'), 'preserve local source');
+        if(kind === 'stale-file') await writeFile(join(root, 'dist/stale.txt'), 'unmanifested');
+        else if(kind === 'extra-symlink') await symlink(join(root, 'outside'), join(root, 'dist/stale.txt'), 'dir');
+        else {
+          await rm(join(root, 'dist/nested'), {recursive:true});
+          await symlink(join(root, 'outside'), join(root, 'dist/nested'), 'dir');
+        }
+        expect((await restoreRelease({root, log:() => {}})).restored).toBe(true);
+        await expect(lstat(join(root, 'dist/stale.txt'))).rejects.toMatchObject({code:'ENOENT'});
+        expect((await lstat(join(root, 'dist/nested'))).isSymbolicLink()).toBe(false);
+        expect(await readFile(join(root, 'dist/nested/page.txt'), 'utf8')).toBe('exact contents');
+        expect(await readFile(join(root, 'outside/page.txt'), 'utf8')).toBe('exact contents');
+        expect(await readFile(join(root, 'public/source-corpus/index.json'), 'utf8')).toBe('preserve local source');
+      } finally {await rm(root, {recursive:true, force:true});}
+    });
 
   it('rejects absolute, traversal and ambiguous archive paths', () => {
     for(const path of ['/dist/index.html', 'dist/../outside', 'dist/a/../../outside', 'dist//file', 'dist\\file', 'other/file']) expect(() => safeEntryPath(path)).toThrow();
