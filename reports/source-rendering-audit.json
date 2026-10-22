@@ -1,0 +1,18 @@
+{
+  "method": "Exact Unicode equality after HTML entity decoding, with exactly one text element per source section; no whitespace, case, Unicode or punctuation normalisation",
+  "sourcePages": 775,
+  "checkedSourcePages": 775,
+  "metadataOnlyPages": 21,
+  "checkedSections": 8143,
+  "checkedCharacters": 30513122,
+  "checkedDigits": 585761,
+  "checkedPunctuationCharacters": 1392343,
+  "driveFileAccounting": {
+    "inventoryEntries": 823,
+    "distinctInventoriedIds": 823,
+    "accountedInventoriedIds": 823,
+    "declaredMissingIds": []
+  },
+  "failures": [],
+  "limits": "Checks extracted source JSON to generated HTML and inventory accounting only. It does not certify PDF reading order, extraction completeness, OCR accuracy, audiovisual transcription or the correctness/completeness of legal paraphrases. Metadata-only and declared-missing files remain explicit gaps."
+}

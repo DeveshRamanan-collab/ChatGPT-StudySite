@@ -242,7 +242,7 @@ export default function NavSheet() {
 
           <div className="navsheet__body" ref={scroller} data-drawer-scroll data-lenis-prevent>
             <nav aria-label="Site">
-              <h2 className="navsheet__label">Go straight to</h2><ul className="navsheet__list"><li><a href="/everything/">Everything index · every page</a></li><li><a href="/exams/">Exam command centre</a></li><li><a href="/cases/">Case library</a></li><li><a href="/statutes/">Legislation and treaties</a></li><li><a href="/studio/">Interactive learning studio</a></li></ul><h2 className="navsheet__label">Units and weeks</h2>
+              <h2 className="navsheet__label">Go straight to</h2><ul className="navsheet__list"><li><a href="/everything/">Everything index · every page</a></li><li><a href="/sources/">Source library · original materials</a></li><li><a href="/exams/">Exam command centre</a></li><li><a href="/cases/">Case library</a></li><li><a href="/statutes/">Legislation and treaties</a></li><li><a href="/studio/">Interactive learning studio</a></li></ul><h2 className="navsheet__label">Units and weeks</h2>
               {!units && <p className="navsheet__muted">Loading units…</p>}
               <ul className="navsheet__units">
                 {units?.map((u) => {

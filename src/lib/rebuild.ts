@@ -5,6 +5,7 @@ import yaml from 'js-yaml';
 import { conceptSlug } from './content';
 import {FEATURES} from './study-studio';
 import { parseTitle } from './legal';
+import { sourceHref, sourceIndex, sourceWeek } from './source-corpus';
 import { FIRST_LINE, unique, type LibraryItem, type JumpItem } from './rebuild-types';
 
 const read = (name: string, key: string): any[] => {
@@ -80,5 +81,15 @@ export async function getJumpIndex(): Promise<JumpItem[]> {
   for (const f of flows) out.push({title:f.data.title,href:`/${f.data.unit}/flow/${f.id.replace(`${f.data.unit}-`,'')}/`,unit:f.data.unit,kind:'Flow'});
   for (const f of facts) out.push({title:f.id,href:`/${f.data.unit}/problem/${f.id.replace(`${f.data.unit}-`,'')}/`,unit:f.data.unit,kind:'Problem'});
   for (const r of library) out.push({title:r.title,href:r.href,kind:r.kind === 'case'?'Case':'Provision',unit:r.units[0] || '',description:r.oneLine});
+  for (const source of sourceIndex().files) {
+    const week = sourceWeek(source);
+    const recording = source.extractionStatus === 'audiovisual-not-reviewed';
+    out.push({
+      title: source.title, href: sourceHref(source.id), unit: source.unit,
+      kind: recording ? 'Recording · unreviewed' : 'Source',
+      ...(week !== null ? {week} : {}),
+      description: [recording ? 'Audiovisual review pending' : 'Original source material', source.format?.toUpperCase(), week !== null ? `Week ${week}` : '', ...source.paths].filter(Boolean).join(' · '),
+    });
+  }
   return out;
 }

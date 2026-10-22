@@ -15,7 +15,7 @@ const list = await Promise.all((await units()).map(async (u) => ({ u, weeks: (aw
     document.addEventListener('astro:page-load',()=>refreshCountdowns());
   </script>
   <div class="home-col">
-  <section class="rb-home-start"><p class="label">Your study desk</p><h2>Where do you want to go?</h2><nav class="rb-link-grid" aria-label="Start here"><a href="/exams/">Exam command centre<span>Rules, topics and revision notes</span></a><a href="/plan/">My preferred study blocks<span>Calendar times and protected reserve</span></a><a href="/studio/">Learning studio<span>Twenty ways to understand and practise</span></a><a href="/cases/">Every case<span>Facts, reasoning, limits and filters</span></a><a href="/statutes/">Legislation & treaties<span>Full provisions and explanations</span></a><a href="/everything/">Any page<span>Search and pin a direct shortcut</span></a></nav></section><HomeStart client:load />
+  <section class="rb-home-start"><p class="label">Your study desk</p><h2>Where do you want to go?</h2><nav class="rb-link-grid" aria-label="Start here"><a href="/exams/">Exam command centre<span>Rules, topics and revision notes</span></a><a href="/plan/">My preferred study blocks<span>Calendar times and protected reserve</span></a><a href="/studio/">Learning studio<span>Twenty ways to understand and practise</span></a><a href="/cases/">Every case<span>Facts, reasoning, limits and filters</span></a><a href="/statutes/">Legislation & treaties<span>Full provisions and explanations</span></a><a href="/everything/">Any page<span>Search and pin a direct shortcut</span></a><a class="home-source-library" href="/sources/">Source library<span>Original documents, slides and transcripts, with recordings flagged for review</span></a></nav></section><HomeStart client:load />
   <h2 class="home-units">Your units</h2>
   <ul class="unit-grid" data-reveal="children">
     {list.map(({ u, weeks, concepts }) => (
@@ -52,6 +52,7 @@ const list = await Promise.all((await units()).map(async (u) => ({ u, weeks: (aw
   .intro-hint { position: absolute; left: 50%; bottom: var(--s-5); transform: translateX(-50%); margin: 0; font-family: var(--font-ui); font-size: var(--t-xs); letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--ink-2); }
   @media (pointer: coarse), (max-width: 599px) { .intro-skip__hint, .intro-hint { display: none; } }
   .home-units { font-size: var(--t-xl); margin-top: var(--s-8); }
+  .home-source-library { grid-column: 1 / -1; }
   /* Home: one centred block (the 2×2 unit grid's width) inside the centred column; everything shares its left edge. */
   .home-col { max-width: 44rem; margin-inline: auto; }
   .unit-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); gap: var(--s-5); }

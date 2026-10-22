@@ -1,5 +1,85 @@
 {
-  "checkedHtmlTargets": 56097,
-  "directIndexEntries": 1284,
-  "missingTargets": {}
+  "checkedHtmlTargets": 95648,
+  "directIndexEntries": 2059,
+  "missingTargets": {},
+  "sourceIndexCoverage": {
+    "corpusComplete": true,
+    "expectedSourceEntries": 775,
+    "indexedSourceEntries": 775,
+    "missingSourceEntries": [],
+    "unexpectedSourceEntries": [],
+    "duplicateSourceEntries": []
+  },
+  "excludedArchivedHtmlCount": 3,
+  "excludedArchivedHtmlByDirectory": {
+    "exam-sources": 1,
+    "source-originals": 2
+  },
+  "archiveOnlyLinkCheck": {
+    "directory": "source-originals",
+    "checkedHtmlTargets": 108,
+    "missingTargets": {
+      "/source-originals/README.md": {
+        "count": 1,
+        "examples": [
+          "source-originals/9d40bf6f1427b0d26b3b1fd7438156b7476be930af1e06b1018f3e34d5d281d6.html"
+        ]
+      },
+      "/source-originals/Production%20notes/Final%20document%20register.csv": {
+        "count": 1,
+        "examples": [
+          "source-originals/9d40bf6f1427b0d26b3b1fd7438156b7476be930af1e06b1018f3e34d5d281d6.html"
+        ]
+      },
+      "/source-originals/Production%20notes/Source-to-script%20coverage.csv": {
+        "count": 1,
+        "examples": [
+          "source-originals/9d40bf6f1427b0d26b3b1fd7438156b7476be930af1e06b1018f3e34d5d281d6.html"
+        ]
+      },
+      "/source-originals/Production%20notes/Supplemental%20research%20sources.md": {
+        "count": 1,
+        "examples": [
+          "source-originals/9d40bf6f1427b0d26b3b1fd7438156b7476be930af1e06b1018f3e34d5d281d6.html"
+        ]
+      },
+      "/source-originals/Production%20notes/Source%20limits%20and%20corrections.md": {
+        "count": 1,
+        "examples": [
+          "source-originals/9d40bf6f1427b0d26b3b1fd7438156b7476be930af1e06b1018f3e34d5d281d6.html"
+        ]
+      },
+      "/source-originals/Production%20notes/Validation%20report.md": {
+        "count": 1,
+        "examples": [
+          "source-originals/9d40bf6f1427b0d26b3b1fd7438156b7476be930af1e06b1018f3e34d5d281d6.html"
+        ]
+      },
+      "/source-originals/view.php?id=9463262&chapterid=428557": {
+        "count": 1,
+        "examples": [
+          "source-originals/5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97.html"
+        ]
+      },
+      "/source-originals/view.php?id=9463262&chapterid=428555": {
+        "count": 1,
+        "examples": [
+          "source-originals/5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97.html"
+        ]
+      },
+      "/source-originals/view.php?id=9463262&chapterid=428558": {
+        "count": 1,
+        "examples": [
+          "source-originals/5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97.html"
+        ]
+      },
+      "/source-originals/view.php?id=9463262&chapterid=428556": {
+        "count": 1,
+        "examples": [
+          "source-originals/5b3b84bc7ac5563eaf2501d7f76b6071a3e53f2aee3d1f1773ef515e51576a97.html"
+        ]
+      }
+    },
+    "context": "Byte-exact archived HTML documents retain original relative attachment and iLearn chapter links. Their dependencies were not supplied at those relative paths. These are reported separately from generated site navigation; original bytes have not been rewritten."
+  }
 }

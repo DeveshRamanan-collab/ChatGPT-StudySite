@@ -1,26 +1,41 @@
 {
   "status": "passed",
-  "date": "2026-10-21",
-  "deployment": "not performed",
+  "date": "2026-10-22",
+  "deployment": "Content audit precedes publication; deployment state is recorded by the hosting service.",
   "originalRepositoryWritten": false,
-  "staticPages": 1265,
+  "staticPages": 2040,
   "typeCheck": {
     "errors": 0,
     "warnings": 0,
-    "existingHints": 6
+    "existingHints": 9
   },
   "unitTests": {
-    "passed": 441,
-    "files": 28
+    "passed": 455,
+    "files": 31
   },
   "bundleBudgets": "passed",
   "sourceAudit": "reports/rebuild-source-audit.json",
   "links": {
-    "checkedHtmlTargets": 56097,
-    "directIndexEntries": 1284,
+    "report": "reports/rebuild-links.json",
+    "directIndexEntries": 2059,
     "missingTargets": {}
   },
+  "sourceFidelity": {
+    "report": "reports/source-rendering-audit.json",
+    "pages": 775,
+    "sections": 8143,
+    "characters": 30513122,
+    "digits": 585761,
+    "punctuationCharacters": 1392343,
+    "inventoriedDriveFilesAccountedFor": 823,
+    "failures": 0
+  },
   "browserChecks": [
+    "Home layout and navigation drawer",
+    "Source-library metadata filters and explicit full-text search for s 5B(1)",
+    "Civil Liability Act source reader, complete text, download link and retained page visuals"
+  ],
+  "priorBrowserChecks20261021": [
     "Home and global Jump",
     "Case filters, expansion and full text",
     "Continuous weekly visuals and text switching",
@@ -32,6 +47,9 @@
     "Refresh home toggle off stays; on returns home"
   ],
   "limits": [
+    "Exact HTML equality proves extracted-text publication fidelity, not OCR accuracy or legal paraphrase correctness.",
+    "21 audiovisual recordings remain unreviewed. Three lack compatible transcript candidates and five have transcript-title discrepancies.",
+    "Peterkin full facts and outcome remain unverified beyond the supplied source material.",
     "Full automated Playwright suite and physical mobile-device rendering were not run.",
     "Exact archived exam HTML is retained as a download; its old iLearn navigation links are not treated as app routes.",
     "Calendar is the 20 October saved snapshot, not live sync.",

@@ -1,0 +1,10 @@
+{
+  "method": "Reassemble committed parts and independently compare SHA-256 and byte size to original descriptors",
+  "checkedOriginals": 754,
+  "checkedParts": 792,
+  "checkedBytes": 299902678,
+  "largestPartBytes": 4194304,
+  "unreviewedAudiovisualRecords": 21,
+  "failures": [],
+  "limits": "Checks exact original-file bytes. It does not certify OCR, audiovisual content or legal paraphrases."
+}
